@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Conversation Learner</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+            background-color: #f3f4f6;
+        }
+        ruby {
+            ruby-align: center;
+        }
+        rt {
+            font-size: 0.65rem;
+            color: #6b7280;
+        }
+        .speaker-1-bg { background-color: #ffffff; }
+        .speaker-2-bg { background-color: #e0f2fe; }
+        
+        /* Custom Toggle Switch */
+        .toggle-checkbox:checked {
+            right: 0;
+            border-color: #3b82f6;
+        }
+        .toggle-checkbox:checked + .toggle-label {
+            background-color: #3b82f6;
+        }
+        
+        /* Fade in animation */
+        .fade-in {
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="text-gray-800 h-screen flex flex-col">
+
+    <header class="bg-white shadow-sm z-10 sticky top-0">
+        <div class="max-w-4xl mx-auto px-4 py-3 flex flex-col sm:flex-row justify-between items-center gap-3">
+            <h1 class="text-xl font-bold text-gray-800 flex items-center gap-2">
+                <i class="fa-solid fa-language text-blue-500"></i>
+                <span>Nihongo Learner</span>
+            </h1>
+            
+            <div class="flex items-center gap-2 w-full sm:w-auto">
+                <select id="scene-selector" class="w-full sm:w-auto bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2">
+                    <!-- Options populated by JS -->
+                </select>
+                <button onclick="playEntireScene()" class="whitespace-nowrap bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center gap-2 text-sm shadow-sm">
+                    <i class="fa-solid fa-play"></i> <span class="hidden sm:inline">Play Scene</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="bg-gray-100 border-b border-gray-200">
+        <div class="max-w-4xl mx-auto px-4 py-3 flex flex-wrap gap-4 justify-center sm:justify-start text-sm">
+            
+            <!-- Romaji Toggle -->
+            <div class="flex items-center gap-2">
+                <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
+                    <input type="checkbox" name="toggle" id="toggle-romaji" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-white border-4 border-gray-300 appearance-none cursor-pointer transition-transform duration-200 ease-in-out z-10" />
+                    <label for="toggle-romaji" class="toggle-label block overflow-hidden h-5 rounded-full bg-gray-300 cursor-pointer transition-colors duration-200 ease-in-out"></label>
+                </div>
+                <label for="toggle-romaji" class="cursor-pointer font-medium text-gray-700">Romaji</label>
+            </div>
+
+            <!-- Translation Toggle -->
+            <div class="flex items-center gap-2">
+                <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
+                    <input type="checkbox" name="toggle" id="toggle-translation" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-white border-4 border-gray-300 appearance-none cursor-pointer transition-transform duration-200 ease-in-out z-10" />
+                    <label for="toggle-translation" class="toggle-label block overflow-hidden h-5 rounded-full bg-gray-300 cursor-pointer transition-colors duration-200 ease-in-out"></label>
+                </div>
+                <label for="toggle-translation" class="cursor-pointer font-medium text-gray-700">English</label>
+            </div>
+
+            <!-- Kanji Test Toggle -->
+            <div class="flex items-center gap-2 ml-auto bg-yellow-100 px-3 py-1.5 rounded-lg border border-yellow-300">
+                <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
+                    <input type="checkbox" name="toggle" id="toggle-kanji-test" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-white border-4 border-yellow-400 appearance-none cursor-pointer transition-transform duration-200 ease-in-out z-10" />
+                    <label for="toggle-kanji-test" class="toggle-label block overflow-hidden h-5 rounded-full bg-yellow-300 cursor-pointer transition-colors duration-200 ease-in-out"></label>
+                </div>
+                <label for="toggle-kanji-test" class="cursor-pointer font-bold text-yellow-800"><i class="fa-solid fa-pencil mr-1"></i> Kanji Test</label>
+            </div>
+
+        </div>
+    </div>
+
+    <main class="flex-1 overflow-y-auto p-4 sm:p-6" id="chat-container">
+        <div class="max-w-4xl mx-auto flex flex-col gap-4 pb-20" id="dialogue-list">
+            <!-- Messages will be injected here -->
+        </div>
+    </main>
+
+    <script>
+        // rawData contains the original script + manually added English translations separated by '|'
+        const rawData = `
+Speaker 1: 初(はじ)めまして。今日(きょう)は面接(めんせつ)のテストです。お名前(なまえ)は何(なん)ですか。 | Nice to meet you. Today is an interview test. What is your name?
+Speaker 2: 初(はじ)めまして。私(わたし)の名前(なまえ)はジョン・スミスです。 | Nice to meet you. My name is John Smith.
+Speaker 1: ジョンさんですね。今(いま)、どこからオンラインで話(はな)していますか。 | Mr. John, right. Where are you speaking from online right now?
+Speaker 2: アメリカのニューヨークから話(はな)しています。 | I am speaking from New York, USA.
+Speaker 1: そうですか。ジョンさんは、何歳(なんさい)ですか。 | I see. How old are you, Mr. John?
+Speaker 2: 20歳(さい)です。大学生(だいがくせい)です。 | I am 20 years old. I am a university student.
+Speaker 1: 趣味(しゅみ)は何(なん)ですか。 | What are your hobbies?
+Speaker 2: 私(わたし)の趣味(しゅみ)は、アニメを見(み)ることと、音楽(おんがく)を聞(き)くことです。 | My hobbies are watching anime and listening to music.
+Speaker 1: いいですね。どんなアニメが好(す)きですか。 | That's nice. What kind of anime do you like?
+Speaker 2: スポーツのアニメが一番(いちばん)好(す)きです。 | I like sports anime the best.
+Speaker 1: どうして日本語(にほんご)を勉強(べんきょう)していますか。 | Why are you studying Japanese?
+Speaker 2: 将来(しょうらい)、日本(にほん)で仕事(しごと)をしたいからです。 | Because I want to work in Japan in the future.
+Speaker 1: どんな仕事(しごと)がしたいですか。 | What kind of work do you want to do?
+Speaker 2: コンピューターの仕事(しごと)がしたいです。 | I want to do computer-related work.
+Speaker 1: ジョンさんは、毎日(まいにち)どのくらい日本語(にほんご)を勉強(べんきょう)しますか。 | How much do you study Japanese every day, Mr. John?
+Speaker 2: 毎日(まいにち)2時間(じかん)勉強(べんきょう)します。 | I study for 2 hours every day.
+Speaker 1: これまでに日本(にほん)へ行(い)ったことがありますか。 | Have you ever been to Japan before?
+Speaker 2: いいえ、まだありません。来年(らいねん)、行(い)きたいです。 | No, not yet. I want to go next year.
+Speaker 1: 日本(にほん)でどこに行(い)きたいですか。 | Where do you want to go in Japan?
+Speaker 2: 東京(とうきょう)と京都(きょうと)に行(い)きたいです。京都(きょうと)でお寺(てら)を見(み)たいです。 | I want to go to Tokyo and Kyoto. I want to see temples in Kyoto.
+Speaker 1: いいですね。日本語(にほんご)の勉強(べんきょう)で、何(なに)が一番(いちばん)難(むずか)しいですか。 | That's nice. What is the most difficult thing about studying Japanese?
+Speaker 2: 漢字(かんじ)がとても難(むずか)しいです。でも、おもしろいです。 | Kanji is very difficult. But it is interesting.
+Speaker 1: これから、日本(にほん)の学校(がっこう)でたくさん漢字(かんじ)を勉強(べんきょう)しましょう。 | Let's study a lot of kanji at a Japanese school from now on.
+Speaker 2: はい、一生懸命(いっしょうけんめい)がんばります。 | Yes, I will do my best.
+Speaker 1: では、今日(きょう)の面接(めんせつ)はこれで終(お)わりです。ありがとうございました。 | Well, that concludes today's interview. Thank you very much.
+Speaker 2: ありがとうございました。失礼(しつれい)します。 | Thank you very much. Excuse me.
+===
+Speaker 1: こんにちは。面接(めんせつ)を始(はじ)めましょう。お名前(なまえ)を教(おし)えてください。 | Hello. Let's start the interview. Please tell me your name.
+Speaker 2: こんにちは。カルロス・ゴメスです。ブラジルから来(き)ました。 | Hello. I'm Carlos Gomez. I'm from Brazil.
+Speaker 1: カルロスさんは、今(いま)何歳(なんさい)ですか。 | How old are you now, Mr. Carlos?
+Speaker 2: 25歳(さい)です。 | I am 25 years old.
+Speaker 1: 日本語(にほんご)はどこで勉強(べんきょう)しましたか。 | Where did you study Japanese?
+Speaker 2: サンパウロの学校(がっこう)で半年(はんとし)勉強(べんきょう)しました。 | I studied at a school in São Paulo for half a year.
+Speaker 1: 家族(かぞく)は何人(なんにん)ですか。 | How many people are in your family?
+Speaker 2: 5人(にん)です。父(ちち)と母(はは)と、兄(あに)と弟(おとうと)がいます。 | There are 5 people. I have a father, a mother, an older brother, and a younger brother.
+Speaker 1: どうして日本(にほん)で働(はたら)きたいですか。 | Why do you want to work in Japan?
+Speaker 2: 日本(にほん)の技術(ぎじゅつ)を勉強(べんきょう)したいからです。それから、家族(かぞく)のためにお金(かね)をもらいたいです。 | Because I want to study Japanese technology. Also, I want to earn money for my family.
+Speaker 1: わかりました。私(わたし)たちの工場(こうじょう)は、お弁当(べんとう)を作(つく)る工場(こうじょう)です。 | I understand. Our factory makes bento (lunch boxes).
+Speaker 2: はい、知(し)っています。 | Yes, I know.
+Speaker 1: 工場(こうじょう)の仕事(しごと)は、立(た)って仕事(しごと)をします。とても疲(つか)れます。大丈夫(だいじょうぶ)ですか。 | Factory work is done standing up. It is very tiring. Are you okay with that?
+Speaker 2: はい、大丈夫(だいじょうぶ)です。私(わたし)は体(からだ)が強(つよ)いです。 | Yes, I'm fine. I have a strong body.
+Speaker 1: それはいいですね。カルロスさんは、料理(りょうり)を作(つく)るのが好(す)きですか。 | That's good. Do you like cooking, Mr. Carlos?
+Speaker 2: はい、とても好(す)きです。毎日(まいにち)家族(かぞく)のご飯(はん)を作(つく)ります。 | Yes, I like it very much. I cook meals for my family every day.
+Speaker 1: 休(やす)みの日(ひ)は何(なに)をしますか。 | What do you do on your days off?
+Speaker 2: 友達(ともだち)と買(か)い物(もの)に行(い)きます。時々(ときどき)サッカーをします。 | I go shopping with my friends. Sometimes I play soccer.
+Speaker 1: 工場(こうじょう)で働(はたら)く時(とき)は、爪(つめ)を短(みじか)く切(き)ってください。 | When working in the factory, please cut your nails short.
+Speaker 2: はい、わかりました。 | Yes, understood.
+Speaker 1: それから、仕事(しごと)の時間(じかん)に携帯(けいたい)電話(でんわ)を使(つか)わないでください。 | Also, please do not use your mobile phone during work hours.
+Speaker 2: はい、使(つか)いません。 | Yes, I won't use it.
+Speaker 1: 何(なに)か質問(しつもん)がありますか。 | Do you have any questions?
+Speaker 2: 毎日(まいにち)何時間(なんじかん)働(はたら)きますか。 | How many hours will I work every day?
+Speaker 1: 1日(にち)8時間(じかん)働(はたら)きます。朝(あさ)8時(じ)から夕方(ゆうがた)5時(じ)までです。 | You will work 8 hours a day. From 8 AM to 5 PM.
+Speaker 2: わかりました。ありがとうございます。 | Understood. Thank you.
+Speaker 1: では、面接(めんせつ)は終(お)わりです。結果(けっか)は後(あと)で連絡(れんらく)します。 | Well, the interview is over. We will contact you with the results later.
+Speaker 2: よろしくお願(ねが)いします。ありがとうございました。 | I look forward to hearing from you. Thank you very much.
+===
+Speaker 1: こんにちは。面接(めんせつ)に来(き)ましたか。 | Hello. Did you come for an interview?
+Speaker 2: はい、アルバイトの面接(めんせつ)に来(き)ました。パク・ミンジュンです。 | Yes, I came for a part-time job interview. I'm Park Min-jun.
+Speaker 1: パクさんですね。私(わたし)は店長(てんちょう)の佐藤(さとう)です。座(すわ)ってください。 | Mr. Park. I'm Sato, the store manager. Please sit down.
+Speaker 2: 失礼(しつれい)します。よろしくお願(ねが)いします。 | Excuse me. Nice to meet you.
+Speaker 1: まず、自己紹介(じこしょうかい)をお願(ねが)いします。 | First, please introduce yourself.
+Speaker 2: 韓国(かんこく)から来(き)ました、パク・ミンジュンです。21歳(さい)です。今(いま)、日本語(にほんご)学校(がっこう)の学生(がくせい)です。 | I'm Park Min-jun from South Korea. I'm 21 years old. I'm currently a student at a Japanese language school.
+Speaker 1: パクさんは、コンビニで働(はたら)いたことがありますか。 | Have you ever worked at a convenience store?
+Speaker 2: いいえ、ありません。日本(にほん)で初(はじ)めてのアルバイトです。 | No, I haven't. This will be my first part-time job in Japan.
+Speaker 1: そうですか。韓国(かんこく)でアルバイトをしましたか。 | I see. Did you work part-time in South Korea?
+Speaker 2: はい、レストランでウエイターをしました。 | Yes, I was a waiter at a restaurant.
+Speaker 1: いいですね。パクさんは、何曜日(なんようび)に働(はたら)くことができますか。 | That's good. What days of the week can you work?
+Speaker 2: 月曜日(げつようび)と水曜日(すいようび)と金曜日(きんようび)です。 | Mondays, Wednesdays, and Fridays.
+Speaker 1: 土曜日(どようび)と日曜日(にちようび)は働(はたら)けませんか。 | Can't you work on Saturdays and Sundays?
+Speaker 2: 日曜日(にちようび)の朝(あさ)なら、働(はたら)くことができます。 | I can work on Sunday mornings.
+Speaker 1: 何時(なんじ)から何時(なんじ)まで働(はたら)きたいですか。 | From what time to what time do you want to work?
+Speaker 2: 学校(がっこう)が午後(ごご)1時(じ)に終(お)わりますから、午後(ごご)3時(じ)から夜(よる)8時(じ)まで働(はたら)きたいです。 | My school finishes at 1 PM, so I want to work from 3 PM to 8 PM.
+Speaker 1: わかりました。パクさんの家(いえ)からこの店(みせ)まで、どうやって来(き)ますか。 | Understood. How will you come to this store from your house?
+Speaker 2: 自転車(じてんしゃ)で来(き)ます。15分(ふん)ぐらいかかります。 | I will come by bicycle. It takes about 15 minutes.
+Speaker 1: コンビニの仕事(しごと)は、レジや掃除(そうじ)など、たくさんあります。 | There are many tasks in a convenience store, such as the cash register and cleaning.
+Speaker 2: はい、がんばります。 | Yes, I will do my best.
+Speaker 1: 日本語(にほんご)でお客(きゃく)さんとたくさん話(はな)しますよ。 | You will speak a lot with customers in Japanese.
+Speaker 2: はい。日本語(にほんご)が上手(じょうず)になりたいですから、たくさん話(はな)したいです。 | Yes. I want to improve my Japanese, so I want to speak a lot.
+Speaker 1: お店(みせ)では、大(おお)きい声(こえ)で「いらっしゃいませ」と言(い)ってください。 | At the store, please say "Irasshaimase" (Welcome) in a loud voice.
+Speaker 2: はい、わかりました。いらっしゃいませ！ | Yes, understood. Irasshaimase!
+Speaker 1: 元気(げんき)でいいですね。では、来週(らいしゅう)の月曜日(げつようび)に電話(でんわ)をします。 | You are energetic, that's good. Well then, I will call you next Monday.
+Speaker 2: ありがとうございました。失礼(しつれい)します。 | Thank you very much. Excuse me.
+===
+Speaker 1: 初(はじ)めまして。面接(めんせつ)を始(はじ)めましょう。 | Nice to meet you. Let's start the interview.
+Speaker 2: 初(はじ)めまして。アリ・アフマドです。インドネシアから来(き)ました。 | Nice to meet you. I'm Ali Ahmad. I came from Indonesia.
+Speaker 1: アリさん、よろしくお願(ねが)いします。自己紹介(じこしょうかい)をお願(ねが)いします。 | Mr. Ali, nice to meet you. Please introduce yourself.
+Speaker 2: 私(わたし)はアリです。22歳(さい)です。ジャカルタに住(す)んでいます。趣味(しゅみ)は映画(えいが)を見(み)ることです。 | I'm Ali. I'm 22 years old. I live in Jakarta. My hobby is watching movies.
+Speaker 1: アリさんは、どうして日本(にほん)の農業(のうぎょう)を勉強(べんきょう)したいですか。 | Mr. Ali, why do you want to study Japanese agriculture?
+Speaker 2: 私(わたし)の家(いえ)は農家(のうか)です。日本(にほん)で新(あたら)しい野菜(やさい)の作(つく)り方(かた)を勉強(べんきょう)したいです。 | My family are farmers. I want to study new ways to grow vegetables in Japan.
+Speaker 1: どんな野菜(やさい)が好(す)きですか。 | What kind of vegetables do you like?
+Speaker 2: トマトとキャベツが好(す)きです。 | I like tomatoes and cabbage.
+Speaker 1: 日本(にほん)の農家(のうか)の仕事(しごと)は、朝(あさ)とても早(はや)いです。朝(あさ)5時(じ)に起(お)きますよ。 | Farm work in Japan is very early in the morning. You wake up at 5 AM.
+Speaker 2: はい、大丈夫(だいじょうぶ)です。私(わたし)は毎日(まいにち)朝(あさ)5時(じ)に起(お)きます。 | Yes, I'm fine. I wake up at 5 AM every day.
+Speaker 1: 夏(なつ)は外(そと)で働(はたら)きますから、とても暑(あつ)いです。 | You work outside in the summer, so it's very hot.
+Speaker 2: インドネシアもとても暑(あつ)いですから、問題(もんだい)ありません。 | Indonesia is also very hot, so it's not a problem.
+Speaker 1: トラクターや車(くるま)を運転(うんてん)することができますか。 | Can you drive a tractor or a car?
+Speaker 2: はい、国(くに)で車(くるま)の免許(めんきょ)を取(と)りました。 | Yes, I got my driver's license in my home country.
+Speaker 1: 日本語(にほんご)はどうやって勉強(べんきょう)しましたか。 | How did you study Japanese?
+Speaker 2: インターネットを見(み)て、勉強(べんきょう)しました。 | I studied by looking at the internet.
+Speaker 1: 一人(ひとり)で勉強(べんきょう)しましたか。すごいですね。 | Did you study by yourself? That's amazing.
+Speaker 2: ありがとうございます。日本(にほん)に行(い)ったら、もっとたくさん勉強(べんきょう)します。 | Thank you. When I go to Japan, I will study even more.
+Speaker 1: 日本(にほん)の食(た)べ物(もの)は何(なに)が好(す)きですか。 | What Japanese food do you like?
+Speaker 2: ラーメンと天(てん)ぷらが好(す)きです。 | I like ramen and tempura.
+Speaker 1: そうですか。日本(にほん)で一緒(いっしょ)においしい野菜(やさい)を作(つく)りましょう。 | I see. Let's grow delicious vegetables together in Japan.
+Speaker 2: はい、とても楽(たの)しみです。がんばります。 | Yes, I'm really looking forward to it. I'll do my best.
+Speaker 1: 面接(めんせつ)はこれで終(お)わりです。ありがとうございました。 | The interview is now over. Thank you very much.
+Speaker 2: どうもありがとうございました。 | Thank you very much.
+===
+Speaker 1: 受験(じゅけん)番号(ばんごう)10番(ばん)の方(かた)、どうぞ入(はい)ってください。 | Examinee number 10, please enter.
+Speaker 2: 失礼(しつれい)します。ワン・タオと申(もう)します。よろしくお願(ねが)いします。 | Excuse me. My name is Wang Tao. Nice to meet you.
+Speaker 1: 座(すわ)ってください。では、まず自己紹介(じこしょうかい)をお願(ねが)いします。 | Please sit down. First, please introduce yourself.
+Speaker 2: 中国(ちゅうごく)の上海(しゃんはい)から参(まい)りました、ワン・タオです。今(いま)は東京(とうきょう)日本語(にほんご)学校(がっこう)で勉強(べんきょう)しています。 | I am Wang Tao, from Shanghai, China. I am currently studying at a Japanese language school in Tokyo.
+Speaker 1: ワンさんは、どうしてこの専門(せんもん)学校(がっこう)に入(はい)りたいんですか。 | Mr. Wang, why do you want to enter this vocational school?
+Speaker 2: この学校(がっこう)は、プログラミングの授業(じゅぎょう)がたくさんあるからです。最新(さいしん)のIT技術(ぎじゅつ)を学(まな)びたいんです。 | Because this school has many programming classes. I want to learn the latest IT technology.
+Speaker 1: これまでに、コンピューターについて勉強(べんきょう)したことがありますか。 | Have you ever studied about computers before?
+Speaker 2: はい。高校生(こうこうせい)の時(とき)に、少(すこ)しだけプログラミングを勉強(べんきょう)したことがあります。 | Yes. When I was a high school student, I studied programming a little bit.
+Speaker 1: そうですか。学校(がっこう)に入(はい)ったら、特(とく)に何(なに)を勉強(べんきょう)したいですか。 | I see. What do you especially want to study once you enter the school?
+Speaker 2: スマートフォンのアプリを作(つく)る勉強(べんきょう)がしたいです。 | I want to study how to make smartphone apps.
+Speaker 1: アプリですか。どんなアプリを作(つく)るつもりですか。 | Apps? What kind of apps do you plan to make?
+Speaker 2: 日本語(にほんご)を勉強(べんきょう)している外国(がいこく)人(じん)のために、漢字(かんじ)を覚(おぼ)えるアプリを作(つく)るつもりです。 | I plan to make an app for foreigners studying Japanese to memorize kanji.
+Speaker 1: それはとても面白(おもしろ)いアイデアですね。 | That's a very interesting idea.
+Speaker 2: ありがとうございます。便利(べんり)なアプリを作(つく)るために、もっと一生懸命(いっしょうけんめい)勉強(べんきょう)しなければなりません。 | Thank you. To make a useful app, I must study even harder.
+Speaker 1: 卒業(そつぎょう)した後の予定(よてい)はどうですか。日本(にほん)で働(はたら)きたいですか。 | What are your plans after graduation? Do you want to work in Japan?
+Speaker 2: はい、日本(にほん)のIT企業(きぎょう)に就職(しゅうしょく)したいと思(おも)っています。 | Yes, I want to find a job at a Japanese IT company.
+Speaker 1: 日本(にほん)の会社(かいしゃ)で働(はたら)くなら、もっと日本語(にほんご)を練習(れんしゅう)したほうがいいですよ。 | If you work at a Japanese company, you should practice your Japanese more.
+Speaker 2: はい、分(わ)かっています。敬語(けいご)が難(むずか)しいので、毎日(まいにち)練習(れんしゅう)しています。 | Yes, I know. Honorifics (keigo) are difficult, so I practice every day.
+Speaker 1: 授業(じゅぎょう)はとても忙(いそが)しいかもしれませんが、大丈夫(だいじょうぶ)ですか。 | Classes might be very busy, are you okay with that?
+Speaker 2: はい、どんなに大変(たいへん)でも、絶対(ぜったい)にがんばります。 | Yes, no matter how hard it is, I will definitely do my best.
+Speaker 1: わかりました。ワンさんの熱意(ねつい)がよく伝(つた)わりました。結果(けっか)は来週(らいしゅう)手紙(てがみ)でお知(し)らせします。 | Understood. Your enthusiasm was clearly conveyed. We will notify you of the results by letter next week.
+Speaker 2: 本日(ほんじつ)は面接(めんせつ)の機会(きかい)をいただき、ありがとうございました。失礼(しつれい)します。 | Thank you for the interview opportunity today. Excuse me.
+===
+Speaker 1: こんにちは。面接(めんせつ)の担当(たんとう)の鈴木(すずき)です。よろしくお願(ねが)いします。 | Hello. I'm Suzuki, the person in charge of interviews. Nice to meet you.
+Speaker 2: こんにちは。レオナルド・ロッシです。よろしくお願(ねが)いします。 | Hello. I'm Leonardo Rossi. Nice to meet you.
+Speaker 1: レオナルドさん、履歴書(りれきしょ)を見(み)ました。イタリアから来(き)たんですね。自己紹介(じこしょうかい)をお願(ねが)いします。 | Leonardo, I saw your resume. You came from Italy, right. Please introduce yourself.
+Speaker 2: はい。イタリアのローマ出身(しゅっしん)です。日本(にほん)のアニメが好(す)きで、半年(はんとし)前(まえ)に日本(にほん)へ来(き)ました。 | Yes. I'm from Rome, Italy. I like Japanese anime, and I came to Japan half a year ago.
+Speaker 1: うちのレストランで働(はたら)きたい理由(りゆう)は何(なん)ですか。 | What is your reason for wanting to work at our restaurant?
+Speaker 2: このお店(みせ)のパスタがとてもおいしかったからです。お店(みせ)の雰囲気(ふんいき)も好(す)きです。 | Because the pasta at this restaurant was very delicious. I also like the atmosphere of the store.
+Speaker 1: ありがとうございます。飲食店(いんしょくてん)で働(はたら)いた経験(けいけん)はありますか。 | Thank you. Do you have any experience working in a restaurant?
+Speaker 2: はい、イタリアのカフェで2年間(ねんかん)アルバイトをしたことがあります。 | Yes, I have worked part-time at a cafe in Italy for 2 years.
+Speaker 1: それなら安心(あんしん)ですね。土曜日(どようび)と日曜日(にちようび)は忙(いそが)しいんですが、働(はたら)けますか。 | That's reassuring. Saturdays and Sundays are busy, but can you work?
+Speaker 2: はい、週末(しゅうまつ)はいつでも働(はたら)けます。 | Yes, I can work anytime on weekends.
+Speaker 1: もし、お客(きゃく)さんが怒(おこ)ったら、レオナルドさんはどうしますか。 | If a customer gets angry, what will you do, Leonardo?
+Speaker 2: まず、お客(きゃく)さんに「申(もう)し訳(わけ)ありません」と謝(あやま)ります。それから、店長(てんちょう)を呼(よ)びます。 | First, I will apologize to the customer saying "I'm sorry." Then, I will call the manager.
+Speaker 1: 素晴(すば)らしいですね。その対応(たいおう)で大丈夫(だいじょうぶ)です。 | Excellent. That response is perfect.
+Speaker 2: ありがとうございます。接客(せっきゃく)の仕事(しごと)が好(す)きなので、笑顔(えがお)でがんばりたいです。 | Thank you. I like customer service work, so I want to do my best with a smile.
+Speaker 1: ホールの仕事(しごと)は、重(おも)いお皿(さら)をたくさん運(はこ)ばなければなりません。 | Hall staff work requires carrying many heavy plates.
+Speaker 2: 体力(たいりょく)には自信(じしん)がありますから、問題(もんだい)ないと思(おも)います。 | I am confident in my physical strength, so I think it won't be a problem.
+Speaker 1: メニューは全部(ぜんぶ)日本語(にほんご)で書(か)いてありますが、読(よ)めますか。 | The menus are all written in Japanese, can you read them?
+Speaker 2: 漢字(かんじ)はまだ少(すこ)し難(むずか)しいですが、家(いえ)で全部(ぜんぶ)覚(おぼ)えるつもりです。 | Kanji is still a little difficult, but I plan to memorize them all at home.
+Speaker 1: わかりました。では、採用(さいよう)の連絡(れんらく)はメールで送(おく)りますね。 | Understood. Well then, I will send the hiring decision by email.
+Speaker 2: はい、楽(たの)しみに待(ま)っています。ありがとうございました。 | Yes, I am looking forward to it. Thank you very much.
+===
+Speaker 1: 面接(めんせつ)室(しつ)へどうぞ。私(わたし)はホテルのマネージャーの佐藤(さとう)です。 | Please come into the interview room. I am Sato, the hotel manager.
+Speaker 2: 失礼(しつれい)します。チャン・ミンと申(もう)します。よろしくお願(ねが)いいたします。 | Excuse me. My name is Tran Minh. Nice to meet you.
+Speaker 1: チャンさん、まずは自己紹介(じこしょうかい)をお願(ねが)いできますか。 | Ms. Tran, first, could you introduce yourself?
+Speaker 2: ベトナムのホーチミンから参(まい)りました、チャン・ミンです。今年(ことし)の4月(がつ)に日本(にほん)へ来(き)ました。 | I am Tran Minh, from Ho Chi Minh City, Vietnam. I came to Japan in April this year.
+Speaker 1: ホテルの清掃(せいそう)スタッフに応募(おうぼ)した理由(りゆう)を教(おし)えてください。 | Please tell me your reason for applying as a hotel cleaning staff.
+Speaker 2: 掃除(そうじ)をして部屋(へや)をきれいにするのが好(す)きだからです。丁寧(ていねい)な仕事(しごと)がしたいです。 | Because I like cleaning and making rooms tidy. I want to do careful work.
+Speaker 1: ベッドメイキングの経験(けいけん)はありますか。 | Do you have any experience with bed making?
+Speaker 2: いいえ、ありません。でも、やり方(かた)を教(おし)えてもらえれば、すぐに覚(おぼ)えるつもりです。 | No, I don't. But if I am taught how to do it, I intend to learn it quickly.
+Speaker 1: ベッドメイキングは時間(じかん)のルールが厳(きび)しいです。1つのお部屋(へや)を20分(ぷん)で掃除(そうじ)しなければなりません。 | Bed making has strict time rules. You must clean one room in 20 minutes.
+Speaker 2: 20分(ぷん)ですか。少(すこ)し急(いそ)がないといけませんね。 | 20 minutes? I will have to hurry a bit.
+Speaker 1: そうです。慣(な)れるまでは大変(たいへん)かもしれませんが、がんばれますか。 | That's right. It might be hard until you get used to it, but can you do your best?
+Speaker 2: はい、決(き)められた時間(じかん)までに終(お)わるように、一生懸命(いっしょうけんめい)練習(れんしゅう)します。 | Yes, I will practice hard so that I can finish by the designated time.
+Speaker 1: ホテルの仕事(しごと)は朝(あさ)9時(じ)から始(はじ)まります。遅刻(ちこく)してはいけませんよ。 | Hotel work starts at 9 AM. You must not be late.
+Speaker 2: もちろんです。絶対(ぜったい)に遅(おく)れないようにします。 | Of course. I will make absolutely sure not to be late.
+Speaker 1: 通勤(つうきん)にはどのくらい時間(じかん)がかかりますか。 | How long does it take you to commute?
+Speaker 2: 電車(でんしゃ)で30分(ぷん)ぐらいです。家(いえ)から駅(えき)までは自転車(じてんしゃ)で行(い)きます。 | It takes about 30 minutes by train. I go from my house to the station by bicycle.
+Speaker 1: わかりました。何(なに)か質問(しつもん)はありますか。 | Understood. Do you have any questions?
+Speaker 2: 制服(せいふく)は貸(か)してもらえますか。 | Will you lend me a uniform?
+Speaker 1: はい、会社(かいしゃ)から制服(せいふく)と靴(くつ)を支給(しきゅう)しますから、安心(あんしん)してください。 | Yes, the company provides uniforms and shoes, so please don't worry.
+Speaker 2: わかりました。本日(ほんじつ)はお時間(じかん)をいただき、ありがとうございました。 | I understand. Thank you for your time today.
+===
+Speaker 1: こんにちは。本日(ほんじつ)はシェアハウスの見学(けんがく)と入居(にゅうきょ)の面接(めんせつ)ですね。管理人(かんりにん)の高橋(たかはし)です。 | Hello. Today is the share house tour and move-in interview, right? I'm Takahashi, the manager.
+Speaker 2: 初(はじ)めまして。キム・ソジュンです。よろしくお願(ねが)いします。 | Nice to meet you. I'm Kim Seo-jun. Nice to meet you.
+Speaker 1: まずは簡単(かんたん)に自己紹介(じこしょうかい)をお願(ねが)いします。 | First, please give a brief self-introduction.
+Speaker 2: 韓国(かんこく)から来(き)た留学生(りゅうがくせい)のキム・ソジュンです。大学(だいがく)で経済学(けいざいがく)を専攻(せんこう)しています。 | I'm Kim Seo-jun, an international student from South Korea. I major in economics at university.
+Speaker 1: どうして一人暮(ひとりぐ)らしではなく、シェアハウスに住(す)みたいと思(おも)ったんですか。 | Why did you want to live in a share house instead of living alone?
+Speaker 2: いろいろな国(くに)の人(ひと)と交流(こうりゅう)したいからです。それに、一人(ひとり)で住(す)むのは寂(さび)しい気(き)がして。 | Because I want to interact with people from various countries. Also, I felt that living alone would be lonely.
+Speaker 1: 確(たし)かに、ここには留学生(りゅうがくせい)をはじめ、日本人(にほんじん)の社会人(しゃかいじん)もたくさん住(す)んでいますよ。 | Certainly, many international students and Japanese working adults live here.
+Speaker 2: それは魅力的(みりょくてき)ですね。休(やす)みの日に料理(りょうり)を作(つく)り合(あ)ったりもするんでしょうか。 | That's attractive. Do you also cook for each other on days off?
+Speaker 1: ええ。ただ、共同(きょうどう)生活(せいかつ)なのでルールがあります。掃除(そうじ)は当番制(とうばんせい)になっていますが、守(まも)れますか。 | Yes. However, there are rules because it's a communal life. Cleaning is on a rotation system, can you follow that?
+Speaker 2: はい、掃除(そうじ)や片付(かたづ)けは得意(とくい)な方(ほう)なので、きちんと担当(たんとう)できます。 | Yes, I'm good at cleaning and tidying up, so I can properly handle my duties.
+Speaker 1: もし、他(ほか)の住人(じゅうにん)と生活(せいかつ)のペースが合(あ)わずに、トラブルになりそうな時(とき)はどうしますか。 | What will you do if your lifestyle pace doesn't match with other residents and a trouble seems likely?
+Speaker 2: 感情的(かんじょうてき)にならずに、まずは相手(あいて)の意見(いけん)をしっかり聞(き)くようにします。 | I will try not to get emotional and will first listen carefully to the other person's opinion.
+Speaker 1: 素晴(すば)らしいですね。文化(ぶんか)の違(ちが)いから誤解(ごかい)が生(しょう)じがちですが、話(はな)し合(あ)いが必要(ひつよう)不可欠(ふかけつ)ですからね。 | That's wonderful. Misunderstandings often occur due to cultural differences, so discussion is essential.
+Speaker 2: はい。お互(たが)いの文化(ぶんか)について理解(りかい)し合(あ)う努力(どりょく)が大切(たいせつ)だと思(おも)います。 | Yes. I think the effort to understand each other's culture is important.
+Speaker 1: キムさんなら、皆(みな)とうまくやっていけそうですね。何(なに)か心配(しんぱい)なことはありますか。 | It seems you would get along well with everyone, Mr. Kim. Do you have any concerns?
+Speaker 2: 共用(きょうよう)のキッチンを使(つか)った後(あと)のルールについて、詳(くわ)しく教(おし)えていただけますか。 | Could you tell me in detail about the rules after using the shared kitchen?
+Speaker 1: 使(つか)った後(あと)は、必(かなら)ず自分(じぶん)で食器(しょっき)を洗(あら)って拭(ふ)き、元(もと)の場所(ばしょ)に戻(もど)すルールになっています。 | The rule is that after use, you must wash and wipe your dishes yourself and return them to their original places.
+Speaker 2: わかりました。基本的(きほんてき)なマナーさえ守(まも)れば大丈夫(だいじょうぶ)そうですね。 | I understand. It seems fine as long as I follow basic manners.
+Speaker 1: その通(とお)りです。審査(しんさ)の結果(けっか)については、明日(あした)メールでお知(し)らせしますね。 | That's right. I will let you know the result of the screening by email tomorrow.
+Speaker 2: 承知(しょうち)いたしました。本日(ほんじつ)はお忙(いそが)しい中(なか)、ありがとうございました。 | I understand. Thank you very much for your time today despite being busy.
+===
+Speaker 1: 本日(ほんじつ)はよろしくお願(ねが)いいたします。株式会社(かぶしきがいしゃ)ミライ、人事(じんじ)の田中(たなか)です。 | Thank you for coming today. I'm Tanaka from Human Resources at Mirai Inc.
+Speaker 2: マイケル・ブラウンと申(もう)します。よろしくお願(ねが)いいたします。 | My name is Michael Brown. Nice to meet you.
+Speaker 1: まずは、簡単(かんたん)に自己紹介(じこしょうかい)と志望(しぼう)動機(どうき)をお願(ねが)いできますか。 | First, could you briefly introduce yourself and tell me your reason for applying?
+Speaker 2: アメリカ出身(しゅっしん)のマイケルです。日本(にほん)の大学(だいがく)で経営学(けいえいがく)を学(まな)びました。御社(おんしゃ)のグローバルな事業(じぎょう)展開(てんかい)に魅力(みりょく)を感(かん)じ、応募(おうぼ)いたしました。 | I'm Michael from the US. I studied business administration at a Japanese university. I felt attracted to your company's global business expansion and applied.
+Speaker 1: マイケルさんは、学生(がくせい)時代(じだい)にどんなことに力(ちから)を入(い)れていましたか。 | What did you put effort into during your student days, Michael?
+Speaker 2: 英語(えいご)を教(おし)えるアルバイトに力(ちから)を入(い)れていました。その経験(けいけん)を通(とお)して、相手(あいて)に合(あ)わせて伝(つた)える力(ちから)を養(やしな)うことができました。 | I put effort into a part-time job teaching English. Through that experience, I was able to cultivate the ability to communicate according to the other person.
+Speaker 1: なるほど。では、ご自身(じしん)の長所(ちょうしょ)と短所(たんしょ)について教(おし)えてください。 | I see. Then, please tell me about your strengths and weaknesses.
+Speaker 2: 長所(ちょうしょ)は責任感(せきにんかん)が強(つよ)いところです。反面(はんめん)、短所(たんしょ)は時々(ときどき)一人(ひとり)で仕事(しごと)を抱(かか)え込(こ)んでしまうことです。 | My strength is my strong sense of responsibility. On the other hand, my weakness is that sometimes I take on too much work by myself.
+Speaker 1: その短所(たんしょ)に対(たい)して、どのようにお考(かんが)えですか。 | What are your thoughts on that weakness?
+Speaker 2: 最近(さいきん)は、問題(もんだい)が起(お)こる前(まえ)に、早(はや)めに周(まわ)りの人(ひと)に相談(そうだん)するように心(こころ)がけています。 | Recently, I am trying to consult with people around me early on before a problem occurs.
+Speaker 1: それは大事(だいじ)なことですね。今回(こんかい)は営業(えいぎょう)アシスタントの募集(ぼしゅう)ですが、パソコンのスキルはどうですか。 | That is an important thing. This time we are recruiting for a sales assistant, how are your computer skills?
+Speaker 2: ワードやエクセルを使(つか)った資料(しりょう)作成(さくせい)は問題(もんだい)なく行(おこな)えます。 | I can create documents using Word and Excel without any problems.
+Speaker 1: 営業(えいぎょう)のサポートは急(いそ)ぎの仕事(しごと)を頼(たの)まれることも多(おお)いですが、柔軟(じゅうなん)に対応(たいおう)できますか。 | Sales support often involves being asked to do urgent work, can you respond flexibly?
+Speaker 2: はい、優先(ゆうせん)順位(じゅんい)を考(かんが)えながら、臨機応変(りんきおうへん)に対応(たいおう)する自信(じしん)があります。 | Yes, I have confidence in responding flexibly while considering priorities.
+Speaker 1: 日本(にほん)の会社(かいしゃ)特有(とくゆう)のビジネスマナーについて、不安(ふあん)な点(てん)はありますか。 | Do you have any concerns about business manners unique to Japanese companies?
+Speaker 2: 電話(電話)応対(おうたい)での敬語(けいご)の使(つか)い方(かた)にはまだ課題(かだい)があると思(おも)いますので、入社(にゅうしゃ)までに勉強(べんきょう)しておくべきだと思(おも)っています。 | I think there are still challenges in how to use honorifics (keigo) on the phone, so I think I should study them before joining the company.
+Speaker 1: 向上心(こうじょうしん)があって素晴(すば)らしいですね。入社(にゅうしゃ)後(ご)は先輩(せんぱい)がしっかり教(おし)えますので安心(あんしん)してください。 | It's wonderful that you have the ambition to improve. After you join, senior employees will teach you properly, so please don't worry.
+Speaker 2: ありがとうございます。早(はや)く御社(おんしゃ)に貢献(こうけん)できるよう、精一杯(せいいっぱい)努(つと)めます。 | Thank you. I will do my utmost to contribute to your company quickly.
+Speaker 1: 面接(めんせつ)は以上(いじょう)となります。本日(ほんじつ)はありがとうございました。 | That concludes the interview. Thank you for today.
+Speaker 2: 貴重(きちょう)なお時間(じかん)をいただき、誠(まこと)にありがとうございました。 | Thank you very much for your valuable time.
+===
+Speaker 1: グローバル商事(しょうじ)の人事部(じんじぶ)、高橋(たかはし)です。本日(ほんじつ)は足(あし)を運(はこ)んでいただきありがとうございます。 | I'm Takahashi from the HR Department of Global Trading. Thank you for coming today.
+Speaker 2: 本日(ほんじつ)は面接(めんせつ)の機会(きかい)をいただき、誠(まこと)にありがとうございます。リン・シャオと申(もう)します。 | Thank you very much for the opportunity to have an interview today. My name is Lin Xiao.
+Speaker 1: どうぞよろしくお願(ねが)いいたします。早速(さっそく)ですが、リンさんのこれまでのご経歴(けいれき)と、今回(こんかい)の転職(てんしょく)理由(りゆう)をお聞(き)かせいただけますか。 | Nice to meet you. Without further ado, could you tell us about your background and your reason for changing jobs this time?
+Speaker 2: はい。前職(ぜんしょく)では約(やく)5年間(ねんかん)、海外(かいがい)営業(えいぎょう)として東南(とうなん)アジア市場(しじょう)の開拓(かいたく)に従事(じゅうじ)しておりました。 | Yes. In my previous job, I was engaged in developing the Southeast Asian market as an overseas sales representative for about 5 years.
+Speaker 1: 素晴(すば)らしい実績(じっせき)ですね。順調(じゅんちょう)だったにもかかわらず、なぜ退職(たいしょく)を決意(けつい)されたのでしょうか。 | That's an excellent track record. Even though it was going well, why did you decide to resign?
+Speaker 2: 前職(ぜんしょく)の環境(かんきょう)には感謝(かんしゃ)しておりますが、より大(おお)きな規模(きぼ)のプロジェクトに携(たずさ)わりたいと強(つよ)く感(かん)じるようになったためです。 | I am grateful for the environment of my previous job, but it's because I started to strongly feel that I wanted to be involved in larger scale projects.
+Speaker 1: なるほど。数(かず)ある企業(きぎょう)の中(なか)から、弊社(へいしゃ)を選(えら)んでいただいた理由(りゆう)は何(なん)でしょうか。 | I see. What is the reason you chose our company out of all the many companies?
+Speaker 2: 御社(おんしゃ)の新規(しんき)事業(じぎょう)に対(たい)する積極的(せっきょくてき)な姿勢(しせい)に深(ふか)く共感(きょうかん)したからです。私(わたし)の語学力(ごがくりょく)と交渉力(こうしょうりょく)を最大限(さいだいげん)に活(い)かせると確信(かくしん)しております。 | It's because I deeply resonate with your company's proactive stance towards new businesses. I am confident that I can maximize my language and negotiation skills.
+Speaker 1: 営業(えいぎょう)の仕事(しごと)は、クライアントの要望(ようぼう)に応(こた)える反面(はんめん)、社内(しゃない)調整(ちょうせい)の苦労(くろう)も絶(た)えないと思(おも)いますが、どのようにお考(かんが)えですか。 | The job of sales is to meet clients' demands, but on the other hand, I think the struggles of internal coordination are endless. What are your thoughts on this?
+Speaker 2: おっしゃる通(とお)りです。時(とき)には厳(きび)しい条件(じょうけん)を飲(の)まざるを得(え)ない場面(ばめん)もありますが、常(つね)にWin-Winの関係(かんけい)を模索(もさく)するよう努(つと)めてまいりました。 | You are exactly right. Sometimes there are situations where we have to accept strict conditions, but I have always tried to seek a win-win relationship.
+Speaker 1: 過去(かこ)に経験(けいけん)した大(おお)きな失敗(しっぱい)と、そこから学(まな)んだことについて教(おし)えていただけますか。 | Could you tell us about a major failure you have experienced in the past and what you learned from it?
+Speaker 2: 以前(いぜん)、私(わたし)の確認(かくにん)不足(ぶそく)が原因(げんいん)で、納品(のうひん)に遅(おく)れが生(しょう)じかねない事態(じたい)を招(まね)いてしまったことがございます。 | Previously, due to my lack of confirmation, I caused a situation that could have led to a delay in delivery.
+Speaker 1: その時(とき)は、どのように対処(たいしょ)されたんですか。 | How did you deal with it at that time?
+Speaker 2: 直(ただ)ちに状況(じょうきょう)を上司(じょうし)に報告(ほうこく)し、関係(かんけい)各署(かくしょ)に頭(あたま)を下(さ)げて回(まわ)ることで、なんとか納期(のうき)に間(ま)に合(あ)わせることができました。 | By immediately reporting the situation to my boss and going around apologizing to all relevant departments, I managed to meet the deadline somehow.
+Speaker 1: ピンチの際(さい)の迅速(じんそく)な対応力(たいおうりょく)は、弊社(へいしゃ)でも大(おお)いに役立(やくだ)ちそうですね。 | Your swift response capabilities in a pinch seem like they would be very useful in our company as well.
+Speaker 2: ありがとうございます。その経験(けいけん)以来(いらい)、事前(じぜん)の進捗(しんちょく)管理(かんり)を徹底(てってい)するよう肝(きも)に銘(めい)じております。 | Thank you. Since that experience, I bear in mind to thoroughly manage progress in advance.
+Speaker 1: 頼(たの)もしいお言葉(ことば)ですね。最後(さいご)に、何(なに)か弊社(へいしゃ)について質問(しつもん)はございますか。 | Those are reliable words. Finally, do you have any questions about our company?
+Speaker 2: もしご縁(えん)があって入社(にゅうしゃ)できた場合(ばあい)、最初(さいしょ)の半年間(はんとしかん)で私(わたし)に期待(きたい)される役割(やくわり)について教(おし)えていただけますでしょうか。 | If I have the opportunity to join the company, could you tell me about the role expected of me in the first half year?
+Speaker 1: まずは既存(きぞん)顧客(こきゃく)の引(ひ)き継(つ)ぎを通(とお)じて、弊社(へいしゃ)の商材(しょうざい)に親(した)しんでいただく予定(よてい)です。 | First, we plan for you to get familiar with our products through taking over existing clients.
+Speaker 2: 承知(しょうち)いたしました。即戦力(そくせんりょく)として貢献(こうけん)できるよう、事前(じぜん)準備(じゅんび)を怠(おこた)らない所存(しょぞん)です。 | I understand. I intend not to neglect my advance preparation so that I can contribute as an immediate asset.
+Speaker 1: 本日(ほんじつ)は有意義(ゆういぎ)なお話(はな)しを聞(き)かせていただき、ありがとうございました。結果(けっか)は追(お)ってご連絡(れんらく)いたします。 | Thank you for letting us hear such a meaningful talk today. We will contact you later with the result.
+Speaker 2: こちらこそ、お忙(いそが)しい中(なか)ありがとうございました。失礼(しつれい)いたします。 | Thank you very much as well despite your busy schedule. Excuse me.
+`;
+
+        function kanaToRomaji(text) {
+            const map = {
+                'あ':'a', 'い':'i', 'う':'u', 'え':'e', 'お':'o',
+                'か':'ka', 'き':'ki', 'く':'ku', 'け':'ke', 'こ':'ko',
+                'さ':'sa', 'し':'shi', 'す':'su', 'せ':'se', 'そ':'so',
+                'た':'ta', 'ち':'chi', 'つ':'tsu', 'て':'te', 'と':'to',
+                'な':'na', 'に':'ni', 'ぬ':'nu', 'ね':'ne', 'の':'no',
+                'は':'ha', 'ひ':'hi', 'ふ':'fu', 'へ':'he', 'ほ':'ho',
+                'ま':'ma', 'み':'mi', 'む':'mu', 'め':'me', 'も':'mo',
+                'や':'ya', 'ゆ':'yu', 'よ':'yo',
+                'ら':'ra', 'り':'ri', 'る':'ru', 'れ':'re', 'ろ':'ro',
+                'わ':'wa', 'を':'o', 'ん':'n',
+                'が':'ga', 'ぎ':'gi', 'ぐ':'gu', 'げ':'ge', 'ご':'go',
+                'ざ':'za', 'じ':'ji', 'ず':'zu', 'ぜ':'ze', 'ぞ':'zo',
+                'だ':'da', 'ぢ':'ji', 'づ':'zu', 'で':'de', 'ど':'do',
+                'ば':'ba', 'び':'bi', 'ぶ':'bu', 'べ':'be', 'ぼ':'bo',
+                'ぱ':'pa', 'ぴ':'pi', 'ぷ':'pu', 'ぺ':'pe', 'ぽ':'po',
+                'きゃ':'kya', 'きゅ':'kyu', 'きょ':'kyo',
+                'しゃ':'sha', 'しゅ':'shu', 'しょ':'sho',
+                'ちゃ':'cha', 'ちゅ':'chu', 'ちょ':'cho',
+                'にゃ':'nya', 'にゅ':'nyu', 'にょ':'nyo',
+                'ひゃ':'hya', 'ひゅ':'hyu', 'ひょ':'hyo',
+                'みゃ':'mya', 'みゅ':'myu', 'みょ':'myo',
+                'りゃ':'rya', 'りゅ':'ryu', 'りょ':'ryo',
+                'ぎゃ':'gya', 'ぎゅ':'gyu', 'ぎょ':'gyo',
+                'じゃ':'ja', 'じゅ':'ju', 'じょ':'jo',
+                'びゃ':'bya', 'びゅ':'byu', 'びょ':'byo',
+                'ぴゃ':'pya', 'ぴゅ':'pyu', 'ぴょ':'pyo',
+                'ふぁ':'fa', 'ふぃ':'fi', 'ふぇ':'fe', 'ふぉ':'fo',
+                'てぃ':'ti', 'でぃ':'di', 'うぃ':'wi', 'うぇ':'we',
+                'ー':'-', '、': ', ', '。': '.', '？': '?', '！': '!', '…': '...'
+            };
+            
+            // Convert Katakana to Hiragana first
+            let hira = text.replace(/[\u30a1-\u30f6]/g, function(match) {
+                return String.fromCharCode(match.charCodeAt(0) - 0x60);
+            });
+
+            let romaji = "";
+            let i = 0;
+            while (i < hira.length) {
+                let char2 = hira.substring(i, i+2);
+                let char1 = hira.substring(i, i+1);
+                
+                if (map[char2]) {
+                    romaji += map[char2];
+                    i += 2;
+                } else if (char1 === 'っ') {
+                    // Small tsu: double the next consonant
+                    let nextChar = hira.substring(i+1, i+2);
+                    let nextChar2 = hira.substring(i+1, i+3);
+                    let nextRomaji = map[nextChar2] || map[nextChar];
+                    if (nextRomaji && nextRomaji.length > 0 && nextRomaji.match(/^[a-z]/i)) {
+                        romaji += nextRomaji.charAt(0);
+                    }
+                    i++;
+                } else if (map[char1]) {
+                    romaji += map[char1];
+                    i++;
+                } else {
+                    romaji += char1;
+                    i++;
+                }
+            }
+            // Capitalize first letter and fix spaces
+            romaji = romaji.charAt(0).toUpperCase() + romaji.slice(1);
+            return romaji.replace(/\s+/g, ' ').trim();
+        }
+
+        const scenes = [];
+        let currentScene = { title: "Scene 1", lines: [] };
+        let sceneIndexCount = 1;
+
+        const lines = rawData.trim().split('\n');
+        for (let line of lines) {
+            line = line.trim();
+            if (line === '') continue;
+
+            if (line.startsWith('===')) {
+                if (currentScene.lines.length > 0) {
+                    scenes.push(currentScene);
+                }
+                sceneIndexCount++;
+                // Optional: Provide better titles based on content, but defaulting to Scene N
+                currentScene = { title: `Scene ${sceneIndexCount}`, lines: [] };
+            } else {
+                const parts = line.split('|');
+                let jpPart = parts[0].trim();
+                let enPart = parts.length > 1 ? parts[1].trim() : "";
+                
+                const match = jpPart.match(/^(Speaker \d+):\s*(.*)/);
+                if (match) {
+                    const speaker = match[1];
+                    const rawJpText = match[2];
+                    
+                    // Generate Text for Speech Synthesis (Replace Kanji(Furigana) with Furigana)
+                    // This ensures correct pronunciation and avoids reading BOTH kanji and furigana
+                    const speakText = rawJpText.replace(/[\u4e00-\u9faf]+\(([\u3040-\u309f]+)\)/g, "$1");
+                    
+                    currentScene.lines.push({
+                        speaker: speaker,
+                        rawJp: rawJpText,
+                        english: enPart,
+                        speakText: speakText,
+                        romaji: kanaToRomaji(speakText)
+                    });
+                }
+            }
+        }
+        if (currentScene.lines.length > 0) {
+            scenes.push(currentScene);
+        }
+
+        let state = {
+            currentSceneIndex: 0,
+            showRomaji: false,
+            showTranslation: false,
+            kanjiTestMode: false,
+            isPlaying: false
+        };
+
+        function formatJapanese(text, isKanjiTest) {
+            // Replaces "漢字(ふりがな)" with appropriate HTML based on mode
+            return text.replace(/([\u4e00-\u9faf]+)\(([\u3040-\u309f]+)\)/g, (match, kanji, furigana) => {
+                if (isKanjiTest) {
+                    // ふりがなを隠し、漢字のみを表示（クリックでふりがなを表示）
+                    return `<span class="inline-block mx-0.5 cursor-pointer border-b-2 border-dashed border-yellow-400 hover:bg-yellow-50 transition-colors px-0.5" onclick="revealFurigana(this, '${kanji}', '${furigana}')" title="タップして読み方を表示">${kanji}</span>`;
+                } else {
+                    return `<ruby class="mx-0.5">${kanji}<rt>${furigana}</rt></ruby>`;
+                }
+            });
+        }
+
+        // Global function called from inline HTML
+        window.revealFurigana = function(el, kanji, furigana) {
+            // クリックされたら、ふりがな付きのルビ表示（ハイライト）に切り替える
+            el.outerHTML = `<ruby class="mx-0.5 bg-yellow-100 rounded px-1 animate-pulse text-blue-900">${kanji}<rt class="text-blue-600 font-bold" style="font-size: 0.65rem;">${furigana}</rt></ruby>`;
+        };
+
+        function renderScene() {
+            const container = document.getElementById('dialogue-list');
+            container.innerHTML = '';
+            
+            const scene = scenes[state.currentSceneIndex];
+            
+            scene.lines.forEach((line, index) => {
+                const isSpeaker1 = line.speaker === "Speaker 1";
+                const alignment = isSpeaker1 ? "self-start" : "self-end";
+                const bgColor = isSpeaker1 ? "speaker-1-bg border border-gray-200" : "speaker-2-bg border border-blue-100";
+                const borderRadius = isSpeaker1 ? "rounded-tr-2xl rounded-br-2xl rounded-bl-2xl" : "rounded-tl-2xl rounded-br-2xl rounded-bl-2xl";
+                const icon = isSpeaker1 ? "fa-user-tie" : "fa-user";
+                const iconColor = isSpeaker1 ? "text-gray-500" : "text-blue-500";
+
+                const jpFormatted = formatJapanese(line.rawJp, state.kanjiTestMode);
+
+                let extraContent = '';
+                if (state.showRomaji) {
+                    extraContent += `<div class="text-sm text-gray-500 mt-2 font-mono bg-gray-50 p-2 rounded">${line.romaji}</div>`;
+                }
+                if (state.showTranslation) {
+                    extraContent += `<div class="text-sm text-gray-700 mt-2 italic border-l-2 border-gray-300 pl-2">${line.english}</div>`;
+                }
+
+                const html = `
+                    <div class="flex gap-3 max-w-[90%] sm:max-w-[80%] ${alignment} fade-in" style="animation-delay: ${index * 0.05}s">
+                        ${isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                        
+                        <div class="flex flex-col gap-1">
+                            <div class="text-xs text-gray-500 font-medium px-1 ${!isSpeaker1 ? 'text-right' : ''}">${line.speaker}</div>
+                            <div class="${bgColor} ${borderRadius} p-4 shadow-sm relative group">
+                                <div class="flex items-start gap-3">
+                                    <div class="text-lg leading-loose break-words flex-1 tracking-wide">
+                                        ${jpFormatted}
+                                    </div>
+                                    <button onclick="playAudio('${line.speakText.replace(/'/g, "\\'")}')" class="shrink-0 w-8 h-8 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-400 hover:text-blue-500 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300" title="Play audio">
+                                        <i class="fa-solid fa-volume-high"></i>
+                                    </button>
+                                </div>
+                                ${extraContent}
+                            </div>
+                        </div>
+
+                        ${!isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                    </div>
+                `;
+                container.insertAdjacentHTML('beforeend', html);
+            });
+        }
+
+        function playAudio(text) {
+            if ('speechSynthesis' in window) {
+                // Cancel any ongoing speech
+                window.speechSynthesis.cancel();
+                
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'ja-JP';
+                utterance.rate = 0.85; // Slightly slower for learning
+                window.speechSynthesis.speak(utterance);
+            } else {
+                console.warn("Speech Synthesis not supported in this browser.");
+            }
+        }
+
+        async function playEntireScene() {
+            if (!('speechSynthesis' in window)) return;
+            
+            if (state.isPlaying) {
+                window.speechSynthesis.cancel();
+                state.isPlaying = false;
+                return;
+            }
+
+            state.isPlaying = true;
+            const scene = scenes[state.currentSceneIndex];
+            
+            for (let i = 0; i < scene.lines.length; i++) {
+                if (!state.isPlaying) break; // Check if stopped
+                
+                const line = scene.lines[i];
+                
+                await new Promise(resolve => {
+                    const utterance = new SpeechSynthesisUtterance(line.speakText);
+                    utterance.lang = 'ja-JP';
+                    utterance.rate = 0.85;
+                    
+                    utterance.onend = resolve;
+                    utterance.onerror = resolve; // Continue even if error
+                    
+                    window.speechSynthesis.speak(utterance);
+                });
+                
+                // Add a small pause between speakers
+                await new Promise(r => setTimeout(r, 600));
+            }
+            state.isPlaying = false;
+        }
+
+        function init() {
+            // Populate Scene Selector
+            const selector = document.getElementById('scene-selector');
+            scenes.forEach((scene, index) => {
+                const option = document.createElement('option');
+                option.value = index;
+                // Add context titles based on the new interview scenes
+                let title = `Scene ${index + 1}`;
+                if (index === 0) title += " (オンライン面接 / Online Interview)";
+                else if (index === 1) title += " (工場 / Factory Job)";
+                else if (index === 2) title += " (コンビニ / Convenience Store)";
+                else if (index === 3) title += " (農業 / Agriculture)";
+                else if (index === 4) title += " (専門学校 / IT School)";
+                else if (index === 5) title += " (レストラン / Restaurant)";
+                else if (index === 6) title += " (ホテル清掃 / Hotel Cleaning)";
+                else if (index === 7) title += " (シェアハウス / Sharehouse)";
+                else if (index === 8) title += " (一般企業 / Corporate Office)";
+                else if (index === 9) title += " (中途採用 / Mid-career Sales)";
+
+                option.textContent = title;
+                selector.appendChild(option);
+            });
+
+            // Event Listeners
+            selector.addEventListener('change', (e) => {
+                state.currentSceneIndex = parseInt(e.target.value);
+                window.speechSynthesis.cancel();
+                state.isPlaying = false;
+                renderScene();
+                // Scroll to top
+                document.getElementById('chat-container').scrollTop = 0;
+            });
+
+            document.getElementById('toggle-romaji').addEventListener('change', (e) => {
+                state.showRomaji = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-translation').addEventListener('change', (e) => {
+                state.showTranslation = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-kanji-test').addEventListener('change', (e) => {
+                state.kanjiTestMode = e.target.checked;
+                renderScene();
+            });
+
+            // Initial Render
+            renderScene();
+        }
+
+        // Run when DOM is ready
+        document.addEventListener('DOMContentLoaded', init);
+        
+        // Stop audio if user leaves page
+        window.addEventListener('beforeunload', () => {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+            }
+        });
+
+    </script>
+</body>
+</html>
