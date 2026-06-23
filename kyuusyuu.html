@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Conversation Learner</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+            background-color: #f3f4f6;
+        }
+        ruby {
+            ruby-align: center;
+        }
+        rt {
+            font-size: 0.65rem;
+            color: #6b7280;
+        }
+        .speaker-1-bg { background-color: #ffffff; }
+        .speaker-2-bg { background-color: #e0f2fe; }
+        
+        /* Custom Toggle Switch */
+        .toggle-checkbox:checked {
+            right: 0;
+            border-color: #3b82f6;
+        }
+        .toggle-checkbox:checked + .toggle-label {
+            background-color: #3b82f6;
+        }
+        
+        /* Fade in animation */
+        .fade-in {
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Quiz Button animations */
+        .quiz-btn {
+            transition: all 0.2s ease;
+        }
+        .quiz-btn:active {
+            transform: scale(0.98);
+        }
+        .correct-answer {
+            background-color: #10b981 !important; /* Emerald 500 */
+            color: white !important;
+            border-color: #059669 !important;
+        }
+        .wrong-answer {
+            background-color: #ef4444 !important; /* Red 500 */
+            color: white !important;
+            border-color: #dc2626 !important;
+        }
+    </style>
+</head>
+<body class="text-gray-800 h-screen flex flex-col overflow-hidden">
+
+    <!-- Header & Tabs -->
+    <header class="bg-white shadow-sm z-20 shrink-0">
+        <div class="max-w-4xl mx-auto px-4 pt-3 flex flex-col gap-3">
+            <h1 class="text-xl font-bold text-gray-800 flex items-center gap-2">
+                <i class="fa-solid fa-language text-blue-500"></i>
+                <span>Nihongo Learner</span>
+            </h1>
+            
+            <!-- Tab Navigation -->
+            <div class="flex gap-1 border-b border-gray-200">
+                <button id="tab-btn-conv" class="px-4 py-2 font-medium text-blue-600 border-b-2 border-blue-600 hover:bg-gray-50 transition-colors">
+                    <i class="fa-regular fa-comments mr-1"></i> Conversation
+                </button>
+                <button id="tab-btn-quiz" class="px-4 py-2 font-medium text-gray-500 border-b-2 border-transparent hover:bg-gray-50 hover:text-gray-700 transition-colors">
+                    <i class="fa-solid fa-graduation-cap mr-1"></i> Kanji Quiz
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conversation View -->
+    <div id="view-conv" class="flex-1 flex flex-col min-h-0 relative">
+        <!-- Settings Bar -->
+        <div class="bg-white border-b border-gray-200 shrink-0 z-10 shadow-sm">
+            <div class="max-w-4xl mx-auto px-4 py-2">
+                <div class="flex flex-col sm:flex-row justify-between items-center gap-3">
+                    
+                    <div class="flex items-center gap-2 w-full sm:w-auto">
+                        <select id="scene-selector" class="w-full sm:w-auto bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2">
+                            <!-- Options populated by JS -->
+                        </select>
+                        <button onclick="playEntireScene()" id="play-scene-btn" class="whitespace-nowrap bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-3 rounded-lg transition-colors flex items-center gap-2 text-sm shadow-sm">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+                    </div>
+
+                    <div class="flex flex-wrap items-center justify-center gap-4 text-sm w-full sm:w-auto">
+                        <!-- Romaji Toggle -->
+                        <div class="flex items-center gap-2">
+                            <div class="relative inline-block w-9 align-middle select-none transition duration-200 ease-in">
+                                <input type="checkbox" name="toggle" id="toggle-romaji" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-white border-4 border-gray-300 appearance-none cursor-pointer transition-transform duration-200 ease-in-out z-10" />
+                                <label for="toggle-romaji" class="toggle-label block overflow-hidden h-5 rounded-full bg-gray-300 cursor-pointer transition-colors duration-200 ease-in-out"></label>
+                            </div>
+                            <label for="toggle-romaji" class="cursor-pointer font-medium text-gray-700">Romaji</label>
+                        </div>
+                        <!-- Translation Toggle -->
+                        <div class="flex items-center gap-2">
+                            <div class="relative inline-block w-9 align-middle select-none transition duration-200 ease-in">
+                                <input type="checkbox" name="toggle" id="toggle-translation" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-white border-4 border-gray-300 appearance-none cursor-pointer transition-transform duration-200 ease-in-out z-10" />
+                                <label for="toggle-translation" class="toggle-label block overflow-hidden h-5 rounded-full bg-gray-300 cursor-pointer transition-colors duration-200 ease-in-out"></label>
+                            </div>
+                            <label for="toggle-translation" class="cursor-pointer font-medium text-gray-700">English</label>
+                        </div>
+                        <!-- Furigana Hide Toggle -->
+                        <div class="flex items-center gap-2 bg-yellow-50 px-2 py-1 rounded-md border border-yellow-200">
+                            <div class="relative inline-block w-9 align-middle select-none transition duration-200 ease-in">
+                                <input type="checkbox" name="toggle" id="toggle-kanji-test" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-white border-4 border-yellow-300 appearance-none cursor-pointer transition-transform duration-200 ease-in-out z-10" />
+                                <label for="toggle-kanji-test" class="toggle-label block overflow-hidden h-5 rounded-full bg-yellow-200 cursor-pointer transition-colors duration-200 ease-in-out"></label>
+                            </div>
+                            <label for="toggle-kanji-test" class="cursor-pointer font-medium text-yellow-800 text-xs sm:text-sm"><i class="fa-regular fa-eye-slash mr-1"></i>Hide Furigana</label>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <main class="flex-1 overflow-y-auto p-4 sm:p-6" id="chat-container">
+            <div class="max-w-4xl mx-auto flex flex-col gap-4 pb-20" id="dialogue-list">
+                <!-- Messages will be injected here -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Kanji Quiz View -->
+    <div id="view-quiz" class="flex-1 hidden bg-gray-50 overflow-y-auto">
+        <div class="max-w-2xl mx-auto px-4 py-8">
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
+                <!-- Quiz Header -->
+                <div class="bg-blue-600 px-6 py-4 flex justify-between items-center text-white">
+                    <h2 class="font-bold text-lg"><i class="fa-solid fa-pen-nib mr-2"></i>Kanji Reading Quiz</h2>
+                    <div class="font-medium bg-blue-700 px-3 py-1 rounded-full text-sm">
+                        <span id="quiz-progress">1 / 10</span>
+                    </div>
+                </div>
+                
+                <!-- Quiz Body -->
+                <div class="p-6 sm:p-8" id="quiz-body">
+                    <!-- Dynamic Quiz Content -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // State management
+        const appState = {
+            activeTab: 'conv', // 'conv' or 'quiz'
+            
+            // Conversation state
+            currentSceneIndex: 0,
+            showRomaji: false,
+            showTranslation: false,
+            hideFurigana: false,
+            isPlaying: false,
+            
+            // Quiz state
+            currentQuestionIndex: 0,
+            score: 0,
+            isAnswering: false // prevents multiple clicks
+        };
+
+        // Japanese Conversation Data (Updated to Kyushu Trip with English)
+        const rawData = `
+Speaker 1: すみません。 | Excuse me.
+Speaker 2: はい、いらっしゃいませ。 | Yes, welcome.
+Speaker 1: とんこつラーメンを一(ひと)つお願(ねが)いします。 | One tonkotsu ramen, please.
+Speaker 2: はい、とんこつラーメンですね。 | Yes, one tonkotsu ramen.
+Speaker 1: この店(みせ)は有名(ゆうめい)ですか。 | Is this shop famous?
+Speaker 2: ええ、ここは「やまちゃん」という有名(ゆうめい)な屋台(やたい)ですよ。 | Yes, this is a famous food stall called "Yamachan".
+Speaker 1: やまちゃんですか。とても楽(たの)しみです。 | Yamachan? I'm really looking forward to it.
+Speaker 2: お客(きゃく)さんはどこから来(き)ましたか。 | Where did you come from?
+Speaker 1: アメリカから来(き)ました。 | I came from America.
+Speaker 2: アメリカですか。遠(とお)いですね。 | America? That's far.
+Speaker 1: はい、昨日(きのう)福岡(ふくおか)に着(つ)きました。 | Yes, I arrived in Fukuoka yesterday.
+Speaker 2: それは疲(つか)れましたね。 | You must be tired.
+Speaker 1: 少(すこ)し疲(つか)れましたが、元気(げんき)です。 | I'm a little tired, but I'm doing well.
+Speaker 2: お待(ま)たせしました。ラーメンです。 | Thank you for waiting. Here is your ramen.
+Speaker 1: わあ、とてもいい匂(にお)いです。 | Wow, it smells really good.
+Speaker 2: 熱(あつ)いから、気(き)をつけてくださいね。 | It's hot, so please be careful.
+Speaker 1: いただきます。うん、とても美味(おい)しいです。 | Let's eat. Mmm, it's very delicious.
+Speaker 2: よかった。これはサービスです。どうぞ。 | I'm glad. This is on the house. Here you go.
+Speaker 1: え、明太子(めんたいこ)ですか。ありがとうございます。 | Oh, mentaiko (spicy cod roe)? Thank you very much.
+Speaker 2: 福岡(ふくおか)の明太子(めんたいこ)は美味(おい)しいですよ。 | Fukuoka's mentaiko is delicious.
+Speaker 1: 少(すこ)し辛(から)いですが、ラーメンと合(あ)います。 | It's a little spicy, but it goes well with the ramen.
+Speaker 2: たくさん食(た)べてくださいね。 | Please eat a lot.
+===
+Speaker 1: すみません、ここは竹瓦温泉(たけがわらおんせん)ですか。 | Excuse me, is this Takegawara Onsen?
+Speaker 2: はい、そうです。別府(べっぷ)で有名(ゆうめい)な温泉(おんせん)ですよ。 | Yes, it is. It's a famous hot spring in Beppu.
+Speaker 1: 初(はじ)めて来(き)ました。中(なか)は広(ひろ)いですか。 | It's my first time here. Is it spacious inside?
+Speaker 2: ええ、広(ひろ)くて綺麗(きれい)ですよ。 | Yes, it's spacious and beautiful.
+Speaker 1: お湯(ゆ)は熱(あつ)いですか。 | Is the water hot?
+Speaker 2: 少(すこ)し熱(あつ)いですが、気持(きも)ちがいいです。 | It's a little hot, but it feels good.
+Speaker 1: そうですか。私(わたし)は熱(あつ)いお湯(ゆ)が好(す)きです。 | I see. I like hot water.
+Speaker 2: それはよかったです。旅行(りょこう)ですか。 | That's good. Are you traveling?
+Speaker 1: はい、昨日(きのう)大分(おおいた)に来(き)ました。 | Yes, I came to Oita yesterday.
+Speaker 2: どこから来(き)ましたか。 | Where are you from?
+Speaker 1: アメリカのニューヨークから来(き)ました。 | I'm from New York, America.
+Speaker 2: ニューヨークですか。大(おお)きい町(まち)ですね。 | New York? That's a big city.
+Speaker 1: はい。でも、別府(べっぷ)は静(しず)かでいい町(まち)です。 | Yes. But Beppu is a quiet and nice town.
+Speaker 2: 明日(あした)はどこへ行(い)きますか。 | Where are you going tomorrow?
+Speaker 1: 海地獄(うみじごく)へ行(い)くつもりです。 | I plan to go to Umi Jigoku (Sea Hell).
+Speaker 2: 海地獄(うみじごく)も綺麗(きれい)ですよ。青(あお)いお湯(ゆ)です。 | Umi Jigoku is also beautiful. It has blue water.
+Speaker 1: とても楽(たの)しみです。 | I'm really looking forward to it.
+Speaker 2: 温泉(おんせん)のあとで、冷(つめ)たい牛乳(ぎゅうにゅう)を飲(の)みませんか。 | Would you like to drink cold milk after the hot spring?
+Speaker 1: いいですね。どこで買(か)いますか。 | Sounds good. Where can I buy it?
+Speaker 2: あそこに自動販売機(じどうはんばいき)があります。 | There is a vending machine over there.
+Speaker 1: ありがとうございます。今(いま)から温泉(おんせん)に入(はい)ります。 | Thank you. I'm going to enter the hot spring now.
+Speaker 2: はい、ゆっくり休(やす)んでくださいね。 | Yes, please take your time and relax.
+===
+Speaker 1: すみません、この犬(いぬ)は可愛(かわい)いですね。 | Excuse me, this dog is cute.
+Speaker 2: ありがとうございます。 | Thank you.
+Speaker 1: 写真(しゃしん)を撮(と)ってもいいですか。 | May I take a picture?
+Speaker 2: はい、どうぞ。犬(いぬ)も喜(よろこ)びますよ。 | Yes, please. The dog will be happy too.
+Speaker 1: 名前(なまえ)は何(なん)ですか。 | What is his name?
+Speaker 2: くまです。 | It's Kuma.
+Speaker 1: くまちゃんですか。何歳(なんさい)ですか。 | Kuma-chan? How old is he?
+Speaker 2: 3歳(さい)です。元気(げんき)な男(おとこ)の子(こ)です。 | He is 3 years old. A very energetic boy.
+Speaker 1: ここは熊本城(くまもとじょう)の近(ちか)くですか。 | Is this near Kumamoto Castle?
+Speaker 2: はい、あそこに見(み)えるのが熊本城(くまもとじょう)です。 | Yes, that building you see over there is Kumamoto Castle.
+Speaker 1: とても大(おお)きいですね。綺麗(きれい)です。 | It's very big. It's beautiful.
+Speaker 2: ええ。春(はる)は桜(さくら)がとても綺麗(きれい)ですよ。 | Yes. In spring, the cherry blossoms are very beautiful.
+Speaker 1: 今(いま)からお城(しろ)の中(なか)に入(はい)ります。 | I'm going inside the castle now.
+Speaker 2: お城(しろ)の隣(となり)に加藤神社(かとうじんじゃ)もありますよ。 | There is also Kato Shrine next to the castle.
+Speaker 1: 加藤神社(かとうじんじゃ)ですか。行(い)きたいです。 | Kato Shrine? I want to go there.
+Speaker 2: とても有名(ゆうめい)な神社(じんじゃ)です。 | It's a very famous shrine.
+Speaker 1: 教(おし)えてくれてありがとうございます。 | Thank you for telling me.
+Speaker 2: いいえ。お客(きゃく)さんはアメリカから来(き)ましたか。 | Not at all. Did you come from America?
+Speaker 1: はい、アメリカのシカゴからです。 | Yes, from Chicago, America.
+Speaker 2: シカゴですか。熊本(くまもと)の旅行(りょこう)は楽(たの)しいですか。 | Chicago? Are you enjoying your trip to Kumamoto?
+Speaker 1: はい、食(た)べ物(もの)も美味(おい)しいし、人(ひと)も優(やさ)しいです。 | Yes, the food is delicious, and the people are kind.
+Speaker 2: それはよかったです。気(き)をつけてね。 | That's good to hear. Take care.
+===
+Speaker 1: すみません、このいちごは大(おお)きいですね。 | Excuse me, these strawberries are big.
+Speaker 2: それは「あまおう」といういちごですよ。 | Those are strawberries called "Amaou".
+Speaker 1: あまおうですか。初(はじ)めて見(み)ました。 | Amaou? It's my first time seeing them.
+Speaker 2: 糸島(いとしま)の磯本農園(いそもとのうえん)のあまおうは特別(とくべつ)ですよ。 | Amaou from Isomoto Farm in Itoshima is special.
+Speaker 1: 食(た)べてもいいですか。 | Can I eat them?
+Speaker 2: もちろんです。どうぞ。 | Of course. Go ahead.
+Speaker 1: わあ、甘(あま)くて美味(おい)しいです。 | Wow, it's sweet and delicious.
+Speaker 2: よかった。今年(ことし)のいちごはよくできました。 | I'm glad. This year's strawberries turned out well.
+Speaker 1: アメリカのいちごと全然(ぜんぜん)違(ちが)いますね。 | It's completely different from American strawberries.
+Speaker 2: アメリカのいちごはどうですか。 | What are American strawberries like?
+Speaker 1: アメリカのいちごは少(すこ)し酸(すっ)ぱいです。 | American strawberries are a little sour.
+Speaker 2: そうですか。ここは取(と)りたてが食(た)べられますからね。 | I see. Here, you can eat them freshly picked.
+Speaker 1: 赤(あか)いいいちごを探(さが)すのが難(むずか)しいです。 | It's hard to find red strawberries.
+Speaker 2: 葉(は)の下(した)を見(み)てください。そこにたくさんありますよ。 | Please look under the leaves. There are many there.
+Speaker 1: あ、本当(ほんとう)だ。たくさんありますね。 | Oh, it's true. There are a lot.
+Speaker 2: その小(ちい)さいいちごも甘(あま)いですよ。 | Those small strawberries are sweet too.
+Speaker 1: そうなんですか。じゃあ、これも食(た)べます。 | Is that so? Then I'll eat this one too.
+Speaker 2: 30分(ぷん)ありますから、たくさん食(た)べてくださいね。 | You have 30 minutes, so please eat a lot.
+Speaker 1: はい、お腹(なか)がいっぱいになるまで食(た)べます。 | Yes, I'll eat until I'm full.
+Speaker 2: わはは、楽(たの)しんでくださいね。 | Hahaha, please enjoy.
+===
+Speaker 1: すみません、この席(せき)は空(あ)いていますか。 | Excuse me, is this seat open?
+Speaker 2: はい、空(あ)いていますよ。どうぞ。 | Yes, it's open. Go ahead.
+Speaker 1: ありがとうございます。 | Thank you.
+Speaker 2: お客(きゃく)さんはゆふいんの森(もり)に初(はじ)めて乗(の)りましたか。 | Is this your first time riding the Yufuin no Mori train?
+Speaker 1: はい、ずっと乗(の)りたかったです。 | Yes, I've always wanted to ride it.
+Speaker 2: それはよかったですね。景色(けしき)が綺麗(きれい)ですよ。 | I'm glad. The scenery is beautiful.
+Speaker 1: 窓(まど)がとても大(おお)きいですね。 | The windows are very big.
+Speaker 2: ええ。あ、右(みぎ)を見(み)てください。滝(たき)が見(み)えますよ。 | Yes. Oh, look to your right. You can see a waterfall.
+Speaker 1: わあ、本当(ほんとう)だ。慈恩(じおん)の滝(たき)ですか。 | Wow, it's true. Is it Jion Waterfall?
+Speaker 2: そうです。綺麗(きれい)でしょう。 | Yes, it is. It's beautiful, isn't it?
+Speaker 1: はい、写真(しゃしん)を撮(と)ります。アメリカの家族(かぞく)に見(み)せます。 | Yes, I'll take a picture. I'll show it to my family in America.
+Speaker 2: アメリカから来(き)たんですか。遠(とお)いですね。 | Did you come from America? That's far.
+Speaker 1: はい、でも日本(にほん)の電車(でんしゃ)は快適(かいてき)です。 | Yes, but Japanese trains are comfortable.
+Speaker 2: 由布院(ゆふいん)には温泉(おんせん)に入(はい)りに行(い)きますか。 | Are you going to Yufuin to take a hot spring bath?
+Speaker 1: はい、温泉(おんせん)と金鱗湖(きんりんこ)に行(い)きたいです。 | Yes, I want to go to a hot spring and Lake Kinrin.
+Speaker 2: 金鱗湖(きんりんこ)は朝(あさ)が綺麗(きれい)ですよ。 | Lake Kinrin is beautiful in the morning.
+Speaker 1: そうですか。明日(あした)の朝(あさ)、行(い)きます。 | I see. I'll go tomorrow morning.
+Speaker 2: 美味(おい)しいケーキの店(みせ)も教(おし)えましょうか。 | Shall I tell you a delicious cake shop too?
+Speaker 1: はい、ぜひ教(おし)えてください。 | Yes, please do.
+Speaker 2: 駅(えき)の前(まえ)のビースピークという店(みせ)です。 | It's a shop called B-Speak in front of the station.
+Speaker 1: ありがとうございます。後(あと)で行(い)きます。 | Thank you. I'll go there later.
+Speaker 2: 楽(たの)しい旅行(りょこう)になるといいですね。 | I hope you have a fun trip.
+===
+Speaker 1: ああ、雨(あめ)が降(ふ)ってきました。 | Oh, it started raining.
+Speaker 2: お姉(ねえ)さん、雨(あめ)ですよ。ここに入(はい)ってください。 | Miss, it's raining. Please come in here.
+Speaker 1: すみません。急(きゅう)に雨(あめ)が降(ふ)りましたね。 | Excuse me. The rain started suddenly.
+Speaker 2: 長崎(ながさき)はよく雨(あめ)が降(ふ)りますからね。 | It rains often in Nagasaki, you see.
+Speaker 1: 傘(かさ)を持(も)っていません。困(こま)りました。 | I don't have an umbrella. I'm in trouble.
+Speaker 2: タオルを使(つか)いますか。これ、新(あたら)しいですよ。 | Would you like to use a towel? This one is new.
+Speaker 1: 本当(ほんとう)ですか。ありがとうございます。 | Really? Thank you very much.
+Speaker 2: 今(いま)からグラバー園(えん)へ行(い)きますか。 | Are you going to Glover Garden now?
+Speaker 1: はい、行(い)きたいですが、道(みち)がわかりません。 | Yes, I want to go, but I don't know the way.
+Speaker 2: この坂(さか)を上(あ)がって、右(みぎ)に曲(ま)がります。 | Go up this slope and turn right.
+Speaker 1: この坂(さか)ですね。オランダ坂(ざか)ですか。 | This slope, right? Is it Dutch Slope?
+Speaker 2: ええ、そうです。石(いし)の道(みち)ですから、気(き)をつけてくださいね。 | Yes, that's right. It's a stone path, so please be careful.
+Speaker 1: はい、気(き)をつけます。ここにいてもいいですか。 | Yes, I'll be careful. Is it okay if I stay here?
+Speaker 2: もちろんです。お茶(ちゃ)を飲(の)みませんか。 | Of course. Would you like to drink some tea?
+Speaker 1: ええっ、いいんですか。 | Eh, is that really okay?
+Speaker 2: ええ。温(あたた)かいお茶(ちゃ)がありますよ。 | Yes. I have warm tea.
+Speaker 1: とても親切(しんせつ)ですね。私(わたし)はアメリカのテキサスから来(き)ました。 | You are very kind. I came from Texas, America.
+Speaker 2: テキサスですか。長崎(ながさき)の町(まち)はどうですか。 | Texas? How do you like the town of Nagasaki?
+Speaker 1: 古(ふる)い建物(たてもの)がたくさんあって、とても綺麗(きれい)です。 | There are many old buildings, and it's very beautiful.
+Speaker 2: ありがとう。雨(あめ)の長崎(ながさき)もいいですよ。 | Thank you. Nagasaki in the rain is nice too.
+===
+Speaker 1: すみません、このお菓子(かし)は何(なん)ですか。 | Excuse me, what are these sweets?
+Speaker 2: これは「かるかん」という鹿児島(かごしま)のお菓子(かし)です。 | These are Kagoshima sweets called "Karukan".
+Speaker 1: かるかんですか。中(なか)に何(なに)が入(はい)っていますか。 | Karukan? What is inside?
+Speaker 2: 中(なか)に甘(あま)い豆(まめ)のあんこが入(はい)っています。 | It has sweet red bean paste inside.
+Speaker 1: 美味(おい)しそうですね。一(ひと)ついくらですか。 | It looks delicious. How much is one?
+Speaker 2: 一(ひと)つ150円(えん)です。 | It's 150 yen each.
+Speaker 1: じゃあ、5つください。 | Then I'll have 5, please.
+Speaker 2: はい、ありがとうございます。蒸気屋(じょうきや)へは初(はじ)めてですか。 | Yes, thank you. Is it your first time at Jokiya?
+Speaker 1: はい、今日(きょう)天文館(てんもんかん)に初(はじ)めて来(き)ました。 | Yes, I came to Tenmonkan for the first time today.
+Speaker 2: そうですか。鹿児島(かごしま)はどうですか。 | I see. How do you like Kagoshima?
+Speaker 1: 桜島(さくらじま)が見(み)えて、とても綺麗(きれい)ですね。 | You can see Sakurajima, and it's very beautiful.
+Speaker 2: 今日(きょう)は天気(てんき)がいいから、よく見(み)えますよ。お客(きゃく)さんはどこから？ | The weather is good today, so you can see it clearly. Where are you from?
+Speaker 1: アメリカのカリフォルニアから来(き)ました。 | I came from California, America.
+Speaker 2: 遠(とお)いところからありがとうございます。 | Thank you for coming from so far away.
+Speaker 1: かるかんはいつ食(た)べたほうがいいですか。 | When is the best time to eat Karukan?
+Speaker 2: 買(か)ってから、すぐ食(た)べるのが一番(いちばん)美味(おい)しいですよ。 | It's most delicious if you eat it right after buying it.
+Speaker 1: じゃあ、ホテルに帰(かえ)ってから食(た)べます。 | Then I'll eat it after returning to the hotel.
+Speaker 2: お茶(ちゃ)と一緒(いっしょ)に食(た)べると、もっと美味(おい)しいですよ。 | It's even more delicious if you eat it with tea.
+Speaker 1: わかりました。鹿児島(かごしま)の緑茶(りょくちゃ)を買(か)います。 | Understood. I'll buy Kagoshima green tea.
+Speaker 2: すぐそこにお茶(ちゃ)の店(みせ)がありますから、行(い)ってみてくださいね。 | There is a tea shop right over there, so please go check it out.
+===
+Speaker 1: すごい人(ひと)ですね。何(なに)の祭(まつ)りですか。 | There are so many people. What festival is it?
+Speaker 2: 博多祇園山笠(はかたぎおんやまかさ)という祭(まつ)りの準備(じゅんび)ですよ。 | It's the preparation for a festival called Hakata Gion Yamakasa.
+Speaker 1: 山笠(やまかさ)ですか。あれはとても大(おお)きいですね。 | Yamakasa? That one is very big.
+Speaker 2: 飾(かざ)り山(やま)と言(い)います。綺麗(きれい)でしょう。 | It's called Kazariyama. It's beautiful, isn't it?
+Speaker 1: はい、色(いろ)がたくさんあって綺麗(きれい)です。 | Yes, it has many colors and is beautiful.
+Speaker 2: 櫛田神社(くしだじんじゃ)の中(なか)に入(はい)りますか。 | Are you going inside Kushida Shrine?
+Speaker 1: はい、入(はい)ってもいいですか。 | Yes, is it okay to go in?
+Speaker 2: もちろんです。一緒(いっしょ)に行(い)きましょう。 | Of course. Let's go together.
+Speaker 1: ありがとうございます。男(おとこ)の人(ひと)がたくさんいますね。 | Thank you. There are a lot of men.
+Speaker 2: ええ、みんな祭(まつ)りの服(ふく)を着(き)ています。 | Yes, they are all wearing festival clothes.
+Speaker 1: あの服(ふく)はかっこいいですね。 | Those clothes look cool.
+Speaker 2: はっぴと言(い)います。着(き)たいですか。 | It's called Happi. Do you want to wear one?
+Speaker 1: はい、着(き)たいですが、服(ふく)がありません。 | Yes, I want to wear one, but I don't have the clothes.
+Speaker 2: 私(わたし)の店(みせ)に古(ふる)いはっぴがありますよ。貸(か)しましょうか。 | I have an old happi in my shop. Shall I lend it to you?
+Speaker 1: 本当(ほんとう)ですか。嬉(うれ)しいです。 | Really? I'm so happy.
+Speaker 2: 写真(しゃしん)をたくさん撮(と)ってくださいね。どこから来(き)ましたか。 | Please take lots of pictures. Where did you come from?
+Speaker 1: アメリカからです。アメリカの家族(かぞく)に見(み)せます。 | From America. I'll show them to my family in America.
+Speaker 2: 家族(かぞく)もきっと嬉(うれ)しいですよ。 | I'm sure your family will be happy too.
+Speaker 1: 福岡(ふくおか)の祭(まつ)りはとても元気(げんき)ですね。 | Fukuoka's festivals are very energetic.
+Speaker 2: ええ、町(まち)のみんなが祭(まつ)り好(す)きですから。 | Yes, everyone in the town loves festivals.
+===
+Speaker 1: おはようございます。 | Good morning.
+Speaker 2: おはようございます。よく眠(ねむ)れましたか。 | Good morning. Did you sleep well?
+Speaker 1: はい、とても静(しず)かで、よく眠(ねむ)れました。 | Yes, it was very quiet, and I slept well.
+Speaker 2: それはよかったです。朝(あさ)の温泉(おんせん)に入(はい)りましたか。 | That's good to hear. Did you take a morning hot spring bath?
+Speaker 1: はい、新明館(しんめいかん)の露天風呂(ろてんぶろ)に入(はい)りました。 | Yes, I went into the open-air bath at Shinmeikan.
+Speaker 2: 黒川温泉(くろかわおんせん)のお湯(ゆ)はどうでしたか。 | How was the water at Kurokawa Onsen?
+Speaker 1: 朝(あさ)の空気(くうき)が冷(つめ)たくて、お湯(ゆ)は温(あたた)かくて最高(さいこう)でした。 | The morning air was cold, and the water was warm; it was the best.
+Speaker 2: 朝(あさ)ごはんの準備(じゅんび)ができましたよ。食堂(しょくどう)へどうぞ。 | Breakfast is ready. Please head to the dining room.
+Speaker 1: ありがとうございます。今日(きょう)の朝(あさ)ごはんは何(なん)ですか。 | Thank you. What's for breakfast today?
+Speaker 2: 熊本(くまもと)の野菜(やさい)と、温(あたた)かいお味噌汁(みそしる)です。 | Kumamoto vegetables and warm miso soup.
+Speaker 1: とても美味(おい)しそうです。いただきます。 | It looks very delicious. Let's eat.
+Speaker 2: 温泉卵(おんせんたまご)もありますよ。食(た)べられますか。 | There's also hot spring eggs (Onsen Tamago). Can you eat them?
+Speaker 1: はい、卵(たまご)は好(す)きです。アメリカでもよく食(た)べます。 | Yes, I like eggs. I eat them often in America too.
+Speaker 2: 今日(きょう)はこの後(あと)どこへ行(い)きますか。 | Where are you going later today?
+Speaker 1: 阿蘇山(あそさん)に行(い)く予定(よてい)です。 | I plan to go to Mount Aso.
+Speaker 2: 阿蘇(あそ)ですか。今日(きょう)は天気(てんき)がいいから景色(けしき)が綺麗(きれい)ですよ。 | Aso? The weather is good today, so the scenery will be beautiful.
+Speaker 1: バスでどのくらいかかりますか。 | How long does it take by bus?
+Speaker 2: ここから1時間(じかん)ぐらいかかります。 | It takes about 1 hour from here.
+Speaker 1: そうですか。楽(たの)しみです。 | I see. I'm looking forward to it.
+Speaker 2: 朝(あさ)ごはんをたくさん食(た)べて、気(き)をつけて行(い)ってくださいね。 | Please eat a lot of breakfast and travel safely.
+===
+Speaker 1: いろいろありがとうございました。 | Thank you for everything.
+Speaker 2: いいえ、こちらこそ楽(たの)しかったです。 | Not at all, I had a good time too.
+Speaker 1: 福岡(ふくおか)の旅行(りょこう)は本当(ほんとう)に最高(さいこう)でした。 | My trip to Fukuoka was truly the best.
+Speaker 2: またいつでも遊(あそ)びに来(き)てくださいね。 | Please come visit anytime.
+Speaker 1: はい、次(つぎ)はアメリカの友達(ともだち)と一緒(いっしょ)に来(き)たいです。 | Yes, next time I want to come with my American friends.
+Speaker 2: お土産(みやげ)は買(か)いましたか。 | Did you buy souvenirs?
+Speaker 1: はい、博多駅(はかたえき)でたくさん買(か)いました。 | Yes, I bought a lot at Hakata Station.
+Speaker 2: 何(なに)を買(か)いましたか。 | What did you buy?
+Speaker 1: 明太子(めんたいこ)と、通(とお)りもんというお菓子(かし)です。 | Mentaiko and a sweet called "Torimon".
+Speaker 2: 通(とお)りもん！一番(いちばん)人気(にんき)があるお菓子(かし)ですね。 | Torimon! That's the most popular sweet.
+Speaker 1: はい、甘(あま)くて美味(おい)しいと聞(き)きました。 | Yes, I heard it's sweet and delicious.
+Speaker 2: アメリカの友達(ともだち)も好(す)きだと思(おも)いますよ。 | I think your American friends will like it too.
+Speaker 1: 新幹線(しんかんせん)の時間(じかん)は10時(じ)です。 | My bullet train is at 10 o'clock.
+Speaker 2: あと20分(ぷん)ですね。ホームまで一緒(いっしょ)に行(い)きましょう。 | That's in 20 minutes. Let's go to the platform together.
+Speaker 1: ありがとうございます。荷物(にもつ)が重(おも)いですから、とても嬉(うれ)しいです。 | Thank you. My luggage is heavy, so I'm very happy.
+Speaker 2: アメリカに帰(かえ)ってから、料理(りょうり)しますか。 | Are you going to cook after you return to America?
+Speaker 1: はい、家(いえ)でとんこつラーメンを作(つく)ってみます。 | Yes, I'll try making tonkotsu ramen at home.
+Speaker 2: いいですね。写真(しゃしん)を送(おく)ってください。 | That sounds good. Please send me a picture.
+Speaker 1: わかりました。本当(ほんとう)にお世話(せわ)になりました。 | I will. Thank you really for taking care of me.
+Speaker 2: 気(き)をつけて帰(かえ)ってね。さようなら。 | Have a safe trip back. Goodbye.
+`;
+
+        // 10-Question Kanji Quiz Data based on the new script
+        const quizData = [
+            { kanji: "屋台", meaning: "Food stall", choices: ["やたい", "やだい", "おくたい", "おくんだい"], correct: 0 },
+            { kanji: "温泉", meaning: "Hot spring", choices: ["おんぜん", "おんせん", "あつせん", "ゆいずみ"], correct: 1 },
+            { kanji: "自動販売機", meaning: "Vending machine", choices: ["じとうはんばいき", "じどうはんはいき", "じどうはんばいき", "ちどうはんぱいき"], correct: 2 },
+            { kanji: "特別", meaning: "Special", choices: ["とくべつ", "とくへつ", "どくべつ", "とっぺつ"], correct: 0 },
+            { kanji: "景色", meaning: "Scenery", choices: ["けいしょく", "けしき", "けいろ", "きしき"], correct: 1 },
+            { kanji: "親切", meaning: "Kind / Helpful", choices: ["しんせつ", "しんぜつ", "ちかきり", "おやせつ"], correct: 0 },
+            { kanji: "準備", meaning: "Preparation", choices: ["じゅんび", "じゅんぴ", "しゅんび", "しゅんぴ"], correct: 0 },
+            { kanji: "食堂", meaning: "Dining hall / Cafeteria", choices: ["しょくどう", "しょくとう", "たべどう", "じきどう"], correct: 0 },
+            { kanji: "荷物", meaning: "Baggage / Luggage", choices: ["かもつ", "にもつ", "にもち", "かぶつ"], correct: 1 },
+            { kanji: "新幹線", meaning: "Bullet train", choices: ["しんかんせん", "しんがんせん", "しんかんぜん", "あたらしかんせん"], correct: 0 }
+        ];
+
+        function kanaToRomaji(text) {
+            const map = {
+                'あ':'a', 'い':'i', 'う':'u', 'え':'e', 'お':'o',
+                'か':'ka', 'き':'ki', 'く':'ku', 'け':'ke', 'こ':'ko',
+                'さ':'sa', 'し':'shi', 'す':'su', 'せ':'se', 'そ':'so',
+                'た':'ta', 'ち':'chi', 'つ':'tsu', 'て':'te', 'と':'to',
+                'な':'na', 'に':'ni', 'ぬ':'nu', 'ね':'ne', 'の':'no',
+                'は':'ha', 'ひ':'hi', 'ふ':'fu', 'へ':'he', 'ほ':'ho',
+                'ま':'ma', 'み':'mi', 'む':'mu', 'め':'me', 'も':'mo',
+                'や':'ya', 'ゆ':'yu', 'よ':'yo',
+                'ら':'ra', 'り':'ri', 'る':'ru', 'れ':'re', 'ろ':'ro',
+                'わ':'wa', 'を':'o', 'ん':'n',
+                'が':'ga', 'ぎ':'gi', 'ぐ':'gu', 'げ':'ge', 'ご':'go',
+                'ざ':'za', 'じ':'ji', 'ず':'zu', 'ぜ':'ze', 'ぞ':'zo',
+                'だ':'da', 'ぢ':'ji', 'づ':'zu', 'で':'de', 'ど':'do',
+                'ば':'ba', 'び':'bi', 'ぶ':'bu', 'べ':'be', 'ぼ':'bo',
+                'ぱ':'pa', 'ぴ':'pi', 'ぷ':'pu', 'ぺ':'pe', 'ぽ':'po',
+                'きゃ':'kya', 'きゅ':'kyu', 'きょ':'kyo',
+                'しゃ':'sha', 'しゅ':'shu', 'しょ':'sho',
+                'ちゃ':'cha', 'ちゅ':'chu', 'ちょ':'cho',
+                'にゃ':'nya', 'にゅ':'nyu', 'にょ':'nyo',
+                'ひゃ':'hya', 'ひゅ':'hyu', 'ひょ':'hyo',
+                'みゃ':'mya', 'みゅ':'myu', 'みょ':'myo',
+                'りゃ':'rya', 'りゅ':'ryu', 'りょ':'ryo',
+                'ぎゃ':'gya', 'ぎゅ':'gyu', 'ぎょ':'gyo',
+                'じゃ':'ja', 'じゅ':'ju', 'じょ':'jo',
+                'びゃ':'bya', 'びゅ':'byu', 'びょ':'byo',
+                'ぴゃ':'pya', 'ぴゅ':'pyu', 'ぴょ':'pyo',
+                'ふぁ':'fa', 'ふぃ':'fi', 'ふぇ':'fe', 'ふぉ':'fo',
+                'てぃ':'ti', 'でぃ':'di', 'うぃ':'wi', 'うぇ':'we',
+                'ー':'-', '、': ', ', '。': '.', '？': '?', '！': '!', '…': '...'
+            };
+            
+            let hira = text.replace(/[\u30a1-\u30f6]/g, function(match) {
+                return String.fromCharCode(match.charCodeAt(0) - 0x60);
+            });
+
+            let romaji = "";
+            let i = 0;
+            while (i < hira.length) {
+                let char2 = hira.substring(i, i+2);
+                let char1 = hira.substring(i, i+1);
+                
+                if (map[char2]) {
+                    romaji += map[char2];
+                    i += 2;
+                } else if (char1 === 'っ') {
+                    let nextChar = hira.substring(i+1, i+2);
+                    let nextChar2 = hira.substring(i+1, i+3);
+                    let nextRomaji = map[nextChar2] || map[nextChar];
+                    if (nextRomaji && nextRomaji.length > 0 && nextRomaji.match(/^[a-z]/i)) {
+                        romaji += nextRomaji.charAt(0);
+                    }
+                    i++;
+                } else if (map[char1]) {
+                    romaji += map[char1];
+                    i++;
+                } else {
+                    romaji += char1;
+                    i++;
+                }
+            }
+            if(romaji.length > 0) {
+                romaji = romaji.charAt(0).toUpperCase() + romaji.slice(1);
+            }
+            return romaji.replace(/\s+/g, ' ').trim();
+        }
+
+        const scenes = [];
+        let currentScene = { lines: [] };
+
+        const lines = rawData.trim().split('\n');
+        for (let line of lines) {
+            line = line.trim();
+            if (line === '') continue;
+
+            if (line.startsWith('===')) {
+                if (currentScene.lines.length > 0) {
+                    scenes.push(currentScene);
+                }
+                currentScene = { lines: [] };
+            } else {
+                const parts = line.split('|');
+                let jpPart = parts[0].trim();
+                let enPart = parts.length > 1 ? parts[1].trim() : "";
+                
+                const match = jpPart.match(/^(Speaker \d+):\s*(.*)/);
+                if (match) {
+                    const speaker = match[1];
+                    const rawJpText = match[2];
+                    
+                    const speakText = rawJpText.replace(/[\u4e00-\u9faf]+\(([\u3040-\u309f]+)\)/g, "$1");
+                    
+                    currentScene.lines.push({
+                        speaker: speaker,
+                        rawJp: rawJpText,
+                        english: enPart,
+                        speakText: speakText,
+                        romaji: kanaToRomaji(speakText)
+                    });
+                }
+            }
+        }
+        if (currentScene.lines.length > 0) {
+            scenes.push(currentScene);
+        }
+
+        const sceneTitles = [
+            "Scene 1: 屋台ラーメン (Ramen Stall in Fukuoka)",
+            "Scene 2: 別府・竹瓦温泉 (Takegawara Onsen in Beppu)",
+            "Scene 3: 熊本城 (Kumamoto Castle)",
+            "Scene 4: 糸島いちご狩り (Strawberry Picking in Itoshima)",
+            "Scene 5: ゆふいんの森 (Yufuin no Mori Train)",
+            "Scene 6: 長崎・オランダ坂 (Dutch Slope in Nagasaki)",
+            "Scene 7: 鹿児島・かるかん (Karukan Sweets in Kagoshima)",
+            "Scene 8: 博多祇園山笠 (Hakata Gion Yamakasa Festival)",
+            "Scene 9: 黒川温泉の朝 (Morning at Kurokawa Onsen)",
+            "Scene 10: 福岡出発 (Departure from Fukuoka)"
+        ];
+
+        function formatJapanese(text, hideFurigana) {
+            return text.replace(/([\u4e00-\u9faf]+)\(([\u3040-\u309f]+)\)/g, (match, kanji, furigana) => {
+                if (hideFurigana) {
+                    // ルビを隠して、クリック時にふりがなを上部に表示
+                    return `<span class="inline-block mx-0.5 cursor-pointer border-b-2 border-dashed border-yellow-400 hover:bg-yellow-50 transition-colors px-0.5 font-bold" onclick="revealFurigana(this, '${kanji}', '${furigana}')" title="タップして読み方を表示">${kanji}</span>`;
+                } else {
+                    return `<ruby class="mx-0.5">${kanji}<rt>${furigana}</rt></ruby>`;
+                }
+            });
+        }
+
+        window.revealFurigana = function(el, kanji, furigana) {
+            el.outerHTML = `<ruby class="mx-0.5 bg-yellow-100 rounded px-1 animate-pulse text-blue-900">${kanji}<rt class="text-blue-600 font-bold" style="font-size: 0.65rem;">${furigana}</rt></ruby>`;
+        };
+
+        function renderScene() {
+            const container = document.getElementById('dialogue-list');
+            container.innerHTML = '';
+            
+            const scene = scenes[appState.currentSceneIndex];
+            
+            scene.lines.forEach((line, index) => {
+                const isSpeaker1 = line.speaker === "Speaker 1";
+                const alignment = isSpeaker1 ? "self-start" : "self-end";
+                const bgColor = isSpeaker1 ? "speaker-1-bg border border-gray-200" : "speaker-2-bg border border-blue-100";
+                const borderRadius = isSpeaker1 ? "rounded-tr-2xl rounded-br-2xl rounded-bl-2xl" : "rounded-tl-2xl rounded-br-2xl rounded-bl-2xl";
+                const icon = isSpeaker1 ? "fa-user-tie" : "fa-user";
+                const iconColor = isSpeaker1 ? "text-gray-500" : "text-blue-500";
+
+                const jpFormatted = formatJapanese(line.rawJp, appState.hideFurigana);
+
+                let extraContent = '';
+                if (appState.showRomaji) {
+                    extraContent += `<div class="text-sm text-gray-500 mt-2 font-mono bg-gray-50 p-2 rounded">${line.romaji}</div>`;
+                }
+                if (appState.showTranslation) {
+                    extraContent += `<div class="text-sm text-gray-700 mt-2 italic border-l-2 border-gray-300 pl-2">${line.english}</div>`;
+                }
+
+                const html = `
+                    <div class="flex gap-3 max-w-[95%] sm:max-w-[85%] ${alignment} fade-in" style="animation-delay: ${index * 0.05}s">
+                        ${isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                        
+                        <div class="flex flex-col gap-1 w-full">
+                            <div class="text-xs text-gray-500 font-medium px-1 ${!isSpeaker1 ? 'text-right' : ''}">${line.speaker}</div>
+                            <div class="${bgColor} ${borderRadius} p-4 shadow-sm relative group w-full">
+                                <div class="flex items-start gap-3 justify-between">
+                                    <div class="text-[1.05rem] leading-loose break-words flex-1 tracking-wide font-medium">
+                                        ${jpFormatted}
+                                    </div>
+                                    <button onclick="playAudio('${line.speakText.replace(/'/g, "\\'")}')" class="shrink-0 w-8 h-8 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-400 hover:text-blue-500 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300" title="Play audio">
+                                        <i class="fa-solid fa-volume-high"></i>
+                                    </button>
+                                </div>
+                                ${extraContent}
+                            </div>
+                        </div>
+
+                        ${!isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                    </div>
+                `;
+                container.insertAdjacentHTML('beforeend', html);
+            });
+        }
+
+        function playAudio(text) {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'ja-JP';
+                utterance.rate = 0.85; 
+                window.speechSynthesis.speak(utterance);
+            }
+        }
+
+        async function playEntireScene() {
+            if (!('speechSynthesis' in window)) return;
+            
+            const playBtnIcon = document.querySelector('#play-scene-btn i');
+
+            if (appState.isPlaying) {
+                window.speechSynthesis.cancel();
+                appState.isPlaying = false;
+                playBtnIcon.className = 'fa-solid fa-play';
+                return;
+            }
+
+            appState.isPlaying = true;
+            playBtnIcon.className = 'fa-solid fa-stop';
+            const scene = scenes[appState.currentSceneIndex];
+            
+            for (let i = 0; i < scene.lines.length; i++) {
+                if (!appState.isPlaying) break; 
+                
+                const line = scene.lines[i];
+                
+                await new Promise(resolve => {
+                    const utterance = new SpeechSynthesisUtterance(line.speakText);
+                    utterance.lang = 'ja-JP';
+                    utterance.rate = 0.85;
+                    utterance.onend = resolve;
+                    utterance.onerror = resolve;
+                    window.speechSynthesis.speak(utterance);
+                });
+                
+                await new Promise(r => setTimeout(r, 600));
+            }
+            appState.isPlaying = false;
+            playBtnIcon.className = 'fa-solid fa-play';
+        }
+
+        function startQuiz() {
+            appState.currentQuestionIndex = 0;
+            appState.score = 0;
+            appState.isAnswering = false;
+            renderQuizQuestion();
+        }
+
+        function renderQuizQuestion() {
+            const container = document.getElementById('quiz-body');
+            const progress = document.getElementById('quiz-progress');
+            
+            // Show score if finished
+            if (appState.currentQuestionIndex >= quizData.length) {
+                progress.innerText = `Result`;
+                container.innerHTML = `
+                    <div class="text-center py-8 fade-in">
+                        <div class="w-20 h-20 mx-auto bg-blue-100 text-blue-500 rounded-full flex items-center justify-center text-4xl mb-4">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Quiz Completed!</h3>
+                        <p class="text-gray-600 mb-6">Your Score: <span class="font-bold text-blue-600 text-xl">${appState.score}</span> / ${quizData.length}</p>
+                        <button onclick="startQuiz()" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors">
+                            Try Again
+                        </button>
+                    </div>
+                `;
+                return;
+            }
+
+            const q = quizData[appState.currentQuestionIndex];
+            progress.innerText = `${appState.currentQuestionIndex + 1} / ${quizData.length}`;
+
+            // Create buttons HTML
+            let buttonsHtml = '';
+            q.choices.forEach((choice, index) => {
+                buttonsHtml += `
+                    <button onclick="handleAnswer(${index})" class="quiz-btn w-full text-left p-4 rounded-xl border-2 border-gray-200 hover:border-blue-400 hover:bg-blue-50 font-medium text-lg text-gray-700 focus:outline-none">
+                        <span class="inline-block w-8 text-center text-gray-400 font-bold mr-2">${index + 1}.</span> ${choice}
+                    </button>
+                `;
+            });
+
+            container.innerHTML = `
+                <div class="fade-in">
+                    <div class="mb-8 text-center">
+                        <p class="text-gray-500 text-sm font-medium mb-2 uppercase tracking-wider">Choose the correct reading</p>
+                        <h3 class="text-6xl font-black text-gray-800 tracking-widest my-4 font-['Noto_Sans_JP']">${q.kanji}</h3>
+                        <p class="text-gray-400 italic">${q.meaning}</p>
+                    </div>
+                    <div class="flex flex-col gap-3" id="quiz-choices">
+                        ${buttonsHtml}
+                    </div>
+                </div>
+            `;
+        }
+
+        window.handleAnswer = function(selectedIndex) {
+            if (appState.isAnswering) return;
+            appState.isAnswering = true;
+
+            const q = quizData[appState.currentQuestionIndex];
+            const buttons = document.querySelectorAll('#quiz-choices button');
+            const isCorrect = selectedIndex === q.correct;
+
+            if (isCorrect) {
+                appState.score++;
+                buttons[selectedIndex].classList.add('correct-answer');
+            } else {
+                buttons[selectedIndex].classList.add('wrong-answer');
+                // Highlight correct answer
+                buttons[q.correct].classList.add('correct-answer');
+            }
+
+            // Wait 1.2s then next question
+            setTimeout(() => {
+                appState.currentQuestionIndex++;
+                appState.isAnswering = false;
+                renderQuizQuestion();
+            }, 1200);
+        };
+
+        function switchTab(tabId) {
+            appState.activeTab = tabId;
+            const btnConv = document.getElementById('tab-btn-conv');
+            const btnQuiz = document.getElementById('tab-btn-quiz');
+            const viewConv = document.getElementById('view-conv');
+            const viewQuiz = document.getElementById('view-quiz');
+
+            if (tabId === 'conv') {
+                btnConv.className = "px-4 py-2 font-medium text-blue-600 border-b-2 border-blue-600 hover:bg-gray-50 transition-colors";
+                btnQuiz.className = "px-4 py-2 font-medium text-gray-500 border-b-2 border-transparent hover:bg-gray-50 hover:text-gray-700 transition-colors";
+                viewConv.classList.remove('hidden');
+                viewConv.classList.add('flex');
+                viewQuiz.classList.add('hidden');
+            } else {
+                btnQuiz.className = "px-4 py-2 font-medium text-blue-600 border-b-2 border-blue-600 hover:bg-gray-50 transition-colors";
+                btnConv.className = "px-4 py-2 font-medium text-gray-500 border-b-2 border-transparent hover:bg-gray-50 hover:text-gray-700 transition-colors";
+                viewQuiz.classList.remove('hidden');
+                viewConv.classList.remove('flex');
+                viewConv.classList.add('hidden');
+                
+                // Stop audio if playing
+                if (appState.isPlaying) {
+                    window.speechSynthesis.cancel();
+                    appState.isPlaying = false;
+                    document.querySelector('#play-scene-btn i').className = 'fa-solid fa-play';
+                }
+
+                // Reset and start quiz if visiting for the first time or want to restart implicitly
+                if (appState.currentQuestionIndex === 0 && appState.score === 0) {
+                    startQuiz();
+                }
+            }
+        }
+
+        function init() {
+            // Populate Scene Selector
+            const selector = document.getElementById('scene-selector');
+            scenes.forEach((scene, index) => {
+                const option = document.createElement('option');
+                option.value = index;
+                option.textContent = sceneTitles[index] || `Scene ${index + 1}`;
+                selector.appendChild(option);
+            });
+
+            // Conversation Event Listeners
+            selector.addEventListener('change', (e) => {
+                appState.currentSceneIndex = parseInt(e.target.value);
+                window.speechSynthesis.cancel();
+                appState.isPlaying = false;
+                document.querySelector('#play-scene-btn i').className = 'fa-solid fa-play';
+                renderScene();
+                document.getElementById('chat-container').scrollTop = 0;
+            });
+
+            document.getElementById('toggle-romaji').addEventListener('change', (e) => {
+                appState.showRomaji = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-translation').addEventListener('change', (e) => {
+                appState.showTranslation = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-kanji-test').addEventListener('change', (e) => {
+                appState.hideFurigana = e.target.checked;
+                renderScene();
+            });
+
+            // Tab Event Listeners
+            document.getElementById('tab-btn-conv').addEventListener('click', () => switchTab('conv'));
+            document.getElementById('tab-btn-quiz').addEventListener('click', () => switchTab('quiz'));
+
+            // Initial Render
+            renderScene();
+            startQuiz(); // pre-render quiz implicitly
+        }
+
+        document.addEventListener('DOMContentLoaded', init);
+        
+        window.addEventListener('beforeunload', () => {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+            }
+        });
+
+    </script>
+</body>
+</html>
