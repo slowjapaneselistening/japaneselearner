@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Conversation Learner</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+            background-color: #f3f4f6;
+        }
+        ruby {
+            ruby-align: center;
+        }
+        rt {
+            font-size: 0.65rem;
+            color: #6b7280;
+        }
+        .speaker-1-bg { background-color: #ffffff; }
+        .speaker-2-bg { background-color: #e0f2fe; }
+        
+        /* Custom Toggle Switch */
+        .toggle-checkbox:checked {
+            right: 0;
+            border-color: #3b82f6;
+        }
+        .toggle-checkbox:checked + .toggle-label {
+            background-color: #3b82f6;
+        }
+        
+        /* Fade in animation */
+        .fade-in {
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="text-gray-800 h-screen flex flex-col">
+
+    <header class="bg-white shadow-sm z-10 sticky top-0">
+        <div class="max-w-4xl mx-auto px-4 py-3 flex flex-col sm:flex-row justify-between items-center gap-3">
+            <h1 class="text-xl font-bold text-gray-800 flex items-center gap-2">
+                <i class="fa-solid fa-language text-blue-500"></i>
+                <span>Nihongo Learner</span>
+            </h1>
+            
+            <div class="flex items-center gap-2 w-full sm:w-auto">
+                <select id="scene-selector" class="w-full sm:w-auto bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2">
+                    <!-- Options populated by JS -->
+                </select>
+                <button onclick="playEntireScene()" class="whitespace-nowrap bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center gap-2 text-sm shadow-sm">
+                    <i class="fa-solid fa-play"></i> <span class="hidden sm:inline">Play Scene</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="bg-gray-100 border-b border-gray-200">
+        <div class="max-w-4xl mx-auto px-4 py-3 flex flex-wrap gap-4 justify-center sm:justify-start text-sm">
+            
+            <!-- Romaji Toggle -->
+            <div class="flex items-center gap-2">
+                <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
+                    <input type="checkbox" name="toggle" id="toggle-romaji" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-white border-4 border-gray-300 appearance-none cursor-pointer transition-transform duration-200 ease-in-out z-10" />
+                    <label for="toggle-romaji" class="toggle-label block overflow-hidden h-5 rounded-full bg-gray-300 cursor-pointer transition-colors duration-200 ease-in-out"></label>
+                </div>
+                <label for="toggle-romaji" class="cursor-pointer font-medium text-gray-700">Romaji</label>
+            </div>
+
+            <!-- Translation Toggle -->
+            <div class="flex items-center gap-2">
+                <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
+                    <input type="checkbox" name="toggle" id="toggle-translation" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-white border-4 border-gray-300 appearance-none cursor-pointer transition-transform duration-200 ease-in-out z-10" />
+                    <label for="toggle-translation" class="toggle-label block overflow-hidden h-5 rounded-full bg-gray-300 cursor-pointer transition-colors duration-200 ease-in-out"></label>
+                </div>
+                <label for="toggle-translation" class="cursor-pointer font-medium text-gray-700">English</label>
+            </div>
+
+            <!-- Kanji Test Toggle -->
+            <div class="flex items-center gap-2 ml-auto bg-yellow-100 px-3 py-1.5 rounded-lg border border-yellow-300">
+                <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
+                    <input type="checkbox" name="toggle" id="toggle-kanji-test" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-white border-4 border-yellow-400 appearance-none cursor-pointer transition-transform duration-200 ease-in-out z-10" />
+                    <label for="toggle-kanji-test" class="toggle-label block overflow-hidden h-5 rounded-full bg-yellow-300 cursor-pointer transition-colors duration-200 ease-in-out"></label>
+                </div>
+                <label for="toggle-kanji-test" class="cursor-pointer font-bold text-yellow-800"><i class="fa-solid fa-pencil mr-1"></i> Kanji Test</label>
+            </div>
+
+        </div>
+    </div>
+
+    <main class="flex-1 overflow-y-auto p-4 sm:p-6" id="chat-container">
+        <div class="max-w-4xl mx-auto flex flex-col gap-4 pb-20" id="dialogue-list">
+            <!-- Messages will be injected here -->
+        </div>
+    </main>
+
+    <script>
+        // rawData contains the original script + manually added English translations separated by '|'
+        const rawData = `
+Speaker 1: いらっしゃいませ。 | Welcome.
+Speaker 2: すみません、二人(ふたり)です。 | Excuse me, table for two.
+Speaker 1: 二名(にめい)様(さま)ですね。ご予約(よやく)はされていますか。 | A table for two. Do you have a reservation?
+Speaker 2: いいえ、予約(よやく)していません。入(はい)れますか。 | No, we haven't booked. Can we get in?
+Speaker 1: はい、大丈夫(だいじょうぶ)ですよ。 | Yes, no problem.
+Speaker 2: ありがとうございます。 | Thank you.
+Speaker 1: お煙草(たばこ)は吸(す)いますか。 | Do you smoke?
+Speaker 2: いいえ、吸(す)いません。 | No, I don't smoke.
+Speaker 1: かしこまりました。禁煙(きんえん)席(せき)ですね。 | Understood. Non-smoking seat, right?
+Speaker 2: あそこの窓(まど)の席(せき)は空(あ)いていますか。 | Is that window seat over there open?
+Speaker 1: 窓(まど)の席(せき)ですね。はい、空(あ)いていますよ。 | The window seat. Yes, it's open.
+Speaker 2: じゃあ、あの席(せき)をお願(ねが)いします。 | Then, I'd like that seat, please.
+Speaker 1: かしこまりました。こちらへどうぞ。 | Certainly. Right this way.
+Speaker 2: ありがとうございます。 | Thank you.
+Speaker 1: メニューでございます。 | Here is the menu.
+Speaker 2: すみません、英語(えいご)のメニューはありますか。 | Excuse me, do you have an English menu?
+Speaker 1: はい、ございます。少(すこ)しお待(ま)ちください。 | Yes, we do. Please wait a moment.
+Speaker 2: お願(ねが)いします。 | Please.
+Speaker 1: お待(ま)たせしました。英語(えいご)のメニューです。 | Thank you for waiting. Here is the English menu.
+Speaker 2: ありがとうございます。後(あと)で注文(ちゅうもん)します。 | Thank you. I will order later.
+Speaker 1: はい。お決(き)まりになりましたら、お呼(よ)びください。 | Yes. Please call me when you are ready to order.
+===
+Speaker 2: すみません。 | Excuse me.
+Speaker 1: はい、お伺(うかが)いします。 | Yes, how can I help you?
+Speaker 2: この料理(りょうり)は何(なん)ですか。 | What is this dish?
+Speaker 1: そちらは、鶏肉(とりにく)と野菜(やさい)の炒(いた)め物(もの)です。 | That is a chicken and vegetable stir-fry.
+Speaker 2: 鶏肉(とりにく)ですね。辛(から)いですか。 | Chicken, right. Is it spicy?
+Speaker 1: いいえ、全然(ぜんぜん)辛(から)くないです。少(すこ)し甘(あま)いですよ。 | No, it's not spicy at all. It's a little sweet.
+Speaker 2: そうですか。じゃあ、これは何(なん)ですか。 | I see. Then, what is this?
+Speaker 1: それは海鮮(かいせん)のスープです。 | That is a seafood soup.
+Speaker 2: 海鮮(かいせん)ですか。魚(さかな)やエビが入(はい)っていますか。 | Seafood? Does it have fish or shrimp in it?
+Speaker 1: はい、エビとイカが入(はい)っています。 | Yes, it has shrimp and squid.
+Speaker 2: 美味(おい)しいですか。 | Is it delicious?
+Speaker 1: はい、当店(とうてん)で一番(いちばん)人気(にんき)があります。 | Yes, it's the most popular in our restaurant.
+Speaker 2: それはいいですね。熱(あつ)いですか。 | That sounds good. Is it hot?
+Speaker 1: はい、とても熱(あつ)いですよ。気(き)をつけてください。 | Yes, it's very hot. Please be careful.
+Speaker 2: わかりました。このサラダはどうですか。 | Understood. How about this salad?
+Speaker 1: トマトとチーズのサラダです。 | It's a tomato and cheese salad.
+Speaker 2: 大(おお)きいですか。 | Is it big?
+Speaker 1: 二人(ふたり)でちょうどいいサイズです。 | It's just the right size for two people.
+Speaker 2: わかりました。いろいろありますね。 | Understood. There are many things.
+Speaker 1: はい、ゆっくり選(えら)んでください。 | Yes, please take your time choosing.
+Speaker 2: ありがとうございます。もう少(すこ)し考(かんが)えます。 | Thank you. I will think a little more.
+Speaker 1: かしこまりました。 | Certainly.
+===
+Speaker 2: すみません、注文(ちゅうもん)をお願(ねが)いします。 | Excuse me, I'd like to order.
+Speaker 1: はい、お伺(うかが)いします。 | Yes, what would you like?
+Speaker 2: この鶏肉(とりにく)の炒(いた)め物(もの)を一(ひと)つください。 | I'll have one of this chicken stir-fry.
+Speaker 1: 鶏肉(とりにく)の炒(いた)め物(もの)が一(ひと)つですね。 | One chicken stir-fry.
+Speaker 2: はい。それから、海鮮(かいせん)スープを二(ふた)つお願(ねが)いします。 | Yes. And two seafood soups, please.
+Speaker 1: 海鮮(かいせん)スープが二(ふた)つですね。かしこまりました。 | Two seafood soups. Certainly.
+Speaker 2: あと、ごはんはありますか。 | Also, do you have rice?
+Speaker 1: はい、ございます。大(おお)きいごはんと、小(ちい)さいごはんがあります。 | Yes, we do. We have large rice and small rice.
+Speaker 2: じゃあ、小(ちい)さいごはんを二(ふた)つください。 | Then, two small rice, please.
+Speaker 1: 小(ちい)さいごはんが二(ふた)つですね。 | Two small rice.
+Speaker 2: はい。お飲(の)み物(もの)のメニューはどこですか。 | Yes. Where is the drink menu?
+Speaker 1: こちらでございます。 | It's right here.
+Speaker 2: ビールはありますか。 | Do you have beer?
+Speaker 1: はい、生(なま)ビールと瓶(びん)ビールがございます。 | Yes, we have draft beer and bottled beer.
+Speaker 2: 生(なま)ビールを二(ふた)つお願(ねが)いします。 | Two draft beers, please.
+Speaker 1: かしこまりました。生(なま)ビールが二(ふた)つですね。 | Certainly. Two draft beers.
+Speaker 2: ビールは先(さき)に持(も)ってきてください。 | Please bring the beer first.
+Speaker 1: はい、かしこまりました。 | Yes, certainly.
+Speaker 2: 注文(ちゅうもん)は以上(いじょう)です。 | That's all for the order.
+Speaker 1: ありがとうございます。少(すこ)しお待(ま)ちください。 | Thank you. Please wait a moment.
+===
+Speaker 2: すみません。 | Excuse me.
+Speaker 1: はい、どうされましたか。 | Yes, what's wrong?
+Speaker 2: お箸(はし)を落(お)としました。 | I dropped my chopsticks.
+Speaker 1: かしこまりました。新(あたら)しいお箸(はし)をお持(も)ちします。 | Certainly. I'll bring you new chopsticks.
+Speaker 2: ありがとうございます。 | Thank you.
+Speaker 1: お待(ま)たせしました。どうぞ。 | Thank you for waiting. Here you go.
+Speaker 2: すみません。お水(みず)も一杯(いっぱい)お願(ねが)いします。 | Excuse me. I'd also like a glass of water.
+Speaker 1: かしこまりました。氷(こおり)は入(い)れますか。 | Certainly. Do you want ice in it?
+Speaker 2: いいえ、氷(こおり)は入(い)れないでください。 | No, please don't put ice.
+Speaker 1: かしこまりました。すぐにお持(も)ちします。 | Certainly. I'll bring it right away.
+Speaker 2: あ、すみません。お手洗(てあら)いはどこですか。 | Ah, excuse me. Where is the restroom?
+Speaker 1: お手洗(てあら)いですね。あちらのドアの右(みぎ)にあります。 | The restroom. It's to the right of that door over there.
+Speaker 2: ドアの右(みぎ)ですね。わかりました。 | To the right of the door. Understood.
+Speaker 1: 男性(だんせい)用(よう)は青(あお)いドア、女性(じょせい)用(よう)は赤(あか)いドアです。 | Men's is the blue door, women's is the red door.
+Speaker 2: ありがとうございます。 | Thank you.
+Speaker 1: お水(みず)です。どうぞ。 | Here is your water.
+Speaker 2: ありがとうございます。この小(ちい)さいお皿(さら)を二(ふた)つください。 | Thank you. Could I have two of these small plates?
+Speaker 1: 取(と)り皿(ざら)ですね。かしこまりました。 | Small plates for sharing. Certainly.
+Speaker 2: はい、料理(りょうり)を分(わ)けますから。 | Yes, because we will share the food.
+Speaker 1: お待(ま)たせしました。お皿(さら)です。 | Thank you for waiting. Here are the plates.
+Speaker 2: いつもすみません。 | Sorry for always bothering you.
+Speaker 1: いいえ、ごゆっくりどうぞ。 | Not at all, please enjoy.
+===
+Speaker 2: ごちそうさまでした。とても美味(おい)しかったです。 | Thank you for the meal. It was very delicious.
+Speaker 1: ありがとうございます。お会計(かいけい)はこちらへどうぞ。 | Thank you. Please proceed here for the payment.
+Speaker 2: はい。全部(ぜんぶ)でいくらですか。 | Yes. How much is it in total?
+Speaker 1: 全部(ぜんぶ)で4500円(えん)でございます。 | It is 4500 yen in total.
+Speaker 2: クレジットカードは使(つか)えますか。 | Can I use a credit card?
+Speaker 1: はい、使(つか)えます。こちらにカードをお願(ねが)いします。 | Yes, you can. Please insert your card here.
+Speaker 2: これでいいですか。 | Is this okay?
+Speaker 1: はい、大丈夫(だいじょうぶ)です。暗証(あんしょう)番号(ばんごう)をお願(ねが)いします。 | Yes, it's fine. Please enter your PIN.
+Speaker 2: はい、入(い)れました。 | Yes, entered.
+Speaker 1: ありがとうございます。お支払(しはら)いは一回(いっかい)ですか。 | Thank you. Will this be a one-time payment?
+Speaker 2: はい、一回(いっかい)でお願(ねが)いします。 | Yes, one-time payment, please.
+Speaker 1: かしこまりました。カードをお返(かえ)しします。 | Certainly. I'll return your card.
+Speaker 2: 領収書(りょうしゅうしょ)をください。 | Please give me a receipt.
+Speaker 1: 領収書(りょうしゅうしょ)ですね。お名前(なまえ)はどうしますか。 | A receipt. What name should I put on it?
+Speaker 2: 名前(なまえ)は書(か)かないでください。 | Please don't write a name.
+Speaker 1: かしこまりました。こちら、領収書(りょうしゅうしょ)です。 | Certainly. Here is your receipt.
+Speaker 2: ありがとうございます。 | Thank you.
+Speaker 1: お忘(わす)れ物(もの)はありませんか。 | Do you have everything with you?
+Speaker 2: はい、大丈夫(だいじょうぶ)です。 | Yes, I'm fine.
+Speaker 1: またのお越(こ)しをお待(ま)ちしております。 | We look forward to your next visit.
+Speaker 2: はい、また来(き)ます。 | Yes, I'll come again.
+===
+Speaker 1: はい、レストラン・サクラでございます。 | Yes, this is Restaurant Sakura.
+Speaker 2: もしもし、明日(あした)の夜(よる)、予約(よやく)をしたいんですが。 | Hello, I'd like to make a reservation for tomorrow night.
+Speaker 1: ありがとうごさいます。明日(あした)の何時(なんじ)からでしょうか。 | Thank you. From what time tomorrow?
+Speaker 2: 7時(じ)から予約(よやく)することができますか。 | Can I book from 7 o'clock?
+Speaker 1: 申(もう)し訳(わけ)ございません。明日(あした)の7時(じ)はご予約(よやく)がいっぱいです。 | I'm very sorry. We are fully booked at 7 o'clock tomorrow.
+Speaker 2: そうですか。じゃあ、8時(じ)ならどうですか。 | Is that so. Then, how about 8 o'clock?
+Speaker 1: 少(すこ)しお待(ま)ちください。確認(かくにん)いたします。 | Please wait a moment. I will check.
+Speaker 2: お願(ねが)いします。 | Please.
+Speaker 1: お待(ま)たせいたしました。8時(じ)でしたら、お席(せき)をご用意(ようい)できます。 | Thank you for waiting. If it's 8 o'clock, we can prepare a table for you.
+Speaker 2: よかったです。じゃあ、8時(じ)でお願(ねが)いします。 | That's great. Then, 8 o'clock, please.
+Speaker 1: かしこまりました。何名(なんめい)様(さま)でしょうか。 | Certainly. For how many people?
+Speaker 2: 四人(よにん)です。 | Four people.
+Speaker 1: 四名(よんめい)様(さま)ですね。お名前(なまえ)とお電話(でんわ)番号(ばんごう)をお願(ねが)いします。 | Four people. May I have your name and phone number?
+Speaker 2: 山田(やまだ)です。電話(でんわ)番号(ばんごう)は090-1234-5678です。 | It's Yamada. My phone number is 090-1234-5678.
+Speaker 1: 山田(やまだ)様(さま)ですね。窓際(まどぎわ)のお席(せき)がよろしいでしょうか。 | Mr./Ms. Yamada. Would you prefer a window seat?
+Speaker 2: はい、できれば窓際(まどぎわ)をお願(ねが)いします。 | Yes, a window seat if possible, please.
+Speaker 1: かしこまりました。コース料理(りょうり)になさいますか。 | Certainly. Will you be having a course meal?
+Speaker 2: いいえ、料理(りょうり)は店(みせ)に行(い)ってから決(き)めてもいいですか。 | No, can we decide the food after we get to the restaurant?
+Speaker 1: はい、もちろん結構(けっこう)です。 | Yes, of course that's fine.
+Speaker 2: じゃあ、明日(あした)の8時(じ)にお願(ねが)いします。 | Then, tomorrow at 8 o'clock, please.
+Speaker 1: お待(ま)ちしております。失礼(しつれい)いたします。 | We will be waiting for you. Goodbye.
+===
+Speaker 2: すみません、注文(ちゅうもん)をしたいんですが。 | Excuse me, I'd like to order.
+Speaker 1: はい、お決(き)まりでしょうか。 | Yes, have you decided?
+Speaker 2: このトマトパスタには、玉(たま)ねぎが入(はい)っていますか。 | Does this tomato pasta contain onions?
+Speaker 1: はい、ソースに玉(たま)ねぎが使(つか)われています。 | Yes, onions are used in the sauce.
+Speaker 2: 実(じつ)は、玉(たま)ねぎのアレルギーがあるんです。 | Actually, I have an onion allergy.
+Speaker 1: そうでしたか。申(もう)し訳(わけ)ございません。 | I see. I'm very sorry.
+Speaker 2: 玉(たま)ねぎを入(い)れないで作(つく)ってもらうことはできますか。 | Could you make it without onions?
+Speaker 1: ソースはすでに作(つく)ってあるので、玉(たま)ねぎを抜(ぬ)くことができません。 | Since the sauce is already made, we cannot remove the onions.
+Speaker 2: そうなんですね。残念(ざんねん)です。 | I see. That's a shame.
+Speaker 1: こちらのクリームパスタでしたら、玉(たま)ねぎは入(はい)っていませんよ。 | If you choose this cream pasta, it doesn't contain onions.
+Speaker 2: 本当(ほんとう)ですか。じゃあ、それにします。 | Really? Then, I'll have that.
+Speaker 1: かしこまりました。念(ねん)のため、他(ほか)のアレルギーも確認(かくにん)させていただきますね。 | Certainly. Just in case, may I check for any other allergies?
+Speaker 2: 乳製品(にゅうせいひん)は大丈夫(だいじょうぶ)ですが、エビも食(た)べられないんです。 | Dairy products are fine, but I can't eat shrimp either.
+Speaker 1: かしこまりました。エビは使(つか)っておりませんのでご安心(あんしん)ください。 | Understood. We don't use shrimp in it, so please don't worry.
+Speaker 2: よかったです。じゃあ、クリームパスタを一(ひと)つお願(ねが)いします。 | That's good. Then, one cream pasta, please.
+Speaker 1: 他(ほか)にご注文(ちゅうもん)はございますか。 | Do you have any other orders?
+Speaker 2: 食後(しょくご)にホットコーヒーを一杯(いっぱい)ください。 | A cup of hot coffee after the meal, please.
+Speaker 1: かしこまりました。パスタをお持(も)ちするまで、少(すこ)しお待(ま)ちください。 | Certainly. Please wait a moment until I bring the pasta.
+Speaker 2: はい、お願(ねが)いします。 | Yes, please.
+Speaker 1: アレルギーの件(けん)、シェフにもしっかり伝(つた)えておきますね。 | I will make sure to tell the chef about the allergies.
+Speaker 2: ありがとうございます。助(たす)かります。 | Thank you. That helps.
+===
+Speaker 2: すみません、ちょっといいですか。 | Excuse me, do you have a moment?
+Speaker 1: はい、どうなさいましたか。 | Yes, what's the matter?
+Speaker 2: 30分(ぷん)くらい前(まえ)にピザを注文(ちゅうもん)したんですが、まだ来(き)ていません。 | I ordered a pizza about 30 minutes ago, but it hasn't come yet.
+Speaker 1: 誠(まこと)に申(もう)し訳(わけ)ございません。すぐにお調(しら)べいたします。 | We are sincerely sorry. I will check right away.
+Speaker 2: お願(ねが)いします。 | Please.
+Speaker 1: お待(ま)たせいたしました。今(いま)、焼(や)いているところですので、あと5分(ふん)ほどかかります。 | Thank you for waiting. It is currently baking, so it will take about 5 more minutes.
+Speaker 2: わかりました。待(ま)っています。 | Understood. I'll wait.
+Speaker 1: 大変(たいへん)お待(ま)たせいたしました。こちら、マルゲリータピザでございます。 | Thank you very much for waiting. Here is the Margherita pizza.
+Speaker 2: あ、すみません。私(わたし)が頼(たの)んだのは、シーフードピザなんですが。 | Ah, excuse me. I ordered a seafood pizza.
+Speaker 1: えっ、誠(まこと)に申(もう)し訳(わけ)ございません。こちらのミスです。 | Oh, I am sincerely sorry. It is our mistake.
+Speaker 2: これ、注文(ちゅうもん)と違(ちが)いますよね。 | This is different from my order, right?
+Speaker 1: はい、すぐにシーフードピザを作(つく)り直(なお)します。 | Yes, we will remake the seafood pizza right away.
+Speaker 2: どのくらいかかりますか。もう時間(じかん)があまりないんです。 | How long will it take? I don't have much time left.
+Speaker 1: 優先(ゆうせん)して作(つく)らせますので、10分(ぷん)ほどでお持(も)ちできます。 | We will prioritize making it, so we can bring it in about 10 minutes.
+Speaker 2: じゃあ、お願(ねが)いします。急(いそ)いでくれますか。 | Then, please do. Can you hurry?
+Speaker 1: はい、本当(ほんとう)に申(もう)し訳(わけ)ございません。 | Yes, we are truly sorry.
+Speaker 2: 先(さき)に会計(かいけい)をしておいてもいいですか。 | Can I pay the bill in advance?
+Speaker 1: はい、かしこまりました。今回(こんかい)のドリンク代(だい)はサービスさせていただきます。 | Yes, certainly. We will provide the drinks on the house this time.
+Speaker 2: そうですか。ありがとうございます。 | I see. Thank you.
+Speaker 1: お急(いそ)ぎのところ、ご迷惑(めいわく)をおかけして申(もう)し訳(わけ)ありませんでした。 | We sincerely apologize for the inconvenience when you are in a hurry.
+===
+Speaker 1: わあ、料理(りょうり)が来(き)ましたね。すごく美味(おい)しそうです。 | Wow, the food is here. It looks very delicious.
+Speaker 2: 本当(ほんとう)ですね。いい匂(にお)いがします。 | It really does. It smells good.
+Speaker 1: インターネットでこのお店(みせ)の評判(ひょうばん)を見(み)たんです。 | I saw this restaurant's reputation on the internet.
+Speaker 2: 何(なん)て書(か)いてありましたか。 | What did it say?
+Speaker 1: ハンバーグがとても柔(やわ)らかくて美味(おい)しいと書(か)いてありましたよ。 | It said the hamburger steak is very soft and delicious.
+Speaker 2: へえ、それは楽(たの)しみですね。早(はや)く食(た)べてみましょう。 | Hmm, I'm looking forward to that. Let's eat quickly.
+Speaker 1: はい、いただきます。 | Yes, let's eat.
+Speaker 2: いただきます。…うん、本当(ほんとう)に柔(やわ)らかいです！ | Let's eat. ...Yeah, it's really soft!
+Speaker 1: 美味(おい)しいですか。私(わたし)のパスタもすごく美味(おい)しいですよ。 | Is it delicious? My pasta is also very delicious.
+Speaker 2: パスタもいいですね。一口(ひとくち)食(た)べてみますか。 | Pasta is nice too. Do you want to try a bite?
+Speaker 1: え、いいんですか。じゃあ、少(すこ)しもらいます。 | Eh, is it okay? Then, I'll take a little.
+Speaker 2: どうぞ。あ、私(わたし)もパスタを少(すこ)し食(た)べてもいいですか。 | Go ahead. Ah, can I also eat a little of your pasta?
+Speaker 1: はい、もちろんいいですよ。小(ちい)さいお皿(さら)に入(い)れますね。 | Yes, of course. I'll put it on a small plate.
+Speaker 2: ありがとうございます。うん、このソース、濃厚(のうこう)ですね。 | Thank you. Yeah, this sauce is rich.
+Speaker 1: ハンバーグのほうがパスタより味(あじ)が濃(こ)いと思(おも)います。 | I think the hamburger steak has a stronger flavor than the pasta.
+Speaker 2: そうかもしれませんね。ご飯(はん)がよく進(すす)みます。 | That might be true. It goes well with rice.
+Speaker 1: このお店(みせ)にしてよかったですね。 | I'm glad we chose this restaurant.
+Speaker 2: はい、来週(らいしゅう)もまた来(き)たいくらいです。 | Yes, I want to come again next week.
+Speaker 1: じゃあ、今度(こんど)は他(ほか)のメニューも試(ため)してみましょう。 | Then, let's try other menus next time.
+Speaker 2: いいですね。デザートも頼(たの)んでみませんか。 | Good idea. Shall we order dessert too?
+Speaker 1: 賛成(さんせい)です。メニューを見(み)ましょう。 | I agree. Let's look at the menu.
+===
+Speaker 1: ああ、お腹(なか)がいっぱいです。ごちそうさまでした。 | Ah, I'm full. Thank you for the meal.
+Speaker 2: 本当(ほんとう)に美味(おい)しかったですね。そろそろ行(い)きましょうか。 | It was really delicious. Shall we get going soon?
+Speaker 1: はい。あ、伝票(でんぴょう)は私(わたし)が持(も)っていきますよ。 | Yes. Ah, I'll take the bill.
+Speaker 2: いいえ、今日(きょう)は私(わたし)が払(はら)います。 | No, I will pay today.
+Speaker 1: えっ、そんなの悪(わる)いですよ。割(わ)り勘(かん)にしましょう。 | Eh, I feel bad about that. Let's split the bill.
+Speaker 2: 先週(せんしゅう)、仕事(しごと)を手伝(てつだ)ってもらいましたから、今日(きょう)はお礼(れい)です。 | You helped me with my work last week, so this is a thank you.
+Speaker 1: でも、結構(けっこう)高(たか)かったんじゃないですか。 | But it was quite expensive, wasn't it?
+Speaker 2: 大丈夫(だいじょうぶ)ですよ。私(わたし)にご馳走(ちそう)させてください。 | It's okay. Please let me treat you.
+Speaker 1: うーん、でもやっぱり半分(はんぶん)払(はら)わせてください。 | Hmmm, but still, please let me pay half.
+Speaker 2: じゃあ、次(つぎ)にカフェに行(い)った時(とき)、コーヒーをご馳走(ちそう)してくれませんか。 | Then, when we go to a cafe next time, will you treat me to coffee?
+Speaker 1: そうですか。じゃあ、今回(こんかい)は甘(あま)えることにします。 | I see. Then, I'll take you up on your offer this time.
+Speaker 2: はい、そうしてください。 | Yes, please do so.
+Speaker 1: 本当(ほんとう)にありがとうございます。ごちそうさまです。 | Thank you very much. Thank you for the meal.
+Speaker 2: いいえ、どういたしまして。レジへ行(い)きましょう。 | You're welcome. Let's go to the register.
+Speaker 1: 私(わたし)は外(そと)で待(ま)っていますね。 | I'll wait outside.
+Speaker 2: はい、すぐに行(い)きます。 | Yes, I'll be right there.
+Speaker 2: お待(ま)たせしました。 | Thank you for waiting.
+Speaker 1: 本当(ほんとう)にごちそうさまでした。とても美味(おい)しかったです。 | Thank you really for the meal. It was very delicious.
+Speaker 2: 喜(よろこ)んでもらえてよかったです。 | I'm glad you liked it.
+Speaker 1: 次(つぎ)のカフェは私(わたし)が絶対(ぜったい)に払(はら)いますからね。 | I'll definitely pay for the next cafe.
+Speaker 2: ふふふ、楽(たの)しみにしています。行(い)きましょう。 | Hehehe, I'm looking forward to it. Let's go.
+`;
+
+        function kanaToRomaji(text) {
+            const map = {
+                'あ':'a', 'い':'i', 'う':'u', 'え':'e', 'お':'o',
+                'か':'ka', 'き':'ki', 'く':'ku', 'け':'ke', 'こ':'ko',
+                'さ':'sa', 'し':'shi', 'す':'su', 'せ':'se', 'そ':'so',
+                'た':'ta', 'ち':'chi', 'つ':'tsu', 'て':'te', 'と':'to',
+                'な':'na', 'に':'ni', 'ぬ':'nu', 'ね':'ne', 'の':'no',
+                'は':'ha', 'ひ':'hi', 'ふ':'fu', 'へ':'he', 'ほ':'ho',
+                'ま':'ma', 'み':'mi', 'む':'mu', 'め':'me', 'も':'mo',
+                'や':'ya', 'ゆ':'yu', 'よ':'yo',
+                'ら':'ra', 'り':'ri', 'る':'ru', 'れ':'re', 'ろ':'ro',
+                'わ':'wa', 'を':'o', 'ん':'n',
+                'が':'ga', 'ぎ':'gi', 'ぐ':'gu', 'げ':'ge', 'ご':'go',
+                'ざ':'za', 'じ':'ji', 'ず':'zu', 'ぜ':'ze', 'ぞ':'zo',
+                'だ':'da', 'ぢ':'ji', 'づ':'zu', 'で':'de', 'ど':'do',
+                'ば':'ba', 'び':'bi', 'ぶ':'bu', 'べ':'be', 'ぼ':'bo',
+                'ぱ':'pa', 'ぴ':'pi', 'ぷ':'pu', 'ぺ':'pe', 'ぽ':'po',
+                'きゃ':'kya', 'きゅ':'kyu', 'きょ':'kyo',
+                'しゃ':'sha', 'しゅ':'shu', 'しょ':'sho',
+                'ちゃ':'cha', 'ちゅ':'chu', 'ちょ':'cho',
+                'にゃ':'nya', 'にゅ':'nyu', 'にょ':'nyo',
+                'ひゃ':'hya', 'ひゅ':'hyu', 'ひょ':'hyo',
+                'みゃ':'mya', 'みゅ':'myu', 'みょ':'myo',
+                'りゃ':'rya', 'りゅ':'ryu', 'りょ':'ryo',
+                'ぎゃ':'gya', 'ぎゅ':'gyu', 'ぎょ':'gyo',
+                'じゃ':'ja', 'じゅ':'ju', 'じょ':'jo',
+                'びゃ':'bya', 'びゅ':'byu', 'びょ':'byo',
+                'ぴゃ':'pya', 'ぴゅ':'pyu', 'ぴょ':'pyo',
+                'ふぁ':'fa', 'ふぃ':'fi', 'ふぇ':'fe', 'ふぉ':'fo',
+                'てぃ':'ti', 'でぃ':'di', 'うぃ':'wi', 'うぇ':'we',
+                'ー':'-', '、': ', ', '。': '.', '？': '?', '！': '!', '…': '...'
+            };
+            
+            // Convert Katakana to Hiragana first
+            let hira = text.replace(/[\u30a1-\u30f6]/g, function(match) {
+                return String.fromCharCode(match.charCodeAt(0) - 0x60);
+            });
+
+            let romaji = "";
+            let i = 0;
+            while (i < hira.length) {
+                let char2 = hira.substring(i, i+2);
+                let char1 = hira.substring(i, i+1);
+                
+                if (map[char2]) {
+                    romaji += map[char2];
+                    i += 2;
+                } else if (char1 === 'っ') {
+                    // Small tsu: double the next consonant
+                    let nextChar = hira.substring(i+1, i+2);
+                    let nextChar2 = hira.substring(i+1, i+3);
+                    let nextRomaji = map[nextChar2] || map[nextChar];
+                    if (nextRomaji && nextRomaji.length > 0 && nextRomaji.match(/^[a-z]/i)) {
+                        romaji += nextRomaji.charAt(0);
+                    }
+                    i++;
+                } else if (map[char1]) {
+                    romaji += map[char1];
+                    i++;
+                } else {
+                    romaji += char1;
+                    i++;
+                }
+            }
+            // Capitalize first letter and fix spaces
+            romaji = romaji.charAt(0).toUpperCase() + romaji.slice(1);
+            return romaji.replace(/\s+/g, ' ').trim();
+        }
+
+        const scenes = [];
+        let currentScene = { title: "Scene 1", lines: [] };
+        let sceneIndexCount = 1;
+
+        const lines = rawData.trim().split('\n');
+        for (let line of lines) {
+            line = line.trim();
+            if (line === '') continue;
+
+            if (line.startsWith('===')) {
+                if (currentScene.lines.length > 0) {
+                    scenes.push(currentScene);
+                }
+                sceneIndexCount++;
+                // Optional: Provide better titles based on content, but defaulting to Scene N
+                currentScene = { title: `Scene ${sceneIndexCount}`, lines: [] };
+            } else {
+                const parts = line.split('|');
+                let jpPart = parts[0].trim();
+                let enPart = parts.length > 1 ? parts[1].trim() : "";
+                
+                const match = jpPart.match(/^(Speaker \d+):\s*(.*)/);
+                if (match) {
+                    const speaker = match[1];
+                    const rawJpText = match[2];
+                    
+                    // Generate Text for Speech Synthesis (Replace Kanji(Furigana) with Furigana)
+                    // This ensures correct pronunciation and avoids reading BOTH kanji and furigana
+                    const speakText = rawJpText.replace(/[\u4e00-\u9faf]+\(([\u3040-\u309f]+)\)/g, "$1");
+                    
+                    currentScene.lines.push({
+                        speaker: speaker,
+                        rawJp: rawJpText,
+                        english: enPart,
+                        speakText: speakText,
+                        romaji: kanaToRomaji(speakText)
+                    });
+                }
+            }
+        }
+        if (currentScene.lines.length > 0) {
+            scenes.push(currentScene);
+        }
+
+        let state = {
+            currentSceneIndex: 0,
+            showRomaji: false,
+            showTranslation: false,
+            kanjiTestMode: false,
+            isPlaying: false
+        };
+
+        function formatJapanese(text, isKanjiTest) {
+            // Replaces "漢字(ふりがな)" with appropriate HTML based on mode
+            return text.replace(/([\u4e00-\u9faf]+)\(([\u3040-\u309f]+)\)/g, (match, kanji, furigana) => {
+                if (isKanjiTest) {
+                    return `<span class="inline-block mx-1 kanji-blank cursor-pointer bg-yellow-100 text-yellow-800 border-b-2 border-yellow-400 px-2 py-0.5 rounded shadow-sm hover:bg-yellow-200 transition-colors" onclick="revealKanji(this, '${kanji}', '${furigana}')" title="Tap to reveal Kanji">${furigana}</span>`;
+                } else {
+                    return `<ruby class="mx-0.5">${kanji}<rt>${furigana}</rt></ruby>`;
+                }
+            });
+        }
+
+        // Global function called from inline HTML
+        window.revealKanji = function(el, kanji, furigana) {
+            el.outerHTML = `<span class="inline-block mx-1 font-bold text-blue-700 bg-blue-50 px-1 rounded animate-pulse">${kanji}<span class="text-xs text-gray-500 ml-1 font-normal">(${furigana})</span></span>`;
+        };
+
+        function renderScene() {
+            const container = document.getElementById('dialogue-list');
+            container.innerHTML = '';
+            
+            const scene = scenes[state.currentSceneIndex];
+            
+            scene.lines.forEach((line, index) => {
+                const isSpeaker1 = line.speaker === "Speaker 1";
+                const alignment = isSpeaker1 ? "self-start" : "self-end";
+                const bgColor = isSpeaker1 ? "speaker-1-bg border border-gray-200" : "speaker-2-bg border border-blue-100";
+                const borderRadius = isSpeaker1 ? "rounded-tr-2xl rounded-br-2xl rounded-bl-2xl" : "rounded-tl-2xl rounded-br-2xl rounded-bl-2xl";
+                const icon = isSpeaker1 ? "fa-user-tie" : "fa-user";
+                const iconColor = isSpeaker1 ? "text-gray-500" : "text-blue-500";
+
+                const jpFormatted = formatJapanese(line.rawJp, state.kanjiTestMode);
+
+                let extraContent = '';
+                if (state.showRomaji) {
+                    extraContent += `<div class="text-sm text-gray-500 mt-2 font-mono bg-gray-50 p-2 rounded">${line.romaji}</div>`;
+                }
+                if (state.showTranslation) {
+                    extraContent += `<div class="text-sm text-gray-700 mt-2 italic border-l-2 border-gray-300 pl-2">${line.english}</div>`;
+                }
+
+                const html = `
+                    <div class="flex gap-3 max-w-[90%] sm:max-w-[80%] ${alignment} fade-in" style="animation-delay: ${index * 0.05}s">
+                        ${isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                        
+                        <div class="flex flex-col gap-1">
+                            <div class="text-xs text-gray-500 font-medium px-1 ${!isSpeaker1 ? 'text-right' : ''}">${line.speaker}</div>
+                            <div class="${bgColor} ${borderRadius} p-4 shadow-sm relative group">
+                                <div class="flex items-start gap-3">
+                                    <div class="text-lg leading-loose break-words flex-1 tracking-wide">
+                                        ${jpFormatted}
+                                    </div>
+                                    <button onclick="playAudio('${line.speakText.replace(/'/g, "\\'")}')" class="shrink-0 w-8 h-8 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-400 hover:text-blue-500 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300" title="Play audio">
+                                        <i class="fa-solid fa-volume-high"></i>
+                                    </button>
+                                </div>
+                                ${extraContent}
+                            </div>
+                        </div>
+
+                        ${!isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                    </div>
+                `;
+                container.insertAdjacentHTML('beforeend', html);
+            });
+        }
+
+        function playAudio(text) {
+            if ('speechSynthesis' in window) {
+                // Cancel any ongoing speech
+                window.speechSynthesis.cancel();
+                
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'ja-JP';
+                utterance.rate = 0.85; // Slightly slower for learning
+                window.speechSynthesis.speak(utterance);
+            } else {
+                console.warn("Speech Synthesis not supported in this browser.");
+            }
+        }
+
+        async function playEntireScene() {
+            if (!('speechSynthesis' in window)) return;
+            
+            if (state.isPlaying) {
+                window.speechSynthesis.cancel();
+                state.isPlaying = false;
+                return;
+            }
+
+            state.isPlaying = true;
+            const scene = scenes[state.currentSceneIndex];
+            
+            for (let i = 0; i < scene.lines.length; i++) {
+                if (!state.isPlaying) break; // Check if stopped
+                
+                const line = scene.lines[i];
+                // Highlight the message currently being spoken (optional visual feedback)
+                
+                await new Promise(resolve => {
+                    const utterance = new SpeechSynthesisUtterance(line.speakText);
+                    utterance.lang = 'ja-JP';
+                    utterance.rate = 0.85;
+                    
+                    utterance.onend = resolve;
+                    utterance.onerror = resolve; // Continue even if error
+                    
+                    window.speechSynthesis.speak(utterance);
+                });
+                
+                // Add a small pause between speakers
+                await new Promise(r => setTimeout(r, 600));
+            }
+            state.isPlaying = false;
+        }
+
+        function init() {
+            // Populate Scene Selector
+            const selector = document.getElementById('scene-selector');
+            scenes.forEach((scene, index) => {
+                const option = document.createElement('option');
+                option.value = index;
+                // Add context titles based on the scene content to make it easier for users
+                let title = `Scene ${index + 1}`;
+                if (index === 0) title += " (Entering)";
+                else if (index === 1) title += " (Menu & Asking)";
+                else if (index === 2) title += " (Ordering)";
+                else if (index === 3) title += " (Requests)";
+                else if (index === 4) title += " (Payment)";
+                else if (index === 5) title += " (Reservation)";
+                else if (index === 6) title += " (Allergies)";
+                else if (index === 7) title += " (Complaints)";
+                else if (index === 8) title += " (Eating)";
+                else if (index === 9) title += " (Leaving)";
+
+                option.textContent = title;
+                selector.appendChild(option);
+            });
+
+            // Event Listeners
+            selector.addEventListener('change', (e) => {
+                state.currentSceneIndex = parseInt(e.target.value);
+                window.speechSynthesis.cancel();
+                state.isPlaying = false;
+                renderScene();
+                // Scroll to top
+                document.getElementById('chat-container').scrollTop = 0;
+            });
+
+            document.getElementById('toggle-romaji').addEventListener('change', (e) => {
+                state.showRomaji = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-translation').addEventListener('change', (e) => {
+                state.showTranslation = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-kanji-test').addEventListener('change', (e) => {
+                state.kanjiTestMode = e.target.checked;
+                renderScene();
+            });
+
+            // Initial Render
+            renderScene();
+        }
+
+        // Run when DOM is ready
+        document.addEventListener('DOMContentLoaded', init);
+        
+        // Stop audio if user leaves page
+        window.addEventListener('beforeunload', () => {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+            }
+        });
+
+    </script>
+</body>
+</html>
