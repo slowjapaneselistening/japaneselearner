@@ -1,183 +1,216 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2B0GEY45P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F2B0GEY45P');
+    </script>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Japanese Conversation Learner</title>
-    <!-- Tailwind CSS -->
+    <title>Japanese Learning App</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Font Awesome -->
+    <!-- WanaKana.js (ローマ字変換ライブラリ) を追加 -->
+    <script src="https://unpkg.com/wanakana"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
-    
     <style>
-        body {
-            font-family: 'Inter', 'Noto Sans JP', sans-serif;
-            background-color: #f3f4f6;
-        }
-        ruby {
-            ruby-align: center;
-        }
-        rt {
-            font-size: 0.65rem;
-            color: #6b7280;
-        }
-        .speaker-1-bg { background-color: #ffffff; }
-        .speaker-2-bg { background-color: #e0f2fe; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap');
+        body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
         
-        /* Custom Toggle Switch */
-        .toggle-checkbox:checked {
-            right: 0;
-            border-color: #3b82f6;
-        }
-        .toggle-checkbox:checked + .toggle-label {
-            background-color: #3b82f6;
-        }
-        
-        /* Fade in animation */
         .fade-in {
-            animation: fadeIn 0.3s ease-in-out;
+            animation: fadeIn 0.4s ease-out forwards;
+            opacity: 0;
+            transform: translateY(10px);
         }
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(5px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
-        /* Quiz Button animations */
-        .quiz-btn {
-            transition: all 0.2s ease;
+        .speaker-1-bg { background-color: #ffffff; }
+        .speaker-2-bg { background-color: #f0fdf4; } /* Light green for variety */
+
+        .kanji-hidden {
+            display: inline-block;
+            background-color: #fef08a; /* Yellow-200 */
+            border-bottom: 2px dashed #ca8a04;
+            border-radius: 4px;
+            padding: 0 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
         }
-        .quiz-btn:active {
-            transform: scale(0.98);
+        .kanji-hidden:hover {
+            background-color: #fde047;
         }
-        .correct-answer {
-            background-color: #10b981 !important; /* Emerald 500 */
-            color: white !important;
-            border-color: #059669 !important;
+        .kanji-revealed {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%) translateY(5px);
+            background-color: #1e40af;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease-out;
+            white-space: nowrap;
+            z-index: 10;
         }
-        .wrong-answer {
-            background-color: #ef4444 !important; /* Red 500 */
-            color: white !important;
-            border-color: #dc2626 !important;
+        .kanji-hidden.show-ruby .kanji-revealed {
+            opacity: 1;
+            transform: translateX(-50%) translateY(-2px);
         }
     </style>
 </head>
-<body class="text-gray-800 h-screen flex flex-col overflow-hidden">
-
-    <!-- Header & Tabs -->
-    <header class="bg-white shadow-sm z-20 shrink-0">
-        <div class="max-w-4xl mx-auto px-4 pt-3 flex flex-col gap-3">
-            <h1 class="text-xl font-bold text-gray-800 flex items-center gap-2">
-                <i class="fa-solid fa-language text-blue-500"></i>
-                <span>Nihongo Learner</span>
-            </h1>
+<body class="bg-gray-50 text-gray-800 min-h-screen pb-12">
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-md">
+                    <i class="fa-solid fa-language text-xl"></i>
+                </div>
+                <h1 class="text-xl font-bold text-gray-900 tracking-tight">日本語 Learning</h1>
+            </div>
             
-            <!-- Tab Navigation -->
-            <div class="flex gap-1 border-b border-gray-200">
-                <button id="tab-btn-conv" class="px-4 py-2 font-medium text-blue-600 border-b-2 border-blue-600 hover:bg-gray-50 transition-colors">
+            <div class="flex bg-gray-100 p-1 rounded-lg">
+                <button id="tab-btn-conv" class="px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all">
                     <i class="fa-regular fa-comments mr-1"></i> Conversation
                 </button>
-                <button id="tab-btn-quiz" class="px-4 py-2 font-medium text-gray-500 border-b-2 border-transparent hover:bg-gray-50 hover:text-gray-700 transition-colors">
-                    <i class="fa-solid fa-graduation-cap mr-1"></i> Kanji Quiz
+                <button id="tab-btn-quiz" class="px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all">
+                    <i class="fa-solid fa-pen-to-square mr-1"></i> Kanji Quiz
                 </button>
             </div>
         </div>
     </header>
 
-    <!-- Conversation View -->
-    <div id="view-conv" class="flex-1 flex flex-col min-h-0 relative">
-        <!-- Settings Bar -->
-        <div class="bg-white border-b border-gray-200 shrink-0 z-10 shadow-sm">
-            <div class="max-w-4xl mx-auto px-4 py-2">
-                <div class="flex flex-col sm:flex-row justify-between items-center gap-3">
+    <main class="max-w-4xl mx-auto px-4 mt-6">
+        
+        <!-- TAB 1: Conversation -->
+        <div id="tab-conv">
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                
+                <!-- Controls Bar -->
+                <div class="bg-gray-50/50 p-4 border-b border-gray-100 flex flex-col sm:flex-row justify-between items-center gap-4">
                     
-                    <div class="flex items-center gap-2 w-full sm:w-auto">
-                        <select id="scene-selector" class="w-full sm:w-auto bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2">
+                    <div class="flex flex-col sm:flex-row items-center gap-2 w-full sm:w-auto">
+                        <select id="scene-selector" class="w-full sm:w-auto bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2 shadow-sm font-medium">
                             <!-- Options populated by JS -->
                         </select>
-                        <button onclick="playEntireScene()" id="play-scene-btn" class="whitespace-nowrap bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-3 rounded-lg transition-colors flex items-center gap-2 text-sm shadow-sm">
-                            <i class="fa-solid fa-play"></i>
+
+                        <!-- Roleplay Selector -->
+                        <select id="roleplay-selector" class="w-full sm:w-auto bg-purple-50 border border-purple-200 text-purple-800 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2 font-medium shadow-sm">
+                            <option value="none">👤 Roleplay: Off</option>
+                            <option value="Speaker 1">🔇 Mute Speaker 1</option>
+                            <option value="Speaker 2">🔇 Mute Speaker 2</option>
+                        </select>
+
+                        <button onclick="playEntireScene()" id="play-scene-btn" class="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm">
+                            <i class="fa-solid fa-play"></i> Play
                         </button>
                     </div>
 
-                    <div class="flex flex-wrap items-center justify-center gap-4 text-sm w-full sm:w-auto">
-                        <!-- Romaji Toggle -->
-                        <div class="flex items-center gap-2">
-                            <div class="relative inline-block w-9 align-middle select-none transition duration-200 ease-in">
-                                <input type="checkbox" name="toggle" id="toggle-romaji" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-white border-4 border-gray-300 appearance-none cursor-pointer transition-transform duration-200 ease-in-out z-10" />
-                                <label for="toggle-romaji" class="toggle-label block overflow-hidden h-5 rounded-full bg-gray-300 cursor-pointer transition-colors duration-200 ease-in-out"></label>
-                            </div>
-                            <label for="toggle-romaji" class="cursor-pointer font-medium text-gray-700">Romaji</label>
-                        </div>
-                        <!-- Translation Toggle -->
-                        <div class="flex items-center gap-2">
-                            <div class="relative inline-block w-9 align-middle select-none transition duration-200 ease-in">
-                                <input type="checkbox" name="toggle" id="toggle-translation" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-white border-4 border-gray-300 appearance-none cursor-pointer transition-transform duration-200 ease-in-out z-10" />
-                                <label for="toggle-translation" class="toggle-label block overflow-hidden h-5 rounded-full bg-gray-300 cursor-pointer transition-colors duration-200 ease-in-out"></label>
-                            </div>
-                            <label for="toggle-translation" class="cursor-pointer font-medium text-gray-700">English</label>
-                        </div>
-                        <!-- Furigana Hide Toggle -->
-                        <div class="flex items-center gap-2 bg-yellow-50 px-2 py-1 rounded-md border border-yellow-200">
-                            <div class="relative inline-block w-9 align-middle select-none transition duration-200 ease-in">
-                                <input type="checkbox" name="toggle" id="toggle-kanji-test" class="toggle-checkbox absolute block w-5 h-5 rounded-full bg-white border-4 border-yellow-300 appearance-none cursor-pointer transition-transform duration-200 ease-in-out z-10" />
-                                <label for="toggle-kanji-test" class="toggle-label block overflow-hidden h-5 rounded-full bg-yellow-200 cursor-pointer transition-colors duration-200 ease-in-out"></label>
-                            </div>
-                            <label for="toggle-kanji-test" class="cursor-pointer font-medium text-yellow-800 text-xs sm:text-sm"><i class="fa-regular fa-eye-slash mr-1"></i>Hide Furigana</label>
-                        </div>
+                    <div class="flex flex-wrap justify-center gap-4 text-sm font-medium text-gray-600">
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-kanji-test" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Hide Furigana
+                        </label>
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-translation" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            English
+                        </label>
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Romaji
+                        </label>
                     </div>
+                </div>
 
+                <!-- Dialogue Area -->
+                <div class="p-4 sm:p-6 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-gray-50/30 min-h-[500px]">
+                    <div id="dialogue-list" class="flex flex-col gap-6">
+                        <!-- Dialogue bubbles inserted by JS -->
+                    </div>
                 </div>
             </div>
         </div>
 
-        <main class="flex-1 overflow-y-auto p-4 sm:p-6" id="chat-container">
-            <div class="max-w-4xl mx-auto flex flex-col gap-4 pb-20" id="dialogue-list">
-                <!-- Messages will be injected here -->
-            </div>
-        </main>
-    </div>
+        <!-- TAB 2: Kanji Quiz -->
+        <div id="tab-quiz" class="hidden">
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-10 text-center max-w-2xl mx-auto">
+                <div id="quiz-intro">
+                    <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">漢字の読み方テスト</h2>
+                    <p class="text-gray-500 mb-6">会話で使われた漢字の読み方を当てる10問のクイズです。</p>
+                    <button onclick="startQuiz()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-transform transform hover:scale-105">
+                        スタート (Start)
+                    </button>
+                </div>
 
-    <!-- Kanji Quiz View -->
-    <div id="view-quiz" class="flex-1 hidden bg-gray-50 overflow-y-auto">
-        <div class="max-w-2xl mx-auto px-4 py-8">
-            <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
-                <!-- Quiz Header -->
-                <div class="bg-blue-600 px-6 py-4 flex justify-between items-center text-white">
-                    <h2 class="font-bold text-lg"><i class="fa-solid fa-pen-nib mr-2"></i>Kanji Reading Quiz</h2>
-                    <div class="font-medium bg-blue-700 px-3 py-1 rounded-full text-sm">
-                        <span id="quiz-progress">1 / 10</span>
+                <div id="quiz-area" class="hidden">
+                    <div class="flex justify-between items-center text-sm font-medium text-gray-500 mb-6">
+                        <span id="quiz-progress" class="bg-gray-100 py-1 px-3 rounded-full">Question 1/10</span>
+                        <span id="quiz-score" class="text-green-600">Score: 0</span>
+                    </div>
+                    
+                    <h3 id="quiz-question" class="text-3xl sm:text-4xl font-bold text-gray-800 mb-8 py-6 bg-gray-50 rounded-xl border border-gray-100">
+                        <!-- Question -->
+                    </h3>
+                    
+                    <div id="quiz-options" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <!-- Options buttons -->
                     </div>
                 </div>
-                
-                <!-- Quiz Body -->
-                <div class="p-6 sm:p-8" id="quiz-body">
-                    <!-- Dynamic Quiz Content -->
+
+                <div id="quiz-result" class="hidden">
+                    <div class="text-6xl mb-4">🏆</div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">お疲れ様でした！</h2>
+                    <p class="text-xl text-gray-600 mb-6">Your Score: <span id="final-score" class="font-bold text-green-600 text-3xl"></span> / 10</p>
+                    <button onclick="startQuiz()" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-colors">
+                        もう一度プレイ (Play Again)
+                    </button>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 
     <script>
         // State management
         const appState = {
-            activeTab: 'conv', // 'conv' or 'quiz'
-            
-            // Conversation state
+            activeTab: 'conv',
             currentSceneIndex: 0,
             showRomaji: false,
             showTranslation: false,
             hideFurigana: false,
             isPlaying: false,
-            
-            // Quiz state
+            roleplayMutedSpeaker: 'none',
             currentQuestionIndex: 0,
             score: 0,
-            isAnswering: false // prevents multiple clicks
+            isAnswering: false,
+            currentCorrectIndex: 0 // シャッフル後の正解位置を保存するために追加
         };
 
-        // Japanese Conversation Data (Online Conversation Theme)
+        const sceneTitles = [
+            "Scene 1: 時差と通勤 (Time Difference & Commuting)",
+            "Scene 2: 天気と趣味 (Weather & Hobbies)",
+            "Scene 3: 朝ごはんと好きな食べ物 (Breakfast & Favorite Foods)",
+            "Scene 4: 音楽とカラオケ (Music & Karaoke)",
+            "Scene 5: 日本語の勉強と将来の夢 (Studying Japanese & Future Goals)",
+            "Scene 6: 仕事と雪の日の通勤 (Work & Commuting on a Snowy Day)",
+            "Scene 7: ペットと一人暮らし (Pets & Living Alone)",
+            "Scene 8: ネットショッピング (Online Shopping)",
+            "Scene 9: 北海道旅行と雪 (Trip to Hokkaido & Snow)",
+            "Scene 10: 言語交換と挨拶 (Language Exchange & Greetings)"
+        ];
+
         const rawData = `
 Speaker 1: こんにちは。声(こえ)、聞(き)こえますか。 | Hello. Can you hear my voice?
 Speaker 2: はい、聞(き)こえます。こんにちは。 | Yes, I can hear you. Hello.
@@ -421,153 +454,74 @@ Speaker 2: じゃあ、また明日(あした)話(はな)しましょう。ま�
 Speaker 1: はい、またね。 | Yes, see you.
 `;
 
-        // 10-Question Kanji Quiz Data based on the new script
         const quizData = [
-            { kanji: "時差", meaning: "Time difference", choices: ["じざ", "ときさ", "じさ", "ときざ"], correct: 2 },
-            { kanji: "便利", meaning: "Convenient", choices: ["べんり", "びんり", "べんい", "へんり"], correct: 0 },
-            { kanji: "週末", meaning: "Weekend", choices: ["しゅまつ", "しゅうまつ", "しゅうき", "すうまつ"], correct: 1 },
-            { kanji: "将来", rai: "Future", meaning: "Future", choices: ["しょうらい", "しょらい", "そうらい", "じょうらい"], correct: 0 },
-            { kanji: "病院", meaning: "Hospital", choices: ["びょいん", "びょういん", "びょうき", "ほういん"], correct: 1 },
-            { kanji: "実家", meaning: "Parents' house / Hometown", choices: ["じっか", "じつか", "じっけ", "しつか"], correct: 0 },
-            { kanji: "旅行", meaning: "Travel", choices: ["りよこう", "りょこう", "ろこう", "りょごう"], correct: 1 },
-            { kanji: "冬", meaning: "Winter", choices: ["なつ", "はる", "あき", "ふゆ"], correct: 3 },
-            { kanji: "質問", meaning: "Question", choices: ["しつもん", "しちもん", "ちつもん", "せつもん"], correct: 0 },
-            { kanji: "言葉", meaning: "Word / Language", choices: ["ことぱ", "ことわ", "ことば", "こどば"], correct: 2 }
+            { q: "「暗い」の読み方は？", options: ["くらい", "あかるい", "あぶない", "ひろい"], answer: 0 },
+            { q: "「時差」の読み方は？", options: ["じさ", "ときさ", "じかん", "とけい"], answer: 0 },
+            { q: "「夕方」の読み方は？", options: ["ゆうがた", "あさがた", "よるがた", "ゆうほう"], answer: 0 },
+            { q: "「週末」の読み方は？", options: ["しゅうまつ", "しゅうきゅう", "げつまつ", "ねんまつ"], answer: 0 },
+            { q: "「楽器」の読み方は？", options: ["がっき", "らくき", "がくき", "らっき"], answer: 0 },
+            { q: "「専攻」の読み方は？", options: ["せんこう", "せんもん", "せんかく", "せんぎょう"], answer: 0 },
+            { q: "「経済学」の読み方は？", options: ["けいざいがく", "けいりょくがく", "けいさんがく", "けいしょうがく"], answer: 0 },
+            { q: "「病院」の読み方は？", options: ["びょういん", "びょうき", "びょうがく", "いんびょう"], answer: 0 },
+            { q: "「実家」の読み方は？", options: ["じっか", "じつや", "ほんけ", "じつげ"], answer: 0 },
+            { q: "「丁寧」の読み方は？", options: ["ていねい", "ていちょう", "ていどう", "ちゅうい"], answer: 0 }
         ];
 
-        function kanaToRomaji(text) {
-            const map = {
-                'あ':'a', 'い':'i', 'う':'u', 'え':'e', 'お':'o',
-                'か':'ka', 'き':'ki', 'く':'ku', 'け':'ke', 'こ':'ko',
-                'さ':'sa', 'し':'shi', 'す':'su', 'せ':'se', 'そ':'so',
-                'た':'ta', 'ち':'chi', 'つ':'tsu', 'て':'te', 'と':'to',
-                'な':'na', 'に':'ni', 'ぬ':'nu', 'ね':'ne', 'の':'no',
-                'は':'ha', 'ひ':'hi', 'ふ':'fu', 'へ':'he', 'ほ':'ho',
-                'ま':'ma', 'み':'mi', 'む':'mu', 'め':'me', 'も':'mo',
-                'や':'ya', 'ゆ':'yu', 'よ':'yo',
-                'ら':'ra', 'り':'ri', 'る':'ru', 'れ':'re', 'ろ':'ro',
-                'わ':'wa', 'を':'o', 'ん':'n',
-                'が':'ga', 'ぎ':'gi', 'ぐ':'gu', 'げ':'ge', 'ご':'go',
-                'ざ':'za', 'じ':'ji', 'ず':'zu', 'ぜ':'ze', 'ぞ':'zo',
-                'だ':'da', 'ぢ':'ji', 'づ':'zu', 'で':'de', 'ど':'do',
-                'ば':'ba', 'び':'bi', 'ぶ':'bu', 'べ':'be', 'ぼ':'bo',
-                'ぱ':'pa', 'ぴ':'pi', 'ぷ':'pu', 'ぺ':'pe', 'ぽ':'po',
-                'きゃ':'kya', 'きゅ':'kyu', 'きょ':'kyo',
-                'しゃ':'sha', 'しゅ':'shu', 'しょ':'sho',
-                'ちゃ':'cha', 'ちゅ':'chu', 'ちょ':'cho',
-                'にゃ':'nya', 'にゅ':'nyu', 'にょ':'nyo',
-                'ひゃ':'hya', 'ひゅ':'hyu', 'ひょ':'hyo',
-                'みゃ':'mya', 'みゅ':'myu', 'みょ':'myo',
-                'りゃ':'rya', 'りゅ':'ryu', 'りょ':'ryo',
-                'ぎゃ':'gya', 'ぎゅ':'gyu', 'ぎょ':'gyo',
-                'じゃ':'ja', 'じゅ':'ju', 'じょ':'jo',
-                'びゃ':'bya', 'びゅ':'byu', 'びょ':'byo',
-                'ぴゃ':'pya', 'ぴゅ':'pyu', 'ぴょ':'pyo',
-                'ふぁ':'fa', 'ふぃ':'fi', 'ふぇ':'fe', 'ふぉ':'fo',
-                'てぃ':'ti', 'でぃ':'di', 'うぃ':'wi', 'うぇ':'we',
-                'ー':'-', '、': ', ', '。': '.', '？': '?', '！': '!', '…': '...'
-            };
+        let scenes = [];
+
+        function parseData() {
+            const rawScenes = rawData.trim().split('===');
+            scenes = rawScenes.map(sceneText => {
+                const lines = sceneText.trim().split('\n').filter(line => line.length > 0);
+                return {
+                    lines: lines.map(line => {
+                        const [jpPart, enPart] = line.split('|');
+                        const speakerSplit = jpPart.split(':');
+                        const speaker = speakerSplit[0].trim();
+                        let rawJp = speakerSplit.slice(1).join(':').trim();
+                        
+                        const speakText = rawJp.replace(/\(.*?\)/g, '');
+                        
+                        return {
+                            speaker: speaker,
+                            rawJp: rawJp,
+                            speakText: speakText,
+                            english: enPart ? enPart.trim() : "Translation not available.",
+                            romaji: generateRomaji(rawJp)
+                        };
+                    })
+                };
+            });
+        }
+
+        function generateRomaji(rawJp) {
+            // 漢字(ふりがな) のフォーマットから、漢字を消して「ふりがな」だけのテキストを抽出
+            const readingText = rawJp.replace(/([\u4E00-\u9FFF\u3005]+)\((.*?)\)/g, "$2");
             
-            let hira = text.replace(/[\u30a1-\u30f6]/g, function(match) {
-                return String.fromCharCode(match.charCodeAt(0) - 0x60);
-            });
-
-            let romaji = "";
-            let i = 0;
-            while (i < hira.length) {
-                let char2 = hira.substring(i, i+2);
-                let char1 = hira.substring(i, i+1);
+            if (window.wanakana) {
+                // WanaKana.jsを使って、ひらがな/カタカナをローマ字に変換
+                let romaji = wanakana.toRomaji(readingText);
                 
-                if (map[char2]) {
-                    romaji += map[char2];
-                    i += 2;
-                } else if (char1 === 'っ') {
-                    let nextChar = hira.substring(i+1, i+2);
-                    let nextChar2 = hira.substring(i+1, i+3);
-                    let nextRomaji = map[nextChar2] || map[nextChar];
-                    if (nextRomaji && nextRomaji.length > 0 && nextRomaji.match(/^[a-z]/i)) {
-                        romaji += nextRomaji.charAt(0);
-                    }
-                    i++;
-                } else if (map[char1]) {
-                    romaji += map[char1];
-                    i++;
-                } else {
-                    romaji += char1;
-                    i++;
-                }
-            }
-            if(romaji.length > 0) {
+                // 文頭を大文字にする簡易的な整形
                 romaji = romaji.charAt(0).toUpperCase() + romaji.slice(1);
+                return romaji;
             }
-            return romaji.replace(/\s+/g, ' ').trim();
+            return readingText; // ライブラリが読み込めなかった場合のフォールバック
         }
 
-        const scenes = [];
-        let currentScene = { lines: [] };
-
-        const lines = rawData.trim().split('\n');
-        for (let line of lines) {
-            line = line.trim();
-            if (line === '') continue;
-
-            if (line.startsWith('===')) {
-                if (currentScene.lines.length > 0) {
-                    scenes.push(currentScene);
-                }
-                currentScene = { lines: [] };
-            } else {
-                const parts = line.split('|');
-                let jpPart = parts[0].trim();
-                let enPart = parts.length > 1 ? parts[1].trim() : "";
-                
-                const match = jpPart.match(/^(Speaker \d+):\s*(.*)/);
-                if (match) {
-                    const speaker = match[1];
-                    const rawJpText = match[2];
-                    
-                    const speakText = rawJpText.replace(/[\u4e00-\u9faf]+\(([\u3040-\u309f]+)\)/g, "$1");
-                    
-                    currentScene.lines.push({
-                        speaker: speaker,
-                        rawJp: rawJpText,
-                        english: enPart,
-                        speakText: speakText,
-                        romaji: kanaToRomaji(speakText)
-                    });
-                }
-            }
-        }
-        if (currentScene.lines.length > 0) {
-            scenes.push(currentScene);
-        }
-
-        const sceneTitles = [
-            "Scene 1: 時差と仕事 (Time Difference and Work)",
-            "Scene 2: 天気と趣味 (Weather and Hobbies)",
-            "Scene 3: 朝ごはんと日本食 (Breakfast and Japanese Food)",
-            "Scene 4: 音楽とカラオケ (Music and Karaoke)",
-            "Scene 5: 日本語の勉強と将来の夢 (Studying Japanese and Future Dreams)",
-            "Scene 6: 仕事と通勤 (Work and Commuting)",
-            "Scene 7: ペットと家族 (Pets and Family)",
-            "Scene 8: 買い物とインターネット (Shopping and the Internet)",
-            "Scene 9: 旅行と雪 (Travel and Snow)",
-            "Scene 10: 言語交換と挨拶 (Language Exchange and Greetings)"
-        ];
-
-        function formatJapanese(text, hideFurigana) {
-            return text.replace(/([\u4e00-\u9faf]+)\(([\u3040-\u309f]+)\)/g, (match, kanji, furigana) => {
+        function formatJapanese(rawJp, hideFurigana) {
+            // 正規表現を修正し、漢字（と「々」）の直後にあるカッコのみを「ふりがな」として処理します
+            return rawJp.replace(/([\u4E00-\u9FFF\u3005]+)\((.*?)\)/g, (match, kanji, ruby) => {
                 if (hideFurigana) {
-                    // ルビを隠して、クリック時にふりがなを上部に表示
-                    return `<span class="inline-block mx-0.5 cursor-pointer border-b-2 border-dashed border-yellow-400 hover:bg-yellow-50 transition-colors px-0.5 font-bold" onclick="revealFurigana(this, '${kanji}', '${furigana}')" title="タップして読み方を表示">${kanji}</span>`;
+                    return `<span class="kanji-hidden" onclick="revealFurigana(this)"><span class="kanji-text">${kanji}</span><span class="kanji-revealed">${ruby}</span></span>`;
                 } else {
-                    return `<ruby class="mx-0.5">${kanji}<rt>${furigana}</rt></ruby>`;
+                    return `<ruby>${kanji}<rt>${ruby}</rt></ruby>`;
                 }
             });
         }
 
-        window.revealFurigana = function(el, kanji, furigana) {
-            el.outerHTML = `<ruby class="mx-0.5 bg-yellow-100 rounded px-1 animate-pulse text-blue-900">${kanji}<rt class="text-blue-600 font-bold" style="font-size: 0.65rem;">${furigana}</rt></ruby>`;
+        window.revealFurigana = function(element) {
+            element.classList.toggle('show-ruby');
         };
 
         function renderScene() {
@@ -579,10 +533,10 @@ Speaker 1: はい、またね。 | Yes, see you.
             scene.lines.forEach((line, index) => {
                 const isSpeaker1 = line.speaker === "Speaker 1";
                 const alignment = isSpeaker1 ? "self-start" : "self-end";
-                const bgColor = isSpeaker1 ? "speaker-1-bg border border-gray-200" : "speaker-2-bg border border-blue-100";
+                const bgColor = isSpeaker1 ? "speaker-1-bg border border-gray-200" : "speaker-2-bg border border-green-100";
                 const borderRadius = isSpeaker1 ? "rounded-tr-2xl rounded-br-2xl rounded-bl-2xl" : "rounded-tl-2xl rounded-br-2xl rounded-bl-2xl";
                 const icon = isSpeaker1 ? "fa-user-tie" : "fa-user";
-                const iconColor = isSpeaker1 ? "text-gray-500" : "text-blue-500";
+                const iconColor = isSpeaker1 ? "text-gray-500" : "text-green-600";
 
                 const jpFormatted = formatJapanese(line.rawJp, appState.hideFurigana);
 
@@ -594,26 +548,33 @@ Speaker 1: はい、またね。 | Yes, see you.
                     extraContent += `<div class="text-sm text-gray-700 mt-2 italic border-l-2 border-gray-300 pl-2">${line.english}</div>`;
                 }
 
+                // Roleplay logic
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+                const blurClass = isMuted ? "blur-sm opacity-50 hover:blur-none hover:opacity-100 transition-all duration-300 cursor-pointer" : "";
+                const titleText = isMuted ? "title='Hover to reveal (Roleplay mode)'" : "";
+
                 const html = `
                     <div class="flex gap-3 max-w-[95%] sm:max-w-[85%] ${alignment} fade-in" style="animation-delay: ${index * 0.05}s">
                         ${isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
                         
                         <div class="flex flex-col gap-1 w-full">
-                            <div class="text-xs text-gray-500 font-medium px-1 ${!isSpeaker1 ? 'text-right' : ''}">${line.speaker}</div>
-                            <div class="${bgColor} ${borderRadius} p-4 shadow-sm relative group w-full">
+                            <div class="text-xs text-gray-500 font-medium px-1 ${!isSpeaker1 ? 'text-right' : ''}">${line.speaker} ${isMuted ? ' <span class="text-purple-600 font-bold ml-1"><i class="fa-solid fa-microphone-lines"></i> Your Turn</span>' : ''}</div>
+                            <div class="${bgColor} ${borderRadius} p-4 shadow-sm relative group w-full transition-shadow duration-300">
                                 <div class="flex items-start gap-3 justify-between">
-                                    <div class="text-[1.05rem] leading-loose break-words flex-1 tracking-wide font-medium">
-                                        ${jpFormatted}
+                                    <div class="flex-1 ${blurClass}" ${titleText}>
+                                        <div class="text-[1.05rem] leading-loose break-words tracking-wide font-medium">
+                                            ${jpFormatted}
+                                        </div>
+                                        ${extraContent}
                                     </div>
-                                    <button onclick="playAudio('${line.speakText.replace(/'/g, "\\'")}')" class="shrink-0 w-8 h-8 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-400 hover:text-blue-500 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300" title="Play audio">
+                                    <button onclick="playAudio('${line.speakText.replace(/'/g, "\\'")}')" class="shrink-0 w-8 h-8 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-400 hover:text-blue-600 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300" title="Play audio">
                                         <i class="fa-solid fa-volume-high"></i>
                                     </button>
                                 </div>
-                                ${extraContent}
                             </div>
                         </div>
 
-                        ${!isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                        ${!isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
                     </div>
                 `;
                 container.insertAdjacentHTML('beforeend', html);
@@ -622,10 +583,10 @@ Speaker 1: はい、またね。 | Yes, see you.
 
         function playAudio(text) {
             if ('speechSynthesis' in window) {
-                window.speechSynthesis.cancel();
+                window.speechSynthesis.cancel(); // Stop current playing
                 const utterance = new SpeechSynthesisUtterance(text);
                 utterance.lang = 'ja-JP';
-                utterance.rate = 0.85; 
+                utterance.rate = 0.85;
                 window.speechSynthesis.speak(utterance);
             }
         }
@@ -639,6 +600,7 @@ Speaker 1: はい、またね。 | Yes, see you.
                 window.speechSynthesis.cancel();
                 appState.isPlaying = false;
                 playBtnIcon.className = 'fa-solid fa-play';
+                document.querySelectorAll('#dialogue-list > div > div > div.p-4').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
                 return;
             }
 
@@ -650,134 +612,197 @@ Speaker 1: はい、またね。 | Yes, see you.
                 if (!appState.isPlaying) break; 
                 
                 const line = scene.lines[i];
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+
+                const allMessageBubbles = document.querySelectorAll('#dialogue-list > div > div > div.p-4');
+                if (allMessageBubbles[i]) {
+                    allMessageBubbles.forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                    allMessageBubbles[i].classList.add('ring-2', isMuted ? 'ring-purple-400' : 'ring-blue-400');
+                    allMessageBubbles[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
                 
-                await new Promise(resolve => {
-                    const utterance = new SpeechSynthesisUtterance(line.speakText);
-                    utterance.lang = 'ja-JP';
-                    utterance.rate = 0.85;
-                    utterance.onend = resolve;
-                    utterance.onerror = resolve;
-                    window.speechSynthesis.speak(utterance);
-                });
+                if (isMuted) {
+                    const waitTime = 1500 + (line.speakText.length * 150);
+                    await new Promise(r => setTimeout(r, waitTime));
+                } else {
+                    await new Promise(resolve => {
+                        const utterance = new SpeechSynthesisUtterance(line.speakText);
+                        utterance.lang = 'ja-JP';
+                        utterance.rate = 0.85;
+                        utterance.onend = resolve;
+                        utterance.onerror = resolve;
+                        window.speechSynthesis.speak(utterance);
+                    });
+                }
                 
                 await new Promise(r => setTimeout(r, 600));
             }
+
+            if (appState.isPlaying) {
+                document.querySelectorAll('#dialogue-list > div > div > div.p-4').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+            }
+
             appState.isPlaying = false;
             playBtnIcon.className = 'fa-solid fa-play';
         }
 
         function startQuiz() {
-            appState.currentQuestionIndex = 0;
             appState.score = 0;
-            appState.isAnswering = false;
-            renderQuizQuestion();
-        }
-
-        function renderQuizQuestion() {
-            const container = document.getElementById('quiz-body');
-            const progress = document.getElementById('quiz-progress');
+            appState.currentQuestionIndex = 0;
             
-            // Show score if finished
-            if (appState.currentQuestionIndex >= quizData.length) {
-                progress.innerText = `Result`;
-                container.innerHTML = `
-                    <div class="text-center py-8 fade-in">
-                        <div class="w-20 h-20 mx-auto bg-blue-100 text-blue-500 rounded-full flex items-center justify-center text-4xl mb-4">
-                            <i class="fa-solid fa-award"></i>
-                        </div>
-                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Quiz Completed!</h3>
-                        <p class="text-gray-600 mb-6">Your Score: <span class="font-bold text-blue-600 text-xl">${appState.score}</span> / ${quizData.length}</p>
-                        <button onclick="startQuiz()" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors">
-                            Try Again
-                        </button>
-                    </div>
-                `;
-                return;
-            }
-
-            const q = quizData[appState.currentQuestionIndex];
-            progress.innerText = `${appState.currentQuestionIndex + 1} / ${quizData.length}`;
-
-            // Create buttons HTML
-            let buttonsHtml = '';
-            q.choices.forEach((choice, index) => {
-                buttonsHtml += `
-                    <button onclick="handleAnswer(${index})" class="quiz-btn w-full text-left p-4 rounded-xl border-2 border-gray-200 hover:border-blue-400 hover:bg-blue-50 font-medium text-lg text-gray-700 focus:outline-none">
-                        <span class="inline-block w-8 text-center text-gray-400 font-bold mr-2">${index + 1}.</span> ${choice}
-                    </button>
-                `;
-            });
-
-            container.innerHTML = `
-                <div class="fade-in">
-                    <div class="mb-8 text-center">
-                        <p class="text-gray-500 text-sm font-medium mb-2 uppercase tracking-wider">Choose the correct reading</p>
-                        <h3 class="text-6xl font-black text-gray-800 tracking-widest my-4 font-['Noto_Sans_JP']">${q.kanji}</h3>
-                        <p class="text-gray-400 italic">${q.meaning}</p>
-                    </div>
-                    <div class="flex flex-col gap-3" id="quiz-choices">
-                        ${buttonsHtml}
-                    </div>
-                </div>
-            `;
+            document.getElementById('quiz-intro').classList.add('hidden');
+            document.getElementById('quiz-result').classList.add('hidden');
+            document.getElementById('quiz-area').classList.remove('hidden');
+            
+            loadQuestion();
         }
 
-        window.handleAnswer = function(selectedIndex) {
+        function loadQuestion() {
+            appState.isAnswering = false;
+            const qData = quizData[appState.currentQuestionIndex];
+            
+            // --- 選択肢をランダムにシャッフルする処理を追加 ---
+            let shuffledOptions = qData.options.map((opt, index) => {
+                return { text: opt, isCorrect: index === qData.answer };
+            });
+            
+            for (let i = shuffledOptions.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffledOptions[i], shuffledOptions[j]] = [shuffledOptions[j], shuffledOptions[i]];
+            }
+            
+            // シャッフル後の新しい「正解のインデックス」を保存
+            appState.currentCorrectIndex = shuffledOptions.findIndex(opt => opt.isCorrect);
+            // ----------------------------------------------
+
+            document.getElementById('quiz-progress').innerText = `Question ${appState.currentQuestionIndex + 1} / ${quizData.length}`;
+            document.getElementById('quiz-score').innerText = `Score: ${appState.score}`;
+            document.getElementById('quiz-question').innerText = qData.q;
+            
+            const optionsContainer = document.getElementById('quiz-options');
+            optionsContainer.innerHTML = '';
+            
+            // シャッフルされた選択肢を描画
+            shuffledOptions.forEach((opt, index) => {
+                const btn = document.createElement('button');
+                btn.className = "w-full bg-white border-2 border-gray-200 hover:border-blue-500 hover:bg-blue-50 text-gray-700 font-bold py-4 px-6 rounded-xl text-lg sm:text-xl transition-all shadow-sm";
+                btn.innerText = opt.text;
+                btn.onclick = () => checkAnswer(index, btn);
+                optionsContainer.appendChild(btn);
+            });
+        }
+
+        function checkAnswer(selectedIndex, btnElement) {
             if (appState.isAnswering) return;
             appState.isAnswering = true;
-
-            const q = quizData[appState.currentQuestionIndex];
-            const buttons = document.querySelectorAll('#quiz-choices button');
-            const isCorrect = selectedIndex === q.correct;
-
+            
+            // シャッフル後に保存した正解インデックスを使って判定
+            const correctIndex = appState.currentCorrectIndex;
+            const isCorrect = selectedIndex === correctIndex;
+            
             if (isCorrect) {
                 appState.score++;
-                buttons[selectedIndex].classList.add('correct-answer');
+                btnElement.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50', 'text-gray-700');
+                btnElement.classList.add('bg-green-500', 'text-white', 'border-green-500');
             } else {
-                buttons[selectedIndex].classList.add('wrong-answer');
+                btnElement.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50', 'text-gray-700');
+                btnElement.classList.add('bg-red-500', 'text-white', 'border-red-500');
+                
                 // Highlight correct answer
-                buttons[q.correct].classList.add('correct-answer');
+                const allButtons = document.getElementById('quiz-options').children;
+                allButtons[correctIndex].classList.remove('border-gray-200');
+                allButtons[correctIndex].classList.add('border-green-500', 'bg-green-50', 'text-green-700');
             }
-
-            // Wait 1.2s then next question
+            
+            document.getElementById('quiz-score').innerText = `Score: ${appState.score}`;
+            
             setTimeout(() => {
                 appState.currentQuestionIndex++;
-                appState.isAnswering = false;
-                renderQuizQuestion();
+                if (appState.currentQuestionIndex < quizData.length) {
+                    loadQuestion();
+                } else {
+                    showResult();
+                }
             }, 1200);
-        };
+        }
+
+        function showResult() {
+            document.getElementById('quiz-area').classList.add('hidden');
+            document.getElementById('quiz-result').classList.remove('hidden');
+            document.getElementById('final-score').innerText = appState.score;
+        }
 
         function switchTab(tabId) {
             appState.activeTab = tabId;
-            const btnConv = document.getElementById('tab-btn-conv');
-            const btnQuiz = document.getElementById('tab-btn-quiz');
-            const viewConv = document.getElementById('view-conv');
-            const viewQuiz = document.getElementById('view-quiz');
-
+            
+            const convBtn = document.getElementById('tab-btn-conv');
+            const quizBtn = document.getElementById('tab-btn-quiz');
+            const convDiv = document.getElementById('tab-conv');
+            const quizDiv = document.getElementById('tab-quiz');
+            
             if (tabId === 'conv') {
-                btnConv.className = "px-4 py-2 font-medium text-blue-600 border-b-2 border-blue-600 hover:bg-gray-50 transition-colors";
-                btnQuiz.className = "px-4 py-2 font-medium text-gray-500 border-b-2 border-transparent hover:bg-gray-50 hover:text-gray-700 transition-colors";
-                viewConv.classList.remove('hidden');
-                viewConv.classList.add('flex');
-                viewQuiz.classList.add('hidden');
+                convBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
+                quizBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
+                convDiv.classList.remove('hidden');
+                quizDiv.classList.add('hidden');
             } else {
-                btnQuiz.className = "px-4 py-2 font-medium text-blue-600 border-b-2 border-blue-600 hover:bg-gray-50 transition-colors";
-                btnConv.className = "px-4 py-2 font-medium text-gray-500 border-b-2 border-transparent hover:bg-gray-50 hover:text-gray-700 transition-colors";
-                viewQuiz.classList.remove('hidden');
-                viewConv.classList.remove('flex');
-                viewConv.classList.add('hidden');
+                quizBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
+                convBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
+                quizDiv.classList.remove('hidden');
+                convDiv.classList.add('hidden');
                 
-                // Stop audio if playing
-                if (appState.isPlaying) {
-                    window.speechSynthesis.cancel();
-                    appState.isPlaying = false;
-                    document.querySelector('#play-scene-btn i').className = 'fa-solid fa-play';
-                }
+                // Reset Quiz
+                document.getElementById('quiz-intro').classList.remove('hidden');
+                document.getElementById('quiz-area').classList.add('hidden');
+                document.getElementById('quiz-result').classList.add('hidden');
+            }
+        }
 
-                // Reset and start quiz if visiting for the first time or want to restart implicitly
-                if (appState.currentQuestionIndex === 0 && appState.score === 0) {
-                    startQuiz();
-                }
+        window.onload = () => {
+            parseData();
+
+            const selector = document.getElementById('scene-selector');
+            scenes.forEach((_, i) => {
+                const opt = document.createElement('option');
+                opt.value = i;
+                opt.text = sceneTitles[i] || `Scene ${i + 1}`;
+                selector.appendChild(opt);
+            });
+
+            selector.addEventListener('change', (e) => {
+                appState.currentSceneIndex = parseInt(e.target.value);
+                if(appState.isPlaying) playEntireScene(); // Stop if playing
+                renderScene();
+            });
+
+            document.getElementById('toggle-romaji').addEventListener('change', (e) => {
+                appState.showRomaji = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-translation').addEventListener('change', (e) => {
+                appState.showTranslation = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-kanji-test').addEventListener('change', (e) => {
+                appState.hideFurigana = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('roleplay-selector').addEventListener('change', (e) => {
+                appState.roleplayMutedSpeaker = e.target.value;
+                renderScene();
+            });
+
+            document.getElementById('tab-btn-conv').addEventListener('click', () => switchTab('conv'));
+            document.getElementById('tab-btn-quiz').addEventListener('click', () => switchTab('quiz'));
+
+            renderScene();
+        };
+    </script>
+</body>
+</html>
             }
         }
 
