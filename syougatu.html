@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2B0GEY45P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F2B0GEY45P');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Learning App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap');
+        body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
+        
+        .fade-in {
+            animation: fadeIn 0.4s ease-out forwards;
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        @keyframes fadeIn {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .speaker-1-bg { background-color: #ffffff; }
+        .speaker-2-bg { background-color: #f0fdf4; } /* Light green for variety */
+
+        .kanji-hidden {
+            display: inline-block;
+            background-color: #fef08a; /* Yellow-200 */
+            border-bottom: 2px dashed #ca8a04;
+            border-radius: 4px;
+            padding: 0 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+        }
+        .kanji-hidden:hover {
+            background-color: #fde047;
+        }
+        .kanji-revealed {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%) translateY(5px);
+            background-color: #1e40af;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease-out;
+            white-space: nowrap;
+            z-index: 10;
+        }
+        .kanji-hidden.show-ruby .kanji-revealed {
+            opacity: 1;
+            transform: translateX(-50%) translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen pb-12">
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-md">
+                    <i class="fa-solid fa-language text-xl"></i>
+                </div>
+                <h1 class="text-xl font-bold text-gray-900 tracking-tight">日本語 Learning</h1>
+            </div>
+            
+            <div class="flex bg-gray-100 p-1 rounded-lg">
+                <button id="tab-btn-conv" class="px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all">
+                    <i class="fa-regular fa-comments mr-1"></i> Conversation
+                </button>
+                <button id="tab-btn-quiz" class="px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all">
+                    <i class="fa-solid fa-pen-to-square mr-1"></i> Kanji Quiz
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 mt-6">
+        
+        <!-- TAB 1: Conversation -->
+        <div id="tab-conv">
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                
+                <!-- Controls Bar -->
+                <div class="bg-gray-50/50 p-4 border-b border-gray-100 flex flex-col sm:flex-row justify-between items-center gap-4">
+                    
+                    <div class="flex flex-col sm:flex-row items-center gap-2 w-full sm:w-auto">
+                        <select id="scene-selector" class="w-full sm:w-auto bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2 shadow-sm font-medium">
+                            <!-- Options populated by JS -->
+                        </select>
+
+                        <!-- Roleplay Selector -->
+                        <select id="roleplay-selector" class="w-full sm:w-auto bg-purple-50 border border-purple-200 text-purple-800 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2 font-medium shadow-sm">
+                            <option value="none">👤 Roleplay: Off</option>
+                            <option value="Speaker 1">🔇 Mute Speaker 1</option>
+                            <option value="Speaker 2">🔇 Mute Speaker 2</option>
+                        </select>
+
+                        <button onclick="playEntireScene()" id="play-scene-btn" class="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm">
+                            <i class="fa-solid fa-play"></i> Play
+                        </button>
+                    </div>
+
+                    <div class="flex flex-wrap justify-center gap-4 text-sm font-medium text-gray-600">
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-kanji-test" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Hide Furigana
+                        </label>
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-translation" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            English
+                        </label>
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Romaji
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Dialogue Area -->
+                <div class="p-4 sm:p-6 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-gray-50/30 min-h-[500px]">
+                    <div id="dialogue-list" class="flex flex-col gap-6">
+                        <!-- Dialogue bubbles inserted by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 2: Kanji Quiz -->
+        <div id="tab-quiz" class="hidden">
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-10 text-center max-w-2xl mx-auto">
+                <div id="quiz-intro">
+                    <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">漢字の読み方テスト</h2>
+                    <p class="text-gray-500 mb-6">会話で使われた漢字の読み方を当てる10問のクイズです。</p>
+                    <button onclick="startQuiz()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-transform transform hover:scale-105">
+                        スタート (Start)
+                    </button>
+                </div>
+
+                <div id="quiz-area" class="hidden">
+                    <div class="flex justify-between items-center text-sm font-medium text-gray-500 mb-6">
+                        <span id="quiz-progress" class="bg-gray-100 py-1 px-3 rounded-full">Question 1/10</span>
+                        <span id="quiz-score" class="text-green-600">Score: 0</span>
+                    </div>
+                    
+                    <h3 id="quiz-question" class="text-3xl sm:text-4xl font-bold text-gray-800 mb-8 py-6 bg-gray-50 rounded-xl border border-gray-100">
+                        <!-- Question -->
+                    </h3>
+                    
+                    <div id="quiz-options" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <!-- Options buttons -->
+                    </div>
+                </div>
+
+                <div id="quiz-result" class="hidden">
+                    <div class="text-6xl mb-4">🏆</div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">お疲れ様でした！</h2>
+                    <p class="text-xl text-gray-600 mb-6">Your Score: <span id="final-score" class="font-bold text-green-600 text-3xl"></span> / 10</p>
+                    <button onclick="startQuiz()" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-colors">
+                        もう一度プレイ (Play Again)
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // State management
+        const appState = {
+            activeTab: 'conv',
+            currentSceneIndex: 0,
+            showRomaji: false,
+            showTranslation: false,
+            hideFurigana: false,
+            isPlaying: false,
+            roleplayMutedSpeaker: 'none',
+            currentQuestionIndex: 0,
+            score: 0,
+            isAnswering: false
+        };
+
+        const sceneTitles = [
+            "Scene 1: 年越しそば (New Year's Eve Soba)",
+            "Scene 2: おせち料理 (New Year's Food)",
+            "Scene 3: お年玉 (New Year's Money)",
+            "Scene 4: 初詣 (First Shrine Visit)",
+            "Scene 5: おみくじ (Fortune Telling)",
+            "Scene 6: 年賀状 (New Year's Cards)",
+            "Scene 7: お餅 (Rice Cakes)",
+            "Scene 8: かるた (Traditional Card Game)",
+            "Scene 9: 福袋 (Lucky Bags)",
+            "Scene 10: お正月休みの終わり (End of Holidays)"
+        ];
+
+        const rawData = `
+Speaker 1: もうすぐ今年(ことし)が終(お)わりますね。|This year is ending soon, isn't it?
+Speaker 2: そうですね。1年(ねん)は本当(ほんとう)に早(はや)いですね。|That's right. One year goes by really fast.
+Speaker 1: 今夜(こんや)は年越(としこ)しそばを食(た)べますか。|Are you going to eat New Year's Eve soba tonight?
+Speaker 2: はい、食(た)べるつもりです。|Yes, I plan to eat it.
+Speaker 1: どうして大晦日(おおみそか)の夜(よる)にそばを食(た)べるんですか。|Why do people eat soba on the night of New Year's Eve?
+Speaker 2: そばは長(なが)いですから、長(なが)く生(い)きるようにという願(ねが)いがあります。|Because soba is long, it represents a wish to live a long life.
+Speaker 1: なるほど、いい意味(いみ)ですね。|I see, that's a nice meaning.
+Speaker 2: ええ、それから悪(わる)いことを切(き)るという意味(いみ)もあります。|Yes, and it also means cutting off bad things.
+Speaker 1: 面白(おもしろ)いですね。何時(なんじ)ごろ食(た)べますか。|That's interesting. Around what time will you eat it?
+Speaker 2: 夜(よる)の11時(じ)半(はん)ごろ食(た)べようと思(おも)っています。|I'm thinking of eating it around 11:30 PM.
+Speaker 1: 遅(おそ)い時間(じかん)ですね。|That's a late time.
+Speaker 2: はい、12時(じ)の直前(ちょくぜん)に食(た)べなければなりません。|Yes, you have to eat it right before 12 o'clock.
+Speaker 1: うどんのほうがそばより好(す)きですが、うどんでもいいですか。|I like udon more than soba, but is udon okay too?
+Speaker 2: うどんは太(ふと)くて長(なが)いので、良(よ)いと思(おも)う人(ひと)もいますよ。|Udon is thick and long, so some people think it's good too.
+Speaker 1: じゃあ、私(わたし)は年越(としこ)しうどんにします。|Then I'll have New Year's Eve udon.
+Speaker 2: 一緒(いっしょ)に天(てん)ぷらも食(た)べませんか。|Shall we eat tempura together too?
+Speaker 1: エビの天(てん)ぷらが食(た)べたいです。|I want to eat shrimp tempura.
+Speaker 2: いいですね。スーパーへ買(か)いに行(い)きましょう。|Sounds good. Let's go buy it at the supermarket.
+Speaker 1: きっとスーパーは人(ひと)が多(おお)いでしょうね。|The supermarket will probably be crowded.
+Speaker 2: ええ、だから急(いそ)いで行(い)ったほうがいいです。|Yes, so we better go in a hurry.
+Speaker 1: わかりました。コートを着(き)てきます。|Understood. I'll go put on my coat.
+Speaker 2: 外(そと)は寒(さむ)いですから、暖(あたた)かくしてくださいね。|It's cold outside, so please dress warmly.
+===
+Speaker 1: あけましておめでとうございます。|Happy New Year.
+Speaker 2: あけましておめでとうございます。今年(ことし)もよろしくお願(ねが)いします。|Happy New Year. I look forward to your continued goodwill this year.
+Speaker 1: お正月(しょうがつ)の朝(あさ)は静(しず)かですね。|New Year's morning is quiet, isn't it?
+Speaker 2: そうですね。あ、おせち料理(りょうり)の準備(じゅんび)ができましたよ。|That's right. Ah, the New Year's food (Osechi) is ready.
+Speaker 1: わあ、とてもきれいなお弁当(べんとう)ですね。|Wow, it's a very beautiful bento box.
+Speaker 2: これは特別(とくべつ)な料理(りょうり)で、いろいろな意味(いみ)があります。|This is a special dish, and it has various meanings.
+Speaker 1: この黒(くろ)くて丸(まる)いものは何(なに)ですか。|What is this black and round thing?
+Speaker 2: 黒豆(くろまめ)です。元気(げんき)に働(はたら)くことができるように食(た)べます。|It's kuromame (black beans). We eat it so we can work energetically.
+Speaker 1: へえ、甘(あま)くておいしそうです。|Oh, it looks sweet and delicious.
+Speaker 2: 甘(あま)い卵(たまご)の料理(りょうり)もありますよ。伊達巻(だてまき)と言(い)います。|There is also a sweet egg dish. It's called datemaki.
+Speaker 1: 伊達巻(だてまき)ですか。食(た)べたことがありません。|Datemaki? I've never eaten it before.
+Speaker 2: 少(すこ)し食(た)べてみますか。|Would you like to try a little?
+Speaker 1: はい、いただきます。うん、ケーキみたいですね。|Yes, thank you. Yeah, it's like a cake.
+Speaker 2: 子供(こども)にも人気(にんき)がある料理(りょうり)です。|It's a popular dish among children too.
+Speaker 1: この黄色(きいろ)いものは何(なに)ですか。|What is this yellow thing?
+Speaker 2: 栗(くり)きんとんです。お金(かね)がたくさん集(あつ)まるという意味(いみ)です。|It's kurikinton (mashed sweet potatoes with chestnuts). It means gathering a lot of money.
+Speaker 1: それはたくさん食(た)べたほうがいいですね。|Then I better eat a lot of it.
+Speaker 2: そうですね。でも、食(た)べすぎないでくださいね。|That's right. But please don't eat too much.
+Speaker 1: わかっています。おせち料理(りょうり)の中(なか)で何(なに)が一番(いちばん)好(す)きですか。|I know. What is your favorite among the Osechi dishes?
+Speaker 2: 私(わたし)はエビが一番(いちばん)好(す)きです。|I like shrimp the best.
+Speaker 1: エビも意味(いみ)があるんですか。|Does shrimp have a meaning too?
+Speaker 2: はい、腰(こし)が曲(ま)がるまで長(なが)く生(い)きるという意味(いみ)ですよ。|Yes, it means living a long life until your back bends.
+Speaker 1: 日本(にほん)のお正月(しょうがつ)は面白(おもしろ)いですね。|Japanese New Year is interesting.
+Speaker 2: ええ、たくさん食(た)べて、良(よ)い1年(ねん)にしましょう。|Yes, let's eat a lot and have a good year.
+===
+Speaker 1: 昨日(きのう)、親戚(しんせき)の子供(こども)が遊(あそ)びに来(き)ました。|Yesterday, my relatives' children came to play.
+Speaker 2: にぎやかで楽(たの)しかったでしょう。|It must have been lively and fun.
+Speaker 1: はい、でもお年玉(としだま)をあげなければなりませんでした。|Yes, but I had to give them Otoshidama (New Year's money).
+Speaker 2: ああ、お年玉(としだま)ですね。いくらあげましたか。|Ah, Otoshidama. How much did you give?
+Speaker 1: 5000円(えん)あげました。|I gave them 5,000 yen.
+Speaker 2: それは子供(こども)も嬉(うれ)しかったと思(おも)いますよ。|I think the children were very happy about that.
+Speaker 1: 私(わたし)の国(くに)にも似(に)ている習慣(しゅうかん)があります。|My country also has a similar custom.
+Speaker 2: そうなんですか。どんな習慣(しゅうかん)ですか。|Is that so? What kind of custom?
+Speaker 1: 赤(あか)い封筒(ふうとう)にお金(かね)を入(い)れて、子供(こども)にあげます。|We put money in red envelopes and give it to children.
+Speaker 2: 日本(にほん)のぽち袋(ぶくろ)と同(おな)じですね。|That's the same as the Japanese pochibukuro (small envelope).
+Speaker 1: 日本(にほん)の子供(こども)は、お年玉(としだま)で何(なに)を買(か)うんですか。|What do Japanese children buy with their Otoshidama?
+Speaker 2: ゲームや好(す)きな漫画(まんが)を買(か)うつもりだと言(い)う子(こ)が多(おお)いです。|Many kids say they plan to buy games or their favorite manga.
+Speaker 1: そうですね。親戚(しんせき)の子(こ)もゲームが欲(ほ)しいと言(い)っていました。|That makes sense. My relative's kid also said they wanted a game.
+Speaker 2: 私(わたし)が子供(こども)の時(とき)は、貯金(ちょきん)しなさいと親(おや)に言(い)われました。|When I was a child, my parents told me to save it.
+Speaker 1: ああ、私(わたし)の親(おや)も同(おな)じことを言(い)っていました。|Ah, my parents said the same thing.
+Speaker 2: もらったお金(かね)を使(つか)うのは楽(たの)しいですからね。|Well, it's fun to spend the money you receive.
+Speaker 1: 来年(らいねん)もまたお年玉(としだま)をあげなければなりません。|I have to give Otoshidama again next year too.
+Speaker 2: 子供(こども)が多(おお)いと大変(たいへん)ですね。|It's tough when there are a lot of children.
+Speaker 1: はい、だから今年(ことし)は仕事(しごと)をもっと頑張(がんば)ります。|Yes, so I will work even harder this year.
+Speaker 2: そうですね。私(わたし)も貯金(ちょきん)を始(はじ)めます。|That's right. I'll start saving money too.
+===
+Speaker 1: これから初詣(はつもうで)に行(い)きませんか。|Why don't we go for Hatsumoude (first shrine visit of the year) now?
+Speaker 2: いいですね。どこの神社(じんじゃ)に行(い)きましょうか。|Sounds good. Which shrine should we go to?
+Speaker 1: 明治神宮(めいじじんぐう)に行(い)ってみたいです。|I'd like to go to Meiji Jingu.
+Speaker 2: 明治神宮(めいじじんぐう)ですか。人(ひと)がとても多(おお)いですよ。|Meiji Jingu? It will be very crowded.
+Speaker 1: そうですか。何時間(なんじかん)くらい並(なら)びますか。|Is that so? About how many hours will we line up?
+Speaker 2: たぶん、1時間(じかん)以上(いじょう)待(ま)つかもしれません。|Maybe we might wait for more than an hour.
+Speaker 1: ええっ、そんなに長(なが)い時間(じかん)ですか。|Wow, that's a long time!
+Speaker 2: 有名(ゆうめい)な神社(じんじゃ)ですからね。近(ちか)くの小(ちい)さい神社(じんじゃ)にしますか。|It's a famous shrine, after all. Shall we choose a small shrine nearby?
+Speaker 1: いいえ、一度(いちど)行(い)ってみたいですから、明治神宮(めいじじんぐう)に行(い)きます。|No, I want to go there at least once, so let's go to Meiji Jingu.
+Speaker 2: わかりました。じゃあ、暖(あたた)かい服(ふく)を着(き)てから行(い)きましょう。|Got it. Then let's wear warm clothes before we go.
+Speaker 1: 神社(じんじゃ)でお祈(いの)りをする時(とき)、どうすればいいですか。|What should I do when I pray at the shrine?
+Speaker 2: まず、お賽銭(さいせん)というお金(かね)を入(い)れます。|First, you put in money called "osaisen".
+Speaker 1: いくら入(い)れればいいですか。|How much should I put in?
+Speaker 2: 5円(えん)玉(だま)を入(い)れる人(ひと)が多(おお)いですね。|Many people put in a 5-yen coin.
+Speaker 1: 5円(えん)ですか。どうしてですか。|5 yen? Why is that?
+Speaker 2: 良(よ)い縁(えん)があるように、という願(ねが)いです。|It's a wish to have a "good connection" (go-en).
+Speaker 1: 面白(おもしろ)いですね。お金(かね)を入(い)れてから、どうしますか。|That's interesting. After putting the money in, what do I do?
+Speaker 2: 2回(かい)お辞儀(じぎ)をして、2回(かい)手(て)を叩(たた)きます。|You bow twice and clap your hands twice.
+Speaker 1: 2回(かい)手(て)を叩(たた)くんですね。それからお祈(いの)りをしますか。|Clap twice, got it. Do I pray after that?
+Speaker 2: はい、心(こころ)の中(なか)で神様(かみさま)に挨拶(あいさつ)をします。|Yes, you greet the god in your heart.
+Speaker 1: 難(むずか)しそうですが、やってみます。|It sounds a bit difficult, but I'll try.
+Speaker 2: 最後(さいご)にもう1回(かい)お辞儀(じぎ)をするのを忘(わす)れないでくださいね。|Don't forget to bow one more time at the end.
+===
+Speaker 1: 神社(じんじゃ)でお参(まい)りが終(お)わりましたね。|We finished our shrine visit.
+Speaker 2: 次(つぎ)はおみくじを引(ひ)きに行(い)きましょう。|Next, let's go draw an omikuji (fortune slip).
+Speaker 1: おみくじは1回(かい)いくらですか。|How much is one omikuji?
+Speaker 2: ここは1回(かい)200円(えん)です。|It's 200 yen per draw here.
+Speaker 1: じゃあ、私(わたし)も引(ひ)いてみます。|Then I will try drawing one too.
+Speaker 2: 箱(はこ)を振(ふ)って、棒(ぼう)を出(だ)してください。|Shake the box and get a stick out.
+Speaker 1: 出(で)ました。25番(ばん)です。|It came out. Number 25.
+Speaker 2: 25番(ばん)ですね。この紙(かみ)をもらってください。|Number 25. Please take this paper.
+Speaker 1: ありがとうございます。あ、「大吉(だいきち)」と書(か)いてあります。|Thank you. Ah, it says "Daikichi" (Excellent Luck).
+Speaker 2: わあ、すごいですね。大吉(だいきち)は一番(いちばん)良(よ)い運勢(うんせい)ですよ。|Wow, that's amazing! Daikichi is the best fortune.
+Speaker 1: 本当(ほんとう)ですか。とても嬉(うれ)しいです。|Really? I'm so happy.
+Speaker 2: どんなことが書(か)いてありますか。|What does it say?
+Speaker 1: 「願(ねが)い事(ごと)は叶(かな)う」と書(か)いてあります。|It says "Your wishes will come true."
+Speaker 2: 良(よ)かったですね。仕事(しごと)や勉強(べんきょう)もうまくいくと思(おも)います。|That's great. I think your work and studies will go well too.
+Speaker 1: あなたのおみくじはどうでしたか。|How was your omikuji?
+Speaker 2: 私(わたし)は「末吉(すえきち)」でした。|Mine was "Suekichi" (Good Luck in the Future).
+Speaker 1: 末吉(すえきち)は悪(わる)い意味(いみ)ですか。|Does Suekichi mean something bad?
+Speaker 2: 悪(わる)くないですが、少(すこ)しだけ良(よ)いという意味(いみ)です。|It's not bad, but it means just a little bit of good luck.
+Speaker 1: ここに「旅行(りょこう)に行(い)かないほうがいい」と書(か)いてありますよ。|Here it says "It's better not to go on a trip."
+Speaker 2: ええっ、来週(らいしゅう)北海道(ほっかいどう)に行(い)くつもりなのに。|What? Even though I'm planning to go to Hokkaido next week...
+Speaker 1: 気(き)をつけたほうがいいかもしれませんね。|You might want to be careful.
+Speaker 2: そうですね。このおみくじは神社(じんじゃ)の木(き)に結(むす)んで帰(かえ)ります。|You're right. I'll tie this fortune to a tree at the shrine before going home.
+===
+Speaker 1: ポストに手紙(てがみ)がたくさん入(はい)っていましたよ。|There were a lot of letters in the mailbox.
+Speaker 2: それは年賀状(ねんがじょう)ですね。新(あたら)しい年(とし)の挨拶(あいさつ)のハガキです。|Those are nengajou (New Year's cards). They are postcards for New Year's greetings.
+Speaker 1: わあ、全部(ぜんぶ)で30枚(まい)くらいありますよ。|Wow, there are about 30 of them in total.
+Speaker 2: 友達(ともだち)や会社(かいしゃ)の人(ひと)からたくさん来(き)ましたね。|A lot came from friends and people at work.
+Speaker 1: このハガキには、家族(かぞく)の写真(しゃしん)がプリントしてあります。|This postcard has a picture of a family printed on it.
+Speaker 2: 子供(こども)ができた人(ひと)は、写真(しゃしん)を送(おく)ることが多(おお)いんです。|People who just had children often send photos.
+Speaker 1: とてもかわいい写真(しゃしん)ですね。|It's a very cute photo.
+Speaker 2: 昔(むかし)はお世話(せわ)になった先生(せんせい)にも必(かなら)ず送(おく)らなければなりませんでした。|In the past, we had to send them to teachers who helped us without fail.
+Speaker 1: 今(いま)は送(おく)らない人(ひと)もいますか。|Are there people who don't send them now?
+Speaker 2: ええ、最近(さいきん)はスマートフォンでメッセージを送(おく)る若(わか)い人(ひと)が増(ふ)えました。|Yes, recently the number of young people sending messages on their smartphones has increased.
+Speaker 1: 確(たし)かに、メッセージのほうが簡単(かんたん)で早(はや)いですね。|True, messages are easier and faster.
+Speaker 2: でも、手書(てが)きの年賀状(ねんがじょう)をもらうと嬉(うれ)しいですよ。|But getting a handwritten New Year's card makes you happy.
+Speaker 1: そうですね。私(わたし)も先生(せんせい)に書(か)いたことがありません。|I agree. I've never written one to my teacher either.
+Speaker 2: 来年(らいねん)は書(か)いてみたらどうですか。|How about trying to write one next year?
+Speaker 1: はい、日本語(にほんご)で書(か)いてみたいです。|Yes, I want to try writing it in Japanese.
+Speaker 2: 年賀状(ねんがじょう)には下(した)に番号(ばんごう)が書(か)いてあるんですよ。|New Year's cards have numbers written at the bottom.
+Speaker 1: ほんとうですね。この番号(ばんごう)は何(なに)ですか。|That's true. What are these numbers?
+Speaker 2: 宝(たから)くじの番号(ばんごう)です。1月中旬(ちゅうじゅん)に結果(けっか)がわかります。|They are lottery numbers. You find out the results in mid-January.
+Speaker 1: 切手(きって)や荷物(にもつ)が当(あ)たるんですか。|You can win stamps or packages?
+Speaker 2: はい、だから捨(す)てないで持(も)っていたほうがいいですよ。|Yes, so it's better to keep them and not throw them away.
+Speaker 1: 当(あ)たるかどうか、とても楽(たの)しみですね。|I'm really looking forward to seeing if I win or not.
+===
+Speaker 1: お正月(しょうがつ)は毎日(まいにち)おいしいものを食(た)べています。|I've been eating delicious food every day during New Year's.
+Speaker 2: 私(わたし)もです。特(とく)にお餅(もち)をたくさん食(た)べました。|Me too. Especially mochi (rice cakes), I ate a lot.
+Speaker 1: お餅(もち)はどうやって食(た)べますか。|How do you eat mochi?
+Speaker 2: 私(わたし)はお雑煮(ぞうに)に入(い)れて食(た)べるのが好(す)きです。|I like to put it in ozouni (New Year's soup) and eat it.
+Speaker 1: お雑煮(ぞうに)は野菜(やさい)や肉(にく)のスープですね。|Ozouni is a soup with vegetables and meat, right?
+Speaker 2: はい。私(わたし)の家(いえ)のお雑煮(ぞうに)は、鶏肉(とりにく)と大根(だいこん)が入(はい)っています。|Yes. My family's ozouni has chicken and radish in it.
+Speaker 1: とてもおいしそうですね。|It sounds very delicious.
+Speaker 2: あなたの家(いえ)では、どんなお餅(もち)を食(た)べますか。|What kind of mochi do you eat at your house?
+Speaker 1: 焼(や)いてから、甘(あま)い醤油(しょうゆ)をつけるのが一番(いちばん)好(す)きです。|I like baking it and putting sweet soy sauce on it the best.
+Speaker 2: 海苔(のり)を巻(ま)いて食(た)べてもおいしいですよ。|It's also delicious if you wrap it in seaweed.
+Speaker 1: はい、昨日(きのう)はそれで3個(こ)も食(た)べてしまいました。|Yes, I ended up eating 3 of them that way yesterday.
+Speaker 2: 3個(こ)ですか。お餅(もち)はカロリーが高(たか)いから気(き)をつけてください。|Three? Mochi is high in calories, so be careful.
+Speaker 1: わかっていますが、おいしくて食(た)べすぎます。|I know, but it's so delicious I eat too much.
+Speaker 2: 運動(うんどう)しないと、太(ふと)ってしまいますよ。|If you don't exercise, you'll get fat.
+Speaker 1: 確(たし)かに、少(すこ)し顔(かお)が丸(まる)くなったかもしれません。|Indeed, my face might have gotten a bit rounder.
+Speaker 2: お正月(しょうがつ)休(やす)みは、家(いえ)の中(なか)にいることが多(おお)いですからね。|Well, during the New Year holidays, we spend a lot of time inside the house.
+Speaker 1: 明日(あした)は天気(てんき)が良(よ)かったら、散歩(さんぽ)に行(い)きたいです。|If the weather is nice tomorrow, I want to go for a walk.
+Speaker 2: じゃあ、近(ちか)くの公園(こうえん)まで歩(ある)きに行(い)きましょうか。|Then shall we walk to the nearby park?
+Speaker 1: いいですね。少(すこ)し運動(うんどう)しなければなりません。|That's a good idea. I need to get some exercise.
+Speaker 2: でも、今日(きょう)の夜(よる)はまたお餅(もち)を食(た)べるつもりでしょう？|But you're planning to eat mochi again tonight, aren't you?
+Speaker 1: ええ、最後(さいご)に1個(こ)だけ食(た)べます。|Yeah, just one last piece.
+===
+Speaker 1: 今(いま)から皆(みな)で「かるた」をしませんか。|Why don't we all play "karuta" now?
+Speaker 2: かるたですか。テレビで見(み)たことがありますが、やったことがありません。|Karuta? I've seen it on TV, but I've never played it.
+Speaker 1: とても簡単(かんたん)なゲームですよ。教(おし)えましょうか。|It's a very simple game. Shall I teach you?
+Speaker 2: はい、お願(ねが)いします。どんなルールですか。|Yes, please. What are the rules?
+Speaker 1: 1人(ひとり)の人(ひと)がカードの文(ぶん)を読(よ)みます。|One person reads the sentence on the card.
+Speaker 2: ふむふむ、私(わたし)たちはどうしますか。|Uh-huh, and what do we do?
+Speaker 1: 床(ゆか)にある絵(え)のカードを、早(はや)く取(と)った人(ひと)が勝(かち)です。|The person who quickly grabs the matching picture card on the floor wins.
+Speaker 2: 読(よ)まれた言葉(ことば)と同(おな)じ絵(え)を探(さが)すんですね。|So we look for the picture that matches the words read, right?
+Speaker 1: そうです。じゃあ、練習(れんしゅう)してみましょう。|That's right. Well then, let's practice.
+Speaker 2: はい、準備(じゅんび)できました。|Yes, I'm ready.
+Speaker 1: 「いぬもあるけば ぼうにあたる」|"Even a walking dog bumps into a pole."
+Speaker 2: あ、「い」の字(じ)が書(か)いてある犬(いぬ)の絵(え)ですね。はい！|Ah, it's the picture of the dog with the letter "i" written on it. Got it!
+Speaker 1: すごいですね。カードを取(と)るのが早(はや)いです。|Amazing. You're fast at taking cards.
+Speaker 2: 楽(たの)しいですね。次(つぎ)も読(よ)んでください。|This is fun. Please read the next one too.
+Speaker 1: じゃあ、行(い)きますよ。|Okay, here I go.
+Speaker 2: 今度(こんど)も絶対(ぜったい)に負(ま)けませんよ。|I definitely won't lose this time either.
+Speaker 1: お正月(しょうがつ)は昔(むかし)の遊(あそ)びをするのがいいですね。|It's nice to play traditional games during New Year's.
+Speaker 2: 外(そと)でたこ揚(あ)げをする子供(こども)もいますか。|Are there kids flying kites outside too?
+Speaker 1: 最近(さいきん)は少(すこ)し減(へ)りましたが、大(おお)きい公園(こうえん)に行(い)くと見(み)ることができます。|It has decreased a bit recently, but you can see them if you go to a big park.
+Speaker 2: 私(わたし)も自分(じぶん)の国(くに)で凧(たこ)を作(つく)って遊(あそ)びました。|I also made kites and played with them in my home country.
+Speaker 1: それは懐(なつか)しいですね。|That brings back memories, doesn't it?
+===
+Speaker 1: 明日(あした)は駅前(えきまえ)のデパートに行(い)きませんか。|Why don't we go to the department store in front of the station tomorrow?
+Speaker 2: 新年(しんねん)の初売(はつう)りですね。何(なに)か買(か)いたい物(もの)がありますか。|It's the New Year's first sale, right? Is there anything you want to buy?
+Speaker 1: 服(ふく)の福袋(ふくぶくろ)を買(か)いたいです。|I want to buy a fukubukuro (lucky bag) of clothes.
+Speaker 2: 福袋(ふくぶくろ)ですか。私(わたし)は買(か)ったことがありません。|Fukubukuro? I've never bought one.
+Speaker 1: とても安(やす)くて、たくさん物(もの)が入(はい)っていますよ。|They're very cheap, and a lot of things are inside.
+Speaker 2: 中(なか)に何(なに)が入(はい)っているか、わかりますか。|Do you know what's inside?
+Speaker 1: いいえ、開(あ)けるまで何(なに)が入(はい)っているかわかりません。|No, you don't know what's inside until you open it.
+Speaker 2: 欲(ほ)しくない物(もの)が入(はい)っているかもしれませんよね。|There might be things you don't want inside, right?
+Speaker 1: そうです。でも、それが面白(おもしろ)いんです。|That's right. But that's what makes it fun.
+Speaker 2: なるほど、ゲームみたいでドキドキしますね。|I see, it's like a game and quite exciting.
+Speaker 1: 1万円(まんえん)の福袋(ふくぶくろ)に、3万円(まんえん)の服(ふく)が入(はい)っていることもあります。|Sometimes a 10,000 yen lucky bag contains 30,000 yen worth of clothes.
+Speaker 2: それはお得(とく)ですね。何時(なんじ)にお店(みせ)に行(い)けばいいですか。|That's a great deal. What time should we go to the store?
+Speaker 1: 朝(あさ)早(はや)く行(い)かないと、売(う)り切(き)れてしまいます。|If we don't go early in the morning, they will be sold out.
+Speaker 2: 皆(みな)、福袋(ふくぶくろ)が好(す)きなんですね。|Everyone really loves lucky bags, huh.
+Speaker 1: 9時(じ)にお店(みせ)が開(あ)くので、8時(じ)には並(なら)んだほうがいいです。|The store opens at 9 o'clock, so we better line up by 8 o'clock.
+Speaker 2: 8時(じ)ですか。朝(あさ)はとても寒(さむ)いですよ。|8 o'clock? It's very cold in the morning.
+Speaker 1: 暖(あたた)かいお茶(ちゃ)を持(も)って行(い)きますから、一緒(いっしょ)に行(い)きましょう。|I'll bring some warm tea, so let's go together.
+Speaker 2: わかりました。私(わたし)も鞄(かばん)の福袋(ふくぶくろ)を探(さが)してみます。|Okay. I'll look for a lucky bag with bags in it too.
+Speaker 1: 楽(たの)しみですね。良(よ)い物(もの)が入(はい)っているといいですね。|It's exciting. I hope there are good things inside.
+Speaker 2: ええ、明日(あした)は早(はや)く起(お)きなければなりませんね。|Yes, we have to wake up early tomorrow.
+===
+Speaker 1: ああ、とうとう今日(きょう)でお正月(しょうがつ)休(やす)みが終(お)わります。|Ah, the New Year holidays finally end today.
+Speaker 2: 本当(ほんとう)にあっという間(ま)でしたね。|It really went by in a flash.
+Speaker 1: 明日(あした)から仕事(しごと)だと思(おも)うと、少(すこ)し悲(かな)しいです。|Thinking that it's work starting tomorrow makes me a little sad.
+Speaker 2: 私(わたし)もです。もっと休(やす)みたいですね。|Me too. I want to rest more.
+Speaker 1: 会社(かいしゃ)に行(い)きたくないです。|I don't want to go to the company.
+Speaker 2: そんなことを言(い)わないでください。私(わたし)も行(い)きたくなくなりますよ。|Don't say things like that. It makes me not want to go either.
+Speaker 1: この休(やす)みは、たくさん食(た)べてたくさん寝(ね)ました。|I ate a lot and slept a lot during this holiday.
+Speaker 2: とてもリラックスすることができましたね。|You were able to relax a lot, weren't you.
+Speaker 1: はい、でもどこかへ旅行(りょこう)に行(い)けばよかったです。|Yes, but I wish I had gone on a trip somewhere.
+Speaker 2: 冬(ふゆ)は温泉(おんせん)に行(い)くのもいいですね。|Going to a hot spring is also nice in winter.
+Speaker 1: 来年(らいねん)のお正月(しょうがつ)は、一緒(いっしょ)に温泉(おんせん)へ行(い)きませんか。|Shall we go to a hot spring together for next year's New Year?
+Speaker 2: いいですね。雪(ゆき)を見(み)ながら温泉(おんせん)に入(はい)りたいです。|That sounds good. I want to take a bath while looking at the snow.
+Speaker 1: じゃあ、そのためにお金(かね)を貯(た)めなければなりませんね。|Then we have to save money for that.
+Speaker 2: 明日(あした)からまた、一生懸命(いっしょうけんめい)働(はたら)きましょう。|Let's work hard again starting tomorrow.
+Speaker 1: はい、仕事(しごと)を頑張(がんば)ります。|Yes, I'll do my best at work.
+Speaker 2: まず、朝(あさ)早(はや)く起(お)きることができるかどうかが心配(しんぱい)です。|First of all, I'm worried whether I can wake up early in the morning.
+Speaker 1: 目覚(めざ)まし時計(どけい)を3つセットしておいたほうがいいですよ。|You better set 3 alarm clocks.
+Speaker 2: そうですね。今日(きょう)は早(はや)く寝(ね)ることにします。|You're right. I'll go to sleep early today.
+Speaker 1: 今年(ことし)も1年(ねん)、元気(げんき)に頑張(がんば)りましょう。|Let's do our best energetically for another year.
+Speaker 2: はい、よろしくお願(ねが)いします。おやすみなさい。|Yes, looking forward to working with you. Good night.
+`;
+
+        const quizData = [
+            { q: "「大晦日」の読み方は？", options: ["おおみそか", "だいまつじつ", "おおみっか", "たいきゅうじつ"], answer: 0 },
+            { q: "「準備」の読み方は？", options: ["じゅんび", "しょうび", "じゅんひ", "そなえ"], answer: 0 },
+            { q: "「親戚」の読み方は？", options: ["しんせき", "かぞく", "しんゆう", "おやこ"], answer: 0 },
+            { q: "「習慣」の読み方は？", options: ["しゅうかん", "ならわし", "しゅうがく", "れんしゅう"], answer: 0 },
+            { q: "「初詣」の読み方は？", options: ["はつもうで", "はつもう", "しょもうで", "はつもうと"], answer: 0 },
+            { q: "「運勢」の読み方は？", options: ["うんせい", "うんき", "うんどう", "うんめい"], answer: 0 },
+            { q: "「年賀状」の読み方は？", options: ["ねんがじょう", "としがじょう", "ねんがしょ", "としがしょ"], answer: 0 },
+            { q: "「醤油」の読み方は？", options: ["しょうゆ", "しおゆ", "そいゆ", "しょゆ"], answer: 0 },
+            { q: "「福袋」の読み方は？", options: ["ふくぶくろ", "ふくたい", "ふくふくろ", "さちぶくろ"], answer: 0 },
+            { q: "「一生懸命」の読み方は？", options: ["いっしょうけんめい", "いっしょけんめい", "いっしょうけんまい", "いっしょうけんもく"], answer: 0 }
+        ];
+
+        let scenes = [];
+
+        function parseData() {
+            const rawScenes = rawData.trim().split('===');
+            scenes = rawScenes.map(sceneText => {
+                const lines = sceneText.trim().split('\n').filter(line => line.length > 0);
+                return {
+                    lines: lines.map(line => {
+                        const [jpPart, enPart] = line.split('|');
+                        const speakerSplit = jpPart.split(':');
+                        const speaker = speakerSplit[0].trim();
+                        let rawJp = speakerSplit.slice(1).join(':').trim();
+                        
+                        const speakText = rawJp.replace(/\(.*?\)/g, '');
+                        
+                        return {
+                            speaker: speaker,
+                            rawJp: rawJp,
+                            speakText: speakText,
+                            english: enPart ? enPart.trim() : "Translation not available.",
+                            romaji: generateRomaji(speakText)
+                        };
+                    })
+                };
+            });
+        }
+
+        function generateRomaji(text) {
+            // Simple mapping for demonstration purposes
+            const map = {
+                'こんにちは':'konnichiwa', 'おはよう':'ohayou', 'ありがとう':'arigatou',
+                'はい':'hai', 'いいえ':'iie', 'すみません':'sumimasen'
+            };
+            let romaji = text;
+            for (let k in map) {
+                romaji = romaji.replace(new RegExp(k, 'g'), map[k]);
+            }
+            return romaji || "Romaji not fully generated";
+        }
+
+        function formatJapanese(rawJp, hideFurigana) {
+            // 正規表現を修正し、漢字（と「々」）の直後にあるカッコのみを「ふりがな」として処理します
+            return rawJp.replace(/([\u4E00-\u9FFF\u3005]+)\((.*?)\)/g, (match, kanji, ruby) => {
+                if (hideFurigana) {
+                    return `<span class="kanji-hidden" onclick="revealFurigana(this)"><span class="kanji-text">${kanji}</span><span class="kanji-revealed">${ruby}</span></span>`;
+                } else {
+                    return `<ruby>${kanji}<rt>${ruby}</rt></ruby>`;
+                }
+            });
+        }
+
+        window.revealFurigana = function(element) {
+            element.classList.toggle('show-ruby');
+        };
+
+        function renderScene() {
+            const container = document.getElementById('dialogue-list');
+            container.innerHTML = '';
+            
+            const scene = scenes[appState.currentSceneIndex];
+            
+            scene.lines.forEach((line, index) => {
+                const isSpeaker1 = line.speaker === "Speaker 1";
+                const alignment = isSpeaker1 ? "self-start" : "self-end";
+                const bgColor = isSpeaker1 ? "speaker-1-bg border border-gray-200" : "speaker-2-bg border border-green-100";
+                const borderRadius = isSpeaker1 ? "rounded-tr-2xl rounded-br-2xl rounded-bl-2xl" : "rounded-tl-2xl rounded-br-2xl rounded-bl-2xl";
+                const icon = isSpeaker1 ? "fa-user-tie" : "fa-user";
+                const iconColor = isSpeaker1 ? "text-gray-500" : "text-green-600";
+
+                const jpFormatted = formatJapanese(line.rawJp, appState.hideFurigana);
+
+                let extraContent = '';
+                if (appState.showRomaji) {
+                    extraContent += `<div class="text-sm text-gray-500 mt-2 font-mono bg-gray-50 p-2 rounded">${line.romaji}</div>`;
+                }
+                if (appState.showTranslation) {
+                    extraContent += `<div class="text-sm text-gray-700 mt-2 italic border-l-2 border-gray-300 pl-2">${line.english}</div>`;
+                }
+
+                // Roleplay logic
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+                const blurClass = isMuted ? "blur-sm opacity-50 hover:blur-none hover:opacity-100 transition-all duration-300 cursor-pointer" : "";
+                const titleText = isMuted ? "title='Hover to reveal (Roleplay mode)'" : "";
+
+                const html = `
+                    <div class="flex gap-3 max-w-[95%] sm:max-w-[85%] ${alignment} fade-in" style="animation-delay: ${index * 0.05}s">
+                        ${isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                        
+                        <div class="flex flex-col gap-1 w-full">
+                            <div class="text-xs text-gray-500 font-medium px-1 ${!isSpeaker1 ? 'text-right' : ''}">${line.speaker} ${isMuted ? ' <span class="text-purple-600 font-bold ml-1"><i class="fa-solid fa-microphone-lines"></i> Your Turn</span>' : ''}</div>
+                            <div class="${bgColor} ${borderRadius} p-4 shadow-sm relative group w-full transition-shadow duration-300">
+                                <div class="flex items-start gap-3 justify-between">
+                                    <div class="flex-1 ${blurClass}" ${titleText}>
+                                        <div class="text-[1.05rem] leading-loose break-words tracking-wide font-medium">
+                                            ${jpFormatted}
+                                        </div>
+                                        ${extraContent}
+                                    </div>
+                                    <button onclick="playAudio('${line.speakText.replace(/'/g, "\\'")}')" class="shrink-0 w-8 h-8 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-400 hover:text-blue-600 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300" title="Play audio">
+                                        <i class="fa-solid fa-volume-high"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        ${!isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                    </div>
+                `;
+                container.insertAdjacentHTML('beforeend', html);
+            });
+        }
+
+        function playAudio(text) {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel(); // Stop current playing
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'ja-JP';
+                utterance.rate = 0.85;
+                window.speechSynthesis.speak(utterance);
+            }
+        }
+
+        async function playEntireScene() {
+            if (!('speechSynthesis' in window)) return;
+            
+            const playBtnIcon = document.querySelector('#play-scene-btn i');
+
+            if (appState.isPlaying) {
+                window.speechSynthesis.cancel();
+                appState.isPlaying = false;
+                playBtnIcon.className = 'fa-solid fa-play';
+                document.querySelectorAll('#dialogue-list > div > div > div.p-4').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                return;
+            }
+
+            appState.isPlaying = true;
+            playBtnIcon.className = 'fa-solid fa-stop';
+            const scene = scenes[appState.currentSceneIndex];
+            
+            for (let i = 0; i < scene.lines.length; i++) {
+                if (!appState.isPlaying) break; 
+                
+                const line = scene.lines[i];
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+
+                const allMessageBubbles = document.querySelectorAll('#dialogue-list > div > div > div.p-4');
+                if (allMessageBubbles[i]) {
+                    allMessageBubbles.forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                    allMessageBubbles[i].classList.add('ring-2', isMuted ? 'ring-purple-400' : 'ring-blue-400');
+                    allMessageBubbles[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+                
+                if (isMuted) {
+                    const waitTime = 1500 + (line.speakText.length * 150);
+                    await new Promise(r => setTimeout(r, waitTime));
+                } else {
+                    await new Promise(resolve => {
+                        const utterance = new SpeechSynthesisUtterance(line.speakText);
+                        utterance.lang = 'ja-JP';
+                        utterance.rate = 0.85;
+                        utterance.onend = resolve;
+                        utterance.onerror = resolve;
+                        window.speechSynthesis.speak(utterance);
+                    });
+                }
+                
+                await new Promise(r => setTimeout(r, 600));
+            }
+
+            if (appState.isPlaying) {
+                document.querySelectorAll('#dialogue-list > div > div > div.p-4').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+            }
+
+            appState.isPlaying = false;
+            playBtnIcon.className = 'fa-solid fa-play';
+        }
+
+        function startQuiz() {
+            appState.score = 0;
+            appState.currentQuestionIndex = 0;
+            
+            document.getElementById('quiz-intro').classList.add('hidden');
+            document.getElementById('quiz-result').classList.add('hidden');
+            document.getElementById('quiz-area').classList.remove('hidden');
+            
+            loadQuestion();
+        }
+
+        function loadQuestion() {
+            appState.isAnswering = false;
+            const qData = quizData[appState.currentQuestionIndex];
+            
+            document.getElementById('quiz-progress').innerText = `Question ${appState.currentQuestionIndex + 1} / ${quizData.length}`;
+            document.getElementById('quiz-score').innerText = `Score: ${appState.score}`;
+            document.getElementById('quiz-question').innerText = qData.q;
+            
+            const optionsContainer = document.getElementById('quiz-options');
+            optionsContainer.innerHTML = '';
+            
+            qData.options.forEach((opt, index) => {
+                const btn = document.createElement('button');
+                btn.className = "w-full bg-white border-2 border-gray-200 hover:border-blue-500 hover:bg-blue-50 text-gray-700 font-bold py-4 px-6 rounded-xl text-lg sm:text-xl transition-all shadow-sm";
+                btn.innerText = opt;
+                btn.onclick = () => checkAnswer(index, btn);
+                optionsContainer.appendChild(btn);
+            });
+        }
+
+        function checkAnswer(selectedIndex, btnElement) {
+            if (appState.isAnswering) return;
+            appState.isAnswering = true;
+            
+            const correctIndex = quizData[appState.currentQuestionIndex].answer;
+            const isCorrect = selectedIndex === correctIndex;
+            
+            if (isCorrect) {
+                appState.score++;
+                btnElement.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50', 'text-gray-700');
+                btnElement.classList.add('bg-green-500', 'text-white', 'border-green-500');
+            } else {
+                btnElement.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50', 'text-gray-700');
+                btnElement.classList.add('bg-red-500', 'text-white', 'border-red-500');
+                
+                // Highlight correct answer
+                const allButtons = document.getElementById('quiz-options').children;
+                allButtons[correctIndex].classList.remove('border-gray-200');
+                allButtons[correctIndex].classList.add('border-green-500', 'bg-green-50', 'text-green-700');
+            }
+            
+            document.getElementById('quiz-score').innerText = `Score: ${appState.score}`;
+            
+            setTimeout(() => {
+                appState.currentQuestionIndex++;
+                if (appState.currentQuestionIndex < quizData.length) {
+                    loadQuestion();
+                } else {
+                    showResult();
+                }
+            }, 1200);
+        }
+
+        function showResult() {
+            document.getElementById('quiz-area').classList.add('hidden');
+            document.getElementById('quiz-result').classList.remove('hidden');
+            document.getElementById('final-score').innerText = appState.score;
+        }
+
+        function switchTab(tabId) {
+            appState.activeTab = tabId;
+            
+            const convBtn = document.getElementById('tab-btn-conv');
+            const quizBtn = document.getElementById('tab-btn-quiz');
+            const convDiv = document.getElementById('tab-conv');
+            const quizDiv = document.getElementById('tab-quiz');
+            
+            if (tabId === 'conv') {
+                convBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
+                quizBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
+                convDiv.classList.remove('hidden');
+                quizDiv.classList.add('hidden');
+            } else {
+                quizBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
+                convBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
+                quizDiv.classList.remove('hidden');
+                convDiv.classList.add('hidden');
+                
+                // Reset Quiz
+                document.getElementById('quiz-intro').classList.remove('hidden');
+                document.getElementById('quiz-area').classList.add('hidden');
+                document.getElementById('quiz-result').classList.add('hidden');
+            }
+        }
+
+        window.onload = () => {
+            parseData();
+
+            const selector = document.getElementById('scene-selector');
+            scenes.forEach((_, i) => {
+                const opt = document.createElement('option');
+                opt.value = i;
+                opt.text = sceneTitles[i] || `Scene ${i + 1}`;
+                selector.appendChild(opt);
+            });
+
+            selector.addEventListener('change', (e) => {
+                appState.currentSceneIndex = parseInt(e.target.value);
+                if(appState.isPlaying) playEntireScene(); // Stop if playing
+                renderScene();
+            });
+
+            document.getElementById('toggle-romaji').addEventListener('change', (e) => {
+                appState.showRomaji = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-translation').addEventListener('change', (e) => {
+                appState.showTranslation = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-kanji-test').addEventListener('change', (e) => {
+                appState.hideFurigana = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('roleplay-selector').addEventListener('change', (e) => {
+                appState.roleplayMutedSpeaker = e.target.value;
+                renderScene();
+            });
+
+            document.getElementById('tab-btn-conv').addEventListener('click', () => switchTab('conv'));
+            document.getElementById('tab-btn-quiz').addEventListener('click', () => switchTab('quiz'));
+
+            renderScene();
+        };
+    </script>
+</body>
+</html>
