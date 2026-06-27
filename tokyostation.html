@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2B0GEY45P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F2B0GEY45P');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Learning App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap');
+        body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
+        
+        .fade-in {
+            animation: fadeIn 0.4s ease-out forwards;
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        @keyframes fadeIn {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .speaker-1-bg { background-color: #ffffff; }
+        .speaker-2-bg { background-color: #f0fdf4; }
+
+        .kanji-hidden {
+            display: inline-block;
+            background-color: #fef08a; 
+            border-bottom: 2px dashed #ca8a04;
+            border-radius: 4px;
+            padding: 0 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+        }
+        .kanji-hidden:hover {
+            background-color: #fde047;
+        }
+        .kanji-revealed {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%) translateY(5px);
+            background-color: #1e40af;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease-out;
+            white-space: nowrap;
+            z-index: 10;
+        }
+        .kanji-hidden.show-ruby .kanji-revealed {
+            opacity: 1;
+            transform: translateX(-50%) translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen pb-12">
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-md">
+                    <i class="fa-solid fa-language text-xl"></i>
+                </div>
+                <h1 class="text-xl font-bold text-gray-900 tracking-tight">日本語 Learning</h1>
+            </div>
+            
+            <div class="flex bg-gray-100 p-1 rounded-lg">
+                <button id="tab-btn-conv" class="px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all">
+                    <i class="fa-regular fa-comments mr-1"></i> Conversation
+                </button>
+                <button id="tab-btn-quiz" class="px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all">
+                    <i class="fa-solid fa-pen-to-square mr-1"></i> Kanji Quiz
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 mt-6">
+        
+        <div id="tab-conv">
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                
+                <div class="bg-gray-50/50 p-4 border-b border-gray-100 flex flex-col gap-4">
+                    
+                    <div class="flex flex-row items-center justify-start gap-2 w-full overflow-x-auto py-1">
+                        <select id="scene-selector" class="w-auto max-w-[280px] bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2 shadow-sm font-medium shrink">
+                        </select>
+
+                        <select id="roleplay-selector" class="w-auto bg-purple-50 border border-purple-200 text-purple-800 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2 font-medium shadow-sm shrink-0">
+                            <option value="none">👤 Roleplay: Off</option>
+                            <option value="Speaker 1">🔇 Mute Speaker 1</option>
+                            <option value="Speaker 2">🔇 Mute Speaker 2</option>
+                        </select>
+
+                        <button onclick="playEntireScene()" id="play-scene-btn" class="w-auto bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm shrink-0">
+                            <i class="fa-solid fa-play"></i> Play
+                        </button>
+                    </div>
+
+                    <div class="flex flex-wrap justify-start gap-x-4 gap-y-2 text-sm font-medium text-gray-600 w-full pt-2 border-t border-gray-100">
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors whitespace-nowrap">
+                            <input type="checkbox" id="toggle-kanji-test" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Hide Furigana
+                        </label>
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors whitespace-nowrap">
+                            <input type="checkbox" id="toggle-translation" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            English
+                        </label>
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors whitespace-nowrap">
+                            <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Romaji
+                        </label>
+                    </div>
+                </div>
+
+                <div class="p-4 sm:p-6 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-gray-50/30 min-h-[500px]">
+                    <div id="dialogue-list" class="flex flex-col gap-6">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tab-quiz" class="hidden">
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-10 text-center max-w-2xl mx-auto">
+                <div id="quiz-intro">
+                    <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">漢字の読み方テスト</h2>
+                    <p class="text-gray-500 mb-6">会話で使われた漢字の読み方を当てる10問のクイズです。</p>
+                    <button onclick="startQuiz()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-transform transform hover:scale-105">
+                        スタート (Start)
+                    </button>
+                </div>
+
+                <div id="quiz-area" class="hidden">
+                    <div class="flex justify-between items-center text-sm font-medium text-gray-500 mb-6">
+                        <span id="quiz-progress" class="bg-gray-100 py-1 px-3 rounded-full">Question 1/10</span>
+                        <span id="quiz-score" class="text-green-600">Score: 0</span>
+                    </div>
+                    
+                    <h3 id="quiz-question" class="text-3xl sm:text-4xl font-bold text-gray-800 mb-8 py-6 bg-gray-50 rounded-xl border border-gray-100">
+                    </h3>
+                    
+                    <div id="quiz-options" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    </div>
+                </div>
+
+                <div id="quiz-result" class="hidden">
+                    <div class="text-6xl mb-4">🏆</div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">お疲れ様でした！</h2>
+                    <p class="text-xl text-gray-600 mb-6">Your Score: <span id="final-score" class="font-bold text-green-600 text-3xl"></span> / 10</p>
+                    <button onclick="startQuiz()" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-colors">
+                        もう一度プレイ (Play Again)
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const appState = {
+            activeTab: 'conv',
+            currentSceneIndex: 0,
+            showRomaji: false,
+            showTranslation: false,
+            hideFurigana: false,
+            isPlaying: false,
+            roleplayMutedSpeaker: 'none',
+            currentQuestionIndex: 0,
+            score: 0,
+            isAnswering: false
+        };
+
+        const sceneTitles = [
+            "Scene 1: ラーメンストリートでお昼ご飯 (Lunch at Ramen Street)",
+            "Scene 2: 東京キャラクターストリート (Tokyo Character Street)",
+            "Scene 3: 駅弁屋 祭でお弁当選び (Choosing Bento at Ekibenya Matsuri)",
+            "Scene 4: 大丸デパートでお土産探し (Shopping for Souvenirs at Daimaru)",
+            "Scene 5: グランスタのカフェで休憩 (Taking a Break at a Gransta Cafe)",
+            "Scene 6: 丸の内駅舎の写真撮影 (Taking Photos of Marunouchi Station Building)",
+            "Scene 7: 新幹線ホームでトレインウォッチング (Train Watching at Shinkansen Platform)",
+            "Scene 8: コインロッカーを探す (Finding a Coin Locker)",
+            "Scene 9: 銀の鈴での待ち合わせ (Meeting at the Silver Bell)",
+            "Scene 10: 丸の内改札口への移動 (Heading to Marunouchi Gates)"
+        ];
+
+        // Format: Japanese|English|Romaji
+        const rawData = `
+Speaker 1: 東京駅(とうきょうえき)はとても大(おお)きいですね。|Tokyo Station is very big, isn't it?|Toukyoueki wa totemo ookii desu ne.
+Speaker 2: はい、お店(みせ)がたくさんありますよ。|Yes, there are many shops.|Hai, omise ga takusan arimasu yo.
+Speaker 1: 今(いま)から何(なに)をしますか。|What are we going to do now?|Ima kara nani o shimasu ka.
+Speaker 2: お腹(なか)が空(す)きましたから、お昼(ひる)ご飯(はん)を食(た)べましょう。|Since we are hungry, let's eat lunch.|Onaka ga sukimashita kara, ohirugohan o tabemashou.
+Speaker 1: 何(なに)がいいですか。|What would you like?|Nani ga ii desu ka.
+Speaker 2: 東京駅(とうきょうえき)の地下(ちか)にラーメンストリートがあります。|There is a Ramen Street in the basement of Tokyo Station.|Toukyoueki no chika ni raamen suturiito ga arimasu.
+Speaker 1: ラーメンストリートですか。|Ramen Street?|Raamen suturiito desu ka.
+Speaker 2: はい、有名(ゆうめい)なラーメンのお店(みせ)がたくさんあります。|Yes, there are many famous ramen shops.|Hai, yuumeina raamen no omise ga takusan arimasu.
+Speaker 1: それはいいですね。私(わたし)はラーメンが大好(だいす)きです。|That sounds great. I love ramen.|Sore wa ii desu ne. Watashi wa raamen ga daisuki desu.
+Speaker 2: 豚骨(とんこつ)ラーメンと醤油(しょうゆ)ラーメン、どちらが好(す)きですか。|Which do you like better, tonkotsu ramen or shoyu ramen?|Tonkotsu raamen to shouyu raamen, dochira ga suki desu ka.
+Speaker 1: 醤油(しょうゆ)ラーメンのほうが好(す)きです。|I prefer shoyu ramen.|Shouyu raamen no hou ga suki desu.
+Speaker 2: じゃあ、おいしい醤油(しょうゆ)ラーメンのお店(みせ)に行(い)きましょう。|Then, let's go to a delicious shoyu ramen shop.|Jaa, oishii shouyu raamen no omise ni ikimashou.
+Speaker 1: 人(ひと)がたくさんいますね。|There are a lot of people, aren't there?|Hito ga takusan imasu ne.
+Speaker 2: そうですね。少(すこ)し並(なら)びますよ。|You're right. We will have to line up for a bit.|Sou desu ne. Sukoshi narabimasu yo.
+Speaker 1: 何分(なんぷん)くらい待(ま)ちますか。|About how many minutes do we have to wait?|Nanpun kurai machimasu ka.
+Speaker 2: たぶん、15分(ふん)くらい待(ま)ちます。|Probably, we will wait for about 15 minutes.|Tabun, 15-fun kurai machimasu.
+Speaker 1: わかりました。ラーメンのメニューを見(み)てもいいですか。|I see. May I look at the ramen menu?|Wakarimashita. Raamen no menyuu o mite mo ii desu ka.
+Speaker 2: はい、どうぞ。これは一番(いちばん)人気(にんき)のラーメンです。|Yes, go ahead. This is the most popular ramen.|Hai, douzo. Kore wa ichiban ninki no raamen desu.
+Speaker 1: おいしそうですね。私(わたし)もこれにします。|It looks delicious. I will have this one too.|Oishisou desu ne. Watashi mo kore ni shimasu.
+Speaker 2: じゃあ、食券(しょっけん)を買(か)いましょう。|Then, let's buy the meal tickets.|Jaa, shokken o kaimashou.
+===
+Speaker 1: 次(つぎ)はどこへ行(い)きますか。|Where shall we go next?|Tsugi wa doko e ikimasu ka.
+Speaker 2: 東京(とうきょう)キャラクターストリートへ行(い)きましょう。|Let's go to Tokyo Character Street.|Toukyou kyarakutaa suturiito e ikimashou.
+Speaker 1: そこに何(なに)がありますか。|What is there?|Soko ni nani ga arimasu ka.
+Speaker 2: アニメやゲームのグッズのお店(みせ)がたくさんあります。|There are many shops for anime and game merchandise.|Anime ya geemu no guzzu no omise ga takusan arimasu.
+Speaker 1: どんなアニメですか。|What kind of anime?|Donna anime desu ka.
+Speaker 2: ポケモンやジブリのお店(みせ)がありますよ。|There are Pokemon and Ghibli shops.|Pokemon ya Jiburi no omise ga arisu yo.
+Speaker 1: ほんとうですか。私(わたし)はジブリの映画(えいが)が好(す)きです。|Is that true? I like Studio Ghibli movies.|Hontou desu ka. Watashi wa Jiburi no eiga ga suki desu.
+Speaker 2: じゃあ、ジブリのお店(みせ)を見(み)ましょう。|Then, let's check out the Ghibli shop.|Jaa, Jiburi no omise o mimashou.
+Speaker 1: あ、かわいいトトロのぬいぐるみがあります。|Oh, there is a cute Totoro plushie.|A, kawaii Totoro no nuigurumi ga arimasu.
+Speaker 2: 小(ちい)さいトトロもいますね。|There is a small Totoro too.|Chiisai Totoro mo imasu ne.
+Speaker 1: このぬいぐるみはいくらですか。|How much is this plushie?|Kono nuigurumi wa ikura desu ka.
+Speaker 2: 1500円(えん)です。|It's 1,500 yen.|1500-en desu.
+Speaker 1: 安(やす)いですね。買(か)ってもいいですか。|That's cheap. May I buy it?|Yasui desu ne. Katte mo ii desu ka.
+Speaker 2: もちろんです。友達(ともだち)のお土産(みやげ)ですか。|Of course. Is it a souvenir for a friend?|Mochiron desu. Tomodachi no omiyage desu ka.
+Speaker 1: はい、妹(いもうと)にあげます。|Yes, I'll give it to my younger sister.|Hai, imouto ni agemasu.
+Speaker 2: 妹(いもうと)さんもジブリが好(す)きですか。|Does your sister like Ghibli too?|Imoutosan mo Jiburi ga suki desu ka.
+Speaker 1: はい、とても好(す)きです。|Yes, she likes it very much.|Hai, totemo suki desu.
+Speaker 2: それはいいですね。あ、あそこにポケモンの店(みせ)もありますよ。|That's nice. Oh, there's a Pokemon shop over there too.|Sore wa ii desu ne. A, asoko ni Pokemon no mise mo arisu yo.
+Speaker 1: 後(あと)でポケモンの店(みせ)も行(い)きたいです。|I want to go to the Pokemon shop later too.|Ato de Pokemon no mise mo ikitai desu.
+Speaker 2: わかりました。ゆっくり見(み)ましょう。|Understood. Let's take our time looking around.|Wakarimashita. Yukkuri mimashou.
+===
+Speaker 1: 新幹線(しんかんせん)の時間(じかん)は何時(なんじ)ですか。|What time is the Shinkansen?|Shinkansen no jikan wa nanji desu ka.
+Speaker 2: 午後(ごご)2時(じ)です。まだ時間(じかん)があります。|It's at 2:00 PM. We still have time.|Gogo ni-ji desu. Mada jikan ga arimasu.
+Speaker 1: じゃあ、駅弁屋(えきべんや)でお弁当(べんとう)を買(か)いましょう。|Then, let's buy a bento at the Ekiben shop.|Jaa, ekibenya de obentou o kaimashou.
+Speaker 2: 駅弁屋(えきべんや)祭(まつり)という大(おお)きいお店(みせ)があります。|There is a big shop called Ekibenya Matsuri.|Ekibenya Matsuri to iu ookii omise ga arisu.
+Speaker 1: そこで何(なに)を買(か)うことができますか。|What can we buy there?|Soko de nani o kau koto ga dekimasu ka.
+Speaker 2: 日本(にほん)のいろいろな場所(ばしょ)のお弁当(べんとう)を買(か)うことができます。|You can buy bento from various places across Japan.|Nihon no iroirona basho no obentou o kau koto ga dekimasu.
+Speaker 1: え、東京(とうきょう)のお弁当(べんとう)だけじゃありませんか。|Oh, isn't it just Tokyo bento?|E, Toukyou omise ga arisasu ka.
+Speaker 2: はい、北海道(ほっかいどう)や京都(きょうと)のお弁当(べんとう)もありますよ。|Yes, there are bento from Hokkaido and Kyoto as well.|Hai, Hokkaidou ya Kouto no obentou mo arisu yo.
+Speaker 1: すごいですね。お店(みせ)の中(なか)に入(はい)りましょう。|That's amazing. Let's go inside the shop.|Sugoi desu ne. Omise no naka ni hairimashou.
+Speaker 2: 種類(しゅるい)がたくさんありますね。|There are so many varieties, aren't there?|Shurui ga takusan arimasu ne.
+Speaker 1: お肉(にく)のお弁当(べんとう)と魚(さかな)のお弁当(べんとう)があります。|There are meat bento and fish bento.|Oniku no obentou to sakana no obentou ga arimasu.
+Speaker 2: どちらが食(た)べたいですか。|Which one do you want to eat?|Dochira ga tabetai desu ka.
+Speaker 1: 私(わたし)は牛肉(ぎゅうにく)のお弁当(べんとう)が食(た)べたいです。|I want to eat a beef bento.|Watashi wa gyuuniku no obentou ga tabetai desu.
+Speaker 2: この神戸牛(こうべぎゅう)のお弁当(べんとう)はおいしいですよ。|This Kobe beef bento is delicious.|Kono Koubegyuu no obentou wa oishii desu yo.
+Speaker 1: それはいくらですか。|How much is it?|Sore wa ikura desu ka.
+Speaker 2: 1800円(えん)です。|It's 1,800 yen.|1800-en desu.
+Speaker 1: 少(すこ)し高(たか)いですが、これにします。|It's a bit expensive, but I'll choose this one.|Sukoshi takai desu ga, kore ni shimasu.
+Speaker 2: 私(わたし)は海鮮(かいせん)のお弁当(べんとう)にします。|I will have the seafood bento.|Watashi wa kaisen no obentou ni shimasu.
+Speaker 1: お茶(ちゃ)も買(か)わなければなりませんね。|We have to buy some tea too, right?|Ocha mo kawanakereba narimasen ne.
+Speaker 2: レジの横(よこ)にお茶(ちゃ)がありますよ。一緒(いっしょ)に買(か)いましょう。|There is tea next to the register. Let's buy it together.|Reji no yoko ni ocha ga arisu yo. Issho ni kaimashou.
+===
+Speaker 1: 家族(かぞく)にお土産(みやげ)を買(か)いたいです。|I want to buy souvenirs for my family.|Kazoku ni omiyage o kaitai desu.
+Speaker 2: じゃあ、大丸(だいまる)デパートへ行(い)きましょう。|Then, let's go to Daimaru Department Store.|Jaa, Daimaru depaato e ikimashou.
+Speaker 1: 大丸(だいまる)は東京駅(とうきょうえき)の中(なか)にありますか。|Is Daimaru inside Tokyo Station?|Daimaru wa Toukyoueki no naka ni arimasu ka.
+Speaker 2: はい、駅(えき)とつながっています。とても便利(べんり)ですよ。|Yes, it's connected to the station. It's very convenient.|Hai, eki to tsunagatte imasu. Totemo benri desu yo.
+Speaker 1: 1階(かい)でお菓子(かし)を買(か)うことができますか。|Can we buy sweets on the first floor?|Ikkai de okashi o kau koto ga dekimasu ka.
+Speaker 2: はい、1階(かい)に有名(ゆうめい)なお菓子(かし)のお店(みせ)がたくさんあります。|Yes, there are many famous sweets shops on the first floor.|Hai, ikkai ni yuumeina okashi no omise ga takusan arimasu.
+Speaker 1: どんなお菓子(かし)がいいですかね。|What kind of sweets would be good?|Donna okashi ga ii desu kane.
+Speaker 2: 東京(とうきょう)ばな奈(な)やクッキーが人気(にんき)です。|Tokyo Banana and cookies are popular.|Toukyou Banana ya kukkii ga ninki desu.
+Speaker 1: 東京(とうきょう)ばな奈(な)はバナナのケーキですね。|Tokyo Banana is a banana cake, right?|Toukyou Banana wa banana no keeki desu ne.
+Speaker 2: そうです。甘(あま)くてとてもおいしいですよ。|That's right. It's sweet and very delicious.|Sou desu. Amakute totemo oishii desu yo.
+Speaker 1: あ、あそこにきれいな箱(はこ)のクッキーがあります。|Oh, there are cookies in a beautiful box over there.|A, asoko ni kireina hako no kukkii ga arimasu.
+Speaker 2: あれは有名(ゆうめい)なクッキーですね。|Those are famous cookies.|Are wa yuumeina kukkii desu ne.
+Speaker 1: 試食(ししょく)してもいいですか。|May I try a sample?|Shishoku shite mo ii desu ka.
+Speaker 2: 今(いま)は試食(ししょく)をすることができません。でも、とても人気(にんき)があります。|You can't do samples right now. But they are very popular.|Ima wa shishoku o suru koto ga dekimasen. Demo, totemo ninki ga arimasu.
+Speaker 1: じゃあ、そのクッキーを二箱(ふたはこ)買(か)います。|Then, I'll buy two boxes of those cookies.|Jaa, sono kukkii o futahako kaimasu.
+Speaker 2: 他(ほか)に何(なに)か買(か)いますか。|Are you buying anything else?|Hoka ni nanika kaimasu ka.
+Speaker 1: 抹茶(まっちゃ)のお菓子(かし)も欲(ほ)しいです。|I also want some matcha sweets.|Maccha no okashi mo hoshii desu.
+Speaker 2: 抹茶(まっちゃ)なら、あのお店(みせ)がいいですよ。|If it's matcha, that shop over there is good.|Maccha nara, ano omise ga ii desu yo.
+Speaker 1: 行(い)ってみましょう。|Let's go look.|Itte mimashou.
+Speaker 2: 荷物(にもつ)が重(おも)くなりますから、気(き)をつけてくださいね。|Your bags will get heavy, so please be careful.|Nimotsu ga omoku narimasu kara, ki o tsukete kudasai ne.
+===
+Speaker 1: 少(すこ)し疲(つか)れました。休(やす)みませんか。|I'm a bit tired. Shall we take a break?|Sukoshi tsukaremashita. Yasumimasen ka.
+Speaker 2: そうですね。コーヒーを飲(の)みましょうか。|Good idea. Shall we drink some coffee?|Sou desu ne. Koohii o nomishou ka.
+Speaker 1: 駅(えき)の中(なか)にカフェがありますか。|Is there a cafe inside the station?|Eki no naka ni kafe ga arimasu ka.
+Speaker 2: はい、グランスタにカフェとパン屋(や)がありますよ。|Yes, there is a cafe and a bakery in Gransta.|Hai, Guransuta ni kafe to panya ga arisu yo.
+Speaker 1: グランスタは地下(ちか)ですね。|Gransta is in the basement, right?|Guransuta wa chika desu ne.
+Speaker 2: ええ、新(あたら)しくてとてもきれいな場所(ばしょ)です。|Yes, it's a new and very beautiful place.|Ee, atarashikute totemo kireina basho desu.
+Speaker 1: あ、いい匂(にお)いがします。|Oh, it smells nice.|A, ii nioi ga shimasu.
+Speaker 2: 有名(ゆうめい)なパン屋(や)さんです。いつも人(ひと)が多(おお)です。|It's a famous bakery. It's always crowded with people.|Yuumeina panyasan desu. Itsumo hito ga ooi desu.
+Speaker 1: そこでパンを買(か)って、食(た)べてもいいですか。|Can we buy bread there and eat it?|Soko de pan o katte, tabete mo ii desu ka.
+Speaker 2: もちろんです。カフェの席(せき)で食(た)べることができます。|Of course. You can eat it at the cafe seats.|Mochiron desu. Kafe no seki de taberu koto ga dekimasu.
+Speaker 1: クロワッサンがとてもおいしそうです。|The croissants look very delicious.|Kurowassan ga totemo oishisou desu.
+Speaker 2: 私(わたし)はサンドイッチにします。|I'll have a sandwich.|Watashi wa sandoicchi ni shimasu.
+Speaker 1: 飲(の)み物(もの)は何(なに)にしますか。|What would you like for a drink?|Nomimono wa nani ni shimasu ka.
+Speaker 2: アイスコーヒーをお願(ねが)いします。|Iced coffee, please.|Aisu koohii o onegaishimasu.
+Speaker 1: 私(わたし)は温(あたた)かい紅茶(こうちゃ)にします。|I'll have hot tea.|Watashi wa atatakai koucha ni shimasu.
+Speaker 2: 先(さき)に席(せき)を取(と)りましょう。|Let's get a seat first.|Saki ni seki o torimashou.
+Speaker 1: 窓(まど)の近(ちか)くの席(せき)が空(あ)いていますよ。|The seat near the window is open.|Mado no chikaku no seki ga aite imasu yo.
+Speaker 2: よかったですね。あそこに座(すわ)りましょう。|That's great. Let's sit over there.|Yokatta desu ne. Asoko ni suwarimashou.
+Speaker 1: パンはおいしいですか。|Is the bread delicious?|Pan wa oishii desu ka.
+Speaker 2: はい、とてもおいしいです。ゆっくり休(やす)んでから、また歩(ある)きましょう。|Yes, it's very delicious. Let's walk again after resting up.|Hai, totemo oishii desu. Yukkuri yasunde kara, mata arukimashou.
+===
+Speaker 1: 外(そと)に出(で)てもいいですか。|May I go outside?|Soto e dete mo ii desu ka.
+Speaker 2: はい、丸の内(まるのうち)の出口(でぐち)から出(で)ましょう。|Yes, let's head out from the Marunouchi exit.|Hai, Marunouchi no deguchi kara demashou.
+Speaker 1: わあ、この建物(たてもの)はとてもきれいですね。|Wow, this building is beautiful, isn't it?|Waa, kono tatemono wa totemo kirei desu ne.
+Speaker 2: これが東京駅(とうきょうえき)の丸の内(まるのうち)駅舎(えきしゃ)です。|This is the Marunouchi Station Building of Tokyo Station.|Kore ga Toukyoueki no Marunouchi ekisha desu.
+Speaker 1: 赤(あか)いレンガの建物(たてもの)ですね。古(ふる)いですか。|It's a red brick building. Is it old?|Akai renga no tatemono desu ne. Furui desu ka.
+Speaker 2: 100年(ねん)前(まえ)の建物(たてもの)です。|It's a building from 100 years ago.|100-nen mae no tatemono desu.
+Speaker 1: とても大(おお)きくて立派(りっぱ)です。|It's very large and grand.|Totemo ookikて rippa desu.
+Speaker 2: 夜(よる)は明(あか)るくなりますから、もっときれいですよ。|It lights up at night, so it's even more beautiful.|Yoru wa akaruku narimasu kara, motto kirei desu yo.
+Speaker 1: 写真(しゃしん)を撮(と)してもいいですか。|May I take a photo?|Shashin o totte mo ii desu ka.
+Speaker 2: もちろんです。私(わたし)が撮(と)りましょうか。|Of course. Shall I take it for you?|Mochiron desu. Watashi ga torimashou ka.
+Speaker 1: はい、お願(ねが)いします。駅(えき)と一緒(いっしょ)に撮(と)ってください。|Yes, please. Please take it together with the station.|Hai, onegaishimasu. Eki to issho ni totte kudasai.
+Speaker 2: いきますよ。はい、チーズ。|Here we go. Say cheese!|Ikimasu yo. Hai, chiizu.
+Speaker 1: ありがとうございます。とてもいい写真(しゃしん)です。|Thank you very much. It's a very nice photo.|Arigatou gozaimasu. Totemo ii shashin desu.
+Speaker 2: 天気(てんき)がいいですから、空(そら)も青(あお)くてきれいですね。|Since the weather is nice, the sky is blue and beautiful too.|Tenki ga ii desu kara, sora mo aokute kirei desu ne.
+Speaker 1: 私(わたし)もあなたを撮(と)りましょうか。|Shall I take a photo of you too?|Watashi mo anata o torimashou ka.
+Speaker 2: あ、私(わたし)は大丈夫(だいじょうぶ)です。|Oh, I'm fine.|A, watashi wa daijoubu desu.
+Speaker 1: そうですか。中(なか)の天井(てんじょう)も見(み)たいです。|I see. I want to see the ceiling inside too.|Sou desu ka. Naka no tenjou mo mitai desu.
+Speaker 2: ドームの天井(てんじょう)ですね。彫刻(ちょうこく)が素晴(すば)らしいですよ。|The dome ceiling, right? The sculptures are wonderful.|Doomu no tenjou desu ne. Choukoku ga subarashii desu yo.
+Speaker 1: じゃあ、もう一度(いちど)中(なか)に入(はい)りましょう。|Then, let's go back inside once more.|Jaa, mou ichido naka ni hairimashou.
+Speaker 2: ええ、見(み)に行(い)きましょう。|Yes, let's go see it.|Ee, mi ni ikimashou.
+===
+Speaker 1: 新幹線(しんかんせん)のホームに行(い)きましょう。|Let's go to the Shinkansen platform.|Shinkansen no hoomu e ikimashou.
+Speaker 2: まだ乗(の)る時間(じかん)じゃありませんよ。|It's not time to board yet.|Mada noru jikan ja arisen yo.
+Speaker 1: 新幹線(しんかんせん)の写真(しゃしん)がたくさん撮(と)りたいです。|I want to take many photos of the Shinkansen.|Shinkansen no shashin ga takusan toitai desu.
+Speaker 2: なるほど。東京駅(とうきょうえき)はたくさん新幹線(しんかんせん)が来(き)ますからね。|I see. Many Shinkansen come to Tokyo Station, after all.|Naruhodo. Toukyoueki wa takusan Shinkansen ga kimasu kara ne.
+Speaker 1: 北(きた)に行(い)く新幹線(しんかんせん)も見(み)ることができますか。|Can we see the Shinkansen going north too?|Kita ni iku Shinkansen mo miru koto ga dekimasu ka.
+Speaker 2: はい、東北(とうほく)新幹線(しんかんせん)も見(み)ることができます。|Yes, you can see the Tohoku Shinkansen too.|Hai, Touhoku Shinkansen mo miru koto ga dekimasu.
+Speaker 1: 緑色(みどりいろ)の新幹線(しんかんせん)が好(す)きです。|I like the green Shinkansen.|Midoriiro no Shinkansen ga suki desu.
+Speaker 2: それは「はやぶさ」ですね。とても速(はや)いですよ。|That's the "Hayabusa." It's very fast.|Sore wa "Hayabusa" desu ne. Totemo hayai desu yo.
+Speaker 1: あ、向(む)こうに青(あお)い新幹線(しんかんせん)が止(と)まっています。|Oh, a blue Shinkansen is parked over there.|A, mukou ni aoi Shinkansen ga tomatte imasu.
+Speaker 2: あれは北陸(ほくりく)新幹線(しんかんせん)です。|That is the Hokuriku Shinkansen.|Are wa Hokuriku Shinkansen desu.
+Speaker 1: かっこいいですね。東京駅(とうきょうえき)は電車(でんしゃ)の博物館(はくぶつかん)みたいです。|It's so cool. Tokyo Station is like a train museum.|Kakkoii desu ne. Toukyoueki wa densha no hakubutsukan mitai desu.
+Speaker 2: 子供(こども)も大人(おとな)も電車(でんしゃ)を見(み)て楽(たの)しんでいます。|Both kids and adults enjoy watching the trains.|Kodomo mo otona mo densha o mite tanoshinde imasu.
+Speaker 1: 黄色(きいろ)い新幹線(しんかんせん)を見(み)たことがありますか。|Have you ever seen the yellow Shinkansen?|Kiiroi Shinkansen o mita koto ga arisasu ka.
+Speaker 2: いいえ、ありません。見(み)るのがとても難(むずか)しいです。|No, I haven't. It's very difficult to see.|Iie, arimasen. Miru no ga totemo muzukashii desu.
+Speaker 1: 今日(きょう)は見(み)ることができますか。|Can we see it today?|Kyou wa miru koto ga dekimasu ka.
+Speaker 2: さあ、わかりません。|Well, I don't know.|Saa, wakarimasen.
+Speaker 1: あの黄色(きいろ)い新幹線(しんかんせん)を見(み)たら、幸(しあわ)せになりますね。|If we see that yellow Shinkansen, we'll become happy, right?|Ano kiiroi Shinkansen o mitara, shiawase ni narimasu ne.
+Speaker 2: そうですね。|That's true.|Sou desu ne.
+Speaker 1: あと10分(ぷん)くらいホームで待(ま)ちましょう。|Let's wait on the platform for about 10 more minutes.|Ato 10-fun kurai hoomu de machishou.
+Speaker 2: わかりました。気(き)をつけて写真(しゃしん)を撮(と)ってくださいね。|Understood. Please be careful taking photos.|Wakarimashita. Ki o tsukete shashin o totte kudasai ne.
+===
+Speaker 1: 荷物(にもつ)が重(おも)くて、歩(ある)くのが大変(たいへん)です。|My bags are heavy, so walking is tough.|Nimotsu ga omokute, aruku no ga taihen desu.
+Speaker 2: じゃあ、コインロッカーに荷物(にもつ)を入(い)れましょう。|Then, let's put the luggage in a coin locker.|Jaa, koin rokkaa ni nimotsu o iremashou.
+Speaker 1: 東京駅(とうきょうえき)にコインロッカーはありますか。|Are there coin lockers at Tokyo Station?|Toukyoueki ni koin rokkaa wa arisu ka.
+Speaker 2: はい、たくさんありますよ。|Yes, there are many.|Hai, takusan arisu yo.
+Speaker 1: どこにありますか。|Where are they?|Doko ni arisu ka.
+Speaker 2: 改札(かいさつ)の外(そと)にも中(なか)にもあります。|They are both outside and inside the ticket gates.|Kaisatsu no soto ni mo naka ni mo arisu.
+Speaker 1: 私(わたし)のスーツケースはとても大(おお)きいです。|My suitcase is very big.|Watashi no suutsukeesu wa totemo ookii desu.
+Speaker 2: 大(おお)きいロッカーもありますから、大丈夫(だいじょうぶ)です。|There are large lockers too, so it's fine.|Ookii rokkaa mo arisu kara, daijoubu desu.
+Speaker 1: あそこにロッカーがあります。|There are lockers over there.|Asoko ni rokkaa ga arisu.
+Speaker 2: 残念(ざんねん)ですが、全部(ぜんぶ)荷物(にもつ)が入(はい)っています。|Unfortunately, they are all full of luggage.|Zannen desu ga, zenbu nimotsu ga haitte imasu.
+Speaker 1: 空(あ)いていませんね。どうしましょうか。|None are open. What shall we do?|Aite imasen ne. Dou shimashou ka.
+Speaker 2: スマートフォンで空(あ)いているロッカーを探(さが)すことができます。|You can search for open lockers with a smartphone.|Sumaatofon de aite iru rokkaa o sagasu koto ga dekimasu.
+Speaker 1: 便利(べんり)ですね。近(ちか)くにありますか。|That's convenient. Is there one nearby?|Benri desu ne. Chikaku ni arisu ka.
+Speaker 2: はい、あそこの地下(ちか)通路(つうろ)にあります。|Yes, it's in the underground passage over there.|Hai, asoko no chika tsuuro ni arisu.
+Speaker 1: 行(い)ってみましょう。|Let's go look.|Itte mimashou.
+Speaker 2: あ、空(あ)いていました。ここに入(い)れましょう。|Oh, one was open. Let's put it here.|A, aite imashita. Koko ni iremashou.
+Speaker 1: お金(かね)はどうやって払(はら)いますか。|How do we pay the money?|Okane wa dou yatte haraimasu ka.
+Speaker 2: SuicaやPasmoを使(つか)うことができます。|You can use Suica or Pasmo.|Suica ya Pasmo o tsukau koto ga dekimasu.
+Speaker 1: 現金(げんきん)は使(つか)うことができませんか。|Can't we use cash?|Genkin wa tsukau koto ga dekimasen ka.
+Speaker 2: 現金(げんきん)を使(つか)うことができるロッカーもありますよ。|There are lockers where you can use cash too.|Genkin o tsukau koto ga dekiru rokkaa mo arisu yo.
+Speaker 1: これで身軽(みがる)になりました。買(か)い物(もの)に行(い)きましょう。|Now I'm free of baggage. Let's go shopping!|Kore de migaru ni narimashita. Kaimono e ikimashou.
+===
+Speaker 1: 友達(ともだち)とどこで会(あ)いますか。|Where will you meet your friend?|Tomodachi to doko de aimasu ka.
+Speaker 2: 銀(ぎん)の鈴(すず)で待(ま)ち合(あ)わせをします。|We are meeting at the Silver Bell.|Gin no Suzu de machiawase o shimasu.
+Speaker 1: 銀(ぎん)の鈴(すず)は何(なに)ですか。|What is the Silver Bell?|Gin no Suzu wa nan desu ka.
+Speaker 2: 銀色(ぎんいろ)の大(おお)きい鈴(すず)です。|It's a big silver-colored bell.|Giniro no ookii suzu desu.
+Speaker 1: 東京駅(とうきょうえき)の中(なか)にありますか。|Is it inside Tokyo Station?|Toukyoueki no naka ni arimasu ka.
+Speaker 2: はい、地下(ちか)の待(ま)ち合(あ)わせ場所(ばしょ)です。|Yes, it's an underground meeting spot.|Hai, chika no machiawase basho desu.
+Speaker 1: 行(い)き方(かた)がわかりますか。|Do you know how to get there?|Ikikata ga wakarimasu ka.
+Speaker 2: 地図(ちず)を見(み)ましょう。八重洲(やえす)の近(ちか)くです。|Let's look at the map. It's near Yaesu.|Chizu o mimashou. Yaesu no chikaku desu.
+Speaker 1: 人(ひと)がたくさんいますね。|There are a lot of people.|Hito ga takusan imasu ne.
+Speaker 2: そうですね。有名(ゆうめい)な場所(ばしょ)ですから。|Yes, because it's a famous place.|Sou desu ne. Yuumeina basho desu kara.
+Speaker 1: あ、あそこに大(おお)きい鈴(すず)があります。|Oh, there's a big bell over there.|A, asoko ni ookii suzu ga arimasu.
+Speaker 2: あれが銀(ぎん)の鈴(すず)です。|That is the Silver Bell.|Are ga Gin no Suzu desu.
+Speaker 1: でも、友達(ともだち)がいません。|But your friend isn't here.|Demo, tomodachi ga imasen.
+Speaker 2: 電話(でんわ)をかけてみましょう。|Let's try calling.|Denwa o kakete mimashou.
+Speaker 1: もしもし、今(いま)どこにいますか。|Hello, where are you now?|Moshimoshi, ima doko ni imasu ka.
+Speaker 2: 「ごめんなさい、電車(でんしゃ)が遅(おそ)れました」と言(い)っていました。|They were saying, "I'm sorry, the train was delayed."| "Gomennasai, densha ga okuremashita" to itte imashita.
+Speaker 1: そうですか。何分(なんぷん)くらい遅(おそ)れますか。|I see. About how many minutes will it be delayed?|Sou desu ka. Nanpun kurai okuremasu ka.
+Speaker 2: 10分(ぷん)くらい遅(おそ)れると思(おも)います。|I think it will be delayed by about 10 minutes.|10-fun kurai okureru to omoimasu.
+Speaker 1: じゃあ、ここで少(すこ)し待(ま)ちましょう。|Then, let's wait here for a bit.|Jaa, koko de sukoshi machishou.
+Speaker 2: 椅子(いす)がありますから、座(すわ)って待(ま)ちましょう。|There are chairs, so let's sit and wait.|Isu ga arisu kara, suwatte machishou.
+===
+Speaker 1: 丸の内(まるのうち)のホテルに行(い)きたいです。|I want to go to the hotel in Marunouchi.|Marunouchi no hoteru ni ikitai desu.
+Speaker 2: 今(いま)、私(わたし)たちはどこにいますか。|Where are we right now?|Ima, watashitachi wa doko ni imasu ka.
+Speaker 1: 看板(かんばん)を見(み)ましょう。「八重洲(やえす)北口(きたぐち)」と書(か)いてあります。|Let's look at the sign. It says "Yaesu North Gate."|Kanban o mimashou. "Yaesu Kitaguchi" to kaite arisu.
+Speaker 2: 八重洲(やえす)は丸の内(まるのうち)の反対(はんたい)側(がわ)です。|Yaesu is on the opposite side of Marunouchi.|Yaesu wa Marunouchi no hantai-gawa desu.
+Speaker 1: ええっ、反対(はんたい)ですか。どうやって行(い)きますか。|What? The opposite side? How do we go?|Eee, hantai desu ka. Dou yatte ikimasu ka.
+Speaker 2: 北(きた)自由(じゆう)通路(つうろ)を歩(ある)いて、丸の内(まるのうち)に行(い)きましょう。|Let's walk through the North Freedom Passage to go to Marunouchi.|Kita Jiyuu Tsuuro o aruite, Marunouchi e ikimashou.
+Speaker 1: 東京駅(とうきょうえき)は迷路(めいろ)みたいです。|Tokyo Station is like a maze.|Toukyoueki wa meiro mitai desu.
+Speaker 2: そうですね。初(はじ)めて来(く)る人(ひと)はよく迷(まよ)いますよ。|You're right. People coming for the first time often get lost.|Sou desu ne. Hajimete kuru hito wa yoku mayoimasu yo.
+Speaker 1: あの看板(かんばん)の矢印(やじるし)の方向(ほうこう)に行(い)きましょう。|Let's go in the direction of the arrow on that sign.|Ano kanban no yajirushi no houkou e ikimashou.
+Speaker 2: はい、まっすぐ歩(ある)いてください。|Yes, please walk straight ahead.|Hai, massugu aruite kudasai.
+Speaker 1: あ、お店(みせ)がたくさん並(なら)んでいますね。|Oh, there are many shops lined up.|A, omise ga takusan narande imasu ne.
+Speaker 2: ここはお土産(みやげ)やレストランがたくさんあります。|There are many souvenirs and restaurants here.|Koko wa omiyage ya resutoran ga takusan arisu.
+Speaker 1: 人(ひと)が多(おお)くて、歩(ある)くのが遅(おそ)くなります。|There are so many people, walking gets slow.|Hito ga ookute, aruku no ga osoku narimasu.
+Speaker 2: 慌(あわ)てないで、ゆっくり行(い)きましょう。|Don't rush, let's go slowly.|Awatenaide, yukkuri ikimashou.
+Speaker 1: あそこに見(み)えるのは丸の内(まるのうち)の改札(かいさつ)ですか。|Is what we can see over there the Marunouchi ticket gate?|Asoko ni mieru no wa Marunouchi no kaisatsu desu ka.
+Speaker 2: はい、そうです。やっと着(つ)きましたね。|Yes, that's right. We've finally arrived.|Hai, sou desu. Yatto tsukimashita ne.
+Speaker 1: 外(そと)に出(で)たら、ホテルが見(み)えますか。|Will we see the hotel once we go outside?|Soto e detara, hoteru ga miemasu ka.
+Speaker 2: ええ、高(たか)いビルですから、すぐに見(み)えると思(おも)います。|Yes, it's a tall building, so I think you'll see it right away.|Ee, takai biru desu kara, sugu ni mieru to omoimasu.
+Speaker 1: よかったです。安心(安心)しました。|Great. I'm relieved.|Yokatta desu. Anshin shimashita.
+Speaker 2: さあ、ホテルに行(い)って、休(やす)みましょう。|Now, let's go to the hotel and rest.|Saa, hoteru e itte, yasumishou.
+`;
+
+        const quizData = [
+            { q: "「地下」の読み方は？", options: ["ちか", "じか", "ちげ", "したか"], answer: 0 },
+            { q: "「醤油」の読み方は？", options: ["しょうゆ", "せいゆ", "そーゆ", "しょうづる"], answer: 0 },
+            { q: "「食券」の読み方は？", options: ["しょっけん", "しょくけん", "たべけん", "しょくけん"], answer: 0 },
+            { q: "「土産」の読み方は？", options: ["おみやげ", "どさん", "とさん", "みやげ品"], answer: 0 },
+            { q: "「新幹線」の読み方は？", options: ["しんかんせん", "しんがたせん", "あたらしきせん", "しんかんぜん"], answer: 0 },
+            { q: "「種類」の読み方は？", options: ["しゅるい", "しゅいる", "たねるい", "しずるい"], answer: 0 },
+            { q: "「試食」の読み方は？", options: ["ししょく", "こころたべ", "ためしくい", "しじき"], answer: 0 },
+            { q: "「駅舎」の読み方は？", options: ["えきしゃ", "えきや", "えきいち", "えきどう"], answer: 0 },
+            { q: "「改札」の読み方は？", options: ["かいさつ", "あらためふだ", "かいさく", "がいさつ"], answer: 0 },
+            { q: "「方向」の読み方は？", options: ["ほうこう", "かたむき", "ほうむき", "ぼうこう"], answer: 0 }
+        ];
+
+        let scenes = [];
+
+        function parseData() {
+            const rawScenes = rawData.trim().split('===');
+            scenes = rawScenes.map(sceneText => {
+                const lines = sceneText.trim().split('\n').filter(line => line.length > 0);
+                return {
+                    lines: lines.map(line => {
+                        const [jpPart, enPart, romajiPart] = line.split('|');
+                        const speakerSplit = jpPart.split(':');
+                        const speaker = speakerSplit[0].trim();
+                        let rawJp = speakerSplit.slice(1).join(':').trim();
+                        
+                        const speakText = rawJp.replace(/\(.*?\)/g, '');
+                        
+                        return {
+                            speaker: speaker,
+                            rawJp: rawJp,
+                            speakText: speakText,
+                            english: enPart ? enPart.trim() : "Translation not available.",
+                            romaji: romajiPart ? romajiPart.trim() : "Romaji not available."
+                        };
+                    })
+                };
+            });
+        }
+
+        function formatJapanese(rawJp, hideFurigana) {
+            return rawJp.replace(/([\u4E00-\u9FFF\u3005]+)\((.*?)\)/g, (match, kanji, ruby) => {
+                if (hideFurigana) {
+                    return `<span class="kanji-hidden" onclick="revealFurigana(this)"><span class="kanji-text">${kanji}</span><span class="kanji-revealed">${ruby}</span></span>`;
+                } else {
+                    return `<ruby>${kanji}<rt>${ruby}</rt></ruby>`;
+                }
+            });
+        }
+
+        window.revealFurigana = function(element) {
+            element.classList.toggle('show-ruby');
+        };
+
+        function renderScene() {
+            const container = document.getElementById('dialogue-list');
+            container.innerHTML = '';
+            
+            const scene = scenes[appState.currentSceneIndex];
+            
+            scene.lines.forEach((line, index) => {
+                const isSpeaker1 = line.speaker === "Speaker 1";
+                const alignment = isSpeaker1 ? "self-start" : "self-end";
+                const bgColor = isSpeaker1 ? "speaker-1-bg border border-gray-200" : "speaker-2-bg border border-green-100";
+                const borderRadius = isSpeaker1 ? "rounded-tr-2xl rounded-br-2xl rounded-bl-2xl" : "rounded-tl-2xl rounded-br-2xl rounded-bl-2xl";
+                const icon = isSpeaker1 ? "fa-user-tie" : "fa-user";
+                const iconColor = isSpeaker1 ? "text-gray-500" : "text-green-600";
+
+                const jpFormatted = formatJapanese(line.rawJp, appState.hideFurigana);
+
+                let extraContent = '';
+                if (appState.showRomaji) {
+                    extraContent += `<div class="text-sm text-gray-500 mt-2 font-mono bg-gray-50 p-2 rounded">${line.romaji}</div>`;
+                }
+                if (appState.showTranslation) {
+                    extraContent += `<div class="text-sm text-gray-700 mt-2 italic border-l-2 border-gray-300 pl-2">${line.english}</div>`;
+                }
+
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+                const blurClass = isMuted ? "blur-sm opacity-50 hover:blur-none hover:opacity-100 transition-all duration-300 cursor-pointer" : "";
+                const titleText = isMuted ? "title='Hover to reveal (Roleplay mode)'" : "";
+
+                const html = `
+                    <div class="flex gap-3 max-w-[95%] sm:max-w-[85%] ${alignment} fade-in" style="animation-delay: ${index * 0.05}s">
+                        ${isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                        
+                        <div class="flex flex-col gap-1 w-full">
+                            <div class="text-xs text-gray-500 font-medium px-1 ${!isSpeaker1 ? 'text-right' : ''}">${line.speaker} ${isMuted ? ' <span class="text-purple-600 font-bold ml-1"><i class="fa-solid fa-microphone-lines"></i> Your Turn</span>' : ''}</div>
+                            <div class="${bgColor} ${borderRadius} p-4 shadow-sm relative group w-full transition-shadow duration-300">
+                                <div class="flex items-start gap-3 justify-between">
+                                    <div class="flex-1 ${blurClass}" ${titleText}>
+                                        <div class="text-[1.05rem] leading-loose break-words tracking-wide font-medium">
+                                            ${jpFormatted}
+                                        </div>
+                                        ${extraContent}
+                                    </div>
+                                    <button onclick="playAudio('${line.speakText.replace(/'/g, "\\'")}')" class="shrink-0 w-8 h-8 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-400 hover:text-blue-600 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300" title="Play audio">
+                                        <i class="fa-solid fa-volume-high"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        ${!isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                    </div>
+                `;
+                container.insertAdjacentHTML('beforeend', html);
+            });
+        }
+
+        function playAudio(text) {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'ja-JP';
+                utterance.rate = 0.85;
+                window.speechSynthesis.speak(utterance);
+            }
+        }
+
+        async function playEntireScene() {
+            if (!('speechSynthesis' in window)) return;
+            
+            const playBtnIcon = document.querySelector('#play-scene-btn i');
+
+            if (appState.isPlaying) {
+                window.speechSynthesis.cancel();
+                appState.isPlaying = false;
+                playBtnIcon.className = 'fa-solid fa-play';
+                document.querySelectorAll('#dialogue-list > div > div > div.p-4').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                return;
+            }
+
+            appState.isPlaying = true;
+            playBtnIcon.className = 'fa-solid fa-stop';
+            const scene = scenes[appState.currentSceneIndex];
+            
+            for (let i = 0; i < scene.lines.length; i++) {
+                if (!appState.isPlaying) break; 
+                
+                const line = scene.lines[i];
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+
+                const allMessageBubbles = document.querySelectorAll('#dialogue-list > div > div > div.p-4');
+                if (allMessageBubbles[i]) {
+                    allMessageBubbles.forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                    allMessageBubbles[i].classList.add('ring-2', isMuted ? 'ring-purple-400' : 'ring-blue-400');
+                    allMessageBubbles[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+                
+                if (isMuted) {
+                    const waitTime = 1500 + (line.speakText.length * 150);
+                    await new Promise(r => setTimeout(r, waitTime));
+                } else {
+                    await new Promise(resolve => {
+                        const utterance = new SpeechSynthesisUtterance(line.speakText);
+                        utterance.lang = 'ja-JP';
+                        utterance.rate = 0.85;
+                        utterance.onend = resolve;
+                        utterance.onerror = resolve;
+                        window.speechSynthesis.speak(utterance);
+                    });
+                }
+                
+                await new Promise(r => setTimeout(r, 600));
+            }
+
+            if (appState.isPlaying) {
+                document.querySelectorAll('#dialogue-list > div > div > div.p-4').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+            }
+
+            appState.isPlaying = false;
+            playBtnIcon.className = 'fa-solid fa-play';
+        }
+
+        function startQuiz() {
+            appState.score = 0;
+            appState.currentQuestionIndex = 0;
+            
+            document.getElementById('quiz-intro').classList.add('hidden');
+            document.getElementById('quiz-result').classList.add('hidden');
+            document.getElementById('quiz-area').classList.remove('hidden');
+            
+            loadQuestion();
+        }
+
+        function loadQuestion() {
+            appState.isAnswering = false;
+            const qData = quizData[appState.currentQuestionIndex];
+            
+            document.getElementById('quiz-progress').innerText = `Question ${appState.currentQuestionIndex + 1} / ${quizData.length}`;
+            document.getElementById('quiz-score').innerText = `Score: ${appState.score}`;
+            document.getElementById('quiz-question').innerText = qData.q;
+            
+            const optionsContainer = document.getElementById('quiz-options');
+            optionsContainer.innerHTML = '';
+            
+            const correctAnswer = qData.options[qData.answer];
+            const shuffledOptions = [...qData.options].sort(() => Math.random() - 0.5);
+            const currentCorrectIndex = shuffledOptions.indexOf(correctAnswer);
+            
+            shuffledOptions.forEach((opt, index) => {
+                const btn = document.createElement('button');
+                btn.className = "w-full bg-white border-2 border-gray-200 hover:border-blue-500 hover:bg-blue-50 text-gray-700 font-bold py-4 px-6 rounded-xl text-lg sm:text-xl transition-all shadow-sm";
+                btn.innerText = opt;
+                btn.onclick = () => checkAnswer(index, currentCorrectIndex, btn);
+                optionsContainer.appendChild(btn);
+            });
+        }
+
+        function checkAnswer(selectedIndex, correctIndex, btnElement) {
+            if (appState.isAnswering) return;
+            appState.isAnswering = true;
+            
+            const isCorrect = selectedIndex === correctIndex;
+            
+            if (isCorrect) {
+                appState.score++;
+                btnElement.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50', 'text-gray-700');
+                btnElement.classList.add('bg-green-500', 'text-white', 'border-green-500');
+            } else {
+                btnElement.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50', 'text-gray-700');
+                btnElement.classList.add('bg-red-500', 'text-white', 'border-red-500');
+                
+                const allButtons = document.getElementById('quiz-options').children;
+                allButtons[correctIndex].classList.remove('border-gray-200');
+                allButtons[correctIndex].classList.add('border-green-500', 'bg-green-50', 'text-green-700');
+            }
+            
+            document.getElementById('quiz-score').innerText = `Score: ${appState.score}`;
+            
+            setTimeout(() => {
+                appState.currentQuestionIndex++;
+                if (appState.currentQuestionIndex < quizData.length) {
+                    loadQuestion();
+                } else {
+                    showResult();
+                }
+            }, 1200);
+        }
+
+        function showResult() {
+            document.getElementById('quiz-area').classList.add('hidden');
+            document.getElementById('quiz-result').classList.remove('hidden');
+            document.getElementById('final-score').innerText = appState.score;
+        }
+
+        function switchTab(tabId) {
+            appState.activeTab = tabId;
+            
+            const convBtn = document.getElementById('tab-btn-conv');
+            const quizBtn = document.getElementById('tab-btn-quiz');
+            const convDiv = document.getElementById('tab-conv');
+            const quizDiv = document.getElementById('tab-quiz');
+            
+            if (tabId === 'conv') {
+                convBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
+                quizBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
+                convDiv.classList.remove('hidden');
+                quizDiv.classList.add('hidden');
+            } else {
+                quizBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
+                convBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
+                quizDiv.classList.remove('hidden');
+                convDiv.classList.add('hidden');
+                
+                document.getElementById('quiz-intro').classList.remove('hidden');
+                document.getElementById('quiz-area').classList.add('hidden');
+                document.getElementById('quiz-result').classList.add('hidden');
+            }
+        }
+
+        window.onload = () => {
+            parseData();
+
+            const selector = document.getElementById('scene-selector');
+            scenes.forEach((_, i) => {
+                const opt = document.createElement('option');
+                opt.value = i;
+                opt.text = sceneTitles[i] || `Scene ${i + 1}`;
+                selector.appendChild(opt);
+            });
+
+            selector.addEventListener('change', (e) => {
+                appState.currentSceneIndex = parseInt(e.target.value);
+                if(appState.isPlaying) playEntireScene(); 
+                renderScene();
+            });
+
+            document.getElementById('toggle-romaji').addEventListener('change', (e) => {
+                appState.showRomaji = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-translation').addEventListener('change', (e) => {
+                appState.showTranslation = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-kanji-test').addEventListener('change', (e) => {
+                appState.hideFurigana = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('roleplay-selector').addEventListener('change', (e) => {
+                appState.roleplayMutedSpeaker = e.target.value;
+                renderScene();
+            });
+
+            document.getElementById('tab-btn-conv').addEventListener('click', () => switchTab('conv'));
+            document.getElementById('tab-btn-quiz').addEventListener('click', () => switchTab('quiz'));
+
+            renderScene();
+        };
+    </script>
+</body>
+</html>
