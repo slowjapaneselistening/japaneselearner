@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2B0GEY45P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F2B0GEY45P');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Learning App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap');
+        body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
+        
+        .fade-in {
+            animation: fadeIn 0.4s ease-out forwards;
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        @keyframes fadeIn {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .speaker-1-bg { background-color: #ffffff; }
+        .speaker-2-bg { background-color: #f0fdf4; }
+
+        .kanji-hidden {
+            display: inline-block;
+            background-color: #fef08a; 
+            border-bottom: 2px dashed #ca8a04;
+            border-radius: 4px;
+            padding: 0 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+        }
+        .kanji-hidden:hover {
+            background-color: #fde047;
+        }
+        .kanji-revealed {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%) translateY(5px);
+            background-color: #1e40af;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease-out;
+            white-space: nowrap;
+            z-index: 10;
+        }
+        .kanji-hidden.show-ruby .kanji-revealed {
+            opacity: 1;
+            transform: translateX(-50%) translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen pb-12">
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-md">
+                    <i class="fa-solid fa-language text-xl"></i>
+                </div>
+                <h1 class="text-xl font-bold text-gray-900 tracking-tight">日本語 Learning</h1>
+            </div>
+            
+            <div class="flex bg-gray-100 p-1 rounded-lg">
+                <button id="tab-btn-conv" class="px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all">
+                    <i class="fa-regular fa-comments mr-1"></i> Conversation
+                </button>
+                <button id="tab-btn-quiz" class="px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all">
+                    <i class="fa-solid fa-pen-to-square mr-1"></i> Kanji Quiz
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 mt-6">
+        
+        <div id="tab-conv">
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                
+                <div class="bg-gray-50/50 p-4 border-b border-gray-100 flex flex-col sm:flex-row justify-between items-center gap-4">
+                    
+                    <div class="flex flex-col sm:flex-row items-center gap-2 w-full sm:w-auto">
+                        <select id="scene-selector" class="w-full sm:w-auto bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2 shadow-sm font-medium">
+                        </select>
+
+                        <select id="roleplay-selector" class="w-full sm:w-auto bg-purple-50 border border-purple-200 text-purple-800 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2 font-medium shadow-sm">
+                            <option value="none">👤 Roleplay: Off</option>
+                            <option value="Speaker 1">🔇 Mute Speaker 1</option>
+                            <option value="Speaker 2">🔇 Mute Speaker 2</option>
+                        </select>
+
+                        <button onclick="playEntireScene()" id="play-scene-btn" class="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm">
+                            <i class="fa-solid fa-play"></i> Play
+                        </button>
+                    </div>
+
+                    <div class="flex flex-wrap justify-center gap-4 text-sm font-medium text-gray-600">
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-kanji-test" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Hide Furigana
+                        </label>
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-translation" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            English
+                        </label>
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Romaji
+                        </label>
+                    </div>
+                </div>
+
+                <div class="p-4 sm:p-6 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-gray-50/30 min-h-[500px]">
+                    <div id="dialogue-list" class="flex flex-col gap-6">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tab-quiz" class="hidden">
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-10 text-center max-w-2xl mx-auto">
+                <div id="quiz-intro">
+                    <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">確認テスト</h2>
+                    <p class="text-gray-500 mb-6">会話の内容や漢字、文法を確認する10問のクイズです。</p>
+                    
+                    <select id="quiz-type-selector" class="mb-6 mx-auto bg-white border border-gray-300 text-gray-700 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block p-2 shadow-sm font-medium">
+                        <option value="kanji">漢字の読み方テスト</option>
+                        <option value="culture">文化・内容理解クイズ</option>
+                        <option value="grammar">重要文法・表現クイズ</option>
+                    </select>
+
+                    <button onclick="startQuiz()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-transform transform hover:scale-105">
+                        スタート (Start)
+                    </button>
+                </div>
+
+                <div id="quiz-area" class="hidden">
+                    <div class="flex justify-between items-center text-sm font-medium text-gray-500 mb-6">
+                        <span id="quiz-progress" class="bg-gray-100 py-1 px-3 rounded-full">Question 1/10</span>
+                        <span id="quiz-score" class="text-green-600">Score: 0</span>
+                    </div>
+                    
+                    <h3 id="quiz-question" class="text-3xl sm:text-4xl font-bold text-gray-800 mb-8 py-6 bg-gray-50 rounded-xl border border-gray-100">
+                    </h3>
+                    
+                    <div id="quiz-options" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    </div>
+                </div>
+
+                <div id="quiz-result" class="hidden">
+                    <div class="text-6xl mb-4">🏆</div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">お疲れ様でした！</h2>
+                    <p class="text-xl text-gray-600 mb-6">Your Score: <span id="final-score" class="font-bold text-green-600 text-3xl"></span> / 10</p>
+                    <button onclick="startQuiz()" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-colors">
+                        もう一度プレイ (Play Again)
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const appState = {
+            activeTab: 'conv',
+            currentSceneIndex: 0,
+            showRomaji: false,
+            showTranslation: false,
+            hideFurigana: false,
+            isPlaying: false,
+            roleplayMutedSpeaker: 'none',
+            currentQuestionIndex: 0,
+            score: 0,
+            isAnswering: false
+        };
+
+        const sceneTitles = [
+            "Scene 1: レストランに入る (Entering a Restaurant)",
+            "Scene 2: メニューについて尋ねる (Asking About the Menu)",
+            "Scene 3: 注文する (Ordering Food)",
+            "Scene 4: サービスをお願いする (Requesting Service)",
+            "Scene 5: お会計 (Paying the Bill)",
+            "Scene 6: 電話で予約する (Making a Reservation by Phone)",
+            "Scene 7: アレルギーを伝える (Informing About Allergies)",
+            "Scene 8: 注文のトラブル (Order Trouble)",
+            "Scene 9: 食事を楽しむ (Enjoying the Meal)",
+            "Scene 10: 支払いとご馳走 (Treating and Paying)"
+        ];
+
+        // Format: Japanese|English|Romaji
+        const rawData = `
+Speaker 1: いらっしゃいませ。|Welcome.|Irasshaimase.
+Speaker 2: すみません、二人(ふたり)です。|Excuse me, table for two.|Sumimasen, futari desu.
+Speaker 1: 二名(にめい)様(さま)ですね。ご予約(よやく)はされていますか。|A table for two. Do you have a reservation?|Nimeisama desu ne. Goyoyaku wa sarete imasu ka.
+Speaker 2: いいえ、予約(よやく)していません。入(はい)れますか。|No, we haven't reserved. Can we get in?|Iie, yoyaku shite imasen. Hairemasu ka.
+Speaker 1: はい、大丈夫(だいじょうぶ)ですよ。|Yes, it's fine.|Hai, daijoubu desu yo.
+Speaker 2: ありがとうございます。|Thank you.|Arigatou gozaimasu.
+Speaker 1: お煙草(たばこ)は吸(す)いますか。|Do you smoke?|Otabako wa suimasu ka.
+Speaker 2: いいえ、吸(す)いません。|No, we don't.|Iie, suimasen.
+Speaker 1: かしこまりました。禁煙(きんえん)席(せき)ですね。|Certainly. A non-smoking seat, then.|Kashikomarimashita. Kin'enseki desu ne.
+Speaker 2: あそこの窓(まど)の席(せき)は空(あ)いていますか。|Is that window seat over there available?|Asoko no mado no seki wa aite imasu ka.
+Speaker 1: 窓(まど)の席(せき)ですね。はい、空(あ)いていますよ。|The window seat. Yes, it's available.|Mado no seki desu ne. Hai, aite imasu yo.
+Speaker 2: じゃあ、あの席(せき)をお願(ねが)いします。|Then, we'll take that seat, please.|Jaa, ano seki o onegaishimasu.
+Speaker 1: かしこまりました。こちらへどうぞ。|Certainly. Right this way, please.|Kashikomarimashita. Kochira e douzo.
+Speaker 2: ありがとうございます。|Thank you.|Arigatou gozaimasu.
+Speaker 1: メニューでございます。|Here is the menu.|Menyuu de gozaimasu.
+Speaker 2: すみません、英語(えいご)のメニューはありますか。|Excuse me, do you have an English menu?|Sumimasen, eigo no menyuu wa arimasu ka.
+Speaker 1: はい、ございます。少(すこ)しお待(ま)ちください。|Yes, we do. Please wait a moment.|Hai, gozaimasu. Sukoshi omachi kudasai.
+Speaker 2: お願(ねが)いします。|Please.|Onegaishimasu.
+Speaker 1: お待(ま)たせしました。英語(えいご)のメニューです。|Thank you for waiting. Here is the English menu.|Omataseshimashita. Eigo no menyuu desu.
+Speaker 2: ありがとうございます。後(あと)で注文(ちゅうもん)します。|Thank you. We will order later.|Arigatou gozaimasu. Ato de chuumon shimasu.
+Speaker 1: はい。お決(き)まりになりましたら、お呼(よ)びください。|Yes. Please call me when you are ready to order.|Hai. Okimari ni narimashitara, oyobi kudasai.
+===
+Speaker 2: すみません。|Excuse me.|Sumimasen.
+Speaker 1: はい、お伺(うかが)いします。|Yes, how can I help you?|Hai, oukagai shimasu.
+Speaker 2: この料理(りょうり)は何(なん)ですか。|What is this dish?|Kono ryouri wa nan desu ka.
+Speaker 1: そちらは、鶏肉(とりにく)と野菜(やさい)の炒(いた)め物(もの)です。|That is a chicken and vegetable stir-fry.|Sochira wa, toriniku to yasai no itamemono desu.
+Speaker 2: 鶏肉(とりにく)ですね。辛(から)いですか。|Chicken, I see. Is it spicy?|Toriniku desu ne. Karai desu ka.
+Speaker 1: いいえ、全然(ぜんぜん)辛(から)くないです。少(すこ)し甘(あま)いですよ。|No, it's not spicy at all. It's a little sweet.|Iie, zenzen karakunai desu. Sukoshi amai desu yo.
+Speaker 2: そうですか。じゃあ、これは何(なん)ですか。|I see. Then, what is this?|Sou desu ka. Jaa, kore wa nan desu ka.
+Speaker 1: それは海鮮(かいせん)のスープです。|That is a seafood soup.|Sore wa kaisen no suupu desu.
+Speaker 2: 海鮮(かいせん)ですか。魚(さかな)やエビが入(はい)っていますか。|Seafood? Does it have fish or shrimp in it?|Kaisen desu ka. Sakana ya ebi ga haitte imasu ka.
+Speaker 1: はい、エビとイカが入(はい)っています。|Yes, it has shrimp and squid in it.|Hai, ebi to ika ga haitte imasu.
+Speaker 2: 美味(おい)しいですか。|Is it delicious?|Oishii desu ka.
+Speaker 1: はい、当店(とうてん)で一番(いちばん)人気(にんき)があります。|Yes, it is the most popular item at our restaurant.|Hai, touten de ichiban ninki ga arimasu.
+Speaker 2: それはいいですね。熱(あつ)いですか。|That sounds good. Is it hot?|Sore wa ii desu ne. Atsui desu ka.
+Speaker 1: はい、とても熱(あつ)いですよ。気(き)をつけてください。|Yes, it's very hot. Please be careful.|Hai, totemo atsui desu yo. Ki o tsukete kudasai.
+Speaker 2: わかりました。このサラダはどうですか。|Understood. How about this salad?|Wakarimashita. Kono sarada wa dou desu ka.
+Speaker 1: トマトとチーズのサラダです。|It's a tomato and cheese salad.|Tomato to chiizu no sarada desu.
+Speaker 2: 大(おお)きいですか。|Is it large?|Ookii desu ka.
+Speaker 1: 二人(ふたり)でちょうどいいサイズです。|It's the perfect size for two people.|Futari de choudo ii saizu desu.
+Speaker 2: わかりました。いろいろありますね。|I understand. You have many different things.|Wakarimashita. Iroiro arimasu ne.
+Speaker 1: はい、ゆっくり選(えら)んでください。|Yes, please take your time choosing.|Hai, yukkuri erande kudasai.
+Speaker 2: ありがとうございます。もう少(すこ)し考(かんが)えます。|Thank you. We'll think about it a little more.|Arigatou gozaimasu. Mousukoshi kangaemasu.
+Speaker 1: かしこまりました。|Certainly.|Kashikomarimashita.
+===
+Speaker 2: すみません、注文(ちゅうもん)をお願(ねが)いします。|Excuse me, we'd like to order.|Sumimasen, chuumon o onegaishimasu.
+Speaker 1: はい、お伺(うかが)いします。|Yes, I'll take your order.|Hai, oukagai shimasu.
+Speaker 2: この鶏肉(とりにく)の炒(いた)め物(もの)を一(ひと)つください。|Please give us one of this chicken stir-fry.|Kono toriniku no itamemono o hitotsu kudasai.
+Speaker 1: 鶏肉(とりにく)の炒(いた)め物(もの)が一(ひと)つですね。|One chicken stir-fry, correct?|Toriniku no itamemono ga hitotsu desu ne.
+Speaker 2: はい。それから、海鮮(かいせん)スープを二(ふた)つお願(ねが)いします。|Yes. And two seafood soups, please.|Hai. Sore kara, kaisen suupu o futatsu onegaishimasu.
+Speaker 1: 海鮮(かいせん)スープが二(ふた)つですね。かしこまりました。|Two seafood soups. Certainly.|Kaisen suupu ga futatsu desu ne. Kashikomarimashita.
+Speaker 2: あと、ごはんはありますか。|Also, do you have rice?|Ato, gohan wa arimasu ka.
+Speaker 1: はい、ございます。大(おお)きいごはんと、小(ちい)さいごはんがあります。|Yes, we do. We have large rice and small rice.|Hai, gozaimasu. Ookii gohan to, chiisai gohan ga arimasu.
+Speaker 2: じゃあ、小(ちい)さいごはんを二(ふた)つください。|Then, two small bowls of rice, please.|Jaa, chiisai gohan o futatsu kudasai.
+Speaker 1: 小(ちい)さいごはんが二(ふた)つですね。|Two small bowls of rice.|Chiisai gohan ga futatsu desu ne.
+Speaker 2: はい。お飲(の)み物(もの)のメニューはどこですか。|Yes. Where is the drink menu?|Hai. Onomimono no menyuu wa doko desu ka.
+Speaker 1: こちらでございます。|It is right here.|Kochira de gozaimasu.
+Speaker 2: ビールはありますか。|Do you have beer?|Biiru wa arimasu ka.
+Speaker 1: はい、生(なま)ビールと瓶(びん)ビールがございます。|Yes, we have draft beer and bottled beer.|Hai, namabiiru to binbiiru ga gozaimasu.
+Speaker 2: 生(なま)ビールを二(ふた)つお願(ねが)いします。|Two draft beers, please.|Namabiiru o futatsu onegaishimasu.
+Speaker 1: かしこまりました。生(なま)ビールが二(ふた)つですね。|Certainly. Two draft beers.|Kashikomarimashita. Namabiiru ga futatsu desu ne.
+Speaker 2: ビールは先(さき)に持(も)ってきてください。|Please bring the beers first.|Biiru wa saki ni motte kite kudasai.
+Speaker 1: はい、かしこまりました。|Yes, understood.|Hai, kashikomarimashita.
+Speaker 2: 注文(ちゅうもん)は以上(いじょう)です。|That's all for our order.|Chuumon wa ijou desu.
+Speaker 1: ありがとうございます。少(すこ)しお待(ま)ちください。|Thank you. Please wait a moment.|Arigatou gozaimasu. Sukoshi omachi kudasai.
+===
+Speaker 2: すみません。|Excuse me.|Sumimasen.
+Speaker 1: はい、どうされましたか。|Yes, how can I help you?|Hai, dou saremashita ka.
+Speaker 2: お箸(はし)を落(お)としました。|I dropped my chopsticks.|Ohashi o otoshimashita.
+Speaker 1: かしこまりました。新(あたら)しいお箸(はし)をお持(も)ちします。|Certainly. I will bring you new chopsticks.|Kashikomarimashita. Atarashii ohashi o omochi shimasu.
+Speaker 2: ありがとうございます。|Thank you.|Arigatou gozaimasu.
+Speaker 1: お待(ま)たせしました。どうぞ。|Thank you for waiting. Here you go.|Omataseshimashita. Douzo.
+Speaker 2: すみません。お水(みず)も一杯(いっぱい)お願(ねが)いします。|Excuse me. Could I also get a glass of water, please?|Sumimasen. Omizu mo ippai onegaishimasu.
+Speaker 1: かしこまりました。氷(こおり)は入(い)れますか。|Certainly. Would you like ice in it?|Kashikomarimashita. Koori wa iremasu ka.
+Speaker 2: いいえ、氷(こおり)は入(い)れないでください。|No, please don't put ice in.|Iie, koori wa irenaide kudasai.
+Speaker 1: かしこまりました。すぐにお持(も)ちします。|Certainly. I will bring it right away.|Kashikomarimashita. Sugu ni omochi shimasu.
+Speaker 2: あ、すみません。お手洗(てあら)いはどこですか。|Ah, excuse me. Where is the restroom?|A, sumimasen. Otearai wa doko desu ka.
+Speaker 1: お手洗(てあら)いですね。あちらのドアの右(みぎ)にあります。|The restroom? It's to the right of that door over there.|Otearai desu ne. Achira no doa no migi ni arimasu.
+Speaker 2: ドアの右(みぎ)ですね。わかりました。|To the right of the door. Understood.|Doa no migi desu ne. Wakarimashita.
+Speaker 1: 男性(だんせい)用(よう)は青(あお)いドア、女性(じょせい)用(よう)は赤(あか)いドアです。|The men's is the blue door, and the women's is the red door.|Danseiyou wa aoi doa, joseiyou wa akai doa desu.
+Speaker 2: ありがとうございます。|Thank you.|Arigatou gozaimasu.
+Speaker 1: お水(みず)です。どうぞ。|Here is your water.|Omizu desu. Douzo.
+Speaker 2: ありがとうございます。この小(ちい)さいお皿(さら)を二(ふた)つください。|Thank you. Could we have two of these small plates?|Arigatou gozaimasu. Kono chiisai osara o futatsu kudasai.
+Speaker 1: 取(と)り皿(ざら)ですね。かしこまりました。|Sharing plates. Certainly.|Torizara desu ne. Kashikomarimashita.
+Speaker 2: はい、料理(りょうり)を分(わ)けますから。|Yes, because we will share the food.|Hai, ryouri o wakemasu kara.
+Speaker 1: お待(ま)たせしました。お皿(さら)です。|Thank you for waiting. Here are the plates.|Omataseshimashita. Osara desu.
+Speaker 2: いつもすみません。|Sorry for constantly bothering you.|Itsumo sumimasen.
+Speaker 1: いいえ、ごゆっくりどうぞ。|Not at all, please enjoy your meal.|Iie, goyukkuri douzo.
+===
+Speaker 2: ごちそうさまでした。とても美味(おい)しかったです。|Thank you for the meal. It was very delicious.|Gochisousama deshita. Totemo oishikatta desu.
+Speaker 1: ありがとうございます。お会計(かいけい)はこちらへどうぞ。|Thank you. Please come this way for the bill.|Arigatou gozaimasu. Okaikei wa kochira e douzo.
+Speaker 2: はい。全部(ぜんぶ)でいくらですか。|Yes. How much is it in total?|Hai. Zenbu de ikura desu ka.
+Speaker 1: 全部(ぜんぶ)で4500円(えん)でございます。|It comes to 4,500 yen in total.|Zenbu de 4500-en de gozaimasu.
+Speaker 2: クレジットカードは使(つか)えますか。|Can I use a credit card?|Kurejitto kaado wa tsukaemasu ka.
+Speaker 1: はい、使(つか)えます。こちらにカードをお願(ねが)いします。|Yes, you can. Please insert your card here.|Hai, tsukaemasu. Kochira ni kaado o onegaishimasu.
+Speaker 2: これでいいですか。|Is this okay?|Kore de ii desu ka.
+Speaker 1: はい、大丈夫(だいじょうぶ)です。暗証(あんしょう)番号(ばんごう)をお願(ねが)いします。|Yes, it's fine. Please enter your PIN.|Hai, daijoubu desu. Anshou bangou o onegaishimasu.
+Speaker 2: はい、入(い)れました。|Yes, I entered it.|Hai, iremashita.
+Speaker 1: ありがとうございます。お支払(しはら)いは一回(いっかい)ですか。|Thank you. Will you pay in one installment?|Arigatou gozaimasu. Oshiharai wa ikkai desu ka.
+Speaker 2: はい、一回(いっかい)でお願(ねが)いします。|Yes, one installment, please.|Hai, ikkai de onegaishimasu.
+Speaker 1: かしこまりました。カードをお返(かえ)しします。|Certainly. Here is your card back.|Kashikomarimashita. Kaado o okaeshi shimasu.
+Speaker 2: 領収書(りょうしゅうしょ)をください。|May I have a receipt?|Ryoushuusho o kudasai.
+Speaker 1: 領収書(りょうしゅうしょ)ですね。お名前(なまえ)はどうしますか。|A receipt. How would you like the name?|Ryoushuusho desu ne. Onamae wa dou shimasu ka.
+Speaker 2: 名前(なまえ)は書(か)かないでください。|Please don't write a name.|Namae wa kakanaide kudasai.
+Speaker 1: かしこまりました。こちら、領収書(りょうしゅうしょ)です。|Certainly. Here is your receipt.|Kashikomarimashita. Kochira, ryoushuusho desu.
+Speaker 2: ありがとうございます。|Thank you.|Arigatou gozaimasu.
+Speaker 1: お忘(わす)れ物(もの)はありませんか。|Do you have all your belongings?|Owasuremono wa arimasen ka.
+Speaker 2: はい、大丈夫(だいじょうぶ)です。|Yes, we're good.|Hai, daijoubu desu.
+Speaker 1: またのお越(こ)しをお待(ま)ちしております。|We look forward to seeing you again.|Mata no okoshi o omachi shite orimasu.
+Speaker 2: はい、また来(き)ます。|Yes, we'll come again.|Hai, mata kimasu.
+===
+Speaker 1: はい、レストラン・サクラでございます。|Hello, this is Restaurant Sakura.|Hai, Resutoran Sakura de gozaimasu.
+Speaker 2: もしもし、明日(あした)の夜(よる)、予約(よやく)をしたいんですが。|Hello, I would like to make a reservation for tomorrow night.|Moshimoshi, ashita no yoru, yoyaku o shitai n desu ga.
+Speaker 1: ありがとうごさいます。明日(あした)の何時(なんじ)からでしょうか。|Thank you. For what time tomorrow?|Arigatou gozaimasu. Ashita no nanji kara deshou ka.
+Speaker 2: 7時(じ)から予約(よやく)することができますか。|Can I reserve from 7 o'clock?|7-ji kara yoyaku suru koto ga dekimasu ka.
+Speaker 1: 申(もう)し訳(わけ)ございません。明日(あした)の7時(じ)はご予約(よやく)がいっぱいです。|I am very sorry. We are fully booked for 7 o'clock tomorrow.|Moushiwake gozaimasen. Ashita no 7-ji wa goyoyaku ga ippai desu.
+Speaker 2: そうですか。じゃあ、8時(じ)ならどうですか。|I see. Then, how about 8 o'clock?|Sou desu ka. Jaa, 8-ji nara dou desu ka.
+Speaker 1: 少(すこ)しお待(ま)ちください。確認(かくにん)いたします。|Please wait a moment. I will check.|Sukoshi omachi kudasai. Kakunin itashimasu.
+Speaker 2: お願(ねが)いします。|Please.|Onegaishimasu.
+Speaker 1: お待(ま)たせいたしました。8時(じ)でしたら、お席(せき)をご用意(ようい)できます。|Thank you for waiting. We can prepare a table for you at 8 o'clock.|Omatase itashimashita. 8-ji deshitara, oseki o goyoui dekimasu.
+Speaker 2: よかったです。じゃあ、8時(じ)でお願(ねが)いします。|Great. Then, 8 o'clock, please.|Yokatta desu. Jaa, 8-ji de onegaishimasu.
+Speaker 1: かしこまりました。何名(なんめい)様(さま)でしょうか。|Certainly. For how many people?|Kashikomarimashita. Nanmeisama deshou ka.
+Speaker 2: 四人(よにん)です。|For four people.|Yonin desu.
+Speaker 1: 四名(よんめい)様(さま)ですね。お名前(なまえ)とお電話(でんわ)番号(ばんごう)をお願(ねが)いします。|Four people. May I have your name and phone number?|Yonmeisama desu ne. Onamae to odenwa bangou o onegaishimasu.
+Speaker 2: 山田(やまだ)です。電話(でんわ)番号(ばんごう)は090-1234-5678です。|It's Yamada. The phone number is 090-1234-5678.|Yamada desu. Denwa bangou wa 090-1234-5678 desu.
+Speaker 1: 山田(やまだ)様(さま)ですね。窓際(まどぎわ)のお席(せき)がよろしいでしょうか。|Mr./Ms. Yamada. Would you prefer a window seat?|Yamada-sama desu ne. Madogiwa no oseki ga yoroshii deshou ka.
+Speaker 2: はい、できれば窓際(まどぎわ)をお願(ねが)いします。|Yes, a window seat if possible, please.|Hai, dekireba madogiwa o onegaishimasu.
+Speaker 1: かしこまりました。コース料理(りょうり)になさいますか。|Certainly. Would you like to order a course meal?|Kashikomarimashita. Koosu ryouri ni nasaimasu ka.
+Speaker 2: いいえ、料理(りょうり)は店(みせ)に行(い)ってから決(き)めてもいいですか。|No, is it okay to decide on the food after we get to the restaurant?|Iie, ryouri wa mise ni itte kara kimete mo ii desu ka.
+Speaker 1: はい、もちろん結構(けっこう)です。|Yes, that's perfectly fine.|Hai, mochiron kekkou desu.
+Speaker 2: じゃあ、明日(あした)の8時(じ)にお願(ねが)いします。|Then, tomorrow at 8 o'clock, please.|Jaa, ashita no 8-ji ni onegaishimasu.
+Speaker 1: お待(ま)ちしております。失礼(しつれい)いたします。|We'll be waiting for you. Goodbye.|Omachi shite orimasu. Shitsurei itashimasu.
+===
+Speaker 2: すみません、注文(ちゅうもん)をしたいんですが。|Excuse me, I'd like to order.|Sumimasen, chuumon o shitai n desu ga.
+Speaker 1: はい、お決(き)まりでしょうか。|Yes, have you decided?|Hai, okimari deshou ka.
+Speaker 2: このトマトパスタには、玉(たま)ねぎが入(はい)っていますか。|Does this tomato pasta contain onions?|Kono tomato pasuta ni wa, tamanegi ga haitte imasu ka.
+Speaker 1: はい、ソースに玉(たま)ねぎが使(つか)われています。|Yes, onions are used in the sauce.|Hai, soosu ni tamanegi ga tsukawarete imasu.
+Speaker 2: 実(じつ)は、玉(たま)ねぎのアレルギーがあるんです。|Actually, I have an allergy to onions.|Jitsu wa, tamanegi no arerugii ga aru n desu.
+Speaker 1: そうでしたか。申(もう)し訳(わけ)ございません。|Is that so? I apologize.|Sou deshita ka. Moushiwake gozaimasen.
+Speaker 2: 玉(たま)ねぎを入(い)れないで作(つく)ってもらうことはできますか。|Can you make it without putting onions in?|Tamanegi o irenaide tsukutte morau koto wa dekimasu ka.
+Speaker 1: ソースはすでに作(つく)ってあるので、玉(たま)ねぎを抜(ぬ)くことができません。|The sauce is already made, so we cannot remove the onions.|Soosu wa sude ni tsukutte aru node, tamanegi o nuku koto ga dekimasen.
+Speaker 2: そうなんですね。残念(ざんねん)です。|I see. That's a shame.|Sou nan desu ne. Zannen desu.
+Speaker 1: こちらのクリームパスタでしたら、玉(たま)ねぎは入(はい)っていませんよ。|If you order this cream pasta, there are no onions in it.|Kochira no kuriimu pasuta deshitara, tamanegi wa haitte imasen yo.
+Speaker 2: 本当(ほんとう)ですか。じゃあ、それにします。|Really? Then I'll have that.|Hontou desu ka. Jaa, sore ni shimasu.
+Speaker 1: かしこまりました。念(ねん)のため、他(ほか)のアレルギーも確認(かくにん)させていただきますね。|Certainly. Just in case, let me check for other allergies.|Kashikomarimashita. Nen no tame, hoka no arerugii mo kakunin sasete itadakimasu ne.
+Speaker 2: 乳製品(にゅうせいひん)は大丈夫(だいじょうぶ)ですが、エビも食(た)べられないんです。|Dairy products are fine, but I can't eat shrimp either.|Nyuuseihin wa daijoubu desu ga, ebi mo taberarenai n desu.
+Speaker 1: かしこまりました。エビは使(つか)っておりませんのでご安心(あんしん)ください。|Understood. We don't use shrimp in it, so please don't worry.|Kashikomarimashita. Ebi wa tsukatte orimasen node goanshin kudasai.
+Speaker 2: よかったです。じゃあ、クリームパスタを一(ひと)つお願(ねが)いします。|That's good. Then, one cream pasta, please.|Yokatta desu. Jaa, kuriimu pasuta o hitotsu onegaishimasu.
+Speaker 1: 他(ほか)にご注文(ちゅうもん)はございますか。|Do you have any other orders?|Hoka ni gochuumon wa gozaimasu ka.
+Speaker 2: 食後(しょくご)にホットコーヒーを一杯(いっぱい)ください。|A cup of hot coffee after the meal, please.|Shokugo ni hotto koohii o ippai kudasai.
+Speaker 1: かしこまりました。パスタをお持(も)ちするまで、少(すこ)しお待(ま)ちください。|Certainly. Please wait a moment until we bring the pasta.|Kashikomarimashita. Pasuta o omochi suru made, sukoshi omachi kudasai.
+Speaker 2: はい、お願(ねが)いします。|Yes, please.|Hai, onegaishimasu.
+Speaker 1: アレルギーの件(けん)、シェフにもしっかり伝(つた)えておきますね。|I will make sure to inform the chef about your allergies.|Arerugii no ken, shefu ni mo shikkari tsutaete okimasu ne.
+Speaker 2: ありがとうございます。助(たす)かります。|Thank you. That helps.|Arigatou gozaimasu. Tasukarimasu.
+===
+Speaker 2: すみません、ちょっといいですか。|Excuse me, do you have a moment?|Sumimasen, chotto ii desu ka.
+Speaker 1: はい、どうなさいましたか。|Yes, what is the matter?|Hai, dou nasaimashita ka.
+Speaker 2: 30分(ぷん)くらい前(まえ)にピザを注文(ちゅうもん)したんですが、まだ来(き)ていません。|I ordered a pizza about 30 minutes ago, but it hasn't come yet.|30-pun kurai mae ni piza o chuumon shita n desu ga, mada kite imasen.
+Speaker 1: 誠(まこと)に申(もう)し訳(わけ)ございません。すぐにお調(しら)べいたします。|I am truly sorry. I will look into it right away.|Makoto ni moushiwake gozaimasen. Sugu ni oshirabe itashimasu.
+Speaker 2: お願(ねが)いします。|Please do.|Onegaishimasu.
+Speaker 1: お待(ま)たせいたしました。今(いま)、焼(や)いているところですので、あと5分(ふん)ほどかかります。|Thank you for waiting. It is baking right now, so it will take about 5 more minutes.|Omatase itashimashita. Ima, yaite iru tokoro desu node, ato 5-fun hodo kakarimasu.
+Speaker 2: わかりました。待(ま)っています。|I understand. I will wait.|Wakarimashita. Matte imasu.
+Speaker 1: 大変(たいへん)お待(ま)たせいたしました。こちら、マルゲリータピザでございます。|Thank you so much for waiting. Here is your Margherita pizza.|Taihen omatase itashimashita. Kochira, marugeriita piza de gozaimasu.
+Speaker 2: あ、すみません。私(わたし)が頼(たの)んだのは、シーフードピザなんですが。|Ah, excuse me. I ordered a seafood pizza.|A, sumimasen. Watashi ga tanonda no wa, shiifuudo piza nan desu ga.
+Speaker 1: えっ、誠(まこと)に申(もう)し訳(わけ)ございません。こちらのミスです。|Oh! I am so sorry. This is our mistake.|E, makoto ni moushiwake gozaimasen. Kochira no misu desu.
+Speaker 2: これ、注文(ちゅうもん)と違(ちが)いますよね。|This is different from my order, right?|Kore, chuumon to chigaimasu yo ne.
+Speaker 1: はい、すぐにシーフードピザを作(つく)り直(なお)します。|Yes, we will remake the seafood pizza right away.|Hai, sugu ni shiifuudo piza o tsukurinaoshimasu.
+Speaker 2: どのくらいかかりますか。もう時間(じかん)があまりないんです。|How long will it take? I don't have much time left.|Dono kurai kakarimasu ka. Mou jikan ga amari nai n desu.
+Speaker 1: 優先(ゆうせん)して作(つく)らせますので、10分(ぷん)ほどでお持(も)ちできます。|I will have them prioritize it, so we can bring it in about 10 minutes.|Yuusen shite tsukurasemasu node, 10-pun hodo de omochi dekimasu.
+Speaker 2: じゃあ、お願(ねが)いします。急(いそ)いでくれますか。|Then, please do. Can you hurry?|Jaa, onegaishimasu. Isoide kuremasu ka.
+Speaker 1: はい、本当(ほんとう)に申(もう)し訳(わけ)ございません。|Yes, I am truly sorry.|Hai, hontou ni moushiwake gozaimasen.
+Speaker 2: 先(さき)に会計(かいけい)をしておいてもいいですか。|Can I pay the bill in advance?|Saki ni kaikei o shite oite mo ii desu ka.
+Speaker 1: はい、かしこまりました。今回(こんかい)のドリンク代(だい)はサービスさせていただきます。|Yes, certainly. We will make the drinks complimentary this time.|Hai, kashikomarimashita. Konkai no dorinku-dai wa saabisu sasete itadakimasu.
+Speaker 2: そうですか。ありがとうございます。|I see. Thank you.|Sou desu ka. Arigatou gozaimasu.
+Speaker 1: お急(いそ)ぎのところ、ご迷惑(めいわく)をおかけして申(もう)し訳(わけ)ありませんでした。|I apologize for the inconvenience when you are in a hurry.|Oisogi no tokoro, gomeiwaku o okake shite moushiwake arimasen deshita.
+===
+Speaker 1: わあ、料理(りょうり)が来(き)ましたね。すごく美味(おい)しそうです。|Wow, the food is here. It looks really delicious.|Waa, ryouri ga kimashita ne. Sugoku oishisou desu.
+Speaker 2: 本当(ほんとう)ですね。いい匂(にお)いがします。|It really does. It smells good.|Hontou desu ne. Ii nioi ga shimasu.
+Speaker 1: インターネットでこのお店(みせ)の評判(ひょうばん)を見(み)たんです。|I saw this restaurant's reviews on the internet.|Intaanetto de kono omise no hyouban o mita n desu.
+Speaker 2: 何(なん)て書(か)いてありましたか。|What did they say?|Nante kaite arimashita ka.
+Speaker 1: ハンバーグがとても柔(やわ)らかくて美味(おい)しいと書(か)いてありましたよ。|They said the hamburger steak is very soft and delicious.|Hanbaagu ga totemo yawarakakute oishii to kaite arimashita yo.
+Speaker 2: へえ、それは楽(たの)しみですね。早(はや)く食(た)べてみましょう。|Wow, I'm looking forward to that. Let's eat it right away.|Hee, sore wa tanoshimi desu ne. Hayaku tabete mimashou.
+Speaker 1: はい、いただきます。|Yes, let's eat.|Hai, itadakimasu.
+Speaker 2: いただきます。…うん、本当(ほんとう)に柔(やわ)らかいです！|Let's eat. ...Yeah, it's really soft!|Itadakimasu. ...Un, hontou ni yawarakai desu!
+Speaker 1: 美味(おい)しいですか。私(わたし)のパスタもすごく美味(おい)しいですよ。|Is it delicious? My pasta is also really delicious.|Oishii desu ka. Watashi no pasuta mo sugoku oishii desu yo.
+Speaker 2: パスタもいいですね。一口(ひとくち)食(た)べてみますか。|Pasta is nice too. Would you like to try a bite?|Pasuta mo ii desu ne. Hitokuchi tabete mimasu ka.
+Speaker 1: え、いいんですか。じゃあ、少(すこ)しもらいます。|Oh, is it okay? Then I'll have a little.|E, ii n desu ka. Jaa, sukoshi moraimasu.
+Speaker 2: どうぞ。あ、私(わたし)もパスタを少(すこ)し食(た)べてもいいですか。|Here you go. Ah, can I also have a little bit of the pasta?|Douzo. A, watashi mo pasuta o sukoshi tabete mo ii desu ka.
+Speaker 1: はい、もちろんいいですよ。小(ちい)さいお皿(さら)に入(い)れますね。|Yes, of course. I'll put it on a small plate.|Hai, mochiron ii desu yo. Chiisai osara ni iremasu ne.
+Speaker 2: ありがとうございます。うん、このソース、濃厚(のうこう)ですね。|Thank you. Yeah, this sauce is rich.|Arigatou gozaimasu. Un, kono soosu, noukou desu ne.
+Speaker 1: ハンバーグのほうがパスタより味(あじ)が濃(こ)いと思(おも)います。|I think the hamburger steak has a stronger flavor than the pasta.|Hanbaagu no hou ga pasuta yori aji ga koi to omoimasu.
+Speaker 2: そうかもしれませんね。ご飯(はん)がよく進(すす)みます。|That might be true. It goes really well with rice.|Sou kamo shiremasen ne. Gohan ga yoku susumimasu.
+Speaker 1: このお店(みせ)にしてよかったですね。|I'm glad we chose this restaurant.|Kono omise ni shite yokatta desu ne.
+Speaker 2: はい、来週(らいしゅう)もまた来(き)たいくらいです。|Yes, I want to come back next week even.|Hai, raishuu mo mata kitai kurai desu.
+Speaker 1: じゃあ、今度(こんど)は他(ほか)のメニューも試(ため)してみましょう。|Then, let's try other menu items next time.|Jaa, kondo wa hoka no menyuu mo tameshite mimashou.
+Speaker 2: いいですね。デザートも頼(たの)んでみませんか。|Sounds good. Shall we order dessert too?|Ii desu ne. Dezaato mo tanonde mimasen ka.
+Speaker 1: 賛成(さんせい)です。メニューを見(み)ましょう。|I agree. Let's look at the menu.|Sansei desu. Menyuu o mimashou.
+===
+Speaker 1: ああ、お腹(なか)がいっぱいです。ごちそうさまでした。|Ah, I'm full. That was a great meal.|Aa, onaka ga ippai desu. Gochisousama deshita.
+Speaker 2: 本当(ほんとう)に美味(おい)しかったですね。そろそろ行(い)きましょうか。|It was really delicious. Shall we get going soon?|Hontou ni oishikatta desu ne. Sorosoro ikimashou ka.
+Speaker 1: はい。あ、伝票(でんぴょう)は私(わたし)が持(も)っていきますよ。|Yes. Ah, I'll take the bill.|Hai. A, denpyou wa watashi ga motte ikimasu yo.
+Speaker 2: いいえ、今日(きょう)は私(わたし)が払(はら)います。|No, I will pay today.|Iie, kyou wa watashi ga haraimasu.
+Speaker 1: えっ、そんなの悪(わる)いですよ。割(わ)り勘(かん)にしましょう。|What? That's not right. Let's split the bill.|E, sonna no warui desu yo. Warikan ni shimashou.
+Speaker 2: 先週(せんしゅう)、仕事(しごと)を手伝(てつだ)ってもらいましたから、今日(きょう)はお礼(れい)です。|You helped me with work last week, so today is a thank you.|Senshuu, shigoto o tetsudatte moraimashita kara, kyou wa orei desu.
+Speaker 1: でも、結構(けっこう)高(たか)かったんじゃないですか。|But it was quite expensive, wasn't it?|Demo, kekkou takakatta n ja nai desu ka.
+Speaker 2: 大丈夫(だいじょうぶ)ですよ。私(わたし)にご馳走(ちそう)させてください。|It's fine. Please let me treat you.|Daijoubu desu yo. Watashi ni gochisou sasete kudasai.
+Speaker 1: うーん、でもやっぱり半分(はんぶん)払(はら)わせてください。|Hmmm, but let me pay half anyway.|Uun, demo yappari hanbun harawasete kudasai.
+Speaker 2: じゃあ、次(つぎ)にカフェに行(い)った時(とき)、コーヒーをご馳走(ちそう)してくれませんか。|Then, next time we go to a cafe, won't you treat me to coffee?|Jaa, tsugi ni kafe ni itta toki, koohii o gochisou shite kuremasen ka.
+Speaker 1: そうですか。じゃあ、今回(こんかい)は甘(あま)えることにします。|I see. Then I'll take you up on your offer this time.|Sou desu ka. Jaa, konkai wa amaeru koto ni shimasu.
+Speaker 2: はい、そうしてください。|Yes, please do so.|Hai, sou shite kudasai.
+Speaker 1: 本当(ほんとう)にありがとうございます。ごちそうさまです。|Thank you very much. Thanks for the meal.|Hontou ni arigatou gozaimasu. Gochisousama desu.
+Speaker 2: いいえ、どういたしまして。レジへ行(い)きましょう。|You're welcome. Let's go to the cash register.|Iie, dou itashimashite. Reji e ikimashou.
+Speaker 1: 私(わたし)は外(そと)で待(ま)っていますね。|I'll be waiting outside.|Watashi wa soto de matte imasu ne.
+Speaker 2: はい、すぐに行(い)きます。|Yes, I'll be right there.|Hai, sugu ni ikimasu.
+Speaker 2: お待(ま)たせしました。|Sorry to keep you waiting.|Omataseshimashita.
+Speaker 1: 本当(ほんとう)にごちそうさまでした。とても美味(おい)しかったです。|Really, thank you for the meal. It was very delicious.|Hontou ni gochisousama deshita. Totemo oishikatta desu.
+Speaker 2: 喜(よろこ)んでもらえてよかったです。|I'm glad you enjoyed it.|Yorokonde moraete yokatta desu.
+Speaker 1: 次(つぎ)のカフェは私(わたし)が絶対(ぜったい)に払(はら)いますからね。|I will definitely pay at the next cafe.|Tsugi no kafe wa watashi ga zettai ni haraimasu kara ne.
+Speaker 2: ふふふ、楽(たの)しみにしています。行(い)きましょう。|Hahaha, I'm looking forward to it. Let's go.|Fufufu, tanoshimi ni shite imasu. Ikimashou.
+`;
+
+        const quizData = [
+            { q: "「禁煙」の読み方は？", options: ["きんえん", "きんえ", "きんのん", "きんあん"], answer: 0 },
+            { q: "「鶏肉」の読み方は？", options: ["とりにく", "けいにく", "とりに", "からすにく"], answer: 0 },
+            { q: "「海鮮」の読み方は？", options: ["かいせん", "うみせん", "かいさん", "かいぜん"], answer: 0 },
+            { q: "「領収書」の読み方は？", options: ["りょうしゅうしょ", "りょうじゅうしょ", "りょうしゅうか", "りょうじゅしょ"], answer: 0 },
+            { q: "「窓際」の読み方は？", options: ["まどぎわ", "まどきわ", "そうさい", "まどへん"], answer: 0 },
+            { q: "「乳製品」の読み方は？", options: ["にゅうせいひん", "ちちせいひん", "にゅうせひん", "ちちせいぶつ"], answer: 0 },
+            { q: "「優先」の読み方は？", options: ["ゆうせん", "すぐせん", "ゆうぜん", "ゆせん"], answer: 0 },
+            { q: "「評判」の読み方は？", options: ["ひょうばん", "ひょうはん", "ひょばん", "ひょうぱん"], answer: 0 },
+            { q: "「濃厚」の読み方は？", options: ["のうこう", "のうごう", "あつあつ", "あじこい"], answer: 0 },
+            { q: "「伝票」の読み方は？", options: ["でんぴょう", "でんひょう", "でんぼう", "てんぴょう"], answer: 0 }
+        ];
+
+        let scenes = [];
+
+        function parseData() {
+            const rawScenes = rawData.trim().split('===');
+            scenes = rawScenes.map(sceneText => {
+                const lines = sceneText.trim().split('\n').filter(line => line.length > 0);
+                return {
+                    lines: lines.map(line => {
+                        const [jpPart, enPart, romajiPart] = line.split('|');
+                        const speakerSplit = jpPart.split(':');
+                        const speaker = speakerSplit[0].trim();
+                        let rawJp = speakerSplit.slice(1).join(':').trim();
+                        
+                        const speakText = rawJp.replace(/\(.*?\)/g, '');
+                        
+                        return {
+                            speaker: speaker,
+                            rawJp: rawJp,
+                            speakText: speakText,
+                            english: enPart ? enPart.trim() : "Translation not available.",
+                            romaji: romajiPart ? romajiPart.trim() : "Romaji not available."
+                        };
+                    })
+                };
+            });
+        }
+
+        function formatJapanese(rawJp, hideFurigana) {
+            return rawJp.replace(/([\u4E00-\u9FFF\u3005]+)\((.*?)\)/g, (match, kanji, ruby) => {
+                if (hideFurigana) {
+                    return `<span class="kanji-hidden" onclick="revealFurigana(this)"><span class="kanji-text">${kanji}</span><span class="kanji-revealed">${ruby}</span></span>`;
+                } else {
+                    return `<ruby>${kanji}<rt>${ruby}</rt></ruby>`;
+                }
+            });
+        }
+
+        window.revealFurigana = function(element) {
+            element.classList.toggle('show-ruby');
+        };
+
+        function renderScene() {
+            const container = document.getElementById('dialogue-list');
+            container.innerHTML = '';
+            
+            const scene = scenes[appState.currentSceneIndex];
+            
+            scene.lines.forEach((line, index) => {
+                const isSpeaker1 = line.speaker === "Speaker 1";
+                const alignment = isSpeaker1 ? "self-start" : "self-end";
+                const bgColor = isSpeaker1 ? "speaker-1-bg border border-gray-200" : "speaker-2-bg border border-green-100";
+                const borderRadius = isSpeaker1 ? "rounded-tr-2xl rounded-br-2xl rounded-bl-2xl" : "rounded-tl-2xl rounded-br-2xl rounded-bl-2xl";
+                const icon = isSpeaker1 ? "fa-user-tie" : "fa-user";
+                const iconColor = isSpeaker1 ? "text-gray-500" : "text-green-600";
+
+                const jpFormatted = formatJapanese(line.rawJp, appState.hideFurigana);
+
+                let extraContent = '';
+                if (appState.showRomaji) {
+                    extraContent += `<div class="text-sm text-gray-500 mt-2 font-mono bg-gray-50 p-2 rounded">${line.romaji}</div>`;
+                }
+                if (appState.showTranslation) {
+                    extraContent += `<div class="text-sm text-gray-700 mt-2 italic border-l-2 border-gray-300 pl-2">${line.english}</div>`;
+                }
+
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+                const blurClass = isMuted ? "blur-sm opacity-50 hover:blur-none hover:opacity-100 transition-all duration-300 cursor-pointer" : "";
+                const titleText = isMuted ? "title='Hover to reveal (Roleplay mode)'" : "";
+
+                const html = `
+                    <div class="flex gap-3 max-w-[95%] sm:max-w-[85%] ${alignment} fade-in" style="animation-delay: ${index * 0.05}s">
+                        ${isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                        
+                        <div class="flex flex-col gap-1 w-full">
+                            <div class="text-xs text-gray-500 font-medium px-1 ${!isSpeaker1 ? 'text-right' : ''}">${line.speaker} ${isMuted ? ' <span class="text-purple-600 font-bold ml-1"><i class="fa-solid fa-microphone-lines"></i> Your Turn</span>' : ''}</div>
+                            <div class="${bgColor} ${borderRadius} p-4 shadow-sm relative group w-full transition-shadow duration-300">
+                                <div class="flex items-start gap-3 justify-between">
+                                    <div class="flex-1 ${blurClass}" ${titleText}>
+                                        <div class="text-[1.05rem] leading-loose break-words tracking-wide font-medium">
+                                            ${jpFormatted}
+                                        </div>
+                                        ${extraContent}
+                                    </div>
+                                    <button onclick="playAudio('${line.speakText.replace(/'/g, "\\'")}')" class="shrink-0 w-8 h-8 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-400 hover:text-blue-600 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300" title="Play audio">
+                                        <i class="fa-solid fa-volume-high"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        ${!isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                    </div>
+                `;
+                container.insertAdjacentHTML('beforeend', html);
+            });
+        }
+
+        function playAudio(text) {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'ja-JP';
+                utterance.rate = 0.85;
+                window.speechSynthesis.speak(utterance);
+            }
+        }
+
+        async function playEntireScene() {
+            if (!('speechSynthesis' in window)) return;
+            
+            const playBtnIcon = document.querySelector('#play-scene-btn i');
+
+            if (appState.isPlaying) {
+                window.speechSynthesis.cancel();
+                appState.isPlaying = false;
+                playBtnIcon.className = 'fa-solid fa-play';
+                document.querySelectorAll('#dialogue-list > div > div > div.p-4').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                return;
+            }
+
+            appState.isPlaying = true;
+            playBtnIcon.className = 'fa-solid fa-stop';
+            const scene = scenes[appState.currentSceneIndex];
+            
+            for (let i = 0; i < scene.lines.length; i++) {
+                if (!appState.isPlaying) break; 
+                
+                const line = scene.lines[i];
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+
+                const allMessageBubbles = document.querySelectorAll('#dialogue-list > div > div > div.p-4');
+                if (allMessageBubbles[i]) {
+                    allMessageBubbles.forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                    allMessageBubbles[i].classList.add('ring-2', isMuted ? 'ring-purple-400' : 'ring-blue-400');
+                    allMessageBubbles[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+                
+                if (isMuted) {
+                    const waitTime = 1500 + (line.speakText.length * 150);
+                    await new Promise(r => setTimeout(r, waitTime));
+                } else {
+                    await new Promise(resolve => {
+                        const utterance = new SpeechSynthesisUtterance(line.speakText);
+                        utterance.lang = 'ja-JP';
+                        utterance.rate = 0.85;
+                        utterance.onend = resolve;
+                        utterance.onerror = resolve;
+                        window.speechSynthesis.speak(utterance);
+                    });
+                }
+                
+                await new Promise(r => setTimeout(r, 600));
+            }
+
+            if (appState.isPlaying) {
+                document.querySelectorAll('#dialogue-list > div > div > div.p-4').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+            }
+
+            appState.isPlaying = false;
+            playBtnIcon.className = 'fa-solid fa-play';
+        }
+
+        function startQuiz() {
+            appState.score = 0;
+            appState.currentQuestionIndex = 0;
+            
+            document.getElementById('quiz-intro').classList.add('hidden');
+            document.getElementById('quiz-result').classList.add('hidden');
+            document.getElementById('quiz-area').classList.remove('hidden');
+            
+            loadQuestion();
+        }
+
+        function loadQuestion() {
+            appState.isAnswering = false;
+            const qData = quizData[appState.currentQuestionIndex];
+            
+            document.getElementById('quiz-progress').innerText = `Question ${appState.currentQuestionIndex + 1} / ${quizData.length}`;
+            document.getElementById('quiz-score').innerText = `Score: ${appState.score}`;
+            document.getElementById('quiz-question').innerText = qData.q;
+            
+            const optionsContainer = document.getElementById('quiz-options');
+            optionsContainer.innerHTML = '';
+            
+            // 正解のテキストを取得し、選択肢をシャッフルする
+            const correctAnswer = qData.options[qData.answer];
+            const shuffledOptions = [...qData.options].sort(() => Math.random() - 0.5);
+            const currentCorrectIndex = shuffledOptions.indexOf(correctAnswer);
+            
+            shuffledOptions.forEach((opt, index) => {
+                const btn = document.createElement('button');
+                btn.className = "w-full bg-white border-2 border-gray-200 hover:border-blue-500 hover:bg-blue-50 text-gray-700 font-bold py-4 px-6 rounded-xl text-lg sm:text-xl transition-all shadow-sm";
+                btn.innerText = opt;
+                btn.onclick = () => checkAnswer(index, currentCorrectIndex, btn);
+                optionsContainer.appendChild(btn);
+            });
+        }
+
+        function checkAnswer(selectedIndex, correctIndex, btnElement) {
+            if (appState.isAnswering) return;
+            appState.isAnswering = true;
+            
+            const isCorrect = selectedIndex === correctIndex;
+            
+            if (isCorrect) {
+                appState.score++;
+                btnElement.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50', 'text-gray-700');
+                btnElement.classList.add('bg-green-500', 'text-white', 'border-green-500');
+            } else {
+                btnElement.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50', 'text-gray-700');
+                btnElement.classList.add('bg-red-500', 'text-white', 'border-red-500');
+                
+                const allButtons = document.getElementById('quiz-options').children;
+                allButtons[correctIndex].classList.remove('border-gray-200');
+                allButtons[correctIndex].classList.add('border-green-500', 'bg-green-50', 'text-green-700');
+            }
+            
+            document.getElementById('quiz-score').innerText = `Score: ${appState.score}`;
+            
+            setTimeout(() => {
+                appState.currentQuestionIndex++;
+                if (appState.currentQuestionIndex < quizData.length) {
+                    loadQuestion();
+                } else {
+                    showResult();
+                }
+            }, 1200);
+        }
+
+        function showResult() {
+            document.getElementById('quiz-area').classList.add('hidden');
+            document.getElementById('quiz-result').classList.remove('hidden');
+            document.getElementById('final-score').innerText = appState.score;
+        }
+
+        function switchTab(tabId) {
+            appState.activeTab = tabId;
+            
+            const convBtn = document.getElementById('tab-btn-conv');
+            const quizBtn = document.getElementById('tab-btn-quiz');
+            const convDiv = document.getElementById('tab-conv');
+            const quizDiv = document.getElementById('tab-quiz');
+            
+            if (tabId === 'conv') {
+                convBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
+                quizBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
+                convDiv.classList.remove('hidden');
+                quizDiv.classList.add('hidden');
+            } else {
+                quizBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
+                convBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
+                quizDiv.classList.remove('hidden');
+                convDiv.classList.add('hidden');
+                
+                document.getElementById('quiz-intro').classList.remove('hidden');
+                document.getElementById('quiz-area').classList.add('hidden');
+                document.getElementById('quiz-result').classList.add('hidden');
+            }
+        }
+
+        window.onload = () => {
+            parseData();
+
+            const selector = document.getElementById('scene-selector');
+            scenes.forEach((_, i) => {
+                const opt = document.createElement('option');
+                opt.value = i;
+                opt.text = sceneTitles[i] || `Scene ${i + 1}`;
+                selector.appendChild(opt);
+            });
+
+            selector.addEventListener('change', (e) => {
+                appState.currentSceneIndex = parseInt(e.target.value);
+                if(appState.isPlaying) playEntireScene(); 
+                renderScene();
+            });
+
+            document.getElementById('toggle-romaji').addEventListener('change', (e) => {
+                appState.showRomaji = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-translation').addEventListener('change', (e) => {
+                appState.showTranslation = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-kanji-test').addEventListener('change', (e) => {
+                appState.hideFurigana = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('roleplay-selector').addEventListener('change', (e) => {
+                appState.roleplayMutedSpeaker = e.target.value;
+                renderScene();
+            });
+
+            document.getElementById('tab-btn-conv').addEventListener('click', () => switchTab('conv'));
+            document.getElementById('tab-btn-quiz').addEventListener('click', () => switchTab('quiz'));
+
+            renderScene();
+        };
+    </script>
+</body>
+</html>
