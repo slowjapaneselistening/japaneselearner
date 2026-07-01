@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2B0GEY45P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F2B0GEY45P');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Learning App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap');
+        body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
+        
+        .fade-in {
+            animation: fadeIn 0.4s ease-out forwards;
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        @keyframes fadeIn {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .speaker-1-bg { background-color: #ffffff; }
+        .speaker-2-bg { background-color: #f0fdf4; }
+
+        .kanji-hidden {
+            display: inline-block;
+            background-color: #fef08a; 
+            border-bottom: 2px dashed #ca8a04;
+            border-radius: 4px;
+            padding: 0 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+        }
+        .kanji-hidden:hover {
+            background-color: #fde047;
+        }
+        .kanji-revealed {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%) translateY(5px);
+            background-color: #1e40af;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease-out;
+            white-space: nowrap;
+            z-index: 10;
+        }
+        .kanji-hidden.show-ruby .kanji-revealed {
+            opacity: 1;
+            transform: translateX(-50%) translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen pb-12">
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-md">
+                    <i class="fa-solid fa-language text-xl"></i>
+                </div>
+                <h1 class="text-xl font-bold text-gray-900 tracking-tight">日本語 Learning</h1>
+            </div>
+            
+            <div class="flex bg-gray-100 p-1 rounded-lg">
+                <button id="tab-btn-conv" class="px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all">
+                    <i class="fa-regular fa-comments mr-1"></i> Conversation
+                </button>
+                <button id="tab-btn-quiz" class="px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all">
+                    <i class="fa-solid fa-pen-to-square mr-1"></i> Kanji Quiz
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 mt-6">
+        
+        <div id="tab-conv">
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                
+                <div class="bg-gray-50/50 p-4 border-b border-gray-100 flex flex-col gap-4">
+                    
+                    <div class="flex flex-row items-center justify-start gap-2 w-full overflow-x-auto py-1">
+                        <select id="scene-selector" class="w-auto max-w-[280px] bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2 shadow-sm font-medium shrink">
+                        </select>
+
+                        <select id="roleplay-selector" class="w-auto bg-purple-50 border border-purple-200 text-purple-800 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2 font-medium shadow-sm shrink-0">
+                            <option value="none">👤 Roleplay: Off</option>
+                            <option value="Speaker 1">🔇 Mute Speaker 1</option>
+                            <option value="Speaker 2">🔇 Mute Speaker 2</option>
+                        </select>
+
+                        <button onclick="playEntireScene()" id="play-scene-btn" class="w-auto bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm shrink-0">
+                            <i class="fa-solid fa-play"></i> Play
+                        </button>
+                    </div>
+
+                    <div class="flex flex-wrap justify-start gap-x-4 gap-y-2 text-sm font-medium text-gray-600 w-full pt-2 border-t border-gray-100">
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors whitespace-nowrap">
+                            <input type="checkbox" id="toggle-kanji-test" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Hide Furigana
+                        </label>
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors whitespace-nowrap">
+                            <input type="checkbox" id="toggle-translation" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            English
+                        </label>
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors whitespace-nowrap">
+                            <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Romaji
+                        </label>
+                    </div>
+                </div>
+
+                <div class="p-4 sm:p-6 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-gray-50/30 min-h-[500px]">
+                    <div id="dialogue-list" class="flex flex-col gap-6">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tab-quiz" class="hidden">
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-10 text-center max-w-2xl mx-auto">
+                <div id="quiz-intro">
+                    <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">漢字の読み方テスト</h2>
+                    <p class="text-gray-500 mb-6">会話で使われた漢字の読み方を当てる10問のクイズです。</p>
+                    <button onclick="startQuiz()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-transform transform hover:scale-105">
+                        スタート (Start)
+                    </button>
+                </div>
+
+                <div id="quiz-area" class="hidden">
+                    <div class="flex justify-between items-center text-sm font-medium text-gray-500 mb-6">
+                        <span id="quiz-progress" class="bg-gray-100 py-1 px-3 rounded-full">Question 1/10</span>
+                        <span id="quiz-score" class="text-green-600">Score: 0</span>
+                    </div>
+                    
+                    <h3 id="quiz-question" class="text-3xl sm:text-4xl font-bold text-gray-800 mb-8 py-6 bg-gray-50 rounded-xl border border-gray-100">
+                    </h3>
+                    
+                    <div id="quiz-options" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    </div>
+                </div>
+
+                <div id="quiz-result" class="hidden">
+                    <div class="text-6xl mb-4">🏆</div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">お疲れ様でした！</h2>
+                    <p class="text-xl text-gray-600 mb-6">Your Score: <span id="final-score" class="font-bold text-green-600 text-3xl"></span> / 10</p>
+                    <button onclick="startQuiz()" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-colors">
+                        もう一度プレイ (Play Again)
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const appState = {
+            activeTab: 'conv',
+            currentSceneIndex: 0,
+            showRomaji: false,
+            showTranslation: false,
+            hideFurigana: false,
+            isPlaying: false,
+            roleplayMutedSpeaker: 'none',
+            currentQuestionIndex: 0,
+            score: 0,
+            isAnswering: false
+        };
+
+        const sceneTitles = [
+            "Scene 1: サッカー日本代表の激闘 (The Fierce Battle of the Japan National Football Team)",
+            "Scene 2: ワールドカップ決勝戦の予想 (Predicting the World Cup Final Match)",
+            "Scene 3: 両国国技館での相撲観戦 (Watching Sumo at Ryogoku Kokugikan)",
+            "Scene 4: 男子スポーツクライミングのライバル関係 (Rivalries in Men's Sports Climbing)",
+            "Scene 5: 女子スポーツクライミングの魔法 (The Magic of Women's Sports Climbing)",
+            "Scene 6: メジャーリーグでの大活躍 (Great Success in Major League Baseball)",
+            "Scene 7: 日本のプロ野球独特の応援文化 (Japan's Unique Pro Baseball Cheering Culture)",
+            "Scene 8: 男子バレーボール代表の進化 (The Evolution of the Men's Volleyball National Team)",
+            "Scene 9: Bリーグ観戦のエンタメ感 (The Entertainment Aspect of Watching B.League Games)",
+            "Scene 10: 卓球国際大会の熱いラリー (Hot Rallies in International Table Tennis Tournaments)"
+        ];
+
+        // Format: Japanese|English|Romaji
+        // Format: Japanese|English|Romaji
+        const rawData = `
+Speaker 1: 昨日(きのう)のサッカーの試合(しあい)を見(み)ましたか。|Did you watch yesterday's soccer match?|Kinou no sakkaa no shiai o mimashita ka.
+Speaker 2: はい、見(み)ました。日本(にほん)とブラジルの試合(しあい)ですね。|Yes, I watched it. It was the match between Japan and Brazil, right?|Hai, mimashita. Nihon to Burajiru no shiai desu ne.
+Speaker 1: そうです。日本(にほん)は1対(たい)2で負(ま)けてしまいました。|That's right. Japan unfortunately lost 1 to 2.|Sou desu. Nihon wa ichi tai ni de makete shimaimashita.
+Speaker 2: 本当(ほんとう)に残念(ざんねん)でしたね。でも、最後(さいご)までいい試合(しあい)でした。|It was really a shame, wasn't it? But it was a good game until the very end.|Hontou ni zannen deshita ne. Demo, saigo made ii shiai deshita.
+Speaker 1: ええ。前半(ぜんはん)の日本(にほん)のゴールはとてもきれいでした。|Yes. Japan's goal in the first half was very beautiful.|Ee. Zenhan no Nihon no gooru wa totemo kirei deshita.
+Speaker 2: 私(わたし)も興奮(こうふん)しました。日本(にほん)の守(まも)りも素晴(すば)らしかったです。|I was excited too. Japan's defense was also wonderful.|Watashi mo koufun shimashita. Nihon no mamori mo subarashikatta desu.
+Speaker 1: そうですね。ブラジルの強(つよ)いアタックを何(なん)度(ど)も止(と)めました。|That's true. They stopped Brazil's strong attacks many times.|Sou desu ne. Burajiru no tsuyoi atakku o nando mo tomemashita.
+Speaker 2: でも、ブラジルは後半(こうはん)からもっと強(つよ)くなりましたね。|But Brazil became much stronger starting from the second half, didn't they?|Demo, Burajiru wa kouhan kara motto tsuyoku narimashita ne.
+Speaker 1: はい。後半(こうはん)のブラジルはパスがとても速(はや)かったです。|Yes. Brazil's passing in the second half was very fast.|Hai. Kouhan no Burajiru no pasu ga totemo hayakatta desu.
+Speaker 2: 最後(さいご)の1点(てん)は本当(ほんとう)に強烈(きょうれつ)なシュートでした。|The final point was a truly powerful shot.|Saigo no itten wa hontou ni kyouretsuna shuuto deshita.
+Speaker 1: 流石(さすが)は世界(せかい)ランク1位(い)のチームですね。壁(かべ)が厚(あつ)かったです。|As expected of the world's number one ranked team. Their wall was thick.|Sasuga wa sekai ranku ichi-i no chiimu desu ne. Kabe ga atsukatta desu.
+Speaker 2: 悔(くや)しいですが、日本(にほん)の選手(せんし)たちの涙(なみだ)に感動(かんどう)しました。|It's frustrating, but I was moved by the tears of the Japanese players.|Kuyashii desu ga, Nihon no senshu-tachi no namida ni kandou shimashita.
+Speaker 1: 私(わたし)もテレビの前(まえ)で拍手(はくしゅ)を送り(おくり)続け(つづけ)ました。|I also kept clapping in front of the TV.|Watashi mo terebi no mae de hakushu o okuri tzukemashita.
+Speaker 2: 今回(こんかい)はベスト16で敗退(はいたい)ですが、下(した)を向(む)く必要(ひつよう)はありません。|We were eliminated in the best 16 this time, but there is no need to look down.|Konkai wa besuto juuroku de haitai desu ga, shita o muku hitsuyou wa arimasen.
+Speaker 1: ええ。強豪(きょうごう)相手(あいて)にここまで戦(たたか)えることを証明(しょうめい)しました。|Yes. We proved that we can fight this well against a powerhouse.|Ee. Kyougou aite ni koko made tatakaeru koto o shoumei shimacitya.
+Speaker 2: 4年(よねん)後(ご)のワールドカップが今(いま)からもう楽(たの)しみです。|I'm already looking forward to the World Cup four years from now.|Yo-nen go no waarudo kappu ga ima kara mou tanoshiomi desu.
+Speaker 1: はい。次(つぎ)はもっと強(つよ)い日本(にほん)チームが見(み)られますよ。|Yes. We will be able to see an even stronger Japanese team next time.|Hai. Tsugi wa motto tsuyoi Nihon chiimu ga miraremasu yo.
+Speaker 2: その時(とき)まで、またみんなで応援(おうえん)を続(つづ)けましょう。|Let's all continue to cheer for them until that time.|Sono toki made, mata minna de ouen o tzukemashou.
+Speaker 1: そうですね。今日(きょう)は美味(おい)しいものを食(た)べて元気(げんき)を出(だ)しましょう。|That's right. Let's eat something delicious today and cheer up.|Sou desu ne. Kyou wa oishii mono o tabete genki o dashimashou.
+Speaker 2: いいですね。焼肉(やきにく)でも食(た)べに行(い)きましょうか。|Sounds good. Shall we go out to eat something like Yakiniku?|Ii desu ne. Yakiniku demo tabe ni ikimashou ka.
+===
+Speaker 1: サッカーのワールドカップもいよいよ終盤(しゅうばん)ですね。|The soccer World Cup is finally in its final stages, isn't it?|Sakkaa no waarudo kappu mo iyoiuyo shuuban desu ne.
+Speaker 2: ええ。残(のこ)っているチームはどこも強豪(きょうごう)ばかりです。|Yes. The remaining teams are all powerhouses.|Ee. Nokotte iru chiimu wa doko mo kyougou bakari desu.
+Speaker 1: ズバリ、今年(ことし)の決勝(けっしょう)戦(せん)のカードは何(なに)だと思いますか。|Right to the point, what do you think the matchup for this year's final will be?|Zubari, kotoshi no kesshou-sen no kaado wa nan da to omoimasu ka.
+Speaker 2: 私(わたし)はブラジルとフランスの対決(たいけつ)になると思(おモ)います。|I think it will be a showdown between Brazil and France.|Watashi wa Burajiru to Furansu no taiketsu ni naru to omoimasu.
+Speaker 1: 王道(おうどう)の一戦(いっせん)ですね。どうしてその2チームですか。|That's a classic matchup. Why those two teams?|Oudou no issen desu ne. Doushite sono ni chiimu desu ka.
+Speaker 2: ブラジルは今(いま)の大会(たいかい)で一番(いちばん)勢(いきお)いがありますから。|Because Brazil has the most momentum in the current tournament.|Burajiru wa ima no taikai de ichiban ikioi ga arimasu kara.
+Speaker 1: 確(たし)かにそうですね。ネイマール選手(せんしゅ)の攻撃(こうげき)力(りょく)が凄(すご)いです。|That's certainly true. Neymar's attacking power is amazing.|Tashikani sou desu ne. Neimaaru senshu no kougeki-ryoku ga sugoi desu.
+Speaker 2: フランスはディフェンスがとても安定(あんてい)していますよ。|France's defense is very stable, you know.|Furansu wa difensu ga totemo antei shite imasu yo.
+Speaker 1: 前回(ぜんかい)王者(おうじゃ)の貫禄(かんろく)がありますね。エムバペ選手(せんしゅ)も速(はや)いです。|They have the dignity of the previous champion. Mbappe is fast too.|Zenkai ouja no kanroku ga arisu ne. Emubape senshu mo hayai desu.
+Speaker 2: ええ。だからこの2チームが決勝(けっしょう)に上(あ)がるはずです。|Yes. That's why these two teams should advance to the finals.|Ee. Dakara kono ni chiimu ga kesshou ni agaru hazu desu.
+Speaker 1: どちらが優勝(ゆうしょう)すると思(おも)いますか。本気(ほんき)で当(あ)ててください。|Which one do you think will win? Seriously, try to guess it.|Dochira ga yuushou suru to omoimasu ka. Honki de atete kudasai.
+Speaker 2: 私(わたし)はブラジルが優勝(ゆうしょう)する方(ほう)に賭(か)けます。|I'm betting on Brazil to win.|Watashi wa Burajiru ga yuushou suru hou ni kakemasu.
+Speaker 1: その理由(りゆう)は個人(こじん)のテクニックですか。|Is the reason for that their individual technique?|Sono riyuu wa kojin no tekunikku desu ka.
+Speaker 2: はい。南米(なんべい)の自由(じゆう)なプレースタイルがヨーロッパの組織(そしき)力(りょく)を崩(くず)します。|Yes. South America's free play style will break down Europe's organizational power.|Hai. Nanbei no jiyuuna pureesutairu ga Yoroppa no soshiki-ryoku o kuzushimasu.
+Speaker 1: なるほど。面白(おもしろ)い分析(ぶんせき)ですね。私(わたし)はフランスだと思(おも)います。|I see. That's an interesting analysis. I think it will be France.|Naruhodo. Omoishiroi bunseki desu ne. Watashi wa Furansu da to omoimasu.
+Speaker 2: フランスの連覇(れんぱ)ですか。理由(りゆう)はなんですか。|Consecutive championships for France? What's the reason?|Furansu no renpa desu ka. Riyuu wa nan desu ka.
+Speaker 1: 誰(だれ)が出(で)ても強(つよ)い選手(せんし)層(そう)の厚(あつ)さです。戦術(せんじゅつ)の引(ひ)き出(だ)しが多(おお)いです。|It's the depth of their squad, making them strong no matter who plays. They have many tactical options.|Dare ga dete mo tsuyoi senshu-sou no atsusa desu. Senjutsu no hikidashi ga ooi desu.
+Speaker 2: 確(たし)かに、怪我(けが)人(にん)が出(で)てもチーム力(りょく)が落(お)ちませんね。|True, even if there are injured players, their team strength doesn't drop.|Tashikani, keganin ga dete mo chiimu-ryoku ga ochimasen ne.
+Speaker 1: 決勝(けっしょう)戦(せん)は歴史(れきし)に残(のこ)る名(めい)勝負(しょうぶ)になるでしょう。|The final match will probably be a legendary battle that goes down in history.|Kesshou-sen wa rekishi ni nokoru mei-shoubu ni naru deshou.
+Speaker 2: どちらが勝(か)ってもおかしくないです。今(いま)からワクワクしますね。|It wouldn't be surprising no matter who wins. It's exciting already, isn't it?|Dochira ga katte mo okashikunai desu. Ima kara wakuwaku shimasu ne.
+===
+Speaker 1: 今度(こんど)の週末(しゅうまつ)に相撲(すもう)の観戦(かんせん)に行(い)きませんか。|Would you like to go watch sumo wrestling this coming weekend?|Kondo no shuumatsu ni sumou no kansen ni ikimasen ka.
+Speaker 2: 相撲(すもう)ですか。私(わたし)は一度(いちど)も見(み)たことがありません。|Sumo? I have never seen it even once.|Sumou desu ka. Watashi wa ichido mo mita koto ga arimasen.
+Speaker 1: ぜひ行(い)きましょう。場所(ばしょ)は両国(りょうごく)国技館(こくぎかん)です。|Let's definitely go. The venue is Ryogoku Kokugikan.|Zehi ikimashou. Basho wa Ryogoku Kokugikan desu.
+Speaker 2: テレビでは見(み)ますが、本物(ほんもの)は迫力(はくりょく)がありますか。|I watch it on TV, but is the real thing powerful?|Terebi dewa mimasu ga, honmono wa hakuryoku ga arisu ka.
+Speaker 1: ええ、全然(ぜんぜん)違(ちが)いますよ。力士(りきし)の体(からだ)が本当(ほんとう)に大(おお)きいです。|Yes, it's completely different. The wrestlers' bodies are truly huge.|Ee, zenzen chigaimasu yo. Rikishi no karada ga hontou ni ookii desu.
+Speaker 2: 体(からだ)がぶつかる音(おと)も席(せき)まで聞(き)こえますか。|Can you hear the sound of bodies colliding all the way to the seats?|Karada ga butsukaru oto mo seki made kikoemasu ka.
+Speaker 1: はい。バチンと凄(すご)い音(おと)が会場(かいじょう)中(ちゅう)に響(ひび)きます。|Yes. A loud cracking sound resounds throughout the entire venue.|Hai. Bachin to sugoi oto ga kaijou-juu ni hibikimasu.
+Speaker 2: それは面白(おもしろ)そうですね。チケットはまだありますか。|That sounds interesting. Are there still tickets available?|Sore wa omoshirosou desu ne. Chiketto wa mada arisu ka.
+Speaker 1: 2階(かい)の椅子(いす)席(せき)ならまだ予約(よやく)ができますよ. |If it's the 2nd-floor chair seats, you can still make a reservation.|Ni-kai no isuzehi nara mada yoyaku ga dekimasu yo.
+Speaker 2: よかったです。国技館(こくぎかん)の中(なか)でお弁当(べんとう)を食(た)べてもいいですか。|Great. Is it okay to eat a bento box inside the Kokugikan?|Yokatta desu. Kokugikan no naka de obentou o tabete mo ii desu ka.
+Speaker 1: はい、大丈夫(だいじょうぶ)です。名物(めいぶつ)の焼(や)き鳥(とり)がとても美味(おい)しいですよ。|Yes, it's fine. The famous grilled chicken is very delicious.|Hai, daijoubu desu. Meibutsu no yakitori ga totemo oishii desu yo.
+Speaker 2: 相撲(すもう)の会場(かいじょう)で焼(や)き鳥(とり)ですか。意外(いがい)ですね。|Grilled chicken at a sumo venue? That's surprising.|Sumou no kaijou de yakitori desu ka. Igai desu ne.
+Speaker 1: 国技館(こくぎかん)の地下(ちか)で焼(や)いている特製(とくせい)のお土産(みやげ)です。冷(さ)めても美味(おい)しいです。|It's a special souvenir grilled in the basement of the Kokugikan. It's delicious even when cold.|Kokugikan no chika de yaite iru tokusei no omiyage desu. Samete mo oishii desu.
+Speaker 2: それは絶対(ぜったい)に食(た)べたいです。ちゃんこ鍋(なべ)もありますか。|I definitely want to eat that. Is there also Chanko-nabe?|Sore wa absoluteni tabetai desu. Chanko-nabe mo arisu ka.
+Speaker 1: ええ。大広間(おおひろま)で本物(ほんもの)のちゃんこ鍋(なべ)が一杯(いっぱい)500円(えん)で食(た)べられます。|Yes. You can eat authentic Chanko-nabe for 500 yen a bowl in the grand hall.|Ee. Oohiroma de honmono no chanko-nabe ga ippai gohyaku-en de taberaremasu.
+Speaker 2: 安(やす)いですね。日本(にほん)の伝統(でんとう)文化(ぶんか)とグルメを両方(りょうほう)楽(たの)しめます。|That's cheap. You can enjoy both traditional Japanese culture and gourmet food.|Yasui desu ne. Nihon no dentou bunka to gurume o ryouhou tanoshimemasu.
+Speaker 1: 人気(にんき)の力士(りきし)のグッズもたくさん売(う)っていますよ。|They sell a lot of popular wrestlers' merchandise too.|Ninki no rikishi no guzzu mo takusan utte imasu yo.
+Speaker 2: 誰(だれ)が今(いま)一番(いちばん)強(つよ)いですか。教(おし)えてください。|Who is the strongest right now? Please tell me.|Dare ga ima ichiban tsuyoi desu ka. Oshiete kudasai.
+Speaker 1: 横綱(よこづな)の照ノ富士(てるのふじ)関(ぜき)です。怪我(けが)と戦(たたか)いながら頑張(がんば)っています。|It's Yokozuna Terunofuji-seki. He is working hard while fighting through injuries.|Yokozuna Terunofuji-zeki desu. Kega to tatakai nagara ganbatte imasu.
+Speaker 2: 応援(おうえん)したくなる力士(りきし)ですね。週末(しゅうまつ)を楽(たの)しみにしています。|He's a wrestler you really want to root for. I'm looking forward to the weekend.|Ouen shitaku naru rikishi desu ne. Shuumatsu o tanoshimi ni shite imasu.
+===
+Speaker 1: スポーツクライミングの男子(だんし)の試合(しあい)が見逃(みのが)せません。|You can't miss the men's sports climbing matches.|Supootsu kuraimingu no danshi no shiai ga minogasemasen.
+Speaker 2: 最近(さいきん)、若(わか)い選手(せんし)たちが世界(せかい)で大活躍(だいかつやく)していますね。|Lately, young athletes have been making a huge splash globally, haven't they?|Saikin, wakai senshu-tachi ga sekai de daikatsuyaku shite imasu ne.
+Speaker 1: はい。特に(とくに)日本(にほん)の安楽(あんらく)宙斗(ちゅうと)選手(せんし)が本当(ほんとう)に凄(すご)いです。|Yes. Especially Japan's Sorato Anraku is truly amazing.|Hai. Tokuni Nihon no Anraku Chuuto senshu ga hontou ni sugoi desu.
+Speaker 2: まだ高校生(こうこうせい)なのに、大人(おとな)の大会(たいかい)で次々(つぎつぎ)に優勝(ゆうしょう)しています。|Even though he's still a high school student, he is winning adult tournaments one after another.|Mada koukousei nano ni, otona no taikai de tsugitsugi ni yuushou shite imasu.
+Speaker 1: 彼のライバルたちの戦(たたか)いも非常に(ひじょうに)ハイレベルです。|The battle among his rivals is also at an extremely high level.|Kare no raibaru-tachi no tatakai mo hijou ni hai reberu desu.
+Speaker 2: フランスのメジ・シャルク選手(せんし)も天才(てんさい)と言(い)われていますね。|Mejdi Schalck from France is also called a genius, right?|Furansu no Meji Sharuku senshu mo tensai to iwarete imasu ne.
+Speaker 1: メジ選手(せんし)はボルダーが得意(とくい)で、動(うご)きがとても華(はな)やかです。|Schalck is good at bouldering, and his movements are very flamboyant.|Meji senshu wa borudaa ga tokui de, ugoki ga totemo hanayaka desu.
+Speaker 2: 韓国(かんこく)のイ・ドヒョン選手(せんし)も忘(わす)れてはいけませんよ。|You mustn't forget Lee Do-hyun from South Korea either.|Kankoku no I Dohyon senshu mo wasurete wa ikemasen yo.
+Speaker 1: イ選手(せんし)はパワーがあって、難(むずか)しい壁(かべ)を簡単(かんたん)に登(のぼ)ります。|Lee has power and climbs difficult walls easily.|I senshu wa pawaa ga atte, muzukashii kabe o kantan ni noborimasu.
+Speaker 2: この3人(さんにん)のライバル関係(かんけい)は見(み)ていて本当(ほんとう)に熱(あつ)くなります。|Watching the rivalry between these three truly gets exciting.|Kono sannin no raibaru kankei wa mite ite hontou ni atsuku narimasu.
+Speaker 1: 先月(せんげつ)のワールドカップでも、最後(さいご)の最後(さいご)まで順位(じゅんい)が分(わ)かりませんでした。|Even at last month's World Cup, the rankings weren't clear until the very last moment.|Sengetsu no waarudo kappu demo, saigo no saigo made jun-i ga wakarimasen deshita.
+Speaker 2: そうでしたね。安楽(あんらく)選手(せんし)が逆転(ぎゃくてん)した時(とき)は鳥肌(とりはだ)が立(た)ちました。|That's true. When Anraku made a comeback victory, I got goosebumps.|Sou deshita ne. Anraku senshu ga gyakuten shita toki wa torihada ga tachimashita.
+Speaker 1: 3人(さんにん)は普段(ふだん)はとても仲(なか)が良(よ)い友達(ともだち)だそうです。|I heard the three of them are usually very close friends.|Sannin wa fudan wa totemo naka ga yoi tomodachi da sou desu.
+Speaker 2: 試合(しあい)が終(お)わった後(あと)に笑顔(えがお)でハグをしていましたね。|They were hugging each other with smiles after the match ended.|Shiai ga owatta ato ni egao de hagu o shite imashita ne.
+Speaker 1: お互い(おたがい)を高(たか)め合(あ)っている素晴(すば)らしい関係(かんけい)だと思(おも)います。|I think it's a wonderful relationship where they push each other to improve.|Otagai o takameatte iru subarashii kankei da to omoimasu.
+Speaker 2: 次(つぎ)の国際(こくさい)大会(たいかい)精度(せいど)でもこの3人(さんにん)の表彰台(ひょうしょうだい)争(あらそ)いが見(み)たいです。|I want to see these three fight for the podium at the next international tournament too.|Tsugi no kokusai taikai demo kono sannin no hyoushoudai arasoi ga mitai desu.
+Speaker 1: 誰(だれ)が勝(か)っても不思議(ふしぎ)ではない時代(じだい)になりましたね。|We've entered an era where it's no surprise no matter who wins.|Dare ga katて mo fushigi dewa nai jidai ni narimashita ne.
+Speaker 2: クライミングの人気(にんき)がもっと高(たか)まりそうです。|It feels like the popularity of climbing will increase even more.|Kuraimingu no ninki ga motto takamarisou desu.
+Speaker 1: 私(わたし)たちもテレビの前(まえ)でしっかり応援(おうえん)しましょう. |Let's cheer them on properly in front of the TV too.|Watashitachi mo terebi no mae de shikkari ouen shimashou.
+Speaker 2: ええ。次(つぎ)のライブ配信(はいしん)の時間(じかん)をチェックしておきます。|Yes. I'll check the time for the next live stream.|Ee. Tsugi no raibu haishin no jikan o chehhu shite okimasu.
+===
+Speaker 1: 女子(じょし)のスポーツクライミングも熱(あつ)いですよ。|Women's sports climbing is exciting too, you know.|Joshi no supootsu kuraimingu mo atsui desu yo.
+Speaker 2: 日本(にほん)にはリードの天才(てんさい)がいますね。|Japan has a genius in Lead climbing, right?|Nihon ni wa riido no tensai ga imasu ne.
+Speaker 1: はい。森(もり)秋彩(あい)選手(せんし)の登(のぼ)りはまるで魔法(まほう)のようです。|Yes. Ai Mori's climbing is just like magic.|Hai. Mori Ai senshu no nobori wa marude mahou no you desu.
+Speaker 2: 彼女(かのじょ)のリードの試合(しあい)はいつも驚(おどろ)かされます。|Her Lead climbing matches always amaze us.|Kanojo no riido no shiai wa itsumo odorokasaremasu.
+Speaker 1: 他(ほか)の海外(かいがい)の選手(せんし)たちが途中(とちゅう)で落(お)ちる難所(なんしょ)がありますね。|There are difficult sections where other overseas athletes fall midway.|Hoka no kaigai no senshu-tachi ga totchuu de ochiru nansho ga arisu ne.
+Speaker 2: ええ。そこを森(もり)選手(せんし)だけがスイスイと登(のぼ)っていきます。|Yes. Only Mori climbs smoothly past that spot.|Ee. Soko o Mori senshu dake ga suisui to nobotte ikimasu.
+Speaker 1: まるで重力(じゅうりょく)がないみたいに壁(かべ)に吸(す)い付(つ)いています。|It looks like she is sticking to the wall as if there is no gravity.|Marude juuryoku ga nai mitai ni kabe ni suitsuite imasu.
+Speaker 2: 体幹(たいかん)の強(つよ)さと持久(じきゅう)力(りょく)が異次元(いじげん)レベルだと思(おも)います。|I think her core strength and endurance are on an otherworldly level.|Taikan no tsuyosa to jikyuu-ryoku ga ijigen reberu da to omoimasu.
+Speaker 1: 森(もり)選手(せんし)は他(ほか)の選手(せんし)に比(くら)べて背(せ)が少(すこ)し低(ひく)いですよね。|Mori is a bit short compared to other athletes, isn't she?|Mori senshu wa hoka no senshu ni kurabete se ga sukoshi hikui desu yo ne.
+Speaker 2: はい。精度(せいど)が高(たか)い技術(ぎじゅつ)でリーチの短(みじか)さをカバーしています。|Yes. She covers her short reach with highly precise technique.|Hai. Seido ga takai gijutsu de riichi no mijikasa o kabaa shite imasu.
+Speaker 1: 圧倒的(あっとうてき)な練習(れんしゅう)量(りょう)があの無駄(むだ)のない動(うご)きを作(つく)っているのでしょう。|Her overwhelming amount of practice probably shapes that waste-free movement.|Attoutekina renshuu-ryou ga ano muda no nai ugoki o tsukutte iru no deshou.
+Speaker 2: 試合(しあい)中(ちゅう)の集中(しゅうちゅう)した表情(ひょうじょう)と、終(お)わった後(あと)の笑顔(えがお)のギャップも素敵(すてき)です。|The gap between her focused expression during the match and her smile afterward is also lovely.|Shiai-juu no shuutchuu shita hyoujou to, owatta ato no egao no gyappu mo suteki desu.
+Speaker 1: 普段(ふだん)はとても控(ひか)えめなおとなしい大学生(だいがくせい)ですからね。|Because she is usually a very modest and quiet university student.|Fudan wa totemo hikaemena otonashii daigakusei desu kara ne.
+Speaker 2: 壁(かべ)の前(まえ)に立(た)つと世界(せかい)最強(さいきょう)のクライマーに変身(へんしん)します。|When she stands in front of the wall, she transforms into the world's strongest climber.|Kabe no mae ni tatsu to sekai saikyou no kuraimaa ni henshin shimasu.
+Speaker 1: 彼女(かのじょ)の登(のぼ)り見(み)ると、自分(じぶん)も運動(うんどう)したくなります。|When I see her climbing, I want to exercise too.|Kanojo no nobori o miru to, jibun mo undou shitaku narimasu.
+Speaker 2: 近(ちか)くにボルダリングのジムがありますよ。行(い)ってみますか。|There is a bouldering gym nearby. Would you like to check it out?|Chikaku ni borudaringu no jimu ga arisu yo. Itte mimasu ka.
+Speaker 1: 初心者(しょしんしゃ)でも大丈夫(だいじょうぶ)ですか。少(すこ)し緊張(きんちょう)します。|Is it okay even for beginners? I'm a bit nervous.|Shoshinsha demo daijoubu desu ka. Sukoshi kinchou shimasu.
+Speaker 2: 簡単(かんたん)なコースからスタッフが優(やさ)しく教(おし)えてくれますよ。|The staff will guide you gently starting from easy courses.|Kantanna koosu extraction kara sutaffu ga yasashiku oshiete kuremasu yo.
+Speaker 1: じゃあ、今週末(こんしゅうまつ)に体験(たいけん)の予約(よやく)をしてみましょう。|Then, let's try to book a trial session this weekend.|Jaa, konshuumatsu ni taiken no yoyaku o shite mimashou.
+Speaker 2: 動(うご)きやすい服(ふく)を用意(ようい)しておいてくださいね。|Please prepare clothes that are easy to move in.|Ugoki yasui fuku o youi shite oite kudasai ne.
+===
+Speaker 1: メジャーリーグのニュースが毎日(まいにち)賑(にぎ)やかですね。|The Major League Baseball news is lively every day, isn't it?|Mejaa riigu no nyuusu ga mainichi nigiyaka desu ne.
+Speaker 2: ええ。日本人(にほんじん)メジャーリーガーの活躍(かつやく)が止(と)まりません。|Yes. The success of Japanese Major Leaguers doesn't stop.|Ee. Nihonjin mejaariigaa no katsuyaku ga tomarimasen.
+Speaker 1: 今朝(けさ)も特大(とくだい)のホームランを打(う)ちましたよ。|He hit an extra-large home run this morning too.|Kesa mo tokudai no hoomuran o utimashita yo.
+Speaker 2: 打球(だきゅう)の飛距離(ひきょり)が信(しん)じられないくらい遠(とお)かったです。|The flight distance of the batted ball was unbelievably far.|Dakyuu no hikyori ga shinjirarenai kurai tookatta desu.
+Speaker 1: 現実(げんじつ)の選手(せんし)なのに、まるで漫画(まんが)の主人公(しゅじんこう)のようです。|Even though he's a real player, he is just like a manga protagonist.|Genjitsu no senshu nano ni, marude manga no shujinkou no you desu.
+Speaker 2: 投(な)げては160キロの豪速球(ごうそっきゅう)で三振(さんしん)を取(と)りますからね。|And as a pitcher, he strikes batters out with a 160 km/h fastball.|Nagete wa hyakurokujuukin no gousokkyuu de sanshin o torimasu kara ne.
+Speaker 1: 野球(やきゅう)の神様(かみさま)も驚(おどろ)いているに違(ちが)いありません。|The god of baseball must be surprised as well.|Yakyuu no kamisama mo odoroite iru ni chigai arimasen.
+Speaker 2: アメリカのファンもスタジアムで大熱狂(だいねっきょう)しています。|American fans are also wildly enthusiastic in the stadium.|Amerika no fan mo sutajiamu de dai-nekkyou shite imasu.
+Speaker 1: グッズの売(う)り上(あ)げも球団(きゅうだん)史上(しじょう)最高(さいこう)だそうですよ。|I heard merchandise sales are also the highest in team history.|Guzzu no uriage mo kyuudan shijou saikou da sou desu yo.
+Speaker 2: 地元(じもと)の子供(こども)たちがみんな彼のユニフォームを着(き)ていますね。|Local children are all wearing his jersey, aren't they?|Jimoto no kodomo-tachi ga minna kare no yunifoomu o kite imasu ne.
+Speaker 1: 野球(やきゅう)の実力(じつりょく)だけでなく、ゴミを拾(ひろ)うマナーも褒(ほ)められています。|Not only his baseball skills, but his manners in picking up trash are also praised.|Yakyuu no jitsuryoku dake naku, gomi o hirou manaa mo home rarete imasu.
+Speaker 2: 人間性(にんげんせい)も素晴(すば)らしいから、世界(せかい)中(じゅう)で愛(あい)されるのでしょう。|Because his personality is also wonderful, he must be loved worldwide.|Ningen-sei mo subarashii kara, sekai-juu de aisareru no deshou.
+Speaker 1: 毎朝(まいあさ)そのニュースを見(み)るだけで、一日(いちにち)中(じゅう)元気(げんき)が出(で)ます。|Just watching that news every morning gives me energy for the whole day.|Maiasa sono nyuusu o miru dake de, ichinichi-juu genki ga demasu.
+Speaker 2: 日本(にほん)の誇(ほこ)りですね。最高(さいこう)のエンターテインメントです。|It's the pride of Japan. It's the ultimate entertainment.|Nihon no hokori desu ne. Saikou no entateinmento desu.
+Speaker 1: 一生(いっしょう)に一度(いちど)は現地(げんち)のアメリカで試合(しあい)を見(み)てみたいです。|I want to try watching a match locally in America at least once in my life.|Isshou ni ichido wa genchi no Amerika de shiai o mite mitai desu.
+Speaker 2: ロサンゼルスの球場(きゅうじょう)ですね。私(わたし)も行(い)ってみたいです。|The stadium in Los Angeles, right? I want to go too.|Rosanzerusu no kyuujou desu ne. Watashi mo itte mitai desu.
+Speaker 1: 旅行(りょこう)会社(がいしゃ)のツアーを探(さが)してみましょうか。|Shall we look into travel agency tours?|Ryokou gaisha no tsuaa o sagashite mimashou ka.
+Speaker 2: 高(たか)そうですが、見(み)る価値(かち)は絶対(ぜったい)にありますよ。|It looks expensive, but it's absolutely worth watching.|Takasou desu ga, miru kachi wa absoluteni arisu yo.
+Speaker 1: そうですね。そのためにお仕事(しごと)を頑張(がんば)って貯金(ちょきん)します。|That's true. I will work hard for that and save money.|Sou desu ne. Sono tame ni oshigoto o ganbatte chokin shimasu.
+Speaker 2: 私(わたし)も一緒(いっしょ)にコツコツとお金を貯(た)めることにします。|I'll save money steadily together with you too.|Watashi mo issho ni kotsukotsu to okane o tameru koto ni shimasu.
+===
+Speaker 1: 日本(にほん)のプロ野球(やきゅう)を見(み)に行(い)ったことがありますか。|Have you ever gone to watch Japanese professional baseball?|Nihon no puro yakyuu o mi ni itta koto ga arimasu ka.
+Speaker 2: はい、何度(なんど)もありますよ。球場(きゅうじょう)の雰囲気(ふんいき)が大好(だいす)きです。|Yes, many times. I love the stadium atmosphere.|Hai, nando mo arisu yo. Kyuujou no fun-iki ga daisuki desu.
+Speaker 1: 日本(にほん)の応援(おうえん)文化(ぶんか)は外国(がいこく)の野球(やきゅう)と全然(ぜんぜん)違(ちが)いますよね。|Japan's cheering culture is completely different from foreign baseball, isn't it?|Nihon no ouen bunka wa gaikoku no yakyuu to zenzen chigaimasu yo ne.
+Speaker 2: ええ。初(はじ)めて行(い)く外国(がいこく)人(じん)はみんな驚(おどろ)くと思(おも)います。|Yes. I think foreigners going for the first time will all be surprised.|Ee. Hajimete iku gaikokujin wa minna odoroku to omoimasu.
+Speaker 1: ライトスタンドの応援(おうえん)団(だん)がトランペットを吹(ふ)きますね。|The cheering squad in the right-field stands plays trumpets, don't they?|Raito sutando no ouen-dan ga toranpetto o fukimasu ne.
+Speaker 2: はい。それに合(あ)わせて観客(かんきゃく)全員(ぜんいん)が大声(おおごえ)で歌(うた)います。|Yes. In time with that, all the spectators sing loudly.|Hai. Sore ni awasete kankyaku zenin ga oogoe de utaimasu.
+Speaker 1: 選手(せんし)ごとに違(ちが)う応援(おうえん)歌(か)があるのが面白(おもしろ)いです。|It's interesting that there are different fight songs for each player.|Senshu goto ni chigau ouen-ka ga aru no ga omoshiroi desu.
+Speaker 2: 打席(だせき)に入(はい)る時(とき)に自分(じぶん)の歌(うた)が流(なが)れるのは格好(かっこう)いいですね。|It's cool that your own song plays when you step up to bat.|Daseki ni hairu toki ni jibun no uta ga nagareru no wa kakkoii desu ne.
+Speaker 1: 7回(ななかい)の攻撃(こうげき)の前(まえ)には特別(とくべつ)なイベントがありますよ。|There's a special event before the attack in the 7th inning.|Nana-kai no kougeki no mae ni wa tokubetsuna ibento ga arisu yo.
+Speaker 2: 球団(きゅうだん)の歌(うた)と一緒(いっしょ)にカラフルなジェット風船(ふうせん)を飛(と)ばしますね。|They release colorful jet balloons together with the team song.|Kyuudan no uta to issho ni karafuruna jetto fuusen o tobashimasu ne.
+Speaker 1: そうです。空(そら)いっぱいに風船(ふうせん)が広(ひろ)がる景色(けしき)は圧巻(あっかん)です。|That's right. The view of balloons filling the sky is spectacular.|Sou desu. Sora ippai ni fuusen ga hirogaru keshiki wa akkan desu.
+Speaker 2: あれを見(み)ると、球場(きゅうじょう)全体(ぜんたい)がお祭り(おまつり)会場(かいじょう)になった気(き)がします。|When I see that, it feels like the entire stadium has turned into a festival venue.|Are o miru to, kyuujou zentai ga omatsuri kaijou ni natta ki ga shimasu.
+Speaker 1: 試合(しあい)だけでなく、球場(きゅうじょう)グルメも楽(たの)しみの一つ(ひとつ)です。|Not just the game, stadium gourmet food is also one of the highlights.|Shiai dake naku, kyuujou gurume mo tanoshimi no hitotsu desu.
+Speaker 2: 選手(せんし)がプロデュースしたお弁当(べんとう)やスイーツがたくさんあります。|There are many bento boxes and sweets produced by the players.|Senshu ga purodyuusu shita obentou ya suiitsu ga takusan arisu.
+Speaker 1: ドーム球場(きゅうじょう)なら雨(あめ)が降(ふ)っても中止(ちゅうし)にならないから安心(あんしん)です。|If it's a dome stadium, it won't be canceled even if it rains, so it's reassuring.|Doomu kyuujou nara ame ga futte mo chuushi ni naranai kara anshin desu.
+Speaker 2: 売り子(うりこ)のお姉さん(おねえさん)から買(か)う冷(つめ)たいビールも最高(さいこう)ですよ。|The cold beer you buy from the draft beer sellers is also the best.|Uriko no oneesan kara kau tsumetai biiru mo saikou desu yo.
+Speaker 1: 今度(こんど)、友達(ともだち)をたくさん誘(さそ)ってみんなで行(い)きませんか。|Next time, why don't we invite a lot of friends and all go together?|Kondo, tomodachi o takusan sasotte minna de ikimasen ka.
+Speaker 2: 賑(にぎ)やかな方(ほう)が楽(たの)しいですね。来月(らいげつ)の試合(しあい)を調(しら)べましょう。|Livelier is more fun. Let's look up next month's matches.|Nigiyakana hou ga tanoshii desu ne. Raigetsu no shiai o shirabemashou.
+Speaker 1: 金曜日(きんようび)の夜(よる)の試合(しあい)なら、仕事(しごと)の後(あと)に行(い)けますね。|If it's a Friday night game, we can go after work.|Kinyoubi no yoru no shiai nara, shigoto no ato ni ikemasu ne.
+Speaker 2: いいですね。プレミアムな金曜日(きんようび)の夜(よる)にしましょう。|Sounds great. Let's make it a premium Friday night.|Ii desu ne. Puremiamuna kinyoubi no yoru ni shimashou.
+===
+Speaker 1: 最近(さいきん)、男子(だんし)バレーボールの日本(にほん)代表(だいひょう)が本当(ほんとう)に強(つよ)いです。|Recently, the Japanese men's volleyball national team is truly strong.|Saikin, danshi bareebooru no Nihon daihyou ga hontou ni tsuyoi desu.
+Speaker 2: 世界(せかい)大会(たいかい)でも強豪(きょうごう)国(こく)を次々(つぎつぎ)に破(やぶ)っていますね。|They are defeating powerhouse countries one after another even in world tournaments.|Sekai taikai demo kyougou-koku o tsugitsugi ni yabutte imasu ne.
+Speaker 1: 昔(むかし)のバレーボールと比(くら)べて、戦術(せんじゅつ)がすごく進化(しんか)しました。|Compared to volleyball in the past, tactics have evolved immensely.|Mukashi no bareebooru to kurabete, senjutsu ga sugoku shinka shimashou.
+Speaker 2: ええ。攻撃(こうげき)のスピードが信(しん)じられないくらい速(はや)いです。|Yes. The speed of the attack is unbelievably fast.|Ee. Kougeki no supiido ga shinjirarenai kurai hayai desu.
+Speaker 1: セッターのトス回(まわ)しが上手(じょうず)で、相手(あいて)のブロックを騙(だま)します。|The setter's tossing is skillful, tricking the opponent's block.|Settaa no tosumawashi ga jouzu de, aite no burokku o damashimasu.
+Speaker 2: 後(うしろ)からのバックアタックも迫力(はくりょく)満点(まんてん)ですね。|The back attack from behind is also full of impact.|Ushiro kara no bakku atakku mo hakuryoku manten desu ne.
+Speaker 1: リベロの選手(せんし)のレシーブ力(りょく)も世界(せかい)トップクラスです。|The receiving power of the libero player is also world top class.|Ribero no senshu no reshiibu-ryoku mo sekai toppukurasu desu.
+Speaker 2: どんなに強(つよ)いスパイクも床(ゆか)に落(お)とさないのが凄(すご)いです。|It's amazing how they don't let any strong spike drop to the floor.|Donna ni tsuyoi supaiku mo yuka ni otosanai no ga sugoi desu.
+Speaker 1: 選手(せんし)たちのビジュアルも格好(かっこう)良(よ)くて人気(にんき)があります。|The players' visuals are also cool, so they are popular.|Senshu-tachi no bijuaru mo kakko yokute ninki ga arisu.
+Speaker 2: 試合(しあい)会場(かいじょう)には多(おお)くのファンが詰(つ)めかけていますね。|Many fans are crowding the match venues, aren't they?|Shiai kaijou ni wa ooku no fan ga tsumekakete imasu ne.
+Speaker 1: でも、人気(にんき)の理由(りゆう)はその実力(じつりょく)の高(たか)さにあると思(おも)います。|But I think the reason for their popularity lies in their high level of skill.|Demo, ninki no riyuu wa sono jitsuryoku no takasa ni aru to omoimasu.
+Speaker 2: 同感(どうかん)です。全員(ぜんいん)がチームのために必死(ひし)にボールを繋(つな)ぎます。|Agreed. Everyone desperately connects the ball for the sake of the team.|Doukan desu. Zenin ga chiimu no tame ni hisshi ni booru o tsunagimasu.
+Speaker 1: バレーボールはボールを持(も)てないスポーツですからね。|Volleyball is a sport where you cannot hold the ball, after all.|Bareebooru wa booru o motenai supootsu desu kara ne.
+Speaker 2: はい。だからこそ仲間(なかま)への信頼(しんらい)が一番(いちばん)大切(たいせつ)になります。|Yes. That is precisely why trust in your teammates becomes the most important thing.|Hai. Dakara koso nakama e no shinrai ga ichiban taisetsu ni narimasu.
+Speaker 1: 試合(しあい)を見(み)ていると、自然(しぜん)と胸(むね)が熱(あつ)くなって応援(おうえん)に力(ちから)が入(はい)ります。|When watching the game, my heart naturally grows hot, and I put strength into cheering.|Shiai o mite iru to, shizen to mune ga atsuku natte ouen ni chikara ga hairimasu.
+Speaker 2: 次(つぎ)のオリンピックではメダルの獲得(かくとく)が本当(ほんとう)に期待(きた)できます。|We can truly expect them to win a medal at the next Olympics.|Tsugi no Orinpikku dewa medaru no kakutoku ga hontou ni kitai dekimasu.
+Speaker 1: 歴史(れきし)を変(か)える瞬間(しゅんかん)をこの目(め)で見届(みとど)けたいですね。|I want to witness the moment that changes history with my own eyes.|Rekishi o kaeru shunkan o kono me de mitodoketai desu ne.
+Speaker 2: 今夜(こんや)もテレビで試合(しあい)の生中継(なまちゅうけい)がありますよ。|There is a live broadcast of the match on TV tonight too.|Konya mo terebi de shiai no namachuukei ga arisu yo.
+Speaker 1: 急(いそ)いで家(いえ)に帰(かえ)って、テレビの前(まえ)で待機(たいき)しなければなりません。|I must rush home and stand by in front of the TV.|Isoide ie ni kaette, terebi no mae de taiki shinakereba narisen.
+Speaker 2: おつまみを買(か)して、私(わたし)も一緒(いっしょ)に応援(おうえん)します。|I'll buy some snacks and cheer together with you too.|Otsumami o katて, watashi mo issho ni ouen shimasu.
+===
+Speaker 1: 先週末(せんしゅうまつ)に初(はじ)めてBリーグの試合(しあい)を観戦(かんせん)しました。|I watched a B.League game for the first time last weekend.|Senshuumatsu ni hajmete B riigu no shiai o kansen shimashou.
+Speaker 2: 日本(にほん)のプロバスケットボールですね。どうでしたか。|That's Japanese professional basketball, right? How was it?|Nihon no puro basukettobooru desuね. Dou deshita ka.
+Speaker 1: 体育館(たいいくかん)の中(なか)の演出(えんしゅつ)がまるでクラブのようでした。|The production inside the gymnasium was just like a club.|Taiikukan no naka no enshutsu ga marude kurabu no you deshita.
+Speaker 2: 大音量(だいおんりょう)の音楽(おんがく)と派手(はで)な光(ひかり)の演出(えんしゅつ)があるそうですね。|I heard there's loud music and flashy light productions.|Daionryou no ongaku to hadena hikari no enshutsu ga aru sou desu ne.
+Speaker 1: はい。試合(しあい)前(まえ)からDJが会場(かいじょう)を盛(もり)り上(あ)げていました。|Yes. The DJ was pumping up the venue even before the match started.|Hai. Shiai-mae kara DJ ga kaijou o moriagete imashita.
+Speaker 2: それはバスケを知(し)らない人(ひと)でも楽(たの)しめそうな空間(くうかん)です。|That's a space that seems enjoyable even for people who don't know basketball.|Sore wa basuke o shiranai hito demo tanoshimesouna kuukan desu.
+Speaker 1: ええ。試合(しあい)が始(はじ)まると今度(こんど)はスピード感(かん)に圧倒(あっとう)されました。|Yes. Once the match began, this time I was overwhelmed by the sense of speed.|Ee. Shiai ga hajimaru to kondo wa supiido-kan ni attou saremashita.
+Speaker 2: コートが狭(せま)いから、選手(せんし)との距離(きょり)がとても近(ちか)いですよね。|Since the court is narrow, the distance to the players is very close, isn't it?|Kooto ga semai kara, senshu to no kyori ga totemo chikai desu yo ne.
+Speaker 1: 目(め)の前(まえ)でダンクシュートを見(み)た時(とき)は大(おお)きな歓声(かんせい)を上(あ)げました。|When I saw a dunk shot right in front of me, I let out a big cheer.|Me no mae de danku shuuto o mita toki wa ookina kansei o agemashita.
+Speaker 2: ゴールが壊(こわ)れそうなくらいの迫力(はくりょく)だったでしょう。|It must have been impactful enough to look like the goal would break.|Gooru ga kowaresouna kurai no hakuryoku datta deshou.
+Speaker 1: はい。それに、試合(しあい)の展開(てんかい)が最後(さいご)まで分(わ)かりませんでした。|Yes. Plus, I didn't know how the match would unfold until the very end.|Hai. Sore ni, shiai no tenkai ga saigo made wakarimasen deshita.
+Speaker 2: 残(のこ)り数秒(すうびょう)での逆転(ぎゃくてん)劇(げき)などもバスケの醍醐味(だいごみ)です。|A comeback drama in the remaining few seconds is also the real thrill of basketball.|Nokori suubyou de no gyakuten-geki nado mo basuke no daigomi desu.
+Speaker 1: まさにその通(とお)りでした。残(のこ)り3秒(さんびょう)でスリーポイントが入(はい)りました。|That was exactly the case. A three-pointer went in with 3 seconds remaining.|Masani sono toori deshita. Nokori san-byou de surii pointo ga hairimashita.
+Speaker 2: 劇的(げきてき)な勝利(しょうり)ですね。観客(かんきゃく)の興奮(こうふん)が伝(つた)わってきます。|A dramatic victory. The excitement of the spectators carries over.|Gekitekina shouri desu ne. Kankyaku no koufun ga tsutawatte kimasu.
+Speaker 1: 会場(かいじょう)全体(ぜんたい)が揺(ゆ)れるくらいの歓声(かんせい)で、鳥肌(とりはだ)が立(た)ちました。|The cheering was loud enough to shake the entire venue, giving me goosebumps.|Kaijou zentai ga yureru kurai no kansei de, torihada ga tachimashita.
+Speaker 2: チケットの値段(ねだん)はいくらくらいでしたか。|About how much was the ticket price?|Chiketto no nedan wa ikura kurai deshita ka.
+Speaker 1: 普通(ふつう)の席(せき)なら大人(おとな)一人(ひとり)3000円(えん)くらいで買(か)えます。|For a regular seat, an adult can buy it for about 3,000 yen.|Futsuu no seki nara otona hitori sanyen kurai de kaemasu.
+Speaker 2: その値段(ねだん)でそのエンタメ感(かん)なら、コスパが最高(さいこう)ですね。|With that entertainment feel at that price, the cost-performance is top-notch.|Sono nedan de sono entame-kan nara, kosupa ga saikou desu ne.
+Speaker 1: 今度(こんど)は一緒(いっしょ)に観戦(かんせん)に行(い)きませんか。絶対(ぜったい)にハマります。|Why don't we go watch a game together next time? You'll absolutely get hooked.|Kondo wa issho ni kansen ni ikimasen ka. Absoluteni hamarimasu.
+Speaker 2: ぜひ連(つ)れて行(い)ってください。応援(おうえん)グッズも買(か)いたいです。|Please take me along by all means. I want to buy cheering goods too.|Zehi tsurete itte kudasai. Ouen guzzu mo kaitai desu.
+Speaker 1: チームカラーのTシャツを着(き)て、また騒(さわ)ぎましょう。|Let's wear the team color T-shirt and make some noise again.|Chiimu karaa no tiishatsu o kite, mata sawagishou.
+===
+Speaker 1: 卓球(たっきゅう)の国際(こくさい)大会(たいかい)の決勝(けっしょう)戦(せん)をテレビで見(み)ました。|I watched the final match of the international table tennis tournament on TV.|Takkyuu no kokusai taikai no kesshou-sen o terebi de mimashita.
+Speaker 2: 日本(にほん)と中国(ちゅうごく)の熱(あつ)い戦(たたか)いでしたね。見(み)ましたか。|It was a heated battle between Japan and China. Did you see it?|Nihon to Chuugoku no atsui tatakai deshita ne. Mimashita ka?
+Speaker 1: はい。ラリーのスピードが早(はや)すぎて瞬(まばた)きができませんでした。|Yes. The speed of the rally was too fast that I couldn't even blink.|Hai. Rarii no supiido ga hayasugite mabataki ga dekimasen deshita.
+Speaker 2: コンマ数秒(すうびょう)の世界(せかい)でボールを打(う)ち合(あ)っていますからね。|Because they are hitting the ball back and forth in a world of split seconds.|Konma suubyou no sekai de booru o uchiatte imasu kara ne.
+Speaker 1: 動体(どうたい)視力(しりょく)と反射(はんしゃ)神経(しんけい)が人間(にんげん)離(ばな)れしていると思(おモ)います。|I think their dynamic visual acuity and reflexes are superhuman.|Doutai shiryoku to hansha shinkei ga ningen-banare shite iru to omoimasu.
+Speaker 2: 絶対(ぜったい)王者(おうじゃ)の中国(ちゅうごく)は、壁(かべ)が本当(ほんとう)に高(たか)くて強(つよ)かったです。|The absolute champion, China, had a truly high and strong wall.|Zettai ouja no Chuugoku wa, kabe ga hontou ni takakute tsuyokatta desu.
+Speaker 1: 回転(かいてん)のバリエーションが多(おお)くて、ミスを全く(まったく)しませんでした。|They had many variations of spin and made absolutely no mistakes.|Kaiten no barieeshon ga ookute, misu o mattaku shimasen deshita.
+Speaker 2: でも、日本(にほん)の若手(わかて)選手(せんし)たちも最後(さいご)まで諦(あきら)めませんでした。|But the young Japanese players didn't give up until the end either.|Demo, Nihon no wakate senshu-tachi mo saigo made akirame masen deshita.
+Speaker 1: ええ。中国(ちゅうごく)のチャンピオンから1セットを取(と)った時(とき)は叫(さけ)びました。|Yes. I screamed when they took a set from the Chinese champion.|Ee. Chuugoku no chanpion kara wan setto o totta toki wa sakebimashita.
+Speaker 2: 得点(とくてん)した時(とき)の大(おお)きな掛(か)け声(ごえ)も気合(きあ)いが入(はい)っていましたね。|Their loud shout when scoring was also full of fighting spirit, wasn't it?|Tokutenshi shita toki no ookina kakegoe mo kiai ga haitte imashita ne.
+Speaker 1: 本当(ほんとう)にそうですね。強(つよ)い気持(きも)ちが画面(がめん)から伝(つた)わりました。|That's really true. Their strong feelings were conveyed through the screen.|Hontou ni sou desu ne. Tsuyoi kimochi ga gamen kara tsutawarimashita.
+Speaker 2: 昔(むかし)は地味(じみ)なスポーツと言(い)われましたが、今(いま)は違(ちが)います。|In the past, it was called a plain sport, but now it's different.|Mukashi wa jimina supootsu to iwaremashita ga, ima wa chigaimasu.
+Speaker 1: 今や(いまや)日本(にほん)中(じゅう)で大人気(だいにんき)の花形(はながた)スポーツの一つ(ひとつ)になりました。|Now it has become one of the highly popular star sports all over Japan.|Imaya Nihon-juu de daininki no hanagata supootsu no hitotsu ni narimashita.
+Speaker 2: 子供(こども)たちの競技(きょうぎ)人口(じんこう)もどんどん増(ふ)えているそうですよ。|I heard the playing population among children is also rapidly increasing.|Kodomo-tachi no kyougi jinkou mo dondon fuete iru sou desu yo.
+Speaker 1: 未来(みらい)のメダリストたちが今(いま)から育(そだ)っているのは楽(たの)しみです。|It's exciting that future medalists are being raised starting from now.|Mirai no medarisuto-tachi ga ima kara sodatte iru no wa tanoshimi desu.
+Speaker 2: 試合(しあい)を見(み)ていたら、自分(じぶん)も温泉(おんせん)卓球(たっきゅう)がしたくなりました。|Watching the match made me want to play hot spring table tennis myself.|Shiai o mite itara, jibun mo onsen takkyuu ga shitaku narimashita.
+Speaker 1: ラケットの持(も)ち方(かた)から練習(れんしゅう)しなければなりませんね。|We will have to practice starting from how to hold the paddle, won't we?|Raketto no mochi-kata kara renshuu shinakereba narimasen ne.
+Speaker 2: 温泉(おんせん)の卓球(たっきゅう)なら、下手(へた)でも笑顔(えがお)で楽(たの)しく遊(あそ)べますよ。|With hot spring table tennis, even if you are bad at it, you can play happily with a smile.|Onsen no takkyuu nara, heta demo egao de tanoshiku asobemasu yo.
+Speaker 1: 今度(こんど)リフレッシュを兼(か)ねて、温泉(おんせん)旅行(りょこう)を計画(けいかく)しましょう。|Let's plan a hot spring trip combining it with some refreshment next time.|Kondo rifuresshu o kane te, onsen ryokou o keikaku shimashou.
+Speaker 2: 卓球(たっきゅう)台(だい)がある旅館(りょかん)を今(いま)すぐネットで探(さが)します。|I'll look for an inn with a table tennis table on the internet right away.|Takkyuudai ga aru ryokan o ima sugu netto de sagashimasu.
+`;
+
+        const quizData = [
+            { q: "「昨日」の読み方は？", options: ["きのう", "さくじつ", "きょう", "あした"], answer: 0 },
+            { q: "「試合」の読み方は？", options: ["しあい", "じあい", "しごう", "みあい"], answer: 0 },
+            { q: "「本当」の読み方は？", options: ["ほんとう", "ほんとうに", "もととう", "ぽんとう"], answer: 0 },
+            { q: "「前半」の読み方は？", options: ["ぜんはん", "まえはん", "ぜんぱん", "こうはん"], answer: 0 },
+            { q: "「後半」の読み方は？", options: ["こうはん", "あとはん", "こうぱん", "ぜんはん"], answer: 0 },
+            { q: "「週末」の読み方は？", options: ["しゅうまつ", "しゅうまる", "しゅうまち", "しゅうばつ"], answer: 0 },
+            { q: "「一度」の読み方は？", options: ["いちど", "ひとつど", "いちたび", "いつど"], answer: 0 },
+            { q: "「毎日」の読み方は？", options: ["まいにち", "まいつき", "ごとひ", "まいにっち"], answer: 0 },
+            { q: "「仕事」の読み方は？", options: ["しごと", "つかごと", "しこと", "じごと"], answer: 0 },
+            { q: "「友達」の読み方は？", options: ["ともだち", "ゆうだち", "ともたち", "ゆうじん"], answer: 0 }
+        ];
+
+        let scenes = [];
+
+        function parseData() {
+            const rawScenes = rawData.trim().split('===');
+            scenes = rawScenes.map(sceneText => {
+                const lines = sceneText.trim().split('\n').filter(line => line.length > 0);
+                return {
+                    lines: lines.map(line => {
+                        const [jpPart, enPart, romajiPart] = line.split('|');
+                        const speakerSplit = jpPart.split(':');
+                        const speaker = speakerSplit[0].trim();
+                        let rawJp = speakerSplit.slice(1).join(':').trim();
+                        
+                        const speakText = rawJp.replace(/\(.*?\)/g, '');
+                        
+                        return {
+                            speaker: speaker,
+                            rawJp: rawJp,
+                            speakText: speakText,
+                            english: enPart ? enPart.trim() : "Translation not available.",
+                            romaji: romajiPart ? romajiPart.trim() : "Romaji not available."
+                        };
+                    })
+                };
+            });
+        }
+
+        function formatJapanese(rawJp, hideFurigana) {
+            return rawJp.replace(/([\u4E00-\u9FFF\u3005]+)\((.*?)\)/g, (match, kanji, ruby) => {
+                if (hideFurigana) {
+                    return `<span class="kanji-hidden" onclick="revealFurigana(this)"><span class="kanji-text">${kanji}</span><span class="kanji-revealed">${ruby}</span></span>`;
+                } else {
+                    return `<ruby>${kanji}<rt>${ruby}</rt></ruby>`;
+                }
+            });
+        }
+
+        window.revealFurigana = function(element) {
+            element.classList.toggle('show-ruby');
+        };
+
+        function renderScene() {
+            const container = document.getElementById('dialogue-list');
+            container.innerHTML = '';
+            
+            const scene = scenes[appState.currentSceneIndex];
+            
+            scene.lines.forEach((line, index) => {
+                const isSpeaker1 = line.speaker === "Speaker 1";
+                const alignment = isSpeaker1 ? "self-start" : "self-end";
+                const bgColor = isSpeaker1 ? "speaker-1-bg border border-gray-200" : "speaker-2-bg border border-green-100";
+                const borderRadius = isSpeaker1 ? "rounded-tr-2xl rounded-br-2xl rounded-bl-2xl" : "rounded-tl-2xl rounded-br-2xl rounded-bl-2xl";
+                const icon = isSpeaker1 ? "fa-user-tie" : "fa-user";
+                const iconColor = isSpeaker1 ? "text-gray-500" : "text-green-600";
+
+                const jpFormatted = formatJapanese(line.rawJp, appState.hideFurigana);
+
+                let extraContent = '';
+                if (appState.showRomaji) {
+                    extraContent += `<div class="text-sm text-gray-500 mt-2 font-mono bg-gray-50 p-2 rounded">${line.romaji}</div>`;
+                }
+                if (appState.showTranslation) {
+                    extraContent += `<div class="text-sm text-gray-700 mt-2 italic border-l-2 border-gray-300 pl-2">${line.english}</div>`;
+                }
+
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+                const blurClass = isMuted ? "blur-sm opacity-50 hover:blur-none hover:opacity-100 transition-all duration-300 cursor-pointer" : "";
+                const titleText = isMuted ? "title='Hover to reveal (Roleplay mode)'" : "";
+
+                const html = `
+                    <div class="flex gap-3 max-w-[95%] sm:max-w-[85%] ${alignment} fade-in" style="animation-delay: ${index * 0.05}s">
+                        ${isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                        
+                        <div class="flex flex-col gap-1 w-full">
+                            <div class="text-xs text-gray-500 font-medium px-1 ${!isSpeaker1 ? 'text-right' : ''}">${line.speaker} ${isMuted ? ' <span class="text-purple-600 font-bold ml-1"><i class="fa-solid fa-microphone-lines"></i> Your Turn</span>' : ''}</div>
+                            <div class="${bgColor} ${borderRadius} p-4 shadow-sm relative group w-full transition-shadow duration-300">
+                                <div class="flex items-start gap-3 justify-between">
+                                    <div class="flex-1 ${blurClass}" ${titleText}>
+                                        <div class="text-[1.05rem] leading-loose break-words tracking-wide font-medium">
+                                            ${jpFormatted}
+                                        </div>
+                                        ${extraContent}
+                                    </div>
+                                    <button onclick="playAudio('${line.speakText.replace(/'/g, "\\'")}')" class="shrink-0 w-8 h-8 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-400 hover:text-blue-600 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300" title="Play audio">
+                                        <i class="fa-solid fa-volume-high"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        ${!isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                    </div>
+                `;
+                container.insertAdjacentHTML('beforeend', html);
+            });
+        }
+
+        function playAudio(text) {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'ja-JP';
+                utterance.rate = 0.85;
+                window.speechSynthesis.speak(utterance);
+            }
+        }
+
+        async function playEntireScene() {
+            if (!('speechSynthesis' in window)) return;
+            
+            const playBtnIcon = document.querySelector('#play-scene-btn i');
+
+            if (appState.isPlaying) {
+                window.speechSynthesis.cancel();
+                appState.isPlaying = false;
+                playBtnIcon.className = 'fa-solid fa-play';
+                document.querySelectorAll('#dialogue-list > div > div > div.p-4').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                return;
+            }
+
+            appState.isPlaying = true;
+            playBtnIcon.className = 'fa-solid fa-stop';
+            const scene = scenes[appState.currentSceneIndex];
+            
+            for (let i = 0; i < scene.lines.length; i++) {
+                if (!appState.isPlaying) break; 
+                
+                const line = scene.lines[i];
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+
+                const allMessageBubbles = document.querySelectorAll('#dialogue-list > div > div > div.p-4');
+                if (allMessageBubbles[i]) {
+                    allMessageBubbles.forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                    allMessageBubbles[i].classList.add('ring-2', isMuted ? 'ring-purple-400' : 'ring-blue-400');
+                    allMessageBubbles[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+                
+                if (isMuted) {
+                    const waitTime = 1500 + (line.speakText.length * 150);
+                    await new Promise(r => setTimeout(r, waitTime));
+                } else {
+                    await new Promise(resolve => {
+                        const utterance = new SpeechSynthesisUtterance(line.speakText);
+                        utterance.lang = 'ja-JP';
+                        utterance.rate = 0.85;
+                        utterance.onend = resolve;
+                        utterance.onerror = resolve;
+                        window.speechSynthesis.speak(utterance);
+                    });
+                }
+                
+                await new Promise(r => setTimeout(r, 600));
+            }
+
+            if (appState.isPlaying) {
+                document.querySelectorAll('#dialogue-list > div > div > div.p-4').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+            }
+
+            appState.isPlaying = false;
+            playBtnIcon.className = 'fa-solid fa-play';
+        }
+
+        function startQuiz() {
+            appState.score = 0;
+            appState.currentQuestionIndex = 0;
+            
+            document.getElementById('quiz-intro').classList.add('hidden');
+            document.getElementById('quiz-result').classList.add('hidden');
+            document.getElementById('quiz-area').classList.remove('hidden');
+            
+            loadQuestion();
+        }
+
+        function loadQuestion() {
+            appState.isAnswering = false;
+            const qData = quizData[appState.currentQuestionIndex];
+            
+            document.getElementById('quiz-progress').innerText = `Question ${appState.currentQuestionIndex + 1} / ${quizData.length}`;
+            document.getElementById('quiz-score').innerText = `Score: ${appState.score}`;
+            document.getElementById('quiz-question').innerText = qData.q;
+            
+            const optionsContainer = document.getElementById('quiz-options');
+            optionsContainer.innerHTML = '';
+            
+            const correctAnswer = qData.options[qData.answer];
+            const shuffledOptions = [...qData.options].sort(() => Math.random() - 0.5);
+            const currentCorrectIndex = shuffledOptions.indexOf(correctAnswer);
+            
+            shuffledOptions.forEach((opt, index) => {
+                const btn = document.createElement('button');
+                btn.className = "w-full bg-white border-2 border-gray-200 hover:border-blue-500 hover:bg-blue-50 text-gray-700 font-bold py-4 px-6 rounded-xl text-lg sm:text-xl transition-all shadow-sm";
+                btn.innerText = opt;
+                btn.onclick = () => checkAnswer(index, currentCorrectIndex, btn);
+                optionsContainer.appendChild(btn);
+            });
+        }
+
+        function checkAnswer(selectedIndex, correctIndex, btnElement) {
+            if (appState.isAnswering) return;
+            appState.isAnswering = true;
+            
+            const isCorrect = selectedIndex === correctIndex;
+            
+            if (isCorrect) {
+                appState.score++;
+                btnElement.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50', 'text-gray-700');
+                btnElement.classList.add('bg-green-500', 'text-white', 'border-green-500');
+            } else {
+                btnElement.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50', 'text-gray-700');
+                btnElement.classList.add('bg-red-500', 'text-white', 'border-red-500');
+                
+                const allButtons = document.getElementById('quiz-options').children;
+                allButtons[correctIndex].classList.remove('border-gray-200');
+                allButtons[correctIndex].classList.add('border-green-500', 'bg-green-50', 'text-green-700');
+            }
+            
+            document.getElementById('quiz-score').innerText = `Score: ${appState.score}`;
+            
+            setTimeout(() => {
+                appState.currentQuestionIndex++;
+                if (appState.currentQuestionIndex < quizData.length) {
+                    loadQuestion();
+                } else {
+                    showResult();
+                }
+            }, 1200);
+        }
+
+        function showResult() {
+            document.getElementById('quiz-area').classList.add('hidden');
+            document.getElementById('quiz-result').classList.remove('hidden');
+            document.getElementById('final-score').innerText = appState.score;
+        }
+
+        function switchTab(tabId) {
+            appState.activeTab = tabId;
+            
+            const convBtn = document.getElementById('tab-btn-conv');
+            const quizBtn = document.getElementById('tab-btn-quiz');
+            const convDiv = document.getElementById('tab-conv');
+            const quizDiv = document.getElementById('tab-quiz');
+            
+            if (tabId === 'conv') {
+                convBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
+                quizBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
+                convDiv.classList.remove('hidden');
+                quizDiv.classList.add('hidden');
+            } else {
+                quizBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
+                convBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
+                quizDiv.classList.remove('hidden');
+                convDiv.classList.add('hidden');
+                
+                document.getElementById('quiz-intro').classList.remove('hidden');
+                document.getElementById('quiz-area').classList.add('hidden');
+                document.getElementById('quiz-result').classList.add('hidden');
+            }
+        }
+
+        window.onload = () => {
+            parseData();
+
+            const selector = document.getElementById('scene-selector');
+            scenes.forEach((_, i) => {
+                const opt = document.createElement('option');
+                opt.value = i;
+                opt.text = sceneTitles[i] || `Scene ${i + 1}`;
+                selector.appendChild(opt);
+            });
+
+            selector.addEventListener('change', (e) => {
+                appState.currentSceneIndex = parseInt(e.target.value);
+                if(appState.isPlaying) playEntireScene(); 
+                renderScene();
+            });
+
+            document.getElementById('toggle-romaji').addEventListener('change', (e) => {
+                appState.showRomaji = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-translation').addEventListener('change', (e) => {
+                appState.showTranslation = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-kanji-test').addEventListener('change', (e) => {
+                appState.hideFurigana = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('roleplay-selector').addEventListener('change', (e) => {
+                appState.roleplayMutedSpeaker = e.target.value;
+                renderScene();
+            });
+
+            document.getElementById('tab-btn-conv').addEventListener('click', () => switchTab('conv'));
+            document.getElementById('tab-btn-quiz').addEventListener('click', () => switchTab('quiz'));
+
+            renderScene();
+        };
+    </script>
+</body>
+</html>
