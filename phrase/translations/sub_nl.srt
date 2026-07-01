@@ -1,0 +1,1311 @@
+1
+00:00:00,000 --> 00:00:03,000
+Scène 1: Bestellen in het Japans
+
+2
+00:00:03,000 --> 00:00:05,533
+Pardon.
+
+3
+00:00:05,556 --> 00:00:08,789
+Mag ik het menu, alstublieft?
+
+4
+00:00:08,812 --> 00:00:10,949
+Ja.
+
+5
+00:00:10,973 --> 00:00:14,673
+Hier is het menu.
+
+6
+00:00:14,696 --> 00:00:17,430
+Dank u wel.
+
+7
+00:00:17,453 --> 00:00:22,420
+Mag ik ook wat water, alstublieft?
+
+8
+00:00:22,443 --> 00:00:25,143
+Natuurlijk.
+
+9
+00:00:25,166 --> 00:00:28,704
+Ik breng het meteen.
+
+10
+00:00:28,728 --> 00:00:31,161
+Pardon.
+
+11
+00:00:31,184 --> 00:00:34,287
+Ik wil graag bestellen.
+
+12
+00:00:34,311 --> 00:00:36,577
+Ja.
+
+13
+00:00:36,600 --> 00:00:39,434
+Heeft u al een keuze gemaakt?
+
+14
+00:00:39,457 --> 00:00:43,090
+Ik wil graag hetzelfde als dat.
+
+15
+00:00:43,113 --> 00:00:46,346
+De hamburgermaaltijd, toch?
+
+16
+00:00:46,369 --> 00:00:48,403
+Ja.
+
+17
+00:00:48,426 --> 00:00:53,139
+En wat kunt u aanbevelen?
+
+18
+00:00:53,163 --> 00:00:57,196
+De seizoensalade is erg populair.
+
+19
+00:00:57,219 --> 00:01:01,358
+Oké, die neem ik ook.
+
+20
+00:01:01,382 --> 00:01:04,015
+Natuurlijk.
+
+21
+00:01:04,038 --> 00:01:07,072
+Waar is het toilet?
+
+22
+00:01:07,095 --> 00:01:10,595
+Aan het einde daar.
+
+23
+00:01:10,618 --> 00:01:13,451
+Dank u wel.
+
+24
+00:01:13,474 --> 00:01:16,390
+Sorry dat u moest wachten.
+
+25
+00:01:16,413 --> 00:01:19,769
+Hier is uw bestelling.
+
+26
+00:01:19,793 --> 00:01:22,171
+Pardon.
+
+27
+00:01:22,195 --> 00:01:26,028
+Kan ik dit meenemen?
+
+28
+00:01:26,051 --> 00:01:27,951
+Ja.
+
+29
+00:01:27,974 --> 00:01:31,407
+Ik breng een verpakking voor u.
+
+30
+00:01:31,430 --> 00:01:35,814
+Kunt u de gebruikte borden weghalen?
+
+31
+00:01:35,838 --> 00:01:37,938
+Ja.
+
+32
+00:01:37,961 --> 00:01:40,535
+Ik ruim ze meteen op.
+
+33
+00:01:40,558 --> 00:01:43,925
+Mag ik de rekening, alstublieft?
+
+34
+00:01:43,948 --> 00:01:46,881
+Komt u maar naar de kassa.
+
+35
+00:01:46,904 --> 00:01:50,638
+Dat is dan €25,00 in totaal.
+
+36
+00:01:50,661 --> 00:01:55,601
+Mogen we apart betalen met vrienden?
+
+37
+00:01:55,624 --> 00:01:57,769
+Ja.
+
+38
+00:01:57,793 --> 00:02:00,626
+Geen probleem.
+
+39
+00:02:00,649 --> 00:02:03,649
+Scène 2: Kleding passen en ruilen
+
+40
+00:02:03,649 --> 00:02:06,182
+Pardon.
+
+41
+00:02:06,205 --> 00:02:11,143
+Heeft u dit shirt ook in een andere kleur?
+
+42
+00:02:11,167 --> 00:02:13,683
+Ja.
+
+43
+00:02:13,706 --> 00:02:18,206
+We hebben het in wit en zwart.
+
+44
+00:02:18,229 --> 00:02:22,823
+Mag ik de zwarte passen?
+
+45
+00:02:22,847 --> 00:02:25,680
+Ja.
+
+46
+00:02:25,703 --> 00:02:30,470
+De paskamers zijn daar.
+
+47
+00:02:30,493 --> 00:02:33,031
+Het zit perfect.
+
+48
+00:02:33,054 --> 00:02:34,054
+Kunt u een nieuw exemplaar van deze voor me pakken?
+
+49
+00:02:34,077 --> 00:02:37,511
+Natuurlijk.
+
+50
+00:02:37,534 --> 00:02:41,520
+Ik controleer even de voorraad.
+
+51
+00:02:41,543 --> 00:02:46,090
+Kunt u het iets goedkoper maken?
+
+52
+00:02:46,113 --> 00:02:47,113
+Het spijt me,
+
+53
+00:02:47,137 --> 00:02:51,775
+dit artikel is niet in de aanbieding.
+
+54
+00:02:51,798 --> 00:02:54,698
+Ik begrijp het.
+
+55
+00:02:54,721 --> 00:02:55,721
+Dan neem ik deze.
+
+56
+00:02:55,744 --> 00:02:58,777
+Dank u wel.
+
+57
+00:02:58,800 --> 00:03:06,238
+Ik geef het aan een vriend, kunt u het als cadeau inpakken?
+
+58
+00:03:06,261 --> 00:03:07,261
+Ja,
+
+59
+00:03:07,284 --> 00:03:08,284
+wilt u het gratis inpakken?
+
+60
+00:03:08,308 --> 00:03:12,008
+Ja, graag.
+
+61
+00:03:12,031 --> 00:03:16,505
+Wilt u een plastic tasje?
+
+62
+00:03:16,528 --> 00:03:17,528
+Nee, ik heb een boodschappentas bij me.
+
+63
+00:03:17,551 --> 00:03:22,518
+Hoe wilt u betalen?
+
+64
+00:03:22,541 --> 00:03:26,500
+Kan ik met creditcard betalen?
+
+65
+00:03:26,523 --> 00:03:27,523
+Ja,
+
+66
+00:03:27,546 --> 00:03:30,813
+U kunt het gebruiken.
+
+67
+00:03:30,836 --> 00:03:36,569
+Kan ik het retourneren als de maat niet past?
+
+68
+00:03:36,592 --> 00:03:37,592
+Met een bon is het mogelijk binnen een week.
+
+69
+00:03:37,615 --> 00:03:40,615
+Scène 3: Verkeer en klantverzoeken / Navigeren door het verkeer en klantverzoeken
+
+70
+00:03:40,615 --> 00:03:43,054
+Pardon,
+
+71
+00:03:43,078 --> 00:03:47,111
+Naar Tokyo Station, alstublieft.
+
+72
+00:03:47,134 --> 00:03:49,968
+Natuurlijk.
+
+73
+00:03:49,991 --> 00:03:50,991
+Welke uitgang van Tokyo Station?
+
+74
+00:03:51,014 --> 00:03:54,931
+De Yaesu-uitgang, alstublieft.
+
+75
+00:03:54,955 --> 00:03:58,821
+Goed, we vertrekken.
+
+76
+00:03:58,844 --> 00:04:02,711
+Het is druk op de weg, hè?
+
+77
+00:04:02,734 --> 00:04:03,734
+Inderdaad,
+
+78
+00:04:03,757 --> 00:04:07,862
+Het is altijd druk rond deze tijd van de dag.
+
+79
+00:04:07,885 --> 00:04:08,885
+Ik heb weinig tijd, kunt u alstublieft opschieten?
+
+80
+00:04:08,908 --> 00:04:11,463
+Ik begrijp het.
+
+81
+00:04:11,487 --> 00:04:15,263
+Zullen we een andere route nemen?
+
+82
+00:04:15,286 --> 00:04:18,519
+Ja, graag.
+
+83
+00:04:18,542 --> 00:04:19,542
+We zijn er over ongeveer vijf minuten.
+
+84
+00:04:19,566 --> 00:04:22,364
+Dank u wel.
+
+85
+00:04:22,387 --> 00:04:23,387
+Oh, kunt u alstublieft voor die convenience store stoppen?
+
+86
+00:04:23,410 --> 00:04:25,881
+Hier, toch?
+
+87
+00:04:25,905 --> 00:04:26,905
+Dat wordt 2000 yen.
+
+88
+00:04:26,928 --> 00:04:27,928
+Kan ik betalen met een OV-chipkaart?
+
+89
+00:04:27,951 --> 00:04:32,218
+Ja, houdt u hem alstublieft tegen de lezer.
+
+90
+00:04:32,241 --> 00:04:35,756
+Mag ik een bonnetje, alstublieft?
+
+91
+00:04:35,779 --> 00:04:39,448
+Ja, alstublieft.
+
+92
+00:04:39,471 --> 00:04:42,783
+Let op uw persoonlijke bezittingen.
+
+93
+00:04:42,806 --> 00:04:43,806
+Pardon,
+
+94
+00:04:43,830 --> 00:04:44,830
+Ik heb veel bagage, kunt u de kofferbak openen?
+
+95
+00:04:44,853 --> 00:04:48,720
+Ja, ik doe hem nu open.
+
+96
+00:04:48,743 --> 00:04:51,243
+Dank u wel.
+
+97
+00:04:51,265 --> 00:04:52,265
+Goede reis en wees voorzichtig.
+
+98
+00:04:52,289 --> 00:04:55,289
+Scène 4: Inchecken bij het hotel / Hotel Incheckproces
+
+99
+00:04:55,289 --> 00:04:57,789
+Pardon.
+
+100
+00:04:57,812 --> 00:05:01,445
+Ik wil graag inchecken.
+
+101
+00:05:01,468 --> 00:05:03,643
+Ja.
+
+102
+00:05:03,667 --> 00:05:08,334
+Mag ik uw reserveringsnaam?
+
+103
+00:05:08,357 --> 00:05:11,116
+Smith.
+
+104
+00:05:11,139 --> 00:05:14,481
+Voor drie nachten.
+
+105
+00:05:14,504 --> 00:05:17,460
+Meneer/mevrouw Smith, toch?
+
+106
+00:05:17,483 --> 00:05:21,617
+Wilt u hier even tekenen?
+
+107
+00:05:21,640 --> 00:05:28,015
+Kunt u mijn bagage in bewaring nemen voordat ik naar mijn kamer ga?
+
+108
+00:05:28,038 --> 00:05:30,772
+Natuurlijk.
+
+109
+00:05:30,794 --> 00:05:34,228
+We nemen het graag voor u in bewaring.
+
+110
+00:05:34,251 --> 00:05:39,924
+Pardon, wat is het Wi-Fi-wachtwoord?
+
+111
+00:05:39,948 --> 00:05:43,931
+Het staat op de achterkant van uw kamersleutel.
+
+112
+00:05:43,954 --> 00:05:46,787
+Dank u wel.
+
+113
+00:05:46,810 --> 00:05:50,959
+Van hoe laat is het ontbijt?
+
+114
+00:05:50,982 --> 00:05:57,139
+Het ontbijt is van zeven uur 's ochtends in het restaurant op de eerste verdieping.
+
+115
+00:05:57,162 --> 00:06:00,029
+Ik begrijp het.
+
+116
+00:06:00,052 --> 00:06:03,202
+Uw kamer is op de vijfde verdieping.
+
+117
+00:06:03,226 --> 00:06:05,770
+Pardon.
+
+118
+00:06:05,793 --> 00:06:09,126
+Er komt geen warm water uit de kraan in mijn kamer.
+
+119
+00:06:09,149 --> 00:06:12,317
+Onze excuses daarvoor.
+
+120
+00:06:12,340 --> 00:06:15,925
+Ik kom direct even kijken.
+
+121
+00:06:15,949 --> 00:06:20,616
+Kunt u ook nog een extra handdoek brengen?
+
+122
+00:06:20,638 --> 00:06:23,472
+Natuurlijk.
+
+123
+00:06:23,495 --> 00:06:26,264
+Ik breng het meteen.
+
+124
+00:06:26,287 --> 00:06:32,987
+Als het warme water niet gemaakt kan worden, kunt u dan mijn kamer wisselen?
+
+125
+00:06:33,010 --> 00:06:36,925
+Ja, natuurlijk.
+
+126
+00:06:36,949 --> 00:06:41,708
+Kunt u morgenochtend een taxi voor me bellen?
+
+127
+00:06:41,731 --> 00:06:44,365
+Natuurlijk.
+
+128
+00:06:44,389 --> 00:06:47,582
+Hoe laat vertrekt u?
+
+129
+00:06:47,606 --> 00:06:51,382
+Om acht uur, alstublieft.
+
+130
+00:06:51,405 --> 00:06:54,405
+Scène 5: Basis van alledaagse gesprekken / Basis Japans voor dagelijks gebruik
+
+131
+00:06:54,405 --> 00:06:57,746
+Sorry, senpai.
+
+132
+00:06:57,770 --> 00:07:01,645
+Heeft u nu even tijd?
+
+133
+00:07:01,668 --> 00:07:05,812
+Ja, wat is er?
+
+134
+00:07:05,835 --> 00:07:10,809
+Ik ben mijn pen vergeten, mag ik er een lenen?
+
+135
+00:07:10,833 --> 00:07:15,333
+Alsjeblieft. Gebruik deze maar.
+
+136
+00:07:15,356 --> 00:07:18,023
+Dank u wel.
+
+137
+00:07:18,046 --> 00:07:23,279
+Ik snap niet hoe ik dit formulier moet invullen.
+
+138
+00:07:23,302 --> 00:07:28,136
+Hier schrijf je je naam en adres.
+
+139
+00:07:28,159 --> 00:07:33,276
+Sorry, het ging te snel, ik kon het niet verstaan.
+
+140
+00:07:33,299 --> 00:07:36,766
+Kun je dat nog een keer zeggen?
+
+141
+00:07:36,789 --> 00:07:42,357
+Schrijf hier alstublieft uw naam en adres.
+
+142
+00:07:42,380 --> 00:07:45,114
+Dank u wel.
+
+143
+00:07:45,137 --> 00:07:49,814
+Kunt u wat langzamer praten?
+
+144
+00:07:49,837 --> 00:07:54,424
+Sorry hoor. Ik zal beter opletten.
+
+145
+00:07:54,448 --> 00:07:57,000
+Ik ben klaar met schrijven.
+
+146
+00:07:57,023 --> 00:08:00,598
+Wat moet ik nu doen?
+
+147
+00:08:00,621 --> 00:08:04,495
+Maak hier een kopie van.
+
+148
+00:08:04,519 --> 00:08:09,064
+Kunt u me uitleggen hoe de kopieermachine werkt?
+
+149
+00:08:09,087 --> 00:08:13,067
+Je hoeft alleen maar op deze knop te drukken.
+
+150
+00:08:13,091 --> 00:08:15,443
+Ik begrijp het.
+
+151
+00:08:15,466 --> 00:08:20,499
+Oh, de printer is gestopt.
+
+152
+00:08:20,522 --> 00:08:24,089
+Kunt u me helpen?
+
+153
+00:08:24,113 --> 00:08:27,868
+Misschien zit er papier klem?
+
+154
+00:08:27,892 --> 00:08:31,037
+Wacht even.
+
+155
+00:08:31,060 --> 00:08:34,033
+Bedankt voor de hulp.
+
+156
+00:08:34,057 --> 00:08:37,390
+Heel erg bedankt.
+
+157
+00:08:37,413 --> 00:08:42,530
+Graag gedaan, is er nog iets anders wat je niet begrijpt?
+
+158
+00:08:42,554 --> 00:08:46,335
+Voor nu is alles duidelijk.
+
+159
+00:08:46,359 --> 00:08:50,826
+Mag ik morgen vrij nemen?
+
+160
+00:08:50,849 --> 00:08:56,356
+Maar morgen is er een belangrijke vergadering, hoor.
+
+161
+00:08:56,380 --> 00:08:59,380
+Scène 6: Foto's maken en toestemming vragen in gesprekken / Foto's maken en om toestemming vragen
+
+162
+00:08:59,380 --> 00:09:01,928
+Pardon.
+
+163
+00:09:01,951 --> 00:09:06,534
+Zou u een foto van mij willen maken?
+
+164
+00:09:06,558 --> 00:09:10,355
+Ja, natuurlijk.
+
+165
+00:09:10,378 --> 00:09:13,745
+Mag ik uw camera lenen?
+
+166
+00:09:13,768 --> 00:09:17,753
+Druk maar op deze knop.
+
+167
+00:09:17,777 --> 00:09:20,158
+Ja.
+
+168
+00:09:20,181 --> 00:09:23,348
+Cheese!
+
+169
+00:09:23,372 --> 00:09:27,451
+Zullen we er nog één nemen?
+
+170
+00:09:27,474 --> 00:09:30,049
+Dank u wel.
+
+171
+00:09:30,073 --> 00:09:35,206
+Mag ik een foto met u maken?
+
+172
+00:09:35,229 --> 00:09:38,422
+Met mij?
+
+173
+00:09:38,446 --> 00:09:42,512
+Ja, graag!
+
+174
+00:09:42,535 --> 00:09:45,969
+Dat wordt een mooie herinnering.
+
+175
+00:09:45,992 --> 00:09:51,512
+Mag ik het kasteel binnengaan?
+
+176
+00:09:51,535 --> 00:09:56,108
+Daar heb je een ticket voor nodig.
+
+177
+00:09:56,131 --> 00:10:00,165
+Waar kan ik een ticket kopen?
+
+178
+00:10:00,188 --> 00:10:05,093
+Je kunt het in dat witte gebouw daar kopen.
+
+179
+00:10:05,116 --> 00:10:09,434
+Heeft u ook een Engelstalige brochure?
+
+180
+00:10:09,457 --> 00:10:12,957
+Die zijn bij de receptie verkrijgbaar.
+
+181
+00:10:12,980 --> 00:10:17,332
+Is er een Japanstalige gids?
+
+182
+00:10:17,356 --> 00:10:21,822
+Er is een gratis rondleiding vanaf tien uur.
+
+183
+00:10:21,845 --> 00:10:25,412
+Ik wil graag meedoen.
+
+184
+00:10:25,435 --> 00:10:31,303
+Mijn bagage is zwaar, zijn er kluisjes?
+
+185
+00:10:31,327 --> 00:10:35,560
+Het is vlakbij het station.
+
+186
+00:10:35,583 --> 00:10:39,766
+Tot hoe laat is dit open?
+
+187
+00:10:39,790 --> 00:10:43,157
+Tot vijf uur 's middags.
+
+188
+00:10:43,180 --> 00:10:45,857
+Ik begrijp het.
+
+189
+00:10:45,880 --> 00:10:50,813
+Mag ik mijn lunch op de bank opeten?
+
+190
+00:10:50,836 --> 00:10:53,136
+Ja.
+
+191
+00:10:53,159 --> 00:10:56,992
+Eten en drinken mag hier vrij.
+
+192
+00:10:57,015 --> 00:11:00,015
+Scène 7: Een kliniek zoeken en symptomen beschrijven
+
+193
+00:11:00,015 --> 00:11:02,720
+Pardon.
+
+194
+00:11:02,743 --> 00:11:07,043
+Kunt u een ziekenhuis in de buurt aanbevelen?
+
+195
+00:11:07,066 --> 00:11:09,933
+Wat is er aan de hand?
+
+196
+00:11:09,957 --> 00:11:13,635
+Je ziet er niet goed uit.
+
+197
+00:11:13,658 --> 00:11:18,092
+Ik heb sinds gisteren hoofdpijn.
+
+198
+00:11:18,115 --> 00:11:21,233
+Heb je ook koorts?
+
+199
+00:11:21,256 --> 00:11:25,638
+Ja, ik heb een beetje koorts.
+
+200
+00:11:25,662 --> 00:11:29,095
+Dat klinkt niet best.
+
+201
+00:11:29,118 --> 00:11:32,230
+Een internist zou goed zijn.
+
+202
+00:11:32,254 --> 00:11:36,921
+Is er een dokter die Engels spreekt?
+
+203
+00:11:36,944 --> 00:11:42,112
+Bij de kliniek bij het station spreken ze Engels.
+
+204
+00:11:42,135 --> 00:11:44,841
+Dank u wel.
+
+205
+00:11:44,864 --> 00:11:48,097
+Ik ga daar eens kijken.
+
+206
+00:11:48,120 --> 00:11:51,075
+Wees voorzichtig.
+
+207
+00:11:51,099 --> 00:11:53,766
+Pardon.
+
+208
+00:11:53,789 --> 00:11:56,822
+Kan ik een consultatie krijgen?
+
+209
+00:11:56,845 --> 00:11:59,482
+Is dit uw eerste keer?
+
+210
+00:11:59,506 --> 00:12:03,039
+Mag ik uw verzekeringspas zien?
+
+211
+00:12:03,062 --> 00:12:07,129
+Kan ik mijn Japanse verzekeringspas gebruiken?
+
+212
+00:12:07,152 --> 00:12:10,618
+Ja, dat kan.
+
+213
+00:12:10,641 --> 00:12:13,880
+Vul dit vragenformulier in, alstublieft.
+
+214
+00:12:13,903 --> 00:12:19,237
+Ik voel me niet lekker, mag ik even rusten?
+
+215
+00:12:19,260 --> 00:12:23,244
+Gaat u hier maar even op dit bed liggen.
+
+216
+00:12:23,267 --> 00:12:30,100
+Dokter, ik neem vrij van mijn werk, kunt u een doktersverklaring schrijven?
+
+217
+00:12:30,123 --> 00:12:32,390
+Ik begrijp het.
+
+218
+00:12:32,413 --> 00:12:35,772
+Ik zal u wat medicijnen voorschrijven.
+
+219
+00:12:35,796 --> 00:12:39,671
+Kunt u mij iets tegen de pijn geven?
+
+220
+00:12:39,694 --> 00:12:43,796
+Neem dit na elke maaltijd in.
+
+221
+00:12:43,820 --> 00:12:46,453
+Beterschap!
+
+222
+00:12:46,476 --> 00:12:49,643
+Dank u wel.
+
+223
+00:12:49,666 --> 00:12:52,666
+Scène 8: Wat te doen als uw tas gestolen is
+
+224
+00:12:52,666 --> 00:12:56,536
+Pardon, help me alstublieft!
+
+225
+00:12:56,559 --> 00:12:57,559
+Wat is er aan de hand?
+
+226
+00:12:57,582 --> 00:13:00,249
+Rustig maar.
+
+227
+00:13:00,272 --> 00:13:04,505
+Mijn tas is gestolen.
+
+228
+00:13:04,528 --> 00:13:05,528
+Wat?!
+
+229
+00:13:05,552 --> 00:13:08,785
+Dat is erg.
+
+230
+00:13:08,808 --> 00:13:09,808
+We moeten meteen de politie bellen.
+
+231
+00:13:09,831 --> 00:13:14,164
+Mijn telefoon zat ook in die tas.
+
+232
+00:13:14,187 --> 00:13:17,487
+Mag ik uw telefoon lenen?
+
+233
+00:13:17,510 --> 00:13:21,344
+Ja, alstublieft.
+
+234
+00:13:21,367 --> 00:13:22,367
+Het alarmnummer is 112.
+
+235
+00:13:22,390 --> 00:13:27,423
+Hallo, mijn tas is gestolen.
+
+236
+00:13:27,446 --> 00:13:30,746
+De politie, toch?
+
+237
+00:13:30,769 --> 00:13:31,769
+Waar is het gebeurd?
+
+238
+00:13:31,792 --> 00:13:32,792
+Ik heb hem in het toilet van het station laten staan en toen ik terugkwam, was hij weg.
+
+239
+00:13:32,816 --> 00:13:33,816
+Wat zat er in uw tas?
+
+240
+00:13:33,839 --> 00:13:38,552
+Mijn portemonnee en paspoort zaten erin.
+
+241
+00:13:38,575 --> 00:13:39,575
+Zaten er ook creditcards in?
+
+242
+00:13:39,598 --> 00:13:40,598
+Ja. U moet de kaarten meteen blokkeren.
+
+243
+00:13:40,622 --> 00:13:46,591
+U moet zelf contact opnemen met de creditcardmaatschappij om ze te blokkeren.
+
+244
+00:13:46,614 --> 00:13:49,559
+Ik begrijp het.
+
+245
+00:13:49,582 --> 00:13:50,582
+En waar is de Japanse ambassade?
+
+246
+00:13:50,606 --> 00:13:55,395
+U wilt uw paspoort opnieuw laten uitgeven, toch?
+
+247
+00:13:55,418 --> 00:13:58,851
+Ik geef u een kaart.
+
+248
+00:13:58,874 --> 00:13:59,874
+Mijn huissleutel zit ook in mijn tas, dus ik kan niet naar binnen.
+
+249
+00:13:59,898 --> 00:14:00,898
+Kunt u mij het telefoonnummer van de huisbaas geven?
+
+250
+00:14:00,921 --> 00:14:01,921
+Ik heb mijn smartphone niet, dus ik weet het nummer niet.
+
+251
+00:14:01,944 --> 00:14:05,286
+Dat is vervelend, hè?
+
+252
+00:14:05,309 --> 00:14:09,107
+Mag ik mijn familie even bellen?
+
+253
+00:14:09,131 --> 00:14:14,466
+Ja, gebruik gerust deze telefoon.
+
+254
+00:14:14,489 --> 00:14:17,489
+Scène 9: Afspreken met vrienden
+
+255
+00:14:17,489 --> 00:14:23,756
+Hé, zullen we volgende week samen iets leuks gaan doen?
+
+256
+00:14:23,779 --> 00:14:26,018
+Leuk idee!
+
+257
+00:14:26,041 --> 00:14:27,041
+Waar gaan we naartoe?
+
+258
+00:14:27,064 --> 00:14:28,064
+Er is een nieuw café geopend, daar wil ik graag heen.
+
+259
+00:14:28,087 --> 00:14:30,721
+Oké, goed plan.
+
+260
+00:14:30,744 --> 00:14:31,744
+Geef je me je LINE-gegevens?
+
+261
+00:14:31,767 --> 00:14:32,767
+Ja, tuurlijk.
+
+262
+00:14:32,790 --> 00:14:37,058
+Scan deze QR-code maar.
+
+263
+00:14:37,082 --> 00:14:40,115
+Ik heb je toegevoegd!
+
+264
+00:14:40,138 --> 00:14:43,675
+Ik stuur je later de details.
+
+265
+00:14:43,699 --> 00:14:44,699
+Sorry,
+
+266
+00:14:44,722 --> 00:14:45,722
+wacht even.
+
+267
+00:14:45,745 --> 00:14:49,379
+Ik krijg mijn schoenveters niet gestrikt.
+
+268
+00:14:49,402 --> 00:14:52,735
+Doe maar rustig.
+
+269
+00:14:52,758 --> 00:14:56,391
+Ik heb dorst.
+
+270
+00:14:56,414 --> 00:14:57,414
+Zullen we even langs een supermarkt gaan?
+
+271
+00:14:57,438 --> 00:15:00,188
+Ja, goed.
+
+272
+00:15:00,211 --> 00:15:05,200
+Oh, en kun je me trouwens wat geld lenen?
+
+273
+00:15:05,223 --> 00:15:06,223
+Hoeveel?
+
+274
+00:15:06,246 --> 00:15:07,246
+Alleen 500 yen.
+
+275
+00:15:07,269 --> 00:15:11,028
+Ik ben mijn portemonnee vergeten.
+
+276
+00:15:11,052 --> 00:15:13,885
+Jij bent ook altijd wat, hè?
+
+277
+00:15:13,908 --> 00:15:14,908
+Alsjeblieft, 500 yen.
+
+278
+00:15:14,931 --> 00:15:17,365
+Dank je wel.
+
+279
+00:15:17,388 --> 00:15:21,374
+Ik geef het morgen zeker terug!
+
+280
+00:15:21,397 --> 00:15:22,397
+Deze taart is echt heerlijk!
+
+281
+00:15:22,421 --> 00:15:23,421
+Echt waar?
+
+282
+00:15:23,444 --> 00:15:24,444
+Mag ik een hapje?
+
+283
+00:15:24,467 --> 00:15:27,062
+Ja, hoor.
+
+284
+00:15:27,085 --> 00:15:30,352
+Alsjeblieft, hier.
+
+285
+00:15:30,375 --> 00:15:31,375
+Lekker!
+
+286
+00:15:31,398 --> 00:15:32,398
+Wil je ook mijn pannenkoek proeven?
+
+287
+00:15:32,421 --> 00:15:33,421
+Ja! Oh, stuur je een foto?
+
+288
+00:15:33,445 --> 00:15:35,843
+Ja, goed.
+
+289
+00:15:35,866 --> 00:15:39,370
+Ik heb hem net via LINE gestuurd.
+
+290
+00:15:39,393 --> 00:15:41,659
+Dank je wel.
+
+291
+00:15:41,682 --> 00:15:42,682
+Vertel dit aan niemand over deze zaak, oké?
+
+292
+00:15:42,706 --> 00:15:44,972
+Oké, goed plan.
+
+293
+00:15:44,995 --> 00:15:48,562
+Ons geheimpje, hè?
+
+294
+00:15:48,585 --> 00:15:51,585
+Scène 10: Voorbereiding en bevestiging van een vergadering
+
+295
+00:15:51,585 --> 00:15:54,618
+Goed werk vandaag.
+
+296
+00:15:54,641 --> 00:15:57,908
+Kunt u mij horen?
+
+297
+00:15:57,931 --> 00:16:01,690
+Ja, ik hoor u goed.
+
+298
+00:16:01,713 --> 00:16:03,904
+Pardon,
+
+299
+00:16:03,928 --> 00:16:07,647
+Zet uw microfoon alstublieft aan.
+
+300
+00:16:07,670 --> 00:16:10,737
+Oh, sorry.
+
+301
+00:16:10,760 --> 00:16:13,919
+Ik heb hem nu aangezet.
+
+302
+00:16:13,943 --> 00:16:17,009
+Geen probleem.
+
+303
+00:16:17,032 --> 00:16:20,999
+Laten we dan maar beginnen met de vergadering.
+
+304
+00:16:21,022 --> 00:16:26,089
+Kijkt u alstublieft naar de verkoopcijfers van deze week.
+
+305
+00:16:26,112 --> 00:16:31,101
+Kunt u uw scherm delen?
+
+306
+00:16:31,124 --> 00:16:35,163
+Ja, een momentje alstublieft.
+
+307
+00:16:35,187 --> 00:16:38,420
+Hoe is het nu?
+
+308
+00:16:38,443 --> 00:16:42,276
+Ik zie het nog steeds niet.
+
+309
+00:16:42,299 --> 00:16:46,937
+Mag ik de verbinding even opnieuw maken?
+
+310
+00:16:46,960 --> 00:16:49,694
+Ik begrijp het.
+
+311
+00:16:49,717 --> 00:16:52,386
+Ik wacht.
+
+312
+00:16:52,409 --> 00:16:55,275
+Sorry voor het wachten.
+
+313
+00:16:55,298 --> 00:17:00,565
+Oh, uw stem klinkt een beetje zacht.
+
+314
+00:17:00,588 --> 00:17:03,255
+Echt waar?
+
+315
+00:17:03,278 --> 00:17:08,657
+Kunt u wat harder praten?
+
+316
+00:17:08,681 --> 00:17:12,416
+Ik ben mijn microfoon aan het testen.
+
+317
+00:17:12,439 --> 00:17:14,814
+Hoe klinkt het nu?
+
+318
+00:17:14,838 --> 00:17:19,551
+Ja, nu is het perfect.
+
+319
+00:17:19,575 --> 00:17:22,342
+Fijn om te horen.
+
+320
+00:17:22,365 --> 00:17:26,964
+Mag ik deze vergadering opnemen?
+
+321
+00:17:26,987 --> 00:17:31,258
+Ja, geen probleem.
+
+322
+00:17:31,281 --> 00:17:36,619
+Belangrijke URL's kunt u in de chat plaatsen.
+
+323
+00:17:36,643 --> 00:17:40,914
+Ik heb zojuist de link gestuurd.
+
+324
+00:17:40,937 --> 00:17:43,970
+Ik heb het bevestigd.
+
+325
+00:17:43,993 --> 00:17:48,775
+Stuur me de details later alstublieft per e-mail.
+
+326
+00:17:48,798 --> 00:17:51,732
+Komt in orde.
+
+327
+00:17:51,755 --> 00:17:56,488
+Ik stuur ook de notulen van de vergadering mee.
+
+328
+00:17:56,511 --> 00:17:59,544
+Alstublieft.

@@ -1,0 +1,1311 @@
+1
+00:00:00,000 --> 00:00:03,000
+Adegan 1: Asas membuat pesanan dalam Bahasa Jepun
+
+2
+00:00:03,000 --> 00:00:05,533
+Maaf.
+
+3
+00:00:05,556 --> 00:00:08,789
+Boleh saya minta menu?
+
+4
+00:00:08,812 --> 00:00:10,949
+Baiklah.
+
+5
+00:00:10,973 --> 00:00:14,673
+Inilah menu untuk anda.
+
+6
+00:00:14,696 --> 00:00:17,430
+Terima kasih.
+
+7
+00:00:17,453 --> 00:00:22,420
+Boleh saya dapatkan air?
+
+8
+00:00:22,443 --> 00:00:25,143
+Baiklah, tuan.
+
+9
+00:00:25,166 --> 00:00:28,704
+Akan saya bawa segera.
+
+10
+00:00:28,728 --> 00:00:31,161
+Maaf.
+
+11
+00:00:31,184 --> 00:00:34,287
+Saya ingin membuat pesanan.
+
+12
+00:00:34,311 --> 00:00:36,577
+Baiklah.
+
+13
+00:00:36,600 --> 00:00:39,434
+Sudah membuat keputusan?
+
+14
+00:00:39,457 --> 00:00:43,090
+Saya nak yang sama seperti ini.
+
+15
+00:00:43,113 --> 00:00:46,346
+Set hidangan hamburger, betul?
+
+16
+00:00:46,369 --> 00:00:48,403
+Baiklah.
+
+17
+00:00:48,426 --> 00:00:53,139
+Apa yang anda syorkan?
+
+18
+00:00:53,163 --> 00:00:57,196
+Salad sayur musim sangat popular.
+
+19
+00:00:57,219 --> 00:01:01,358
+Baiklah, saya nak itu juga.
+
+20
+00:01:01,382 --> 00:01:04,015
+Baiklah, tuan.
+
+21
+00:01:04,038 --> 00:01:07,072
+Di mana tandas?
+
+22
+00:01:07,095 --> 00:01:10,595
+Di sebelah sana, di bahagian belakang.
+
+23
+00:01:10,618 --> 00:01:13,451
+Terima kasih.
+
+24
+00:01:13,474 --> 00:01:16,390
+Maaf kerana membuat anda menunggu.
+
+25
+00:01:16,413 --> 00:01:19,769
+Ini pesanan anda.
+
+26
+00:01:19,793 --> 00:01:22,171
+Maaf.
+
+27
+00:01:22,195 --> 00:01:26,028
+Boleh saya bawa pulang ini?
+
+28
+00:01:26,051 --> 00:01:27,951
+Baiklah.
+
+29
+00:01:27,974 --> 00:01:31,407
+Saya akan bawa bekas untuk anda.
+
+30
+00:01:31,430 --> 00:01:35,814
+Boleh tolong angkat pinggan kosong ini?
+
+31
+00:01:35,838 --> 00:01:37,938
+Baiklah.
+
+32
+00:01:37,961 --> 00:01:40,535
+Saya akan angkat sekarang.
+
+33
+00:01:40,558 --> 00:01:43,925
+Boleh saya minta bil?
+
+34
+00:01:43,948 --> 00:01:46,881
+Sila ke kaunter pembayaran.
+
+35
+00:01:46,904 --> 00:01:50,638
+Jumlahnya RM2500.
+
+36
+00:01:50,661 --> 00:01:55,601
+Boleh kami bayar berasingan dengan kawan?
+
+37
+00:01:55,624 --> 00:01:57,769
+Baiklah.
+
+38
+00:01:57,793 --> 00:02:00,626
+Tiada masalah.
+
+39
+00:02:00,649 --> 00:02:03,649
+Adegan 2: Mencuba dan menukar pakaian
+
+40
+00:02:03,649 --> 00:02:06,182
+Maaf.
+
+41
+00:02:06,205 --> 00:02:11,143
+Adakah baju ini ada warna lain?
+
+42
+00:02:11,167 --> 00:02:13,683
+Baiklah.
+
+43
+00:02:13,706 --> 00:02:18,206
+Ada warna putih dan hitam.
+
+44
+00:02:18,229 --> 00:02:22,823
+Boleh saya cuba yang hitam?
+
+45
+00:02:22,847 --> 00:02:25,680
+Baiklah.
+
+46
+00:02:25,703 --> 00:02:30,470
+Silakan ke bilik mencuba di sebelah sana.
+
+47
+00:02:30,493 --> 00:02:33,031
+Sangat padan!
+
+48
+00:02:33,054 --> 00:02:34,054
+Boleh beri yang baru untuk ini?
+
+49
+00:02:34,077 --> 00:02:37,511
+Baiklah, tuan.
+
+50
+00:02:37,534 --> 00:02:41,520
+Saya akan semak stok dahulu.
+
+51
+00:02:41,543 --> 00:02:46,090
+Boleh kurang sikit harganya?
+
+52
+00:02:46,113 --> 00:02:47,113
+Maaf,
+
+53
+00:02:47,137 --> 00:02:51,775
+ini tidak termasuk dalam jualan.
+
+54
+00:02:51,798 --> 00:02:54,698
+Baiklah.
+
+55
+00:02:54,721 --> 00:02:55,721
+Jadi, saya akan beli ini.
+
+56
+00:02:55,744 --> 00:02:58,777
+Terima kasih.
+
+57
+00:02:58,800 --> 00:03:06,238
+Saya nak beri kepada kawan, boleh bungkus sebagai hadiah?
+
+58
+00:03:06,261 --> 00:03:07,261
+Boleh,
+
+59
+00:03:07,284 --> 00:03:08,284
+bungkusan percuma boleh?
+
+60
+00:03:08,308 --> 00:03:12,008
+Ya, tolong.
+
+61
+00:03:12,031 --> 00:03:16,505
+Perlu beg plastik?
+
+62
+00:03:16,528 --> 00:03:17,528
+Tidak, saya ada beg mesra alam.
+
+63
+00:03:17,551 --> 00:03:22,518
+Bagaimana anda ingin membayar?
+
+64
+00:03:22,541 --> 00:03:26,500
+Boleh guna kad kredit?
+
+65
+00:03:26,523 --> 00:03:27,523
+Boleh,
+
+66
+00:03:27,546 --> 00:03:30,813
+Boleh digunakan.
+
+67
+00:03:30,836 --> 00:03:36,569
+Jika saiznya tidak sesuai, bolehkah saya memulangkan barang tersebut?
+
+68
+00:03:36,592 --> 00:03:37,592
+Jika ada resit, boleh dikembalikan dalam tempoh satu minggu.
+
+69
+00:03:37,615 --> 00:03:40,615
+Senario 3: Menavigasi Kesesakan Lalulintas dan Permintaan Pelanggan
+
+70
+00:03:40,615 --> 00:03:43,054
+Maaf,
+
+71
+00:03:43,078 --> 00:03:47,111
+Tolong hantar saya ke Stesen Tokyo.
+
+72
+00:03:47,134 --> 00:03:49,968
+Baiklah, tuan.
+
+73
+00:03:49,991 --> 00:03:50,991
+Pintu mana di Stesen Tokyo?
+
+74
+00:03:51,014 --> 00:03:54,931
+Tolong hantar ke pintu Yaesu.
+
+75
+00:03:54,955 --> 00:03:58,821
+Baik, kami bertolak sekarang.
+
+76
+00:03:58,844 --> 00:04:02,711
+Lalulintas agak sesak, ya.
+
+77
+00:04:02,734 --> 00:04:03,734
+Memang,
+
+78
+00:04:03,757 --> 00:04:07,862
+Waktu petang memang selalu sesak begini.
+
+79
+00:04:07,885 --> 00:04:08,885
+Saya ada urusan, bolehkah cepat sedikit?
+
+80
+00:04:08,908 --> 00:04:11,463
+Baiklah.
+
+81
+00:04:11,487 --> 00:04:15,263
+Mahu melalui jalan lain?
+
+82
+00:04:15,286 --> 00:04:18,519
+Ya, tolong.
+
+83
+00:04:18,542 --> 00:04:19,542
+Dalam lebih kurang 5 minit lagi sampai.
+
+84
+00:04:19,566 --> 00:04:22,364
+Terima kasih.
+
+85
+00:04:22,387 --> 00:04:23,387
+Eh, tolong berhenti di depan kedai serbaneka itu.
+
+86
+00:04:23,410 --> 00:04:25,881
+Di sini, ya?
+
+87
+00:04:25,905 --> 00:04:26,905
+Jumlahnya RM2000.
+
+88
+00:04:26,928 --> 00:04:27,928
+Boleh bayar menggunakan kad IC pengangkutan?
+
+89
+00:04:27,951 --> 00:04:32,218
+Boleh, sila sentuh kad di sini.
+
+90
+00:04:32,241 --> 00:04:35,756
+Tolong beri resit.
+
+91
+00:04:35,779 --> 00:04:39,448
+Ini resitnya.
+
+92
+00:04:39,471 --> 00:04:42,783
+Harap berhati-hati jangan tinggalkan barang.
+
+93
+00:04:42,806 --> 00:04:43,806
+Maaf,
+
+94
+00:04:43,830 --> 00:04:44,830
+Barang saya agak banyak, bolehkah buka bonet belakang?
+
+95
+00:04:44,853 --> 00:04:48,720
+Baik, saya akan buka sekarang.
+
+96
+00:04:48,743 --> 00:04:51,243
+Terima kasih banyak.
+
+97
+00:04:51,265 --> 00:04:52,265
+Berhati-hatilah dalam perjalanan.
+
+98
+00:04:52,289 --> 00:04:55,289
+Adegan 4: Proses Check-In Hotel
+
+99
+00:04:55,289 --> 00:04:57,789
+Maaf.
+
+100
+00:04:57,812 --> 00:05:01,445
+Saya ingin check-in, tolong.
+
+101
+00:05:01,468 --> 00:05:03,643
+Baiklah.
+
+102
+00:05:03,667 --> 00:05:08,334
+Bolehkah saya tahu nama untuk tempahan anda?
+
+103
+00:05:08,357 --> 00:05:11,116
+Smith.
+
+104
+00:05:11,139 --> 00:05:14,481
+Saya merancang untuk menginap selama tiga malam.
+
+105
+00:05:14,504 --> 00:05:17,460
+Tuan Smith, betul?
+
+106
+00:05:17,483 --> 00:05:21,617
+Tolong tanda tangan di sini.
+
+107
+00:05:21,640 --> 00:05:28,015
+Bolehkah bagasi saya disimpan sebelum masuk ke bilik?
+
+108
+00:05:28,038 --> 00:05:30,772
+Baiklah, tuan.
+
+109
+00:05:30,794 --> 00:05:34,228
+Kami akan menyimpannya di sini.
+
+110
+00:05:34,251 --> 00:05:39,924
+Maaf, bolehkah saya tahu kata laluan Wi-Fi?
+
+111
+00:05:39,948 --> 00:05:43,931
+Ia tertulis di belakang kunci bilik anda.
+
+112
+00:05:43,954 --> 00:05:46,787
+Terima kasih.
+
+113
+00:05:46,810 --> 00:05:50,959
+Sarapan bermula pada pukul berapa?
+
+114
+00:05:50,982 --> 00:05:57,139
+Sarapan disediakan dari pukul 7 pagi di restoran tingkat satu.
+
+115
+00:05:57,162 --> 00:06:00,029
+Baiklah.
+
+116
+00:06:00,052 --> 00:06:03,202
+Bilik anda berada di tingkat lima.
+
+117
+00:06:03,226 --> 00:06:05,770
+Maaf.
+
+118
+00:06:05,793 --> 00:06:09,126
+Air panas di bilik saya tidak keluar.
+
+119
+00:06:09,149 --> 00:06:12,317
+Saya mohon maaf atas kesulitan ini.
+
+120
+00:06:12,340 --> 00:06:15,925
+Saya akan periksa segera.
+
+121
+00:06:15,949 --> 00:06:20,616
+Boleh saya minta satu lagi tuala?
+
+122
+00:06:20,638 --> 00:06:23,472
+Baiklah, tuan.
+
+123
+00:06:23,495 --> 00:06:26,264
+Saya akan bawakannya sekarang.
+
+124
+00:06:26,287 --> 00:06:32,987
+Jika air panas masih tidak keluar, bolehkah saya tukar bilik?
+
+125
+00:06:33,010 --> 00:06:36,925
+Ya, sudah tentu.
+
+126
+00:06:36,949 --> 00:06:41,708
+Tolong panggilkan teksi untuk saya esok pagi.
+
+127
+00:06:41,731 --> 00:06:44,365
+Baiklah, tuan.
+
+128
+00:06:44,389 --> 00:06:47,582
+Pukul berapa anda akan berangkat?
+
+129
+00:06:47,606 --> 00:06:51,382
+Bolehkah pada pukul lapan?
+
+130
+00:06:51,405 --> 00:06:54,405
+Senario 5: Asas Perbualan Harian dalam Bahasa Jepun / Basic Japanese Daily Conversation
+
+131
+00:06:54,405 --> 00:06:57,746
+Maaf, senior.
+
+132
+00:06:57,770 --> 00:07:01,645
+Adakah sekarang masa yang sesuai?
+
+133
+00:07:01,668 --> 00:07:05,812
+Ya, ada apa?
+
+134
+00:07:05,835 --> 00:07:10,809
+Saya terlupa membawa pen, boleh pinjam?
+
+135
+00:07:10,833 --> 00:07:15,333
+Silakan. Gunakan ini.
+
+136
+00:07:15,356 --> 00:07:18,023
+Terima kasih.
+
+137
+00:07:18,046 --> 00:07:23,279
+Saya tidak faham cara mengisi dokumen ini.
+
+138
+00:07:23,302 --> 00:07:28,136
+Tulis nama dan alamat di sini.
+
+139
+00:07:28,159 --> 00:07:33,276
+Maaf, saya tak dapat dengar tadi kerana terlalu cepat.
+
+140
+00:07:33,299 --> 00:07:36,766
+Boleh ulang sekali lagi?
+
+141
+00:07:36,789 --> 00:07:42,357
+Sila tulis nama dan alamat di sini.
+
+142
+00:07:42,380 --> 00:07:45,114
+Terima kasih.
+
+143
+00:07:45,137 --> 00:07:49,814
+Bolehkah cakap perlahan-lahan?
+
+144
+00:07:49,837 --> 00:07:54,424
+Maaf ya. Saya akan berhati-hati.
+
+145
+00:07:54,448 --> 00:07:57,000
+Sudah selesai menulis.
+
+146
+00:07:57,023 --> 00:08:00,598
+Apa yang perlu saya buat seterusnya?
+
+147
+00:08:00,621 --> 00:08:04,495
+Sila salin ini.
+
+148
+00:08:04,519 --> 00:08:09,064
+Boleh ajar cara guna mesin fotostat?
+
+149
+00:08:09,087 --> 00:08:13,067
+Tekan butang ini sahaja.
+
+150
+00:08:13,091 --> 00:08:15,443
+Baiklah.
+
+151
+00:08:15,466 --> 00:08:20,499
+Eh, cetakan berhenti tiba-tiba.
+
+152
+00:08:20,522 --> 00:08:24,089
+Boleh tolong saya?
+
+153
+00:08:24,113 --> 00:08:27,868
+Mungkin kertas tersangkut.
+
+154
+00:08:27,892 --> 00:08:31,037
+Tunggu sebentar.
+
+155
+00:08:31,060 --> 00:08:34,033
+Terima kasih banyak, anda sangat membantu.
+
+156
+00:08:34,057 --> 00:08:37,390
+Terima kasih banyak-banyak.
+
+157
+00:08:37,413 --> 00:08:42,530
+Sama-sama. Ada lagi yang tak faham?
+
+158
+00:08:42,554 --> 00:08:46,335
+Setakat ini tak ada masalah.
+
+159
+00:08:46,359 --> 00:08:50,826
+Bolehkah saya cuti esok?
+
+160
+00:08:50,849 --> 00:08:56,356
+Eh, esok ada mesyuarat penting tau.
+
+161
+00:08:56,380 --> 00:08:59,380
+Senario 6: Percakapan untuk Mengambil Gambar dan Meminta Kebenaran / Taking Photos and Asking for Permission in Conversation
+
+162
+00:08:59,380 --> 00:09:01,928
+Maaf.
+
+163
+00:09:01,951 --> 00:09:06,534
+Boleh tolong ambil gambar saya?
+
+164
+00:09:06,558 --> 00:09:10,355
+Ya, boleh.
+
+165
+00:09:10,378 --> 00:09:13,745
+Boleh pinjam kamera?
+
+166
+00:09:13,768 --> 00:09:17,753
+Tekan butang ini.
+
+167
+00:09:17,777 --> 00:09:20,158
+Baiklah.
+
+168
+00:09:20,181 --> 00:09:23,348
+Cheese!
+
+169
+00:09:23,372 --> 00:09:27,451
+Mahu ambil satu lagi?
+
+170
+00:09:27,474 --> 00:09:30,049
+Terima kasih.
+
+171
+00:09:30,073 --> 00:09:35,206
+Boleh ambil gambar bersama?
+
+172
+00:09:35,229 --> 00:09:38,422
+Dengan saya?
+
+173
+00:09:38,446 --> 00:09:42,512
+Ya, dengan senang hati.
+
+174
+00:09:42,535 --> 00:09:45,969
+Menjadi kenangan yang indah.
+
+175
+00:09:45,992 --> 00:09:51,512
+Boleh masuk ke dalam istana itu?
+
+176
+00:09:51,535 --> 00:09:56,108
+Di situ perlu tiket.
+
+177
+00:09:56,131 --> 00:10:00,165
+Di mana boleh beli tiket?
+
+178
+00:10:00,188 --> 00:10:05,093
+Boleh beli di bangunan putih sana.
+
+179
+00:10:05,116 --> 00:10:09,434
+Boleh dapatkan brosur dalam bahasa Inggeris?
+
+180
+00:10:09,457 --> 00:10:12,957
+Ada di kaunter penerimaan tetamu.
+
+181
+00:10:12,980 --> 00:10:17,332
+Ada panduan dalam bahasa Jepun?
+
+182
+00:10:17,356 --> 00:10:21,822
+Ada lawatan percuma bermula pukul sepuluh.
+
+183
+00:10:21,845 --> 00:10:25,412
+Saya mahu sertai.
+
+184
+00:10:25,435 --> 00:10:31,303
+Barang saya berat, ada loker?
+
+185
+00:10:31,327 --> 00:10:35,560
+Ia terletak berhampiran stesen.
+
+186
+00:10:35,583 --> 00:10:39,766
+Berapa lama tempat ini dibuka?
+
+187
+00:10:39,790 --> 00:10:43,157
+Dibuka sehingga pukul lima petang.
+
+188
+00:10:43,180 --> 00:10:45,857
+Baiklah.
+
+189
+00:10:45,880 --> 00:10:50,813
+Bolehkah saya makan bekal di bangku ini?
+
+190
+00:10:50,836 --> 00:10:53,136
+Baiklah.
+
+191
+00:10:53,159 --> 00:10:56,992
+Anda bebas untuk makan dan minum di sini.
+
+192
+00:10:57,015 --> 00:11:00,015
+Senario 7: Mencari Klinik dan Menerangkan Gejala
+
+193
+00:11:00,015 --> 00:11:02,720
+Maaf.
+
+194
+00:11:02,743 --> 00:11:07,043
+Tolong beritahu saya klinik yang berhampiran.
+
+195
+00:11:07,066 --> 00:11:09,933
+Ada apa-apa masalah?
+
+196
+00:11:09,957 --> 00:11:13,635
+Wajah anda kelihatan pucat.
+
+197
+00:11:13,658 --> 00:11:18,092
+Saya sakit kepala sejak semalam.
+
+198
+00:11:18,115 --> 00:11:21,233
+Adakah anda demam juga?
+
+199
+00:11:21,256 --> 00:11:25,638
+Ya, saya demam sedikit.
+
+200
+00:11:25,662 --> 00:11:29,095
+Itu serius, ya.
+
+201
+00:11:29,118 --> 00:11:32,230
+Lebih baik jumpa doktor pakar perubatan dalaman.
+
+202
+00:11:32,254 --> 00:11:36,921
+Adakah ada doktor yang boleh bertutur dalam bahasa Inggeris?
+
+203
+00:11:36,944 --> 00:11:42,112
+Di klinik berhampiran stesen, mereka boleh berbahasa Inggeris.
+
+204
+00:11:42,135 --> 00:11:44,841
+Terima kasih.
+
+205
+00:11:44,864 --> 00:11:48,097
+Saya akan pergi ke sana.
+
+206
+00:11:48,120 --> 00:11:51,075
+Berhati-hati, ya.
+
+207
+00:11:51,099 --> 00:11:53,766
+Maaf.
+
+208
+00:11:53,789 --> 00:11:56,822
+Bolehkah saya diperiksa?
+
+209
+00:11:56,845 --> 00:11:59,482
+Adakah ini kali pertama?
+
+210
+00:11:59,506 --> 00:12:03,039
+Tolong tunjukkan kad insurans anda.
+
+211
+00:12:03,062 --> 00:12:07,129
+Bolehkah saya guna kad insurans Jepun?
+
+212
+00:12:07,152 --> 00:12:10,618
+Ya, boleh digunakan.
+
+213
+00:12:10,641 --> 00:12:13,880
+Sila isi borang soal selidik ini.
+
+214
+00:12:13,903 --> 00:12:19,237
+Saya rasa tidak sedap badan, boleh saya berehat sebentar?
+
+215
+00:12:19,260 --> 00:12:23,244
+Silakan baring di katil ini.
+
+216
+00:12:23,267 --> 00:12:30,100
+Doktor, saya perlu cuti kerja, boleh tolong tulis surat pengesahan?
+
+217
+00:12:30,123 --> 00:12:32,390
+Baiklah.
+
+218
+00:12:32,413 --> 00:12:35,772
+Saya akan beri anda ubat.
+
+219
+00:12:35,796 --> 00:12:39,671
+Tolong beri saya ubat penahan sakit.
+
+220
+00:12:39,694 --> 00:12:43,796
+Minum ubat ini selepas setiap makan, ya.
+
+221
+00:12:43,820 --> 00:12:46,453
+Jaga diri anda baik-baik.
+
+222
+00:12:46,476 --> 00:12:49,643
+Terima kasih banyak.
+
+223
+00:12:49,666 --> 00:12:52,666
+Senario 8: Tindakan Apabila Barang Dicuri
+
+224
+00:12:52,666 --> 00:12:56,536
+Maaf, tolong bantu saya!
+
+225
+00:12:56,559 --> 00:12:57,559
+Ada apa-apa masalah?
+
+226
+00:12:57,582 --> 00:13:00,249
+Tenang dulu.
+
+227
+00:13:00,272 --> 00:13:04,505
+Beg saya telah dicuri.
+
+228
+00:13:04,528 --> 00:13:05,528
+Eh, serius?
+
+229
+00:13:05,552 --> 00:13:08,785
+Itu memang teruk.
+
+230
+00:13:08,808 --> 00:13:09,808
+Sila panggil polis segera.
+
+231
+00:13:09,831 --> 00:13:14,164
+Telefon bimbit saya juga ada dalam beg itu.
+
+232
+00:13:14,187 --> 00:13:17,487
+Boleh saya pinjam telefon anda?
+
+233
+00:13:17,510 --> 00:13:21,344
+Ini resitnya.
+
+234
+00:13:21,367 --> 00:13:22,367
+Nombor polis ialah 110.
+
+235
+00:13:22,390 --> 00:13:27,423
+Halo, beg saya telah dicuri.
+
+236
+00:13:27,446 --> 00:13:30,746
+Polis, ya.
+
+237
+00:13:30,769 --> 00:13:31,769
+Di mana beg anda dicuri?
+
+238
+00:13:31,792 --> 00:13:32,792
+Saya tinggalkan beg di tandas stesen, dan apabila saya kembali, beg itu sudah tiada.
+
+239
+00:13:32,816 --> 00:13:33,816
+Apa yang ada dalam beg anda?
+
+240
+00:13:33,839 --> 00:13:38,552
+Dompet dan pasport saya ada di dalamnya.
+
+241
+00:13:38,575 --> 00:13:39,575
+Adakah kad kredit juga ada di dalamnya?
+
+242
+00:13:39,598 --> 00:13:40,598
+Ya. Tolong segera blokir kad itu.
+
+243
+00:13:40,622 --> 00:13:46,591
+Sila hubungi syarikat kad kredit anda sendiri untuk memblokirnya.
+
+244
+00:13:46,614 --> 00:13:49,559
+Baiklah.
+
+245
+00:13:49,582 --> 00:13:50,582
+Dan, di manakah kedutaan Jepun?
+
+246
+00:13:50,606 --> 00:13:55,395
+Permohonan semula pasport, ya?
+
+247
+00:13:55,418 --> 00:13:58,851
+Saya akan beri peta.
+
+248
+00:13:58,874 --> 00:13:59,874
+Kunci rumah pun ada dalam beg, tak boleh masuk ke bilik.
+
+249
+00:13:59,898 --> 00:14:00,898
+Tolong beri saya nombor hubungan tuan rumah.
+
+250
+00:14:00,921 --> 00:14:01,921
+Saya tak ada telefon pintar, jadi tak tahu nombornya.
+
+251
+00:14:01,944 --> 00:14:05,286
+Susahlah tu...
+
+252
+00:14:05,309 --> 00:14:09,107
+Boleh saya telefon keluarga?
+
+253
+00:14:09,131 --> 00:14:14,466
+Ya, sila gunakan telefon ini.
+
+254
+00:14:14,489 --> 00:14:17,489
+Senario 9: Berjanji Temu dengan Rakan / Merancang Bersama Rakan
+
+255
+00:14:17,489 --> 00:14:23,756
+Hei, cuti minggu depan, kita keluar bersama, ye?
+
+256
+00:14:23,779 --> 00:14:26,018
+Bestlah!
+
+257
+00:14:26,041 --> 00:14:27,041
+Nak pergi mana?
+
+258
+00:14:27,064 --> 00:14:28,064
+Ada kafe baru, aku nak cuba pergi.
+
+259
+00:14:28,087 --> 00:14:30,721
+Baiklah.
+
+260
+00:14:30,744 --> 00:14:31,744
+Bagus, beri LINE kau.
+
+261
+00:14:31,767 --> 00:14:32,767
+Okay,
+
+262
+00:14:32,790 --> 00:14:37,058
+Imbas kod QR ni.
+
+263
+00:14:37,082 --> 00:14:40,115
+Sudah daftar.
+
+264
+00:14:40,138 --> 00:14:43,675
+Nanti aku hantar butiran, ya.
+
+265
+00:14:43,699 --> 00:14:44,699
+Maaf,
+
+266
+00:14:44,722 --> 00:14:45,722
+Tunggu sebentar.
+
+267
+00:14:45,745 --> 00:14:49,379
+Tali kasut tak boleh diikat.
+
+268
+00:14:49,402 --> 00:14:52,735
+Santai je boleh.
+
+269
+00:14:52,758 --> 00:14:56,391
+Hauslah aku.
+
+270
+00:14:56,414 --> 00:14:57,414
+Boleh singgah kedai serbaneka?
+
+271
+00:14:57,438 --> 00:15:00,188
+Boleh.
+
+272
+00:15:00,211 --> 00:15:05,200
+Eh, boleh pinjam duit sikit?
+
+273
+00:15:05,223 --> 00:15:06,223
+Berapa?
+
+274
+00:15:06,246 --> 00:15:07,246
+500 yen je.
+
+275
+00:15:07,269 --> 00:15:11,028
+Aku lupa bawa dompet.
+
+276
+00:15:11,052 --> 00:15:13,885
+Tak boleh buat apa lah.
+
+277
+00:15:13,908 --> 00:15:14,908
+Ni, 500 yen.
+
+278
+00:15:14,931 --> 00:15:17,365
+Terima kasih!
+
+279
+00:15:17,388 --> 00:15:21,374
+Esok aku pasti bayar balik.
+
+280
+00:15:21,397 --> 00:15:22,397
+Kek ni sedap sangat!
+
+281
+00:15:22,421 --> 00:15:23,421
+Betul ke?
+
+282
+00:15:23,444 --> 00:15:24,444
+Boleh bagi aku gigit sikit?
+
+283
+00:15:24,467 --> 00:15:27,062
+Boleh.
+
+284
+00:15:27,085 --> 00:15:30,352
+Ni, aa~n.
+
+285
+00:15:30,375 --> 00:15:31,375
+Sedapnya!
+
+286
+00:15:31,398 --> 00:15:32,398
+Pancake aku pun nak cuba?
+
+287
+00:15:32,421 --> 00:15:33,421
+Nak! Eh, hantar gambar.
+
+288
+00:15:33,445 --> 00:15:35,843
+Boleh.
+
+289
+00:15:35,866 --> 00:15:39,370
+Baru hantar dalam LINE.
+
+290
+00:15:39,393 --> 00:15:41,659
+Terima kasih!
+
+291
+00:15:41,682 --> 00:15:42,682
+Jangan bagitahu orang lain tentang kedai ni, ya.
+
+292
+00:15:42,706 --> 00:15:44,972
+Baiklah.
+
+293
+00:15:44,995 --> 00:15:48,562
+Rahsia kita berdua je.
+
+294
+00:15:48,585 --> 00:15:51,585
+Senario 10: Persiapan dan Pengesahan Mesyuarat / Persiapan dan Pengesahan Mesyuarat
+
+295
+00:15:51,585 --> 00:15:54,618
+Terima kasih atas usaha anda.
+
+296
+00:15:54,641 --> 00:15:57,908
+Boleh dengar suara saya?
+
+297
+00:15:57,931 --> 00:16:01,690
+Ya, boleh dengar.
+
+298
+00:16:01,713 --> 00:16:03,904
+Maaf,
+
+299
+00:16:03,928 --> 00:16:07,647
+Sila hidupkan mikrofon anda.
+
+300
+00:16:07,670 --> 00:16:10,737
+Oh, maafkan saya.
+
+301
+00:16:10,760 --> 00:16:13,919
+Saya baru sahaja hidupkannya.
+
+302
+00:16:13,943 --> 00:16:17,009
+Tiada masalah.
+
+303
+00:16:17,032 --> 00:16:20,999
+Baiklah, mari kita mulakan mesyuarat.
+
+304
+00:16:21,022 --> 00:16:26,089
+Sila lihat data jualan minggu ini.
+
+305
+00:16:26,112 --> 00:16:31,101
+Bolehkah anda berkongsi skrin?
+
+306
+00:16:31,124 --> 00:16:35,163
+Ya, tunggu sebentar.
+
+307
+00:16:35,187 --> 00:16:38,420
+Bagaimana sekarang?
+
+308
+00:16:38,443 --> 00:16:42,276
+Masih tidak kelihatan.
+
+309
+00:16:42,299 --> 00:16:46,937
+Boleh saya sambung semula?
+
+310
+00:16:46,960 --> 00:16:49,694
+Baiklah.
+
+311
+00:16:49,717 --> 00:16:52,386
+Saya tunggu.
+
+312
+00:16:52,409 --> 00:16:55,275
+Maaf membuat anda menunggu.
+
+313
+00:16:55,298 --> 00:17:00,565
+Suara anda agak jauh sedikit.
+
+314
+00:17:00,588 --> 00:17:03,255
+Betulkah?
+
+315
+00:17:03,278 --> 00:17:08,657
+Sila cakap lebih kuat sedikit.
+
+316
+00:17:08,681 --> 00:17:12,416
+Sedang menguji mikrofon.
+
+317
+00:17:12,439 --> 00:17:14,814
+Bagaimana sekarang?
+
+318
+00:17:14,838 --> 00:17:19,551
+Ya, kali ini sempurna.
+
+319
+00:17:19,575 --> 00:17:22,342
+Syukurlah.
+
+320
+00:17:22,365 --> 00:17:26,964
+Bolehkah saya rakam mesyuarat ini?
+
+321
+00:17:26,987 --> 00:17:31,258
+Ya, tiada masalah.
+
+322
+00:17:31,281 --> 00:17:36,619
+Sila tulis URL penting dalam sembang.
+
+323
+00:17:36,643 --> 00:17:40,914
+Saya baru hantar pautan tadi.
+
+324
+00:17:40,937 --> 00:17:43,970
+Sudah saya lihat.
+
+325
+00:17:43,993 --> 00:17:48,775
+Sila hantar butiran melalui emel kemudian.
+
+326
+00:17:48,798 --> 00:17:51,732
+Baiklah.
+
+327
+00:17:51,755 --> 00:17:56,488
+Saya akan hantar minit mesyuarat bersama-samanya nanti.
+
+328
+00:17:56,511 --> 00:17:59,544
+Tolonglah.
