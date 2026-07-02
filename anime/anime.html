@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2B0GEY45P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F2B0GEY45P');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Learning App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap');
+        body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
+        
+        .fade-in {
+            animation: fadeIn 0.4s ease-out forwards;
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        @keyframes fadeIn {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .speaker-1-bg { background-color: #ffffff; }
+        .speaker-2-bg { background-color: #f0fdf4; } /* Light green for variety */
+
+        .kanji-hidden {
+            display: inline-block;
+            background-color: #fef08a; /* Yellow-200 */
+            border-bottom: 2px dashed #ca8a04;
+            border-radius: 4px;
+            padding: 0 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+        }
+        .kanji-hidden:hover {
+            background-color: #fde047;
+        }
+        .kanji-revealed {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%) translateY(5px);
+            background-color: #1e40af;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease-out;
+            white-space: nowrap;
+            z-index: 10;
+        }
+        .kanji-hidden.show-ruby .kanji-revealed {
+            opacity: 1;
+            transform: translateX(-50%) translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen pb-12">
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-md">
+                    <i class="fa-solid fa-language text-xl"></i>
+                </div>
+                <h1 class="text-xl font-bold text-gray-900 tracking-tight">日本語 Learning</h1>
+            </div>
+            
+            <div class="flex bg-gray-100 p-1 rounded-lg">
+                <button id="tab-btn-conv" class="px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all">
+                    <i class="fa-regular fa-comments mr-1"></i> Conversation
+                </button>
+                <button id="tab-btn-quiz" class="px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all">
+                    <i class="fa-solid fa-pen-to-square mr-1"></i> Kanji Quiz
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 mt-6">
+        
+        <!-- TAB 1: Conversation -->
+        <div id="tab-conv">
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                
+                <!-- Controls Bar -->
+                <div class="bg-gray-50/50 p-4 border-b border-gray-100 flex flex-col gap-3">
+                    <!-- 1段目: セレクターとプレイボタン -->
+                    <div class="flex flex-col md:flex-row items-center gap-2 w-full">
+                        <select id="scene-selector" class="w-full md:w-auto max-w-md flex-1 bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2 shadow-sm font-medium truncate">
+                            <!-- Options populated by JS -->
+                        </select>
+
+                        <!-- Roleplay Selector -->
+                        <select id="roleplay-selector" class="w-full md:w-auto bg-purple-50 border border-purple-200 text-purple-800 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2 font-medium shadow-sm shrink-0">
+                            <option value="none">👤 Roleplay: Off</option>
+                            <option value="Speaker 1">🔇 Mute Speaker 1</option>
+                            <option value="Speaker 2">🔇 Mute Speaker 2</option>
+                        </select>
+
+                        <button onclick="playEntireScene()" id="play-scene-btn" class="w-full md:w-auto bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm shrink-0">
+                            <i class="fa-solid fa-play"></i> Play
+                        </button>
+                    </div>
+
+                    <!-- 2段目: 表示オプション（翻訳・ふりがな・ローマ字） -->
+                    <div class="flex flex-wrap items-center gap-4 text-sm font-medium text-gray-600 border-t border-gray-100 pt-2">
+                        <div class="flex items-center gap-2 cursor-pointer text-gray-600 hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-translation" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            <span>Translation:</span>
+                            <select id="lang-selector" class="bg-white border border-gray-300 text-gray-700 text-xs rounded p-1 font-medium focus:ring-blue-500 focus:border-blue-500">
+                            </select>
+                        </div>
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-kanji-test" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Hide Furigana
+                        </label>
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Romaji
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Dialogue Area -->
+                <div class="p-4 sm:p-6 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-gray-50/30 min-h-[500px]">
+                    <div id="dialogue-list" class="flex flex-col gap-6">
+                        <!-- Dialogue bubbles inserted by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 2: Kanji Quiz -->
+        <div id="tab-quiz" class="hidden">
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-10 text-center max-w-2xl mx-auto">
+                <div id="quiz-intro">
+                    <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">日本語クイズテスト (Japanese Quiz)</h2>
+                    <p class="text-gray-500 mb-4">クイズの種類を選んで「スタート」を押してください。</p>
+                    
+                    <div class="max-w-xs mx-auto mb-6">
+                        <select id="quiz-type-selector" class="w-full bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block p-2.5 font-medium shadow-sm text-center">
+                            <option value="kanji">🔤 漢字の読み方テスト (Kanji Reading)</option>
+                            <option value="culture">🏮内容理解クイズ (Culture & Context)</option>
+                            <option value="grammar">📝 重要文法・表現の穴埋めクイズ (Grammar Fill-in)</option>
+                        </select>
+                    </div>
+
+                    <button onclick="startQuiz()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-transform transform hover:scale-105">
+                        スタート (Start)
+                    </button>
+                </div>
+
+                <div id="quiz-area" class="hidden">
+                    <div class="flex justify-between items-center text-sm font-medium text-gray-500 mb-6">
+                        <span id="quiz-progress" class="bg-gray-100 py-1 px-3 rounded-full">Question 1/10</span>
+                        <span id="quiz-score" class="text-green-600">Score: 0</span>
+                    </div>
+                    
+                    <h3 id="quiz-question" class="text-3xl sm:text-4xl font-bold text-gray-800 mb-8 py-6 bg-gray-50 rounded-xl border border-gray-100">
+                        <!--q -->
+                    </h3>
+                    
+                    <div id="quiz-options" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <!-- Options buttons -->
+                    </div>
+                </div>
+
+                <div id="quiz-result" class="hidden">
+                    <div class="text-6xl mb-4">🏆</div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">お疲れ様でした！</h2>
+                    <p class="text-xl text-gray-600 mb-6">Your Score: <span id="final-score" class="font-bold text-green-600 text-3xl"></span> / 10</p>
+                    <button onclick="startQuiz()" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-colors">
+                        もう一度プレイ (Play Again)
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // State management
+        const appState = {
+            activeTab: 'conv',
+            currentSceneIndex: 0,
+            showRomaji: false,
+            showTranslation: false,
+            hideFurigana: false,
+            isPlaying: false,
+            roleplayMutedSpeaker: 'none',
+            currentQuestionIndex: 0,
+            score: 0,
+            isAnswering: false,
+            currentLang: 'en',
+            quizType: 'kanji'
+        };
+
+      // =================================================================
+// 1. タイトル・シーン数の修正（sceneTitles 配列 と parseData ループ回数）
+// =================================================================
+
+       const sceneTitles = [
+            "Scene 1: 四ツ谷の須賀神社 / Suga Shrine in Yotsuya",
+            "Scene 2: 神田明神の男坂 / Otokozaka at Kanda Myojin",
+            "Scene 3: 鎌倉高校前の踏切 / Railroad Crossing in Kamakura",
+            "Scene 4: 箱根の大涌谷 / Owakudani in Hakone",
+            "Scene 5: 本栖湖の富士山 / Mt. Fuji from Lake Motosu",
+            "Scene 6: 豊郷小学校旧校舎 / Old Toyosato Elementary School",
+            "Scene 7: 柳生の一刀石 / Itto-seki Rock in Yagyu",
+            "Scene 8: 伏見稲荷大社の千本鳥居 / Senbon Torii at Fushimi Inari Taisha",
+            "Scene 9: 京都の古い旅館 / Old Ryokan in Kyoto",
+            "Scene 10: 京都駅から東京へ / From Kyoto Station back to Tokyo"
+        ];
+
+
+
+        const LANG_MAP = {
+            'English': 'en', 'Vietnamese': 'vi', 'Indonesian': 'id', 'Thai': 'th', 'Korean': 'ko', 
+            'Chinese (Simplified)': 'zh-Hans', 'Chinese (Traditional)': 'zh-Hant', 'Spanish': 'es', 
+            'Portuguese': 'pt', 'French': 'fr', 'Burmese': 'my', 'Sinhala': 'si', 'Nepali': 'ne', 
+            'Hindi': 'hi', 'Tagalog': 'tl', 'German': 'de', 'Russian': 'ru', 'Arabic': 'ar', 
+            'Italian': 'it', 'Turkish': 'tr', 'Polish': 'pl', 'Dutch': 'nl', 'Swedish': 'sv', 
+            'Czech': 'cs', 'Hungarian': 'hu', 'Mongolian': 'mn', 'Malay': 'ms', 'Khmer': 'km', 
+            'Uzbek': 'uz', 'Kazakh': 'kk', 'Bengali': 'bn', 'Tamil': 'ta', 'Urdu': 'ur', 
+            'Persian': 'fa', 'Hebrew': 'he', 'Greek': 'el', 'Romanian': 'ro', 'Ukrainian': 'uk', 'Swahili': 'sw'
+        };
+
+        let srtDataCache = {};
+// rawData（台本テキスト）はフォルダから自動取得するため削除しました
+
+      // =================================================================
+// 2. 漢字クイズデータの修正（quizDataKanji 配列）
+// =================================================================
+
+        // =================================================================
+// 2. 漢字クイズデータの修正（quizDataKanji 配列）
+// =================================================================
+
+        const quizDataKanji = [
+            { q: "「聖地」の読み方は？", options: ["せいち", "じょうち", "しょうち", "せいじ"], answer: 0 },
+            { q: "「階段」の読み方は？", options: ["かいだん", "がいだん", "かいたて", "きざはし"], answer: 0 },
+            { q: "「景色」の読み方は？", options: ["けしき", "けいしょく", "けいしき", "けいさい"], answer: 0 },
+            { q: "「練習」の読み方は？", options: ["れんしゅう", "れんじゅう", "ねんしゅう", "れんしゅ"], answer: 0 },
+            { q: "「踏切」の読み方は？", options: ["ふみきり", "とうせつ", "ふみきる", "あるききり"], answer: 0 },
+            { q: "「舞台」の読み方は？", options: ["ぶたい", "ぶだい", "まいたえ", "むたい"], answer: 0 },
+            { q: "「静か」の読み方は？", options: ["しずか", "せいか", "じずか", "しづか"], answer: 0 },
+            { q: "「伝説」の読み方は？", options: ["でんせつ", "でんぜつ", "てんせつ", "つたえせつ"], answer: 0 },
+            { q: "「伝統的」の読み方は？", options: ["でんとうてき", "てんとうてき", "でんどうてき", "つたえとうてき"], answer: 0 },
+            { q: "「旅館」の読み方は？", options: ["りょかん", "りょがんで", "ろかん", "たびやかた"], answer: 0 }
+        ];
+
+     // =================================================================
+// 3. 内容理解クイズデータの修正（quizDataCulture 配列）
+// =================================================================
+
+        // =================================================================
+// 3. 内容理解クイズデータの修正（quizDataCulture 配列）
+// =================================================================
+
+        const quizDataCulture = [
+            { q: "<ruby>映画<rt>えいが</rt></ruby>「<ruby>君<rt>きみ</rt></ruby>の<ruby>名<rt>な</rt></ruby>は。」の<ruby>聖地<rt>せいち</rt></ruby>として、<ruby>最初<rt>さいしょ</rt></ruby>に<ruby>二人<rt>ふたり</rt></ruby>が<ruby>訪<rt>おとず</rt></ruby>れた<ruby>場所<rt>ばしょ</rt></ruby>はどこですか。<br><span class='text-sm text-gray-500 font-normal'>(Where is the first place the two visited as a holy site for the movie \"Your Name.\"?)</span>", options: ["<ruby>四<rt>よ</rt></ruby>ツ<ruby>谷<rt>や</rt></ruby>の<ruby>須賀神社<rt>すがじんじゃ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Suga Shrine in Yotsuya)</span>", "<ruby>秋葉原<rt>あきはばら</rt></ruby>の<ruby>神社<rt>じんじゃ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A shrine in Akihabara)</span>", "<ruby>鎌倉<rt>かまくら</rt></ruby>の<ruby>踏切<rt>ふみきり</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A railroad crossing in Kamakura)</span>", "<ruby>京都<rt>きょうと</rt></ruby>の<ruby>神社<rt>じんじゃ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A shrine in Kyoto)</span>"], answer: 0 },
+            { q: "<ruby>動画<rt>どうが</rt></ruby>の<ruby>会話<rt>かいわ</rt></ruby>のなかで、アニメのメンバーが「<ruby>男坂<rt>おとこざか</rt></ruby>」という<ruby>階段<rt>かいだん</rt></ruby>で何をしていたと<ruby>言<rt>い</rt></ruby>っていましたか。<br><span class='text-sm text-gray-500 font-normal'>(In the video conversation, what did they say the anime members were doing on the stairs called \"Otokozaka\"?)</span>", options: ["<ruby>走<rt>はし</rt></ruby>って<ruby>登<rt>のぼ</rt></ruby>っていた <span class='text-xs text-gray-500 font-normal'>(They were running up)</span>", "<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>っていた <span class='text-xs text-gray-500 font-normal'>(They were taking photos)</span>", "お<ruby>菓子<rt>かし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べていた <span class='text-xs text-gray-500 font-normal'>(They were eating sweets)</span>", "お<ruby>守<rt>まもり</rt></ruby>りを<ruby>買<rt>か</rt></ruby>っていた <span class='text-xs text-gray-500 font-normal'>(They were buying amulets)</span>"], answer: 0 },
+            { q: "<ruby>動画<rt>どうが</rt></ruby>では、<ruby>鎌倉高校前<rt>かまくらこうこうまえ</rt></ruby>の<ruby>踏切<rt>ふみきり</rt></ruby>でたくさんの<ruby>人<rt>ひと</rt></ruby>が何を待っていますか。<br><span class='text-sm text-gray-500 font-normal'>(In the video, what are many people waiting for at the railroad crossing in front of Kamakura High School?)</span>", options: ["<ruby>緑色<rt>みどりいろ</rt></ruby>の<ruby>電車<rt>てんしゃ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The green train)</span>", "アニメの<ruby>監督<rt>かんとく</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The anime director)</span>", "バスケットボールの<ruby>選手<rt>せんしゅ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Basketball players)</span>", "おいしい<ruby>魚<rt>さかな</rt></ruby>のバス <span class='text-xs text-gray-500 font-normal'>(A delicious fish bus)</span>"], answer: 0 },
+            { q: "<ruby>箱根<rt>はこね</rt></ruby>の<ruby>大涌谷<rt>おおわくだに</rt></ruby>で、<ruby>食<rt>た</rt></ruby>べると<ruby>寿命<rt>じゅみょう</rt></ruby>が<ruby>延<rt>の</rt></ruby>びるといわれているものは何ですか。<br><span class='text-sm text-gray-500 font-normal'>(What is said to extend one's lifespan when eaten at Owakudani in Hakone?)</span>", options: ["<ruby>黒<rt>くろ</rt></ruby>いゆで<ruby>卵<rt>たまご</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A black boiled egg)</span>", "<ruby>白<rt>しろ</rt></ruby>いお<ruby>豆腐<rt>とうふ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(White tofu)</span>", "<ruby>新鮮<rt>しんせん</rt></ruby>なしらす<ruby>丼<rt>どん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A fresh whitebait bowl)</span>", "<ruby>温<rt>あたた</rt></ruby>かいお<ruby>茶<rt>ちゃ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Warm tea)</span>"], answer: 0 },
+            { q: "<ruby>本栖湖<rt>もとすこ</rt></ruby>から<ruby>見<rt>み</rt></ruby>える<ruby>富士山<rt>ふじさん</rt></ruby>の<ruby>景色<rt>けしき</rt></ruby>は、<ruby>日本<rt>にほん</rt></ruby>のどのお<ruby>札<rt>さつ</rt></ruby>の<ruby>裏<rt>うら</rt></ruby>の<ruby>絵<rt>え</rt></ruby>と<ruby>同<rt>おな</rt></ruby>じですか。<br><span class='text-sm text-gray-500 font-normal'>(The view of Mt. Fuji from Lake Motosu is the same as the picture on the back of which Japanese bill?)</span>", options: ["<ruby>千円札<rt>せんえんさつ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The 1,000 yen bill)</span>", "<ruby>五千円札<rt>ごせんえんさつ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The 5,000 yen bill)</span>", "<ruby>一万円札<rt>いちまんえんさつ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The 10,000 yen bill)</span>", "<ruby>二千円札<rt>にせんえんさつ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The 2,000 yen bill)</span>"], answer: 0 },
+            { q: "<ruby>滋賀県<rt>しがけん</rt></ruby>の<ruby>豊郷<rt>とよさと</rt></ruby>にある<ruby>古<rt>ふる</rt></ruby>い<ruby>小学校<rt>しょうがっこう</rt></ruby>の<ruby>階段<rt>かいだん</rt></ruby>のてすりには、<ruby>何<rt>なに</rt></ruby>の<ruby>飾<rt>かざ</rt></ruby>りがありますか。<br><span class='text-sm text-gray-500 font-normal'>(What decorations are on the handrails of the stairs at the old elementary school in Toyosato, Shiga Prefecture?)</span>", options: ["ウサギとカメ <span class='text-xs text-gray-500 font-normal'>(A rabbit and a tortoise)</span>", "<ruby>犬<rt>いぬ</rt></ruby>と<ruby>猫<rt>ねこ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A dog and a cat)</span>", "<ruby>鳥<rt>とり</rt></ruby>と<ruby>魚<rt>さかな</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A bird and a fish)</span>", "<ruby>刀<rt>かたな</rt></ruby>と<ruby>岩<rt>いわ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A sword and a rock)</span>"], answer: 0 },
+            { q: "<ruby>奈良県<rt>ならけん</rt></ruby>の<ruby>山<rt>やま</rt></ruby>のなかにある「<ruby>柳生一刀石<rt>やぎゅういっとうせき</rt></ruby>」には、どのような<ruby>伝説<rt>でんせつ</rt></ruby>がありますか。<br><span class='text-sm text-gray-500 font-normal'>(What legend is associated with the \"Yagyu Itto-seki\" rock in the mountains of Nara Prefecture?)</span>", options: ["<ruby>剣豪<rt>けんごう</rt></ruby>が<ruby>天狗<rt>てんぐ</rt></ruby>を<ruby>斬<rt>き</rt></ruby>ったときに<ruby>割<rt>わ</rt></ruby>れた <span class='text-xs text-gray-500 font-normal'>(It split when a master swordsman slashed a tengu)</span>", "ロボットがミサイルをうったときに<ruby>割<rt>わ</rt></ruby>れた <span class='text-xs text-gray-500 font-normal'>(It split when a robot fired a missile)</span>", "<ruby>火山<rt>かざん</rt></ruby>が<ruby>爆発<rt>ばくはつ</rt></ruby>したときにどこからか<ruby>飛<rt>と</rt></ruby>んできた <span class='text-xs text-gray-500 font-normal'>(It flew from somewhere when a volcano erupted)</span>", "アニメのファンたちがみんなで<ruby>力<rt>ちカラー</rt></ruby>を<ruby>合<rt>あ</rt></ruby>わせて<ruby>割<rt>わ</rt></ruby>った <span class='text-xs text-gray-500 font-normal'>(Anime fans worked together to split it)</span>"], answer: 0 },
+            { q: "<ruby>京都<rt>きょうと</rt></ruby>の<ruby>伏見稲荷大社<rt>ふしみいなりたいしゃ</rt></ruby>にある、どこまでも<ruby>続<rt>つづ</rt></ruby>くように<ruby>見<rt>み</rt></ruby>える<ruby>鳥居<rt>とりい</rt></ruby>のトンネルは<ruby>何<rt>なん</rt></ruby>と<ruby>呼<rt>よ</rt></ruby>ばれていますか。<br><span class='text-sm text-gray-500 font-normal'>(What is the tunnel of torii gates that seems to go on forever at Fushimi Inari Taisha in Kyoto called?)</span>", options: ["<ruby>千本鳥居<rt>せんぼんとりい</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Senbon Torii)</span>", "<ruby>男坂<rt>おとこざか</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Otokozaka)</span>", "<ruby>大涌谷<rt>おおわくだに</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Owakudani)</span>", "<ruby>洪庵<rt>こうあん</rt></ruby>キャンプ<ruby>場<rt>じょう</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Koan Campground)</span>"], answer: 0 },
+            { q: "<ruby>動画<rt>どうが</rt></ruby>のなかで、<ruby>二人<rt>ふたり</rt></ruby>が<ruby>京都<rt>きょうと</rt></ruby>の<ruby>旅館<rt>りょかん</rt></ruby>で<ruby>食<rt>た</rt></ruby>べた、<ruby>季節<rt>きせつ</rt></ruby>の<ruby>野菜<rt>やさい</rt></ruby>や<ruby>豆腐<rt>とうふ</rt></ruby>をたくさん<ruby>使<rt>つか</rt></ruby>った<ruby>料理<rt>りょうり</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。<br><span class='text-sm text-gray-500 font-normal'>(What is the dish using plenty of seasonal vegetables and tofu that the two ate at the ryokan in Kyoto?)</span>", options: ["<ruby>京料理<rt>きょうりょうり</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Kyo-ryori / Kyoto cuisine)</span>", "しらす<ruby>丼<rt>どん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Shirasu-don / Whitebait bowl)</span>", "ゆで<ruby>卵<rt>たまご</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Boiled eggs)</span>", "お<ruby>茶漬<rt>ちゃづ</rt></ruby>け <span class='text-xs text-gray-500 font-normal'>(Ochazuke)</span>"], answer: 0 },
+            { q: "Speaker 2が、<ruby>今回<rt>こんかい</rt></ruby>の<ruby>旅<rt>たび</rt></ruby>で「<ruby>一番<rt>いちばん</rt></ruby><ruby>感動<rt>かんどう</rt></ruby>した」と<ruby>話<rt>はな</rt></ruby>していた<ruby>場所<rt>ばしょ</rt></ruby>はどこですか。<br><span class='text-sm text-gray-500 font-normal'>(Where did Speaker 2 say they were \"most moved\" by during this trip?)</span>", options: ["<ruby>鎌倉<rt>かまくら</rt></ruby>の<ruby>海<rt>うみ</rt></ruby>の<ruby>踏切<rt>ふみきり</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The railroad crossing by the sea in Kamakura)</span>", "<ruby>奈良<rt>なら</rt></ruby>の真っ二つの<ruby>岩<rt>いわ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The split rock in Nara)</span>", "<ruby>四<rt>よ</rt></ruby>ツ<ruby>谷<rt>や</rt></ruby>の<ruby>階段<rt>かいだん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The stairs in Yotsuya)</span>", "<ruby>箱根<rt>はこね</rt></ruby>のロープウェイ <span class='text-xs text-gray-500 font-normal'>(The ropeway in Hakone)</span>"], answer: 0 }
+        ];
+        // =================================================================
+// 4. 重要文法・表現クイズデータの修正（quizDataGrammar 配列）
+// =================================================================
+
+       // =================================================================
+// 4. 重要文法・表現クイズデータの修正（quizDataGrammar 配列）
+// =================================================================
+
+        const quizDataGrammar = [
+            { q: "<ruby>駅<rt>えき</rt></ruby>から ____ どのくらいかかりますか。<br><span class='text-sm text-gray-500 font-normal'>(How long does it take walking from the station?)</span>", options: ["<ruby>歩<rt>ある</rt></ruby>いて", "<ruby>歩<rt>ある</rt></ruby>くなら", "<ruby>歩<rt>ある</rt></ruby>えば", "<ruby>歩<rt>ある</rt></ruby>いた"], answer: 0 },
+            { q: "アニメのメンバーは、ここを ____ <ruby>登<rt>のぼ</rt></ruby>っていましたよ。<br><span class='text-sm text-gray-500 font-normal'>(The anime members were running up here!)</span>", options: ["<ruby>走<rt>はし</rt></ruby>って", "<ruby>走<rt>はし</rt></ruby>る", "<ruby>走<rt>はし</rt></ruby>った", "<ruby>走<rt>はし</rt></ruby>れば"], answer: 0 },
+            { q: "<ruby>海<rt>うみ</rt></ruby>と<ruby>踏切<rt>ふみきり</rt></ruby>と<ruby>電車<rt>てんしゃ</rt></ruby>が ____ <ruby>見<rt>み</rt></ruby>られるから、<ruby>人気<rt>にんき</rt></ruby>があるんですね。<br><span class='text-sm text-gray-500 font-normal'>(It's popular because you can see the sea, the crossing, and the train all together, isn't it?)</span>", options: ["<ruby>一緒<rt>いっしょ</rt></ruby>に", "<ruby>一回<rt>いっかい</rt></ruby>に", "<ruby>同等<rt>どうとう</rt></ruby>に", "<ruby>一斉<rt>いっせい</rt></ruby>に"], answer: 0 },
+            { q: "<ruby>電車<rt>てんしゃ</rt></ruby>が<ruby>来<rt>き</rt></ruby>たら、すぐに<ruby>写真<rt>しゃしん</rt></ruby>を ____ なりません。<br><span class='text-sm text-gray-500 font-normal'>(Once the train comes, we must take a picture immediately.)</span>", options: ["<ruby>撮<rt>と</rt></ruby>らなければ", "<ruby>撮<rt>と</rt></ruby>るには", "<ruby>撮<rt>と</rt></ruby>ったら", "<ruby>撮<rt>と</rt></ruby>るべきに"], answer: 0 },
+            { q: "<ruby>大涌谷<rt>おおわくだに</rt></ruby>に ____ 、<ruby>絶対<rt>ぜったい</rt></ruby>に<ruby>食<rt>た</rt></ruby>べなければならないものがあります。<br><span class='text-sm text-gray-500 font-normal'>(Once we arrive at Owakudani, there is something we absolutely must eat.)</span>", options: ["<ruby>着<rt>つ</rt></ruby>いたら", "<ruby>着<rt>つ</rt></ruby>くなら", "<ruby>着<rt>つ</rt></ruby>いて", "<ruby>着<rt>つ</rt></ruby>いたので"], answer: 0 },
+            { q: "<ruby>温<rt>あたた</rt></ruby>かいお<ruby>茶<rt>ちゃ</rt></ruby>を ____ 、<ruby>富士山<rt>ふじさん</rt></ruby>をゆっくり<ruby>見<rt>み</rt></ruby>ましょう。<br><span class='text-sm text-gray-500 font-normal'>(Let's look at Mt. Fuji relaxing while drinking warm tea.)</span>", options: ["<ruby>飲<rt>の</rt></ruby>みながら", "<ruby>飲<rt>の</rt></ruby>むうちに", "<ruby>飲<rt>の</rt></ruby>んだあと", "<ruby>飲<rt>の</rt></ruby>みつつも"], answer: 0 },
+            { q: "アニメを<ruby>観<rt>み</rt></ruby>て、ここでキャンプをしたい<ruby>人<rt>ひと</rt></ruby>が ____ そうですよ。<br><span class='text-sm text-gray-500 font-normal'>(I heard that the number of people who want to camp here increased after watching the anime.)</span>", options: ["<ruby>増<rt>ふ</rt></ruby>えた", "<ruby>増<rt>ふ</rt></ruby>える", "<ruby>増<rt>ふ</rt></ruby>やした", "<ruby>増<rt>ふ</rt></ruby>えそう"], answer: 0 },
+            { q: "これを<ruby>使<rt>つか</rt></ruby>って、<ruby>主人公<rt>しゅじんこう</rt></ruby>のポーズで<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>っても ____ ですか。<br><span class='text-sm text-gray-500 font-normal'>(Is it okay if I use this to take a picture in the main character's pose?)</span>", options: ["いい", "そう", "ある", "なる"], answer: 0 },
+            { q: "<ruby>映画<rt>えいが</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>を ____ <ruby>歩<rt>ある</rt></ruby>くと、もっと<ruby>楽<rt>たの</rt></ruby>しいですよ。<br><span class='text-sm text-gray-500 font-normal'>(It's more fun if you walk while listening to the movie's songs!)</span>", options: ["<ruby>聴<rt>き</rt></ruby>きながら", "<ruby>聴<rt>き</rt></ruby>いておき", "<ruby>聴<rt>き</rt></ruby>くのに", "<ruby>聴<rt>き</rt></ruby>いたなら"], answer: 0 },
+            { q: "<ruby>熱<rt>あつ</rt></ruby>いお<ruby>湯<rt>ゆ</rt></ruby>ですから、ゆっくり ____ くださいね。<br><span class='text-sm text-gray-500 font-normal'>(It is hot water, so please enter slowly.)</span>", options: ["<ruby>入<rt>はい</rt></ruby>って", "<ruby>入<rt>はい</rt></ruby>る", "<ruby>入<rt>はい</rt></ruby>らなくて", "<ruby>入<rt>はい</rt></ruby>り"], answer: 0 }
+        ];
+        let quizData = [];
+
+        let scenes = [];
+
+        async function parseData() {
+            scenes = [];
+            for (let i = 1; i <= 10; i++) {
+                try {
+                    const response = await fetch(`scenes/Output_Job${i}/final_sentences.json`);
+                    if (!response.ok) throw new Error(`Failed to fetch scene ${i}`);
+                    const data = await response.json();
+                    
+                    const lines = data.map(item => {
+                        const speakerName = `Speaker ${item.speaker}`;
+                        
+                        let correctedAudio = '';
+                        if (item.audioPath) {
+                            // フォルダ名の変更と、日本語ファイル名対応のためのURLエンコード
+                            const replacedPath = item.audioPath.replace('clips/', `scenes/Output_Job${i}/clips/`);
+                            correctedAudio = encodeURI(replacedPath);
+                        }
+                        
+                        return {
+                            speaker: speakerName,
+                            rawJp: item.japaneseFurigana,
+                            speakText: item.japaneseFurigana.replace(/\(.*?\)/g, ''),
+                            english: item.exampleEn || "Translation not available.",
+                            romaji: item.exampleRomaji || "",
+                            audioPath: correctedAudio
+                        };
+                    });
+                    scenes.push({ lines: lines });
+                } catch (e) {
+                    console.error(`Error loading scene ${i}:`, e);
+                    scenes.push({ lines: [] });
+                }
+            }
+            await updateTranslations();
+        }
+
+        async function loadSRT(langCode) {
+            if (srtDataCache[langCode]) return srtDataCache[langCode];
+            try {
+                const response = await fetch(`translations/sub_${langCode}.srt`);
+                if (!response.ok) return null;
+                const text = await response.text();
+                const blocks = text.trim().split(/\r?\n\r?\n/);
+                // SRTの各ブロックから字幕テキスト部分（3行目以降）を抽出して配列にする
+                const srtTexts = blocks.map(block => {
+                    const lines = block.split(/\r?\n/);
+                    return lines.length >= 3 ? lines.slice(2).join('\n').trim() : '';
+                });
+                
+                srtDataCache[langCode] = srtTexts;
+                return srtTexts;
+            } catch (e) {
+                console.error(`Error loading SRT for ${langCode}:`, e);
+                return null;
+            }
+        }
+
+        async function updateTranslations() {
+            const langCode = appState.currentLang;
+            const srtTexts = await loadSRT(langCode);
+            if (!srtTexts || srtTexts.length === 0) return;
+
+            let globalIdx = 0;
+            scenes.forEach(scene => {
+                // 各シーンの先頭に存在する「タイトル行（SRTの1ブロック分）」を正確に1つスキップ
+                globalIdx++;
+                
+                scene.lines.forEach(line => {
+                    if (globalIdx < srtTexts.length) {
+                        line.english = srtTexts[globalIdx] || "Translation not available.";
+                    }
+                    globalIdx++;
+                });
+            });
+        }
+
+        function generateRomaji(text) {
+            // Simple mapping for demonstration purposes
+            const map = {
+                'こんにちは':'konnichiwa', 'おはよう':'ohayou', 'ありがとう':'arigatou',
+                'はい':'hai', 'いいえ':'iie', 'すみません':'sumimasen'
+            };
+            let romaji = text;
+            for (let k in map) {
+                romaji = romaji.replace(new RegExp(k, 'g'), map[k]);
+            }
+            return romaji || "Romaji not fully generated";
+        }
+
+        function formatJapanese(rawJp, hideFurigana) {
+            // 正規表現を修正し、漢字（と「々」）の直後にあるカッコのみを「ふりがな」として処理します
+            return rawJp.replace(/([\u4E00-\u9FFF\u3005]+)\((.*?)\)/g, (match, kanji, ruby) => {
+                if (hideFurigana) {
+                    return `<span class="kanji-hidden" onclick="revealFurigana(this)"><span class="kanji-text">${kanji}</span><span class="kanji-revealed">${ruby}</span></span>`;
+                } else {
+                    return `<ruby>${kanji}<rt>${ruby}</rt></ruby>`;
+                }
+            });
+        }
+
+        window.revealFurigana = function(element) {
+            element.classList.toggle('show-ruby');
+        };
+
+        function renderScene() {
+            const container = document.getElementById('dialogue-list');
+            container.innerHTML = '';
+            
+            const scene = scenes[appState.currentSceneIndex];
+            
+            scene.lines.forEach((line, index) => {
+                const isSpeaker1 = line.speaker === "Speaker 1";
+                const alignment = isSpeaker1 ? "self-start" : "self-end";
+                const bgColor = isSpeaker1 ? "speaker-1-bg border border-gray-200" : "speaker-2-bg border border-green-100";
+                const borderRadius = isSpeaker1 ? "rounded-tr-2xl rounded-br-2xl rounded-bl-2xl" : "rounded-tl-2xl rounded-br-2xl rounded-bl-2xl";
+                const icon = isSpeaker1 ? "fa-user-tie" : "fa-user";
+                const iconColor = isSpeaker1 ? "text-gray-500" : "text-green-600";
+
+                const jpFormatted = formatJapanese(line.rawJp, appState.hideFurigana);
+
+                let extraContent = '';
+                if (appState.showRomaji) {
+                    extraContent += `<div class="text-sm text-gray-500 mt-2 font-mono bg-gray-50 p-2 rounded">${line.romaji}</div>`;
+                }
+                if (appState.showTranslation) {
+                    extraContent += `<div class="text-sm text-gray-700 mt-2 italic border-l-2 border-gray-300 pl-2">${line.english}</div>`;
+                }
+
+                // Roleplay logic
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+                const blurClass = isMuted ? "blur-sm opacity-50 hover:blur-none hover:opacity-100 transition-all duration-300 cursor-pointer" : "";
+                const titleText = isMuted ? "title='Hover to reveal (Roleplay mode)'" : "";
+
+                const html = `
+                    <div class="flex gap-3 max-w-[95%] sm:max-w-[85%] ${alignment} fade-in" style="animation-delay: ${index * 0.05}s">
+                        ${isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                        
+                        <div class="flex flex-col gap-1 w-full">
+                            <div class="text-xs text-gray-500 font-medium px-1 ${!isSpeaker1 ? 'text-right' : ''}">${line.speaker} ${isMuted ? ' <span class="text-purple-600 font-bold ml-1"><i class="fa-solid fa-microphone-lines"></i> Your Turn</span>' : ''}</div>
+                            <div class="${bgColor} ${borderRadius} p-4 shadow-sm relative group w-full transition-shadow duration-300">
+                                <div class="flex items-start gap-3 justify-between">
+                                    <div class="flex-1 ${blurClass}" ${titleText}>
+                                        <div class="text-[1.05rem] leading-loose break-words tracking-wide font-medium">
+                                            ${jpFormatted}
+                                        </div>
+                                        ${extraContent}
+                                    </div>
+                                    <button onclick="playAudio('${line.audioPath ? line.audioPath.replace(/'/g, "\\'") : ''}')" class="shrink-0 w-8 h-8 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-400 hover:text-blue-600 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300" title="Play audio">
+                                        <i class="fa-solid fa-volume-high"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        ${!isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                    </div>
+                `;
+                container.insertAdjacentHTML('beforeend', html);
+            });
+        }
+
+        let currentAudio = null;
+
+        function playAudio(audioPath) {
+            if (currentAudio) {
+                currentAudio.pause();
+            }
+            if (!audioPath) return;
+            currentAudio = new Audio(audioPath);
+            currentAudio.playbackRate = 0.85;
+            currentAudio.play().catch(e => console.error("Audio play failed:", e));
+        }
+
+        async function playEntireScene() {
+            const playBtnIcon = document.querySelector('#play-scene-btn i');
+
+            if (appState.isPlaying) {
+                if (currentAudio) currentAudio.pause();
+                appState.isPlaying = false;
+                playBtnIcon.className = 'fa-solid fa-play';
+                document.querySelectorAll('#dialogue-list > div > div > div.p-4').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                return;
+            }
+
+            appState.isPlaying = true;
+            playBtnIcon.className = 'fa-solid fa-stop';
+            const scene = scenes[appState.currentSceneIndex];
+            
+            for (let i = 0; i < scene.lines.length; i++) {
+                if (!appState.isPlaying) break; 
+                
+                const line = scene.lines[i];
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+
+                const allMessageBubbles = document.querySelectorAll('#dialogue-list > div > div > div.p-4');
+                if (allMessageBubbles[i]) {
+                    allMessageBubbles.forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                    allMessageBubbles[i].classList.add('ring-2', isMuted ? 'ring-purple-400' : 'ring-blue-400');
+                    allMessageBubbles[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+                
+                if (isMuted) {
+                    const waitTime = 1500 + (line.speakText.length * 150);
+                    await new Promise(r => setTimeout(r, waitTime));
+                } else {
+                    if (line.audioPath) {
+                        await new Promise(resolve => {
+                            if (currentAudio) currentAudio.pause();
+                            currentAudio = new Audio(line.audioPath);
+                            currentAudio.playbackRate = 0.85;
+                            currentAudio.onended = resolve;
+                            currentAudio.onerror = resolve;
+                            currentAudio.play().catch(e => {
+                                console.error("Audio play failed in loop:", e);
+                                resolve();
+                            });
+                        });
+                    } else {
+                        await new Promise(r => setTimeout(r, 1000));
+                    }
+                }
+                
+                await new Promise(r => setTimeout(r, 600));
+            }
+
+            if (appState.isPlaying) {
+                document.querySelectorAll('#dialogue-list > div > div > div.p-4').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+            }
+
+            appState.isPlaying = false;
+            playBtnIcon.className = 'fa-solid fa-play';
+        }
+
+        function startQuiz() {
+            appState.score = 0;
+            appState.currentQuestionIndex = 0;
+            
+            const typeSelector = document.getElementById('quiz-type-selector');
+            if (typeSelector) {
+                appState.quizType = typeSelector.value;
+            }
+            
+            if (appState.quizType === 'kanji') {
+                quizData = quizDataKanji;
+            } else if (appState.quizType === 'culture') {
+                quizData = quizDataCulture;
+            } else if (appState.quizType === 'grammar') {
+                quizData = quizDataGrammar;
+            }
+            
+            document.getElementById('quiz-intro').classList.add('hidden');
+            document.getElementById('quiz-result').classList.add('hidden');
+            document.getElementById('quiz-area').classList.remove('hidden');
+            
+            loadQuestion();
+        }
+
+        function loadQuestion() {
+            appState.isAnswering = false;
+            const qData = quizData[appState.currentQuestionIndex];
+            
+            document.getElementById('quiz-progress').innerText = `Question ${appState.currentQuestionIndex + 1} / ${quizData.length}`;
+            document.getElementById('quiz-score').innerText = `Score: ${appState.score}`;
+            document.getElementById('quiz-question').innerHTML = qData.q;
+            
+            const optionsContainer = document.getElementById('quiz-options');
+            optionsContainer.innerHTML = '';
+            
+            // 選択肢のインデックスを保持したままシャッフル
+            const shuffledOptions = qData.options.map((opt, idx) => ({ text: opt, originalIndex: idx }));
+            for (let i = shuffledOptions.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffledOptions[i], shuffledOptions[j]] = [shuffledOptions[j], shuffledOptions[i]];
+            }
+            
+            shuffledOptions.forEach((opt) => {
+                const btn = document.createElement('button');
+                btn.className = "w-full bg-white border-2 border-gray-200 hover:border-blue-500 hover:bg-blue-50 text-gray-700 font-bold py-4 px-6 rounded-xl text-lg sm:text-xl transition-all shadow-sm text-left sm:text-center";
+                btn.innerHTML = opt.text;
+                btn.dataset.originalIndex = opt.originalIndex;
+                btn.onclick = () => checkAnswer(opt.originalIndex, btn);
+                optionsContainer.appendChild(btn);
+            });
+        }
+
+        function checkAnswer(selectedIndex, btnElement) {
+            if (appState.isAnswering) return;
+            appState.isAnswering = true;
+            
+            const correctIndex = quizData[appState.currentQuestionIndex].answer;
+            const isCorrect = selectedIndex === correctIndex;
+            
+            if (isCorrect) {
+                appState.score++;
+                btnElement.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50', 'text-gray-700');
+                btnElement.classList.add('bg-green-500', 'text-white', 'border-green-500');
+            } else {
+                btnElement.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50', 'text-gray-700');
+                btnElement.classList.add('bg-red-500', 'text-white', 'border-red-500');
+                
+                // シャッフル後の配置に対応した正解のハイライト
+                const allButtons = document.getElementById('quiz-options').children;
+                for (let btn of allButtons) {
+                    if (parseInt(btn.dataset.originalIndex) === correctIndex) {
+                        btn.classList.remove('border-gray-200');
+                        btn.classList.add('border-green-500', 'bg-green-50', 'text-green-700');
+                    }
+                }
+            }
+            
+            document.getElementById('quiz-score').innerText = `Score: ${appState.score}`;
+            
+            setTimeout(() => {
+                appState.currentQuestionIndex++;
+                if (appState.currentQuestionIndex < quizData.length) {
+                    loadQuestion();
+                } else {
+                    showResult();
+                }
+            }, 1200);
+        }
+
+        function showResult() {
+            document.getElementById('quiz-area').classList.add('hidden');
+            document.getElementById('quiz-result').classList.remove('hidden');
+            document.getElementById('final-score').innerText = appState.score;
+        }
+
+        function switchTab(tabId) {
+            appState.activeTab = tabId;
+            
+            const convBtn = document.getElementById('tab-btn-conv');
+            const quizBtn = document.getElementById('tab-btn-quiz');
+            const convDiv = document.getElementById('tab-conv');
+            const quizDiv = document.getElementById('tab-quiz');
+            
+            if (tabId === 'conv') {
+                convBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
+                quizBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
+                convDiv.classList.remove('hidden');
+                quizDiv.classList.add('hidden');
+            } else {
+                quizBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
+                convBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
+                quizDiv.classList.remove('hidden');
+                convDiv.classList.add('hidden');
+                
+                // Reset Quiz
+                document.getElementById('quiz-intro').classList.remove('hidden');
+                document.getElementById('quiz-area').classList.add('hidden');
+                document.getElementById('quiz-result').classList.add('hidden');
+            }
+        }
+
+        window.onload = async () => {
+            // Populate Language Selector
+            const langSelector = document.getElementById('lang-selector');
+            Object.keys(LANG_MAP).forEach(langName => {
+                const opt = document.createElement('option');
+                opt.value = LANG_MAP[langName];
+                opt.text = langName;
+                if (LANG_MAP[langName] === 'en') opt.selected = true;
+                langSelector.appendChild(opt);
+            });
+
+            await parseData();
+
+            const selector = document.getElementById('scene-selector');
+            for (let i = 0; i < 10; i++) {
+                const opt = document.createElement('option');
+                opt.value = i;
+                opt.text = sceneTitles[i] || `Scene ${i + 1}`;
+                selector.appendChild(opt);
+            }
+
+            selector.addEventListener('change', (e) => {
+                appState.currentSceneIndex = parseInt(e.target.value);
+                if(appState.isPlaying) playEntireScene(); // Stop if playing
+                renderScene();
+            });
+
+            document.getElementById('toggle-romaji').addEventListener('change', (e) => {
+                appState.showRomaji = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-translation').addEventListener('change', (e) => {
+                appState.showTranslation = e.target.checked;
+                renderScene();
+            });
+
+            langSelector.addEventListener('change', async (e) => {
+                appState.currentLang = e.target.value;
+                if (appState.isPlaying) playEntireScene();
+                await updateTranslations();
+                renderScene();
+            });
+
+            document.getElementById('toggle-kanji-test').addEventListener('change', (e) => {
+                appState.hideFurigana = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('roleplay-selector').addEventListener('change', (e) => {
+                appState.roleplayMutedSpeaker = e.target.value;
+                renderScene();
+            });
+
+            document.getElementById('tab-btn-conv').addEventListener('click', () => switchTab('conv'));
+            document.getElementById('tab-btn-quiz').addEventListener('click', () => switchTab('quiz'));
+
+            renderScene();
+        };
+    </script>
+</body>
+</html>
