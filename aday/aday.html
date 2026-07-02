@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2B0GEY45P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F2B0GEY45P');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Learning App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap');
+        body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
+        
+        .fade-in {
+            animation: fadeIn 0.4s ease-out forwards;
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        @keyframes fadeIn {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .speaker-1-bg { background-color: #ffffff; }
+        .speaker-2-bg { background-color: #f0fdf4; } /* Light green for variety */
+
+        .kanji-hidden {
+            display: inline-block;
+            background-color: #fef08a; /* Yellow-200 */
+            border-bottom: 2px dashed #ca8a04;
+            border-radius: 4px;
+            padding: 0 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+        }
+        .kanji-hidden:hover {
+            background-color: #fde047;
+        }
+        .kanji-revealed {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%) translateY(5px);
+            background-color: #1e40af;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease-out;
+            white-space: nowrap;
+            z-index: 10;
+        }
+        .kanji-hidden.show-ruby .kanji-revealed {
+            opacity: 1;
+            transform: translateX(-50%) translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen pb-12">
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-md">
+                    <i class="fa-solid fa-language text-xl"></i>
+                </div>
+                <h1 class="text-xl font-bold text-gray-900 tracking-tight">日本語 Learning</h1>
+            </div>
+            
+            <div class="flex bg-gray-100 p-1 rounded-lg">
+                <button id="tab-btn-conv" class="px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all">
+                    <i class="fa-regular fa-comments mr-1"></i> Conversation
+                </button>
+                <button id="tab-btn-quiz" class="px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all">
+                    <i class="fa-solid fa-pen-to-square mr-1"></i> Kanji Quiz
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 mt-6">
+        
+        <!-- TAB 1: Conversation -->
+        <div id="tab-conv">
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                
+                <!-- Controls Bar -->
+                <div class="bg-gray-50/50 p-4 border-b border-gray-100 flex flex-col gap-3">
+                    <!-- 1段目: セレクターとプレイボタン -->
+                    <div class="flex flex-col md:flex-row items-center gap-2 w-full">
+                        <select id="scene-selector" class="w-full md:w-auto max-w-md flex-1 bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2 shadow-sm font-medium truncate">
+                            <!-- Options populated by JS -->
+                        </select>
+
+                        <!-- Roleplay Selector -->
+                        <select id="roleplay-selector" class="w-full md:w-auto bg-purple-50 border border-purple-200 text-purple-800 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2 font-medium shadow-sm shrink-0">
+                            <option value="none">👤 Roleplay: Off</option>
+                            <option value="Speaker 1">🔇 Mute Speaker 1</option>
+                            <option value="Speaker 2">🔇 Mute Speaker 2</option>
+                        </select>
+
+                        <button onclick="playEntireScene()" id="play-scene-btn" class="w-full md:w-auto bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm shrink-0">
+                            <i class="fa-solid fa-play"></i> Play
+                        </button>
+                    </div>
+
+                    <!-- 2段目: 表示オプション（翻訳・ふりがな・ローマ字） -->
+                    <div class="flex flex-wrap items-center gap-4 text-sm font-medium text-gray-600 border-t border-gray-100 pt-2">
+                        <div class="flex items-center gap-2 cursor-pointer text-gray-600 hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-translation" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            <span>Translation:</span>
+                            <select id="lang-selector" class="bg-white border border-gray-300 text-gray-700 text-xs rounded p-1 font-medium focus:ring-blue-500 focus:border-blue-500">
+                            </select>
+                        </div>
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-kanji-test" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Hide Furigana
+                        </label>
+                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Romaji
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Dialogue Area -->
+                <div class="p-4 sm:p-6 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-gray-50/30 min-h-[500px]">
+                    <div id="dialogue-list" class="flex flex-col gap-6">
+                        <!-- Dialogue bubbles inserted by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 2: Kanji Quiz -->
+        <div id="tab-quiz" class="hidden">
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-10 text-center max-w-2xl mx-auto">
+                <div id="quiz-intro">
+                    <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">日本語クイズテスト (Japanese Quiz)</h2>
+                    <p class="text-gray-500 mb-4">クイズの種類を選んで「スタート」を押してください。</p>
+                    
+                    <div class="max-w-xs mx-auto mb-6">
+                        <select id="quiz-type-selector" class="w-full bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block p-2.5 font-medium shadow-sm text-center">
+                            <option value="kanji">🔤 漢字の読み方テスト (Kanji Reading)</option>
+                            <option value="culture">🏮内容理解クイズ (Culture & Context)</option>
+                            <option value="grammar">📝 重要文法・表現の穴埋めクイズ (Grammar Fill-in)</option>
+                        </select>
+                    </div>
+
+                    <button onclick="startQuiz()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-transform transform hover:scale-105">
+                        スタート (Start)
+                    </button>
+                </div>
+
+                <div id="quiz-area" class="hidden">
+                    <div class="flex justify-between items-center text-sm font-medium text-gray-500 mb-6">
+                        <span id="quiz-progress" class="bg-gray-100 py-1 px-3 rounded-full">Question 1/10</span>
+                        <span id="quiz-score" class="text-green-600">Score: 0</span>
+                    </div>
+                    
+                    <h3 id="quiz-question" class="text-3xl sm:text-4xl font-bold text-gray-800 mb-8 py-6 bg-gray-50 rounded-xl border border-gray-100">
+                        <!--q -->
+                    </h3>
+                    
+                    <div id="quiz-options" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <!-- Options buttons -->
+                    </div>
+                </div>
+
+                <div id="quiz-result" class="hidden">
+                    <div class="text-6xl mb-4">🏆</div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-2">お疲れ様でした！</h2>
+                    <p class="text-xl text-gray-600 mb-6">Your Score: <span id="final-score" class="font-bold text-green-600 text-3xl"></span> / 10</p>
+                    <button onclick="startQuiz()" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-colors">
+                        もう一度プレイ (Play Again)
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // State management
+        const appState = {
+            activeTab: 'conv',
+            currentSceneIndex: 0,
+            showRomaji: false,
+            showTranslation: false,
+            hideFurigana: false,
+            isPlaying: false,
+            roleplayMutedSpeaker: 'none',
+            currentQuestionIndex: 0,
+            score: 0,
+            isAnswering: false,
+            currentLang: 'en',
+            quizType: 'kanji'
+        };
+
+      const sceneTitles = [
+            "Scene 1: 朝のテストと急な準備 / Morning Test and Urgent Preparation",
+            "Scene 2: 学校への行き方と新しい自転車 / Going to School and a New Bicycle",
+            "Scene 3: 教室での忘れ物と宿題の確認 / Forgotten Item and Homework Check in the Classroom",
+            "Scene 4: レストランでお昼ご飯 / Having Lunch at a Restaurant",
+            "Scene 5: 図書館の漢字と辞書の貸し出し / Kanji at the Library and Borrowing a Dictionary",
+            "Scene 6: コンビニのアルバイト / Part-time Job at a Convenience Store",
+            "Scene 7: スーパーで夜ご飯の買い物 / Shopping for Dinner at the Supermarket",
+            "Scene 8: 美味しい豚肉の炒め物 / Delicious Stir-fried Pork and Vegetables",
+            "Scene 9: 金曜日の夜のアニメ / Friday Night Anime",
+            "Scene 10: 明日の予定と部屋の掃除 / Tomorrow's Plans and Cleaning the Room"
+        ];
+
+        const LANG_MAP = {
+            'English': 'en', 'Vietnamese': 'vi', 'Indonesian': 'id', 'Thai': 'th', 'Korean': 'ko', 
+            'Chinese (Simplified)': 'zh-Hans', 'Chinese (Traditional)': 'zh-Hant', 'Spanish': 'es', 
+            'Portuguese': 'pt', 'French': 'fr', 'Burmese': 'my', 'Sinhala': 'si', 'Nepali': 'ne', 
+            'Hindi': 'hi', 'Tagalog': 'tl', 'German': 'de', 'Russian': 'ru', 'Arabic': 'ar', 
+            'Italian': 'it', 'Turkish': 'tr', 'Polish': 'pl', 'Dutch': 'nl', 'Swedish': 'sv', 
+            'Czech': 'cs', 'Hungarian': 'hu', 'Mongolian': 'mn', 'Malay': 'ms', 'Khmer': 'km', 
+            'Uzbek': 'uz', 'Kazakh': 'kk', 'Bengali': 'bn', 'Tamil': 'ta', 'Urdu': 'ur', 
+            'Persian': 'fa', 'Hebrew': 'he', 'Greek': 'el', 'Romanian': 'ro', 'Ukrainian': 'uk', 'Swahili': 'sw'
+        };
+
+        let srtDataCache = {};
+// rawData（台本テキスト）はフォルダから自動取得するため削除しました
+
+       const quizDataKanji = [
+            { q: "「1時間目」の読み方は？", options: ["いちじかんめ", "いつじかんめ", "いちじかめ", "ひとつじかんめ"], answer: 0 },
+            { q: "「停留所」の読み方は？", options: ["ていりゅうじょ", "ていりゅうしょ", "たいりゅうじょ", "ていりょじょ"], answer: 0 },
+            { q: "「授業」の読み方は？", options: ["じゅぎょう", "じゅうぎょう", "じょぎょう", "しゅぎょう"], answer: 0 },
+            { q: "「食堂」の読み方は？", options: ["しょくどう", "しょくとう", "ちょくどう", "そう堂"], answer: 0 },
+            { q: "「辞書」の読み方は？", options: ["じしょ", "じそ", "ちしょ", "じしん"], answer: 0 },
+            { q: "「夕方」の読み方は？", options: ["ゆうがた", "よるがた", "ひるがた", "ゆうほう"], answer: 0 },
+            { q: "「冷蔵庫」の読み方は？", options: ["れいぞうこ", "れいそうこ", "ねいぞうこ", "らいぞうこ"], answer: 0 },
+            { q: "「炒め物」の読み方は？", options: ["いためもの", "いだめもの", "そためもの", "やきもの"], answer: 0 },
+            { q: "「髪」の読み方は？", options: ["かみ", "がみ", "ひげ", "かお"], answer: 0 },
+            { q: "「天気予報」の読み方は？", options: ["てんきよほう", "でんきよほう", "てんきよぼう", "てんきほう"], answer: 0 }
+        ];
+
+       const quizDataCulture = [
+            { q: "<ruby>会話<rt>かいわ</rt></ruby>のなかで、Speaker 2 はどうして<ruby>朝<rt>あさ</rt></ruby>ご飯をつくる<ruby>時間<rt>じかん</rt></ruby>がありませんでしたか。<br><span class='text-sm text-gray-500 font-normal'>(In the conversation, why did Speaker 2 have no time to make breakfast?)</span>", options: ["<ruby>1時間目<rt>いちじかんめ</rt></ruby>からテストがあるから <span class='text-xs text-gray-500 font-normal'>(Because there is a test from the first period)</span>", "<ruby>寝坊<rt>ねぼう</rt></ruby>したから <span class='text-xs text-gray-500 font-normal'>(Because they overslept)</span>", "<ruby>朝<rt>あさ</rt></ruby>ご飯のパンを<ruby>買<rt>か</rt></ruby>いたいから <span class='text-xs text-gray-500 font-normal'>(Because they want to buy breakfast bread)</span>", "<ruby>図書館<rt>としょかん</rt></ruby>にいくから <span class='text-xs text-gray-500 font-normal'>(Because they are going to the library)</span>"], answer: 0 },
+            { q: "<ruby>会話<rt>かいわ</rt></ruby>のなかで、<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>に Speaker 2 はどうやって<ruby>学校<rt>がっこう</rt></ruby>へ<ruby>行<rt>い</rt></ruby>きますか。<br><span class='text-sm text-gray-500 font-normal'>(In the conversation, how does Speaker 2 go to school on rainy days?)</span>", options: ["バスに<ruby>乗<rt>の</rt></ruby>る <span class='text-xs text-gray-500 font-normal'>(They take the bus)</span>", "<ruby>自転車<rt>じてんしゃ</rt></ruby>でいく <span class='text-xs text-gray-500 font-normal'>(They go by bicycle)</span>", "<ruby>歩<rt>ある</rt></ruby>いていく <span class='text-xs text-gray-500 font-normal'>(They walk)</span>", "<ruby>車<rt>くるま</rt></ruby>でいく <span class='text-xs text-gray-500 font-normal'>(They go by car)</span>"], answer: 0 },
+            { q: "<ruby>教室<rt>きょうしつ</rt></ruby>で Speaker 2 が<ruby>家<rt>いえ</rt></ruby>に<ruby>忘<rt>わす</rt></ruby>れたものは<ruby>何<rt>なん</rt></ruby>ですか。<br><span class='text-sm text-gray-500 font-normal'>(What did Speaker 2 forget at home in the classroom?)</span>", options: ["<ruby>消<rt>け</rt></ruby>しゴム <span class='text-xs text-gray-500 font-normal'>(An eraser)</span>", "<ruby>宿題<rt>しゅくだい</rt></ruby>のノート <span class='text-xs text-gray-500 font-normal'>(Homework notebook)</span>", "<ruby>教科書<rt>きょうかしょ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Textbook)</span>", "<ruby>鞄<rt>かばん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A bag)</span>"], answer: 0 },
+            { q: "<ruby>学校<rt>がっこう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>のレストランの<ruby>学生<rt>がくせい</rt></ruby>ランチはいくらですか。<br><span class='text-sm text-gray-500 font-normal'>(How much is the student lunch at the restaurant in front of the school?)</span>", options: ["<ruby>五百円<rt>ごひゃくえん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(500 yen)</span>", "<ruby>三百円<rt>さんびゃくえん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(300 yen)</span>", "<ruby>千円<rt>せんえん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(1000 yen)</span>", "<ruby>無料<rt>む料</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Free)</span>"], answer: 0 },
+            { q: "<ruby>会話<rt>かいわ</rt></ruby>のなかで、Speaker 1 はどうして<ruby>辞書<rt>じしょ</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていませんでしたか。<br><span class='text-sm text-gray-500 font-normal'>(In the conversation, why didn't Speaker 1 have a dictionary?)</span>", options: ["<ruby>今日<rt>きょう</rt></ruby>は<ruby>持<rt>も</rt></ruby>って<ruby>来<rt>き</rt></ruby>ませんでした <span class='text-xs text-gray-500 font-normal'>(Because they didn't bring it today)</span>", "<ruby>辞書<rt>じしょ</rt></ruby>を<ruby>持<rt>も</rt></ruby>っていないから <span class='text-xs text-gray-500 font-normal'>(Because they don't own a dictionary)</span>", "<ruby>家<rt>いえ</rt></ruby>で<ruby>失<rt>な</rt></ruby>くしたから <span class='text-xs text-gray-500 font-normal'>(Because they lost it at home)</span>", "<ruby>必要<rt>ひつよう</rt></ruby>ないから <span class='text-xs text-gray-500 font-normal'>(Because it is not needed)</span>"], answer: 0 },
+            { q: "Speaker 2 のアルバイトについて、<ruby>正<rt>ただ</rt></ruby>しいものはどれですか。<br><span class='text-sm text-gray-500 font-normal'>(Which of the following is correct about Speaker 2's part-time job?)</span>", options: ["<ruby>駅<rt>えき</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くのコンビニで<ruby>働<rt>はたら</rt></ruby>いている <span class='text-xs text-gray-500 font-normal'>(They work at a convenience store near the station)</span>", "レストランで<ruby>働<rt>はたら</rt></ruby>いている <span class='text-xs text-gray-500 font-normal'>(They work at a restaurant)</span>", "<ruby>毎日<rt>まいにち</rt></ruby><ruby>働<rt>はたら</rt></ruby>いている <span class='text-xs text-gray-500 font-normal'>(They work every day)</span>", "<ruby>日本語<rt>にほんご</rt></ruby>を<ruby>話<rt>はな</rt></ruby>さない <span class='text-xs text-gray-500 font-normal'>(They do not speak Japanese)</span>"], answer: 0 },
+            { q: "<ruby>二度<rt>ににん</rt></ruby>はスーパーでどちらの<ruby>肉<rt>にく</rt></ruby>を<ruby>買<rt>か</rt></ruby>うことにしましたか。<br><span class='text-sm text-gray-500 font-normal'>(Which meat did the two decide to buy at the supermarket?)</span>", options: ["<ruby>豚肉<rt>ぶたにく</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Pork)</span>", "<ruby>牛肉<rt>ぎゅうにく</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Beef)</span>", "<ruby>鶏肉<rt>とりにく</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Chicken)</span>", "どちらも<ruby>買<rt>か</rt></ruby>わない <span class='text-xs text-gray-500 font-normal'>(Neither of them)</span>"], answer: 0 },
+            { q: "Speaker 1 が<ruby>作<rt>つく</rt></ruby>った<ruby>料理<rt>りょうり</rt></ruby>の<ruby>味<rt>あじ</rt></ruby>はどうでしたか。<br><span class='text-sm text-gray-500 font-normal'>(How was the taste of the dish made by Speaker 1?)</span>", options: ["とても<ruby>美味<rt>おい</rt></ruby>しくて、<ruby>少<rt>すこ</rt></ruby>し<ruby>辛<rt>から</rt></ruby>い <span class='text-xs text-gray-500 font-normal'>(Very delicious and a little spicy)</span>", "あまり<ruby>美味<rt>おい</rt></ruby>しくない <span class='text-xs text-gray-500 font-normal'>(Not very delicious)</span>", "<ruby>甘<rt>あま</rt></ruby>くて<ruby>美味<rt>おい</rt></ruby>しい <span class='text-xs text-gray-500 font-normal'>(Sweet and delicious)</span>", "<ruby>味<rt>あじ</rt></ruby>がうすい <span class='text-xs text-gray-500 font-normal'>(Tastes bland)</span>"], answer: 0 },
+            { q: "Speaker 1 が<ruby>毎日<rt>まいにち</rt></ruby>見ているアニメは、どんな<ruby>内容<rt>ないよう</rt></ruby>ですか。<br><span class='text-sm text-gray-500 font-normal'>(What is the content of the anime that Speaker 1 watches every day?)</span>", options: ["<ruby>高校生<rt>こうこうせい</rt></ruby>がスポーツをするアニメ <span class='text-xs text-gray-500 font-normal'>(An anime where high school students do sports)</span>", "<ruby>料理<rt>りょうり</rt></ruby>を<ruby>作<rt>つく</rt></ruby>るアニメ <span class='text-xs text-gray-500 font-normal'>(An anime about cooking)</span>", "<ruby>英語<rt>えいご</rt></ruby>を<ruby>勉強<rt>べんきょう</rt></ruby>するアニメ <span class='text-xs text-gray-500 font-normal'>(An anime about studying English)</span>", "<ruby>音楽<rt>おんがく</rt></ruby>のバンドのアニメ <span class='text-xs text-gray-500 font-normal'>(An anime about a music band)</span>"], answer: 0 },
+            { q: "<ruby>二度<rt>ににん</rt></ruby>は<ruby>明日<rt>あした</rt></ruby>の<ruby>何時<rt>なんじ</rt></ruby>から一緒に<ruby>掃除<rt>そうじ</rt></ruby>をしますか。<br><span class='text-sm text-gray-500 font-normal'>(From what time tomorrow will the two clean together?)</span>", options: ["<ruby>午後<rt>ごご</rt></ruby>の<ruby>三時<rt>さんじ</rt></ruby>から <span class='text-xs text-gray-500 font-normal'>(From 3:00 PM)</span>", "<ruby>午前<rt>ごぜん</rt></ruby>の<ruby>九時<rt>くじ</rt></ruby>から <span class='text-xs text-gray-500 font-normal'>(From 9:00 AM)</span>", "お<ruby>昼<rt>ひる</rt></ruby>の<ruby>二時<rt>にじ</rt></ruby>から <span class='text-xs text-gray-500 font-normal'>(From 2:00 PM)</span>", "<ruby>夜<rt>よる</rt></ruby>の<ruby>十一時半<rt>じゅういちじはん</rt></ruby>から <span class='text-xs text-gray-500 font-normal'>(From 11:30 PM)</span>"], answer: 0 }
+        ];
+
+        const quizDataGrammar = [
+            { q: "<ruby>今日<rt>きょう</rt></ruby>は1<ruby>時間目<rt>じかんめ</rt></ruby>からテストが ____ 。<br><span class='text-sm text-gray-500 font-normal'>(There is a test from the first period today.)</span>", options: ["あります", "います", "ありました", "ありますから"], answer: 0 },
+            { q: "<ruby>学校<rt>がっこう</rt></ruby>まで<ruby>何分<rt>なんぷん</rt></ruby> ____ かかりますか。<br><span class='text-sm text-gray-500 font-normal'>(About how many minutes does it take to school?)</span>", options: ["ぐらい <span class='text-xs text-gray-500 font-normal'>(about)</span>", "ごろ <span class='text-xs text-gray-500 font-normal'>(around)</span>", "たくさん <span class='text-xs text-gray-500 font-normal'>(many)</span>", "あまり <span class='text-xs text-gray-500 font-normal'>(not much)</span>"], answer: 0 },
+            { q: "じゃあ、<ruby>私<rt>わたし</rt></ruby>の<ruby>消<rt>け</rt></ruby>しゴムを ____ ください。<br><span class='text-sm text-gray-500 font-normal'>(Then, please use my eraser.)</span>", options: ["<ruby>使<rt>つか</rt></ruby>って", "<ruby>使<rt>つか</rt></ruby>う", "<ruby>使<rt>つか</rt></ruby>いました", "<ruby>使<rt>つか</rt></ruby>わないで"], answer: 0 },
+            { q: "<ruby>食堂<rt>しょくどう</rt></ruby>で ____ か。<br><span class='text-sm text-gray-500 font-normal'>(Shall we eat at the cafeteria?)</span>", options: ["<ruby>食<rt>た</rt></ruby>べましょう", "<ruby>食<rt>た</rt></ruby>べたいです", "<ruby>食<rt>た</rt></ruby>べます", "<ruby>食<rt>た</rt></ruby>べました"], answer: 0 },
+            { q: "<ruby>私<rt>わたし</rt></ruby>の<ruby>辞書<rt>じしょ</rt></ruby>を ____ か。<br><span class='text-sm text-gray-500 font-normal'>(Shall I lend you my dictionary?)</span>", options: ["<ruby>貸<rt>か</rt></ruby>しましょう", "<ruby>借<rt>か</rt></ruby>りましょう", "<ruby>返<rt>かえ</rt></ruby>しましょう", "<ruby>持<rt>も</rt></ruby>って来ましょう"], answer: 0 },
+            { q: "どこ ____ アルバイトをしていますか。<br><span class='text-sm text-gray-500 font-normal'>(Where are you doing your part-time job?)</span>", options: ["で", "に", "を", "へ"], answer: 0 },
+            { q: "あそこは<ruby>野菜<rt>やさい</rt></ruby> ____ <ruby>安<rt>やす</rt></ruby>いですから。<br><span class='text-sm text-gray-500 font-normal'>(Because vegetables are also cheap there.)</span>", options: ["も <span class='text-xs text-gray-500 font-normal'>(also)</span>", "しか <span class='text-xs text-gray-500 font-normal'>(only)</span>", "より <span class='text-xs text-gray-500 font-normal'>(than)</span>", "から <span class='text-xs text-gray-500 font-normal'>(because)</span>"], answer: 0 },
+            { q: "<ruby>足<rt>あし</rt></ruby>が ____ です。<br><span class='text-sm text-gray-500 font-normal'>(My feet are painful.)</span>", options: ["<ruby>痛<rt>いた</rt></ruby>い", "<ruby>痛<rt>いた</rt></ruby>くない", "<ruby>痛<rt>いた</rt></ruby>む", "<ruby>痛<rt>いた</rt></ruby>そう"], answer: 0 },
+            { q: "<ruby>毎週金曜日<rt>まいしゅうきんようび</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>に ____ していますよ。<br><span class='text-sm text-gray-500 font-normal'>(It is broadcasting every Friday night.)</span>", options: ["<ruby>放送<rt>ほうそう</rt></ruby>", "<ruby>勉強<rt>べんきょう</rt></ruby>", "<ruby>洗濯<rt>せんたく</rt></ruby>", "<ruby>出発<rt>しゅっぱつ</rt></ruby>"], answer: 0 },
+            { q: "<ruby>午後<rt>ごご</rt></ruby>は<ruby>掃除<rt>そうじ</rt></ruby>と<ruby>洗濯<rt>せんたく</rt></ruby>をする ____ です。<br><span class='text-sm text-gray-500 font-normal'>(I plan to do cleaning and laundry in the afternoon.)</span>", options: ["つもり <span class='text-xs text-gray-500 font-normal'>(intend to)</span>", "ながら <span class='text-xs text-gray-500 font-normal'>(while)</span>", "から <span class='text-xs text-gray-500 font-normal'>(because)</span>", "とき <span class='text-xs text-gray-500 font-normal'>(when)</span>"], answer: 0 }
+        ];
+        let quizData = [];
+
+        let scenes = [];
+
+        async function parseData() {
+            scenes = [];
+            for (let i = 1; i <= 10; i++) {
+                try {
+                    const response = await fetch(`scenes/Output_Job${i}/final_sentences.json`);
+                    if (!response.ok) throw new Error(`Failed to fetch scene ${i}`);
+                    const data = await response.json();
+                    
+                    const lines = data.map(item => {
+                        const speakerName = `Speaker ${item.speaker}`;
+                        
+                        let correctedAudio = '';
+                        if (item.audioPath) {
+                            // フォルダ名の変更と、日本語ファイル名対応のためのURLエンコード
+                            const replacedPath = item.audioPath.replace('clips/', `scenes/Output_Job${i}/clips/`);
+                            correctedAudio = encodeURI(replacedPath);
+                        }
+                        
+                        return {
+                            speaker: speakerName,
+                            rawJp: item.japaneseFurigana,
+                            speakText: item.japaneseFurigana.replace(/\(.*?\)/g, ''),
+                            english: item.exampleEn || "Translation not available.",
+                            romaji: item.exampleRomaji || "",
+                            audioPath: correctedAudio
+                        };
+                    });
+                    scenes.push({ lines: lines });
+                } catch (e) {
+                    console.error(`Error loading scene ${i}:`, e);
+                    scenes.push({ lines: [] });
+                }
+            }
+            await updateTranslations();
+        }
+
+        async function loadSRT(langCode) {
+            if (srtDataCache[langCode]) return srtDataCache[langCode];
+            try {
+                const response = await fetch(`translations/sub_${langCode}.srt`);
+                if (!response.ok) return null;
+                const text = await response.text();
+                const blocks = text.trim().split(/\r?\n\r?\n/);
+                // SRTの各ブロックから字幕テキスト部分（3行目以降）を抽出して配列にする
+                const srtTexts = blocks.map(block => {
+                    const lines = block.split(/\r?\n/);
+                    return lines.length >= 3 ? lines.slice(2).join('\n').trim() : '';
+                });
+                
+                srtDataCache[langCode] = srtTexts;
+                return srtTexts;
+            } catch (e) {
+                console.error(`Error loading SRT for ${langCode}:`, e);
+                return null;
+            }
+        }
+
+        async function updateTranslations() {
+            const langCode = appState.currentLang;
+            const srtTexts = await loadSRT(langCode);
+            if (!srtTexts || srtTexts.length === 0) return;
+
+            let globalIdx = 0;
+            scenes.forEach(scene => {
+                // 各シーンの先頭に存在する「タイトル行（SRTの1ブロック分）」を正確に1つスキップ
+                globalIdx++;
+                
+                scene.lines.forEach(line => {
+                    if (globalIdx < srtTexts.length) {
+                        line.english = srtTexts[globalIdx] || "Translation not available.";
+                    }
+                    globalIdx++;
+                });
+            });
+        }
+
+        function generateRomaji(text) {
+            // Simple mapping for demonstration purposes
+            const map = {
+                'こんにちは':'konnichiwa', 'おはよう':'ohayou', 'ありがとう':'arigatou',
+                'はい':'hai', 'いいえ':'iie', 'すみません':'sumimasen'
+            };
+            let romaji = text;
+            for (let k in map) {
+                romaji = romaji.replace(new RegExp(k, 'g'), map[k]);
+            }
+            return romaji || "Romaji not fully generated";
+        }
+
+        function formatJapanese(rawJp, hideFurigana) {
+            // 正規表現を修正し、漢字（と「々」）の直後にあるカッコのみを「ふりがな」として処理します
+            return rawJp.replace(/([\u4E00-\u9FFF\u3005]+)\((.*?)\)/g, (match, kanji, ruby) => {
+                if (hideFurigana) {
+                    return `<span class="kanji-hidden" onclick="revealFurigana(this)"><span class="kanji-text">${kanji}</span><span class="kanji-revealed">${ruby}</span></span>`;
+                } else {
+                    return `<ruby>${kanji}<rt>${ruby}</rt></ruby>`;
+                }
+            });
+        }
+
+        window.revealFurigana = function(element) {
+            element.classList.toggle('show-ruby');
+        };
+
+        function renderScene() {
+            const container = document.getElementById('dialogue-list');
+            container.innerHTML = '';
+            
+            const scene = scenes[appState.currentSceneIndex];
+            
+            scene.lines.forEach((line, index) => {
+                const isSpeaker1 = line.speaker === "Speaker 1";
+                const alignment = isSpeaker1 ? "self-start" : "self-end";
+                const bgColor = isSpeaker1 ? "speaker-1-bg border border-gray-200" : "speaker-2-bg border border-green-100";
+                const borderRadius = isSpeaker1 ? "rounded-tr-2xl rounded-br-2xl rounded-bl-2xl" : "rounded-tl-2xl rounded-br-2xl rounded-bl-2xl";
+                const icon = isSpeaker1 ? "fa-user-tie" : "fa-user";
+                const iconColor = isSpeaker1 ? "text-gray-500" : "text-green-600";
+
+                const jpFormatted = formatJapanese(line.rawJp, appState.hideFurigana);
+
+                let extraContent = '';
+                if (appState.showRomaji) {
+                    extraContent += `<div class="text-sm text-gray-500 mt-2 font-mono bg-gray-50 p-2 rounded">${line.romaji}</div>`;
+                }
+                if (appState.showTranslation) {
+                    extraContent += `<div class="text-sm text-gray-700 mt-2 italic border-l-2 border-gray-300 pl-2">${line.english}</div>`;
+                }
+
+                // Roleplay logic
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+                const blurClass = isMuted ? "blur-sm opacity-50 hover:blur-none hover:opacity-100 transition-all duration-300 cursor-pointer" : "";
+                const titleText = isMuted ? "title='Hover to reveal (Roleplay mode)'" : "";
+
+                const html = `
+                    <div class="flex gap-3 max-w-[95%] sm:max-w-[85%] ${alignment} fade-in" style="animation-delay: ${index * 0.05}s">
+                        ${isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                        
+                        <div class="flex flex-col gap-1 w-full">
+                            <div class="text-xs text-gray-500 font-medium px-1 ${!isSpeaker1 ? 'text-right' : ''}">${line.speaker} ${isMuted ? ' <span class="text-purple-600 font-bold ml-1"><i class="fa-solid fa-microphone-lines"></i> Your Turn</span>' : ''}</div>
+                            <div class="${bgColor} ${borderRadius} p-4 shadow-sm relative group w-full transition-shadow duration-300">
+                                <div class="flex items-start gap-3 justify-between">
+                                    <div class="flex-1 ${blurClass}" ${titleText}>
+                                        <div class="text-[1.05rem] leading-loose break-words tracking-wide font-medium">
+                                            ${jpFormatted}
+                                        </div>
+                                        ${extraContent}
+                                    </div>
+                                    <button onclick="playAudio('${line.audioPath ? line.audioPath.replace(/'/g, "\\'") : ''}')" class="shrink-0 w-8 h-8 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-400 hover:text-blue-600 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300" title="Play audio">
+                                        <i class="fa-solid fa-volume-high"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        ${!isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                    </div>
+                `;
+                container.insertAdjacentHTML('beforeend', html);
+            });
+        }
+
+        let currentAudio = null;
+
+        function playAudio(audioPath) {
+            if (currentAudio) {
+                currentAudio.pause();
+            }
+            if (!audioPath) return;
+            currentAudio = new Audio(audioPath);
+            currentAudio.playbackRate = 0.85;
+            currentAudio.play().catch(e => console.error("Audio play failed:", e));
+        }
+
+        async function playEntireScene() {
+            const playBtnIcon = document.querySelector('#play-scene-btn i');
+
+            if (appState.isPlaying) {
+                if (currentAudio) currentAudio.pause();
+                appState.isPlaying = false;
+                playBtnIcon.className = 'fa-solid fa-play';
+                document.querySelectorAll('#dialogue-list > div > div > div.p-4').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                return;
+            }
+
+            appState.isPlaying = true;
+            playBtnIcon.className = 'fa-solid fa-stop';
+            const scene = scenes[appState.currentSceneIndex];
+            
+            for (let i = 0; i < scene.lines.length; i++) {
+                if (!appState.isPlaying) break; 
+                
+                const line = scene.lines[i];
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+
+                const allMessageBubbles = document.querySelectorAll('#dialogue-list > div > div > div.p-4');
+                if (allMessageBubbles[i]) {
+                    allMessageBubbles.forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                    allMessageBubbles[i].classList.add('ring-2', isMuted ? 'ring-purple-400' : 'ring-blue-400');
+                    allMessageBubbles[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+                
+                if (isMuted) {
+                    const waitTime = 1500 + (line.speakText.length * 150);
+                    await new Promise(r => setTimeout(r, waitTime));
+                } else {
+                    if (line.audioPath) {
+                        await new Promise(resolve => {
+                            if (currentAudio) currentAudio.pause();
+                            currentAudio = new Audio(line.audioPath);
+                            currentAudio.playbackRate = 0.85;
+                            currentAudio.onended = resolve;
+                            currentAudio.onerror = resolve;
+                            currentAudio.play().catch(e => {
+                                console.error("Audio play failed in loop:", e);
+                                resolve();
+                            });
+                        });
+                    } else {
+                        await new Promise(r => setTimeout(r, 1000));
+                    }
+                }
+                
+                await new Promise(r => setTimeout(r, 600));
+            }
+
+            if (appState.isPlaying) {
+                document.querySelectorAll('#dialogue-list > div > div > div.p-4').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+            }
+
+            appState.isPlaying = false;
+            playBtnIcon.className = 'fa-solid fa-play';
+        }
+
+        function startQuiz() {
+            appState.score = 0;
+            appState.currentQuestionIndex = 0;
+            
+            const typeSelector = document.getElementById('quiz-type-selector');
+            if (typeSelector) {
+                appState.quizType = typeSelector.value;
+            }
+            
+            if (appState.quizType === 'kanji') {
+                quizData = quizDataKanji;
+            } else if (appState.quizType === 'culture') {
+                quizData = quizDataCulture;
+            } else if (appState.quizType === 'grammar') {
+                quizData = quizDataGrammar;
+            }
+            
+            document.getElementById('quiz-intro').classList.add('hidden');
+            document.getElementById('quiz-result').classList.add('hidden');
+            document.getElementById('quiz-area').classList.remove('hidden');
+            
+            loadQuestion();
+        }
+
+        function loadQuestion() {
+            appState.isAnswering = false;
+            const qData = quizData[appState.currentQuestionIndex];
+            
+            document.getElementById('quiz-progress').innerText = `Question ${appState.currentQuestionIndex + 1} / ${quizData.length}`;
+            document.getElementById('quiz-score').innerText = `Score: ${appState.score}`;
+            document.getElementById('quiz-question').innerHTML = qData.q;
+            
+            const optionsContainer = document.getElementById('quiz-options');
+            optionsContainer.innerHTML = '';
+            
+            // 選択肢のインデックスを保持したままシャッフル
+            const shuffledOptions = qData.options.map((opt, idx) => ({ text: opt, originalIndex: idx }));
+            for (let i = shuffledOptions.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffledOptions[i], shuffledOptions[j]] = [shuffledOptions[j], shuffledOptions[i]];
+            }
+            
+            shuffledOptions.forEach((opt) => {
+                const btn = document.createElement('button');
+                btn.className = "w-full bg-white border-2 border-gray-200 hover:border-blue-500 hover:bg-blue-50 text-gray-700 font-bold py-4 px-6 rounded-xl text-lg sm:text-xl transition-all shadow-sm text-left sm:text-center";
+                btn.innerHTML = opt.text;
+                btn.dataset.originalIndex = opt.originalIndex;
+                btn.onclick = () => checkAnswer(opt.originalIndex, btn);
+                optionsContainer.appendChild(btn);
+            });
+        }
+
+        function checkAnswer(selectedIndex, btnElement) {
+            if (appState.isAnswering) return;
+            appState.isAnswering = true;
+            
+            const correctIndex = quizData[appState.currentQuestionIndex].answer;
+            const isCorrect = selectedIndex === correctIndex;
+            
+            if (isCorrect) {
+                appState.score++;
+                btnElement.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50', 'text-gray-700');
+                btnElement.classList.add('bg-green-500', 'text-white', 'border-green-500');
+            } else {
+                btnElement.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50', 'text-gray-700');
+                btnElement.classList.add('bg-red-500', 'text-white', 'border-red-500');
+                
+                // シャッフル後の配置に対応した正解のハイライト
+                const allButtons = document.getElementById('quiz-options').children;
+                for (let btn of allButtons) {
+                    if (parseInt(btn.dataset.originalIndex) === correctIndex) {
+                        btn.classList.remove('border-gray-200');
+                        btn.classList.add('border-green-500', 'bg-green-50', 'text-green-700');
+                    }
+                }
+            }
+            
+            document.getElementById('quiz-score').innerText = `Score: ${appState.score}`;
+            
+            setTimeout(() => {
+                appState.currentQuestionIndex++;
+                if (appState.currentQuestionIndex < quizData.length) {
+                    loadQuestion();
+                } else {
+                    showResult();
+                }
+            }, 1200);
+        }
+
+        function showResult() {
+            document.getElementById('quiz-area').classList.add('hidden');
+            document.getElementById('quiz-result').classList.remove('hidden');
+            document.getElementById('final-score').innerText = appState.score;
+        }
+
+        function switchTab(tabId) {
+            appState.activeTab = tabId;
+            
+            const convBtn = document.getElementById('tab-btn-conv');
+            const quizBtn = document.getElementById('tab-btn-quiz');
+            const convDiv = document.getElementById('tab-conv');
+            const quizDiv = document.getElementById('tab-quiz');
+            
+            if (tabId === 'conv') {
+                convBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
+                quizBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
+                convDiv.classList.remove('hidden');
+                quizDiv.classList.add('hidden');
+            } else {
+                quizBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
+                convBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
+                quizDiv.classList.remove('hidden');
+                convDiv.classList.add('hidden');
+                
+                // Reset Quiz
+                document.getElementById('quiz-intro').classList.remove('hidden');
+                document.getElementById('quiz-area').classList.add('hidden');
+                document.getElementById('quiz-result').classList.add('hidden');
+            }
+        }
+
+        window.onload = async () => {
+            // Populate Language Selector
+            const langSelector = document.getElementById('lang-selector');
+            Object.keys(LANG_MAP).forEach(langName => {
+                const opt = document.createElement('option');
+                opt.value = LANG_MAP[langName];
+                opt.text = langName;
+                if (LANG_MAP[langName] === 'en') opt.selected = true;
+                langSelector.appendChild(opt);
+            });
+
+            await parseData();
+
+            const selector = document.getElementById('scene-selector');
+            for (let i = 0; i < 10; i++) {
+                const opt = document.createElement('option');
+                opt.value = i;
+                opt.text = sceneTitles[i] || `Scene ${i + 1}`;
+                selector.appendChild(opt);
+            }
+
+            selector.addEventListener('change', (e) => {
+                appState.currentSceneIndex = parseInt(e.target.value);
+                if(appState.isPlaying) playEntireScene(); // Stop if playing
+                renderScene();
+            });
+
+            document.getElementById('toggle-romaji').addEventListener('change', (e) => {
+                appState.showRomaji = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-translation').addEventListener('change', (e) => {
+                appState.showTranslation = e.target.checked;
+                renderScene();
+            });
+
+            langSelector.addEventListener('change', async (e) => {
+                appState.currentLang = e.target.value;
+                if (appState.isPlaying) playEntireScene();
+                await updateTranslations();
+                renderScene();
+            });
+
+            document.getElementById('toggle-kanji-test').addEventListener('change', (e) => {
+                appState.hideFurigana = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('roleplay-selector').addEventListener('change', (e) => {
+                appState.roleplayMutedSpeaker = e.target.value;
+                renderScene();
+            });
+
+            document.getElementById('tab-btn-conv').addEventListener('click', () => switchTab('conv'));
+            document.getElementById('tab-btn-quiz').addEventListener('click', () => switchTab('quiz'));
+
+            renderScene();
+        };
+    </script>
+</body>
+</html>
