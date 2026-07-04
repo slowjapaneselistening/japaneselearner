@@ -1,0 +1,1203 @@
+1
+00:00:00,000 --> 00:00:10,008
+Apakah video hari ini? Ia mengenai perbualan di salon kecantikan dan kedai gunting rambut. Berhati-hati apabila bercakap, ya!
+
+2
+00:00:10,008 --> 00:00:13,008
+Senario 1: Asas Layanan Pelanggan
+
+3
+00:00:13,008 --> 00:00:15,674
+Selamat datang.
+
+4
+00:00:15,697 --> 00:00:19,330
+Adakah tuan/puan mempunyai tempahan?
+
+5
+00:00:19,353 --> 00:00:23,687
+Ya, saya ada tempahan pada pukul 10.
+
+6
+00:00:23,710 --> 00:00:26,343
+Saya Yamada.
+
+7
+00:00:26,366 --> 00:00:29,033
+Encik Yamada, betul?
+
+8
+00:00:29,056 --> 00:00:32,325
+Kami sudah menunggu tuan.
+
+9
+00:00:32,348 --> 00:00:34,983
+Tolong bantu saya, ya.
+
+10
+00:00:35,007 --> 00:00:38,907
+Boleh kami simpan barang-barang tuan?
+
+11
+00:00:38,930 --> 00:00:42,087
+Ya, tolong.
+
+12
+00:00:42,110 --> 00:00:44,745
+Ini beg saya.
+
+13
+00:00:44,769 --> 00:00:48,736
+Boleh kami simpan jaket tuan juga?
+
+14
+00:00:48,759 --> 00:00:52,638
+Oh, ya. Tolong.
+
+15
+00:00:52,661 --> 00:00:55,765
+Sila ikut saya.
+
+16
+00:00:55,788 --> 00:00:58,545
+Saya akan bawa tuan ke tempat duduk.
+
+17
+00:00:58,569 --> 00:01:01,207
+Terima kasih.
+
+18
+00:01:01,230 --> 00:01:04,897
+Hari ini cuaca baik, ya.
+
+19
+00:01:04,920 --> 00:01:07,858
+Betul.
+
+20
+00:01:07,881 --> 00:01:11,715
+Agak panas sedikit.
+
+21
+00:01:11,737 --> 00:01:15,571
+Ya, di luar memang panas.
+
+22
+00:01:15,594 --> 00:01:19,627
+Dalam kedai ini sejuk.
+
+23
+00:01:19,650 --> 00:01:22,150
+Syukurlah.
+
+24
+00:01:22,173 --> 00:01:25,673
+Mahu minum sesuatu?
+
+25
+00:01:25,696 --> 00:01:29,037
+Air sejuk, tolong.
+
+26
+00:01:29,061 --> 00:01:31,928
+Baiklah.
+
+27
+00:01:31,951 --> 00:01:35,817
+Saya akan bawa air sejuk.
+
+28
+00:01:35,840 --> 00:01:38,474
+Terima kasih.
+
+29
+00:01:38,497 --> 00:01:41,063
+Terima kasih, sangat membantu.
+
+30
+00:01:41,086 --> 00:01:45,228
+Staf yang bertanggungjawab akan datang sebentar lagi.
+
+31
+00:01:45,252 --> 00:01:48,752
+Baik, saya tunggu.
+
+32
+00:01:48,775 --> 00:01:51,710
+Tolong tunggu sebentar.
+
+33
+00:01:51,733 --> 00:01:54,600
+Baiklah.
+
+34
+00:01:54,623 --> 00:02:01,728
+Pautan ke laman web untuk mengulang kaji video hari ini ada di bahagian penerangan dan komen teratas. *Laman web mungkin akan dipadam tanpa notis.
+
+35
+00:02:01,728 --> 00:02:04,728
+Senario 2: Cara Menanyakan Masa Tunggu
+
+36
+00:02:04,728 --> 00:02:08,028
+Selamat datang.
+
+37
+00:02:08,051 --> 00:02:10,751
+Maaf,
+
+38
+00:02:10,774 --> 00:02:16,130
+Saya tidak membuat tempahan, bolehkah?
+
+39
+00:02:16,153 --> 00:02:20,526
+Ya, boleh.
+
+40
+00:02:20,550 --> 00:02:24,716
+Adakah ramai pelanggan sekarang?
+
+41
+00:02:24,739 --> 00:02:27,673
+Betul.
+
+42
+00:02:27,697 --> 00:02:32,364
+Ada dua orang pelanggan di hadapan.
+
+43
+00:02:32,387 --> 00:02:36,464
+Berapa lama saya perlu tunggu?
+
+44
+00:02:36,488 --> 00:02:40,397
+Kira-kira 30 minit.
+
+45
+00:02:40,420 --> 00:02:43,171
+Baiklah.
+
+46
+00:02:43,195 --> 00:02:45,361
+Saya akan tunggu.
+
+47
+00:02:45,384 --> 00:02:50,418
+Sila duduk di kerusi sebelah sana dan tunggu.
+
+48
+00:02:50,441 --> 00:02:56,074
+Baik, bolehkah saya baca majalah?
+
+49
+00:02:56,097 --> 00:02:59,130
+Tentu boleh.
+
+50
+00:02:59,153 --> 00:03:01,420
+Sila.
+
+51
+00:03:01,443 --> 00:03:04,309
+Terima kasih.
+
+52
+00:03:04,332 --> 00:03:09,847
+Musim ini banyak hujan, ya.
+
+53
+00:03:09,871 --> 00:03:14,337
+Ya, sering hujan.
+
+54
+00:03:14,360 --> 00:03:17,929
+Adakah tuan membawa payung?
+
+55
+00:03:17,952 --> 00:03:21,622
+Ya, saya ada.
+
+56
+00:03:21,646 --> 00:03:25,821
+Penyangkut payung ada di sebelah pintu.
+
+57
+00:03:25,844 --> 00:03:29,678
+Oh, saya letakkan di situ.
+
+58
+00:03:29,701 --> 00:03:32,697
+Maaf telah membuat anda menunggu.
+
+59
+00:03:32,720 --> 00:03:36,359
+Seterusnya, sila.
+
+60
+00:03:36,383 --> 00:03:39,549
+Ya, saya lah.
+
+61
+00:03:39,572 --> 00:03:43,521
+Silakan duduk di kerusi ini.
+
+62
+00:03:43,544 --> 00:03:47,111
+Tolong bantu saya, ya.
+
+63
+00:03:47,134 --> 00:03:57,142
+Jika anda dengar, sila beri komen.
+
+64
+00:03:57,142 --> 00:04:00,142
+Senario 3: Cara Mengubah Gaya Rambut dan Warna Rambut
+
+65
+00:04:00,142 --> 00:04:05,009
+Hari ini, gaya rambut seperti apa yang anda mahu?
+
+66
+00:04:05,032 --> 00:04:09,965
+Saya mahu pendekkan sedikit.
+
+67
+00:04:09,988 --> 00:04:13,488
+Berapa banyak yang hendak dipotong?
+
+68
+00:04:13,511 --> 00:04:18,883
+Potong keseluruhan sekitar 3 sentimeter.
+
+69
+00:04:18,907 --> 00:04:21,479
+Baiklah.
+
+70
+00:04:21,503 --> 00:04:25,437
+Bagaimana dengan poni?
+
+71
+00:04:25,460 --> 00:04:31,360
+Poni biarlah sekitar paras mata.
+
+72
+00:04:31,383 --> 00:04:33,928
+Baiklah.
+
+73
+00:04:33,951 --> 00:04:37,950
+Adakah anda mahu menukar warna rambut juga?
+
+74
+00:04:37,974 --> 00:04:43,333
+Ya, saya mahu warna yang lebih cerah sedikit.
+
+75
+00:04:43,356 --> 00:04:47,189
+Bagaimana dengan warna dalam gambar ini?
+
+76
+00:04:47,212 --> 00:04:49,916
+Bagus juga.
+
+77
+00:04:49,939 --> 00:04:53,514
+Saya mahu warna itu.
+
+78
+00:04:53,538 --> 00:04:56,857
+Adakah anda mahu perm juga?
+
+79
+00:04:56,880 --> 00:05:01,113
+Tidak, saya tidak mahu perm.
+
+80
+00:05:01,136 --> 00:05:03,670
+Baiklah.
+
+81
+00:05:03,692 --> 00:05:07,192
+Hanya potongan dan pewarnaan rambut, ya?
+
+82
+00:05:07,216 --> 00:05:09,449
+Ya.
+
+83
+00:05:09,472 --> 00:05:12,550
+Berapa harganya?
+
+84
+00:05:12,574 --> 00:05:16,974
+Jumlah keseluruhannya ialah 8000 yen.
+
+85
+00:05:16,997 --> 00:05:21,264
+Berapa lama masa yang diperlukan?
+
+86
+00:05:21,287 --> 00:05:24,953
+Kira-kira 2 jam.
+
+87
+00:05:24,976 --> 00:05:27,476
+Baiklah.
+
+88
+00:05:27,499 --> 00:05:29,809
+Tiada masalah.
+
+89
+00:05:29,833 --> 00:05:33,009
+Baiklah, mari kita mulakan.
+
+90
+00:05:33,033 --> 00:05:35,982
+Tolong bantu saya, ya.
+
+91
+00:05:36,005 --> 00:05:41,705
+Jika ada apa-apa yang mengganggu anda, sila beritahu.
+
+92
+00:05:41,728 --> 00:05:45,231
+Baik, saya faham.
+
+93
+00:05:45,254 --> 00:05:48,254
+Senario 4: Arahan Potongan Rambut
+
+94
+00:05:48,254 --> 00:05:52,087
+Hari ini, apa yang anda mahu lakukan?
+
+95
+00:05:52,110 --> 00:05:55,810
+Sama seperti biasa, tolong.
+
+96
+00:05:55,833 --> 00:06:00,733
+Sisi dan belakang akan dipendekkan, ya?
+
+97
+00:06:00,757 --> 00:06:05,790
+Ya, sila gunakan mesin pemotong rambut.
+
+98
+00:06:05,813 --> 00:06:10,154
+Mesin pemotong berapa milimeter yang hendak digunakan?
+
+99
+00:06:10,177 --> 00:06:14,557
+Gunakan 6 milimeter untuk memendekkannya.
+
+100
+00:06:14,580 --> 00:06:18,847
+Rambut di atas mahu dibiarkan panjang?
+
+101
+00:06:18,870 --> 00:06:24,207
+Tidak, potong sedikit juga di bahagian atas.
+
+102
+00:06:24,231 --> 00:06:27,097
+Baiklah.
+
+103
+00:06:27,120 --> 00:06:30,877
+Bagaimana dengan bahagian sisi rambut?
+
+104
+00:06:30,901 --> 00:06:34,735
+Biarkan panjang biasa.
+
+105
+00:06:34,758 --> 00:06:37,991
+Baiklah.
+
+106
+00:06:38,014 --> 00:06:42,781
+Adakah kita perlu membersihkan sekitar telinga juga?
+
+107
+00:06:42,804 --> 00:06:48,870
+Ya, pastikan rambut tidak menutupi telinga.
+
+108
+00:06:48,893 --> 00:06:52,685
+Bagaimana bentuk bahagian tengkuk?
+
+109
+00:06:52,709 --> 00:06:56,613
+Biarkan secara semula jadi.
+
+110
+00:06:56,636 --> 00:06:59,307
+Baiklah.
+
+111
+00:06:59,330 --> 00:07:02,597
+Kita akan mencukur janggut juga, ya?
+
+112
+00:07:02,620 --> 00:07:08,053
+Ya, saya suka dicukur janggut, tolong.
+
+113
+00:07:08,076 --> 00:07:12,111
+Adakah kita perlu menyusun kening juga?
+
+114
+00:07:12,134 --> 00:07:17,077
+Ya, nipiskan sedikit.
+
+115
+00:07:17,101 --> 00:07:19,801
+Baiklah.
+
+116
+00:07:19,824 --> 00:07:22,973
+Baiklah, saya akan mula memotong.
+
+117
+00:07:22,997 --> 00:07:26,830
+Tolong bantu saya, ya.
+
+118
+00:07:26,853 --> 00:07:31,286
+Jika terasa sakit, sila beritahu saya dengan segera.
+
+119
+00:07:31,309 --> 00:07:35,178
+Baik, saya faham.
+
+120
+00:07:35,202 --> 00:07:38,202
+Adegan 5: Mencuci Rambut di Salon Kecantikan
+
+121
+00:07:38,202 --> 00:07:42,502
+Saya akan membawa anda ke tempat cucian rambut.
+
+122
+00:07:42,525 --> 00:07:45,002
+Ya.
+
+123
+00:07:45,025 --> 00:07:48,925
+Silakan duduk di kerusi ini.
+
+124
+00:07:48,948 --> 00:07:52,505
+Baik, saya duduk.
+
+125
+00:07:52,529 --> 00:07:56,196
+Saya akan mencondongkan kerusi ini.
+
+126
+00:07:56,219 --> 00:07:58,919
+Baiklah.
+
+127
+00:07:58,942 --> 00:08:02,442
+Adakah leher anda sakit?
+
+128
+00:08:02,465 --> 00:08:06,098
+Tidak, tidak mengapa.
+
+129
+00:08:06,121 --> 00:08:09,754
+Bagaimana suhu air ini?
+
+130
+00:08:09,777 --> 00:08:12,856
+Sangat sesuai.
+
+131
+00:08:12,880 --> 00:08:17,813
+Tidak terlalu panas atau terlalu sejuk, kan?
+
+132
+00:08:17,836 --> 00:08:21,569
+Sama sekali tidak ada masalah.
+
+133
+00:08:21,593 --> 00:08:25,426
+Baiklah, saya akan mula mencuci rambut anda.
+
+134
+00:08:25,449 --> 00:08:27,882
+Silakan.
+
+135
+00:08:27,905 --> 00:08:32,057
+Bagaimana tekanan saya?
+
+136
+00:08:32,081 --> 00:08:36,435
+Boleh lebih kuat sedikit.
+
+137
+00:08:36,458 --> 00:08:40,425
+Baik, bagaimana dengan kekuatan ini?
+
+138
+00:08:40,448 --> 00:08:44,915
+Ah, sangat selesa!
+
+139
+00:08:44,938 --> 00:08:48,639
+Adakah ada tempat yang gatal?
+
+140
+00:08:48,662 --> 00:08:51,581
+Tiada masalah.
+
+141
+00:08:51,605 --> 00:08:55,146
+Sekarang, saya akan bilas.
+
+142
+00:08:55,169 --> 00:08:57,035
+Ya.
+
+143
+00:08:57,058 --> 00:08:59,976
+Terima kasih atas kerjasama anda.
+
+144
+00:09:00,000 --> 00:09:03,136
+Mari kembali ke tempat duduk asal.
+
+145
+00:09:03,159 --> 00:09:06,593
+Terima kasih banyak.
+
+146
+00:09:06,616 --> 00:09:09,616
+Adegan 6: Kehidupan Sibuk dan Percutian Onsen yang Menenangkan
+
+147
+00:09:09,616 --> 00:09:14,649
+Adakah kerja anda sibuk akhir-akhir ini?
+
+148
+00:09:14,672 --> 00:09:16,811
+Ya.
+
+149
+00:09:16,835 --> 00:09:21,402
+Setiap hari saya bekerja lebih masa.
+
+150
+00:09:21,425 --> 00:09:24,812
+Itu memang meletihkan.
+
+151
+00:09:24,836 --> 00:09:28,503
+Adakah anda dapat cuti?
+
+152
+00:09:28,526 --> 00:09:35,433
+Hujung minggu saya cuti, tapi saya hanya tidur kerana keletihan.
+
+153
+00:09:35,456 --> 00:09:40,589
+Sesekali, anda perlu merehatkan diri.
+
+154
+00:09:40,612 --> 00:09:42,920
+Betul.
+
+155
+00:09:42,944 --> 00:09:46,914
+Saya mahu pergi ke suatu tempat.
+
+156
+00:09:46,937 --> 00:09:50,576
+Bagaimana kalau pergi ke onsen?
+
+157
+00:09:50,599 --> 00:09:53,333
+Bagus juga.
+
+158
+00:09:53,356 --> 00:09:58,189
+Saya mahu berendam di onsen dan berehat.
+
+159
+00:09:58,212 --> 00:10:04,118
+Baru-baru ini ada onsen baru yang dibuka berdekatan.
+
+160
+00:10:04,142 --> 00:10:06,375
+Betulkah?
+
+161
+00:10:06,398 --> 00:10:09,316
+Saya tidak tahu.
+
+162
+00:10:09,339 --> 00:10:14,607
+Ya, katanya sangat cantik dan luas.
+
+163
+00:10:14,631 --> 00:10:19,185
+Mungkin saya akan pergi hujung minggu ini.
+
+164
+00:10:19,209 --> 00:10:22,709
+Anda mesti pergi cuba.
+
+165
+00:10:22,731 --> 00:10:28,604
+Dengan cara ini, sudah berapa tahun kedai ini beroperasi?
+
+166
+00:10:28,628 --> 00:10:32,528
+Sudah dua puluh tahun.
+
+167
+00:10:32,551 --> 00:10:35,489
+Hebatnya!
+
+168
+00:10:35,512 --> 00:10:38,250
+Sudah lama sekali.
+
+169
+00:10:38,274 --> 00:10:43,818
+Alhamdulillah, ramai pelanggan tetap kami.
+
+170
+00:10:43,841 --> 00:10:49,107
+Saya suka suasana kedai ini.
+
+171
+00:10:49,130 --> 00:10:51,604
+Terima kasih.
+
+172
+00:10:51,628 --> 00:10:55,062
+Saya sangat gembira mendengarnya.
+
+173
+00:10:55,085 --> 00:10:58,318
+Saya akan datang lagi.
+
+174
+00:10:58,341 --> 00:11:01,315
+Kami akan menantikan kedatangan anda.
+
+175
+00:11:01,339 --> 00:11:04,605
+Tolong bantu saya, ya.
+
+176
+00:11:04,628 --> 00:11:07,628
+Adegan 7: Cara Mengisi Masa Semasa Mengaplikasikan Ubat
+
+177
+00:11:07,628 --> 00:11:13,662
+Sekarang saya akan sapukan ubat pewarna ini.
+
+178
+00:11:13,685 --> 00:11:17,318
+Ya, tolong.
+
+179
+00:11:17,341 --> 00:11:21,608
+Adakah ia pedih pada kulit kepala?
+
+180
+00:11:21,631 --> 00:11:26,331
+Setakat ini, tidak ada masalah.
+
+181
+00:11:26,354 --> 00:11:31,632
+Jika terasa sakit, beritahu saya dengan segera, ya.
+
+182
+00:11:31,655 --> 00:11:35,171
+Baik, saya faham.
+
+183
+00:11:35,195 --> 00:11:40,152
+Anda mahu membaca majalah atau tablet?
+
+184
+00:11:40,175 --> 00:11:44,209
+Tolong pinjamkan saya tablet.
+
+185
+00:11:44,232 --> 00:11:47,365
+Inilah dia.
+
+186
+00:11:47,388 --> 00:11:50,721
+Anda juga boleh menonton video.
+
+187
+00:11:50,744 --> 00:11:54,011
+Terima kasih.
+
+188
+00:11:54,034 --> 00:11:57,586
+Saya nak tengok filem.
+
+189
+00:11:57,610 --> 00:12:01,676
+Anda mahu kopi atau teh?
+
+190
+00:12:01,699 --> 00:12:06,893
+Kalau begitu, saya nak ais kopi, tolong.
+
+191
+00:12:06,917 --> 00:12:11,250
+Anda mahu susu dan gula?
+
+192
+00:12:11,273 --> 00:12:15,173
+Susu saja, tolong.
+
+193
+00:12:15,196 --> 00:12:18,229
+Baiklah.
+
+194
+00:12:18,252 --> 00:12:21,352
+Maaf telah membuat anda menunggu.
+
+195
+00:12:21,375 --> 00:12:24,609
+Ini ais kopi anda.
+
+196
+00:12:24,632 --> 00:12:27,498
+Terima kasih.
+
+197
+00:12:27,521 --> 00:12:30,155
+Terima kasih (saya minum).
+
+198
+00:12:30,178 --> 00:12:36,411
+Kita tunggu lebih kurang dua puluh minit untuk ubat ini menyerap.
+
+199
+00:12:36,434 --> 00:12:41,209
+Baik, saya akan berehat dengan tenang.
+
+200
+00:12:41,232 --> 00:12:43,932
+Anda tidak sejuk, kan?
+
+201
+00:12:43,955 --> 00:12:48,748
+Anda mahu guna selimut?
+
+202
+00:12:48,771 --> 00:12:51,742
+Tiada masalah.
+
+203
+00:12:51,766 --> 00:12:54,599
+Saya tidak sejuk.
+
+204
+00:12:54,622 --> 00:12:59,603
+Jika ada apa-apa, panggil saya, ya.
+
+205
+00:12:59,627 --> 00:13:03,606
+Baik, terima kasih banyak.
+
+206
+00:13:03,629 --> 00:13:06,629
+Senario 8: Langkah-langkah Mencukur Muka / Langkah Asas Mencukur Muka
+
+207
+00:13:06,629 --> 00:13:12,096
+Sekarang, saya akan mencukur muka anda.
+
+208
+00:13:12,119 --> 00:13:15,152
+Saya akan mencondongkan kerusi ini.
+
+209
+00:13:15,175 --> 00:13:18,509
+Ya, tolong.
+
+210
+00:13:18,532 --> 00:13:23,765
+Saya akan letakkan tuala hangat di wajah anda.
+
+211
+00:13:23,788 --> 00:13:28,130
+Wah, sedapnya!
+
+212
+00:13:28,153 --> 00:13:31,490
+Tidak terlalu panas, kan?
+
+213
+00:13:31,513 --> 00:13:36,111
+Tidak, suhunya betul-betul pas.
+
+214
+00:13:36,135 --> 00:13:40,534
+Saya akan sapukan krim pencukur ini.
+
+215
+00:13:40,558 --> 00:13:45,430
+Bagaimana keadaan kulit anda?
+
+216
+00:13:45,453 --> 00:13:48,645
+Adakah kulit anda kering atau kasar?
+
+217
+00:13:48,669 --> 00:13:53,606
+Mungkin sedikit kering.
+
+218
+00:13:53,629 --> 00:13:59,096
+Kalau begitu, saya akan cukur dengan lembut.
+
+219
+00:13:59,120 --> 00:14:01,713
+Terima kasih.
+
+220
+00:14:01,736 --> 00:14:05,869
+Adakah ada bahagian yang sakit?
+
+221
+00:14:05,892 --> 00:14:08,426
+Tiada masalah.
+
+222
+00:14:08,449 --> 00:14:11,834
+Anda memang mahir!
+
+223
+00:14:11,857 --> 00:14:15,090
+Terima kasih.
+
+224
+00:14:15,113 --> 00:14:19,068
+Saya buat setiap hari.
+
+225
+00:14:19,092 --> 00:14:21,792
+Memanglah.
+
+226
+00:14:21,815 --> 00:14:24,515
+Anda seorang profesional!
+
+227
+00:14:24,538 --> 00:14:28,497
+Saya akan cukur bahagian bawah dagu juga.
+
+228
+00:14:28,520 --> 00:14:32,255
+Tolong mendongak sedikit.
+
+229
+00:14:32,279 --> 00:14:36,446
+Begini, betul?
+
+230
+00:14:36,469 --> 00:14:40,102
+Ya, bagus.
+
+231
+00:14:40,125 --> 00:14:43,392
+Tinggal sedikit lagi.
+
+232
+00:14:43,415 --> 00:14:48,348
+Saya rasa mengantuk pula.
+
+233
+00:14:48,371 --> 00:14:51,604
+Silakan berehat dengan tenang.
+
+234
+00:14:51,627 --> 00:14:53,961
+Ya.
+
+235
+00:14:53,984 --> 00:14:56,984
+Senario 9: Penataan Rambut di Salon Kecantikan / Penataan Rambut di Salon
+
+236
+00:14:56,984 --> 00:15:01,022
+Sekarang, saya akan mengeringkan rambut anda.
+
+237
+00:15:01,046 --> 00:15:04,112
+Ya, tolong.
+
+238
+00:15:04,135 --> 00:15:08,091
+Warnanya cantik, bukan?
+
+239
+00:15:08,114 --> 00:15:11,056
+Memang betul!
+
+240
+00:15:11,080 --> 00:15:14,352
+Saya sangat suka.
+
+241
+00:15:14,375 --> 00:15:18,150
+Sekarang saya akan menata rambut.
+
+242
+00:15:18,173 --> 00:15:21,806
+Mahu guna wax?
+
+243
+00:15:21,829 --> 00:15:26,096
+Ya, sapukan sedikit.
+
+244
+00:15:26,119 --> 00:15:30,752
+Biasanya awak sendiri yang menata rambut?
+
+245
+00:15:30,775 --> 00:15:36,342
+Ya, tapi saya tak begitu pandai.
+
+246
+00:15:36,366 --> 00:15:41,000
+Wax ini mudah digunakan, lho.
+
+247
+00:15:41,023 --> 00:15:44,489
+Macam mana nak guna?
+
+248
+00:15:44,512 --> 00:15:50,903
+Ambil sedikit di tangan, kemudian ratakan ke seluruh rambut.
+
+249
+00:15:50,927 --> 00:15:55,098
+Oh, nampak mudah.
+
+250
+00:15:55,122 --> 00:16:00,188
+Dahi (poni) sapukan sedikit pada akhir sekali.
+
+251
+00:16:00,211 --> 00:16:03,002
+Baiklah.
+
+252
+00:16:03,026 --> 00:16:06,393
+Esok saya akan cuba.
+
+253
+00:16:06,416 --> 00:16:11,887
+Kalau guna hair oil juga, rambut akan jadi lebih cantik.
+
+254
+00:16:11,911 --> 00:16:15,064
+Betulkah?
+
+255
+00:16:15,087 --> 00:16:18,621
+Minyak apa yang bagus?
+
+256
+00:16:18,644 --> 00:16:23,746
+Yang dijual di kedai pun sudah bagus.
+
+257
+00:16:23,769 --> 00:16:27,545
+Baiklah, saya akan beli satu.
+
+258
+00:16:27,568 --> 00:16:30,342
+Terima kasih.
+
+259
+00:16:30,366 --> 00:16:35,119
+Sekarang, tengok belakang rambut awak di cermin.
+
+260
+00:16:35,142 --> 00:16:37,928
+Bagus juga.
+
+261
+00:16:37,952 --> 00:16:40,660
+Sempurna!
+
+262
+00:16:40,683 --> 00:16:43,550
+Syukurlah.
+
+263
+00:16:43,573 --> 00:16:46,206
+Terima kasih atas kerjasama anda.
+
+264
+00:16:46,229 --> 00:16:49,962
+Terima kasih banyak.
+
+265
+00:16:49,985 --> 00:16:52,985
+Adegan 10: Potongan Rambut dan Urutan di Salon Kecantikan
+
+266
+00:16:52,985 --> 00:16:56,219
+Potongan rambut sudah selesai.
+
+267
+00:16:56,242 --> 00:16:59,579
+Bagaimana bahagian belakang?
+
+268
+00:16:59,602 --> 00:17:03,584
+Tolong tunjukkan di cermin.
+
+269
+00:17:03,608 --> 00:17:07,204
+Ini, sila lihat.
+
+270
+00:17:07,227 --> 00:17:09,927
+Nampak macam ini.
+
+271
+00:17:09,950 --> 00:17:13,183
+Terasa lebih segar.
+
+272
+00:17:13,206 --> 00:17:16,939
+Panjangnya pas.
+
+273
+00:17:16,962 --> 00:17:19,944
+Baguslah.
+
+274
+00:17:19,968 --> 00:17:23,534
+Sekarang saya akan urut bahu awak.
+
+275
+00:17:23,557 --> 00:17:26,424
+Silakan.
+
+276
+00:17:26,447 --> 00:17:30,204
+Aduh, di situ.
+
+277
+00:17:30,228 --> 00:17:33,328
+Sangat sedap!
+
+278
+00:17:33,351 --> 00:17:37,741
+Bahu awak agak keras.
+
+279
+00:17:37,764 --> 00:17:44,064
+Ya, saya banyak guna komputer akhir-akhir ini.
+
+280
+00:17:44,087 --> 00:17:47,038
+Pasti penat.
+
+281
+00:17:47,062 --> 00:17:51,295
+Rehatlah dengan baik.
+
+282
+00:17:51,318 --> 00:17:55,152
+Baik, terima kasih banyak.
+
+283
+00:17:55,175 --> 00:17:59,369
+Baiklah, sekarang pembayaran.
+
+284
+00:17:59,392 --> 00:18:02,359
+Sila ke kaunter.
+
+285
+00:18:02,382 --> 00:18:05,882
+Baik. Berapa harganya?
+
+286
+00:18:05,905 --> 00:18:12,300
+Potongan rambut dan cukur muka, jumlahnya RM45.
+
+287
+00:18:12,323 --> 00:18:16,590
+Boleh bayar dengan kad kredit?
+
+288
+00:18:16,613 --> 00:18:20,946
+Ya, boleh guna kad.
+
+289
+00:18:20,969 --> 00:18:26,003
+Baiklah, saya akan guna kad.
+
+290
+00:18:26,026 --> 00:18:28,665
+Baiklah, tuan.
+
+291
+00:18:28,688 --> 00:18:33,054
+Sila masukkan nombor PIN di sini.
+
+292
+00:18:33,077 --> 00:18:35,911
+Ya.
+
+293
+00:18:35,934 --> 00:18:38,846
+Terima kasih.
+
+294
+00:18:38,869 --> 00:18:43,373
+Ini kad dan resit awak.
+
+295
+00:18:43,397 --> 00:18:46,332
+Terima kasih.
+
+296
+00:18:46,356 --> 00:18:51,889
+Kali berikutnya, datang semula dalam masa sebulan.
+
+297
+00:18:51,912 --> 00:18:54,613
+Baiklah.
+
+298
+00:18:54,637 --> 00:18:57,273
+Saya akan datang lagi.
+
+299
+00:18:57,296 --> 00:19:00,363
+Terima kasih banyak.
+
+300
+00:19:00,386 --> 00:19:03,252
+Hati-hati di jalan.
+
+301
+00:19:03,275 --> 00:19:06,209
+Selamat tinggal.

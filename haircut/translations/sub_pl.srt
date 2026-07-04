@@ -1,0 +1,1203 @@
+1
+00:00:00,000 --> 00:00:10,008
+O czym jest dzisiejszy filmik? O rozmowach w salonie fryzjerskim i zakładzie fryzjerskim. Uwaga, mówienie może być niebezpieczne!
+
+2
+00:00:10,008 --> 00:00:13,008
+Scena 1: Podstawy obsługi klienta
+
+3
+00:00:13,008 --> 00:00:15,674
+Dzień dobry.
+
+4
+00:00:15,697 --> 00:00:19,330
+Czy ma pan/pani rezerwację?
+
+5
+00:00:19,353 --> 00:00:23,687
+Tak, rezerwowałam/em na dziesiątą.
+
+6
+00:00:23,710 --> 00:00:26,343
+Nazywam się Yamada.
+
+7
+00:00:26,366 --> 00:00:29,033
+Pani/Pana Yamada, zgadza się?
+
+8
+00:00:29,056 --> 00:00:32,325
+Oczekiwaliśmy na pana/panią.
+
+9
+00:00:32,348 --> 00:00:34,983
+Bardzo proszę.
+
+10
+00:00:35,007 --> 00:00:38,907
+Przyjmiemy pana/pani bagaż.
+
+11
+00:00:38,930 --> 00:00:42,087
+Tak, proszę.
+
+12
+00:00:42,110 --> 00:00:44,745
+To ta torba.
+
+13
+00:00:44,769 --> 00:00:48,736
+Czy mogę też wziąć pana/pani kurtkę?
+
+14
+00:00:48,759 --> 00:00:52,638
+A, tak. Proszę.
+
+15
+00:00:52,661 --> 00:00:55,765
+Proszę tędy.
+
+16
+00:00:55,788 --> 00:00:58,545
+Zaprowadzę pana/panią na miejsce.
+
+17
+00:00:58,569 --> 00:01:01,207
+Dziękuję bardzo.
+
+18
+00:01:01,230 --> 00:01:04,897
+Dzisiaj jest ładna pogoda, prawda?
+
+19
+00:01:04,920 --> 00:01:07,858
+Tak, rzeczywiście.
+
+20
+00:01:07,881 --> 00:01:11,715
+Trochę gorąco, ale...
+
+21
+00:01:11,737 --> 00:01:15,571
+Tak, na zewnątrz jest gorąco.
+
+22
+00:01:15,594 --> 00:01:19,627
+W środku jest chłodno.
+
+23
+00:01:19,650 --> 00:01:22,150
+To dobrze.
+
+24
+00:01:22,173 --> 00:01:25,673
+Czy mogę zaproponować coś do picia?
+
+25
+00:01:25,696 --> 00:01:29,037
+Poproszę wodę.
+
+26
+00:01:29,061 --> 00:01:31,928
+Oczywiście.
+
+27
+00:01:31,951 --> 00:01:35,817
+Przyniosę zimną wodę.
+
+28
+00:01:35,840 --> 00:01:38,474
+Dziękuję bardzo.
+
+29
+00:01:38,497 --> 00:01:41,063
+Byłoby świetnie.
+
+30
+00:01:41,086 --> 00:01:45,228
+Za chwilę przyjdzie osoba, która się panem/panią zajmie.
+
+31
+00:01:45,252 --> 00:01:48,752
+Dobrze, poczekam.
+
+32
+00:01:48,775 --> 00:01:51,710
+Proszę chwilę poczekać.
+
+33
+00:01:51,733 --> 00:01:54,600
+Rozumiem.
+
+34
+00:01:54,623 --> 00:02:01,728
+Link do strony, gdzie można powtórzyć materiał z dzisiejszego filmu, znajduje się w opisie oraz w pierwszym komentarzu. *Strona może zostać usunięta bez wcześniejszego powiadomienia.
+
+35
+00:02:01,728 --> 00:02:04,728
+Scena 2: Jak sprawdzić czas oczekiwania
+
+36
+00:02:04,728 --> 00:02:08,028
+Dzień dobry.
+
+37
+00:02:08,051 --> 00:02:10,751
+Przepraszam,
+
+38
+00:02:10,774 --> 00:02:16,130
+Nie mam rezerwacji, czy to problem?
+
+39
+00:02:16,153 --> 00:02:20,526
+Nie, nie ma problemu.
+
+40
+00:02:20,550 --> 00:02:24,716
+Czy teraz jest dużo klientów?
+
+41
+00:02:24,739 --> 00:02:27,673
+Tak, rzeczywiście.
+
+42
+00:02:27,697 --> 00:02:32,364
+Przed panem/panią są dwie osoby.
+
+43
+00:02:32,387 --> 00:02:36,464
+Jak długo trzeba będzie czekać?
+
+44
+00:02:36,488 --> 00:02:40,397
+Około 30 minut.
+
+45
+00:02:40,420 --> 00:02:43,171
+Rozumiem.
+
+46
+00:02:43,195 --> 00:02:45,361
+Poczekam.
+
+47
+00:02:45,384 --> 00:02:50,418
+Proszę usiąść na tamtych krzesłach i poczekać.
+
+48
+00:02:50,441 --> 00:02:56,074
+Dobrze, czy mogę poczytać magazyn?
+
+49
+00:02:56,097 --> 00:02:59,130
+Oczywiście.
+
+50
+00:02:59,153 --> 00:03:01,420
+Proszę bardzo.
+
+51
+00:03:01,443 --> 00:03:04,309
+Dziękuję bardzo.
+
+52
+00:03:04,332 --> 00:03:09,847
+W tej porze roku jest dużo deszczu, prawda?
+
+53
+00:03:09,871 --> 00:03:14,337
+Tak, często pada.
+
+54
+00:03:14,360 --> 00:03:17,929
+Ma pan/pani parasol?
+
+55
+00:03:17,952 --> 00:03:21,622
+Tak, mam.
+
+56
+00:03:21,646 --> 00:03:25,821
+Wieszak na parasole znajduje się obok drzwi.
+
+57
+00:03:25,844 --> 00:03:29,678
+A, zostawię to tutaj.
+
+58
+00:03:29,701 --> 00:03:32,697
+Przepraszam, że kazałam czekać.
+
+59
+00:03:32,720 --> 00:03:36,359
+Następna osoba, proszę.
+
+60
+00:03:36,383 --> 00:03:39,549
+Tak, to chyba ja.
+
+61
+00:03:39,572 --> 00:03:43,521
+Proszę usiąść na tym miejscu.
+
+62
+00:03:43,544 --> 00:03:47,111
+Bardzo proszę.
+
+63
+00:03:47,134 --> 00:03:57,142
+Jeśli usłyszałaś/eś, daj znać w komentarzu.
+
+64
+00:03:57,142 --> 00:04:00,142
+Scena 3: Jak zmienić fryzurę i kolor włosów
+
+65
+00:04:00,142 --> 00:04:05,009
+Jaki dzisiaj chciałabyś/chciałbyś fryzurę?
+
+66
+00:04:05,032 --> 00:04:09,965
+Chciałabym/chciałbym trochę skrócić.
+
+67
+00:04:09,988 --> 00:04:13,488
+Ile chcesz obciąć?
+
+68
+00:04:13,511 --> 00:04:18,883
+Proszę obciąć mniej więcej 3 centymetry z całości.
+
+69
+00:04:18,907 --> 00:04:21,479
+Rozumiem.
+
+70
+00:04:21,503 --> 00:04:25,437
+Co z grzywką?
+
+71
+00:04:25,460 --> 00:04:31,360
+Grzywka może być mniej więcej na wysokości oczu.
+
+72
+00:04:31,383 --> 00:04:33,928
+Oczywiście.
+
+73
+00:04:33,951 --> 00:04:37,950
+Chcesz też zmienić kolor włosów?
+
+74
+00:04:37,974 --> 00:04:43,333
+Tak, chciałabym/chciałbym jaśniejszy odcień.
+
+75
+00:04:43,356 --> 00:04:47,189
+Co sądzisz o tym kolorze na zdjęciu?
+
+76
+00:04:47,212 --> 00:04:49,916
+Bardzo ładny.
+
+77
+00:04:49,939 --> 00:04:53,514
+Poproszę ten kolor.
+
+78
+00:04:53,538 --> 00:04:56,857
+Chcesz też zrobić trwałą?
+
+79
+00:04:56,880 --> 00:05:01,113
+Nie, trwałej nie chcę.
+
+80
+00:05:01,136 --> 00:05:03,670
+Rozumiem.
+
+81
+00:05:03,692 --> 00:05:07,192
+Czyli strzyżenie i koloryzacja.
+
+82
+00:05:07,216 --> 00:05:09,449
+Tak.
+
+83
+00:05:09,472 --> 00:05:12,550
+Ile to będzie kosztować?
+
+84
+00:05:12,574 --> 00:05:16,974
+Razem będzie 8000 jenów.
+
+85
+00:05:16,997 --> 00:05:21,264
+Ile czasu to zajmie?
+
+86
+00:05:21,287 --> 00:05:24,953
+Około 2 godzin.
+
+87
+00:05:24,976 --> 00:05:27,476
+Rozumiem.
+
+88
+00:05:27,499 --> 00:05:29,809
+Nie ma problemu.
+
+89
+00:05:29,833 --> 00:05:33,009
+No to zaczynamy.
+
+90
+00:05:33,033 --> 00:05:35,982
+Bardzo proszę.
+
+91
+00:05:36,005 --> 00:05:41,705
+Jeśli coś ci nie odpowiada, daj znać.
+
+92
+00:05:41,728 --> 00:05:45,231
+Dobrze, rozumiem.
+
+93
+00:05:45,254 --> 00:05:48,254
+Scena 4: Instrukcje dotyczące strzyżenia
+
+94
+00:05:48,254 --> 00:05:52,087
+Co dzisiaj robimy?
+
+95
+00:05:52,110 --> 00:05:55,810
+Poproszę jak zawsze.
+
+96
+00:05:55,833 --> 00:06:00,733
+Boki i tył skrócimy, dobrze?
+
+97
+00:06:00,757 --> 00:06:05,790
+Tak, proszę użyć maszynki.
+
+98
+00:06:05,813 --> 00:06:10,154
+Jaką długość maszynki zastosować?
+
+99
+00:06:10,177 --> 00:06:14,557
+Proszę skrócić na 6 milimetrów.
+
+100
+00:06:14,580 --> 00:06:18,847
+Czy włosy na górze mają pozostać dłuższe?
+
+101
+00:06:18,870 --> 00:06:24,207
+Nie, proszę też trochę skrócić.
+
+102
+00:06:24,231 --> 00:06:27,097
+Oczywiście.
+
+103
+00:06:27,120 --> 00:06:30,877
+Co z bokobrodami?
+
+104
+00:06:30,901 --> 00:06:34,735
+Proszę zostawić normalną długość.
+
+105
+00:06:34,758 --> 00:06:37,991
+Rozumiem.
+
+106
+00:06:38,014 --> 00:06:42,781
+Zrobić porządek wokół uszu?
+
+107
+00:06:42,804 --> 00:06:48,870
+Tak, proszę tak, żeby włosy nie dotykały uszu.
+
+108
+00:06:48,893 --> 00:06:52,685
+Jaką formę nadać włosom z tyłu głowy?
+
+109
+00:06:52,709 --> 00:06:56,613
+Proszę zrobić naturalny kształt.
+
+110
+00:06:56,636 --> 00:06:59,307
+Rozumiem.
+
+111
+00:06:59,330 --> 00:07:02,597
+Zrobimy też golenie?
+
+112
+00:07:02,620 --> 00:07:08,053
+Tak, golenie bardzo lubię, proszę zrobić.
+
+113
+00:07:08,076 --> 00:07:12,111
+Przypilnujemy też brwi?
+
+114
+00:07:12,134 --> 00:07:17,077
+Tak, proszę je trochę wyregulować.
+
+115
+00:07:17,101 --> 00:07:19,801
+Oczywiście.
+
+116
+00:07:19,824 --> 00:07:22,973
+No to tniemy.
+
+117
+00:07:22,997 --> 00:07:26,830
+Bardzo proszę.
+
+118
+00:07:26,853 --> 00:07:31,286
+Jeśli będzie bolało, proszę od razu powiedzieć.
+
+119
+00:07:31,309 --> 00:07:35,178
+Dobrze, rozumiem.
+
+120
+00:07:35,202 --> 00:07:38,202
+Scena 5: Mycie włosów w salonie fryzjerskim
+
+121
+00:07:38,202 --> 00:07:42,502
+Zaprowadzę panią do stanowiska do mycia włosów.
+
+122
+00:07:42,525 --> 00:07:45,002
+Tak.
+
+123
+00:07:45,025 --> 00:07:48,925
+Proszę usiąść na tym fotelu.
+
+124
+00:07:48,948 --> 00:07:52,505
+Dobrze, siadam.
+
+125
+00:07:52,529 --> 00:07:56,196
+Teraz opuszczę fotel.
+
+126
+00:07:56,219 --> 00:07:58,919
+Rozumiem.
+
+127
+00:07:58,942 --> 00:08:02,442
+Czy szyja nie boli?
+
+128
+00:08:02,465 --> 00:08:06,098
+Nie, wszystko w porządku.
+
+129
+00:08:06,121 --> 00:08:09,754
+Jak temperatura wody?
+
+130
+00:08:09,777 --> 00:08:12,856
+Idealna.
+
+131
+00:08:12,880 --> 00:08:17,813
+Nie jest za gorąca ani za zimna?
+
+132
+00:08:17,836 --> 00:08:21,569
+W ogóle nie ma problemu.
+
+133
+00:08:21,593 --> 00:08:25,426
+To zaczynamy mycie.
+
+134
+00:08:25,449 --> 00:08:27,882
+Proszę bardzo.
+
+135
+00:08:27,905 --> 00:08:32,057
+Jak nacisk?
+
+136
+00:08:32,081 --> 00:08:36,435
+Może być trochę mocniej.
+
+137
+00:08:36,458 --> 00:08:40,425
+Czy taka siła jest odpowiednia?
+
+138
+00:08:40,448 --> 00:08:44,915
+Och, jest bardzo przyjemnie.
+
+139
+00:08:44,938 --> 00:08:48,639
+Nie swędzi gdzieś?
+
+140
+00:08:48,662 --> 00:08:51,581
+Nie ma problemu.
+
+141
+00:08:51,605 --> 00:08:55,146
+Teraz spłuczemy.
+
+142
+00:08:55,169 --> 00:08:57,035
+Tak.
+
+143
+00:08:57,058 --> 00:08:59,976
+Dziękuję za cierpliwość.
+
+144
+00:09:00,000 --> 00:09:03,136
+Wróćmy na miejsce.
+
+145
+00:09:03,159 --> 00:09:06,593
+Dziękuję bardzo.
+
+146
+00:09:06,616 --> 00:09:09,616
+Scena 6: Zabiegane dni i relaksujący wypad do onsen
+
+147
+00:09:09,616 --> 00:09:14,649
+Ostatnio dużo pracy?
+
+148
+00:09:14,672 --> 00:09:16,811
+Tak.
+
+149
+00:09:16,835 --> 00:09:21,402
+Codziennie pracuję po godzinach.
+
+150
+00:09:21,425 --> 00:09:24,812
+To musi być ciężko.
+
+151
+00:09:24,836 --> 00:09:28,503
+Masz jakieś dni wolne?
+
+152
+00:09:28,526 --> 00:09:35,433
+Weekendy mam wolne, ale jestem tak zmęczony, że tylko śpię.
+
+153
+00:09:35,456 --> 00:09:40,589
+Od czasu do czasu warto się zrelaksować.
+
+154
+00:09:40,612 --> 00:09:42,920
+Tak, rzeczywiście.
+
+155
+00:09:42,944 --> 00:09:46,914
+Chciałbym gdzieś pojechać.
+
+156
+00:09:46,937 --> 00:09:50,576
+Co powiesz na onsen?
+
+157
+00:09:50,599 --> 00:09:53,333
+Bardzo ładny.
+
+158
+00:09:53,356 --> 00:09:58,189
+Chciałbym się wykąpać w onsen i odpocząć.
+
+159
+00:09:58,212 --> 00:10:04,118
+Niedaleko otwarto nowy onsen.
+
+160
+00:10:04,142 --> 00:10:06,375
+Naprawdę?
+
+161
+00:10:06,398 --> 00:10:09,316
+Nie wiedziałem.
+
+162
+00:10:09,339 --> 00:10:14,607
+Tak, podobno jest bardzo ładny i przestronny.
+
+163
+00:10:14,631 --> 00:10:19,185
+Może wybiorę się w ten weekend.
+
+164
+00:10:19,209 --> 00:10:22,709
+Naprawdę powinna pani pojechać.
+
+165
+00:10:22,731 --> 00:10:28,604
+Przy okazji, od ilu lat prowadzicie ten salon?
+
+166
+00:10:28,628 --> 00:10:32,528
+Już dwadzieścia lat.
+
+167
+00:10:32,551 --> 00:10:35,489
+Niesamowite!
+
+168
+00:10:35,512 --> 00:10:38,250
+To długo.
+
+169
+00:10:38,274 --> 00:10:43,818
+Dzięki temu mamy wielu stałych klientów.
+
+170
+00:10:43,841 --> 00:10:49,107
+Bardzo lubię atmosferę tego salonu.
+
+171
+00:10:49,130 --> 00:10:51,604
+Dziękuję bardzo.
+
+172
+00:10:51,628 --> 00:10:55,062
+Bardzo mi miło to słyszeć.
+
+173
+00:10:55,085 --> 00:10:58,318
+Będę przychodzić nadal.
+
+174
+00:10:58,341 --> 00:11:01,315
+Czekamy na panią.
+
+175
+00:11:01,339 --> 00:11:04,605
+Bardzo proszę.
+
+176
+00:11:04,628 --> 00:11:07,628
+Scena 7: Jak spędzić czas podczas nakładania leku
+
+177
+00:11:07,628 --> 00:11:13,662
+Teraz nałożę kolorujący preparat.
+
+178
+00:11:13,685 --> 00:11:17,318
+Tak, proszę.
+
+179
+00:11:17,341 --> 00:11:21,608
+Nie szczypie w skórę głowy?
+
+180
+00:11:21,631 --> 00:11:26,331
+Na razie wszystko w porządku.
+
+181
+00:11:26,354 --> 00:11:31,632
+Jeśli poczujesz ból, od razu daj znać.
+
+182
+00:11:31,655 --> 00:11:35,171
+Dobrze, rozumiem.
+
+183
+00:11:35,195 --> 00:11:40,152
+Chcesz poczytać magazyn albo tablet?
+
+184
+00:11:40,175 --> 00:11:44,209
+Poproszę tablet.
+
+185
+00:11:44,232 --> 00:11:47,365
+Proszę bardzo.
+
+186
+00:11:47,388 --> 00:11:50,721
+Możesz też obejrzeć film.
+
+187
+00:11:50,744 --> 00:11:54,011
+Dziękuję bardzo.
+
+188
+00:11:54,034 --> 00:11:57,586
+Obejrzę film.
+
+189
+00:11:57,610 --> 00:12:01,676
+Napije się pan kawy czy herbaty?
+
+190
+00:12:01,699 --> 00:12:06,893
+Poproszę mrożoną kawę.
+
+191
+00:12:06,917 --> 00:12:11,250
+Dodać mleko lub cukier?
+
+192
+00:12:11,273 --> 00:12:15,173
+Tylko mleko, proszę.
+
+193
+00:12:15,196 --> 00:12:18,229
+Oczywiście.
+
+194
+00:12:18,252 --> 00:12:21,352
+Przepraszam, że kazałam czekać.
+
+195
+00:12:21,375 --> 00:12:24,609
+Oto pańska mrożona kawa.
+
+196
+00:12:24,632 --> 00:12:27,498
+Dziękuję bardzo.
+
+197
+00:12:27,521 --> 00:12:30,155
+Dziękuję.
+
+198
+00:12:30,178 --> 00:12:36,411
+Musimy poczekać około dwudziestu minut, aż preparat się utrwali.
+
+199
+00:12:36,434 --> 00:12:41,209
+Tak, odpoczywam sobie.
+
+200
+00:12:41,232 --> 00:12:43,932
+Nie jest panu zimno?
+
+201
+00:12:43,955 --> 00:12:48,748
+Czy życzy pan sobie koc?
+
+202
+00:12:48,771 --> 00:12:51,742
+Nie ma problemu.
+
+203
+00:12:51,766 --> 00:12:54,599
+Nie, nie jest mi zimno.
+
+204
+00:12:54,622 --> 00:12:59,603
+Jeśli będzie pan czegoś potrzebował, proszę dać znać.
+
+205
+00:12:59,627 --> 00:13:03,606
+Dziękuję bardzo.
+
+206
+00:13:03,629 --> 00:13:06,629
+Scena 8: Podstawowe kroki golenia twarzy / Podstawowe etapy golenia twarzy
+
+207
+00:13:06,629 --> 00:13:12,096
+Teraz przystąpimy do golenia twarzy.
+
+208
+00:13:12,119 --> 00:13:15,152
+Odsunę fotel.
+
+209
+00:13:15,175 --> 00:13:18,509
+Tak, proszę.
+
+210
+00:13:18,532 --> 00:13:23,765
+Położę na twarzy ciepły ręcznik.
+
+211
+00:13:23,788 --> 00:13:28,130
+Och, jak przyjemnie.
+
+212
+00:13:28,153 --> 00:13:31,490
+Nie jest za gorący?
+
+213
+00:13:31,513 --> 00:13:36,111
+Nie, temperatura jest idealna.
+
+214
+00:13:36,135 --> 00:13:40,534
+Nałóżę krem do golenia.
+
+215
+00:13:40,558 --> 00:13:45,430
+Jak się pan czuje? Wszystko w porządku z cerą?
+
+216
+00:13:45,453 --> 00:13:48,645
+Nie jest podrażniona?
+
+217
+00:13:48,669 --> 00:13:53,606
+Może jest trochę sucha.
+
+218
+00:13:53,629 --> 00:13:59,096
+W takim razie będę golił bardzo delikatnie.
+
+219
+00:13:59,120 --> 00:14:01,713
+Dziękuję bardzo.
+
+220
+00:14:01,736 --> 00:14:05,869
+Nie odczuwa pan bólu nigdzie?
+
+221
+00:14:05,892 --> 00:14:08,426
+Nie ma problemu.
+
+222
+00:14:08,449 --> 00:14:11,834
+Bardzo dobrze pan to robi.
+
+223
+00:14:11,857 --> 00:14:15,090
+Dziękuję bardzo.
+
+224
+00:14:15,113 --> 00:14:19,068
+Robię to codziennie.
+
+225
+00:14:19,092 --> 00:14:21,792
+No tak, rzeczywiście.
+
+226
+00:14:21,815 --> 00:14:24,515
+Prawdziwy profesjonalista.
+
+227
+00:14:24,538 --> 00:14:28,497
+Teraz ogolę podbródek.
+
+228
+00:14:28,520 --> 00:14:32,255
+Proszę unieść lekko głowę.
+
+229
+00:14:32,279 --> 00:14:36,446
+Tak, dobrze?
+
+230
+00:14:36,469 --> 00:14:40,102
+Tak, idealnie.
+
+231
+00:14:40,125 --> 00:14:43,392
+Już prawie koniec.
+
+232
+00:14:43,415 --> 00:14:48,348
+Zaczyna mnie ogarniać senność.
+
+233
+00:14:48,371 --> 00:14:51,604
+Proszę się zrelaksować i odpocząć.
+
+234
+00:14:51,627 --> 00:14:53,961
+Tak.
+
+235
+00:14:53,984 --> 00:14:56,984
+Scena 9: Układanie włosów w salonie fryzjerskim / Stylizacja włosów w salonie
+
+236
+00:14:56,984 --> 00:15:01,022
+Teraz wysuszę włosy.
+
+237
+00:15:01,046 --> 00:15:04,112
+Tak, proszę.
+
+238
+00:15:04,135 --> 00:15:08,091
+Świetny kolor, prawda?
+
+239
+00:15:08,114 --> 00:15:11,056
+Rzeczywiście, wygląda świetnie.
+
+240
+00:15:11,080 --> 00:15:14,352
+Bardzo mi się podoba.
+
+241
+00:15:14,375 --> 00:15:18,150
+Teraz zrobię stylizację.
+
+242
+00:15:18,173 --> 00:15:21,806
+Nałożyć wosku?
+
+243
+00:15:21,829 --> 00:15:26,096
+Tak, proszę trochę nałożyć.
+
+244
+00:15:26,119 --> 00:15:30,752
+Zazwyczaj układasz włosy sam?
+
+245
+00:15:30,775 --> 00:15:36,342
+Tak, nie jestem zbyt dobry w tym.
+
+246
+00:15:36,366 --> 00:15:41,000
+Ten wosk jest bardzo łatwy w użyciu.
+
+247
+00:15:41,023 --> 00:15:44,489
+Jak go używać?
+
+248
+00:15:44,512 --> 00:15:50,903
+Weź trochę na dłoń i wmasuj we włosy.
+
+249
+00:15:50,927 --> 00:15:55,098
+Rozumiem. Wydaje się proste.
+
+250
+00:15:55,122 --> 00:16:00,188
+Na grzywkę nałóż tylko trochę na koniec.
+
+251
+00:16:00,211 --> 00:16:03,002
+Rozumiem.
+
+252
+00:16:03,026 --> 00:16:06,393
+Od jutra spróbuję.
+
+253
+00:16:06,416 --> 00:16:11,887
+Jeśli użyjesz też olejku do włosów, będą piękniejsze.
+
+254
+00:16:11,911 --> 00:16:15,064
+Naprawdę?
+
+255
+00:16:15,087 --> 00:16:18,621
+Jaki olejek jest dobry?
+
+256
+00:16:18,644 --> 00:16:23,746
+Polecam te dostępne w sklepach.
+
+257
+00:16:23,769 --> 00:16:27,545
+To też jeden kupię.
+
+258
+00:16:27,568 --> 00:16:30,342
+Dziękuję bardzo.
+
+259
+00:16:30,366 --> 00:16:35,119
+Proszę spojrzeć na tył w lustrze.
+
+260
+00:16:35,142 --> 00:16:37,928
+Bardzo ładny.
+
+261
+00:16:37,952 --> 00:16:40,660
+Idealnie.
+
+262
+00:16:40,683 --> 00:16:43,550
+To dobrze.
+
+263
+00:16:43,573 --> 00:16:46,206
+Dziękuję za cierpliwość.
+
+264
+00:16:46,229 --> 00:16:49,962
+Dziękuję bardzo.
+
+265
+00:16:49,985 --> 00:16:52,985
+Scena 10: Strzyżenie i masaż w salonie fryzjerskim
+
+266
+00:16:52,985 --> 00:16:56,219
+Strzyżenie zakończone.
+
+267
+00:16:56,242 --> 00:16:59,579
+Jak tył?
+
+268
+00:16:59,602 --> 00:17:03,584
+Proszę pokazać w lustrze.
+
+269
+00:17:03,608 --> 00:17:07,204
+Proszę bardzo.
+
+270
+00:17:07,227 --> 00:17:09,927
+Wygląda tak.
+
+271
+00:17:09,950 --> 00:17:13,183
+Świetnie się odświeżyło.
+
+272
+00:17:13,206 --> 00:17:16,939
+Długość idealna.
+
+273
+00:17:16,962 --> 00:17:19,944
+Cieszę się.
+
+274
+00:17:19,968 --> 00:17:23,534
+Zrobię masaż ramion.
+
+275
+00:17:23,557 --> 00:17:26,424
+Proszę bardzo.
+
+276
+00:17:26,447 --> 00:17:30,204
+O, tam.
+
+277
+00:17:30,228 --> 00:17:33,328
+Bardzo przyjemnie.
+
+278
+00:17:33,351 --> 00:17:37,741
+Ramiona są trochę spięte.
+
+279
+00:17:37,764 --> 00:17:44,064
+Tak, ostatnio dużo pracuję przy komputerze.
+
+280
+00:17:44,087 --> 00:17:47,038
+Musisz być zmęczony.
+
+281
+00:17:47,062 --> 00:17:51,295
+Proszę odpocząć.
+
+282
+00:17:51,318 --> 00:17:55,152
+Dziękuję bardzo.
+
+283
+00:17:55,175 --> 00:17:59,369
+Teraz do kasy.
+
+284
+00:17:59,392 --> 00:18:02,359
+Proszę podejść do kasy.
+
+285
+00:18:02,382 --> 00:18:05,882
+Ile płacę?
+
+286
+00:18:05,905 --> 00:18:12,300
+Strzyżenie i golenie to 4500 jenów.
+
+287
+00:18:12,323 --> 00:18:16,590
+Czy mogę zapłacić kartą?
+
+288
+00:18:16,613 --> 00:18:20,946
+Tak, akceptujemy karty.
+
+289
+00:18:20,969 --> 00:18:26,003
+To zapłacę kartą.
+
+290
+00:18:26,026 --> 00:18:28,665
+Rozumiem.
+
+291
+00:18:28,688 --> 00:18:33,054
+Proszę podać PIN.
+
+292
+00:18:33,077 --> 00:18:35,911
+Tak.
+
+293
+00:18:35,934 --> 00:18:38,846
+Dziękuję bardzo.
+
+294
+00:18:38,869 --> 00:18:43,373
+Oto pańska karta i paragon.
+
+295
+00:18:43,397 --> 00:18:46,332
+Dziękuję bardzo.
+
+296
+00:18:46,356 --> 00:18:51,889
+Następna wizyta za około miesiąc będzie idealna.
+
+297
+00:18:51,912 --> 00:18:54,613
+Rozumiem.
+
+298
+00:18:54,637 --> 00:18:57,273
+Na pewno wrócę.
+
+299
+00:18:57,296 --> 00:19:00,363
+Dziękuję bardzo.
+
+300
+00:19:00,386 --> 00:19:03,252
+Proszę uważać.
+
+301
+00:19:03,275 --> 00:19:06,209
+Do widzenia.
