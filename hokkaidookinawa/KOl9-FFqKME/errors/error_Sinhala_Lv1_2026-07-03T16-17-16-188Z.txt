@@ -1,0 +1,28 @@
+Language: Sinhala
+Level: 1
+Error: Element count mismatch (Input:5 vs Output:3)
+
+RAW OUTPUT:
+{
+  "results": [
+       {
+           "id": 0,
+           "translated": "මහා ලෙස විශාල ය"
+       },
+       {
+           "id": 1,
+           "translated": "දිග මීටර් දහයක් තිබේ ද"
+       },
+       {
+           "id": 2,
+           "translated": "ඔව්, දහය මීටර් ඉක්මවා ඇත"
+       }]}
+
+INPUT:
+[
+  "本当に大きいです。",
+  "長さは十メートルありますか。",
+  "はい、十メートル以上あります。",
+  "重さは九トンです。",
+  "九トンですか。"
+]

@@ -1,0 +1,36 @@
+Language: Sinhala
+Level: 0
+Error: Element count mismatch (Input:1 vs Output:6)
+
+RAW OUTPUT:
+{"results": [
+    {
+        "id": 0,
+        "translated": "ජපානු භාෂාවේ 40 භාෂා පරිවර්තන ලිපිය ↓\nhttps://slowjapaneselistening.github.io/japaneselearner/hokkaidookinawa/hokkaidookinawa.html\nසටහන: පැරණි වීඩියෝවන්ට ඇති සබැඳි ඉවත් කර ඇති හැකිය."
+    },
+    {
+        "id": 1,
+        "translated": "දෛනික සංවාදයන් මගින් ප්‍රායෝගික ජපානු භාෂාව ඉගෙන ගන්න! 🇯🇵 මෙම වීඩියෝවේ දෙන්නක් දේශීය කතාකරුවන් ගෙන ගියාට ගිය ගමනක් සඳහා ගිනුම් කරන අයුරු, ගමන් ගමන් තීරණ කරන අයුරු සහ ඔවුන්ගේ ගමන් මතක බෙදන අයුරු අනුගමනය කරන්න. මෙය JLPT N5 සහ N4 ශිෂ්‍යයින් සඳහා ස්වාභාවික ශ්‍රවණ අරමුණ ඉගෙන ගැනීමට අතිශයින් ප්‍රශස්තයි."
+    },
+    {
+        "id": 2,
+        "translated": "✅ මෙම වීඩියෝවේ ඔබ ඉගෙන ගන්නේ:\n- ගමන් තීරණ සාධක: විවිධ කලාපවල කාලගුණ, උෂ්ණත්ව සහ දේශීය ආහාර ගැන සාකච්ඡා කරන අයුරු.\n- ගමන් ගිණුම් කිරීම: ටිකට් පොත කර ගැනීම, හෝටල් රිස්ව් කිරීම සහ රියක් කර ගැනීම සඳහා ප්‍රයෝජනවත් ප්‍රකාශන.\n- දේශන බැලීම සහ ක්‍රියාකාරකම්: ස්වභාවික ස්ථාන, සිංහලය, ජලය සහ ඓතිහාසික කොටු බලාගැනීම සඳහා පදය.\n- ආහාර සහ ආහාර ගැනීම: දේශීය ලද ආහාර නියම කිරීම සහ විස්තර කිරීම සඳහා ස්වාභාවික ප්‍රකාශන.\n- මතක බෙදීම: ඔබගේ ප්‍රියතම අත්දැකීම් ගැන සාකච්ඡා කරන අයුරු සහ ඉතිහාස ගමනක් පසුව බලාපෙන අයුරු."
+    },
+    {
+        "id": 3,
+        "translated": "✨ සත්‍යතාවය සහ ගුණාත්මක සහතිකය:\nමෙම වීඩියෝවේ ඇති සෑම වාක්‍යයක්ම දේශීය ජපානු ගුරුවරුන්ගෙන් අතින් පරිශීලනය කර ඇති අතර අධ්‍යාපනිය සඳහා සත්‍යතාවය සහ ස්වාභාවික පදනම සහතික කර ඇත. පිළිගැනීම ස්පස්ටව කිරීම සඳහා අන්තර්ජාලික උපාංග භාවිතා කරන අතර, සියලු නාද සහ විරාම මානව වෘත්තියන්ගෙන් පරීක්ෂා කර ඇති අතර අස්වාභාවික \"රොබෝ\" නාද ඉවත් කිරීම සඳහා ප්‍රමාණවත් පරීක්ෂණ කර ඇත. මෙය ඔබගේ අන්තර්ජාලය සඳහා සකසා ඇති 100% මුල් අධ්‍යාපන අන්තර්ගතයකි."
+    },
+    {
+        "id": 4,
+        "translated": "📍 සංවාද කාල සටහන:\n0:00 ගිනුම් ගමන් තීරණ: හොක්කයිඩෝ හෝ ඔකිනාවා\n2:36 ජපානයේ ප්‍රසිද්ධ ස්ථාන ගවේෂණය\n5:00 ගිනුම් ගමන් අලුත් ගැනීම\n7:02 සප්පොරෝ සහ ඔටාරු ගවේෂණය\n9:44 ෆුරානෝ සහ බියේ දේශන රියක් කිරීම\n12:11 අසාහියාම සිංහලයේ ආකර්ෂණය\n14:24 ඔකිනාවා ගමනේ ආරම්භය\n16:48 ජලයේ මහා විශාල සෙල් මාලුව\n19:21 කෝරි දූපතේ රිය කිරීම සහ වී පිටිය\n21:50 ගමනේ මතක"
+    },
+    {
+        "id": 5,
+        "translated": "#ජපානුභාෂාවගෙනගන්න #ජපානුසංවාද #jlptn5 #jlptn4 #ජපානුශ්‍රවණය #අන්තර්ජාලජපානු #ජපානයටගමන #හොක්කයිඩෝ #ඔකිනාවා #slowjapanese"
+    }
+]}
+
+INPUT:
+[
+  "Script with 40-language translation ↓\nhttps://slowjapaneselistening.github.io/japaneselearner/hokkaidookinawa/hokkaidookinawa.html\nNote: Links for older videos may be removed.\n\nMaster practical Japanese through natural dialogues! 🇯🇵 In this video, follow along with two native speakers as they plan a summer vacation, compare destinations, and share their travel memories. This is perfect for JLPT N5 and N4 learners looking to build authentic listening comprehension.\n\n✅ What you will master in this video:\n- Destination Comparison: How to discuss weather, temperatures, and local foods of different regions.\n- Travel Planning: Useful expressions for booking tickets, reserving hotels, and arranging rental cars.\n- Sightseeing & Activities: Vocabulary for exploring nature spots, zoos, aquariums, and historical castles.\n- Food & Dining: Natural phrases for ordering and describing local delicacies like seafood and ramen.\n- Sharing Memories: How to talk about your favorite experiences and look back on a past trip.\n\n✨ Authenticity & Quality Assurance:\nEvery sentence in this video has been manually refined and proofread by native Japanese teachers to ensure educational accuracy and natural phrasing. While we utilize advanced AI tools for clear pronunciation, all intonations and pauses have been strictly audited and corrected by human professionals to eliminate unnatural \"robotic\" sounds. This is 100% original educational content created for your immersion.\n\n📍 Conversation Timestamps:\n0:00 Summer Travel Destinations: Hokkaido or Okinawa\n2:36 Exploring Famous Places in Japan\n5:00 Summer Vacation Travel Plans\n7:02 Exploring Sapporo and Otaru\n9:44 Scenic Drive in Furano and Biei\n12:11 The Charm of Asahiyama Zoo\n14:24 The Start of an Okinawan Trip\n16:48 The Giant Whale Shark at the Aquarium\n19:21 Drive and Beach at Kouri Island\n21:50 Memories of the Trip\n\n#learnjapanese #japaneseconversation #jlptn5 #jlptn4 #japaneselistening #immersionjapanese #traveljapan #hokkaido #okinawa #slowjapanese"
+]
