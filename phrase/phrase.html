@@ -67,9 +67,9 @@
         }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800 min-h-screen pb-12">
-    <header class="bg-white shadow-sm sticky top-0 z-50">
-        <div class="max-w-4xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+<body class="bg-gray-50 text-gray-800 min-h-screen">
+    <header class="bg-white shadow-sm sticky top-0 z-50 landscape:hidden">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
             <div class="flex items-center gap-3">
                 <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-md">
                     <i class="fa-solid fa-language text-xl"></i>
@@ -88,105 +88,118 @@
         </div>
     </header>
 
-    <main class="max-w-4xl mx-auto px-4 mt-6">
+    <main class="max-w-7xl mx-auto px-4 mt-2 landscape:mt-6 md:mt-6 flex flex-col landscape:flex-row md:flex-row gap-6 items-start">
         
-        <!-- TAB 1: Conversation -->
-        <div id="tab-conv">
-            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
-                
-                <!-- Controls Bar -->
-                <div class="bg-gray-50/50 p-4 border-b border-gray-100 flex flex-col gap-3">
-                    <!-- 1段目: セレクターとプレイボタン -->
-                    <div class="flex flex-col md:flex-row items-center gap-2 w-full">
-                        <select id="scene-selector" class="w-full md:w-auto max-w-md flex-1 bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2 shadow-sm font-medium truncate">
-                            <!-- Options populated by JS -->
-                        </select>
+        <div class="contents landscape:block md:block w-full landscape:sticky md:sticky landscape:top-4 md:top-20 landscape:w-1/2 md:w-1/2 space-y-4 landscape:max-h-[calc(100vh-2rem)] landscape:overflow-y-auto pr-1">
+            
+           <div class="w-full bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden p-4 sticky top-[124px] z-40 landscape:z-auto landscape:static md:static">
+                <div class="relative w-full pb-[56.25%] h-0">
+                    <div id="player" class="absolute top-0 left-0 w-full h-full rounded-xl"></div>
+                </div>
+            </div>
 
-                        <!-- Roleplay Selector -->
-                        <select id="roleplay-selector" class="w-full md:w-auto bg-purple-50 border border-purple-200 text-purple-800 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2 font-medium shadow-sm shrink-0">
-                            <option value="none">👤 Roleplay: Off</option>
-                            <option value="Speaker 1">🔇 Mute Speaker 1</option>
-                            <option value="Speaker 2">🔇 Mute Speaker 2</option>
-                        </select>
+            <div class="w-full bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden relative z-30">
+                <div class="bg-gray-50/50 p-4 flex flex-col gap-3">
+                    <div class="flex flex-col gap-2 w-full">
+                        <select id="scene-selector" class="w-full bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2 shadow-sm font-medium truncate">
+                            </select>
 
-                        <button onclick="playEntireScene()" id="play-scene-btn" class="w-full md:w-auto bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm shrink-0">
-                            <i class="fa-solid fa-play"></i> Play
-                        </button>
+                        <div class="flex gap-2 w-full">
+                            <select id="roleplay-selector" class="flex-1 bg-purple-50 border border-purple-200 text-purple-800 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2 font-medium shadow-sm truncate">
+                                <option value="none">👤 Roleplay: Off</option>
+                                <option value="Speaker 1">🔇 Mute Speaker 1</option>
+                                <option value="Speaker 2">🔇 Mute Speaker 2</option>
+                            </select>
+
+                            <button onclick="playEntireScene()" id="play-scene-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm shrink-0">
+                                <i class="fa-solid fa-play"></i> Play
+                            </button>
+                        </div>
                     </div>
 
-                    <!-- 2段目: 表示オプション（翻訳・ふりがな・ローマ字） -->
-                    <div class="flex flex-wrap items-center gap-4 text-sm font-medium text-gray-600 border-t border-gray-100 pt-2">
-                        <div class="flex items-center gap-2 cursor-pointer text-gray-600 hover:text-blue-600 transition-colors">
+                    <div class="flex flex-wrap items-center gap-4 text-xs font-medium text-gray-600 border-t border-gray-100 pt-2">
+                        <div class="flex items-center gap-1.5 cursor-pointer text-gray-600 hover:text-blue-600 transition-colors">
                             <input type="checkbox" id="toggle-translation" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
                             <span>Translation:</span>
-                            <select id="lang-selector" class="bg-white border border-gray-300 text-gray-700 text-xs rounded p-1 font-medium focus:ring-blue-500 focus:border-blue-500">
+                            <select id="lang-selector" class="bg-white border border-gray-300 text-gray-700 text-xs rounded p-0.5 font-medium focus:ring-blue-500 focus:border-blue-500">
                             </select>
                         </div>
-                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                        <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
                             <input type="checkbox" id="toggle-kanji-test" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
                             Hide Furigana
                         </label>
-                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                        <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
                             <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
                             Romaji
                         </label>
                     </div>
-                </div>
 
-                <!-- Dialogue Area -->
-                <div class="p-4 sm:p-6 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-gray-50/30 min-h-[500px]">
-                    <div id="dialogue-list" class="flex flex-col gap-6">
-                        <!-- Dialogue bubbles inserted by JS -->
+                    <div class="hidden landscape:flex bg-gray-100 p-1 rounded-lg border border-gray-200 mt-2">
+                        <button id="tab-btn-conv-land" onclick="switchTab('conv')" class="flex-1 px-4 py-1.5 rounded-md bg-white shadow text-blue-600 font-medium text-xs transition-all text-center">
+                            <i class="fa-regular fa-comments mr-1"></i> Conversation
+                        </button>
+                        <button id="tab-btn-quiz-land" onclick="switchTab('quiz')" class="flex-1 px-4 py-1.5 rounded-md text-gray-500 hover:text-gray-700 font-medium text-xs transition-all text-center">
+                            <i class="fa-solid fa-pen-to-square mr-1"></i> Kanji Quiz
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- TAB 2: Kanji Quiz -->
-        <div id="tab-quiz" class="hidden">
-            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-10 text-center max-w-2xl mx-auto">
-                <div id="quiz-intro">
-                    <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">
-                        <i class="fa-solid fa-graduation-cap"></i>
-                    </div>
-                    <h2 class="text-2xl font-bold text-gray-800 mb-2">日本語クイズテスト (Japanese Quiz)</h2>
-                    <p class="text-gray-500 mb-4">クイズの種類を選んで「スタート」を押してください。</p>
-                    
-                    <div class="max-w-xs mx-auto mb-6">
-                        <select id="quiz-type-selector" class="w-full bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block p-2.5 font-medium shadow-sm text-center">
-                            <option value="kanji">🔤 漢字の読み方テスト (Kanji Reading)</option>
-                            <option value="culture">🏮 正月文化・内容理解クイズ (Culture & Context)</option>
-                            <option value="grammar">📝 重要文法・表現の穴埋めクイズ (Grammar Fill-in)</option>
-                        </select>
-                    </div>
-
-                    <button onclick="startQuiz()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-transform transform hover:scale-105">
-                        スタート (Start)
-                    </button>
-                </div>
-
-                <div id="quiz-area" class="hidden">
-                    <div class="flex justify-between items-center text-sm font-medium text-gray-500 mb-6">
-                        <span id="quiz-progress" class="bg-gray-100 py-1 px-3 rounded-full">Question 1/10</span>
-                        <span id="quiz-score" class="text-green-600">Score: 0</span>
-                    </div>
-                    
-                    <h3 id="quiz-question" class="text-3xl sm:text-4xl font-bold text-gray-800 mb-8 py-6 bg-gray-50 rounded-xl border border-gray-100">
-                        <!--q -->
-                    </h3>
-                    
-                    <div id="quiz-options" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <!-- Options buttons -->
+        <div class="w-full pt-4 landscape:pt-0 md:pt-0 landscape:w-1/2 md:w-1/2 pb-12 relative z-30">
+            
+            <div id="tab-conv">
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                    <div class="p-4 sm:p-6 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-gray-50/30 min-h-[500px]">
+                        <div id="dialogue-list" class="flex flex-col gap-6">
+                            </div>
                     </div>
                 </div>
+            </div>
 
-                <div id="quiz-result" class="hidden">
-                    <div class="text-6xl mb-4">🏆</div>
-                    <h2 class="text-2xl font-bold text-gray-800 mb-2">お疲れ様でした！</h2>
-                    <p class="text-xl text-gray-600 mb-6">Your Score: <span id="final-score" class="font-bold text-green-600 text-3xl"></span> / 10</p>
-                    <button onclick="startQuiz()" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-colors">
-                        もう一度プレイ (Play Again)
-                    </button>
+            <div id="tab-quiz" class="hidden">
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-10 text-center w-full mx-auto">
+                    <div id="quiz-intro">
+                        <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-2">日本語クイズテスト (Japanese Quiz)</h2>
+                        <p class="text-gray-500 mb-4">クイズの種類を選んで「スタート」を押してください。</p>
+                        
+                        <div class="max-w-xs mx-auto mb-6">
+                            <select id="quiz-type-selector" class="w-full bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block p-2.5 font-medium shadow-sm text-center">
+                                <option value="kanji">🔤 漢字の読み方テスト (Kanji Reading)</option>
+                                <option value="culture">🏮内容理解クイズ (Culture & Context)</option>
+                                <option value="grammar">📝 重要文法・表現の穴埋めクイズ (Grammar Fill-in)</option>
+                            </select>
+                        </div>
+
+                        <button onclick="startQuiz()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-transform transform hover:scale-105">
+                            スタート (Start)
+                        </button>
+                    </div>
+
+                    <div id="quiz-area" class="hidden">
+                        <div class="flex justify-between items-center text-sm font-medium text-gray-500 mb-6">
+                            <span id="quiz-progress" class="bg-gray-100 py-1 px-3 rounded-full">Question 1/10</span>
+                            <span id="quiz-score" class="text-green-600">Score: 0</span>
+                        </div>
+                        
+                        <h3 id="quiz-question" class="text-xl sm:text-2xl font-bold text-gray-800 mb-8 py-6 bg-gray-50 rounded-xl border border-gray-100 px-4">
+                            </h3>
+                        
+                        <div id="quiz-options" class="grid grid-cols-1 gap-4">
+                            </div>
+                    </div>
+
+                    <div id="quiz-result" class="hidden">
+                        <div class="text-6xl mb-4">🏆</div>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-2">お疲れ様でした！</h2>
+                        <p class="text-xl text-gray-600 mb-6">Your Score: <span id="final-score" class="font-bold text-green-600 text-3xl"></span> / 10</p>
+                        <button onclick="startQuiz()" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-colors">
+                            もう一度プレイ (Play Again)
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -209,18 +222,23 @@
             quizType: 'kanji'
         };
 
-       const sceneTitles = {
-    1: { ja: "レストランでの注文", en: "Ordering at a Restaurant" },
-    2: { ja: "洋服の買い物", en: "Shopping for Clothes" },
-    3: { ja: "タクシーでの移動", en: "Taking a Taxi" },
-    4: { ja: "ホテルのチェックインとトラブル", en: "Hotel Check-in and Troubles" },
-    5: { ja: "職場での先輩との会話", en: "Talking to a Senior at Work" },
-    6: { ja: "観光地での写真撮影と案内", en: "Taking Photos and Sightseeing Guide" },
-    7: { ja: "病院での診察", en: "Visiting a Clinic" },
-    8: { ja: "トラブル・カバンの盗難", en: "Emergency: Stolen Bag" },
-    9: { ja: "友達とのカフェの約束", en: "Hanging Out with a Friend at a Cafe" },
-    10: { ja: "オンライン会議のトラブル", en: "Online Meeting Troubles" }
-};
+      // =================================================================
+// 1. タイトル・シーン数の修正（sceneTitles 配列 と parseData ループ回数）
+// =================================================================
+
+      const sceneTitles = [
+            "Scene 1: 注文の基本 / Basic Ordering in Japanese",
+            "Scene 2: 服の試着と交換 / Clothing Fitting and Exchange",
+            "Scene 3: 道の混み具合と対応 / Navigating Traffic and Customer Requests",
+            "Scene 4: ホテルのチェックイン / Hotel Check-In Process",
+            "Scene 5: 日常会話の基礎 / Basic Japanese Daily Conversation",
+            "Scene 6: 写真撮影と許可の会話 / Taking Photos and Asking for Permission in Conversation",
+            "Scene 7: 病院探しと症状 / Finding a Clinic and Describing Symptoms",
+            "Scene 8: 盗まれた時の対応 / What to Do When Your Bag Is Stolen",
+            "Scene 9: 友だちとの待ち合わせ / Making Plans with Friends",
+            "Scene 10: 会議の準備と確認 / Preparing and Confirming for a Meeting"
+        ];
+
 
         const LANG_MAP = {
             'English': 'en', 'Vietnamese': 'vi', 'Indonesian': 'id', 'Thai': 'th', 'Korean': 'ko', 
@@ -236,283 +254,58 @@
         let srtDataCache = {};
 // rawData（台本テキスト）はフォルダから自動取得するため削除しました
 
-        const quizDataKanji = [
-    {
-        scene: 1,
-       q: "「お願い」の読み方は？<br><span class='text-sm text-gray-500 font-normal'>(What is the reading of 「お願い」?)</span>",
-        options: ["おねがい", "おがねい", "おこがい", "おねが"],
-        answer: 0,
-        desc: "「お願い（おねがい）」は頼みごとをする時の基本表現です。"
-    },
-    {
-        scene: 2,
-       q: "「注文」の読み方は？<br><span class='text-sm text-gray-500 font-normal'>(What is the reading of 「注文」?)</span>",
-        options: ["ちゅうもん", "ちゅうぶん", "じゅうもん", "しゅうもん"],
-        answer: 0,
-        desc: "「注文（ちゅうもん）」は品物やサービスを要求することです。"
-    },
-    {
-        scene: 3,
-       q: "「試着」の読み方は？<br><span class='text-sm text-gray-500 font-normal'>(What is the reading of 「試着」?)</span>",
-        options: ["しちゃく", "こころちゃく", "ためちゃく", "しさく"],
-        answer: 0,
-        desc: "「試着（しちゃく）」は買う前に服を着てサイズや似合うか確かめることです。"
-    },
-    {
-        scene: 4,
-       q: "「領収書」の読み方は？<br><span class='text-sm text-gray-500 font-normal'>(What is the reading of 「領収書」?)</span>",
-        options: ["りょうしゅうしょ", "りょうしゅしょ", "れいしゅうじょ", "りょうじゅうしょ"],
-        answer: 0,
-        desc: "「領収書（りょうしゅうしょ）」はお金を受け取った証明の書類です。"
-    },
-    {
-        scene: 5,
-       q: "「預かる」の読み方は？<br><span class='text-sm text-gray-500 font-normal'>(What is the reading of 「預かる」?)</span>",
-        options: ["あずかる", "まかせる", "うける", "たすかる"],
-        answer: 0,
-        desc: "「預かる（あずかる）」は人の物を受け取って一時的に保管することです。"
-    },
-    {
-        scene: 6,
-       q: "「書類」の読み方は？<br><span class='text-sm text-gray-500 font-normal'>(What is the reading of 「書類」?)</span>",
-        options: ["しょるい", "かきるい", "しょるい型", "するい"],
-        answer: 0,
-        desc: "「書類（しょるい）」は事務や証明などのための紙の文書です。"
-    },
-    {
-        scene: 7,
-       q: "「お医者さん」の読み方は？<br><span class='text-sm text-gray-500 font-normal'>(What is the reading of 「お医者さん」?)</span>",
-        options: ["おいしゃさん", "おいいしゃさん", "いささん", "おいくささん"],
-        answer: 0,
-        desc: "「お医者さん（おいしゃさん）」は医師（doctor）の親しみを持った呼び方です。"
-    },
-    {
-        scene: 8,
-       q: "「再発行」の読み方は？<br><span class='text-sm text-gray-500 font-normal'>(What is the reading of 「再発行」?)</span>",
-        options: ["さいはっこう", "さいはつぎょう", "にはっこう", "さいばっこう"],
-        answer: 0,
-        desc: "「再発行（さいはっこう）」は無くした書類やカードをもう一度作って出すことです。"
-    },
-    {
-        scene: 9,
-       q: "「詳細」の読み方は？<br><span class='text-sm text-gray-500 font-normal'>(What is the reading of 「詳細」?)</span>",
-        options: ["しょうさい", "こまさい", "しょうみん", "じょうさい"],
-        answer: 0,
-        desc: "「詳細（しょうさい）」は詳しい内容（details）のことです。"
-    },
-    {
-        scene: 10,
-       q: "「画面」の読み方は？<br><span class='text-sm text-gray-500 font-normal'>(What is the reading of 「画面」?)</span>",
-                options: ["がめん", "かくめん", "えめん", "がんめん"],
-                answer: 0,
-                desc: "「画面（がめん）」はパソコンやスマホのディスプレイに映る表示部分（screen）です。"
-            }
+      // =================================================================
+// 2. 漢字クイズデータの修正（quizDataKanji 配列）
+// =================================================================
+
+        // =================================================================
+// 2. 漢字クイズデータの修正（quizDataKanji 配列）
+// =================================================================
+
+      const quizDataKanji = [
+            { q: "「注文」の読み方は？", options: ["ちゅうもん", "じゅうもん", "ちょうもん", "ちゅうぶん"], answer: 0 },
+            { q: "「試着」の読み方は？", options: ["しちゃく", "しょちゃく", "しつちゃく", "ためちゃく"], answer: 0 },
+            { q: "「無料」の読み方は？", options: ["むりょう", "ぶむりょう", "むりお", "ゆうりょう"], answer: 0 },
+            { q: "「混む」の読み方は？", options: ["こむ", "まざむ", "あつむ", "ひさむ"], answer: 0 },
+            { q: "「領収書」の読み方は？", options: ["りょうしゅうしょ", "れいしゅうじょ", "りょうしゅしょ", "りょしゅうしょ"], answer: 0 },
+            { q: "「受付」の読み方は？", options: ["うけつけ", "おおつけ", "うけつき", "まどぐち"], answer: 0 },
+            { q: "「保険証」の読み方は？", options: ["ほけんしょう", "ほけんじょう", "ほげんしょう", "ほかんしょう"], answer: 0 },
+            { q: "「落ち着いて」の読み方は？", options: ["おちついて", "らくついて", "おつついて", "もちついて"], answer: 0 },
+            { q: "「秘密」の読み方は？", options: ["ひみつ", "ひみづ", "ひめつ", "しんみつ"], answer: 0 },
+            { q: "「議事録」の読み方は？", options: ["ぎじろく", "ぎしろく", "げじろく", "かいじろく"], answer: 0 }
+        ];
+     // =================================================================
+// 3. 内容理解クイズデータの修正（quizDataCulture 配列）
+// =================================================================
+
+        // =================================================================
+// 3. 内容理解クイズデータの修正（quizDataCulture 配列）
+// =================================================================
+
+       const quizDataCulture = [
+            { q: "<ruby>会話<rt>かいわ</rt></ruby>のなかで、ハンバーグ<ruby>定食<rt>ていしょく</rt></ruby>のほかに<ruby>何<rt>なに</rt></ruby>を<ruby>注文<rt>ちゅうもん</rt></ruby>しましたか？<br><span class='text-sm text-gray-500 font-normal'>(In the conversation, what did they order besides the Hamburg steak set meal?)</span>", options: ["<ruby>季節<rt>きせつ</rt></ruby>の<ruby>野菜<rt>やさい</rt></ruby>サラダ <span class='text-xs text-gray-500 font-normal'>(Seasonal vegetable salad)</span>", "<ruby>大盛<rt>おおもり</rt></ruby>のご<ruby>飯<rt>はん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Large serving of rice)</span>", "<ruby>冷<rt>つめ</rt></ruby>たいお<ruby>茶<rt>ちゃ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Cold tea)</span>", "チョコレートパフェ <span class='text-xs text-gray-500 font-normal'>(Chocolate parfait)</span>"], answer: 0 },
+            { q: "クレジットカードで<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>をしたとき、<ruby>返品<rt>へんぴん</rt></ruby>はいつまで<ruby>可能<rt>かのう</rt></ruby>ですか？<br><span class='text-sm text-gray-500 font-normal'>(When shopping with a credit card, until when is a return possible?)</span>", options: ["<ruby>一週間以内<rt>いっしゅうかんいない</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Within one week)</span>", "<ruby>三日以内<rt>みっかいない</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Within three days)</span>", "<ruby>一ヶ月以内<rt>いっかげついない</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Within one month)</span>", "<ruby>返品<rt>へんぴん</rt></ruby>はできない <span class='text-xs text-gray-500 font-normal'>(Cannot be returned)</span>"], answer: 0 },
+            { q: "タクシーで<ruby>東京駅<rt>とうきょうえき</rt></ruby>のどちらの<ruby>口<rt>くち</rt></ruby>へ<ruby>行<rt>い</rt></ruby>くように<ruby>頼<rt>たの</rt></ruby>みましたか？<br><span class='text-sm text-gray-500 font-normal'>(Which entrance of Tokyo Station did they ask to go to by taxi?)</span>", options: ["<ruby>八重洲口<rt>やえすぐち</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Yaesu Entrance)</span>", "<ruby>丸<rt>まる</rt></ruby>の内<ruby>口<rt>ぐち</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Marunouchi Entrance)</span>", "<ruby>日本橋口<rt>にほんばしぐち</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Nihonbashi Entrance)</span>", "<ruby>北口<rt>きたぐち</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(North Entrance)</span>"], answer: 0 },
+            { q: "ホテルの<ruby>朝食<rt>ちょうしょく</rt></ruby>は<ruby>何時<rt>なんじ</rt></ruby>から、どこで<ruby>用意<rt>ようい</rt></ruby>されていますか？<br><span class='text-sm text-gray-500 font-normal'>(From what time and where is the hotel breakfast prepared?)</span>", options: ["<ruby>朝<rt>あさ</rt></ruby>の<ruby>七時<rt>しちじ</rt></ruby>から<ruby>一階<rt>いっかい</rt></ruby>のレストラン <span class='text-xs text-gray-500 font-normal'>(From 7:00 AM at the 1st-floor restaurant)</span>", "<ruby>朝<rt>あさ</rt></ruby>の<ruby>八時<rt>はちじ</rt></ruby>から<ruby>最上階<rt>さいじょうかい</rt></ruby>のラウンジ <span class='text-xs text-gray-500 font-normal'>(From 8:00 AM at the top-floor lounge)</span>", "<ruby>朝<rt>あさ</rt></ruby>の<ruby>六時<rt>ろくじ</rt></ruby>からお<ruby>部屋<rt>へや</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(From 6:00 AM in your room)</span>", "<ruby>朝食<rt>ちょうしょく</rt></ruby>の<ruby>用意<rt>ようい</rt></ruby>はない <span class='text-xs text-gray-500 font-normal'>(No breakfast provided)</span>"], answer: 0 },
+            { q: "<ruby>先輩<rt>せんぱい</rt></ruby>にペンを<ruby>借<rt>か</rt></ruby>いたあと、<ruby>次<rt>つぎ</rt></ruby>に<ruby>頼<rt>たの</rt></ruby>まれたお<ruby>仕事<rt>しごと</rt></ruby>は何ですか？<br><span class='text-sm text-gray-500 font-normal'>(After borrowing a pen from the senior, what was the next task requested?)</span>", options: ["<ruby>書類<rt>しょるい</rt></ruby>のコピー <span class='text-xs text-gray-500 font-normal'>(Copying documents)</span>", "<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>準備<rt>じゅんび</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Preparing for a meeting)</span>", "<ruby>部屋<rt>へや</rt></ruby>の<ruby>掃除<rt>そうじ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Cleaning the room)</span>", "お<ruby>茶<rt>ちゃ</rt></ruby>をいれること <span class='text-xs text-gray-500 font-normal'>(Making tea)</span>"], answer: 0 },
+            { q: "お<ruby>城<rt>しろ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>入<rt>はい</rt></ruby>るためには、<ruby>何<rt>なに</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>だと言われましたか？<br><span class='text-sm text-gray-500 font-normal'>(What did they say is required to enter the castle?)</span>", options: ["チケット <span class='text-xs text-gray-500 font-normal'>(A ticket)</span>", "パスポート <span class='text-xs text-gray-500 font-normal'>(A passport)</span>", "<ruby>予約<rt>よやく</rt></ruby>のメール <span class='text-xs text-gray-500 font-normal'>(A reservation email)</span>", "<ruby>特<rt>とく</rt></ruby>に<ruby>何<rt>なに</rt></ruby>もいらない <span class='text-xs text-gray-500 font-normal'>(Nothing in particular)</span>"], answer: 0 },
+            { q: "<ruby>駅前<rt>えきまえ</rt></ruby>のクリニックでは、<ruby>何語<rt>なにご</rt></ruby>が<ruby>話<rt>はな</rt></ruby>せるお<ruby>医者<rt>いしゃ</rt></ruby>さんがいますか？<br><span class='text-sm text-gray-500 font-normal'>(What language can the doctor speak at the clinic in front of the station?)</span>", options: ["<ruby>英語<rt>えいご</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(English)</span>", "<ruby>ベトナム語<rt>べとなむご</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Vietnamese)</span>", "<ruby>中国語<rt>ちゅうごくご</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Chinese)</span>", "<ruby>日本語<rt>にほんご</rt></ruby>だけ <span class='text-xs text-gray-500 font-normal'>(Japanese only)</span>"], answer: 0 },
+            { q: "カバンをどこに<ruby>置<rt>お</rt></ruby>き<ruby>忘<rt>わす</rt></ruby>れて<ruby>盗<rt>ぬす</rt></ruby>まれてしまいましたか？<br><span class='text-sm text-gray-500 font-normal'>(Where did they leave their bag behind before it was stolen?)</span>", options: ["<ruby>駅<rt>えき</rt></ruby>のトイレ <span class='text-xs text-gray-500 font-normal'>(The station restroom)</span>", "タクシーの<ruby>中<rt>なか</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Inside the taxi)</span>", "ホテルのレジ <span class='text-xs text-gray-500 font-normal'>(The hotel counter)</span>", "カフェのベンチ <span class='text-xs text-gray-500 font-normal'>(The cafe bench)</span>"], answer: 0 },
+            { q: "<ruby>友だち<rt>ともだち</rt></ruby>にコンビニでいくらお<ruby>金<rt>かね</rt></ruby>を<ruby>借<rt>か</rt></ruby>りましたか？<br><span class='text-sm text-gray-500 font-normal'>(How much money did they borrow from their friend at the convenience store?)</span>", options: ["<ruby>五百円<rt>ごひゃくえん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(500 yen)</span>", "<ruby>千円<rt>せんえん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(1,000 yen)</span>", "<ruby>二千円<rt>にせんえん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(2,000 yen)</span>", "<ruby>五円<rt>ごえん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(5 yen)</span>"], answer: 0 },
+            { q: "<ruby>会話<rt>かいわ</rt></ruby>のなかで、チャットに<ruby>何<rt>なに</rt></ruby>を<ruby>書<rt>か</rt></ruby>いてほしいと<ruby>頼<rt>たの</rt></ruby>みましたか？<br><span class='text-sm text-gray-500 font-normal'>(In the conversation, what did they ask to be written in the chat?)</span>", options: ["<ruby>大事<rt>だいじ</rt></ruby>なURL <span class='text-xs text-gray-500 font-normal'>(Important URL)</span>", "<ruby>今日<rt>きょう</rt></ruby>の<ruby>日にち<rt>ひにち</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Today's date)</span>", "<ruby>名前<rt>なまえ</rt></ruby>と<ruby>住所<rt>じゅうしょ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Name and address)</span>", "パスワード <span class='text-xs text-gray-500 font-normal'>(Password)</span>"], answer: 0 }
         ];
 
-        const quizDataCulture = [
-            {
-                q: "<ruby>動画<rt>どうが</rt></ruby>では、ハンバーグ<ruby>定食<rt>ていしょく</rt></ruby>のほかに、なにを<ruby>注文<rt>ちゅうもん</rt></ruby>しましたか？<br><span class='text-sm text-gray-500 font-normal'>(In the video, what did they order in addition to the Hamburg steak set meal?)</span>",
-                options: [
-                    "<ruby>季節<rt>きせつ</rt></ruby>の<ruby>野菜<rt>やさい</rt></ruby>サラダ <span class='text-xs text-gray-500 font-normal'>(Seasonal vegetable salad)</span>",
-                    "フライドポテト <span class='text-xs text-gray-500 font-normal'>(French fries)</span>",
-                    "アイスコーヒー <span class='text-xs text-gray-500 font-normal'>(Iced coffee)</span>",
-                    "トマトスープ <span class='text-xs text-gray-500 font-normal'>(Tomato soup)</span>"
-                ],
-                answer: 0
-            },
-            {
-                q: "<ruby>服屋<rt>ふくや</rt></ruby>での<ruby>会話<rt>かいわ</rt></ruby>で、<ruby>登場人物<rt>とうじょうじんぶつ</rt></ruby>が<ruby>試着<rt>しちゃく</rt></ruby>したシャツは<ruby>何色<rt>なにいろ</rt></ruby>ですか？<br><span class='text-sm text-gray-500 font-normal'>(In the clothes store conversation, what color shirt did the character try on?)</span>",
-                options: [
-                    "<ruby>黒<rt>くろ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Black)</span>",
-                    "<ruby>白<rt>しろ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(White)</span>",
-                    "<ruby>青<rt>あお</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Blue)</span>",
-                    "<ruby>赤<rt>あか</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Red)</span>"
-                ],
-                answer: 0
-            },
-            {
-                q: "タクシーの<ruby>中<rt>なか</rt></ruby>での<ruby>会話<rt>かいわ</rt></ruby>で、どうして<ruby>急<rt>いそ</rt></ruby>いでいますか？<br><span class='text-sm text-gray-500 font-normal'>(In the taxi conversation, why are they in a hurry?)</span>",
-                options: [
-                    "<ruby>時間<rt>じかん</rt></ruby>がないから <span class='text-xs text-gray-500 font-normal'>(Because they don't have time)</span>",
-                    "<ruby>飛行機<rt>ひこうき</rt></ruby>が<ruby>遅<rt>おく</rt></ruby>れているから <span class='text-xs text-gray-500 font-normal'>(Because the flight is delayed)</span>",
-                    "トイレに<ruby>行<rt>い</rt></ruby>きたいから <span class='text-xs text-gray-500 font-normal'>(Because they want to go to the restroom)</span>",
-                    "おなかが<ruby>空<rt>す</rt></ruby>いているから <span class='text-xs text-gray-500 font-normal'>(Because they are hungry)</span>"
-                ],
-                answer: 0
-            },
-            {
-                q: "ホテルでスミスさんは、<ruby>何泊<rt>なんぱく</rt></ruby>する<ruby>予定<rt>よてい</rt></ruby>ですか？<br><span class='text-sm text-gray-500 font-normal'>(How many nights does Mr. Smith plan to stay at the hotel?)</span>",
-                options: [
-                    "3<ruby>泊<rt>はく</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(3 nights)</span>",
-                    "1<ruby>泊<rt>はく</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(1 night)</span>",
-                    "2<ruby>泊<rt>はく</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(2 nights)</span>",
-                    "5<ruby>泊<rt>はく</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(5 nights)</span>"
-                ],
-                answer: 0
-            },
-            {
-                q: "ホテルの<ruby>部屋<rt>へや</rt></ruby>で、どのようなトラブルが<ruby>起<rt>お</rt></ruby>こりましたか？<br><span class='text-sm text-gray-500 font-normal'>(What kind of trouble occurred in the hotel room?)</span>",
-                options: [
-                    "お<ruby>湯<rt>ゆ</rt></ruby>が出ない <span class='text-xs text-gray-500 font-normal'>(Hot water does not come out)</span>",
-                    "<ruby>鍵<rt>かぎ</rt></ruby>が<ruby>壊<rt>こわ</rt></ruby>れている <span class='text-xs text-gray-500 font-normal'>(The key is broken)</span>",
-                    "エアコンが<ruby>動<rt>うご</rt></ruby>かない <span class='text-xs text-gray-500 font-normal'>(The air conditioner does not work)</span>",
-                    "テレビが<ruby>映<rt>うつ</rt></ruby>らない <span class='text-xs text-gray-500 font-normal'>(The TV does not turn on)</span>"
-                ],
-                answer: 0
-            },
-            {
-                q: "<ruby>職場<rt>しょくば</rt></ruby>の<ruby>会話<rt>かいわ</rt></ruby>で、明日どんなイベントがありますか？<br><span class='text-sm text-gray-500 font-normal'>(In the workplace conversation, what kind of event is there tomorrow?)</span>",
-                options: [
-                    "<ruby>大事<rt>だいじ</rt></ruby>な<ruby>会議<rt>かいぎ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(An important meeting)</span>",
-                    "<ruby>社員<rt>しゃいん</rt></ruby>の<ruby>誕生日<rt>たんじょうび</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(An employee's birthday)</span>",
-                    "<ruby>会社<rt>かいしゃ</rt></ruby>の<ruby>飲<rt>の</rt></ruby>み<ruby>会<rt>かい</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A company drinking party)</span>",
-                    "<ruby>出張<rt>しゅっちょう</rt></ruby>の<ruby>出発<rt>しゅっぱつ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Departure for a business trip)</span>"
-                ],
-                answer: 0
-            },
-            {
-                q: "お<ruby>城<rt>しろ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>に<ruby>入<rt>はい</rt></ruby>るためには、なにが<ruby>必要<rt>ひつよう</rt></ruby>ですか？<br><span class='text-sm text-gray-500 font-normal'>(What is required to enter the castle?)</span>",
-                options: [
-                    "チケット <span class='text-xs text-gray-500 font-normal'>(A ticket)</span>",
-                    "パスポート <span class='text-xs text-gray-500 font-normal'>(A passport)</span>",
-                    "<ruby>予約<rt>よやく</rt></ruby>のメール <span class='text-xs text-gray-500 font-normal'>(A reservation email)</span>",
-                    "<ruby>現金<rt>げんきん</rt></ruby>だけ <span class='text-xs text-gray-500 font-normal'>(Cash only)</span>"
-                ],
-                answer: 0
-            },
-            {
-                q: "<ruby>病院<rt>びょういん</rt></ruby>の<ruby>受付<rt>うけつけ</rt></ruby>で、<ruby>最初<rt>さいしょ</rt></ruby>になにを<ruby>見<rt>み</rt></ruby>せなければなりませんか？<br><span class='text-sm text-gray-500 font-normal'>(What must you show first at the clinic reception?)</span>",
-                options: [
-                    "<ruby>保険証<rt>ほけんしょう</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Health insurance card)</span>",
-                    "クレジットカード <span class='text-xs text-gray-500 font-normal'>(Credit card)</span>",
-                    "<ruby>診断書<rt>しんだんしょ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Medical certificate)</span>",
-                    "<ruby>携帯電話<rt>けいたいでんわ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Cell phone)</span>"
-                ],
-                answer: 0
-            },
-            {
-                q: "トイレに<ruby>置<rt>お</rt></ruby>き<ruby>忘<rt>わす</rt></ruby>れたカバンの<ruby>中<rt>なか</rt></ruby>に、なにが<ruby>入<rt>はい</rt></ruby>っていましたか？<br><span class='text-sm text-gray-500 font-normal'>(What was inside the bag left behind in the restroom?)</span>",
-                options: [
-                    "<ruby>財布<rt>さいふ</rt></ruby>とパスポート <span class='text-xs text-gray-500 font-normal'>(Wallet and passport)</span>",
-                    "カメラとパソコン <span class='text-xs text-gray-500 font-normal'>(Camera and laptop)</span>",
-                    "<ruby>家<rt>いえ</rt></ruby>の<ruby>鍵<rt>かぎ</rt></ruby>と<ruby>服<rt>ふく</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(House keys and clothes)</span>",
-                    "お<ruby>土産<rt>みやげ</rt></ruby>のケーキ <span class='text-xs text-gray-500 font-normal'>(Souvenir cake)</span>"
-                ],
-                answer: 0
-            },
-            {
-                q: "<ruby>友達<rt>ともだち</rt></ruby>のカフェの<ruby>会話<rt>かいわ</rt></ruby>で、お<ruby>金<rt>かね</rt></ruby>をいくら<ruby>貸<rt>か</rt></ruby>しましたか？<br><span class='text-sm text-gray-500 font-normal'>(In the cafe conversation with a friend, how much money did they lend?)</span>",
-                options: [
-                    "500<ruby>円<rt>えん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(500 yen)</span>",
-                    "1000<ruby>円<rt>えん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(1000 yen)</span>",
-                    "2000<ruby>円<rt>えん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(2000 yen)</span>",
-                    "2500<ruby>円<rt>えん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(2500 yen)</span>"
-                ],
-                answer: 0
-            }
-        ];
-
-        const quizDataGrammar = [
-            {
-                q: "<ruby>友達<rt>ともだち</rt></ruby>と ____ に<ruby>払<rt>はら</rt></ruby>ってもいいですか。<br><span class='text-sm text-gray-500 font-normal'>(Is it okay if we pay separately?)</span>",
-                options: [
-                    "別々 <span class='text-xs text-gray-500 font-normal'>(separately)</span>",
-                    "一緒 <span class='text-xs text-gray-500 font-normal'>(together)</span>",
-                    "別に <span class='text-xs text-gray-500 font-normal'>(not particularly)</span>",
-                    "ひとつ <span class='text-xs text-gray-500 font-normal'>(one)</span>"
-                ],
-                answer: 0
-            },
-            {
-                q: "<ruby>黒<rt>くろ</rt></ruby>を ____ もいいですか。<br><span class='text-sm text-gray-500 font-normal'>(May I try on the black one?)</span>",
-                options: [
-                    "試着して",
-                    "試着した",
-                    "試着する",
-                    "試着しなくて"
-                ],
-                answer: 0
-            },
-            {
-                q: "<ruby>道<rt>みち</rt></ruby>が ____ いますね。<br><span class='text-sm text-gray-500 font-normal'>(The road is crowded, isn't it?)</span>",
-                options: [
-                    "混んで",
-                    "空いて",
-                    "混む",
-                    "混んだ"
-                ],
-                answer: 0
-            },
-            {
-                q: "<ruby>部屋<rt>へや</rt></ruby>に ____ 前に、荷物を預かっていただけますか。<br><span class='text-sm text-gray-500 font-normal'>(Could you keep my luggage before I enter the room?)</span>",
-                options: [
-                    "入る",
-                    "入った",
-                    "入って",
-                    "入らない"
-                ],
-                answer: 0
-            },
-            {
-                q: "すみません、早くて聞き取れませんでした。____ 一度言ってください。<br><span class='text-sm text-gray-500 font-normal'>(Sorry, I couldn't catch that because it was too fast. Could you please say it one more time?)</span>",
-                options: [
-                    "もう",
-                    "まだ",
-                    "もっと",
-                    "とても"
-                ],
-                answer: 0
-            },
-            {
-                q: "ベンチでお弁当を ____ もいいですか。<br><span class='text-sm text-gray-500 font-normal'>(May I eat my bento on the bench?)</span>",
-                options: [
-                    "食べて",
-                    "食べ",
-                    "食べる",
-                    "食べないで"
-                ],
-                answer: 0
-            },
-            {
-                q: "英語が ____ お医者さんはいますか。<br><span class='text-sm text-gray-500 font-normal'>(Is there a doctor who can speak English?)</span>",
-                options: [
-                    "話せる",
-                    "話する",
-                    "話して",
-                    "話せない"
-                ],
-                answer: 0
-            },
-            {
-                q: "部屋に入れません。スマホがないので、番号が ____ 。<br><span class='text-sm text-gray-500 font-normal'>(I can't get into my room. I don't have my smartphone, so I don't know the number.)</span>",
-                options: [
-                    "わかりません",
-                    "わかります",
-                    "しりません",
-                    "わかりました"
-                ],
-                answer: 0
-            },
-            {
-                q: "ついでにお金 ____ くれない？<br><span class='text-sm text-gray-500 font-normal'>(Could you lend me some money while you're at it?)</span>",
-                options: [
-                    "貸して",
-                    "借りて",
-                    "返して",
-                    "貸さないで"
-                ],
-                answer: 0
-            },
-            {
-                q: "画面を ____ していただけますか。<br><span class='text-sm text-gray-500 font-normal'>(Could you please share your screen?)</span>",
-                options: [
-                    "共有",
-                    "接続",
-                    "録画",
-                    "起動"
-                ],
-                answer: 0
-            }
+       const quizDataGrammar = [
+            { q: "<ruby>空<rt>あ</rt></ruby>いたお<ruby>皿<rt>さら</rt></ruby>を ____ いただけませんか。<br><span class='text-sm text-gray-500 font-normal'>(Could you please clear the empty plates?)</span>", options: ["<ruby>下<rt>さ</rt></ruby>げて", "<ruby>下<rt>さ</rt></ruby>げる", "<ruby>下<rt>さ</rt></ruby>げ", "<ruby>下<rt>さ</rt></ruby>げた"], answer: 0 },
+            { q: "もしサイズが ____ 、<ruby>返品<rt>へんぴん</rt></ruby>できますか。<br><span class='text-sm text-gray-500 font-normal'>(If the size doesn't fit, can I return it?)</span>", options: ["<ruby>合<rt>あ</rt></ruby>わなかったら", "<ruby>合<rt>あ</rt></ruby>わないなら", "<ruby>合<rt>あ</rt></ruby>えば", "<ruby>合<rt>あ</rt></ruby>うとき"], answer: 0 },
+            { q: "<ruby>時間<rt>じかん</rt></ruby>がないので、____ いただけますか。<br><span class='text-sm text-gray-500 font-normal'>(We don't have time, so could you please hurry?)</span>", options: ["<ruby>急<rt>いそ</rt></ruby>いで", "<ruby>急<rt>いそ</rt></ruby>ぐ", "<ruby>急<rt>いそ</rt></ruby>ぎ", "<ruby>急<rt>いそ</rt></ruby>いだら"], answer: 0 },
+            { q: "<ruby>部屋<rt>へや</rt></ruby>に<ruby>入<rt>はい</rt></ruby>る<ruby>前<rt>まえ</rt></ruby>に、<ruby>荷物<rt>にもつ</rt></ruby>を ____ いただけますか。<br><span class='text-sm text-gray-500 font-normal'>(Could you look after my luggage before I enter the room?)</span>", options: ["<ruby>預<rt>あずか</rt></ruby>って", "<ruby>預<rt>あずか</rt></ruby>る", "<ruby>預<rt>あずか</rt></ruby>り", "<ruby>預<rt>あずか</rt></ruby>った"], answer: 0 },
+            { q: "すみません、<ruby>早<rt>はや</rt></ruby>くて ____ でした。<br><span class='text-sm text-gray-500 font-normal'>(I'm sorry, it was too fast and I couldn't catch it.)</span>", options: ["<ruby>聞<rt>き</rt></ruby>き<ruby>取<rt>と</rt></ruby>れません", "<ruby>聞<rt>き</rt></ruby>き<ruby>取<rt>と</rt></ruby>りました", "<ruby>聞<rt>き</rt></ruby>き<ruby>取<rt>と</rt></ruby>る", "<ruby>聞<rt>き</rt></ruby>き<ruby>取<rt>と</rt></ruby>らなく"], answer: 0 },
+            { q: "<ruby>写真<rt>しゃしん</rt></ruby>を ____ いただけませんか。<br><span class='text-sm text-gray-500 font-normal'>(Could you take a picture for me?)</span>", options: ["<ruby>撮<rt>と</rt></ruby>って", "<ruby>撮<rt>と</rt></ruby>る", "<ruby>撮<rt>と</rt></ruby>り", "<ruby>撮<rt>と</rt></ruby>った"], answer: 0 },
+            { q: "<ruby>気分<rt>きぶん</rt></ruby>が<ruby>悪<rt>わる</rt></ruby>いので、<ruby>少<rt>すこ</rt></ruby>し ____ ください。<br><span class='text-sm text-gray-500 font-normal'>(I don't feel well, so please let me rest for a bit.)</span>", options: ["<ruby>休<rt>やす</rt></ruby>ませて", "<ruby>休<rt>やす</rt></ruby>んで", "<ruby>休<rt>やす</rt></ruby>む", "<ruby>休<rt>やす</rt></ruby>まなく"], answer: 0 },
+            { q: "すぐに<ruby>警察<rt>けいさつ</rt></ruby>を ____ ください。<br><span class='text-sm text-gray-500 font-normal'>(Please call the police immediately.)</span>", options: ["<ruby>呼<rt>よ</rt></ruby>んで", "<ruby>呼<rt>よ</rt></ruby>ぶ", "<ruby>呼<rt>よ</rt></ruby>び", "<ruby>呼<rt>よ</rt></ruby>んだ"], answer: 0 },
+            { q: "ついでにお<ruby>金<rt>かね</rt></ruby>を ____ くれない？<br><span class='text-sm text-gray-500 font-normal'>(Could you lend me some money while you're at it?)</span>", options: ["<ruby>貸<rt>か</rt></ruby>して", "<ruby>貸<rt>か</rt></ruby>す", "<ruby>貸<rt>か</rt></ruby>し", "<ruby>貸<rt>か</rt></ruby>した"], answer: 0 },
+            { q: "<ruby>画面<rt>がめん</rt></ruby>を ____ していただけますか。<br><span class='text-sm text-gray-500 font-normal'>(Could you please share your screen?)</span>", options: ["<ruby>共有<rt>きょうゆう</rt></ruby>して", "<ruby>共有<rt>きょうゆう</rt></ruby>する", "<ruby>共有<rt>きょうゆう</rt></ruby>", "<ruby>共有<rt>きょうゆう</rt></ruby>した"], answer: 0 }
         ];
         let quizData = [];
 
@@ -846,31 +639,71 @@
             document.getElementById('final-score').innerText = appState.score;
         }
 
-        function switchTab(tabId) {
+       function switchTab(tabId) {
             appState.activeTab = tabId;
             
             const convBtn = document.getElementById('tab-btn-conv');
             const quizBtn = document.getElementById('tab-btn-quiz');
+            const convBtnLand = document.getElementById('tab-btn-conv-land');
+            const quizBtnLand = document.getElementById('tab-btn-quiz-land');
             const convDiv = document.getElementById('tab-conv');
             const quizDiv = document.getElementById('tab-quiz');
             
+            const activeClass = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
+            const inactiveClass = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
+            const activeClassLand = "flex-1 px-4 py-1.5 rounded-md bg-white shadow text-blue-600 font-medium text-xs transition-all text-center";
+            const inactiveClassLand = "flex-1 px-4 py-1.5 rounded-md text-gray-500 hover:text-gray-700 font-medium text-xs transition-all text-center";
+            
             if (tabId === 'conv') {
-                convBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
-                quizBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
-                convDiv.classList.remove('hidden');
-                quizDiv.classList.add('hidden');
+                if(convBtn) convBtn.className = activeClass;
+                if(quizBtn) quizBtn.className = inactiveClass;
+                if(convBtnLand) convBtnLand.className = activeClassLand;
+                if(quizBtnLand) quizBtnLand.className = inactiveClassLand;
+                if(convDiv) convDiv.classList.remove('hidden');
+                if(quizDiv) quizDiv.classList.add('hidden');
             } else {
-                quizBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
-                convBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
-                quizDiv.classList.remove('hidden');
-                convDiv.classList.add('hidden');
+                if(quizBtn) quizBtn.className = activeClass;
+                if(convBtn) convBtn.className = inactiveClass;
+                if(quizBtnLand) quizBtnLand.className = activeClassLand;
+                if(convBtnLand) convBtnLand.className = inactiveClassLand;
+                if(quizDiv) quizDiv.classList.remove('hidden');
+                if(convDiv) convDiv.classList.add('hidden');
                 
                 // Reset Quiz
-                document.getElementById('quiz-intro').classList.remove('hidden');
-                document.getElementById('quiz-area').classList.add('hidden');
-                document.getElementById('quiz-result').classList.add('hidden');
+                const quizIntro = document.getElementById('quiz-intro');
+                const quizArea = document.getElementById('quiz-area');
+                const quizResult = document.getElementById('quiz-result');
+                if(quizIntro) quizIntro.classList.remove('hidden');
+                if(quizArea) quizArea.classList.add('hidden');
+                if(quizResult) quizResult.classList.add('hidden');
             }
         }
+
+        // ==========================================
+        // 【YouTube 設定エリア】次回からはここを変更してください
+        // ==========================================
+       const YOUTUBE_VIDEO_ID = 'qzSSFDPo7tc'; // ★動画ID（英数字11桁）
+        const sceneStartTimes = [0, 124, 246, 354, 473, 598, 718, 831, 958, 1101]; // ★各シーンの開始秒数
+        // ==========================================
+
+        let ytPlayer = null;
+
+        // YouTube Iframe API スクリプトを自動動的ロード
+        const tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        const firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        // API読み込み完了時に自動実行される関数
+        window.onYouTubeIframeAPIReady = () => {
+            ytPlayer = new YT.Player('player', {
+                videoId: YOUTUBE_VIDEO_ID,
+                playerVars: {
+                    'playsinline': 1,
+                    'rel': 0
+                }
+            });
+        };
 
         window.onload = async () => {
             // Populate Language Selector
@@ -886,25 +719,23 @@
             await parseData();
 
             const selector = document.getElementById('scene-selector');
-            scenes.forEach((_, i) => {
+            for (let i = 0; i < 10; i++) {
                 const opt = document.createElement('option');
                 opt.value = i;
-                
-                // 【修正】i + 1 にして1から始まるデータと同期させ、jaとenを綺麗に結合して表示させます
-                const titleData = sceneTitles[i + 1];
-                if (titleData) {
-                    opt.text = `Scene ${i + 1}: ${titleData.ja} / ${titleData.en}`;
-                } else {
-                    opt.text = `Scene ${i + 1}`;
-                }
-                
+                opt.text = sceneTitles[i] || `Scene ${i + 1}`;
                 selector.appendChild(opt);
-            });
+            }
 
             selector.addEventListener('change', (e) => {
-                appState.currentSceneIndex = parseInt(e.target.value);
+                const sceneIdx = parseInt(e.target.value);
+                appState.currentSceneIndex = sceneIdx;
                 if(appState.isPlaying) playEntireScene(); // Stop if playing
                 renderScene();
+
+                // シーン選択時にYouTubeの再生位置を対応する秒数へジャンプさせる
+                if (ytPlayer && typeof ytPlayer.seekTo === 'function') {
+                    ytPlayer.seekTo(sceneStartTimes[sceneIdx], true);
+                }
             });
 
             document.getElementById('toggle-romaji').addEventListener('change', (e) => {
