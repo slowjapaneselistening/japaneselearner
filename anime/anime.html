@@ -67,9 +67,9 @@
         }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800 min-h-screen pb-12">
-    <header class="bg-white shadow-sm sticky top-0 z-50">
-        <div class="max-w-4xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+<body class="bg-gray-50 text-gray-800 min-h-screen">
+    <header class="bg-white shadow-sm sticky top-0 z-50 landscape:hidden">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
             <div class="flex items-center gap-3">
                 <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-md">
                     <i class="fa-solid fa-language text-xl"></i>
@@ -88,105 +88,118 @@
         </div>
     </header>
 
-    <main class="max-w-4xl mx-auto px-4 mt-6">
+    <main class="max-w-7xl mx-auto px-4 mt-2 landscape:mt-6 md:mt-6 flex flex-col landscape:flex-row md:flex-row gap-6 items-start">
         
-        <!-- TAB 1: Conversation -->
-        <div id="tab-conv">
-            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
-                
-                <!-- Controls Bar -->
-                <div class="bg-gray-50/50 p-4 border-b border-gray-100 flex flex-col gap-3">
-                    <!-- 1段目: セレクターとプレイボタン -->
-                    <div class="flex flex-col md:flex-row items-center gap-2 w-full">
-                        <select id="scene-selector" class="w-full md:w-auto max-w-md flex-1 bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2 shadow-sm font-medium truncate">
-                            <!-- Options populated by JS -->
-                        </select>
+        <div class="contents landscape:block md:block w-full landscape:sticky md:sticky landscape:top-4 md:top-20 landscape:w-1/2 md:w-1/2 space-y-4 landscape:max-h-[calc(100vh-2rem)] landscape:overflow-y-auto pr-1">
+            
+           <div class="w-full bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden p-4 sticky top-[124px] z-40 landscape:z-auto landscape:static md:static">
+                <div class="relative w-full pb-[56.25%] h-0">
+                    <div id="player" class="absolute top-0 left-0 w-full h-full rounded-xl"></div>
+                </div>
+            </div>
 
-                        <!-- Roleplay Selector -->
-                        <select id="roleplay-selector" class="w-full md:w-auto bg-purple-50 border border-purple-200 text-purple-800 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2 font-medium shadow-sm shrink-0">
-                            <option value="none">👤 Roleplay: Off</option>
-                            <option value="Speaker 1">🔇 Mute Speaker 1</option>
-                            <option value="Speaker 2">🔇 Mute Speaker 2</option>
-                        </select>
+            <div class="w-full bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden relative z-30">
+                <div class="bg-gray-50/50 p-4 flex flex-col gap-3">
+                    <div class="flex flex-col gap-2 w-full">
+                        <select id="scene-selector" class="w-full bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2 shadow-sm font-medium truncate">
+                            </select>
 
-                        <button onclick="playEntireScene()" id="play-scene-btn" class="w-full md:w-auto bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm shrink-0">
-                            <i class="fa-solid fa-play"></i> Play
-                        </button>
+                        <div class="flex gap-2 w-full">
+                            <select id="roleplay-selector" class="flex-1 bg-purple-50 border border-purple-200 text-purple-800 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2 font-medium shadow-sm truncate">
+                                <option value="none">👤 Roleplay: Off</option>
+                                <option value="Speaker 1">🔇 Mute Speaker 1</option>
+                                <option value="Speaker 2">🔇 Mute Speaker 2</option>
+                            </select>
+
+                            <button onclick="playEntireScene()" id="play-scene-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm shrink-0">
+                                <i class="fa-solid fa-play"></i> Play
+                            </button>
+                        </div>
                     </div>
 
-                    <!-- 2段目: 表示オプション（翻訳・ふりがな・ローマ字） -->
-                    <div class="flex flex-wrap items-center gap-4 text-sm font-medium text-gray-600 border-t border-gray-100 pt-2">
-                        <div class="flex items-center gap-2 cursor-pointer text-gray-600 hover:text-blue-600 transition-colors">
+                    <div class="flex flex-wrap items-center gap-4 text-xs font-medium text-gray-600 border-t border-gray-100 pt-2">
+                        <div class="flex items-center gap-1.5 cursor-pointer text-gray-600 hover:text-blue-600 transition-colors">
                             <input type="checkbox" id="toggle-translation" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
                             <span>Translation:</span>
-                            <select id="lang-selector" class="bg-white border border-gray-300 text-gray-700 text-xs rounded p-1 font-medium focus:ring-blue-500 focus:border-blue-500">
+                            <select id="lang-selector" class="bg-white border border-gray-300 text-gray-700 text-xs rounded p-0.5 font-medium focus:ring-blue-500 focus:border-blue-500">
                             </select>
                         </div>
-                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                        <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
                             <input type="checkbox" id="toggle-kanji-test" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
                             Hide Furigana
                         </label>
-                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                        <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
                             <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
                             Romaji
                         </label>
                     </div>
-                </div>
 
-                <!-- Dialogue Area -->
-                <div class="p-4 sm:p-6 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-gray-50/30 min-h-[500px]">
-                    <div id="dialogue-list" class="flex flex-col gap-6">
-                        <!-- Dialogue bubbles inserted by JS -->
+                    <div class="hidden landscape:flex bg-gray-100 p-1 rounded-lg border border-gray-200 mt-2">
+                        <button id="tab-btn-conv-land" onclick="switchTab('conv')" class="flex-1 px-4 py-1.5 rounded-md bg-white shadow text-blue-600 font-medium text-xs transition-all text-center">
+                            <i class="fa-regular fa-comments mr-1"></i> Conversation
+                        </button>
+                        <button id="tab-btn-quiz-land" onclick="switchTab('quiz')" class="flex-1 px-4 py-1.5 rounded-md text-gray-500 hover:text-gray-700 font-medium text-xs transition-all text-center">
+                            <i class="fa-solid fa-pen-to-square mr-1"></i> Kanji Quiz
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- TAB 2: Kanji Quiz -->
-        <div id="tab-quiz" class="hidden">
-            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-10 text-center max-w-2xl mx-auto">
-                <div id="quiz-intro">
-                    <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">
-                        <i class="fa-solid fa-graduation-cap"></i>
-                    </div>
-                    <h2 class="text-2xl font-bold text-gray-800 mb-2">日本語クイズテスト (Japanese Quiz)</h2>
-                    <p class="text-gray-500 mb-4">クイズの種類を選んで「スタート」を押してください。</p>
-                    
-                    <div class="max-w-xs mx-auto mb-6">
-                        <select id="quiz-type-selector" class="w-full bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block p-2.5 font-medium shadow-sm text-center">
-                            <option value="kanji">🔤 漢字の読み方テスト (Kanji Reading)</option>
-                            <option value="culture">🏮内容理解クイズ (Culture & Context)</option>
-                            <option value="grammar">📝 重要文法・表現の穴埋めクイズ (Grammar Fill-in)</option>
-                        </select>
-                    </div>
-
-                    <button onclick="startQuiz()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-transform transform hover:scale-105">
-                        スタート (Start)
-                    </button>
-                </div>
-
-                <div id="quiz-area" class="hidden">
-                    <div class="flex justify-between items-center text-sm font-medium text-gray-500 mb-6">
-                        <span id="quiz-progress" class="bg-gray-100 py-1 px-3 rounded-full">Question 1/10</span>
-                        <span id="quiz-score" class="text-green-600">Score: 0</span>
-                    </div>
-                    
-                    <h3 id="quiz-question" class="text-3xl sm:text-4xl font-bold text-gray-800 mb-8 py-6 bg-gray-50 rounded-xl border border-gray-100">
-                        <!--q -->
-                    </h3>
-                    
-                    <div id="quiz-options" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <!-- Options buttons -->
+        <div class="w-full pt-4 landscape:pt-0 md:pt-0 landscape:w-1/2 md:w-1/2 pb-12 relative z-30">
+            
+            <div id="tab-conv">
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                    <div class="p-4 sm:p-6 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-gray-50/30 min-h-[500px]">
+                        <div id="dialogue-list" class="flex flex-col gap-6">
+                            </div>
                     </div>
                 </div>
+            </div>
 
-                <div id="quiz-result" class="hidden">
-                    <div class="text-6xl mb-4">🏆</div>
-                    <h2 class="text-2xl font-bold text-gray-800 mb-2">お疲れ様でした！</h2>
-                    <p class="text-xl text-gray-600 mb-6">Your Score: <span id="final-score" class="font-bold text-green-600 text-3xl"></span> / 10</p>
-                    <button onclick="startQuiz()" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-colors">
-                        もう一度プレイ (Play Again)
-                    </button>
+            <div id="tab-quiz" class="hidden">
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-10 text-center w-full mx-auto">
+                    <div id="quiz-intro">
+                        <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-2">日本語クイズテスト (Japanese Quiz)</h2>
+                        <p class="text-gray-500 mb-4">クイズの種類を選んで「スタート」を押してください。</p>
+                        
+                        <div class="max-w-xs mx-auto mb-6">
+                            <select id="quiz-type-selector" class="w-full bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block p-2.5 font-medium shadow-sm text-center">
+                                <option value="kanji">🔤 漢字の読み方テスト (Kanji Reading)</option>
+                                <option value="culture">🏮内容理解クイズ (Culture & Context)</option>
+                                <option value="grammar">📝 重要文法・表現の穴埋めクイズ (Grammar Fill-in)</option>
+                            </select>
+                        </div>
+
+                        <button onclick="startQuiz()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-transform transform hover:scale-105">
+                            スタート (Start)
+                        </button>
+                    </div>
+
+                    <div id="quiz-area" class="hidden">
+                        <div class="flex justify-between items-center text-sm font-medium text-gray-500 mb-6">
+                            <span id="quiz-progress" class="bg-gray-100 py-1 px-3 rounded-full">Question 1/10</span>
+                            <span id="quiz-score" class="text-green-600">Score: 0</span>
+                        </div>
+                        
+                        <h3 id="quiz-question" class="text-xl sm:text-2xl font-bold text-gray-800 mb-8 py-6 bg-gray-50 rounded-xl border border-gray-100 px-4">
+                            </h3>
+                        
+                        <div id="quiz-options" class="grid grid-cols-1 gap-4">
+                            </div>
+                    </div>
+
+                    <div id="quiz-result" class="hidden">
+                        <div class="text-6xl mb-4">🏆</div>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-2">お疲れ様でした！</h2>
+                        <p class="text-xl text-gray-600 mb-6">Your Score: <span id="final-score" class="font-bold text-green-600 text-3xl"></span> / 10</p>
+                        <button onclick="startQuiz()" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-colors">
+                            もう一度プレイ (Play Again)
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -214,20 +227,17 @@
 // =================================================================
 
        const sceneTitles = [
-            "Scene 1: 四ツ谷の須賀神社 / Suga Shrine in Yotsuya",
-            "Scene 2: 神田明神の男坂 / Otokozaka at Kanda Myojin",
-            "Scene 3: 鎌倉高校前の踏切 / Railroad Crossing in Kamakura",
-            "Scene 4: 箱根の大涌谷 / Owakudani in Hakone",
-            "Scene 5: 本栖湖の富士山 / Mt. Fuji from Lake Motosu",
-            "Scene 6: 豊郷小学校旧校舎 / Old Toyosato Elementary School",
-            "Scene 7: 柳生の一刀石 / Itto-seki Rock in Yagyu",
-            "Scene 8: 伏見稲荷大社の千本鳥居 / Senbon Torii at Fushimi Inari Taisha",
-            "Scene 9: 京都の古い旅館 / Old Ryokan in Kyoto",
-            "Scene 10: 京都駅から東京へ / From Kyoto Station back to Tokyo"
+            "Scene 1: 聖地巡礼：君の名は。 / Anime Pilgrimage: Your Name",
+            "Scene 2: 秋葉原と神田明神の魅力 / Exploring Akihabara and Kanda Shrine",
+            "Scene 3: 鎌倉の聖地・踏切 / Kamakura's Famous Scenic Railroad Crossing",
+            "Scene 4: 箱根の温泉とロボットアニメの舞台 / Hakone Hot Springs and the Setting of a Robot Anime",
+            "Scene 5: 本栖湖と富士山 / Lake Motosu and Mount Fuji",
+            "Scene 6: 豊郷のアニメ聖地巡礼 / Exploring the Anime Pilgrimage Site in Toyosato",
+            "Scene 7: 柳生の一刀石 / Yagyu's Legendary Sword-Split Rock",
+            "Scene 8: 伏見稲荷と千本鳥居 / Fushimi Inari Shrine and Senbon Torii Gates",
+            "Scene 9: 京都の旅館と温泉 / Kyoto Inn and Onsen Experience",
+            "Scene 10: 聖地巡りの旅の思い出 / Memories of Anime Pilgrimage Trip"
         ];
-
-
-
         const LANG_MAP = {
             'English': 'en', 'Vietnamese': 'vi', 'Indonesian': 'id', 'Thai': 'th', 'Korean': 'ko', 
             'Chinese (Simplified)': 'zh-Hans', 'Chinese (Traditional)': 'zh-Hant', 'Spanish': 'es', 
@@ -251,18 +261,17 @@
 // =================================================================
 
         const quizDataKanji = [
-            { q: "「聖地」の読み方は？", options: ["せいち", "じょうち", "しょうち", "せいじ"], answer: 0 },
-            { q: "「階段」の読み方は？", options: ["かいだん", "がいだん", "かいたて", "きざはし"], answer: 0 },
-            { q: "「景色」の読み方は？", options: ["けしき", "けいしょく", "けいしき", "けいさい"], answer: 0 },
-            { q: "「練習」の読み方は？", options: ["れんしゅう", "れんじゅう", "ねんしゅう", "れんしゅ"], answer: 0 },
-            { q: "「踏切」の読み方は？", options: ["ふみきり", "とうせつ", "ふみきる", "あるききり"], answer: 0 },
-            { q: "「舞台」の読み方は？", options: ["ぶたい", "ぶだい", "まいたえ", "むたい"], answer: 0 },
-            { q: "「静か」の読み方は？", options: ["しずか", "せいか", "じずか", "しづか"], answer: 0 },
-            { q: "「伝説」の読み方は？", options: ["でんせつ", "でんぜつ", "てんせつ", "つたえせつ"], answer: 0 },
-            { q: "「伝統的」の読み方は？", options: ["でんとうてき", "てんとうてき", "でんどうてき", "つたえとうてき"], answer: 0 },
-            { q: "「旅館」の読み方は？", options: ["りょかん", "りょがんで", "ろかん", "たびやかた"], answer: 0 }
+            { q: "「聖地」の読み方は？", options: ["せいち", "しょうち", "せじ", "せいてい"], answer: 0 },
+            { q: "「階段」の読み方は？", options: ["かいだん", "がいだん", "かいたん", "けいだん"], answer: 0 },
+            { q: "「景色」の読み方は？", options: ["けしき", "けいしき", "けいろ", "けしきく"], answer: 0 },
+            { q: "「神社」の読み方は？", options: ["じんじゃ", "しんしゃ", "じんしゃ", "しんじゃ"], answer: 0 },
+            { q: "「踏切」の読み方は？", options: ["ふみきり", "とびきり", "ふみぎり", "あるききり"], answer: 0 },
+            { q: "「緊張」の読み方は？", options: ["きんちょう", "ぎんちょう", "きんじょう", "けんちょう"], answer: 0 },
+            { q: "「舞台」の読み方は？", options: ["ぶたい", "ぶだい", "まいたい", "ほうたい"], answer: 0 },
+            { q: "「伝説」の読み方は？", options: ["でんせつ", "てんせつ", "でんぜつ", "でんそう"], answer: 0 },
+            { q: "「旅館」の読み方は？", options: ["りょかん", "りょがん", "れいかん", "りょくう"], answer: 0 },
+            { q: "「お土産」の読み方は？", options: ["おみやげ", "おみあげ", "どさん", "みやげ"], answer: 0 }
         ];
-
      // =================================================================
 // 3. 内容理解クイズデータの修正（quizDataCulture 配列）
 // =================================================================
@@ -271,37 +280,30 @@
 // 3. 内容理解クイズデータの修正（quizDataCulture 配列）
 // =================================================================
 
-        const quizDataCulture = [
-            { q: "<ruby>映画<rt>えいが</rt></ruby>「<ruby>君<rt>きみ</rt></ruby>の<ruby>名<rt>な</rt></ruby>は。」の<ruby>聖地<rt>せいち</rt></ruby>として、<ruby>最初<rt>さいしょ</rt></ruby>に<ruby>二人<rt>ふたり</rt></ruby>が<ruby>訪<rt>おとず</rt></ruby>れた<ruby>場所<rt>ばしょ</rt></ruby>はどこですか。<br><span class='text-sm text-gray-500 font-normal'>(Where is the first place the two visited as a holy site for the movie \"Your Name.\"?)</span>", options: ["<ruby>四<rt>よ</rt></ruby>ツ<ruby>谷<rt>や</rt></ruby>の<ruby>須賀神社<rt>すがじんじゃ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Suga Shrine in Yotsuya)</span>", "<ruby>秋葉原<rt>あきはばら</rt></ruby>の<ruby>神社<rt>じんじゃ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A shrine in Akihabara)</span>", "<ruby>鎌倉<rt>かまくら</rt></ruby>の<ruby>踏切<rt>ふみきり</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A railroad crossing in Kamakura)</span>", "<ruby>京都<rt>きょうと</rt></ruby>の<ruby>神社<rt>じんじゃ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A shrine in Kyoto)</span>"], answer: 0 },
-            { q: "<ruby>動画<rt>どうが</rt></ruby>の<ruby>会話<rt>かいわ</rt></ruby>のなかで、アニメのメンバーが「<ruby>男坂<rt>おとこざか</rt></ruby>」という<ruby>階段<rt>かいだん</rt></ruby>で何をしていたと<ruby>言<rt>い</rt></ruby>っていましたか。<br><span class='text-sm text-gray-500 font-normal'>(In the video conversation, what did they say the anime members were doing on the stairs called \"Otokozaka\"?)</span>", options: ["<ruby>走<rt>はし</rt></ruby>って<ruby>登<rt>のぼ</rt></ruby>っていた <span class='text-xs text-gray-500 font-normal'>(They were running up)</span>", "<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>っていた <span class='text-xs text-gray-500 font-normal'>(They were taking photos)</span>", "お<ruby>菓子<rt>かし</rt></ruby>を<ruby>食<rt>た</rt></ruby>べていた <span class='text-xs text-gray-500 font-normal'>(They were eating sweets)</span>", "お<ruby>守<rt>まもり</rt></ruby>りを<ruby>買<rt>か</rt></ruby>っていた <span class='text-xs text-gray-500 font-normal'>(They were buying amulets)</span>"], answer: 0 },
-            { q: "<ruby>動画<rt>どうが</rt></ruby>では、<ruby>鎌倉高校前<rt>かまくらこうこうまえ</rt></ruby>の<ruby>踏切<rt>ふみきり</rt></ruby>でたくさんの<ruby>人<rt>ひと</rt></ruby>が何を待っていますか。<br><span class='text-sm text-gray-500 font-normal'>(In the video, what are many people waiting for at the railroad crossing in front of Kamakura High School?)</span>", options: ["<ruby>緑色<rt>みどりいろ</rt></ruby>の<ruby>電車<rt>てんしゃ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The green train)</span>", "アニメの<ruby>監督<rt>かんとく</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The anime director)</span>", "バスケットボールの<ruby>選手<rt>せんしゅ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Basketball players)</span>", "おいしい<ruby>魚<rt>さかな</rt></ruby>のバス <span class='text-xs text-gray-500 font-normal'>(A delicious fish bus)</span>"], answer: 0 },
-            { q: "<ruby>箱根<rt>はこね</rt></ruby>の<ruby>大涌谷<rt>おおわくだに</rt></ruby>で、<ruby>食<rt>た</rt></ruby>べると<ruby>寿命<rt>じゅみょう</rt></ruby>が<ruby>延<rt>の</rt></ruby>びるといわれているものは何ですか。<br><span class='text-sm text-gray-500 font-normal'>(What is said to extend one's lifespan when eaten at Owakudani in Hakone?)</span>", options: ["<ruby>黒<rt>くろ</rt></ruby>いゆで<ruby>卵<rt>たまご</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A black boiled egg)</span>", "<ruby>白<rt>しろ</rt></ruby>いお<ruby>豆腐<rt>とうふ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(White tofu)</span>", "<ruby>新鮮<rt>しんせん</rt></ruby>なしらす<ruby>丼<rt>どん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A fresh whitebait bowl)</span>", "<ruby>温<rt>あたた</rt></ruby>かいお<ruby>茶<rt>ちゃ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Warm tea)</span>"], answer: 0 },
-            { q: "<ruby>本栖湖<rt>もとすこ</rt></ruby>から<ruby>見<rt>み</rt></ruby>える<ruby>富士山<rt>ふじさん</rt></ruby>の<ruby>景色<rt>けしき</rt></ruby>は、<ruby>日本<rt>にほん</rt></ruby>のどのお<ruby>札<rt>さつ</rt></ruby>の<ruby>裏<rt>うら</rt></ruby>の<ruby>絵<rt>え</rt></ruby>と<ruby>同<rt>おな</rt></ruby>じですか。<br><span class='text-sm text-gray-500 font-normal'>(The view of Mt. Fuji from Lake Motosu is the same as the picture on the back of which Japanese bill?)</span>", options: ["<ruby>千円札<rt>せんえんさつ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The 1,000 yen bill)</span>", "<ruby>五千円札<rt>ごせんえんさつ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The 5,000 yen bill)</span>", "<ruby>一万円札<rt>いちまんえんさつ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The 10,000 yen bill)</span>", "<ruby>二千円札<rt>にせんえんさつ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The 2,000 yen bill)</span>"], answer: 0 },
-            { q: "<ruby>滋賀県<rt>しがけん</rt></ruby>の<ruby>豊郷<rt>とよさと</rt></ruby>にある<ruby>古<rt>ふる</rt></ruby>い<ruby>小学校<rt>しょうがっこう</rt></ruby>の<ruby>階段<rt>かいだん</rt></ruby>のてすりには、<ruby>何<rt>なに</rt></ruby>の<ruby>飾<rt>かざ</rt></ruby>りがありますか。<br><span class='text-sm text-gray-500 font-normal'>(What decorations are on the handrails of the stairs at the old elementary school in Toyosato, Shiga Prefecture?)</span>", options: ["ウサギとカメ <span class='text-xs text-gray-500 font-normal'>(A rabbit and a tortoise)</span>", "<ruby>犬<rt>いぬ</rt></ruby>と<ruby>猫<rt>ねこ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A dog and a cat)</span>", "<ruby>鳥<rt>とり</rt></ruby>と<ruby>魚<rt>さかな</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A bird and a fish)</span>", "<ruby>刀<rt>かたな</rt></ruby>と<ruby>岩<rt>いわ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A sword and a rock)</span>"], answer: 0 },
-            { q: "<ruby>奈良県<rt>ならけん</rt></ruby>の<ruby>山<rt>やま</rt></ruby>のなかにある「<ruby>柳生一刀石<rt>やぎゅういっとうせき</rt></ruby>」には、どのような<ruby>伝説<rt>でんせつ</rt></ruby>がありますか。<br><span class='text-sm text-gray-500 font-normal'>(What legend is associated with the \"Yagyu Itto-seki\" rock in the mountains of Nara Prefecture?)</span>", options: ["<ruby>剣豪<rt>けんごう</rt></ruby>が<ruby>天狗<rt>てんぐ</rt></ruby>を<ruby>斬<rt>き</rt></ruby>ったときに<ruby>割<rt>わ</rt></ruby>れた <span class='text-xs text-gray-500 font-normal'>(It split when a master swordsman slashed a tengu)</span>", "ロボットがミサイルをうったときに<ruby>割<rt>わ</rt></ruby>れた <span class='text-xs text-gray-500 font-normal'>(It split when a robot fired a missile)</span>", "<ruby>火山<rt>かざん</rt></ruby>が<ruby>爆発<rt>ばくはつ</rt></ruby>したときにどこからか<ruby>飛<rt>と</rt></ruby>んできた <span class='text-xs text-gray-500 font-normal'>(It flew from somewhere when a volcano erupted)</span>", "アニメのファンたちがみんなで<ruby>力<rt>ちカラー</rt></ruby>を<ruby>合<rt>あ</rt></ruby>わせて<ruby>割<rt>わ</rt></ruby>った <span class='text-xs text-gray-500 font-normal'>(Anime fans worked together to split it)</span>"], answer: 0 },
-            { q: "<ruby>京都<rt>きょうと</rt></ruby>の<ruby>伏見稲荷大社<rt>ふしみいなりたいしゃ</rt></ruby>にある、どこまでも<ruby>続<rt>つづ</rt></ruby>くように<ruby>見<rt>み</rt></ruby>える<ruby>鳥居<rt>とりい</rt></ruby>のトンネルは<ruby>何<rt>なん</rt></ruby>と<ruby>呼<rt>よ</rt></ruby>ばれていますか。<br><span class='text-sm text-gray-500 font-normal'>(What is the tunnel of torii gates that seems to go on forever at Fushimi Inari Taisha in Kyoto called?)</span>", options: ["<ruby>千本鳥居<rt>せんぼんとりい</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Senbon Torii)</span>", "<ruby>男坂<rt>おとこざか</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Otokozaka)</span>", "<ruby>大涌谷<rt>おおわくだに</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Owakudani)</span>", "<ruby>洪庵<rt>こうあん</rt></ruby>キャンプ<ruby>場<rt>じょう</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Koan Campground)</span>"], answer: 0 },
-            { q: "<ruby>動画<rt>どうが</rt></ruby>のなかで、<ruby>二人<rt>ふたり</rt></ruby>が<ruby>京都<rt>きょうと</rt></ruby>の<ruby>旅館<rt>りょかん</rt></ruby>で<ruby>食<rt>た</rt></ruby>べた、<ruby>季節<rt>きせつ</rt></ruby>の<ruby>野菜<rt>やさい</rt></ruby>や<ruby>豆腐<rt>とうふ</rt></ruby>をたくさん<ruby>使<rt>つか</rt></ruby>った<ruby>料理<rt>りょうり</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。<br><span class='text-sm text-gray-500 font-normal'>(What is the dish using plenty of seasonal vegetables and tofu that the two ate at the ryokan in Kyoto?)</span>", options: ["<ruby>京料理<rt>きょうりょうり</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Kyo-ryori / Kyoto cuisine)</span>", "しらす<ruby>丼<rt>どん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Shirasu-don / Whitebait bowl)</span>", "ゆで<ruby>卵<rt>たまご</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Boiled eggs)</span>", "お<ruby>茶漬<rt>ちゃづ</rt></ruby>け <span class='text-xs text-gray-500 font-normal'>(Ochazuke)</span>"], answer: 0 },
-            { q: "Speaker 2が、<ruby>今回<rt>こんかい</rt></ruby>の<ruby>旅<rt>たび</rt></ruby>で「<ruby>一番<rt>いちばん</rt></ruby><ruby>感動<rt>かんどう</rt></ruby>した」と<ruby>話<rt>はな</rt></ruby>していた<ruby>場所<rt>ばしょ</rt></ruby>はどこですか。<br><span class='text-sm text-gray-500 font-normal'>(Where did Speaker 2 say they were \"most moved\" by during this trip?)</span>", options: ["<ruby>鎌倉<rt>かまくら</rt></ruby>の<ruby>海<rt>うみ</rt></ruby>の<ruby>踏切<rt>ふみきり</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The railroad crossing by the sea in Kamakura)</span>", "<ruby>奈良<rt>なら</rt></ruby>の真っ二つの<ruby>岩<rt>いわ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The split rock in Nara)</span>", "<ruby>四<rt>よ</rt></ruby>ツ<ruby>谷<rt>や</rt></ruby>の<ruby>階段<rt>かいだん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The stairs in Yotsuya)</span>", "<ruby>箱根<rt>はこね</rt></ruby>のロープウェイ <span class='text-xs text-gray-500 font-normal'>(The ropeway in Hakone)</span>"], answer: 0 }
+       const quizDataCulture = [
+            { q: "<ruby>映画<rt>えいが</rt></ruby>「<ruby>君<rt>きみ</rt></ruby>の<ruby>名<rt>な</rt></ruby>は。」に<ruby>出<rt>で</rt></ruby>てくる、<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>赤<rt>あか</rt></ruby>い<ruby>階段<rt>かいだん</rt></ruby>がある<ruby>神社<rt>じんじゃ</rt></ruby>はどこですか？<br><span class='text-sm text-gray-500 font-normal'>(In the movie \"Your Name\", which shrine has the famous red stairs?)</span>", options: ["<ruby>須賀神社<rt>すがじんじゃ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Suga Shrine)</span>", "<ruby>神田明神<rt>かんだみょうじん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Kanda Shrine)</span>", "<ruby>伏見稲荷大社<rt>ふしみいなりたいしゃ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Fushimi Inari Shrine)</span>", "<ruby>厳島神社<rt>いつくしまじんじゃ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Itsukushima Shrine)</span>"], answer: 0 },
+            { q: "アニメのアイドルたちが<ruby>毎日練習<rt>まいにちれんしゅう</rt></ruby>していた、<ruby>神田明神<rt>かんだみょうじん</rt></ruby>にある<ruby>長<rt>なが</rt></ruby>い<ruby>階段<rt>かいだん</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>は何ですか？<br><span class='text-sm text-gray-500 font-normal'>(What is the name of the long staircase at Kanda Shrine where anime idols used to practice every day?)</span>", options: ["<ruby>男坂<rt>おとこざか</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Otokezaka)</span>", "<ruby>女坂<rt>おんなざか</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Onnazaka)</span>", "<ruby>急坂<rt>きゅうざか</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Steep Slope)</span>", "<ruby>神坂<rt>かみざか</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Kami Slope)</span>"], answer: 0 },
+            { q: "<ruby>鎌倉高校前<rt>かまくらこうこうまえ</rt></ruby>の<ruby>踏切<rt>ふみきり</rt></ruby>の<ruby>近く<rt>ちかく</rt></ruby>で、<ruby>有名<rt>ゆうめい</rt></ruby>な<ruby>美味<rt>おい</rt></ruby>しい<ruby>食べ物<rt>たべもの</rt></ruby>（<ruby>小<rt>ちい</rt></ruby>さな<ruby>魚<rt>さかな</rt></ruby>）は何ですか？<br><span class='text-sm text-gray-500 font-normal'>(What is the famous delicious food (small fish) near the railroad crossing in front of Kamakura High School?)</span>", options: ["しらす<ruby>丼<rt>どん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Shirasu bowl)</span>", "うな<ruby>丼<rt>どん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Eel bowl)</span>", "<ruby>海鮮丼<rt>かいせんどん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Seafood bowl)</span>", "かつ<ruby>丼<rt>どん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Pork cutlet bowl)</span>"], answer: 0 },
+            { q: "<ruby>箱根<rt>はこね</rt></ruby>の<ruby>大涌谷<rt>おおわくだに</rt></ruby>で、<ruby>食<rt>た</rt></ruby>べると<ruby>寿命<rt>じゅみょう</rt></ruby>が<ruby>延<rt>の</rt></ruby>びると<ruby>言<rt>い</rt></ruby>われているものは何ですか？<br><span class='text-sm text-gray-500 font-normal'>(What is said to extend your lifespan when eaten at Owakudani in Hakone?)</span>", options: ["<ruby>黒<rt>くろ</rt></ruby>いゆで<ruby>卵<rt>たまご</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Black boiled egg)</span>", "<ruby>黒<rt>くろ</rt></ruby>いラーメン <span class='text-xs text-gray-500 font-normal'>(Black ramen)</span>", "<ruby>温泉<rt>おんせん</rt></ruby>まんじゅう <span class='text-xs text-gray-500 font-normal'>(Hot spring steamed bun)</span>", "<ruby>黒<rt>くろ</rt></ruby>いアイスクリーム <span class='text-xs text-gray-500 font-normal'>(Black ice cream)</span>"], answer: 0 },
+            { q: "<ruby>山梨県<rt>やまなしけん</rt></ruby>の<ruby>本栖湖<rt>もとすこ</rt></ruby>から<ruby>見<rt>み</rt></ruby>える<ruby>富士山<rt>ふじさん</rt></ruby>の<ruby>景色<rt>けしき</rt></ruby>は、<ruby>日本<rt>にほん</rt></ruby>のどのお<ruby>札<rt>さつ</rt></ruby>の<ruby>裏<rt>うら</rt></ruby>の<ruby>絵<rt>え</rt></ruby>と同じですか？<br><span class='text-sm text-gray-500 font-normal'>(The view of Mount Fuji seen from Lake Motosu in Yamanashi Prefecture is the same as the picture on the back of which Japanese bill?)</span>", options: ["<ruby>千円札<rt>せんえんさつ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(1,000 yen bill)</span>", "<ruby>五千円札<rt>ごせんえんさつ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(5,000 yen bill)</span>", "<ruby>一万円札<rt>いちまんえんさつ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(10,000 yen bill)</span>", "<ruby>二千円札<rt>にせんえんさつ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(2,000 yen bill)</span>"], answer: 0 },
+            { q: "<ruby>滋賀県<rt>しがけん</rt></ruby>の<ruby>豊郷<rt>とよさと</rt></ruby>小学校旧校舎の<ruby>階段<rt>かいだん</rt></ruby>の手すりには、何の<ruby>飾り<rt>かざり</rt></ruby>がありますか？<br><span class='text-sm text-gray-500 font-normal'>(What decorations are on the staircase handrails of the old Toyosato Elementary School building in Shiga Prefecture?)</span>", options: ["ウサギとカメ <span class='text-xs text-gray-500 font-normal'>(Rabbit and Turtle)</span>", "イヌとネコ <span class='text-xs text-gray-500 font-normal'>(Dog and Cat)</span>", "タカとトラ <span class='text-xs text-gray-500 font-normal'>(Hawk and Tiger)</span>", "サクラとモミジ <span class='text-xs text-gray-500 font-normal'>(Cherry blossom and Maple)</span>"], answer: 0 },
+            { q: "<ruby>奈良県<rt>ならけん</rt></ruby>の<ruby>柳生<rt>やぎゅう</rt></ruby>にある「<ruby>柳生一刀石<rt>やぎゅういっとうせき</rt></ruby>」には、どんな<ruby>伝説<rt>でんせつ</rt></ruby>がありますか？<br><span class='text-sm text-gray-500 font-normal'>(What kind of legend does the \"Yagyu Ittoseki\" in Yagyu, Nara Prefecture have?)</span>", options: ["<ruby>剣豪<rt>けんごう</rt></ruby>が<ruby>天狗<rt>てんぐ</rt></ruby>を<ruby>斬<rt>き</rt></ruby>ったときに<ruby>割<rt>わ</rt></ruby>れた <span class='text-xs text-gray-500 font-normal'>(It split when a master swordsman slashed a tengu)</span>", "<ruby>雷<rt>かみなり</rt></ruby>が<ruby>落<rt>お</rt></ruby>ちて<ruby>割<rt>わ</rt></ruby>れた <span class='text-xs text-gray-500 font-normal'>(It split due to a lightning strike)</span>", "<ruby>忍者<rt>にんじゃ</rt></ruby>が<ruby>隠<rt>かく</rt></ruby>れるために<ruby>作<rt>つく</rt></ruby>った <span class='text-xs text-gray-500 font-normal'>(It was made by ninjas to hide)</span>", "<ruby>宇宙<rt>うちゅう</rt></ruby>から<ruby>落<rt>お</rt></ruby>ちてきた <span class='text-xs text-gray-500 font-normal'>(It fell from space)</span>"], answer: 0 },
+            { q: "<ruby>京都<rt>きょうと</rt></ruby>の<ruby>伏見稲荷大社<rt>ふしみいなりたいしゃ</rt></ruby>にある、たくさんの<ruby>赤<rt>あか</rt></ruby>い<ruby>鳥居<rt>とりい</rt></ruby>が<ruby>並<rt>なら</rt></ruby>ぶ<ruby>場所<rt>ばしょ</rt></ruby>は何と呼ばれていますか？<br><span class='text-sm text-gray-500 font-normal'>(What is the place lined with many red torii gates at Fushimi Inari Shrine in Kyoto called?)</span>", options: ["<ruby>千本鳥居<rt>せんぼんとりい</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Senbon Torii Gates)</span>", "<ruby>万本鳥居<rt>まんぼんとりい</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Manbon Torii Gates)</span>", "<ruby>百本鳥居<rt>ひゃっぽんとりい</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Hyakubon Torii Gates)</span>", "<ruby>赤門鳥居<rt>あかもんとりい</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Akamon Torii Gates)</span>"], answer: 0 },
+            { q: "<ruby>二人<rt>ふたり</rt></ruby>が<ruby>京都<rt>きょうと</rt></ruby>の<ruby>旅館<rt>りょかん</rt></ruby>で<ruby>食<rt>た</rt></ruby>べた、<ruby>季節<rt>きせつ</rt></ruby>の<ruby>野菜<rt>やさい</rt></ruby>や<ruby>豆腐<rt>とうふ</rt></ruby>をたくさん<ruby>使<rt>つか</rt></ruby>う<ruby>料理<rt>りょうり</rt></ruby>の<ruby>名前<rt>なまえ</rt></ruby>は何ですか？<br><span class='text-sm text-gray-500 font-normal'>(What is the name of the cuisine using lots of seasonal vegetables and tofu that the two ate at the Kyoto inn?)</span>", options: ["<ruby>京料理<rt>きょうりょうり</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Kyo-ryori / Kyoto cuisine)</span>", "<ruby>江戸前寿司<rt>えどまえずし</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Edomae Sushi)</span>", "<ruby>沖縄蕎麦<rt>おきなわそば</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Okinawa Soba)</span>", "<ruby>精進料理<rt>しょうじんりょうり</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Buddhist vegetarian cuisine)</span>"], answer: 0 },
+            { q: "<ruby>旅行<rt>りょこう</rt></ruby>の<ruby>最後<rt>さいご</rt></ruby>に、<ruby>外国人観光客<rt>がいこくじんかんこうきゃく</rt></ruby>が<ruby>一番行<rt>いちばんい</rt></ruby>きたい<ruby>場所<rt>ばしょ</rt></ruby>と<ruby>言<rt>い</rt></ruby>われていた<ruby>聖地<rt>せいち</rt></ruby>はどこでしたか？<br><span class='text-sm text-gray-500 font-normal'>(At the end of the trip, which pilgrimage site was mentioned as the place foreign tourists want to visit the most?)</span>", options: ["<ruby>伏見稲荷<rt>ふしみいなり</rt></ruby>の<ruby>鳥居<rt>とりい</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The torii gates of Fushimi Inari)</span>", "<ruby>鎌倉<rt>かまくら</rt></ruby>の<ruby>踏切<rt>ふみきり</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The railroad crossing in Kamakura)</span>", "<ruby>須賀神社<rt>すがじんじゃ</rt></ruby>の<ruby>階段<rt>かいだん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The stairs of Suga Shrine)</span>", "<ruby>箱根<rt>はこね</rt></ruby>のロープウェイ <span class='text-xs text-gray-500 font-normal'>(The ropeway in Hakone)</span>"], answer: 0 }
         ];
-        // =================================================================
-// 4. 重要文法・表現クイズデータの修正（quizDataGrammar 配列）
-// =================================================================
 
-       // =================================================================
-// 4. 重要文法・表現クイズデータの修正（quizDataGrammar 配列）
-// =================================================================
-
-        const quizDataGrammar = [
-            { q: "<ruby>駅<rt>えき</rt></ruby>から ____ どのくらいかかりますか。<br><span class='text-sm text-gray-500 font-normal'>(How long does it take walking from the station?)</span>", options: ["<ruby>歩<rt>ある</rt></ruby>いて", "<ruby>歩<rt>ある</rt></ruby>くなら", "<ruby>歩<rt>ある</rt></ruby>えば", "<ruby>歩<rt>ある</rt></ruby>いた"], answer: 0 },
-            { q: "アニメのメンバーは、ここを ____ <ruby>登<rt>のぼ</rt></ruby>っていましたよ。<br><span class='text-sm text-gray-500 font-normal'>(The anime members were running up here!)</span>", options: ["<ruby>走<rt>はし</rt></ruby>って", "<ruby>走<rt>はし</rt></ruby>る", "<ruby>走<rt>はし</rt></ruby>った", "<ruby>走<rt>はし</rt></ruby>れば"], answer: 0 },
-            { q: "<ruby>海<rt>うみ</rt></ruby>と<ruby>踏切<rt>ふみきり</rt></ruby>と<ruby>電車<rt>てんしゃ</rt></ruby>が ____ <ruby>見<rt>み</rt></ruby>られるから、<ruby>人気<rt>にんき</rt></ruby>があるんですね。<br><span class='text-sm text-gray-500 font-normal'>(It's popular because you can see the sea, the crossing, and the train all together, isn't it?)</span>", options: ["<ruby>一緒<rt>いっしょ</rt></ruby>に", "<ruby>一回<rt>いっかい</rt></ruby>に", "<ruby>同等<rt>どうとう</rt></ruby>に", "<ruby>一斉<rt>いっせい</rt></ruby>に"], answer: 0 },
-            { q: "<ruby>電車<rt>てんしゃ</rt></ruby>が<ruby>来<rt>き</rt></ruby>たら、すぐに<ruby>写真<rt>しゃしん</rt></ruby>を ____ なりません。<br><span class='text-sm text-gray-500 font-normal'>(Once the train comes, we must take a picture immediately.)</span>", options: ["<ruby>撮<rt>と</rt></ruby>らなければ", "<ruby>撮<rt>と</rt></ruby>るには", "<ruby>撮<rt>と</rt></ruby>ったら", "<ruby>撮<rt>と</rt></ruby>るべきに"], answer: 0 },
-            { q: "<ruby>大涌谷<rt>おおわくだに</rt></ruby>に ____ 、<ruby>絶対<rt>ぜったい</rt></ruby>に<ruby>食<rt>た</rt></ruby>べなければならないものがあります。<br><span class='text-sm text-gray-500 font-normal'>(Once we arrive at Owakudani, there is something we absolutely must eat.)</span>", options: ["<ruby>着<rt>つ</rt></ruby>いたら", "<ruby>着<rt>つ</rt></ruby>くなら", "<ruby>着<rt>つ</rt></ruby>いて", "<ruby>着<rt>つ</rt></ruby>いたので"], answer: 0 },
-            { q: "<ruby>温<rt>あたた</rt></ruby>かいお<ruby>茶<rt>ちゃ</rt></ruby>を ____ 、<ruby>富士山<rt>ふじさん</rt></ruby>をゆっくり<ruby>見<rt>み</rt></ruby>ましょう。<br><span class='text-sm text-gray-500 font-normal'>(Let's look at Mt. Fuji relaxing while drinking warm tea.)</span>", options: ["<ruby>飲<rt>の</rt></ruby>みながら", "<ruby>飲<rt>の</rt></ruby>むうちに", "<ruby>飲<rt>の</rt></ruby>んだあと", "<ruby>飲<rt>の</rt></ruby>みつつも"], answer: 0 },
-            { q: "アニメを<ruby>観<rt>み</rt></ruby>て、ここでキャンプをしたい<ruby>人<rt>ひと</rt></ruby>が ____ そうですよ。<br><span class='text-sm text-gray-500 font-normal'>(I heard that the number of people who want to camp here increased after watching the anime.)</span>", options: ["<ruby>増<rt>ふ</rt></ruby>えた", "<ruby>増<rt>ふ</rt></ruby>える", "<ruby>増<rt>ふ</rt></ruby>やした", "<ruby>増<rt>ふ</rt></ruby>えそう"], answer: 0 },
-            { q: "これを<ruby>使<rt>つか</rt></ruby>って、<ruby>主人公<rt>しゅじんこう</rt></ruby>のポーズで<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>っても ____ ですか。<br><span class='text-sm text-gray-500 font-normal'>(Is it okay if I use this to take a picture in the main character's pose?)</span>", options: ["いい", "そう", "ある", "なる"], answer: 0 },
-            { q: "<ruby>映画<rt>えいが</rt></ruby>の<ruby>曲<rt>きょく</rt></ruby>を ____ <ruby>歩<rt>ある</rt></ruby>くと、もっと<ruby>楽<rt>たの</rt></ruby>しいですよ。<br><span class='text-sm text-gray-500 font-normal'>(It's more fun if you walk while listening to the movie's songs!)</span>", options: ["<ruby>聴<rt>き</rt></ruby>きながら", "<ruby>聴<rt>き</rt></ruby>いておき", "<ruby>聴<rt>き</rt></ruby>くのに", "<ruby>聴<rt>き</rt></ruby>いたなら"], answer: 0 },
-            { q: "<ruby>熱<rt>あつ</rt></ruby>いお<ruby>湯<rt>ゆ</rt></ruby>ですから、ゆっくり ____ くださいね。<br><span class='text-sm text-gray-500 font-normal'>(It is hot water, so please enter slowly.)</span>", options: ["<ruby>入<rt>はい</rt></ruby>って", "<ruby>入<rt>はい</rt></ruby>る", "<ruby>入<rt>はい</rt></ruby>らなくて", "<ruby>入<rt>はい</rt></ruby>り"], answer: 0 }
+       const quizDataGrammar = [
+            { q: "<ruby>駅<rt>えき</rt></ruby>から<ruby>歩<rt>ある</rt></ruby>いてどのくらい ____ か。<br><span class='text-sm text-gray-500 font-normal'>(How long does it take to walk from the station?)</span>", options: ["かかります", "あります", "します", "いきます"], answer: 0 },
+            { q: "<ruby>映画<rt>えいが</rt></ruby>のポスター ____ ですね。<br><span class='text-sm text-gray-500 font-normal'>(It looks like a movie poster, doesn't it?)</span>", options: ["みたい", "らしい", "そう", "っぽい"], answer: 0 },
+            { q: "<ruby>私<rt>わたし</rt></ruby>は<ruby>歩<rt>ある</rt></ruby>くだけで<ruby>疲<rt>つか</rt></ruby>れ ____ 。<br><span class='text-sm text-gray-500 font-normal'>(I feel like I'll get tired just by walking.)</span>", options: ["そうです", "らしいです", "みたいです", "はずです"], answer: 0 },
+            { q: "<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>来<rt>き</rt></ruby>たら、すぐに<ruby>写真<rt>しゃしん</rt></ruby>を ____ なりません。<br><span class='text-sm text-gray-500 font-normal'>(When the train comes, we must take a picture immediately.)</span>", options: ["<ruby>撮<rt>と</rt></ruby>らなければ", "<ruby>撮<rt>と</rt></ruby>っては", "<ruby>撮<rt>と</rt></ruby>ると", "<ruby>撮<rt>と</rt></ruby>りながら"], answer: 0 },
+            { q: "あと2<ruby>分<rt>ふん</rt></ruby>くらいで<ruby>来<rt>く</rt></ruby>る ____ ですよ。<br><span class='text-sm text-gray-500 font-normal'>(It is expected to come in about 2 minutes.)</span>", options: ["はず", "ため", "こと", "わけ"], answer: 0 },
+            { q: "<ruby>大涌谷<rt>おおわくだに</rt></ruby>に<ruby>着<rt>つ</rt></ruby>いたら、<ruby>絶対<rt>ぜったい</rt></ruby>に ____ ならない<ruby>物<rt>もの</rt></ruby>があります。<br><span class='text-sm text-gray-500 font-normal'>(When we arrive at Owakudani, there is something we absolutely must eat.)</span>", options: ["<ruby>食<rt>た</rt></ruby>べなければ", "<ruby>食<rt>た</rt></ruby>べては", "<ruby>食<rt>た</rt></ruby>べると", "<ruby>食<rt>た</rt></ruby>べたら"], answer: 0 },
+            { q: "<ruby>食<rt>た</rt></ruby>べると<ruby>寿命<rt>じゅみょう</rt></ruby>が<ruby>延<rt>の</rt></ruby>びると ____ います。<br><span class='text-sm text-gray-500 font-normal'>(It is said that eating it extends your lifespan.)</span>", options: ["<ruby>言<rt>い</rt></ruby>われて", "<ruby>話<rt>はな</rt></ruby>されて", "<ruby>聞<rt>き</rt></ruby>かれて", "<ruby>呼<rt>よ</rt></ruby>ばれて"], answer: 0 },
+            { q: "<ruby>温<rt>あたた</rt></ruby>かいお<ruby>茶<rt>ちゃ</rt></ruby>を ____ 、<ruby>富士山<rt>ふじさん</rt></ruby>をゆっくり<ruby>見<rt>み</rt></ruby>ましょう。<br><span class='text-sm text-gray-500 font-normal'>(Let's look at Mount Fuji relaxedly while drinking warm tea.)</span>", options: ["<ruby>飲<rt>の</rt></ruby>みながら", "<ruby>飲<rt>の</rt></ruby>んだら", "<ruby>飲<rt>の</rt></ruby>みすれば", "<ruby>飲<rt>の</rt></ruby>むと"], answer: 0 },
+            { q: "アニメの<ruby>世界<rt>せかい</rt></ruby>に<ruby>入<rt>はい</rt></ruby>った ____ で、ワクワクします。<br><span class='text-sm text-gray-500 font-normal'>(It feels just like entering the world of anime, and I'm excited.)</span>", options: ["みたい", "そう", "らしい", "ず"], answer: 0 },
+            { q: "<ruby>日本<rt>にほん</rt></ruby>の<ruby>温泉<rt>おんせん</rt></ruby>は<ruby>初<rt>はじ</rt></ruby>めてなので、<ruby>少<rt>すこ</rt></ruby>し<ruby>緊張<rt>きんちょう</rt></ruby> ____ 。<br><span class='text-sm text-gray-500 font-normal'>(Since it's my first time at a Japanese hot spring, I'm a little nervous.)</span>", options: ["します", "あります", "なります", "できます"], answer: 0 }
         ];
         let quizData = [];
 
@@ -635,31 +637,71 @@
             document.getElementById('final-score').innerText = appState.score;
         }
 
-        function switchTab(tabId) {
+       function switchTab(tabId) {
             appState.activeTab = tabId;
             
             const convBtn = document.getElementById('tab-btn-conv');
             const quizBtn = document.getElementById('tab-btn-quiz');
+            const convBtnLand = document.getElementById('tab-btn-conv-land');
+            const quizBtnLand = document.getElementById('tab-btn-quiz-land');
             const convDiv = document.getElementById('tab-conv');
             const quizDiv = document.getElementById('tab-quiz');
             
+            const activeClass = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
+            const inactiveClass = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
+            const activeClassLand = "flex-1 px-4 py-1.5 rounded-md bg-white shadow text-blue-600 font-medium text-xs transition-all text-center";
+            const inactiveClassLand = "flex-1 px-4 py-1.5 rounded-md text-gray-500 hover:text-gray-700 font-medium text-xs transition-all text-center";
+            
             if (tabId === 'conv') {
-                convBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
-                quizBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
-                convDiv.classList.remove('hidden');
-                quizDiv.classList.add('hidden');
+                if(convBtn) convBtn.className = activeClass;
+                if(quizBtn) quizBtn.className = inactiveClass;
+                if(convBtnLand) convBtnLand.className = activeClassLand;
+                if(quizBtnLand) quizBtnLand.className = inactiveClassLand;
+                if(convDiv) convDiv.classList.remove('hidden');
+                if(quizDiv) quizDiv.classList.add('hidden');
             } else {
-                quizBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
-                convBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
-                quizDiv.classList.remove('hidden');
-                convDiv.classList.add('hidden');
+                if(quizBtn) quizBtn.className = activeClass;
+                if(convBtn) convBtn.className = inactiveClass;
+                if(quizBtnLand) quizBtnLand.className = activeClassLand;
+                if(convBtnLand) convBtnLand.className = inactiveClassLand;
+                if(quizDiv) quizDiv.classList.remove('hidden');
+                if(convDiv) convDiv.classList.add('hidden');
                 
                 // Reset Quiz
-                document.getElementById('quiz-intro').classList.remove('hidden');
-                document.getElementById('quiz-area').classList.add('hidden');
-                document.getElementById('quiz-result').classList.add('hidden');
+                const quizIntro = document.getElementById('quiz-intro');
+                const quizArea = document.getElementById('quiz-area');
+                const quizResult = document.getElementById('quiz-result');
+                if(quizIntro) quizIntro.classList.remove('hidden');
+                if(quizArea) quizArea.classList.add('hidden');
+                if(quizResult) quizResult.classList.add('hidden');
             }
         }
+
+        // ==========================================
+        // 【YouTube 設定エリア】次回からはここを変更してください
+        // ==========================================
+        const YOUTUBE_VIDEO_ID = 'KOl9-FFqKME'; // ★動画ID（英数字11桁） ※適宜新しい動画IDに変更してください
+        const sceneStartTimes = [0, 169, 336, 478, 603, 747, 886, 1039, 1194, 1337]; // ★各シーンの開始秒数
+        // ==========================================
+
+        let ytPlayer = null;
+
+        // YouTube Iframe API スクリプトを自動動的ロード
+        const tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        const firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        // API読み込み完了時に自動実行される関数
+        window.onYouTubeIframeAPIReady = () => {
+            ytPlayer = new YT.Player('player', {
+                videoId: YOUTUBE_VIDEO_ID,
+                playerVars: {
+                    'playsinline': 1,
+                    'rel': 0
+                }
+            });
+        };
 
         window.onload = async () => {
             // Populate Language Selector
@@ -683,9 +725,15 @@
             }
 
             selector.addEventListener('change', (e) => {
-                appState.currentSceneIndex = parseInt(e.target.value);
+                const sceneIdx = parseInt(e.target.value);
+                appState.currentSceneIndex = sceneIdx;
                 if(appState.isPlaying) playEntireScene(); // Stop if playing
                 renderScene();
+
+                // シーン選択時にYouTubeの再生位置を対応する秒数へジャンプさせる
+                if (ytPlayer && typeof ytPlayer.seekTo === 'function') {
+                    ytPlayer.seekTo(sceneStartTimes[sceneIdx], true);
+                }
             });
 
             document.getElementById('toggle-romaji').addEventListener('change', (e) => {
