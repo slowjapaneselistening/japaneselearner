@@ -67,9 +67,9 @@
         }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800 min-h-screen pb-12">
-    <header class="bg-white shadow-sm sticky top-0 z-50">
-        <div class="max-w-4xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+<body class="bg-gray-50 text-gray-800 min-h-screen">
+    <header class="bg-white shadow-sm sticky top-0 z-50 landscape:hidden">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
             <div class="flex items-center gap-3">
                 <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-md">
                     <i class="fa-solid fa-language text-xl"></i>
@@ -88,105 +88,118 @@
         </div>
     </header>
 
-    <main class="max-w-4xl mx-auto px-4 mt-6">
+    <main class="max-w-7xl mx-auto px-4 mt-2 landscape:mt-6 md:mt-6 flex flex-col landscape:flex-row md:flex-row gap-6 items-start">
         
-        <!-- TAB 1: Conversation -->
-        <div id="tab-conv">
-            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
-                
-                <!-- Controls Bar -->
-                <div class="bg-gray-50/50 p-4 border-b border-gray-100 flex flex-col gap-3">
-                    <!-- 1段目: セレクターとプレイボタン -->
-                    <div class="flex flex-col md:flex-row items-center gap-2 w-full">
-                        <select id="scene-selector" class="w-full md:w-auto max-w-md flex-1 bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2 shadow-sm font-medium truncate">
-                            <!-- Options populated by JS -->
-                        </select>
+        <div class="contents landscape:block md:block w-full landscape:sticky md:sticky landscape:top-4 md:top-20 landscape:w-1/2 md:w-1/2 space-y-4 landscape:max-h-[calc(100vh-2rem)] landscape:overflow-y-auto pr-1">
+            
+           <div class="w-full bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden p-4 sticky top-[124px] z-40 landscape:z-auto landscape:static md:static">
+                <div class="relative w-full pb-[56.25%] h-0">
+                    <div id="player" class="absolute top-0 left-0 w-full h-full rounded-xl"></div>
+                </div>
+            </div>
 
-                        <!-- Roleplay Selector -->
-                        <select id="roleplay-selector" class="w-full md:w-auto bg-purple-50 border border-purple-200 text-purple-800 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2 font-medium shadow-sm shrink-0">
-                            <option value="none">👤 Roleplay: Off</option>
-                            <option value="Speaker 1">🔇 Mute Speaker 1</option>
-                            <option value="Speaker 2">🔇 Mute Speaker 2</option>
-                        </select>
+            <div class="w-full bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden relative z-30">
+                <div class="bg-gray-50/50 p-4 flex flex-col gap-3">
+                    <div class="flex flex-col gap-2 w-full">
+                        <select id="scene-selector" class="w-full bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2 shadow-sm font-medium truncate">
+                            </select>
 
-                        <button onclick="playEntireScene()" id="play-scene-btn" class="w-full md:w-auto bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm shrink-0">
-                            <i class="fa-solid fa-play"></i> Play
-                        </button>
+                        <div class="flex gap-2 w-full">
+                            <select id="roleplay-selector" class="flex-1 bg-purple-50 border border-purple-200 text-purple-800 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2 font-medium shadow-sm truncate">
+                                <option value="none">👤 Roleplay: Off</option>
+                                <option value="Speaker 1">🔇 Mute Speaker 1</option>
+                                <option value="Speaker 2">🔇 Mute Speaker 2</option>
+                            </select>
+
+                            <button onclick="playEntireScene()" id="play-scene-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm shrink-0">
+                                <i class="fa-solid fa-play"></i> Play
+                            </button>
+                        </div>
                     </div>
 
-                    <!-- 2段目: 表示オプション（翻訳・ふりがな・ローマ字） -->
-                    <div class="flex flex-wrap items-center gap-4 text-sm font-medium text-gray-600 border-t border-gray-100 pt-2">
-                        <div class="flex items-center gap-2 cursor-pointer text-gray-600 hover:text-blue-600 transition-colors">
+                    <div class="flex flex-wrap items-center gap-4 text-xs font-medium text-gray-600 border-t border-gray-100 pt-2">
+                        <div class="flex items-center gap-1.5 cursor-pointer text-gray-600 hover:text-blue-600 transition-colors">
                             <input type="checkbox" id="toggle-translation" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
                             <span>Translation:</span>
-                            <select id="lang-selector" class="bg-white border border-gray-300 text-gray-700 text-xs rounded p-1 font-medium focus:ring-blue-500 focus:border-blue-500">
+                            <select id="lang-selector" class="bg-white border border-gray-300 text-gray-700 text-xs rounded p-0.5 font-medium focus:ring-blue-500 focus:border-blue-500">
                             </select>
                         </div>
-                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                        <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
                             <input type="checkbox" id="toggle-kanji-test" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
                             Hide Furigana
                         </label>
-                        <label class="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-colors">
+                        <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
                             <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
                             Romaji
                         </label>
                     </div>
-                </div>
 
-                <!-- Dialogue Area -->
-                <div class="p-4 sm:p-6 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-gray-50/30 min-h-[500px]">
-                    <div id="dialogue-list" class="flex flex-col gap-6">
-                        <!-- Dialogue bubbles inserted by JS -->
+                    <div class="hidden landscape:flex bg-gray-100 p-1 rounded-lg border border-gray-200 mt-2">
+                        <button id="tab-btn-conv-land" onclick="switchTab('conv')" class="flex-1 px-4 py-1.5 rounded-md bg-white shadow text-blue-600 font-medium text-xs transition-all text-center">
+                            <i class="fa-regular fa-comments mr-1"></i> Conversation
+                        </button>
+                        <button id="tab-btn-quiz-land" onclick="switchTab('quiz')" class="flex-1 px-4 py-1.5 rounded-md text-gray-500 hover:text-gray-700 font-medium text-xs transition-all text-center">
+                            <i class="fa-solid fa-pen-to-square mr-1"></i> Kanji Quiz
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- TAB 2: Kanji Quiz -->
-        <div id="tab-quiz" class="hidden">
-            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-10 text-center max-w-2xl mx-auto">
-                <div id="quiz-intro">
-                    <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">
-                        <i class="fa-solid fa-graduation-cap"></i>
-                    </div>
-                    <h2 class="text-2xl font-bold text-gray-800 mb-2">日本語クイズテスト (Japanese Quiz)</h2>
-                    <p class="text-gray-500 mb-4">クイズの種類を選んで「スタート」を押してください。</p>
-                    
-                    <div class="max-w-xs mx-auto mb-6">
-                        <select id="quiz-type-selector" class="w-full bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block p-2.5 font-medium shadow-sm text-center">
-                            <option value="kanji">🔤 漢字の読み方テスト (Kanji Reading)</option>
-                            <option value="culture">🏮内容理解クイズ (Culture & Context)</option>
-                            <option value="grammar">📝 重要文法・表現の穴埋めクイズ (Grammar Fill-in)</option>
-                        </select>
-                    </div>
-
-                    <button onclick="startQuiz()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-transform transform hover:scale-105">
-                        スタート (Start)
-                    </button>
-                </div>
-
-                <div id="quiz-area" class="hidden">
-                    <div class="flex justify-between items-center text-sm font-medium text-gray-500 mb-6">
-                        <span id="quiz-progress" class="bg-gray-100 py-1 px-3 rounded-full">Question 1/10</span>
-                        <span id="quiz-score" class="text-green-600">Score: 0</span>
-                    </div>
-                    
-                    <h3 id="quiz-question" class="text-3xl sm:text-4xl font-bold text-gray-800 mb-8 py-6 bg-gray-50 rounded-xl border border-gray-100">
-                        <!--q -->
-                    </h3>
-                    
-                    <div id="quiz-options" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <!-- Options buttons -->
+        <div class="w-full pt-4 landscape:pt-0 md:pt-0 landscape:w-1/2 md:w-1/2 pb-12 relative z-30">
+            
+            <div id="tab-conv">
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                    <div class="p-4 sm:p-6 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-gray-50/30 min-h-[500px]">
+                        <div id="dialogue-list" class="flex flex-col gap-6">
+                            </div>
                     </div>
                 </div>
+            </div>
 
-                <div id="quiz-result" class="hidden">
-                    <div class="text-6xl mb-4">🏆</div>
-                    <h2 class="text-2xl font-bold text-gray-800 mb-2">お疲れ様でした！</h2>
-                    <p class="text-xl text-gray-600 mb-6">Your Score: <span id="final-score" class="font-bold text-green-600 text-3xl"></span> / 10</p>
-                    <button onclick="startQuiz()" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-colors">
-                        もう一度プレイ (Play Again)
-                    </button>
+            <div id="tab-quiz" class="hidden">
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-10 text-center w-full mx-auto">
+                    <div id="quiz-intro">
+                        <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-2">日本語クイズテスト (Japanese Quiz)</h2>
+                        <p class="text-gray-500 mb-4">クイズの種類を選んで「スタート」を押してください。</p>
+                        
+                        <div class="max-w-xs mx-auto mb-6">
+                            <select id="quiz-type-selector" class="w-full bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block p-2.5 font-medium shadow-sm text-center">
+                                <option value="kanji">🔤 漢字の読み方テスト (Kanji Reading)</option>
+                                <option value="culture">🏮内容理解クイズ (Culture & Context)</option>
+                                <option value="grammar">📝 重要文法・表現の穴埋めクイズ (Grammar Fill-in)</option>
+                            </select>
+                        </div>
+
+                        <button onclick="startQuiz()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-transform transform hover:scale-105">
+                            スタート (Start)
+                        </button>
+                    </div>
+
+                    <div id="quiz-area" class="hidden">
+                        <div class="flex justify-between items-center text-sm font-medium text-gray-500 mb-6">
+                            <span id="quiz-progress" class="bg-gray-100 py-1 px-3 rounded-full">Question 1/10</span>
+                            <span id="quiz-score" class="text-green-600">Score: 0</span>
+                        </div>
+                        
+                        <h3 id="quiz-question" class="text-xl sm:text-2xl font-bold text-gray-800 mb-8 py-6 bg-gray-50 rounded-xl border border-gray-100 px-4">
+                            </h3>
+                        
+                        <div id="quiz-options" class="grid grid-cols-1 gap-4">
+                            </div>
+                    </div>
+
+                    <div id="quiz-result" class="hidden">
+                        <div class="text-6xl mb-4">🏆</div>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-2">お疲れ様でした！</h2>
+                        <p class="text-xl text-gray-600 mb-6">Your Score: <span id="final-score" class="font-bold text-green-600 text-3xl"></span> / 10</p>
+                        <button onclick="startQuiz()" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-colors">
+                            もう一度プレイ (Play Again)
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -209,18 +222,23 @@
             quizType: 'kanji'
         };
 
+      // =================================================================
+// 1. タイトル・シーン数の修正（sceneTitles 配列 と parseData ループ回数）
+// =================================================================
+
       const sceneTitles = [
-            "Scene 1: サッカーの試合観戦 / Soccer Match Viewing",
-            "Scene 2: ワールドカップの決勝予想 / World Cup Final Predictions",
-            "Scene 3: 相撲の観戦と国技館 / Sumo Watching and Kokugikan",
-            "Scene 4: 男子スポーツクライミング / Men's Sports Climbing",
-            "Scene 5: 女子スポーツクライミング / Women's Sports Climbing",
-            "Scene 6: メジャーリーグの活躍 / Major League Success",
-            "Scene 7: プロ野球の応援文化 / Pro Baseball Cheering Culture",
-            "Scene 8: 男子バレーボールの進化 / Men's Volleyball Evolution",
-            "Scene 9: Bリーグの試合観戦 / B.League Match Viewing",
-            "Scene 10: 卓球の国際大会 / International Table Tennis Tournament"
+            "Scene 1: 日本対ブラジル戦の感想 / Impressions of the Japan vs. Brazil Match",
+            "Scene 2: 決勝カード予想 / Predicting the World Cup Final Matchup",
+            "Scene 3: 相撲観戦の魅力 / The Excitement of Watching Sumo Live",
+            "Scene 4: スポーツクライミング 三強の熱い戦い / The Intense Rivalry of the Climbing Big Three",
+            "Scene 5: 森秋彩の魔法のリード / Mori Ai's Magical Lead Climbing",
+            "Scene 6: 日本人メジャーの活躍 / Japanese MLB Players' Remarkable Performances",
+            "Scene 7: 日本プロ野球の魅力 / The Charm of Japanese Professional Baseball",
+            "Scene 8: 日本代表の進化する戦術 / Evolution of Japan's National Volleyball Team Tactics",
+            "Scene 9: Bリーグ観戦の魅力 / The Excitement of Watching a B.League Game",
+            "Scene 10: 卓球の熱戦 / The Intense Table Tennis Showdown"
         ];
+
 
         const LANG_MAP = {
             'English': 'en', 'Vietnamese': 'vi', 'Indonesian': 'id', 'Thai': 'th', 'Korean': 'ko', 
@@ -236,43 +254,59 @@
         let srtDataCache = {};
 // rawData（台本テキスト）はフォルダから自動取得するため削除しました
 
-       const quizDataKanji = [
-            { q: "「前半」の読み方は？", options: ["ぜんはん", "まえはん", "ぜんぱん", "こうはん"], answer: 0 },
-            { q: "「決勝戦」の読み方は？", options: ["けっしょうせん", "けつしょうせん", "けっしょうたん", "けっじょうせん"], answer: 0 },
-            { q: "「迫力」の読み方は？", options: ["はくりょく", "ばくりょく", "はくりき", "しろりょく"], answer: 0 },
-            { q: "「大活躍」の読み方は？", options: ["だいかつやく", "だいけっさく", "たいかつやく", "だいかんげい"], answer: 0 },
-            { q: "「圧倒的」の読み方は？", options: ["あっとうてき", "おうとうてき", "あっどくてき", "あつりょくてき"], answer: 0 },
-            { q: "「飛距離」の読み方は？", options: ["ひきょり", "とびきょり", "ひきらい", "びきょり"], answer: 0 },
-            { q: "「観客」の読み方は？", options: ["かんきゃく", "みかく", "かんかく", "けんきゃく"], answer: 0 },
-            { q: "「進化」の読み方は？", options: ["しんか", "すすか", "じんか", "しんが"], answer: 0 },
-            { q: "「演出」の読み方は？", options: ["えんしゅつ", "いんしゅつ", "えんだし", "おんしゅつ"], answer: 0 },
-            { q: "「反射神経」の読み方は？", options: ["はんしゃしんけい", "ばんしゃしんけい", "はんしゃじんけい", "へんしゃしんけい"], answer: 0 }
+      // =================================================================
+// 2. 漢字クイズデータの修正（quizDataKanji 配列）
+// =================================================================
+
+        // =================================================================
+// 2. 漢字クイズデータの修正（quizDataKanji 配列）
+// =================================================================
+
+        const quizDataKanji = [
+            { q: "「感想」の読み方は？", options: ["かんそう", "がんそう", "かんぞう", "こうそう"], answer: 0 },
+            { q: "「興奮」の読み方は？", options: ["こうふん", "きょうふん", "こうほん", "きょうほん"], answer: 0 },
+            { q: "「強豪」の読み方は？", options: ["きょうごう", "きょうかく", "ごうごう", "ごうきょう"], answer: 0 },
+            { q: "「決勝」の読み方は？", options: ["けっしょう", "けつしょう", "けっしょうな", "けっそう"], answer: 0 },
+            { q: "「迫力」の読み方は？", options: ["はくりょく", "ばくりょく", "はくりき", "ぱくりょく"], answer: 0 },
+            { q: "「伝統」の読み方は？", options: ["でんとも", "てんとう", "でんどう", "てんどう"], answer: 0 },
+            { q: "「逆転」の読み方は？", options: ["ぎゃくてん", "ぎくてん", "ぎゃくでん", "かくてん"], answer: 0 },
+            { q: "「実力」の読み方は？", options: ["じつりょく", "じつりき", "しつりょく", "じちりょく"], answer: 0 },
+            { q: "「信頼」の読み方は？", options: ["しんらい", "じんらい", "しんえい", "しんない"], answer: 0 },
+            { q: "「諦める」の読み方は？", options: ["あきらめる", "まとめる", "きめる", "やめる"], answer: 0 }
         ];
 
-       const quizDataCulture = [
-            { q: "<ruby>会話<rt>かいわ</rt></ruby>のなかで、Speaker 1は<ruby>前半<rt>ぜんはん</rt></ruby>の<ruby>日本<rt>にほん</rt></ruby>のゴールはどうだったと<ruby>言<rt>い</rt></ruby>っていますか？<br><span class='text-sm text-gray-500 font-normal'>(In the conversation, what does Speaker 1 say about Japan's goal in the first half?)</span>", options: ["とても<ruby>綺麗<rt>きれい</rt></ruby>だった <span class='text-xs text-gray-500 font-normal'>(It was very beautiful)</span>", "<ruby>全<rt>まった</rt></ruby>くダメだった <span class='text-xs text-gray-500 font-normal'>(It was not good at all)</span>", "<ruby>運<rt>うん</rt></ruby>がよかった <span class='text-xs text-gray-500 font-normal'>(It was lucky)</span>", "<ruby>反則<rt>はんそく</rt></ruby>だった <span class='text-xs text-gray-500 font-normal'>(It was a foul)</span>"], answer: 0 },
-            { q: "<ruby>動画<rt>どうが</rt></ruby>では、Speaker 2はどちらの<ruby>チーム<rt>ちーむ</rt></ruby>が<ruby>優勝<rt>ゆうしょう</rt></ruby>するほうに<ruby>賭<rt>か</rt></ruby>けていますか？<br><span class='text-sm text-gray-500 font-normal'>(In the video, which team is Speaker 2 betting will win?)</span>", options: ["ブラジルが<ruby>優勝<rt>ゆうしょう</rt></ruby>する <span class='text-xs text-gray-500 font-normal'>(Brazil will win)</span>", "フランスが<ruby>優勝<rt>ゆうしょう</rt></ruby>する <span class='text-xs text-gray-500 font-normal'>(France will win)</span>", "<ruby>日本<rt>にほん</rt></ruby>が<ruby>優勝<rt>ゆうしょう</rt></ruby>する <span class='text-xs text-gray-500 font-normal'>(Japan will win)</span>", "<ruby>両方<rt>りょうほう</rt></ruby>が<ruby>負<rt>ま</rt></ruby>ける <span class='text-xs text-gray-500 font-normal'>(Both will lose)</span>"], answer: 0 },
-            { q: "<ruby>会話<rt>かいわ</rt></ruby>のなかで、<ruby>両国国技館<rt>りょうごくこくぎかん</rt></ruby>の<ruby>地下<rt>ちか</rt></ruby>で<ruby>焼<rt>や</rt></ruby>いている<ruby>特製<rt>とくせい</rt></ruby>のお<ruby>土産<rt>みやげ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか？<br><span class='text-sm text-gray-500 font-normal'>(In the conversation, what is the special souvenir grilled in the basement of the Ryogoku Kokugikan?)</span>", options: ["<ruby>名物<rt>めいぶつ</rt></ruby>の<ruby>焼<rt>や</rt></ruby>き<ruby>鳥<rt>とり</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The famous yakitori)</span>", "<ruby>本物<rt>ほんもの</rt></ruby>のちゃんこ<ruby>鍋<rt>なべ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The authentic chankonabe)</span>", "おいしいお<ruby>弁当<rt>べんとう</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A delicious bento)</span>", "<ruby>甘<rt>あま</rt></ruby>いお<ruby>菓子<rt>かし</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Sweet sweets)</span>"], answer: 0 },
-            { q: "<ruby>動画<rt>どうが</rt></ruby>では、安楽<ruby>選手<rt>せんしゅ</rt></ruby>とライバルたちは<ruby>普段<rt>ふだん</rt></ruby>どんな<ruby>関係<rt>かんけい</rt></ruby>だと言っていますか？<br><span class='text-sm text-gray-500 font-normal'>(In the video, what kind of relationship do Anraku and his rivals usually have?)</span>", options: ["<ruby>仲<rt>なか</rt></ruby>が<ruby>良い<rt>よい</rt></ruby><ruby>友達<rt>ともだち</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Good friends)</span>", "<ruby>悪い<rt>わるい</rt></ruby><ruby>敵<rt>てき</rt></ruby>の<ruby>関係<rt>かんけい</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Bad enemy relationship)</span>", "<ruby>同じ<rt>おなじ</rt></ruby><ruby>学校<rt>がっこう</rt></ruby>の<ruby>先輩<rt>せんぱい</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Seniors at the same school)</span>", "まったく<ruby>知らない<rt>しらない</rt></ruby><ruby>人<rt>ひと</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Total strangers)</span>"], answer: 0 },
-            { q: "<ruby>会話<rt>かいわ</rt></ruby>のなかで、森<ruby>選手<rt>せんしゅ</rt></ruby>はリーチの<ruby>短<rt>みじか</rt></ruby>さをどのようにカバーしていますか？<br><span class='text-sm text-gray-500 font-normal'>(In the conversation, how does Mori cover her short reach?)</span>", options: ["<ruby>精度<rt>せいど</rt></ruby>が<ruby>高い<rt>たかい</rt></ruby><ruby>技術<rt>ぎじゅつ</rt></ruby>でカバーする <span class='text-xs text-gray-500 font-normal'>(Cover with high-precision technique)</span>", "<ruby>長い<rt>ながい</rt></ruby><ruby>道具<rt>どうぐ</rt></ruby>を<ruby>使<rt>つか</rt></ruby>ってカバーする <span class='text-xs text-gray-500 font-normal'>(Cover using long tools)</span>", "<ruby>高い<rt>たかい</rt></ruby><ruby>身長<rt>しんちょう</rt></ruby>でカバーする <span class='text-xs text-gray-500 font-normal'>(Cover with tall height)</span>", "カバーをしないで<ruby>諦<rt>あきら</rt></ruby>める <span class='text-xs text-gray-500 font-normal'>(Give up without covering)</span>"], answer: 0 },
-            { q: "<ruby>動画<rt>どうが</rt></ruby>では、<ruby>日本人<rt>にほんじん</rt></ruby>メジャーリーガーは<ruby>野球<rt>やきゅう</rt></ruby>の<ruby>実力<rt>じつりょく</rt></ruby>のほかに、何が<ruby>褒<rt>ほ</rt></ruby>められていますか？<br><span class='text-sm text-gray-500 font-normal'>(In the video, what is the Japanese Major Leaguer praised for besides his baseball skills?)</span>", options: ["ゴミを<ruby>拾<rt>ひろ</rt></ruby>うマナー <span class='text-xs text-gray-500 font-normal'>(Manners of picking up trash)</span>", "<ruby>英語<rt>えいご</rt></ruby>の<ruby>会話<rt>かいわ</rt></ruby>のスピード <span class='text-xs text-gray-500 font-normal'>(Speed of English conversation)</span>", "<ruby>歌<rt>うた</rt></ruby>の<ruby>上手<rt>じょうず</rt></ruby>さ <span class='text-xs text-gray-500 font-normal'>(Skillfulness in singing)</span>", "<ruby>走る<rt>はしる</rt></ruby>スピードの<ruby>速<rt>はや</rt></ruby>さ <span class='text-xs text-gray-500 font-normal'>(Fastness of running speed)</span>"], answer: 0 },
-            { q: "<ruby>会話<rt>かいわ</rt></ruby>のなかで、プロ<ruby>野球<rt>やきゅう</rt></ruby>の7<ruby>回<rt>かい</rt></ruby>の<ruby>攻撃<rt>こうげき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>にはどんなイベントがありますか？<br><span class='text-sm text-gray-500 font-normal'>(In the conversation, what event takes place before the 7th inning attack in pro baseball?)</span>", options: ["ジェット<ruby>風船<rt>ふうせん</rt></ruby>を飛ばす <span class='text-xs text-gray-500 font-normal'>(Fly jet balloons)</span>", "トランペットを<ruby>壊<rt>こわ</rt></ruby>す <span class='text-xs text-gray-500 font-normal'>(Break trumpets)</span>", "お<ruby>弁当<rt>べんとう</rt></ruby>を<ruby>全員<rt>ぜんいん</rt></ruby>に<ruby>配<rt>くば</rt></ruby>る <span class='text-xs text-gray-500 font-normal'>(Distribute bento to everyone)</span>", "<ruby>試合<rt>しあい</rt></ruby>を<ruby>完全<rt>かんぜん</rt></ruby>に<ruby>中止<rt>ちゅうし</rt></ruby>にする <span class='text-xs text-gray-500 font-normal'>(Cancel the match completely)</span>"], answer: 0 },
-            { q: "<ruby>動画<rt>どうが</rt></ruby>では、バレーボールはどのようなスポーツだと言われていますか？<br><span class='text-sm text-gray-500 font-normal'>(In the video, what kind of sport is volleyball said to be?)</span>", options: ["ボールを<ruby>持<rt>も</rt></ruby>てないスポーツ <span class='text-xs text-gray-500 font-normal'>(A sport where you cannot hold the ball)</span>", "<ruby>足<rt>あし</rt></ruby>だけで<ruby>蹴る<rt>ける</rt></ruby>スポーツ <span class='text-xs text-gray-500 font-normal'>(A sport where you only kick with feet)</span>", "<ruby>一人<rt>ひとり</rt></ruby>だけで<ruby>戦う<rt>たたかう</rt></ruby>スポーツ <span class='text-xs text-gray-500 font-normal'>(A sport where you fight all alone)</span>", "<ruby>点数<rt>てんすう</rt></ruby>が<ruby>絶対<rt>ぜったい</rt></ruby>に<ruby>動かない<rt>うごかない</rt></ruby>スポーツ <span class='text-xs text-gray-500 font-normal'>(A sport where the score never changes)</span>"], answer: 0 },
-            { q: "<ruby>会話<rt>かいわ</rt></ruby>のなかで、Bリーグの<ruby>体育館<rt>たいいくかん</rt></ruby>の<ruby>演出<rt>えんしゅつ</rt></ruby>はまるで何に似ていると言っていますか？<br><span class='text-sm text-gray-500 font-normal'>(In the conversation, what does it say the B.League gym's production resembles?)</span>", options: ["<ruby>音楽<rt>おんがく</rt></ruby>のクラブのよう <span class='text-xs text-gray-500 font-normal'>(Like a music club)</span>", "<ruby>静かな<rt>しずかな</rt></ruby><ruby>図書館<rt>としょかん</rt></ruby>のよう <span class='text-xs text-gray-500 font-normal'>(Like a quiet library)</span>", "<ruby>古い<rt>ふるい</rt></ruby>お<ruby>寺<rt>てら</rt></ruby>のよう <span class='text-xs text-gray-500 font-normal'>(Like an old temple)</span>", "<ruby>厳しい<rt>きびしい</rt></ruby><ruby>学校<rt>がっこう</rt></ruby>のよう <span class='text-xs text-gray-500 font-normal'>(Like a strict school)</span>"], answer: 0 },
-            { q: "<ruby>動画<rt>どうが</rt></ruby>の<ruby>最後<rt>さいご</rt></ruby>で、Speaker 2はどこで<ruby>卓球<rt>たっきゅう</rt></ruby>がしたくなったと言っていますか？<br><span class='text-sm text-gray-500 font-normal'>(At the end of the video, where did Speaker 2 say they wanted to play table tennis?)</span>", options: ["<ruby>温泉<rt>おんせん</rt></ruby>の<ruby>旅館<rt>りょかん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(An onsen ryokan)</span>", "アメリカの<ruby>球場<rt>きゅうじょう</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(An American stadium)</span>", "<ruby>両国<rt>りょうごく</rt></ruby>の<ruby>国技館<rt>こくぎかん</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(The Ryogoku Kokugikan)</span>", "<ruby>近く<rt>ちかく</rt></ruby>のボルダリングジム <span class='text-xs text-gray-500 font-normal'>(A nearby bouldering gym)</span>"], answer: 0 }
-        ];
+     // =================================================================
+// 3. 内容理解クイズデータの修正（quizDataCulture 配列）
+// =================================================================
+
+        // =================================================================
+// 3. 内容理解クイズデータの修正（quizDataCulture 配列）
+// =================================================================
+
+      const quizDataCulture = [
+            { q: "<ruby>前半<rt>ぜんはん</rt></ruby>の<ruby>日本<rt>にほん</rt></ruby>のゴールはどうでしたか？<br><span class='text-sm text-gray-500 font-normal'>(How was Japan's goal in the first half?)</span>", options: ["とても<ruby>綺麗<rt>きれい</rt></ruby>でした <span class='text-xs text-gray-500 font-normal'>(It was very beautiful.)</span>", "とても<ruby>強烈<rt>きょうれつ</rt></ruby>でした <span class='text-xs text-gray-500 font-normal'>(It was very intense.)</span>", "あまりよくなかったです <span class='text-xs text-gray-500 font-normal'>(It was not very good.)</span>", "<ruby>普通<rt>ふつう</rt></ruby>でした <span class='text-xs text-gray-500 font-normal'>(It was ordinary.)</span>"], answer: 0 },
+            { q: "<ruby>会話<rt>かいわ</rt></ruby>のなかで、ブラジルはいつからもっと<ruby>強<rt>つよ</rt></ruby>くなったと言っていましたか？<br><span class='text-sm text-gray-500 font-normal'>(In the conversation, when did they say Brazil became stronger?)</span>", options: ["<ruby>後半<rt>こうはん</rt></ruby>から <span class='text-xs text-gray-500 font-normal'>(From the second half)</span>", "<ruby>前半<rt>ぜんはん</rt></ruby>から <span class='text-xs text-gray-500 font-normal'>(From the first half)</span>", "<ruby>最初<rt>さいしょ</rt></ruby>から <span class='text-xs text-gray-500 font-normal'>(From the beginning)</span>", "<ruby>延長戦<rt>えんちょうせん</rt></ruby>から <span class='text-xs text-gray-500 font-normal'>(From the extra time)</span>"], answer: 0 },
+            { q: "<ruby>国技館<rt>こくぎかん</rt></ruby>の<ruby>地下<rt>ちか</rt></ruby>で<ruby>焼<rt>や</rt></ruby>いている<ruby>特製<rt>トくせい</rt></ruby>のお<ruby>土産<rt>みやげ</rt></ruby>は何ですか？<br><span class='text-sm text-gray-500 font-normal'>(What is the special souvenir grilled in the basement of the Kokugikan?)</span>", options: ["<ruby>焼<rt>や</rt></ruby>き<ruby>鳥<rt>とり</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Yakitori / Grilled chicken)</span>", "ちゃんこ<ruby>鍋<rt>なべ</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Chanko nabe)</span>", "お<ruby>弁当<rt>べんとう</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Bento box)</span>", "お<ruby>寿司<rt>すし</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Sushi)</span>"], answer: 0 },
+            { q: "スポーツクライミングの<ruby>安楽<rt>あんらく</rt></ruby><ruby>選手<rt>せんしゅ</rt></ruby>は、いつから<ruby>大人<rt>おとな</rt></ruby>の<ruby>大会<rt>たいかい</rt></ruby>で<ruby>優勝<rt>ゆうしょう</rt></ruby>していますか？<br><span class='text-sm text-gray-500 font-normal'>(Since when has the sports climber Anraku been winning adult competitions?)</span>", options: ["<ruby>高校生<rt>こうこうせい</rt></ruby>の<ruby>頃<rt>ころ</rt></ruby>から <span class='text-xs text-gray-500 font-normal'>(Since he was a high school student)</span>", "<ruby>中学生<rt>ちゅうがくせい</rt></ruby>の<ruby>頃<rt>ころ</rt></ruby>から <span class='text-xs text-gray-500 font-normal'>(Since he was a junior high school student)</span>", "<ruby>大学生<rt>だいがくせい</rt></ruby>の<ruby>頃<rt>ころ</rt></ruby>から <span class='text-xs text-gray-500 font-normal'>(Since he was a university student)</span>", "こどもの<ruby>頃<rt>ころ</rt></ruby>から <span class='text-xs text-gray-500 font-normal'>(Since he was a child)</span>"], answer: 0 },
+            { q: "<ruby>森<rt>もり</rt></ruby><ruby>秋彩<rt>あい</rt></ruby><ruby>選手<rt>せんしゅ</rt></ruby>は何の<ruby>種目<rt>しゅもく</rt></ruby>の<ruby>天才<rt>てんさい</rt></ruby>と言われていますか？<br><span class='text-sm text-gray-500 font-normal'>(Mori Ai is said to be a genius in which event?)</span>", options: ["リード <span class='text-xs text-gray-500 font-normal'>(Lead climbing)</span>", "ボルダー <span class='text-xs text-gray-500 font-normal'>(Bouldering)</span>", "スピード <span class='text-xs text-gray-500 font-normal'>(Speed climbing)</span>", "マラソン <span class='text-xs text-gray-500 font-normal'>(Marathon)</span>"], answer: 0 },
+            { q: "メジャーリーグで<ruby>活躍<rt>かつやく</rt></ruby>する<ruby>日本人<rt>にほんじん</rt></ruby><ruby>選手<rt>せんしゅ</rt></ruby>は、<ruby>野球<rt>やきゅう</rt></ruby>の<ruby>実力<rt>じつりょく</rt></ruby>だけでなく何が<ruby>褒<rt>ほ</rt></ruby>められていますか？<br><span class='text-sm text-gray-500 font-normal'>(What is the Japanese MLB player praised for, besides his baseball skills?)</span>", options: ["ゴミを<ruby>拾<rt>ひろ</rt></ruby>うマナー <span class='text-xs text-gray-500 font-normal'>(His manners in picking up trash)</span>", "おしゃべりな<ruby>性格<rt>せいかく</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(His talkative personality)</span>", "<ruby>足<rt>あし</rt></ruby>の<ruby>速<rt>はや</rt></ruby>さ <span class='text-xs text-gray-500 font-normal'>(His running speed)</span>", "かっこいいダンス <span class='text-xs text-gray-500 font-normal'>(His cool dancing)</span>"], answer: 0 },
+            { q: "<ruby>日本<rt>にほん</rt></ruby>のプロ<ruby>野球<rt>やきゅう</rt></ruby>の<ruby>応援<rt>おうえん</rt></ruby>で、<ruby>七回<rt>ななかい</rt></ruby>の<ruby>攻撃<rt>こうげき</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>におこなうイベントは何ですか？<br><span class='text-sm text-gray-500 font-normal'>(What event takes place before the 7th-inning attack in Japanese professional baseball cheering?)</span>", options: ["ジェット<ruby>風船<rt>ふうせん</rt></ruby>を<ruby>飛<rt>と</rt></ruby>ばします <span class='text-xs text-gray-500 font-normal'>(Flying jet balloons)</span>", "トランペットを<ruby>壊<rt>こわ</rt></ruby>します <span class='text-xs text-gray-500 font-normal'>(Breaking trumpets)</span>", "ビールを<ruby>飲<rt>の</rt></ruby>み<ruby>干<rt>ほ</rt></ruby>します <span class='text-xs text-gray-500 font-normal'>(Drinking up beer)</span>", "お<ruby>弁当<rt>べんとう</rt></ruby>を<ruby>配<rt>くば</rt></ruby>ります <span class='text-xs text-gray-500 font-normal'>(Distributing bento boxes)</span>"], answer: 0 },
+            { q: "バレーボールは、どのようなスポーツだと言っていましたか？<br><span class='text-sm text-gray-500 font-normal'>(What kind of sport did they say volleyball is?)</span>", options: ["ボールを<ruby>持<rt>も</rt></ruby>てないスポーツ <span class='text-xs text-gray-500 font-normal'>(A sport where you cannot hold the ball)</span>", "ネットに<ruby>触<rt>さわ</rt></ruby>ってはいけないスポーツ <span class='text-xs text-gray-500 font-normal'>(A sport where you cannot touch the net)</span>", "一人でやるスポーツ <span class='text-xs text-gray-500 font-normal'>(A sport done alone)</span>", "ボールをずっと<ruby>持<rt>も</rt></ruby>つスポーツ <span class='text-xs text-gray-500 font-normal'>(A sport where you hold the ball all the time)</span>"], answer: 0 },
+            { q: "Bリーグの<ruby>試合<rt>しあい</rt></ruby>で、<ruby>残り<rt>のこり</rt></ruby><ruby>三秒<rt>さんびょう</rt></ruby>のときに何が入りましたか？<br><span class='text-sm text-gray-500 font-normal'>(In the B.League game, what went in with three seconds remaining?)</span>", options: ["スリーポイント <span class='text-xs text-gray-500 font-normal'>(A three-pointer)</span>", "ダンクシュート <span class='text-xs text-gray-500 font-normal'>(A dunk shot)</span>", "<ruby>反則<rt>はんそく</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A foul)</span>", "タイムアウト <span class='text-xs text-gray-500 font-normal'>(A timeout)</span>"], answer: 0 },
+            { q: "<ruby>卓球<rt>たっきゅう</rt></ruby>の<ruby>試合<rt>しあい</rt></ruby>を<ruby>見<rt>み</rt></ruby>たあと、<ruby>二人<rt>ふたり</rt></ruby>は何がしたくなったと言っていましたか？<br><span class='text-sm text-gray-500 font-normal'>(After watching the table tennis match, what did the two say they wanted to do?)</span>", options: ["<ruby>温泉<rt>おんせん</rt></ruby><ruby>卓球<rt>たっきゅう</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Hot spring table tennis)</span>", "<ruby>温泉<rt>おんせん</rt></ruby>に<ruby>入<rt>はい</rt></ruby>ること <span class='text-xs text-gray-500 font-normal'>(Entering a hot spring)</span>", "<ruby>中国<rt>ちゅうごく</rt></ruby><ruby>旅行<rt>りょこう</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(A trip to China)</span>", "プロの<ruby>練習<rt>れんしゅう</rt></ruby> <span class='text-xs text-gray-500 font-normal'>(Professional practice)</span>"], answer: 0 }
+       ];
 
         const quizDataGrammar = [
-            { q: "<ruby>悔<rt>くや</rt></ruby>しいですが、<ruby>日本<rt>にほん</rt></ruby>の<ruby>選手<rt>せんしゅ</rt></ruby>たちの<ruby>涙<rt>なみだ</rt></ruby>に ____ しました。<br><span class='text-sm text-gray-500 font-normal'>(It's frustrating, but I was moved by the tears of the Japanese players.)</span>", options: ["<ruby>感動<rt>かんどう</rt></ruby>", "<ruby>反対<rt>はんたい</rt></ruby>", "<ruby>安心<rt>あんしん</rt></ruby>", "<ruby>終了<rt>しゅうりょう</rt></ruby>"], answer: 0 },
-            { q: "<ruby>誰<rt>だれ</rt></ruby>が<ruby>出<rt>で</rt></ruby>ても<ruby>強い<rt>つよい</rt></ruby><ruby>選手層<rt>せんしゅそう</rt></ruby>の ____ です。<br><span class='text-sm text-gray-500 font-normal'>(It's the thickness of the player roster, where whoever plays is strong.)</span>", options: ["<ruby>厚<rt>あつ</rt></ruby>さ", "<ruby>厚<rt>あつ</rt></ruby>い", "<ruby>厚<rt>あつ</rt></ruby>く", "<ruby>薄<rt>うす</rt></ruby>さ"], answer: 0 },
-            { q: "<ruby>体<rt>からだ</rt></ruby>がぶつかる<ruby>音<rt>おと</rt></ruby>も<ruby>席<rt>せき</rt></ruby>まで ____ か。<br><span class='text-sm text-gray-500 font-normal'>(Can the sound of bodies colliding be heard all the way to the seats?)</span>", options: ["<ruby>聞<rt>き</rt></ruby>こえます", "<ruby>聞<rt>き</rt></ruby>きます", "<ruby>聞<rt>き</rt></ruby>こえません", "<ruby>聞<rt>き</rt></ruby>きません"], answer: 0 },
-            { q: "<ruby>試合<rt>しあい</rt></ruby>が<ruby>終わった<rt>おわった</rt></ruby><ruby>後<rt>あと</rt></ruby>に<ruby>笑顔<rt>えがお</rt></ruby>でハグを ____ ね。<br><span class='text-sm text-gray-500 font-normal'>(They were hugging each other with smiles after the match, weren't they?)</span>", options: ["していました", "しましたり", "しなくて", "するそう"], answer: 0 },
-            { q: "<ruby>簡単<rt>かんたん</rt></ruby>なコースからスタッフが<ruby>優しく<rt>やさしく</rt></ruby> ____ くれますよ。<br><span class='text-sm text-gray-500 font-normal'>(The staff will kindly teach you starting from easy courses.)</span>", options: ["<ruby>教<rt>おし</rt></ruby>えて", "<ruby>教<rt>おし</rt></ruby>えなく", "<ruby>教<rt>おし</rt></ruby>える", "<ruby>教<rt>おし</rt></ruby>えろ"], answer: 0 },
-            { q: "<ruby>現実<rt>げんじつ</rt></ruby>の<ruby>選手<rt>せんしゅ</rt></ruby>なのに、まるで<ruby>漫画<rt>まんが</rt></ruby>の<ruby>主人公<rt>しゅじんこう</rt></ruby>の ____ です。<br><span class='text-sm text-gray-500 font-normal'>(Even though he is a real player, he is just like the main character of a manga.)</span>", options: ["よう", "そう", "らしい", "ため"], answer: 0 },
-            { q: "ドーム<ruby>球場<rt>きゅうじょう</rt></ruby>なら<ruby>雨<rt>あめ</rt></ruby>が ____ も<ruby>中止<rt>ちゅうし</rt></ruby>にならないから<ruby>安心<rt>あんしん</rt></ruby>です。<br><span class='text-sm text-gray-500 font-normal'>(If it's a dome stadium, it won't be canceled even if it rains, so it's reassuring.)</span>", options: ["<ruby>降<rt>ふ</rt></ruby>っても", "<ruby>降<rt>ふ</rt></ruby>れば", "<ruby>降<rt>ふ</rt></ruby>るなら", "<ruby>降<rt>ふ</rt></ruby>らなくて"], answer: 0 },
-            { q: "どんなに<ruby>強い<rt>つよい</rt></ruby>スパイクも<ruby>床<rt>ゆか</rt></ruby>に ____ ないのが<ruby>凄い<rt>すご</rt></ruby>です。<br><span class='text-sm text-gray-500 font-normal'>(It's amazing that they don't let any strong spike drop to the floor.)</span>", options: ["<ruby>落<rt>お</rt></ruby>さない", "<ruby>落<rt>お</rt></ruby>す", "<ruby>落<rt>お</rt></ruby>さぜる", "<ruby>落<rt>お</rt></ruby>ちない"], answer: 0 },
-            { q: "<ruby>目の前<rt>めのまえ</rt></ruby>でダンクシュートを<ruby>見た<rt>みた</rt></ruby><ruby>時<rt>とき</rt></ruby>は<ruby>大きな<rt>おおきな</rt></ruby><ruby>歓声<rt>かんせい</rt></ruby>を ____ ました。<br><span class='text-sm text-gray-500 font-normal'>(When I saw the dunk shot right in front of me, I let out a big cheer.)</span>", options: ["<ruby>上<rt>あ</rt></ruby>げ", "<ruby>上<rt>あ</rt></ruby>げる", "<ruby>下<rt>さ</rt></ruby>げ", "<ruby>止<rt>と</rt></ruby>め"], answer: 0 },
-            { q: "ラケットの<ruby>持ち方<rt>もちかた</rt></ruby>から<ruby>練習<rt>れんしゅう</rt></ruby>しなければ ____ ね。<br><span class='text-sm text-gray-500 font-normal'>(We have to practice starting from how to hold the racket, don't we?)</span>", options: ["なりません", "なります", "なって", "ないです"], answer: 0 }
+            { q: "<ruby>日本<rt>にほん</rt></ruby>は<ruby>一対二<rt>いったいに</rt></ruby>で<ruby>負<rt>ま</rt></ruby>けて ____ ました。<br><span class='text-sm text-gray-500 font-normal'>(Japan ended up losing one to two.)</span>", options: ["しまい", "おき", "み", "あり"], answer: 0 },
+            { q: "<ruby>強豪相手<rt>きょうごうあいて</rt></ruby>にここまで<ruby>戦<rt>たたか</rt></ruby>えることを ____ ました。<br><span class='text-sm text-gray-500 font-normal'>(We proved that we can fight this well against a strong team.)</span>", options: ["<ruby>証明<rt>しょうめい</rt></ruby>し", "<ruby>発明<rt>はつめい</rt></ruby>し", "<ruby>説明<rt>せつめい</rt></ruby>し", "<ruby>判明<rt>はんめい</rt></ruby>し"], answer: 0 },
+            { q: "<ruby>私<rt>わたし</rt></ruby>はブラジルが<ruby>優勝<rt>ゆうしょう</rt></ruby>する<ruby>方<rt>ほう</rt></ruby>に ____ ます。<br><span class='text-sm text-gray-500 font-normal'>(I bet on Brazil winning.)</span>", options: ["<ruby>賭<rt>か</rt></ruby>け", "<ruby>負<rt>ま</rt></ruby>け", "<ruby>助<rt>たす</rt></ruby>け", "<ruby>分<rt>わ</rt></ruby>け"], answer: 0 },
+            { q: "<ruby>誰<rt>だれ</rt></ruby>が出ても<ruby>強<rt>つよ</rt></ruby>い<ruby>選手層<rt>せんしゅそう</rt></ruby>の ____ です。<br><span class='text-sm text-gray-500 font-normal'>(It's the depth of the player roster, where whoever plays is strong.)</span>", options: ["<ruby>厚<rt>あつ</rt></ruby>さ", "<ruby>厚<rt>あつ</rt></ruby>い", "<ruby>厚<rt>あつ</rt></ruby>く", "<ruby>厚<rt>あつ</rt></ruby>みに"], answer: 0 },
+            { q: "<ruby>私<rt>わたし</rt></ruby>は<ruby>一度<rt>いちど</rt></ruby>も<ruby>見<rt>み</rt></ruby>たことが ____ 。<br><span class='text-sm text-gray-500 font-normal'>(I have never seen it even once.)</span>", options: ["ありません", "あります", "しません", "なります"], answer: 0 },
+            { q: "お<ruby>互<rt>たが</rt></ruby>いを<ruby>高<rt>たか</rt></ruby>め<ruby>合<rt>あ</rt></ruby>っている<ruby>素晴<rt>すば</rt></ruby>らしい<ruby>関係<rt>かんけい</rt></ruby>だと ____ ます。<br><span class='text-sm text-gray-500 font-normal'>(I think it is a wonderful relationship where they push each other to higher levels.)</span>", options: ["<ruby>思<rt>おも</rt></ruby>い", "<ruby>言<rt>い</rt></ruby>い", "<ruby>聞<rt>き</rt></ruby>き", "<ruby>見<rt>み</rt></ruby>え"], answer: 0 },
+            { q: "<ruby>彼女<rt>かのじょ</rt></ruby>の<ruby>登<rt>のぼ</rt></ruby>りをお<ruby>見<rt>み</rt></ruby>ると、<ruby>自分<rt>じぶん</rt></ruby>も<ruby>運動<rt>うんどう</rt></ruby>したく ____ ます。<br><span class='text-sm text-gray-500 font-normal'>(Looking at her climbing makes me want to exercise too.)</span>", options: ["なり", "し", "あり", "み"], answer: 0 },
+            { q: "<ruby>一生<rt>いっしょう</rt></ruby>に<ruby>一度<rt>いちど</rt></ruby>は<ruby>現地<rt>げんち</rt></ruby>のアメリカで<ruby>試合<rt>しあい</rt></ruby>を ____ みたいです。<br><span class='text-sm text-gray-500 font-normal'>(I want to try watching a match locally in America at least once in my life.)</span>", options: ["<ruby>見<rt>み</rt></ruby>て", "<ruby>見<rt>み</rt></ruby>る", "<ruby>見<rt>み</rt></ruby>た", "<ruby>見<rt>み</rt></ruby>ず"], answer: 0 },
+            { q: "どんなに<ruby>強<rt>つよ</rt></ruby>いスパイクも<ruby>床<rt>ゆか</rt></ruby>に ____ ないのが<ruby>凄<rt>すご</rt></ruby>いです。<br><span class='text-sm text-gray-500 font-normal'>(It's amazing that they don't let any strong spike drop to the floor.)</span>", options: ["<ruby>落<rt>お</rt></ruby>とさ", "<ruby>落<rt>お</rt></ruby>とし", "<ruby>落<rt>お</rt></ruby>とせ", "<ruby>落<rt>お</rt></ruby>とす"], answer: 0 },
+            { q: "その<ruby>値段<rt>ねだん</rt></ruby>でそのエンタメ<ruby>感<rt>かん</rt></ruby>なら、コスパが ____ ですね。<br><span class='text-sm text-gray-500 font-normal'>(With that price and that level of entertainment, it's the best value for money.)</span>", options: ["<ruby>最高<rt>さいこう</rt></ruby>", "<ruby>最低<rt>さいてい</rt></ruby>", "<ruby>最初<rt>さいしょ</rt></ruby>", "<ruby>最後<rt>さいご</rt></ruby>"], answer: 0 }
         ];
         let quizData = [];
 
@@ -606,31 +640,71 @@
             document.getElementById('final-score').innerText = appState.score;
         }
 
-        function switchTab(tabId) {
+       function switchTab(tabId) {
             appState.activeTab = tabId;
             
             const convBtn = document.getElementById('tab-btn-conv');
             const quizBtn = document.getElementById('tab-btn-quiz');
+            const convBtnLand = document.getElementById('tab-btn-conv-land');
+            const quizBtnLand = document.getElementById('tab-btn-quiz-land');
             const convDiv = document.getElementById('tab-conv');
             const quizDiv = document.getElementById('tab-quiz');
             
+            const activeClass = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
+            const inactiveClass = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
+            const activeClassLand = "flex-1 px-4 py-1.5 rounded-md bg-white shadow text-blue-600 font-medium text-xs transition-all text-center";
+            const inactiveClassLand = "flex-1 px-4 py-1.5 rounded-md text-gray-500 hover:text-gray-700 font-medium text-xs transition-all text-center";
+            
             if (tabId === 'conv') {
-                convBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
-                quizBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
-                convDiv.classList.remove('hidden');
-                quizDiv.classList.add('hidden');
+                if(convBtn) convBtn.className = activeClass;
+                if(quizBtn) quizBtn.className = inactiveClass;
+                if(convBtnLand) convBtnLand.className = activeClassLand;
+                if(quizBtnLand) quizBtnLand.className = inactiveClassLand;
+                if(convDiv) convDiv.classList.remove('hidden');
+                if(quizDiv) quizDiv.classList.add('hidden');
             } else {
-                quizBtn.className = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
-                convBtn.className = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
-                quizDiv.classList.remove('hidden');
-                convDiv.classList.add('hidden');
+                if(quizBtn) quizBtn.className = activeClass;
+                if(convBtn) convBtn.className = inactiveClass;
+                if(quizBtnLand) quizBtnLand.className = activeClassLand;
+                if(convBtnLand) convBtnLand.className = inactiveClassLand;
+                if(quizDiv) quizDiv.classList.remove('hidden');
+                if(convDiv) convDiv.classList.add('hidden');
                 
                 // Reset Quiz
-                document.getElementById('quiz-intro').classList.remove('hidden');
-                document.getElementById('quiz-area').classList.add('hidden');
-                document.getElementById('quiz-result').classList.add('hidden');
+                const quizIntro = document.getElementById('quiz-intro');
+                const quizArea = document.getElementById('quiz-area');
+                const quizResult = document.getElementById('quiz-result');
+                if(quizIntro) quizIntro.classList.remove('hidden');
+                if(quizArea) quizArea.classList.add('hidden');
+                if(quizResult) quizResult.classList.add('hidden');
             }
         }
+
+        // ==========================================
+        // 【YouTube 設定エリア】次回からはここを変更してください
+        // ==========================================
+        const YOUTUBE_VIDEO_ID = 'mafNZHeKaQ4'; // ★動画ID（英数字11桁）
+        const sceneStartTimes = [0, 156, 308, 464, 595, 729, 871, 1014, 1156, 1306]; // ★各シーンの開始秒数
+        // ==========================================
+
+        let ytPlayer = null;
+
+        // YouTube Iframe API スクリプトを自動動的ロード
+        const tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        const firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        // API読み込み完了時に自動実行される関数
+        window.onYouTubeIframeAPIReady = () => {
+            ytPlayer = new YT.Player('player', {
+                videoId: YOUTUBE_VIDEO_ID,
+                playerVars: {
+                    'playsinline': 1,
+                    'rel': 0
+                }
+            });
+        };
 
         window.onload = async () => {
             // Populate Language Selector
@@ -654,9 +728,15 @@
             }
 
             selector.addEventListener('change', (e) => {
-                appState.currentSceneIndex = parseInt(e.target.value);
+                const sceneIdx = parseInt(e.target.value);
+                appState.currentSceneIndex = sceneIdx;
                 if(appState.isPlaying) playEntireScene(); // Stop if playing
                 renderScene();
+
+                // シーン選択時にYouTubeの再生位置を対応する秒数へジャンプさせる
+                if (ytPlayer && typeof ytPlayer.seekTo === 'function') {
+                    ytPlayer.seekTo(sceneStartTimes[sceneIdx], true);
+                }
             });
 
             document.getElementById('toggle-romaji').addEventListener('change', (e) => {
