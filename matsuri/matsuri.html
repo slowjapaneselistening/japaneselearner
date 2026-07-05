@@ -366,9 +366,13 @@
             if (!srtTexts || srtTexts.length === 0) return;
 
             let globalIdx = 0;
-            scenes.forEach(scene => {
-                // 各シーンの先頭に存在する「タイトル行（SRTの1ブロック分）」を正確に1つスキップ
-                globalIdx++;
+            scenes.forEach((scene, index) => {
+                // シーン1〜3（index: 0, 1, 2）は2つ、それ以降は1つスキップ
+                if (index <= 2) {
+                    globalIdx += 2;
+                } else {
+                    globalIdx++;
+                }
                 
                 scene.lines.forEach(line => {
                     if (globalIdx < srtTexts.length) {
