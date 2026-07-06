@@ -1,0 +1,1167 @@
+1
+00:00:00,000 --> 00:00:09,472
+Apakah video hari ini? "Menanyakan Lokasi". Oh, bukan jalan, tapi lokasi ya.
+
+2
+00:00:09,472 --> 00:00:12,472
+Senario 1: Perbualan dengan Pekerja Kedai
+
+3
+00:00:12,472 --> 00:00:14,659
+Maaf.
+
+4
+00:00:14,682 --> 00:00:17,508
+Ya, selamat datang.
+
+5
+00:00:17,531 --> 00:00:20,514
+Tolong lihat gambar ini.
+
+6
+00:00:20,537 --> 00:00:21,959
+Ya.
+
+7
+00:00:21,983 --> 00:00:25,648
+Oh, ini kuihnya.
+
+8
+00:00:25,672 --> 00:00:27,571
+Ya.
+
+9
+00:00:27,595 --> 00:00:31,063
+Di mana ada kuih ini?
+
+10
+00:00:31,086 --> 00:00:34,015
+Ada di rak sebelah sana.
+
+11
+00:00:34,039 --> 00:00:36,771
+Rak sebelah sana?
+
+12
+00:00:36,794 --> 00:00:38,693
+Ya.
+
+13
+00:00:38,717 --> 00:00:41,500
+Rak nombor tiga.
+
+14
+00:00:41,523 --> 00:00:43,593
+Atas?
+
+15
+00:00:43,616 --> 00:00:45,360
+Bawah?
+
+16
+00:00:45,384 --> 00:00:48,280
+Yang kedua dari atas.
+
+17
+00:00:48,303 --> 00:00:50,436
+Sudah faham.
+
+18
+00:00:50,460 --> 00:00:55,444
+Eh, adakah kosmetik ini juga?
+
+19
+00:00:55,467 --> 00:00:59,571
+Oh, itu sudah habis sekarang.
+
+20
+00:00:59,594 --> 00:01:01,855
+Habis?
+
+21
+00:01:01,879 --> 00:01:03,707
+Ya.
+
+22
+00:01:03,731 --> 00:01:06,382
+Habis dijual semalam.
+
+23
+00:01:06,406 --> 00:01:08,536
+Oh begitu.
+
+24
+00:01:08,559 --> 00:01:10,775
+Sayangnya.
+
+25
+00:01:10,798 --> 00:01:13,526
+Akan ada stok esok.
+
+26
+00:01:13,550 --> 00:01:15,635
+Betul ke?
+
+27
+00:01:15,658 --> 00:01:17,709
+Ya.
+
+28
+00:01:17,732 --> 00:01:20,617
+Datanglah esok pagi.
+
+29
+00:01:20,641 --> 00:01:23,024
+Sudah faham.
+
+30
+00:01:23,047 --> 00:01:24,794
+Terima kasih.
+
+31
+00:01:24,818 --> 00:01:27,434
+Kuihnya di sebelah sana.
+
+32
+00:01:27,457 --> 00:01:29,440
+Sila.
+
+33
+00:01:29,463 --> 00:01:36,568
+Pautan ke laman web untuk mengulang kaji video hari ini ada di bahagian penerangan dan komen teratas. *Laman web mungkin akan dipadam tanpa notis.
+
+34
+00:01:36,568 --> 00:01:39,568
+Senario 2: Menanyakan dan Memberi Arah
+
+35
+00:01:39,568 --> 00:01:41,552
+Maaf.
+
+36
+00:01:41,575 --> 00:01:43,825
+Boleh saya bertanya?
+
+37
+00:01:43,848 --> 00:01:45,231
+Ya.
+
+38
+00:01:45,254 --> 00:01:46,904
+Apa?
+
+39
+00:01:46,927 --> 00:01:49,944
+Saya mahu beli pencuci pakaian.
+
+40
+00:01:49,967 --> 00:01:51,783
+Pencuci pakaian ya.
+
+41
+00:01:51,806 --> 00:01:53,354
+Ya.
+
+42
+00:01:53,378 --> 00:01:55,796
+Di mana ada?
+
+43
+00:01:55,819 --> 00:01:59,041
+Bahagian pencuci pakaian di sebelah sana.
+
+44
+00:01:59,065 --> 00:02:01,002
+Sebelah sana?
+
+45
+00:02:01,026 --> 00:02:03,355
+Besarnya kedai ini.
+
+46
+00:02:03,378 --> 00:02:05,247
+Memanglah.
+
+47
+00:02:05,270 --> 00:02:07,897
+Lorong nombor lima.
+
+48
+00:02:07,920 --> 00:02:10,061
+Nombor lima ya.
+
+49
+00:02:10,084 --> 00:02:12,016
+Sudah faham.
+
+50
+00:02:12,040 --> 00:02:15,165
+Ada lagi yang dicari?
+
+51
+00:02:15,188 --> 00:02:16,871
+Ya.
+
+52
+00:02:16,894 --> 00:02:20,311
+Saya mahu pengecas telefon pintar.
+
+53
+00:02:20,334 --> 00:02:23,598
+Bahagian elektrik ada di bahagian dalam.
+
+54
+00:02:23,621 --> 00:02:25,538
+Bahagian dalam ya.
+
+55
+00:02:25,560 --> 00:02:28,044
+Jalan terus.
+
+56
+00:02:28,067 --> 00:02:30,350
+Terus ya.
+
+57
+00:02:30,373 --> 00:02:33,590
+Kemudian belok ke kanan.
+
+58
+00:02:33,613 --> 00:02:35,711
+Kanan ya.
+
+59
+00:02:35,734 --> 00:02:37,584
+Ya.
+
+60
+00:02:37,607 --> 00:02:40,090
+Ada banyak di situ.
+
+61
+00:02:40,113 --> 00:02:41,963
+Sudah faham.
+
+62
+00:02:41,986 --> 00:02:44,481
+Terima kasih banyak.
+
+63
+00:02:44,505 --> 00:02:47,555
+Tak sama-sama.
+
+64
+00:02:47,578 --> 00:02:54,288
+Jika anda dengar, sila komen.
+
+65
+00:02:54,288 --> 00:02:57,288
+Senario 3: Cara ke Klinik / Bagaimana untuk Pergi ke Klinik
+
+66
+00:02:57,288 --> 00:02:59,371
+Maaf.
+
+67
+00:02:59,394 --> 00:03:02,935
+Di manakah Klinik Yamada?
+
+68
+00:03:02,958 --> 00:03:05,987
+Klinik Yamada, ya?
+
+69
+00:03:06,010 --> 00:03:07,797
+Ya.
+
+70
+00:03:07,821 --> 00:03:10,526
+Adakah di dalam bangunan ini?
+
+71
+00:03:10,549 --> 00:03:13,799
+Ya, di dalam bangunan ini.
+
+72
+00:03:13,822 --> 00:03:16,209
+Terletak di tingkat lima.
+
+73
+00:03:16,233 --> 00:03:18,860
+Tingkat lima, ya?
+
+74
+00:03:18,883 --> 00:03:21,967
+Bagaimana nak pergi ke sana?
+
+75
+00:03:21,990 --> 00:03:25,896
+Ada lif di sebelah sana.
+
+76
+00:03:25,919 --> 00:03:28,616
+Oh, yang itu ya?
+
+77
+00:03:28,639 --> 00:03:30,623
+Ya.
+
+78
+00:03:30,647 --> 00:03:34,996
+Tapi, itu lif untuk tingkat rendah.
+
+79
+00:03:35,020 --> 00:03:36,716
+Eh?
+
+80
+00:03:36,739 --> 00:03:38,956
+Bukan kah itu?
+
+81
+00:03:38,979 --> 00:03:41,002
+Ya.
+
+82
+00:03:41,026 --> 00:03:44,209
+Klinik Yamada berada di tingkat lima.
+
+83
+00:03:44,232 --> 00:03:46,082
+Ya.
+
+84
+00:03:46,105 --> 00:03:50,773
+Jadi, sila naik lif biru di sebelah sana.
+
+85
+00:03:50,797 --> 00:03:53,980
+Lif biru, ya?
+
+86
+00:03:54,003 --> 00:03:55,687
+Ya.
+
+87
+00:03:55,710 --> 00:03:58,364
+Turun di tingkat lima.
+
+88
+00:03:58,387 --> 00:04:00,928
+Turun di tingkat lima.
+
+89
+00:04:00,952 --> 00:04:03,735
+Selepas itu, apa yang perlu saya buat?
+
+90
+00:04:03,758 --> 00:04:07,941
+Selepas turun, sila belok ke kanan.
+
+91
+00:04:07,964 --> 00:04:09,981
+Kanan ya.
+
+92
+00:04:10,004 --> 00:04:11,700
+Ya.
+
+93
+00:04:11,724 --> 00:04:14,740
+Di hujung sebelah kanan ada kaunter penerimaan tetamu.
+
+94
+00:04:14,763 --> 00:04:16,747
+Saya faham.
+
+95
+00:04:16,770 --> 00:04:18,434
+Terima kasih.
+
+96
+00:04:18,457 --> 00:04:21,107
+Jaga diri.
+
+97
+00:04:21,130 --> 00:04:24,130
+Senario 4: Asas Memberi Panduan Arah / Arah Dasar Bahasa Jepun
+
+98
+00:04:24,130 --> 00:04:27,633
+Maaf, sekarang kita berada di mana?
+
+99
+00:04:27,657 --> 00:04:30,640
+Saya tersesat.
+
+100
+00:04:30,663 --> 00:04:34,180
+Ini adalah plaza bawah tanah.
+
+101
+00:04:34,203 --> 00:04:37,253
+Saya mahu pergi ke pintu keluar A7.
+
+102
+00:04:37,276 --> 00:04:39,560
+Pintu keluar A7, ya?
+
+103
+00:04:39,583 --> 00:04:43,033
+Dari sini agak jauh sedikit.
+
+104
+00:04:43,056 --> 00:04:45,397
+Bagaimana nak pergi ke sana?
+
+105
+00:04:45,420 --> 00:04:49,470
+Pertama, pergi lurus ke sana.
+
+106
+00:04:49,493 --> 00:04:51,759
+Lurus, ya?
+
+107
+00:04:51,783 --> 00:04:53,633
+Ya.
+
+108
+00:04:53,656 --> 00:04:57,272
+Kemudian, sila belok ke kiri.
+
+109
+00:04:57,295 --> 00:04:59,350
+Ke kiri, ya?
+
+110
+00:04:59,374 --> 00:05:02,357
+Tidak, maaf.
+
+111
+00:05:02,380 --> 00:05:04,363
+Ke kanan.
+
+112
+00:05:04,386 --> 00:05:06,088
+Kanan ya.
+
+113
+00:05:06,112 --> 00:05:08,439
+Sudah faham.
+
+114
+00:05:08,463 --> 00:05:12,446
+Jika belok ke kanan, ada loker syiling.
+
+115
+00:05:12,469 --> 00:05:14,652
+Loker, ya?
+
+116
+00:05:14,675 --> 00:05:16,525
+Ya.
+
+117
+00:05:16,548 --> 00:05:20,132
+Di sebelah loker ada tangga.
+
+118
+00:05:20,155 --> 00:05:23,338
+Adakah saya perlu naik tangga itu?
+
+119
+00:05:23,361 --> 00:05:24,990
+Ya.
+
+120
+00:05:25,014 --> 00:05:27,097
+Sila naik.
+
+121
+00:05:27,120 --> 00:05:30,372
+Selepas naik, apa yang perlu saya buat?
+
+122
+00:05:30,396 --> 00:05:33,848
+Itu adalah pintu keluar A7.
+
+123
+00:05:33,871 --> 00:05:36,617
+Oh, baguslah.
+
+124
+00:05:36,640 --> 00:05:38,657
+Terima kasih banyak-banyak.
+
+125
+00:05:38,680 --> 00:05:41,624
+Berhati-hati, ya.
+
+126
+00:05:41,648 --> 00:05:44,648
+Adegan 5: Tip Memberi Arah
+
+127
+00:05:44,648 --> 00:05:49,152
+Halo, saya sekarang berada di lokasi yang tertera pada peta.
+
+128
+00:05:49,175 --> 00:05:50,658
+Ya.
+
+129
+00:05:50,681 --> 00:05:53,340
+Di depan kedai?
+
+130
+00:05:53,364 --> 00:05:57,687
+Saya di depan bangunan, tapi tidak ada kafe.
+
+131
+00:05:57,711 --> 00:06:00,367
+Adakah anda nampak papan tanda?
+
+132
+00:06:00,391 --> 00:06:03,654
+Tidak, tiada apa-apa.
+
+133
+00:06:03,678 --> 00:06:05,866
+Oh begitu.
+
+134
+00:06:05,889 --> 00:06:08,939
+Pintu masuknya bukan di depan.
+
+135
+00:06:08,962 --> 00:06:11,545
+Eh, di mana?
+
+136
+00:06:11,568 --> 00:06:14,704
+Ada di belakang bangunan.
+
+137
+00:06:14,727 --> 00:06:16,944
+Di belakang?
+
+138
+00:06:16,967 --> 00:06:19,622
+Bagaimana nak pergi ke sana?
+
+139
+00:06:19,645 --> 00:06:23,897
+Ada lorong sempit di sisi bangunan, kan?
+
+140
+00:06:23,921 --> 00:06:26,015
+Ya, ada.
+
+141
+00:06:26,038 --> 00:06:29,690
+Silakan masuk ke lorong sempit itu.
+
+142
+00:06:29,714 --> 00:06:32,420
+Baik, saya sudah masuk.
+
+143
+00:06:32,444 --> 00:06:34,760
+Agak gelap, ya.
+
+144
+00:06:34,783 --> 00:06:37,845
+Jalan terus lurus.
+
+145
+00:06:37,868 --> 00:06:39,652
+Ya.
+
+146
+00:06:39,675 --> 00:06:42,807
+Oh, ada tangga.
+
+147
+00:06:42,830 --> 00:06:45,138
+Betul.
+
+148
+00:06:45,162 --> 00:06:48,080
+Naiklah tangga itu.
+
+149
+00:06:48,103 --> 00:06:50,286
+Tingkat dua?
+
+150
+00:06:50,309 --> 00:06:53,759
+Pintunya di sebelah kanan tingkat dua.
+
+151
+00:06:53,782 --> 00:06:56,432
+Ada butang pada pintu.
+
+152
+00:06:56,455 --> 00:06:59,676
+Tekan butang itu.
+
+153
+00:06:59,700 --> 00:07:02,003
+Saya akan buka pintunya.
+
+154
+00:07:02,026 --> 00:07:05,026
+Adegan 6: Perbualan Memberi Arah
+
+155
+00:07:05,026 --> 00:07:06,843
+Maaf.
+
+156
+00:07:06,866 --> 00:07:09,402
+Di mana Tokyo Ramen?
+
+157
+00:07:09,425 --> 00:07:12,121
+Tokyo Ramen, ya?
+
+158
+00:07:12,145 --> 00:07:14,531
+Di tingkat tiga.
+
+159
+00:07:14,554 --> 00:07:17,103
+Di mana di tingkat tiga?
+
+160
+00:07:17,127 --> 00:07:21,143
+Ada di dalam food court tingkat tiga.
+
+161
+00:07:21,166 --> 00:07:24,217
+Food court-nya luas?
+
+162
+00:07:24,241 --> 00:07:25,924
+Ya.
+
+163
+00:07:25,947 --> 00:07:27,830
+Sangat luas.
+
+164
+00:07:27,853 --> 00:07:30,937
+Kedai ramen itu di sebelah mana?
+
+165
+00:07:30,961 --> 00:07:35,148
+Masuk ke food court, lalu belok kiri.
+
+166
+00:07:35,171 --> 00:07:37,291
+Ke kiri, ya?
+
+167
+00:07:37,315 --> 00:07:38,998
+Ya.
+
+168
+00:07:39,021 --> 00:07:43,238
+Dari situ, lihat belakang eskalator.
+
+169
+00:07:43,261 --> 00:07:46,844
+Belakang eskalator, ya?
+
+170
+00:07:46,867 --> 00:07:48,289
+Ya.
+
+171
+00:07:48,313 --> 00:07:50,496
+Di situlah kedainya.
+
+172
+00:07:50,519 --> 00:07:53,169
+Dekat dengan pawagam?
+
+173
+00:07:53,192 --> 00:07:56,891
+Tidak, pawagam ada di tingkat empat.
+
+174
+00:07:56,915 --> 00:07:59,131
+Oh, betul juga.
+
+175
+00:07:59,154 --> 00:08:03,497
+Di sebelah Tokyo Ramen ada kedai kari.
+
+176
+00:08:03,521 --> 00:08:06,448
+Di sebelah kedai kari, ya?
+
+177
+00:08:06,472 --> 00:08:08,590
+Saya faham.
+
+178
+00:08:08,614 --> 00:08:11,697
+Waktu makan tengah hari sangat ramai orang.
+
+179
+00:08:11,720 --> 00:08:13,570
+Saya faham.
+
+180
+00:08:13,593 --> 00:08:15,577
+Saya akan cepat-cepat.
+
+181
+00:08:15,600 --> 00:08:16,983
+Ya.
+
+182
+00:08:17,006 --> 00:08:18,889
+Selamat pergi.
+
+183
+00:08:18,912 --> 00:08:21,912
+Adegan 7: Cara Membuka Pintu Auto-Lock
+
+184
+00:08:21,912 --> 00:08:26,230
+Halo, saya sudah sampai di apartmen. Terima kasih atas kerja kerasnya.
+
+185
+00:08:26,254 --> 00:08:28,437
+Sudah masuk?
+
+186
+00:08:28,460 --> 00:08:31,408
+Belum, pintu tidak boleh dibuka.
+
+187
+00:08:31,432 --> 00:08:33,352
+Ini kunci automatik, ya.
+
+188
+00:08:33,375 --> 00:08:36,392
+Ya, apa yang perlu saya buat?
+
+189
+00:08:36,415 --> 00:08:39,242
+Ada butang di sebelah peti surat.
+
+190
+00:08:39,265 --> 00:08:41,573
+Ya, saya dah jumpa.
+
+191
+00:08:41,597 --> 00:08:44,618
+Masukkan nombor bilik di situ.
+
+192
+00:08:44,642 --> 00:08:48,263
+Nombor 305, kan?
+
+193
+00:08:48,286 --> 00:08:54,070
+Ya, tekan 305 dan butang panggil.
+
+194
+00:08:54,093 --> 00:08:55,576
+Sudah saya tekan.
+
+195
+00:08:55,599 --> 00:08:58,649
+Oh, pintu dah terbuka.
+
+196
+00:08:58,672 --> 00:09:00,289
+Baguslah.
+
+197
+00:09:00,312 --> 00:09:02,772
+Silakan masuk.
+
+198
+00:09:02,796 --> 00:09:05,414
+Ada dua lif di sini.
+
+199
+00:09:05,437 --> 00:09:07,346
+Yang mana satu?
+
+200
+00:09:07,369 --> 00:09:10,352
+Naik lif di sebelah kiri.
+
+201
+00:09:10,375 --> 00:09:12,081
+Lif kiri, ya?
+
+202
+00:09:12,105 --> 00:09:15,522
+Ya, turun di tingkat tiga.
+
+203
+00:09:15,545 --> 00:09:17,128
+Sudah turun.
+
+204
+00:09:17,151 --> 00:09:19,534
+Bilik tu dekat mana?
+
+205
+00:09:19,557 --> 00:09:23,641
+Bilik paling hujung selepas turun dari lif.
+
+206
+00:09:23,664 --> 00:09:25,197
+Saya faham.
+
+207
+00:09:25,220 --> 00:09:27,204
+Sekarang saya pergi.
+
+208
+00:09:27,228 --> 00:09:29,757
+Baik, saya tunggu.
+
+209
+00:09:29,780 --> 00:09:32,780
+Senario 8: Berjumpa di Taman
+
+210
+00:09:32,780 --> 00:09:37,604
+Halo, saya dah sampai di pintu masuk taman.
+
+211
+00:09:37,628 --> 00:09:39,289
+Saya faham.
+
+212
+00:09:39,313 --> 00:09:42,849
+Saya pun dah ada dalam taman.
+
+213
+00:09:42,872 --> 00:09:45,177
+Awak dekat mana?
+
+214
+00:09:45,200 --> 00:09:48,621
+Taman ni luas betul, ya.
+
+215
+00:09:48,645 --> 00:09:52,993
+Emm, saya depan pokok besar.
+
+216
+00:09:53,016 --> 00:09:55,503
+Pokok besar?
+
+217
+00:09:55,526 --> 00:09:58,776
+Banyak pokok besar kat sini.
+
+218
+00:09:58,799 --> 00:10:01,183
+Memanglah.
+
+219
+00:10:01,206 --> 00:10:04,456
+Awak nampak kedai jualan tak?
+
+220
+00:10:04,479 --> 00:10:07,562
+Kedai jual ais krim tu?
+
+221
+00:10:07,585 --> 00:10:09,768
+Ya, betul tu.
+
+222
+00:10:09,791 --> 00:10:12,041
+Ya, saya nampak.
+
+223
+00:10:12,064 --> 00:10:15,881
+Saya dekat dengan kedai tu.
+
+224
+00:10:15,904 --> 00:10:18,734
+Di sebelah kanan kedai?
+
+225
+00:10:18,757 --> 00:10:20,374
+Atau sebelah kiri?
+
+226
+00:10:20,397 --> 00:10:22,413
+Ke kanan.
+
+227
+00:10:22,436 --> 00:10:25,020
+Ada bangku di sebelah kanan.
+
+228
+00:10:25,043 --> 00:10:26,893
+Bangku, ya?
+
+229
+00:10:26,915 --> 00:10:30,632
+Ya, saya duduk di bangku tu.
+
+230
+00:10:30,655 --> 00:10:33,706
+Awak pakai baju warna apa?
+
+231
+00:10:33,730 --> 00:10:37,380
+Baju putih dan topi biru.
+
+232
+00:10:37,403 --> 00:10:39,686
+Oh, saya dah nampak awak!
+
+233
+00:10:39,709 --> 00:10:41,726
+Sekarang saya pergi.
+
+234
+00:10:41,749 --> 00:10:44,834
+Baik, saya tunggu di sini.
+
+235
+00:10:44,857 --> 00:10:46,741
+Saya datang sekarang.
+
+236
+00:10:46,764 --> 00:10:49,183
+Hati-hati, ya.
+
+237
+00:10:49,206 --> 00:10:52,206
+Senario 9: Pendaftaran di Hospital
+
+238
+00:10:52,206 --> 00:10:54,189
+Maaf.
+
+239
+00:10:54,212 --> 00:10:57,062
+Saya pertama kali datang sini.
+
+240
+00:10:57,085 --> 00:10:58,971
+Ya.
+
+241
+00:10:58,994 --> 00:11:01,811
+Ada apa-apa masalah?
+
+242
+00:11:01,834 --> 00:11:05,351
+Perut saya sakit.
+
+243
+00:11:05,374 --> 00:11:07,757
+Saya faham.
+
+244
+00:11:07,780 --> 00:11:11,363
+Adakah anda membawa kad insurans?
+
+245
+00:11:11,386 --> 00:11:14,132
+Ya, ada.
+
+246
+00:11:14,156 --> 00:11:16,939
+Inilah dia.
+
+247
+00:11:16,962 --> 00:11:18,979
+Terima kasih.
+
+248
+00:11:19,002 --> 00:11:23,585
+Pertama, sila ambil kertas dari mesin itu.
+
+249
+00:11:23,608 --> 00:11:26,793
+Mesin yang putih itu?
+
+250
+00:11:26,816 --> 00:11:30,068
+Ya, betul tu.
+
+251
+00:11:30,092 --> 00:11:32,198
+Sudah ambil.
+
+252
+00:11:32,221 --> 00:11:34,609
+Nombor tiga.
+
+253
+00:11:34,633 --> 00:11:39,557
+Kemudian, tulis nama anda pada kertas ini.
+
+254
+00:11:39,580 --> 00:11:41,798
+Di sini, ya?
+
+255
+00:11:41,822 --> 00:11:44,505
+Sudah tulis.
+
+256
+00:11:44,528 --> 00:11:46,378
+Terima kasih.
+
+257
+00:11:46,401 --> 00:11:49,258
+Sila tunggu di sana.
+
+258
+00:11:49,281 --> 00:11:51,972
+Kerusi di situ?
+
+259
+00:11:51,996 --> 00:11:53,779
+Ya.
+
+260
+00:11:53,802 --> 00:11:57,387
+Di depan kaunter nombor tiga.
+
+261
+00:11:57,410 --> 00:12:00,537
+Berapa lama perlu tunggu?
+
+262
+00:12:00,561 --> 00:12:03,777
+Kira-kira lima belas minit.
+
+263
+00:12:03,800 --> 00:12:06,284
+Saya faham.
+
+264
+00:12:06,307 --> 00:12:11,007
+Kami akan memanggil nama anda, sila duduk dan tunggu.
+
+265
+00:12:11,030 --> 00:12:14,080
+Baik, saya faham.
+
+266
+00:12:14,103 --> 00:12:16,087
+Terima kasih.
+
+267
+00:12:16,110 --> 00:12:19,926
+Jaga diri.
+
+268
+00:12:19,949 --> 00:12:22,949
+Senario 10: Bergerak di Terminal Lapangan Terbang / Navigasi Antara Terminal Lapangan Terbang
+
+269
+00:12:22,949 --> 00:12:28,133
+Maaf, di manakah kaunter Sakura Airlines?
+
+270
+00:12:28,156 --> 00:12:30,939
+Sakura Airlines, ya?
+
+271
+00:12:30,962 --> 00:12:34,423
+Bukan di sini.
+
+272
+00:12:34,446 --> 00:12:36,663
+Eh, betul ke?
+
+273
+00:12:36,686 --> 00:12:41,203
+Ya, ini Terminal Satu.
+
+274
+00:12:41,226 --> 00:12:44,248
+Di manakah Sakura Airlines?
+
+275
+00:12:44,272 --> 00:12:47,059
+Di Terminal Dua.
+
+276
+00:12:47,083 --> 00:12:49,142
+Jauh ke?
+
+277
+00:12:49,165 --> 00:12:53,348
+Ya, tak boleh pergi dengan berjalan kaki.
+
+278
+00:12:53,371 --> 00:12:56,227
+Macam mana nak pergi?
+
+279
+00:12:56,250 --> 00:12:59,033
+Sila keluar ke luar di situ.
+
+280
+00:12:59,056 --> 00:13:01,473
+Pintu keluar, ya?
+
+281
+00:13:01,496 --> 00:13:06,164
+Ya, bas kuning akan datang di situ.
+
+282
+00:13:06,187 --> 00:13:08,804
+Naik bas itu?
+
+283
+00:13:08,827 --> 00:13:13,244
+Ya, bas yang pergi ke terminal.
+
+284
+00:13:13,267 --> 00:13:15,286
+Percuma.
+
+285
+00:13:15,309 --> 00:13:18,292
+Berapa minit akan sampai?
+
+286
+00:13:18,315 --> 00:13:20,933
+Lima minit.
+
+287
+00:13:20,956 --> 00:13:23,006
+Saya faham.
+
+288
+00:13:23,029 --> 00:13:25,413
+Akan datang segera?
+
+289
+00:13:25,436 --> 00:13:29,219
+Ya, bas datang setiap sepuluh minit.
+
+290
+00:13:29,242 --> 00:13:31,507
+Syukurlah.
+
+291
+00:13:31,531 --> 00:13:33,448
+Terima kasih banyak-banyak.
+
+292
+00:13:33,471 --> 00:13:37,609
+Selamat pergi.
