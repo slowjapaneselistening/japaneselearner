@@ -114,6 +114,10 @@
                             <button onclick="playEntireScene()" id="play-scene-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm shrink-0">
                                 <i class="fa-solid fa-play"></i> Play
                             </button>
+
+                            <button onclick="playMixedScene()" id="play-mix-btn" class="bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm shrink-0">
+                                <i class="fa-solid fa-shuffle"></i> Mix Play
+                            </button>
                         </div>
                     </div>
 
@@ -219,7 +223,12 @@
             score: 0,
             isAnswering: false,
             currentLang: 'en',
-            quizType: 'kanji'
+            quizType: 'kanji',
+            lastScrolledIndex: -1, // 直前に自動スクロールしたセリフ番号を記憶するメモ帳（防振用）
+            isYtScrolling: false,   // YouTube側のスクロール連動が有効かどうか
+            recordedBlobs: {},     // 録音データをセリフごとに保存するオブジェクト
+            mediaRecorder: null,   // レコーダーオブジェクト
+            activeRecordingIndex: -1 // 現在録音中のセリフのインデックス
         };
 
       // =================================================================
@@ -345,6 +354,13 @@
             await updateTranslations();
         }
 
+        // 時間文字列 (00:00:13,008) を秒数 (13.008) に変換するヘルパー
+        function srtTimeToSeconds(timeStr) {
+            if (!timeStr) return 0;
+            const parts = timeStr.replace(',', '.').split(':');
+            return parseFloat(parts[0]) * 3600 + parseFloat(parts[1]) * 60 + parseFloat(parts[2]);
+        }
+
         async function loadSRT(langCode) {
             if (srtDataCache[langCode]) return srtDataCache[langCode];
             try {
@@ -352,28 +368,37 @@
                 if (!response.ok) return null;
                 const text = await response.text();
                 const blocks = text.trim().split(/\r?\n\r?\n/);
-                // SRTの各ブロックから字幕テキスト部分（3行目以降）を抽出して配列にする
-                const srtTexts = blocks.map(block => {
+                
+                // 各ブロックから時間情報とテキストを抽出してオブジェクトの配列にする
+                const srtParsed = blocks.map(block => {
                     const lines = block.split(/\r?\n/);
-                    return lines.length >= 3 ? lines.slice(2).join('\n').trim() : '';
+                    if (lines.length < 3) return { text: '', start: 0, end: 0 };
+                    
+                    // 2行目のタイムスタンプ行をパース (00:00:00,000 --> 00:00:10,008)
+                    const timeMatch = lines[1].match(/(\d{2}:\d{2}:\d{2}[,\.]\d{3})\s*-->\s*(\d{2}:\d{2}:\d{2}[,\.]\d{3})/);
+                    const start = timeMatch ? srtTimeToSeconds(timeMatch[1]) : 0;
+                    const end = timeMatch ? srtTimeToSeconds(timeMatch[2]) : 0;
+                    const textContent = lines.slice(2).join('\n').trim();
+                    
+                    return { text: textContent, start: start, end: end };
                 });
                 
-                srtDataCache[langCode] = srtTexts;
-                return srtTexts;
+                srtDataCache[langCode] = srtParsed;
+                return srtParsed;
             } catch (e) {
                 console.error(`Error loading SRT for ${langCode}:`, e);
                 return null;
             }
         }
+    
 
         async function updateTranslations() {
             const langCode = appState.currentLang;
-            const srtTexts = await loadSRT(langCode);
-            if (!srtTexts || srtTexts.length === 0) return;
+            const srtParsed = await loadSRT(langCode);
+            if (!srtParsed || srtParsed.length === 0) return;
 
             let globalIdx = 0;
             scenes.forEach((scene, index) => {
-                // シーン1〜3（index: 0, 1, 2）は2つ、それ以降は1つスキップ
                 if (index <= 2) {
                     globalIdx += 2;
                 } else {
@@ -381,8 +406,14 @@
                 }
                 
                 scene.lines.forEach(line => {
-                    if (globalIdx < srtTexts.length) {
-                        line.english = srtTexts[globalIdx] || "Translation not available.";
+                    if (globalIdx < srtParsed.length) {
+                        const srtItem = srtParsed[globalIdx];
+                        line.english = srtItem.text || "Translation not available.";
+                        line.startTime = srtItem.start; // 開始秒数を移植
+                        line.endTime = srtItem.end;     // 終了秒数を移植
+                    } else {
+                        line.startTime = 0;
+                        line.endTime = 0;
                     }
                     globalIdx++;
                 });
@@ -460,9 +491,19 @@
                                         </div>
                                         ${extraContent}
                                     </div>
-                                    <button onclick="playAudio('${line.audioPath ? line.audioPath.replace(/'/g, "\\'") : ''}')" class="shrink-0 w-8 h-8 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-400 hover:text-blue-600 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300" title="Play audio">
-                                        <i class="fa-solid fa-volume-high"></i>
-                                    </button>
+                                    <div class="flex items-center gap-1.5 shrink-0">
+                                        <button onclick="playMyAudio(${index})" id="my-audio-btn-${index}" class="${appState.recordedBlobs[appState.currentSceneIndex + '_' + index] ? '' : 'hidden'} w-8 h-8 rounded-full bg-orange-100 hover:bg-orange-200 text-orange-600 flex items-center justify-center transition-colors focus:outline-none" title="自分の声を聴く">
+                                            <i class="fa-solid fa-face-smile"></i>
+                                        </button>
+                                        
+                                        <button onclick="toggleRecording(${index}, this)" class="w-8 h-8 rounded-full bg-gray-100 hover:bg-red-100 text-gray-400 hover:text-red-500 flex items-center justify-center transition-colors focus:outline-none" title="声を録音する">
+                                            <i class="fa-solid fa-microphone"></i>
+                                        </button>
+
+                                        <button onclick="playAudio('${line.audioPath ? line.audioPath.replace(/'/g, "\\'") : ''}')" class="w-8 h-8 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-400 hover:text-blue-600 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300" title="Play audio">
+                                            <i class="fa-solid fa-volume-high"></i>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -696,16 +737,89 @@
         const firstScriptTag = document.getElementsByTagName('script')[0];
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-        // API読み込み完了時に自動実行される関数
+        let ytTimeTracker = null;
+
         window.onYouTubeIframeAPIReady = () => {
             ytPlayer = new YT.Player('player', {
                 videoId: YOUTUBE_VIDEO_ID,
                 playerVars: {
                     'playsinline': 1,
                     'rel': 0
+                },
+                events: {
+                    'onStateChange': onPlayerStateChange
                 }
             });
         };
+
+        // YouTubeの再生状態が変化した時のイベント
+        function onPlayerStateChange(event) {
+            // 動画再生中 (YT.PlayerState.PLAYING は 1)
+            if (event.data === 1) {
+                // 独自音声再生の一括ループが走っていたら停止させる
+                if (appState.isPlaying) {
+                    const playBtnIcon = document.querySelector('#play-scene-btn i');
+                    if (playBtnIcon) playBtnIcon.className = 'fa-solid fa-play';
+                    appState.isPlaying = false;
+                }
+                
+                // 200ミリ秒ごとに再生位置をチェックするタイマーを開始
+                if (!ytTimeTracker) {
+                    appState.lastScrolledIndex = -1; // 再生開始時にメモ帳をリセット
+                    ytTimeTracker = setInterval(trackYoutubeTime, 200);
+                }
+            } else {
+                // 再生中以外（一時停止、終了など）はタイマーを止める
+                if (ytTimeTracker) {
+                    clearInterval(ytTimeTracker);
+                    ytTimeTracker = null;
+                }
+            }
+        }
+
+        // 現在の動画再生時間に合わせてテキストをスクロール・ハイライトする関数
+        function trackYoutubeTime() {
+            if (!ytPlayer || typeof ytPlayer.getCurrentTime !== 'function') return;
+            
+            const currentTime = ytPlayer.getCurrentTime();
+            const scene = scenes[appState.currentSceneIndex];
+            if (!scene || !scene.lines) return;
+
+            // 現在の再生時間に一致するセリフのインデックスを探す
+            let activeIdx = -1;
+            for (let i = 0; i < scene.lines.length; i++) {
+                const line = scene.lines[i];
+                if (line.startTime <= currentTime && currentTime <= line.endTime) {
+                    activeIdx = i;
+                    break;
+                }
+            }
+
+            if (activeIdx !== -1) {
+                const allMessageBubbles = document.querySelectorAll('#dialogue-list > div > div > div.p-4');
+                
+                // すべてのバブルから枠線ハイライトを一旦消し、現在アクティブなものだけに付与
+                allMessageBubbles.forEach((b, idx) => {
+                    if (idx === activeIdx) {
+                        const isMuted = appState.roleplayMutedSpeaker === scene.lines[idx].speaker;
+                        b.classList.add('ring-2', isMuted ? 'ring-purple-400' : 'ring-blue-400');
+                    } else {
+                        b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400');
+                    }
+                });
+
+                // 【防振処理】直前にスクロールしたインデックスと異なる（＝セリフが変わった）場合のみ1回実行
+                if (activeIdx !== appState.lastScrolledIndex && allMessageBubbles[activeIdx]) {
+                    appState.lastScrolledIndex = activeIdx; // メモ帳を更新
+                    allMessageBubbles[activeIdx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            } else {
+                // 該当するセリフがない時間帯（シーンの合間など）はハイライトを外す
+                document.querySelectorAll('#dialogue-list > div > div > div.p-4').forEach(b => {
+                    b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400');
+                });
+            }
+        }
 
         window.onload = async () => {
             // Populate Language Selector
@@ -772,6 +886,151 @@
 
             renderScene();
         };
+        // 携帯（iOS/Android）のオーディオ制限を解除するおまじない
+        function initAudioContext() {
+            if (window.AudioContext || window.webkitAudioContext) {
+                const AudioContext = window.AudioContext || window.webkitAudioContext;
+                const ctx = new AudioContext();
+                if (ctx.state === 'suspended') {
+                    ctx.resume();
+                }
+            }
+        }
+
+        // 個別セリフの録音・停止の切り替え
+        async function toggleRecording(index, btnElement) {
+            initAudioContext();
+            const key = appState.currentSceneIndex + '_' + index;
+            const icon = btnElement.querySelector('i');
+
+            // 録音中の停止処理
+            if (appState.activeRecordingIndex === index) {
+                if (appState.mediaRecorder && appState.mediaRecorder.state !== 'inactive') {
+                    appState.mediaRecorder.stop();
+                }
+                return;
+            }
+
+            // 他の場所が録音中なら無視
+            if (appState.activeRecordingIndex !== -1) return;
+
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                const chunks = [];
+                appState.mediaRecorder = new MediaRecorder(stream, { mimeType: 'audio/webm' });
+                
+                appState.mediaRecorder.ondataavailable = e => {
+                    if (e.data.size > 0) chunks.push(e.data);
+                };
+
+                appState.mediaRecorder.onstop = () => {
+                    const blob = new Blob(chunks, { type: 'audio/webm' });
+                    appState.recordedBlobs[key] = URL.createObjectURL(blob);
+                    
+                    // 録音完了後にUIを元に戻し、自分の声再生ボタンを出現させる
+                    appState.activeRecordingIndex = -1;
+                    icon.className = 'fa-solid fa-microphone';
+                    btnElement.classList.remove('bg-red-500', 'text-white', 'animate-pulse');
+                    btnElement.classList.add('bg-gray-100', 'text-gray-400');
+                    
+                    const myPlayBtn = document.getElementById(`my-audio-btn-${index}`);
+                    if (myPlayBtn) myPlayBtn.classList.remove('hidden');
+                    
+                    // マイクストリームを終了（スマホの録音中マークを消す）
+                    stream.getTracks().forEach(track => track.stop());
+                };
+
+                // 録音開始
+                appState.activeRecordingIndex = index;
+                icon.className = 'fa-solid fa-square';
+                btnElement.classList.remove('bg-gray-100', 'text-gray-400');
+                btnElement.classList.add('bg-red-500', 'text-white', 'animate-pulse');
+                
+                appState.mediaRecorder.start();
+
+            } catch (err) {
+                console.error("マイクの起動に失敗しました。HTTPS接続であることを確認してください:", err);
+                alert("マイク機能を利用できません。通信が暗号化(HTTPS)されているか確認してください。");
+            }
+        }
+
+        // 個別に録音した自分の声を再生
+        function playMyAudio(index) {
+            initAudioContext();
+            const key = appState.currentSceneIndex + '_' + index;
+            const audioUrl = appState.recordedBlobs[key];
+            if (!audioUrl) return;
+
+            if (currentAudio) currentAudio.pause();
+            currentAudio = new Audio(audioUrl);
+            currentAudio.play().catch(e => console.error("録音再生失敗:", e));
+        }
+
+        // ★ご要望機能：自分の録音がある箇所は差し替え、ない箇所はお手本で「すべて通して聴く」
+        async function playMixedScene() {
+            initAudioContext();
+            const mixBtn = document.getElementById('play-mix-btn');
+            const mixBtnIcon = mixBtn.querySelector('i');
+
+            if (appState.isPlaying) {
+                if (currentAudio) currentAudio.pause();
+                appState.isPlaying = false;
+                mixBtnIcon.className = 'fa-solid fa-shuffle';
+                document.querySelectorAll('#dialogue-list > div > div > div.p-4').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                return;
+            }
+
+            appState.isPlaying = true;
+            mixBtnIcon.className = 'fa-solid fa-stop';
+            const scene = scenes[appState.currentSceneIndex];
+            
+            for (let i = 0; i < scene.lines.length; i++) {
+                if (!appState.isPlaying) break; 
+                
+                const line = scene.lines[i];
+                const key = appState.currentSceneIndex + '_' + i;
+                const myAudioUrl = appState.recordedBlobs[key]; // 自分の録音があるか確認
+
+                // 画面スクロールとハイライト連動
+                const allMessageBubbles = document.querySelectorAll('#dialogue-list > div > div > div.p-4');
+                if (allMessageBubbles[i]) {
+                    allMessageBubbles.forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                    allMessageBubbles[i].classList.add('ring-2', myAudioUrl ? 'ring-orange-400' : 'ring-blue-400');
+                    allMessageBubbles[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+                
+                // 再生ソースの決定（自分の録音があればそれを、なければお手本を流す）
+                const activeAudioSrc = myAudioUrl ? myAudioUrl : line.audioPath;
+
+                if (activeAudioSrc) {
+                    await new Promise(resolve => {
+                        if (currentAudio) currentAudio.pause();
+                        currentAudio = new Audio(activeAudioSrc);
+                        
+                        // 自分の声の時は等倍速、お手本は既存通り0.85倍速
+                        currentAudio.playbackRate = myAudioUrl ? 1.0 : 0.85;
+                        
+                        currentAudio.onended = resolve;
+                        currentAudio.onerror = resolve;
+                        currentAudio.play().catch(e => {
+                            console.error("通し再生中に音声エラー:", e);
+                            resolve();
+                        });
+                    });
+                } else {
+                    // 音声データがないセリフは1秒待機
+                    await new Promise(r => setTimeout(r, 1000));
+                }
+                
+                // セリフの間の余韻時間
+                await new Promise(r => setTimeout(r, 600));
+            }
+
+            // 終了処理
+            document.querySelectorAll('#dialogue-list > div > div > div.p-4').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+            appState.isPlaying = false;
+            mixBtnIcon.className = 'fa-solid fa-shuffle';
+        }
     </script>
 </body>
 </html>
