@@ -219,7 +219,9 @@
             score: 0,
             isAnswering: false,
             currentLang: 'en',
-            quizType: 'kanji'
+            quizType: 'kanji',
+            lastScrolledIndex: -1, // 直前に自動スクロールしたセリフ番号を記憶するメモ帳（防振用）
+            isYtScrolling: false   // YouTube側のスクロール連動が有効かどうか
         };
 
       // =================================================================
@@ -348,6 +350,13 @@
             await updateTranslations();
         }
 
+        // 時間文字列 (00:00:13,008) を秒数 (13.008) に変換するヘルパー
+        function srtTimeToSeconds(timeStr) {
+            if (!timeStr) return 0;
+            const parts = timeStr.replace(',', '.').split(':');
+            return parseFloat(parts[0]) * 3600 + parseFloat(parts[1]) * 60 + parseFloat(parts[2]);
+        }
+
         async function loadSRT(langCode) {
             if (srtDataCache[langCode]) return srtDataCache[langCode];
             try {
@@ -355,14 +364,23 @@
                 if (!response.ok) return null;
                 const text = await response.text();
                 const blocks = text.trim().split(/\r?\n\r?\n/);
-                // SRTの各ブロックから字幕テキスト部分（3行目以降）を抽出して配列にする
-                const srtTexts = blocks.map(block => {
+                
+                // 各ブロックから時間情報とテキストを抽出してオブジェクトの配列にする
+                const srtParsed = blocks.map(block => {
                     const lines = block.split(/\r?\n/);
-                    return lines.length >= 3 ? lines.slice(2).join('\n').trim() : '';
+                    if (lines.length < 3) return { text: '', start: 0, end: 0 };
+                    
+                    // 2行目のタイムスタンプ行をパース (00:00:00,000 --> 00:00:10,008)
+                    const timeMatch = lines[1].match(/(\d{2}:\d{2}:\d{2}[,\.]\d{3})\s*-->\s*(\d{2}:\d{2}:\d{2}[,\.]\d{3})/);
+                    const start = timeMatch ? srtTimeToSeconds(timeMatch[1]) : 0;
+                    const end = timeMatch ? srtTimeToSeconds(timeMatch[2]) : 0;
+                    const textContent = lines.slice(2).join('\n').trim();
+                    
+                    return { text: textContent, start: start, end: end };
                 });
                 
-                srtDataCache[langCode] = srtTexts;
-                return srtTexts;
+                srtDataCache[langCode] = srtParsed;
+                return srtParsed;
             } catch (e) {
                 console.error(`Error loading SRT for ${langCode}:`, e);
                 return null;
@@ -371,12 +389,11 @@
 
         async function updateTranslations() {
             const langCode = appState.currentLang;
-            const srtTexts = await loadSRT(langCode);
-            if (!srtTexts || srtTexts.length === 0) return;
+            const srtParsed = await loadSRT(langCode);
+            if (!srtParsed || srtParsed.length === 0) return;
 
             let globalIdx = 0;
             scenes.forEach((scene, index) => {
-                // シーン1〜3（index: 0, 1, 2）は2つ、それ以降は1つスキップ
                 if (index <= 2) {
                     globalIdx += 2;
                 } else {
@@ -384,8 +401,14 @@
                 }
                 
                 scene.lines.forEach(line => {
-                    if (globalIdx < srtTexts.length) {
-                        line.english = srtTexts[globalIdx] || "Translation not available.";
+                    if (globalIdx < srtParsed.length) {
+                        const srtItem = srtParsed[globalIdx];
+                        line.english = srtItem.text || "Translation not available.";
+                        line.startTime = srtItem.start; // 開始秒数を移植
+                        line.endTime = srtItem.end;     // 終了秒数を移植
+                    } else {
+                        line.startTime = 0;
+                        line.endTime = 0;
                     }
                     globalIdx++;
                 });
@@ -699,16 +722,89 @@
         const firstScriptTag = document.getElementsByTagName('script')[0];
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-        // API読み込み完了時に自動実行される関数
+        let ytTimeTracker = null;
+
         window.onYouTubeIframeAPIReady = () => {
             ytPlayer = new YT.Player('player', {
                 videoId: YOUTUBE_VIDEO_ID,
                 playerVars: {
                     'playsinline': 1,
                     'rel': 0
+                },
+                events: {
+                    'onStateChange': onPlayerStateChange
                 }
             });
         };
+
+        // YouTubeの再生状態が変化した時のイベント
+        function onPlayerStateChange(event) {
+            // 動画再生中 (YT.PlayerState.PLAYING は 1)
+            if (event.data === 1) {
+                // 独自音声再生の一括ループが走っていたら停止させる
+                if (appState.isPlaying) {
+                    const playBtnIcon = document.querySelector('#play-scene-btn i');
+                    if (playBtnIcon) playBtnIcon.className = 'fa-solid fa-play';
+                    appState.isPlaying = false;
+                }
+                
+                // 200ミリ秒ごとに再生位置をチェックするタイマーを開始
+                if (!ytTimeTracker) {
+                    appState.lastScrolledIndex = -1; // 再生開始時にメモ帳をリセット
+                    ytTimeTracker = setInterval(trackYoutubeTime, 200);
+                }
+            } else {
+                // 再生中以外（一時停止、終了など）はタイマーを止める
+                if (ytTimeTracker) {
+                    clearInterval(ytTimeTracker);
+                    ytTimeTracker = null;
+                }
+            }
+        }
+
+        // 現在の動画再生時間に合わせてテキストをスクロール・ハイライトする関数
+        function trackYoutubeTime() {
+            if (!ytPlayer || typeof ytPlayer.getCurrentTime !== 'function') return;
+            
+            const currentTime = ytPlayer.getCurrentTime();
+            const scene = scenes[appState.currentSceneIndex];
+            if (!scene || !scene.lines) return;
+
+            // 現在の再生時間に一致するセリフのインデックスを探す
+            let activeIdx = -1;
+            for (let i = 0; i < scene.lines.length; i++) {
+                const line = scene.lines[i];
+                if (line.startTime <= currentTime && currentTime <= line.endTime) {
+                    activeIdx = i;
+                    break;
+                }
+            }
+
+            if (activeIdx !== -1) {
+                const allMessageBubbles = document.querySelectorAll('#dialogue-list > div > div > div.p-4');
+                
+                // すべてのバブルから枠線ハイライトを一旦消し、現在アクティブなものだけに付与
+                allMessageBubbles.forEach((b, idx) => {
+                    if (idx === activeIdx) {
+                        const isMuted = appState.roleplayMutedSpeaker === scene.lines[idx].speaker;
+                        b.classList.add('ring-2', isMuted ? 'ring-purple-400' : 'ring-blue-400');
+                    } else {
+                        b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400');
+                    }
+                });
+
+                // 【防振処理】直前にスクロールしたインデックスと異なる（＝セリフが変わった）場合のみ1回実行
+                if (activeIdx !== appState.lastScrolledIndex && allMessageBubbles[activeIdx]) {
+                    appState.lastScrolledIndex = activeIdx; // メモ帳を更新
+                    allMessageBubbles[activeIdx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            } else {
+                // 該当するセリフがない時間帯（シーンの合間など）はハイライトを外す
+                document.querySelectorAll('#dialogue-list > div > div > div.p-4').forEach(b => {
+                    b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400');
+                });
+            }
+        }
 
         window.onload = async () => {
             // Populate Language Selector
