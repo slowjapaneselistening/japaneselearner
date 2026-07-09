@@ -122,6 +122,14 @@
                     </div>
 
                     <div class="flex flex-wrap items-center gap-4 text-xs font-medium text-gray-600 border-t border-gray-100 pt-2">
+                        <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-japanese" checked class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Japanese
+                        </label>
+                        <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Romaji
+                        </label>
                         <div class="flex items-center gap-1.5 cursor-pointer text-gray-600 hover:text-blue-600 transition-colors">
                             <input type="checkbox" id="toggle-translation" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
                             <span>Translation:</span>
@@ -131,10 +139,6 @@
                         <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
                             <input type="checkbox" id="toggle-kanji-test" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
                             Hide Furigana
-                        </label>
-                        <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
-                            <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
-                            Romaji
                         </label>
                     </div>
 
@@ -214,6 +218,7 @@
         const appState = {
             activeTab: 'conv',
             currentSceneIndex: 0,
+            showJapanese: true, // 日本語の初期状態はON
             showRomaji: false,
             showTranslation: false,
             hideFurigana: false,
@@ -466,12 +471,29 @@
 
                 const jpFormatted = formatJapanese(line.rawJp, appState.hideFurigana);
 
-                let extraContent = '';
+                // 表示する項目の数をカウント
+                const activeCount = (appState.showJapanese ? 1 : 0) + (appState.showRomaji ? 1 : 0) + (appState.showTranslation ? 1 : 0);
+                
+                // カウントに応じてフォントサイズを変更
+                let fontSizeClass = "text-[1.05rem]"; // 3つのとき（デフォルト）
+                if (activeCount === 1) {
+                    fontSizeClass = "text-xl sm:text-2xl font-bold";
+                } else if (activeCount === 2) {
+                    fontSizeClass = "text-lg sm:text-xl font-semibold";
+                }
+
+                let textBlock = '';
+                if (appState.showJapanese) {
+                    textBlock += `<div class="${fontSizeClass} leading-loose break-words tracking-wide">${jpFormatted}</div>`;
+                }
                 if (appState.showRomaji) {
-                    extraContent += `<div class="text-sm text-gray-500 mt-2 font-mono bg-gray-50 p-2 rounded">${line.romaji}</div>`;
+                    // 日本語が上にある場合はすこし隙間(mt-2)を空ける
+                    const spacing = appState.showJapanese ? 'mt-2' : '';
+                    textBlock += `<div class="${fontSizeClass} ${spacing} text-gray-600 font-mono bg-gray-50 p-2 rounded">${line.romaji}</div>`;
                 }
                 if (appState.showTranslation) {
-                    extraContent += `<div class="text-sm text-gray-700 mt-2 italic border-l-2 border-gray-300 pl-2">${line.english}</div>`;
+                    const spacing = (appState.showJapanese || appState.showRomaji) ? 'mt-2' : '';
+                    textBlock += `<div class="${fontSizeClass} ${spacing} text-gray-500 italic border-l-2 border-gray-300 pl-2">${line.english}</div>`;
                 }
 
                 // Roleplay logic
@@ -488,10 +510,7 @@
                             <div class="${bgColor} ${borderRadius} p-4 shadow-sm relative group w-full transition-shadow duration-300">
                                 <div class="flex items-start gap-3 justify-between">
                                     <div class="flex-1 ${blurClass}" ${titleText}>
-                                        <div class="text-[1.05rem] leading-loose break-words tracking-wide font-medium">
-                                            ${jpFormatted}
-                                        </div>
-                                        ${extraContent}
+                                        ${textBlock}
                                     </div>
                                     <div class="flex items-center gap-1.5 shrink-0">
                                         <button onclick="playMyAudio(${index})" id="my-audio-btn-${index}" class="${appState.recordedBlobs[appState.currentSceneIndex + '_' + index] ? '' : 'hidden'} w-8 h-8 rounded-full bg-orange-100 hover:bg-orange-200 text-orange-600 flex items-center justify-center transition-colors focus:outline-none" title="自分の声を聴く">
@@ -784,6 +803,28 @@
             if (!ytPlayer || typeof ytPlayer.getCurrentTime !== 'function') return;
             
             const currentTime = ytPlayer.getCurrentTime();
+
+            // --- 【追加】再生時間から現在の正しいシーン番号を自動判定 ---
+            let detectedSceneIdx = appState.currentSceneIndex;
+            for (let i = 0; i < sceneStartTimes.length; i++) {
+                const start = sceneStartTimes[i];
+                // 次のシーンの開始秒数、無ければ無限大（動画の末尾）までを範囲とする
+                const end = (i + 1 < sceneStartTimes.length) ? sceneStartTimes[i + 1] : Infinity;
+                if (currentTime >= start && currentTime < end) {
+                    detectedSceneIdx = i;
+                    break;
+                }
+            }
+
+            // 再生中の場面が変わった場合、シーンを自動切り替え
+            if (detectedSceneIdx !== appState.currentSceneIndex) {
+                appState.currentSceneIndex = detectedSceneIdx;
+                const selector = document.getElementById('scene-selector');
+                if (selector) selector.value = detectedSceneIdx; // セレクトボックスの表示を更新
+                renderScene(); // 台本テキストを新しいシーンに書き換え
+            }
+            // -----------------------------------------------------
+
             const scene = scenes[appState.currentSceneIndex];
             if (!scene || !scene.lines) return;
 
@@ -854,6 +895,12 @@
                 if (ytPlayer && typeof ytPlayer.seekTo === 'function') {
                     ytPlayer.seekTo(sceneStartTimes[sceneIdx], true);
                 }
+            });
+
+            // 日本語オンオフの監視を追加
+            document.getElementById('toggle-japanese').addEventListener('change', (e) => {
+                appState.showJapanese = e.target.checked;
+                renderScene();
             });
 
             document.getElementById('toggle-romaji').addEventListener('change', (e) => {
