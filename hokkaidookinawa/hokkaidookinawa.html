@@ -122,6 +122,14 @@
                     </div>
 
                     <div class="flex flex-wrap items-center gap-4 text-xs font-medium text-gray-600 border-t border-gray-100 pt-2">
+                        <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-japanese" checked class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Japanese
+                        </label>
+                        <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Romaji
+                        </label>
                         <div class="flex items-center gap-1.5 cursor-pointer text-gray-600 hover:text-blue-600 transition-colors">
                             <input type="checkbox" id="toggle-translation" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
                             <span>Translation:</span>
@@ -131,10 +139,6 @@
                         <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
                             <input type="checkbox" id="toggle-kanji-test" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
                             Hide Furigana
-                        </label>
-                        <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
-                            <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
-                            Romaji
                         </label>
                     </div>
 
@@ -214,6 +218,7 @@
         const appState = {
             activeTab: 'conv',
             currentSceneIndex: 0,
+            showJapanese: true,
             showRomaji: false,
             showTranslation: false,
             hideFurigana: false,
@@ -466,12 +471,27 @@
 
                 const jpFormatted = formatJapanese(line.rawJp, appState.hideFurigana);
 
+                const activeCount = (appState.showJapanese ? 1 : 0) + (appState.showRomaji ? 1 : 0) + (appState.showTranslation ? 1 : 0);
+                
+                // 3つの場合は現状維持(1.05rem)、それより少ない場合は少し小さめのサイズを割り当てて横幅を確保
+                let fontSizeClass = "text-[1.05rem]";
+                if (activeCount === 1) {
+                    fontSizeClass = "text-sm sm:text-base";
+                } else if (activeCount === 2) {
+                    fontSizeClass = "text-base sm:text-[1rem]";
+                }
+
                 let extraContent = '';
+                if (appState.showJapanese) {
+                    extraContent += `<div class="${fontSizeClass} leading-loose break-words tracking-wide font-medium">${jpFormatted}</div>`;
+                }
                 if (appState.showRomaji) {
-                    extraContent += `<div class="text-sm text-gray-500 mt-2 font-mono bg-gray-50 p-2 rounded">${line.romaji}</div>`;
+                    const spacing = appState.showJapanese ? 'mt-1.5' : '';
+                    extraContent += `<div class="${fontSizeClass} ${spacing} text-gray-500 font-mono bg-gray-50 p-1.5 rounded">${line.romaji}</div>`;
                 }
                 if (appState.showTranslation) {
-                    extraContent += `<div class="text-sm text-gray-700 mt-2 italic border-l-2 border-gray-300 pl-2">${line.english}</div>`;
+                    const spacing = (appState.showJapanese || appState.showRomaji) ? 'mt-1.5' : '';
+                    extraContent += `<div class="${fontSizeClass} ${spacing} text-gray-700 italic border-l-2 border-gray-300 pl-2">${line.english}</div>`;
                 }
 
                 // Roleplay logic
@@ -486,24 +506,21 @@
                         <div class="flex flex-col gap-1 w-full">
                             <div class="text-xs text-gray-500 font-medium px-1 ${!isSpeaker1 ? 'text-right' : ''}">${line.speaker} ${isMuted ? ' <span class="text-purple-600 font-bold ml-1"><i class="fa-solid fa-microphone-lines"></i> Your Turn</span>' : ''}</div>
                             <div class="${bgColor} ${borderRadius} p-4 shadow-sm relative group w-full transition-shadow duration-300">
-                                <div class="flex items-start gap-3 justify-between">
-                                    <div class="flex-1 ${blurClass}" ${titleText}>
-                                        <div class="text-[1.05rem] leading-loose break-words tracking-wide font-medium">
-                                            ${jpFormatted}
-                                        </div>
+                                <div class="flex items-start gap-3 justify-between pb-8 sm:pb-0 sm:pr-24">
+                                    <div class="flex-1 w-full ${blurClass}" ${titleText}>
                                         ${extraContent}
                                     </div>
-                                    <div class="flex items-center gap-1.5 shrink-0">
-                                        <button onclick="playMyAudio(${index})" id="my-audio-btn-${index}" class="${appState.recordedBlobs[appState.currentSceneIndex + '_' + index] ? '' : 'hidden'} w-8 h-8 rounded-full bg-orange-100 hover:bg-orange-200 text-orange-600 flex items-center justify-center transition-colors focus:outline-none" title="自分の声を聴く">
-                                            <i class="fa-solid fa-face-smile"></i>
+                                    <div class="absolute bottom-1 right-2 sm:top-1/2 sm:bottom-auto sm:-translate-y-1/2 sm:right-2 flex items-center gap-1 bg-white/95 backdrop-blur-sm shadow-md border border-gray-100 rounded-full px-1.5 py-0.5 z-10">
+                                        <button onclick="playMyAudio(${index})" id="my-audio-btn-${index}" class="${appState.recordedBlobs[appState.currentSceneIndex + '_' + index] ? '' : 'hidden'} w-7 h-7 rounded-full bg-orange-100 hover:bg-orange-200 text-orange-600 flex items-center justify-center transition-colors focus:outline-none" title="自分の声を聴く">
+                                            <i class="fa-solid fa-face-smile text-xs"></i>
                                         </button>
                                         
-                                        <button onclick="toggleRecording(${index}, this)" class="w-8 h-8 rounded-full bg-gray-100 hover:bg-red-100 text-gray-400 hover:text-red-500 flex items-center justify-center transition-colors focus:outline-none" title="声を録音する">
-                                            <i class="fa-solid fa-microphone"></i>
+                                        <button onclick="toggleRecording(${index}, this)" class="w-7 h-7 rounded-full bg-gray-100 hover:bg-red-100 text-gray-400 hover:text-red-500 flex items-center justify-center transition-colors focus:outline-none" title="声を録音する">
+                                            <i class="fa-solid fa-microphone text-xs"></i>
                                         </button>
 
-                                        <button onclick="playAudio('${line.audioPath ? line.audioPath.replace(/'/g, "\\'") : ''}')" class="w-8 h-8 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-400 hover:text-blue-600 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300" title="Play audio">
-                                            <i class="fa-solid fa-volume-high"></i>
+                                        <button onclick="playAudio('${line.audioPath ? line.audioPath.replace(/'/g, "\\'") : ''}')" class="w-7 h-7 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-400 hover:text-blue-600 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300" title="Play audio">
+                                            <i class="fa-solid fa-volume-high text-xs"></i>
                                         </button>
                                     </div>
                                 </div>
@@ -784,6 +801,25 @@
             if (!ytPlayer || typeof ytPlayer.getCurrentTime !== 'function') return;
             
             const currentTime = ytPlayer.getCurrentTime();
+
+            // シーンの自動切り替え判定
+            let detectedSceneIdx = appState.currentSceneIndex;
+            for (let i = 0; i < sceneStartTimes.length; i++) {
+                const start = sceneStartTimes[i];
+                const end = (i + 1 < sceneStartTimes.length) ? sceneStartTimes[i + 1] : Infinity;
+                if (currentTime >= start && currentTime < end) {
+                    detectedSceneIdx = i;
+                    break;
+                }
+            }
+            if (detectedSceneIdx !== appState.currentSceneIndex) {
+                appState.currentSceneIndex = detectedSceneIdx;
+                const selector = document.getElementById('scene-selector');
+                if (selector) selector.value = detectedSceneIdx;
+                renderScene();
+                return; // 描画し直すためここで抜ける
+            }
+
             const scene = scenes[appState.currentSceneIndex];
             if (!scene || !scene.lines) return;
 
@@ -854,6 +890,11 @@
                 if (ytPlayer && typeof ytPlayer.seekTo === 'function') {
                     ytPlayer.seekTo(sceneStartTimes[sceneIdx], true);
                 }
+            });
+
+            document.getElementById('toggle-japanese').addEventListener('change', (e) => {
+                appState.showJapanese = e.target.checked;
+                renderScene();
             });
 
             document.getElementById('toggle-romaji').addEventListener('change', (e) => {
