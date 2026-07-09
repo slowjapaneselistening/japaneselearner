@@ -122,14 +122,6 @@
                     </div>
 
                     <div class="flex flex-wrap items-center gap-4 text-xs font-medium text-gray-600 border-t border-gray-100 pt-2">
-                        <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
-                            <input type="checkbox" id="toggle-japanese" checked class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
-                            Japanese
-                        </label>
-                        <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
-                            <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
-                            Romaji
-                        </label>
                         <div class="flex items-center gap-1.5 cursor-pointer text-gray-600 hover:text-blue-600 transition-colors">
                             <input type="checkbox" id="toggle-translation" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
                             <span>Translation:</span>
@@ -139,6 +131,10 @@
                         <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
                             <input type="checkbox" id="toggle-kanji-test" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
                             Hide Furigana
+                        </label>
+                        <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Romaji
                         </label>
                     </div>
 
@@ -218,7 +214,6 @@
         const appState = {
             activeTab: 'conv',
             currentSceneIndex: 0,
-            showJapanese: true, // 日本語の初期状態はON
             showRomaji: false,
             showTranslation: false,
             hideFurigana: false,
@@ -440,6 +435,21 @@
             return romaji || "Romaji not fully generated";
         }
 
+        function formatJapanese(rawJp, hideFurigana) {
+            // 正規表現を修正し、漢字（と「々」）の直後にあるカッコのみを「ふりがな」として処理します
+            return rawJp.replace(/([\u4E00-\u9FFF\u3005]+)\((.*?)\)/g, (match, kanji, ruby) => {
+                if (hideFurigana) {
+                    return `<span class="kanji-hidden" onclick="revealFurigana(this)"><span class="kanji-text">${kanji}</span><span class="kanji-revealed">${ruby}</span></span>`;
+                } else {
+                    return `<ruby>${kanji}<rt>${ruby}</rt></ruby>`;
+                }
+            });
+        }
+
+        window.revealFurigana = function(element) {
+            element.classList.toggle('show-ruby');
+        };
+
         function renderScene() {
             const container = document.getElementById('dialogue-list');
             container.innerHTML = '';
@@ -456,29 +466,12 @@
 
                 const jpFormatted = formatJapanese(line.rawJp, appState.hideFurigana);
 
-                // 表示する項目の数をカウント
-                const activeCount = (appState.showJapanese ? 1 : 0) + (appState.showRomaji ? 1 : 0) + (appState.showTranslation ? 1 : 0);
-                
-                // カウントに応じてフォントサイズを変更
-                let fontSizeClass = "text-[1.05rem]"; // 3つのとき（デフォルト）
-                if (activeCount === 1) {
-                    fontSizeClass = "text-xl sm:text-2xl font-bold";
-                } else if (activeCount === 2) {
-                    fontSizeClass = "text-lg sm:text-xl font-semibold";
-                }
-
-                let textBlock = '';
-                if (appState.showJapanese) {
-                    textBlock += `<div class="${fontSizeClass} leading-loose break-words tracking-wide">${jpFormatted}</div>`;
-                }
+                let extraContent = '';
                 if (appState.showRomaji) {
-                    // 日本語が上にある場合はすこし隙間(mt-2)を空ける
-                    const spacing = appState.showJapanese ? 'mt-2' : '';
-                    textBlock += `<div class="${fontSizeClass} ${spacing} text-gray-600 font-mono bg-gray-50 p-2 rounded">${line.romaji}</div>`;
+                    extraContent += `<div class="text-sm text-gray-500 mt-2 font-mono bg-gray-50 p-2 rounded">${line.romaji}</div>`;
                 }
                 if (appState.showTranslation) {
-                    const spacing = (appState.showJapanese || appState.showRomaji) ? 'mt-2' : '';
-                    textBlock += `<div class="${fontSizeClass} ${spacing} text-gray-500 italic border-l-2 border-gray-300 pl-2">${line.english}</div>`;
+                    extraContent += `<div class="text-sm text-gray-700 mt-2 italic border-l-2 border-gray-300 pl-2">${line.english}</div>`;
                 }
 
                 // Roleplay logic
@@ -495,7 +488,10 @@
                             <div class="${bgColor} ${borderRadius} p-4 shadow-sm relative group w-full transition-shadow duration-300">
                                 <div class="flex items-start gap-3 justify-between">
                                     <div class="flex-1 ${blurClass}" ${titleText}>
-                                        ${textBlock}
+                                        <div class="text-[1.05rem] leading-loose break-words tracking-wide font-medium">
+                                            ${jpFormatted}
+                                        </div>
+                                        ${extraContent}
                                     </div>
                                     <div class="flex items-center gap-1.5 shrink-0">
                                         <button onclick="playMyAudio(${index})" id="my-audio-btn-${index}" class="${appState.recordedBlobs[appState.currentSceneIndex + '_' + index] ? '' : 'hidden'} w-8 h-8 rounded-full bg-orange-100 hover:bg-orange-200 text-orange-600 flex items-center justify-center transition-colors focus:outline-none" title="自分の声を聴く">
@@ -788,28 +784,6 @@
             if (!ytPlayer || typeof ytPlayer.getCurrentTime !== 'function') return;
             
             const currentTime = ytPlayer.getCurrentTime();
-
-            // --- 【追加】再生時間から現在の正しいシーン番号を自動判定 ---
-            let detectedSceneIdx = appState.currentSceneIndex;
-            for (let i = 0; i < sceneStartTimes.length; i++) {
-                const start = sceneStartTimes[i];
-                // 次のシーンの開始秒数、無ければ無限大（動画の末尾）までを範囲とする
-                const end = (i + 1 < sceneStartTimes.length) ? sceneStartTimes[i + 1] : Infinity;
-                if (currentTime >= start && currentTime < end) {
-                    detectedSceneIdx = i;
-                    break;
-                }
-            }
-
-            // 再生中の場面が変わった場合、シーンを自動切り替え
-            if (detectedSceneIdx !== appState.currentSceneIndex) {
-                appState.currentSceneIndex = detectedSceneIdx;
-                const selector = document.getElementById('scene-selector');
-                if (selector) selector.value = detectedSceneIdx; // セレクトボックスの表示を更新
-                renderScene(); // 台本テキストを新しいシーンに書き換え
-            }
-            // -----------------------------------------------------
-
             const scene = scenes[appState.currentSceneIndex];
             if (!scene || !scene.lines) return;
 
@@ -850,102 +824,68 @@
         }
 
         window.onload = async () => {
-            // 1. まず非同期データを完全に読み込み終わるのを待つ
+            // Populate Language Selector
+            const langSelector = document.getElementById('lang-selector');
+            Object.keys(LANG_MAP).forEach(langName => {
+                const opt = document.createElement('option');
+                opt.value = LANG_MAP[langName];
+                opt.text = langName;
+                if (LANG_MAP[langName] === 'en') opt.selected = true;
+                langSelector.appendChild(opt);
+            });
+
             await parseData();
 
-            // 2. 言語セレクトボックスの組み立て
-            const langSelector = document.getElementById('lang-selector');
-            if (langSelector) {
-                Object.keys(LANG_MAP).forEach(langName => {
-                    const opt = document.createElement('option');
-                    opt.value = LANG_MAP[langName];
-                    opt.text = langName;
-                    if (LANG_MAP[langName] === 'en') opt.selected = true;
-                    langSelector.appendChild(opt);
-                });
-            }
-
-            // 3. シーンセレクトボックスの組み立て
             const selector = document.getElementById('scene-selector');
-            if (selector) {
-                selector.innerHTML = ''; // 重複防止
-                for (let i = 0; i < 10; i++) {
-                    const opt = document.createElement('option');
-                    opt.value = i;
-                    opt.text = sceneTitles[i] || `Scene ${i + 1}`;
-                    selector.appendChild(opt);
+            for (let i = 0; i < 10; i++) {
+                const opt = document.createElement('option');
+                opt.value = i;
+                opt.text = sceneTitles[i] || `Scene ${i + 1}`;
+                selector.appendChild(opt);
+            }
+
+            selector.addEventListener('change', (e) => {
+                const sceneIdx = parseInt(e.target.value);
+                appState.currentSceneIndex = sceneIdx;
+                if(appState.isPlaying) playEntireScene(); // Stop if playing
+                renderScene();
+
+                // シーン選択時にYouTubeの再生位置を対応する秒数へジャンプさせる
+                if (ytPlayer && typeof ytPlayer.seekTo === 'function') {
+                    ytPlayer.seekTo(sceneStartTimes[sceneIdx], true);
                 }
+            });
 
-                selector.addEventListener('change', (e) => {
-                    const sceneIdx = parseInt(e.target.value);
-                    appState.currentSceneIndex = sceneIdx;
-                    if(appState.isPlaying) playEntireScene(); // Stop if playing
-                    renderScene();
+            document.getElementById('toggle-romaji').addEventListener('change', (e) => {
+                appState.showRomaji = e.target.checked;
+                renderScene();
+            });
 
-                    // シーン選択時にYouTubeの再生位置を対応する秒数へジャンプさせる
-                    if (ytPlayer && typeof ytPlayer.seekTo === 'function') {
-                        ytPlayer.seekTo(sceneStartTimes[sceneIdx], true);
-                    }
-                });
-            }
+            document.getElementById('toggle-translation').addEventListener('change', (e) => {
+                appState.showTranslation = e.target.checked;
+                renderScene();
+            });
 
-            // 4. 各種チェックボックスや操作系のイベント監視を登録
-            const toggleJp = document.getElementById('toggle-japanese');
-            if (toggleJp) {
-                toggleJp.addEventListener('change', (e) => {
-                    appState.showJapanese = e.target.checked;
-                    renderScene();
-                });
-            }
+            langSelector.addEventListener('change', async (e) => {
+                appState.currentLang = e.target.value;
+                if (appState.isPlaying) playEntireScene();
+                await updateTranslations();
+                renderScene();
+            });
 
-            const toggleRomaji = document.getElementById('toggle-romaji');
-            if (toggleRomaji) {
-                toggleRomaji.addEventListener('change', (e) => {
-                    appState.showRomaji = e.target.checked;
-                    renderScene();
-                });
-            }
+            document.getElementById('toggle-kanji-test').addEventListener('change', (e) => {
+                appState.hideFurigana = e.target.checked;
+                renderScene();
+            });
 
-            const toggleTrans = document.getElementById('toggle-translation');
-            if (toggleTrans) {
-                toggleTrans.addEventListener('change', (e) => {
-                    appState.showTranslation = e.target.checked;
-                    renderScene();
-                });
-            }
+            document.getElementById('roleplay-selector').addEventListener('change', (e) => {
+                appState.roleplayMutedSpeaker = e.target.value;
+                renderScene();
+            });
 
-            if (langSelector) {
-                langSelector.addEventListener('change', async (e) => {
-                    appState.currentLang = e.target.value;
-                    if (appState.isPlaying) playEntireScene();
-                    await updateTranslations();
-                    renderScene();
-                });
-            }
+            document.getElementById('tab-btn-conv').addEventListener('click', () => switchTab('conv'));
+            document.getElementById('tab-btn-quiz').addEventListener('click', () => switchTab('quiz'));
 
-            const toggleKanji = document.getElementById('toggle-kanji-test');
-            if (toggleKanji) {
-                toggleKanji.addEventListener('change', (e) => {
-                    appState.hideFurigana = e.target.checked;
-                    renderScene();
-                });
-            }
-
-            const roleSelector = document.getElementById('roleplay-selector');
-            if (roleSelector) {
-                roleSelector.addEventListener('change', (e) => {
-                    appState.roleplayMutedSpeaker = e.target.value;
-                    renderScene();
-                });
-            }
-
-            const btnConv = document.getElementById('tab-btn-conv');
-            if (btnConv) btnConv.addEventListener('click', () => switchTab('conv'));
-            
-            const btnQuiz = document.getElementById('tab-btn-quiz');
-            if (btnQuiz) btnQuiz.addEventListener('click', () => switchTab('quiz'));
-
-            // 5. データが確実に揃った状態で、初めて画面を描画する
             renderScene();
         };
         // 携帯（iOS/Android）のオーディオ制限を解除するおまじない
