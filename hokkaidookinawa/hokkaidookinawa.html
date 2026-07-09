@@ -850,74 +850,102 @@
         }
 
         window.onload = async () => {
-            // Populate Language Selector
-            const langSelector = document.getElementById('lang-selector');
-            Object.keys(LANG_MAP).forEach(langName => {
-                const opt = document.createElement('option');
-                opt.value = LANG_MAP[langName];
-                opt.text = langName;
-                if (LANG_MAP[langName] === 'en') opt.selected = true;
-                langSelector.appendChild(opt);
-            });
-
+            // 1. まず非同期データを完全に読み込み終わるのを待つ
             await parseData();
 
-            const selector = document.getElementById('scene-selector');
-            for (let i = 0; i < 10; i++) {
-                const opt = document.createElement('option');
-                opt.value = i;
-                opt.text = sceneTitles[i] || `Scene ${i + 1}`;
-                selector.appendChild(opt);
+            // 2. 言語セレクトボックスの組み立て
+            const langSelector = document.getElementById('lang-selector');
+            if (langSelector) {
+                Object.keys(LANG_MAP).forEach(langName => {
+                    const opt = document.createElement('option');
+                    opt.value = LANG_MAP[langName];
+                    opt.text = langName;
+                    if (LANG_MAP[langName] === 'en') opt.selected = true;
+                    langSelector.appendChild(opt);
+                });
             }
 
-            selector.addEventListener('change', (e) => {
-                const sceneIdx = parseInt(e.target.value);
-                appState.currentSceneIndex = sceneIdx;
-                if(appState.isPlaying) playEntireScene(); // Stop if playing
-                renderScene();
-
-                // シーン選択時にYouTubeの再生位置を対応する秒数へジャンプさせる
-                if (ytPlayer && typeof ytPlayer.seekTo === 'function') {
-                    ytPlayer.seekTo(sceneStartTimes[sceneIdx], true);
+            // 3. シーンセレクトボックスの組み立て
+            const selector = document.getElementById('scene-selector');
+            if (selector) {
+                selector.innerHTML = ''; // 重複防止
+                for (let i = 0; i < 10; i++) {
+                    const opt = document.createElement('option');
+                    opt.value = i;
+                    opt.text = sceneTitles[i] || `Scene ${i + 1}`;
+                    selector.appendChild(opt);
                 }
-            });
 
-            // 日本語オンオフの監視を追加
-            document.getElementById('toggle-japanese').addEventListener('change', (e) => {
-                appState.showJapanese = e.target.checked;
-                renderScene();
-            });
+                selector.addEventListener('change', (e) => {
+                    const sceneIdx = parseInt(e.target.value);
+                    appState.currentSceneIndex = sceneIdx;
+                    if(appState.isPlaying) playEntireScene(); // Stop if playing
+                    renderScene();
 
-            document.getElementById('toggle-romaji').addEventListener('change', (e) => {
-                appState.showRomaji = e.target.checked;
-                renderScene();
-            });
+                    // シーン選択時にYouTubeの再生位置を対応する秒数へジャンプさせる
+                    if (ytPlayer && typeof ytPlayer.seekTo === 'function') {
+                        ytPlayer.seekTo(sceneStartTimes[sceneIdx], true);
+                    }
+                });
+            }
 
-            document.getElementById('toggle-translation').addEventListener('change', (e) => {
-                appState.showTranslation = e.target.checked;
-                renderScene();
-            });
+            // 4. 各種チェックボックスや操作系のイベント監視を登録
+            const toggleJp = document.getElementById('toggle-japanese');
+            if (toggleJp) {
+                toggleJp.addEventListener('change', (e) => {
+                    appState.showJapanese = e.target.checked;
+                    renderScene();
+                });
+            }
 
-            langSelector.addEventListener('change', async (e) => {
-                appState.currentLang = e.target.value;
-                if (appState.isPlaying) playEntireScene();
-                await updateTranslations();
-                renderScene();
-            });
+            const toggleRomaji = document.getElementById('toggle-romaji');
+            if (toggleRomaji) {
+                toggleRomaji.addEventListener('change', (e) => {
+                    appState.showRomaji = e.target.checked;
+                    renderScene();
+                });
+            }
 
-            document.getElementById('toggle-kanji-test').addEventListener('change', (e) => {
-                appState.hideFurigana = e.target.checked;
-                renderScene();
-            });
+            const toggleTrans = document.getElementById('toggle-translation');
+            if (toggleTrans) {
+                toggleTrans.addEventListener('change', (e) => {
+                    appState.showTranslation = e.target.checked;
+                    renderScene();
+                });
+            }
 
-            document.getElementById('roleplay-selector').addEventListener('change', (e) => {
-                appState.roleplayMutedSpeaker = e.target.value;
-                renderScene();
-            });
+            if (langSelector) {
+                langSelector.addEventListener('change', async (e) => {
+                    appState.currentLang = e.target.value;
+                    if (appState.isPlaying) playEntireScene();
+                    await updateTranslations();
+                    renderScene();
+                });
+            }
 
-            document.getElementById('tab-btn-conv').addEventListener('click', () => switchTab('conv'));
-            document.getElementById('tab-btn-quiz').addEventListener('click', () => switchTab('quiz'));
+            const toggleKanji = document.getElementById('toggle-kanji-test');
+            if (toggleKanji) {
+                toggleKanji.addEventListener('change', (e) => {
+                    appState.hideFurigana = e.target.checked;
+                    renderScene();
+                });
+            }
 
+            const roleSelector = document.getElementById('roleplay-selector');
+            if (roleSelector) {
+                roleSelector.addEventListener('change', (e) => {
+                    appState.roleplayMutedSpeaker = e.target.value;
+                    renderScene();
+                });
+            }
+
+            const btnConv = document.getElementById('tab-btn-conv');
+            if (btnConv) btnConv.addEventListener('click', () => switchTab('conv'));
+            
+            const btnQuiz = document.getElementById('tab-btn-quiz');
+            if (btnQuiz) btnQuiz.addEventListener('click', () => switchTab('quiz'));
+
+            // 5. データが確実に揃った状態で、初めて画面を描画する
             renderScene();
         };
         // 携帯（iOS/Android）のオーディオ制限を解除するおまじない
