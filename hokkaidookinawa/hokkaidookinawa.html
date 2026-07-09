@@ -440,21 +440,6 @@
             return romaji || "Romaji not fully generated";
         }
 
-        function formatJapanese(rawJp, hideFurigana) {
-            // 正規表現を修正し、漢字（と「々」）の直後にあるカッコのみを「ふりがな」として処理します
-            return rawJp.replace(/([\u4E00-\u9FFF\u3005]+)\((.*?)\)/g, (match, kanji, ruby) => {
-                if (hideFurigana) {
-                    return `<span class="kanji-hidden" onclick="revealFurigana(this)"><span class="kanji-text">${kanji}</span><span class="kanji-revealed">${ruby}</span></span>`;
-                } else {
-                    return `<ruby>${kanji}<rt>${ruby}</rt></ruby>`;
-                }
-            });
-        }
-
-        window.revealFurigana = function(element) {
-            element.classList.toggle('show-ruby');
-        };
-
         function renderScene() {
             const container = document.getElementById('dialogue-list');
             container.innerHTML = '';
@@ -474,12 +459,12 @@
                 // 表示する項目の数をカウント
                 const activeCount = (appState.showJapanese ? 1 : 0) + (appState.showRomaji ? 1 : 0) + (appState.showTranslation ? 1 : 0);
                 
-                // カウントに応じてフォントサイズを変更
-                let fontSizeClass = "text-[1.05rem]"; // 3つのとき（デフォルト）
+                // 画面分割（スマホ横向き）を考慮し、フォントサイズを最適化
+                let fontSizeClass = "text-[0.95rem] sm:text-[1.05rem]"; // 3つのとき
                 if (activeCount === 1) {
-                    fontSizeClass = "text-xl sm:text-2xl font-bold";
+                    fontSizeClass = "text-base sm:text-xl font-bold";
                 } else if (activeCount === 2) {
-                    fontSizeClass = "text-lg sm:text-xl font-semibold";
+                    fontSizeClass = "text-[0.95rem] sm:text-lg font-semibold";
                 }
 
                 let textBlock = '';
@@ -487,12 +472,11 @@
                     textBlock += `<div class="${fontSizeClass} leading-loose break-words tracking-wide">${jpFormatted}</div>`;
                 }
                 if (appState.showRomaji) {
-                    // 日本語が上にある場合はすこし隙間(mt-2)を空ける
-                    const spacing = appState.showJapanese ? 'mt-2' : '';
-                    textBlock += `<div class="${fontSizeClass} ${spacing} text-gray-600 font-mono bg-gray-50 p-2 rounded">${line.romaji}</div>`;
+                    const spacing = appState.showJapanese ? 'mt-1.5' : '';
+                    textBlock += `<div class="${fontSizeClass} ${spacing} text-gray-600 font-mono bg-gray-50 p-1.5 rounded">${line.romaji}</div>`;
                 }
                 if (appState.showTranslation) {
-                    const spacing = (appState.showJapanese || appState.showRomaji) ? 'mt-2' : '';
+                    const spacing = (appState.showJapanese || appState.showRomaji) ? 'mt-1.5' : '';
                     textBlock += `<div class="${fontSizeClass} ${spacing} text-gray-500 italic border-l-2 border-gray-300 pl-2">${line.english}</div>`;
                 }
 
@@ -501,35 +485,35 @@
                 const blurClass = isMuted ? "blur-sm opacity-50 hover:blur-none hover:opacity-100 transition-all duration-300 cursor-pointer" : "";
                 const titleText = isMuted ? "title='Hover to reveal (Roleplay mode)'" : "";
 
+                // 吹き出し幅を max-w-[98%] に広げ、ボタンを右下に絶対配置(absolute)するため pb-10 を確保
                 const html = `
-                    <div class="flex gap-3 max-w-[95%] sm:max-w-[85%] ${alignment} fade-in" style="animation-delay: ${index * 0.05}s">
-                        ${isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                    <div class="flex gap-2 max-w-[98%] sm:max-w-[85%] ${alignment} fade-in" style="animation-delay: ${index * 0.05}s">
+                        ${isSpeaker1 ? `<div class="w-7 h-7 rounded-full bg-gray-200 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-xs"></i></div>` : ''}
                         
-                        <div class="flex flex-col gap-1 w-full">
-                            <div class="text-xs text-gray-500 font-medium px-1 ${!isSpeaker1 ? 'text-right' : ''}">${line.speaker} ${isMuted ? ' <span class="text-purple-600 font-bold ml-1"><i class="fa-solid fa-microphone-lines"></i> Your Turn</span>' : ''}</div>
-                            <div class="${bgColor} ${borderRadius} p-4 shadow-sm relative group w-full transition-shadow duration-300">
-                                <div class="flex items-start gap-3 justify-between">
-                                    <div class="flex-1 ${blurClass}" ${titleText}>
-                                        ${textBlock}
-                                    </div>
-                                    <div class="flex items-center gap-1.5 shrink-0">
-                                        <button onclick="playMyAudio(${index})" id="my-audio-btn-${index}" class="${appState.recordedBlobs[appState.currentSceneIndex + '_' + index] ? '' : 'hidden'} w-8 h-8 rounded-full bg-orange-100 hover:bg-orange-200 text-orange-600 flex items-center justify-center transition-colors focus:outline-none" title="自分の声を聴く">
-                                            <i class="fa-solid fa-face-smile"></i>
-                                        </button>
-                                        
-                                        <button onclick="toggleRecording(${index}, this)" class="w-8 h-8 rounded-full bg-gray-100 hover:bg-red-100 text-gray-400 hover:text-red-500 flex items-center justify-center transition-colors focus:outline-none" title="声を録音する">
-                                            <i class="fa-solid fa-microphone"></i>
-                                        </button>
+                        <div class="flex flex-col gap-1 w-full relative">
+                            <div class="text-[10px] sm:text-xs text-gray-500 font-medium px-1 ${!isSpeaker1 ? 'text-right' : ''}">${line.speaker} ${isMuted ? ' <span class="text-purple-600 font-bold ml-1"><i class="fa-solid fa-microphone-lines"></i> Your Turn</span>' : ''}</div>
+                            <div class="${bgColor} ${borderRadius} p-3 pb-10 sm:pb-3 sm:pr-28 shadow-sm relative group w-full transition-shadow duration-300">
+                                <div class="${blurClass}" ${titleText}>
+                                    ${textBlock}
+                                </div>
+                                
+                                <div class="absolute bottom-1 right-2 sm:top-1/2 sm:bottom-auto sm:-translate-y-1/2 sm:right-2 flex items-center gap-1 bg-white/95 backdrop-blur-sm shadow-md border border-gray-100 rounded-full px-1.5 py-0.5 opacity-100 sm:opacity-0 sm:group-hover:opacity-100 sm:focus-within:opacity-100 transition-all duration-200 z-10">
+                                    <button onclick="playMyAudio(${index})" id="my-audio-btn-${index}" class="${appState.recordedBlobs[appState.currentSceneIndex + '_' + index] ? '' : 'hidden'} w-7 h-7 rounded-full bg-orange-100 hover:bg-orange-200 text-orange-600 flex items-center justify-center transition-colors focus:outline-none" title="自分の声を聴く">
+                                        <i class="fa-solid fa-face-smile text-xs"></i>
+                                    </button>
+                                    
+                                    <button onclick="toggleRecording(${index}, this)" class="w-7 h-7 rounded-full bg-gray-100 hover:bg-red-100 text-gray-400 hover:text-red-500 flex items-center justify-center transition-colors focus:outline-none" title="声を録音する">
+                                        <i class="fa-solid fa-microphone text-xs"></i>
+                                    </button>
 
-                                        <button onclick="playAudio('${line.audioPath ? line.audioPath.replace(/'/g, "\\'") : ''}')" class="w-8 h-8 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-400 hover:text-blue-600 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300" title="Play audio">
-                                            <i class="fa-solid fa-volume-high"></i>
-                                        </button>
-                                    </div>
+                                    <button onclick="playAudio('${line.audioPath ? line.audioPath.replace(/'/g, "\\'") : ''}')" class="w-7 h-7 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-400 hover:text-blue-600 flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300" title="Play audio">
+                                        <i class="fa-solid fa-volume-high text-xs"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
-
-                        ${!isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                        
+                        ${!isSpeaker1 ? `<div class="w-7 h-7 rounded-full bg-green-100 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-xs"></i></div>` : ''}
                     </div>
                 `;
                 container.insertAdjacentHTML('beforeend', html);
