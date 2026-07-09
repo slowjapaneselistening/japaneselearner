@@ -824,9 +824,10 @@
                 const selector = document.getElementById('scene-selector');
                 if (selector) selector.value = detectedSceneIdx;
                 renderScene();
-                return; // 描画し直すためここで抜ける
+                return; // シーン切り替え時のみここで抜けて再描画する
             }
 
+            // 【修正】シーンが変わっていない場合は、毎回の強制的なrenderSceneをスキップ
             const scene = scenes[appState.currentSceneIndex];
             if (!scene || !scene.lines) return;
 
