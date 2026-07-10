@@ -403,7 +403,7 @@
             const srtParsed = await loadSRT(langCode);
             if (!srtParsed || srtParsed.length === 0) return;
 
-            let globalIdx = 0;
+            let globalIdx = 1;
             scenes.forEach((scene, index) => {
                 if (index <= 2) {
                     globalIdx += 2;
