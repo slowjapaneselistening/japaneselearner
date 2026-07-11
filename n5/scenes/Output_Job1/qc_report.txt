@@ -1,0 +1,30 @@
+=======================================================
+【要確認・品質管理レポート】 対象フォルダ: Output_Job1
+=======================================================
+
+🔵 【セルフチェック自動修復】Flashモデルによる出力品質補正 (24件):
+  ➔ Index 11: [grammar2] の禁止用語・ルビサボりを「そうだっけ？ = Was that right?」へ最適化
+  ➔ Index 12: [grammar2] の禁止用語・ルビサボりを「あと = another / 寝(ね)かせて = let me sleep / 寝(ね)る = to sleep ↔ 起(お)きる = to wake up」へ最適化
+  ➔ Index 13: [grammar2] の禁止用語・ルビサボりを「～てよ = please do ~ / ～なきゃいけない = have to do ~ / ～んだから = because (stronger reason)」へ最適化
+  ➔ Index 15: [grammar2] の禁止用語・ルビサボりを「集(あつ)める = to collect / 何(なに)か = something」へ最適化
+  ➔ Index 16: [grammar2] の禁止用語・ルビサボりを「最終(さいしゅう)日(び) = the last day ↔ 初日(しょにち) = the first day / お菓子(かし) = sweets / もらえる = can receive」へ最適化
+  ➔ Index 17: [grammar2] の禁止用語・ルビサボりを「へぇ = Wow」へ最適化
+  ➔ Index 18: [grammar2] の禁止用語・ルビサボりを「僕(ぼく) = I (male) / 同(おな)じ = same」へ最適化
+  ➔ Index 19: [grammar2] の禁止用語・ルビサボりを「準備(じゅんび)する = to prepare」へ最適化
+  ➔ Index 20: [grammar2] の禁止用語・ルビサボりを「公園(こうえん) = park / かかる = to take (time/money)」へ最適化
+  ➔ Index 21: [exampleEn] 「Alright, alright. (I understand, I understand.)」 ➔ 「Alright, alright.」
+  ➔ Index 21: [grammar2] の禁止用語・ルビサボりを「わかった = Alright / I understand」へ最適化
+  ➔ Index 22: [grammar2] の禁止用語・ルビサボりを「起(お)きる = to get up」へ最適化
+  ➔ Index 23: [grammar2] の禁止用語・ルビサボりを「早(はや)く = quickly / 洗(あら)う = to wash / ~て来(く)る = to go and do ~ / to come doing ~」へ最適化
+  ➔ Index 24: [grammar2] の禁止用語・ルビサボりを「先(さき)に = first / beforehand / 履(は)く = to put on (shoes/pants)」へ最適化
+  ➔ Index 25: [exampleRomaji] `Soto wa mou atsui?` ➔ `Soto wa mou atsui.`
+  ➔ Index 25: [exampleEn] 「Is it already hot outside?」 ➔ 「It's already hot outside.」
+  ➔ Index 25: [grammar2] の禁止用語・ルビサボりを「外(そと) = outside / 暑(あつ)い = hot (weather) ↔ 涼(すず)しい = cool (weather)」へ最適化
+  ➔ Index 26: [grammar2] の禁止用語・ルビサボりを「うーん = Hmm」へ最適化
+  ➔ Index 27: [grammar2] の禁止用語・ルビサボりを「朝(あさ) = morning ↔ 夜(よる) = night / 風(かぜ) = wind / breeze」へ最適化
+  ➔ Index 28: [grammar2] の禁止用語・ルビサボりを「気持(きも)ちがいい = it feels good / pleasant」へ最適化
+  ➔ Index 29: [grammar2] の禁止用語・ルビサボりを「じゃあ = Well then / In that case / 急(いそ)ぐ = to hurry」へ最適化
+  ➔ Index 30: [japaneseFurigana] 「ラジオ体操(たいそう)の音楽(おんがく)、まだ覚(おぼ)えているかな？」 ➔ 「ラジオ体操(たいそう)の音楽(おんがく)、まだ覚(おぼ)えているかな。」
+  ➔ Index 30: [exampleRomaji] `Rajio taisou no ongaku, mada oboete iru kana?` ➔ `Rajio taisou no ongaku, mada oboete iru kana.`
+  ➔ Index 30: [grammar2] の禁止用語・ルビサボりを「ラジオ体操(たいそう) = radio calisthenics / 覚(おぼ)える = to remember / to memorize」へ最適化
+
