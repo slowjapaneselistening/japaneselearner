@@ -1,0 +1,73 @@
+▼音量突合エラー詳細リスト：
+Index 36 ➔ [音声文字]: いえ、スマートフォンで読んでいます。 ／ [台本文字]: いいえ、スマートフォンで読んでいます。 ➔ [判定]: 🟢 [〇]（理由：音声側の「いえ」のままで前後の流れとして自然なため音声表現を採用し、テキストを「いえ、」に校正します）
+
+Index 1 ➔ [F] 最(さい)近(きん)、何(なに)かアニメを見(み)ていますか？ ／ [G] 最(さい)近(きん) = recently
+Index 2 ➔ [F] はい。 ／ [G]
+Index 3 ➔ [F] 三(みっ)つのアニメをよく見(み)ています。 ／ [G] 三(みっ)つ = three items
+Index 4 ➔ [F] たくさん見(み)ていますね。 ／ [G] たくさん = a lot / many
+Index 5 ➔ [F] どんなアニメですか？ ／ [G] どんな = what kind of
+Index 6 ➔ [F] バトルのアニメと、スポーツのアニメと、日(にち)常(じょう)のアニメです。 ／ [G] 日(にち)常(じょう) = everyday life / slice-of-life
+Index 7 ➔ [F] バトルのアニメはどうですか？ ／ [G] どうですか = how about...
+Index 8 ➔ [F] とてもかっこいいです。 ／ [G] かっこいい (cool) ↔ 格(かっ)好(こう)悪(わる)い (uncool)
+Index 9 ➔ [F] 世(せ)界(かい)中(じゅう)で有(ゆう)名(めい)です。 ／ [G] 有(ゆう)名(めい) (famous) ↔ 無(む)名(めい) (unknown)
+Index 10 ➔ [F] にぎやかなアニメですか？ ／ [G] にぎやか (lively) ↔ 静(しず)か (quiet)
+Index 11 ➔ [F] はい。 ／ [G]
+Index 12 ➔ [F] 音(おん)楽(がく)が大(おお)きくて、とても賑(にぎ)やかです。 ／ [G] 大(おお)きい (big/loud) ↔ 小(ちい)さい (small/quiet)
+Index 13 ➔ [F] スポーツのアニメはどうですか？ ／ [G]
+Index 14 ➔ [F] スポーツのアニメはとても熱(あつ)いです。 ／ [G] 熱(あつ)い (intense/passionate)
+Index 15 ➔ [F] 元気(げんき)が出(で)ます。 ／ [G] 元気(げんき)が出(で)る = to cheer up / to gain energy
+Index 16 ➔ [F] 面(おも)白(しろ)いですか？ ／ [G] 面(おも)白(しろ)い (interesting) ↔ つまらない (boring)
+Index 17 ➔ [F] はい。 ／ [G]
+Index 18 ➔ [F] とても面(おも)白(しろ)いです。 ／ [G] とても = very
+Index 19 ➔ [F] 毎週(まいしゅう)楽(たの)しみにしています。 ／ [G] 毎週(まいしゅう) = every week
+Index 20 ➔ [F] 日(にち)常(じょう)のアニメはどうですか？ ／ [G]
+Index 21 ➔ [F] 日(にち)常(じょう)のアニメはとても可愛(かわい)いです。 ／ [G] 可愛(かわい)い = cute
+Index 22 ➔ [F] 静(しず)かな話(はなし)ですか？ ／ [G] 話(はなし) = story / conversation
+Index 23 ➔ [F] はい。 ／ [G]
+Index 24 ➔ [F] 静(しず)かでのんびりした話(はなし)です。 ／ [G] のんびりする = to take it easy / to relax (in a carefree way)
+Index 25 ➔ [F] 心(こころ)が落(お)ち着(つ)きます。 ／ [G] 落(お)ち着(つ)く = to calm down / to feel at ease
+Index 26 ➔ [F] 三(みっ)つのアニメの中(なか)で、どれが一(いち)番(ばん)好(す)きですか？ ／ [G] 一(いち)番(ばん) = the most / number one
+Index 27 ➔ [F] 私(わたし)はスポーツのアニメが一(いち)番(ばん)好(す)きです。 ／ [G] 好(す)き (to like) ↔ 嫌(きら)い (to dislike)
+Index 28 ➔ [F] 感(かん)動(どう)しますから。 ／ [G] 感(かん)動(どう)する = to be moved / to be touched emotionally
+Index 29 ➔ [F] 漫(まん)画(が)も読(よ)んでいますか？ ／ [G] 漫(まん)画(が) = manga / comic
+Index 30 ➔ [F] はい。 ／ [G]
+Index 31 ➔ [F] バトルのアニメの漫(まん)画(が)を読(よ)んでいます。 ／ [G] 読(よ)む = to read
+Index 32 ➔ [F] 漫(まん)画(が)もおもしろいですか？ ／ [G]
+Index 33 ➔ [F] はい。 ／ [G]
+Index 34 ➔ [F] 漫(まん)画(が)は絵(え)がとてもきれいです。 ／ [G] きれい (beautiful/clean) ↔ 汚(きたな)い (dirty)
+Index 35 ➔ [F] 本(ほん)屋(や)で買(か)いましたか？ ／ [G] 本(ほん)屋(や) = bookstore
+Index 36 ➔ [F] いえ、スマートフォンで読(よ)んでいます。 ／ [G] いえ = no (casual)
+Index 37 ➔ [F] とても便(べん)利(り)です。 ／ [G] 便(べん)利(り) (convenient) ↔ 不(ふ)便(べん) (inconvenient)
+Index 38 ➔ [F] 最(さい)近(きん)のスマートフォンは画(が)面(めん)が大(おお)きいですからね。 ／ [G] 画(が)面(めん) = screen
+Index 39 ➔ [F] はい。 ／ [G]
+Index 40 ➔ [F] どこでも読(よ)むことができますから。 ／ [G] 辞(じ)書(しょ)形(けい) + ことができ = can do... (expresses ability)
+Index 41 ➔ [F] 好(す)きです。 ／ [G]
+Index 42 ➔ [F] 私(わたし)はあまりアニメを見(み)ません。 ／ [G] あまり + 否(ひ)定(てい) = not much / not very
+Index 43 ➔ [F] おすすめの物(もの)はありますか？ ／ [G] おすすめ = recommendation
+Index 44 ➔ [F] それなら、日(にち)常(じょう)のアニメがいいですよ。 ／ [G] それなら = in that case
+Index 45 ➔ [F] 短(みじか)くて見(み)やすいです。 ／ [G] 短(みじか)い (short) ↔ 長(なが)い (long)\n動(どう)詞(し)ま形(けい) + やすい = easy to do...
+Index 46 ➔ [F] タイトルは何(なん)ですか？ ／ [G] 何(なん) = what
+Index 47 ➔ [F] 「のんびり生(せい)活(かつ)」と言(い)うアニメです。 ／ [G] 〜と言(い)う = called... / named...
+Index 48 ➔ [F] 「のんびり生(せい)活(かつ)」ですね。 ／ [G] 生(せい)活(かつ) = life / lifestyle
+Index 49 ➔ [F] 覚(おぼ)えておきます。 ／ [G] 覚(おぼ)える (to remember) ↔ 忘(わす)れる (to forget)\n〜ておく = to do something in advance
+Index 50 ➔ [F] 今日(きょう)の夜(よる)、時間(じかん)がありますか？ ／ [G] 今日(きょう) (today) ↔ 明(あ)日(した) (tomorrow)\n夜(よる) (night) ↔ 朝(あさ) (morning)
+Index 51 ➔ [F] はい。 ／ [G]
+Index 52 ➔ [F] 夜(よる)は暇(ひま)です。 ／ [G] 暇(ひま) (free time) ↔ 忙(いそが)しい (busy)
+Index 53 ➔ [F] 何(なに)も予定(よてい)がありません。 ／ [G] 何(なに)も + 否(ひ)定(てい) = nothing
+Index 54 ➔ [F] じゃあ、一(いっ)話(わ)を見(み)てみてください。 ／ [G] 〜てみる = to try doing...
+Index 55 ➔ [F] インターネットで見(み)られます。 ／ [G] 見(み)られる = can see / can watch (potential form)
+Index 56 ➔ [F] わかりました。 ／ [G] わかる (to understand)
+Index 57 ➔ [F] 見(み)てみますね。 ／ [G]
+Index 58 ➔ [F] 感(かん)想(そう)を教(おし)えてくださいね。 ／ [G] 感(かん)想(そう) = thoughts / impressions
+Index 59 ➔ [F] はい。 ／ [G]
+Index 60 ➔ [F] 明日(あした)、学校(がっこう)で話(はな)しましょう。 ／ [G] 学校(がっこう) = school
+Index 61 ➔ [F] 楽(たの)しんでくれると嬉(うれ)しいです。 ／ [G] 嬉(うれ)しい (happy/glad) ↔ 悲(かな)しい (sad)
+Index 62 ➔ [F] ドキドキしますね。 ／ [G] ドキドキする = to be nervous/excited (heart pounding)
+Index 63 ➔ [F] 新(あたら)しいアニメは久(ひさ)しぶりです。 ／ [G] 新(あたら)しい (new) ↔ 古(ふる)い (old)\n久(ひさ)しぶり = after a long time
+Index 64 ➔ [F] きっと好(す)きになりますよ。 ／ [G] になる = to become
+Index 65 ➔ [F] はい。 ／ [G]
+Index 66 ➔ [F] では、また明日(あした)感(かん)想(そう)を言(い)います。 ／ [G] 言(い)う = to say / to tell
+Index 67 ➔ [F] はい。 ／ [G]
+Index 68 ➔ [F] また明日(あした)会(あ)いましょう。 ／ [G] 会(あ)う = to meet
+
+検証結果は以上です。この内容でJSONの出力に進んでもよろしいですか？
