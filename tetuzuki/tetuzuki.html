@@ -400,12 +400,15 @@
             const srtParsed = await loadSRT(langCode);
             if (!srtParsed || srtParsed.length === 0) return;
 
-            let globalIdx = 1;
+            let globalIdx = 2; // 場面1の前の字幕が2つのため、インデックス2（3番目の字幕）から開始
             scenes.forEach((scene, index) => {
-                if (index <= 2) {
-                    globalIdx += 2;
-                } else {
-                    globalIdx++;
+                // シーン間のタイトル字幕などのスキップ処理
+                if (index > 0) {
+                    if (index <= 2) {
+                        globalIdx += 2; // 場面2, 3の前は2つずつスキップ
+                    } else {
+                        globalIdx++;    // 場面4以降は1つずつスキップ
+                    }
                 }
                 
                 scene.lines.forEach(line => {
