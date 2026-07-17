@@ -1300,7 +1300,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "1",
+        "speaker":  "2",
         "index":  "51",
         "start":  122.98,
         "end":  126.04,
@@ -1326,7 +1326,7 @@
         "is_learning_point":  true
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "52",
         "start":  126.78,
         "end":  127.22,
@@ -1352,7 +1352,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "53",
         "start":  127.46,
         "end":  129.66,
@@ -1430,7 +1430,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "56",
         "start":  135.76,
         "end":  136.62,
@@ -1482,7 +1482,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "58",
         "start":  139.16,
         "end":  140.46,
@@ -1508,7 +1508,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "1",
+        "speaker":  "2",
         "index":  "59",
         "start":  141.24,
         "end":  142.58,
@@ -1534,7 +1534,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "1",
+        "speaker":  "2",
         "index":  "60",
         "start":  143.42,
         "end":  147.44,
@@ -1560,7 +1560,7 @@
         "is_learning_point":  true
     },
     {
-        "speaker":  "1",
+        "speaker":  "2",
         "index":  "61",
         "start":  148.34,
         "end":  149.18,
@@ -1586,7 +1586,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "62",
         "start":  150.0,
         "end":  151.02,
@@ -1612,7 +1612,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "63",
         "start":  151.46,
         "end":  152.38,
@@ -1638,7 +1638,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "1",
+        "speaker":  "2",
         "index":  "64",
         "start":  153.2,
         "end":  155.1,
@@ -1664,7 +1664,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "1",
+        "speaker":  "2",
         "index":  "65",
         "start":  155.62,
         "end":  158.86,
@@ -1690,7 +1690,7 @@
         "is_learning_point":  true
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "66",
         "start":  159.46,
         "end":  162.28,
@@ -1716,7 +1716,7 @@
         "is_learning_point":  true
     },
     {
-        "speaker":  "1",
+        "speaker":  "2",
         "index":  "67",
         "start":  162.92,
         "end":  164.6,
@@ -1742,7 +1742,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "1",
+        "speaker":  "2",
         "index":  "68",
         "start":  165.26,
         "end":  167.78,
@@ -1768,7 +1768,7 @@
         "is_learning_point":  true
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "69",
         "start":  168.36,
         "end":  169.04,
@@ -1794,7 +1794,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "70",
         "start":  169.98,
         "end":  171.24,
@@ -1820,7 +1820,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "1",
+        "speaker":  "2",
         "index":  "71",
         "start":  171.92,
         "end":  172.66,
@@ -1846,7 +1846,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "1",
+        "speaker":  "2",
         "index":  "72",
         "start":  173.72,
         "end":  175.12,
@@ -1872,7 +1872,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "73",
         "start":  176.5,
         "end":  176.9,
@@ -1898,7 +1898,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "1",
+        "speaker":  "2",
         "index":  "74",
         "start":  178.0,
         "end":  179.5,
@@ -1924,7 +1924,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "1",
+        "speaker":  "2",
         "index":  "75",
         "start":  180.06,
         "end":  182.84,
@@ -1950,7 +1950,7 @@
         "is_learning_point":  true
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "76",
         "start":  183.56,
         "end":  185.12,
@@ -1976,7 +1976,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "77",
         "start":  186.06,
         "end":  189.02,
@@ -2002,7 +2002,7 @@
         "is_learning_point":  true
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "78",
         "start":  189.8,
         "end":  191.26,
@@ -2028,7 +2028,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "1",
+        "speaker":  "2",
         "index":  "79",
         "start":  191.84,
         "end":  192.56,
@@ -2054,7 +2054,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "1",
+        "speaker":  "2",
         "index":  "80",
         "start":  193.28,
         "end":  195.74,
@@ -2080,7 +2080,7 @@
         "is_learning_point":  true
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "81",
         "start":  196.94,
         "end":  197.34,
@@ -2106,7 +2106,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "82",
         "start":  198.5,
         "end":  201.18,
@@ -2132,7 +2132,7 @@
         "is_learning_point":  true
     },
     {
-        "speaker":  "1",
+        "speaker":  "2",
         "index":  "83",
         "start":  201.66,
         "end":  203.04,
@@ -2158,7 +2158,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "1",
+        "speaker":  "2",
         "index":  "84",
         "start":  203.82,
         "end":  205.54,
@@ -2184,7 +2184,7 @@
         "is_learning_point":  true
     },
     {
-        "speaker":  "1",
+        "speaker":  "2",
         "index":  "85",
         "start":  206.22,
         "end":  210.3,
@@ -2210,7 +2210,7 @@
         "is_learning_point":  true
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "86",
         "start":  211.06,
         "end":  212.84,
@@ -2236,7 +2236,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "87",
         "start":  213.64,
         "end":  214.26,
@@ -2262,7 +2262,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "88",
         "start":  215.1,
         "end":  216.28,
@@ -2288,7 +2288,7 @@
         "is_learning_point":  false
     },
     {
-        "speaker":  "2",
+        "speaker":  "1",
         "index":  "89",
         "start":  217.08,
         "end":  217.5,
