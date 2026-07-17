@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2B0GEY45P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F2B0GEY45P');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Learning App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap');
+        body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
+        
+        .fade-in {
+            animation: fadeIn 0.4s ease-out forwards;
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        @keyframes fadeIn {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .speaker-1-bg { background-color: #ffffff; }
+        .speaker-2-bg { background-color: #f0fdf4; } /* Light green for variety */
+
+        .kanji-hidden {
+            display: inline-block;
+            background-color: #fef08a; /* Yellow-200 */
+            border-bottom: 2px dashed #ca8a04;
+            border-radius: 4px;
+            padding: 0 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+        }
+        .kanji-hidden:hover {
+            background-color: #fde047;
+        }
+        .kanji-revealed {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%) translateY(5px);
+            background-color: #1e40af;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease-out;
+            white-space: nowrap;
+            z-index: 10;
+        }
+        .kanji-hidden.show-ruby .kanji-revealed {
+            opacity: 1;
+            transform: translateX(-50%) translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen">
+    <header class="bg-white shadow-sm sticky top-0 z-50 landscape:hidden">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-md">
+                    <i class="fa-solid fa-language text-xl"></i>
+                </div>
+                <h1 class="text-xl font-bold text-gray-900 tracking-tight">日本語 Learning</h1>
+            </div>
+            
+            <div class="flex bg-gray-100 p-1 rounded-lg">
+                <button id="tab-btn-conv" class="px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all">
+                    <i class="fa-regular fa-comments mr-1"></i> Conversation
+                </button>
+                <button id="tab-btn-quiz" class="px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all">
+                    <i class="fa-solid fa-pen-to-square mr-1"></i> Kanji Quiz
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 mt-2 landscape:mt-6 md:mt-6 flex flex-col landscape:flex-row md:flex-row gap-6 items-start">
+        
+        <div class="contents landscape:block md:block w-full landscape:sticky md:sticky landscape:top-4 md:top-20 landscape:w-1/2 md:w-1/2 space-y-4 landscape:max-h-[calc(100vh-2rem)] landscape:overflow-y-auto pr-1">
+            
+           <div class="w-full bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden p-4 sticky top-[124px] z-40 landscape:z-auto landscape:static md:static">
+                <div class="relative w-full pb-[56.25%] h-0">
+                    <div id="player" class="absolute top-0 left-0 w-full h-full rounded-xl"></div>
+                </div>
+            </div>
+
+            <div class="w-full bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden relative z-30">
+                <div class="bg-gray-50/50 p-4 flex flex-col gap-3">
+                    <div class="flex flex-col gap-2 w-full">
+                        <select id="scene-selector" class="w-full bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2 shadow-sm font-medium truncate">
+                            </select>
+
+                        <div class="flex gap-2 w-full">
+                            <select id="roleplay-selector" class="flex-1 bg-purple-50 border border-purple-200 text-purple-800 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2 font-medium shadow-sm truncate">
+                                <option value="none">👤 Roleplay: Off</option>
+                                <option value="Speaker 1">🔇 Mute Speaker 1</option>
+                                <option value="Speaker 2">🔇 Mute Speaker 2</option>
+                            </select>
+
+                            <button onclick="playEntireScene()" id="play-scene-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm shrink-0">
+                                <i class="fa-solid fa-play"></i> Play
+                            </button>
+
+                            <button onclick="playMixedScene()" id="play-mix-btn" class="bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm shrink-0">
+                                <i class="fa-solid fa-shuffle"></i> Mix Play
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap items-center gap-4 text-xs font-medium text-gray-600 border-t border-gray-100 pt-2">
+                        <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-japanese" checked class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Japanese
+                        </label>
+                        <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Romaji
+                        </label>
+                        <div class="flex items-center gap-1.5 cursor-pointer text-gray-600 hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-translation" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            <span>Translation:</span>
+                            <select id="lang-selector" class="bg-white border border-gray-300 text-gray-700 text-xs rounded p-0.5 font-medium focus:ring-blue-500 focus:border-blue-500">
+                            </select>
+                        </div>
+                        <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
+                            <input type="checkbox" id="toggle-kanji-test" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                            Hide Furigana
+                        </label>
+                    </div>
+
+                    <div class="hidden landscape:flex bg-gray-100 p-1 rounded-lg border border-gray-200 mt-2">
+                        <button id="tab-btn-conv-land" onclick="switchTab('conv')" class="flex-1 px-4 py-1.5 rounded-md bg-white shadow text-blue-600 font-medium text-xs transition-all text-center">
+                            <i class="fa-regular fa-comments mr-1"></i> Conversation
+                        </button>
+                        <button id="tab-btn-quiz-land" onclick="switchTab('quiz')" class="flex-1 px-4 py-1.5 rounded-md text-gray-500 hover:text-gray-700 font-medium text-xs transition-all text-center">
+                            <i class="fa-solid fa-pen-to-square mr-1"></i> Kanji Quiz
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full pt-4 landscape:pt-0 md:pt-0 landscape:w-1/2 md:w-1/2 pb-12 relative z-30">
+            
+            <div id="tab-conv">
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                    <div class="p-4 sm:p-6 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-gray-50/30 min-h-[500px]">
+                        <div id="dialogue-list" class="flex flex-col gap-6">
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab-quiz" class="hidden">
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-10 text-center w-full mx-auto">
+                    <div id="quiz-intro">
+                        <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-2">日本語クイズテスト (Japanese Quiz)</h2>
+                        <p class="text-gray-500 mb-4">クイズの種類を選んで「スタート」を押してください。</p>
+                        
+                        <div class="max-w-xs mx-auto mb-6">
+                            <select id="quiz-type-selector" class="w-full bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block p-2.5 font-medium shadow-sm text-center">
+                                <option value="kanji">🔤 漢字の読み方テスト (Kanji Reading)</option>
+                                <option value="culture">🏮内容理解クイズ (Culture & Context)</option>
+                                <option value="grammar">📝 重要文法・表現の穴埋めクイズ (Grammar Fill-in)</option>
+                            </select>
+                        </div>
+
+                        <button onclick="startQuiz()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-transform transform hover:scale-105">
+                            スタート (Start)
+                        </button>
+                    </div>
+
+                    <div id="quiz-area" class="hidden">
+                        <div class="flex justify-between items-center text-sm font-medium text-gray-500 mb-6">
+                            <span id="quiz-progress" class="bg-gray-100 py-1 px-3 rounded-full">Question 1/10</span>
+                            <span id="quiz-score" class="text-green-600">Score: 0</span>
+                        </div>
+                        
+                        <h3 id="quiz-question" class="text-xl sm:text-2xl font-bold text-gray-800 mb-8 py-6 bg-gray-50 rounded-xl border border-gray-100 px-4">
+                            </h3>
+                        
+                        <div id="quiz-options" class="grid grid-cols-1 gap-4">
+                            </div>
+                    </div>
+
+                    <div id="quiz-result" class="hidden">
+                        <div class="text-6xl mb-4">🏆</div>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-2">お疲れ様でした！</h2>
+                        <p class="text-xl text-gray-600 mb-6">Your Score: <span id="final-score" class="font-bold text-green-600 text-3xl"></span> / 10</p>
+                        <button onclick="startQuiz()" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-colors">
+                            もう一度プレイ (Play Again)
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // State management
+        const appState = {
+            activeTab: 'conv',
+            currentSceneIndex: 0,
+            showJapanese: true,
+            showRomaji: false,
+            showTranslation: false,
+            hideFurigana: false,
+            isPlaying: false,
+            roleplayMutedSpeaker: 'none',
+            currentQuestionIndex: 0,
+            score: 0,
+            isAnswering: false,
+            currentLang: 'en',
+            quizType: 'kanji',
+            lastScrolledIndex: -1, // 直前に自動スクロールしたセリフ番号を記憶するメモ帳（防振用）
+            isYtScrolling: false,   // YouTube側のスクロール連動が有効かどうか
+            recordedBlobs: {},     // 録音データをセリフごとに保存するオブジェクト
+            mediaRecorder: null,   // レコーダーオブジェクト
+            activeRecordingIndex: -1 // 現在録音中のセリフのインデックス
+        };
+
+      // =================================================================
+// 1. タイトル・シーン数の修正（sceneTitles 配列 と parseData ループ回数）
+// =================================================================
+
+       const sceneTitles = [
+            "Scene 1: 傘の紛失と対応 / Losing a Favorite Umbrella and What to Do",
+            "Scene 2: 再会の驚き / Surprise Reunion",
+            "Scene 3: 沖縄旅行準備 / Preparing for an Okinawa Trip",
+            "Scene 4: 財布紛失の対応 / Handling a Lost Wallet",
+            "Scene 5: 最新スマホの機能紹介 / Introduction to the Latest Smartphone Features",
+            "Scene 6: 合格発表の瞬間 / The Moment of Passing Announcement",
+            "Scene 7: ライブチケット外れの悲しみ / The Disappointment of Missing Out on Live Concert Tickets",
+            "Scene 8: 面接前の緊張を和げる / Easing Pre-Interview Nervousness",
+            "Scene 9: Tシャツ逆着に気づく / Noticing a Backwards T-Shirt",
+            "Scene 10: 遅れの謝り方 / How to Apologize for Being Late"
+        ];
+
+        const LANG_MAP = {
+            'English': 'en', 'Vietnamese': 'vi', 'Indonesian': 'id', 'Thai': 'th', 'Korean': 'ko', 
+            'Chinese (Simplified)': 'zh-Hans', 'Chinese (Traditional)': 'zh-Hant', 'Spanish': 'es', 
+            'Portuguese': 'pt', 'French': 'fr', 'Burmese': 'my', 'Sinhala': 'si', 'Nepali': 'ne', 
+            'Hindi': 'hi', 'Tagalog': 'tl', 'German': 'de', 'Russian': 'ru', 'Arabic': 'ar', 
+            'Italian': 'it', 'Turkish': 'tr', 'Polish': 'pl', 'Dutch': 'nl', 'Swedish': 'sv', 
+            'Czech': 'cs', 'Hungarian': 'hu', 'Mongolian': 'mn', 'Malay': 'ms', 'Khmer': 'km', 
+            'Uzbek': 'uz', 'Kazakh': 'kk', 'Bengali': 'bn', 'Tamil': 'ta', 'Urdu': 'ur', 
+            'Persian': 'fa', 'Hebrew': 'he', 'Greek': 'el', 'Romanian': 'ro', 'Ukrainian': 'uk', 'Swahili': 'sw'
+        };
+
+        let srtDataCache = {};
+// rawData（台本テキスト）はフォルダから自動取得するため削除しました
+
+      // =================================================================
+// 2. 漢字クイズデータの修正（quizDataKanji 配列）
+// =================================================================
+
+        // =================================================================
+// 2. 漢字クイズデータの修正（quizDataKanji 配列）
+// =================================================================
+
+        const quizDataKanji = [
+            { q: "「傘」の読み方は？", options: ["かさ", "から", "かみ", "かた"], answer: 0 },
+            { q: "「電車」の読み方は？", options: ["でんしゃ", "てんしゃ", "でんじゃ", "てんじゃ"], answer: 0 },
+            { q: "「電話」の読み方は？", options: ["でんわ", "てんわ", "でんが", "てんが"], answer: 0 },
+            { q: "「大切」の読み方は？", options: ["たいせつ", "だいせつ", "たいきる", "だいきる"], answer: 0 },
+            { q: "「先生」の読み方は？", options: ["せんせい", "ぜんせい", "せんじょう", "ぜんじょう"], answer: 0 },
+            { q: "「買い物」の読み方は？", options: ["かいもの", "がいもの", "かうもの", "ばいぶつ"], answer: 0 },
+            { q: "「旅行」の読み方は？", options: ["りょこう", "りこう", "りょく", "りょぎょう"], answer: 0 },
+            { q: "「写真」の読み方は？", options: ["しゃしん", "さしん", "しゃし", "さし"], answer: 0 },
+            { q: "「時計」の読み方は？", options: ["とけい", "どけい", "とけ", "どけ"], answer: 0 },
+            { q: "「映画」の読み方は？", options: ["えいが", "えが", "えいかく", "えかく"], answer: 0 }
+        ];
+
+     // =================================================================
+// 3. 内容理解クイズデータの修正（quizDataCulture 配列）
+// =================================================================
+
+        // =================================================================
+// 3. 内容理解クイズデータの修正（quizDataCulture 配列）
+// =================================================================
+
+       const quizDataCulture = [
+            { q: "<ruby>失<rt>な</rt></ruby>くした <ruby>傘<rt>かさ</rt></ruby>は <ruby>何色<rt>なにいろ</rt></ruby>ですか？", options: ["<ruby>青<rt>あお</rt></ruby>い <ruby>傘<rt>かさ</rt></ruby>", "<ruby>赤<rt>あか</rt></ruby>い <ruby>傘<rt>かさ</rt></ruby>", "<ruby>黒<rt>くろ</rt></ruby>い <ruby>傘<rt>かさ</rt></ruby>", "<ruby>黄色<rt>きいろ</rt></ruby>の <ruby>傘<rt>かさ</rt></ruby>"], answer: 0 },
+            { q: "ケンさんと ハナさんは <ruby>何年<rt>なんねん</rt></ruby>ぶりに <ruby>会<rt>あ</rt></ruby>いましたか？", options: ["<ruby>十年<rt>じゅうねん</rt></ruby>ぶり", "<ruby>一年<rt>いちねん</rt></ruby>ぶり", "<ruby>五年<rt>ごねん</rt></ruby>ぶり", "<ruby>二十年<rt>にじゅうねん</rt></ruby>ぶり"], answer: 0 },
+            { q: "ハナさんの お<ruby>仕事<rt>しごと</rt></ruby>は <ruby>何<rt>なん</rt></ruby>ですか？", options: ["<ruby>英語<rt>えいご</rt></ruby>の <ruby>先生<rt>せんせい</rt></ruby>", "<ruby>日本語<rt>にほんご</rt></ruby>の <ruby>先生<rt>せんせい</rt></ruby>", "<ruby>会社員<rt>かいしゃいん</rt></ruby>", "<ruby>医者<rt>いしゃ</rt></ruby>"], answer: 0 },
+            { q: "<ruby>二<rt>ふた</rt></ruby>りは <ruby>明日<rt>あした</rt></ruby>から どこへ <ruby>旅行<rt>りょこう</rt></ruby>に <ruby>行<rt>い</rt></ruby>きますか？", options: ["<ruby>沖縄<rt>おきなわ</rt></ruby>", "<ruby>東京<rt>とうきょう</rt></ruby>", "<ruby>北海道<rt>ほっかいどう</rt></ruby>", "<ruby>京都<rt>きょうと</rt></ruby>"], answer: 0 },
+            { q: "カバンの <ruby>中<rt>なか</rt></ruby>から <ruby>何<rt>なに</rt></ruby>が なくなりましたか？", options: ["<ruby>財布<rt>さいふ</rt></ruby>", "<ruby>傘<rt>かさ</rt></ruby>", "<ruby>鍵<rt>かぎ</rt></ruby>", "<ruby>時計<rt>とけい</rt></ruby>"], answer: 0 },
+            { q: "<ruby>新<rt>あたら</rt></ruby>しい スマホは いくらでしたか？", options: ["<ruby>十五万円<rt>じゅうごまんえん</rt></ruby>", "<ruby>五万円<rt>ごまんえん</rt></ruby>", "<ruby>十万円<rt>じゅうまんえん</rt></ruby>", "<ruby>二十万円<rt>にじゅうまんえん</rt></ruby>"], answer: 0 },
+            { q: "<ruby>合格発表<rt>ごうかくはっぴょう</rt></ruby>の <ruby>結果<rt>けっか</rt></ruby>は どうでしたか？", options: ["<ruby>二人<rt>ふたり</rt></ruby>とも <ruby>合格<rt>ごうかく</rt></ruby>した", "<ruby>一人<rt>ひとり</rt></ruby>だけ <ruby>合格<rt>ごうかく</rt></ruby>した", "<ruby>二人<rt>ふたり</rt></ruby>とも <ruby>不合格<rt>ふごうかく</rt></ruby>だった", "<ruby>結果<rt>けっか</rt></ruby>が まだ <ruby>出<rt>で</rt></ruby>ていない"], answer: 0 },
+            { q: "ライブの チケットは どうなりましたか？", options: ["<ruby>外<rt>はず</rt></ruby>れた", "<ruby>当<rt>あ</rt></ruby>たった", "<ruby>買<rt>か</rt></ruby>わなかった", "<ruby>無<rt>な</rt></ruby>くした"], answer: 0 },
+            { q: "<ruby>面接<rt>めんせつ</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>に <ruby>緊張<rt>きんちょう</rt></ruby>を <ruby>和<rt>やわ</rt></ruby>らげるために、<ruby>何<rt>なに</rt></ruby>を しましたか？", options: ["<ruby>深呼吸<rt>しんこきゅう</rt></ruby>をした", "<ruby>水<rt>みず</rt></ruby>を <ruby>飲<rt>の</rt></ruby>んだ", "<ruby>歌<rt>うた</rt></ruby>を <ruby>歌<rt>うた</rt></ruby>った", "<ruby>走<rt>はし</rt></ruby>った"], answer: 0 },
+            { q: "<ruby>友達<rt>ともだち</rt></ruby>は いつも なにを しますか？", options: ["<ruby>遅刻<rt>ちこく</rt></ruby>をする", "<ruby>料理<rt>りょうり</rt></ruby>をする", "<ruby>掃除<rt>そうじ</rt></ruby>をする", "<ruby>勉強<rt>べんきょう</rt></ruby>をする"], answer: 0 }
+        ];
+
+        const quizDataGrammar = [
+            { q: "すぐに <ruby>電話<rt>でんわ</rt></ruby>を ____ ほうが いいですよ。", options: ["した", "する", "して", "しない"], answer: 0 },
+            { q: "<ruby>近く<rt>ちかく</rt></ruby>の カフェで お<ruby>茶<rt>ちゃ</rt></ruby>を ____ か。", options: ["<ruby>飲<rt>の</rt></ruby>みませんか", "<ruby>飲<rt>の</rt></ruby>みますか", "<ruby>飲<rt>の</rt></ruby>みましょう", "<ruby>飲<rt>の</rt></ruby>んでください"], answer: 0 },
+            { q: "<ruby>沖縄<rt>おきなわ</rt></ruby>は <ruby>温<rt>あたた</rt></ruby>かいですから、Tシャツ ____ いいですよ。", options: ["が", "を", "に", "から"], answer: 0 },
+            { q: "どこで なくした ____ <ruby>覚<rt>おぼ</rt></ruby>えていますか？", options: ["か", "が", "を", "と"], answer: 0 },
+            { q: "<ruby>昨日<rt>きのう</rt></ruby> ____ ばかりです。", options: ["<ruby>発売<rt>はつばい</rt></ruby>された", "<ruby>発売<rt>はつばい</rt></ruby>する", "<ruby>発売<rt>はつばい</rt></ruby>して", "<ruby>発売<rt>はつばい</rt></ruby>した"], answer: 0 },
+            { q: "<ruby>毎日<rt>まいにち</rt></ruby> <ruby>夜遅<rt>よるおそ</rt></ruby>く ____ <ruby>頑張<rt>がんば</rt></ruby>りました。", options: ["まで", "から", "より", "だけ"], answer: 0 },
+            { q: "この バンドは <ruby>圧倒的<rt>あっとうてき</rt></ruby>に <ruby>人気<rt>にんき</rt></ruby>が ____ ね。", options: ["ありますから", "ありますので", "あるとき", "あれば"], answer: 0 },
+            { q: "どうして この <ruby>店<rt>みせ</rt></ruby> ____ <ruby>働<rt>はたら</rt></ruby>きたいですか。", options: ["で", "に", "を", "へ"], answer: 0 },
+            { q: "<ruby>早<rt>はや</rt></ruby>く トイレに <ruby>行<rt>い</rt></ruby>って ____ ほうが いいですよ。", options: ["<ruby>直<rt>なお</rt></ruby>した", "<ruby>直<rt>なお</rt></ruby>す", "<ruby>直<rt>なお</rt></ruby>して", "<ruby>直<rt>なお</rt></ruby>しない"], answer: 0 },
+            { q: "<ruby>次<rt>つぎ</rt></ruby>からは ____ <ruby>遅<rt>おく</rt></ruby>れないでください。", options: ["<ruby>絶対<rt>ぜったい</rt></ruby>に", "<ruby>時々<rt>ときどき</rt></ruby>", "たぶん", "いつも"], answer: 0 }
+        ];
+        let quizData = [];
+
+        let scenes = [];
+
+        async function parseData() {
+            scenes = [];
+            for (let i = 1; i <= 10; i++) {
+                try {
+                    const response = await fetch(`scenes/Output_Job${i}/final_sentences.json`);
+                    if (!response.ok) throw new Error(`Failed to fetch scene ${i}`);
+                    const data = await response.json();
+                    
+                    const lines = data.map(item => {
+                        const speakerName = `Speaker ${item.speaker}`;
+                        
+                        let correctedAudio = '';
+                        if (item.audioPath) {
+                            // フォルダ名の変更と、日本語ファイル名対応のためのURLエンコード
+                            const replacedPath = item.audioPath.replace('clips/', `scenes/Output_Job${i}/clips/`);
+                            correctedAudio = encodeURI(replacedPath);
+                        }
+                        
+                        return {
+                            speaker: speakerName,
+                            rawJp: item.japaneseFurigana,
+                            speakText: item.japaneseFurigana.replace(/\(.*?\)/g, ''),
+                            english: item.exampleEn || "Translation not available.",
+                            romaji: item.exampleRomaji || "",
+                            audioPath: correctedAudio
+                        };
+                    });
+                    scenes.push({ lines: lines });
+                } catch (e) {
+                    console.error(`Error loading scene ${i}:`, e);
+                    scenes.push({ lines: [] });
+                }
+            }
+            await updateTranslations();
+        }
+
+        // 時間文字列 (00:00:13,008) を秒数 (13.008) に変換するヘルパー
+        function srtTimeToSeconds(timeStr) {
+            if (!timeStr) return 0;
+            const parts = timeStr.replace(',', '.').split(':');
+            return parseFloat(parts[0]) * 3600 + parseFloat(parts[1]) * 60 + parseFloat(parts[2]);
+        }
+
+        async function loadSRT(langCode) {
+            if (srtDataCache[langCode]) return srtDataCache[langCode];
+            try {
+                const response = await fetch(`translations/sub_${langCode}.srt`);
+                if (!response.ok) return null;
+                const text = await response.text();
+                const blocks = text.trim().split(/\r?\n\r?\n/);
+                
+                // 各ブロックから時間情報とテキストを抽出してオブジェクトの配列にする
+                const srtParsed = blocks.map(block => {
+                    const lines = block.split(/\r?\n/);
+                    if (lines.length < 3) return { text: '', start: 0, end: 0 };
+                    
+                    // 2行目のタイムスタンプ行をパース (00:00:00,000 --> 00:00:10,008)
+                    const timeMatch = lines[1].match(/(\d{2}:\d{2}:\d{2}[,\.]\d{3})\s*-->\s*(\d{2}:\d{2}:\d{2}[,\.]\d{3})/);
+                    const start = timeMatch ? srtTimeToSeconds(timeMatch[1]) : 0;
+                    const end = timeMatch ? srtTimeToSeconds(timeMatch[2]) : 0;
+                    const textContent = lines.slice(2).join('\n').trim();
+                    
+                    return { text: textContent, start: start, end: end };
+                });
+                
+                srtDataCache[langCode] = srtParsed;
+                return srtParsed;
+            } catch (e) {
+                console.error(`Error loading SRT for ${langCode}:`, e);
+                return null;
+            }
+        }
+
+        async function updateTranslations() {
+            const langCode = appState.currentLang;
+            const srtParsed = await loadSRT(langCode);
+            if (!srtParsed || srtParsed.length === 0) return;
+
+            let globalIdx = 1;
+            scenes.forEach((scene, index) => {
+                if (index <= 2) {
+                    globalIdx += 2;
+                } else {
+                    globalIdx++;
+                }
+                
+                scene.lines.forEach(line => {
+                    if (globalIdx < srtParsed.length) {
+                        const srtItem = srtParsed[globalIdx];
+                        line.english = srtItem.text || "Translation not available.";
+                        line.startTime = srtItem.start; // 開始秒数を移植
+                        line.endTime = srtItem.end;     // 終了秒数を移植
+                    } else {
+                        line.startTime = 0;
+                        line.endTime = 0;
+                    }
+                    globalIdx++;
+                });
+            });
+        }
+
+        function generateRomaji(text) {
+            // Simple mapping for demonstration purposes
+            const map = {
+                'こんにちは':'konnichiwa', 'おはよう':'ohayou', 'ありがとう':'arigatou',
+                'はい':'hai', 'いいえ':'iie', 'すみません':'sumimasen'
+            };
+            let romaji = text;
+            for (let k in map) {
+                romaji = romaji.replace(new RegExp(k, 'g'), map[k]);
+            }
+            return romaji || "Romaji not fully generated";
+        }
+
+        function formatJapanese(rawJp, hideFurigana) {
+            // 正規表現を修正し、漢字（と「々」）の直後にあるカッコのみを「ふりがな」として処理します
+            return rawJp.replace(/([\u4E00-\u9FFF\u3005]+)\((.*?)\)/g, (match, kanji, ruby) => {
+                if (hideFurigana) {
+                    return `<span class="kanji-hidden" onclick="revealFurigana(this)"><span class="kanji-text">${kanji}</span><span class="kanji-revealed">${ruby}</span></span>`;
+                } else {
+                    return `<ruby>${kanji}<rt>${ruby}</rt></ruby>`;
+                }
+            });
+        }
+
+        window.revealFurigana = function(element) {
+            element.classList.toggle('show-ruby');
+        };
+
+        function renderScene() {
+            const container = document.getElementById('dialogue-list');
+            container.innerHTML = '';
+            
+            const scene = scenes[appState.currentSceneIndex];
+            
+            scene.lines.forEach((line, index) => {
+                const isSpeaker1 = line.speaker === "Speaker 1";
+                const alignment = isSpeaker1 ? "self-start" : "self-end";
+                const bgColor = isSpeaker1 ? "speaker-1-bg border border-gray-200" : "speaker-2-bg border border-green-100";
+                const borderRadius = isSpeaker1 ? "rounded-tr-2xl rounded-br-2xl rounded-bl-2xl" : "rounded-tl-2xl rounded-br-2xl rounded-bl-2xl";
+                const icon = isSpeaker1 ? "fa-user-tie" : "fa-user";
+                const iconColor = isSpeaker1 ? "text-gray-500" : "text-green-600";
+
+                const jpFormatted = formatJapanese(line.rawJp, appState.hideFurigana);
+
+                const activeCount = (appState.showJapanese ? 1 : 0) + (appState.showRomaji ? 1 : 0) + (appState.showTranslation ? 1 : 0);
+                
+                // 3つの場合は現状維持(1.05rem)、それより少ない場合は少し小さめのサイズを割り当てて横幅を確保
+                let fontSizeClass = "text-[1.05rem]";
+                if (activeCount === 1) {
+                    fontSizeClass = "text-sm sm:text-base";
+                } else if (activeCount === 2) {
+                    fontSizeClass = "text-base sm:text-[1rem]";
+                }
+
+                let extraContent = '';
+                if (appState.showJapanese) {
+                    extraContent += `<div class="${fontSizeClass} leading-loose break-words tracking-wide font-medium">${jpFormatted}</div>`;
+                }
+                if (appState.showRomaji) {
+                    const spacing = appState.showJapanese ? 'mt-1.5' : '';
+                    extraContent += `<div class="${fontSizeClass} ${spacing} text-gray-500 font-mono bg-gray-50 p-1.5 rounded">${line.romaji}</div>`;
+                }
+                if (appState.showTranslation) {
+                    const spacing = (appState.showJapanese || appState.showRomaji) ? 'mt-1.5' : '';
+                    extraContent += `<div class="${fontSizeClass} ${spacing} text-gray-700 italic border-l-2 border-gray-300 pl-2">${line.english}</div>`;
+                }
+
+                // Roleplay logic
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+                const blurClass = isMuted ? "blur-sm opacity-50 hover:blur-none hover:opacity-100 transition-all duration-300 cursor-pointer" : "";
+                const titleText = isMuted ? "title='Hover to reveal (Roleplay mode)'" : "";
+
+                // 話者名とボタンの並び順（Speaker 1は左寄り、Speaker 2は右寄り）
+                const headerLayout = isSpeaker1 ? 'flex-row' : 'flex-row-reverse';
+
+                const html = `
+                    <div class="flex gap-2 sm:gap-3 max-w-[98%] sm:max-w-[85%] ${alignment} fade-in" style="animation-delay: ${index * 0.05}s">
+                        ${isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                        
+                        <div class="flex flex-col gap-1 w-full group">
+                            <div class="flex items-center gap-3 px-1 ${headerLayout}">
+                                <div class="text-xs text-gray-500 font-medium whitespace-nowrap">
+                                    ${line.speaker} ${isMuted ? '<span class="text-purple-600 font-bold ml-1"><i class="fa-solid fa-microphone-lines"></i> Your Turn</span>' : ''}
+                                </div>
+                                
+                                <div class="flex items-center gap-1.5">
+                                    <button onclick="playMyAudio(${index})" id="my-audio-btn-${index}" class="${appState.recordedBlobs[appState.currentSceneIndex + '_' + index] ? '' : 'hidden'} w-6 h-6 rounded-full bg-orange-100 hover:bg-orange-200 text-orange-600 flex items-center justify-center transition-colors focus:outline-none" title="自分の声を聴く">
+                                        <i class="fa-solid fa-face-smile text-[10px]"></i>
+                                    </button>
+                                    
+                                    <button onclick="toggleRecording(${index}, this)" class="w-6 h-6 rounded-full bg-gray-200 hover:bg-red-100 text-gray-500 hover:text-red-500 flex items-center justify-center transition-colors focus:outline-none" title="声を録音する">
+                                        <i class="fa-solid fa-microphone text-[10px]"></i>
+                                    </button>
+
+                                    <button onclick="playAudio('${line.audioPath ? line.audioPath.replace(/'/g, "\\'") : ''}')" class="w-6 h-6 rounded-full bg-gray-200 hover:bg-blue-100 text-gray-500 hover:text-blue-600 flex items-center justify-center transition-colors focus:outline-none" title="Play audio">
+                                        <i class="fa-solid fa-volume-high text-[10px]"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="${bgColor} ${borderRadius} p-3 sm:p-4 shadow-sm w-full transition-shadow duration-300 message-bubble">
+                                <div class="w-full ${blurClass}" ${titleText}>
+                                    ${extraContent}
+                                </div>
+                            </div>
+                        </div>
+
+                        ${!isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                    </div>
+                `;
+                container.insertAdjacentHTML('beforeend', html);
+            });
+        }
+
+        let currentAudio = null;
+
+        function playAudio(audioPath) {
+            if (currentAudio) {
+                currentAudio.pause();
+            }
+            if (!audioPath) return;
+            currentAudio = new Audio(audioPath);
+            currentAudio.playbackRate = 0.85;
+            currentAudio.play().catch(e => console.error("Audio play failed:", e));
+        }
+
+        async function playEntireScene() {
+            const playBtnIcon = document.querySelector('#play-scene-btn i');
+
+            if (appState.isPlaying) {
+                if (currentAudio) currentAudio.pause();
+                appState.isPlaying = false;
+                playBtnIcon.className = 'fa-solid fa-play';
+                document.querySelectorAll('.message-bubble').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                return;
+            }
+
+            appState.isPlaying = true;
+            playBtnIcon.className = 'fa-solid fa-stop';
+            const scene = scenes[appState.currentSceneIndex];
+            
+            for (let i = 0; i < scene.lines.length; i++) {
+                if (!appState.isPlaying) break; 
+                
+                const line = scene.lines[i];
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+
+                const allMessageBubbles = document.querySelectorAll('.message-bubble');
+                if (allMessageBubbles[i]) {
+                    allMessageBubbles.forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                    allMessageBubbles[i].classList.add('ring-2', isMuted ? 'ring-purple-400' : 'ring-blue-400');
+                    allMessageBubbles[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+                
+                if (isMuted) {
+                    const waitTime = 1500 + (line.speakText.length * 150);
+                    await new Promise(r => setTimeout(r, waitTime));
+                } else {
+                    if (line.audioPath) {
+                        await new Promise(resolve => {
+                            if (currentAudio) currentAudio.pause();
+                            currentAudio = new Audio(line.audioPath);
+                            currentAudio.playbackRate = 0.85;
+                            currentAudio.onended = resolve;
+                            currentAudio.onerror = resolve;
+                            currentAudio.play().catch(e => {
+                                console.error("Audio play failed in loop:", e);
+                                resolve();
+                            });
+                        });
+                    } else {
+                        await new Promise(r => setTimeout(r, 1000));
+                    }
+                }
+                
+                await new Promise(r => setTimeout(r, 600));
+            }
+
+            if (appState.isPlaying) {
+                document.querySelectorAll('.message-bubble').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+            }
+
+            appState.isPlaying = false;
+            playBtnIcon.className = 'fa-solid fa-play';
+        }
+
+        function startQuiz() {
+            appState.score = 0;
+            appState.currentQuestionIndex = 0;
+            
+            const typeSelector = document.getElementById('quiz-type-selector');
+            if (typeSelector) {
+                appState.quizType = typeSelector.value;
+            }
+            
+            if (appState.quizType === 'kanji') {
+                quizData = quizDataKanji;
+            } else if (appState.quizType === 'culture') {
+                quizData = quizDataCulture;
+            } else if (appState.quizType === 'grammar') {
+                quizData = quizDataGrammar;
+            }
+            
+            document.getElementById('quiz-intro').classList.add('hidden');
+            document.getElementById('quiz-result').classList.add('hidden');
+            document.getElementById('quiz-area').classList.remove('hidden');
+            
+            loadQuestion();
+        }
+
+        function loadQuestion() {
+            appState.isAnswering = false;
+            const qData = quizData[appState.currentQuestionIndex];
+            
+            document.getElementById('quiz-progress').innerText = `Question ${appState.currentQuestionIndex + 1} / ${quizData.length}`;
+            document.getElementById('quiz-score').innerText = `Score: ${appState.score}`;
+            document.getElementById('quiz-question').innerHTML = qData.q;
+            
+            const optionsContainer = document.getElementById('quiz-options');
+            optionsContainer.innerHTML = '';
+            
+            // 選択肢のインデックスを保持したままシャッフル
+            const shuffledOptions = qData.options.map((opt, idx) => ({ text: opt, originalIndex: idx }));
+            for (let i = shuffledOptions.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffledOptions[i], shuffledOptions[j]] = [shuffledOptions[j], shuffledOptions[i]];
+            }
+            
+            shuffledOptions.forEach((opt) => {
+                const btn = document.createElement('button');
+                btn.className = "w-full bg-white border-2 border-gray-200 hover:border-blue-500 hover:bg-blue-50 text-gray-700 font-bold py-4 px-6 rounded-xl text-lg sm:text-xl transition-all shadow-sm text-left sm:text-center";
+                btn.innerHTML = opt.text;
+                btn.dataset.originalIndex = opt.originalIndex;
+                btn.onclick = () => checkAnswer(opt.originalIndex, btn);
+                optionsContainer.appendChild(btn);
+            });
+        }
+
+        function checkAnswer(selectedIndex, btnElement) {
+            if (appState.isAnswering) return;
+            appState.isAnswering = true;
+            
+            const correctIndex = quizData[appState.currentQuestionIndex].answer;
+            const isCorrect = selectedIndex === correctIndex;
+            
+            if (isCorrect) {
+                appState.score++;
+                btnElement.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50', 'text-gray-700');
+                btnElement.classList.add('bg-green-500', 'text-white', 'border-green-500');
+            } else {
+                btnElement.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50', 'text-gray-700');
+                btnElement.classList.add('bg-red-500', 'text-white', 'border-red-500');
+                
+                // シャッフル後の配置に対応した正解のハイライト
+                const allButtons = document.getElementById('quiz-options').children;
+                for (let btn of allButtons) {
+                    if (parseInt(btn.dataset.originalIndex) === correctIndex) {
+                        btn.classList.remove('border-gray-200');
+                        btn.classList.add('border-green-500', 'bg-green-50', 'text-green-700');
+                    }
+                }
+            }
+            
+            document.getElementById('quiz-score').innerText = `Score: ${appState.score}`;
+            
+            setTimeout(() => {
+                appState.currentQuestionIndex++;
+                if (appState.currentQuestionIndex < quizData.length) {
+                    loadQuestion();
+                } else {
+                    showResult();
+                }
+            }, 1200);
+        }
+
+        function showResult() {
+            document.getElementById('quiz-area').classList.add('hidden');
+            document.getElementById('quiz-result').classList.remove('hidden');
+            document.getElementById('final-score').innerText = appState.score;
+        }
+
+       function switchTab(tabId) {
+            appState.activeTab = tabId;
+            
+            const convBtn = document.getElementById('tab-btn-conv');
+            const quizBtn = document.getElementById('tab-btn-quiz');
+            const convBtnLand = document.getElementById('tab-btn-conv-land');
+            const quizBtnLand = document.getElementById('tab-btn-quiz-land');
+            const convDiv = document.getElementById('tab-conv');
+            const quizDiv = document.getElementById('tab-quiz');
+            
+            const activeClass = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
+            const inactiveClass = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
+            const activeClassLand = "flex-1 px-4 py-1.5 rounded-md bg-white shadow text-blue-600 font-medium text-xs transition-all text-center";
+            const inactiveClassLand = "flex-1 px-4 py-1.5 rounded-md text-gray-500 hover:text-gray-700 font-medium text-xs transition-all text-center";
+            
+            if (tabId === 'conv') {
+                if(convBtn) convBtn.className = activeClass;
+                if(quizBtn) quizBtn.className = inactiveClass;
+                if(convBtnLand) convBtnLand.className = activeClassLand;
+                if(quizBtnLand) quizBtnLand.className = inactiveClassLand;
+                if(convDiv) convDiv.classList.remove('hidden');
+                if(quizDiv) quizDiv.classList.add('hidden');
+            } else {
+                if(quizBtn) quizBtn.className = activeClass;
+                if(convBtn) convBtn.className = inactiveClass;
+                if(quizBtnLand) quizBtnLand.className = activeClassLand;
+                if(convBtnLand) convBtnLand.className = inactiveClassLand;
+                if(quizDiv) quizDiv.classList.remove('hidden');
+                if(convDiv) convDiv.classList.add('hidden');
+                
+                // Reset Quiz
+                const quizIntro = document.getElementById('quiz-intro');
+                const quizArea = document.getElementById('quiz-area');
+                const quizResult = document.getElementById('quiz-result');
+                if(quizIntro) quizIntro.classList.remove('hidden');
+                if(quizArea) quizArea.classList.add('hidden');
+                if(quizResult) quizResult.classList.add('hidden');
+            }
+        }
+
+        // ==========================================
+        // 【YouTube 設定エリア】次回からはここを変更してください
+        // ==========================================
+        const YOUTUBE_VIDEO_ID = 'VNKzmJGG5ew'; 
+        const sceneStartTimes = [20, 145, 292, 414, 562, 702, 857, 994, 1142, 1280];
+        // ==========================================
+
+        let ytPlayer = null;
+
+        // YouTube Iframe API スクリプトを自動動的ロード
+        const tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        const firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        let ytTimeTracker = null;
+
+        window.onYouTubeIframeAPIReady = () => {
+            ytPlayer = new YT.Player('player', {
+                videoId: YOUTUBE_VIDEO_ID,
+                playerVars: {
+                    'playsinline': 1,
+                    'rel': 0
+                },
+                events: {
+                    'onStateChange': onPlayerStateChange
+                }
+            });
+        };
+
+        // YouTubeの再生状態が変化した時のイベント
+        function onPlayerStateChange(event) {
+            // 動画再生中 (YT.PlayerState.PLAYING は 1)
+            if (event.data === 1) {
+                // 独自音声再生の一括ループが走っていたら停止させる
+                if (appState.isPlaying) {
+                    const playBtnIcon = document.querySelector('#play-scene-btn i');
+                    if (playBtnIcon) playBtnIcon.className = 'fa-solid fa-play';
+                    appState.isPlaying = false;
+                }
+                
+                // 200ミリ秒ごとに再生位置をチェックするタイマーを開始
+                if (!ytTimeTracker) {
+                    appState.lastScrolledIndex = -1; // 再生開始時にメモ帳をリセット
+                    ytTimeTracker = setInterval(trackYoutubeTime, 200);
+                }
+            } else {
+                // 再生中以外（一時停止、終了など）はタイマーを止める
+                if (ytTimeTracker) {
+                    clearInterval(ytTimeTracker);
+                    ytTimeTracker = null;
+                }
+            }
+        }
+
+        // 現在の動画再生時間に合わせてテキストをスクロール・ハイライトする関数
+        function trackYoutubeTime() {
+            if (!ytPlayer || typeof ytPlayer.getCurrentTime !== 'function') return;
+            
+            const currentTime = ytPlayer.getCurrentTime();
+
+            // シーンの自動切り替え判定
+            let detectedSceneIdx = appState.currentSceneIndex;
+            for (let i = 0; i < sceneStartTimes.length; i++) {
+                const start = sceneStartTimes[i];
+                const end = (i + 1 < sceneStartTimes.length) ? sceneStartTimes[i + 1] : Infinity;
+                if (currentTime >= start && currentTime < end) {
+                    detectedSceneIdx = i;
+                    break;
+                }
+            }
+            if (detectedSceneIdx !== appState.currentSceneIndex) {
+                appState.currentSceneIndex = detectedSceneIdx;
+                const selector = document.getElementById('scene-selector');
+                if (selector) selector.value = detectedSceneIdx;
+                renderScene();
+                return; // シーン切り替え時のみここで抜けて再描画する
+            }
+
+            // 【修正】シーンが変わっていない場合は、毎回の強制的なrenderSceneをスキップ
+            const scene = scenes[appState.currentSceneIndex];
+            if (!scene || !scene.lines) return;
+
+            // 現在の再生時間に一致するセリフのインデックスを探す
+            let activeIdx = -1;
+            for (let i = 0; i < scene.lines.length; i++) {
+                const line = scene.lines[i];
+                if (line.startTime <= currentTime && currentTime <= line.endTime) {
+                    activeIdx = i;
+                    break;
+                }
+            }
+
+            if (activeIdx !== -1) {
+                const allMessageBubbles = document.querySelectorAll('.message-bubble');
+                
+                // すべてのバブルから枠線ハイライトを一旦消し、現在アクティブなものだけに付与
+                allMessageBubbles.forEach((b, idx) => {
+                    if (idx === activeIdx) {
+                        const isMuted = appState.roleplayMutedSpeaker === scene.lines[idx].speaker;
+                        b.classList.add('ring-2', isMuted ? 'ring-purple-400' : 'ring-blue-400');
+                    } else {
+                        b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400');
+                    }
+                });
+
+                // 【防振処理】直前にスクロールしたインデックスと異なる（＝セリフが変わった）場合のみ1回実行
+                if (activeIdx !== appState.lastScrolledIndex && allMessageBubbles[activeIdx]) {
+                    appState.lastScrolledIndex = activeIdx; // メモ帳を更新
+                    allMessageBubbles[activeIdx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            } else {
+                // 該当するセリフがない時間帯（シーンの合間など）はハイライトを外す
+                document.querySelectorAll('.message-bubble').forEach(b => {
+                    b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400');
+                });
+            }
+        }
+
+        window.onload = async () => {
+            // Populate Language Selector
+            const langSelector = document.getElementById('lang-selector');
+            Object.keys(LANG_MAP).forEach(langName => {
+                const opt = document.createElement('option');
+                opt.value = LANG_MAP[langName];
+                opt.text = langName;
+                if (LANG_MAP[langName] === 'en') opt.selected = true;
+                langSelector.appendChild(opt);
+            });
+
+            await parseData();
+
+            const selector = document.getElementById('scene-selector');
+            for (let i = 0; i < 10; i++) {
+                const opt = document.createElement('option');
+                opt.value = i;
+                opt.text = sceneTitles[i] || `Scene ${i + 1}`;
+                selector.appendChild(opt);
+            }
+
+            selector.addEventListener('change', (e) => {
+                const sceneIdx = parseInt(e.target.value);
+                appState.currentSceneIndex = sceneIdx;
+                if(appState.isPlaying) playEntireScene(); // Stop if playing
+                renderScene();
+
+                // シーン選択時にYouTubeの再生位置を対応する秒数へジャンプさせる
+                if (ytPlayer && typeof ytPlayer.seekTo === 'function') {
+                    ytPlayer.seekTo(sceneStartTimes[sceneIdx], true);
+                }
+            });
+
+            document.getElementById('toggle-japanese').addEventListener('change', (e) => {
+                appState.showJapanese = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-romaji').addEventListener('change', (e) => {
+                appState.showRomaji = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('toggle-translation').addEventListener('change', (e) => {
+                appState.showTranslation = e.target.checked;
+                renderScene();
+            });
+
+            langSelector.addEventListener('change', async (e) => {
+                appState.currentLang = e.target.value;
+                if (appState.isPlaying) playEntireScene();
+                await updateTranslations();
+                renderScene();
+            });
+
+            document.getElementById('toggle-kanji-test').addEventListener('change', (e) => {
+                appState.hideFurigana = e.target.checked;
+                renderScene();
+            });
+
+            document.getElementById('roleplay-selector').addEventListener('change', (e) => {
+                appState.roleplayMutedSpeaker = e.target.value;
+                renderScene();
+            });
+
+            document.getElementById('tab-btn-conv').addEventListener('click', () => switchTab('conv'));
+            document.getElementById('tab-btn-quiz').addEventListener('click', () => switchTab('quiz'));
+
+            renderScene();
+        };
+        // 携帯（iOS/Android）のオーディオ制限を解除するおまじない
+        function initAudioContext() {
+            if (window.AudioContext || window.webkitAudioContext) {
+                const AudioContext = window.AudioContext || window.webkitAudioContext;
+                const ctx = new AudioContext();
+                if (ctx.state === 'suspended') {
+                    ctx.resume();
+                }
+            }
+        }
+
+        // 個別セリフの録音・停止の切り替え
+        async function toggleRecording(index, btnElement) {
+            initAudioContext();
+            const key = appState.currentSceneIndex + '_' + index;
+            const icon = btnElement.querySelector('i');
+
+            // 録音中の停止処理
+            if (appState.activeRecordingIndex === index) {
+                if (appState.mediaRecorder && appState.mediaRecorder.state !== 'inactive') {
+                    appState.mediaRecorder.stop();
+                }
+                return;
+            }
+
+            // 他の場所が録音中なら無視
+            if (appState.activeRecordingIndex !== -1) return;
+
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                const chunks = [];
+                appState.mediaRecorder = new MediaRecorder(stream, { mimeType: 'audio/webm' });
+                
+                appState.mediaRecorder.ondataavailable = e => {
+                    if (e.data.size > 0) chunks.push(e.data);
+                };
+
+                appState.mediaRecorder.onstop = () => {
+                    const blob = new Blob(chunks, { type: 'audio/webm' });
+                    appState.recordedBlobs[key] = URL.createObjectURL(blob);
+                    
+                    // 録音完了後にUIを元に戻し、自分の声再生ボタンを出現させる
+                    appState.activeRecordingIndex = -1;
+                    icon.className = 'fa-solid fa-microphone';
+                    btnElement.classList.remove('bg-red-500', 'text-white', 'animate-pulse');
+                    btnElement.classList.add('bg-gray-100', 'text-gray-400');
+                    
+                    const myPlayBtn = document.getElementById(`my-audio-btn-${index}`);
+                    if (myPlayBtn) myPlayBtn.classList.remove('hidden');
+                    
+                    // マイクストリームを終了（スマホの録音中マークを消す）
+                    stream.getTracks().forEach(track => track.stop());
+                };
+
+                // 録音開始
+                appState.activeRecordingIndex = index;
+                icon.className = 'fa-solid fa-square';
+                btnElement.classList.remove('bg-gray-100', 'text-gray-400');
+                btnElement.classList.add('bg-red-500', 'text-white', 'animate-pulse');
+                
+                appState.mediaRecorder.start();
+
+            } catch (err) {
+                console.error("マイクの起動に失敗しました。HTTPS接続であることを確認してください:", err);
+                alert("マイク機能を利用できません。通信が暗号化(HTTPS)されているか確認してください。");
+            }
+        }
+
+        // 個別に録音した自分の声を再生
+        function playMyAudio(index) {
+            initAudioContext();
+            const key = appState.currentSceneIndex + '_' + index;
+            const audioUrl = appState.recordedBlobs[key];
+            if (!audioUrl) return;
+
+            if (currentAudio) currentAudio.pause();
+            currentAudio = new Audio(audioUrl);
+            currentAudio.play().catch(e => console.error("録音再生失敗:", e));
+        }
+
+        // ★ご要望機能：自分の録音がある箇所は差し替え、ない箇所はお手本で「すべて通して聴く」
+        async function playMixedScene() {
+            initAudioContext();
+            const mixBtn = document.getElementById('play-mix-btn');
+            const mixBtnIcon = mixBtn.querySelector('i');
+
+            if (appState.isPlaying) {
+                if (currentAudio) currentAudio.pause();
+                appState.isPlaying = false;
+                mixBtnIcon.className = 'fa-solid fa-shuffle';
+                document.querySelectorAll('.message-bubble').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                return;
+            }
+
+            appState.isPlaying = true;
+            mixBtnIcon.className = 'fa-solid fa-stop';
+            const scene = scenes[appState.currentSceneIndex];
+            
+            for (let i = 0; i < scene.lines.length; i++) {
+                if (!appState.isPlaying) break; 
+                
+                const line = scene.lines[i];
+                const key = appState.currentSceneIndex + '_' + i;
+                const myAudioUrl = appState.recordedBlobs[key]; // 自分の録音があるか確認
+
+                // 画面スクロールとハイライト連動
+                const allMessageBubbles = document.querySelectorAll('.message-bubble');
+                if (allMessageBubbles[i]) {
+                    allMessageBubbles.forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                    allMessageBubbles[i].classList.add('ring-2', myAudioUrl ? 'ring-orange-400' : 'ring-blue-400');
+                    allMessageBubbles[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+                
+                // 再生ソースの決定（自分の録音があればそれを、なければお手本を流す）
+                const activeAudioSrc = myAudioUrl ? myAudioUrl : line.audioPath;
+
+                if (activeAudioSrc) {
+                    await new Promise(resolve => {
+                        if (currentAudio) currentAudio.pause();
+                        currentAudio = new Audio(activeAudioSrc);
+                        
+                        // 自分の声の時は等倍速、お手本は既存通り0.85倍速
+                        currentAudio.playbackRate = myAudioUrl ? 1.0 : 0.85;
+                        
+                        currentAudio.onended = resolve;
+                        currentAudio.onerror = resolve;
+                        currentAudio.play().catch(e => {
+                            console.error("通し再生中に音声エラー:", e);
+                            resolve();
+                        });
+                    });
+                } else {
+                    // 音声データがないセリフは1秒待機
+                    await new Promise(r => setTimeout(r, 1000));
+                }
+                
+                // セリフの間の余韻時間
+                await new Promise(r => setTimeout(r, 600));
+            }
+
+            // 終了処理
+            document.querySelectorAll('.message-bubble').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+            appState.isPlaying = false;
+            mixBtnIcon.className = 'fa-solid fa-shuffle';
+        }
+    </script>
+</body>
+</html>
