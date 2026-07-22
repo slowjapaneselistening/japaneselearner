@@ -1,0 +1,4715 @@
+1
+00:00:00,000 --> 00:00:08,777
+O čem je dnešní video? O gramatice JLPT N5!
+
+2
+00:00:08,777 --> 00:00:10,277
+Scéna 1: Představení a národnost
+
+3
+00:00:10,277 --> 00:00:15,149
+Rád vás poznávám, já jsem Tanaka.
+
+4
+00:00:15,173 --> 00:00:18,852
+Těší mě, já jsem Smith.
+
+5
+00:00:18,875 --> 00:00:22,908
+Pane Smith, jste Američan?
+
+6
+00:00:22,931 --> 00:00:27,734
+Ano, jsem Američan.
+
+7
+00:00:27,758 --> 00:00:30,958
+Pane Tanako, jste Japonec?
+
+8
+00:00:30,981 --> 00:00:36,066
+Ano, jsem Japonec.
+
+9
+00:00:36,089 --> 00:00:40,064
+Jsem učitel japonštiny.
+
+10
+00:00:40,088 --> 00:00:42,889
+Jsem univerzitní profesor.
+
+11
+00:00:42,912 --> 00:00:45,246
+Aha, rozumím.
+
+12
+00:00:45,269 --> 00:00:48,877
+Já jsem student.
+
+13
+00:00:48,900 --> 00:00:52,579
+Pane Smith, na jaké univerzitě studujete?
+
+14
+00:00:52,603 --> 00:00:57,075
+Jsem student na univerzitě Sakura.
+
+15
+00:00:57,098 --> 00:01:00,371
+Student univerzity Sakura?
+
+16
+00:01:00,395 --> 00:01:02,861
+Jaký je váš obor?
+
+17
+00:01:02,884 --> 00:01:06,918
+Můj obor je obchod.
+
+18
+00:01:06,941 --> 00:01:10,674
+Jaký je váš obor, pane Tanako?
+
+19
+00:01:10,697 --> 00:01:15,330
+Můj obor je japonská historie.
+
+20
+00:01:15,353 --> 00:01:18,602
+Japonská historie?
+
+21
+00:01:18,625 --> 00:01:21,625
+Je ta osoba student?
+
+22
+00:01:21,648 --> 00:01:26,222
+Ne, ta osoba není student.
+
+23
+00:01:26,245 --> 00:01:30,412
+Je to učitel angličtiny.
+
+24
+00:01:30,435 --> 00:01:32,435
+Aha, rozumím.
+
+25
+00:01:32,458 --> 00:01:35,391
+Jak se jmenujete?
+
+26
+00:01:35,414 --> 00:01:38,181
+Jmenuji se John.
+
+27
+00:01:38,204 --> 00:01:40,771
+Jsem Brit.
+
+28
+00:01:40,794 --> 00:01:45,068
+Pane Johne, jste učitelem na univerzitě Sakura?
+
+29
+00:01:45,091 --> 00:01:50,291
+Ano, jsem učitelem na univerzitě Sakura.
+
+30
+00:01:50,314 --> 00:01:53,081
+Je to můj přítel.
+
+31
+00:01:53,104 --> 00:01:56,437
+Jaký je obor pana Johna?
+
+32
+00:01:56,460 --> 00:02:01,660
+Obor pana Johna je anglická literatura.
+
+33
+00:02:01,683 --> 00:02:03,571
+Aha, rozumím.
+
+34
+00:02:03,595 --> 00:02:07,795
+Pan John je můj učitel.
+
+35
+00:02:07,818 --> 00:02:11,784
+Cože? Váš učitel?
+
+36
+00:02:11,807 --> 00:02:16,641
+Ano, je to můj učitel angličtiny.
+
+37
+00:02:16,664 --> 00:02:19,464
+Je Tom také student?
+
+38
+00:02:19,487 --> 00:02:24,120
+Ne, Tom není student.
+
+39
+00:02:24,143 --> 00:02:26,321
+Je zaměstnanec firmy.
+
+40
+00:02:26,344 --> 00:02:29,478
+Je Tom také Američan?
+
+41
+00:02:29,501 --> 00:02:34,069
+Ano, Tom je také Američan.
+
+42
+00:02:34,093 --> 00:02:36,767
+Je to můj přítel.
+
+43
+00:02:36,790 --> 00:02:39,727
+Je Mary také zaměstnankyní firmy?
+
+44
+00:02:39,751 --> 00:02:44,841
+Ne, Mary není zaměstnankyní firmy.
+
+45
+00:02:44,865 --> 00:02:46,940
+Je studentka.
+
+46
+00:02:46,964 --> 00:02:50,539
+Je Mary také Britka?
+
+47
+00:02:50,562 --> 00:02:55,162
+Ano, Mary je také Britka.
+
+48
+00:02:55,185 --> 00:03:04,194
+Skript dnešního videa si můžete stáhnout z popisku a nejlepšího komentáře.
+
+49
+00:03:04,194 --> 00:03:05,694
+Scéna 2: Ukazovací zájmena a ceny (učebnice a slovníky)
+
+50
+00:03:05,694 --> 00:03:07,461
+Promiňte.
+
+51
+00:03:07,483 --> 00:03:09,933
+Co to je?
+
+52
+00:03:09,957 --> 00:03:11,724
+Tohle?
+
+53
+00:03:11,747 --> 00:03:15,714
+Tohle je učebnice japonštiny.
+
+54
+00:03:15,736 --> 00:03:18,795
+Kolik stojí ten učební materiál?
+
+55
+00:03:18,819 --> 00:03:22,706
+Tento učební materiál stojí 3000 jenů.
+
+56
+00:03:22,730 --> 00:03:26,175
+Je tamto také učebnice japonštiny?
+
+57
+00:03:26,198 --> 00:03:31,238
+Ne, tamto není učebnice japonštiny.
+
+58
+00:03:31,262 --> 00:03:33,901
+To je anglický slovník.
+
+59
+00:03:33,925 --> 00:03:36,811
+Kolik stojí ten slovník?
+
+60
+00:03:36,834 --> 00:03:40,306
+Tento slovník stojí 5000 jenů.
+
+61
+00:03:40,330 --> 00:03:43,863
+Který slovník patří panu Smithovi?
+
+62
+00:03:43,886 --> 00:03:46,419
+Tento slovník.
+
+63
+00:03:46,442 --> 00:03:49,609
+Patří ten slovník panu Tanakovi?
+
+64
+00:03:49,632 --> 00:03:54,165
+Ne, tento slovník není můj.
+
+65
+00:03:54,188 --> 00:03:55,821
+Rozumím.
+
+66
+00:03:55,844 --> 00:03:58,502
+Je tady třída?
+
+67
+00:03:58,526 --> 00:04:02,859
+Ano, tady je třída japonštiny.
+
+68
+00:04:02,882 --> 00:04:05,358
+Tam je knihovna.
+
+69
+00:04:05,382 --> 00:04:07,828
+Kde je kancelář?
+
+70
+00:04:07,851 --> 00:04:10,492
+Kancelář je támhle.
+
+71
+00:04:10,516 --> 00:04:13,011
+Je recepce také támhle?
+
+72
+00:04:13,034 --> 00:04:16,468
+Ano, recepce je také támhle.
+
+73
+00:04:16,491 --> 00:04:18,962
+Kde jsou toalety?
+
+74
+00:04:18,986 --> 00:04:21,752
+Toalety jsou támhle.
+
+75
+00:04:21,775 --> 00:04:24,388
+Napravo od té budovy.
+
+76
+00:04:24,412 --> 00:04:26,412
+Která budova?
+
+77
+00:04:26,435 --> 00:04:28,768
+Tamta budova.
+
+78
+00:04:28,791 --> 00:04:30,359
+Rozumím.
+
+79
+00:04:30,383 --> 00:04:32,785
+Je to pero?
+
+80
+00:04:32,809 --> 00:04:35,975
+Ano, to je pero.
+
+81
+00:04:35,998 --> 00:04:38,532
+Kolik stojí to pero?
+
+82
+00:04:38,555 --> 00:04:41,559
+To pero stojí 100 jenů.
+
+83
+00:04:41,583 --> 00:04:43,986
+Tamto stojí 200 jenů.
+
+84
+00:04:44,009 --> 00:04:47,061
+Které pero patří učiteli?
+
+85
+00:04:47,084 --> 00:04:50,151
+Toto pero je moje.
+
+86
+00:04:50,175 --> 00:04:52,380
+Stojí to také 100 jenů?
+
+87
+00:04:52,403 --> 00:04:56,221
+Ne, tohle stojí 3000 jenů.
+
+88
+00:04:56,244 --> 00:05:03,349
+Odkaz na webovou stránku, kde si můžeš zopakovat dnešní video, najdeš v popisu a v nejvyšším komentáři. *Web může být bez předchozího upozornění smazán.
+
+89
+00:05:03,349 --> 00:05:04,849
+Scéna 3: Jak ověřit vlastnictví / Určování vlastnictví věcí
+
+90
+00:05:04,849 --> 00:05:10,216
+Pane Smithi, je tohle váš deštník?
+
+91
+00:05:10,239 --> 00:05:15,689
+Ne, to není můj deštník.
+
+92
+00:05:15,713 --> 00:05:19,852
+Tak čí deštník to je?
+
+93
+00:05:19,875 --> 00:05:23,845
+To je deštník pana Johna.
+
+94
+00:05:23,868 --> 00:05:27,002
+Deštník pana Johna?
+
+95
+00:05:27,025 --> 00:05:30,358
+Je tato taška také pana Johna?
+
+96
+00:05:30,381 --> 00:05:36,996
+Ne, ta taška není pana Johna.
+
+97
+00:05:37,020 --> 00:05:39,918
+Není pana Johna?
+
+98
+00:05:39,942 --> 00:05:43,708
+Tak čí taška to je?
+
+99
+00:05:43,731 --> 00:05:47,265
+To je moje taška.
+
+100
+00:05:47,288 --> 00:05:50,721
+Moje důležitá taška.
+
+101
+00:05:50,744 --> 00:05:54,077
+Aha, taška pana Smithe.
+
+102
+00:05:54,100 --> 00:05:57,639
+Je tento sešit také váš, pane Smithi?
+
+103
+00:05:57,662 --> 00:06:02,431
+Ne, to není můj.
+
+104
+00:06:02,455 --> 00:06:05,423
+Patří Mary.
+
+105
+00:06:05,446 --> 00:06:08,446
+Je to Mariin sešit?
+
+106
+00:06:08,469 --> 00:06:11,436
+Je Marie také studentka?
+
+107
+00:06:11,459 --> 00:06:16,076
+Ano, Marie je také studentka.
+
+108
+00:06:16,099 --> 00:06:19,438
+Je studentkou na univerzitě Sakura.
+
+109
+00:06:19,462 --> 00:06:23,112
+Je Marie také Američanka?
+
+110
+00:06:23,135 --> 00:06:28,535
+Ne, Marie není Američanka.
+
+111
+00:06:28,558 --> 00:06:31,175
+Je Britka.
+
+112
+00:06:31,198 --> 00:06:36,565
+Tak vida. John je také Brit, že?
+
+113
+00:06:36,588 --> 00:06:40,669
+Ano, John je také Brit.
+
+114
+00:06:40,693 --> 00:06:44,102
+Pan Smith je Američan, že?
+
+115
+00:06:44,126 --> 00:06:47,728
+Ano, jsem Američan.
+
+116
+00:06:47,752 --> 00:06:50,885
+Tom je také Američan.
+
+117
+00:06:50,908 --> 00:06:54,163
+Je Tom také student?
+
+118
+00:06:54,186 --> 00:06:58,880
+Ne, Tom není student.
+
+119
+00:06:58,903 --> 00:07:00,880
+Je zaměstnanec.
+
+120
+00:07:00,904 --> 00:07:04,637
+Jsou to Tomovy hodinky?
+
+121
+00:07:04,660 --> 00:07:09,493
+Ne, to nejsou Tomovy hodinky.
+
+122
+00:07:09,516 --> 00:07:11,250
+Jsou moje.
+
+123
+00:07:11,273 --> 00:07:14,206
+Nejsou to Johnovy hodinky?
+
+124
+00:07:14,229 --> 00:07:18,162
+Ne, nejsou Johnovy.
+
+125
+00:07:18,185 --> 00:07:20,478
+Jsou paní Smithové, že?
+
+126
+00:07:20,502 --> 00:07:23,835
+Ano, jsou moje.
+
+127
+00:07:23,858 --> 00:07:25,358
+Scéna 4: Každodenní život / Každodenní rutina
+
+128
+00:07:25,358 --> 00:07:31,792
+V kolik hodin každý den vstáváte, pane Smithi?
+
+129
+00:07:31,815 --> 00:07:35,681
+Každý den vstávám v 7 hodin.
+
+130
+00:07:35,704 --> 00:07:38,371
+Snídáte?
+
+131
+00:07:38,394 --> 00:07:39,794
+Ano.
+
+132
+00:07:39,817 --> 00:07:43,050
+Doma jím chléb.
+
+133
+00:07:43,073 --> 00:07:45,707
+Piji kávu.
+
+134
+00:07:45,730 --> 00:07:49,420
+Potom jdete do školy?
+
+135
+00:07:49,443 --> 00:07:50,977
+Ano.
+
+136
+00:07:51,000 --> 00:07:54,213
+V 8 hodin jdu do školy.
+
+137
+00:07:54,236 --> 00:07:57,603
+Co děláte ve škole?
+
+138
+00:07:57,626 --> 00:08:01,659
+V učebně studuji japonštinu.
+
+139
+00:08:01,682 --> 00:08:06,615
+Potom čtu knihy v knihovně.
+
+140
+00:08:06,638 --> 00:08:09,605
+Kde obědváte?
+
+141
+00:08:09,629 --> 00:08:12,962
+Obědvám v jídelně.
+
+142
+00:08:12,985 --> 00:08:16,278
+S přáteli jím.
+
+143
+00:08:16,301 --> 00:08:19,301
+V kolik hodin jdete domů?
+
+144
+00:08:19,324 --> 00:08:22,201
+V 5 hodin jdu domů.
+
+145
+00:08:22,225 --> 00:08:25,003
+Co děláte večer?
+
+146
+00:08:25,026 --> 00:08:28,160
+Doma se dívám na televizi.
+
+147
+00:08:28,183 --> 00:08:30,316
+Poslouchám hudbu.
+
+148
+00:08:30,339 --> 00:08:34,072
+Potom ve 23 hodin jdu spát.
+
+149
+00:08:34,095 --> 00:08:36,985
+Kam jezdíte o víkendu?
+
+150
+00:08:37,008 --> 00:08:40,775
+V sobotu jedu do Kjóta.
+
+151
+00:08:40,798 --> 00:08:44,670
+V neděli nikam nejedu.
+
+152
+00:08:44,694 --> 00:08:47,027
+Doma odpočívám.
+
+153
+00:08:47,050 --> 00:08:51,663
+V kolik hodin každý den vstává John?
+
+154
+00:08:51,686 --> 00:08:55,719
+John vstává každý den v 6 hodin.
+
+155
+00:08:55,742 --> 00:08:58,430
+Snídáte?
+
+156
+00:08:58,454 --> 00:08:59,889
+Ano.
+
+157
+00:08:59,912 --> 00:09:03,482
+John snídá.
+
+158
+00:09:03,506 --> 00:09:07,039
+John také chodí do školy?
+
+159
+00:09:07,062 --> 00:09:08,429
+Ano.
+
+160
+00:09:08,452 --> 00:09:11,660
+John také chodí do školy.
+
+161
+00:09:11,683 --> 00:09:13,982
+V kolik hodin chodíte spát?
+
+162
+00:09:14,005 --> 00:09:16,372
+Chodím spát v deset hodin.
+
+163
+00:09:16,395 --> 00:09:17,895
+Scéna 5: Povídání o koníčcích / Mluvíme o zájmech
+
+164
+00:09:17,895 --> 00:09:22,361
+Johne, díváte se často na filmy?
+
+165
+00:09:22,384 --> 00:09:27,318
+Ne, filmy vůbec nesleduji.
+
+166
+00:09:27,341 --> 00:09:31,143
+Tanako, vy se často díváte na filmy?
+
+167
+00:09:31,166 --> 00:09:35,966
+Ano, často se na filmy dívám.
+
+168
+00:09:35,989 --> 00:09:38,680
+O víkendech je často sleduji.
+
+169
+00:09:38,704 --> 00:09:42,992
+Nepůjdeme se zítra spolu podívat na film?
+
+170
+00:09:43,015 --> 00:09:45,149
+To zní skvěle!
+
+171
+00:09:45,172 --> 00:09:47,415
+Pojďme se podívat spolu.
+
+172
+00:09:47,438 --> 00:09:52,089
+Johne, sportujete často?
+
+173
+00:09:52,112 --> 00:09:56,795
+Ne, sportu se vůbec nevěnuji.
+
+174
+00:09:56,819 --> 00:09:58,833
+Aha, rozumím.
+
+175
+00:09:58,857 --> 00:10:03,223
+Tak často pijete alkohol?
+
+176
+00:10:03,246 --> 00:10:07,520
+Ne, alkohol taky vůbec nepiji.
+
+177
+00:10:07,544 --> 00:10:12,559
+Já často chodím do kavárny pít kávu.
+
+178
+00:10:12,583 --> 00:10:14,452
+Do kavárny?
+
+179
+00:10:14,475 --> 00:10:19,342
+Nezajdeme si dnes odpoledne spolu na kávu?
+
+180
+00:10:19,365 --> 00:10:21,448
+To zní skvěle!
+
+181
+00:10:21,471 --> 00:10:23,238
+Pojďme!
+
+182
+00:10:23,261 --> 00:10:28,261
+Johne, čtete často japonské časopisy?
+
+183
+00:10:28,284 --> 00:10:33,517
+Ne, japonské časopisy vůbec nečtu.
+
+184
+00:10:33,540 --> 00:10:37,794
+Ale často čtu japonské knihy.
+
+185
+00:10:37,818 --> 00:10:40,184
+To je úžasné!
+
+186
+00:10:40,207 --> 00:10:46,241
+Nepůjdeme se dnes večer společně učit japonštinu?
+
+187
+00:10:46,263 --> 00:10:50,030
+Ano, pojďme se učit spolu.
+
+188
+00:10:50,053 --> 00:10:54,305
+Johne, posloucháte často hudbu?
+
+189
+00:10:54,328 --> 00:10:58,328
+Ano, hudbu poslouchám často.
+
+190
+00:10:58,351 --> 00:11:00,185
+Poslouchám ji každý den.
+
+191
+00:11:00,208 --> 00:11:05,305
+Neposlechneme si příště spolu hudbu?
+
+192
+00:11:05,329 --> 00:11:07,062
+To zní skvěle!
+
+193
+00:11:07,085 --> 00:11:09,501
+Poslechněme si ji spolu.
+
+194
+00:11:09,524 --> 00:11:13,091
+Čtete ráno často noviny?
+
+195
+00:11:13,114 --> 00:11:17,647
+Ne, noviny vůbec nečtu.
+
+196
+00:11:17,670 --> 00:11:19,170
+Scéna 6: Poloha věcí a lidí / Popisování umístění předmětů a osob
+
+197
+00:11:19,170 --> 00:11:24,823
+Tady je ale spousta věcí, že?
+
+198
+00:11:24,847 --> 00:11:29,385
+Ano, v mém pokoji je spousta věcí.
+
+199
+00:11:29,408 --> 00:11:32,942
+Co je tady?
+
+200
+00:11:32,965 --> 00:11:36,371
+Tady je stůl.
+
+201
+00:11:36,394 --> 00:11:39,994
+Co je na stole?
+
+202
+00:11:40,017 --> 00:11:43,833
+Na stole je kniha.
+
+203
+00:11:43,857 --> 00:11:47,857
+Co je vedle knihy?
+
+204
+00:11:47,880 --> 00:11:51,613
+Vedle knihy je pero.
+
+205
+00:11:51,636 --> 00:11:55,124
+Kdo je ve třídě?
+
+206
+00:11:55,148 --> 00:11:59,314
+Ve třídě je pan Smith.
+
+207
+00:11:59,337 --> 00:12:03,137
+Kdo je vedle pana Smithe?
+
+208
+00:12:03,160 --> 00:12:07,393
+Vedle pana Smithe je pan John.
+
+209
+00:12:07,416 --> 00:12:11,383
+Kdo je za panem Johnem?
+
+210
+00:12:11,406 --> 00:12:15,773
+Za panem Johnem je slečna Mary.
+
+211
+00:12:15,796 --> 00:12:19,396
+Co je támhle?
+
+212
+00:12:19,419 --> 00:12:22,619
+Támhle je slovník.
+
+213
+00:12:22,642 --> 00:12:25,216
+Který slovník?
+
+214
+00:12:25,239 --> 00:12:27,472
+No, tohle.
+
+215
+00:12:27,495 --> 00:12:29,664
+To je slovník pana Tanaky.
+
+216
+00:12:29,687 --> 00:12:34,254
+Ale ne, to není slovník.
+
+217
+00:12:34,277 --> 00:12:36,144
+Je to kniha.
+
+218
+00:12:36,167 --> 00:12:39,461
+Aha, tak kniha, že?
+
+219
+00:12:39,485 --> 00:12:44,619
+Ano, co je pod židlí?
+
+220
+00:12:44,642 --> 00:12:47,208
+Je tam taška.
+
+221
+00:12:47,231 --> 00:12:50,831
+A co je v té tašce?
+
+222
+00:12:50,854 --> 00:12:53,388
+Je tam sešit.
+
+223
+00:12:53,411 --> 00:12:57,380
+A co je mezi stránkami toho sešitu?
+
+224
+00:12:57,403 --> 00:12:59,636
+Je tam fotka.
+
+225
+00:12:59,659 --> 00:13:02,154
+Čí je to fotka?
+
+226
+00:13:02,177 --> 00:13:05,419
+To je fotka mé rodiny.
+
+227
+00:13:05,443 --> 00:13:08,909
+Kde je tvoje rodina?
+
+228
+00:13:08,932 --> 00:13:11,302
+V Americe.
+
+229
+00:13:11,326 --> 00:13:14,302
+A kde jsou tvoji přátelé?
+
+230
+00:13:14,325 --> 00:13:16,737
+V Londýně.
+
+231
+00:13:16,761 --> 00:13:19,794
+Kde je pan Smith?
+
+232
+00:13:19,817 --> 00:13:21,883
+Tady je!
+
+233
+00:13:21,906 --> 00:13:23,406
+Scéna 7: Nedělní výlet do Kjóta
+
+234
+00:13:23,406 --> 00:13:28,940
+Jaký byl včera den?
+
+235
+00:13:28,963 --> 00:13:32,045
+Včera byla neděle.
+
+236
+00:13:32,068 --> 00:13:36,235
+Co jsi v neděli dělal(a)?
+
+237
+00:13:36,258 --> 00:13:40,191
+Jel(a) jsem do Kjóta.
+
+238
+00:13:40,214 --> 00:13:43,985
+Co jsi v Kjótu dělal(a)?
+
+239
+00:13:44,009 --> 00:13:47,743
+Fotil(a) jsem v chrámu.
+
+240
+00:13:47,766 --> 00:13:51,403
+Fotil(a) jsi sám(a)?
+
+241
+00:13:51,426 --> 00:13:55,760
+Ne, fotil(a) jsem s kamarádem.
+
+242
+00:13:55,782 --> 00:13:59,549
+Kdo to byl?
+
+243
+00:13:59,572 --> 00:14:03,939
+Byl to John.
+
+244
+00:14:03,962 --> 00:14:07,528
+Fotil John taky?
+
+245
+00:14:07,551 --> 00:14:11,636
+Ano, John taky fotil.
+
+246
+00:14:11,660 --> 00:14:15,593
+Co jsi měl(a) k obědu?
+
+247
+00:14:15,616 --> 00:14:19,349
+K obědu jsem měl(a) rybu.
+
+248
+00:14:19,372 --> 00:14:22,815
+Kde jsi tu rybu jedl(a)?
+
+249
+00:14:22,839 --> 00:14:26,116
+Jedl(a) jsem ji v restauraci v Kjótu.
+
+250
+00:14:26,139 --> 00:14:29,554
+Byli v té restauraci lidé?
+
+251
+00:14:29,578 --> 00:14:33,511
+Ano, v restauraci byli lidé.
+
+252
+00:14:33,534 --> 00:14:37,667
+V kolik hodin jsi se vrátil(a) domů?
+
+253
+00:14:37,690 --> 00:14:40,624
+Vrátil(a) jsem se domů v devět hodin.
+
+254
+00:14:40,647 --> 00:14:43,736
+A co jsi dělal(a) potom?
+
+255
+00:14:43,760 --> 00:14:47,567
+Potom jsem se díval(a) na televizi.
+
+256
+00:14:47,590 --> 00:14:50,327
+V kolik hodin jsi šel(šla) spát?
+
+257
+00:14:50,351 --> 00:14:53,122
+Šel(šla) jsem spát v jedenáct hodin.
+
+258
+00:14:53,146 --> 00:14:56,579
+Co jsi dělal(a) předvčírem?
+
+259
+00:14:56,602 --> 00:15:00,069
+Předvčírem byla sobota.
+
+260
+00:15:00,091 --> 00:15:03,898
+Jel(a) jsi v sobotu taky do Kjóta?
+
+261
+00:15:03,922 --> 00:15:09,174
+Ne, v sobotu jsem nikam nejel(a).
+
+262
+00:15:09,198 --> 00:15:12,932
+Co jsi dělal(a) doma?
+
+263
+00:15:12,955 --> 00:15:16,571
+Doma jsem se učil(a) japonštinu.
+
+264
+00:15:16,595 --> 00:15:19,829
+Budu studovat každý den.
+
+265
+00:15:19,852 --> 00:15:22,818
+Studuješ každý den?
+
+266
+00:15:22,841 --> 00:15:26,408
+Ano, každý den.
+
+267
+00:15:26,431 --> 00:15:27,931
+Scéna 8: Zpoždění schůzky a nakupování
+
+268
+00:15:27,931 --> 00:15:31,498
+Pane Smithi, máte zpoždění.
+
+269
+00:15:31,521 --> 00:15:33,758
+Promiňte.
+
+270
+00:15:33,781 --> 00:15:38,147
+Čekal jsem tady už hodinu.
+
+271
+00:15:38,170 --> 00:15:40,981
+Moc se omlouvám.
+
+272
+00:15:41,005 --> 00:15:44,886
+Bylo na nádraží hodně lidí?
+
+273
+00:15:44,910 --> 00:15:49,343
+Ano, na nádraží bylo hodně lidí.
+
+274
+00:15:49,366 --> 00:15:52,766
+Bylo tam taky hodně autobusů?
+
+275
+00:15:52,789 --> 00:15:56,767
+Ano, taky hodně autobusů.
+
+276
+00:15:56,791 --> 00:15:59,685
+A taky hodně aut.
+
+277
+00:15:59,708 --> 00:16:02,042
+Aha, rozumím.
+
+278
+00:16:02,065 --> 00:16:06,114
+Včera jsi koupil hodně knih?
+
+279
+00:16:06,137 --> 00:16:10,904
+Ano, koupil jsem hodně japonských knih.
+
+280
+00:16:10,927 --> 00:16:13,413
+Kolik jsi jich koupil?
+
+281
+00:16:13,436 --> 00:16:16,170
+Koupil jsem pět knih.
+
+282
+00:16:16,193 --> 00:16:18,770
+Koupil jsi taky slovník?
+
+283
+00:16:18,793 --> 00:16:22,830
+Ano, koupil jsem i jeden slovník.
+
+284
+00:16:22,853 --> 00:16:27,420
+Pane Smithi, vy máte doma hodně knih, že?
+
+285
+00:16:27,443 --> 00:16:32,111
+Ano, doma mám hodně knih.
+
+286
+00:16:32,134 --> 00:16:35,172
+A taky hodně anglických knih.
+
+287
+00:16:35,196 --> 00:16:39,045
+Máš taky hodně přátel?
+
+288
+00:16:39,069 --> 00:16:42,802
+Ano, mám hodně přátel z Ameriky.
+
+289
+00:16:42,825 --> 00:16:46,475
+A taky hodně japonských přátel.
+
+290
+00:16:46,498 --> 00:16:49,970
+Kolik hodin denně studuješ?
+
+291
+00:16:49,993 --> 00:16:53,760
+Studuju každý den tři hodiny.
+
+292
+00:16:53,783 --> 00:16:58,416
+Tři hodiny? To je ale hodně!
+
+293
+00:16:58,439 --> 00:17:02,973
+Ano, každý den studuju hodně.
+
+294
+00:17:02,996 --> 00:17:06,482
+Včera jsi taky hodně studoval?
+
+295
+00:17:06,505 --> 00:17:10,958
+Ne, včera jsem studoval jenom hodinu.
+
+296
+00:17:10,982 --> 00:17:15,193
+Včera byla přece neděle.
+
+297
+00:17:15,216 --> 00:17:19,432
+Ano, v neděli jsem si hodně odpočinul.
+
+298
+00:17:19,455 --> 00:17:20,955
+Scéna 9: Japonské jídlo a učení
+
+299
+00:17:20,955 --> 00:17:24,989
+Chutná ti japonské jídlo?
+
+300
+00:17:25,012 --> 00:17:28,945
+Ano, je velmi chutné.
+
+301
+00:17:28,968 --> 00:17:32,057
+A co sushi? Chutná ti?
+
+302
+00:17:32,081 --> 00:17:36,847
+Ano, sushi je velmi chutné.
+
+303
+00:17:36,870 --> 00:17:39,604
+A co ramen?
+
+304
+00:17:39,627 --> 00:17:43,093
+Ramen je taky dobrý.
+
+305
+00:17:43,116 --> 00:17:46,483
+Ale je trochu pálivý.
+
+306
+00:17:46,506 --> 00:17:50,539
+Je studium japonštiny zajímavé?
+
+307
+00:17:50,562 --> 00:17:56,229
+Ano, studium japonštiny je velmi zajímavé.
+
+308
+00:17:56,253 --> 00:18:00,419
+Jsou kandži těžké?
+
+309
+00:18:00,442 --> 00:18:05,076
+Ano, kandži jsou velmi těžké.
+
+310
+00:18:05,099 --> 00:18:07,596
+A co katakana?
+
+311
+00:18:07,619 --> 00:18:11,019
+Katakana není těžká.
+
+312
+00:18:11,042 --> 00:18:12,877
+Je jednoduchá.
+
+313
+00:18:12,900 --> 00:18:16,467
+Je Tokio krásné město?
+
+314
+00:18:16,490 --> 00:18:21,657
+Ano, Tokio je velmi krásné město.
+
+315
+00:18:21,680 --> 00:18:24,213
+A co Kjóto?
+
+316
+00:18:24,236 --> 00:18:27,570
+Kjóto je také krásné město.
+
+317
+00:18:27,594 --> 00:18:30,672
+Je tam mnoho starých chrámů.
+
+318
+00:18:30,695 --> 00:18:35,345
+Je Smithova škola velká?
+
+319
+00:18:35,369 --> 00:18:40,835
+Ano, moje škola je velmi velká.
+
+320
+00:18:40,858 --> 00:18:43,732
+Jsou učebny nové?
+
+321
+00:18:43,756 --> 00:18:49,044
+Ano, učebny jsou velmi nové.
+
+322
+00:18:49,067 --> 00:18:51,924
+Je učitel přísný?
+
+323
+00:18:51,948 --> 00:18:57,314
+Ne, můj učitel není přísný.
+
+324
+00:18:57,337 --> 00:18:59,504
+Je velmi milý.
+
+325
+00:18:59,527 --> 00:19:03,207
+Je Smithův dům nový?
+
+326
+00:19:03,230 --> 00:19:08,464
+Ne, můj dům není nový.
+
+327
+00:19:08,487 --> 00:19:10,253
+Je starý.
+
+328
+00:19:10,276 --> 00:19:12,843
+Jsou pokoje prostorné?
+
+329
+00:19:12,866 --> 00:19:17,364
+Ne, pokoje nejsou prostorné.
+
+330
+00:19:17,387 --> 00:19:19,073
+Jsou malé.
+
+331
+00:19:19,097 --> 00:19:22,097
+Máte každý den hodně práce?
+
+332
+00:19:22,120 --> 00:19:27,001
+Ano, každý den mám hodně práce.
+
+333
+00:19:27,024 --> 00:19:29,678
+Je dnes horko?
+
+334
+00:19:29,702 --> 00:19:34,069
+Ne, dnes není horko.
+
+335
+00:19:34,092 --> 00:19:36,337
+Je trochu chladno.
+
+336
+00:19:36,361 --> 00:19:37,861
+Scéna 10: Co má Smith rád / Smithovy oblíbené věci
+
+337
+00:19:37,861 --> 00:19:41,794
+Máte rád maso, pane Smithi?
+
+338
+00:19:41,817 --> 00:19:46,250
+Ano, maso mám moc rád.
+
+339
+00:19:46,273 --> 00:19:48,707
+A co ryby?
+
+340
+00:19:48,730 --> 00:19:52,819
+Ryby moc rád nemám.
+
+341
+00:19:52,842 --> 00:19:55,609
+Máte rád zeleninu?
+
+342
+00:19:55,632 --> 00:19:59,798
+Ne, zeleninu nemám rád.
+
+343
+00:19:59,821 --> 00:20:03,794
+Jaké jídlo máte nejraději?
+
+344
+00:20:03,818 --> 00:20:07,252
+Nejraději mám tempuru.
+
+345
+00:20:07,275 --> 00:20:10,372
+Jaký nápoj máte rád?
+
+346
+00:20:10,395 --> 00:20:12,961
+Mám rád kávu.
+
+347
+00:20:12,985 --> 00:20:15,418
+Čaj nemám rád.
+
+348
+00:20:15,441 --> 00:20:18,328
+Jaký sport máte rád?
+
+349
+00:20:18,352 --> 00:20:21,188
+Mám rád fotbal.
+
+350
+00:20:21,212 --> 00:20:23,812
+Tenis nemám rád.
+
+351
+00:20:23,835 --> 00:20:27,768
+Zpíváte dobře, pane Smithi?
+
+352
+00:20:27,791 --> 00:20:32,791
+Ne, nezpívám dobře.
+
+353
+00:20:32,814 --> 00:20:34,432
+Zpívám špatně.
+
+354
+00:20:34,455 --> 00:20:38,289
+Zpívá John dobře?
+
+355
+00:20:38,312 --> 00:20:43,446
+Ano, John zpívá velmi dobře.
+
+356
+00:20:43,470 --> 00:20:47,480
+Vaříte dobře, pane Smithi?
+
+357
+00:20:47,503 --> 00:20:52,080
+Ano, vařím dobře.
+
+358
+00:20:52,104 --> 00:20:54,918
+Každý den vařím.
+
+359
+00:20:54,941 --> 00:20:57,316
+To je úžasné!
+
+360
+00:20:57,340 --> 00:21:00,306
+Mluvíte dobře japonsky?
+
+361
+00:21:00,329 --> 00:21:05,147
+Ne, japonsky ještě nemluvím dobře.
+
+362
+00:21:05,171 --> 00:21:06,744
+Zpívám špatně.
+
+363
+00:21:06,767 --> 00:21:09,167
+A co anglicky?
+
+364
+00:21:09,190 --> 00:21:13,823
+Anglicky mluvím dobře, protože je to můj mateřský jazyk.
+
+365
+00:21:13,846 --> 00:21:18,013
+Dnes na oběd si dáme tempuru.
+
+366
+00:21:18,036 --> 00:21:19,907
+To zní skvěle!
+
+367
+00:21:19,931 --> 00:21:22,264
+Dáme si tempuru.
+
+368
+00:21:22,287 --> 00:21:25,020
+Pojďme do toho obchodu.
+
+369
+00:21:25,043 --> 00:21:29,777
+Ano, pojďme do toho krásného obchodu.
+
+370
+00:21:29,799 --> 00:21:32,933
+Dáme si tam i kávu.
+
+371
+00:21:32,956 --> 00:21:36,125
+Ano, dáme si ji spolu.
+
+372
+00:21:36,149 --> 00:21:37,649
+Scéna 11: Základy orientace / Základní japonština pro ptání se na cestu
+
+373
+00:21:37,649 --> 00:21:39,649
+Promiňte.
+
+374
+00:21:39,672 --> 00:21:43,284
+Mohl byste mi, prosím, poradit cestu?
+
+375
+00:21:43,307 --> 00:21:46,274
+Ano, samozřejmě.
+
+376
+00:21:46,297 --> 00:21:48,663
+Kam máte namířeno?
+
+377
+00:21:48,686 --> 00:21:50,941
+Jdu na nádraží.
+
+378
+00:21:50,965 --> 00:21:54,299
+Ale nevím, kudy tam jít.
+
+379
+00:21:54,323 --> 00:21:56,589
+Na nádraží, říkáte?
+
+380
+00:21:56,612 --> 00:22:00,746
+Nádraží je odsud trochu daleko.
+
+381
+00:22:00,769 --> 00:22:03,035
+Aha, rozumím.
+
+382
+00:22:03,059 --> 00:22:06,825
+Teď jsem opravdu v koncích.
+
+383
+00:22:06,848 --> 00:22:11,068
+Tak se podívejte na tuhle starou mapu.
+
+384
+00:22:11,091 --> 00:22:13,825
+Ano, podívám se.
+
+385
+00:22:13,848 --> 00:22:18,022
+Teď jsme tady.
+
+386
+00:22:18,046 --> 00:22:20,123
+Tady, že?
+
+387
+00:22:20,147 --> 00:22:22,313
+Rozumím.
+
+388
+00:22:22,336 --> 00:22:26,870
+Nejdřív jděte rovně touhle ulicí.
+
+389
+00:22:26,893 --> 00:22:29,459
+Půjdu rovně.
+
+390
+00:22:29,482 --> 00:22:35,020
+A pak zahněte vpravo na té velké křižovatce.
+
+391
+00:22:35,044 --> 00:22:37,423
+Vpravo, ano?
+
+392
+00:22:37,447 --> 00:22:42,256
+Ano, tam je stará banka.
+
+393
+00:22:42,280 --> 00:22:45,613
+To bílé budova?
+
+394
+00:22:45,636 --> 00:22:49,769
+Ne, ta modrá budova.
+
+395
+00:22:49,792 --> 00:22:51,769
+Rozumím.
+
+396
+00:22:51,792 --> 00:22:56,359
+Vedle banky je nové obchodní centrum.
+
+397
+00:22:56,382 --> 00:22:58,551
+Obchodní centrum?
+
+398
+00:22:58,575 --> 00:23:03,708
+Ano, před obchodním centrem je autobusová zastávka.
+
+399
+00:23:03,731 --> 00:23:05,946
+Autobusová zastávka, rozumím.
+
+400
+00:23:05,970 --> 00:23:11,171
+Ano, odtud nastupte do autobusu číslo jedna.
+
+401
+00:23:11,194 --> 00:23:13,995
+Autobus číslo jedna, ano?
+
+402
+00:23:14,018 --> 00:23:19,194
+Ten autobus jede na nádraží, je to velmi pohodlné.
+
+403
+00:23:19,217 --> 00:23:21,684
+Kolik minut to trvá autobusem?
+
+404
+00:23:21,707 --> 00:23:24,722
+Asi pět minut.
+
+405
+00:23:24,745 --> 00:23:28,145
+Je to blízko, takže tam budete hned.
+
+406
+00:23:28,168 --> 00:23:30,001
+To je dobře.
+
+407
+00:23:30,024 --> 00:23:31,827
+Ulevilo se mi.
+
+408
+00:23:31,850 --> 00:23:37,417
+Dnes je velké horko, tak hodně pijte.
+
+409
+00:23:37,440 --> 00:23:39,929
+Ano, budu.
+
+410
+00:23:39,953 --> 00:23:43,519
+Tak opatrně na cestu.
+
+411
+00:23:43,542 --> 00:23:46,996
+Mockrát vám děkuji.
+
+412
+00:23:47,019 --> 00:23:48,519
+Scéna 12: Žádost o svolení / Jak požádat o povolení v konverzaci
+
+413
+00:23:48,519 --> 00:23:50,519
+Promiňte.
+
+414
+00:23:50,542 --> 00:23:54,216
+Můžu si tady vyfotit?
+
+415
+00:23:54,240 --> 00:23:59,131
+Ne, tady se fotit nesmí.
+
+416
+00:23:59,154 --> 00:24:02,001
+Aha, tak dobře.
+
+417
+00:24:02,024 --> 00:24:04,191
+Proč ne?
+
+418
+00:24:04,214 --> 00:24:10,014
+Protože tu máme hodně starých fotografií.
+
+419
+00:24:10,037 --> 00:24:11,672
+Rozumím.
+
+420
+00:24:11,696 --> 00:24:15,729
+Tak můžu jít tamhle?
+
+421
+00:24:15,752 --> 00:24:20,559
+Ne, tamhle nesmíte.
+
+422
+00:24:20,582 --> 00:24:23,116
+Tam taky ne?
+
+423
+00:24:23,139 --> 00:24:29,139
+Ne, tam je kancelář ředitele firmy.
+
+424
+00:24:29,162 --> 00:24:30,775
+Rozumím.
+
+425
+00:24:30,798 --> 00:24:35,031
+Tak kde si můžu odpočinout?
+
+426
+00:24:35,054 --> 00:24:38,343
+Odpočinková místnost je tamhle.
+
+427
+00:24:38,366 --> 00:24:41,933
+Tam si můžete zakouřit.
+
+428
+00:24:41,956 --> 00:24:44,589
+Můžu si dát čaj?
+
+429
+00:24:44,612 --> 00:24:46,281
+Ano.
+
+430
+00:24:46,305 --> 00:24:49,601
+Čaj i džus máme, vyberte si.
+
+431
+00:24:49,625 --> 00:24:51,960
+Máme toho spoustu.
+
+432
+00:24:51,983 --> 00:24:54,117
+To je skvělé.
+
+433
+00:24:54,140 --> 00:24:57,475
+Můžu použít tenhle počítač?
+
+434
+00:24:57,498 --> 00:25:02,965
+Ne, tenhle počítač nesmíte používat.
+
+435
+00:25:02,988 --> 00:25:05,562
+Čí je to počítač?
+
+436
+00:25:05,585 --> 00:25:08,852
+To je počítač pana Tanaky.
+
+437
+00:25:08,875 --> 00:25:11,441
+Na ten nesmíte sahat.
+
+438
+00:25:11,464 --> 00:25:13,300
+Rozumím.
+
+439
+00:25:13,324 --> 00:25:17,691
+Tak co, můžu se aspoň podívat na svůj mobil?
+
+440
+00:25:17,714 --> 00:25:19,450
+Ano.
+
+441
+00:25:19,473 --> 00:25:22,307
+Mobil vám nevadí.
+
+442
+00:25:22,330 --> 00:25:24,426
+To je dobře.
+
+443
+00:25:24,449 --> 00:25:29,699
+Ale během pracovní doby si nehrajte.
+
+444
+00:25:29,723 --> 00:25:32,332
+Ano, rozumím.
+
+445
+00:25:32,356 --> 00:25:34,189
+Budu dávat pozor.
+
+446
+00:25:34,212 --> 00:25:39,079
+Takže ve dvanáct hodin přijďte do té místnosti.
+
+447
+00:25:39,102 --> 00:25:41,768
+Ano, rozumím.
+
+448
+00:25:41,791 --> 00:25:44,358
+Děkuji, prosím.
+
+449
+00:25:44,381 --> 00:25:45,881
+Scéna 13: Telefonní hovor
+
+450
+00:25:45,881 --> 00:25:50,097
+Haló, co teď děláš?
+
+451
+00:25:50,120 --> 00:25:55,559
+Haló, teď poslouchám doma hudbu.
+
+452
+00:25:55,582 --> 00:25:57,228
+To zní dobře.
+
+453
+00:25:57,251 --> 00:26:00,385
+Jakou hudbu posloucháš?
+
+454
+00:26:00,408 --> 00:26:04,492
+Poslouchám staré japonské písničky.
+
+455
+00:26:04,515 --> 00:26:06,281
+Aha, tak to je.
+
+456
+00:26:06,304 --> 00:26:09,271
+Už jsi jedl?
+
+457
+00:26:09,294 --> 00:26:11,061
+Jo.
+
+458
+00:26:11,084 --> 00:26:14,284
+Před chvílí jsem snědl oběd.
+
+459
+00:26:14,307 --> 00:26:17,164
+Dnes jsi někam šel?
+
+460
+00:26:17,187 --> 00:26:19,254
+Hmm.
+
+461
+00:26:19,277 --> 00:26:24,526
+Dnes prší, tak jsem celý den doma.
+
+462
+00:26:24,550 --> 00:26:26,124
+Aha, tak to je.
+
+463
+00:26:26,147 --> 00:26:29,514
+A co teď dělá Mark?
+
+464
+00:26:29,537 --> 00:26:34,580
+Mark spí v sousedním pokoji.
+
+465
+00:26:34,603 --> 00:26:37,471
+Cože, už spí?
+
+466
+00:26:37,494 --> 00:26:39,694
+To je brzo.
+
+467
+00:26:39,717 --> 00:26:41,650
+Jo.
+
+468
+00:26:41,673 --> 00:26:47,807
+Dnes od rána hodně pracoval, tak je unavený.
+
+469
+00:26:47,830 --> 00:26:49,763
+Aha.
+
+470
+00:26:49,786 --> 00:26:52,953
+Zítra v kolik hodin vstáváš?
+
+471
+00:26:52,976 --> 00:26:56,619
+Zítra vstávám v šest.
+
+472
+00:26:56,642 --> 00:26:59,128
+To je brzo ráno.
+
+473
+00:26:59,151 --> 00:27:01,318
+Zítra taky pracuješ?
+
+474
+00:27:01,341 --> 00:27:03,189
+Jo.
+
+475
+00:27:03,212 --> 00:27:06,745
+Zítra mám od rána práci.
+
+476
+00:27:06,768 --> 00:27:09,035
+To je náročné.
+
+477
+00:27:09,058 --> 00:27:12,591
+Venku pořád ještě prší?
+
+478
+00:27:12,614 --> 00:27:14,448
+Jo.
+
+479
+00:27:14,471 --> 00:27:17,743
+Pořád hodně prší.
+
+480
+00:27:17,767 --> 00:27:20,007
+A taky fouká silný vítr.
+
+481
+00:27:20,030 --> 00:27:23,438
+Takže asi nikam nepůjdeš, co?
+
+482
+00:27:23,461 --> 00:27:25,529
+Aha, tak to je.
+
+483
+00:27:25,553 --> 00:27:29,489
+Proto čtu doma knihu.
+
+484
+00:27:29,512 --> 00:27:32,712
+Jakou knihu čteš?
+
+485
+00:27:32,735 --> 00:27:36,668
+Čtu učebnici japonštiny.
+
+486
+00:27:36,691 --> 00:27:38,225
+To je skvělé.
+
+487
+00:27:38,248 --> 00:27:41,281
+Hodně štěstí při studiu!
+
+488
+00:27:41,304 --> 00:27:42,798
+Děkuji.
+
+489
+00:27:42,822 --> 00:27:45,355
+Ještě se ozvu.
+
+490
+00:27:45,378 --> 00:27:46,878
+Scéna 14: Představení rodiny / Představujeme mou rodinu
+
+491
+00:27:46,878 --> 00:27:50,568
+Čí je tohle fotka?
+
+492
+00:27:50,591 --> 00:27:55,225
+To je fotka mé rodiny.
+
+493
+00:27:55,248 --> 00:27:58,663
+Páni, to je nádherná fotka!
+
+494
+00:27:58,686 --> 00:28:01,886
+Kolik máš členů v rodině?
+
+495
+00:28:01,909 --> 00:28:05,320
+Máme čtyři členy.
+
+496
+00:28:05,344 --> 00:28:09,184
+Mám manželku a dvě děti.
+
+497
+00:28:09,207 --> 00:28:13,090
+Kdo je ten vysoký člověk?
+
+498
+00:28:13,114 --> 00:28:16,880
+To je můj syn.
+
+499
+00:28:16,903 --> 00:28:20,270
+Váš syn má velké oči, že?
+
+500
+00:28:20,293 --> 00:28:25,582
+Ano, můj syn má dlouhé vlasy.
+
+501
+00:28:25,606 --> 00:28:29,139
+A navíc skvěle zpívá!
+
+502
+00:28:29,162 --> 00:28:31,261
+To zní dobře.
+
+503
+00:28:31,285 --> 00:28:35,485
+Kdo je ta roztomilá holčička?
+
+504
+00:28:35,508 --> 00:28:39,041
+To je moje dcera.
+
+505
+00:28:39,064 --> 00:28:42,731
+Má dcera je letos šest let.
+
+506
+00:28:42,754 --> 00:28:46,587
+Vaše dcera má malé ručičky, že?
+
+507
+00:28:46,610 --> 00:28:52,856
+Ano. Moje dcera teď každý den chodí do školy.
+
+508
+00:28:52,879 --> 00:28:55,246
+Každý den?
+
+509
+00:28:55,269 --> 00:28:58,436
+To musí být rušné.
+
+510
+00:28:58,459 --> 00:29:02,592
+Ano. Každý den je to velmi rušné.
+
+511
+00:29:02,615 --> 00:29:05,548
+Kde je vaše manželka?
+
+512
+00:29:05,571 --> 00:29:09,771
+Moje manželka je ta osoba vpravo.
+
+513
+00:29:09,794 --> 00:29:13,128
+Je vaše manželka tichá?
+
+514
+00:29:13,152 --> 00:29:17,620
+Ne, má žena je velmi upovídaná.
+
+515
+00:29:17,643 --> 00:29:20,416
+Je velmi energická.
+
+516
+00:29:20,440 --> 00:29:24,687
+To zní jako zábavná rodina!
+
+517
+00:29:24,711 --> 00:29:30,111
+Ano. Všichni v mé rodině mají rádi fotoaparáty.
+
+518
+00:29:30,134 --> 00:29:34,753
+Proto máte tolik krásných fotek.
+
+519
+00:29:34,777 --> 00:29:38,629
+Ano. Fotíme každý den.
+
+520
+00:29:38,652 --> 00:29:41,300
+To je záviděníhodné.
+
+521
+00:29:41,324 --> 00:29:45,793
+Moje rodina je teď ve Vietnamu.
+
+522
+00:29:45,816 --> 00:29:49,817
+To musí být smutné.
+
+523
+00:29:49,841 --> 00:29:55,379
+Ano. Ale každý den si voláme.
+
+524
+00:29:55,402 --> 00:29:56,902
+Scéna 15: Nedělní focení / Nedělní fotografování v parku
+
+525
+00:29:56,902 --> 00:30:01,195
+Jaké máš plány na tuto neděli?
+
+526
+00:30:01,219 --> 00:30:07,785
+Tuto neděli jdeme do parku fotit.
+
+527
+00:30:07,808 --> 00:30:09,688
+Do parku?
+
+528
+00:30:09,712 --> 00:30:11,545
+To zní skvěle!
+
+529
+00:30:11,568 --> 00:30:14,207
+Do kterého parku?
+
+530
+00:30:14,230 --> 00:30:19,564
+Do velkého parku ve středu města.
+
+531
+00:30:19,587 --> 00:30:24,323
+Tam je klid a krásně, to bude fajn.
+
+532
+00:30:24,346 --> 00:30:31,512
+Ano. Tato neděle bude mít hezké počasí a bude příjemně.
+
+533
+00:30:31,535 --> 00:30:34,735
+S kým tam jdeš?
+
+534
+00:30:34,758 --> 00:30:38,958
+Půjdu s kamarádem Markem.
+
+535
+00:30:38,981 --> 00:30:42,348
+Marek má taky fotoaparát?
+
+536
+00:30:42,371 --> 00:30:43,841
+Ano.
+
+537
+00:30:43,865 --> 00:30:49,398
+Marek si koupil nový a velký fotoaparát.
+
+538
+00:30:49,421 --> 00:30:51,621
+Aha, rozumím.
+
+539
+00:30:51,644 --> 00:30:55,577
+Také bych chtěl jít do toho parku.
+
+540
+00:30:55,600 --> 00:30:59,055
+Tak pojďme spolu.
+
+541
+00:30:59,079 --> 00:31:01,116
+Dobře?
+
+542
+00:31:01,140 --> 00:31:03,173
+To mě těší.
+
+543
+00:31:03,196 --> 00:31:08,196
+Sejdeme se v neděli v devět ráno před nádražím.
+
+544
+00:31:08,219 --> 00:31:10,287
+Rozumím.
+
+545
+00:31:10,311 --> 00:31:13,154
+Jak se dostaneš na nádraží?
+
+546
+00:31:13,178 --> 00:31:16,311
+Já pojedu na kole.
+
+547
+00:31:16,334 --> 00:31:19,067
+Nádraží je blízko.
+
+548
+00:31:19,090 --> 00:31:21,890
+Já pojedu autobusem.
+
+549
+00:31:21,913 --> 00:31:26,280
+Autobus je pohodlný a levný, to je skvělé.
+
+550
+00:31:26,303 --> 00:31:27,936
+Ano.
+
+551
+00:31:27,959 --> 00:31:32,560
+Je poblíž parku nějaká dobrá restaurace?
+
+552
+00:31:32,584 --> 00:31:34,455
+Ano.
+
+553
+00:31:34,478 --> 00:31:39,812
+Před parkem je nová a dobrá restaurace.
+
+554
+00:31:39,835 --> 00:31:43,235
+Nová a stará?
+
+555
+00:31:43,258 --> 00:31:45,858
+To je zajímavé.
+
+556
+00:31:45,880 --> 00:31:50,337
+Tamější kari je levné a výborné.
+
+557
+00:31:50,361 --> 00:31:55,100
+Tak si tam půjdeme na oběd.
+
+558
+00:31:55,123 --> 00:31:57,923
+Ano, pojďme.
+
+559
+00:31:57,946 --> 00:32:00,439
+Už se těším.
+
+560
+00:32:00,462 --> 00:32:01,962
+Scéna 16: Dojmy z filmu / Filmové dojmy
+
+561
+00:32:01,962 --> 00:32:06,035
+Včera jsem viděl nový film.
+
+562
+00:32:06,059 --> 00:32:07,711
+Aha, rozumím.
+
+563
+00:32:07,734 --> 00:32:10,703
+Jaký film jsi viděl?
+
+564
+00:32:10,727 --> 00:32:14,460
+Ten slavný animovaný film.
+
+565
+00:32:14,483 --> 00:32:17,516
+Aha, ten film.
+
+566
+00:32:17,539 --> 00:32:19,673
+Jaký byl?
+
+567
+00:32:19,696 --> 00:32:25,096
+Myslím, že ten film byl trochu dlouhý.
+
+568
+00:32:25,119 --> 00:32:28,552
+Jak dlouhý byl?
+
+569
+00:32:28,575 --> 00:32:31,387
+Trval asi tři hodiny.
+
+570
+00:32:31,410 --> 00:32:33,943
+Byla jsem hrozně unavená.
+
+571
+00:32:33,966 --> 00:32:37,500
+Tři hodiny, to je dlouho.
+
+572
+00:32:37,523 --> 00:32:39,894
+Byl zajímavý?
+
+573
+00:32:39,917 --> 00:32:45,410
+Hmm, myslím, že moc zajímavý nebyl.
+
+574
+00:32:45,434 --> 00:32:48,116
+Opravdu?
+
+575
+00:32:48,139 --> 00:32:51,306
+Proč nebyl zajímavý?
+
+576
+00:32:51,329 --> 00:32:55,147
+Příběh byl trochu složitý.
+
+577
+00:32:55,170 --> 00:32:57,805
+Nebylo mi to moc jasné.
+
+578
+00:32:57,829 --> 00:32:59,862
+Chápu.
+
+579
+00:32:59,885 --> 00:33:03,485
+Pro děti to byl složitý příběh?
+
+580
+00:33:03,508 --> 00:33:04,975
+Ano.
+
+581
+00:33:04,998 --> 00:33:08,731
+Myslím, že pro děti byl moc složitý.
+
+582
+00:33:08,754 --> 00:33:11,572
+Jaká byla hudba?
+
+583
+00:33:11,595 --> 00:33:15,962
+Hudba byla moc krásná a líbila se mi.
+
+584
+00:33:15,985 --> 00:33:19,672
+To je skvělé, že hudba byla dobrá.
+
+585
+00:33:19,696 --> 00:33:24,496
+Ano, ale sedadla v kině byla tvrdá.
+
+586
+00:33:24,519 --> 00:33:27,285
+To muselo být nepříjemné.
+
+587
+00:33:27,308 --> 00:33:30,316
+Bolel tě zadek?
+
+588
+00:33:30,339 --> 00:33:31,906
+Ano.
+
+589
+00:33:31,929 --> 00:33:35,227
+Hrozně mě bolel zadek.
+
+590
+00:33:35,251 --> 00:33:40,231
+Proto mi ty tři hodiny připadaly ještě delší.
+
+591
+00:33:40,254 --> 00:33:42,331
+Přesně tak.
+
+592
+00:33:42,355 --> 00:33:45,208
+Uprostřed jsem začala být ospalá.
+
+593
+00:33:45,231 --> 00:33:48,664
+V kině je tma, to se stává.
+
+594
+00:33:48,687 --> 00:33:51,721
+I já často usínám.
+
+595
+00:33:51,744 --> 00:33:55,977
+Ale nakonec jsem to zvládl až do konce.
+
+596
+00:33:56,000 --> 00:33:57,835
+To je skvělé!
+
+597
+00:33:57,858 --> 00:34:01,392
+Mluvil o tom něco tvůj kamarád?
+
+598
+00:34:01,415 --> 00:34:06,248
+Kamarád říkal, že to bylo opravdu vtipné.
+
+599
+00:34:06,271 --> 00:34:09,889
+Každý má jiný názor, že?
+
+600
+00:34:09,913 --> 00:34:15,648
+Jo, kamarád říkal, že se na to příští týden půjde podívat znovu.
+
+601
+00:34:15,671 --> 00:34:17,766
+Opravdu?
+
+602
+00:34:17,790 --> 00:34:20,556
+Teda, fakt se mu to líbilo.
+
+603
+00:34:20,579 --> 00:34:22,227
+Ano.
+
+604
+00:34:22,250 --> 00:34:25,653
+Já už se na to dívat nechci.
+
+605
+00:34:25,677 --> 00:34:29,810
+Příště bychom měli jít na nějaký krátký film.
+
+606
+00:34:29,833 --> 00:34:31,466
+To jo.
+
+607
+00:34:31,489 --> 00:34:36,130
+Příště bych chtěl vidět nějakou zábavnou komedii.
+
+608
+00:34:36,154 --> 00:34:38,233
+To zní dobře.
+
+609
+00:34:38,256 --> 00:34:41,789
+Příště bych šel s vámi.
+
+610
+00:34:41,812 --> 00:34:43,312
+Scéna 17: Příprava na schůzku a pochůzky
+
+611
+00:34:43,312 --> 00:34:47,769
+Dnes jsi viděl Marka?
+
+612
+00:34:47,792 --> 00:34:51,827
+Ne, dnes jsem ho ještě neviděl.
+
+613
+00:34:51,851 --> 00:34:54,339
+Stalo se něco?
+
+614
+00:34:54,362 --> 00:35:01,530
+Marek říkal, že zítra sem nepřijde.
+
+615
+00:35:01,553 --> 00:35:05,287
+Cože, zítra nepřijde?
+
+616
+00:35:05,310 --> 00:35:07,243
+Proč ne?
+
+617
+00:35:07,266 --> 00:35:14,204
+Říkal, že zítra má od rána důležitou záležitost.
+
+618
+00:35:14,227 --> 00:35:16,161
+Aha, rozumím.
+
+619
+00:35:16,184 --> 00:35:19,584
+A co zítřejší schůzka?
+
+620
+00:35:19,607 --> 00:35:25,740
+Říkal, že materiály na schůzku udělá ještě dnes.
+
+621
+00:35:25,763 --> 00:35:28,412
+Tak to je dobře.
+
+622
+00:35:28,435 --> 00:35:32,269
+Kde je teď Marek?
+
+623
+00:35:32,292 --> 00:35:37,058
+Teď pracuje v jiné kanceláři.
+
+624
+00:35:37,081 --> 00:35:38,781
+Rozumím.
+
+625
+00:35:38,804 --> 00:35:41,061
+Za chvíli se za ním podívám.
+
+626
+00:35:41,084 --> 00:35:46,918
+Aha, a ještě mi nechal vzkaz.
+
+627
+00:35:46,941 --> 00:35:49,074
+Jaký vzkaz?
+
+628
+00:35:49,097 --> 00:35:54,264
+Říkal, že vrátil knihu panu Tanakovi.
+
+629
+00:35:54,287 --> 00:35:56,087
+Knihu?
+
+630
+00:35:56,110 --> 00:35:58,477
+Jakou knihu?
+
+631
+00:35:58,500 --> 00:36:02,466
+Říkal, že japonský slovník.
+
+632
+00:36:02,489 --> 00:36:04,124
+Rozumím.
+
+633
+00:36:04,147 --> 00:36:06,590
+Povím to panu Tanakovi.
+
+634
+00:36:06,614 --> 00:36:08,694
+Děkuji, prosím.
+
+635
+00:36:08,718 --> 00:36:12,685
+Marek byl dnes hodně ve spěchu.
+
+636
+00:36:12,708 --> 00:36:15,741
+Má asi hodně příprav na tu záležitost, co?
+
+637
+00:36:15,764 --> 00:36:22,036
+Ne, říkal, že je celý týden zaneprázdněný.
+
+638
+00:36:22,059 --> 00:36:25,116
+Není mu nic? Snad je v pořádku.
+
+639
+00:36:25,140 --> 00:36:26,550
+To je starost.
+
+640
+00:36:26,574 --> 00:36:32,857
+Říkal, že každou noc dobře spí, takže je v pohodě.
+
+641
+00:36:32,880 --> 00:36:35,485
+To jsem rád, že to slyším.
+
+642
+00:36:35,509 --> 00:36:41,043
+Říkal, že příští pondělí přijde brzy.
+
+643
+00:36:41,066 --> 00:36:42,866
+Rozumím.
+
+644
+00:36:42,889 --> 00:36:45,364
+V pondělí si s ním zase promluvím.
+
+645
+00:36:45,387 --> 00:36:46,847
+Ano.
+
+646
+00:36:46,871 --> 00:36:49,204
+To byl celý vzkaz.
+
+647
+00:36:49,227 --> 00:36:51,828
+Děkuju, žes mi to řekl.
+
+648
+00:36:51,852 --> 00:36:56,866
+Není zač, kdyby něco, dám vědět.
+
+649
+00:36:56,889 --> 00:36:58,123
+Ano.
+
+650
+00:36:58,146 --> 00:37:00,346
+Děkuji, prosím.
+
+651
+00:37:00,369 --> 00:37:01,869
+Scéna 18: Koníčky a vaření
+
+652
+00:37:01,869 --> 00:37:05,202
+Jaký máš koníček?
+
+653
+00:37:05,225 --> 00:37:09,431
+Mým koníčkem je vaření.
+
+654
+00:37:09,454 --> 00:37:12,254
+Vaříte? To je skvělé.
+
+655
+00:37:12,277 --> 00:37:14,765
+Vaříte každý den?
+
+656
+00:37:14,789 --> 00:37:16,189
+Ano.
+
+657
+00:37:16,212 --> 00:37:20,480
+Moc ráda vařím.
+
+658
+00:37:20,503 --> 00:37:23,508
+Jaká jídla často vaříte?
+
+659
+00:37:23,531 --> 00:37:26,777
+Často vařím japonská jídla.
+
+660
+00:37:26,800 --> 00:37:29,488
+Nikku-jaga mi opravdu jde.
+
+661
+00:37:29,512 --> 00:37:32,245
+Jé, nikku-jaga?
+
+662
+00:37:32,268 --> 00:37:34,285
+Chtěla bych to ochutnat.
+
+663
+00:37:34,309 --> 00:37:38,475
+Co kdybychom příště uspořádali u mě doma párty?
+
+664
+00:37:38,498 --> 00:37:40,349
+To zní skvěle!
+
+665
+00:37:40,373 --> 00:37:42,464
+Určitě přijdu!
+
+666
+00:37:42,488 --> 00:37:45,126
+Jaký máš koníček?
+
+667
+00:37:45,149 --> 00:37:49,116
+Mám ráda zpěv.
+
+668
+00:37:49,139 --> 00:37:52,106
+Zpěv? To zní skvěle.
+
+669
+00:37:52,129 --> 00:37:54,462
+Kde zpíváte?
+
+670
+00:37:54,485 --> 00:37:57,652
+Často chodím do karaoke a zpívám.
+
+671
+00:37:57,674 --> 00:38:00,679
+Mark říkal...
+
+672
+00:38:00,703 --> 00:38:03,937
+Co říkal Mark?
+
+673
+00:38:03,960 --> 00:38:07,960
+Prý zpíváš moc hezky.
+
+674
+00:38:07,982 --> 00:38:11,749
+Opravdu to Mark říkal?
+
+675
+00:38:11,773 --> 00:38:13,707
+To je mi trochu trapné.
+
+676
+00:38:13,730 --> 00:38:17,096
+Zazpívej nám na té párty, prosím.
+
+677
+00:38:17,119 --> 00:38:18,815
+Rozumím.
+
+678
+00:38:18,839 --> 00:38:20,973
+Zazpívám aspoň kousek.
+
+679
+00:38:20,996 --> 00:38:23,238
+Už se těším!
+
+680
+00:38:23,262 --> 00:38:26,495
+Připravím spoustu jídla.
+
+681
+00:38:26,518 --> 00:38:30,764
+Já ráda nakupuji sladkosti, tak nějaké přinesu.
+
+682
+00:38:30,788 --> 00:38:32,388
+Děkuji.
+
+683
+00:38:32,411 --> 00:38:35,218
+Mám moc ráda sladké.
+
+684
+00:38:35,242 --> 00:38:37,724
+Pozveme taky Marka.
+
+685
+00:38:37,747 --> 00:38:42,747
+Jo. Mark umí skvěle hrát na kytaru.
+
+686
+00:38:42,770 --> 00:38:44,637
+Opravdu?
+
+687
+00:38:44,660 --> 00:38:47,831
+Tak si užijeme hudbu všichni spolu.
+
+688
+00:38:47,855 --> 00:38:52,221
+Ano, bude to opravdu veselá párty.
+
+689
+00:38:52,244 --> 00:38:55,178
+Už se na neděli moc těším.
+
+690
+00:38:55,201 --> 00:38:58,860
+Ano, těším se na vás v neděli.
+
+691
+00:38:58,883 --> 00:39:00,383
+Scéna 19: Odpočinek v obchodě za horkého dne
+
+692
+00:39:00,383 --> 00:39:04,552
+Páni, už jsme trochu nachodili.
+
+693
+00:39:04,575 --> 00:39:07,184
+Jsem unavená.
+
+694
+00:39:07,208 --> 00:39:09,341
+To jo.
+
+695
+00:39:09,364 --> 00:39:13,498
+Venku je opravdu horko.
+
+696
+00:39:13,521 --> 00:39:16,754
+Mám žízeň.
+
+697
+00:39:16,777 --> 00:39:18,311
+Ano.
+
+698
+00:39:18,334 --> 00:39:21,701
+Tamhle je obchod.
+
+699
+00:39:21,724 --> 00:39:25,217
+Koupíme si něco v obchodě?
+
+700
+00:39:25,241 --> 00:39:29,274
+Chtěla bych studený čaj.
+
+701
+00:39:29,297 --> 00:39:31,130
+To zní skvěle!
+
+702
+00:39:31,153 --> 00:39:34,753
+Já bych si dala perlivou vodu.
+
+703
+00:39:34,776 --> 00:39:38,710
+Koupíte si něco k jídlu?
+
+704
+00:39:38,733 --> 00:39:44,466
+Já teď nemám hlad, nic nechci.
+
+705
+00:39:44,489 --> 00:39:46,061
+Aha, rozumím.
+
+706
+00:39:46,084 --> 00:39:50,151
+Já mám trochu hlad.
+
+707
+00:39:50,174 --> 00:39:54,189
+Tak si kup nějaký onigiri.
+
+708
+00:39:54,213 --> 00:39:56,946
+Ano, budu.
+
+709
+00:39:56,969 --> 00:40:00,010
+Mám ráda onigiri se lososem.
+
+710
+00:40:00,033 --> 00:40:03,800
+Zmrzlina z obchodu je taky výborná.
+
+711
+00:40:03,823 --> 00:40:06,637
+Zmrzlina?
+
+712
+00:40:06,660 --> 00:40:08,794
+To zní skvěle!
+
+713
+00:40:08,817 --> 00:40:13,883
+Ale neměla bych teď raději nic nejíst?
+
+714
+00:40:13,906 --> 00:40:15,963
+Proč ne?
+
+715
+00:40:15,987 --> 00:40:20,405
+Za hodinu je čas na večeři.
+
+716
+00:40:20,429 --> 00:40:23,965
+Ach, zapomněl jsem.
+
+717
+00:40:23,988 --> 00:40:27,885
+Takže si onigiri dám jiný den.
+
+718
+00:40:27,908 --> 00:40:31,642
+Jo, dáme si jenom pití.
+
+719
+00:40:31,665 --> 00:40:33,431
+Rozumím.
+
+720
+00:40:33,454 --> 00:40:36,462
+Koupíme si něco studeného k pití.
+
+721
+00:40:36,486 --> 00:40:39,720
+Zaplatím to já.
+
+722
+00:40:39,743 --> 00:40:42,543
+Fakt? To nemusíš.
+
+723
+00:40:42,566 --> 00:40:43,932
+Promiňte.
+
+724
+00:40:43,955 --> 00:40:49,591
+Vždyť mi pořád pomáháš, tohle je to nejmenší.
+
+725
+00:40:49,614 --> 00:40:51,548
+Děkuji.
+
+726
+00:40:51,571 --> 00:40:54,704
+Tak mi dej čaj, prosím.
+
+727
+00:40:54,727 --> 00:40:58,961
+Dobře, tak pojďme do obchodu.
+
+728
+00:40:58,985 --> 00:41:02,830
+V obchodě je ale příjemně chladno, že?
+
+729
+00:41:02,853 --> 00:41:05,292
+To teda jo.
+
+730
+00:41:05,315 --> 00:41:07,849
+Vůbec se mi nechce ven.
+
+731
+00:41:07,873 --> 00:41:11,040
+Kde máte ty košíky?
+
+732
+00:41:11,063 --> 00:41:14,396
+Jsou hned u vchodu.
+
+733
+00:41:14,419 --> 00:41:16,186
+Rozumím.
+
+734
+00:41:16,209 --> 00:41:18,142
+Půjdu pro něj.
+
+735
+00:41:18,165 --> 00:41:19,665
+Scéna 20: Vzpomínky na výlet
+
+736
+00:41:19,665 --> 00:41:23,520
+Jaký byl výlet minulý týden?
+
+737
+00:41:23,543 --> 00:41:28,758
+Minulý týden jsem si výlet moc užil.
+
+738
+00:41:28,782 --> 00:41:31,315
+Kam jsi jel?
+
+739
+00:41:31,338 --> 00:41:34,378
+Byl jsem na Hokkaidu.
+
+740
+00:41:34,401 --> 00:41:36,635
+Bylo to poprvé.
+
+741
+00:41:36,658 --> 00:41:40,265
+Hokkaido, jo?
+
+742
+00:41:40,288 --> 00:41:42,466
+Nebylo ti zima?
+
+743
+00:41:42,490 --> 00:41:47,144
+Naštěstí moc ne, bylo to v pohodě.
+
+744
+00:41:47,167 --> 00:41:49,900
+Každý den bylo krásně.
+
+745
+00:41:49,923 --> 00:41:52,656
+To je skvělé.
+
+746
+00:41:52,679 --> 00:41:55,134
+Co jsi tam jedl?
+
+747
+00:41:55,157 --> 00:41:59,003
+Hodně jsem jedl suši.
+
+748
+00:41:59,027 --> 00:42:01,227
+Bylo opravdu výborné.
+
+749
+00:42:01,250 --> 00:42:06,283
+To zní skvěle, taky bych si dal suši.
+
+750
+00:42:06,306 --> 00:42:11,573
+Ryby byly tak čerstvé, že vůbec nevoněly po rybě.
+
+751
+00:42:11,597 --> 00:42:14,130
+Jedl jsi tam i ramen?
+
+752
+00:42:14,153 --> 00:42:15,920
+Jo.
+
+753
+00:42:15,943 --> 00:42:19,425
+Večer jsem si dal miso ramen.
+
+754
+00:42:19,448 --> 00:42:21,300
+Úplně jsem se zahřál.
+
+755
+00:42:21,323 --> 00:42:24,732
+Nebyla ta cesta moc drahá?
+
+756
+00:42:24,755 --> 00:42:29,957
+Letadlo bylo trochu dražší, ale hotel byl levný.
+
+757
+00:42:29,981 --> 00:42:33,215
+Byl hotel hezký?
+
+758
+00:42:33,239 --> 00:42:34,617
+Jo.
+
+759
+00:42:34,640 --> 00:42:39,007
+Byl nový a opravdu krásný.
+
+760
+00:42:39,030 --> 00:42:42,196
+Navštívil jsi nějaká turistická místa?
+
+761
+00:42:42,219 --> 00:42:45,953
+Šel jsem se podívat na velké jezero.
+
+762
+00:42:45,975 --> 00:42:48,811
+Bylo klidné a nádherné.
+
+763
+00:42:48,835 --> 00:42:51,568
+Nafotil jsi hodně fotek?
+
+764
+00:42:51,591 --> 00:42:55,724
+Mobilem jsem jich nafotil asi sto.
+
+765
+00:42:55,747 --> 00:42:57,714
+Ukážu ti je později.
+
+766
+00:42:57,737 --> 00:42:59,304
+Děkuji.
+
+767
+00:42:59,327 --> 00:43:02,369
+Koupil jsi nějaké suvenýry?
+
+768
+00:43:02,393 --> 00:43:06,126
+Koupil jsem výborné sušenky.
+
+769
+00:43:06,149 --> 00:43:08,765
+Tohle je pro tebe.
+
+770
+00:43:08,789 --> 00:43:11,643
+Jé, děkuju!
+
+771
+00:43:11,666 --> 00:43:14,033
+To je od tebe milé.
+
+772
+00:43:14,056 --> 00:43:20,235
+Výlet byl sice fajn, ale cesta byla dlouhá, tak jsem unavená.
+
+773
+00:43:20,258 --> 00:43:23,534
+Kolik hodin jsi letěla?
+
+774
+00:43:23,557 --> 00:43:27,575
+Z Tokia to trvalo asi dvě hodiny.
+
+775
+00:43:27,599 --> 00:43:31,011
+Dvě hodiny? To je docela dlouho, že?
+
+776
+00:43:31,034 --> 00:43:34,434
+Ale stálo to za to, máme teď hezké vzpomínky.
+
+777
+00:43:34,457 --> 00:43:36,352
+Jo.
+
+778
+00:43:36,376 --> 00:43:40,778
+Bylo to opravdu skvělé, takže bych chtěla jet zase.
+
+779
+00:43:40,801 --> 00:43:44,286
+Příště bych chtěla jet s tebou!
+
+780
+00:43:44,310 --> 00:43:45,946
+To zní dobře.
+
+781
+00:43:45,970 --> 00:43:49,770
+Říkala jsi, že v zimě je Hokkaidó taky nádherné.
+
+782
+00:43:49,793 --> 00:43:53,526
+Tak příště pojedeme v zimě.
+
+783
+00:43:53,549 --> 00:43:55,049
+Scéna 21: Představení nového učitele
+
+784
+00:43:55,049 --> 00:44:00,703
+Promiňte, kdo je ten člověk, co tam čte knihu?
+
+785
+00:44:00,726 --> 00:44:05,304
+Á, myslíš toho u okna?
+
+786
+00:44:05,328 --> 00:44:10,895
+Ano, toho s černou čepicí.
+
+787
+00:44:10,918 --> 00:44:16,285
+To je nový učitel, který k nám přišel minulý týden.
+
+788
+00:44:16,308 --> 00:44:18,341
+Aha, rozumím.
+
+789
+00:44:18,364 --> 00:44:21,810
+Jak se jmenuje?
+
+790
+00:44:21,834 --> 00:44:25,067
+Pan Tanaka.
+
+791
+00:44:25,090 --> 00:44:30,773
+Pan Tanaka? A co učí?
+
+792
+00:44:30,797 --> 00:44:35,205
+Učí japonské dějiny.
+
+793
+00:44:35,228 --> 00:44:38,897
+Hm, učitel dějepisu?
+
+794
+00:44:38,920 --> 00:44:41,054
+Vypadá mladě, že?
+
+795
+00:44:41,077 --> 00:44:48,810
+Jo, všichni, kdo s ním včera mluvili, říkali, že je moc milý.
+
+796
+00:44:48,833 --> 00:44:51,306
+To je dobře.
+
+797
+00:44:51,329 --> 00:44:54,342
+Chtěla bych si s ním taky promluvit.
+
+798
+00:44:54,366 --> 00:44:59,808
+Co to asi za knihu čte?
+
+799
+00:44:59,832 --> 00:45:03,065
+Je fakt velká, co?
+
+800
+00:45:03,088 --> 00:45:05,421
+Není to slovník?
+
+801
+00:45:05,444 --> 00:45:11,616
+Ne, je to kniha plná starých fotografií.
+
+802
+00:45:11,640 --> 00:45:15,976
+Hele, pan učitel jde do vedlejší místnosti.
+
+803
+00:45:16,000 --> 00:45:20,267
+Vypadá to, že si bude povídat s tím druhým učitelem.
+
+804
+00:45:20,290 --> 00:45:24,103
+Ta taška, co má s sebou, je taky pěkná.
+
+805
+00:45:24,126 --> 00:45:29,726
+Jo, říkal, že ji koupil v Kjótu.
+
+806
+00:45:29,749 --> 00:45:33,525
+Kjóto? To musí být krásné.
+
+807
+00:45:33,548 --> 00:45:36,236
+Chtěla bych tam taky někdy jet.
+
+808
+00:45:36,260 --> 00:45:41,627
+Prý studoval na univerzitě v Kjótu.
+
+809
+00:45:41,650 --> 00:45:44,816
+Tak proto má Kjóto tak rád, že?
+
+810
+00:45:44,839 --> 00:45:46,909
+To dává smysl.
+
+811
+00:45:46,933 --> 00:45:51,466
+Hele, pan učitel se na nás podíval a usmál se!
+
+812
+00:45:51,489 --> 00:45:54,023
+Fakt?
+
+813
+00:45:54,046 --> 00:45:56,779
+Trochu se stydím.
+
+814
+00:45:56,802 --> 00:45:59,335
+To nic, neboj.
+
+815
+00:45:59,358 --> 00:46:01,558
+Pojďme ho pozdravit.
+
+816
+00:46:01,581 --> 00:46:06,048
+Teď mluví s někým jiným, tak počkáme.
+
+817
+00:46:06,071 --> 00:46:07,804
+To jo.
+
+818
+00:46:07,827 --> 00:46:11,639
+Počkáme tady, než domluví.
+
+819
+00:46:11,663 --> 00:46:16,863
+Dobře. Hele, kdo je ten člověk, co tam jí dort?
+
+820
+00:46:16,886 --> 00:46:20,552
+To je Mark.
+
+821
+00:46:20,575 --> 00:46:23,109
+Pořád jí, co?
+
+822
+00:46:23,132 --> 00:46:28,465
+Hihi, Mark prostě miluje jídlo.
+
+823
+00:46:28,488 --> 00:46:33,288
+Jo, a navíc vaří fakt dobře.
+
+824
+00:46:33,311 --> 00:46:37,956
+Chtěla bych ochutnat, co uvaří.
+
+825
+00:46:37,979 --> 00:46:42,312
+Tak příště uspořádáme večírek!
+
+826
+00:46:42,335 --> 00:46:43,835
+Scéna 22: Problémy před termínem odevzdání zprávy
+
+827
+00:46:43,835 --> 00:46:48,724
+Marku, už jsi odevzdal tu zprávu?
+
+828
+00:46:48,748 --> 00:46:53,435
+Ne, tu zprávu jsem ještě nenapsal.
+
+829
+00:46:53,458 --> 00:46:55,991
+Cože, opravdu?
+
+830
+00:46:56,014 --> 00:46:58,912
+Máš čas do zítřejšího rána, víš?
+
+831
+00:46:58,936 --> 00:47:03,936
+Ano, vím, ale ještě jsem neskončil.
+
+832
+00:47:03,959 --> 00:47:05,935
+Proč ne?
+
+833
+00:47:05,958 --> 00:47:09,002
+Měl jsi přece spoustu času, ne?
+
+834
+00:47:09,026 --> 00:47:13,761
+Můj počítač se pokazil a data se smazala.
+
+835
+00:47:13,784 --> 00:47:16,793
+To muselo být nepříjemné.
+
+836
+00:47:16,816 --> 00:47:19,149
+A teď je všechno v pořádku?
+
+837
+00:47:19,172 --> 00:47:25,187
+Ano, půjčil jsem si počítač od kamaráda a teď píšu.
+
+838
+00:47:25,211 --> 00:47:27,611
+Kolik už máš napsáno?
+
+839
+00:47:27,634 --> 00:47:29,867
+Tak asi polovinu?
+
+840
+00:47:29,890 --> 00:47:34,457
+Ne, zatím jsem napsal jenom trochu.
+
+841
+00:47:34,480 --> 00:47:36,680
+Jsem nervózní.
+
+842
+00:47:36,703 --> 00:47:41,103
+Dnes budeš muset pracovat dlouho do noci, co?
+
+843
+00:47:41,126 --> 00:47:44,926
+Ano, dneska nebudu spát a budu psát.
+
+844
+00:47:44,949 --> 00:47:47,515
+Není ti špatně?
+
+845
+00:47:47,538 --> 00:47:50,338
+Nepřepínej se, prosím.
+
+846
+00:47:50,361 --> 00:47:52,561
+Děkuji.
+
+847
+00:47:52,584 --> 00:47:56,624
+Ale když to neodevzdám, budu mít problémy.
+
+848
+00:47:56,648 --> 00:48:00,421
+Už jsi někoho poprosil o kontrolu kandži?
+
+849
+00:48:00,445 --> 00:48:04,845
+Ne, ještě jsem nikoho nepožádal.
+
+850
+00:48:04,868 --> 00:48:08,736
+Tak já ti pomůžu, co říkáš?
+
+851
+00:48:08,759 --> 00:48:11,359
+Fakt?
+
+852
+00:48:11,382 --> 00:48:13,749
+To by mi moc pomohlo.
+
+853
+00:48:13,772 --> 00:48:17,744
+Ukaž mi, co už máš hotové.
+
+854
+00:48:17,768 --> 00:48:19,737
+Rozumím.
+
+855
+00:48:19,760 --> 00:48:23,832
+Ale ještě nemám hotovou ani jednu stránku.
+
+856
+00:48:23,855 --> 00:48:26,388
+Pospěš si!
+
+857
+00:48:26,411 --> 00:48:29,296
+Čas utíká!
+
+858
+00:48:29,320 --> 00:48:33,939
+Ano, hned začnu rychle psát.
+
+859
+00:48:33,963 --> 00:48:37,234
+Už jsi něco snědl?
+
+860
+00:48:37,257 --> 00:48:41,424
+Ne, ještě jsem nic nejedl.
+
+861
+00:48:41,446 --> 00:48:43,784
+Mám hlad.
+
+862
+00:48:43,807 --> 00:48:48,974
+Tak já skočím do obchodu a něco koupím.
+
+863
+00:48:48,997 --> 00:48:50,397
+Promiňte.
+
+864
+00:48:50,421 --> 00:48:53,388
+Prosím, dva onigiri.
+
+865
+00:48:53,411 --> 00:48:55,491
+Rozumím.
+
+866
+00:48:55,514 --> 00:48:57,985
+A koupím i čaj.
+
+867
+00:48:58,009 --> 00:48:59,648
+Děkuji.
+
+868
+00:48:59,671 --> 00:49:02,684
+Peníze ti pak vrátím.
+
+869
+00:49:02,708 --> 00:49:04,641
+To je v pohodě.
+
+870
+00:49:04,664 --> 00:49:07,513
+Teď se hlavně soustřeď na tu zprávu.
+
+871
+00:49:07,536 --> 00:49:09,349
+Ano.
+
+872
+00:49:09,373 --> 00:49:14,551
+Mám tak hodného staršího kolegu, jsem opravdu šťastný.
+
+873
+00:49:14,574 --> 00:49:16,449
+No tak, no tak.
+
+874
+00:49:16,473 --> 00:49:19,906
+Lichotky nech být a raději piš.
+
+875
+00:49:19,929 --> 00:49:21,938
+Rozumím.
+
+876
+00:49:21,962 --> 00:49:24,695
+Budu se soustředit a dám do toho všechno.
+
+877
+00:49:24,718 --> 00:49:26,218
+Scéna 23: Výběr z menu – rozhovor
+
+878
+00:49:26,218 --> 00:49:29,418
+Tady je toho tolik na výběr!
+
+879
+00:49:29,441 --> 00:49:31,508
+Co si dáš?
+
+880
+00:49:31,530 --> 00:49:33,697
+To teda jo.
+
+881
+00:49:33,720 --> 00:49:39,153
+Nemůžu se rozhodnout, jestli si dát maso, nebo rybu.
+
+882
+00:49:39,177 --> 00:49:44,510
+Ty máš raději maso, nebo rybu?
+
+883
+00:49:44,533 --> 00:49:48,791
+Maso mám raději než rybu.
+
+884
+00:49:48,815 --> 00:49:52,582
+Tak co takhle ten hovězí donburi?
+
+885
+00:49:52,605 --> 00:49:54,872
+Vypadá to dobře.
+
+886
+00:49:54,895 --> 00:49:57,262
+To zní skvěle!
+
+887
+00:49:57,285 --> 00:50:00,618
+A co ten rybí set?
+
+888
+00:50:00,641 --> 00:50:06,374
+Ryby jsou oblíbené, protože jsou zdravé.
+
+889
+00:50:06,397 --> 00:50:08,997
+Které si dáte?
+
+890
+00:50:09,020 --> 00:50:10,894
+Už jste se rozhodli?
+
+891
+00:50:10,918 --> 00:50:15,051
+Dám si tohle kuřecí kari.
+
+892
+00:50:15,074 --> 00:50:18,074
+Mám ráda pálivá jídla.
+
+893
+00:50:18,097 --> 00:50:20,503
+Kari je taky dobré.
+
+894
+00:50:20,527 --> 00:50:23,410
+Vůně sem už doléhá.
+
+895
+00:50:23,434 --> 00:50:27,567
+Udon, nebo soba – co máte raději?
+
+896
+00:50:27,590 --> 00:50:31,323
+Já mám raději sobu.
+
+897
+00:50:31,346 --> 00:50:34,080
+Mám moc ráda studenou sobu.
+
+898
+00:50:34,103 --> 00:50:38,070
+Tento podnik je pro svou sobu taky proslulý.
+
+899
+00:50:38,093 --> 00:50:40,528
+Říkali, že je výborná.
+
+900
+00:50:40,552 --> 00:50:43,490
+Opravdu?
+
+901
+00:50:43,513 --> 00:50:46,925
+Teď se nemůžu rozhodnout.
+
+902
+00:50:46,948 --> 00:50:49,882
+V klidu si rozmyslete.
+
+903
+00:50:49,905 --> 00:50:52,381
+Máme času dost.
+
+904
+00:50:52,405 --> 00:50:58,005
+Jaký džus v této restauraci je lepší – jablečný, nebo pomerančový?
+
+905
+00:50:58,028 --> 00:51:02,761
+Já mám raději jablečný, je sladší.
+
+906
+00:51:02,784 --> 00:51:06,751
+Tak já si dám pomerančový.
+
+907
+00:51:06,774 --> 00:51:09,340
+Mám ráda kyselé věci.
+
+908
+00:51:09,363 --> 00:51:14,232
+Naše chutě jsou opravdu hodně odlišné.
+
+909
+00:51:14,255 --> 00:51:16,111
+To je zajímavé.
+
+910
+00:51:16,135 --> 00:51:21,511
+Ano, proto je s vámi jídlo tak zábavné.
+
+911
+00:51:21,535 --> 00:51:23,168
+To jo.
+
+912
+00:51:23,191 --> 00:51:27,391
+Promiňte, chtěli bychom si objednat.
+
+913
+00:51:27,414 --> 00:51:31,547
+Já se ještě nerozhodla!
+
+914
+00:51:31,570 --> 00:51:34,337
+Ach, promiňte.
+
+915
+00:51:34,360 --> 00:51:38,160
+Rychle se rozhodněte, číšník už jde.
+
+916
+00:51:38,183 --> 00:51:42,659
+Tak já si dám hovězí donburi.
+
+917
+00:51:42,682 --> 00:51:45,572
+Mám hlad.
+
+918
+00:51:45,596 --> 00:51:48,267
+Rozhodla jste se pro maso, že?
+
+919
+00:51:48,290 --> 00:51:49,979
+To je dobře.
+
+920
+00:51:50,003 --> 00:51:54,970
+Ano, stejně chci hodně masa.
+
+921
+00:51:54,993 --> 00:52:00,033
+V menu je i miso polévka, to je příjemné.
+
+922
+00:52:00,056 --> 00:52:05,941
+Ano, teplá polévka je šetrná k tělu.
+
+923
+00:52:05,964 --> 00:52:09,964
+Pojďme si povídat o zítřejších plánech, než přinesou jídlo.
+
+924
+00:52:09,987 --> 00:52:14,405
+Dobře, v kolik hodin zítra vyrážíme?
+
+925
+00:52:14,429 --> 00:52:15,929
+Scéna 24: Vzpomínky na rok
+
+926
+00:52:15,929 --> 00:52:20,362
+Brzy už bude konec této třídy.
+
+927
+00:52:20,386 --> 00:52:22,152
+Bude mi to líto.
+
+928
+00:52:22,175 --> 00:52:24,192
+To teda jo.
+
+929
+00:52:24,216 --> 00:52:29,016
+Ten rok mi připadal opravdu krátký.
+
+930
+00:52:29,039 --> 00:52:34,872
+Které roční období vám letos přineslo nejvíc radosti?
+
+931
+00:52:34,895 --> 00:52:41,128
+Pro mě byl nejhezčí podzim – byl nádherný a zábavný.
+
+932
+00:52:41,151 --> 00:52:43,085
+Podzim?
+
+933
+00:52:43,108 --> 00:52:46,766
+Proč máte nejraději podzim?
+
+934
+00:52:46,789 --> 00:52:51,646
+Protože jsme společně jeli na výlet do hor a obdivovali jsme podzimní listí.
+
+935
+00:52:51,670 --> 00:52:55,121
+Aha, ten výlet!
+
+936
+00:52:55,144 --> 00:52:58,115
+Máme spoustu fotek.
+
+937
+00:52:58,139 --> 00:53:04,577
+Ano, ten den bylo krásně a vůbec nebyla zima.
+
+938
+00:53:04,600 --> 00:53:09,233
+Jaká událost je pro vás největší vzpomínkou?
+
+939
+00:53:09,257 --> 00:53:14,624
+Pro mě to byla zimní řečnická soutěž – byla jsem hrozně nervózní.
+
+940
+00:53:14,647 --> 00:53:20,454
+Ano, tehdy jste každý den hodně trénovala.
+
+941
+00:53:20,477 --> 00:53:27,717
+Ano, ve třídě jsem přečetl nejdelší větu.
+
+942
+00:53:27,740 --> 00:53:32,274
+Cenu jsem sice nedostal, ale bylo to moc pěkné.
+
+943
+00:53:32,297 --> 00:53:33,988
+Děkuji.
+
+944
+00:53:34,012 --> 00:53:36,845
+Stalo se z toho hezká vzpomínka.
+
+945
+00:53:36,868 --> 00:53:42,201
+Který předmět byl ze všech, co jste studoval, nejtěžší?
+
+946
+00:53:42,224 --> 00:53:47,358
+Myslím, že nejtěžší bylo učit se zdvořilou japonštinu.
+
+947
+00:53:47,381 --> 00:53:53,320
+Zdvořilou japonštinu občas popletou i sami Japonci, je to těžké.
+
+948
+00:53:53,343 --> 00:54:00,029
+Ale učitel Tanaka to vysvětloval nejjasněji.
+
+949
+00:54:00,053 --> 00:54:01,453
+To jo.
+
+950
+00:54:01,476 --> 00:54:06,010
+Učitel Tanaka byl vždycky moc hodný.
+
+951
+00:54:06,033 --> 00:54:11,366
+S kým z třídy jste mluvil nejvíc?
+
+952
+00:54:11,389 --> 00:54:16,189
+Nejvíc jsem mluvil s Markem.
+
+953
+00:54:16,212 --> 00:54:21,378
+Mark je vždycky veselý a zábavný, že?
+
+954
+00:54:21,401 --> 00:54:27,070
+Jo, když je Mark ve třídě, je tam hned veselo.
+
+955
+00:54:27,094 --> 00:54:32,431
+Kde bude příští týden třídní párty?
+
+956
+00:54:32,455 --> 00:54:37,929
+V restauraci blízko školy je to nejlevnější a nejprostornější.
+
+957
+00:54:37,953 --> 00:54:43,153
+Tak tam si všichni společně vytvoříme poslední vzpomínku.
+
+958
+00:54:43,176 --> 00:54:44,754
+Ano.
+
+959
+00:54:44,777 --> 00:54:48,144
+Nezapomeňte si vzít fotoaparát.
+
+960
+00:54:48,167 --> 00:54:52,767
+Já přinesu spoustu sladkostí, které jsem upekla.
+
+961
+00:54:52,790 --> 00:54:55,604
+Jů, to se těším!
+
+962
+00:54:55,627 --> 00:54:59,278
+Vy vaříte nejlíp.
+
+963
+00:54:59,302 --> 00:55:02,435
+Budu se snažit, abych to udělala co nejlépe.
+
+964
+00:55:02,458 --> 00:55:04,269
+Těšte se!
+
+965
+00:55:04,293 --> 00:55:05,793
+Scéna 25: Budoucí cesta a sny – kariéra v obchodu
+
+966
+00:55:05,793 --> 00:55:10,759
+Už sis rozhodl, co budeš dělat po škole?
+
+967
+00:55:10,782 --> 00:55:12,221
+Ano.
+
+968
+00:55:12,245 --> 00:55:17,214
+Mám v plánu tady v Japonsku zůstat a pracovat.
+
+969
+00:55:17,237 --> 00:55:19,680
+V japonské firmě, že?
+
+970
+00:55:19,704 --> 00:55:22,116
+To je úžasné!
+
+971
+00:55:22,139 --> 00:55:25,073
+Jakou práci budeš dělat?
+
+972
+00:55:25,096 --> 00:55:31,392
+Chci využít to, co jsem se naučil, a pracovat v oboru obchodu.
+
+973
+00:55:31,415 --> 00:55:34,458
+V oboru obchodu?
+
+974
+00:55:34,481 --> 00:55:37,648
+Budeš hodně používat angličtinu?
+
+975
+00:55:37,671 --> 00:55:39,271
+Ano.
+
+976
+00:55:39,294 --> 00:55:43,627
+Je to práce, kde se používá jak angličtina, tak japonština.
+
+977
+00:55:43,650 --> 00:55:49,450
+Tak proto jsi ve škole studoval až do pozdních hodin, co?
+
+978
+00:55:49,473 --> 00:55:51,331
+Ano.
+
+979
+00:55:51,354 --> 00:55:56,554
+Chci se v japonštině ještě zlepšit a být úspěšný.
+
+980
+00:55:56,577 --> 00:55:59,581
+Jaký máš sen do budoucna?
+
+981
+00:55:59,605 --> 00:56:02,412
+Jakým člověkem bys chtěl být?
+
+982
+00:56:02,435 --> 00:56:09,635
+Chtěl bych v této zemi zůstat co nejdéle a nasbírat spoustu zkušeností.
+
+983
+00:56:09,658 --> 00:56:14,791
+Určitě se z tebe stane skvělý člen společnosti.
+
+984
+00:56:14,814 --> 00:56:16,654
+Děkuji.
+
+985
+00:56:16,678 --> 00:56:21,334
+Je to moje první práce, takže se už teď těším.
+
+986
+00:56:21,357 --> 00:56:25,723
+Plánuješ zůstat i nadále v tomto městě?
+
+987
+00:56:25,746 --> 00:56:30,992
+Ne, od příštího roku se chystám bydlet v Ósace.
+
+988
+00:56:31,016 --> 00:56:33,782
+Je tam levnější život.
+
+989
+00:56:33,805 --> 00:56:39,138
+Říkal jsi, že v Ósace je jídlo moc dobré, že?
+
+990
+00:56:39,161 --> 00:56:43,642
+Jo, chystám se sníst spoustu takojaki.
+
+991
+00:56:43,666 --> 00:56:45,800
+To zní skvěle!
+
+992
+00:56:45,823 --> 00:56:50,105
+Až budeš mít vyšší plat, nezapomeň mě pozvat.
+
+993
+00:56:50,128 --> 00:56:53,261
+No jasně, samozřejmě!
+
+994
+00:56:53,284 --> 00:56:55,884
+Dám ti pořádně najíst.
+
+995
+00:56:55,907 --> 00:56:58,198
+To je slib!
+
+996
+00:56:58,221 --> 00:57:02,155
+Já bych si chtěl dát pořádné drahé maso.
+
+997
+00:57:02,178 --> 00:57:06,911
+Budu makat, abych zbohatl.
+
+998
+00:57:06,934 --> 00:57:13,218
+Chystáš si před začátkem nové práce něco speciálního?
+
+999
+00:57:13,242 --> 00:57:18,135
+Tuto zimu si chci koupit vlastní kimono.
+
+1000
+00:57:18,159 --> 00:57:21,027
+Kimono?
+
+1001
+00:57:21,050 --> 00:57:23,858
+Umíš si ho obléct sám?
+
+1002
+00:57:23,882 --> 00:57:27,500
+Ne, ještě neumím.
+
+1003
+00:57:27,524 --> 00:57:32,057
+Tak se ho chci naučit přes YouTube.
+
+1004
+00:57:32,080 --> 00:57:37,255
+Až si ho jednou obleču sám, bude to paráda.
+
+1005
+00:57:37,278 --> 00:57:43,478
+Jo, chtěl bych ho mít na sobě na Nový rok a jít v něm do svatyně.
+
+1006
+00:57:43,502 --> 00:57:47,158
+Tvoje sny jsou čím dál větší, co?
+
+1007
+00:57:47,182 --> 00:57:49,115
+Držím ti palce!
+
+1008
+00:57:49,138 --> 00:57:50,671
+Děkuji.
+
+1009
+00:57:50,694 --> 00:57:55,177
+A taky mi příště pověz, jaké máš další plány.
+
+1010
+00:57:55,201 --> 00:57:56,701
+Scéna 26: Plány na dovolenou během prodlouženého víkendu
+
+1011
+00:57:56,701 --> 00:57:59,634
+Už brzy je prodloužený víkend, že?
+
+1012
+00:57:59,657 --> 00:58:03,490
+Už sis naplánoval výlet na víkend?
+
+1013
+00:58:03,513 --> 00:58:05,047
+Ano.
+
+1014
+00:58:05,070 --> 00:58:08,346
+Pojedu někam s kamarády.
+
+1015
+00:58:08,369 --> 00:58:10,536
+To zní skvěle!
+
+1016
+00:58:10,559 --> 00:58:13,726
+Pojedete někam daleko?
+
+1017
+00:58:13,749 --> 00:58:17,549
+Ne, ne tak daleko.
+
+1018
+00:58:17,572 --> 00:58:19,461
+Aha, rozumím.
+
+1019
+00:58:19,484 --> 00:58:22,084
+Čím pojedete?
+
+1020
+00:58:22,107 --> 00:58:24,540
+Šinkansenem?
+
+1021
+00:58:24,563 --> 00:58:28,251
+Ne, ne šinkansenem.
+
+1022
+00:58:28,275 --> 00:58:30,909
+Pojedeme autem.
+
+1023
+00:58:30,932 --> 00:58:33,298
+Autem?
+
+1024
+00:58:33,321 --> 00:58:36,291
+Kdo bude řídit?
+
+1025
+00:58:36,315 --> 00:58:38,884
+Kámoš bude řídit.
+
+1026
+00:58:38,908 --> 00:58:42,558
+Já totiž neumím řídit.
+
+1027
+00:58:42,581 --> 00:58:44,514
+Aha, rozumím.
+
+1028
+00:58:44,537 --> 00:58:47,829
+Pojedete někam slavnému na výlet?
+
+1029
+00:58:47,853 --> 00:58:49,469
+Ano.
+
+1030
+00:58:49,492 --> 00:58:53,226
+Pojedeme do města, kde je slavné lázně.
+
+1031
+00:58:53,249 --> 00:58:55,620
+Lázně?
+
+1032
+00:58:55,643 --> 00:58:58,110
+To bude skvělé!
+
+1033
+00:58:58,133 --> 00:59:00,025
+Ano.
+
+1034
+00:59:00,048 --> 00:59:04,581
+Dám si relax v lázních.
+
+1035
+00:59:04,604 --> 00:59:07,606
+Už sis zarezervoval ubytování?
+
+1036
+00:59:07,630 --> 00:59:09,363
+Ano.
+
+1037
+00:59:09,386 --> 00:59:13,725
+Zarezervoval jsem si starý hostinec v horách.
+
+1038
+00:59:13,749 --> 00:59:16,353
+V horách?
+
+1039
+00:59:16,377 --> 00:59:19,421
+Určitě tam bude nádherný výhled.
+
+1040
+00:59:19,445 --> 00:59:21,096
+Ano.
+
+1041
+00:59:21,120 --> 00:59:26,453
+Ale protože je prodloužený víkend, asi budou silnice ucpané.
+
+1042
+00:59:26,476 --> 00:59:28,515
+To jo.
+
+1043
+00:59:28,538 --> 00:59:32,176
+Radši byste měli vyrazit brzy ráno.
+
+1044
+00:59:32,200 --> 00:59:33,800
+Ano.
+
+1045
+00:59:33,823 --> 00:59:37,356
+Chceme vyrazit v pět ráno.
+
+1046
+00:59:37,379 --> 00:59:39,512
+V pět?
+
+1047
+00:59:39,535 --> 00:59:41,935
+To je ale brzo!
+
+1048
+00:59:41,958 --> 00:59:43,525
+Ano.
+
+1049
+00:59:43,548 --> 00:59:46,922
+Cestou se někde zastavíte?
+
+1050
+00:59:46,946 --> 00:59:51,601
+Zastavíme si na odpočívadle, kde mají dobré jídlo.
+
+1051
+00:59:51,624 --> 00:59:53,224
+To zní skvěle!
+
+1052
+00:59:53,247 --> 00:59:56,658
+Jeďte opatrně!
+
+1053
+00:59:56,681 --> 00:59:57,938
+Ano.
+
+1054
+00:59:57,961 --> 01:00:00,179
+Děkuji.
+
+1055
+01:00:00,203 --> 01:00:01,703
+Scéna 27: Kam bych chtěl v Japonsku jet
+
+1056
+01:00:01,703 --> 01:00:06,870
+Marku, kam bys chtěl jet v Japonsku?
+
+1057
+01:00:06,893 --> 01:00:11,508
+Chtěl bych jet k hoře Fudži.
+
+1058
+01:00:11,532 --> 01:00:13,609
+K hoře Fudži?
+
+1059
+01:00:13,632 --> 01:00:16,066
+Chceš na ni vystoupat?
+
+1060
+01:00:16,089 --> 01:00:17,822
+Chceš ji jen vidět?
+
+1061
+01:00:17,845 --> 01:00:21,331
+Určitě bych na ni chtěl vystoupat.
+
+1062
+01:00:21,355 --> 01:00:26,488
+Výhled z vrcholu hory Fudži je opravdu nádherný.
+
+1063
+01:00:26,511 --> 01:00:28,589
+Aha, rozumím.
+
+1064
+01:00:28,613 --> 01:00:31,752
+Už se tam chci jet podívat ještě víc.
+
+1065
+01:00:31,776 --> 01:00:34,709
+A máš ještě nějaká další místa?
+
+1066
+01:00:34,732 --> 01:00:37,206
+Chtěl bych jet i do Kjóta.
+
+1067
+01:00:37,230 --> 01:00:39,196
+Do Kjóta?
+
+1068
+01:00:39,219 --> 01:00:42,862
+Co bys chtěl v Kjótu dělat?
+
+1069
+01:00:42,886 --> 01:00:47,452
+Chtěl bych vidět hodně starých chrámů a svatyní.
+
+1070
+01:00:47,475 --> 01:00:49,075
+To zní skvěle!
+
+1071
+01:00:49,098 --> 01:00:53,114
+Procházet se v kimonu je taky zábava.
+
+1072
+01:00:53,138 --> 01:00:56,405
+Jé, to bych taky chtěl zkusit!
+
+1073
+01:00:56,428 --> 01:00:59,515
+A taky bych si rád dal nějaké dobré japonské sladkosti.
+
+1074
+01:00:59,539 --> 01:01:04,154
+Jo, a taky bych si dal hodně dobrých suši.
+
+1075
+01:01:04,178 --> 01:01:06,311
+Suši?
+
+1076
+01:01:06,334 --> 01:01:08,267
+To zní skvěle!
+
+1077
+01:01:08,290 --> 01:01:12,747
+V Japonsku je ryba opravdu čerstvá.
+
+1078
+01:01:12,771 --> 01:01:16,137
+Ryby z Hokkaida jsou taky výborné.
+
+1079
+01:01:16,160 --> 01:01:18,527
+Na Hokkaidó?
+
+1080
+01:01:18,550 --> 01:01:21,685
+Tam bych taky chtěl jet.
+
+1081
+01:01:21,708 --> 01:01:24,908
+Máš hodně míst, kam bys chtěl jet, co?
+
+1082
+01:01:24,931 --> 01:01:29,698
+Jo, potřeboval bych hodně peněz a času.
+
+1083
+01:01:29,721 --> 01:01:32,054
+Hmm, to jo.
+
+1084
+01:01:32,077 --> 01:01:35,851
+Nejdřív pojedeme k Fudži.
+
+1085
+01:01:35,875 --> 01:01:40,491
+Jo, letos v létě tam určitě pojedu.
+
+1086
+01:01:40,515 --> 01:01:43,848
+Těším se, až budeme plánovat.
+
+1087
+01:01:43,871 --> 01:01:48,438
+Jo, už teď se nemůžu dočkat!
+
+1088
+01:01:48,461 --> 01:01:49,961
+Scéna 28: Jak trávit volný den
+
+1089
+01:01:49,961 --> 01:01:56,394
+Marku, jak trávíš volné dny?
+
+1090
+01:01:56,417 --> 01:02:01,984
+Dívám se doma na filmy nebo jdu s kamarády nakupovat.
+
+1091
+01:02:02,007 --> 01:02:03,859
+To zní skvěle!
+
+1092
+01:02:03,882 --> 01:02:07,415
+Jaké filmy se ti líbí?
+
+1093
+01:02:07,438 --> 01:02:11,416
+Rád se dívám na akční filmy a anime.
+
+1094
+01:02:11,440 --> 01:02:13,007
+Aha, rozumím.
+
+1095
+01:02:13,030 --> 01:02:16,406
+Kam chodíš nakupovat?
+
+1096
+01:02:16,429 --> 01:02:20,429
+Chodím do obchodních domů v Šibuji nebo Šindžuku.
+
+1097
+01:02:20,452 --> 01:02:23,230
+To jsou rušné čtvrti, co?
+
+1098
+01:02:23,253 --> 01:02:25,787
+Co tam kupuješ?
+
+1099
+01:02:25,810 --> 01:02:29,346
+Nejvíc kupuju oblečení a boty.
+
+1100
+01:02:29,369 --> 01:02:31,169
+To je ale stylové!
+
+1101
+01:02:31,192 --> 01:02:34,959
+A co děláš v neděli?
+
+1102
+01:02:34,982 --> 01:02:41,467
+V neděli chodím na procházku do parku nebo si čtu knihu v kavárně.
+
+1103
+01:02:41,490 --> 01:02:44,338
+To je ale klidný den.
+
+1104
+01:02:44,362 --> 01:02:46,035
+Ano.
+
+1105
+01:02:46,059 --> 01:02:50,859
+Také vařím nebo uklízím byt.
+
+1106
+01:02:50,882 --> 01:02:53,049
+To je skvělé!
+
+1107
+01:02:53,071 --> 01:02:58,950
+Já o volnu peru nebo spím.
+
+1108
+01:02:58,974 --> 01:03:02,623
+Spát hodně je pro tělo dobré.
+
+1109
+01:03:02,647 --> 01:03:04,180
+Ano.
+
+1110
+01:03:04,203 --> 01:03:08,570
+Ale občas mám chuť někam vyrazit.
+
+1111
+01:03:08,593 --> 01:03:14,263
+Tak co kdybychom příští volný den šli spolu do muzea?
+
+1112
+01:03:14,287 --> 01:03:16,454
+Do muzea?
+
+1113
+01:03:16,477 --> 01:03:18,477
+To zní skvěle!
+
+1114
+01:03:18,500 --> 01:03:22,533
+Budeme se dívat na obrazy a pít čaj.
+
+1115
+01:03:22,556 --> 01:03:23,923
+Ano.
+
+1116
+01:03:23,946 --> 01:03:26,612
+Určitě bych s tebou šel rád!
+
+1117
+01:03:26,635 --> 01:03:28,648
+Už se těším.
+
+1118
+01:03:28,672 --> 01:03:31,438
+Pojďme v sobotu.
+
+1119
+01:03:31,461 --> 01:03:33,261
+Rozumím.
+
+1120
+01:03:33,284 --> 01:03:36,651
+Sejdeme se v sobotu dopoledne.
+
+1121
+01:03:36,674 --> 01:03:38,174
+Scéna 29: První setkání a zážitky z Japonska
+
+1122
+01:03:38,174 --> 01:03:43,907
+Dobrý den, jsi od tohoto měsíce nový student v této třídě?
+
+1123
+01:03:43,930 --> 01:03:46,897
+Ano, dobrý den.
+
+1124
+01:03:46,920 --> 01:03:48,597
+Jmenuji se Smith.
+
+1125
+01:03:48,620 --> 01:03:53,426
+Pane Smith, žijete v Japonsku poprvé?
+
+1126
+01:03:53,449 --> 01:03:57,288
+Ne, není to poprvé.
+
+1127
+01:03:57,312 --> 01:03:59,712
+Opravdu?
+
+1128
+01:03:59,735 --> 01:04:03,624
+Už jste někdy byl v Japonsku?
+
+1129
+01:04:03,647 --> 01:04:08,485
+Ano, byl jsem tu před dvěma lety.
+
+1130
+01:04:08,508 --> 01:04:11,541
+Tehdy jste byl na výletě?
+
+1131
+01:04:11,564 --> 01:04:17,564
+Ano, cestoval jsem po Kjótu a Ósace.
+
+1132
+01:04:17,587 --> 01:04:19,061
+Aha, rozumím.
+
+1133
+01:04:19,085 --> 01:04:23,219
+Už jste ochutnal japonské jídlo?
+
+1134
+01:04:23,242 --> 01:04:28,484
+Ano, jedl jsem suši a tempuru.
+
+1135
+01:04:28,507 --> 01:04:31,107
+A co natto?
+
+1136
+01:04:31,131 --> 01:04:35,009
+Natto jsem ještě nezkusil.
+
+1137
+01:04:35,032 --> 01:04:39,437
+Trochu to smrdí, ale je to dobré.
+
+1138
+01:04:39,460 --> 01:04:41,279
+Aha, rozumím.
+
+1139
+01:04:41,303 --> 01:04:43,936
+Tak to příště určitě zkusím.
+
+1140
+01:04:43,959 --> 01:04:47,326
+Už jste někdy vystoupal na horu Fudži?
+
+1141
+01:04:47,349 --> 01:04:54,282
+Ne, viděl jsem ji jen z dálky, ale nevystoupil jsem na ni.
+
+1142
+01:04:54,305 --> 01:04:57,913
+Toto léto byste to určitě měl zkusit!
+
+1143
+01:04:57,937 --> 01:05:01,190
+Ano, rád bych to zkusil.
+
+1144
+01:05:01,213 --> 01:05:06,179
+Pane Smithi, kde jste se naučil japonsky?
+
+1145
+01:05:06,202 --> 01:05:10,336
+Trochu jsem se učil na univerzitě v Americe.
+
+1146
+01:05:10,359 --> 01:05:14,796
+Mluvil jste už někdy s japonskými přáteli?
+
+1147
+01:05:14,819 --> 01:05:17,861
+Ne, ještě ne.
+
+1148
+01:05:17,885 --> 01:05:22,738
+Na této škole jich je spousta, zkuste si s nimi promluvit.
+
+1149
+01:05:22,762 --> 01:05:26,295
+Ano, rád bych si s nimi hodně povídal.
+
+1150
+01:05:26,318 --> 01:05:27,818
+Scéna 30: Výmluvy za zpoždění
+
+1151
+01:05:27,818 --> 01:05:31,951
+Marku, proč jste přišel pozdě?
+
+1152
+01:05:31,974 --> 01:05:36,552
+Čekal jsem tu na vás celou hodinu!
+
+1153
+01:05:36,576 --> 01:05:39,048
+Moc se omlouvám.
+
+1154
+01:05:39,071 --> 01:05:42,238
+Zaspal jsem.
+
+1155
+01:05:42,261 --> 01:05:43,716
+Cože?
+
+1156
+01:05:43,740 --> 01:05:45,615
+Zaspal jste?
+
+1157
+01:05:45,638 --> 01:05:49,518
+Včera jste byl dlouho vzhůru?
+
+1158
+01:05:49,542 --> 01:05:51,219
+Ano.
+
+1159
+01:05:51,243 --> 01:05:55,009
+Včera jsem toho moc vypil.
+
+1160
+01:05:55,032 --> 01:05:58,566
+Hrozně mě bolí hlava.
+
+1161
+01:05:58,589 --> 01:06:02,355
+Příliš mnoho alkoholu není dobré.
+
+1162
+01:06:02,378 --> 01:06:07,145
+Dnes máme důležitou schůzi, takže nesmíte chodit pozdě.
+
+1163
+01:06:07,168 --> 01:06:10,014
+Ano, rozumím.
+
+1164
+01:06:10,037 --> 01:06:15,004
+Pospíchal jsem sem, takže mi teď těžko dýchá.
+
+1165
+01:06:15,027 --> 01:06:17,469
+Přiběhl jste?
+
+1166
+01:06:17,493 --> 01:06:22,926
+Ale odteď musíte chodit spát dřív.
+
+1167
+01:06:22,949 --> 01:06:26,882
+Ano, budu si dávat pozor.
+
+1168
+01:06:26,905 --> 01:06:30,872
+Hrozně se potíte.
+
+1169
+01:06:30,895 --> 01:06:34,187
+Měl byste se napít vody.
+
+1170
+01:06:34,211 --> 01:06:35,811
+Děkuji.
+
+1171
+01:06:35,834 --> 01:06:40,167
+Tamhle je obchod, takže ji půjdu koupit.
+
+1172
+01:06:40,190 --> 01:06:44,724
+Schůze začne každou chvíli, tak prosím pospěšte.
+
+1173
+01:06:44,747 --> 01:06:48,113
+Ano, hned se vrátím.
+
+1174
+01:06:48,136 --> 01:06:51,670
+Opravdu jste v pořádku?
+
+1175
+01:06:51,693 --> 01:06:55,859
+Trochu se mi chce spát, ale jsem v pořádku.
+
+1176
+01:06:55,882 --> 01:07:00,849
+Až skončí práce, měl byste jít brzy domů a vyspat se.
+
+1177
+01:07:00,872 --> 01:07:06,605
+Ano, dnes určitě půjdu brzy spát.
+
+1178
+01:07:06,628 --> 01:07:09,286
+Tak pojďme.
+
+1179
+01:07:09,309 --> 01:07:13,729
+Opravdu se omlouvám.

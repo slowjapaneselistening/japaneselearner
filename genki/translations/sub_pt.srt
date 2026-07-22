@@ -1,0 +1,4715 @@
+1
+00:00:00,000 --> 00:00:08,777
+O vídeo de hoje é sobre a gramática N5 do GENKI
+
+2
+00:00:08,777 --> 00:00:10,277
+Cena 1: Apresentação e nacionalidade
+
+3
+00:00:10,277 --> 00:00:15,149
+Prazer em conhecê-lo, eu sou o Tanaka
+
+4
+00:00:15,173 --> 00:00:18,852
+Prazer em conhecê-lo, eu sou o Smith
+
+5
+00:00:18,875 --> 00:00:22,908
+O senhor Smith é americano?
+
+6
+00:00:22,931 --> 00:00:27,734
+Sim, eu sou americano
+
+7
+00:00:27,758 --> 00:00:30,958
+O senhor Tanaka é japonês?
+
+8
+00:00:30,981 --> 00:00:36,066
+Sim, eu sou japonês
+
+9
+00:00:36,089 --> 00:00:40,064
+Eu sou professor de japonês
+
+10
+00:00:40,088 --> 00:00:42,889
+Sou professor universitário
+
+11
+00:00:42,912 --> 00:00:45,246
+Ah, é?
+
+12
+00:00:45,269 --> 00:00:48,877
+Eu sou estudante
+
+13
+00:00:48,900 --> 00:00:52,579
+O senhor Smith é estudante de qual universidade?
+
+14
+00:00:52,603 --> 00:00:57,075
+Sou estudante da Universidade Sakura
+
+15
+00:00:57,098 --> 00:01:00,371
+Estudante da Universidade Sakura?
+
+16
+00:01:00,395 --> 00:01:02,861
+Qual é a sua área de estudo?
+
+17
+00:01:02,884 --> 00:01:06,918
+Minha área de estudo é negócios
+
+18
+00:01:06,941 --> 00:01:10,674
+Qual é a sua especialidade, senhor Tanaka?
+
+19
+00:01:10,697 --> 00:01:15,330
+Minha especialidade é a história do Japão
+
+20
+00:01:15,353 --> 00:01:18,602
+História do Japão?
+
+21
+00:01:18,625 --> 00:01:21,625
+Aquela pessoa é estudante?
+
+22
+00:01:21,648 --> 00:01:26,222
+Não, aquela pessoa não é estudante
+
+23
+00:01:26,245 --> 00:01:30,412
+Aquela pessoa é professora de inglês
+
+24
+00:01:30,435 --> 00:01:32,435
+Ah, é?
+
+25
+00:01:32,458 --> 00:01:35,391
+Qual é o seu nome?
+
+26
+00:01:35,414 --> 00:01:38,181
+Meu nome é John
+
+27
+00:01:38,204 --> 00:01:40,771
+Sou britânico
+
+28
+00:01:40,794 --> 00:01:45,068
+O senhor John é professor da Universidade Sakura?
+
+29
+00:01:45,091 --> 00:01:50,291
+Sim, sou professor da Universidade Sakura
+
+30
+00:01:50,314 --> 00:01:53,081
+Ele é meu amigo
+
+31
+00:01:53,104 --> 00:01:56,437
+Qual é a especialidade do senhor John?
+
+32
+00:01:56,460 --> 00:02:01,660
+A especialidade do senhor John é a literatura inglesa
+
+33
+00:02:01,683 --> 00:02:03,571
+Ah, é?
+
+34
+00:02:03,595 --> 00:02:07,795
+O senhor John é meu professor
+
+35
+00:02:07,818 --> 00:02:11,784
+Ah, ele é seu professor?
+
+36
+00:02:11,807 --> 00:02:16,641
+Sim, ele é meu professor de inglês
+
+37
+00:02:16,664 --> 00:02:19,464
+O Tom também é estudante?
+
+38
+00:02:19,487 --> 00:02:24,120
+Não, o Tom não é estudante
+
+39
+00:02:24,143 --> 00:02:26,321
+Ele é funcionário de uma empresa
+
+40
+00:02:26,344 --> 00:02:29,478
+O Tom é americano?
+
+41
+00:02:29,501 --> 00:02:34,069
+Sim, o Tom também é americano
+
+42
+00:02:34,093 --> 00:02:36,767
+Ele é meu amigo
+
+43
+00:02:36,790 --> 00:02:39,727
+A Mary também é funcionária de uma empresa?
+
+44
+00:02:39,751 --> 00:02:44,841
+Não, a Mary não é funcionária de uma empresa
+
+45
+00:02:44,865 --> 00:02:46,940
+Ela é estudante
+
+46
+00:02:46,964 --> 00:02:50,539
+A Mary é britânica?
+
+47
+00:02:50,562 --> 00:02:55,162
+Sim, a Mary também é britânica
+
+48
+00:02:55,185 --> 00:03:04,194
+O roteiro do vídeo de hoje pode ser baixado na descrição e no comentário fixado
+
+49
+00:03:04,194 --> 00:03:05,694
+Cena 2: Demonstrativos e preços (Livros didáticos e dicionários)
+
+50
+00:03:05,694 --> 00:03:07,461
+Com licença
+
+51
+00:03:07,483 --> 00:03:09,933
+O que é isso?
+
+52
+00:03:09,957 --> 00:03:11,724
+Isto aqui?
+
+53
+00:03:11,747 --> 00:03:15,714
+Isto é um livro didático de japonês
+
+54
+00:03:15,736 --> 00:03:18,795
+Quanto custa esse livro didático?
+
+55
+00:03:18,819 --> 00:03:22,706
+Este livro didático custa 3.000 ienes.
+
+56
+00:03:22,730 --> 00:03:26,175
+Aquele também é um livro didático de japonês?
+
+57
+00:03:26,198 --> 00:03:31,238
+Não, aquele não é um livro didático de japonês.
+
+58
+00:03:31,262 --> 00:03:33,901
+É um dicionário de inglês.
+
+59
+00:03:33,925 --> 00:03:36,811
+Quanto custa esse dicionário?
+
+60
+00:03:36,834 --> 00:03:40,306
+Este dicionário custa 5.000 ienes.
+
+61
+00:03:40,330 --> 00:03:43,863
+Qual dicionário é do senhor Smith?
+
+62
+00:03:43,886 --> 00:03:46,419
+Este dicionário.
+
+63
+00:03:46,442 --> 00:03:49,609
+Esse dicionário é da senhora Tanaka?
+
+64
+00:03:49,632 --> 00:03:54,165
+Não, este dicionário não é meu.
+
+65
+00:03:54,188 --> 00:03:55,821
+Entendi.
+
+66
+00:03:55,844 --> 00:03:58,502
+Aqui é uma sala de aula?
+
+67
+00:03:58,526 --> 00:04:02,859
+Sim, aqui é uma sala de aula de japonês.
+
+68
+00:04:02,882 --> 00:04:05,358
+Ali é a biblioteca.
+
+69
+00:04:05,382 --> 00:04:07,828
+Onde fica a secretaria?
+
+70
+00:04:07,851 --> 00:04:10,492
+A secretaria é ali.
+
+71
+00:04:10,516 --> 00:04:13,011
+A recepção também é ali?
+
+72
+00:04:13,034 --> 00:04:16,468
+Sim, a recepção também é ali.
+
+73
+00:04:16,491 --> 00:04:18,962
+Onde fica o banheiro?
+
+74
+00:04:18,986 --> 00:04:21,752
+O banheiro é ali, viu?
+
+75
+00:04:21,775 --> 00:04:24,388
+À direita daquele prédio.
+
+76
+00:04:24,412 --> 00:04:26,412
+Qual prédio?
+
+77
+00:04:26,435 --> 00:04:28,768
+Aquele prédio.
+
+78
+00:04:28,791 --> 00:04:30,359
+Entendi.
+
+79
+00:04:30,383 --> 00:04:32,785
+Isto é uma caneta?
+
+80
+00:04:32,809 --> 00:04:35,975
+Sim, isso é uma caneta.
+
+81
+00:04:35,998 --> 00:04:38,532
+Quanto custa esta caneta?
+
+82
+00:04:38,555 --> 00:04:41,559
+Essa caneta custa 100 ienes.
+
+83
+00:04:41,583 --> 00:04:43,986
+Aquela custa 200 ienes.
+
+84
+00:04:44,009 --> 00:04:47,061
+Qual caneta é do professor?
+
+85
+00:04:47,084 --> 00:04:50,151
+Esta caneta é a minha.
+
+86
+00:04:50,175 --> 00:04:52,380
+Essa também custa 100 ienes?
+
+87
+00:04:52,403 --> 00:04:56,221
+Não, esta custa 3.000 ienes.
+
+88
+00:04:56,244 --> 00:05:03,349
+O link do site para revisar o vídeo de hoje está na descrição e no primeiro comentário. *O site pode ser excluído sem aviso prévio.
+
+89
+00:05:03,349 --> 00:05:04,849
+Cena 3: Como confirmar a posse de objetos / Identificando a Propriedade de Itens
+
+90
+00:05:04,849 --> 00:05:10,216
+Senhor Smith, este guarda-chuva é seu?
+
+91
+00:05:10,239 --> 00:05:15,689
+Não, esse não é o meu guarda-chuva.
+
+92
+00:05:15,713 --> 00:05:19,852
+Então, de quem é este guarda-chuva?
+
+93
+00:05:19,875 --> 00:05:23,845
+Esse é o guarda-chuva do John.
+
+94
+00:05:23,868 --> 00:05:27,002
+O guarda-chuva do John?
+
+95
+00:05:27,025 --> 00:05:30,358
+Esta bolsa também é do John?
+
+96
+00:05:30,381 --> 00:05:36,996
+Não, essa bolsa não é do John.
+
+97
+00:05:37,020 --> 00:05:39,918
+Não é do John?
+
+98
+00:05:39,942 --> 00:05:43,708
+Então, de quem é esta bolsa?
+
+99
+00:05:43,731 --> 00:05:47,265
+Essa é a minha bolsa.
+
+100
+00:05:47,288 --> 00:05:50,721
+É a minha bolsa importante.
+
+101
+00:05:50,744 --> 00:05:54,077
+Ah, a bolsa do senhor Smith, né?
+
+102
+00:05:54,100 --> 00:05:57,639
+Este caderno também é seu, senhor Smith?
+
+103
+00:05:57,662 --> 00:06:02,431
+Não, este não é meu.
+
+104
+00:06:02,455 --> 00:06:05,423
+É da Mary.
+
+105
+00:06:05,446 --> 00:06:08,446
+Este é o caderno da Maria?
+
+106
+00:06:08,469 --> 00:06:11,436
+A Maria também é estudante?
+
+107
+00:06:11,459 --> 00:06:16,076
+Sim, a Maria também é estudante.
+
+108
+00:06:16,099 --> 00:06:19,438
+Ela é estudante da Universidade Sakura.
+
+109
+00:06:19,462 --> 00:06:23,112
+A Maria também é americana?
+
+110
+00:06:23,135 --> 00:06:28,535
+Não, a Maria não é americana.
+
+111
+00:06:28,558 --> 00:06:31,175
+Ela é britânica.
+
+112
+00:06:31,198 --> 00:06:36,565
+Entendi. O João também é britânico, não é?
+
+113
+00:06:36,588 --> 00:06:40,669
+Sim, o João também é britânico.
+
+114
+00:06:40,693 --> 00:06:44,102
+O Sr. Smith é americano, certo?
+
+115
+00:06:44,126 --> 00:06:47,728
+Sim, eu sou americano
+
+116
+00:06:47,752 --> 00:06:50,885
+O Tom também é americano.
+
+117
+00:06:50,908 --> 00:06:54,163
+O Tom também é estudante?
+
+118
+00:06:54,186 --> 00:06:58,880
+Não, o Tom não é estudante.
+
+119
+00:06:58,903 --> 00:07:00,880
+Ele é funcionário de uma empresa.
+
+120
+00:07:00,904 --> 00:07:04,637
+Esse relógio é do Tom?
+
+121
+00:07:04,660 --> 00:07:09,493
+Não, este relógio não é do Tom.
+
+122
+00:07:09,516 --> 00:07:11,250
+É meu.
+
+123
+00:07:11,273 --> 00:07:14,206
+Não é do João?
+
+124
+00:07:14,229 --> 00:07:18,162
+Não, não é do João.
+
+125
+00:07:18,185 --> 00:07:20,478
+É do Sr. Smith, não é?
+
+126
+00:07:20,502 --> 00:07:23,835
+Sim, é meu.
+
+127
+00:07:23,858 --> 00:07:25,358
+Cena 4: Rotina do Dia a Dia
+
+128
+00:07:25,358 --> 00:07:31,792
+Sr. Smith, a que horas o senhor acorda todos os dias?
+
+129
+00:07:31,815 --> 00:07:35,681
+Eu acordo todos os dias às 7 horas.
+
+130
+00:07:35,704 --> 00:07:38,371
+O senhor toma café da manhã?
+
+131
+00:07:38,394 --> 00:07:39,794
+Sim.
+
+132
+00:07:39,817 --> 00:07:43,050
+Em casa, como pão.
+
+133
+00:07:43,073 --> 00:07:45,707
+Tomo café.
+
+134
+00:07:45,730 --> 00:07:49,420
+Depois, vai para a escola?
+
+135
+00:07:49,443 --> 00:07:50,977
+Sim.
+
+136
+00:07:51,000 --> 00:07:54,213
+Vou para a escola às 8 horas.
+
+137
+00:07:54,236 --> 00:07:57,603
+O que o senhor faz na escola?
+
+138
+00:07:57,626 --> 00:08:01,659
+Estudo japonês na sala de aula.
+
+139
+00:08:01,682 --> 00:08:06,615
+Depois, leio livros na biblioteca.
+
+140
+00:08:06,638 --> 00:08:09,605
+Onde o senhor almoça?
+
+141
+00:08:09,629 --> 00:08:12,962
+Almoço na cantina.
+
+142
+00:08:12,985 --> 00:08:16,278
+Como com amigos.
+
+143
+00:08:16,301 --> 00:08:19,301
+A que horas volta para casa?
+
+144
+00:08:19,324 --> 00:08:22,201
+Volto para casa às 5 horas.
+
+145
+00:08:22,225 --> 00:08:25,003
+O que o senhor faz à noite?
+
+146
+00:08:25,026 --> 00:08:28,160
+Em casa, assisto televisão.
+
+147
+00:08:28,183 --> 00:08:30,316
+Ouço música.
+
+148
+00:08:30,339 --> 00:08:34,072
+Depois, durmo às 11 horas.
+
+149
+00:08:34,095 --> 00:08:36,985
+Aonde o senhor vai nos fins de semana?
+
+150
+00:08:37,008 --> 00:08:40,775
+Aos sábados, vou a Quioto.
+
+151
+00:08:40,798 --> 00:08:44,670
+Aos domingos, não vou a lugar nenhum.
+
+152
+00:08:44,694 --> 00:08:47,027
+Fico em casa descansando.
+
+153
+00:08:47,050 --> 00:08:51,663
+João, a que horas você acorda todos os dias?
+
+154
+00:08:51,686 --> 00:08:55,719
+O João acorda todos os dias às 6 horas.
+
+155
+00:08:55,742 --> 00:08:58,430
+O senhor toma café da manhã?
+
+156
+00:08:58,454 --> 00:08:59,889
+Sim.
+
+157
+00:08:59,912 --> 00:09:03,482
+Ele toma café da manhã.
+
+158
+00:09:03,506 --> 00:09:07,039
+O João também vai para a escola?
+
+159
+00:09:07,062 --> 00:09:08,429
+Sim.
+
+160
+00:09:08,452 --> 00:09:11,660
+Sim, ele também vai para a escola.
+
+161
+00:09:11,683 --> 00:09:13,982
+A que horas você dorme?
+
+162
+00:09:14,005 --> 00:09:16,372
+Durmo às 22h.
+
+163
+00:09:16,395 --> 00:09:17,895
+Cena 5: Conversa sobre hobbies
+
+164
+00:09:17,895 --> 00:09:22,361
+João, você costuma assistir a filmes?
+
+165
+00:09:22,384 --> 00:09:27,318
+Não, eu não assisto a filmes de jeito nenhum.
+
+166
+00:09:27,341 --> 00:09:31,143
+Tanaka, você costuma assistir a filmes?
+
+167
+00:09:31,166 --> 00:09:35,966
+Sim, eu assisto a filmes com frequência.
+
+168
+00:09:35,989 --> 00:09:38,680
+Costumo assistir nos fins de semana.
+
+169
+00:09:38,704 --> 00:09:42,992
+Que tal assistirmos a um filme juntos amanhã?
+
+170
+00:09:43,015 --> 00:09:45,149
+Ótima ideia!
+
+171
+00:09:45,172 --> 00:09:47,415
+Vamos assistir juntos.
+
+172
+00:09:47,438 --> 00:09:52,089
+João, você pratica esportes com frequência?
+
+173
+00:09:52,112 --> 00:09:56,795
+Não, não pratico esportes de jeito nenhum.
+
+174
+00:09:56,819 --> 00:09:58,833
+Ah, é?
+
+175
+00:09:58,857 --> 00:10:03,223
+Então, você costuma beber?
+
+176
+00:10:03,246 --> 00:10:07,520
+Não, também não bebo de jeito nenhum.
+
+177
+00:10:07,544 --> 00:10:12,559
+Eu costumo tomar café em cafés.
+
+178
+00:10:12,583 --> 00:10:14,452
+Em cafés?
+
+179
+00:10:14,475 --> 00:10:19,342
+Que tal tomarmos um café juntos esta tarde?
+
+180
+00:10:19,365 --> 00:10:21,448
+Ótima ideia!
+
+181
+00:10:21,471 --> 00:10:23,238
+Vamos lá!
+
+182
+00:10:23,261 --> 00:10:28,261
+João, você costuma ler revistas japonesas?
+
+183
+00:10:28,284 --> 00:10:33,517
+Não, não leio revistas japonesas de jeito nenhum.
+
+184
+00:10:33,540 --> 00:10:37,794
+Mas leio livros em japonês com frequência.
+
+185
+00:10:37,818 --> 00:10:40,184
+Incrível!
+
+186
+00:10:40,207 --> 00:10:46,241
+Que tal estudarmos japonês juntos hoje à noite?
+
+187
+00:10:46,263 --> 00:10:50,030
+Sim, vamos estudar juntos.
+
+188
+00:10:50,053 --> 00:10:54,305
+João, você costuma ouvir música?
+
+189
+00:10:54,328 --> 00:10:58,328
+Sim, ouço música com frequência.
+
+190
+00:10:58,351 --> 00:11:00,185
+Ouço todos os dias.
+
+191
+00:11:00,208 --> 00:11:05,305
+Que tal ouvirmos música juntos da próxima vez?
+
+192
+00:11:05,329 --> 00:11:07,062
+Ótima ideia!
+
+193
+00:11:07,085 --> 00:11:09,501
+Vamos ouvir juntos.
+
+194
+00:11:09,524 --> 00:11:13,091
+Você costuma ler jornal de manhã?
+
+195
+00:11:13,114 --> 00:11:17,647
+Não, não leio jornal de jeito nenhum.
+
+196
+00:11:17,670 --> 00:11:19,170
+Cena 6: Localização de objetos e pessoas
+
+197
+00:11:19,170 --> 00:11:24,823
+Nossa, tem várias coisas aqui, né?
+
+198
+00:11:24,847 --> 00:11:29,385
+Sim, no meu quarto tem várias coisas.
+
+199
+00:11:29,408 --> 00:11:32,942
+O que tem aqui?
+
+200
+00:11:32,965 --> 00:11:36,371
+Aqui tem uma mesa.
+
+201
+00:11:36,394 --> 00:11:39,994
+O que tem em cima da mesa?
+
+202
+00:11:40,017 --> 00:11:43,833
+Em cima da mesa tem um livro.
+
+203
+00:11:43,857 --> 00:11:47,857
+O que tem ao lado do livro?
+
+204
+00:11:47,880 --> 00:11:51,613
+Ao lado do livro tem uma caneta.
+
+205
+00:11:51,636 --> 00:11:55,124
+Quem está na sala de aula?
+
+206
+00:11:55,148 --> 00:11:59,314
+Na sala de aula está o Sr. Smith.
+
+207
+00:11:59,337 --> 00:12:03,137
+Quem está ao lado do Sr. Smith?
+
+208
+00:12:03,160 --> 00:12:07,393
+Ao lado do Sr. Smith está o João.
+
+209
+00:12:07,416 --> 00:12:11,383
+Quem está atrás do João?
+
+210
+00:12:11,406 --> 00:12:15,773
+Atrás do João está a Maria.
+
+211
+00:12:15,796 --> 00:12:19,396
+O que tem ali?
+
+212
+00:12:19,419 --> 00:12:22,619
+Ah, tem um dicionário.
+
+213
+00:12:22,642 --> 00:12:25,216
+Qual dicionário?
+
+214
+00:12:25,239 --> 00:12:27,472
+É isso aí.
+
+215
+00:12:27,495 --> 00:12:29,664
+É o dicionário do Tanaka.
+
+216
+00:12:29,687 --> 00:12:34,254
+Ah, isso não é um dicionário.
+
+217
+00:12:34,277 --> 00:12:36,144
+É um livro.
+
+218
+00:12:36,167 --> 00:12:39,461
+Ah, é um livro, né?
+
+219
+00:12:39,485 --> 00:12:44,619
+Sim, o que tem embaixo da cadeira?
+
+220
+00:12:44,642 --> 00:12:47,208
+Tem uma bolsa.
+
+221
+00:12:47,231 --> 00:12:50,831
+O que tem dentro da bolsa?
+
+222
+00:12:50,854 --> 00:12:53,388
+Tem um caderno.
+
+223
+00:12:53,411 --> 00:12:57,380
+O que tem entre as páginas do caderno?
+
+224
+00:12:57,403 --> 00:12:59,636
+Tem uma foto.
+
+225
+00:12:59,659 --> 00:13:02,154
+De quem é a foto?
+
+226
+00:13:02,177 --> 00:13:05,419
+É uma foto da minha família.
+
+227
+00:13:05,443 --> 00:13:08,909
+Onde está a sua família?
+
+228
+00:13:08,932 --> 00:13:11,302
+Está nos Estados Unidos.
+
+229
+00:13:11,326 --> 00:13:14,302
+Onde estão seus amigos?
+
+230
+00:13:14,325 --> 00:13:16,737
+Estão em Londres.
+
+231
+00:13:16,761 --> 00:13:19,794
+Onde está o Sr. Smith?
+
+232
+00:13:19,817 --> 00:13:21,883
+Está aqui!
+
+233
+00:13:21,906 --> 00:13:23,406
+Cena 7: Passeio a Quioto no Domingo
+
+234
+00:13:23,406 --> 00:13:28,940
+Que dia foi ontem?
+
+235
+00:13:28,963 --> 00:13:32,045
+Ontem foi domingo.
+
+236
+00:13:32,068 --> 00:13:36,235
+O que você fez no domingo?
+
+237
+00:13:36,258 --> 00:13:40,191
+Fui a Quioto.
+
+238
+00:13:40,214 --> 00:13:43,985
+O que você fez em Quioto?
+
+239
+00:13:44,009 --> 00:13:47,743
+Tirei fotos em um templo.
+
+240
+00:13:47,766 --> 00:13:51,403
+Tirou fotos sozinho?
+
+241
+00:13:51,426 --> 00:13:55,760
+Não, tirei fotos com um amigo.
+
+242
+00:13:55,782 --> 00:13:59,549
+Quem era o seu amigo?
+
+243
+00:13:59,572 --> 00:14:03,939
+Era o John.
+
+244
+00:14:03,962 --> 00:14:07,528
+O John também tirou fotos?
+
+245
+00:14:07,551 --> 00:14:11,636
+Sim, o John também tirou fotos.
+
+246
+00:14:11,660 --> 00:14:15,593
+O que você almoçou?
+
+247
+00:14:15,616 --> 00:14:19,349
+Almocei peixe.
+
+248
+00:14:19,372 --> 00:14:22,815
+Onde você comeu peixe?
+
+249
+00:14:22,839 --> 00:14:26,116
+Comi em um restaurante em Quioto.
+
+250
+00:14:26,139 --> 00:14:29,554
+Havia pessoas no restaurante?
+
+251
+00:14:29,578 --> 00:14:33,511
+Sim, havia pessoas no restaurante.
+
+252
+00:14:33,534 --> 00:14:37,667
+A que horas você voltou para casa?
+
+253
+00:14:37,690 --> 00:14:40,624
+Voltei para casa às nove.
+
+254
+00:14:40,647 --> 00:14:43,736
+E depois, o que fez?
+
+255
+00:14:43,760 --> 00:14:47,567
+Depois, assisti televisão.
+
+256
+00:14:47,590 --> 00:14:50,327
+A que horas você foi dormir?
+
+257
+00:14:50,351 --> 00:14:53,122
+Fui dormir às onze.
+
+258
+00:14:53,146 --> 00:14:56,579
+O que você fez anteontem?
+
+259
+00:14:56,602 --> 00:15:00,069
+Anteontem foi sábado.
+
+260
+00:15:00,091 --> 00:15:03,898
+No sábado, você também foi a Quioto?
+
+261
+00:15:03,922 --> 00:15:09,174
+Não, no sábado não fui a lugar nenhum.
+
+262
+00:15:09,198 --> 00:15:12,932
+O que você fez em casa?
+
+263
+00:15:12,955 --> 00:15:16,571
+Estudei japonês em casa.
+
+264
+00:15:16,595 --> 00:15:19,829
+Porque estudo todos os dias.
+
+265
+00:15:19,852 --> 00:15:22,818
+Você estuda todos os dias?
+
+266
+00:15:22,841 --> 00:15:26,408
+Sim, todos os dias.
+
+267
+00:15:26,431 --> 00:15:27,931
+Cena 8: Atrasos e Compras
+
+268
+00:15:27,931 --> 00:15:31,498
+O Sr. Smith está atrasado, não está?
+
+269
+00:15:31,521 --> 00:15:33,758
+Com licença
+
+270
+00:15:33,781 --> 00:15:38,147
+Eu já esperei aqui por uma hora.
+
+271
+00:15:38,170 --> 00:15:40,981
+Me desculpe mesmo.
+
+272
+00:15:41,005 --> 00:15:44,886
+Tinha muita gente na estação?
+
+273
+00:15:44,910 --> 00:15:49,343
+Sim, tinha muita gente na estação.
+
+274
+00:15:49,366 --> 00:15:52,766
+Também tinha muitos ônibus?
+
+275
+00:15:52,789 --> 00:15:56,767
+Sim, também tinha muitos ônibus.
+
+276
+00:15:56,791 --> 00:15:59,685
+E muitos carros também.
+
+277
+00:15:59,708 --> 00:16:02,042
+Ah, é?
+
+278
+00:16:02,065 --> 00:16:06,114
+Você comprou muitos livros ontem?
+
+279
+00:16:06,137 --> 00:16:10,904
+Sim, comprei muitos livros em japonês.
+
+280
+00:16:10,927 --> 00:16:13,413
+Quantos você comprou?
+
+281
+00:16:13,436 --> 00:16:16,170
+Comprei cinco.
+
+282
+00:16:16,193 --> 00:16:18,770
+Comprou dicionários também?
+
+283
+00:16:18,793 --> 00:16:22,830
+Sim, comprei um dicionário também.
+
+284
+00:16:22,853 --> 00:16:27,420
+Na casa do Sr. Smith tem muitos livros, não é?
+
+285
+00:16:27,443 --> 00:16:32,111
+Sim, na minha casa tem muitos livros.
+
+286
+00:16:32,134 --> 00:16:35,172
+Tem muitos livros em inglês também.
+
+287
+00:16:35,196 --> 00:16:39,045
+Você tem muitos amigos também?
+
+288
+00:16:39,069 --> 00:16:42,802
+Sim, tenho muitos amigos nos Estados Unidos.
+
+289
+00:16:42,825 --> 00:16:46,475
+E também muitos amigos no Japão.
+
+290
+00:16:46,498 --> 00:16:49,970
+Quantas horas você estuda por dia?
+
+291
+00:16:49,993 --> 00:16:53,760
+Estudo três horas todos os dias.
+
+292
+00:16:53,783 --> 00:16:58,416
+Três horas? Você estuda bastante, hein!
+
+293
+00:16:58,439 --> 00:17:02,973
+Sim, estudo bastante todos os dias.
+
+294
+00:17:02,996 --> 00:17:06,482
+Ontem você também estudou bastante?
+
+295
+00:17:06,505 --> 00:17:10,958
+Não, ontem estudei só uma hora.
+
+296
+00:17:10,982 --> 00:17:15,193
+Ah, porque ontem foi domingo, né?
+
+297
+00:17:15,216 --> 00:17:19,432
+Sim, no domingo descansei bastante.
+
+298
+00:17:19,455 --> 00:17:20,955
+Cena 9: Comida Japonesa e Aprendizado
+
+299
+00:17:20,955 --> 00:17:24,989
+A comida japonesa é gostosa?
+
+300
+00:17:25,012 --> 00:17:28,945
+Sim, é muito gostosa.
+
+301
+00:17:28,968 --> 00:17:32,057
+O sushi é gostoso?
+
+302
+00:17:32,081 --> 00:17:36,847
+Sim, o sushi é muito gostoso.
+
+303
+00:17:36,870 --> 00:17:39,604
+E o ramen, como é?
+
+304
+00:17:39,627 --> 00:17:43,093
+O ramen também é gostoso.
+
+305
+00:17:43,116 --> 00:17:46,483
+Mas é um pouco apimentado.
+
+306
+00:17:46,506 --> 00:17:50,539
+Estudar japonês é interessante?
+
+307
+00:17:50,562 --> 00:17:56,229
+Sim, estudar japonês é muito interessante.
+
+308
+00:17:56,253 --> 00:18:00,419
+Os kanjis são difíceis?
+
+309
+00:18:00,442 --> 00:18:05,076
+Sim, os kanjis são muito difíceis.
+
+310
+00:18:05,099 --> 00:18:07,596
+E o katakana, como é?
+
+311
+00:18:07,619 --> 00:18:11,019
+O katakana não é difícil.
+
+312
+00:18:11,042 --> 00:18:12,877
+É fácil.
+
+313
+00:18:12,900 --> 00:18:16,467
+Tóquio é uma cidade bonita?
+
+314
+00:18:16,490 --> 00:18:21,657
+Sim, Tóquio é uma cidade muito bonita.
+
+315
+00:18:21,680 --> 00:18:24,213
+E Kyoto, como é?
+
+316
+00:18:24,236 --> 00:18:27,570
+Quioto também é uma cidade linda.
+
+317
+00:18:27,594 --> 00:18:30,672
+Há muitos templos antigos lá.
+
+318
+00:18:30,695 --> 00:18:35,345
+A escola do Sr. Smith é grande?
+
+319
+00:18:35,369 --> 00:18:40,835
+Sim, a minha escola é muito grande.
+
+320
+00:18:40,858 --> 00:18:43,732
+As salas de aula são novas?
+
+321
+00:18:43,756 --> 00:18:49,044
+Sim, as salas de aula são muito novas.
+
+322
+00:18:49,067 --> 00:18:51,924
+Os professores são rigorosos?
+
+323
+00:18:51,948 --> 00:18:57,314
+Não, os meus professores não são rigorosos.
+
+324
+00:18:57,337 --> 00:18:59,504
+São muito gentis.
+
+325
+00:18:59,527 --> 00:19:03,207
+A casa do Sr. Smith é nova?
+
+326
+00:19:03,230 --> 00:19:08,464
+Não, a minha casa não é nova.
+
+327
+00:19:08,487 --> 00:19:10,253
+É antiga.
+
+328
+00:19:10,276 --> 00:19:12,843
+Os quartos são espaçosos?
+
+329
+00:19:12,866 --> 00:19:17,364
+Não, os quartos não são espaçosos.
+
+330
+00:19:17,387 --> 00:19:19,073
+São apertados.
+
+331
+00:19:19,097 --> 00:19:22,097
+Você está ocupado todos os dias?
+
+332
+00:19:22,120 --> 00:19:27,001
+Sim, estou muito ocupado todos os dias.
+
+333
+00:19:27,024 --> 00:19:29,678
+Hoje está quente?
+
+334
+00:19:29,702 --> 00:19:34,069
+Não, hoje não está quente.
+
+335
+00:19:34,092 --> 00:19:36,337
+Está um pouco frio.
+
+336
+00:19:36,361 --> 00:19:37,861
+Cena 10: As preferências do Sr. Smith
+
+337
+00:19:37,861 --> 00:19:41,794
+O Sr. Smith gosta de carne?
+
+338
+00:19:41,817 --> 00:19:46,250
+Sim, eu adoro carne.
+
+339
+00:19:46,273 --> 00:19:48,707
+E peixe?
+
+340
+00:19:48,730 --> 00:19:52,819
+Não gosto muito de peixe.
+
+341
+00:19:52,842 --> 00:19:55,609
+Você gosta de legumes?
+
+342
+00:19:55,632 --> 00:19:59,798
+Não, não gosto de legumes.
+
+343
+00:19:59,821 --> 00:20:03,794
+Qual é a sua comida favorita?
+
+344
+00:20:03,818 --> 00:20:07,252
+Adoro tempurá.
+
+345
+00:20:07,275 --> 00:20:10,372
+E de bebidas, o que você gosta?
+
+346
+00:20:10,395 --> 00:20:12,961
+Gosto de café.
+
+347
+00:20:12,985 --> 00:20:15,418
+Não gosto de chá.
+
+348
+00:20:15,441 --> 00:20:18,328
+Que esporte você gosta?
+
+349
+00:20:18,352 --> 00:20:21,188
+Gosto de futebol.
+
+350
+00:20:21,212 --> 00:20:23,812
+Não gosto de tênis.
+
+351
+00:20:23,835 --> 00:20:27,768
+O Sr. Smith canta bem?
+
+352
+00:20:27,791 --> 00:20:32,791
+Não, não canto bem.
+
+353
+00:20:32,814 --> 00:20:34,432
+Canto mal.
+
+354
+00:20:34,455 --> 00:20:38,289
+O John canta bem?
+
+355
+00:20:38,312 --> 00:20:43,446
+Sim, o John canta muito bem.
+
+356
+00:20:43,470 --> 00:20:47,480
+O Sr. Smith cozinha bem?
+
+357
+00:20:47,503 --> 00:20:52,080
+Sim, cozinho bem.
+
+358
+00:20:52,104 --> 00:20:54,918
+Todos os dias eu cozinho.
+
+359
+00:20:54,941 --> 00:20:57,316
+Incrível!
+
+360
+00:20:57,340 --> 00:21:00,306
+Você fala bem japonês?
+
+361
+00:21:00,329 --> 00:21:05,147
+Não, ainda não falo japonês muito bem.
+
+362
+00:21:05,171 --> 00:21:06,744
+Canto mal.
+
+363
+00:21:06,767 --> 00:21:09,167
+E inglês?
+
+364
+00:21:09,190 --> 00:21:13,823
+Inglês é a minha língua materna, então falo bem.
+
+365
+00:21:13,846 --> 00:21:18,013
+Vamos comer tempurá no almoço de hoje?
+
+366
+00:21:18,036 --> 00:21:19,907
+Ótima ideia!
+
+367
+00:21:19,931 --> 00:21:22,264
+Vamos comer tempurá!
+
+368
+00:21:22,287 --> 00:21:25,020
+Vamos àquela loja.
+
+369
+00:21:25,043 --> 00:21:29,777
+Sim, vamos àquela loja bonita.
+
+370
+00:21:29,799 --> 00:21:32,933
+Vamos tomar um café lá também.
+
+371
+00:21:32,956 --> 00:21:36,125
+Sim, vamos tomar juntos.
+
+372
+00:21:36,149 --> 00:21:37,649
+Cena 11: Noções Básicas de Direções / Japonês Básico para Pedir Informações
+
+373
+00:21:37,649 --> 00:21:39,649
+Com licença
+
+374
+00:21:39,672 --> 00:21:43,284
+Poderia me indicar o caminho, por favor?
+
+375
+00:21:43,307 --> 00:21:46,274
+Claro, posso sim.
+
+376
+00:21:46,297 --> 00:21:48,663
+Para onde você vai?
+
+377
+00:21:48,686 --> 00:21:50,941
+Vou para a estação.
+
+378
+00:21:50,965 --> 00:21:54,299
+Mas não conheço o caminho.
+
+379
+00:21:54,323 --> 00:21:56,589
+A estação, né?
+
+380
+00:21:56,612 --> 00:22:00,746
+A estação fica um pouco longe daqui.
+
+381
+00:22:00,769 --> 00:22:03,035
+Ah, é?
+
+382
+00:22:03,059 --> 00:22:06,825
+Estou tão perdida agora.
+
+383
+00:22:06,848 --> 00:22:11,068
+Então, dê uma olhada neste mapa antigo.
+
+384
+00:22:11,091 --> 00:22:13,825
+Sim, vou olhar.
+
+385
+00:22:13,848 --> 00:22:18,022
+Nós estamos aqui agora.
+
+386
+00:22:18,046 --> 00:22:20,123
+Aqui, né?
+
+387
+00:22:20,147 --> 00:22:22,313
+Entendi.
+
+388
+00:22:22,336 --> 00:22:26,870
+Primeiro, siga reto por esta rua.
+
+389
+00:22:26,893 --> 00:22:29,459
+Vou seguir reto.
+
+390
+00:22:29,482 --> 00:22:35,020
+Depois, vire à direita naquele grande cruzamento.
+
+391
+00:22:35,044 --> 00:22:37,423
+À direita, certo?
+
+392
+00:22:37,447 --> 00:22:42,256
+Sim, lá tem um banco antigo.
+
+393
+00:22:42,280 --> 00:22:45,613
+É aquele prédio branco?
+
+394
+00:22:45,636 --> 00:22:49,769
+Não, é aquele prédio azul.
+
+395
+00:22:49,792 --> 00:22:51,769
+Entendi.
+
+396
+00:22:51,792 --> 00:22:56,359
+Ao lado do banco, tem um novo shopping.
+
+397
+00:22:56,382 --> 00:22:58,551
+Um shopping?
+
+398
+00:22:58,575 --> 00:23:03,708
+Sim, na frente do shopping tem um ponto de ônibus.
+
+399
+00:23:03,731 --> 00:23:05,946
+O ponto de ônibus, né?
+
+400
+00:23:05,970 --> 00:23:11,171
+Sim, pegue o ônibus número um ali.
+
+401
+00:23:11,194 --> 00:23:13,995
+O ônibus número um, certo?
+
+402
+00:23:14,018 --> 00:23:19,194
+Aquele ônibus vai para a estação, é muito prático.
+
+403
+00:23:19,217 --> 00:23:21,684
+Quanto tempo de ônibus?
+
+404
+00:23:21,707 --> 00:23:24,722
+Uns 5 minutos.
+
+405
+00:23:24,745 --> 00:23:28,145
+É perto, então você chega logo.
+
+406
+00:23:28,168 --> 00:23:30,001
+Que bom!
+
+407
+00:23:30,024 --> 00:23:31,827
+Fiquei aliviada.
+
+408
+00:23:31,850 --> 00:23:37,417
+Hoje está muito quente, então beba bastante água, tá?
+
+409
+00:23:37,440 --> 00:23:39,929
+Sim, vou fazer isso.
+
+410
+00:23:39,953 --> 00:23:43,519
+Bem, vá com cuidado.
+
+411
+00:23:43,542 --> 00:23:46,996
+Muito obrigada mesmo.
+
+412
+00:23:47,019 --> 00:23:48,519
+Cena 12: Pedindo Permissão em Conversas / Como Pedir Permissão em Japonês
+
+413
+00:23:48,519 --> 00:23:50,519
+Com licença
+
+414
+00:23:50,542 --> 00:23:54,216
+Posso tirar uma foto aqui?
+
+415
+00:23:54,240 --> 00:23:59,131
+Não, não pode tirar fotos aqui.
+
+416
+00:23:59,154 --> 00:24:02,001
+Ah, é?
+
+417
+00:24:02,024 --> 00:24:04,191
+Por quê?
+
+418
+00:24:04,214 --> 00:24:10,014
+Porque aqui tem muitas fotos antigas.
+
+419
+00:24:10,037 --> 00:24:11,672
+Entendi.
+
+420
+00:24:11,696 --> 00:24:15,729
+Então, posso entrar ali?
+
+421
+00:24:15,752 --> 00:24:20,559
+Não, não pode entrar ali.
+
+422
+00:24:20,582 --> 00:24:23,116
+Ali também não pode?
+
+423
+00:24:23,139 --> 00:24:29,139
+É, ali é a sala do presidente da empresa.
+
+424
+00:24:29,162 --> 00:24:30,775
+Entendi.
+
+425
+00:24:30,798 --> 00:24:35,031
+Então, onde posso descansar?
+
+426
+00:24:35,054 --> 00:24:38,343
+A sala de descanso é ali.
+
+427
+00:24:38,366 --> 00:24:41,933
+Você pode fumar ali.
+
+428
+00:24:41,956 --> 00:24:44,589
+Posso tomar um chá?
+
+429
+00:24:44,612 --> 00:24:46,281
+Sim.
+
+430
+00:24:46,305 --> 00:24:49,601
+Tanto chá quanto suco estão liberados.
+
+431
+00:24:49,625 --> 00:24:51,960
+Tem bastante, pode pegar.
+
+432
+00:24:51,983 --> 00:24:54,117
+Que bom!
+
+433
+00:24:54,140 --> 00:24:57,475
+Posso usar este computador?
+
+434
+00:24:57,498 --> 00:25:02,965
+Não, você não pode usar esse computador.
+
+435
+00:25:02,988 --> 00:25:05,562
+De quem é esse computador?
+
+436
+00:25:05,585 --> 00:25:08,852
+É do Tanaka.
+
+437
+00:25:08,875 --> 00:25:11,441
+Não toque nele.
+
+438
+00:25:11,464 --> 00:25:13,300
+Entendi.
+
+439
+00:25:13,324 --> 00:25:17,691
+Então, posso ver meu celular?
+
+440
+00:25:17,714 --> 00:25:19,450
+Sim.
+
+441
+00:25:19,473 --> 00:25:22,307
+O celular pode, sim.
+
+442
+00:25:22,330 --> 00:25:24,426
+Que bom!
+
+443
+00:25:24,449 --> 00:25:29,699
+Mas não brinque durante o horário de trabalho, tá?
+
+444
+00:25:29,723 --> 00:25:32,332
+Sim, entendi.
+
+445
+00:25:32,356 --> 00:25:34,189
+Vou tomar cuidado.
+
+446
+00:25:34,212 --> 00:25:39,079
+Então, venha àquela sala às doze horas.
+
+447
+00:25:39,102 --> 00:25:41,768
+Sim, entendi.
+
+448
+00:25:41,791 --> 00:25:44,358
+Por favor, conte comigo.
+
+449
+00:25:44,381 --> 00:25:45,881
+Cena 13: Conversa ao Telefone
+
+450
+00:25:45,881 --> 00:25:50,097
+Alô, o que você está fazendo agora?
+
+451
+00:25:50,120 --> 00:25:55,559
+Alô, estou em casa ouvindo música.
+
+452
+00:25:55,582 --> 00:25:57,228
+Que legal!
+
+453
+00:25:57,251 --> 00:26:00,385
+Que tipo de música você está ouvindo?
+
+454
+00:26:00,408 --> 00:26:04,492
+Estou ouvindo músicas japonesas antigas.
+
+455
+00:26:04,515 --> 00:26:06,281
+Ah, é?
+
+456
+00:26:06,304 --> 00:26:09,271
+Já comeu?
+
+457
+00:26:09,294 --> 00:26:11,061
+Já.
+
+458
+00:26:11,084 --> 00:26:14,284
+Acabei de comer uma marmita.
+
+459
+00:26:14,307 --> 00:26:17,164
+Hoje você saiu para algum lugar?
+
+460
+00:26:17,187 --> 00:26:19,254
+Hmm...
+
+461
+00:26:19,277 --> 00:26:24,526
+Como está chovendo, fiquei em casa o dia todo.
+
+462
+00:26:24,550 --> 00:26:26,124
+Ah, é?
+
+463
+00:26:26,147 --> 00:26:29,514
+E o Mark, o que está fazendo agora?
+
+464
+00:26:29,537 --> 00:26:34,580
+O Mark está dormindo no quarto ao lado.
+
+465
+00:26:34,603 --> 00:26:37,471
+Nossa, já está dormindo?
+
+466
+00:26:37,494 --> 00:26:39,694
+Que cedo!
+
+467
+00:26:39,717 --> 00:26:41,650
+Já.
+
+468
+00:26:41,673 --> 00:26:47,807
+Hoje ele trabalhou muito desde cedo, então está muito cansado.
+
+469
+00:26:47,830 --> 00:26:49,763
+Entendi.
+
+470
+00:26:49,786 --> 00:26:52,953
+Amanhã, que horas você vai acordar?
+
+471
+00:26:52,976 --> 00:26:56,619
+Amanhã vou acordar às 6 horas.
+
+472
+00:26:56,642 --> 00:26:59,128
+Que cedo!
+
+473
+00:26:59,151 --> 00:27:01,318
+Amanhã também vai trabalhar?
+
+474
+00:27:01,341 --> 00:27:03,189
+Já.
+
+475
+00:27:03,212 --> 00:27:06,745
+Sim, amanhã também tenho trabalho desde cedo.
+
+476
+00:27:06,768 --> 00:27:09,035
+Que puxado, hein?
+
+477
+00:27:09,058 --> 00:27:12,591
+Ainda está chovendo lá fora?
+
+478
+00:27:12,614 --> 00:27:14,448
+Já.
+
+479
+00:27:14,471 --> 00:27:17,743
+Ainda está chovendo muito.
+
+480
+00:27:17,767 --> 00:27:20,007
+E o vento está forte também.
+
+481
+00:27:20,030 --> 00:27:23,438
+Então não dá para sair, né?
+
+482
+00:27:23,461 --> 00:27:25,529
+Ah, é?
+
+483
+00:27:25,553 --> 00:27:29,489
+Por isso estou em casa lendo um livro.
+
+484
+00:27:29,512 --> 00:27:32,712
+Que livro você está lendo?
+
+485
+00:27:32,735 --> 00:27:36,668
+Estou lendo um livro didático de japonês.
+
+486
+00:27:36,691 --> 00:27:38,225
+Que incrível!
+
+487
+00:27:38,248 --> 00:27:41,281
+Continue se esforçando nos estudos, tá?
+
+488
+00:27:41,304 --> 00:27:42,798
+Obrigado!
+
+489
+00:27:42,822 --> 00:27:45,355
+A gente se fala depois, beleza?
+
+490
+00:27:45,378 --> 00:27:46,878
+Cena 14: Apresentando Minha Família
+
+491
+00:27:46,878 --> 00:27:50,568
+De quem é essa foto?
+
+492
+00:27:50,591 --> 00:27:55,225
+Essa é uma foto da minha família.
+
+493
+00:27:55,248 --> 00:27:58,663
+Nossa, que foto linda!
+
+494
+00:27:58,686 --> 00:28:01,886
+Quantas pessoas têm na sua família?
+
+495
+00:28:01,909 --> 00:28:05,320
+Somos quatro na família.
+
+496
+00:28:05,344 --> 00:28:09,184
+Tenho esposa e dois filhos.
+
+497
+00:28:09,207 --> 00:28:13,090
+Quem é essa pessoa alta?
+
+498
+00:28:13,114 --> 00:28:16,880
+Esse é o meu filho.
+
+499
+00:28:16,903 --> 00:28:20,270
+Seu filho tem olhos grandes, né?
+
+500
+00:28:20,293 --> 00:28:25,582
+É, o cabelo dele é comprido.
+
+501
+00:28:25,606 --> 00:28:29,139
+E ele canta superbem!
+
+502
+00:28:29,162 --> 00:28:31,261
+Que legal!
+
+503
+00:28:31,285 --> 00:28:35,485
+E essa menina fofa, quem é?
+
+504
+00:28:35,508 --> 00:28:39,041
+Essa é a minha filha.
+
+505
+00:28:39,064 --> 00:28:42,731
+Minha filha tem 6 anos este ano.
+
+506
+00:28:42,754 --> 00:28:46,587
+Sua filha tem mãozinhas pequenas, hein?
+
+507
+00:28:46,610 --> 00:28:52,856
+É mesmo. Ela vai pra escola todo dia agora.
+
+508
+00:28:52,879 --> 00:28:55,246
+Todo dia?
+
+509
+00:28:55,269 --> 00:28:58,436
+Deve ser animado!
+
+510
+00:28:58,459 --> 00:29:02,592
+É sim. Todo dia é uma animação só.
+
+511
+00:29:02,615 --> 00:29:05,548
+Onde está sua esposa?
+
+512
+00:29:05,571 --> 00:29:09,771
+Minha esposa é essa aqui à direita.
+
+513
+00:29:09,794 --> 00:29:13,128
+Sua esposa é uma pessoa tranquila?
+
+514
+00:29:13,152 --> 00:29:17,620
+Não, minha esposa fala pelos cotovelos!
+
+515
+00:29:17,643 --> 00:29:20,416
+Ela é superanimada.
+
+516
+00:29:20,440 --> 00:29:24,687
+Nossa, parece uma família divertida!
+
+517
+00:29:24,711 --> 00:29:30,111
+É mesmo. Todo mundo na minha família adora câmera.
+
+518
+00:29:30,134 --> 00:29:34,753
+Por isso que vocês têm tantas fotos lindas, né?
+
+519
+00:29:34,777 --> 00:29:38,629
+É. A gente tira foto todo dia.
+
+520
+00:29:38,652 --> 00:29:41,300
+Que inveja!
+
+521
+00:29:41,324 --> 00:29:45,793
+Minha família está no Vietnã agora.
+
+522
+00:29:45,816 --> 00:29:49,817
+Ah, deve ser difícil, né?
+
+523
+00:29:49,841 --> 00:29:55,379
+É, mas a gente conversa por telefone todo dia.
+
+524
+00:29:55,402 --> 00:29:56,902
+Cena 15: Passeio Fotográfico no Domingo
+
+525
+00:29:56,902 --> 00:30:01,195
+Qual é o plano pro próximo domingo?
+
+526
+00:30:01,219 --> 00:30:07,785
+No próximo domingo, vou ao parque tirar fotos.
+
+527
+00:30:07,808 --> 00:30:09,688
+No parque?
+
+528
+00:30:09,712 --> 00:30:11,545
+Ótima ideia!
+
+529
+00:30:11,568 --> 00:30:14,207
+Qual parque?
+
+530
+00:30:14,230 --> 00:30:19,564
+É o parque grande no centro da cidade.
+
+531
+00:30:19,587 --> 00:30:24,323
+Lá é tranquilo e lindo, né? Ótimo lugar!
+
+532
+00:30:24,346 --> 00:30:31,512
+É sim. E no próximo domingo o tempo vai estar bom e fresquinho.
+
+533
+00:30:31,535 --> 00:30:34,735
+Vai com quem?
+
+534
+00:30:34,758 --> 00:30:38,958
+Vou com meu amigo, o Mark.
+
+535
+00:30:38,981 --> 00:30:42,348
+O Mark também tem câmera?
+
+536
+00:30:42,371 --> 00:30:43,841
+Sim.
+
+537
+00:30:43,865 --> 00:30:49,398
+Ele comprou uma câmera nova e grande.
+
+538
+00:30:49,421 --> 00:30:51,621
+Ah, é?
+
+539
+00:30:51,644 --> 00:30:55,577
+Eu também quero ir nesse parque!
+
+540
+00:30:55,600 --> 00:30:59,055
+Então, vamos juntos.
+
+541
+00:30:59,079 --> 00:31:01,116
+Tudo bem?
+
+542
+00:31:01,140 --> 00:31:03,173
+Estou feliz!
+
+543
+00:31:03,196 --> 00:31:08,196
+Vamos nos encontrar em frente à estação às 9h da manhã de domingo.
+
+544
+00:31:08,219 --> 00:31:10,287
+Entendi.
+
+545
+00:31:10,311 --> 00:31:13,154
+Como você vai até a estação?
+
+546
+00:31:13,178 --> 00:31:16,311
+Eu vou de bicicleta.
+
+547
+00:31:16,334 --> 00:31:19,067
+Porque a estação é perto.
+
+548
+00:31:19,090 --> 00:31:21,890
+Eu vou de ônibus.
+
+549
+00:31:21,913 --> 00:31:26,280
+O ônibus é prático e barato, é ótimo!
+
+550
+00:31:26,303 --> 00:31:27,936
+Pois é.
+
+551
+00:31:27,959 --> 00:31:32,560
+Tem algum restaurante gostoso perto do parque?
+
+552
+00:31:32,584 --> 00:31:34,455
+Sim.
+
+553
+00:31:34,478 --> 00:31:39,812
+Em frente ao parque tem um restaurante novo e delicioso.
+
+554
+00:31:39,835 --> 00:31:43,235
+Novo e antigo?
+
+555
+00:31:43,258 --> 00:31:45,858
+Que interessante!
+
+556
+00:31:45,880 --> 00:31:50,337
+O curry de lá é barato e delicioso!
+
+557
+00:31:50,361 --> 00:31:55,100
+Então, vamos almoçar lá.
+
+558
+00:31:55,123 --> 00:31:57,923
+Sim, vamos fazer isso.
+
+559
+00:31:57,946 --> 00:32:00,439
+Estou ansioso(a)!
+
+560
+00:32:00,462 --> 00:32:01,962
+Cena 16: Impressões sobre o filme / Impressões do Filme
+
+561
+00:32:01,962 --> 00:32:06,035
+Ontem, assisti a um filme novo.
+
+562
+00:32:06,059 --> 00:32:07,711
+Ah, é?
+
+563
+00:32:07,734 --> 00:32:10,703
+Que filme você assistiu?
+
+564
+00:32:10,727 --> 00:32:14,460
+Aquele filme famoso de animação.
+
+565
+00:32:14,483 --> 00:32:17,516
+Ah, aquele filme!
+
+566
+00:32:17,539 --> 00:32:19,673
+E aí, o que achou?
+
+567
+00:32:19,696 --> 00:32:25,096
+Achei o filme um pouco longo.
+
+568
+00:32:25,119 --> 00:32:28,552
+Quanto tempo durou?
+
+569
+00:32:28,575 --> 00:32:31,387
+Tinha umas três horas.
+
+570
+00:32:31,410 --> 00:32:33,943
+Fiquei muito cansado(a).
+
+571
+00:32:33,966 --> 00:32:37,500
+Três horas é realmente longo.
+
+572
+00:32:37,523 --> 00:32:39,894
+Foi interessante?
+
+573
+00:32:39,917 --> 00:32:45,410
+Hmm, achei que não foi muito interessante.
+
+574
+00:32:45,434 --> 00:32:48,116
+Ah, é?
+
+575
+00:32:48,139 --> 00:32:51,306
+Por que não achou interessante?
+
+576
+00:32:51,329 --> 00:32:55,147
+A história estava um pouco complicada.
+
+577
+00:32:55,170 --> 00:32:57,805
+Não entendi muito bem.
+
+578
+00:32:57,829 --> 00:32:59,862
+Entendi.
+
+579
+00:32:59,885 --> 00:33:03,485
+A história foi difícil para crianças?
+
+580
+00:33:03,508 --> 00:33:04,975
+Sim.
+
+581
+00:33:04,998 --> 00:33:08,731
+Acho que foi muito difícil para crianças.
+
+582
+00:33:08,754 --> 00:33:11,572
+E a música, como foi?
+
+583
+00:33:11,595 --> 00:33:15,962
+Achei a música linda e muito boa.
+
+584
+00:33:15,985 --> 00:33:19,672
+Que bom que a música foi boa!
+
+585
+00:33:19,696 --> 00:33:24,496
+Sim, mas as cadeiras do cinema eram duras.
+
+586
+00:33:24,519 --> 00:33:27,285
+Isso deve ter sido difícil.
+
+587
+00:33:27,308 --> 00:33:30,316
+Ficou com o bumbum dolorido?
+
+588
+00:33:30,339 --> 00:33:31,906
+Sim.
+
+589
+00:33:31,929 --> 00:33:35,227
+Fiquei com o bumbum muito dolorido.
+
+590
+00:33:35,251 --> 00:33:40,231
+Por isso, as três horas pareceram ainda mais longas.
+
+591
+00:33:40,254 --> 00:33:42,331
+Exatamente.
+
+592
+00:33:42,355 --> 00:33:45,208
+No meio do filme, fiquei com sono.
+
+593
+00:33:45,231 --> 00:33:48,664
+O cinema é escuro mesmo.
+
+594
+00:33:48,687 --> 00:33:51,721
+Eu também costumo ficar com sono.
+
+595
+00:33:51,744 --> 00:33:55,977
+Mas eu tentei até o fim.
+
+596
+00:33:56,000 --> 00:33:57,835
+Que incrível!
+
+597
+00:33:57,858 --> 00:34:01,392
+O que seus amigos disseram?
+
+598
+00:34:01,415 --> 00:34:06,248
+Meus amigos disseram que foi muito engraçado.
+
+599
+00:34:06,271 --> 00:34:09,889
+As opiniões variam de pessoa para pessoa, né?
+
+600
+00:34:09,913 --> 00:34:15,648
+É, meus amigos disseram que vão assistir de novo na próxima semana.
+
+601
+00:34:15,671 --> 00:34:17,766
+Sério?
+
+602
+00:34:17,790 --> 00:34:20,556
+Eles gostaram mesmo, hein?
+
+603
+00:34:20,579 --> 00:34:22,227
+Sim.
+
+604
+00:34:22,250 --> 00:34:25,653
+Eu acho que não quero ver de novo.
+
+605
+00:34:25,677 --> 00:34:29,810
+O próximo filme devia ser mais curto, né?
+
+606
+00:34:29,833 --> 00:34:31,466
+É verdade.
+
+607
+00:34:31,489 --> 00:34:36,130
+Da próxima vez, quero ver uma comédia divertida.
+
+608
+00:34:36,154 --> 00:34:38,233
+Boa ideia!
+
+609
+00:34:38,256 --> 00:34:41,789
+Da próxima vez, quero ir junto também.
+
+610
+00:34:41,812 --> 00:34:43,312
+Cena 17: Preparação para a Reunião e Compromissos
+
+611
+00:34:43,312 --> 00:34:47,769
+Você viu o Marcos hoje?
+
+612
+00:34:47,792 --> 00:34:51,827
+Não, ainda não o vi hoje.
+
+613
+00:34:51,851 --> 00:34:54,339
+Aconteceu alguma coisa?
+
+614
+00:34:54,362 --> 00:35:01,530
+O Marcos disse que não poderá vir aqui amanhã.
+
+615
+00:35:01,553 --> 00:35:05,287
+O quê? Ele não vem amanhã?
+
+616
+00:35:05,310 --> 00:35:07,243
+Por quê?
+
+617
+00:35:07,266 --> 00:35:14,204
+Ele disse que tem um compromisso importante desde cedo.
+
+618
+00:35:14,227 --> 00:35:16,161
+Ah, é?
+
+619
+00:35:16,184 --> 00:35:19,584
+E a reunião de amanhã?
+
+620
+00:35:19,607 --> 00:35:25,740
+Ele disse que vai preparar os materiais da reunião ainda hoje.
+
+621
+00:35:25,763 --> 00:35:28,412
+Ah, que bom então.
+
+622
+00:35:28,435 --> 00:35:32,269
+Onde o Marcos está agora?
+
+623
+00:35:32,292 --> 00:35:37,058
+Ele está trabalhando em outra sala.
+
+624
+00:35:37,081 --> 00:35:38,781
+Entendi.
+
+625
+00:35:38,804 --> 00:35:41,061
+Vou dar uma passada lá depois.
+
+626
+00:35:41,084 --> 00:35:46,918
+Ah, e ele deixou um recado.
+
+627
+00:35:46,941 --> 00:35:49,074
+Que recado?
+
+628
+00:35:49,097 --> 00:35:54,264
+Ele disse que devolveu o livro para o Tanaka.
+
+629
+00:35:54,287 --> 00:35:56,087
+Livro?
+
+630
+00:35:56,110 --> 00:35:58,477
+Que livro?
+
+631
+00:35:58,500 --> 00:36:02,466
+Ele disse que era um dicionário de japonês.
+
+632
+00:36:02,489 --> 00:36:04,124
+Entendi.
+
+633
+00:36:04,147 --> 00:36:06,590
+Vou avisar o Tanaka.
+
+634
+00:36:06,614 --> 00:36:08,694
+Por favor, conte comigo.
+
+635
+00:36:08,718 --> 00:36:12,685
+O Marcos estava com muita pressa.
+
+636
+00:36:12,708 --> 00:36:15,741
+Deve estar ocupado preparando os compromissos, né?
+
+637
+00:36:15,764 --> 00:36:22,036
+Não, ele disse que está ocupado a semana toda.
+
+638
+00:36:22,059 --> 00:36:25,116
+Será que ele está bem de saúde?
+
+639
+00:36:25,140 --> 00:36:26,550
+É preocupante, né?
+
+640
+00:36:26,574 --> 00:36:32,857
+Ele disse que está dormindo bem todas as noites, então deve estar tudo bem.
+
+641
+00:36:32,880 --> 00:36:35,485
+Fiquei aliviado ao ouvir isso.
+
+642
+00:36:35,509 --> 00:36:41,043
+Ele disse que vai chegar cedo na segunda-feira.
+
+643
+00:36:41,066 --> 00:36:42,866
+Entendi.
+
+644
+00:36:42,889 --> 00:36:45,364
+Conversamos na segunda, então.
+
+645
+00:36:45,387 --> 00:36:46,847
+Sim.
+
+646
+00:36:46,871 --> 00:36:49,204
+É só isso o recado.
+
+647
+00:36:49,227 --> 00:36:51,828
+Obrigado por me avisar.
+
+648
+00:36:51,852 --> 00:36:56,866
+De nada, se acontecer algo mais, eu aviso.
+
+649
+00:36:56,889 --> 00:36:58,123
+Sim.
+
+650
+00:36:58,146 --> 00:37:00,346
+Por favor, conte comigo.
+
+651
+00:37:00,369 --> 00:37:01,869
+Cena 18: Hobbies e Culinária
+
+652
+00:37:01,869 --> 00:37:05,202
+Qual é o seu hobby?
+
+653
+00:37:05,225 --> 00:37:09,431
+Meu hobby é cozinhar.
+
+654
+00:37:09,454 --> 00:37:12,254
+Cozinhar? Que legal!
+
+655
+00:37:12,277 --> 00:37:14,765
+Você cozinha todos os dias?
+
+656
+00:37:14,789 --> 00:37:16,189
+Sim.
+
+657
+00:37:16,212 --> 00:37:20,480
+Eu adoro cozinhar.
+
+658
+00:37:20,503 --> 00:37:23,508
+Que tipo de prato você costuma fazer?
+
+659
+00:37:23,531 --> 00:37:26,777
+Costumo fazer pratos japoneses.
+
+660
+00:37:26,800 --> 00:37:29,488
+Eu faço um nikujaga delicioso!
+
+661
+00:37:29,512 --> 00:37:32,245
+Uau, nikujaga?
+
+662
+00:37:32,268 --> 00:37:34,285
+Queria muito provar!
+
+663
+00:37:34,309 --> 00:37:38,475
+Que tal fazer uma festa na minha casa qualquer dia desses?
+
+664
+00:37:38,498 --> 00:37:40,349
+Ótima ideia!
+
+665
+00:37:40,373 --> 00:37:42,464
+Eu adoraria ir!
+
+666
+00:37:42,488 --> 00:37:45,126
+Qual é o seu hobby?
+
+667
+00:37:45,149 --> 00:37:49,116
+Eu amo cantar.
+
+668
+00:37:49,139 --> 00:37:52,106
+Cantar? Que bacana!
+
+669
+00:37:52,129 --> 00:37:54,462
+Onde você costuma cantar?
+
+670
+00:37:54,485 --> 00:37:57,652
+Vou muito ao karaokê cantar.
+
+671
+00:37:57,674 --> 00:38:00,679
+O Mark comentou sobre você.
+
+672
+00:38:00,703 --> 00:38:03,937
+O que o Mark disse?
+
+673
+00:38:03,960 --> 00:38:07,960
+Ele disse que você canta muito bem.
+
+674
+00:38:07,982 --> 00:38:11,749
+Ah, foi isso que o Mark disse?
+
+675
+00:38:11,773 --> 00:38:13,707
+Que vergonha...
+
+676
+00:38:13,730 --> 00:38:17,096
+Canta pra gente na festa, então!
+
+677
+00:38:17,119 --> 00:38:18,815
+Entendi.
+
+678
+00:38:18,839 --> 00:38:20,973
+Vou cantar só um pouquinho.
+
+679
+00:38:20,996 --> 00:38:23,238
+Estou ansioso(a)!
+
+680
+00:38:23,262 --> 00:38:26,495
+Vou preparar um monte de comida!
+
+681
+00:38:26,518 --> 00:38:30,764
+Eu adoro comprar doces, então levo alguns.
+
+682
+00:38:30,788 --> 00:38:32,388
+Muito obrigado(a)!
+
+683
+00:38:32,411 --> 00:38:35,218
+Eu amo doces!
+
+684
+00:38:35,242 --> 00:38:37,724
+Vamos chamar o Mark também.
+
+685
+00:38:37,747 --> 00:38:42,747
+É! O Mark toca violão muito bem.
+
+686
+00:38:42,770 --> 00:38:44,637
+Sério?
+
+687
+00:38:44,660 --> 00:38:47,831
+Vai ser divertido curtir música juntos!
+
+688
+00:38:47,855 --> 00:38:52,221
+Sim! Vai ser uma festa animada.
+
+689
+00:38:52,244 --> 00:38:55,178
+Mal posso esperar pelo domingo!
+
+690
+00:38:55,201 --> 00:38:58,860
+Então, te espero no domingo!
+
+691
+00:38:58,883 --> 00:39:00,383
+Cena 19: Pausa no Conveniência em um Dia Quente
+
+692
+00:39:00,383 --> 00:39:04,552
+Nossa, andamos um pouco, né?
+
+693
+00:39:04,575 --> 00:39:07,184
+Estou cansado(a).
+
+694
+00:39:07,208 --> 00:39:09,341
+É verdade.
+
+695
+00:39:09,364 --> 00:39:13,498
+Lá fora está muito quente.
+
+696
+00:39:13,521 --> 00:39:16,754
+Estou com sede.
+
+697
+00:39:16,777 --> 00:39:18,311
+Pois é.
+
+698
+00:39:18,334 --> 00:39:21,701
+Olha, ali tem uma conveniência!
+
+699
+00:39:21,724 --> 00:39:25,217
+Vamos comprar alguma coisa na conveniência?
+
+700
+00:39:25,241 --> 00:39:29,274
+Quero comprar um chá gelado.
+
+701
+00:39:29,297 --> 00:39:31,130
+Ótima ideia!
+
+702
+00:39:31,153 --> 00:39:34,753
+Eu quero uma água com gás.
+
+703
+00:39:34,776 --> 00:39:38,710
+Vai querer comprar algo para comer?
+
+704
+00:39:38,733 --> 00:39:44,466
+Estou de barriga cheia, não quero nada.
+
+705
+00:39:44,489 --> 00:39:46,061
+Ah, é?
+
+706
+00:39:46,084 --> 00:39:50,151
+Eu estou com um pouco de fome.
+
+707
+00:39:50,174 --> 00:39:54,189
+Então, compra um oniguiri ou algo assim.
+
+708
+00:39:54,213 --> 00:39:56,946
+Sim, vou fazer isso.
+
+709
+00:39:56,969 --> 00:40:00,010
+Eu gosto de oniguiri de salmão.
+
+710
+00:40:00,033 --> 00:40:03,800
+O sorvete da conveniência também é uma delícia!
+
+711
+00:40:03,823 --> 00:40:06,637
+Sorvete?
+
+712
+00:40:06,660 --> 00:40:08,794
+Ótima ideia!
+
+713
+00:40:08,817 --> 00:40:13,883
+Mas será que é melhor não comer nada agora?
+
+714
+00:40:13,906 --> 00:40:15,963
+Por quê?
+
+715
+00:40:15,987 --> 00:40:20,405
+Falta uma hora para o jantar.
+
+716
+00:40:20,429 --> 00:40:23,965
+Ah, eu tinha esquecido.
+
+717
+00:40:23,988 --> 00:40:27,885
+Então, vamos deixar o onigiri de lado.
+
+718
+00:40:27,908 --> 00:40:31,642
+Sim, vamos só tomar algo.
+
+719
+00:40:31,665 --> 00:40:33,431
+Entendi.
+
+720
+00:40:33,454 --> 00:40:36,462
+Vamos comprar uma bebida gelada.
+
+721
+00:40:36,486 --> 00:40:39,720
+Eu pago, pode deixar.
+
+722
+00:40:39,743 --> 00:40:42,543
+Sério? Tudo bem?
+
+723
+00:40:42,566 --> 00:40:43,932
+Com licença
+
+724
+00:40:43,955 --> 00:40:49,591
+Você sempre me ajuda, então isso é o mínimo que posso fazer.
+
+725
+00:40:49,614 --> 00:40:51,548
+Muito obrigado(a)!
+
+726
+00:40:51,571 --> 00:40:54,704
+Então, um chá, por favor.
+
+727
+00:40:54,727 --> 00:40:58,961
+Certo, então vamos entrar na loja.
+
+728
+00:40:58,985 --> 00:41:02,830
+Dentro da loja está bem fresquinho, né?
+
+729
+00:41:02,853 --> 00:41:05,292
+Verdade.
+
+730
+00:41:05,315 --> 00:41:07,849
+Nem quero sair mais.
+
+731
+00:41:07,873 --> 00:41:11,040
+Onde estão as cestas?
+
+732
+00:41:11,063 --> 00:41:14,396
+Perto da entrada.
+
+733
+00:41:14,419 --> 00:41:16,186
+Entendi.
+
+734
+00:41:16,209 --> 00:41:18,142
+Vou pegar uma.
+
+735
+00:41:18,165 --> 00:41:19,665
+Cena 20: Lembranças de uma Viagem
+
+736
+00:41:19,665 --> 00:41:23,520
+Como foi a viagem da semana passada?
+
+737
+00:41:23,543 --> 00:41:28,758
+A viagem da semana passada foi muito divertida!
+
+738
+00:41:28,782 --> 00:41:31,315
+Para onde você foi?
+
+739
+00:41:31,338 --> 00:41:34,378
+Fui para Hokkaido.
+
+740
+00:41:34,401 --> 00:41:36,635
+Foi a minha primeira vez.
+
+741
+00:41:36,658 --> 00:41:40,265
+Nossa, Hokkaido!
+
+742
+00:41:40,288 --> 00:41:42,466
+Não fez muito frio?
+
+743
+00:41:42,490 --> 00:41:47,144
+Não fez tanto frio, ainda bem.
+
+744
+00:41:47,167 --> 00:41:49,900
+Todos os dias o tempo estava ótimo.
+
+745
+00:41:49,923 --> 00:41:52,656
+Que bom, né?
+
+746
+00:41:52,679 --> 00:41:55,134
+O que você comeu por lá?
+
+747
+00:41:55,157 --> 00:41:59,003
+Comi muito sushi!
+
+748
+00:41:59,027 --> 00:42:01,227
+Estava uma delícia.
+
+749
+00:42:01,250 --> 00:42:06,283
+Que inveja! Também quero comer sushi.
+
+750
+00:42:06,306 --> 00:42:11,573
+O peixe estava tão fresco que não tinha cheiro nenhum.
+
+751
+00:42:11,597 --> 00:42:14,130
+Você comeu ramen?
+
+752
+00:42:14,153 --> 00:42:15,920
+Já.
+
+753
+00:42:15,943 --> 00:42:19,425
+À noite, comi ramen de missô.
+
+754
+00:42:19,448 --> 00:42:21,300
+Aqueceu bastante.
+
+755
+00:42:21,323 --> 00:42:24,732
+A viagem foi cara?
+
+756
+00:42:24,755 --> 00:42:29,957
+A passagem de avião foi um pouco cara, mas o hotel saiu barato.
+
+757
+00:42:29,981 --> 00:42:33,215
+O hotel era bonito?
+
+758
+00:42:33,239 --> 00:42:34,617
+Já.
+
+759
+00:42:34,640 --> 00:42:39,007
+Era um hotel novinho e muito bonito.
+
+760
+00:42:39,030 --> 00:42:42,196
+Você visitou algum ponto turístico?
+
+761
+00:42:42,219 --> 00:42:45,953
+Fui ver um lago enorme.
+
+762
+00:42:45,975 --> 00:42:48,811
+Era calmo e lindo.
+
+763
+00:42:48,835 --> 00:42:51,568
+Tirou muitas fotos?
+
+764
+00:42:51,591 --> 00:42:55,724
+Tirei umas 100 fotos com o celular.
+
+765
+00:42:55,747 --> 00:42:57,714
+Depois te mostro.
+
+766
+00:42:57,737 --> 00:42:59,304
+Obrigado!
+
+767
+00:42:59,327 --> 00:43:02,369
+Comprou alguma lembrancinha?
+
+768
+00:43:02,393 --> 00:43:06,126
+Comprei uns biscoitos deliciosos.
+
+769
+00:43:06,149 --> 00:43:08,765
+Esse aqui é pra você.
+
+770
+00:43:08,789 --> 00:43:11,643
+Uau, obrigada!
+
+771
+00:43:11,666 --> 00:43:14,033
+Que felicidade!
+
+772
+00:43:14,056 --> 00:43:20,235
+A viagem foi ótima, mas fiquei cansado por causa da longa viagem.
+
+773
+00:43:20,258 --> 00:43:23,534
+Quantas horas durou o voo?
+
+774
+00:43:23,557 --> 00:43:27,575
+Durou umas 2 horas saindo de Tóquio.
+
+775
+00:43:27,599 --> 00:43:31,011
+2 horas é um pouco longo, né?
+
+776
+00:43:31,034 --> 00:43:34,434
+Mas valeu a pena, viraram boas lembranças.
+
+777
+00:43:34,457 --> 00:43:36,352
+Já.
+
+778
+00:43:36,376 --> 00:43:40,778
+Foi tão bom que quero ir de novo!
+
+779
+00:43:40,801 --> 00:43:44,286
+Da próxima vez, quero ir junto!
+
+780
+00:43:44,310 --> 00:43:45,946
+Que legal!
+
+781
+00:43:45,970 --> 00:43:49,770
+Você disse que Hokkaido é lindo no inverno, né?
+
+782
+00:43:49,793 --> 00:43:53,526
+Então, vamos no inverno da próxima vez!
+
+783
+00:43:53,549 --> 00:43:55,049
+Cena 21: Apresentação do Novo Professor
+
+784
+00:43:55,049 --> 00:44:00,703
+Quem é aquela pessoa lendo um livro ali?
+
+785
+00:44:00,726 --> 00:44:05,304
+Ah, aquela perto da janela?
+
+786
+00:44:05,328 --> 00:44:10,895
+Sim, aquela de chapéu preto.
+
+787
+00:44:10,918 --> 00:44:16,285
+É o novo professor que chegou semana passada.
+
+788
+00:44:16,308 --> 00:44:18,341
+Ah, é?
+
+789
+00:44:18,364 --> 00:44:21,810
+Qual o nome dele?
+
+790
+00:44:21,834 --> 00:44:25,067
+É o professor Tanaka.
+
+791
+00:44:25,090 --> 00:44:30,773
+Professor Tanaka? O que ele ensina?
+
+792
+00:44:30,797 --> 00:44:35,205
+Ele ensina história do Japão.
+
+793
+00:44:35,228 --> 00:44:38,897
+Nossa, professor de história?
+
+794
+00:44:38,920 --> 00:44:41,054
+Ele parece novo, né?
+
+795
+00:44:41,077 --> 00:44:48,810
+É, quem conversou com ele ontem disse que é muito simpático.
+
+796
+00:44:48,833 --> 00:44:51,306
+Que bom, né?
+
+797
+00:44:51,329 --> 00:44:54,342
+Eu também quero conversar com ele.
+
+798
+00:44:54,366 --> 00:44:59,808
+Que livro será que ele está lendo?
+
+799
+00:44:59,832 --> 00:45:03,065
+É um livro bem grande, né?
+
+800
+00:45:03,088 --> 00:45:05,421
+Será um dicionário?
+
+801
+00:45:05,444 --> 00:45:11,616
+Não, é um livro com muitas fotos antigas.
+
+802
+00:45:11,640 --> 00:45:15,976
+Olha, o professor está indo para a sala ao lado.
+
+803
+00:45:16,000 --> 00:45:20,267
+Parece que vai conversar com outro professor ali.
+
+804
+00:45:20,290 --> 00:45:24,103
+A bolsa que ele está carregando também é linda.
+
+805
+00:45:24,126 --> 00:45:29,726
+É, ele disse que comprou em Kyoto.
+
+806
+00:45:29,749 --> 00:45:33,525
+Kyoto? Que legal!
+
+807
+00:45:33,548 --> 00:45:36,236
+Eu também quero ir lá.
+
+808
+00:45:36,260 --> 00:45:41,627
+Ele estudou em uma universidade de Kyoto, por isso adora lá.
+
+809
+00:45:41,650 --> 00:45:44,816
+Ah, por isso ele gosta tanto de Kyoto!
+
+810
+00:45:44,839 --> 00:45:46,909
+Faz sentido.
+
+811
+00:45:46,933 --> 00:45:51,466
+Olha, o professor olhou para cá e sorriu!
+
+812
+00:45:51,489 --> 00:45:54,023
+Sério?
+
+813
+00:45:54,046 --> 00:45:56,779
+Fiquei um pouco envergonhado...
+
+814
+00:45:56,802 --> 00:45:59,335
+Tudo bem!
+
+815
+00:45:59,358 --> 00:46:01,558
+Vamos lá cumprimentá-lo.
+
+816
+00:46:01,581 --> 00:46:06,048
+Agora não dá, ele está conversando com outra pessoa.
+
+817
+00:46:06,071 --> 00:46:07,804
+É verdade.
+
+818
+00:46:07,827 --> 00:46:11,639
+Vamos esperar aqui até ele terminar.
+
+819
+00:46:11,663 --> 00:46:16,863
+Tá bom. Quem é aquele comendo bolo ali?
+
+820
+00:46:16,886 --> 00:46:20,552
+Aquele é o Mark.
+
+821
+00:46:20,575 --> 00:46:23,109
+Ele está sempre comendo, né?
+
+822
+00:46:23,132 --> 00:46:28,465
+Hehe, o Mark adora comer mesmo.
+
+823
+00:46:28,488 --> 00:46:33,288
+É, a comida que ele faz também é deliciosa.
+
+824
+00:46:33,311 --> 00:46:37,956
+Queria provar a comida que o Mark faz um dia.
+
+825
+00:46:37,979 --> 00:46:42,312
+Então, vamos fazer uma festa qualquer dia desses!
+
+826
+00:46:42,335 --> 00:46:43,835
+Cena 22: Problemas Antes do Prazo do Relatório
+
+827
+00:46:43,835 --> 00:46:48,724
+Marcos, você já entregou aquele relatório?
+
+828
+00:46:48,748 --> 00:46:53,435
+Não, ainda não escrevi.
+
+829
+00:46:53,458 --> 00:46:55,991
+Nossa, sério?
+
+830
+00:46:56,014 --> 00:46:58,912
+O prazo é até amanhã de manhã, hein?
+
+831
+00:46:58,936 --> 00:47:03,936
+Sim, eu sei, mas ainda não terminei.
+
+832
+00:47:03,959 --> 00:47:05,935
+Por quê?
+
+833
+00:47:05,958 --> 00:47:09,002
+Você teve bastante tempo, não?
+
+834
+00:47:09,026 --> 00:47:13,761
+Meu computador quebrou e os dados sumiram.
+
+835
+00:47:13,784 --> 00:47:16,793
+Isso deve ter sido difícil.
+
+836
+00:47:16,816 --> 00:47:19,149
+Agora está tudo certo?
+
+837
+00:47:19,172 --> 00:47:25,187
+Sim, peguei emprestado o computador de um amigo e estou escrevendo agora.
+
+838
+00:47:25,211 --> 00:47:27,611
+Quanto você já escreveu?
+
+839
+00:47:27,634 --> 00:47:29,867
+Mais ou menos metade?
+
+840
+00:47:29,890 --> 00:47:34,457
+Não, só escrevi um pouquinho.
+
+841
+00:47:34,480 --> 00:47:36,680
+Estou ficando desesperado.
+
+842
+00:47:36,703 --> 00:47:41,103
+Hoje vai ter que virar a noite, né?
+
+843
+00:47:41,126 --> 00:47:44,926
+É, vou ficar acordado escrevendo.
+
+844
+00:47:44,949 --> 00:47:47,515
+Você está bem de saúde?
+
+845
+00:47:47,538 --> 00:47:50,338
+Não exagera, tá?
+
+846
+00:47:50,361 --> 00:47:52,561
+Muito obrigado(a)!
+
+847
+00:47:52,584 --> 00:47:56,624
+Mas se não entregar, vou levar bronca.
+
+848
+00:47:56,648 --> 00:48:00,421
+Já pediu pra alguém revisar os kanjis?
+
+849
+00:48:00,445 --> 00:48:04,845
+Não, ainda não pedi pra ninguém.
+
+850
+00:48:04,868 --> 00:48:08,736
+Quer que eu te ajude?
+
+851
+00:48:08,759 --> 00:48:11,359
+Sério?
+
+852
+00:48:11,382 --> 00:48:13,749
+Me ajudaria muito!
+
+853
+00:48:13,772 --> 00:48:17,744
+Me mostra o que já terminou.
+
+854
+00:48:17,768 --> 00:48:19,737
+Entendi.
+
+855
+00:48:19,760 --> 00:48:23,832
+Mas ainda não terminei nem uma página.
+
+856
+00:48:23,855 --> 00:48:26,388
+Se apressa!
+
+857
+00:48:26,411 --> 00:48:29,296
+O tempo está passando rápido!
+
+858
+00:48:29,320 --> 00:48:33,939
+Tá bom, vou digitar rápido agora.
+
+859
+00:48:33,963 --> 00:48:37,234
+Já jantou?
+
+860
+00:48:37,257 --> 00:48:41,424
+Não, ainda não comi nada.
+
+861
+00:48:41,446 --> 00:48:43,784
+Estou com fome.
+
+862
+00:48:43,807 --> 00:48:48,974
+Vou comprar algo na loja de conveniência pra você.
+
+863
+00:48:48,997 --> 00:48:50,397
+Com licença
+
+864
+00:48:50,421 --> 00:48:53,388
+Me traz dois onigiris, por favor.
+
+865
+00:48:53,411 --> 00:48:55,491
+Entendi.
+
+866
+00:48:55,514 --> 00:48:57,985
+Vou comprar chá também.
+
+867
+00:48:58,009 --> 00:48:59,648
+Muito obrigado(a)!
+
+868
+00:48:59,671 --> 00:49:02,684
+Depois eu te pago.
+
+869
+00:49:02,708 --> 00:49:04,641
+Deixa pra lá.
+
+870
+00:49:04,664 --> 00:49:07,513
+Primeiro, se concentra no relatório.
+
+871
+00:49:07,536 --> 00:49:09,349
+Sim.
+
+872
+00:49:09,373 --> 00:49:14,551
+Ter um veterano tão legal assim me deixa muito feliz!
+
+873
+00:49:14,574 --> 00:49:16,449
+Ah, para com isso.
+
+874
+00:49:16,473 --> 00:49:19,906
+Deixa de bajulação e mexe essas mãos!
+
+875
+00:49:19,929 --> 00:49:21,938
+Entendi.
+
+876
+00:49:21,962 --> 00:49:24,695
+Vou me concentrar e dar o meu melhor.
+
+877
+00:49:24,718 --> 00:49:26,218
+Cena 23: Escolhendo no Cardápio: Uma Conversa
+
+878
+00:49:26,218 --> 00:49:29,418
+Tem tanta coisa no cardápio, né?
+
+879
+00:49:29,441 --> 00:49:31,508
+O que você vai pedir?
+
+880
+00:49:31,530 --> 00:49:33,697
+Verdade.
+
+881
+00:49:33,720 --> 00:49:39,153
+Estou em dúvida entre carne ou peixe.
+
+882
+00:49:39,177 --> 00:49:44,510
+Você geralmente prefere carne ou peixe?
+
+883
+00:49:44,533 --> 00:49:48,791
+Eu gosto mais de carne do que de peixe.
+
+884
+00:49:48,815 --> 00:49:52,582
+Que tal esse gyudon?
+
+885
+00:49:52,605 --> 00:49:54,872
+Parece delicioso!
+
+886
+00:49:54,895 --> 00:49:57,262
+Ótima ideia!
+
+887
+00:49:57,285 --> 00:50:00,618
+E esse prato com peixe, o que acha?
+
+888
+00:50:00,641 --> 00:50:06,374
+O peixe é popular porque faz bem à saúde.
+
+889
+00:50:06,397 --> 00:50:08,997
+Qual você vai escolher?
+
+890
+00:50:09,020 --> 00:50:10,894
+Já decidiu?
+
+891
+00:50:10,918 --> 00:50:15,051
+Eu vou querer este curry de frango.
+
+892
+00:50:15,074 --> 00:50:18,074
+É que eu gosto de coisas apimentadas.
+
+893
+00:50:18,097 --> 00:50:20,503
+Curry também é uma boa escolha.
+
+894
+00:50:20,527 --> 00:50:23,410
+O cheiro já chegou até aqui.
+
+895
+00:50:23,434 --> 00:50:27,567
+Udon ou soba, qual você prefere?
+
+896
+00:50:27,590 --> 00:50:31,323
+Eu prefiro soba.
+
+897
+00:50:31,346 --> 00:50:34,080
+Adoro soba gelado.
+
+898
+00:50:34,103 --> 00:50:38,070
+Este restaurante também é famoso pelo soba.
+
+899
+00:50:38,093 --> 00:50:40,528
+Disseram que é delicioso.
+
+900
+00:50:40,552 --> 00:50:43,490
+Ah, é mesmo?
+
+901
+00:50:43,513 --> 00:50:46,925
+Fico ainda mais indeciso(a) agora.
+
+902
+00:50:46,948 --> 00:50:49,882
+Pode pensar com calma.
+
+903
+00:50:49,905 --> 00:50:52,381
+Temos tempo.
+
+904
+00:50:52,405 --> 00:50:58,005
+Neste restaurante, qual suco é melhor: maçã ou laranja?
+
+905
+00:50:58,028 --> 00:51:02,761
+Eu prefiro suco de maçã, porque é mais doce.
+
+906
+00:51:02,784 --> 00:51:06,751
+Então, eu vou querer o de laranja.
+
+907
+00:51:06,774 --> 00:51:09,340
+Gosto de coisas ácidas.
+
+908
+00:51:09,363 --> 00:51:14,232
+Nossos gostos são bem diferentes, né?
+
+909
+00:51:14,255 --> 00:51:16,111
+É engraçado.
+
+910
+00:51:16,135 --> 00:51:21,511
+Sim, por isso é tão divertido comer juntos.
+
+911
+00:51:21,535 --> 00:51:23,168
+É verdade.
+
+912
+00:51:23,191 --> 00:51:27,391
+Ah, desculpe, podemos fazer o pedido?
+
+913
+00:51:27,414 --> 00:51:31,547
+Ah, eu ainda não decidi!
+
+914
+00:51:31,570 --> 00:51:34,337
+Ah, me desculpe.
+
+915
+00:51:34,360 --> 00:51:38,160
+Se não decidir logo, o garçom vem.
+
+916
+00:51:38,183 --> 00:51:42,659
+Então, vou querer o gyudon de carne.
+
+917
+00:51:42,682 --> 00:51:45,572
+Estou com fome.
+
+918
+00:51:45,596 --> 00:51:48,267
+Você decidiu pela carne, hein?
+
+919
+00:51:48,290 --> 00:51:49,979
+Que bom!
+
+920
+00:51:50,003 --> 00:51:54,970
+Sim, no fim das contas, quero comer bastante carne.
+
+921
+00:51:54,993 --> 00:52:00,033
+Que bom que o prato vem com sopa de missô!
+
+922
+00:52:00,056 --> 00:52:05,941
+É, uma sopa quentinha faz bem pro corpo.
+
+923
+00:52:05,964 --> 00:52:09,964
+Vamos conversar sobre os planos de amanhã até a comida chegar.
+
+924
+00:52:09,987 --> 00:52:14,405
+Certo, a que horas saímos amanhã?
+
+925
+00:52:14,429 --> 00:52:15,929
+Cena 24: Memórias do Ano
+
+926
+00:52:15,929 --> 00:52:20,362
+Logo essa turma vai acabar, né?
+
+927
+00:52:20,386 --> 00:52:22,152
+Vai dar saudade.
+
+928
+00:52:22,175 --> 00:52:24,192
+Verdade.
+
+929
+00:52:24,216 --> 00:52:29,016
+Acho que o ano passou voando.
+
+930
+00:52:29,039 --> 00:52:34,872
+Qual estação do ano você mais gostou?
+
+931
+00:52:34,895 --> 00:52:41,128
+Eu amei o outono, foi a estação mais divertida e linda.
+
+932
+00:52:41,151 --> 00:52:43,085
+Outono?
+
+933
+00:52:43,108 --> 00:52:46,766
+Por que o outono é sua estação favorita?
+
+934
+00:52:46,789 --> 00:52:51,646
+Porque fomos todos ver as folhas de outono na montanha.
+
+935
+00:52:51,670 --> 00:52:55,121
+Ah, aquela viagem!
+
+936
+00:52:55,144 --> 00:52:58,115
+Temos muitas fotos.
+
+937
+00:52:58,139 --> 00:53:04,577
+É, naquele dia o tempo estava ótimo e nem fez frio.
+
+938
+00:53:04,600 --> 00:53:09,233
+Qual foi o evento que mais marcou você?
+
+939
+00:53:09,257 --> 00:53:14,624
+O concurso de oratória no inverno foi o que mais me deixou nervoso(a).
+
+940
+00:53:14,647 --> 00:53:20,454
+Ah, naquela época você treinava todo dia, né?
+
+941
+00:53:20,477 --> 00:53:27,717
+Sim, eu li a frase mais longa da turma.
+
+942
+00:53:27,740 --> 00:53:32,274
+Não ganhei nenhum prêmio, mas fui muito bem.
+
+943
+00:53:32,297 --> 00:53:33,988
+Muito obrigado(a)!
+
+944
+00:53:34,012 --> 00:53:36,845
+Foi uma ótima lembrança.
+
+945
+00:53:36,868 --> 00:53:42,201
+Qual foi a matéria mais difícil que você estudou?
+
+946
+00:53:42,224 --> 00:53:47,358
+Acho que o estudo de keigo (honoríficos) foi o mais difícil.
+
+947
+00:53:47,381 --> 00:53:53,320
+Até os japoneses erram o keigo, então é complicado mesmo.
+
+948
+00:53:53,343 --> 00:54:00,029
+Mas a maneira como o professor Tanaka ensinava era a mais fácil de entender.
+
+949
+00:54:00,053 --> 00:54:01,453
+É verdade.
+
+950
+00:54:01,476 --> 00:54:06,010
+O professor Tanaka sempre foi muito gentil.
+
+951
+00:54:06,033 --> 00:54:11,366
+Com qual colega da turma você mais conversou?
+
+952
+00:54:11,389 --> 00:54:16,189
+Eu conversei mais com o Mark.
+
+953
+00:54:16,212 --> 00:54:21,378
+O Mark é sempre animado e engraçado, né?
+
+954
+00:54:21,401 --> 00:54:27,070
+É, quando o Mark está na sala, a turma fica mais alegre.
+
+955
+00:54:27,094 --> 00:54:32,431
+Onde vai ser a festa da turma na próxima semana?
+
+956
+00:54:32,455 --> 00:54:37,929
+O restaurante perto da escola é o mais barato e espaçoso.
+
+957
+00:54:37,953 --> 00:54:43,153
+Então, vamos criar nossas últimas lembranças juntos lá.
+
+958
+00:54:43,176 --> 00:54:44,754
+Sim.
+
+959
+00:54:44,777 --> 00:54:48,144
+Não esquece de levar a câmera, tá?
+
+960
+00:54:48,167 --> 00:54:52,767
+Vou fazer muitos doces para levar.
+
+961
+00:54:52,790 --> 00:54:55,604
+Nossa, estou ansioso(a)!
+
+962
+00:54:55,627 --> 00:54:59,278
+É que a sua comida é a mais gostosa.
+
+963
+00:54:59,302 --> 00:55:02,435
+Vou me esforçar para fazer bem.
+
+964
+00:55:02,458 --> 00:55:04,269
+Fica na expectativa!
+
+965
+00:55:04,293 --> 00:55:05,793
+Cena 25: Caminho Futuro e Sonhos: Uma Carreira no Comércio Exterior
+
+966
+00:55:05,793 --> 00:55:10,759
+Já decidiu o que vai fazer depois de se formar?
+
+967
+00:55:10,782 --> 00:55:12,221
+Sim.
+
+968
+00:55:12,245 --> 00:55:17,214
+Pretendo continuar trabalhando aqui no Japão.
+
+969
+00:55:17,237 --> 00:55:19,680
+Em uma empresa japonesa, né?
+
+970
+00:55:19,704 --> 00:55:22,116
+Incrível!
+
+971
+00:55:22,139 --> 00:55:25,073
+Que tipo de trabalho você vai fazer?
+
+972
+00:55:25,096 --> 00:55:31,392
+Vou usar o que estudei até agora e trabalhar com comércio exterior.
+
+973
+00:55:31,415 --> 00:55:34,458
+Trabalhar com comércio exterior?
+
+974
+00:55:34,481 --> 00:55:37,648
+Vai usar muito inglês também?
+
+975
+00:55:37,671 --> 00:55:39,271
+Sim.
+
+976
+00:55:39,294 --> 00:55:43,627
+É um trabalho que usa tanto inglês quanto japonês.
+
+977
+00:55:43,650 --> 00:55:49,450
+Por isso que você estudava até tarde na escola todos os dias, né?
+
+978
+00:55:49,473 --> 00:55:51,331
+Pois é.
+
+979
+00:55:51,354 --> 00:55:56,554
+Quero melhorar ainda mais meu japonês para me destacar.
+
+980
+00:55:56,577 --> 00:55:59,581
+Qual é o seu sonho para o futuro?
+
+981
+00:55:59,605 --> 00:56:02,412
+Que tipo de pessoa você quer ser?
+
+982
+00:56:02,435 --> 00:56:09,635
+Quero acumular muitas experiências e continuar neste país para sempre.
+
+983
+00:56:09,658 --> 00:56:14,791
+Com você, tenho certeza de que vai se tornar um ótimo profissional.
+
+984
+00:56:14,814 --> 00:56:16,654
+Muito obrigado(a)!
+
+985
+00:56:16,678 --> 00:56:21,334
+É o meu primeiro emprego, então estou ansioso(a) desde já.
+
+986
+00:56:21,357 --> 00:56:25,723
+Você pretende continuar morando na mesma cidade?
+
+987
+00:56:25,746 --> 00:56:30,992
+Não, a partir do ano que vem, pretendo morar em Osaka.
+
+988
+00:56:31,016 --> 00:56:33,782
+Porque o custo de vida é mais barato.
+
+989
+00:56:33,805 --> 00:56:39,138
+Você disse que a comida de Osaka é muito gostosa, né?
+
+990
+00:56:39,161 --> 00:56:43,642
+É, pretendo comer muito takoyaki.
+
+991
+00:56:43,666 --> 00:56:45,800
+Ótima ideia!
+
+992
+00:56:45,823 --> 00:56:50,105
+Quando seu salário aumentar, me chama, tá?
+
+993
+00:56:50,128 --> 00:56:53,261
+Hehe, claro!
+
+994
+00:56:53,284 --> 00:56:55,884
+Vou te convidar para comer bastante.
+
+995
+00:56:55,907 --> 00:56:58,198
+Promete, hein?
+
+996
+00:56:58,221 --> 00:57:02,155
+Eu quero comer uma carne bem cara.
+
+997
+00:57:02,178 --> 00:57:06,911
+Vou trabalhar muito para ficar rico(a)!
+
+998
+00:57:06,934 --> 00:57:13,218
+Antes de começar o novo trabalho, vai fazer alguma preparação especial?
+
+999
+00:57:13,242 --> 00:57:18,135
+Este inverno, pretendo comprar um quimono para mim.
+
+1000
+00:57:18,159 --> 00:57:21,027
+Kimono?
+
+1001
+00:57:21,050 --> 00:57:23,858
+Você consegue vestir sozinho?
+
+1002
+00:57:23,882 --> 00:57:27,500
+Não, ainda não consigo.
+
+1003
+00:57:27,524 --> 00:57:32,057
+Por isso, vou aprender assistindo ao YouTube.
+
+1004
+00:57:32,080 --> 00:57:37,255
+Vai ficar incrível quando você conseguir vestir o kimono sozinho!
+
+1005
+00:57:37,278 --> 00:57:43,478
+Sim, quero vesti-lo no Ano Novo japonês e ir ao santuário.
+
+1006
+00:57:43,502 --> 00:57:47,158
+Seus sonhos estão ficando cada vez maiores, né?
+
+1007
+00:57:47,182 --> 00:57:49,115
+Estou torcendo por você!
+
+1008
+00:57:49,138 --> 00:57:50,671
+Muito obrigado(a)!
+
+1009
+00:57:50,694 --> 00:57:55,177
+Depois me conte sobre seus próximos planos também.
+
+1010
+00:57:55,201 --> 00:57:56,701
+Cena 26: Planos de viagem no feriado prolongado
+
+1011
+00:57:56,701 --> 00:57:59,634
+O feriado prolongado está chegando, né?
+
+1012
+00:57:59,657 --> 00:58:03,490
+Já decidiu os planos para a viagem de fim de semana?
+
+1013
+00:58:03,513 --> 00:58:05,047
+Sim.
+
+1014
+00:58:05,070 --> 00:58:08,346
+Vou viajar com uns amigos.
+
+1015
+00:58:08,369 --> 00:58:10,536
+Ótima ideia!
+
+1016
+00:58:10,559 --> 00:58:13,726
+Vão para algum lugar longe?
+
+1017
+00:58:13,749 --> 00:58:17,549
+Não, não é tão longe assim.
+
+1018
+00:58:17,572 --> 00:58:19,461
+Ah, é?
+
+1019
+00:58:19,484 --> 00:58:22,084
+Como vão?
+
+1020
+00:58:22,107 --> 00:58:24,540
+De shinkansen?
+
+1021
+00:58:24,563 --> 00:58:28,251
+Não, não é de shinkansen.
+
+1022
+00:58:28,275 --> 00:58:30,909
+Vamos de carro.
+
+1023
+00:58:30,932 --> 00:58:33,298
+De carro?
+
+1024
+00:58:33,321 --> 00:58:36,291
+Quem vai dirigir?
+
+1025
+00:58:36,315 --> 00:58:38,884
+Um amigo vai dirigir.
+
+1026
+00:58:38,908 --> 00:58:42,558
+Eu não sei dirigir.
+
+1027
+00:58:42,581 --> 00:58:44,514
+Ah, é?
+
+1028
+00:58:44,537 --> 00:58:47,829
+Vão a algum ponto turístico famoso?
+
+1029
+00:58:47,853 --> 00:58:49,469
+Sim.
+
+1030
+00:58:49,492 --> 00:58:53,226
+Vamos para uma cidade com águas termais famosas.
+
+1031
+00:58:53,249 --> 00:58:55,620
+Águas termais?
+
+1032
+00:58:55,643 --> 00:58:58,110
+Que maravilhoso!
+
+1033
+00:58:58,133 --> 00:59:00,025
+Pois é.
+
+1034
+00:59:00,048 --> 00:59:04,581
+Vou relaxar nas águas termais.
+
+1035
+00:59:04,604 --> 00:59:07,606
+Já reservaram a hospedagem?
+
+1036
+00:59:07,630 --> 00:59:09,363
+Sim.
+
+1037
+00:59:09,386 --> 00:59:13,725
+Reservei uma pousada antiga no meio das montanhas.
+
+1038
+00:59:13,749 --> 00:59:16,353
+No meio das montanhas?
+
+1039
+00:59:16,377 --> 00:59:19,421
+A vista deve ser linda, né?
+
+1040
+00:59:19,445 --> 00:59:21,096
+Sim.
+
+1041
+00:59:21,120 --> 00:59:26,453
+Mas como é feriado, acho que as estradas vão estar cheias.
+
+1042
+00:59:26,476 --> 00:59:28,515
+É verdade.
+
+1043
+00:59:28,538 --> 00:59:32,176
+É melhor sair bem cedo.
+
+1044
+00:59:32,200 --> 00:59:33,800
+Pois é.
+
+1045
+00:59:33,823 --> 00:59:37,356
+Vou sair às cinco da manhã.
+
+1046
+00:59:37,379 --> 00:59:39,512
+Cinco da manhã?
+
+1047
+00:59:39,535 --> 00:59:41,935
+Que cedo!
+
+1048
+00:59:41,958 --> 00:59:43,525
+Sim.
+
+1049
+00:59:43,548 --> 00:59:46,922
+Vão parar em algum lugar no caminho?
+
+1050
+00:59:46,946 --> 00:59:51,601
+Vamos parar em uma área de serviço com comida gostosa.
+
+1051
+00:59:51,624 --> 00:59:53,224
+Ótima ideia!
+
+1052
+00:59:53,247 --> 00:59:56,658
+Dirijam com cuidado, tá?
+
+1053
+00:59:56,681 --> 00:59:57,938
+Sim.
+
+1054
+00:59:57,961 --> 01:00:00,179
+Muito obrigado(a)!
+
+1055
+01:00:00,203 --> 01:00:01,703
+Cena 27: Destinos de viagem no Japão
+
+1056
+01:00:01,703 --> 01:00:06,870
+Mark, qual lugar do Japão você quer visitar?
+
+1057
+01:00:06,893 --> 01:00:11,508
+Eu quero ir ao Monte Fuji.
+
+1058
+01:00:11,532 --> 01:00:13,609
+Monte Fuji?
+
+1059
+01:00:13,632 --> 01:00:16,066
+Quer subir?
+
+1060
+01:00:16,089 --> 01:00:17,822
+Quer ver?
+
+1061
+01:00:17,845 --> 01:00:21,331
+Com certeza, quero subir até o topo!
+
+1062
+01:00:21,355 --> 01:00:26,488
+A vista do topo do Monte Fuji é realmente linda.
+
+1063
+01:00:26,511 --> 01:00:28,589
+Ah, é?
+
+1064
+01:00:28,613 --> 01:00:31,752
+Fiquei com ainda mais vontade de ir!
+
+1065
+01:00:31,776 --> 01:00:34,709
+Tem mais algum lugar que você quer conhecer?
+
+1066
+01:00:34,732 --> 01:00:37,206
+Quero ir a Quioto também.
+
+1067
+01:00:37,230 --> 01:00:39,196
+Quioto?
+
+1068
+01:00:39,219 --> 01:00:42,862
+O que você quer fazer em Quioto?
+
+1069
+01:00:42,886 --> 01:00:47,452
+Quero ver muitos templos antigos e santuários.
+
+1070
+01:00:47,475 --> 01:00:49,075
+Ótima ideia!
+
+1071
+01:00:49,098 --> 01:00:53,114
+Andar de quimono também é divertido, sabia?
+
+1072
+01:00:53,138 --> 01:00:56,405
+Uau, quero experimentar isso também!
+
+1073
+01:00:56,428 --> 01:00:59,515
+Quero provar doces japoneses deliciosos também.
+
+1074
+01:00:59,539 --> 01:01:04,154
+É, e quero comer muito sushi gostoso!
+
+1075
+01:01:04,178 --> 01:01:06,311
+Sushi?
+
+1076
+01:01:06,334 --> 01:01:08,267
+Ótima ideia!
+
+1077
+01:01:08,290 --> 01:01:12,747
+O peixe no Japão é muito fresco, né?
+
+1078
+01:01:12,771 --> 01:01:16,137
+O peixe de Hokkaido também é uma delícia.
+
+1079
+01:01:16,160 --> 01:01:18,527
+Hokkaido?
+
+1080
+01:01:18,550 --> 01:01:21,685
+Quero ir lá também.
+
+1081
+01:01:21,708 --> 01:01:24,908
+Tem tantos lugares que quero visitar, né?
+
+1082
+01:01:24,931 --> 01:01:29,698
+Sim, queria ter muito dinheiro e tempo.
+
+1083
+01:01:29,721 --> 01:01:32,054
+Hehe, é verdade.
+
+1084
+01:01:32,077 --> 01:01:35,851
+Vamos começar pelo Monte Fuji.
+
+1085
+01:01:35,875 --> 01:01:40,491
+Sim, quero ir com certeza neste verão!
+
+1086
+01:01:40,515 --> 01:01:43,848
+Mal posso esperar para planejar tudo.
+
+1087
+01:01:43,871 --> 01:01:48,438
+Sim, estou super animado desde já!
+
+1088
+01:01:48,461 --> 01:01:49,961
+Cena 28: Como aproveitar os dias de folga
+
+1089
+01:01:49,961 --> 01:01:56,394
+Mark, como você costuma passar os dias de folga?
+
+1090
+01:01:56,417 --> 01:02:01,984
+Eu assisto filmes em casa ou saio para fazer compras com amigos.
+
+1091
+01:02:02,007 --> 01:02:03,859
+Ótima ideia!
+
+1092
+01:02:03,882 --> 01:02:07,415
+Que tipo de filme você costuma assistir?
+
+1093
+01:02:07,438 --> 01:02:11,416
+Assisto bastante filmes de ação e animes.
+
+1094
+01:02:11,440 --> 01:02:13,007
+Ah, é?
+
+1095
+01:02:13,030 --> 01:02:16,406
+Para onde você vai fazer compras?
+
+1096
+01:02:16,429 --> 01:02:20,429
+Vou aos shoppings de Shibuya e Shinjuku.
+
+1097
+01:02:20,452 --> 01:02:23,230
+São bairros bem movimentados, né?
+
+1098
+01:02:23,253 --> 01:02:25,787
+O que você costuma comprar?
+
+1099
+01:02:25,810 --> 01:02:29,346
+Compro roupas e sapatos com frequência.
+
+1100
+01:02:29,369 --> 01:02:31,169
+Que chique!
+
+1101
+01:02:31,192 --> 01:02:34,959
+E no domingo, o que você faz?
+
+1102
+01:02:34,982 --> 01:02:41,467
+No domingo, passeio no parque ou leio livros em um café.
+
+1103
+01:02:41,490 --> 01:02:44,338
+Um dia de folga tranquilo, né?
+
+1104
+01:02:44,362 --> 01:02:46,035
+Sim.
+
+1105
+01:02:46,059 --> 01:02:50,859
+Também cozinho e limpo o quarto.
+
+1106
+01:02:50,882 --> 01:02:53,049
+Que incrível!
+
+1107
+01:02:53,071 --> 01:02:58,950
+Eu lavo roupa e durmo bastante nos meus dias de folga.
+
+1108
+01:02:58,974 --> 01:03:02,623
+Dormir bastante faz bem para a saúde, sabia?
+
+1109
+01:03:02,647 --> 01:03:04,180
+Pois é.
+
+1110
+01:03:04,203 --> 01:03:08,570
+Mas às vezes dá vontade de sair para algum lugar.
+
+1111
+01:03:08,593 --> 01:03:14,263
+Então, que tal irmos juntos a um museu no próximo dia de folga?
+
+1112
+01:03:14,287 --> 01:03:16,454
+Museu?
+
+1113
+01:03:16,477 --> 01:03:18,477
+Ótima ideia!
+
+1114
+01:03:18,500 --> 01:03:22,533
+Vamos ver quadros e tomar um chá.
+
+1115
+01:03:22,556 --> 01:03:23,923
+Sim.
+
+1116
+01:03:23,946 --> 01:03:26,612
+Quero muito ir com você!
+
+1117
+01:03:26,635 --> 01:03:28,648
+Estou ansioso(a)!
+
+1118
+01:03:28,672 --> 01:03:31,438
+Vamos no sábado.
+
+1119
+01:03:31,461 --> 01:03:33,261
+Entendi.
+
+1120
+01:03:33,284 --> 01:03:36,651
+Vamos nos encontrar na manhã de sábado.
+
+1121
+01:03:36,674 --> 01:03:38,174
+Cena 29: Prazer em conhecê-lo e experiências no Japão
+
+1122
+01:03:38,174 --> 01:03:43,907
+Prazer em conhecê-lo, você é o novo aluno da turma este mês?
+
+1123
+01:03:43,930 --> 01:03:46,897
+Sim, prazer em conhecê-lo.
+
+1124
+01:03:46,920 --> 01:03:48,597
+Sou o Smith.
+
+1125
+01:03:48,620 --> 01:03:53,426
+Sr. Smith, é a sua primeira vez vivendo no Japão?
+
+1126
+01:03:53,449 --> 01:03:57,288
+Não, não é a primeira vez.
+
+1127
+01:03:57,312 --> 01:03:59,712
+Ah, é mesmo?
+
+1128
+01:03:59,735 --> 01:04:03,624
+Você já veio ao Japão antes?
+
+1129
+01:04:03,647 --> 01:04:08,485
+Sim, vim uma vez há dois anos.
+
+1130
+01:04:08,508 --> 01:04:11,541
+Na época, foi a turismo?
+
+1131
+01:04:11,564 --> 01:04:17,564
+Sim, viajei para Kyoto e Osaka.
+
+1132
+01:04:17,587 --> 01:04:19,061
+Ah, é?
+
+1133
+01:04:19,085 --> 01:04:23,219
+Você já provou comidas japonesas?
+
+1134
+01:04:23,242 --> 01:04:28,484
+Sim, já comi sushi e tempurá.
+
+1135
+01:04:28,507 --> 01:04:31,107
+E natto, já experimentou?
+
+1136
+01:04:31,131 --> 01:04:35,009
+Natto ainda não provei.
+
+1137
+01:04:35,032 --> 01:04:39,437
+Tem um cheirinho forte, mas é gostoso.
+
+1138
+01:04:39,460 --> 01:04:41,279
+Ah, é?
+
+1139
+01:04:41,303 --> 01:04:43,936
+Vou experimentar da próxima vez.
+
+1140
+01:04:43,959 --> 01:04:47,326
+Você já subiu o Monte Fuji?
+
+1141
+01:04:47,349 --> 01:04:54,282
+Não, só vi de longe, nunca subi.
+
+1142
+01:04:54,305 --> 01:04:57,913
+Neste verão, você deveria tentar!
+
+1143
+01:04:57,937 --> 01:05:01,190
+Sim, quero muito subir.
+
+1144
+01:05:01,213 --> 01:05:06,179
+Sr. Smith, onde você aprendeu japonês?
+
+1145
+01:05:06,202 --> 01:05:10,336
+Estudei um pouco na universidade nos EUA.
+
+1146
+01:05:10,359 --> 01:05:14,796
+Você já conversou com amigos japoneses?
+
+1147
+01:05:14,819 --> 01:05:17,861
+Não, ainda não.
+
+1148
+01:05:17,885 --> 01:05:22,738
+Tem muitos aqui na escola, então converse com eles!
+
+1149
+01:05:22,762 --> 01:05:26,295
+Sim, quero conversar bastante!
+
+1150
+01:05:26,318 --> 01:05:27,818
+Cena 30: Desculpas por chegar atrasado
+
+1151
+01:05:27,818 --> 01:05:31,951
+Mark, por que você se atrasou?
+
+1152
+01:05:31,974 --> 01:05:36,552
+Eu esperei aqui por uma hora!
+
+1153
+01:05:36,576 --> 01:05:39,048
+Me desculpe mesmo.
+
+1154
+01:05:39,071 --> 01:05:42,238
+Dormi demais.
+
+1155
+01:05:42,261 --> 01:05:43,716
+O quê?
+
+1156
+01:05:43,740 --> 01:05:45,615
+Dormiu demais?
+
+1157
+01:05:45,638 --> 01:05:49,518
+Ficou acordado até tarde ontem?
+
+1158
+01:05:49,542 --> 01:05:51,219
+Sim.
+
+1159
+01:05:51,243 --> 01:05:55,009
+Bebi demais ontem.
+
+1160
+01:05:55,032 --> 01:05:58,566
+Minha cabeça está doendo muito.
+
+1161
+01:05:58,589 --> 01:06:02,355
+Beber demais não é bom, viu?
+
+1162
+01:06:02,378 --> 01:06:07,145
+Hoje tem uma reunião importante, não pode se atrasar.
+
+1163
+01:06:07,168 --> 01:06:10,014
+Sim, eu sei.
+
+1164
+01:06:10,037 --> 01:06:15,004
+Vim correndo, por isso estou sem fôlego.
+
+1165
+01:06:15,027 --> 01:06:17,469
+Veio correndo, né?
+
+1166
+01:06:17,493 --> 01:06:22,926
+Mas de agora em diante, você precisa dormir mais cedo.
+
+1167
+01:06:22,949 --> 01:06:26,882
+Sim, vou tomar cuidado.
+
+1168
+01:06:26,905 --> 01:06:30,872
+Você está suando muito.
+
+1169
+01:06:30,895 --> 01:06:34,187
+É melhor beber água.
+
+1170
+01:06:34,211 --> 01:06:35,811
+Muito obrigado(a)!
+
+1171
+01:06:35,834 --> 01:06:40,167
+Tem uma loja de conveniência ali, vou comprar.
+
+1172
+01:06:40,190 --> 01:06:44,724
+A reunião vai começar logo, então se apresse.
+
+1173
+01:06:44,747 --> 01:06:48,113
+Sim, já volto.
+
+1174
+01:06:48,136 --> 01:06:51,670
+Você está mesmo bem?
+
+1175
+01:06:51,693 --> 01:06:55,859
+Estou um pouco sonolento, mas tudo bem.
+
+1176
+01:06:55,882 --> 01:07:00,849
+Depois do trabalho, é melhor ir para casa e dormir cedo.
+
+1177
+01:07:00,872 --> 01:07:06,605
+Sim, hoje vou dormir cedo, com certeza.
+
+1178
+01:07:06,628 --> 01:07:09,286
+Então vamos lá.
+
+1179
+01:07:09,309 --> 01:07:13,729
+Desculpe mesmo pelo atraso.
