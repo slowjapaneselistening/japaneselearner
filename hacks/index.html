@@ -240,38 +240,25 @@
 // 1. タイトル・シーン数の修正（sceneTitles 配列 と parseData ループ回数）
 // =================================================================
 
-       const sceneTitles = [
-    "Scene 1: 自己紹介と国籍 / Self-Introduction and Nationality",
-    "Scene 2: 指示詞と値段 / Demonstratives and Prices (Textbooks and Dictionaries)",
-    "Scene 3: 所有物の確かめ方 / Identifying Ownership of Items",
-    "Scene 4: 日常の生活 / Daily Life Routine",
-    "Scene 5: 趣味の話 / Talking About Hobbies",
-    "Scene 6: 物と人の位置 / Describing Locations of Objects and People",
-    "Scene 7: 日曜日の京都旅 / A Sunday Trip to Kyoto",
-    "Scene 8: 待ち合わせと買い物 / Meeting Delays and Shopping",
-    "Scene 9: 日本の食べ物と学習 / Japanese Food and Learning",
-    "Scene 10: スミスさんの好きな物 / Mr. Smith's Preferences",
-    "Scene 11: 道案内の基礎 / Basic Japanese for Asking Directions",
-    "Scene 12: 許しを求める会話 / Asking for Permission in Conversation",
-    "Scene 13: 電話の会話 / A Phone Conversation",
-    "Scene 14: 家族の紹介 / Introducing My Family",
-    "Scene 15: 日曜日の写真撮り / Sunday Photography Outing",
-    "Scene 16: 映画の感想 / Movie Impressions",
-    "Scene 17: 会議準備と用事 / Meeting Preparation and Schedules",
-    "Scene 18: 趣味と料理 / Hobbies and Cooking",
-    "Scene 19: 暑い日のコンビニ休み / Convenience Break on a Hot Day",
-    "Scene 20: 旅行の思い出 / Memories of a Trip",
-    "Scene 21: 新しい先生の紹かい / Introduction to the New Teacher",
-    "Scene 22: レポート締切り前のトラブル / Trouble Before the Report Deadline",
-    "Scene 23: メニュー選びの会話 / Choosing from the Menu: A Conversation",
-    "Scene 24: 一年の思い出 / Memories of the Year",
-    "Scene 25: 進路と夢の貿易仕事 / Future Path and Dreams: A Career in Trade",
-    "Scene 26: 連休の旅計画 / Holiday Travel Plans",
-    "Scene 27: 日本の旅行き先 / Desired Travel Destinations in Japan",
-    "Scene 28: 休日の過ごし方 / How to Spend Your Days Off",
-    "Scene 29: 初めましてと日本体験 / First Meeting and Experiences in Japan",
-    "Scene 30: 遅刻の言い訳 / Excuses for Being Late"
-];
+    const sceneTitles = [
+            "Scene 1: 日本の硬貨と財布 / Japanese Coins and Wallet Weight",
+            "Scene 2: 日本のゴミ箱不足 / The Scarcity of Trash Bins in Japan",
+            "Scene 3: 日本のトイレの困り事 / Challenges with Japanese Toilets",
+            "Scene 4: 食べ歩きのマナー / Manners of Eating While Walking",
+            "Scene 5: インターネットとWi-Fiの困り事 / Troubles with Internet and Wi-Fi While Traveling",
+            "Scene 6: 旅の荷物と電車 / Travel Luggage and Trains",
+            "Scene 7: 旅の歩き疲れ対策 / Coping with Fatigue from Walking During Travel",
+            "Scene 8: スマホの便利な使い方 / Convenient Ways to Use Your Smartphone",
+            "Scene 9: 旅の食べ物と節約 / Travel Food and Saving Money",
+            "Scene 10: 秋葉原の買い物 / Shopping in Akihabara",
+            "Scene 11: 寿司屋で楽しい食べ方 / Enjoying Sushi at a Popular Restaurant",
+            "Scene 12: 日本生活とマナーの悩み / Challenges of Living in Japan and Japanese Manners",
+            "Scene 13: 人気ラーメン屋の列 / The Popular Ramen Shop's Queue",
+            "Scene 14: 靴の脱ぎ方レッスン / How to Remove Shoes at the Entrance",
+            "Scene 15: 居酒屋での会話 / Conversations at an Izakaya",
+            "Scene 16: 会計の文化違い / Cultural Differences in Paying the Bill",
+            "Scene 17: エレベーターのマナー / Elevator Etiquette"
+        ];
         const LANG_MAP = {
             'English': 'en', 'Vietnamese': 'vi', 'Indonesian': 'id', 'Thai': 'th', 'Korean': 'ko', 
             'Chinese (Simplified)': 'zh-Hans', 'Chinese (Traditional)': 'zh-Hant', 'Spanish': 'es', 
@@ -296,17 +283,17 @@
 
       // 検索・置換対象: const quizDataKanji 配列
 const quizDataKanji = [
-    { q: "「先生」の読み方は？", options: ["せんせい", "ぜんせい", "せんしょ", "せんせ"], answer: 0 },
-    { q: "「学生」の読み方は？", options: ["がくせい", "がくしょう", "がっせい", "がくせ"], answer: 0 },
-    { q: "「大学」の読み方は？", options: ["だいがく", "たいがく", "だいがっ", "おおがく"], answer: 0 },
-    { q: "「友達」の読み方は？", options: ["ともだち", "ゆうだち", "ともたち", "ゆうたち"], answer: 0 },
-    { q: "「教室」の読み方は？", options: ["きょうしつ", "きょうし", "きょうひつ", "きょうしっ"], answer: 0 },
-    { q: "「時計」の読み方は？", options: ["とけい", "じけい", "ときい", "とけ"], answer: 0 },
-    { q: "「写真」の読み方は？", options: ["しゃしん", "しゃじん", "うつしん", "しゃし"], answer: 0 },
-    { q: "「映画」の読み方は？", options: ["えいが", "えいかく", "えいか", "えいがん"], answer: 0 },
-    { q: "「音楽」の読み方は？", options: ["おんがく", "おんらく", "おんがっ", "いんがく"], answer: 0 },
-    { q: "「旅行」の読み方は？", options: ["りょこう", "りょうこう", "りょこうし", "りょっこう"], answer: 0 }
-];
+            { q: "「財布」の読み方は？", options: ["さいふ", "さふ", "ざいふ", "さいぶ"], answer: 0 },
+            { q: "「ゴミ箱」の読み方は？", options: ["ごみばこ", "ごみかん", "ごみはこ", "ごみばこん"], answer: 0 },
+            { q: "「電車」の読み方は？", options: ["でんしゃ", "てんしゃ", "でんしゃう", "でんしゃー"], answer: 0 },
+            { q: "「荷物」の読み方は？", options: ["にもつ", "かもつ", "にぶつ", "かぶつ"], answer: 0 },
+            { q: "「写真」の読み方は？", options: ["しゃしん", "しゃじん", "さしん", "さじん"], answer: 0 },
+            { q: "「買い物」の読み方は？", options: ["かいもの", "かうもの", "かいぶつ", "かんもの"], answer: 0 },
+            { q: "「寿司」の読み方は？", options: ["すし", "ずし", "すじ", "すさ"], answer: 0 },
+            { q: "「玄関」の読み方は？", options: ["げんかん", "けんかん", "げんかんん", "げんこう"], answer: 0 },
+            { q: "「居酒屋」の読み方は？", options: ["いざかや", "いさかや", "きざかや", "いさけや"], answer: 0 },
+            { q: "「挨拶」の読み方は？", options: ["あいさつ", "あいさっ", "あいさち", "あいさつう"], answer: 0 }
+        ];
      // =================================================================
 // 3. 内容理解クイズデータの修正（quizDataCulture 配列）
 // =================================================================
@@ -317,218 +304,38 @@ const quizDataKanji = [
 
       // 検索・置換対象: const quizDataCulture 配列
 const quizDataCulture = [
-    {
-        q: "スミスさんは どこの <ruby>国<rt>くに</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>ですか？",
-        options: [
-            "アメリカ",
-            "イギリス",
-            "<ruby>日本<rt>にほん</rt></ruby>",
-            "ベトナム"
-        ],
-        answer: 0
-    },
-    {
-        q: "スミスさんの <ruby>専攻<rt>せんこう</rt></ruby>は なんですか？",
-        options: [
-            "ビジネス",
-            "<ruby>日本<rt>にほん</rt></ruby>の <ruby>歴史<rt>れきし</rt></ruby>",
-            "<ruby>英語<rt>えいご</rt></ruby>の <ruby>文学<rt>ぶんがく</rt></ruby>",
-            "<ruby>料理<rt>りょうり</rt></ruby>"
-        ],
-        answer: 0
-    },
-    {
-        q: "スミスさんは <ruby>毎日<rt>まいにち</rt></ruby> <ruby>何時<rt>なんじ</rt></ruby>に <ruby>起<rt>お</rt></ruby>きますか？",
-        options: [
-            "7<ruby>時<rt>じ</rt></ruby>",
-            "6<ruby>時<rt>じ</rt></ruby>",
-            "8<ruby>時<rt>じ</rt></ruby>",
-            "5<ruby>時<rt>じ</rt></ruby>"
-        ],
-        answer: 0
-    },
-    {
-        q: "ジョンさんは <ruby>何<rt>なに</rt></ruby>を <ruby>全然<rt>ぜんぜん</rt></ruby> <ruby>見<rt>み</rt></ruby>ませんか？",
-        options: [
-            "<ruby>映画<rt>えいが</rt></ruby>",
-            "テレビ",
-            "アニメ",
-            "<ruby>写真<rt>しゃしん</rt></ruby>"
-        ],
-        answer: 0
-    },
-    {
-        q: "スミスさんは <ruby>日曜日<rt>にちようび</rt></ruby>に どこへ <ruby>行<rt>い</rt></ruby>きましたか？",
-        options: [
-            "<ruby>京都<rt>きょうと</rt></ruby>",
-            "<ruby>東京<rt>とうきょう</rt></ruby>",
-            "<ruby>大阪<rt>おおさか</rt></ruby>",
-            "<ruby>北海道<rt>ほっかいどう</rt></ruby>"
-        ],
-        answer: 0
-    },
-    {
-        q: "スミスさんは <ruby>昨日<rt>きのう</rt></ruby> <ruby>本<rt>ほん</rt></ruby>を <ruby>何冊<rt>なんさつ</rt></ruby> <ruby>買<rt>か</rt></ruby>いましたか？",
-        options: [
-            "5<ruby>冊<rt>さつ</rt></ruby>",
-            "1<ruby>冊<rt>さつ</rt></ruby>",
-            "3<ruby>冊<rt>さつ</rt></ruby>",
-            "10<ruby>冊<rt>さつ</rt></ruby>"
-        ],
-        answer: 0
-    },
-    {
-        q: "マークさんは <ruby>明日<rt>あした</rt></ruby> どうして 来られませんか？",
-        options: [
-            "<ruby>大切<rt>たいせつ</rt></ruby>な <ruby>用事<rt>ようじ</rt></ruby>が あるから",
-            "<ruby>病気<rt>びょうき</rt></ruby>だから",
-            "<ruby>旅行<rt>りょこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>くから",
-            "<ruby>寝坊<rt>ねぼう</rt></ruby>したから"
-        ],
-        answer: 0
-    },
-    {
-        q: "スミスさんの <ruby>趣味<rt>しゅみ</rt></ruby>は なんですか？",
-        options: [
-            "<ruby>料理<rt>りょうり</rt></ruby>を <ruby>作<rt>つく</rt></ruby>ること",
-            "<ruby>歌<rt>うた</rt></ruby>を <ruby>歌<rt>うた</rt></ruby>うこと",
-            "<ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>ること",
-            "<ruby>映画<rt>えいが</rt></ruby>を <ruby>見<rt>み</rt></ruby>ること"
-        ],
-        answer: 0
-    },
-    {
-        q: "マークさんは <ruby>連休<rt>れんきゅう</rt></ruby>に なにで <ruby>旅行<rt>りょこう</rt></ruby>へ <ruby>行<rt>い</rt></ruby>きますか？",
-        options: [
-            "<ruby>車<rt>くるま</rt></ruby>",
-            "<ruby>新幹線<rt>しんかんせん</rt></ruby>",
-            "バス",
-            "<ruby>電車<rt>でんしゃ</rt></ruby>"
-        ],
-        answer: 0
-    },
-    {
-        q: "スミスさんは <ruby>将来<rt>しょうらい</rt></ruby> どんな <ruby>仕事<rt>しごと</rt></ruby>を するつもりですか？",
-        options: [
-            "<ruby>貿易<rt>ぼうえき</rt></ruby>の <ruby>仕事<rt>しごと</rt></ruby>",
-            "<ruby>英語<rt>えいご</rt></ruby>の <ruby>先生<rt>せんせい</rt></ruby>",
-            "<ruby>会社員<rt>かいしゃいん</rt></ruby>",
-            "レストランの <ruby>店員<rt>てんいん</rt></ruby>"
-        ],
-        answer: 0
-    }
-];
+            { q: "<ruby>日本<rt>にほん</rt></ruby>で コインが <ruby>増<rt>ふ</rt></ruby>えたとき、なにを <ruby>使<rt>つか</rt></ruby>うと <ruby>便利<rt>べんり</rt></ruby>ですか？", options: ["<ruby>小<rt>ちい</rt></ruby>さい コインポーチ", "<ruby>大<rt>おお</rt></ruby>きい スーツケース", "<ruby>重<rt>おも</rt></ruby>い カバン", "プラスチックの <ruby>袋<rt>ふくろ</rt></ruby>"], answer: 0 },
+            { q: "<ruby>日本<rt>にほん</rt></ruby>の <ruby>街<rt>まち</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に ゴミ<ruby>箱<rt>ばこ</rt></ruby>が <ruby>少<rt>すく</rt></ruby>ない <ruby>理由<rt>りゆう</rt></ruby>は なんですか？", options: ["<ruby>安全<rt>あんぜん</rt></ruby>の ため", "お<ruby>金<rt>かね</rt></ruby>が ない ため", "<ruby>工事<rt>こうじ</rt></ruby>を して いる ため", "<ruby>雨<rt>あめ</rt></ruby>が <ruby>降<rt>ふ</rt></ruby>る ため"], answer: 0 },
+            { q: "<ruby>自動販売機<rt>じどうはんばいき</rt></ruby>の <ruby>横<rt>よこ</rt></ruby>に ある <ruby>箱<rt>ばこ</rt></ruby>には なにを <ruby>入<rt>い</rt></ruby>れては いけませんか？", options: ["お<ruby>菓子<rt>がし</rt></ruby>の ゴミ", "<ruby>缶<rt>かん</rt></ruby>", "ペットボトル", "リサイクルの もの"], answer: 0 },
+            { q: "<ruby>日本<rt>にほん</rt></ruby>の トイレで <ruby>手<rt>て</rt></ruby>を ふく ペーパータオルが ない とき、どうしますか？", options: ["<ruby>自分<rt>じぶん</rt></ruby>の ハンカチを <ruby>使<rt>つか</rt></ruby>う", "<ruby>服<rt>ふく</rt></ruby>の ポケットで ふく", "<ruby>風<rt>かぜ</rt></ruby>で <ruby>乾<rt>かわ</rt></ruby>かす", "<ruby>何<rt>なに</rt></ruby>も しない"], answer: 0 },
+            { q: "<ruby>日本<rt>にほん</rt></ruby>で <ruby>歩<rt>ある</rt></ruby>きながら <ruby>食<rt>た</rt></ruby>べものを <ruby>食<rt>た</rt></ruby>べては いけない <ruby>理由<rt>りゆう</rt></ruby>は なんですか？", options: ["<ruby>他<rt>ほか</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>の <ruby>服<rt>ふく</rt></ruby>を <ruby>汚<rt>よご</rt></ruby>すから", "<ruby>店<rt>みせ</rt></ruby>が <ruby>狭<rt>せま</rt></ruby>いから", "<ruby>味<rt>あじ</rt></ruby>が <ruby>悪<rt>わる</rt></ruby>くなるから", "<ruby>値段<rt>ねだん</rt></ruby>が <ruby>高<rt>たか</rt></ruby>いから"], answer: 0 },
+            { q: "<ruby>日本<rt>にほん</rt></ruby>の <ruby>電車<rt>でんしゃ</rt></ruby>の <ruby>中<rt>なか</rt></ruby>での マナーとして <ruby>正<rt>ただ</rt></ruby>しい ものは どれですか？", options: ["<ruby>携帯電話<rt>けいたいでんわ</rt></ruby>を マナーモードに する", "<ruby>大<rt>おお</rt></ruby>きい <ruby>声<rt>こえ</rt></ruby>で <ruby>電話<rt>でんわ</rt></ruby>を する", "スピーカーで <ruby>音楽<rt>おんがく</rt></ruby>を <ruby>聴<rt>き</rt></ruby>く", "<ruby>走<rt>はし</rt></ruby>って <ruby>移動<rt>いどう</rt></ruby>する"], answer: 0 },
+            { q: "お<ruby>寿司屋<rt>すしや</rt></ruby>で ご<ruby>飯<rt>はん</rt></ruby>が くずれないように <ruby>食<rt>た</rt></ruby>べる コツは なんですか？", options: ["<ruby>一口<rt>ひとくち</rt></ruby>で <ruby>食<rt>た</rt></ruby>べる", "<ruby>二口<rt>ふたくち</rt></ruby>で <ruby>小<rt>ちい</rt></ruby>さく <ruby>食<rt>た</rt></ruby>べる", "お<ruby>箸<rt>はし</rt></ruby>で <ruby>強<rt>つよ</rt></ruby>く つぶす", "ご<ruby>飯<rt>はん</rt></ruby>だけ <ruby>先<rt>さき</rt></ruby>に <ruby>食<rt>た</rt></ruby>べる"], answer: 0 },
+            { q: "<ruby>日本<rt>にほん</rt></ruby>で <ruby>日常<rt>にちじょう</rt></ruby>の お<ruby>辞儀<rt>じぎ</rt></ruby>を するとき、<ruby>手<rt>て</rt></ruby>は どうしますか？", options: ["<ruby>手<rt>て</rt></ruby>を <ruby>合<rt>あ</rt></ruby>わせないで お<ruby>辞儀<rt>じぎ</rt></ruby>する", "<ruby>胸<rt>むね</rt></ruby>の <ruby>前<rt>まえ</rt></ruby>で <ruby>強<rt>つよ</rt></ruby>く <ruby>手<rt>て</rt></ruby>を <ruby>合<rt>あ</rt></ruby>わせる", "<ruby>相手<rt>あいて</rt></ruby>と ハグする", "<ruby>拍手<rt>はくしゅ</rt></ruby>を する"], answer: 0 },
+            { q: "<ruby>日本<rt>にほん</rt></ruby>の レストランで お<ruby>会計<rt>かいけい</rt></ruby>を するとき、お<ruby>金<rt>かね</rt></ruby>は どこに <ruby>置<rt>お</rt></ruby>きますか？", options: ["レジの トレイの <ruby>上<rt>うえ</rt></ruby>", "テーブルの <ruby>中央<rt>ちゅうおう</rt></ruby>", "<ruby>店員<rt>てんいん</rt></ruby>の <ruby>服<rt>ふく</rt></ruby>の <ruby>中<rt>なか</rt></ruby>", "<ruby>床<rt>ゆか</rt></ruby>の <ruby>上<rt>うえ</rt></ruby>"], answer: 0 },
+            { q: "<ruby>日本<rt>にほん</rt></ruby>の <ruby>玄関<rt>げんかん</rt></ruby>で <ruby>靴<rt>くつ</rt></ruby>を <ruby>脱<rt>ぬ</rt></ruby>いだ <ruby>後<rt>あと</rt></ruby>、<ruby>靴<rt>くつ</rt></ruby>の <ruby>向<rt>む</rt></ruby>きは どうしますか？", options: ["ドアの <ruby>方<rt>ほう</rt></ruby>に <ruby>向<rt>む</rt></ruby>ける", "<ruby>部屋<rt>へや</rt></ruby>の <ruby>中<rt>なか</rt></ruby>に <ruby>向<rt>む</rt></ruby>ける", "<ruby>横<rt>よこ</rt></ruby>に <ruby>倒<rt>たお</rt></north>しておく", "<ruby>重<rt>かさ</rt></ruby>ねて おく"], answer: 0 }
+        ];
 
     // 検索・置換対象: const quizDataGrammar 配列
 const quizDataGrammar = [
-    {
-        q: "スミスさんは <ruby>桜大学<rt>さくらだいがく</rt></ruby> ____ <ruby>学生<rt>がくせい</rt></ruby>です。",
-        options: [
-            "の",
-            "に",
-            "で",
-            "を"
-        ],
-        answer: 0
-    },
-    {
-        q: "<ruby>図書室<rt>としょしつ</rt></ruby> ____ <ruby>本<rt>ほん</rt></ruby>を <ruby>読<rt>よ</rt></ruby>みます。",
-        options: [
-            "で",
-            "に",
-            "へ",
-            "を"
-        ],
-        answer: 0
-    },
-    {
-        q: "<ruby>明日<rt>あした</rt></ruby>、<ruby>一緒<rt>いっしょ</rt></ruby>に <ruby>映画<rt>えいが</rt></ruby>を ____ か。",
-        options: [
-            "<ruby>見<rt>み</rt></ruby>ませんか",
-            "<ruby>見<rt>み</rt></ruby>ます",
-            "<ruby>見<rt>み</rt></ruby>ました",
-            "<ruby>見<rt>み</rt></ruby>たい"
-        ],
-        answer: 0
-    },
-    {
-        q: "<ruby>机<rt>つくえ</rt></ruby>の <ruby>上<rt>うえ</rt></ruby> ____ <ruby>本<rt>ほん</rt></ruby>が あります。",
-        options: [
-            "に",
-            "で",
-            "を",
-            "へ"
-        ],
-        answer: 0
-    },
-    {
-        q: "<ruby>昨日<rt>きのう</rt></ruby>、<ruby>友達<rt>ともだち</rt></ruby> ____ <ruby>写真<rt>しゃしん</rt></ruby>を <ruby>撮<rt>と</rt></ruby>りました。",
-        options: [
-            "と",
-            "に",
-            "で",
-            "を"
-        ],
-        answer: 0
-    },
-    {
-        q: "ここで <ruby>写真<rt>しゃしん</rt></ruby>を ____ はいけません。",
-        options: [
-            "<ruby>撮<rt>と</rt></ruby>って",
-            "<ruby>撮<rt>と</rt></ruby>り",
-            "<ruby>撮<rt>と</rt></ruby>る",
-            "<ruby>撮<rt>と</rt></ruby>った"
-        ],
-        answer: 0
-    },
-    {
-        q: "<ruby>私<rt>わたし</rt></ruby>は <ruby>肉<rt>にく</rt></ruby>の <ruby>方<rt>ほう</rt></ruby> ____ <ruby>魚<rt>さかな</rt></ruby>より <ruby>好<rt>す</rt></ruby>きです。",
-        options: [
-            "が",
-            "を",
-            "に",
-            "で"
-        ],
-        answer: 0
-    },
-    {
-        q: "<ruby>富士山<rt>ふじさん</rt></ruby>に ____ ことが ありますか。",
-        options: [
-            "<ruby>登<rt>のぼ</rt></ruby>った",
-            "<ruby>登<rt>のぼ</rt></ruby>る",
-            "<ruby>登<rt>のぼ</rt></ruby>り",
-            "<ruby>登<rt>のぼ</rt></ruby>って"
-        ],
-        answer: 0
-    },
-    {
-        q: "<ruby>今度<rt>こんど</rt></ruby>の <ruby>日曜日<rt>にちようび</rt></ruby>、<ruby>公園<rt>こうえん</rt></ruby>へ <ruby>写真<rt>しゃしん</rt></ruby>を ____ に <ruby>行<rt>い</rt></ruby>きます。",
-        options: [
-            "<ruby>撮<rt>と</rt></ruby>り",
-            "<ruby>撮<rt>と</rt></ruby>って",
-            "<ruby>撮<rt>と</rt></ruby>る",
-            "<ruby>撮<rt>と</rt></ruby>った"
-        ],
-        answer: 0
-    },
-    {
-        q: "<ruby>仕事<rt>しごと</rt></ruby>が <ruby>終<rt>お</rt></ruby>わったら <ruby>早<rt>はや</rt></ruby>く ____ <ruby>方<rt>ほう</rt></ruby>が いいです。",
-        options: [
-            "<ruby>帰<rt>かえ</rt></ruby>った",
-            "<ruby>帰<rt>かえ</rt></ruby>る",
-            "<ruby>帰<rt>かえ</rt></ruby>り",
-            "<ruby>帰<rt>かえ</rt></ruby>って"
-        ],
-        answer: 0
-    }
-];
+            { q: "<ruby>毎日<rt>まいにち</rt></ruby>、<ruby>自動販売機<rt>じどうはんばいき</rt></ruby> ____ <ruby>飲み物<rt>のみもの</rt></ruby>を <ruby>買<rt>か</rt></ruby>いました。", options: ["で", "に", "へ", "を"], answer: 0 },
+            { q: "<ruby>日本<rt>にほん</rt></ruby> ____ <ruby>来<rt>く</rt></ruby>る <ruby>前<rt>まえ</rt></ruby>に、これを知りたかったです。", options: ["に", "で", "を", "から"], answer: 0 },
+            { q: "<ruby>缶<rt>かん</rt></ruby>や ペットボトル ____ を <ruby>入<rt>い</rt></ruby>れます。", options: ["だけ", "しか", "より", "ほど"], answer: 0 },
+            { q: "お<ruby>菓子<rt>がし</rt></ruby>の ゴミは、<ruby>入<rt>い</rt></ruby>れては ____。", options: ["いけません", "ありません", "ください", "あります"], answer: 0 },
+            { q: "<ruby>歩<rt>ある</rt></ruby>いて <ruby>食<rt>た</rt></ruby>べては ____。", options: ["いけません", "ありません", "もいいです", "ください"], answer: 0 },
+            { q: "<ruby>飛行機<rt>ひこうき</rt></ruby>に <ruby>乗<rt>の</rt></ruby>る <ruby>前<rt>まえ</rt></ruby>に、eSIMを ____ おきます。", options: ["<ruby>設定<rt>せってい</rt></ruby>して", "<ruby>設定<rt>せってい</rt></ruby>する", "<ruby>設定<rt>せってい</rt></ruby>した", "<ruby>設定<rt>せってい</rt></ruby>し"], answer: 0 },
+            { q: "<ruby>荷物<rt>にもつ</rt></ruby>を ____ サービスが あります。", options: ["<ruby>運<rt>はこ</rt></ruby>ぶ", "<ruby>運<rt>はこ</rt></ruby>んで", "<ruby>運<rt>はこ</rt></ruby>び", "<ruby>運<rt>はこ</rt></ruby>んだ"], answer: 0 },
+            { q: "お<ruby>寿司<rt>すし</rt></ruby>は なるべく <ruby>一口<rt>ひとくち</rt></ruby>で <ruby>食<rt>た</rt></ruby>べた ____ が いいですよ。", options: ["<ruby>方<rt>ほう</rt></ruby>", "とき", "こと", "ため"], answer: 0 },
+            { q: "<ruby>他<rt>ほか</rt></ruby>の <ruby>人<rt>ひと</rt></ruby>が <ruby>降<rt>ふ</rt></ruby>りる ____ 「<ruby>開<rt>あ</rt></ruby>く」の ボタンを <ruby>押<rt>お</rt></ruby>さなければ なりません。", options: ["まで", "から", "より", "だけ"], answer: 0 },
+            { q: "<ruby>次<rt>つぎ</rt></ruby>に <ruby>家<rt>いえ</rt></ruby>を <ruby>出<rt>で</rt></ruby>る <ruby>時<rt>とき</rt></ruby>、すぐに <ruby>靴<rt>くつ</rt></ruby>を ____ ことが できます。", options: ["<ruby>履<rt>は</rt></ruby>く", "<ruby>履<rt>は</rt></ruby>いて", "<ruby>履<rt>は</rt></ruby>いた", "<ruby>履<rt>は</rt></ruby>き"], answer: 0 }
+        ];
         let quizData = [];
 
         let scenes = [];
 
         async function parseData() {
             scenes = [];
-            for (let i = 1; i <= 30; i++) {
+            for (let i = 1; i <= 17; i++) {
                 try {
                     const response = await fetch(`scenes/Output_Job${i}/final_sentences.json`);
                     if (!response.ok) throw new Error(`Failed to fetch scene ${i}`);
@@ -947,10 +754,9 @@ const quizDataGrammar = [
         // ==========================================
         // 【YouTube 設定エリア】次回からはここを変更してください
         // ==========================================
-        const YOUTUBE_VIDEO_ID = 'lTnxVZwMBPE'; 
+        const YOUTUBE_VIDEO_ID = 'B6AqcfE9MPQ'; 
       // 検索・置換対象: const sceneStartTimes 配列
-const sceneStartTimes = [8, 184, 303, 443, 556, 677, 801, 926, 1039, 1176, 1296, 1427, 1544, 1665, 1795, 1920, 2081, 2220, 2338, 2478, 2633, 2802, 2964, 3134, 3304, 3475, 3600, 3708, 3816, 3926];
-
+const sceneStartTimes = [9, 173, 381, 551, 734, 904, 1074, 1258, 1440, 1603, 1787, 2060, 2296, 2591, 2848, 3103, 3346];
         let ytPlayer = null;
 
         // YouTube Iframe API スクリプトを自動動的ロード
@@ -1077,7 +883,7 @@ const sceneStartTimes = [8, 184, 303, 443, 556, 677, 801, 926, 1039, 1176, 1296,
             await parseData();
 
             const selector = document.getElementById('scene-selector');
-            for (let i = 0; i < 30; i++) {
+            for (let i = 0; i <17; i++) {
                 const opt = document.createElement('option');
                 opt.value = i;
                 opt.text = sceneTitles[i] || `Scene ${i + 1}`;
