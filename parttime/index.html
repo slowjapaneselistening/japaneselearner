@@ -417,28 +417,33 @@
         }
 
         async function updateTranslations() {
-            const langCode = appState.currentLang;
-            const srtParsed = await loadSRT(langCode);
-            if (!srtParsed || srtParsed.length === 0) return;
+    const langCode = appState.currentLang;
+    const srtParsed = await loadSRT(langCode);
+    if (!srtParsed || srtParsed.length === 0) return;
 
-            let globalIdx = 1; // 冒頭の共通字幕2つをスキップ
-            scenes.forEach((scene, index) => {
-                globalIdx++; // 各シーン直前の「Scene X」タイトル行をスキップ
-                
-                scene.lines.forEach(line => {
-                    if (globalIdx < srtParsed.length) {
-                        const srtItem = srtParsed[globalIdx];
-                        line.english = srtItem.text || "Translation not available.";
-                        line.startTime = srtItem.start; // 開始秒数を移植
-                        line.endTime = srtItem.end;     // 終了秒数を移植
-                    } else {
-                        line.startTime = 0;
-                        line.endTime = 0;
-                    }
-                    globalIdx++;
-                });
-            });
+    let globalIdx = 1; // 冒頭のイントロ字幕をスキップ
+    scenes.forEach((scene, index) => {
+        // シーン1開始時はタイトル1行スキップ、シーン2以降は案内字幕+タイトルの2行をスキップ
+        if (index === 0) {
+            globalIdx += 1;
+        } else {
+            globalIdx += 2;
         }
+        
+        scene.lines.forEach(line => {
+            if (globalIdx < srtParsed.length) {
+                const srtItem = srtParsed[globalIdx];
+                line.english = srtItem.text || "Translation not available.";
+                line.startTime = srtItem.start; // 開始秒数を移植
+                line.endTime = srtItem.end;     // 終了秒数を移植
+            } else {
+                line.startTime = 0;
+                line.endTime = 0;
+            }
+            globalIdx++;
+        });
+    });
+}
 
         function generateRomaji(text) {
             // Simple mapping for demonstration purposes
