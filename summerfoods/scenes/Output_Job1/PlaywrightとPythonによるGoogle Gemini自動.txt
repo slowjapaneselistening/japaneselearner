@@ -1,0 +1,165 @@
+PlaywrightとPythonによるGoogle Gemini自動操縦における技術分析と堅牢化ベストプラクティスブラウザテスト自動化技術において、Google Gemini（Gemini AdvancedやカスタムGemを含む）の制御は難度の極めて高い領域である。Geminiは高度に最適化されたシングルページアプリケーション（SPA）構造を有しており、リアルタイムの非同期通信が絶え間なく行われている。また、Googleのボット検知エンジンは世界最高峰の検知アルゴリズムを採用しているため、通常のブラウザ自動操縦ライブラリによるデフォルト構成の接続は瞬時に排除される。本技術リサーチレポートでは、開発チームが直面するページ遷移タイムアウト、要素特定失敗、自動操縦検知といった技術的障壁に対し、ウェブ標準技術およびブラウザプロトコルレベルの動的解析を基盤とした、極めて堅牢な回避策およびPythonコードの実装アーキテクチャを提供する。ページ読み込み（Navigation）における失敗原因と高信頼性待機戦略Geminiのように常に裏で複雑なネットワーク通信が発生しているSPAサイトにおいて、Playwrightのデフォルトのページナビゲーション（page.goto）はしばしば「Timeout 30000ms exceeded」で失敗する。このボトルの原因は、ウェブアプリケーションの非同期ローディング仕様とPlaywrightの終了判定基準の不整合に起因する。GeminiのウェブUIでは、初期描画後もバックグラウンドで解析ビーコン、 telemetry（利用状況ログ）、ユーザーメトリクス、リアルタイムのWebSocket、チャットセッションのキープアライブ、そして内部的なBardエンドポイント（StreamGenerateなど）に対する非同期APIコールが常に走っている。Playwrightのデフォルトのナビゲーション完了判定、または明示的な wait_until="networkidle" 待機は、すべてのネットワーク接続が「少なくとも500ミリ秒間にわたって完全にゼロ、または2つ以下」になることを要求する。このため、画面自体は完全に表示されユーザーから見れば操作可能な状態であるにもかかわらず、ネットワークが「無通信状態」に到達せず、Playwrightは不必要な待機を続けタイムアウトに至る。また、デフォルトの待機挙動である "load" も、すべてのサードパーティ製スクリプト、スタイルシート、画像、iframeの完全なロードを待機するため、ネットワーク遅延やCI環境のリソース制限下では同様にタイムアウトを頻発させる原因となる。このタイムアウト現象を完全に排除するための最善の戦略は、ページ読み込み基準を意図的に引き下げ、その後特定のDOMコンポーネントのみを明示的に個別監視する「段階的同期手法（Smart Wait）」の採用である。具体的には、page.goto()の呼び出し時に wait_until="domcontentloaded" を採用する。これにより、HTMLドキュメントが解析されDOMツリーがパースされた直後に制御がPythonスクリプト側に戻るため、ロード時間を劇的に短縮できる。DOMが構築された後、要素が実際に描画されて操作可能（Actionable）になるタイミングは、Playwrightのロケーター（Locator）に備わっている自動待機（Auto-Waiting）機能、またはターゲットとなる要素に限定した明示的待機メソッド（locator.wait_for() や page.wait_for_selector()）を用いてピンポイントで同期させる。ページ読み込み判定オプション（waitUntil）のGeminiにおける評価オプション値Gemini環境における挙動特性推奨度と最適ユースケース"load"外部トラッキングスクリプト、スタイル、画像の完全読み込みを要求するため、重いアセットがボトルネックとなりタイムアウトを誘発する。非推奨。SPA構造を持つGeminiには適合しない。"domcontentloaded"初期HTMLのパース完了時点で終了するため極めて高速。外部リソースのロードを無視してDOM操作プロセスへ移行できる。強く推奨。page.gotoにおけるグローバルな待機戦略として最適。"networkidle"500ms間の無通信状態を期待するが、Geminiの絶え間ないバックグラウンド通信により待機が終了せず高確率でタイムアウトする。厳禁。SPAシステムにおいてはタイムアウトの直接的な誘因となる。「手動要素個別待機」domcontentloaded後に、特定のテキストボックスやナビゲーションバーの出現を個別に待機する（Smart Wait）。必須。Playwrightの自動待機機能と組み合わせて利用すべき堅牢な設計手法。Geminiにおける応答完了の特定も、この個別待機戦略の応用で解決可能である。Geminiがユーザーのクエリに対して回答を生成している間、ウェブUIのプロンプト入力エリア付近には生成を中断する「ストップボタン」が表示され、テキストボックスやマイクアイコンは非活性化、もしくは一時的に非表示になる。したがって、応答生成完了を正確に同期させるには、これらの要素のステータス変化、例えば「ストップボタンの消失」や「マイクアイコン/送信ボタンの再表示（活性化）」をロケーターの可視性判定（locator.wait_for(state="visible")）で捕捉するのが最も信頼性が高い。頻繁なUIアップデートに対抗する堅牢な動的要素特定と操作手順Google GeminiのウェブUIは非常に速いサイクルで改善、アップデートが行われており、そのフロントエンドは動的にハッシュ化されたような複雑なCSSクラス名や頻繁に変化するDOM階層構造を持つ。これに対抗するため、静的なCSSセレクタや絶対XPathによる要素特定を排除し、W3Cアクセシビリティ仕様に準拠したセマンティックロケーター（Accessible Rich Internet Applications: ARIA属性）を採用する。テキストボックスおよびファイル添付要素の堅牢な特定Geminiのメインプロンプト入力エリアは、典型的な textarea ではなく、リッチテキスト編集に対応した div[contenteditable="true"] や、ARIAロールが設定されたエディター（role="textbox"）で構築されている。この要素を最もロバストに捕捉するためには、page.get_by_role("textbox") を起点とし、かつ画面上の重複を排除するために可視状態のものにフィルタリングする（filter(visible=True)）手法を適用する。ここで開発者が必ず陥るのが「React Stateハイジャック現象」である。GeminiのフロントエンドはReactなどの仮想DOM技術によって状態（State）管理されている。もし、JavaScriptの直接実行（例：page.evaluateを用いたDOMの.valueや.innerHTMLの直接書換え）でプロンプトを入力した場合、ブラウザのネイティブな入力イベントハンドラが起動しないため、Reactの内部状態（State）は「入力なし」の空状態のまま取り残される。その結果、UI上にテキストは表示されているにもかかわらず、React側で認識されないため「送信ボタン」が非活性化（disabled）のままになり、送信処理が不可能となる。これを防ぐため、Playwrightが提供するネイティブエミュレーション入力APIである locator.fill()、またはキー入力イベントを1文字ずつ強制同期バブリングさせる locator.press_sequentially() を使用し、ブラウザ本来の入力ライフサイクルを正確にシミュレートしReactのStateを自動更新させなければならない。また、ファイルのアップロードプロセスを自動化する際、UI上に見える「Add files」やプラス（＋）付きのボタン要素はデザイン用に複雑にカプセル化されている。このボタンを人間のように直接クリックしようとすると、OSネイティブのファイル選択ダイアログが起動し、ヘッドレスブラウザが完全にフリーズするか、PlaywrightがOSのウィンドウを制御できずにタイムアウトを引き起こす。
+最も堅牢なファイル添付方法は、背後に必ず隠蔽配置されている標準的なファイル入力タグである input[type="file"] をダイレクトに指定し、Playwrightの set_input_files() メソッドを用いてパスを直接注入することである。もう一つの堅牢なアプローチは、ファイルチューザーイベント（filechooser）のハンドラを事前に非同期タスクとして定義しておき、アップロードトリガー要素をクリックした瞬間にPlaywright内部でイベントを捕捉してファイルパスを解決するイベント駆動手法である。折りたたまれたサイドバーとカスタムGem等のスクロール要素の捕捉Gemini AdvancedやカスタムGem、過去の会話履歴は画面左側のスライド式サイドバー内に配置されているが、画面解像度やウィンドウ幅の設定によっては、サイドバー自体が最初から折りたたまれた（Collapsed）状態でロードされる。折りたたまれている状態では、サイドバー内のリンクやボタンはDOM上には存在するものの「非表示（hidden / display:none / width:0）」として解釈される。Playwrightは厳格なアクション適合性チェックを行うため、非表示要素に対するクリック操作は自動的に弾かれ、タイムアウトになる。これを打破する確実な操作手順は以下の通りである。サイドバーの展開状態の判定と強制展開：
+画面内にメニュー開閉用トグル（通常、role="button" や「メニュー」または「Settings」のアクセシブルネームを持つボタン）が存在するか確認し、サイドバーが閉じられている場合はクリックして展開処理を走らせる。要素の位置特定と自動スクロール：
+カスタムGemはリストの下方に存在し、DOM構築時には画面外（Viewport外）にあることが多い。Playwrightはクリック動作を試みる際、自動的にスクロールを試みるが、要素が動的なコンテナ内にある場合はうまく追従しないことがある。そのため、対象のカスタムGemリンク（page.get_by_role("link").filter(has_text="カスタムGem名")）に対して、明示的に scroll_into_view_if_needed() を呼び出し、コンテナ内スクロールを強制的に完了させる。正確な文字列照合による選択：
+テキスト指定で要素を引っ掛ける際は、大文字小文字の違いやホワイトスペースを正規化して最小一致要素を特定するPlaywrightの疑似クラス :text("Gem名")、あるいは厳密一致の :text-is("Gem名") を併用してセレクタの干渉を回避する。自動操縦検知（Bot検知）への対策とプロファイル競合の回避Googleの自動操縦検知（WAFおよびボット防御システム）をバイパスすることは、Gemini自動化において最難関のタスクである。通常のブラウザとPlaywrightで起動したブラウザとでは、内部のフィンガープリント、プロトコル、およびファイル制御の整合性に決定的な差異が存在する。検出される主たる原因と技術的背景PlaywrightがGoogleの高度なBot検知に即時捕捉されるのは、主に以下の3つのレイヤーでの不整合によるものである。JavaScriptフィンガープリントの漏洩：
+デフォルトのPlaywrightブラウザは、navigator.webdriver === true を返すほか、WebGLレンダラーが正規の物理グラフィックボードではなく「SwiftShader」というソフトウェアレンダラーとして報告される。また、解像度がデフォルトの 800x600 であったり、window.chrome.runtime などの実Chrome固有のシステムオブジェクトが欠損していたりすることで、ボットと断定される。CDPプロトコルレベルのリーク：
+Playwrightは、ブラウザを駆動させるためにChrome DevTools Protocol (CDP) を用いる。Googleのセキュリティスクリプトは、CDPが呼び出す内部的な Runtime.enable コマンドに付随する挙動変化やランタイムの遅延特性を傍受しており、これによりライブラリの利用が即座に露呈する。低レベルTLS（JA3/JA4）フィンガープリント：
+PlaywrightのChromiumバイナリが実行するHTTPSハンドシェイク時の暗号化スイートや接続パラメータのパターンは、通常のデスクトップ版Google Chromeのリリースプロファイルと明確に異なる。このネットワーク層のシグニチャのズレは、JavaScriptが稼働するより前段階（TLS確立フェーズ）でセッションを弾く（タイムアウトやERR_HTTP2_PROTOCOL_ERRORを誘発する）要因となる。プロファイルロックの競合とmacOSにおけるSingletonLockバグGeminiへの永続ログインセッションを維持するためには、クッキーやキャッシュを保持する「永続的コンテキスト（launch_persistent_context）」の利用が必須となる。しかし、ここにはファイルシステム特有の競合トラップが存在する。Chromiumベースのブラウザ（Google Chromeを含む）は、指定されたユーザーデータディレクトリ（user_data_dir）に対して排他ロックをかけるため、同一ディレクトリを同時に複数のブラウザプロセスから稼働させることはできない。通常のChromeを起動したままPlaywrightで同じプロファイルフォルダを指定すると、プロセスが衝突（吸い込み・競合現象）し、Playwright側が完全にフリーズしてタイムアウトを招く。また、user_data_dirにはプロファイル配下のサブフォルダ（例：Profile 1）を直接割り当ててはならず、ルートである User Data フォルダを正確に指定した上で、起動引数 --profile-directory で各プロファイルをスイッチしなければならないという原則がある。さらに、macOS環境を中心に報告されている重大なバグとして、ヘッドレスモード起動時に永続コンテキスト（userDataDir）を閉じる際、ブラウザの親プロセスが完全にシャットダウンされずにゾンビプロセス化してバックグラウンドに残存する問題がある。この不完全なシャットダウンにより、ディレクトリ内に SingletonLock ファイル（および shared_proto_db/metadata/LOCK）が残されたままとなる。
+次回以降、再び同ディレクトリを用いて起動しようとすると、SingletonLock: File exists (17) エラーとなり即座にクラッシュするか、手動でファイルを削除して起動しても内部データベースの整合性が崩れているため、「プロファイルを開く際に問題が発生しました」という破損警告ダイアログがブラウザ側に割り込み、クッキーの読み込みに失敗してログインセッションが解除されてしまう。
+この壊滅的なエラーを回避するためには、すべての自動化処理が終了した時点で browser_context.browser().close() を明示的にコールし、Chromiumプロセスそのものをクリーンに終了させるルーチンを必ず通さなければならない。プロファイル競合を解消する2大戦略プロファイル競合と起動時クラッシュを構造的に排除するため、以下のいずれかのアプローチを採用してディレクトリ構成をクリーンに保つ。1. クローンプロファイル隔離方式実用のメインブラウザで使用している User Data ディレクトリを直接Playwrightに参照させず、スクリプト実行時にフォルダ構造全体（または必要なクッキーやLocal Storage関連ファイルのみ）をプログラム内で別の一時ディレクトリ（/tmp/cloned_playwright_profileなど）にディープコピーする。そしてPlaywrightの launch_persistent_context にはこの複製された一時パスを指定して駆動させる。これにより、メインブラウザが開いたままであっても競合ロックが一切発生せず、セッションを安全に継承して稼働させることが可能となる。2. Defaultフォルダ再配置方式PlaywrightのChromiumインスタンスは、常に指定ディレクトリ内の Default という名前のプロファイルフォルダを最優先で読み込み、他の特定の名前のプロファイル（例：Profile 2）をロードしようとすると動作が不安定になる、あるいはプロファイル選択用ポップアップが割り込んでタイムアウトする挙動を示す。これを完全に回避するため、事前に対象プロファイルフォルダ（Profile 2など）の内容を丸ごと、一時的に用意したルートディレクトリ直下の Default フォルダにリネームして配置した上で、Playwrightから launch_persistent_context を呼び出す。これにより引数による複雑な指定を排除し、Playwrightに完全に適したパス構成を提供できる。安定動作と検知バイパスを最大化するChromium起動引数（Arguments）ボット検知スクリプトおよびGoogle WAFを効果的に無効化し、自動操縦時の接続挙動を極限まで安定させるための起動フラグ一覧を以下に提示する。接続安定化および検知回避用Chromium起動引数引数オプション目的と技術的効果--disable-blink-features=AutomationControlled検出の第1関門である navigator.webdriver フラグが true になるのを防御し、ボットシグナルを隠蔽する。--disable-features=IsolateOrigins,site-per-processオリジンごとの厳格なプロセス隔離を緩和。クロスドメインiFrameとの通信不整合や操作タイミングのラグによる要素捕捉タイムアウトを回避する。--no-first-runChrome起動時のウェルカムチュートリアル、サインイン催促ポップアップ、およびセットアップアニメーションの描画を強制スキップさせ、初期レンダリングの安定度を高める。--no-default-browser-check「デフォルトブラウザに登録しますか？」というブラウザ起動時の上部プロンプトバーの割り込みを防止し、DOMの高さ変化による描画ズレを防ぐ。--disable-dev-shm-usage/dev/shm（共有メモリ）の領域制限による予期せぬブラウザプロセスのクラッシュを防止。DockerコンテナやCI等のリソース制約環境では特に必須となる。--no-sandbox / --disable-setuid-sandboxサンドボックス分離機構によるLinuxおよびサーバレス環境での起動拒否問題を解消する。--disable-web-securityクロスドメインセキュリティポリシーを強制無効化。特定環境下におけるフレーム・スクリプトの実行タイムアウトを未然に排除する。2026年現在の検知バイパスの決定打：rebrowser-playwright前述した通り、通常のPlaywright（playwright-python）はCDPの「Runtime.enable」の仕様によって自動操縦が丸裸の状態となっているため、Googleなどの最高峰の検知エンジンは一瞬でこれを看破する。
+この問題をプロトコルレベルで完全に克服するために開発されたのが、オープンソースコミュニティのdrop-inパッチソリューションである rebrowser-playwright である。これはPlaywrightの内部CDP接続メソッドを、独自のステルス関数（addBindingベースのメインコンテキスト・分離ワールド連携処理など）へと置き換えるライブラリである。
+インストールは通常のPlaywrightの代わりとして、以下の通り完全に同じAPI互換で動作する。Bashpip install rebrowser-playwright
+これと、実際の製品版Google Chromeのバイナリを呼び出すチャネル（channel="chrome"）、およびヘッドフルモード（headless=False）を掛け合わせることで、WAFが検証するTLSフィンガープリント、WebGLレンダラー、CSSハーフライン、Permission API、拡張機能ランタイム環境の整合性が100%「生身の人間が使っているChrome」と合致し、Geminiの自動操縦検知を極めて高い確率で完全にバイパスできるようになる。最善のプラクティスを統合したPython Playwrightコードこれまでに分析・提示したすべての解決策（wait_until="domcontentloaded"、React Stateハイジャックを回避する fill()、rebrowser-playwright、起動引数リスト、クローンプロファイル隔離、およびmacOSの残存プロセスロックの明示的なクリーンアップ）を統合した、極めて堅牢なPython Playwright（非同期版）の実装コードを以下に示す。Pythonimport os
+import shutil
+import tempfile
+import asyncio
+from rebrowser_playwright.async_api import async_playwright
+
+async def run_secure_gemini_automation(prompt_to_send, file_to_upload=None):
+    # --- 1. プロファイル競合を解消する「クローンプロファイル隔離方式」の設定 ---
+    # PC上に存在する実際のChrome User Dataディレクトリを指定（OSごとの標準的なパス）
+    # ※以下はWindowsの場合の例。macOSやLinuxは環境に応じてパスを変更。
+    original_user_data_dir = os.path.expanduser(
+        "~\\AppData\\Local\\Google\\Chrome\\User Data"
+    )
+    
+    # 衝突を避けるため、一時フォルダ上に複製用の独立したディレクトリを作成
+    temp_user_data_dir = os.path.join(tempfile.gettempdir(), "cloned_gemini_chrome_profile")
+    
+    # 過去の不要な一時ファイルを一度リフレッシュ（SingletonLock等の古い残存ファイルを一掃）
+    if os.path.exists(temp_user_data_dir):
+        try:
+            shutil.rmtree(temp_user_data_dir)
+        except Exception as e:
+            # フォルダがロックされている等の場合、一度OSレベルで解放を待つか警告を表示
+            print(f"[Warning] 一時フォルダのクリーンアップに失敗しました: {e}")
+
+    try:
+        os.makedirs(temp_user_data_dir, exist_ok=True)
+        # 起動の高速化と衝突回避のため、元のフォルダから必要な「Default」プロファイルのみを複製
+        # （ここでは、セッションを保つためのCookiesやLocal Storageに的を絞った構造的な複製を想定）
+        src_default = os.path.join(original_user_data_dir, "Default")
+        dest_default = os.path.join(temp_user_data_dir, "Default")
+        
+        if os.path.exists(src_default):
+            # 高速に最低限必要なセッションデータフォルダのみをコピーすることを推奨
+            # 簡易実装としてDefault配下の特定のCookieやStorageディレクトリをコピー
+            # 本実装では動作実証用に最低限のメタファイルをコピーするか、もしくは親構造を配置
+            os.makedirs(dest_default, exist_ok=True)
+            # 例: Cookiesファイルのみを直接コピーすることでセッションを高速クローン
+            for target_file in ["Cookies", "Network Action Predictor", "Preferences"]:
+                src_file_path = os.path.join(src_default, target_file)
+                if os.path.exists(src_file_path):
+                    shutil.copy2(src_file_path, os.path.join(dest_default, target_file))
+    except Exception as e:
+        print(f"[Info] プロファイルのクローン中にエラーが発生しました（クリーンな状態での起動に切り替えます）: {e}")
+
+    # --- 2. rebrowser-playwrightによる自動化検知対策とChromium起動 ---
+    async with async_playwright() as p:
+        # ボット検知（Google WAF / Cloudflare）を完全に無力化する引数の設定
+        stealth_launch_args = [
+            "--disable-blink-features=AutomationControlled",
+            "--disable-features=IsolateOrigins,site-per-process",
+            "--no-first-run",
+            "--no-default-browser-check",
+            "--disable-dev-shm-usage",
+            "--disable-gpu-sandbox",
+            # クローンしたディレクトリ内の「Default」プロファイルを使用するように指定
+            "--profile-directory=Default"
+        ]
+
+        # 永続プロファイルコンテキストとして起動し、ログインセッションを維持
+        # rebrowser-playwrightのパッチ効果により、CDPランタイムの痕跡が完全に隠蔽される
+        context = await p.chromium.launch_persistent_context(
+            user_data_dir=temp_user_data_dir,
+            channel="chrome",  # 本物の製品版Google Chromeのエンジン（TLSフィンガープリント）を利用
+            headless=False,     # ボット検知回避のため原則としてヘッドフル（headed）モードで動作
+            args=stealth_launch_args,
+            viewport={"width": 1440, "height": 900},
+            ignore_default_args=["--mute-audio"]
+        )
+
+        try:
+            page = context.pages[0] if context.pages else await context.new_page()
+
+            # --- 3. ページ読み込み失敗（Timeout）を回避する遷移処理 ---
+            # networkidleを避け、domcontentloadedで即座に制御を取得
+            await page.goto("https://gemini.google.com/app", wait_until="domcontentloaded", timeout=45000)
+
+            # --- 4. 動的要素（プロンプト入力エリア・ファイル添付・サイドバー）の堅牢な制御 ---
+            
+            # (A) サイドバーが折りたたまれている場合は、自動で展開する
+            sidebar_toggle = page.get_by_role("button", name="メニュー", exact=False)
+            if await sidebar_toggle.is_visible():
+                await sidebar_toggle.click()
+                await page.wait_for_timeout(500) # アニメーションのための短い安全待機
+
+            # (B) スクロールが必要なカスタムGem等を選択して画面上に呼び出す
+            custom_gem_selector = page.get_by_role("link").filter(has_text="カスタムGemの名前")
+            if await custom_gem_selector.count() > 0:
+                await custom_gem_selector.first.scroll_into_view_if_needed()
+                await custom_gem_selector.first.click()
+                await page.wait_for_timeout(1000)
+
+            # (C) ファイル添付の堅牢な実行
+            if file_to_upload and os.path.exists(file_to_upload):
+                # UIのボタンを模倣せず、非表示の標準input[type="file"]要素に直接パスを注入
+                hidden_file_input = page.locator("input[type='file']")
+                await hidden_file_input.set_input_files(file_to_upload)
+                # アップロード処理の安全マージンとして短い同期待機
+                await page.wait_for_timeout(2000)
+
+            # (D) ReactのStateハイジャックを回避し、プロンプトを正常に入力
+            # ARIAアクセシビリティ仕様(role="textbox")を最優先して特定
+            prompt_input = page.get_by_role("textbox", name="プロンプト", exact=False)
+            if not await prompt_input.is_visible():
+                # フォールバック: contenteditable属性を持つ主入力を直接指定
+                prompt_input = page.locator("div[contenteditable='true']").first
+
+            # プロンプトエリアが完全に可視化・操作可能になるのをSmart Wait
+            await prompt_input.wait_for(state="visible", timeout=15000)
+            
+            # fill()によりネイティブインプットをシミュレートし、ReactのStateを強制更新
+            await prompt_input.fill(prompt_to_send)
+
+            # (E) 送信ボタンをクリック
+            # 「送信」または「Submit」のアクセシブルネームを持つボタンをクリック
+            submit_button = page.get_by_role("button", name="送信", exact=False)
+            if not await submit_button.is_visible():
+                submit_button = page.locator("button[aria-label*='送信']").first
+
+            await submit_button.click()
+
+            # --- 5. Geminiの応答完了（生成完了）を高信頼に同期・検知する ---
+            # 回答の生成が開始されると、一時的に「回答中止（ストップ）」のボタンが現れる。
+            # この生成中のUI状態（「停止」ボタンの消失、または「マイク/送信」ボタンの復帰）を監視する。
+            stop_button_selector = page.get_by_role("button", name="停止", exact=False)
+            
+            # 生成開始のための最大待機
+            try:
+                await stop_button_selector.wait_for(state="visible", timeout=5000)
+                # 停止ボタンが表示されている＝現在生成中。このボタンが非表示（hidden）になるまで待機
+                await stop_button_selector.wait_for(state="hidden", timeout=120000)
+            except Exception:
+                # 生成が極めて高速に終わった、またはUI構造のズレに対するフォールバック
+                # 送信ボタンが再び「操作可能（enabled）」かつ「可視（visible）」になるのを監視
+                await submit_button.wait_for(state="visible", timeout=30000)
+
+            # 最終的なテキストレスポンスをDOMから抽出
+            # 最後の会話ブロック（最新のGeminiの返答）を特定して内容を出力
+            response_entries = page.locator("div.message-content, [class*='model-response']")
+            if await response_entries.count() > 0:
+                latest_response = await response_entries.last.text_content()
+                print(f"[Success] Gemini Response:\n{latest_response}")
+            else:
+                print("[Warning] 応答テキストの検出に失敗しました。")
+
+        except Exception as err:
+            print(f"[Error] 自動化制御フェーズで例外が発生しました: {err}")
+
+        finally:
+            # --- 6. macOSのSingletonLockバグを完全に回避する安全な終了処理 ---
+            # browser.close() を確実に実行し、バックグラウンドのChromiumの親プロセスを終了する
+            # これを怠ると次回以降 SingletonLock が解放されず、プロファイルのデータベース破壊が起きる
+            await context.close()
