@@ -401,11 +401,15 @@
             const srtParsed = await loadSRT(langCode);
             if (!srtParsed || srtParsed.length === 0) return;
 
-            let globalIdx = 1;
+            let globalIdx = 0;
             scenes.forEach((scene, index) => {
-                if (index <= 2) {
-                    globalIdx += 2;
-                } else {
+                const sceneNum = index + 1;
+                while (globalIdx < srtParsed.length) {
+                    const text = srtParsed[globalIdx].text;
+                    if (text.toLowerCase().includes(`scene ${sceneNum}`)) {
+                        globalIdx++; // タイトル行をスキップして最初のセリフへ
+                        break;
+                    }
                     globalIdx++;
                 }
                 
