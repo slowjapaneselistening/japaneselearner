@@ -604,7 +604,7 @@ const quizDataGrammar = [
             const srtParsed = await loadSRT(langCode);
             if (!srtParsed || srtParsed.length === 0) return;
 
-            let globalIdx = 2; // 冒頭の共通字幕2つをスキップ
+            let globalIdx = 1; // 冒頭の共通字幕2つをスキップ
             scenes.forEach((scene, index) => {
                 globalIdx++; // 各シーン直前の「Scene X」タイトル行をスキップ
                 
