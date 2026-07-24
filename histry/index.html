@@ -240,17 +240,17 @@
 // 1. タイトル・シーン数の修正（sceneTitles 配列 と parseData ループ回数）
 // =================================================================
 
-       const sceneTitles = [
-            "Scene 1: 週末の過ごし方 / How to Spend Your Weekend",
-            "Scene 2: 週末の過ごし方 / How to Spend Your Weekend",
-            "Scene 3: 仕事用カバンの選び方 / How to Choose a Work Bag",
-            "Scene 4: 仕事用カバン選び / Choosing a Work Bag",
-            "Scene 5: 朝の会話：起きる時間 / Morning Conversation: Wake-up Times",
-            "Scene 6: 朝の会話：起きる時間 / Morning Conversations: Wake-up Times",
-            "Scene 7: 週末の予定 / Weekend Plans",
-            "Scene 8: 週末のランチ計画 / Weekend Lunch Plans",
-            "Scene 9: 北海道旅行の話 / A Trip to Hokkaido",
-            "Scene 10: 北かい道旅行 / Hokkaido Trip"
+      const sceneTitles = [
+            "Scene 1: 侍のゲームと宮本武蔵 / Samurai Game and Miyamoto Musashi",
+            "Scene 2: 織田信長と安土城 / Oda Nobunaga and Azuchi Castle",
+            "Scene 3: 新選組と沖田総司 / Shinsengumi and Okita Soji",
+            "Scene 4: 茶の文化と利休 / Tea Culture and Rikyu",
+            "Scene 5: 豊臣秀吉の成功物語 / The Success Story of Toyotomi Hideyoshi",
+            "Scene 6: 江戸と徳川家康 / Edo and Tokugawa Ieyasu",
+            "Scene 7: 坂本龍馬の魅力 / The Charm of Sakamoto Ryoma",
+            "Scene 8: 忍者の魅力 / The Appeal of Ninjas",
+            "Scene 9: 弥助:日本の黒人侍 / Yasuke: The Black Samurai of Japan",
+            "Scene 10: 安倍晴明の魔法 / Abe no Seimei: The Onmyoji of Legends"
         ];
         const LANG_MAP = {
             'English': 'en', 'Vietnamese': 'vi', 'Indonesian': 'id', 'Thai': 'th', 'Korean': 'ko', 
@@ -275,16 +275,16 @@
 // =================================================================
 
         const quizDataKanji = [
-            { q: "「週末」の読み方は？", options: ["しゅうまつ", "しゅうまち", "しゅまつけ", "しゅうまつり"], answer: 0 },
-            { q: "「映画」の読み方は？", options: ["えいが", "えか", "えい画", "えいご"], answer: 0 },
-            { q: "「散歩」の読み方は？", options: ["さんぽ", "さんほ", "さんぽう", "じんぽ"], answer: 0 },
-            { q: "「公園」の読み方は？", options: ["こうえん", "こえん", "こうえい", "こんえん"], answer: 0 },
-            { q: "「買い物」の読み方は？", options: ["かいもの", "かいぶつ", "かわもの", "がいもの"], answer: 0 },
-            { q: "「料理」の読み方は？", options: ["りょうり", "りようり", "りょうち", "ろうり"], answer: 0 },
-            { q: "「趣味」の読み方は？", options: ["しゅみ", "しゅび", "すみ", "しゆみ"], answer: 0 },
-            { q: "「朝」の読み方は？", options: ["あさ", "ひる", "よる", "あした"], answer: 0 },
-            { q: "「旅行」の読み方は？", options: ["りょこう", "りよこう", "りょこうす", "ろこう"], answer: 0 },
-            { q: "「写真」の読み方は？", options: ["しゃしん", "しやしん", "しゃじん", "さしん"], answer: 0 }
+            { q: "「有名」の読み方は？", options: ["ゆうめい", "ゆめい", "ゆうまい", "ゆまい"], answer: 0 },
+            { q: "「歴史」の読み方は？", options: ["れきし", "りきし", "れきじ", "りきじ"], answer: 0 },
+            { q: "「世界」の読み方は？", options: ["せかい", "せいかい", "せかいし", "せかいじ"], answer: 0 },
+            { q: "「建物」の読み方は？", options: ["たてもの", "けんぶつ", "たてぶつ", "けんもの"], answer: 0 },
+            { q: "「写真」の読み方は？", options: ["しゃしん", "しやしん", "しゃじん", "さしん"], answer: 0 },
+            { q: "「文化」の読み方は？", options: ["ぶんか", "もんか", "ぶんが", "もんが"], answer: 0 },
+            { q: "「成功」の読み方は？", options: ["せいこう", "じょうこう", "せいこうう", "じょこう"], answer: 0 },
+            { q: "「平和」の読み方は？", options: ["へいわ", "ひょうわ", "へいわん", "ひらわ"], answer: 0 },
+            { q: "「情報」の読み方は？", options: ["じょうほう", "じょほう", "じょうほうう", "じょほうう"], answer: 0 },
+            { q: "「天気」の読み方は？", options: ["てんき", "でんき", "てんけい", "でんけい"], answer: 0 }
         ];
      // =================================================================
 // 3. 内容理解クイズデータの修正（quizDataCulture 配列）
@@ -295,29 +295,29 @@
 // =================================================================
 
       const quizDataCulture = [
-            { q: "<ruby>週末<rt>しゅうまつ</rt></ruby>によく<ruby>家<rt>いえ</rt></ruby>でなにをしますか？", options: ["<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ます", "<ruby>野球<rt>やきゅう</rt></ruby>をします", "ピアノを<ruby>弾<rt>ひ</rt></ruby>きます", "<ruby>泳<rt>およ</rt></ruby>ぎに行きます"], answer: 0 },
-            { q: "どんな<ruby>映画<rt>えいが</rt></ruby>をよく<ruby>見<rt>み</rt></ruby>ますか？", options: ["<ruby>古<rt>ふる</rt></ruby>い<ruby>日本<rt>にほん</rt></ruby>のアニメ", "アメリカのホラー<ruby>映画<rt>えいが</rt></ruby>", "フランスのコメディ", "<ruby>新<rt>あたら</rt></ruby>しいアクション<ruby>映画<rt>えいが</rt></ruby>"], answer: 0 },
-            { q: "<ruby>自分<rt>じぶん</rt></ruby>でつくったカレーは なぜおいしいですか？", options: ["スパイスから<ruby>作<rt>つく</rt></ruby>りますから", "<ruby>高級<rt>こうきゅう</rt></ruby>なお<ruby>肉<rt>にく</rt></ruby>を<ruby>使<rt>つか</rt></ruby>いますから", "<ruby>甘<rt>あま</rt></ruby>い砂糖を<ruby>入<rt>い</rt></ruby>れますから", "<ruby>店<rt>みせ</rt></ruby>で<ruby>買<rt>か</rt></ruby>いましたから"], answer: 0 },
-            { q: "<ruby>駅<rt>えき</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くのイタリア<ruby>料理<rt>りょうり</rt></ruby>の<ruby>店<rt>みせ</rt></ruby>で なにが<ruby>有名<rt>ゆうめい</rt></ruby>ですか？", options: ["ワイン", "コーヒー", "ビール", "ジュース"], answer: 0 },
-            { q: "ふたりは <ruby>何曜日<rt>なんようび</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>に レストランへ<ruby>行<rt>い</rt></ruby>きますか？", options: ["<ruby>土曜日<rt>どようび</rt></ruby>", "<ruby>金曜日<rt>きんようび</rt></ruby>", "<ruby>日曜日<rt>にちようび</rt></ruby>", "<ruby>月曜日<rt>げつようび</rt></ruby>"], answer: 0 },
-            { q: "カバンを<ruby>買<rt>か</rt></ruby>うとき、どんなカバンが<ruby>欲<rt>ほ</rt></ruby>しかったですか？", options: ["パソコンが<ruby>入<rt>はい</rt></ruby>るカバン", "<ruby>傘<rt>かさ</rt></ruby>だけが<ruby>入<rt>はい</rt></ruby>るカバン", "お<ruby>弁当<rt>べんとう</rt></ruby>だけが<ruby>入<rt>はい</rt></ruby>るカバン", "スマホだけが<ruby>入<rt>はい</rt></ruby>るカバン"], answer: 0 },
-            { q: "ナイロンのカバンは なぜ<ruby>便利<rt>べんり</rt></ruby>ですか？", options: ["<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>も<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>ですから", "とても<ruby>重<rt>おも</rt></ruby>いですから", "ポケットがありませんから", "<ruby>小<rt>ちい</rt></ruby>さすぎますから"], answer: 0 },
-            { q: "<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>何時<rt>なんじ</rt></ruby>に<ruby>起<rt>お</rt></ruby>きますか？", options: ["6<ruby>時<rt>じ</rt></ruby>", "8<ruby>時<rt>じ</rt></ruby>", "9<ruby>時<rt>じ</rt></ruby>", "10<ruby>時<rt>じ</rt></ruby>"], answer: 0 },
-            { q: "<ruby>北海道<rt>ほっかいどう</rt></ruby>へ なにで<ruby>行<rt>い</rt></ruby>きましたか？", options: ["<ruby>飛行機<rt>ひこうき</rt></ruby>", "<ruby>電車<rt>でんしゃ</rt></ruby>", "<ruby>車<rt>くるま</rt></ruby>", "バス"], answer: 0 },
-            { q: "<ruby>北海道<rt>ほっかいどう</rt></ruby>で なにがとてもおいしかったですか？", options: ["カニとイクラ", "ラーメンと餃子", "リンゴとミカン", "うどんと天ぷら"], answer: 0 }
+            { q: "<ruby>宮本<rt>みやもと</rt></ruby><ruby>武蔵<rt>むさし</rt></ruby>は <ruby>刀<rt>かたな</rt></ruby>を <ruby>何本<rt>なんぼん</rt></ruby><ruby>使<rt>つか</rt></ruby>って <ruby>戦<rt>たたか</rt></ruby>いましたか？", options: ["2<ruby>本<rt>ほん</rt></ruby>", "1<ruby>本<rt>ほん</rt></ruby>", "3<ruby>本<rt>ほん</rt></ruby>", "4<ruby>本<rt>ほん</rt></ruby>"], answer: 0 },
+            { q: "<ruby>織田<rt>おだ</rt></ruby><ruby>信長<rt>のぶなが</rt></ruby>が <ruby>好<rt>す</rt></ruby>きだった <ruby>外国<rt>がいこく</rt></ruby>の <ruby>飲<rt>の</rt></ruby>み<ruby>物<rt>もの</rt></ruby>は なにですか？", options: ["ワイン", "ジュース", "コーヒー", "お<ruby>茶<rt>ちゃ</rt></ruby>"], answer: 0 },
+            { q: "<ruby>沖田<rt>おきた</rt></ruby><ruby>総司<rt>そうじ</rt></ruby>は どんな<ruby>人<rt>ひと</rt></ruby>でしたか？", options: ["<ruby>笑顔<rt>えがお</rt></ruby>が かわいい<ruby>人<rt>ひと</rt></ruby>", "いつも おこっている<ruby>人<rt>ひと</rt></ruby>", "<ruby>背<rt>せ</rt></ruby>が とても<ruby>高<rt>たか</rt></ruby>い<ruby>人<rt>ひと</rt></ruby>", "<ruby>静<rt>しず</rt></ruby>かな<ruby>老人<rt>ろうじん</rt></ruby>"], answer: 0 },
+            { q: "<ruby>千<rt>せん</rt></ruby>の<ruby>利休<rt>りきゅう</rt></ruby>は なにを <ruby>教<rt>おし</rt></ruby>えましたか？", options: ["お<ruby>茶<rt>ちゃ</rt></ruby>の <ruby>文化<rt>ぶんか</rt></ruby>", "<ruby>刀<rt>かたな</rt></ruby>の <ruby>使<rt>つか</rt></ruby>い<ruby>方<rt>かた</rt></ruby>", "<ruby>絵<rt>え</rt></ruby>の <ruby>描<rt>か</rt></ruby>き<ruby>方<rt>かた</rt></ruby>", "<ruby>乗馬<rt>じょうば</rt></ruby>の <ruby>練習<rt>れんしゅう</rt></ruby>"], answer: 0 },
+            { q: "<ruby>豊臣<rt>とよとみ</rt></ruby><ruby>秀吉<rt>ひでよし</rt></ruby>は <ruby>昔<rt>むかし</rt></ruby> どんな<ruby>仕事<rt>しごと</rt></ruby>をしていましたか？", options: ["<ruby>農民<rt>のうみん</rt></ruby>", "<ruby>医者<rt>いしゃ</rt></ruby>", "<ruby>商人<rt>しょうにん</rt></ruby>", "<ruby>忍者<rt>にんじゃ</rt></ruby>"], answer: 0 },
+            { q: "<ruby>徳川<rt>とくがわ</rt></ruby><ruby>家康<rt>いえやす</rt></ruby>が <ruby>作<rt>つく</rt></ruby>った <ruby>平和<rt>へいわ</rt></ruby>な<ruby>時代<rt>じだい</rt></ruby>は どれくらい <ruby>続<rt>つづ</rt></ruby>きましたか？", options: ["<ruby>約<rt>やく</rt></ruby>250<ruby>年<rt>ねん</rt></ruby>", "<ruby>約<rt>やく</rt></ruby>10<ruby>年<rt>ねん</rt></ruby>", "<ruby>約<rt>やく</rt></ruby>50<ruby>年<rt>ねん</rt></ruby>", "<ruby>約<rt>やく</rt></ruby>500<ruby>年<rt>ねん</rt></ruby>"], answer: 0 },
+            { q: "<ruby>坂本<rt>さかもと</rt></ruby><ruby>龍馬<rt>りょうま</rt></ruby>が <ruby>侍<rt>さむらい</rt></ruby>で <ruby>初<rt>はじ</rt></ruby>めて <ruby>履<rt>は</rt></ruby>いたものは なにですか？", options: ["ブーツ", "<ruby>草履<rt>ぞうり</rt></ruby>", "スリッパ", "サンダル"], answer: 0 },
+            { q: "<ruby>忍者<rt>にんじゃ</rt></ruby>の <ruby>一番<rt>いちばん</rt></ruby>の <ruby>仕事<rt>しごと</rt></ruby>は なにですか？", options: ["<ruby>秘密<rt>ひみつ</rt></ruby>の <ruby>情報<rt>じょうほう</rt></ruby>を <ruby>運<rt>はこ</rt></ruby>ぶこと", "<ruby>魔法<rt>まほう</rt></ruby>を <ruby>使<rt>つか</rt></ruby>うこと", "<ruby>黒<rt>くろ</rt></ruby>い<ruby>服<rt>ふく</rt></ruby>を <ruby>売<rt>う</rt></ruby>ること", "<ruby>町<rt>まち</rt></ruby>を <ruby>掃除<rt>そうじ</rt></ruby>すること"], answer: 0 },
+            { q: "<ruby>ヤスケ<rt>やすけ</rt></ruby>は どこから <ruby>日本<rt>にほん</rt></ruby>に <ruby>来<rt>き</rt></ruby>ましたか？", options: ["アフリカ", "アメリカ", "イギリス", "中国"], answer: 0 },
+            { q: "<ruby>安倍<rt>あべ</rt></ruby>の<ruby>晴明<rt>せいめい</rt></ruby>の <ruby>神社<rt>じんじゃ</rt></ruby>に あるマークは どんな<ruby>形<rt>かたち</rt></ruby>ですか？", options: ["<ruby>五角形<rt>ごかくけい</rt></ruby>の <ruby>星<rt>ほし</rt></ruby>", "<ruby>丸<rt>まる</rt></ruby>", "<ruby>四角<rt>しかく</rt></ruby>", "<ruby>ハート<rt>はーと</rt></ruby>"], answer: 0 }
         ];
 
       const quizDataGrammar = [
-            { q: "よく<ruby>家<rt>いえ</rt></ruby> ____ <ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ます。", options: ["で", "に", "へ", "を"], answer: 0 },
-            { q: "<ruby>映画<rt>えいが</rt></ruby>の<ruby>後<rt>あと</rt></ruby>は、いつもなに ____ しますか。", options: ["を", "が", "に", "で"], answer: 0 },
-            { q: "<ruby>駅<rt>えき</rt></ruby> ____ <ruby>近<rt>ちか</rt></ruby>くのイタリア<ruby>料理<rt>りょうり</rt></ruby>の<ruby>店<rt>みせ</rt></ruby>です。", options: ["の", "が", "を", "で"], answer: 0 },
-            { q: "じゃあ、今度<ruby>一緒<rt>いっしょ</rt></ruby>にその<ruby>店<rt>みせ</rt></ruby>へ ____ か。", options: ["<ruby>行<rt>い</rt></ruby>きません", "<ruby>行<rt>い</rt></ruby>きます", "<ruby>行<rt>い</rt></ruby>きました", "<ruby>行<rt>い</rt></ruby>きませんでした"], answer: 0 },
-            { q: "<ruby>仕事<rt>しごと</rt></ruby> ____ <ruby>使<rt>つか</rt></ruby>うカバンです。", options: ["で", "に", "へ", "から"], answer: 0 },
-            { q: "ペンのための<ruby>小<rt>ちい</rt></ruby>さなポケット ____ ありますよ。", options: ["も", "を", "へ", "から"], answer: 0 },
-            { q: "<ruby>会社<rt>かいしゃ</rt></ruby>まで<ruby>遠<rt>とお</rt></ruby>いですから、<ruby>早<rt>はや</rt></ruby>く____になりません。", options: ["<ruby>起<rt>お</rt></ruby>きなければ", "<ruby>起<rt>お</rt></ruby>きて", "<ruby>起<rt>お</rt></ruby>きない", "<ruby>起<rt>お</rt></ruby>きます"], answer: 0 },
-            { q: "<ruby>電車<rt>でんしゃ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>では いつもなに ____ していますか。", options: ["を", "が", "に", "へ"], answer: 0 },
-            { q: "<ruby>東京<rt>とうきょう</rt></ruby>から<ruby>飛行機<rt>ひこうき</rt></ruby> ____ 二時間くらいでした。", options: ["で", "に", "を", "へ"], answer: 0 },
-            { q: "<ruby>温泉<rt>おんせん</rt></ruby>に ____ 、ゆっくりしました。", options: ["<ruby>入<rt>はい</rt></ruby>って", "<ruby>入<rt>はい</rt></ruby>る", "<ruby>入<rt>はい</rt></ruby>り", "<ruby>入<rt>はい</rt></ruby>った"], answer: 0 }
+            { q: "<ruby>宮本<rt>みやもと</rt></ruby><ruby>武蔵<rt>むさし</rt></ruby> ____ <ruby>言<rt>い</rt></ruby>う <ruby>人<rt>ひと</rt></ruby>が <ruby>出<rt>で</rt></ruby>てきます。", options: ["と", "が", "を", "に"], answer: 0 },
+            { q: "<ruby>戦<rt>たたか</rt></ruby>い<ruby>方<rt>かた</rt></ruby> ____ <ruby>本<rt>ほん</rt></ruby>です。", options: ["の", "で", "を", "へ"], answer: 0 },
+            { q: "<ruby>名前<rt>なまえ</rt></ruby>を <ruby>聞<rt>き</rt></ruby>いた こと ____ あります。", options: ["が", "を", "に", "で"], answer: 0 },
+            { q: "<ruby>自分<rt>じぶん</rt></ruby>の <ruby>スタイル<rt>すたいる</rt></ruby>を ぜったいに ____ 強い<ruby>人<rt>ひと</rt></ruby>でした。", options: ["<ruby>曲<rt>ま</rt></ruby>げない", "<ruby>曲<rt>ま</rt></ruby>げます", "<ruby>曲<rt>ま</rt></ruby>げて", "<ruby>曲<rt>ま</rt></ruby>げたい"], answer: 0 },
+            { q: "<ruby>頭<rt>あたま</rt></ruby>が とても ____、 <ruby>気<rt>き</rt></ruby>の <ruby>利<rt>き</rt></ruby>く <ruby>人<rt>ひと</rt></ruby>でした。", options: ["<ruby>良<rt>よ</rt></ruby>くて", "<ruby>良<rt>い</rt></ruby>い", "<ruby>良<rt>よ</rt></ruby>いでした", "<ruby>良<rt>よ</rt></ruby>く"], answer: 0 },
+            { q: "<ruby>我慢<rt>がまん</rt></ruby><ruby>強<rt>づよ</rt></ruby>くて、 じっと ____ ことができる <ruby>人<rt>ひと</rt></ruby>でした。", options: ["<ruby>待<rt>ま</rt></ruby>つ", "<ruby>待<rt>ま</rt></ruby>ち", "<ruby>待<rt>ま</rt></ruby>って", "<ruby>待<rt>ま</rt></ruby>たない"], answer: 0 },
+            { q: "<ruby>新<rt>あたら</rt></ruby>しい <ruby>日本<rt>にほん</rt></ruby>を ____ ために、 <ruby>国中<rt>くにじゅう</rt></ruby>を <ruby>走<rt>はし</rt></ruby>り<ruby>回<rt>まわ</rt></ruby>りました。", options: ["<ruby>作<rt>つく</rt></ruby>る", "<ruby>作<rt>つく</rt></ruby>り", "<ruby>作<rt>つく</rt></ruby>って", "<ruby>作<rt>つく</rt></ruby>らない"], answer: 0 },
+            { q: "<ruby>敵<rt>てき</rt></ruby>の <ruby>情報<rt>じょうほう</rt></ruby>を ____ ことと、 <ruby>大切<rt>たいせつ</rt></ruby>な <ruby>人<rt>ひと</rt></ruby>を <ruby>守<rt>まも</rt></ruby>ることです。", options: ["<ruby>集<rt>あつ</rt></ruby>める", "<ruby>集<rt>あつ</rt></ruby>め", "<ruby>集<rt>あつ</rt></ruby>めて", "<ruby>集<rt>あつ</rt></ruby>めます"], answer: 0 },
+            { q: "<ruby>体<rt>からだ</rt></ruby>を ____ も <ruby>黒<rt>くろ</rt></ruby>いので、 とても <ruby>驚<rt>おどろ</rt></ruby>きました。", options: ["<ruby>洗<rt>あら</rt></ruby>っても", "<ruby>洗<rt>あら</rt></ruby>う", "<ruby>洗<rt>あら</rt></ruby>います", "<ruby>洗<rt>あら</rt></ruby>って"], answer: 0 },
+            { q: "<ruby>星<rt>ほし</rt></ruby>や <ruby>空<rt>そら</rt></ruby>を ____ 、これからの <ruby>天気<rt>てんき</rt></ruby>を <ruby>当<rt>あ</rt></ruby>てたりしました。", options: ["<ruby>見<rt>み</rt></ruby>て", "<ruby>見<rt>み</rt></ruby>る", "<ruby>見<rt>み</rt></ruby>ます", "<ruby>見<rt>み</rt></ruby>ない"], answer: 0 }
         ];
         let quizData = [];
 
