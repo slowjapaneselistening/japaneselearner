@@ -241,16 +241,26 @@
 // =================================================================
 
        const sceneTitles = [
-            "Scene 1: 週末の過ごし方 / How to Spend Your Weekend",
-            "Scene 2: 週末の過ごし方 / How to Spend Your Weekend",
-            "Scene 3: 仕事用カバンの選び方 / How to Choose a Work Bag",
-            "Scene 4: 仕事用カバン選び / Choosing a Work Bag",
-            "Scene 5: 朝の会話：起きる時間 / Morning Conversation: Wake-up Times",
-            "Scene 6: 朝の会話：起きる時間 / Morning Conversations: Wake-up Times",
-            "Scene 7: 週末の予定 / Weekend Plans",
-            "Scene 8: 週末のランチ計画 / Weekend Lunch Plans",
-            "Scene 9: 北海道旅行の話 / A Trip to Hokkaido",
-            "Scene 10: 北かい道旅行 / Hokkaido Trip"
+            "Scene 1: 酷暑日の危険 / The Dangers of Extreme Heat Days",
+            "Scene 2: エアコンと扇風機の使い方 / How to Use Air Conditioners and Fans Effectively",
+            "Scene 3: 熱中症対策グッズ / Heatstroke Prevention Items",
+            "Scene 4: 夏の飲み物と水分補給 / Summer Hydration and Popular Beverages",
+            "Scene 5: 日傘の便利さ / The Convenience of Using a Parasol",
+            "Scene 6: 室内観光で涼しむ / Cool Off with Indoor Sightseeing",
+            "Scene 7: 夏バテ解消！食べ物で元気に / Beat Summer Fatigue: Energizing Foods",
+            "Scene 8: かき氷とパフェの楽しみ / Enjoying Kakigori and Parfait",
+            "Scene 9: 夏祭りの楽しみ方 / How to Enjoy a Summer Festival",
+            "Scene 10: 夏休みの体調管理 / Summer Break Health Management",
+            "Scene 11: 日本の涼み方 / Traditional Japanese Ways to Stay Cool",
+            "Scene 12: 避暑地の楽しみ方 / Enjoying Summer Resorts",
+            "Scene 13: 川遊びとラフティング体験 / River Play and Rafting Experience",
+            "Scene 14: デパ地下の散歩 / Exploring Department Store Basements",
+            "Scene 15: 夏の果物の楽しみ方 / Enjoying Summer Fruits in Japan",
+            "Scene 16: 海水浴の楽しみ方 / Enjoying the Beach: Tips for Sea Swimming",
+            "Scene 17: グランピング入門 / Introduction to Glamping",
+            "Scene 18: ナイトプールの魅力 / The Charm of Night Pools",
+            "Scene 19: 夏の怖い話と涼しさ / Summer Ghost Stories and Their Cooling Effect",
+            "Scene 20: 夏の旅計画と安全対策 / Summer Travel Planning and Safety Measures"
         ];
         const LANG_MAP = {
             'English': 'en', 'Vietnamese': 'vi', 'Indonesian': 'id', 'Thai': 'th', 'Korean': 'ko', 
@@ -275,16 +285,16 @@
 // =================================================================
 
         const quizDataKanji = [
-            { q: "「週末」の読み方は？", options: ["しゅうまつ", "しゅうまち", "しゅまつけ", "しゅうまつり"], answer: 0 },
-            { q: "「映画」の読み方は？", options: ["えいが", "えか", "えい画", "えいご"], answer: 0 },
-            { q: "「散歩」の読み方は？", options: ["さんぽ", "さんほ", "さんぽう", "じんぽ"], answer: 0 },
-            { q: "「公園」の読み方は？", options: ["こうえん", "こえん", "こうえい", "こんえん"], answer: 0 },
-            { q: "「買い物」の読み方は？", options: ["かいもの", "かいぶつ", "かわもの", "がいもの"], answer: 0 },
-            { q: "「料理」の読み方は？", options: ["りょうり", "りようり", "りょうち", "ろうり"], answer: 0 },
-            { q: "「趣味」の読み方は？", options: ["しゅみ", "しゅび", "すみ", "しゆみ"], answer: 0 },
-            { q: "「朝」の読み方は？", options: ["あさ", "ひる", "よる", "あした"], answer: 0 },
-            { q: "「旅行」の読み方は？", options: ["りょこう", "りよこう", "りょこうす", "ろこう"], answer: 0 },
-            { q: "「写真」の読み方は？", options: ["しゃしん", "しやしん", "しゃじん", "さしん"], answer: 0 }
+            { q: "「天気」の読み方は？", options: ["てんき", "でんき", "てんち", "てんかい"], answer: 0 },
+            { q: "「暑い」の読み方は？", options: ["あつい", "さむい", "たかい", "あかい"], answer: 0 },
+            { q: "「水」の読み方は？", options: ["みず", "すい", "かわ", "うみ"], answer: 0 },
+            { q: "「部屋」の読み方は？", options: ["へや", "へち", "べや", "ひろや"], answer: 0 },
+            { q: "「電気」の読み方は？", options: ["でんき", "てんき", "でんち", "でんしゃ"], answer: 0 },
+            { q: "「外」の読み方は？", options: ["そと", "がい", "うち", "あいだ"], answer: 0 },
+            { q: "「友達」の読み方は？", options: ["ともだち", "ゆうだち", "ともたち", "ゆうじん"], answer: 0 },
+            { q: "「夏」の読み方は？", options: ["なつ", "ふゆ", "あき", "はる"], answer: 0 },
+            { q: "「旅行」の読み方は？", options: ["りょこう", "りよこう", "ろこう", "りょこうす"], answer: 0 },
+            { q: "「食事」の読み方は？", options: ["しょくじ", "しょくち", "じきじ", "たべごと"], answer: 0 }
         ];
      // =================================================================
 // 3. 内容理解クイズデータの修正（quizDataCulture 配列）
@@ -295,37 +305,38 @@
 // =================================================================
 
       const quizDataCulture = [
-            { q: "<ruby>週末<rt>しゅうまつ</rt></ruby>によく<ruby>家<rt>いえ</rt></ruby>でなにをしますか？", options: ["<ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ます", "<ruby>野球<rt>やきゅう</rt></ruby>をします", "ピアノを<ruby>弾<rt>ひ</rt></ruby>きます", "<ruby>泳<rt>およ</rt></ruby>ぎに行きます"], answer: 0 },
-            { q: "どんな<ruby>映画<rt>えいが</rt></ruby>をよく<ruby>見<rt>み</rt></ruby>ますか？", options: ["<ruby>古<rt>ふる</rt></ruby>い<ruby>日本<rt>にほん</rt></ruby>のアニメ", "アメリカのホラー<ruby>映画<rt>えいが</rt></ruby>", "フランスのコメディ", "<ruby>新<rt>あたら</rt></ruby>しいアクション<ruby>映画<rt>えいが</rt></ruby>"], answer: 0 },
-            { q: "<ruby>自分<rt>じぶん</rt></ruby>でつくったカレーは なぜおいしいですか？", options: ["スパイスから<ruby>作<rt>つく</rt></ruby>りますから", "<ruby>高級<rt>こうきゅう</rt></ruby>なお<ruby>肉<rt>にく</rt></ruby>を<ruby>使<rt>つか</rt></ruby>いますから", "<ruby>甘<rt>あま</rt></ruby>い砂糖を<ruby>入<rt>い</rt></ruby>れますから", "<ruby>店<rt>みせ</rt></ruby>で<ruby>買<rt>か</rt></ruby>いましたから"], answer: 0 },
-            { q: "<ruby>駅<rt>えき</rt></ruby>の<ruby>近<rt>ちか</rt></ruby>くのイタリア<ruby>料理<rt>りょうり</rt></ruby>の<ruby>店<rt>みせ</rt></ruby>で なにが<ruby>有名<rt>ゆうめい</rt></ruby>ですか？", options: ["ワイン", "コーヒー", "ビール", "ジュース"], answer: 0 },
-            { q: "ふたりは <ruby>何曜日<rt>なんようび</rt></ruby>の<ruby>夜<rt>よる</rt></ruby>に レストランへ<ruby>行<rt>い</rt></ruby>きますか？", options: ["<ruby>土曜日<rt>どようび</rt></ruby>", "<ruby>金曜日<rt>きんようび</rt></ruby>", "<ruby>日曜日<rt>にちようび</rt></ruby>", "<ruby>月曜日<rt>げつようび</rt></ruby>"], answer: 0 },
-            { q: "カバンを<ruby>買<rt>か</rt></ruby>うとき、どんなカバンが<ruby>欲<rt>ほ</rt></ruby>しかったですか？", options: ["パソコンが<ruby>入<rt>はい</rt></ruby>るカバン", "<ruby>傘<rt>かさ</rt></ruby>だけが<ruby>入<rt>はい</rt></ruby>るカバン", "お<ruby>弁当<rt>べんとう</rt></ruby>だけが<ruby>入<rt>はい</rt></ruby>るカバン", "スマホだけが<ruby>入<rt>はい</rt></ruby>るカバン"], answer: 0 },
-            { q: "ナイロンのカバンは なぜ<ruby>便利<rt>べんり</rt></ruby>ですか？", options: ["<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>も<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>ですから", "とても<ruby>重<rt>おも</rt></ruby>いですから", "ポケットがありませんから", "<ruby>小<rt>ちい</rt></ruby>さすぎますから"], answer: 0 },
-            { q: "<ruby>毎朝<rt>まいあさ</rt></ruby> <ruby>何時<rt>なんじ</rt></ruby>に<ruby>起<rt>お</rt></ruby>きますか？", options: ["6<ruby>時<rt>じ</rt></ruby>", "8<ruby>時<rt>じ</rt></ruby>", "9<ruby>時<rt>じ</rt></ruby>", "10<ruby>時<rt>じ</rt></ruby>"], answer: 0 },
-            { q: "<ruby>北海道<rt>ほっかいどう</rt></ruby>へ なにで<ruby>行<rt>い</rt></ruby>きましたか？", options: ["<ruby>飛行機<rt>ひこうき</rt></ruby>", "<ruby>電車<rt>でんしゃ</rt></ruby>", "<ruby>車<rt>くるま</rt></ruby>", "バス"], answer: 0 },
-            { q: "<ruby>北海道<rt>ほっかいどう</rt></ruby>で なにがとてもおいしかったですか？", options: ["カニとイクラ", "ラーメンと餃子", "リンゴとミカン", "うどんと天ぷら"], answer: 0 }
+            { q: "<ruby>気温<rt>きおん</rt></ruby>が40<ruby>度<rt>ど</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>のことを<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。", options: ["<ruby>酷暑日<rt>こくしょび</rt></ruby>", "<ruby>真夏日<rt>まなつび</rt></ruby>", "<ruby>夏日<rt>なつび</rt></ruby>", "<ruby>冬日<rt>ふゆび</rt></ruby>"], answer: 0 },
+            { q: "<ruby>部屋<rt>へや</rt></ruby>を<ruby>涼<rt>すず</rt></ruby>しくするために、エアコンと<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>使<rt>つか</rt></ruby>うといいものは<ruby>何<rt>なに</rt></ruby>ですか。", options: ["<ruby>扇風機<rt>せんぷうき</rt></ruby>", "<ruby>冷蔵庫<rt>れいぞうこ</rt></ruby>", "<ruby>洗濯機<rt>せんたくき</rt></ruby>", "<ruby>掃除機<rt>そうじき</rt></ruby>"], answer: 0 },
+            { q: "<ruby>汗<rt>あせ</rt></ruby>をかいたとき、<ruby>水<rt>みず</rt></ruby>と<ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>食<rt>た</rt></ruby>べるといいものは<ruby>何<rt>なに</rt></ruby>ですか。", options: ["<ruby>塩飴<rt>しおあめ</rt></ruby>", "<ruby>砂糖<rt>さとう</rt></ruby>", "<ruby>煎餅<rt>せんべい</rt></ruby>", "クッキー"], answer: 0 },
+            { q: "カフェインが<ruby>入<rt>はい</rt></ruby>っていない、<ruby>夏<rt>なつ</rt></ruby>によく<ruby>飲<rt>の</rt></ruby>むお<ruby>茶<rt>ちゃ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。", options: ["<ruby>麦茶<rt>むぎちゃ</rt></ruby>", "<ruby>紅茶<rt>こうちゃ</rt></ruby>", "<ruby>烏龍茶<rt>うーろんちゃ</rt></ruby>", "<ruby>緑茶<rt>りょくちゃ</rt></ruby>"], answer: 0 },
+            { q: "<ruby>直射日光<rt>ちょくしゃにっこう</rt></ruby>を<ruby>遮<rt>さえぎ</rt></ruby>って<ruby>涼<rt>すず</rt></ruby>しく<ruby>歩<rt>ある</rt></ruby>くために<ruby>使<rt>つか</rt></ruby>う<ruby>傘<rt>かさ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。", options: ["<ruby>日傘<rt>ひがさ</rt></ruby>", "<ruby>雨傘<rt>あみがさ</rt></ruby>", "<ruby>長傘<rt>なががさ</rt></ruby>", "<ruby>折<rt>お</rt></ruby>りたたみ<ruby>傘<rt>がさ</rt></ruby>"], answer: 0 },
+            { q: "<ruby>暑<rt>あつ</rt></ruby>い<ruby>日<rt>ひ</rt></ruby>に<ruby>涼<rt>すず</rt></ruby>しく<ruby>作品<rt>さくひん</rt></ruby>を<ruby>見<rt>み</rt></ruby>ることができる<ruby>場所<rt>ばしょ</rt></ruby>はどこですか。", options: ["<ruby>美術館<rt>びじゅつかん</rt></ruby>", "<ruby>公園<rt>こうえん</rt></ruby>", "<ruby>山<rt>やま</rt></ruby>", "<ruby>屋上<rt>おくじょう</rt></ruby>"], answer: 0 },
+            { q: "<ruby>夏<rt>なつ</rt></ruby>バテ<ruby>予防<rt>よぼう</rt></ruby>に<ruby>有名<rt>ゆうめい</rt></ruby>な、<ruby>土用<rt>どよう</rt></ruby>の<ruby>丑<rt>うし</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>に<ruby>食<rt>た</rt></ruby>べる<ruby>魚<rt>さかな</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。", options: ["うなぎ", "<ruby>鮭<rt>さけ</rt></ruby>", "<ruby>鮪<rt>まぐろ</rt></ruby>", "<ruby>鯛<rt>たい</rt></ruby>"], answer: 0 },
+            { q: "<ruby>日本<rt>にほん</rt></ruby>の<ruby>夏<rt>なつ</rt></ruby>によく<ruby>食<rt>た</rt></ruby>べる、<ruby>氷<rt>こおり</rt></ruby>を<ruby>削<rt>けず</rt></ruby>った<ruby>冷<rt>つめ</rt></ruby>たいスイーツは<ruby>何<rt>なに</rt></ruby>ですか。", options: ["かき<ruby>氷<rt>ごおり</rt></ruby>", "<ruby>温<rt>あたた</rt></ruby>かいうどん", "<ruby>焼き芋<rt>やきいも</rt></ruby>", "<ruby>肉<rt>にく</rt></ruby>まん"], answer: 0 },
+            { q: "<ruby>夏祭り<rt>なつまつり</rt></ruby>の<ruby>屋台<rt>やたい</rt></ruby>で<ruby>金魚<rt>きんぎょ</rt></ruby>をすくう<ruby>紙<rt>かみ</rt></ruby>の<ruby>道具<rt>どうぐ</rt></ruby>を<ruby>何<rt>なに</rt></ruby>と<ruby>言<rt>い</rt></ruby>いますか。", options: ["ポイ", "スプーン", "<ruby>箸<rt>はし</rt></ruby>", "<ruby>皿<rt>さら</rt></ruby>"], answer: 0 },
+            { q: "<ruby>地面<rt>じめん</rt></ruby>に<ruby>水<rt>みず</rt></ruby>を<ruby>撒<rt>ま</rt></ruby>いて<ruby>暑<rt>あつ</rt></ruby>さをやわらげる<ruby>日本<rt>にほん</rt></ruby>の<ruby>伝統的<rt>でんとうてき</rt></ruby>な<ruby>知恵<rt>ちえ</rt></ruby>は<ruby>何<rt>なに</rt></ruby>ですか。", options: ["<ruby>打ち水<rt>うちみず</rt></ruby>", "<ruby>海水浴<rt>かいすいよく</rt></ruby>", "<ruby>洗車<rt>せんしゃ</rt></ruby>", "<ruby>水泳<rt>すいえい</rt></ruby>"], answer: 0 }
         ];
 
       const quizDataGrammar = [
-            { q: "よく<ruby>家<rt>いえ</rt></ruby> ____ <ruby>映画<rt>えいが</rt></ruby>を<ruby>見<rt>み</rt></ruby>ます。", options: ["で", "に", "へ", "を"], answer: 0 },
-            { q: "<ruby>映画<rt>えいが</rt></ruby>の<ruby>後<rt>あと</rt></ruby>は、いつもなに ____ しますか。", options: ["を", "が", "に", "で"], answer: 0 },
-            { q: "<ruby>駅<rt>えき</rt></ruby> ____ <ruby>近<rt>ちか</rt></ruby>くのイタリア<ruby>料理<rt>りょうり</rt></ruby>の<ruby>店<rt>みせ</rt></ruby>です。", options: ["の", "が", "を", "で"], answer: 0 },
-            { q: "じゃあ、今度<ruby>一緒<rt>いっしょ</rt></ruby>にその<ruby>店<rt>みせ</rt></ruby>へ ____ か。", options: ["<ruby>行<rt>い</rt></ruby>きません", "<ruby>行<rt>い</rt></ruby>きます", "<ruby>行<rt>い</rt></ruby>きました", "<ruby>行<rt>い</rt></ruby>きませんでした"], answer: 0 },
-            { q: "<ruby>仕事<rt>しごと</rt></ruby> ____ <ruby>使<rt>つか</rt></ruby>うカバンです。", options: ["で", "に", "へ", "から"], answer: 0 },
-            { q: "ペンのための<ruby>小<rt>ちい</rt></ruby>さなポケット ____ ありますよ。", options: ["も", "を", "へ", "から"], answer: 0 },
-            { q: "<ruby>会社<rt>かいしゃ</rt></ruby>まで<ruby>遠<rt>とお</rt></ruby>いですから、<ruby>早<rt>はや</rt></ruby>く____になりません。", options: ["<ruby>起<rt>お</rt></ruby>きなければ", "<ruby>起<rt>お</rt></ruby>きて", "<ruby>起<rt>お</rt></ruby>きない", "<ruby>起<rt>お</rt></ruby>きます"], answer: 0 },
-            { q: "<ruby>電車<rt>でんしゃ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>では いつもなに ____ していますか。", options: ["を", "が", "に", "へ"], answer: 0 },
-            { q: "<ruby>東京<rt>とうきょう</rt></ruby>から<ruby>飛行機<rt>ひこうき</rt></ruby> ____ 二時間くらいでした。", options: ["で", "に", "を", "へ"], answer: 0 },
-            { q: "<ruby>温泉<rt>おんせん</rt></ruby>に ____ 、ゆっくりしました。", options: ["<ruby>入<rt>はい</rt></ruby>って", "<ruby>入<rt>はい</rt></ruby>る", "<ruby>入<rt>はい</rt></ruby>り", "<ruby>入<rt>はい</rt></ruby>った"], answer: 0 }
+            { q: "<ruby>喉<rt>のど</rt></ruby>が<ruby>渇<rt>かわ</rt></ruby>く ____ に<ruby>飲<rt>の</rt></ruby>んでください。", options: ["<ruby>前<rt>まえ</rt></ruby>", "<ruby>後<rt>あと</rt></ruby>", "<ruby>時<rt>とき</rt></ruby>", "<ruby>中<rt>なか</rt></ruby>"], answer: 0 },
+            { q: "エアコンを<ruby>一緒<rt>いっしょ</rt></ruby>に ____ と<ruby>涼<rt>すず</rt></ruby>しくなります。", options: ["<ruby>使<rt>つか</rt></ruby>う", "<ruby>使<rt>つか</rt></ruby>い", "<ruby>使<rt>つか</rt></ruby>った", "<ruby>使<rt>つか</rt></ruby>わなくて"], answer: 0 },
+            { q: "<ruby>外<rt>そと</rt></ruby> ____ <ruby>歩<rt>ある</rt></ruby>くのは<ruby>大変<rt>たいへん</rt></ruby>ですね。", options: ["を", "に", "へ", "が"], answer: 0 },
+            { q: "カフェインが ____ いないから<ruby>好<rt>す</rt></ruby>きです。", options: ["<ruby>入<rt>はい</rt></ruby>って", "<ruby>入<rt>はい</rt></ruby>り", "<ruby>入<rt>はい</rt></ruby>る", "<ruby>入<rt>はい</rt></ruby>った"], answer: 0 },
+            { q: "<ruby>上野<rt>うえの</rt></ruby>の<ruby>美術館<rt>びじゅつかん</rt></ruby> ____ <ruby>行<rt>い</rt></ruby>きましょう。", options: ["に", "を", "で", "から"], answer: 0 },
+            { q: "<ruby>水<rt>みず</rt></ruby> ____ <ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>食<rt>た</rt></ruby>べると<ruby>良<rt>よ</rt></ruby>いです。", options: ["と", "に", "を", "で"], answer: 0 },
+            { q: "<ruby>暑<rt>あつ</rt></ruby>い<ruby>日<rt>ひ</rt></ruby>は<ruby>室内<rt>しつない</rt></ruby> ____ <ruby>良<rt>よ</rt></ruby>いですね。", options: ["が", "を", "へ", "より"], answer: 0 },
+            { q: "<ruby>友達<rt>ともだち</rt></ruby> ____ <ruby>一緒<rt>いっしょ</rt></ruby>に<ruby>泳<rt>およ</rt></ruby>ぎましょう。", options: ["と", "に", "を", "へ"], answer: 0 },
+            { q: "<ruby>体調<rt>たいちょう</rt></ruby>が ____ なったら すぐ<ruby>休<rt>やす</rt></ruby>んでください。", options: ["<ruby>悪<rt>わる</rt></ruby>く", "<ruby>悪<rt>わる</rt></ruby>い", "<ruby>悪<rt>わる</rt></ruby>くて", "<ruby>悪<rt>わる</rt></ruby>さ"], answer: 0 },
+            { q: "<ruby>気分<rt>きぶん</rt></ruby>が ____ とき<ruby>経口補水液<rt>けいこうほすいえき</rt></ruby>を<ruby>飲<rt>の</rt></ruby>みます。", options: ["<ruby>悪<rt>わる</rt></ruby>い", "<ruby>良<rt>よ</rt></ruby>い", "<ruby>嬉<rt>うれ</rt></ruby>しい", "<ruby>楽<rt>たの</rt></ruby>しい"], answer: 0 }
         ];
         let quizData = [];
 
         let scenes = [];
 
+
         async function parseData() {
             scenes = [];
-            for (let i = 1; i <= 10; i++) {
+            for (let i = 1; i <= 20; i++) {
                 try {
                     const response = await fetch(`scenes/Output_Job${i}/final_sentences.json`);
                     if (!response.ok) throw new Error(`Failed to fetch scene ${i}`);
@@ -752,8 +763,8 @@
         // ==========================================
         // 【YouTube 設定エリア】次回からはここを変更してください
         // ==========================================
-        const YOUTUBE_VIDEO_ID = 'm7rnJNvL4kA'; 
-       const sceneStartTimes = [10, 267, 553, 813, 1051, 1247, 1430, 1631, 1829, 2037];
+        const YOUTUBE_VIDEO_ID = '6AAnWFZRurg'; 
+       const sceneStartTimes = [10, 166, 294, 419, 530, 643, 745, 849, 948, 1064, 1172, 1292, 1387, 1489, 1582, 1678, 1770, 1863, 1953, 2053];
         // ==========================================
 
         let ytPlayer = null;
