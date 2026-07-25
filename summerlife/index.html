@@ -414,15 +414,9 @@
 
             let globalIdx = 0;
             scenes.forEach((scene, index) => {
-                const sceneNum = index + 1;
-                while (globalIdx < srtParsed.length) {
-                    const text = srtParsed[globalIdx].text;
-                    if (text.toLowerCase().includes(`scene ${sceneNum}`)) {
-                        globalIdx++; // タイトル行をスキップして最初のセリフへ
-                        break;
-                    }
-                    globalIdx++;
-                }
+                // Scene 1〜3 (index 0〜2) はタイトルと案内字幕等あわせて2ブロック分スキップ、Scene 4以降はタイトルのみ1ブロック分スキップ
+                const skipCount = (index < 3) ? 2 : 1;
+                globalIdx += skipCount;
                 
                 scene.lines.forEach(line => {
                     if (globalIdx < srtParsed.length) {
