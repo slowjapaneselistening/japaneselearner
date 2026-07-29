@@ -1,0 +1,784 @@
+
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テキストから一括画像生成 (16:9)</title>
+    <!-- JSZipライブラリは安全なCDNから読み込みます -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <style>
+        /* ==========================================================================
+           カスタムCSS (Tailwind CSSを使わずにデザインを再現)
+           ========================================================================== */
+        
+        /* 基本設定 */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f9fafb; /* bg-gray-50 */
+            color: #1f2937; /* text-gray-800 */
+            margin: 0;
+            padding: 24px;
+            line-height: 1.5;
+        }
+        * {
+            box-sizing: border-box;
+        }
+
+        /* 全体コンテナ */
+        .container {
+            max-width: 1024px;
+            margin: 0 auto;
+        }
+
+        /* ヘッダー */
+        .header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        .header h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #111827; /* text-gray-900 */
+            margin-bottom: 8px;
+        }
+        .header p {
+            color: #4b5563; /* text-gray-600 */
+            margin: 0;
+        }
+
+        /* コントロールパネル */
+        .panel {
+            background-color: #ffffff;
+            padding: 24px;
+            border-radius: 12px;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            border: 1px solid #e5e7eb; /* border-gray-200 */
+            margin-bottom: 32px;
+        }
+        .controls {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        @media (min-width: 768px) {
+            .controls {
+                flex-direction: row;
+                align-items: flex-end;
+            }
+        }
+        .file-input-group {
+            flex: 1;
+            width: 100%;
+        }
+        .file-input-group label {
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            color: #374151; /* text-gray-700 */
+            margin-bottom: 8px;
+        }
+        .file-input {
+            display: block;
+            width: 100%;
+            font-size: 14px;
+            color: #6b7280; /* text-gray-500 */
+            padding: 8px 12px;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            background-color: #f9fafb;
+            cursor: pointer;
+        }
+
+        /* テキストエリア用の調整（追加） */
+        textarea.file-input {
+            cursor: text;
+            resize: vertical;
+        }
+
+        /* ボタン */
+        .btn {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 24px;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.2s, opacity 0.2s;
+            color: #ffffff;
+            height: 44px;
+            white-space: nowrap;
+        }
+        .btn-primary {
+            background-color: #2563eb; /* bg-blue-600 */
+        }
+        .btn-primary:hover:not(:disabled) {
+            background-color: #1d4ed8; /* bg-blue-700 */
+        }
+        .btn-sparkle {
+            background: linear-gradient(135deg, #8b5cf6, #ec4899);
+        }
+        .btn-sparkle:hover:not(:disabled) {
+            background: linear-gradient(135deg, #7c3aed, #db2777);
+        }
+        .btn-success {
+            background-color: #16a34a; /* bg-green-600 */
+        }
+        .btn-success:hover:not(:disabled) {
+            background-color: #15803d; /* bg-green-700 */
+        }
+        .btn:disabled {
+            background-color: #9ca3af; /* bg-gray-400 */
+            cursor: not-allowed;
+            opacity: 0.8;
+        }
+
+        /* ステータスバー */
+        .status-bar {
+            margin-top: 16px;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            display: none; /* 初期は非表示 */
+            align-items: center;
+        }
+        .status-info {
+            background-color: #eff6ff; /* bg-blue-50 */
+            color: #1e40af; /* text-blue-800 */
+            display: flex;
+        }
+        .status-success {
+            background-color: #f0fdf4; /* bg-green-50 */
+            color: #166534; /* text-green-800 */
+            display: flex;
+        }
+        .status-error {
+            background-color: #fef2f2; /* bg-red-50 */
+            color: #991b1b; /* text-red-800 */
+            display: flex;
+        }
+
+        /* ローディングスピナー */
+        .loader {
+            border: 3px solid #e5e7eb;
+            border-top: 3px solid #3b82f6;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+        .loader-large {
+            width: 32px;
+            height: 32px;
+            margin-bottom: 16px;
+            margin-right: 0;
+            border-top-color: #3b82f6;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* ギャラリー (画像一覧) */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 24px;
+        }
+        @media (min-width: 640px) {
+            .gallery { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (min-width: 1024px) {
+            .gallery { grid-template-columns: repeat(3, 1fr); }
+        }
+
+        /* 画像カード */
+        .card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            border: 1px solid #e5e7eb;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        }
+        .card-header {
+            padding: 12px 16px;
+            background-color: #f9fafb;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .card-header h3 {
+            margin: 0;
+            font-size: 14px;
+            font-weight: 500;
+            color: #1f2937;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* 16:9 画像表示エリア */
+        .card-image-area {
+            width: 100%;
+            aspect-ratio: 16 / 9; /* 16:9サイズを強制 */
+            background-color: #f3f4f6;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            padding: 16px;
+            text-align: center;
+        }
+        .card-image-area img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* 枠に合わせてトリミング表示 */
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        /* プロンプトオーバーレイ (ホバー時にプロンプトを表示) */
+        .prompt-overlay {
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            padding: 16px;
+            color: #ffffff;
+            font-size: 12px;
+            text-align: center;
+            z-index: 10;
+        }
+        .card-image-area:hover .prompt-overlay {
+            opacity: 1;
+        }
+
+        .card-footer {
+            padding: 12px;
+            border-top: 1px solid #f3f4f6;
+            background-color: #ffffff;
+            margin-top: auto;
+        }
+        .download-link {
+            display: block;
+            width: 100%;
+            text-align: center;
+            background-color: #eff6ff;
+            color: #2563eb;
+            padding: 8px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            border: 1px solid #bfdbfe;
+            transition: background-color 0.2s;
+        }
+        .download-link:hover {
+            background-color: #dbeafe;
+        }
+
+        /* カード内のエラー・情報表示用テキスト */
+        .info-text { color: #6b7280; font-size: 14px; }
+        .error-text { color: #dc2626; font-size: 14px; font-weight: bold; margin-bottom: 4px; }
+        .error-desc { color: #ef4444; font-size: 12px; }
+        .card-header.error h3 { color: #991b1b; }
+        .bg-error { background-color: #fef2f2; }
+        .card-prompt-preview {
+            color: #9ca3af;
+            font-size: 12px;
+            margin-top: 8px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1>テキストファイルから一括画像生成</h1>
+            <p>テキストファイル（.txt）から16:9の画像を生成・一括ダウンロードします。</p>
+        </header>
+
+        <main>
+            <!-- コントロールパネル -->
+            <div class="panel">
+                <div class="controls" style="margin-bottom: 16px;">
+                    <div class="file-input-group">
+                        <label for="imageInput">ベース画像 (オプション/Image-to-Image) ※すべてのテキストプロンプトのベースになります</label>
+                        <input type="file" id="imageInput" accept="image/*" class="file-input">
+                    </div>
+                </div>
+                <div class="controls" style="margin-bottom: 16px;">
+                    <div class="file-input-group">
+                        <label for="globalPrompt">全体への追加指示 (オプション) ※各ファイルのプロンプト末尾に追加されます</label>
+                        <textarea id="globalPrompt" class="file-input" rows="2" placeholder="例: masterpiece, high quality, 4k, cinematic lighting..."></textarea>
+                    </div>
+                </div>
+                <div class="controls">
+                    <div class="file-input-group">
+                        <label for="fileInput">テキストファイルを選択 (複数選択可)</label>
+                        <input type="file" id="fileInput" multiple accept=".txt" class="file-input">
+                    </div>
+                    <button id="generateBtn" class="btn btn-primary">画像を生成</button>
+                    <button id="generateEnhancedBtn" class="btn btn-sparkle">✨ AIでプロンプトを拡張して生成</button>
+                    <button id="downloadZipBtn" class="btn btn-success" disabled>ZIPで一括保存</button>
+                </div>
+
+                <!-- ステータス表示 -->
+                <div id="statusContainer" class="status-bar">
+                    <div id="loader" class="loader"></div>
+                    <span id="statusText">待機中...</span>
+                </div>
+            </div>
+
+            <!-- ギャラリー -->
+            <div id="gallery" class="gallery">
+                <!-- 生成された画像カードがここに追加されます -->
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // API Keyは実行環境から提供されます
+        const apiKey = ""; 
+        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=${apiKey}`;
+
+        // DOM要素の取得
+        const globalPromptInput = document.getElementById('globalPrompt');
+        const imageInput = document.getElementById('imageInput');
+        const fileInput = document.getElementById('fileInput');
+        const generateBtn = document.getElementById('generateBtn');
+        const generateEnhancedBtn = document.getElementById('generateEnhancedBtn');
+        const downloadZipBtn = document.getElementById('downloadZipBtn');
+        const statusContainer = document.getElementById('statusContainer');
+        const statusText = document.getElementById('statusText');
+        const loader = document.getElementById('loader');
+        const gallery = document.getElementById('gallery');
+
+        let generatedZip = new JSZip();
+        let hasGeneratedImages = false;
+
+        // Gemini LLM API (テキスト生成用)
+        const geminiApiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+
+        /**
+         * プロンプトをGemini APIで詳細に拡張する関数
+         */
+        async function enhancePrompt(prompt) {
+            const delays = [1000, 2000, 4000, 8000, 16000];
+            let attempt = 0;
+
+            const payload = {
+                contents: [{ parts: [{ text: `以下の短いアイデアを、画像生成AI向けの非常に詳細で美しい英語のプロンプトに拡張してください。構図、光、スタイル、雰囲気などの詳細を含めてください。出力は英語のプロンプトのテキストのみとし、前置きなどは不要です。\n\nアイデア: ${prompt}` }] }],
+                systemInstruction: { parts: [{ text: "You are an expert prompt engineer for text-to-image models. Output ONLY the highly detailed English prompt." }] }
+            };
+
+            while (attempt < 5) {
+                try {
+                    const response = await fetch(geminiApiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+                    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                    const data = await response.json();
+                    
+                    if (data.candidates && data.candidates[0].content.parts[0].text) {
+                        return data.candidates[0].content.parts[0].text.trim();
+                    } else {
+                        throw new Error('Failed to parse Gemini response');
+                    }
+                } catch (error) {
+                    if (attempt === 4) return prompt; // 失敗時は元のプロンプトをそのまま使用
+                    await new Promise(resolve => setTimeout(resolve, delays[attempt]));
+                    attempt++;
+                }
+            }
+            return prompt;
+        }
+
+        /**
+         * 画像を16:9の中央クロップでトリミングする関数
+         * @param {string} base64ImageUrl 元画像のDataURL
+         * @returns {Promise<string>} 16:9にクロップされたDataURL
+         */
+        function cropImageTo16x9(base64ImageUrl) {
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                img.onload = () => {
+                    const canvas = document.createElement('canvas');
+                    const ctx = canvas.getContext('2d');
+
+                    // 元画像のサイズ
+                    const srcWidth = img.width;
+                    const srcHeight = img.height;
+
+                    // 16:9の計算
+                    let targetWidth, targetHeight, offsetX = 0, offsetY = 0;
+
+                    if (srcWidth / srcHeight > 16 / 9) {
+                        // 横長すぎる場合
+                        targetHeight = srcHeight;
+                        targetWidth = (srcHeight * 16) / 9;
+                        offsetX = (srcWidth - targetWidth) / 2;
+                    } else {
+                        // 縦長、または正方形の場合
+                        targetWidth = srcWidth;
+                        targetHeight = (srcWidth * 9) / 16;
+                        offsetY = (srcHeight - targetHeight) / 2;
+                    }
+
+                    // Canvasのサイズを16:9に設定
+                    canvas.width = targetWidth;
+                    canvas.height = targetHeight;
+
+                    // 画像を描画（中央切り抜き）
+                    ctx.drawImage(img, offsetX, offsetY, targetWidth, targetHeight, 0, 0, targetWidth, targetHeight);
+
+                    // クロップ後の画像をDataURLとして返す
+                    resolve(canvas.toDataURL('image/png'));
+                };
+                img.onerror = reject;
+                img.src = base64ImageUrl;
+            });
+        }
+
+        // 生成ボタンクリック時の処理 (共通化)
+        async function startGeneration(useEnhancement = false) {
+            const files = fileInput.files;
+            if (files.length === 0) {
+                alert('プロンプトが書かれたテキストファイルを選択してください。');
+                return;
+            }
+
+            // ベース画像が選択されている場合はBase64に変換する
+            let base64BaseImage = null;
+            let mimeTypeBaseImage = null;
+            if (imageInput.files && imageInput.files.length > 0) {
+                const imgFile = imageInput.files[0];
+                mimeTypeBaseImage = imgFile.type;
+                base64BaseImage = await new Promise((resolve, reject) => {
+                    const reader = new FileReader();
+                    reader.onload = () => resolve(reader.result.split(',')[1]);
+                    reader.onerror = reject;
+                    reader.readAsDataURL(imgFile);
+                });
+            }
+
+            // UIと変数の初期化
+            gallery.innerHTML = '';
+            generatedZip = new JSZip();
+            hasGeneratedImages = false;
+            downloadZipBtn.disabled = true;
+            generateBtn.disabled = true;
+            generateEnhancedBtn.disabled = true;
+            
+            statusContainer.className = 'status-bar status-info';
+            loader.style.display = 'block';
+
+            let successCount = 0;
+            let errorCount = 0;
+
+            // 選択された各ファイルを順番に処理
+            for (let i = 0; i < files.length; i++) {
+                const file = files[i];
+                statusText.textContent = `生成中... (${i + 1}/${files.length}) : ${file.name}`;
+                
+                let promptText = "";
+                try {
+                    // テキストファイルの内容を読み込む
+                    promptText = await file.text();
+                    if (!promptText.trim()) {
+                        throw new Error("ファイルが空です");
+                    }
+
+                    // ★全体への追加指示を取得して結合
+                    const globalPrompt = globalPromptInput.value.trim();
+                    if (globalPrompt) {
+                        promptText = promptText.trim() + ", " + globalPrompt;
+                    }
+
+                } catch (e) {
+                    createErrorCard(file.name, "ファイルの読み込みに失敗しました");
+                    errorCount++;
+                    continue;
+                }
+
+                // 読み込み中のプレースホルダー（枠）を作成
+                const cardId = `card-${Date.now()}-${i}`;
+                createLoadingCard(cardId, file.name, promptText);
+
+                try {
+                    let finalPrompt = promptText;
+                    
+                    // LLMによるプロンプトの自動拡張機能
+                    if (useEnhancement) {
+                        statusText.textContent = `✨ プロンプト拡張中... (${i + 1}/${files.length}) : ${file.name}`;
+                        finalPrompt = await enhancePrompt(promptText);
+                        
+                        // UIのプレビューテキストを拡張されたプロンプトに更新
+                        const previewEl = document.querySelector(`#${cardId} .card-prompt-preview`);
+                        if (previewEl) previewEl.textContent = `✨ ${finalPrompt}`;
+                        
+                        statusText.textContent = `画像生成中... (${i + 1}/${files.length}) : ${file.name}`;
+                    }
+
+                    // APIを呼び出して画像を生成 (正方形の可能性あり)
+                    const originalImageUrl = await generateImage(finalPrompt, base64BaseImage, mimeTypeBaseImage);
+                    
+                    // キャンバスを使用して画像を16:9にクロップ（中央切り抜き）
+                    const base64ImageUrl = await cropImageTo16x9(originalImageUrl);
+                    
+                    // 拡張子を除去して ".png" を付与 (例: sample.txt -> sample.png)
+                    const imageFileName = file.name.replace(/\.[^/.]+$/, "") + ".png"; 
+                    
+                    // UIを生成された画像に更新
+                    updateCardWithImage(cardId, imageFileName, base64ImageUrl, finalPrompt);
+                    
+                    // DataURLからBase64部分のみを抽出してZIPに追加
+                    const base64Data = base64ImageUrl.split(',')[1];
+                    generatedZip.file(imageFileName, base64Data, {base64: true});
+                    
+                    successCount++;
+                    hasGeneratedImages = true;
+                } catch (error) {
+                    updateCardWithError(cardId, file.name, error.message);
+                    errorCount++;
+                }
+            }
+
+            // すべての処理が完了した時の後処理
+            loader.style.display = 'none';
+            generateBtn.disabled = false;
+            generateEnhancedBtn.disabled = false;
+            
+            if (hasGeneratedImages) {
+                downloadZipBtn.disabled = false;
+                statusContainer.className = 'status-bar status-success';
+                statusText.textContent = `完了: ${successCount}件成功, ${errorCount}件失敗`;
+            } else {
+                statusContainer.className = 'status-bar status-error';
+                statusText.textContent = `処理終了: 画像を生成できませんでした（失敗 ${errorCount}件）`;
+            }
+        }
+
+        generateBtn.addEventListener('click', () => startGeneration(false));
+        generateEnhancedBtn.addEventListener('click', () => startGeneration(true));
+
+        // ZIPダウンロードボタンクリック時の処理
+        downloadZipBtn.addEventListener('click', async () => {
+            if (!hasGeneratedImages) return;
+            
+            statusContainer.className = 'status-bar status-info';
+            statusText.textContent = "ZIPファイルを準備中...";
+            loader.style.display = 'block';
+            downloadZipBtn.disabled = true;
+
+            try {
+                // JSZipで圧縮処理を実行
+                const content = await generatedZip.generateAsync({type: "blob"});
+                
+                // ダウンロード用のリンクを生成してクリック
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(content);
+                link.download = "generated_images.zip";
+                link.click();
+                URL.revokeObjectURL(link.href);
+                
+                statusContainer.className = 'status-bar status-success';
+                statusText.textContent = "ZIPファイルのダウンロードを開始しました";
+            } catch (error) {
+                alert("ZIPの作成に失敗しました");
+                statusContainer.className = 'status-bar status-error';
+                statusText.textContent = "エラー: ZIP作成失敗";
+            } finally {
+                loader.style.display = 'none';
+                downloadZipBtn.disabled = false;
+            }
+        });
+
+        /**
+         * 画像生成API呼び出し (指数バックオフ実装)
+         * @param {string} prompt 元のプロンプト
+         * @param {string} baseImage ベース画像のBase64データ(Image-to-Image用)
+         * @param {string} mimeType ベース画像のMIMEタイプ
+         */
+        async function generateImage(prompt, baseImage = null, mimeType = null) {
+            // 最大5回のリトライ。待機時間: 1s, 2s, 4s, 8s, 16s
+            const delays = [1000, 2000, 4000, 8000, 16000];
+            let attempt = 0;
+
+            // ★ 16:9を強制するための指示文をプロンプトの末尾に自動追加
+            const modifiedPrompt = prompt.trim() + ", 16:9 aspect ratio, thumbnail size, landscape";
+
+            let fetchUrl = apiUrl;
+            let payload = {};
+
+            if (baseImage) {
+                // Image-to-Imageモデルの仕様に合わせたリクエストを作成
+                fetchUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image-preview:generateContent?key=${apiKey}`;
+                payload = {
+                    contents: [
+                        {
+                            role: "user",
+                            parts: [
+                                { text: modifiedPrompt },
+                                { inlineData: { mimeType: mimeType || "image/png", data: baseImage } }
+                            ]
+                        }
+                    ],
+                    generationConfig: { responseModalities: ["TEXT", "IMAGE"] }
+                };
+            } else {
+                // Text-to-Imageモデルの仕様に合わせたリクエストを作成
+                payload = {
+                    instances: { prompt: modifiedPrompt },
+                    // APIパラメータとしても16:9を指定
+                    parameters: { sampleCount: 1, aspectRatio: "16:9" }
+                };
+            }
+
+            while (attempt < 5) {
+                try {
+                    const response = await fetch(fetchUrl, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(payload)
+                    });
+
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+
+                    const data = await response.json();
+                    
+                    if (baseImage) {
+                        // Image-to-Imageのレスポンス解析
+                        const b64 = data.candidates?.[0]?.content?.parts?.find(p => p.inlineData)?.inlineData?.data;
+                        if (b64) {
+                            return `data:image/png;base64,${b64}`;
+                        } else {
+                            throw new Error('APIレスポンスに画像データが含まれていません');
+                        }
+                    } else {
+                        // Text-to-Imageのレスポンス解析
+                        if (data.predictions && data.predictions[0] && data.predictions[0].bytesBase64Encoded) {
+                            return `data:image/png;base64,${data.predictions[0].bytesBase64Encoded}`;
+                        } else {
+                            throw new Error('APIレスポンスに画像データが含まれていません');
+                        }
+                    }
+
+                } catch (error) {
+                    if (attempt === 4) {
+                        throw new Error('画像の生成に失敗しました。時間をおいて再度お試しください。');
+                    }
+                    // 指数バックオフ待機
+                    await new Promise(resolve => setTimeout(resolve, delays[attempt]));
+                    attempt++;
+                }
+            }
+        }
+
+        // =====================================================================
+        // UI構築用ヘルパー関数群
+        // =====================================================================
+
+        function createLoadingCard(cardId, fileName, promptText) {
+            const card = document.createElement('div');
+            card.id = cardId;
+            card.className = 'card';
+            card.innerHTML = `
+                <div class="card-header">
+                    <h3 title="${escapeHtml(fileName)}">${escapeHtml(fileName)}</h3>
+                </div>
+                <div class="card-image-area">
+                    <div class="loader loader-large"></div>
+                    <span class="info-text">画像生成中...</span>
+                    <p class="card-prompt-preview">${escapeHtml(promptText)}</p>
+                </div>
+            `;
+            gallery.appendChild(card);
+        }
+
+        function updateCardWithImage(cardId, imageFileName, imageUrl, promptText) {
+            const card = document.getElementById(cardId);
+            if (!card) return;
+            
+            card.innerHTML = `
+                <div class="card-header">
+                    <h3 title="${escapeHtml(imageFileName)}">${escapeHtml(imageFileName)}</h3>
+                </div>
+                <div class="card-image-area">
+                    <img src="${imageUrl}" alt="${escapeHtml(promptText)}">
+                    <div class="prompt-overlay">
+                        ${escapeHtml(promptText)}
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <a href="${imageUrl}" download="${imageFileName}" class="download-link">
+                        個別ダウンロード
+                    </a>
+                </div>
+            `;
+        }
+
+        function updateCardWithError(cardId, fileName, errorMessage) {
+            const card = document.getElementById(cardId);
+            if (!card) return;
+            
+            card.innerHTML = `
+                <div class="card-header error">
+                    <h3 title="${escapeHtml(fileName)}">${escapeHtml(fileName)}</h3>
+                </div>
+                <div class="card-image-area bg-error">
+                    <div class="error-text">エラーが発生しました</div>
+                    <div class="error-desc">${escapeHtml(errorMessage)}</div>
+                </div>
+            `;
+        }
+
+        function createErrorCard(fileName, errorMessage) {
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.innerHTML = `
+                <div class="card-header error">
+                    <h3 title="${escapeHtml(fileName)}">${escapeHtml(fileName)}</h3>
+                </div>
+                <div class="card-image-area bg-error">
+                    <div class="error-text">読み込みエラー</div>
+                    <div class="error-desc">${escapeHtml(errorMessage)}</div>
+                </div>
+            `;
+            gallery.appendChild(card);
+        }
+
+        function escapeHtml(unsafe) {
+            return (unsafe || "").replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;");
+        }
+    </script>
+</body>
+</html>
