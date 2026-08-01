@@ -1,0 +1,3215 @@
+1
+00:00:00,000 --> 00:00:07,709
+Worum geht es im heutigen Video? Eine Zusammenfassung der N4-Grammatik!
+
+2
+00:00:07,709 --> 00:00:09,209
+Szene 1: Zugverspätung wegen Schnee
+
+3
+00:00:09,209 --> 00:00:11,642
+Du bist spät dran.
+
+4
+00:00:11,665 --> 00:00:14,065
+Entschuldigung.
+
+5
+00:00:14,088 --> 00:00:16,354
+Was ist passiert?
+
+6
+00:00:16,377 --> 00:00:19,611
+Der Zug hatte Verspätung.
+
+7
+00:00:19,634 --> 00:00:21,767
+Ach so.
+
+8
+00:00:21,790 --> 00:00:23,590
+Ja.
+
+9
+00:00:23,613 --> 00:00:25,580
+Gab es einen Unfall?
+
+10
+00:00:25,603 --> 00:00:29,822
+Nein, es hat geschneit.
+
+11
+00:00:29,845 --> 00:00:32,011
+Schnee?
+
+12
+00:00:32,034 --> 00:00:36,316
+Ja, es hat stark geschneit.
+
+13
+00:00:36,340 --> 00:00:38,907
+Das war bestimmt anstrengend.
+
+14
+00:00:38,929 --> 00:00:43,463
+Ja, es war sehr kalt.
+
+15
+00:00:43,486 --> 00:00:46,021
+Hast du dich erkältet?
+
+16
+00:00:46,044 --> 00:00:50,090
+Nein, alles gut.
+
+17
+00:00:50,114 --> 00:00:52,119
+Zum Glück.
+
+18
+00:00:52,142 --> 00:00:54,799
+Entschuldige, dass ich dich warten ließ.
+
+19
+00:00:54,822 --> 00:00:57,389
+Mach dir keine Gedanken.
+
+20
+00:00:57,412 --> 00:00:59,283
+Danke.
+
+21
+00:00:59,307 --> 00:01:03,240
+Hat die Besprechung schon angefangen?
+
+22
+00:01:03,263 --> 00:01:06,297
+Nein, noch nicht.
+
+23
+00:01:06,320 --> 00:01:08,526
+Gut so.
+
+24
+00:01:08,549 --> 00:01:11,916
+Ja, da bin ich erleichtert.
+
+25
+00:01:11,939 --> 00:01:15,217
+Hast du die Unterlagen mitgebracht?
+
+26
+00:01:15,240 --> 00:01:18,440
+Oh, die habe ich vergessen.
+
+27
+00:01:18,463 --> 00:01:21,676
+Was, du hast sie vergessen?
+
+28
+00:01:21,700 --> 00:01:25,512
+Ja, ich war in Eile.
+
+29
+00:01:25,536 --> 00:01:28,070
+Fährst du zurück, um sie zu holen?
+
+30
+00:01:28,094 --> 00:01:31,929
+Nein, ich habe die Daten hier.
+
+31
+00:01:31,953 --> 00:01:34,442
+Auf dem Laptop?
+
+32
+00:01:34,465 --> 00:01:37,923
+Ja, kein Problem.
+
+33
+00:01:37,947 --> 00:01:46,956
+Das Skript zum heutigen Video kannst du in der Beschreibung und im Top-Kommentar herunterladen. Bitte hinterlasse vor dem Download einen Kommentar!
+
+34
+00:01:46,956 --> 00:01:48,456
+Szene 2: Der Ausblick aus meinem neuen Zimmer
+
+35
+00:01:48,456 --> 00:01:52,223
+Ist das hier dein neues Zimmer?
+
+36
+00:01:52,246 --> 00:01:55,979
+Ja, genau.
+
+37
+00:01:56,002 --> 00:01:58,202
+Das ist aber geräumig!
+
+38
+00:01:58,225 --> 00:02:02,392
+Ja, ich kann allein hier wohnen.
+
+39
+00:02:02,415 --> 00:02:05,188
+Das Fenster ist riesig.
+
+40
+00:02:05,211 --> 00:02:09,064
+Von dort sieht man die Berge.
+
+41
+00:02:09,088 --> 00:02:11,654
+Stimmt!
+
+42
+00:02:11,677 --> 00:02:14,644
+Man kann sogar den Fuji sehen.
+
+43
+00:02:14,668 --> 00:02:16,944
+Wow, das ist toll!
+
+44
+00:02:16,967 --> 00:02:19,734
+Sieht man auch das Meer?
+
+45
+00:02:19,757 --> 00:02:23,690
+Nein, das Meer sieht man nicht.
+
+46
+00:02:23,713 --> 00:02:26,246
+Ach so.
+
+47
+00:02:26,269 --> 00:02:30,236
+Sieht man nachts die Sterne?
+
+48
+00:02:30,259 --> 00:02:34,059
+Ja, ganz viele!
+
+49
+00:02:34,082 --> 00:02:36,482
+Das ist ja ein Traumzimmer!
+
+50
+00:02:36,505 --> 00:02:40,872
+Aber es ist ein bisschen laut.
+
+51
+00:02:40,895 --> 00:02:43,061
+Wieso denn?
+
+52
+00:02:43,084 --> 00:02:46,618
+Ich höre ein Auto.
+
+53
+00:02:46,641 --> 00:02:49,774
+Ja, das höre ich auch.
+
+54
+00:02:49,797 --> 00:02:53,269
+Hörst du auch den Zug?
+
+55
+00:02:53,293 --> 00:02:56,660
+Nein, den höre ich nicht.
+
+56
+00:02:56,683 --> 00:02:59,483
+Das ist gut.
+
+57
+00:02:59,506 --> 00:03:03,594
+Kann man hier in der Nähe einkaufen?
+
+58
+00:03:03,617 --> 00:03:07,350
+Ja, es gibt einen Supermarkt.
+
+59
+00:03:07,373 --> 00:03:09,827
+Kann man zu Fuß hingehen?
+
+60
+00:03:09,851 --> 00:03:13,684
+Ja, in fünf Minuten ist man da.
+
+61
+00:03:13,707 --> 00:03:15,787
+Das ist praktisch.
+
+62
+00:03:15,810 --> 00:03:18,853
+Man kann hier auch gut kochen.
+
+63
+00:03:18,877 --> 00:03:21,643
+Die Küche ist auch geräumig.
+
+64
+00:03:21,666 --> 00:03:25,466
+Ja, sie ist sehr benutzerfreundlich.
+
+65
+00:03:25,489 --> 00:03:32,594
+Den Link zur Website für die Wiederholung des heutigen Videos findest du in der Beschreibung und im Top-Kommentar. *Die Website kann ohne Vorankündigung gelöscht werden.
+
+66
+00:03:32,594 --> 00:03:34,094
+Szene 3: Stressige Werktage und entspannte Wochenenden
+
+67
+00:03:34,094 --> 00:03:37,428
+Diese Woche ist ganz schön stressig, oder?
+
+68
+00:03:37,451 --> 00:03:41,251
+Ja, wirklich sehr stressig.
+
+69
+00:03:41,275 --> 00:03:44,367
+Machst du jeden Tag Überstunden?
+
+70
+00:03:44,390 --> 00:03:47,676
+Ja, jeden Tag.
+
+71
+00:03:47,700 --> 00:03:49,758
+Das ist hart.
+
+72
+00:03:49,782 --> 00:03:53,982
+Ich arbeite sogar beim Essen.
+
+73
+00:03:54,005 --> 00:03:56,844
+Das ist nicht gut.
+
+74
+00:03:56,868 --> 00:03:58,961
+Ich weiß.
+
+75
+00:03:58,984 --> 00:04:02,069
+Arbeitest du wenigstens mit Musik?
+
+76
+00:04:02,093 --> 00:04:04,534
+Nein, ohne.
+
+77
+00:04:04,557 --> 00:04:07,324
+Hast du am Wochenende frei?
+
+78
+00:04:07,347 --> 00:04:10,114
+Ja, ich habe vor, mich auszuruhen.
+
+79
+00:04:10,136 --> 00:04:12,203
+Was machst du dann?
+
+80
+00:04:12,226 --> 00:04:16,026
+Ich trinke etwas und schaue Filme.
+
+81
+00:04:16,049 --> 00:04:17,690
+Das klingt gut.
+
+82
+00:04:17,713 --> 00:04:20,886
+Ich möchte in dieses Restaurant gehen.
+
+83
+00:04:20,910 --> 00:04:23,510
+Das vor dem Bahnhof?
+
+84
+00:04:23,533 --> 00:04:27,333
+Genau, da steht immer eine Schlange.
+
+85
+00:04:27,356 --> 00:04:29,807
+Das ist aber beliebt!
+
+86
+00:04:29,830 --> 00:04:34,263
+Ja, es ist günstig und lecker.
+
+87
+00:04:34,286 --> 00:04:36,491
+Da würde ich auch gerne hin.
+
+88
+00:04:36,514 --> 00:04:39,247
+Wollen wir zusammen gehen?
+
+89
+00:04:39,270 --> 00:04:42,937
+Ich würde gerne, aber ich habe keine Zeit.
+
+90
+00:04:42,960 --> 00:04:44,793
+Wieso denn?
+
+91
+00:04:44,816 --> 00:04:48,894
+Ich muss putzen und waschen.
+
+92
+00:04:48,918 --> 00:04:51,407
+Du bist aber beschäftigt.
+
+93
+00:04:51,431 --> 00:04:55,049
+Ja, ich habe viel zu tun.
+
+94
+00:04:55,072 --> 00:04:57,524
+Lass uns ein anderes Mal gehen.
+
+95
+00:04:57,548 --> 00:04:59,800
+Ja, unbedingt.
+
+96
+00:04:59,823 --> 00:05:02,043
+Ich freue mich schon darauf.
+
+97
+00:05:02,066 --> 00:05:03,566
+Szene 4: Umgang mit vergessenen Sachen
+
+98
+00:05:03,566 --> 00:05:06,766
+Oh nein, das gibt’s doch nicht!
+
+99
+00:05:06,789 --> 00:05:09,231
+Was ist los?
+
+100
+00:05:09,254 --> 00:05:12,687
+Ich habe meine Tasche vergessen.
+
+101
+00:05:12,710 --> 00:05:15,593
+Wo hast du sie vergessen?
+
+102
+00:05:15,617 --> 00:05:19,819
+Ich habe sie im Zug liegen lassen.
+
+103
+00:05:19,843 --> 00:05:22,776
+Das ist ja schlimm.
+
+104
+00:05:22,799 --> 00:05:25,466
+Was sollen wir tun?
+
+105
+00:05:25,489 --> 00:05:28,622
+Fragen wir den Bahnmitarbeiter.
+
+106
+00:05:28,645 --> 00:05:31,411
+Ja, das machen wir.
+
+107
+00:05:31,434 --> 00:05:33,812
+Was für eine Tasche ist es?
+
+108
+00:05:33,836 --> 00:05:36,735
+Eine schwarze Tasche.
+
+109
+00:05:36,758 --> 00:05:40,392
+Was ist darin?
+
+110
+00:05:40,415 --> 00:05:44,381
+Mein Portemonnaie ist drin.
+
+111
+00:05:44,404 --> 00:05:46,890
+Ist auch ein Schlüssel drin?
+
+112
+00:05:46,914 --> 00:05:49,914
+Ja, der ist auch drin.
+
+113
+00:05:49,937 --> 00:05:53,170
+Haben Sie sie auf dem Sitz liegen lassen?
+
+114
+00:05:53,193 --> 00:05:57,246
+Nein, ich habe sie auf das Gepäcknetz gelegt.
+
+115
+00:05:57,269 --> 00:06:00,962
+Sie haben sie also auf dem Gepäcknetz liegen lassen?
+
+116
+00:06:00,985 --> 00:06:04,919
+Ja, ich bin einfach ausgestiegen und habe sie vergessen.
+
+117
+00:06:04,942 --> 00:06:08,175
+Die wird sicher schnell gefunden.
+
+118
+00:06:08,198 --> 00:06:10,467
+Ich mache mir Sorgen.
+
+119
+00:06:10,491 --> 00:06:14,180
+Der Bahnmitarbeiter ruft gerade an.
+
+120
+00:06:14,203 --> 00:06:16,886
+Hat man sie gefunden?
+
+121
+00:06:16,909 --> 00:06:20,182
+Man sagt, die Tasche sei da.
+
+122
+00:06:20,206 --> 00:06:22,382
+Zum Glück.
+
+123
+00:06:22,406 --> 00:06:25,047
+Da bin ich aber erleichtert.
+
+124
+00:06:25,070 --> 00:06:28,108
+Ich gehe sie jetzt abholen.
+
+125
+00:06:28,131 --> 00:06:32,377
+Oh je, haben Sie auch Ihr Ticket verloren?
+
+126
+00:06:32,400 --> 00:06:36,251
+Ach, das Ticket ist auch weg.
+
+127
+00:06:36,275 --> 00:06:40,242
+Schauen Sie nochmal gründlich in Ihren Taschen nach.
+
+128
+00:06:40,265 --> 00:06:41,765
+Szene 5: Partyvorbereitungen
+
+129
+00:06:41,765 --> 00:06:44,810
+Die Party beginnt bald.
+
+130
+00:06:44,833 --> 00:06:48,033
+Ja, sind die Vorbereitungen fertig?
+
+131
+00:06:48,056 --> 00:06:51,323
+Die Getränke sind schon kaltgestellt.
+
+132
+00:06:51,345 --> 00:06:54,012
+Haben Sie auch Alkohol besorgt?
+
+133
+00:06:54,035 --> 00:06:57,612
+Ja, der ist im Kühlschrank.
+
+134
+00:06:57,636 --> 00:07:00,203
+Was ist mit dem Essen?
+
+135
+00:07:00,225 --> 00:07:03,425
+Das Essen ist schon vorbereitet.
+
+136
+00:07:03,448 --> 00:07:06,482
+Ist die Wohnung schon sauber gemacht?
+
+137
+00:07:06,505 --> 00:07:09,671
+Ja, sie ist schon blitzblank.
+
+138
+00:07:09,694 --> 00:07:12,071
+Wie sieht es mit der Deko aus?
+
+139
+00:07:12,095 --> 00:07:15,362
+An der Wand hängen schon Blumen.
+
+140
+00:07:15,385 --> 00:07:17,955
+Sind die Stühle schon aufgestellt?
+
+141
+00:07:17,979 --> 00:07:20,612
+Nein, noch nicht.
+
+142
+00:07:20,635 --> 00:07:23,902
+Dann stelle ich sie schon mal hin.
+
+143
+00:07:23,925 --> 00:07:25,591
+Danke.
+
+144
+00:07:25,614 --> 00:07:28,248
+Was ist mit dem Tisch?
+
+145
+00:07:28,271 --> 00:07:30,481
+Wischen Sie ihn bitte ab.
+
+146
+00:07:30,504 --> 00:07:32,238
+Alles klar.
+
+147
+00:07:32,261 --> 00:07:35,461
+Ich stelle schon mal die Teller hin.
+
+148
+00:07:35,484 --> 00:07:38,417
+Soll ich auch die Stäbchen bereitstellen?
+
+149
+00:07:38,440 --> 00:07:41,245
+Ja, bitte stellen Sie sie hin.
+
+150
+00:07:41,269 --> 00:07:44,072
+Ich lege schon mal Musik auf.
+
+151
+00:07:44,095 --> 00:07:46,828
+Am besten etwas Ruhiges.
+
+152
+00:07:46,851 --> 00:07:49,518
+Verstanden, ich suche etwas Passendes raus.
+
+153
+00:07:49,542 --> 00:07:52,542
+Sollen wir die Fenster öffnen?
+
+154
+00:07:52,565 --> 00:07:55,332
+Nein, lassen Sie es bitte geschlossen.
+
+155
+00:07:55,355 --> 00:07:57,488
+Wieso denn?
+
+156
+00:07:57,511 --> 00:08:00,118
+Es ist heute kalt.
+
+157
+00:08:00,142 --> 00:08:01,475
+Stimmt.
+
+158
+00:08:01,498 --> 00:08:04,587
+Damit sind die Vorbereitungen abgeschlossen, oder?
+
+159
+00:08:04,611 --> 00:08:06,111
+Szene 6: Reisepläne / Travel Plans
+
+160
+00:08:06,111 --> 00:08:09,199
+Ab morgen haben wir frei, nicht wahr?
+
+161
+00:08:09,223 --> 00:08:13,790
+Ja, ich plane, irgendwohin zu fahren.
+
+162
+00:08:13,813 --> 00:08:16,613
+Wohin möchtest du denn?
+
+163
+00:08:16,636 --> 00:08:19,769
+Ich habe vor, nach Kyoto zu fahren.
+
+164
+00:08:19,792 --> 00:08:22,004
+Das klingt gut.
+
+165
+00:08:22,028 --> 00:08:25,468
+Ich möchte in ein Onsen gehen.
+
+166
+00:08:25,491 --> 00:08:28,503
+Mit wem fährst du?
+
+167
+00:08:28,526 --> 00:08:31,611
+Ich fahre mit meiner Familie.
+
+168
+00:08:31,635 --> 00:08:35,035
+Hast du schon ein Hotel gebucht?
+
+169
+00:08:35,058 --> 00:08:38,492
+Ja, ich habe letzte Woche gebucht.
+
+170
+00:08:38,515 --> 00:08:41,925
+Fährst du mit dem Auto?
+
+171
+00:08:41,948 --> 00:08:46,593
+Nein, ich nehme den Shinkansen.
+
+172
+00:08:46,616 --> 00:08:49,074
+Hast du schon die Tickets gekauft?
+
+173
+00:08:49,097 --> 00:08:53,031
+Nein, noch nicht.
+
+174
+00:08:53,054 --> 00:08:56,487
+Du solltest sie bald kaufen.
+
+175
+00:08:56,510 --> 00:08:59,845
+Ich denke, ich kaufe sie morgen.
+
+176
+00:08:59,869 --> 00:09:03,069
+Reicht es, wenn ich sie jetzt kaufe?
+
+177
+00:09:03,092 --> 00:09:06,533
+Ich glaube schon, dass es noch klappt.
+
+178
+00:09:06,556 --> 00:09:09,996
+Ich plane, ans Meer zu fahren.
+
+179
+00:09:10,019 --> 00:09:14,076
+Ans Meer? Hast du vor zu schwimmen?
+
+180
+00:09:14,100 --> 00:09:18,466
+Nein, ich habe nicht vor zu schwimmen.
+
+181
+00:09:18,489 --> 00:09:21,856
+Was hast du dann vor?
+
+182
+00:09:21,879 --> 00:09:25,679
+Ich möchte Fotos vom Meer machen.
+
+183
+00:09:25,702 --> 00:09:28,237
+Mit wem fährst du?
+
+184
+00:09:28,260 --> 00:09:31,627
+Ich fahre allein.
+
+185
+00:09:31,650 --> 00:09:35,130
+Pass auf dich auf und hab viel Spaß!
+
+186
+00:09:35,153 --> 00:09:36,822
+Danke.
+
+187
+00:09:36,845 --> 00:09:40,245
+Ich bringe dir ein Souvenir aus Kyoto mit.
+
+188
+00:09:40,268 --> 00:09:43,834
+Oh, darauf freue ich mich schon!
+
+189
+00:09:43,857 --> 00:09:47,391
+Ja, freu dich schon mal darauf!
+
+190
+00:09:47,414 --> 00:09:48,914
+Szene 7: Krankheitssymptome und Maßnahmen / Symptoms of Illness and How to Respond
+
+191
+00:09:48,914 --> 00:09:51,847
+Du siehst blass aus.
+
+192
+00:09:51,870 --> 00:09:55,003
+Ich habe ein bisschen Kopfschmerzen.
+
+193
+00:09:55,026 --> 00:09:58,260
+Vielleicht hast du Fieber.
+
+194
+00:09:58,284 --> 00:10:00,684
+Kann sein.
+
+195
+00:10:00,707 --> 00:10:04,508
+Du solltest heute früher nach Hause gehen.
+
+196
+00:10:04,531 --> 00:10:07,898
+Aber ich habe noch Arbeit.
+
+197
+00:10:07,921 --> 00:10:10,988
+Du solltest dich nicht überanstrengen.
+
+198
+00:10:11,011 --> 00:10:14,978
+Morgen ist außerdem eine wichtige Besprechung...
+
+199
+00:10:15,001 --> 00:10:18,569
+Es ist besser, du ruhst dich aus, bevor es schlimmer wird.
+
+200
+00:10:18,592 --> 00:10:22,259
+Sollte ich erstmal Medikamente nehmen?
+
+201
+00:10:22,282 --> 00:10:25,551
+Ja, das wäre besser.
+
+202
+00:10:25,575 --> 00:10:29,115
+Sollte ich auch zum Arzt gehen?
+
+203
+00:10:29,138 --> 00:10:32,138
+Ja, das wäre wohl das Beste.
+
+204
+00:10:32,161 --> 00:10:35,494
+Dann gehe ich am Nachmittag zum Arzt.
+
+205
+00:10:35,517 --> 00:10:37,695
+Das ist eine gute Idee.
+
+206
+00:10:37,719 --> 00:10:41,286
+Draußen könnte es schneien.
+
+207
+00:10:41,309 --> 00:10:44,075
+Am Nachmittag wird es noch kälter werden, nicht wahr?
+
+208
+00:10:44,098 --> 00:10:47,665
+Ja, es fühlt sich wirklich sehr kalt an.
+
+209
+00:10:47,688 --> 00:10:50,722
+Sie sollten sich warm anziehen.
+
+210
+00:10:50,745 --> 00:10:53,879
+Am besten ziehen Sie einen dicken Mantel an.
+
+211
+00:10:53,902 --> 00:10:56,592
+Ja, das wäre wohl das Beste.
+
+212
+00:10:56,615 --> 00:10:59,983
+Soll ich lieber mit dem Taxi zum Krankenhaus fahren?
+
+213
+00:11:00,006 --> 00:11:03,058
+Vielleicht wäre die Bahn besser.
+
+214
+00:11:03,081 --> 00:11:05,415
+Warum denn?
+
+215
+00:11:05,438 --> 00:11:08,921
+Weil die Straßen wegen Schnee vielleicht verstopft sind.
+
+216
+00:11:08,944 --> 00:11:10,420
+Alles klar.
+
+217
+00:11:10,443 --> 00:11:13,057
+Dann passen Sie gut auf sich auf.
+
+218
+00:11:13,080 --> 00:11:14,813
+Danke.
+
+219
+00:11:14,837 --> 00:11:18,514
+Sie sollten heute Nacht gut ausschlafen.
+
+220
+00:11:18,537 --> 00:11:20,937
+Ja, das machen wir.
+
+221
+00:11:20,960 --> 00:11:22,460
+Szene 8: Schilder lesen / Japanische Schilder verstehen
+
+222
+00:11:22,460 --> 00:11:25,533
+Schauen Sie mal auf dieses Schild dort.
+
+223
+00:11:25,557 --> 00:11:28,652
+Was steht da?
+
+224
+00:11:28,676 --> 00:11:31,849
+Da steht „Stopp“.
+
+225
+00:11:31,872 --> 00:11:34,039
+Was bedeutet das?
+
+226
+00:11:34,062 --> 00:11:38,628
+Das bedeutet, dass Sie hier anhalten sollen.
+
+227
+00:11:38,651 --> 00:11:40,298
+Alles klar.
+
+228
+00:11:40,322 --> 00:11:43,995
+Da drüben steht auch etwas, oder?
+
+229
+00:11:44,019 --> 00:11:47,419
+Da steht „Betreten verboten“.
+
+230
+00:11:47,442 --> 00:11:51,777
+Das heißt, man darf nicht hineingehen.
+
+231
+00:11:51,800 --> 00:11:53,838
+Das ist aber streng.
+
+232
+00:11:53,862 --> 00:11:58,195
+Ja, in der Fabrik ist es gefährlich.
+
+233
+00:11:58,218 --> 00:12:02,430
+Man hat mir gesagt, ich soll einen Helm aufsetzen.
+
+234
+00:12:02,454 --> 00:12:04,854
+Wer hat das gesagt?
+
+235
+00:12:04,877 --> 00:12:07,692
+Die Leute aus der Fabrik.
+
+236
+00:12:07,715 --> 00:12:11,401
+Das heißt also, ich soll meinen Kopf schützen?
+
+237
+00:12:11,425 --> 00:12:14,258
+Ja, das denke ich schon.
+
+238
+00:12:14,281 --> 00:12:17,756
+Was bedeutet dieses rote Zeichen dort?
+
+239
+00:12:17,779 --> 00:12:21,383
+Da steht „Nicht anfassen“.
+
+240
+00:12:21,407 --> 00:12:25,941
+Das bedeutet also, ich soll die Maschine nicht berühren, richtig?
+
+241
+00:12:25,963 --> 00:12:28,597
+Ja, genau.
+
+242
+00:12:28,620 --> 00:12:32,310
+Hier steht „Rauchen verboten“.
+
+243
+00:12:32,333 --> 00:12:36,766
+Das heißt, man darf hier nicht rauchen.
+
+244
+00:12:36,789 --> 00:12:39,598
+Hier darf man also nicht rauchen, stimmt's?
+
+245
+00:12:39,622 --> 00:12:43,468
+Genau, rauchen wir draußen im Raucherbereich.
+
+246
+00:12:43,491 --> 00:12:48,291
+Ach ja, der Abteilungsleiter hat gesagt, ich soll kommen.
+
+247
+00:12:48,314 --> 00:12:52,363
+Das heißt, ich soll ins Büro kommen, oder?
+
+248
+00:12:52,386 --> 00:12:55,964
+Er hat auch gesagt, ich soll mich beeilen.
+
+249
+00:12:55,988 --> 00:12:59,468
+Das bedeutet also, ich soll schnell zurückkommen, richtig?
+
+250
+00:12:59,491 --> 00:13:02,225
+Ja, beeilen wir uns.
+
+251
+00:13:02,248 --> 00:13:04,414
+Alles klar.
+
+252
+00:13:04,437 --> 00:13:05,937
+Szene 9: Beim Kuchenbacken helfen / Hilfe beim Kuchenbacken
+
+253
+00:13:05,937 --> 00:13:09,373
+Jetzt backen wir einen Kuchen.
+
+254
+00:13:09,397 --> 00:13:11,164
+Das klingt gut.
+
+255
+00:13:11,187 --> 00:13:15,063
+Wir folgen genau dem Rezeptbuch.
+
+256
+00:13:15,086 --> 00:13:17,501
+Ist das nicht schwierig?
+
+257
+00:13:17,525 --> 00:13:22,491
+Wenn wir genau das tun, was der Lehrer im Video sagt, wird es schon klappen.
+
+258
+00:13:22,514 --> 00:13:25,685
+Soll ich helfen?
+
+259
+00:13:25,709 --> 00:13:29,842
+Ja, bitte waschen Sie sich erst die Hände und helfen Sie dann.
+
+260
+00:13:29,865 --> 00:13:32,080
+Ich habe sie schon gewaschen.
+
+261
+00:13:32,103 --> 00:13:36,958
+Dann geben Sie bitte die Eier in die Schüssel und verrühren sie.
+
+262
+00:13:36,982 --> 00:13:39,115
+So, ist das in Ordnung?
+
+263
+00:13:39,138 --> 00:13:44,938
+Ja, dann geben wir jetzt den Zucker dazu und verrühren alles noch einmal.
+
+264
+00:13:44,961 --> 00:13:47,228
+Möchten Sie Milch hinzufügen?
+
+265
+00:13:47,251 --> 00:13:51,451
+Nein, ich mache es ohne Milch.
+
+266
+00:13:51,475 --> 00:13:54,213
+Gibt man Wasser dazu?
+
+267
+00:13:54,236 --> 00:13:58,134
+Ja, ich gebe etwas Wasser hinzu.
+
+268
+00:13:58,157 --> 00:14:00,853
+Was kommt als Nächstes?
+
+269
+00:14:00,876 --> 00:14:04,410
+Nach dem Backen im Ofen lasse ich es abkühlen.
+
+270
+00:14:04,433 --> 00:14:07,366
+Wie lange backt man es ungefähr?
+
+271
+00:14:07,389 --> 00:14:10,522
+Ich backe es genau nach der Anleitung.
+
+272
+00:14:10,545 --> 00:14:13,722
+Da steht, dreißig Minuten.
+
+273
+00:14:13,746 --> 00:14:17,146
+Dann backen wir es dreißig Minuten.
+
+274
+00:14:17,168 --> 00:14:19,508
+Soll ich Sahne auftragen?
+
+275
+00:14:19,531 --> 00:14:23,582
+Nein, wir essen es ohne Sahne.
+
+276
+00:14:23,606 --> 00:14:26,139
+Das sieht lecker aus!
+
+277
+00:14:26,162 --> 00:14:29,796
+Nach dem Abkühlen im Kühlschrank essen wir es.
+
+278
+00:14:29,819 --> 00:14:32,312
+Ich kann es kaum erwarten!
+
+279
+00:14:32,336 --> 00:14:36,022
+Nach dem Aufräumen mache ich uns Tee.
+
+280
+00:14:36,045 --> 00:14:38,292
+Danke.
+
+281
+00:14:38,316 --> 00:14:42,049
+Trinken Sie den Tee ohne Zucker?
+
+282
+00:14:42,072 --> 00:14:45,272
+Ja, ich trinke ihn ohne Zucker.
+
+283
+00:14:45,295 --> 00:14:46,795
+Szene 10: Souvenirs kaufen – So geht’s
+
+284
+00:14:46,795 --> 00:14:50,028
+Ich möchte ein Souvenir kaufen.
+
+285
+00:14:50,051 --> 00:14:54,131
+Für Souvenirs ist dieser Laden perfekt!
+
+286
+00:14:54,155 --> 00:14:56,522
+Ist es von hier weit entfernt?
+
+287
+00:14:56,545 --> 00:15:00,712
+Nein, zu Fuß sind es nur fünf Minuten.
+
+288
+00:15:00,735 --> 00:15:03,368
+Was schmeckt dort am besten?
+
+289
+00:15:03,391 --> 00:15:07,641
+Die Kekse sind besonders lecker!
+
+290
+00:15:07,665 --> 00:15:10,432
+Sind die Preise günstig?
+
+291
+00:15:10,455 --> 00:15:14,055
+Wenn es günstig ist, kaufst du dann mehr?
+
+292
+00:15:14,077 --> 00:15:18,211
+Ja, wenn es günstig ist, möchte ich mehr kaufen.
+
+293
+00:15:18,234 --> 00:15:20,967
+Ich glaube, die Preise sind fair.
+
+294
+00:15:20,990 --> 00:15:25,071
+Im Laden sehen wir es dann genau.
+
+295
+00:15:25,095 --> 00:15:29,138
+Ja, wenn wir jetzt gehen, hat es noch geöffnet.
+
+296
+00:15:29,161 --> 00:15:32,628
+Falls es regnet, gehen wir nicht.
+
+297
+00:15:32,651 --> 00:15:35,784
+Aber jetzt regnet es doch gar nicht!
+
+298
+00:15:35,807 --> 00:15:38,424
+Wenn die Sonne scheint, gehen wir.
+
+299
+00:15:38,447 --> 00:15:41,182
+Dann lass uns gehen!
+
+300
+00:15:41,206 --> 00:15:44,775
+Kann man dort mit Karte zahlen?
+
+301
+00:15:44,799 --> 00:15:48,599
+Ja, mit Karte ist kein Problem.
+
+302
+00:15:48,623 --> 00:15:52,640
+Falls ich kein Bargeld habe, zahle ich mit Karte.
+
+303
+00:15:52,663 --> 00:15:54,802
+Das ist eine gute Idee.
+
+304
+00:15:54,826 --> 00:15:59,492
+Falls du den Weg nicht kennst, sag Bescheid.
+
+305
+00:15:59,515 --> 00:16:03,049
+Mit der Handy-Karte findet man es leicht.
+
+306
+00:16:03,072 --> 00:16:05,682
+Handys sind wirklich praktisch!
+
+307
+00:16:05,706 --> 00:16:08,839
+Wenn man sucht, findet man es sofort.
+
+308
+00:16:08,862 --> 00:16:12,873
+Wenn wir Zeit haben, möchte ich noch ins Café.
+
+309
+00:16:12,897 --> 00:16:16,630
+Für Kaffee ist dieses Café besonders gut!
+
+310
+00:16:16,653 --> 00:16:19,720
+Wenn wir schnell gehen, bekommen wir noch einen Platz.
+
+311
+00:16:19,743 --> 00:16:23,176
+Ja, dann beeilen wir uns etwas.
+
+312
+00:16:23,199 --> 00:16:25,894
+Wenn wir laufen, schaffen wir es noch.
+
+313
+00:16:25,917 --> 00:16:29,051
+Pass auf, dass du nicht stolperst!
+
+314
+00:16:29,074 --> 00:16:30,574
+Szene 11: Gesunde Gewohnheiten entwickeln
+
+315
+00:16:30,574 --> 00:16:34,540
+Gehen Sie in letzter Zeit ins Fitnessstudio?
+
+316
+00:16:34,563 --> 00:16:38,297
+Ja, ich gehe hin, um abzunehmen.
+
+317
+00:16:38,320 --> 00:16:41,453
+Laufen Sie jeden Tag?
+
+318
+00:16:41,476 --> 00:16:45,543
+Ja, ich kann jetzt viel länger laufen.
+
+319
+00:16:45,566 --> 00:16:47,734
+Das ist großartig!
+
+320
+00:16:47,757 --> 00:16:51,195
+Früher konnte ich überhaupt nicht laufen.
+
+321
+00:16:51,219 --> 00:16:54,997
+Versuchen Sie, täglich Sport zu treiben?
+
+322
+00:16:55,020 --> 00:16:59,154
+Ja, ich versuche, so viel wie möglich zu laufen.
+
+323
+00:16:59,177 --> 00:17:01,423
+Wie sieht es mit Ihrer Ernährung aus?
+
+324
+00:17:01,446 --> 00:17:05,079
+Ich versuche, viel Gemüse zu essen.
+
+325
+00:17:05,102 --> 00:17:07,869
+Essen Sie keine Süßigkeiten?
+
+326
+00:17:07,892 --> 00:17:10,892
+Ich versuche, sie zu vermeiden.
+
+327
+00:17:10,915 --> 00:17:14,248
+Ich habe in letzter Zeit zugenommen.
+
+328
+00:17:14,271 --> 00:17:17,005
+Das kommt davon, dass Sie keinen Sport treiben.
+
+329
+00:17:17,028 --> 00:17:20,314
+Ich kann meine alten Klamotten nicht mehr anziehen.
+
+330
+00:17:20,338 --> 00:17:23,804
+Versuchen Sie, ein bisschen Sport zu machen.
+
+331
+00:17:23,827 --> 00:17:26,708
+Aber ich habe keine Zeit.
+
+332
+00:17:26,731 --> 00:17:30,065
+Sie könnten einfach früher aufstehen.
+
+333
+00:17:30,088 --> 00:17:33,945
+Sind Sie mittlerweile in der Lage, früh aufzustehen?
+
+334
+00:17:33,968 --> 00:17:37,934
+Ja, ich stehe um sechs Uhr auf.
+
+335
+00:17:37,957 --> 00:17:41,176
+Dann werde ich mich auch bemühen.
+
+336
+00:17:41,200 --> 00:17:44,478
+Haben Sie im Fitnessstudio schwimmen gelernt?
+
+337
+00:17:44,501 --> 00:17:48,114
+Nein, ich kann noch nicht schwimmen.
+
+338
+00:17:48,138 --> 00:17:51,622
+Geben Sie nicht auf und üben Sie weiter.
+
+339
+00:17:51,645 --> 00:17:55,379
+Ja, ich werde versuchen, ins Schwimmbad zu gehen.
+
+340
+00:17:55,402 --> 00:17:58,884
+Achten Sie darauf, sich nicht zu erkälten.
+
+341
+00:17:58,907 --> 00:18:01,974
+Ja, das werde ich tun.
+
+342
+00:18:01,997 --> 00:18:05,855
+Ich versuche, viel Wasser zu trinken.
+
+343
+00:18:05,878 --> 00:18:08,478
+Das ist auch gut für den Körper.
+
+344
+00:18:08,501 --> 00:18:11,668
+Dadurch bin ich gesünder geworden.
+
+345
+00:18:11,691 --> 00:18:13,191
+Szene 12: Ein schrecklicher Tag
+
+346
+00:18:13,191 --> 00:18:17,568
+Heute war ein schrecklicher Tag.
+
+347
+00:18:17,591 --> 00:18:19,839
+Was ist passiert?
+
+348
+00:18:19,863 --> 00:18:24,672
+Morgens wurde mir in der vollen U-Bahn auf den Fuß getreten.
+
+349
+00:18:24,695 --> 00:18:27,662
+Das tut bestimmt weh.
+
+350
+00:18:27,685 --> 00:18:31,565
+Ja, es hat sehr wehgetan.
+
+351
+00:18:31,589 --> 00:18:34,481
+Ist noch etwas passiert?
+
+352
+00:18:34,504 --> 00:18:37,537
+Ich wurde von hinten geschubst.
+
+353
+00:18:37,560 --> 00:18:39,993
+Das war bestimmt anstrengend.
+
+354
+00:18:40,016 --> 00:18:44,416
+Im Büro hat mich der Chef angeschrien.
+
+355
+00:18:44,439 --> 00:18:47,406
+Haben Sie einen Fehler gemacht?
+
+356
+00:18:47,429 --> 00:18:51,696
+Ja, ich habe Unterlagen verwechselt.
+
+357
+00:18:51,719 --> 00:18:54,286
+Hat der Chef Sie zu sich gerufen?
+
+358
+00:18:54,309 --> 00:18:57,842
+Ja, ich wurde ins Büro gerufen.
+
+359
+00:18:57,865 --> 00:19:00,498
+Hat er Sie streng ermahnt?
+
+360
+00:19:00,521 --> 00:19:04,555
+Ja, ich habe viel Kritik einstecken müssen.
+
+361
+00:19:04,578 --> 00:19:07,460
+Das ist wirklich deprimierend.
+
+362
+00:19:07,483 --> 00:19:11,616
+Auf dem Heimweg hat es angefangen zu regnen.
+
+363
+00:19:11,639 --> 00:19:14,606
+Hatten Sie keinen Schirm dabei?
+
+364
+00:19:14,629 --> 00:19:18,162
+Mein Schirm wurde gestohlen.
+
+365
+00:19:18,185 --> 00:19:21,118
+Was, der wurde gestohlen?
+
+366
+00:19:21,141 --> 00:19:26,151
+Ja, mein Schirm wurde im Regal des Convenience Stores gestohlen.
+
+367
+00:19:26,175 --> 00:19:30,375
+Und dann ist mir auch noch das Handy runtergefallen und kaputtgegangen.
+
+368
+00:19:30,398 --> 00:19:33,249
+Hat dich jemand angerempelt?
+
+369
+00:19:33,272 --> 00:19:37,406
+Ja, von einem Fremden angerempelt worden.
+
+370
+00:19:37,429 --> 00:19:41,362
+Das war wirklich ein schlimmer Tag, oder?
+
+371
+00:19:41,385 --> 00:19:42,885
+Szene 13: Die Freude am Sport / The Joy of Exercising
+
+372
+00:19:42,885 --> 00:19:46,218
+Heute ist aber schönes Wetter, nicht wahr?
+
+373
+00:19:46,241 --> 00:19:50,641
+Draußen Sport zu treiben, fühlt sich einfach toll an.
+
+374
+00:19:50,664 --> 00:19:52,231
+Stimmt.
+
+375
+00:19:52,254 --> 00:19:56,821
+Ich liebe es, Tennis zu spielen.
+
+376
+00:19:56,844 --> 00:19:59,448
+Ich auch.
+
+377
+00:19:59,471 --> 00:20:03,804
+Am Wochenende Sport zu treiben, ist gut für den Körper.
+
+378
+00:20:03,827 --> 00:20:08,694
+Schauen Sie gerne Sport, Herr Tanaka?
+
+379
+00:20:08,717 --> 00:20:10,517
+Ja.
+
+380
+00:20:10,540 --> 00:20:14,797
+Aber am liebsten mache ich selbst Sport.
+
+381
+00:20:14,820 --> 00:20:20,020
+Laufen fällt mir etwas schwer.
+
+382
+00:20:20,043 --> 00:20:22,443
+Das ist doch nicht schlimm.
+
+383
+00:20:22,467 --> 00:20:25,600
+Hauptsache, wir haben Spaß zusammen.
+
+384
+00:20:25,623 --> 00:20:28,707
+Oh nein, das gibt’s doch nicht!
+
+385
+00:20:28,730 --> 00:20:31,218
+Was ist passiert?
+
+386
+00:20:31,241 --> 00:20:35,376
+Ich habe vergessen, meine Tennisschuhe mitzubringen.
+
+387
+00:20:35,400 --> 00:20:37,200
+Äh?
+
+388
+00:20:37,223 --> 00:20:40,461
+Du hast sie vergessen mitzunehmen?
+
+389
+00:20:40,485 --> 00:20:42,136
+Ja.
+
+390
+00:20:42,160 --> 00:20:45,407
+Ich habe sie nicht in die Tasche gepackt.
+
+391
+00:20:45,430 --> 00:20:49,076
+Ohne Schuhe wird das schwierig.
+
+392
+00:20:49,099 --> 00:20:54,032
+Wussten Sie, dass man am Empfang Schuhe leihen kann?
+
+393
+00:20:54,055 --> 00:20:55,630
+Ja.
+
+394
+00:20:55,654 --> 00:20:58,854
+Ja, das weiß ich.
+
+395
+00:20:58,877 --> 00:21:01,010
+Zum Glück.
+
+396
+00:21:01,033 --> 00:21:03,930
+Ich gehe sie gleich ausleihen.
+
+397
+00:21:03,954 --> 00:21:08,588
+Weißt du, dass Suzuki heute kommt?
+
+398
+00:21:08,611 --> 00:21:12,905
+Nein, das wusste ich nicht.
+
+399
+00:21:12,928 --> 00:21:16,622
+Er wird gleich hier sein.
+
+400
+00:21:16,645 --> 00:21:20,533
+Suzuki spielt sehr gut Tennis.
+
+401
+00:21:20,556 --> 00:21:21,956
+Ja.
+
+402
+00:21:21,979 --> 00:21:27,448
+Suzuki ist der Beste von uns.
+
+403
+00:21:27,471 --> 00:21:28,914
+Stimmt.
+
+404
+00:21:28,938 --> 00:21:33,505
+Mit ihm zu trainieren, macht mich etwas nervös.
+
+405
+00:21:33,529 --> 00:21:38,896
+Wusstest du, dass Suzuki sich einen neuen Schläger gekauft hat?
+
+406
+00:21:38,919 --> 00:21:42,339
+Nein, das wusste ich nicht.
+
+407
+00:21:42,362 --> 00:21:47,795
+Ich freue mich schon, ihn heute damit spielen zu sehen.
+
+408
+00:21:47,818 --> 00:21:50,785
+Das wird bestimmt spannend.
+
+409
+00:21:50,808 --> 00:21:53,866
+Ich kann es kaum erwarten, es zu sehen.
+
+410
+00:21:53,889 --> 00:21:58,668
+Dann geh schnell die Schuhe ausleihen.
+
+411
+00:21:58,692 --> 00:22:00,325
+Ja.
+
+412
+00:22:00,348 --> 00:22:04,681
+Ich passe auf, dass ich am Empfang das Geld nicht vergesse.
+
+413
+00:22:04,704 --> 00:22:08,602
+Wir spielen auf diesem Platz dort.
+
+414
+00:22:08,626 --> 00:22:10,603
+Alles klar.
+
+415
+00:22:10,627 --> 00:22:12,760
+Ich komme gleich.
+
+416
+00:22:12,783 --> 00:22:16,462
+Lauf nicht so schnell, das ist gefährlich.
+
+417
+00:22:16,486 --> 00:22:18,219
+Ja.
+
+418
+00:22:18,242 --> 00:22:20,642
+Ich passe auf.
+
+419
+00:22:20,665 --> 00:22:22,165
+Szene 14: Verspätung und Entschuldigung / Apologies and Communication for Being Late
+
+420
+00:22:22,165 --> 00:22:24,565
+Entschuldigen Sie bitte die Verspätung.
+
+421
+00:22:24,588 --> 00:22:28,040
+Wir haben schon die ganze Zeit gewartet.
+
+422
+00:22:28,063 --> 00:22:31,711
+Der Bus ist nicht gekommen, deshalb habe ich mich verspätet.
+
+423
+00:22:31,734 --> 00:22:34,301
+Gab es einen Unfall?
+
+424
+00:22:34,324 --> 00:22:38,857
+Die Straßen waren so voll, es ging kaum vorwärts.
+
+425
+00:22:38,880 --> 00:22:42,280
+Ich habe mir Sorgen gemacht und angerufen.
+
+426
+00:22:42,303 --> 00:22:47,472
+Mein Handy war leer, deshalb konnte ich nicht rangehen.
+
+427
+00:22:47,496 --> 00:22:50,463
+Das ist ja ärgerlich.
+
+428
+00:22:50,486 --> 00:22:53,943
+Ja, ich war total in Panik.
+
+429
+00:22:53,966 --> 00:22:58,703
+Ich war etwas sauer, weil du dich nicht gemeldet hast.
+
+430
+00:22:58,727 --> 00:23:01,760
+Es tut mir wirklich leid.
+
+431
+00:23:01,783 --> 00:23:05,229
+Ich bin müde, lass uns eine kleine Pause machen.
+
+432
+00:23:05,253 --> 00:23:09,147
+Das Café dort ist frei, lass uns reingehen.
+
+433
+00:23:09,170 --> 00:23:11,857
+Ich hätte Lust auf einen Kaffee.
+
+434
+00:23:11,881 --> 00:23:16,315
+Ich übernehme das, bestell dir einfach, was du möchtest.
+
+435
+00:23:16,338 --> 00:23:18,271
+Wirklich?
+
+436
+00:23:18,294 --> 00:23:21,542
+Weil ich zu spät gekommen bin, lade ich dich ein.
+
+437
+00:23:21,565 --> 00:23:24,740
+Dann nehme ich das Angebot gerne an.
+
+438
+00:23:24,763 --> 00:23:29,297
+Draußen war es kalt, da wäre etwas Warmes gut.
+
+439
+00:23:29,319 --> 00:23:33,453
+Es hat plötzlich angefangen zu regnen, jetzt ist mir kalt.
+
+440
+00:23:33,477 --> 00:23:37,371
+Ich bin nicht nass geworden, das ist gut.
+
+441
+00:23:37,395 --> 00:23:41,399
+Ich hatte einen Schirm dabei, also war alles okay.
+
+442
+00:23:41,423 --> 00:23:44,223
+Passt die Filmzeit noch?
+
+443
+00:23:44,246 --> 00:23:48,179
+Die ist schon vorbei, wir können ihn nicht mehr sehen.
+
+444
+00:23:48,202 --> 00:23:50,645
+Das tut mir wirklich leid.
+
+445
+00:23:50,669 --> 00:23:54,302
+Es gibt noch eine spätere Vorstellung, kein Problem.
+
+446
+00:23:54,325 --> 00:23:56,302
+Da bin ich erleichtert.
+
+447
+00:23:56,325 --> 00:23:59,892
+Wir haben noch Zeit, also lass uns in Ruhe bleiben.
+
+448
+00:23:59,915 --> 00:24:01,648
+Stimmt.
+
+449
+00:24:01,671 --> 00:24:06,005
+Ich bin nicht mehr böse, also mach dir keine Gedanken.
+
+450
+00:24:06,028 --> 00:24:07,528
+Szene 15: Die Schärfe testen
+
+451
+00:24:07,528 --> 00:24:11,217
+Schmeckt dieses Gericht?
+
+452
+00:24:11,240 --> 00:24:16,313
+Ob es schmeckt, probiere ich erst mal.
+
+453
+00:24:16,336 --> 00:24:19,376
+Sieht aber scharf aus, oder?
+
+454
+00:24:19,400 --> 00:24:24,053
+Fragen wir mal den Kellner, wie scharf es ist.
+
+455
+00:24:24,077 --> 00:24:28,564
+Der Kellner meinte, es sei etwas scharf.
+
+456
+00:24:28,588 --> 00:24:33,154
+Ob wir das essen können, ist die Frage.
+
+457
+00:24:33,177 --> 00:24:36,511
+Dann probiere ich mal ein bisschen.
+
+458
+00:24:36,534 --> 00:24:38,312
+Und, wie ist es?
+
+459
+00:24:38,335 --> 00:24:41,193
+Das ist ganz schön scharf!
+
+460
+00:24:41,216 --> 00:24:43,787
+Soll ich dir Wasser holen?
+
+461
+00:24:43,811 --> 00:24:46,780
+Ja, ich trinke mal was.
+
+462
+00:24:46,803 --> 00:24:48,677
+Alles okay?
+
+463
+00:24:48,701 --> 00:24:53,381
+Es ist scharf, aber ich probiere noch einen Bissen.
+
+464
+00:24:53,404 --> 00:24:55,873
+Magst du scharfes Essen?
+
+465
+00:24:55,896 --> 00:25:00,663
+Ich weiß selbst nicht so genau, ob ich es mag.
+
+466
+00:25:00,686 --> 00:25:03,519
+Du schwitzt ja!
+
+467
+00:25:03,542 --> 00:25:07,792
+Es ist so scharf, ich weiß nicht mal, ob es heiß ist.
+
+468
+00:25:07,816 --> 00:25:10,624
+Übertreib es nicht, okay?
+
+469
+00:25:10,647 --> 00:25:15,825
+Weißt du übrigens, was für Fleisch das hier ist?
+
+470
+00:25:15,849 --> 00:25:20,082
+Sollen wir den Kellner fragen, ob es Schwein ist?
+
+471
+00:25:20,105 --> 00:25:24,238
+Von der Konsistenz her könnte es Huhn sein.
+
+472
+00:25:24,261 --> 00:25:27,742
+Schauen wir mal, ob es auf der Speisekarte steht.
+
+473
+00:25:27,766 --> 00:25:31,333
+Hier steht nichts.
+
+474
+00:25:31,356 --> 00:25:35,489
+Es schmeckt so gut, da ist es egal, was für Fleisch es ist.
+
+475
+00:25:35,512 --> 00:25:38,479
+Sollen wir auch ein Dessert bestellen?
+
+476
+00:25:38,502 --> 00:25:42,168
+Ich bin gespannt, ob es süß ist.
+
+477
+00:25:42,191 --> 00:25:45,161
+Ich probiere mal diesen Kuchen.
+
+478
+00:25:45,185 --> 00:25:47,952
+Könnten Sie mir vielleicht sagen, wie viel es kostet?
+
+479
+00:25:47,975 --> 00:25:51,208
+Ich schaue mal auf der Speisekarte nach den Preisen.
+
+480
+00:25:51,231 --> 00:25:53,898
+Hoffentlich ist es nicht zu teuer.
+
+481
+00:25:53,921 --> 00:25:55,421
+Szene 16: Der richtige Gebrauch von Höflichkeitsformen
+
+482
+00:25:55,421 --> 00:25:58,354
+Das sind aber hübsche Süßigkeiten!
+
+483
+00:25:58,377 --> 00:26:03,062
+Ja, die habe ich von einem Geschäftspartner bekommen.
+
+484
+00:26:03,086 --> 00:26:06,173
+Sind das Süßigkeiten von einem berühmten Laden?
+
+485
+00:26:06,197 --> 00:26:10,397
+Ja, unser Chef hat sie für mich gekauft.
+
+486
+00:26:10,420 --> 00:26:13,253
+Das ist ja toll!
+
+487
+00:26:13,276 --> 00:26:17,156
+Ja, ich habe mich sehr gefreut.
+
+488
+00:26:17,180 --> 00:26:20,746
+Darf ich vielleicht auch eines probieren?
+
+489
+00:26:20,769 --> 00:26:23,703
+Aber natürlich, bitte sehr!
+
+490
+00:26:23,726 --> 00:26:25,692
+Danke.
+
+491
+00:26:25,715 --> 00:26:27,649
+Danke, ich nehme es mir.
+
+492
+00:26:27,672 --> 00:26:30,145
+Wie schmeckt es dir?
+
+493
+00:26:30,168 --> 00:26:32,968
+Es schmeckt wirklich köstlich!
+
+494
+00:26:32,991 --> 00:26:38,158
+Könnten Sie bitte dem Abteilungsleiter Tee einschenken?
+
+495
+00:26:38,180 --> 00:26:41,260
+Ja, ich mache ihm gleich einen Tee.
+
+496
+00:26:41,284 --> 00:26:46,729
+Es ist unhöflich, gegenüber dem Abteilungsleiter 'geben' zu sagen.
+
+497
+00:26:46,752 --> 00:26:49,018
+Ach ja, stimmt.
+
+498
+00:26:49,041 --> 00:26:50,522
+Entschuldigung.
+
+499
+00:26:50,546 --> 00:26:54,319
+Schenken Sie ihm bitte höflich den Tee ein.
+
+500
+00:26:54,342 --> 00:26:56,675
+Ja, mache ich.
+
+501
+00:26:56,698 --> 00:27:01,498
+Haben Sie heute Morgen Ihrem Hund schon Futter gegeben?
+
+502
+00:27:01,521 --> 00:27:04,888
+Ja, bevor ich losgegangen bin, habe ich es gemacht.
+
+503
+00:27:04,911 --> 00:27:10,477
+Könnten Sie dann bitte auch den Pflanzen im Büro Wasser geben?
+
+504
+00:27:10,500 --> 00:27:13,500
+Ja, das mache ich sofort.
+
+505
+00:27:13,523 --> 00:27:17,857
+Übrigens, mein Kollege hat mir ein Buch geliehen.
+
+506
+00:27:17,880 --> 00:27:20,046
+Was für ein Buch ist das?
+
+507
+00:27:20,069 --> 00:27:24,128
+Er hat mir gesagt, dass es ein sehr gutes Buch ist.
+
+508
+00:27:24,151 --> 00:27:28,218
+Könnten Sie mir später ein Foto vom Buchcover schicken?
+
+509
+00:27:28,241 --> 00:27:31,610
+Ja, ich mache ein Foto und schicke es dir.
+
+510
+00:27:31,634 --> 00:27:33,634
+Danke.
+
+511
+00:27:33,657 --> 00:27:38,132
+Könnten Sie mir bitte bei den Vorbereitungen für das morgige Meeting helfen?
+
+512
+00:27:38,156 --> 00:27:42,325
+Ja, ich helfe Ihnen gerne dabei.
+
+513
+00:27:42,348 --> 00:27:44,836
+Das wäre eine große Hilfe!
+
+514
+00:27:44,860 --> 00:27:46,360
+Szene 17: Sparen und Vorbereitungen für den Umzug
+
+515
+00:27:46,360 --> 00:27:51,093
+Sie arbeiten jeden Tag nebenbei, oder?
+
+516
+00:27:51,116 --> 00:27:55,349
+Ja, ich spare für ein eigenes Haus.
+
+517
+00:27:55,372 --> 00:27:59,306
+Wie viel kostet es denn, ein Haus zu kaufen?
+
+518
+00:27:59,329 --> 00:28:02,495
+Das kostet eine ganze Menge.
+
+519
+00:28:02,518 --> 00:28:06,885
+Es ist wunderbar, für die Familie zu arbeiten.
+
+520
+00:28:06,908 --> 00:28:11,397
+Ich spare auch für eine Reise mit der Familie.
+
+521
+00:28:11,421 --> 00:28:14,554
+Wohin möchten Sie denn reisen?
+
+522
+00:28:14,577 --> 00:28:17,510
+Wir möchten nach Hawaii.
+
+523
+00:28:17,533 --> 00:28:22,200
+Wofür benutzen Sie diese Schere?
+
+524
+00:28:22,223 --> 00:28:27,310
+Damit schneide ich die Umzugskartons auf.
+
+525
+00:28:27,333 --> 00:28:31,424
+Wofür ist diese große Kiste?
+
+526
+00:28:31,448 --> 00:28:35,497
+Darin kommen die wichtigen Sachen beim Umzug.
+
+527
+00:28:35,520 --> 00:28:39,404
+Für den Umzug braucht man wohl einige Dinge, oder?
+
+528
+00:28:39,427 --> 00:28:43,761
+Ja, sie sind auch praktisch, um Kleidung zu transportieren.
+
+529
+00:28:43,784 --> 00:28:49,263
+Wie lange brauchen Sie von Ihrem neuen Zuhause bis zur Firma?
+
+530
+00:28:49,286 --> 00:28:52,486
+Mit der Bahn dauert es etwa eine Stunde.
+
+531
+00:28:52,509 --> 00:28:56,076
+Der Weg ist jeden Tag ganz schön weit, nicht wahr?
+
+532
+00:28:56,099 --> 00:29:01,510
+Ja, aber in der Bahn kann ich gut lesen.
+
+533
+00:29:01,533 --> 00:29:05,867
+Sie haben also Bücher gekauft, um Japanisch zu lernen, oder?
+
+534
+00:29:05,890 --> 00:29:10,890
+Ja, aber das Nachschlagen im Wörterbuch dauert ewig.
+
+535
+00:29:10,913 --> 00:29:15,313
+Am Anfang braucht man immer etwas länger, um alles nachzuschlagen.
+
+536
+00:29:15,336 --> 00:29:20,069
+In letzter Zeit mache ich auch Sport für meine Gesundheit.
+
+537
+00:29:20,092 --> 00:29:24,959
+Ah, Sie haben sich neue Schuhe gekauft, um laufen zu gehen, stimmt's?
+
+538
+00:29:24,982 --> 00:29:29,715
+Ja, die sind perfekt zum Trainieren.
+
+539
+00:29:29,738 --> 00:29:34,705
+Ich esse kaum etwas, um abzunehmen.
+
+540
+00:29:34,728 --> 00:29:37,261
+Das ist nicht gut.
+
+541
+00:29:37,284 --> 00:29:40,559
+Aber essen Sie bitte, um gesund zu bleiben!
+
+542
+00:29:40,582 --> 00:29:43,982
+Stimmt, ich passe besser auf.
+
+543
+00:29:44,005 --> 00:29:48,461
+Wussten Sie, dass der Mensch sogar beim Schlafen Energie verbraucht?
+
+544
+00:29:48,484 --> 00:29:53,318
+Dann schlafe ich heute gut, um morgen wieder fit zu sein.
+
+545
+00:29:53,341 --> 00:29:56,542
+Ja, ruhen Sie sich gut aus.
+
+546
+00:29:56,565 --> 00:29:58,809
+Gute Nacht.
+
+547
+00:29:58,833 --> 00:30:00,333
+Szene 18: Vorbereitungen vor dem Sturm
+
+548
+00:30:00,333 --> 00:30:04,566
+Der Himmel wird immer dunkler.
+
+549
+00:30:04,589 --> 00:30:07,889
+Ja, es sieht so aus, als würde es gleich regnen.
+
+550
+00:30:07,912 --> 00:30:11,124
+Und der Wind wird auch stärker.
+
+551
+00:30:11,148 --> 00:30:13,601
+Es scheint ein Sturm aufzuziehen.
+
+552
+00:30:13,624 --> 00:30:17,998
+Wir sollten lieber schnell ins Gebäude gehen.
+
+553
+00:30:18,021 --> 00:30:21,662
+Dann räume ich mal die Sachen draußen weg.
+
+554
+00:30:21,685 --> 00:30:25,255
+Bei dem Wind könnte der Schirm kaputtgehen.
+
+555
+00:30:25,279 --> 00:30:28,412
+Der Wind ist wirklich heftig!
+
+556
+00:30:28,435 --> 00:30:31,869
+Plötzlich wird es richtig kalt.
+
+557
+00:30:31,893 --> 00:30:35,093
+Bei dem Wetter holen wir uns noch eine Erkältung.
+
+558
+00:30:35,116 --> 00:30:39,524
+Ich hole uns schnell einen warmen Tee.
+
+559
+00:30:39,547 --> 00:30:41,218
+Danke.
+
+560
+00:30:41,242 --> 00:30:43,242
+Hier, ich habe welchen mitgebracht.
+
+561
+00:30:43,265 --> 00:30:46,633
+Der Tee sieht aber heiß aus!
+
+562
+00:30:46,656 --> 00:30:49,623
+Vorsichtig, wenn Sie ihn halten.
+
+563
+00:30:49,646 --> 00:30:53,447
+Ja, ich probiere mal einen Schluck.
+
+564
+00:30:53,470 --> 00:30:56,804
+Der sieht aber lecker und wärmend aus.
+
+565
+00:30:56,827 --> 00:31:00,118
+Ja, der schmeckt wirklich gut!
+
+566
+00:31:00,141 --> 00:31:03,875
+Oh, der Himmel hellt sich schon wieder auf.
+
+567
+00:31:03,898 --> 00:31:07,031
+Es hört bestimmt gleich auf zu regnen.
+
+568
+00:31:07,054 --> 00:31:10,465
+Ja, es klart schon auf.
+
+569
+00:31:10,488 --> 00:31:13,724
+Das ist ja eine Erleichterung!
+
+570
+00:31:13,748 --> 00:31:16,604
+Da drüben könnte gleich ein Regenbogen erscheinen!
+
+571
+00:31:16,628 --> 00:31:19,707
+Ich schau mal kurz nach draußen.
+
+572
+00:31:19,730 --> 00:31:22,530
+Kann man schon einen schönen Regenbogen sehen?
+
+573
+00:31:22,553 --> 00:31:26,687
+Nein, noch ist er nicht richtig zu erkennen.
+
+574
+00:31:26,710 --> 00:31:31,148
+Jetzt, wo ich mich beruhigt habe, bekomme ich plötzlich Hunger.
+
+575
+00:31:31,171 --> 00:31:35,174
+Sie sehen aus, als würden Sie gleich vor Hunger weinen!
+
+576
+00:31:35,198 --> 00:31:38,237
+Ich gehe schnell in der Nähe etwas essen.
+
+577
+00:31:38,260 --> 00:31:40,718
+Bis gleich!
+
+578
+00:31:40,742 --> 00:31:43,076
+Ich bin schnell wieder da.
+
+579
+00:31:43,099 --> 00:31:44,599
+Szene 19: Zu viel gegessen und Ärger mit den Schuhen
+
+580
+00:31:44,599 --> 00:31:48,599
+Ich habe beim Mittagessen etwas zu viel gegessen.
+
+581
+00:31:48,622 --> 00:31:52,588
+Beim Buffet isst man immer zu viel, oder?
+
+582
+00:31:52,611 --> 00:31:57,219
+Ich habe so viel gegessen, dass mir jetzt richtig schlecht ist.
+
+583
+00:31:57,242 --> 00:32:00,609
+Haben Sie zu viel von dem kalten Saft getrunken?
+
+584
+00:32:00,632 --> 00:32:05,499
+Ja, ich habe drei Gläser getrunken – das war zu viel.
+
+585
+00:32:05,522 --> 00:32:09,331
+Der letzte Kuchen war auch viel zu süß, oder?
+
+586
+00:32:09,355 --> 00:32:14,557
+Außerdem sind die Schuhe, die ich heute trage, so unbequem zum Laufen.
+
+587
+00:32:14,580 --> 00:32:17,713
+Ist die Größe vielleicht zu klein?
+
+588
+00:32:17,736 --> 00:32:21,775
+Nein, die Absätze sind einfach zu hoch.
+
+589
+00:32:21,799 --> 00:32:25,799
+Überanstrengen Sie sich nicht – sollen wir ein Taxi nehmen?
+
+590
+00:32:25,822 --> 00:32:30,876
+Ja, zu Fuß gehen ist anstrengend, also nehme ich ein Taxi.
+
+591
+00:32:30,899 --> 00:32:33,710
+Wir sind beim Schreibwarenladen angekommen.
+
+592
+00:32:33,734 --> 00:32:36,934
+Dieser Stift schreibt wirklich gut.
+
+593
+00:32:36,957 --> 00:32:41,157
+Stimmt! Und der Preis ist auch super günstig.
+
+594
+00:32:41,180 --> 00:32:44,799
+Er ist leicht und sehr handlich.
+
+595
+00:32:44,823 --> 00:32:48,438
+Dann nehme ich diesen roten Stift.
+
+596
+00:32:48,461 --> 00:32:51,296
+Ich kaufe mir ein Buch.
+
+597
+00:32:51,319 --> 00:32:55,653
+Aber dieses Buch ist schwer zu verstehen, oder?
+
+598
+00:32:55,676 --> 00:32:59,492
+Allerdings, es hat viel zu viele Kanji.
+
+599
+00:32:59,515 --> 00:33:03,091
+Für mich ist es viel zu schwer zu lesen.
+
+600
+00:33:03,115 --> 00:33:06,448
+Sollen wir ein einfacheres Buch nehmen?
+
+601
+00:33:06,471 --> 00:33:09,438
+Ja, das wäre besser.
+
+602
+00:33:09,461 --> 00:33:14,227
+Die Plätze hier im Café sind etwas zu dunkel, finden Sie nicht?
+
+603
+00:33:14,250 --> 00:33:17,250
+Man kann die Buchstaben kaum erkennen.
+
+604
+00:33:17,273 --> 00:33:20,673
+Ich mache mal die Stehlampe an.
+
+605
+00:33:20,696 --> 00:33:23,904
+Oh, das ist jetzt aber zu hell!
+
+606
+00:33:23,928 --> 00:33:27,339
+Dann dimme ich sie etwas.
+
+607
+00:33:27,362 --> 00:33:29,995
+Ja, jetzt ist es perfekt.
+
+608
+00:33:30,018 --> 00:33:33,985
+Ist die Musik hier im Laden zu laut?
+
+609
+00:33:34,008 --> 00:33:37,680
+Nein, sie ist angenehm leise und gut zu hören.
+
+610
+00:33:37,704 --> 00:33:40,377
+Dann bleiben wir an diesem Tisch.
+
+611
+00:33:40,400 --> 00:33:42,933
+Ja, einverstanden.
+
+612
+00:33:42,956 --> 00:33:44,456
+Szene 20: Umgang mit Rückgabe- und Umtauschproblemen
+
+613
+00:33:44,456 --> 00:33:48,623
+Das Paket, das ich online bestellt habe, ist angekommen.
+
+614
+00:33:48,646 --> 00:33:51,312
+Lass uns gleich mal auspacken.
+
+615
+00:33:51,335 --> 00:33:55,469
+Oh, ein Teil ist kaputt.
+
+616
+00:33:55,492 --> 00:33:59,225
+Und das, obwohl ich so viel Geld dafür bezahlt habe.
+
+617
+00:33:59,248 --> 00:34:03,386
+Ich habe mich so darauf gefreut – das ist wirklich enttäuschend.
+
+618
+00:34:03,410 --> 00:34:07,843
+Was macht man, wenn es von Anfang an kaputt ist?
+
+619
+00:34:07,866 --> 00:34:11,722
+Man sollte es zurückgeben können.
+
+620
+00:34:11,746 --> 00:34:15,642
+Ich habe vorhin angerufen, aber es geht niemand ran.
+
+621
+00:34:15,666 --> 00:34:20,799
+Der Laden hat doch gar nicht geschlossen – komisch, oder?
+
+622
+00:34:20,822 --> 00:34:26,189
+Wenn man telefonisch niemanden erreicht, schreibt man eine E-Mail.
+
+623
+00:34:26,212 --> 00:34:30,812
+Ich habe eine E-Mail geschrieben, aber es kam noch keine Antwort.
+
+624
+00:34:30,835 --> 00:34:35,891
+Wenn die Antwort auf sich warten lässt, warten wir noch ein bisschen.
+
+625
+00:34:35,915 --> 00:34:40,448
+Ich habe schon eine Woche auf die Lieferung gewartet!
+
+626
+00:34:40,471 --> 00:34:44,679
+Wenn es eilig ist, soll ich die Bestellung stornieren?
+
+627
+00:34:44,703 --> 00:34:49,138
+Ich wollte es so gerne haben, aber ich gebe auf.
+
+628
+00:34:49,162 --> 00:34:55,562
+Auch wenn sie ein neues Produkt schicken, kann es sein, dass die Größe nicht passt.
+
+629
+00:34:55,585 --> 00:35:00,427
+Wenn es viel zu groß für das Zimmer ist, wäre das ein Problem.
+
+630
+00:35:00,450 --> 00:35:06,017
+Ich habe versucht, es selbst zu reparieren, und die Anleitung gelesen, aber ich verstehe es nicht.
+
+631
+00:35:06,040 --> 00:35:10,510
+Wenn du nicht weiterkommst, lese ich sie dir vor.
+
+632
+00:35:10,533 --> 00:35:15,616
+Ich habe Japanisch gelernt, aber diese Kanji kann ich trotzdem nicht lesen.
+
+633
+00:35:15,639 --> 00:35:20,378
+Falls du es nicht lesen kannst, nutze das Wörterbuch auf deinem Smartphone.
+
+634
+00:35:20,402 --> 00:35:25,569
+Wir hatten doch vereinbart, es gemeinsam zu korrigieren, aber mein Freund kommt nicht.
+
+635
+00:35:25,592 --> 00:35:31,795
+Wenn mein Freund nicht kommt, korrigieren wir es dann nur zu zweit?
+
+636
+00:35:31,818 --> 00:35:37,427
+Ich bin so traurig, und du lachst nur.
+
+637
+00:35:37,451 --> 00:35:41,684
+Wenn du weinen möchtest, dann wein ruhig.
+
+638
+00:35:41,707 --> 00:35:47,907
+Ich würde gern rausgehen, um auf andere Gedanken zu kommen, aber es regnet – und ich habe keinen Schirm.
+
+639
+00:35:47,930 --> 00:35:53,174
+Falls ich nass werde, gehe ich nach Hause und ziehe mich um.
+
+640
+00:35:53,197 --> 00:35:57,444
+Ich bin heute so erschöpft, aber vor Schock kann ich nicht schlafen.
+
+641
+00:35:57,468 --> 00:36:03,468
+Wenn du nicht schlafen kannst, trinkst du vielleicht einen warmen Tee?
+
+642
+00:36:03,491 --> 00:36:06,092
+Ja, das machen wir.
+
+643
+00:36:06,116 --> 00:36:07,616
+Szene 21: Treffpunkt und Telefonate / Telefonate und Treffen koordinieren
+
+644
+00:36:07,616 --> 00:36:10,783
+Hallo, wo bist du gerade?
+
+645
+00:36:10,806 --> 00:36:15,610
+Ich bin gerade am vereinbarten Bahnhof angekommen.
+
+646
+00:36:15,633 --> 00:36:20,087
+Entschuldige, ich bin gerade erst in Eile aus dem Haus gegangen.
+
+647
+00:36:20,111 --> 00:36:23,544
+Dann wirst du wohl noch nicht da sein, oder?
+
+648
+00:36:23,567 --> 00:36:27,534
+Ja, ich brauche noch etwa zehn Minuten.
+
+649
+00:36:27,557 --> 00:36:31,490
+Ich warte schon die ganze Zeit vor dem Bahnhof.
+
+650
+00:36:31,513 --> 00:36:36,080
+Es tut mir wirklich leid, ich renne gerade.
+
+651
+00:36:36,103 --> 00:36:40,877
+Ich habe dich vorhin angerufen, weil ich mir Sorgen gemacht habe – du bist so spät dran.
+
+652
+00:36:40,900 --> 00:36:44,300
+Ich bin gerade erst in den Zug gestiegen.
+
+653
+00:36:44,323 --> 00:36:48,656
+Wenn es ein Expresszug ist, steigst du an der nächsten Station aus, oder?
+
+654
+00:36:48,679 --> 00:36:51,479
+Ja, ich sollte gleich da sein.
+
+655
+00:36:51,502 --> 00:36:55,336
+Übrigens, hast du schon zu Mittag gegessen?
+
+656
+00:36:55,359 --> 00:36:59,192
+Ja, ich habe gerade vor dem Weggehen gegessen.
+
+657
+00:36:59,215 --> 00:37:02,986
+Dann solltest du doch keinen Hunger haben, oder?
+
+658
+00:37:03,009 --> 00:37:05,976
+Nein, ich bin satt.
+
+659
+00:37:05,999 --> 00:37:09,565
+Ich werde jetzt gleich essen.
+
+660
+00:37:09,588 --> 00:37:13,841
+Sag mal, ist die Besprechung am Vormittag schon vorbei?
+
+661
+00:37:13,865 --> 00:37:17,632
+Ja, sie ist gerade erst zu Ende gegangen.
+
+662
+00:37:17,655 --> 00:37:20,422
+War der Abteilungsleiter wütend?
+
+663
+00:37:20,445 --> 00:37:23,941
+Nein, er sollte eigentlich nicht wütend sein.
+
+664
+00:37:23,964 --> 00:37:28,431
+Aber ich wurde gerade erst am Telefon zusammengestaucht.
+
+665
+00:37:28,454 --> 00:37:31,888
+Ach so, wegen der Verspätung, oder?
+
+666
+00:37:31,911 --> 00:37:36,445
+Wenn ich im Büro ankomme, werde ich mich gleich entschuldigen gehen.
+
+667
+00:37:36,468 --> 00:37:40,547
+Wenn du aufrichtig entschuldigst, sollte alles in Ordnung sein.
+
+668
+00:37:40,570 --> 00:37:42,203
+Ich gebe mir Mühe.
+
+669
+00:37:42,226 --> 00:37:45,797
+Ich habe gerade erst die Unterlagen fertiggestellt, um die du mich gebeten hattest.
+
+670
+00:37:45,821 --> 00:37:49,191
+Dann sollten keine Fehler drin sein, oder?
+
+671
+00:37:49,215 --> 00:37:53,348
+Ich schaue mir gerade die Daten auf meinem Smartphone an.
+
+672
+00:37:53,371 --> 00:37:55,470
+Es sollte perfekt sein.
+
+673
+00:37:55,494 --> 00:37:58,294
+Ja, es gibt keine Probleme.
+
+674
+00:37:58,317 --> 00:38:00,521
+Beeil dich bitte!
+
+675
+00:38:00,544 --> 00:38:02,044
+Szene 22: Tanakas Hochzeitsvorbereitungen / Vorbereitungen für Tanakas Hochzeit
+
+676
+00:38:02,044 --> 00:38:07,286
+Ich habe gehört, dass Herr Tanaka nächsten Monat heiratet.
+
+677
+00:38:07,310 --> 00:38:09,000
+Wirklich?
+
+678
+00:38:09,024 --> 00:38:12,157
+Er scheint sehr glücklich zu sein.
+
+679
+00:38:12,180 --> 00:38:13,747
+Ja.
+
+680
+00:38:13,770 --> 00:38:17,770
+Angeblich ist sein Partner eine sehr schöne Person.
+
+681
+00:38:17,793 --> 00:38:21,959
+Ich habe gehört, dass er nach der Heirat kündigen will.
+
+682
+00:38:21,982 --> 00:38:25,422
+Nein, er will angeblich nicht kündigen.
+
+683
+00:38:25,446 --> 00:38:27,694
+Das ist gut.
+
+684
+00:38:27,718 --> 00:38:32,991
+Aber in letzter Zeit scheint er wegen der Hochzeitsvorbereitungen sehr beschäftigt zu sein.
+
+685
+00:38:33,014 --> 00:38:34,589
+Ja.
+
+686
+00:38:34,613 --> 00:38:38,080
+Angeblich ist die tägliche Vorbereitung sehr aufwendig.
+
+687
+00:38:38,103 --> 00:38:42,282
+An diesem Wochenende soll eine Party stattfinden.
+
+688
+00:38:42,305 --> 00:38:45,116
+Angeblich sind auch wir eingeladen.
+
+689
+00:38:45,140 --> 00:38:49,540
+Nein, wir scheinen nicht eingeladen zu sein.
+
+690
+00:38:49,563 --> 00:38:52,238
+Das ist ein bisschen traurig, nicht wahr?
+
+691
+00:38:52,261 --> 00:38:55,294
+Es soll nur im Familienkreis stattfinden.
+
+692
+00:38:55,317 --> 00:38:57,207
+Ach so.
+
+693
+00:38:57,231 --> 00:39:01,600
+Der Abteilungsleiter scheint schon von der Hochzeit zu wissen.
+
+694
+00:39:01,624 --> 00:39:03,190
+Ja.
+
+695
+00:39:03,213 --> 00:39:06,347
+Er soll bereits ein Geschenk überreicht haben.
+
+696
+00:39:06,369 --> 00:39:09,736
+Lassen Sie uns auch etwas schenken.
+
+697
+00:39:09,759 --> 00:39:11,726
+Das klingt gut.
+
+698
+00:39:11,749 --> 00:39:16,824
+Übrigens, ab morgen soll es regnen.
+
+699
+00:39:16,847 --> 00:39:20,913
+Ja, das Wetter scheint ziemlich schlecht zu werden.
+
+700
+00:39:20,936 --> 00:39:24,870
+Am Wochenende soll es noch kälter werden.
+
+701
+00:39:24,893 --> 00:39:29,026
+Herr Tanaka scheint sich gerade erkältet zu haben.
+
+702
+00:39:29,049 --> 00:39:33,049
+Ja, er soll vorhin Medizin genommen haben.
+
+703
+00:39:33,072 --> 00:39:37,530
+Er sollte sich nicht überanstrengen und lieber früh schlafen gehen.
+
+704
+00:39:37,553 --> 00:39:41,320
+Er soll am Nachmittag zum Arzt gegangen sein.
+
+705
+00:39:41,343 --> 00:39:45,635
+Den Untersuchungsergebnissen zufolge scheint es keine schwere Krankheit zu sein.
+
+706
+00:39:45,659 --> 00:39:49,792
+Sein Partner soll erleichtert gewesen sein.
+
+707
+00:39:49,815 --> 00:39:52,020
+Das ist ja eine Erleichterung!
+
+708
+00:39:52,043 --> 00:39:53,543
+Szene 23: Umgang mit dringenden privaten Angelegenheiten
+
+709
+00:39:53,543 --> 00:39:56,544
+Entschuldigen Sie, Herr Abteilungsleiter.
+
+710
+00:39:56,567 --> 00:39:58,413
+Was ist los?
+
+711
+00:39:58,437 --> 00:40:02,704
+Darf ich heute früher nach Hause gehen?
+
+712
+00:40:02,727 --> 00:40:05,327
+Ist etwas passiert?
+
+713
+00:40:05,350 --> 00:40:08,916
+Mein Kind hat plötzlich Fieber bekommen.
+
+714
+00:40:08,939 --> 00:40:11,824
+Das ist ja schlimm.
+
+715
+00:40:11,848 --> 00:40:16,681
+Ich werde jetzt nach Hause gehen und mein Kind zum Arzt bringen.
+
+716
+00:40:16,704 --> 00:40:19,671
+Gehen Sie ruhig früher nach Hause.
+
+717
+00:40:19,694 --> 00:40:21,393
+Danke.
+
+718
+00:40:21,417 --> 00:40:25,350
+Ihre Arbeit werde ich von jemand anderem erledigen lassen.
+
+719
+00:40:25,373 --> 00:40:30,663
+Könnten Sie Herrn Yamada bitten, mir bei meiner Arbeit zu helfen?
+
+720
+00:40:30,686 --> 00:40:33,970
+Ja, ich werde ihn darum bitten.
+
+721
+00:40:33,994 --> 00:40:37,802
+Darf ich morgen auch von der Arbeit fernbleiben?
+
+722
+00:40:37,826 --> 00:40:40,099
+Auch morgen?
+
+723
+00:40:40,123 --> 00:40:46,123
+Meine Frau kann auf keinen Fall freinehmen, deshalb möchte ich ihr ermöglichen, zur Arbeit zu gehen.
+
+724
+00:40:46,146 --> 00:40:48,112
+Alles klar.
+
+725
+00:40:48,135 --> 00:40:51,135
+Morgen dürfen Sie zu Hause bleiben.
+
+726
+00:40:51,158 --> 00:40:53,492
+Es tut mir sehr leid.
+
+727
+00:40:53,515 --> 00:40:58,198
+Nein, sorgen Sie erstmal dafür, dass sich Ihr Kind gut ausruht.
+
+728
+00:40:58,221 --> 00:41:02,702
+Wenn ich zu Hause bin, gebe ich meinem Kind sofort die Medizin.
+
+729
+00:41:02,725 --> 00:41:06,259
+Überanstrengen Sie Ihr Kind nicht.
+
+730
+00:41:06,282 --> 00:41:10,215
+Ja, heute werde ich es früh ins Bett bringen.
+
+731
+00:41:10,238 --> 00:41:14,005
+Ich warte morgen früh auf Ihre Nachricht.
+
+732
+00:41:14,028 --> 00:41:18,322
+Ich werde Ihnen später telefonisch Bericht erstatten.
+
+733
+00:41:18,345 --> 00:41:22,756
+Nein, da es sehr anstrengend ist, reicht eine E-Mail.
+
+734
+00:41:22,780 --> 00:41:27,355
+Darf ich mir ein bisschen Arbeit mit nach Hause nehmen?
+
+735
+00:41:27,378 --> 00:41:31,219
+Nein, arbeiten Sie heute bitte nicht.
+
+736
+00:41:31,242 --> 00:41:34,097
+Vielen herzlichen Dank.
+
+737
+00:41:34,120 --> 00:41:37,087
+Kommen Sie gut nach Hause.
+
+738
+00:41:37,110 --> 00:41:39,080
+Auf Wiedersehen.
+
+739
+00:41:39,103 --> 00:41:41,074
+Gute Besserung.
+
+740
+00:41:41,097 --> 00:41:42,597
+Szene 24: Die Verwendung von Höflichkeitssprache
+
+741
+00:41:42,597 --> 00:41:47,031
+Ist der Präsident schon im Büro angekommen?
+
+742
+00:41:47,054 --> 00:41:50,621
+Ja, er/sie ist vorhin gekommen.
+
+743
+00:41:50,644 --> 00:41:54,377
+Wo sind Sie jetzt?
+
+744
+00:41:54,400 --> 00:41:58,093
+Er/Sie ist im Besprechungsraum.
+
+745
+00:41:58,117 --> 00:42:02,717
+Haben Sie die Unterlagen für heute schon gelesen?
+
+746
+00:42:02,740 --> 00:42:06,940
+Ja, er/sie hat sie bereits gelesen.
+
+747
+00:42:06,963 --> 00:42:10,129
+Was hat er/sie gesagt?
+
+748
+00:42:10,152 --> 00:42:13,795
+Er/Sie sagte, es sei ein hervorragender Inhalt.
+
+749
+00:42:13,819 --> 00:42:16,464
+Das ist gut.
+
+750
+00:42:16,487 --> 00:42:21,921
+Übrigens, spielt der Präsident oft Golf?
+
+751
+00:42:21,944 --> 00:42:26,582
+Ja, er/sie spielt am Wochenende oft Golf.
+
+752
+00:42:26,605 --> 00:42:30,239
+Gehen Sie morgen, in Ihrem freien Tag, auch Golf spielen?
+
+753
+00:42:30,262 --> 00:42:34,428
+Nein, morgen ruht er/sie sich aus.
+
+754
+00:42:34,451 --> 00:42:37,885
+Sie wirken in letzter Zeit etwas müde.
+
+755
+00:42:37,908 --> 00:42:42,752
+Ja, morgen ruht er/sie sich zu Hause aus.
+
+756
+00:42:42,776 --> 00:42:47,469
+Übrigens, isst der Präsident diese Süßigkeit?
+
+757
+00:42:47,492 --> 00:42:51,226
+Ja, er/sie isst sie gerne.
+
+758
+00:42:51,249 --> 00:42:54,782
+Trinken Sie auch zusammen Tee?
+
+759
+00:42:54,805 --> 00:42:59,172
+Nein, er/sie trinkt immer Kaffee.
+
+760
+00:42:59,195 --> 00:43:02,090
+Verstanden. Ich bereite alles vor.
+
+761
+00:43:02,113 --> 00:43:06,363
+Ist der Abteilungsleiter jetzt auch im Besprechungsraum?
+
+762
+00:43:06,386 --> 00:43:10,474
+Nein, der Abteilungsleiter ist auf Geschäftsreise.
+
+763
+00:43:10,497 --> 00:43:13,867
+Wann kommt er/sie zurück?
+
+764
+00:43:13,891 --> 00:43:17,326
+Er/Sie kommt morgen Abend zurück.
+
+765
+00:43:17,350 --> 00:43:22,116
+Hat er/sie sich vor der Geschäftsreise beim Präsidenten verabschiedet?
+
+766
+00:43:22,139 --> 00:43:25,776
+Ja, er/sie hat sich heute Morgen verabschiedet.
+
+767
+00:43:25,800 --> 00:43:29,633
+Ah, der Gast ist gekommen.
+
+768
+00:43:29,656 --> 00:43:33,889
+Dann führen Sie ihn/sie bitte in den Empfangsraum.
+
+769
+00:43:33,912 --> 00:43:36,312
+Verstanden.
+
+770
+00:43:36,335 --> 00:43:39,310
+Der Präsident wartet bereits drinnen.
+
+771
+00:43:39,334 --> 00:43:40,834
+Szene 25: Begrüßung und Projektvorstellung
+
+772
+00:43:40,834 --> 00:43:44,846
+Freut mich, Sie kennenzulernen. Vielen Dank im Voraus.
+
+773
+00:43:44,869 --> 00:43:48,069
+Ganz meinerseits, vielen Dank.
+
+774
+00:43:48,092 --> 00:43:54,532
+Heute werde ich Ihnen das neue Projekt vorstellen.
+
+775
+00:43:54,555 --> 00:43:57,189
+Ja, bitte sehr.
+
+776
+00:43:57,212 --> 00:44:00,849
+Ich habe die Unterlagen, die Sie mir im Voraus geschickt haben, durchgesehen.
+
+777
+00:44:00,872 --> 00:44:02,769
+Danke.
+
+778
+00:44:02,793 --> 00:44:06,459
+Ich finde den Plan ausgezeichnet.
+
+779
+00:44:06,482 --> 00:44:09,325
+Vielen Dank für das Lob.
+
+780
+00:44:09,349 --> 00:44:14,315
+Das detaillierte Angebot sende ich Ihnen später per E-Mail.
+
+781
+00:44:14,338 --> 00:44:16,305
+Ich freue mich darauf.
+
+782
+00:44:16,328 --> 00:44:21,161
+Unser Präsident lässt Sie herzlich grüßen.
+
+783
+00:44:21,184 --> 00:44:23,017
+Danke.
+
+784
+00:44:23,040 --> 00:44:25,276
+Bitte richten Sie ihm ebenfalls Grüße aus.
+
+785
+00:44:25,300 --> 00:44:30,385
+Beim nächsten Mal bringe ich Muster unserer neuen Produkte mit.
+
+786
+00:44:30,408 --> 00:44:32,542
+Vielen Dank für die Mühe.
+
+787
+00:44:32,566 --> 00:44:34,465
+Keine Ursache.
+
+788
+00:44:34,488 --> 00:44:39,421
+Es war schön, heute Ihr Büro besuchen zu dürfen.
+
+789
+00:44:39,444 --> 00:44:42,578
+Ich freue mich auch, dass wir uns persönlich begrüßen konnten.
+
+790
+00:44:42,601 --> 00:44:46,334
+Ich rufe morgen noch einmal an.
+
+791
+00:44:46,357 --> 00:44:49,324
+Um wie viel Uhr können Sie anrufen?
+
+792
+00:44:49,347 --> 00:44:52,227
+Ich rufe um 15 Uhr an.
+
+793
+00:44:52,250 --> 00:44:54,543
+Verstanden.
+
+794
+00:44:54,566 --> 00:44:57,737
+Haben Sie noch Fragen?
+
+795
+00:44:57,760 --> 00:45:00,328
+Aktuell gibt es nichts.
+
+796
+00:45:00,352 --> 00:45:04,249
+Dann verabschiede ich mich für heute.
+
+797
+00:45:04,273 --> 00:45:06,744
+Kommen Sie gut nach Hause.
+
+798
+00:45:06,767 --> 00:45:10,500
+Vielen Dank, dass Sie sich trotz Ihres vollen Terminkalenders Zeit genommen haben.
+
+799
+00:45:10,523 --> 00:45:13,057
+Auf Wiedersehen – bis zum nächsten Mal!
+
+800
+00:45:13,080 --> 00:45:14,446
+Ja.
+
+801
+00:45:14,469 --> 00:45:18,036
+Ich freue mich darauf, Sie wiederzusehen.
+
+802
+00:45:18,059 --> 00:45:20,792
+Ich warte auf Ihre Nachricht.
+
+803
+00:45:20,815 --> 00:45:23,415
+Ich melde mich ganz bestimmt bei Ihnen.
+
+804
+00:45:23,438 --> 00:45:25,972
+Vielen Dank im Voraus für Ihre Unterstützung.
