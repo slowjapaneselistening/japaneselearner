@@ -1,0 +1,3615 @@
+1
+00:00:00,000 --> 00:00:09,218
+O czym jest dzisiejszy film? Wybieramy najświeższe tematy z wiadomości.
+
+2
+00:00:09,218 --> 00:00:10,718
+Scena 1: Prezentacja darmowych wycieczek z przewodnikiem
+
+3
+00:00:10,718 --> 00:00:13,931
+Widziałeś dzisiejsze poranne wiadomości?
+
+4
+00:00:13,955 --> 00:00:17,404
+Nie, nie widziałem.
+
+5
+00:00:17,427 --> 00:00:20,660
+Mamy wiadomość o darmowych wycieczkach z przewodnikiem.
+
+6
+00:00:20,683 --> 00:00:23,617
+Darmowe wycieczki z przewodnikiem?
+
+7
+00:00:23,640 --> 00:00:26,106
+Jakie to wycieczki?
+
+8
+00:00:26,129 --> 00:00:30,666
+Mieszkańcy miasta oprowadzają za darmo.
+
+9
+00:00:30,690 --> 00:00:33,779
+Za darmo oprowadzają?
+
+10
+00:00:33,802 --> 00:00:36,369
+To wspaniale!
+
+11
+00:00:36,392 --> 00:00:39,396
+Czy są przewodnicy mówiący po angielsku?
+
+12
+00:00:39,419 --> 00:00:45,077
+Tak, są przewodnicy mówiący po angielsku i chińsku.
+
+13
+00:00:45,100 --> 00:00:48,272
+Czy to naprawdę nic nie kosztuje?
+
+14
+00:00:48,295 --> 00:00:53,229
+Tak, za przewodnika nie trzeba płacić.
+
+15
+00:00:53,252 --> 00:00:56,052
+Czy są jakieś opłaty?
+
+16
+00:00:56,075 --> 00:01:01,041
+Płaci się tylko za bilet komunikacji miejskiej i wstęp.
+
+17
+00:01:01,064 --> 00:01:04,113
+Cieszą się dużą popularnością.
+
+18
+00:01:04,137 --> 00:01:06,915
+Gdzie można zarezerwować?
+
+19
+00:01:06,938 --> 00:01:10,916
+Rezerwacji można dokonać w punkcie informacyjnym lub przez internet.
+
+20
+00:01:10,940 --> 00:01:13,743
+Czy mogę zarezerwować już dzisiaj na teraz?
+
+21
+00:01:13,766 --> 00:01:17,199
+Proszę zarezerwować przed wyjściem.
+
+22
+00:01:17,222 --> 00:01:21,189
+Czy są wycieczki w Asakusa i przy Pałacu Cesarskim?
+
+23
+00:01:21,212 --> 00:01:26,504
+Tak, są wycieczki w Asakusa i przy Pałacu Cesarskim.
+
+24
+00:01:26,527 --> 00:01:29,727
+O czym można się dowiedzieć?
+
+25
+00:01:29,750 --> 00:01:34,035
+Można posłuchać o historii i budynkach.
+
+26
+00:01:34,059 --> 00:01:37,192
+Pokazują fajne miejsca.
+
+27
+00:01:37,215 --> 00:01:40,582
+Można porozmawiać z mieszkańcami.
+
+28
+00:01:40,605 --> 00:01:42,571
+To świetnie!
+
+29
+00:01:42,594 --> 00:01:46,328
+Polecają też pyszne restauracje.
+
+30
+00:01:46,351 --> 00:01:48,802
+Można poznać kulturę.
+
+31
+00:01:48,825 --> 00:01:51,684
+Ile trwa jedna wycieczka?
+
+32
+00:01:51,707 --> 00:01:55,841
+Od jednej do dwóch godzin.
+
+33
+00:01:55,864 --> 00:01:59,275
+Pomogą też zrobić zdjęcia.
+
+34
+00:01:59,298 --> 00:02:01,531
+To idealny czas.
+
+35
+00:02:01,554 --> 00:02:04,821
+Zarezerwuję na ten weekend.
+
+36
+00:02:04,844 --> 00:02:08,377
+Proszę wpisać swoje imię i nazwisko w internecie.
+
+37
+00:02:08,400 --> 00:02:11,697
+Chciałbym przewodnika mówiącego po angielsku.
+
+38
+00:02:11,721 --> 00:02:15,954
+W części dotyczącej języka proszę wybrać angielski.
+
+39
+00:02:15,977 --> 00:02:18,666
+Czy przyjdzie e-mail?
+
+40
+00:02:18,689 --> 00:02:22,903
+Tak, przyjdzie e-mail z miejscem spotkania.
+
+41
+00:02:22,927 --> 00:02:25,894
+Sprawdzę e-mail i tam pójdę.
+
+42
+00:02:25,917 --> 00:02:28,974
+Dziękuję za informację o wiadomościach.
+
+43
+00:02:28,997 --> 00:02:31,770
+Miłej zabawy!
+
+44
+00:02:31,794 --> 00:02:40,803
+Transkrypcję dzisiejszego filmu można pobrać z opisu i najlepszego komentarza. Prosimy o komentarz przed pobraniem.
+
+45
+00:02:40,803 --> 00:02:42,303
+Scena 2: Rezerwacja darmowego przewodnika mówiącego po angielsku
+
+46
+00:02:42,303 --> 00:02:44,073
+Przepraszam.
+
+47
+00:02:44,096 --> 00:02:48,916
+Chciałbym zarezerwować darmową wycieczkę z przewodnikiem mówiącym po angielsku.
+
+48
+00:02:48,940 --> 00:02:50,606
+Dzień dobry.
+
+49
+00:02:50,629 --> 00:02:53,034
+To punkt informacji o wycieczkach z przewodnikiem.
+
+50
+00:02:53,058 --> 00:02:56,748
+Czy jest dostępna jutrzejsza poranna wycieczka?
+
+51
+00:02:56,771 --> 00:02:58,238
+Tak.
+
+52
+00:02:58,261 --> 00:03:02,140
+Jutro o 10:00 rano mamy wycieczkę.
+
+53
+00:03:02,163 --> 00:03:05,196
+Co będziemy zwiedzać?
+
+54
+00:03:05,219 --> 00:03:08,886
+Uliczki Asakusy i świątynię Sensō-ji.
+
+55
+00:03:08,909 --> 00:03:11,709
+Ile godzin potrwa wycieczka?
+
+56
+00:03:11,732 --> 00:03:14,265
+Około 2 godzin.
+
+57
+00:03:14,288 --> 00:03:16,925
+Czy przewodnik mówi po angielsku?
+
+58
+00:03:16,949 --> 00:03:18,482
+Tak.
+
+59
+00:03:18,505 --> 00:03:20,972
+Tak, osoba mówiąca po angielsku.
+
+60
+00:03:20,995 --> 00:03:24,533
+Czy usługa przewodnika jest darmowa?
+
+61
+00:03:24,556 --> 00:03:25,889
+Tak.
+
+62
+00:03:25,912 --> 00:03:28,048
+Tak, jest darmowa.
+
+63
+00:03:28,072 --> 00:03:30,115
+To świetnie!
+
+64
+00:03:30,138 --> 00:03:34,230
+Proszę opłacić tylko bilety komunikacji miejskiej i opłaty za wejście.
+
+65
+00:03:34,254 --> 00:03:36,287
+Rozumiem.
+
+66
+00:03:36,310 --> 00:03:38,512
+Idziemy we dwoje.
+
+67
+00:03:38,536 --> 00:03:41,411
+Proszę wpisać swoje imię na kartce.
+
+68
+00:03:41,435 --> 00:03:45,568
+Zapiszę swoje imię i imię przyjaciela.
+
+69
+00:03:45,591 --> 00:03:48,424
+Proszę również wpisać nazwę hotelu.
+
+70
+00:03:48,447 --> 00:03:51,332
+Nazwę hotelu już zapisałam.
+
+71
+00:03:51,355 --> 00:03:53,235
+Potwierdzono.
+
+72
+00:03:53,258 --> 00:03:55,125
+Dziękuję bardzo.
+
+73
+00:03:55,148 --> 00:03:58,916
+Gdzie się jutro spotykamy?
+
+74
+00:03:58,939 --> 00:04:03,873
+Proszę przyjść jutro o 9:50 przed czerwoną flagę.
+
+75
+00:04:03,896 --> 00:04:06,062
+Przed czerwoną flagą, tak?
+
+76
+00:04:06,085 --> 00:04:07,862
+Rozumiem.
+
+77
+00:04:07,886 --> 00:04:11,302
+Przewodnik będzie trzymał tabliczkę.
+
+78
+00:04:11,326 --> 00:04:13,693
+Czy iść w adidasach?
+
+79
+00:04:13,716 --> 00:04:15,082
+Tak.
+
+80
+00:04:15,105 --> 00:04:17,872
+Proszę założyć wygodne buty do chodzenia.
+
+81
+00:04:17,895 --> 00:04:20,895
+Wezmę też wodę i czapkę.
+
+82
+00:04:20,918 --> 00:04:24,566
+Ponieważ będzie gorąco, proszę pić wodę.
+
+83
+00:04:24,589 --> 00:04:28,163
+Czy przewodnik może zrobić nam zdjęcia?
+
+84
+00:04:28,187 --> 00:04:29,557
+Tak.
+
+85
+00:04:29,580 --> 00:04:32,747
+Przewodnik zrobi dużo zdjęć.
+
+86
+00:04:32,770 --> 00:04:35,807
+Nie mogę się doczekać, aby posłuchać o historii.
+
+87
+00:04:35,830 --> 00:04:39,066
+Poznasz wiele ciekawych faktów historycznych.
+
+88
+00:04:39,089 --> 00:04:41,823
+Chciałabym też poznać dobre restauracje.
+
+89
+00:04:41,846 --> 00:04:45,279
+Przewodnik poleci np. restaurację z ramenem.
+
+90
+00:04:45,302 --> 00:04:48,035
+Czy mogę dostać ulotkę?
+
+91
+00:04:48,058 --> 00:04:49,492
+Tak.
+
+92
+00:04:49,516 --> 00:04:51,994
+Przekażę ulotkę z informacjami.
+
+93
+00:04:52,018 --> 00:04:54,664
+Będę o nią dbać.
+
+94
+00:04:54,688 --> 00:04:57,984
+Czekamy jutro o 9:50.
+
+95
+00:04:58,007 --> 00:04:59,774
+Dziękuję bardzo.
+
+96
+00:04:59,797 --> 00:05:01,763
+Czekamy na Państwa.
+
+97
+00:05:01,786 --> 00:05:08,891
+Link do strony, gdzie można powtórzyć dzisiejszy materiał wideo, znajduje się w opisie oraz w pierwszym komentarzu. *Strona może zostać usunięta bez wcześniejszego powiadomienia.
+
+98
+00:05:08,891 --> 00:05:10,391
+Scena 3: Jak zgłosić przeprowadzkę / How to Register Your Move
+
+99
+00:05:10,391 --> 00:05:12,325
+Przepraszam.
+
+100
+00:05:12,348 --> 00:05:15,840
+Chciałbym zgłosić przeprowadzkę.
+
+101
+00:05:15,864 --> 00:05:17,000
+Tak.
+
+102
+00:05:17,023 --> 00:05:19,714
+Proszę podejść do tego okienka.
+
+103
+00:05:19,738 --> 00:05:23,105
+Przeprowadziłem się do nowego miasta.
+
+104
+00:05:23,128 --> 00:05:27,867
+Proszę wpisać nowy adres na tej kartce.
+
+105
+00:05:27,891 --> 00:05:30,373
+Czy mam wpisać go kanji?
+
+106
+00:05:30,397 --> 00:05:33,930
+Proszę wpisać kanji i katakaną.
+
+107
+00:05:33,953 --> 00:05:36,720
+Czy mam wpisać też numer mieszkania?
+
+108
+00:05:36,743 --> 00:05:38,310
+Tak.
+
+109
+00:05:38,333 --> 00:05:41,145
+Proszę wpisać również numer mieszkania.
+
+110
+00:05:41,168 --> 00:05:44,137
+Czy mam wpisać też datę przeprowadzki?
+
+111
+00:05:44,161 --> 00:05:45,656
+Tak.
+
+112
+00:05:45,679 --> 00:05:50,287
+Opisz dzień, w którym wprowadziłeś/aś się do nowego domu.
+
+113
+00:05:50,311 --> 00:05:53,362
+Napisałem/Napisałam: 20 lipca.
+
+114
+00:05:53,386 --> 00:05:56,453
+Czy ma pan/pani dokument z poprzedniego miasta?
+
+115
+00:05:56,476 --> 00:05:57,769
+Tak.
+
+116
+00:05:57,793 --> 00:06:01,861
+Mam dokument z poprzedniego miasta oraz kartę pobytu.
+
+117
+00:06:01,885 --> 00:06:04,724
+Otrzymam dokument i kartę.
+
+118
+00:06:04,747 --> 00:06:09,347
+Czy mam wpisać nowy adres na odwrocie karty pobytu?
+
+119
+00:06:09,370 --> 00:06:10,838
+Tak.
+
+120
+00:06:10,862 --> 00:06:14,228
+Tutaj wpiszemy nowy adres.
+
+121
+00:06:14,251 --> 00:06:18,785
+Czy muszę też zmienić adres na karcie numeru osobistego (MIC)?
+
+122
+00:06:18,807 --> 00:06:20,249
+Tak.
+
+123
+00:06:20,273 --> 00:06:22,207
+Zmienimy go razem.
+
+124
+00:06:22,230 --> 00:06:24,630
+Proszę okazać kartę.
+
+125
+00:06:24,653 --> 00:06:27,086
+Czy mam wprowadzić hasło?
+
+126
+00:06:27,109 --> 00:06:30,842
+Proszę wprowadzić czterocyfrowe hasło.
+
+127
+00:06:30,865 --> 00:06:33,232
+Hasło zostało wprowadzone.
+
+128
+00:06:33,255 --> 00:06:36,455
+Karta została zaktualizowana.
+
+129
+00:06:36,478 --> 00:06:39,811
+Czy mogę otrzymać zaświadczenie o adresie zamieszkania?
+
+130
+00:06:39,834 --> 00:06:41,401
+Tak.
+
+131
+00:06:41,425 --> 00:06:43,898
+Teraz wydam zaświadczenie o adresie.
+
+132
+00:06:43,921 --> 00:06:46,288
+Ile kosztuje jedno zaświadczenie?
+
+133
+00:06:46,311 --> 00:06:49,121
+Jedno zaświadczenie kosztuje 300 jenów.
+
+134
+00:06:49,144 --> 00:06:51,077
+Poproszę dwa.
+
+135
+00:06:51,100 --> 00:06:53,903
+Razem będzie 600 jenów.
+
+136
+00:06:53,927 --> 00:06:56,802
+Płacę gotówką 600 jenów.
+
+137
+00:06:56,826 --> 00:06:59,764
+Przekazuję dwa zaświadczenia.
+
+138
+00:06:59,787 --> 00:07:01,320
+Dziękuję bardzo.
+
+139
+00:07:01,343 --> 00:07:04,177
+Przekażę również instrukcję dotyczącą wywozu śmieci.
+
+140
+00:07:04,200 --> 00:07:07,298
+Czy mogę otrzymać tę instrukcję w języku angielskim?
+
+141
+00:07:07,321 --> 00:07:08,755
+Tak.
+
+142
+00:07:08,778 --> 00:07:11,111
+Proszę bardzo, instrukcja w języku angielskim.
+
+143
+00:07:11,134 --> 00:07:13,414
+Wystawiam zgodnie z dniami odbioru.
+
+144
+00:07:13,437 --> 00:07:16,171
+Proszę sprawdzić dni odbioru.
+
+145
+00:07:16,194 --> 00:07:18,827
+Dziękuję za pomoc.
+
+146
+00:07:18,850 --> 00:07:22,326
+Życzę udanego nowego życia!
+
+147
+00:07:22,349 --> 00:07:23,849
+Scena 4: Procedura odbioru karty numeru osobistego (MIC)
+
+148
+00:07:23,849 --> 00:07:26,016
+Przepraszam.
+
+149
+00:07:26,039 --> 00:07:29,442
+Chciałbym/Chciałabym odebrać kartę numeru osobistego (MIC).
+
+150
+00:07:29,465 --> 00:07:32,032
+Proszę udać się do okienka obsługi kart.
+
+151
+00:07:32,055 --> 00:07:34,730
+Otrzymałem/Otrzymałam różową pocztówkę.
+
+152
+00:07:34,753 --> 00:07:36,820
+Odbieram pocztówkę.
+
+153
+00:07:36,843 --> 00:07:39,488
+Czy ma pan/pani kartę pobytu?
+
+154
+00:07:39,511 --> 00:07:42,678
+Mam kartę pobytu i paszport.
+
+155
+00:07:42,701 --> 00:07:44,308
+Sprawdziłem/Sprawdziłam.
+
+156
+00:07:44,331 --> 00:07:45,944
+Wszystko w porządku.
+
+157
+00:07:45,967 --> 00:07:49,167
+Napisałem/Napisałam imię na odwrocie pocztówki.
+
+158
+00:07:49,190 --> 00:07:50,969
+Dziękuję bardzo.
+
+159
+00:07:50,993 --> 00:07:53,726
+Czy ustalamy hasło?
+
+160
+00:07:53,749 --> 00:07:54,818
+Tak.
+
+161
+00:07:54,842 --> 00:07:57,242
+Proszę ustalić hasło.
+
+162
+00:07:57,265 --> 00:08:00,065
+Ile haseł potrzebuję?
+
+163
+00:08:00,088 --> 00:08:05,254
+Czterocyfrowe hasło oraz hasło składające się z liter i cyfr.
+
+164
+00:08:05,277 --> 00:08:09,089
+Czy czterocyfrowe hasło będzie używane w sklepach convenience?
+
+165
+00:08:09,113 --> 00:08:10,086
+Tak.
+
+166
+00:08:10,109 --> 00:08:14,243
+Tak, używa się go np. przy wydawaniu zaświadczeń o adresie w sklepach convenience.
+
+167
+00:08:14,266 --> 00:08:17,068
+Wprowadzę czterocyfrowe hasło.
+
+168
+00:08:17,091 --> 00:08:19,110
+Proszę wprowadzić je na ekranie.
+
+169
+00:08:19,133 --> 00:08:20,700
+Wprowadziłem/Wprowadziłam.
+
+170
+00:08:20,723 --> 00:08:23,798
+Teraz czas na dłuższe hasło.
+
+171
+00:08:23,821 --> 00:08:25,056
+Tak.
+
+172
+00:08:25,080 --> 00:08:27,715
+Proszę wprowadzić hasło składające się z liter i cyfr.
+
+173
+00:08:27,739 --> 00:08:29,911
+Hasło zostało wprowadzone.
+
+174
+00:08:29,934 --> 00:08:31,934
+Skończyło się.
+
+175
+00:08:31,957 --> 00:08:33,690
+Zapiszę to w notatkach.
+
+176
+00:08:33,713 --> 00:08:36,480
+Proszę to dobrze przechowywać.
+
+177
+00:08:36,503 --> 00:08:38,750
+Do kiedy ważna jest ta karta?
+
+178
+00:08:38,773 --> 00:08:44,251
+Do tego samego dnia co karta pobytu.
+
+179
+00:08:44,275 --> 00:08:46,242
+Co zrobić, gdy karta pobytu zostanie wymieniona na nową?
+
+180
+00:08:46,265 --> 00:08:48,832
+Też trzeba będzie wymienić tę kartę na nową.
+
+181
+00:08:48,855 --> 00:08:52,988
+Czy wtedy muszę przyjść do urzędu dzielnicy?
+
+182
+00:08:53,011 --> 00:08:54,186
+Tak.
+
+183
+00:08:54,209 --> 00:08:56,083
+Proszę przyjść.
+
+184
+00:08:56,107 --> 00:08:57,574
+Rozumiem.
+
+185
+00:08:57,597 --> 00:09:00,637
+Na koniec sprawdzę twarz.
+
+186
+00:09:00,660 --> 00:09:03,060
+Zdjąć maseczkę?
+
+187
+00:09:03,083 --> 00:09:04,250
+Tak.
+
+188
+00:09:04,273 --> 00:09:08,106
+Proszę patrzeć w kamerę i zdjąć maseczkę.
+
+189
+00:09:08,129 --> 00:09:09,701
+Zdjąłem.
+
+190
+00:09:09,724 --> 00:09:11,024
+Tak.
+
+191
+00:09:11,047 --> 00:09:12,714
+Potwierdzono.
+
+192
+00:09:12,737 --> 00:09:14,782
+Teraz przekażę kartę.
+
+193
+00:09:14,805 --> 00:09:16,810
+Otrzymałem kartę.
+
+194
+00:09:16,834 --> 00:09:19,967
+Ta karta może być też używana jako karta do szpitala.
+
+195
+00:09:19,991 --> 00:09:22,563
+Można jej używać w szpitalu.
+
+196
+00:09:22,587 --> 00:09:24,191
+To wygodne!
+
+197
+00:09:24,214 --> 00:09:26,427
+Proszę też korzystać z aplikacji.
+
+198
+00:09:26,450 --> 00:09:28,817
+Zainstaluję aplikację.
+
+199
+00:09:28,840 --> 00:09:31,718
+Gdy ją zgubisz, proszę zadzwonić.
+
+200
+00:09:31,742 --> 00:09:33,624
+Włożę ją do portfela.
+
+201
+00:09:33,648 --> 00:09:35,983
+Dziękuję bardzo.
+
+202
+00:09:36,006 --> 00:09:37,506
+Scena 5: Informacje o kursie języka japońskiego / Wprowadzenie do kursu języka japońskiego
+
+203
+00:09:37,506 --> 00:09:39,483
+Przepraszam.
+
+204
+00:09:39,506 --> 00:09:43,673
+Proszę opowiedzieć o kursie języka japońskiego.
+
+205
+00:09:43,696 --> 00:09:44,786
+Oczywiście,
+
+206
+00:09:44,810 --> 00:09:48,223
+Oto informacje o kursie języka japońskiego.
+
+207
+00:09:48,246 --> 00:09:53,057
+Czy tutaj można uczyć się japońskiego?
+
+208
+00:09:53,080 --> 00:09:54,366
+Oczywiście,
+
+209
+00:09:54,389 --> 00:09:58,127
+Zajęcia odbywają się w każdą sobotę.
+
+210
+00:09:58,151 --> 00:10:00,888
+Od której godziny są zajęcia?
+
+211
+00:10:00,911 --> 00:10:05,550
+Od 10:00 do 11:30 rano.
+
+212
+00:10:05,574 --> 00:10:08,040
+Ile kosztuje?
+
+213
+00:10:08,063 --> 00:10:10,997
+Zajęcia są bezpłatne.
+
+214
+00:10:11,020 --> 00:10:12,864
+Bezpłatne?
+
+215
+00:10:12,887 --> 00:10:14,978
+To świetnie!
+
+216
+00:10:15,001 --> 00:10:19,614
+Tylko za podręcznik trzeba zapłacić 500 jenów.
+
+217
+00:10:19,637 --> 00:10:21,448
+500 jenów, rozumiem.
+
+218
+00:10:21,471 --> 00:10:24,205
+Jaki to podręcznik?
+
+219
+00:10:24,228 --> 00:10:29,233
+To podręcznik dla początkujących, na poziomie N5.
+
+220
+00:10:29,256 --> 00:10:33,056
+Czy można uczyć się od hiragany?
+
+221
+00:10:33,079 --> 00:10:34,957
+Oczywiście,
+
+222
+00:10:34,981 --> 00:10:37,648
+Oczywiście, nauczymy od hiragany.
+
+223
+00:10:37,671 --> 00:10:40,568
+Czy nauczyciele są wolontariuszami?
+
+224
+00:10:40,591 --> 00:10:42,524
+Oczywiście,
+
+225
+00:10:42,547 --> 00:10:45,914
+Tak, to mili nauczyciele-wolontariusze.
+
+226
+00:10:45,937 --> 00:10:48,504
+Czy jest tylko jeden nauczyciel?
+
+227
+00:10:48,527 --> 00:10:53,368
+Na dwóch uczniów przypada jeden nauczyciel.
+
+228
+00:10:53,391 --> 00:10:56,027
+To dobrze, że można zadawać pytania.
+
+229
+00:10:56,050 --> 00:10:59,858
+Będzie dużo okazji do ćwiczenia mówienia.
+
+230
+00:10:59,882 --> 00:11:02,759
+Czy mogę przyjść z dzieckiem?
+
+231
+00:11:02,782 --> 00:11:04,516
+Oczywiście,
+
+232
+00:11:04,539 --> 00:11:07,432
+Jest miejsce, gdzie dzieci mogą się bawić.
+
+233
+00:11:07,455 --> 00:11:10,501
+Można przyjść bez obaw.
+
+234
+00:11:10,525 --> 00:11:14,006
+Można też przyjść i zobaczyć, jak wyglądają zajęcia.
+
+235
+00:11:14,029 --> 00:11:16,432
+Chciałbym obejrzeć w sobotę.
+
+236
+00:11:16,456 --> 00:11:19,462
+Możesz obejrzeć w dowolnym momencie.
+
+237
+00:11:19,486 --> 00:11:23,381
+Przyjdę w tę sobotę o 10:00.
+
+238
+00:11:23,404 --> 00:11:28,138
+Proszę przyjść do okienka o 9:45.
+
+239
+00:11:28,161 --> 00:11:30,235
+Czy mam wpisać swoje imię?
+
+240
+00:11:30,258 --> 00:11:31,825
+Oczywiście,
+
+241
+00:11:31,848 --> 00:11:36,621
+Proszę wpisać na tym formularzu swoje imię i numer telefonu.
+
+242
+00:11:36,645 --> 00:11:39,616
+Imię i numer telefonu, tak?
+
+243
+00:11:39,639 --> 00:11:41,806
+Napisałem.
+
+244
+00:11:41,829 --> 00:11:43,429
+Dziękuję bardzo.
+
+245
+00:11:43,452 --> 00:11:46,629
+Nie mogę się doczekać, aż pójdę do klasy.
+
+246
+00:11:46,652 --> 00:11:50,019
+Bawmy się ucząc japońskiego!
+
+247
+00:11:50,042 --> 00:11:53,209
+Czy mogę przyjść z przyjacielem?
+
+248
+00:11:53,233 --> 00:11:54,866
+Oczywiście,
+
+249
+00:11:54,889 --> 00:11:57,184
+Proszę przyjść z przyjacielem.
+
+250
+00:11:57,208 --> 00:11:58,902
+Dziękuję bardzo.
+
+251
+00:11:58,925 --> 00:12:02,658
+Czekam na Ciebie w sobotę.
+
+252
+00:12:02,681 --> 00:12:03,681
+Oczywiście,
+
+253
+00:12:03,704 --> 00:12:05,985
+Przyjdę w sobotę.
+
+254
+00:12:06,009 --> 00:12:07,862
+Do widzenia.
+
+255
+00:12:07,885 --> 00:12:09,385
+Scena 6: Rezerwacja bagażu w Shinkansen / Zasady rezerwacji bagażu w pociągu Shinkansen
+
+256
+00:12:09,385 --> 00:12:12,919
+Widziałeś dzisiejsze poranne wiadomości?
+
+257
+00:12:12,942 --> 00:12:16,075
+Nie, nie widziałem.
+
+258
+00:12:16,098 --> 00:12:20,331
+Nowości dotyczące dużego bagażu w Shinkansen.
+
+259
+00:12:20,354 --> 00:12:22,888
+Jakie to nowości?
+
+260
+00:12:22,911 --> 00:12:27,890
+Duże walizki wymagają rezerwacji.
+
+261
+00:12:27,913 --> 00:12:31,331
+Czy rezerwacji dokonuje się przed wejściem do pociągu?
+
+262
+00:12:31,355 --> 00:12:34,767
+Tak, rezerwacja jest wymagana.
+
+263
+00:12:34,790 --> 00:12:39,023
+Co się stanie, jeśli zapomnę zarezerwować?
+
+264
+00:12:39,046 --> 00:12:41,980
+Trzeba zapłacić 1000 jenów.
+
+265
+00:12:42,003 --> 00:12:45,010
+1000 jenów to dużo, prawda?
+
+266
+00:12:45,033 --> 00:12:48,600
+Tak, proszę uważać.
+
+267
+00:12:48,624 --> 00:12:51,500
+Gdzie mogę dokonać rezerwacji?
+
+268
+00:12:51,524 --> 00:12:54,800
+Rezerwacji można dokonać przy okienku.
+
+269
+00:12:54,823 --> 00:12:59,057
+Czy mogę zarezerwować także w automacie biletowym?
+
+270
+00:12:59,080 --> 00:13:03,564
+Tak, rezerwacji można dokonać także w automacie biletowym.
+
+271
+00:13:03,587 --> 00:13:06,220
+Czy można to zrobić przez internet?
+
+272
+00:13:06,243 --> 00:13:10,510
+Tak, można zarezerwować także przez smartfon.
+
+273
+00:13:10,533 --> 00:13:13,699
+Gdzie mam położyć bagaż?
+
+274
+00:13:13,722 --> 00:13:17,335
+Za ostatnim rzędem siedzeń.
+
+275
+00:13:17,359 --> 00:13:21,126
+To miejsce na duży bagaż, prawda?
+
+276
+00:13:21,149 --> 00:13:24,715
+Tak, dokładnie tam.
+
+277
+00:13:24,738 --> 00:13:28,472
+Czy za to miejsce trzeba płacić więcej?
+
+278
+00:13:28,495 --> 00:13:31,380
+Nie, jest darmowe.
+
+279
+00:13:31,403 --> 00:13:35,136
+Darmowe? To dobrze się słyszy.
+
+280
+00:13:35,159 --> 00:13:38,036
+A co z miejscami bez rezerwacji?
+
+281
+00:13:38,060 --> 00:13:40,894
+Miejsca bez rezerwacji nie są dozwolone.
+
+282
+00:13:40,917 --> 00:13:44,574
+W takim razie kupię miejsce z rezerwacją.
+
+283
+00:13:44,597 --> 00:13:47,997
+Proszę kupić miejsce z rezerwacją.
+
+284
+00:13:48,020 --> 00:13:52,687
+Zmierzę w domu rozmiar mojego bagażu.
+
+285
+00:13:52,710 --> 00:13:56,889
+Do 160 cm rezerwacja nie jest wymagana.
+
+286
+00:13:56,913 --> 00:14:01,480
+W takim przypadku położę go na górnej półce.
+
+287
+00:14:01,503 --> 00:14:04,240
+Tak, proszę położyć na górze.
+
+288
+00:14:04,263 --> 00:14:05,946
+Rozumiem.
+
+289
+00:14:05,969 --> 00:14:07,836
+Dobrze.
+
+290
+00:14:07,859 --> 00:14:09,592
+Będę uważał.
+
+291
+00:14:09,615 --> 00:14:12,817
+Miłej podróży!
+
+292
+00:14:12,841 --> 00:14:14,848
+Dziękuję bardzo.
+
+293
+00:14:14,872 --> 00:14:16,605
+Wychodzę.
+
+294
+00:14:16,628 --> 00:14:18,862
+Udanego dnia!
+
+295
+00:14:18,885 --> 00:14:20,385
+Scena 7: Jak kupić bilet na pociąg / How to Buy a Train Ticket
+
+296
+00:14:20,385 --> 00:14:22,060
+Przepraszam.
+
+297
+00:14:22,083 --> 00:14:24,725
+Chciałbym/chciałabym kupić bilet.
+
+298
+00:14:24,748 --> 00:14:26,382
+Dzień dobry.
+
+299
+00:14:26,405 --> 00:14:28,771
+Dokąd pan/pani jedzie?
+
+300
+00:14:28,794 --> 00:14:32,165
+Z Tokio do Kioto.
+
+301
+00:14:32,189 --> 00:14:34,756
+O której godzinie chce pan/pani jechać dzisiaj?
+
+302
+00:14:34,779 --> 00:14:38,312
+Poproszę o pociąg o 10:00 rano.
+
+303
+00:14:38,335 --> 00:14:39,902
+Tak.
+
+304
+00:14:39,925 --> 00:14:43,613
+Mamy pociąg Nozomi o 10:07.
+
+305
+00:14:43,636 --> 00:14:45,836
+Dwie osoby dorosłe.
+
+306
+00:14:45,859 --> 00:14:47,293
+Tak.
+
+307
+00:14:47,316 --> 00:14:48,920
+Miejsca zarezerwowane, tak?
+
+308
+00:14:48,943 --> 00:14:52,677
+Mam dwie duże walizki.
+
+309
+00:14:52,700 --> 00:14:56,833
+Czy bagaż ma więcej niż 160 cm?
+
+310
+00:14:56,856 --> 00:14:58,223
+Tak.
+
+311
+00:14:58,246 --> 00:15:01,012
+Ma 180 cm.
+
+312
+00:15:01,035 --> 00:15:04,878
+W takim razie przydzielę miejsca dla dużego bagażu.
+
+313
+00:15:04,902 --> 00:15:07,573
+Jakie to są miejsca?
+
+314
+00:15:07,597 --> 00:15:10,453
+To ostatnie miejsca w pociągu.
+
+315
+00:15:10,476 --> 00:15:14,076
+Za siedzeniami można postawić bagaż.
+
+316
+00:15:14,099 --> 00:15:16,739
+Czy to będzie drożej kosztować?
+
+317
+00:15:16,762 --> 00:15:19,647
+Nie, cena jest taka sama.
+
+318
+00:15:19,671 --> 00:15:21,748
+Taka sama cena?
+
+319
+00:15:21,772 --> 00:15:23,779
+To świetnie!
+
+320
+00:15:23,802 --> 00:15:26,936
+Przydzielę miejsca D i E.
+
+321
+00:15:26,959 --> 00:15:29,374
+To są miejsca obok siebie.
+
+322
+00:15:29,397 --> 00:15:32,335
+Wolałbym/wolałabym miejsce przy oknie.
+
+323
+00:15:32,358 --> 00:15:35,170
+Miejsce E jest przy oknie.
+
+324
+00:15:35,193 --> 00:15:38,281
+Poproszę o te miejsca.
+
+325
+00:15:38,305 --> 00:15:41,472
+To będzie 14 000 jenów za osobę.
+
+326
+00:15:41,495 --> 00:15:44,392
+Razem 28 000 jenów za dwie osoby, tak?
+
+327
+00:15:44,416 --> 00:15:45,709
+Tak.
+
+328
+00:15:45,732 --> 00:15:48,299
+Tak, 28 000 jenów.
+
+329
+00:15:48,322 --> 00:15:50,289
+Zapłacę kartą.
+
+330
+00:15:50,312 --> 00:15:53,602
+Proszę przyłożyć kartę tutaj.
+
+331
+00:15:53,625 --> 00:15:54,825
+Tak.
+
+332
+00:15:54,848 --> 00:15:57,421
+Wyjdą cztery bilety.
+
+333
+00:15:57,445 --> 00:15:59,582
+Dwa bilety na osobę, tak?
+
+334
+00:15:59,605 --> 00:16:00,901
+Tak.
+
+335
+00:16:00,924 --> 00:16:04,339
+Proszę włożyć oba bilety razem do bramki.
+
+336
+00:16:04,363 --> 00:16:05,999
+Rozumiem.
+
+337
+00:16:06,022 --> 00:16:07,869
+Włożę oba.
+
+338
+00:16:07,893 --> 00:16:11,362
+Pociąg odjeżdża z peronu 16.
+
+339
+00:16:11,386 --> 00:16:14,031
+Gdzie mam położyć bagaż?
+
+340
+00:16:14,054 --> 00:16:17,288
+Proszę postawić bagaż za swoim miejscem.
+
+341
+00:16:17,311 --> 00:16:18,444
+Tak.
+
+342
+00:16:18,467 --> 00:16:20,555
+Postawię za siedzeniem.
+
+343
+00:16:20,579 --> 00:16:24,184
+Proszę napisać swoje imię na bagażu.
+
+344
+00:16:24,207 --> 00:16:25,374
+Tak.
+
+345
+00:16:25,397 --> 00:16:27,771
+Przyczepię kartkę z imieniem.
+
+346
+00:16:27,794 --> 00:16:29,761
+To wszystko.
+
+347
+00:16:29,784 --> 00:16:31,451
+Dziękuję bardzo.
+
+348
+00:16:31,474 --> 00:16:34,147
+Życzę miłej podróży!
+
+349
+00:16:34,171 --> 00:16:35,671
+Scena 8: Jak zmienić godzinę biletu / How to Change Your Train Ticket Time
+
+350
+00:16:35,671 --> 00:16:41,004
+Przepraszam, chciałbym/chciałabym zmienić godzinę biletu.
+
+351
+00:16:41,027 --> 00:16:45,106
+Tak, można to zrobić przy tamtej maszynie.
+
+352
+00:16:45,130 --> 00:16:50,263
+Nacisnę „English” na ekranie.
+
+353
+00:16:50,286 --> 00:16:53,890
+Tak, teraz ekran jest po angielsku.
+
+354
+00:16:53,914 --> 00:16:57,767
+Naciskam „Zmień godzinę”.
+
+355
+00:16:57,791 --> 00:17:03,087
+Dobrze. Następnie proszę włożyć posiadany bilet.
+
+356
+00:17:03,110 --> 00:17:05,977
+Włożę go tutaj.
+
+357
+00:17:06,000 --> 00:17:09,538
+Tak, bilet został wprowadzony.
+
+358
+00:17:09,561 --> 00:17:14,596
+Zmieniam pociąg z 11:00 na 12:00.
+
+359
+00:17:14,619 --> 00:17:17,597
+Pierwsza zmiana jest bezpłatna.
+
+360
+00:17:17,621 --> 00:17:19,387
+Bezpłatne?
+
+361
+00:17:19,410 --> 00:17:21,777
+To świetnie!
+
+362
+00:17:21,800 --> 00:17:25,210
+Proszę wybrać pociąg o 12:00.
+
+363
+00:17:25,233 --> 00:17:29,636
+Wybieram pociąg Nozomi o 12:05.
+
+364
+00:17:29,659 --> 00:17:32,798
+Czy ma pan/pani duży bagaż?
+
+365
+00:17:32,822 --> 00:17:37,316
+Tak, mam bardzo duży bagaż.
+
+366
+00:17:37,339 --> 00:17:42,106
+Proszę nacisnąć przycisk dla miejsc z dużym bagażem.
+
+367
+00:17:42,129 --> 00:17:44,781
+Tak, nacisnąłem/nacisnęłam.
+
+368
+00:17:44,804 --> 00:17:50,804
+Miejsca 15D i 15E z tyłu są wolne.
+
+369
+00:17:50,827 --> 00:17:54,760
+Wybieram miejsca 15D i 15E.
+
+370
+00:17:54,783 --> 00:17:58,021
+To miejsca z miejscem za nimi na bagaż, prawda?
+
+371
+00:17:58,045 --> 00:18:01,479
+Proszę nacisnąć przycisk potwierdzenia.
+
+372
+00:18:01,501 --> 00:18:03,068
+Nacisnąłem/nacisnęłam.
+
+373
+00:18:03,091 --> 00:18:05,986
+Czy to będzie kosztować?
+
+374
+00:18:06,010 --> 00:18:09,029
+Nie, nie będzie kosztować.
+
+375
+00:18:09,052 --> 00:18:11,185
+Dobrze.
+
+376
+00:18:11,208 --> 00:18:14,475
+Nowy bilet zaraz wyjdzie.
+
+377
+00:18:14,498 --> 00:18:16,665
+Bilet już wyszedł.
+
+378
+00:18:16,688 --> 00:18:20,654
+Stary bilet zostanie wciągnięty do maszyny.
+
+379
+00:18:20,677 --> 00:18:26,811
+Na nowym bilecie jest napisane „duży bagaż”.
+
+380
+00:18:26,834 --> 00:18:29,567
+Wszystko poszło poprawnie.
+
+381
+00:18:29,590 --> 00:18:33,323
+Do odjazdu pociągu pozostała godzina.
+
+382
+00:18:33,346 --> 00:18:36,039
+Proszę odpocząć w kawiarni.
+
+383
+00:18:36,062 --> 00:18:38,940
+Kupię herbatę i poczekam.
+
+384
+00:18:38,964 --> 00:18:42,968
+Pociąg odjeżdża z peronu 16.
+
+385
+00:18:42,992 --> 00:18:46,562
+Tak, idę na peron 16.
+
+386
+00:18:46,586 --> 00:18:50,828
+Proszę włożyć nowy bilet do bramki.
+
+387
+00:18:50,851 --> 00:18:52,823
+Rozumiem.
+
+388
+00:18:52,847 --> 00:18:58,013
+Proszę położyć bagaż za miejscem 15.
+
+389
+00:18:58,036 --> 00:19:00,674
+Tak, zapamiętam.
+
+390
+00:19:00,697 --> 00:19:03,180
+Do widzenia, szczęśliwej podróży.
+
+391
+00:19:03,204 --> 00:19:04,704
+Scena 9: Jak umieścić bagaż przy siedzeniu / Jak przechowywać bagaż przy swoim miejscu
+
+392
+00:19:04,704 --> 00:19:06,538
+Przepraszam.
+
+393
+00:19:06,562 --> 00:19:10,928
+Gdzie mogę położyć duży bagaż?
+
+394
+00:19:10,951 --> 00:19:13,801
+Które miejsce pan/pani ma?
+
+395
+00:19:13,825 --> 00:19:18,625
+Miejsca 15D i 15E.
+
+396
+00:19:18,648 --> 00:19:21,685
+Za miejscem 15.
+
+397
+00:19:21,708 --> 00:19:24,515
+Za siedzeniem, tak?
+
+398
+00:19:24,539 --> 00:19:25,872
+Oczywiście,
+
+399
+00:19:25,895 --> 00:19:29,179
+Proszę tam postawić walizkę.
+
+400
+00:19:29,203 --> 00:19:32,272
+Czy zmieszczą się dwie walizki?
+
+401
+00:19:32,295 --> 00:19:33,582
+Oczywiście,
+
+402
+00:19:33,605 --> 00:19:36,438
+Tak, zmieszczą się dwie.
+
+403
+00:19:36,461 --> 00:19:38,530
+Czy nie przewrócą się?
+
+404
+00:19:38,554 --> 00:19:41,032
+Proszę zablokować kółka.
+
+405
+00:19:41,055 --> 00:19:42,702
+Zablokowałem/zablokowałam.
+
+406
+00:19:42,726 --> 00:19:45,560
+Teraz jest bezpiecznie.
+
+407
+00:19:45,583 --> 00:19:48,755
+Czy zamknąć bagaż na klucz?
+
+408
+00:19:48,778 --> 00:19:52,218
+Proszę zamknąć na klucz, bo się martwię.
+
+409
+00:19:52,242 --> 00:19:53,575
+Oczywiście,
+
+410
+00:19:53,598 --> 00:19:55,798
+Zamknę na klucz.
+
+411
+00:19:55,821 --> 00:19:59,754
+Proszę położyć bagaż, a potem usiąść na miejscu.
+
+412
+00:19:59,777 --> 00:20:03,111
+Usiądę na miejscu 15D.
+
+413
+00:20:03,134 --> 00:20:05,667
+Proszę odpocząć.
+
+414
+00:20:05,690 --> 00:20:09,490
+Czy w pociągu jest Wi-Fi?
+
+415
+00:20:09,513 --> 00:20:10,880
+Oczywiście,
+
+416
+00:20:10,903 --> 00:20:13,269
+Dostępny jest darmowy Wi-Fi.
+
+417
+00:20:13,292 --> 00:20:16,059
+Podłączę telefon.
+
+418
+00:20:16,082 --> 00:20:19,649
+Proszę nacisnąć przycisk „Tak” na ekranie.
+
+419
+00:20:19,671 --> 00:20:22,647
+Jesteśmy już połączeni z internetem.
+
+420
+00:20:22,670 --> 00:20:26,165
+Pod nogami jest też gniazdko elektryczne.
+
+421
+00:20:26,188 --> 00:20:28,155
+Naładuję telefon.
+
+422
+00:20:28,178 --> 00:20:29,611
+Oczywiście,
+
+423
+00:20:29,634 --> 00:20:32,034
+Można naładować telefon.
+
+424
+00:20:32,057 --> 00:20:35,257
+Czy osoba sprzedająca bentō będzie przechodzić?
+
+425
+00:20:35,280 --> 00:20:38,882
+Sprzedawca przychodzi tylko do wagonów zielonych.
+
+426
+00:20:38,906 --> 00:20:43,439
+Czy mogę kupić bentō na tym miejscu?
+
+427
+00:20:43,462 --> 00:20:46,829
+Można zamówić przez telefon.
+
+428
+00:20:46,852 --> 00:20:50,885
+Skorzystamy z kodu QR przy siedzeniu.
+
+429
+00:20:50,908 --> 00:20:51,908
+Oczywiście,
+
+430
+00:20:51,931 --> 00:20:55,498
+Można też kupić lody czy kawę.
+
+431
+00:20:55,521 --> 00:20:58,454
+Kupię lody.
+
+432
+00:20:58,477 --> 00:21:01,611
+To pyszne lody z shinkansena.
+
+433
+00:21:01,634 --> 00:21:03,671
+Nie mogę się doczekać.
+
+434
+00:21:03,694 --> 00:21:07,111
+Do Kioto zostały jeszcze 2 godziny.
+
+435
+00:21:07,135 --> 00:21:09,501
+Pociąg jest taki cichy, prawda?
+
+436
+00:21:09,524 --> 00:21:12,658
+Proszę zawołać, gdy będzie pan/pani czegoś potrzebować.
+
+437
+00:21:12,681 --> 00:21:14,361
+Dziękuję bardzo.
+
+438
+00:21:14,384 --> 00:21:17,078
+Życzę miłej podróży!
+
+439
+00:21:17,102 --> 00:21:18,602
+Scena 10: Rezerwacja i opłaty za ponadgabarytowy bagaż
+
+440
+00:21:18,602 --> 00:21:23,735
+Przepraszam, nie wiem, gdzie postawić walizkę.
+
+441
+00:21:23,758 --> 00:21:26,292
+Proszę pokazać bilet.
+
+442
+00:21:26,315 --> 00:21:30,281
+Miejsce 10A w wagonie 8.
+
+443
+00:21:30,304 --> 00:21:33,104
+To naprawdę duży bagaż.
+
+444
+00:21:33,127 --> 00:21:36,460
+Tak, ma 180 centymetrów.
+
+445
+00:21:36,483 --> 00:21:41,735
+Bagaż większy niż 160 centymetrów to bagaż ponadgabarytowy.
+
+446
+00:21:41,759 --> 00:21:45,765
+Czy przed wejściem trzeba było zarezerwować miejsce?
+
+447
+00:21:45,788 --> 00:21:49,365
+Tak, rezerwacja jest wymagana.
+
+448
+00:21:49,388 --> 00:21:52,221
+Zapomniałem/zapomniałam o rezerwacji.
+
+449
+00:21:52,244 --> 00:21:56,702
+Bez rezerwacji trzeba uiścić opłatę.
+
+450
+00:21:56,726 --> 00:21:58,660
+Ile to będzie kosztować?
+
+451
+00:21:58,683 --> 00:22:01,097
+1000 jenów.
+
+452
+00:22:01,121 --> 00:22:03,454
+Płaci pan/pani gotówką?
+
+453
+00:22:03,477 --> 00:22:07,013
+Tak, zapłacę gotówką.
+
+454
+00:22:07,037 --> 00:22:09,437
+Poproszę 1000 jenów.
+
+455
+00:22:09,460 --> 00:22:11,526
+Oto paragon.
+
+456
+00:22:11,549 --> 00:22:14,216
+Dostałem/dostałam paragon.
+
+457
+00:22:14,239 --> 00:22:17,520
+Gdzie mam położyć bagaż?
+
+458
+00:22:17,544 --> 00:22:23,121
+Proszę postawić bagaż za miejscem numer 15, na samym końcu.
+
+459
+00:22:23,145 --> 00:22:26,804
+Za miejscem numer 15, tak?
+
+460
+00:22:26,827 --> 00:22:30,795
+Proszę postawić tam, gdzie jest wolne miejsce.
+
+461
+00:22:30,819 --> 00:22:33,552
+Postawiłem/postawiłam bagaż.
+
+462
+00:22:33,575 --> 00:22:35,950
+Proszę zablokować kółka.
+
+463
+00:22:35,973 --> 00:22:37,977
+Zablokowałem/zablokowałam.
+
+464
+00:22:38,001 --> 00:22:42,481
+Następnym razem proszę zarezerwować przed wejściem.
+
+465
+00:22:42,505 --> 00:22:45,238
+Czy rezerwacja jest darmowa?
+
+466
+00:22:45,261 --> 00:22:48,340
+Tak, jest darmowa.
+
+467
+00:22:48,364 --> 00:22:51,536
+Czy można zarezerwować przez internet?
+
+468
+00:22:51,559 --> 00:22:55,802
+Można zarezerwować przez internet lub aplikację.
+
+469
+00:22:55,825 --> 00:22:58,911
+Następnym razem zarezerwuję.
+
+470
+00:22:58,935 --> 00:23:05,945
+Bagażu większego niż 250 centymetrów nie można wnosić do pociągu.
+
+471
+00:23:05,968 --> 00:23:11,535
+Moja walizka ma 180 centymetrów, więc powinno być w porządku, prawda?
+
+472
+00:23:11,559 --> 00:23:14,613
+Tak, wszystko w porządku.
+
+473
+00:23:14,637 --> 00:23:17,323
+Wracam na swoje miejsce.
+
+474
+00:23:17,346 --> 00:23:21,785
+Proszę wrócić na miejsce 10A w wagonie nr 8.
+
+475
+00:23:21,809 --> 00:23:25,542
+Korzystam z Wi-Fi w pociągu.
+
+476
+00:23:25,565 --> 00:23:28,931
+Po naciśnięciu „Tak” połączy się.
+
+477
+00:23:28,954 --> 00:23:30,621
+Dziękuję bardzo.
+
+478
+00:23:30,645 --> 00:23:32,978
+Proszę odpocząć.
+
+479
+00:23:33,001 --> 00:23:36,207
+Tak, dziękuję bardzo.
+
+480
+00:23:36,230 --> 00:23:39,230
+Przepraszam.
+
+481
+00:23:39,253 --> 00:23:40,753
+Scena 11: Czym jest schronienie chłodzące? / What is a Cooling Shelter?
+
+482
+00:23:40,753 --> 00:23:44,153
+Widziałeś dzisiejsze poranne wiadomości?
+
+483
+00:23:44,176 --> 00:23:47,576
+Nie, nie widziałem.
+
+484
+00:23:47,599 --> 00:23:50,811
+Wiadomości o schronieniach chłodzących.
+
+485
+00:23:50,834 --> 00:23:54,471
+Co to jest schronienie chłodzące?
+
+486
+00:23:54,494 --> 00:23:59,828
+To chłodne miejsce, gdzie można odpocząć za darmo.
+
+487
+00:23:59,852 --> 00:24:03,052
+Darmowe chłodne miejsce?
+
+488
+00:24:03,074 --> 00:24:04,885
+Brzmi świetnie!
+
+489
+00:24:04,909 --> 00:24:07,243
+Gdzie się znajdują?
+
+490
+00:24:07,266 --> 00:24:10,555
+Są w bibliotekach i domach towarowych.
+
+491
+00:24:10,578 --> 00:24:13,858
+Czy można wejść bez ograniczeń?
+
+492
+00:24:13,881 --> 00:24:17,653
+Tak, każdy może wejść.
+
+493
+00:24:17,676 --> 00:24:20,843
+Jakie mają oznaczenia?
+
+494
+00:24:20,867 --> 00:24:23,515
+Jest niebieska naklejka.
+
+495
+00:24:23,539 --> 00:24:26,574
+Poszukam tej naklejki.
+
+496
+00:24:26,597 --> 00:24:30,731
+Na zewnątrz jest bardzo gorąco, więc proszę uważać.
+
+497
+00:24:30,754 --> 00:24:33,887
+W upalne dni też będzie dobrze.
+
+498
+00:24:33,910 --> 00:24:36,443
+Czy jest też woda?
+
+499
+00:24:36,466 --> 00:24:39,799
+Tak, jest zimna woda.
+
+500
+00:24:39,822 --> 00:24:43,056
+Czy można też usiąść na krześle?
+
+501
+00:24:43,079 --> 00:24:46,699
+Tak, można odpocząć na krześle.
+
+502
+00:24:46,723 --> 00:24:49,809
+W upalne dni też można czuć się bezpiecznie.
+
+503
+00:24:49,833 --> 00:24:54,288
+Jeśli źle się poczujesz, od razu wejdź do środka.
+
+504
+00:24:54,311 --> 00:24:58,045
+Czy są też w Asakusa i Ginza?
+
+505
+00:24:58,068 --> 00:25:01,468
+Tak, jest ich dużo.
+
+506
+00:25:01,491 --> 00:25:04,458
+Czy można wypożyczyć parasol przeciwsłoneczny?
+
+507
+00:25:04,481 --> 00:25:09,014
+W punkcie informacyjnym można wypożyczyć za darmo.
+
+508
+00:25:09,037 --> 00:25:12,004
+Parasol przeciwsłoneczny to świetny pomysł.
+
+509
+00:25:12,027 --> 00:25:14,994
+Proszę też założyć czapkę.
+
+510
+00:25:15,017 --> 00:25:17,711
+Zjem też cukierki solne.
+
+511
+00:25:17,735 --> 00:25:19,975
+Świetne przygotowanie!
+
+512
+00:25:19,998 --> 00:25:23,269
+Czy można znaleźć lokalizację w internecie?
+
+513
+00:25:23,293 --> 00:25:27,893
+Tak, można zobaczyć na mapie na stronie miasta.
+
+514
+00:25:27,916 --> 00:25:31,482
+Przed spacerem sprawdzę mapę.
+
+515
+00:25:31,505 --> 00:25:34,564
+Powiem też znajomym.
+
+516
+00:25:34,588 --> 00:25:37,285
+Znajomość lokalizacji daje spokój.
+
+517
+00:25:37,309 --> 00:25:40,709
+Wspólnie spędźmy chłodne wakacje.
+
+518
+00:25:40,732 --> 00:25:44,207
+Dziękuję za informację o wiadomościach.
+
+519
+00:25:44,230 --> 00:25:47,897
+Wypiję wodę i idę na spacer.
+
+520
+00:25:47,920 --> 00:25:50,588
+Uważaj na siebie.
+
+521
+00:25:50,611 --> 00:25:52,380
+Udanego dnia!
+
+522
+00:25:52,403 --> 00:25:53,903
+Scena 12: Darmowy wynajem parasoli przeciwsłonecznych / Free Sun Umbrella Rental
+
+523
+00:25:53,903 --> 00:25:59,042
+Przepraszam, czy mogę wypożyczyć parasol przeciwsłoneczny?
+
+524
+00:25:59,066 --> 00:26:03,337
+Tak, można wypożyczyć parasol przeciwsłoneczny.
+
+525
+00:26:03,360 --> 00:26:05,961
+Ile kosztuje?
+
+526
+00:26:05,985 --> 00:26:08,319
+Kosztuje 0 zł.
+
+527
+00:26:08,342 --> 00:26:10,787
+Tak, jest darmowa.
+
+528
+00:26:10,810 --> 00:26:15,077
+Dzisiaj jest bardzo gorąco, więc to miłe.
+
+529
+00:26:15,100 --> 00:26:19,033
+Z parasolem przeciwsłonecznym jest chłodniej.
+
+530
+00:26:19,056 --> 00:26:21,704
+Jak go wypożyczyć?
+
+531
+00:26:21,727 --> 00:26:25,145
+Proszę wpisać swoje imię na kartce.
+
+532
+00:26:25,168 --> 00:26:28,968
+Proszę wpisać imię i numer telefonu.
+
+533
+00:26:28,991 --> 00:26:31,291
+Tak, dziękuję bardzo.
+
+534
+00:26:31,314 --> 00:26:34,048
+Jakie są dostępne kolory?
+
+535
+00:26:34,071 --> 00:26:37,337
+Mamy czarny i srebrny.
+
+536
+00:26:37,360 --> 00:26:40,297
+Wezmę parasolkę przeciwsłoneczną w kolorze srebrnym.
+
+537
+00:26:40,321 --> 00:26:44,138
+Srebro jest bardzo orzeźwiające.
+
+538
+00:26:44,162 --> 00:26:47,531
+Blokuje promienie słoneczne, prawda?
+
+539
+00:26:47,554 --> 00:26:51,321
+Tak, nawet w upalne dni możesz czuć się bezpiecznie.
+
+540
+00:26:51,344 --> 00:26:55,077
+Czy można jej używać także w deszczu?
+
+541
+00:26:55,100 --> 00:26:59,568
+Tak, można jej używać również w deszczowe dni.
+
+542
+00:26:59,591 --> 00:27:02,643
+Do której godziny trzeba ją zwrócić?
+
+543
+00:27:02,667 --> 00:27:07,601
+Proszę zwrócić do godziny 17:00.
+
+544
+00:27:07,624 --> 00:27:11,557
+Do 17:00, rozumiem.
+
+545
+00:27:11,580 --> 00:27:15,027
+Można ją też zwrócić przed stacją.
+
+546
+00:27:15,050 --> 00:27:17,924
+Czy mogę zwrócić ją przed stacją?
+
+547
+00:27:17,948 --> 00:27:21,983
+Tak, proszę zwrócić przed stacją.
+
+548
+00:27:22,007 --> 00:27:25,215
+To bardzo wygodne.
+
+549
+00:27:25,238 --> 00:27:28,287
+Będzie mniej bagażu do noszenia.
+
+550
+00:27:28,311 --> 00:27:31,844
+Spróbuję ją otworzyć.
+
+551
+00:27:31,867 --> 00:27:34,237
+Proszę otworzyć ją porządnie.
+
+552
+00:27:34,260 --> 00:27:37,394
+Powstaje cień i jest chłodno.
+
+553
+00:27:37,417 --> 00:27:41,383
+Proszę też pić dużo wody.
+
+554
+00:27:41,406 --> 00:27:45,216
+Tak. Teraz pójdę pospacerować po Asakusa.
+
+555
+00:27:45,240 --> 00:27:48,494
+Miłego zwiedzania Asakusa!
+
+556
+00:27:48,517 --> 00:27:51,599
+Podróż będzie przyjemna.
+
+557
+00:27:51,623 --> 00:27:54,799
+Czekam o 17:00.
+
+558
+00:27:54,822 --> 00:27:57,756
+Proszę dać mi mapę miejsca zwrotu.
+
+559
+00:27:57,779 --> 00:28:00,793
+Oczywiście, dam mapę.
+
+560
+00:28:00,816 --> 00:28:02,449
+Dziękuję bardzo.
+
+561
+00:28:02,472 --> 00:28:04,839
+Miłego dnia!
+
+562
+00:28:04,862 --> 00:28:06,362
+Scena 13: Korzystanie z chłodni publicznej
+
+563
+00:28:06,362 --> 00:28:08,695
+Przepraszam.
+
+564
+00:28:08,718 --> 00:28:12,285
+Na zewnątrz jest bardzo gorąco.
+
+565
+00:28:12,308 --> 00:28:15,948
+Proszę wejść i usiąść.
+
+566
+00:28:15,971 --> 00:28:19,786
+Czy to jest chłodnia publiczna?
+
+567
+00:28:19,809 --> 00:28:21,618
+Tak.
+
+568
+00:28:21,642 --> 00:28:24,511
+To miejsce, gdzie można odpocząć za darmo.
+
+569
+00:28:24,534 --> 00:28:27,068
+Proszę usiąść na sofie.
+
+570
+00:28:27,091 --> 00:28:29,361
+Jest chłodno.
+
+571
+00:28:29,385 --> 00:28:31,397
+To świetnie.
+
+572
+00:28:31,420 --> 00:28:34,953
+Przyniosę zimnej wody.
+
+573
+00:28:34,976 --> 00:28:36,510
+Proszę bardzo.
+
+574
+00:28:36,533 --> 00:28:38,533
+Dziękuję bardzo.
+
+575
+00:28:38,556 --> 00:28:41,156
+Napiję się wody.
+
+576
+00:28:41,179 --> 00:28:43,345
+Jest zimna.
+
+577
+00:28:43,368 --> 00:28:47,255
+Czy czujesz się już lepiej?
+
+578
+00:28:47,279 --> 00:28:49,818
+Tak, czuję się lepiej.
+
+579
+00:28:49,841 --> 00:28:52,808
+Włączę wentylator.
+
+580
+00:28:52,831 --> 00:28:55,564
+Wiaterek jest przyjemny.
+
+581
+00:28:55,587 --> 00:28:58,321
+Proszę odpocząć.
+
+582
+00:28:58,344 --> 00:29:01,548
+Ile godzin można tu odpoczywać?
+
+583
+00:29:01,571 --> 00:29:04,545
+Można odpoczywać dowolnie długo.
+
+584
+00:29:04,569 --> 00:29:07,943
+Odpocznę około godziny.
+
+585
+00:29:07,966 --> 00:29:10,899
+Proszę nabrać sił!
+
+586
+00:29:10,922 --> 00:29:13,489
+Czy jest tu Wi-Fi?
+
+587
+00:29:13,512 --> 00:29:15,284
+Tak.
+
+588
+00:29:15,308 --> 00:29:17,718
+Dostępny jest darmowy Wi-Fi.
+
+589
+00:29:17,741 --> 00:29:21,075
+Sprawdzę plan dnia na smartfonie.
+
+590
+00:29:21,098 --> 00:29:24,137
+Są też gniazdka elektryczne.
+
+591
+00:29:24,161 --> 00:29:26,740
+Naładuję telefon.
+
+592
+00:29:26,763 --> 00:29:29,497
+Mamy też termometr.
+
+593
+00:29:29,520 --> 00:29:32,409
+Czy mogę zmierzyć ci temperaturę?
+
+594
+00:29:32,432 --> 00:29:34,232
+Tak.
+
+595
+00:29:34,256 --> 00:29:36,791
+Zmierz proszę temperaturę.
+
+596
+00:29:36,815 --> 00:29:39,690
+Masz 36,5 stopnia.
+
+597
+00:29:39,713 --> 00:29:41,713
+Wszystko w porządku.
+
+598
+00:29:41,736 --> 00:29:43,936
+To świetnie.
+
+599
+00:29:43,959 --> 00:29:45,726
+Od razu mi ulżyło.
+
+600
+00:29:45,749 --> 00:29:48,994
+Powoli wychodzimy na zewnątrz.
+
+601
+00:29:49,018 --> 00:29:53,851
+Gdy wychodzisz, załóż czapkę, dobrze?
+
+602
+00:29:53,874 --> 00:29:56,541
+Zjem cukierka solnego.
+
+603
+00:29:56,564 --> 00:29:58,497
+Idealnie!
+
+604
+00:29:58,520 --> 00:30:02,208
+To świetnie.
+
+605
+00:30:02,232 --> 00:30:03,799
+Dziękuję bardzo.
+
+606
+00:30:03,821 --> 00:30:08,688
+W mieście jest dużo miejsc, gdzie można odpocząć.
+
+607
+00:30:08,711 --> 00:30:11,564
+Czy mogę dostać mapę?
+
+608
+00:30:11,587 --> 00:30:13,220
+Tak.
+
+609
+00:30:13,243 --> 00:30:15,895
+Oczywiście, dam ci mapę.
+
+610
+00:30:15,919 --> 00:30:17,495
+Dziękuję bardzo.
+
+611
+00:30:17,519 --> 00:30:19,692
+Miłego dnia!
+
+612
+00:30:19,716 --> 00:30:21,216
+Scena 14: Jak korzystać z punktu napełniania wodą / Jak używać stacji uzupełniania wody
+
+613
+00:30:21,216 --> 00:30:23,382
+Przepraszam.
+
+614
+00:30:23,405 --> 00:30:27,444
+Czy mogę napełnić butelkę wodą?
+
+615
+00:30:27,468 --> 00:30:28,876
+Tak.
+
+616
+00:30:28,899 --> 00:30:32,939
+Możesz napełnić butelkę wodą za darmo.
+
+617
+00:30:32,963 --> 00:30:34,963
+Za darmo?
+
+618
+00:30:34,986 --> 00:30:37,153
+To świetnie!
+
+619
+00:30:37,176 --> 00:30:40,542
+Proszę, oto automat z wodą.
+
+620
+00:30:40,565 --> 00:30:43,572
+Możesz mi pokazać, jak go używać?
+
+621
+00:30:43,596 --> 00:30:47,596
+Postaw butelkę i naciśnij przycisk.
+
+622
+00:30:47,619 --> 00:30:50,869
+Czy jest też zimna woda?
+
+623
+00:30:50,892 --> 00:30:54,226
+Niebieski przycisk to zimna woda.
+
+624
+00:30:54,249 --> 00:30:57,415
+Nacisnę niebieski przycisk.
+
+625
+00:30:57,438 --> 00:30:58,917
+Tak.
+
+626
+00:30:58,941 --> 00:31:01,417
+Woda leci.
+
+627
+00:31:01,441 --> 00:31:04,082
+Nalało się 500 mililitrów.
+
+628
+00:31:04,105 --> 00:31:05,872
+Dziękuję bardzo.
+
+629
+00:31:05,895 --> 00:31:08,986
+Zamknij proszę butelkę.
+
+630
+00:31:09,010 --> 00:31:11,224
+Ta woda jest pyszna!
+
+631
+00:31:11,247 --> 00:31:14,080
+Napiję się trochę.
+
+632
+00:31:14,103 --> 00:31:17,080
+Jest zimna i smaczna.
+
+633
+00:31:17,103 --> 00:31:20,507
+Własna butelka jest dobra dla środowiska.
+
+634
+00:31:20,531 --> 00:31:24,200
+Nie trzeba kupować plastikowych butelek.
+
+635
+00:31:24,223 --> 00:31:26,857
+To dobre dla środowiska.
+
+636
+00:31:26,880 --> 00:31:30,530
+Czy są jeszcze inne miejsca, gdzie można napełnić wodę?
+
+637
+00:31:30,553 --> 00:31:33,620
+Możesz sprawdzić w aplikacji.
+
+638
+00:31:33,643 --> 00:31:37,287
+Jak nazywa się ta aplikacja?
+
+639
+00:31:37,310 --> 00:31:40,144
+Aplikacja nazywa się mymizu.
+
+640
+00:31:40,167 --> 00:31:43,100
+Zainstaluję aplikację.
+
+641
+00:31:43,123 --> 00:31:46,323
+Pokazuje wiele miejsc, gdzie można napełnić wodę.
+
+642
+00:31:46,346 --> 00:31:50,013
+Uważaj, bo jest gorąco.
+
+643
+00:31:50,036 --> 00:31:53,836
+Czy mogę odpocząć chwilę w środku sklepu?
+
+644
+00:31:53,859 --> 00:31:55,459
+Tak.
+
+645
+00:31:55,482 --> 00:31:57,215
+Proszę bardzo.
+
+646
+00:31:57,238 --> 00:31:59,112
+Proszę odpocząć przy stoliku.
+
+647
+00:31:59,136 --> 00:32:02,302
+Poproszę mrożoną kawę.
+
+648
+00:32:02,325 --> 00:32:03,925
+Dziękuję bardzo.
+
+649
+00:32:03,948 --> 00:32:07,002
+Jak przyjemnie chłodno!
+
+650
+00:32:07,026 --> 00:32:09,277
+Proszę się nie spieszyć.
+
+651
+00:32:09,301 --> 00:32:13,568
+Kawa kosztuje 450 jenów.
+
+652
+00:32:13,591 --> 00:32:17,026
+Tak, 450 jenów.
+
+653
+00:32:17,050 --> 00:32:19,289
+Zapłacę kartą.
+
+654
+00:32:19,312 --> 00:32:21,450
+Proszę dotknąć terminala.
+
+655
+00:32:21,473 --> 00:32:23,492
+Zapłaciłem.
+
+656
+00:32:23,515 --> 00:32:25,412
+Dziękuję bardzo.
+
+657
+00:32:25,435 --> 00:32:28,802
+Dziękuję za informacje o wodzie.
+
+658
+00:32:28,825 --> 00:32:31,393
+Teraz idziemy na spacer.
+
+659
+00:32:31,416 --> 00:32:34,950
+Ciesz się podróżą po Tokio!
+
+660
+00:32:34,973 --> 00:32:36,473
+Scena 15: Niezbędne akcesoria na upalne dni / Cool Down Essentials for Hot Days
+
+661
+00:32:36,473 --> 00:32:38,306
+Przepraszam.
+
+662
+00:32:38,329 --> 00:32:41,896
+Szukam rzeczy na upalne dni.
+
+663
+00:32:41,919 --> 00:32:44,362
+Mamy je tutaj.
+
+664
+00:32:44,385 --> 00:32:47,585
+Czy mają państwo spray do ubrań?
+
+665
+00:32:47,608 --> 00:32:50,299
+Tak, to jest ten spray.
+
+666
+00:32:50,322 --> 00:32:53,858
+Czy po spryskaniu ubrań będzie chłodniej?
+
+667
+00:32:53,882 --> 00:32:57,049
+Tak, ubrania staną się chłodniejsze.
+
+668
+00:32:57,072 --> 00:33:00,205
+Czy mają państwo też chusteczki do wycierania potu?
+
+669
+00:33:00,228 --> 00:33:03,495
+Tak, mamy chłodzące chusteczki.
+
+670
+00:33:03,518 --> 00:33:06,210
+Wezmę te chłodzące chusteczki.
+
+671
+00:33:06,233 --> 00:33:09,321
+Długo pozostają chłodne.
+
+672
+00:33:09,344 --> 00:33:11,978
+Czy mają państwo także cukierki solne?
+
+673
+00:33:12,001 --> 00:33:16,134
+Tak, mamy cytrynowe cukierki solne.
+
+674
+00:33:16,157 --> 00:33:19,002
+Zjada się je, kiedy się poci.
+
+675
+00:33:19,026 --> 00:33:21,792
+Tak, są dobre dla organizmu.
+
+676
+00:33:21,815 --> 00:33:24,017
+Kupię też napoje.
+
+677
+00:33:24,041 --> 00:33:27,208
+Napoje są tam.
+
+678
+00:33:27,231 --> 00:33:29,665
+Kupuję cztery rzeczy.
+
+679
+00:33:29,688 --> 00:33:31,621
+Dziękuję bardzo.
+
+680
+00:33:31,644 --> 00:33:33,922
+Czy mogę skorzystać z zwolnienia z podatku?
+
+681
+00:33:33,946 --> 00:33:38,512
+Gdy zakupy przekroczą 5500 jenów, można skorzystać z zwolnienia.
+
+682
+00:33:38,535 --> 00:33:40,902
+Proszę pokazać paszport.
+
+683
+00:33:40,925 --> 00:33:43,569
+Oczywiście, pokażę paszport.
+
+684
+00:33:43,592 --> 00:33:46,431
+Dobrze, nie będzie podatku.
+
+685
+00:33:46,455 --> 00:33:48,688
+Ile to wszystko kosztuje?
+
+686
+00:33:48,711 --> 00:33:52,378
+Z zwolnieniem podatkowym 6000 jenów.
+
+687
+00:33:52,401 --> 00:33:54,968
+Czy mogę zapłacić kartą?
+
+688
+00:33:54,991 --> 00:33:58,557
+Tak, można zapłacić zbliżeniowo.
+
+689
+00:33:58,580 --> 00:34:01,180
+Przyłożę kartę.
+
+690
+00:34:01,203 --> 00:34:03,337
+Gotowe.
+
+691
+00:34:03,360 --> 00:34:07,418
+Czy torbę zwolnioną z podatku mogę otworzyć w Japonii?
+
+692
+00:34:07,441 --> 00:34:11,057
+Nie, nie wolno jej otwierać w Japonii.
+
+693
+00:34:11,080 --> 00:34:15,213
+Czy spray, którego użyję dzisiaj, mam zapłacić osobno?
+
+694
+00:34:15,236 --> 00:34:20,125
+Tak, rzeczy, których użyjesz dzisiaj, zapłać przy normalnej kasie.
+
+695
+00:34:20,149 --> 00:34:23,483
+Kupię tylko jedną butelkę sprayu osobno.
+
+696
+00:34:23,505 --> 00:34:26,072
+To będzie 480 jenów.
+
+697
+00:34:26,095 --> 00:34:30,554
+Płacę 500 jenów. Reszta to 20 jenów.
+
+698
+00:34:30,578 --> 00:34:32,461
+Użyję go od razu.
+
+699
+00:34:32,484 --> 00:34:35,339
+Uważaj na upał!
+
+700
+00:34:35,362 --> 00:34:36,862
+Scena 16: Szybka odprawa na lotnisku dzięki rozpoznawaniu twarzy / Smooth Airport Experience with Facial Recognition
+
+701
+00:34:36,862 --> 00:34:42,629
+Widziałeś wiadomości o nowym systemie na lotnisku?
+
+702
+00:34:42,652 --> 00:34:45,422
+Nie, nie widziałem.
+
+703
+00:34:45,446 --> 00:34:47,813
+Jaki to system?
+
+704
+00:34:47,836 --> 00:34:52,308
+To system o nazwie Face Express.
+
+705
+00:34:52,331 --> 00:34:57,390
+Można wsiąść do samolotu bez okazywania paszportu.
+
+706
+00:34:57,414 --> 00:35:01,293
+Można przejść bez paszportu?
+
+707
+00:35:01,316 --> 00:35:03,516
+Niesamowite!
+
+708
+00:35:03,539 --> 00:35:08,187
+Najpierw robi się zdjęcie twarzy przy maszynie.
+
+709
+00:35:08,210 --> 00:35:11,744
+Zdjęcie musi pasować do paszportu.
+
+710
+00:35:11,767 --> 00:35:17,367
+Po zrobieniu zdjęcia, szybciej można nadać bagaż.
+
+711
+00:35:17,390 --> 00:35:21,723
+Nie trzeba pokazywać paszportu, więc jest wygodnie.
+
+712
+00:35:21,746 --> 00:35:25,179
+Czas oczekiwania w kolejce jest krótszy.
+
+713
+00:35:25,202 --> 00:35:29,216
+Można szybko przejść przez bramkę.
+
+714
+00:35:29,240 --> 00:35:32,606
+Czy można tego używać na lotniskach Narita i Haneda?
+
+715
+00:35:32,629 --> 00:35:36,829
+Tak, można używać zarówno na Naricie, jak i na Hanedzie.
+
+716
+00:35:36,852 --> 00:35:39,858
+Czy każdy może z tego korzystać?
+
+717
+00:35:39,882 --> 00:35:44,449
+Jeśli masz paszport z chipem IC, to możesz z tego skorzystać.
+
+718
+00:35:44,472 --> 00:35:48,838
+Mój paszport ma chip IC.
+
+719
+00:35:48,861 --> 00:35:52,117
+W takim razie możesz z tego skorzystać.
+
+720
+00:35:52,141 --> 00:35:55,144
+Czy zdjęcie twarzy jest bezpieczne?
+
+721
+00:35:55,167 --> 00:35:58,800
+Znika po wejściu na pokład samolotu.
+
+722
+00:35:58,823 --> 00:36:01,071
+Czy znika od razu?
+
+723
+00:36:01,095 --> 00:36:03,180
+To daje spokój.
+
+724
+00:36:03,203 --> 00:36:05,537
+To bezpieczny system.
+
+725
+00:36:05,560 --> 00:36:08,626
+Wystarczy spojrzeć w kamerę przy bramce?
+
+726
+00:36:08,649 --> 00:36:12,516
+Tak, wystarczy spojrzeć w kamerę, a bramka się otworzy.
+
+727
+00:36:12,539 --> 00:36:15,907
+Nie trzeba szukać paszportu.
+
+728
+00:36:15,931 --> 00:36:19,141
+To bardzo pomocne, gdy ma się dużo bagażu.
+
+729
+00:36:19,164 --> 00:36:23,242
+Chciałabym skorzystać z tego, kiedy następnym razem będę wracać do kraju.
+
+730
+00:36:23,266 --> 00:36:27,141
+Jest prosty w użyciu, więc spróbuj.
+
+731
+00:36:27,165 --> 00:36:29,854
+W pobliżu są też pracownicy.
+
+732
+00:36:29,877 --> 00:36:33,611
+Dziękuję za informację o wiadomościach.
+
+733
+00:36:33,634 --> 00:36:36,800
+Uważaj podczas podróży powrotnej.
+
+734
+00:36:36,823 --> 00:36:40,057
+Zrobię zdjęcie na lotnisku i ci pokażę.
+
+735
+00:36:40,080 --> 00:36:42,121
+Czekam z niecierpliwością.
+
+736
+00:36:42,144 --> 00:36:44,011
+Udanego dnia!
+
+737
+00:36:44,034 --> 00:36:45,534
+Scena 17: Jak korzystać z systemu rozpoznawania twarzy
+
+738
+00:36:45,534 --> 00:36:47,534
+Przepraszam.
+
+739
+00:36:47,557 --> 00:36:51,157
+Chciałabym skorzystać z systemu rozpoznawania twarzy.
+
+740
+00:36:51,180 --> 00:36:52,349
+Tak.
+
+741
+00:36:52,373 --> 00:36:55,606
+Możesz to zrobić przy tym urządzeniu.
+
+742
+00:36:55,629 --> 00:36:59,700
+Proszę nacisnąć przycisk Face Express.
+
+743
+00:36:59,724 --> 00:37:02,214
+Nacisnęłam przycisk.
+
+744
+00:37:02,237 --> 00:37:08,771
+Po prawej stronie ekranu wybierz język angielski, a następnie naciśnij „Tak”.
+
+745
+00:37:08,794 --> 00:37:11,081
+Nacisnęłam „Tak”.
+
+746
+00:37:11,104 --> 00:37:15,556
+Następnie proszę otworzyć paszport.
+
+747
+00:37:15,580 --> 00:37:19,260
+Kładę stronę ze zdjęciem.
+
+748
+00:37:19,283 --> 00:37:21,759
+Został zeskanowany.
+
+749
+00:37:21,783 --> 00:37:25,949
+Pojawiło się imię i numer.
+
+750
+00:37:25,972 --> 00:37:28,510
+Proszę nacisnąć „Potwierdź”.
+
+751
+00:37:28,534 --> 00:37:31,134
+Nacisnęłam „Potwierdź”.
+
+752
+00:37:31,157 --> 00:37:34,690
+Teraz proszę spojrzeć w kamerę.
+
+753
+00:37:34,713 --> 00:37:38,580
+Zdejmuję czapkę i maseczkę.
+
+754
+00:37:38,603 --> 00:37:42,648
+Proszę zdjąć czapkę i maseczkę.
+
+755
+00:37:42,671 --> 00:37:46,129
+Patrzę prosto w kamerę.
+
+756
+00:37:46,153 --> 00:37:49,319
+Urządzenie zrobi zdjęcie.
+
+757
+00:37:49,342 --> 00:37:50,789
+Tak.
+
+758
+00:37:50,813 --> 00:37:54,379
+Usłyszałam dźwięk migawki.
+
+759
+00:37:54,402 --> 00:37:56,887
+Zdjęcie twarzy zostało zrobione.
+
+760
+00:37:56,911 --> 00:38:00,152
+To już wszystko?
+
+761
+00:38:00,176 --> 00:38:01,822
+Tak.
+
+762
+00:38:01,846 --> 00:38:04,379
+Wyjdzie bilet.
+
+763
+00:38:04,402 --> 00:38:06,569
+Bilet wyszedł.
+
+764
+00:38:06,592 --> 00:38:10,759
+Jest na nim znak Face Express.
+
+765
+00:38:10,782 --> 00:38:13,515
+Jest niebieski znak.
+
+766
+00:38:13,538 --> 00:38:18,572
+Dzięki temu na kontroli bagażu też wystarczy pokazać twarz.
+
+767
+00:38:18,596 --> 00:38:23,529
+Nie trzeba pokazywać paszportu, więc jest wygodnie.
+
+768
+00:38:23,552 --> 00:38:27,485
+Czy mogę użyć tej maszyny do odprawy bagażu?
+
+769
+00:38:27,508 --> 00:38:28,927
+Tak.
+
+770
+00:38:28,951 --> 00:38:32,963
+Tak, można skorzystać z tamtej maszyny.
+
+771
+00:38:32,986 --> 00:38:35,720
+Idę nadać bagaż.
+
+772
+00:38:35,743 --> 00:38:37,623
+To było proste.
+
+773
+00:38:37,647 --> 00:38:39,144
+Dziękuję bardzo.
+
+774
+00:38:39,167 --> 00:38:41,767
+Życzę miłej podróży!
+
+775
+00:38:41,790 --> 00:38:43,957
+Do widzenia, szczęśliwej podróży.
+
+776
+00:38:43,980 --> 00:38:45,480
+Scena 18: Samodzielna odprawa bagażu / Jak samodzielnie odprawić bagaż
+
+777
+00:38:45,480 --> 00:38:47,446
+Przepraszam.
+
+778
+00:38:47,469 --> 00:38:51,755
+Czy mogę samodzielnie odprawić bagaż?
+
+779
+00:38:51,779 --> 00:38:52,913
+Tak.
+
+780
+00:38:52,936 --> 00:38:55,869
+Proszę skorzystać z tej maszyny.
+
+781
+00:38:55,892 --> 00:38:59,460
+Robię to pierwszy raz.
+
+782
+00:38:59,484 --> 00:39:01,951
+Proszę nacisnąć przycisk START.
+
+783
+00:39:01,975 --> 00:39:04,341
+Nacisnęłam START.
+
+784
+00:39:04,364 --> 00:39:07,164
+Proszę spojrzeć w górną kamerę.
+
+785
+00:39:07,187 --> 00:39:11,164
+Właśnie zrobiłam zdjęcie twarzy.
+
+786
+00:39:11,188 --> 00:39:15,121
+Kamera rozpozna twarz, gdy na nią spojrzysz.
+
+787
+00:39:15,144 --> 00:39:17,724
+Na ekranie pojawiło się moje nazwisko.
+
+788
+00:39:17,747 --> 00:39:20,759
+Proszę położyć bagaż na maszynie.
+
+789
+00:39:20,782 --> 00:39:23,449
+Kładę go na środku.
+
+790
+00:39:23,472 --> 00:39:24,872
+Tak.
+
+791
+00:39:24,895 --> 00:39:27,497
+Proszę położyć go bokiem.
+
+792
+00:39:27,520 --> 00:39:29,753
+Wyświetliła się waga.
+
+793
+00:39:29,776 --> 00:39:32,230
+Osiemnaście kilogramów.
+
+794
+00:39:32,254 --> 00:39:34,029
+Wszystko w porządku?
+
+795
+00:39:34,053 --> 00:39:38,391
+Dozwolone jest do dwudziestu trzech kilogramów, więc jest w porządku.
+
+796
+00:39:38,415 --> 00:39:40,415
+Od razu mi ulżyło.
+
+797
+00:39:40,438 --> 00:39:43,320
+Czy nie ma w nim niebezpiecznych przedmiotów?
+
+798
+00:39:43,343 --> 00:39:46,786
+Czy nie ma w nim laptopa lub baterii?
+
+799
+00:39:46,810 --> 00:39:49,843
+Bateria jest w plecaku.
+
+800
+00:39:49,866 --> 00:39:53,550
+Baterii nie można nadawać w maszynie.
+
+801
+00:39:53,574 --> 00:39:55,418
+Rozumiem.
+
+802
+00:39:55,441 --> 00:39:57,730
+Zabiorę ją ze sobą.
+
+803
+00:39:57,754 --> 00:40:00,987
+Proszę nacisnąć TAK.
+
+804
+00:40:01,010 --> 00:40:03,943
+Wyjdzie długa naklejka.
+
+805
+00:40:03,966 --> 00:40:05,843
+Naklejka wyszła.
+
+806
+00:40:05,867 --> 00:40:09,733
+Proszę nakleić ją na rączkę bagażu.
+
+807
+00:40:09,756 --> 00:40:12,290
+Naklejam na rączkę.
+
+808
+00:40:12,313 --> 00:40:14,768
+Świetnie się nakleiło.
+
+809
+00:40:14,791 --> 00:40:17,078
+Co teraz?
+
+810
+00:40:17,101 --> 00:40:19,901
+Proszę nacisnąć przycisk ZAKOŃCZ.
+
+811
+00:40:19,924 --> 00:40:22,724
+Nacisnęłam ZAKOŃCZ.
+
+812
+00:40:22,747 --> 00:40:25,814
+Bagaż zostanie wciągnięty do środka.
+
+813
+00:40:25,837 --> 00:40:28,104
+Bagaż został wciągnięty.
+
+814
+00:40:28,126 --> 00:40:30,335
+Wyjdzie paragon.
+
+815
+00:40:30,359 --> 00:40:32,492
+Dostałam paragon.
+
+816
+00:40:32,515 --> 00:40:35,163
+Proszę to dobrze przechowywać.
+
+817
+00:40:35,187 --> 00:40:38,154
+Włożę go do etui na paszport.
+
+818
+00:40:38,177 --> 00:40:40,344
+Zajęło to minutę.
+
+819
+00:40:40,367 --> 00:40:44,137
+Teraz proszę przejść do kontroli bagażu.
+
+820
+00:40:44,160 --> 00:40:45,649
+Dziękuję bardzo.
+
+821
+00:40:45,673 --> 00:41:05,939
+Miłego dnia!
+
+822
+00:41:05,962 --> 00:41:07,462
+Scena 19: Procedura rozpoznawania twarzy / Procedura rozpoznawania twarzy
+
+823
+00:41:07,462 --> 00:41:09,229
+Przepraszam.
+
+824
+00:41:09,252 --> 00:41:12,252
+Czy kontrola bagażu jest tutaj?
+
+825
+00:41:12,275 --> 00:41:15,343
+Tak, tutaj.
+
+826
+00:41:15,367 --> 00:41:18,501
+Właśnie zrobiłam zdjęcie twarzy.
+
+827
+00:41:18,524 --> 00:41:21,957
+Proszę iść w prawo.
+
+828
+00:41:21,980 --> 00:41:24,247
+Idę w prawo.
+
+829
+00:41:24,271 --> 00:41:28,604
+Nie ma nikogo, więc można od razu przejść.
+
+830
+00:41:28,627 --> 00:41:31,361
+Czy mam pokazać paszport?
+
+831
+00:41:31,384 --> 00:41:35,317
+Nie, wystarczy spojrzeć w kamerę.
+
+832
+00:41:35,340 --> 00:41:38,150
+Proszę stanąć na żółtym polu.
+
+833
+00:41:38,173 --> 00:41:41,540
+Patrzę prosto w kamerę.
+
+834
+00:41:41,563 --> 00:41:44,455
+Zdejmę teraz maseczkę i czapkę.
+
+835
+00:41:44,479 --> 00:41:48,497
+Tak, twarz jest już widoczna.
+
+836
+00:41:48,520 --> 00:41:50,361
+Drzwi się otworzyły.
+
+837
+00:41:50,385 --> 00:41:52,554
+Proszę wejść do środka.
+
+838
+00:41:52,577 --> 00:41:57,211
+Nie trzeba pokazywać paszportu, więc jest szybciej.
+
+839
+00:41:57,234 --> 00:42:00,167
+Przeprowadzimy kontrolę bagażu podręcznego.
+
+840
+00:42:00,190 --> 00:42:03,201
+Proszę włożyć bagaż do pojemnika.
+
+841
+00:42:03,224 --> 00:42:05,957
+Co zrobić z laptopem?
+
+842
+00:42:05,980 --> 00:42:09,648
+Proszę wyjąć laptop z torby.
+
+843
+00:42:09,672 --> 00:42:12,039
+Tak, wyjąłem.
+
+844
+00:42:12,062 --> 00:42:15,197
+Czy są jakieś napoje w bagażu?
+
+845
+00:42:15,220 --> 00:42:17,587
+Jest woda.
+
+846
+00:42:17,611 --> 00:42:22,891
+Nie można przewozić wody powyżej 100 mililitrów.
+
+847
+00:42:22,915 --> 00:42:25,166
+Proszę ją tutaj wylać.
+
+848
+00:42:25,190 --> 00:42:28,123
+Proszę wyrzucić do tamtego kosza.
+
+849
+00:42:28,146 --> 00:42:31,146
+Proszę zdjąć grubą kurtkę.
+
+850
+00:42:31,169 --> 00:42:33,838
+Proszę wyjąć też pieniądze z kieszeni.
+
+851
+00:42:33,862 --> 00:42:37,157
+Telefon też włożę do pojemnika.
+
+852
+00:42:37,180 --> 00:42:42,146
+Proszę zdjąć grube buty i założyć kapcie.
+
+853
+00:42:42,169 --> 00:42:44,148
+Rozumiem.
+
+854
+00:42:44,172 --> 00:42:48,105
+Teraz proszę przejść przez tę bramkę.
+
+855
+00:42:48,129 --> 00:42:49,729
+Przechodzę.
+
+856
+00:42:49,752 --> 00:42:53,595
+Nie było sygnału, więc wszystko w porządku.
+
+857
+00:42:53,619 --> 00:42:56,790
+Proszę odebrać swój bagaż.
+
+858
+00:42:56,813 --> 00:42:58,226
+Dziękuję bardzo.
+
+859
+00:42:58,250 --> 00:43:00,703
+Proszę kierować się do samolotu.
+
+860
+00:43:00,726 --> 00:43:03,093
+Miłego dnia!
+
+861
+00:43:03,116 --> 00:43:04,616
+Scena 20: Procedura kontroli paszportowej / Proces kontroli paszportowej
+
+862
+00:43:04,616 --> 00:43:06,508
+Przepraszam.
+
+863
+00:43:06,531 --> 00:43:09,824
+Czy kontrola paszportowa jest tutaj?
+
+864
+00:43:09,847 --> 00:43:12,847
+Tak, tutaj.
+
+865
+00:43:12,870 --> 00:43:16,404
+Czy mogę przejść przez automatyczne drzwi?
+
+866
+00:43:16,427 --> 00:43:20,870
+Jeśli masz paszport z chipem, to tak.
+
+867
+00:43:20,893 --> 00:43:23,826
+Pójdę do automatycznych drzwi.
+
+868
+00:43:23,849 --> 00:43:26,849
+Proszę otworzyć stronę ze zdjęciem.
+
+869
+00:43:26,872 --> 00:43:29,239
+Strona otwarta.
+
+870
+00:43:29,262 --> 00:43:32,870
+Proszę położyć paszport na maszynie stroną w dół.
+
+871
+00:43:32,893 --> 00:43:35,260
+Kładę paszport.
+
+872
+00:43:35,283 --> 00:43:38,087
+Paszport został zeskanowany.
+
+873
+00:43:38,110 --> 00:43:42,943
+Na ekranie wyświetla się prośba, aby spojrzeć w kamerę.
+
+874
+00:43:42,966 --> 00:43:44,400
+Tak.
+
+875
+00:43:44,423 --> 00:43:48,456
+Proszę zdjąć czapkę i okulary, a następnie spojrzeć w kamerę.
+
+876
+00:43:48,479 --> 00:43:51,212
+Zdejmuję okulary.
+
+877
+00:43:51,235 --> 00:43:54,202
+Sprawdzamy zdjęcie twarzy.
+
+878
+00:43:54,225 --> 00:43:57,706
+Tak, drzwi się otworzyły.
+
+879
+00:43:57,729 --> 00:43:59,814
+Proszę iść dalej.
+
+880
+00:43:59,838 --> 00:44:02,304
+Odbieram paszport.
+
+881
+00:44:02,327 --> 00:44:04,861
+Proszę nie zapomnieć paszportu.
+
+882
+00:44:04,884 --> 00:44:09,050
+Automatyczne drzwi nie stemplują paszportów.
+
+883
+00:44:09,073 --> 00:44:11,724
+Chciałbym dostać stempel na pamiątkę.
+
+884
+00:44:11,747 --> 00:44:14,844
+Nałożę panu stempel.
+
+885
+00:44:14,868 --> 00:44:16,913
+Proszę tędy.
+
+886
+00:44:16,936 --> 00:44:18,709
+Tak, poproszę.
+
+887
+00:44:18,733 --> 00:44:21,899
+Nałożono stempel w paszporcie.
+
+888
+00:44:21,922 --> 00:44:23,489
+Dziękuję bardzo.
+
+889
+00:44:23,512 --> 00:44:26,120
+Zrobiłem zakupy.
+
+890
+00:44:26,143 --> 00:44:29,479
+Czy pokazać paragon z tax-free?
+
+891
+00:44:29,503 --> 00:44:34,070
+Dane są już wprowadzone, więc nie trzeba go pokazywać.
+
+892
+00:44:34,093 --> 00:44:36,909
+Procedura jest naprawdę prosta, prawda?
+
+893
+00:44:36,932 --> 00:44:40,202
+Szybko udało się przejść.
+
+894
+00:44:40,226 --> 00:44:43,260
+Na którym stanowisku jest odlot mojego samolotu?
+
+895
+00:44:43,283 --> 00:44:46,582
+Proszę spojrzeć na prawą stronę biletu.
+
+896
+00:44:46,606 --> 00:44:49,385
+Jest napisane: numer sześćdziesiąt pięć.
+
+897
+00:44:49,409 --> 00:44:53,461
+Proszę skręcić w lewo, to pięć minut stąd.
+
+898
+00:44:53,484 --> 00:44:56,051
+Czy jest jeszcze czas, żeby dotrzeć do samolotu?
+
+899
+00:44:56,074 --> 00:44:58,686
+Jest jeszcze godzina.
+
+900
+00:44:58,709 --> 00:45:01,309
+Zapraszam na zakupy w sklepach.
+
+901
+00:45:01,332 --> 00:45:03,466
+Kupię jakieś pamiątki.
+
+902
+00:45:03,489 --> 00:45:06,061
+Życzę udanej podróży!
+
+903
+00:45:06,084 --> 00:45:08,064
+Tak, dziękuję bardzo.
+
+904
+00:45:08,088 --> 00:45:10,660
+Miłego dnia!
