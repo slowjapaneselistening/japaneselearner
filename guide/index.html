@@ -77,14 +77,7 @@
                 <h1 class="text-xl font-bold text-gray-900 tracking-tight">日本語 Learning</h1>
             </div>
             
-            <div class="flex bg-gray-100 p-1 rounded-lg">
-                <button id="tab-btn-conv" class="px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all">
-                    <i class="fa-regular fa-comments mr-1"></i> Conversation
-                </button>
-                <button id="tab-btn-quiz" class="px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all">
-                    <i class="fa-solid fa-pen-to-square mr-1"></i> Kanji Quiz
-                </button>
-            </div>
+            <!-- クイズタブボタンを削除 -->
         </div>
     </header>
 
@@ -142,71 +135,17 @@
                         </label>
                     </div>
 
-                    <div class="hidden landscape:flex bg-gray-100 p-1 rounded-lg border border-gray-200 mt-2">
-                        <button id="tab-btn-conv-land" onclick="switchTab('conv')" class="flex-1 px-4 py-1.5 rounded-md bg-white shadow text-blue-600 font-medium text-xs transition-all text-center">
-                            <i class="fa-regular fa-comments mr-1"></i> Conversation
-                        </button>
-                        <button id="tab-btn-quiz-land" onclick="switchTab('quiz')" class="flex-1 px-4 py-1.5 rounded-md text-gray-500 hover:text-gray-700 font-medium text-xs transition-all text-center">
-                            <i class="fa-solid fa-pen-to-square mr-1"></i> Kanji Quiz
-                        </button>
-                    </div>
+                    <!-- 横画面用クイズタブボタンを削除 -->
                 </div>
             </div>
         </div>
 
         <div class="w-full pt-4 landscape:pt-0 md:pt-0 landscape:w-1/2 md:w-1/2 pb-12 relative z-30">
-            
             <div id="tab-conv">
                 <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
                     <div class="p-4 sm:p-6 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-gray-50/30 min-h-[500px]">
                         <div id="dialogue-list" class="flex flex-col gap-6">
-                            </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="tab-quiz" class="hidden">
-                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-10 text-center w-full mx-auto">
-                    <div id="quiz-intro">
-                        <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">
-                            <i class="fa-solid fa-graduation-cap"></i>
                         </div>
-                        <h2 class="text-2xl font-bold text-gray-800 mb-2">日本語クイズテスト (Japanese Quiz)</h2>
-                        <p class="text-gray-500 mb-4">クイズの種類を選んで「スタート」を押してください。</p>
-                        
-                        <div class="max-w-xs mx-auto mb-6">
-                            <select id="quiz-type-selector" class="w-full bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block p-2.5 font-medium shadow-sm text-center">
-                                <option value="kanji">🔤 漢字の読み方テスト (Kanji Reading)</option>
-                                <option value="culture">🏮内容理解クイズ (Culture & Context)</option>
-                                <option value="grammar">📝 重要文法・表現の穴埋めクイズ (Grammar Fill-in)</option>
-                            </select>
-                        </div>
-
-                        <button onclick="startQuiz()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-transform transform hover:scale-105">
-                            スタート (Start)
-                        </button>
-                    </div>
-
-                    <div id="quiz-area" class="hidden">
-                        <div class="flex justify-between items-center text-sm font-medium text-gray-500 mb-6">
-                            <span id="quiz-progress" class="bg-gray-100 py-1 px-3 rounded-full">Question 1/10</span>
-                            <span id="quiz-score" class="text-green-600">Score: 0</span>
-                        </div>
-                        
-                        <h3 id="quiz-question" class="text-xl sm:text-2xl font-bold text-gray-800 mb-8 py-6 bg-gray-50 rounded-xl border border-gray-100 px-4">
-                            </h3>
-                        
-                        <div id="quiz-options" class="grid grid-cols-1 gap-4">
-                            </div>
-                    </div>
-
-                    <div id="quiz-result" class="hidden">
-                        <div class="text-6xl mb-4">🏆</div>
-                        <h2 class="text-2xl font-bold text-gray-800 mb-2">お疲れ様でした！</h2>
-                        <p class="text-xl text-gray-600 mb-6">Your Score: <span id="final-score" class="font-bold text-green-600 text-3xl"></span> / 10</p>
-                        <button onclick="startQuiz()" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-xl shadow-md transition-colors">
-                            もう一度プレイ (Play Again)
-                        </button>
                     </div>
                 </div>
             </div>
@@ -216,7 +155,6 @@
     <script>
         // State management
         const appState = {
-            activeTab: 'conv',
             currentSceneIndex: 0,
             showJapanese: true,
             showRomaji: false,
@@ -224,44 +162,30 @@
             hideFurigana: false,
             isPlaying: false,
             roleplayMutedSpeaker: 'none',
-            currentQuestionIndex: 0,
-            score: 0,
-            isAnswering: false,
             currentLang: 'en',
-            quizType: 'kanji',
-            lastScrolledIndex: -1, // 直前に自動スクロールしたセリフ番号を記憶するメモ帳（防振用）
-            isYtScrolling: false,   // YouTube側のスクロール連動が有効かどうか
-            recordedBlobs: {},     // 録音データをセリフごとに保存するオブジェクト
-            mediaRecorder: null,   // レコーダーオブジェクト
-            activeRecordingIndex: -1 // 現在録音中のセリフのインデックス
+            lastScrolledIndex: -1,
+            isYtScrolling: false,
+            recordedBlobs: {},
+            mediaRecorder: null,
+            activeRecordingIndex: -1
         };
 
-      // =================================================================
-// 1. タイトル・シーン数の修正（sceneTitles 配列 と parseData ループ回数）
-// =================================================================
+        let sceneTitles = []; // SRTから自動抽出するため空配列で初期化
 
-    const sceneTitles = [
-    "Scene 1: 無料ガイドの紹介 / Introduction to Free Guided Tours",
-    "Scene 2: 無料英語ガイド予約 / Booking a Free English Guide",
-    "Scene 3: 引っ越し手続きの仕方 / How to Register Your Move",
-    "Scene 4: マイナンバーカード受け取り手続き / Receiving My Number Card Procedure",
-    "Scene 5: 日本語教室の案内 / Introduction to Japanese Language Class",
-    "Scene 6: 新幹線の荷物予約 / Shinkansen Luggage Reservation Rules",
-    "Scene 7: 切符の購い方 / How to Buy a Train Ticket",
-    "Scene 8: 切符の時刻変え方 / How to Change Your Train Ticket Time",
-    "Scene 9: 席の荷物の置き方 / How to Store Luggage at Your Seat",
-    "Scene 10: 特大荷物の予約と料金 / Reserving and Fees for Oversized Luggage",
-    "Scene 11: クーリングシェルターとは / What is a Cooling Shelter?",
-    "Scene 12: 日傘の無料レンタル / Free Sun Umbrella Rental",
-    "Scene 13: クーリングシェルターの利用 / Using a Cooling Shelter",
-    "Scene 14: 水の補充機の使い方 / How to Use a Water Refill Station",
-    "Scene 15: 暑い日の涼しグッズ / Cool Down Essentials for Hot Days",
-    "Scene 16: 顔認証で空港スムーズ / Smooth Airport Experience with Facial Recognition",
-    "Scene 17: 顔認証の使い方 / How to Use Facial Recognition System",
-    "Scene 18: 荷物の自己預け方 / How to Self-Check Your Luggage",
-    "Scene 19: 顔認証の手続き / Facial Recognition Procedure",
-    "Scene 20: パスポート検査の流れ / Passport Inspection Process"
-];
+        // SRTファイルから 「Scene 数字: タイトル」 のテキストを自動抽出する関数
+        async function updateSceneTitles() {
+            const srtParsed = await loadSRT(appState.currentLang);
+            if (!srtParsed || srtParsed.length === 0) return;
+
+            const sceneRegex = /^Scene\s+\d+:/i;
+            const detectedTitles = srtParsed
+                .filter(item => sceneRegex.test(item.text.trim()))
+                .map(item => item.text.trim());
+
+            if (detectedTitles.length > 0) {
+                sceneTitles = detectedTitles;
+            }
+        }
         const LANG_MAP = {
             'English': 'en', 'Vietnamese': 'vi', 'Indonesian': 'id', 'Thai': 'th', 'Korean': 'ko', 
             'Chinese (Simplified)': 'zh-Hans', 'Chinese (Traditional)': 'zh-Hant', 'Spanish': 'es', 
@@ -274,75 +198,18 @@
         };
 
         let srtDataCache = {};
-// rawData（台本テキスト）はフォルダから自動取得するため削除しました
-
-      // =================================================================
-// 2. 漢字クイズデータの修正（quizDataKanji 配列）
-// =================================================================
-
- // =================================================================
-// 3. 漢字クイズ（quizDataKanji 配列）
-// =================================================================
-
-// =================================================================
-// 2. 漢字クイズデータの修正（quizDataKanji 配列）
-// =================================================================
-
-const quizDataKanji = [
-    { q: "「予約」の読み方は？", options: ["よやく", "よやっく", "よよく", "よゆう"], answer: 0 },
-    { q: "「切符」の読み方は？", options: ["きっぷ", "きっふ", "きりふ", "きれふ"], answer: 0 },
-    { q: "「荷物」の読み方は？", options: ["にもつ", "かもつ", "にもの", "かもの"], answer: 0 },
-    { q: "「住所」の読み方は？", options: ["じゅうしょ", "じゅしょ", "じゅうそ", "すみしょ"], answer: 0 },
-    { q: "「教室」の読み方は？", options: ["きょうしつ", "きょしつ", "きょうしち", "きょうし"], answer: 0 },
-    { q: "「案内」の読み方は？", options: ["あんない", "あんいん", "あんあい", "あんないん"], answer: 0 },
-    { q: "「料金」の読み方は？", options: ["りょうきん", "りよきん", "りょうぎん", "ろうきん"], answer: 0 },
-    { q: "「空港」の読み方は？", options: ["くうこう", "くこう", "くうごう", "そらこう"], answer: 0 },
-    { q: "「写真」の読み方は？", options: ["しゃしん", "しやしん", "しゃじん", "さしん"], answer: 0 },
-    { q: "「時間」の読み方は？", options: ["じかん", "じかんん", "じこう", "ちかん"], answer: 0 }
-];
-// =================================================================
-// 3. 内容理解クイズデータの修正（quizDataCulture 配列）
-// =================================================================
-
-const quizDataCulture = [
-    { q: "<ruby>町<rt>まち</rt></ruby>の<ruby>無料<rt>むりょう</rt></ruby>ガイドの<ruby>案内<rt>あんない</rt></ruby>でお<ruby>金<rt>かね</rt></ruby>を<ruby>払<rt>はら</rt></ruby>うものはどれですか。", options: ["<ruby>電車<rt>でんしゃ</rt></ruby>のお<ruby>金<rt>かね</rt></ruby>と<ruby>入<rt>はい</rt></ruby>るお<ruby>金<rt>かね</rt></ruby>", "ガイドのお<ruby>金<rt>かね</rt></ruby>と<ruby>写真<rt>しゃしん</rt></ruby>のお<ruby>金<rt>かね</rt></ruby>", "<ruby>本<rt>ほん</rt></ruby>のお<ruby>金<rt>かね</rt></ruby>と<ruby>予約<rt>よやく</rt></ruby>のお<ruby>金<rt>かね</rt></ruby>", "<ruby>水<rt>みず</rt></ruby>のお<ruby>金<rt>かね</rt></ruby>と<ruby>帽子<rt>ぼうし</rt></ruby>のお<ruby>金<rt>かね</rt></ruby>"], answer: 0 },
-    { q: "<ruby>無料<rt>むりょう</rt></ruby>の<ruby>英語<rt>えいご</rt></ruby>ガイドのツアーでどこを<ruby>案内<rt>あんない</rt></ruby>しますか。", options: ["<ruby>浅草<rt>あさくさ</rt></ruby>の<ruby>街<rt>まち</rt></ruby>と<ruby>浅草寺<rt>せんそうじ</rt></ruby>", "<ruby>東京<rt>とうきょう</rt></ruby><ruby>駅<rt>えき</rt></ruby>と<ruby>皇居<rt>こうきょ</rt></ruby>", "<ruby>銀座<rt>ぎんざ</rt></ruby>のデパート", "<ruby>新幹線<rt>しんかんせん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>"], answer: 0 },
-    { q: "<ruby>引っ越し<rt>ひっこし</rt></ruby>の手<ruby>続き<rt>つづき</rt></ruby>で<ruby>住所<rt>じゅうしょ</rt></ruby>の<ruby>紙<rt>かみ</rt></ruby>は1<ruby>枚<rt>まい</rt></ruby>いくらですか。", options: ["300<ruby>円<rt>えん</rt></ruby>", "500<ruby>円<rt>えん</rt></ruby>", "600<ruby>円<rt>えん</rt></ruby>", "1000<ruby>円<rt>えん</rt></ruby>"], answer: 0 },
-    { q: "マイナンバーカードは<ruby>コンビニ<rt>こんびに</rt></ruby>でなにをする<ruby>時<rt>とき</rt></ruby>に使いますか。", options: ["<ruby>住所<rt>じゅうしょ</rt></ruby>の<ruby>紙<rt>かみ</rt></ruby>を<ruby>出<rt>だ</rt></ruby>す<ruby>時<rt>とき</rt></ruby>", "お<ruby>弁当<rt>べんとう</rt></ruby>を<ruby>買<rt>か</rt></ruby>う<ruby>時<rt>とき</rt></ruby>", "<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>る<ruby>時<rt>とき</rt></ruby>", "<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>る<ruby>時<rt>とき</rt></ruby>"], answer: 0 },
-    { q: "<ruby>日本語<rt>にほんご</rt></ruby><ruby>教室<rt>きょうしつ</rt></ruby>の<ruby>教科書<rt>きょうかしょ</rt></ruby>のお<ruby>金<rt>かね</rt></ruby>はいくらですか。", options: ["500<ruby>円<rt>えん</rt></ruby>", "0<ruby>円<rt>えん</rt></ruby>", "300<ruby>円<rt>えん</rt></ruby>", "1000<ruby>円<rt>えん</rt></ruby>"], answer: 0 },
-    { q: "<ruby>新幹線<rt>しんかんせん</rt></ruby>の<ruby>特大<rt>とくだい</rt></ruby><ruby>荷物<rt>にもつ</rt></ruby>の<ruby>予約<rt>よやく</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れた<ruby>時<rt>とき</rt></ruby>、いくら<ruby>払<rt>はら</rt></ruby>いますか。", options: ["1000<ruby>円<rt>えん</rt></ruby>", "500<ruby>円<rt>えん</rt></ruby>", "160<ruby>円<rt>えん</rt></ruby>", "250<ruby>円<rt>えん</rt></ruby>"], answer: 0 },
-    { q: "きっぷの<ruby>時間<rt>じかん</rt></ruby>を変える<ruby>時<rt>とき</rt></ruby>、1<ruby>回目<rt>かいめ</rt></ruby>のお<ruby>金<rt>かね</rt></ruby>はいくらですか。", options: ["<ruby>無料<rt>むりょう</rt></ruby>", "500<ruby>円<rt>えん</rt></ruby>", "1000<ruby>円<rt>えん</rt></ruby>", "300<ruby>円<rt>えん</rt></ruby>"], answer: 0 },
-    { q: "クーリングシェルターにはどんな<ruby>マーク<rt>まーく</rt></ruby>がありますか。", options: ["<ruby>青<rt>あお</rt></ruby>いステッカー", "<ruby>赤<rt>あか</rt></ruby>い<ruby>旗<rt>はた</rt></ruby>", "<ruby>黄色<rt>きいろ</rt></ruby>い<ruby>箱<rt>はこ</rt></ruby>", "<ruby>黒<rt>くろ</rt></ruby>いかさ"], answer: 0 },
-    { q: "<ruby>無料<rt>むりょう</rt></ruby>レンタルできる<ruby>日傘<rt>ひがさ</rt></ruby>は何<ruby>時<rt>じ</rt></ruby>までに返しますか。", options: ["17<ruby>時<rt>じ</rt></ruby>", "10<ruby>時<rt>じ</rt></ruby>", "12<ruby>時<rt>じ</rt></ruby>", "20<ruby>時<rt>じ</rt></ruby>"], answer: 0 },
-    { q: "<ruby>空港<rt>くうこう</rt></ruby>のフェイスエクスプレスで最初に何をしますか。", options: ["<ruby>機械<rt>きかい</rt></ruby>で<ruby>顔<rt>かお</rt></ruby>の<ruby>写真<rt>しゃしん</rt></ruby>を<ruby>撮<rt>と</rt></ruby>る", "パスポートにスタンプを<ruby>押<rt>お</rt></ruby>す", "<ruby>水<rt>みず</rt></ruby>を<ruby>捨<rt>す</rt></ruby>てる", "お<ruby>金<rt>かね</rt></ruby>を<ruby>払<rt>はら</rt></ruby>う"], answer: 0 }
-];
-// =================================================================
-// 4. 重要文法・表現の穴埋めクイズデータの修正（quizDataGrammar 配列）
-// =================================================================
-
-const quizDataGrammar = [
-    { q: "<ruby>行<rt>い</rt></ruby>く<ruby>前<rt>まえ</rt></ruby>に ____ てください。", options: ["<ruby>予約<rt>よやく</rt></ruby>し", "<ruby>予約<rt>よやく</rt></ruby>する", "<ruby>予約<rt>よやく</rt></ruby>した", "<ruby>予約<rt>よやく</rt></ruby>します"], answer: 0 },
-    { q: "<ruby>紙<rt>かみ</rt></ruby> ____ <ruby>名前<rt>なまえ</rt></ruby>を<ruby>書<rt>か</rt></ruby>いてください。", options: ["に", "を", "で", "へ"], answer: 0 },
-    { q: "マイナンバーカードの<ruby>住所<rt>じゅうしょ</rt></ruby>も<ruby>変<rt>か</rt></ruby>えなければ ____ か。", options: ["なりません", "なります", "なりました", "ならない"], answer: 0 },
-    { q: "<ruby>初<rt>はじ</rt></ruby>めての<ruby>人<rt>ひと</rt></ruby> ____ ための教科書です。", options: ["の", "に", "を", "で"], answer: 0 },
-    { q: "きっぷの<ruby>機械<rt>きかい</rt></ruby> ____ <ruby>予約<rt>よやく</rt></ruby>することができますか。", options: ["でも", "から", "まで", "より"], answer: 0 },
-    { q: "<ruby>自由席<rt>じゆうせき</rt></ruby> ____ だめです。", options: ["は", "を", "に", "へ"], answer: 0 },
-    { q: "<ruby>夕方<rt>ゆうがた</rt></ruby>17<ruby>時<rt>じ</rt></ruby> ____ 返してください。", options: ["までに", "からに", "よりに", "までも"], answer: 0 },
-    { q: "<ruby>自分<rt>じぶん</rt></ruby>のボトル ____ <ruby>環境<rt>かんきょう</rt></ruby>に<ruby>良<rt>よ</rt></ruby>いですね。", options: ["は", "を", "へ", "に"], answer: 0 },
-    { q: "<ruby>日本<rt>にほん</rt></ruby>で<ruby>開<rt>あ</rt></ruby>けて ____ いけません。", options: ["は", "を", "に", "が"], answer: 0 },
-    { q: "<ruby>パスポート<rt>ぱすぽーと</rt></ruby>を ____ で通ることができます。", options: ["<ruby>見<rt>み</rt></ruby>せない", "<ruby>見<rt>み</rt></ruby>せないで", "<ruby>見<rt>み</rt></ruby>せます", "<ruby>見<rt>み</rt></ruby>せて"], answer: 0 }
-];
-        let quizData = [];
 
         let scenes = [];
 
 
         async function parseData() {
             scenes = [];
-            for (let i = 1; i <= 20; i++) {
+            let i = 1;
+            while (true) {
                 try {
                     const response = await fetch(`scenes/Output_Job${i}/final_sentences.json`);
-                    if (!response.ok) throw new Error(`Failed to fetch scene ${i}`);
+                    if (!response.ok) break; // ファイルが存在しなくなったらループ終了
+
                     const data = await response.json();
                     
                     const lines = data.map(item => {
@@ -350,7 +217,6 @@ const quizDataGrammar = [
                         
                         let correctedAudio = '';
                         if (item.audioPath) {
-                            // フォルダ名の変更と、日本語ファイル名対応のためのURLエンコード
                             const replacedPath = item.audioPath.replace('clips/', `scenes/Output_Job${i}/clips/`);
                             correctedAudio = encodeURI(replacedPath);
                         }
@@ -365,9 +231,10 @@ const quizDataGrammar = [
                         };
                     });
                     scenes.push({ lines: lines });
+                    i++;
                 } catch (e) {
                     console.error(`Error loading scene ${i}:`, e);
-                    scenes.push({ lines: [] });
+                    break;
                 }
             }
             await updateTranslations();
@@ -622,146 +489,46 @@ const quizDataGrammar = [
             playBtnIcon.className = 'fa-solid fa-play';
         }
 
-        function startQuiz() {
-            appState.score = 0;
-            appState.currentQuestionIndex = 0;
-            
-            const typeSelector = document.getElementById('quiz-type-selector');
-            if (typeSelector) {
-                appState.quizType = typeSelector.value;
-            }
-            
-            if (appState.quizType === 'kanji') {
-                quizData = quizDataKanji;
-            } else if (appState.quizType === 'culture') {
-                quizData = quizDataCulture;
-            } else if (appState.quizType === 'grammar') {
-                quizData = quizDataGrammar;
-            }
-            
-            document.getElementById('quiz-intro').classList.add('hidden');
-            document.getElementById('quiz-result').classList.add('hidden');
-            document.getElementById('quiz-area').classList.remove('hidden');
-            
-            loadQuestion();
-        }
-
-        function loadQuestion() {
-            appState.isAnswering = false;
-            const qData = quizData[appState.currentQuestionIndex];
-            
-            document.getElementById('quiz-progress').innerText = `Question ${appState.currentQuestionIndex + 1} / ${quizData.length}`;
-            document.getElementById('quiz-score').innerText = `Score: ${appState.score}`;
-            document.getElementById('quiz-question').innerHTML = qData.q;
-            
-            const optionsContainer = document.getElementById('quiz-options');
-            optionsContainer.innerHTML = '';
-            
-            // 選択肢のインデックスを保持したままシャッフル
-            const shuffledOptions = qData.options.map((opt, idx) => ({ text: opt, originalIndex: idx }));
-            for (let i = shuffledOptions.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [shuffledOptions[i], shuffledOptions[j]] = [shuffledOptions[j], shuffledOptions[i]];
-            }
-            
-            shuffledOptions.forEach((opt) => {
-                const btn = document.createElement('button');
-                btn.className = "w-full bg-white border-2 border-gray-200 hover:border-blue-500 hover:bg-blue-50 text-gray-700 font-bold py-4 px-6 rounded-xl text-lg sm:text-xl transition-all shadow-sm text-left sm:text-center";
-                btn.innerHTML = opt.text;
-                btn.dataset.originalIndex = opt.originalIndex;
-                btn.onclick = () => checkAnswer(opt.originalIndex, btn);
-                optionsContainer.appendChild(btn);
-            });
-        }
-
-        function checkAnswer(selectedIndex, btnElement) {
-            if (appState.isAnswering) return;
-            appState.isAnswering = true;
-            
-            const correctIndex = quizData[appState.currentQuestionIndex].answer;
-            const isCorrect = selectedIndex === correctIndex;
-            
-            if (isCorrect) {
-                appState.score++;
-                btnElement.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50', 'text-gray-700');
-                btnElement.classList.add('bg-green-500', 'text-white', 'border-green-500');
-            } else {
-                btnElement.classList.remove('border-gray-200', 'hover:border-blue-500', 'hover:bg-blue-50', 'text-gray-700');
-                btnElement.classList.add('bg-red-500', 'text-white', 'border-red-500');
-                
-                // シャッフル後の配置に対応した正解のハイライト
-                const allButtons = document.getElementById('quiz-options').children;
-                for (let btn of allButtons) {
-                    if (parseInt(btn.dataset.originalIndex) === correctIndex) {
-                        btn.classList.remove('border-gray-200');
-                        btn.classList.add('border-green-500', 'bg-green-50', 'text-green-700');
-                    }
-                }
-            }
-            
-            document.getElementById('quiz-score').innerText = `Score: ${appState.score}`;
-            
-            setTimeout(() => {
-                appState.currentQuestionIndex++;
-                if (appState.currentQuestionIndex < quizData.length) {
-                    loadQuestion();
-                } else {
-                    showResult();
-                }
-            }, 1200);
-        }
-
-        function showResult() {
-            document.getElementById('quiz-area').classList.add('hidden');
-            document.getElementById('quiz-result').classList.remove('hidden');
-            document.getElementById('final-score').innerText = appState.score;
-        }
-
-       function switchTab(tabId) {
-            appState.activeTab = tabId;
-            
-            const convBtn = document.getElementById('tab-btn-conv');
-            const quizBtn = document.getElementById('tab-btn-quiz');
-            const convBtnLand = document.getElementById('tab-btn-conv-land');
-            const quizBtnLand = document.getElementById('tab-btn-quiz-land');
-            const convDiv = document.getElementById('tab-conv');
-            const quizDiv = document.getElementById('tab-quiz');
-            
-            const activeClass = "px-4 py-2 rounded-md bg-white shadow text-blue-600 font-medium text-sm transition-all";
-            const inactiveClass = "px-4 py-2 rounded-md text-gray-500 hover:text-gray-700 font-medium text-sm transition-all";
-            const activeClassLand = "flex-1 px-4 py-1.5 rounded-md bg-white shadow text-blue-600 font-medium text-xs transition-all text-center";
-            const inactiveClassLand = "flex-1 px-4 py-1.5 rounded-md text-gray-500 hover:text-gray-700 font-medium text-xs transition-all text-center";
-            
-            if (tabId === 'conv') {
-                if(convBtn) convBtn.className = activeClass;
-                if(quizBtn) quizBtn.className = inactiveClass;
-                if(convBtnLand) convBtnLand.className = activeClassLand;
-                if(quizBtnLand) quizBtnLand.className = inactiveClassLand;
-                if(convDiv) convDiv.classList.remove('hidden');
-                if(quizDiv) quizDiv.classList.add('hidden');
-            } else {
-                if(quizBtn) quizBtn.className = activeClass;
-                if(convBtn) convBtn.className = inactiveClass;
-                if(quizBtnLand) quizBtnLand.className = activeClassLand;
-                if(convBtnLand) convBtnLand.className = inactiveClassLand;
-                if(quizDiv) quizDiv.classList.remove('hidden');
-                if(convDiv) convDiv.classList.add('hidden');
-                
-                // Reset Quiz
-                const quizIntro = document.getElementById('quiz-intro');
-                const quizArea = document.getElementById('quiz-area');
-                const quizResult = document.getElementById('quiz-result');
-                if(quizIntro) quizIntro.classList.remove('hidden');
-                if(quizArea) quizArea.classList.add('hidden');
-                if(quizResult) quizResult.classList.add('hidden');
-            }
-        }
+        /* クイズ用関数を削除 */
 
         // ==========================================
         // 【YouTube 設定エリア】次回からはここを変更してください
         // ==========================================
         const YOUTUBE_VIDEO_ID = 'ZpmJg_-N7to'; 
-       const sceneStartTimes = [9, 160, 308, 442, 576, 727, 858, 994, 1143, 1277, 1419, 1552, 1684, 1819, 1954, 2075, 2204, 2323, 2465, 2583];
+        let sceneStartTimes = []; // SRTから動的取得するため空配列で初期化
+
+        // SRTファイルから 「Scene 数字:」 のタイムスタンプ(開始秒数)を自動抽出する関数
+        async function updateSceneStartTimes() {
+            const srtParsed = await loadSRT(appState.currentLang);
+            if (!srtParsed || srtParsed.length === 0) return;
+
+            const sceneRegex = /^Scene\s+\d+:/i;
+            const detectedTimes = srtParsed
+                .filter(item => sceneRegex.test(item.text.trim()))
+                .map(item => Math.floor(item.start));
+
+            if (detectedTimes.length > 0) {
+                sceneStartTimes = detectedTimes;
+            }
+        }
+
+        // シーン選択セレクトボックスの表示を更新する関数
+        function renderSceneSelector() {
+            const selector = document.getElementById('scene-selector');
+            if (!selector) return;
+            
+            const currentVal = selector.value;
+            selector.innerHTML = '';
+
+            const count = sceneTitles.length > 0 ? sceneTitles.length : scenes.length;
+            for (let i = 0; i < count; i++) {
+                const opt = document.createElement('option');
+                opt.value = i;
+                opt.text = sceneTitles[i] || `Scene ${i + 1}`;
+                selector.appendChild(opt);
+            }
+            selector.value = currentVal || 0;
+        }
         // ==========================================
 
         let ytPlayer = null;
@@ -888,23 +655,19 @@ const quizDataGrammar = [
             });
 
             await parseData();
+            await updateSceneTitles();     // SRTからタイトルを自動抽出
+            await updateSceneStartTimes(); // SRTからタイムスタンプ配列を自動生成
+
+            renderSceneSelector();
 
             const selector = document.getElementById('scene-selector');
-            for (let i = 0; i < 10; i++) {
-                const opt = document.createElement('option');
-                opt.value = i;
-                opt.text = sceneTitles[i] || `Scene ${i + 1}`;
-                selector.appendChild(opt);
-            }
-
             selector.addEventListener('change', (e) => {
                 const sceneIdx = parseInt(e.target.value);
                 appState.currentSceneIndex = sceneIdx;
-                if(appState.isPlaying) playEntireScene(); // Stop if playing
+                if(appState.isPlaying) playEntireScene();
                 renderScene();
 
-                // シーン選択時にYouTubeの再生位置を対応する秒数へジャンプさせる
-                if (ytPlayer && typeof ytPlayer.seekTo === 'function') {
+                if (ytPlayer && typeof ytPlayer.seekTo === 'function' && sceneStartTimes[sceneIdx] !== undefined) {
                     ytPlayer.seekTo(sceneStartTimes[sceneIdx], true);
                 }
             });
@@ -928,6 +691,9 @@ const quizDataGrammar = [
                 appState.currentLang = e.target.value;
                 if (appState.isPlaying) playEntireScene();
                 await updateTranslations();
+                await updateSceneTitles();
+                await updateSceneStartTimes();
+                renderSceneSelector();
                 renderScene();
             });
 
@@ -940,9 +706,6 @@ const quizDataGrammar = [
                 appState.roleplayMutedSpeaker = e.target.value;
                 renderScene();
             });
-
-            document.getElementById('tab-btn-conv').addEventListener('click', () => switchTab('conv'));
-            document.getElementById('tab-btn-quiz').addEventListener('click', () => switchTab('quiz'));
 
             renderScene();
         };
