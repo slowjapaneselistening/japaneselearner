@@ -1,0 +1,3467 @@
+1
+00:00:00,000 --> 00:00:10,008
+Bugünkü videomuzda ne var? Bir izakaya (Japon meyhanesi) sohbeti.
+
+2
+00:00:10,008 --> 00:00:11,508
+Sahne 1: İzakaya Rezervasyonu ve Yerleşim / İzakaya Rezervasyonlarına ve Oturma Düzenine Giriş
+
+3
+00:00:11,508 --> 00:00:13,341
+Hoş geldiniz.
+
+4
+00:00:13,364 --> 00:00:15,938
+İzakaya'ya hoş geldiniz.
+
+5
+00:00:15,961 --> 00:00:18,860
+Merhaba, iki kişiyiz.
+
+6
+00:00:18,884 --> 00:00:20,650
+Anlaşıldı.
+
+7
+00:00:20,673 --> 00:00:23,676
+Bugün rezervasyonunuz var mı?
+
+8
+00:00:23,700 --> 00:00:27,033
+Hayır, rezervasyonumuz yok.
+
+9
+00:00:27,056 --> 00:00:29,023
+Anlaşıldı.
+
+10
+00:00:29,046 --> 00:00:31,479
+Sorun değil.
+
+11
+00:00:31,502 --> 00:00:33,311
+İyi oldu.
+
+12
+00:00:33,334 --> 00:00:35,868
+Sigara içer misiniz?
+
+13
+00:00:35,891 --> 00:00:38,741
+Hayır, içmiyorum.
+
+14
+00:00:38,764 --> 00:00:41,702
+Sigara içilmeyen bölüme lütfen.
+
+15
+00:00:41,725 --> 00:00:43,892
+Anlaşıldı.
+
+16
+00:00:43,915 --> 00:00:47,048
+Sizi sigara içilmeyen bölüme alıyorum.
+
+17
+00:00:47,071 --> 00:00:48,688
+Teşekkür ederiz.
+
+18
+00:00:48,712 --> 00:00:50,802
+Arka taraftaki masa mı?
+
+19
+00:00:50,825 --> 00:00:54,825
+Evet, arka tarafta masa var.
+
+20
+00:00:54,848 --> 00:00:56,692
+Bu taraftan buyurun.
+
+21
+00:00:56,716 --> 00:00:59,516
+Ne kadar aydınlık ve güzel bir masa!
+
+22
+00:00:59,539 --> 00:01:01,436
+Teşekkür ederiz.
+
+23
+00:01:01,460 --> 00:01:04,193
+Bu masa uygun mu?
+
+24
+00:01:04,216 --> 00:01:07,508
+Evet, çok güzel bir masa.
+
+25
+00:01:07,532 --> 00:01:10,932
+Eşyalarınızı lütfen bu kutunun içine koyun.
+
+26
+00:01:10,955 --> 00:01:12,955
+Tamam.
+
+27
+00:01:12,978 --> 00:01:15,911
+Bilgi verdiğiniz için teşekkürler.
+
+28
+00:01:15,934 --> 00:01:18,272
+Çok kalabalık olmuş.
+
+29
+00:01:18,296 --> 00:01:22,232
+Cuma günü olduğu için müşteri çok oluyor.
+
+30
+00:01:22,256 --> 00:01:24,589
+Anladım.
+
+31
+00:01:24,612 --> 00:01:27,022
+Girebildiğimize sevindim.
+
+32
+00:01:27,046 --> 00:01:29,779
+Arkadaşınız hemen gelir mi?
+
+33
+00:01:29,802 --> 00:01:33,235
+Evet, 5 dakikaya gelir.
+
+34
+00:01:33,258 --> 00:01:35,025
+Anlaşıldı.
+
+35
+00:01:35,048 --> 00:01:37,697
+Menüyü getiriyorum.
+
+36
+00:01:37,721 --> 00:01:39,411
+Rica ederim.
+
+37
+00:01:39,434 --> 00:01:41,968
+Su da alabilir miyiz?
+
+38
+00:01:41,991 --> 00:01:45,268
+Evet, hemen getiriyorum.
+
+39
+00:01:45,291 --> 00:01:49,098
+Masadaki QR kodu nedir?
+
+40
+00:01:49,122 --> 00:01:53,255
+Telefonunuzla sipariş verebileceğiniz bir QR kodudur.
+
+41
+00:01:53,278 --> 00:01:55,122
+Ne kadar pratik!
+
+42
+00:01:55,145 --> 00:01:58,029
+Telefonumdan sipariş vereceğim.
+
+43
+00:01:58,053 --> 00:02:02,086
+Kağıt menümüz de var, kullanabilirsiniz.
+
+44
+00:02:02,109 --> 00:02:04,242
+Tamam.
+
+45
+00:02:04,265 --> 00:02:06,032
+Teşekkür ederiz.
+
+46
+00:02:06,055 --> 00:02:09,633
+O halde, rahat rahat seçim yapın.
+
+47
+00:02:09,656 --> 00:02:13,223
+Tamam, teşekkür ederiz!
+
+48
+00:02:13,246 --> 00:02:22,255
+Bugünkü videonun senaryosunu açıklama bölümünden ve en üstteki yorumdan indirebilirsiniz. İndirmeden önce yorum yapmayı unutmayın!
+
+49
+00:02:22,255 --> 00:02:23,755
+Sahne 2: Temel Müşteri Hizmetleri Adabı / Temel Müşteri Hizmetleri Görgü Kuralları
+
+50
+00:02:23,755 --> 00:02:26,633
+Bugün de yoruldunuz, tebrikler.
+
+51
+00:02:26,656 --> 00:02:29,195
+Hadi işe başlayalım.
+
+52
+00:02:29,219 --> 00:02:31,752
+Rica ederim.
+
+53
+00:02:31,775 --> 00:02:34,433
+Ne yapmam gerekiyor?
+
+54
+00:02:34,457 --> 00:02:39,754
+Öncelikle müşteriyi yerleştirdikten sonraki işler.
+
+55
+00:02:39,778 --> 00:02:43,258
+Tamam, iyice öğreneceğim.
+
+56
+00:02:43,281 --> 00:02:48,155
+Müşteri oturduktan hemen sonra sıcak havlu verin.
+
+57
+00:02:48,179 --> 00:02:50,589
+Sıcak havlu, değil mi?
+
+58
+00:02:50,612 --> 00:02:53,020
+Sıcak mı olsun?
+
+59
+00:02:53,043 --> 00:02:57,843
+Evet, lütfen sıcak havluyu uzatın.
+
+60
+00:02:57,866 --> 00:02:59,833
+Tamam.
+
+61
+00:02:59,856 --> 00:03:02,500
+İki elle mi uzatayım?
+
+62
+00:03:02,523 --> 00:03:08,123
+Evet, 'Hoş geldiniz' diyerek nazikçe uzatın.
+
+63
+00:03:08,146 --> 00:03:09,780
+Tamam.
+
+64
+00:03:09,803 --> 00:03:12,940
+Yüksek sesle selamlayın.
+
+65
+00:03:12,964 --> 00:03:17,497
+Sonra menüyü masanın üzerine koyun.
+
+66
+00:03:17,520 --> 00:03:21,120
+Menü herkese bir tane mi olacak?
+
+67
+00:03:21,144 --> 00:03:26,024
+Hayır, gruba iki tane koymak yeterli.
+
+68
+00:03:26,048 --> 00:03:28,514
+Tamam.
+
+69
+00:03:28,537 --> 00:03:31,504
+Su da getirelim mi?
+
+70
+00:03:31,528 --> 00:03:36,534
+İzakaya olduğu için önce soğuk su ya da çay getirin.
+
+71
+00:03:36,557 --> 00:03:40,757
+Müşteriye hangisini tercih ettiğini sorayım mı?
+
+72
+00:03:40,780 --> 00:03:42,747
+Evet, öyle.
+
+73
+00:03:42,770 --> 00:03:47,451
+Sıcak çay mı yoksa soğuk su mu istediklerini sorun.
+
+74
+00:03:47,474 --> 00:03:49,927
+Tamam.
+
+75
+00:03:49,950 --> 00:03:53,364
+Not alsam iyi olur mu?
+
+76
+00:03:53,388 --> 00:03:57,121
+Başlangıçta not alın lütfen. Tamam.
+
+77
+00:03:57,144 --> 00:04:00,477
+Not defteri ve kalem hazırlarım.
+
+78
+00:04:00,500 --> 00:04:04,734
+Sonra bugünün önerilerini gösteren panoyu da gösterin.
+
+79
+00:04:04,757 --> 00:04:08,643
+Öneri panosu nerede?
+
+80
+00:04:08,666 --> 00:04:12,120
+Mutfak tarafındaki rafın üzerinde duruyor.
+
+81
+00:04:12,143 --> 00:04:14,156
+Tamam.
+
+82
+00:04:14,179 --> 00:04:16,413
+Kontrol edip geliyorum.
+
+83
+00:04:16,436 --> 00:04:20,678
+Sipariş hazır olduğunda düğmeye basmalarını rica edin.
+
+84
+00:04:20,701 --> 00:04:24,874
+Zil çaldığında hemen gitmem gerekiyor, değil mi?
+
+85
+00:04:24,897 --> 00:04:27,830
+Aynen öyle.
+
+86
+00:04:27,853 --> 00:04:30,387
+Güler yüzle hizmet verelim.
+
+87
+00:04:30,410 --> 00:04:32,043
+Tamam.
+
+88
+00:04:32,066 --> 00:04:33,999
+Elimden geleni yapacağım.
+
+89
+00:04:34,022 --> 00:04:38,075
+Anlamadığınız bir şey olursa, her şeyi sorabilirsiniz.
+
+90
+00:04:38,099 --> 00:04:39,766
+Tamam.
+
+91
+00:04:39,790 --> 00:04:42,556
+Rica ederim.
+
+92
+00:04:42,579 --> 00:04:49,684
+Bugünkü videonun tekrarını yapabileceğiniz siteye ait bağlantı açıklama bölümünde ve en üst yorumda yer alıyor. *Site önceden haber verilmeden kaldırılabilir.
+
+93
+00:04:49,684 --> 00:04:51,184
+3. Sahne: Sipariş Alma Alıştırması / Sipariş Alma Pratiği
+
+94
+00:04:51,184 --> 00:04:53,584
+Hoş geldiniz.
+
+95
+00:04:53,607 --> 00:04:57,293
+Siparişiniz hazır mı?
+
+96
+00:04:57,317 --> 00:05:02,590
+Evet, önce içecek siparişi vermek istiyorum.
+
+97
+00:05:02,614 --> 00:05:04,890
+Anlaşıldı.
+
+98
+00:05:04,913 --> 00:05:07,713
+Ne alırsınız?
+
+99
+00:05:07,736 --> 00:05:12,936
+Şimdilik iki tane büyük bira lütfen.
+
+100
+00:05:12,959 --> 00:05:16,233
+İki tane büyük bira, tamam.
+
+101
+00:05:16,256 --> 00:05:18,428
+Tamam.
+
+102
+00:05:18,451 --> 00:05:23,418
+Ah, arkadaşım viski-soda istediğini söyledi.
+
+103
+00:05:23,441 --> 00:05:30,316
+O zaman bir büyük bira ve bir viski-soda mı olsun?
+
+104
+00:05:30,339 --> 00:05:33,754
+Evet, öyle olsun lütfen.
+
+105
+00:05:33,778 --> 00:05:39,044
+Viski-sodayı sert yapabiliriz, nasıl olsun?
+
+106
+00:05:39,067 --> 00:05:42,304
+Normal sertlikte olsun.
+
+107
+00:05:42,328 --> 00:05:44,409
+Tamam.
+
+108
+00:05:44,433 --> 00:05:48,166
+Buz koyalım mı?
+
+109
+00:05:48,189 --> 00:05:52,085
+Evet, buz koyun lütfen.
+
+110
+00:05:52,109 --> 00:05:58,509
+Büyük bira büyük ve küçük boy olarak var, hangisini istersiniz?
+
+111
+00:05:58,532 --> 00:06:01,340
+Orta boy lütfen.
+
+112
+00:06:01,364 --> 00:06:04,097
+Orta boy büyük bira, tamam.
+
+113
+00:06:04,120 --> 00:06:06,411
+Anlaşıldı.
+
+114
+00:06:06,434 --> 00:06:09,434
+İçecekler hemen gelir mi?
+
+115
+00:06:09,457 --> 00:06:14,024
+Evet, hemen hazırlayıp getiriyoruz.
+
+116
+00:06:14,047 --> 00:06:15,742
+Teşekkür ederiz.
+
+117
+00:06:15,765 --> 00:06:18,165
+Harika, dört gözle bekliyorum.
+
+118
+00:06:18,188 --> 00:06:21,261
+Bugünün meze tabağı nedir?
+
+119
+00:06:21,284 --> 00:06:25,217
+Bugün edamame ve küçük tabaklar var.
+
+120
+00:06:25,240 --> 00:06:27,207
+Harika.
+
+121
+00:06:27,230 --> 00:06:29,724
+Meze de lütfen.
+
+122
+00:06:29,748 --> 00:06:32,003
+Anlaşıldı.
+
+123
+00:06:32,026 --> 00:06:35,026
+Meze iki tane, değil mi?
+
+124
+00:06:35,049 --> 00:06:38,882
+Yemek siparişini sonra verebilir miyiz?
+
+125
+00:06:38,905 --> 00:06:43,156
+Tabii, karar verdiğinizde çağırın lütfen.
+
+126
+00:06:43,180 --> 00:06:45,187
+Tamam.
+
+127
+00:06:45,211 --> 00:06:48,277
+Rahat rahat menüye bakacağım.
+
+128
+00:06:48,300 --> 00:06:53,034
+O zaman size birasız bir de highball getireyim.
+
+129
+00:06:53,057 --> 00:06:56,195
+Evet, lütfen.
+
+130
+00:06:56,218 --> 00:06:58,854
+Biraz bekleyin lütfen.
+
+131
+00:06:58,878 --> 00:07:01,912
+Tamam, bekliyoruz.
+
+132
+00:07:01,936 --> 00:07:03,436
+Sahne 4: İşten Sonra Kadeh Tokşturma / İşten Sonra Kadehleşme
+
+133
+00:07:03,436 --> 00:07:06,120
+Emeğinize sağlık.
+
+134
+00:07:06,143 --> 00:07:08,745
+İçecekler geldi.
+
+135
+00:07:08,768 --> 00:07:11,228
+Emeğinize sağlık.
+
+136
+00:07:11,251 --> 00:07:14,136
+Çok susadık, değil mi?
+
+137
+00:07:14,160 --> 00:07:19,693
+Hadi, bu hafta da işte emeğinize sağlık.
+
+138
+00:07:19,716 --> 00:07:22,450
+Emeğinize sağlık.
+
+139
+00:07:22,473 --> 00:07:24,839
+Şerefe kadeh kaldıralım.
+
+140
+00:07:24,862 --> 00:07:26,829
+Şerefe!
+
+141
+00:07:26,852 --> 00:07:29,019
+Şerefe!
+
+142
+00:07:29,042 --> 00:07:34,775
+Gulp gulp... Ahhh, ne güzelmiş!
+
+143
+00:07:34,798 --> 00:07:40,246
+Doğru, bira buz gibi, harika!
+
+144
+00:07:40,269 --> 00:07:45,157
+İşten sonra içilen bira gerçekten çok güzel oluyor.
+
+145
+00:07:45,181 --> 00:07:50,548
+Bu mekandaki biranın köpüğü çok güzel.
+
+146
+00:07:50,571 --> 00:07:52,706
+Gerçekten öyle.
+
+147
+00:07:52,729 --> 00:07:56,104
+Soğuk ve içimi kolay.
+
+148
+00:07:56,127 --> 00:07:59,706
+Bir yudumda neredeyse yarısını içtim.
+
+149
+00:07:59,729 --> 00:08:03,496
+Haha, tempoyu yüksek tutuyorsun.
+
+150
+00:08:03,519 --> 00:08:07,418
+Bugün gerçekten çok yoğunduk çünkü.
+
+151
+00:08:07,441 --> 00:08:11,516
+Çok fazla mesai yaptık.
+
+152
+00:08:11,539 --> 00:08:15,792
+Bu yüzden bu kadeh çok lezzetli geliyor.
+
+153
+00:08:15,815 --> 00:08:19,382
+Hadi, meze olarak edamamı da yiyelim.
+
+154
+00:08:19,405 --> 00:08:23,249
+Ah, tuzlu ve çok lezzetli.
+
+155
+00:08:23,272 --> 00:08:26,072
+Biranın yanında mükemmel gidiyor.
+
+156
+00:08:26,095 --> 00:08:28,982
+Harika bir meze.
+
+157
+00:08:29,005 --> 00:08:32,239
+Çok fazla içmeyin, tamam mı?
+
+158
+00:08:32,263 --> 00:08:34,339
+Sorun değil.
+
+159
+00:08:34,363 --> 00:08:36,899
+Bugün keyifli keyifli içelim.
+
+160
+00:08:36,922 --> 00:08:41,701
+Evet, bol bol lezzetli yemekler de sipariş edelim.
+
+161
+00:08:41,724 --> 00:08:44,005
+Harika.
+
+162
+00:08:44,029 --> 00:08:47,243
+Menüye bakalım mı?
+
+163
+00:08:47,267 --> 00:08:50,915
+Önce bir yudum daha içeyim.
+
+164
+00:08:50,938 --> 00:08:53,305
+Ben de içiyorum.
+
+165
+00:08:53,328 --> 00:08:56,102
+Hmm, ne güzel.
+
+166
+00:08:56,126 --> 00:08:59,261
+Mutlu bir an.
+
+167
+00:08:59,284 --> 00:09:03,096
+İzaka'ya gelmek gerçekten iyi oldu.
+
+168
+00:09:03,120 --> 00:09:06,920
+Bugün bol bol konuşup eğlenelim.
+
+169
+00:09:06,943 --> 00:09:11,283
+Evet, sonuna kadar birlikte içelim.
+
+170
+00:09:11,306 --> 00:09:12,806
+Sahne 5: Sipariş Nasıl Verilir / Ne Sipariş Edileceğine Karar Verme
+
+171
+00:09:12,806 --> 00:09:17,073
+Hadi, yemek siparişi verelim.
+
+172
+00:09:17,096 --> 00:09:19,029
+Harika.
+
+173
+00:09:19,052 --> 00:09:21,670
+Ne yemek istersin?
+
+174
+00:09:21,694 --> 00:09:24,927
+Et yemekleri istiyorum.
+
+175
+00:09:24,950 --> 00:09:29,117
+Kızarmış tavuk ve yakitori var.
+
+176
+00:09:29,140 --> 00:09:31,774
+Kararsız kalıyoruz, değil mi?
+
+177
+00:09:31,797 --> 00:09:34,332
+Hangisi daha iyi sizce?
+
+178
+00:09:34,356 --> 00:09:38,289
+Ben kızarmış tavuk severim.
+
+179
+00:09:38,312 --> 00:09:43,845
+Kızarmış tavuk güzel ama yakitori da vazgeçilmez.
+
+180
+00:09:43,868 --> 00:09:49,302
+Yakitori için tuzlu mu yoksa soslu mu tercih edersiniz?
+
+181
+00:09:49,325 --> 00:09:53,858
+Ben tatlı sosu severim.
+
+182
+00:09:53,881 --> 00:09:57,814
+Bense hafif tuzlusunu seviyorum.
+
+183
+00:09:57,837 --> 00:10:02,304
+O zaman karışık bir tabak sipariş verelim mi?
+
+184
+00:10:02,327 --> 00:10:06,694
+Karışık tabakta ikisi de var.
+
+185
+00:10:06,717 --> 00:10:11,328
+Hem tuzlu hem soslu sipariş verebiliriz.
+
+186
+00:10:11,352 --> 00:10:14,231
+Bu harika bir fikir!
+
+187
+00:10:14,255 --> 00:10:18,388
+Bir tabak da kızarmış tavuk sipariş verelim mi?
+
+188
+00:10:18,411 --> 00:10:20,445
+Harika.
+
+189
+00:10:20,468 --> 00:10:23,305
+İkisini de yiyelim.
+
+190
+00:10:23,328 --> 00:10:25,895
+Hepsini yiyebilecek misin?
+
+191
+00:10:25,918 --> 00:10:29,851
+Belki biraz fazla gelebilir.
+
+192
+00:10:29,874 --> 00:10:33,508
+Açım, sorun olmaz.
+
+193
+00:10:33,531 --> 00:10:36,864
+Bir de salata sipariş verelim.
+
+194
+00:10:36,887 --> 00:10:39,720
+Sezar salatası nasıl olur?
+
+195
+00:10:39,743 --> 00:10:42,230
+Çok severim!
+
+196
+00:10:42,254 --> 00:10:44,550
+O zaman Sezar salatası olsun.
+
+197
+00:10:44,573 --> 00:10:47,858
+Tofu salatası da lezzetli görünüyor.
+
+198
+00:10:47,881 --> 00:10:51,948
+Bugün Sezar salatasına ne dersin?
+
+199
+00:10:51,971 --> 00:10:54,145
+Tamam, anlaştık.
+
+200
+00:10:54,169 --> 00:10:56,602
+Öyle yapalım.
+
+201
+00:10:56,625 --> 00:10:59,958
+Çeşitli çiğ balık tabağı da güzel olur.
+
+202
+00:10:59,981 --> 00:11:04,434
+Bugünün önerilen balıkları var.
+
+203
+00:11:04,457 --> 00:11:08,824
+Hem balık hem et sipariş verelim mi?
+
+204
+00:11:08,847 --> 00:11:13,023
+Azar azar sipariş vermek daha güvenli.
+
+205
+00:11:13,047 --> 00:11:14,680
+Evet, öyle.
+
+206
+00:11:14,703 --> 00:11:17,757
+Önce et ve salata sipariş edelim.
+
+207
+00:11:17,781 --> 00:11:19,347
+Tamam.
+
+208
+00:11:19,370 --> 00:11:22,137
+Garsonu çağıralım.
+
+209
+00:11:22,160 --> 00:11:23,660
+Sahne 6: Sipariş ve Öneriler / Sipariş Alma ve Yemek Önerileri
+
+210
+00:11:23,660 --> 00:11:26,111
+Beni mi çağırdınız?
+
+211
+00:11:26,135 --> 00:11:29,404
+Siparişlerinizi alabilirim.
+
+212
+00:11:29,427 --> 00:11:33,630
+Affedersiniz, bugünün önerisi nedir?
+
+213
+00:11:33,654 --> 00:11:38,987
+Bugünün önerisi taze çiğ balık karışık tabağıdır.
+
+214
+00:11:39,010 --> 00:11:42,143
+İçinde hangi balıklar var?
+
+215
+00:11:42,166 --> 00:11:46,439
+Ton balığı, somon ve amberjack bulunuyor.
+
+216
+00:11:46,463 --> 00:11:48,732
+Çok lezzetli görünüyor.
+
+217
+00:11:48,755 --> 00:11:52,355
+Şu an en taze balıklar bunlar mı?
+
+218
+00:11:52,378 --> 00:11:56,845
+Bu sabah limandan yeni gelmiş balıklar.
+
+219
+00:11:56,868 --> 00:11:59,901
+Harika!
+
+220
+00:11:59,924 --> 00:12:02,157
+Bir tane lütfen.
+
+221
+00:12:02,180 --> 00:12:03,780
+Teşekkür ederiz.
+
+222
+00:12:03,803 --> 00:12:06,437
+Çiğ balık karışık tabağı, tamam.
+
+223
+00:12:06,460 --> 00:12:10,026
+Başka popüler mezeler var mı?
+
+224
+00:12:10,049 --> 00:12:14,666
+Restoranımızın yaptığı dashimaki tamago çok popüler.
+
+225
+00:12:14,690 --> 00:12:17,166
+Dashimaki tamago mu?
+
+226
+00:12:17,190 --> 00:12:19,190
+Sıcak mı?
+
+227
+00:12:19,213 --> 00:12:23,261
+Evet, sipariş üzerine pişiriyoruz.
+
+228
+00:12:23,284 --> 00:12:26,485
+Puf puf ve lezzetli görünüyor.
+
+229
+00:12:26,509 --> 00:12:31,349
+Çok lezzetli, gerçekten dashisi harika.
+
+230
+00:12:31,372 --> 00:12:35,612
+O zaman, bir de rulo omlet lütfen.
+
+231
+00:12:35,636 --> 00:12:40,636
+İçinde mentaiko ve peynir olan rulo omletimiz de var.
+
+232
+00:12:40,659 --> 00:12:44,037
+Vay canına, mentaiko ve peynir mi?
+
+233
+00:12:44,060 --> 00:12:48,542
+Kadın müşterilerimiz arasında en popüler olanı bu.
+
+234
+00:12:48,566 --> 00:12:51,766
+Normal olanla hangisini önerirsiniz?
+
+235
+00:12:51,789 --> 00:12:55,875
+Alkol ile mentaiko olan çok iyi gider.
+
+236
+00:12:55,898 --> 00:12:59,501
+O zaman mentaiko olanı alayım.
+
+237
+00:12:59,525 --> 00:13:01,558
+Anlaşıldı.
+
+238
+00:13:01,581 --> 00:13:04,581
+Kesinlikle çok lezzetli olacak.
+
+239
+00:13:04,604 --> 00:13:06,891
+Şimdiden sabırsızlanıyorum.
+
+240
+00:13:06,915 --> 00:13:09,558
+Kızartma ister misiniz?
+
+241
+00:13:09,581 --> 00:13:13,948
+Kızartmalardan en çok neyi önerirsiniz?
+
+242
+00:13:13,971 --> 00:13:18,021
+Oita'nın meşhur yemeği Toriten'i öneririm.
+
+243
+00:13:18,044 --> 00:13:19,928
+Toriten mi?
+
+244
+00:13:19,951 --> 00:13:22,728
+Ponzu sosuyla yenilen bir yemek.
+
+245
+00:13:22,752 --> 00:13:27,118
+Hafif olduğu için kaç tane bile yersiniz.
+
+246
+00:13:27,141 --> 00:13:29,427
+Onu da bir tane lütfen.
+
+247
+00:13:29,451 --> 00:13:31,522
+Anlaşıldı.
+
+248
+00:13:31,546 --> 00:13:34,712
+Mükemmel bir sipariş oldu.
+
+249
+00:13:34,735 --> 00:13:36,235
+7. Sahne: Sipariş ve Alerji Uyumu / Sipariş ve Alerji Düzenlemesi
+
+250
+00:13:36,235 --> 00:13:39,505
+Siparişinizi alabilir miyim?
+
+251
+00:13:39,529 --> 00:13:42,746
+Bu pilavı sipariş etmek istiyorum.
+
+252
+00:13:42,769 --> 00:13:45,036
+Beş çeşit pilav, değil mi?
+
+253
+00:13:45,059 --> 00:13:46,659
+Teşekkür ederiz.
+
+254
+00:13:46,682 --> 00:13:52,515
+Şey, bir sorum var, içinde karides var mı?
+
+255
+00:13:52,538 --> 00:13:54,016
+Tamam.
+
+256
+00:13:54,039 --> 00:13:57,016
+İçinde karides malzemesi bulunmaktadır.
+
+257
+00:13:57,040 --> 00:14:01,573
+Alerjim olduğu için karides yiyemiyorum.
+
+258
+00:14:01,596 --> 00:14:04,074
+Anlaşıldı.
+
+259
+00:14:04,098 --> 00:14:06,667
+Alerjiniz varmış.
+
+260
+00:14:06,690 --> 00:14:11,023
+Karides olmadan hazırlayabilir misiniz?
+
+261
+00:14:11,046 --> 00:14:13,713
+Biraz bekleyin lütfen.
+
+262
+00:14:13,736 --> 00:14:16,584
+Mutfakla kontrol edip geleyim.
+
+263
+00:14:16,608 --> 00:14:19,008
+Rahatsızlık verdiğim için özür dilerim.
+
+264
+00:14:19,031 --> 00:14:21,206
+Rica ederim.
+
+265
+00:14:21,230 --> 00:14:23,523
+Beklettiğim için özür dilerim.
+
+266
+00:14:23,546 --> 00:14:27,152
+Karides olmadan hazırlayabiliriz.
+
+267
+00:14:27,176 --> 00:14:29,109
+Gerçekten mi?
+
+268
+00:14:29,132 --> 00:14:31,099
+Çok yardımcı oldunuz.
+
+269
+00:14:31,121 --> 00:14:34,855
+Başka alerjiniz olan yiyecek var mı?
+
+270
+00:14:34,878 --> 00:14:38,319
+Yumurta ve domuz eti sorun değil.
+
+271
+00:14:38,342 --> 00:14:40,709
+Sadece karides ve yengeç.
+
+272
+00:14:40,732 --> 00:14:42,776
+Anlaşıldı.
+
+273
+00:14:42,799 --> 00:14:45,766
+Karides koymadan hazırlayacağız.
+
+274
+00:14:45,789 --> 00:14:51,189
+Soğanı da pek sevmiyorum, biraz azaltabilir misiniz?
+
+275
+00:14:51,212 --> 00:14:55,412
+Soğansız da hazırlayabiliriz, olur mu?
+
+276
+00:14:55,435 --> 00:14:59,132
+O zaman soğansız da lütfen.
+
+277
+00:14:59,155 --> 00:15:01,355
+Anlaşıldı.
+
+278
+00:15:01,378 --> 00:15:04,580
+Karides ve soğansız, değil mi?
+
+279
+00:15:04,604 --> 00:15:07,470
+Zorluk çıkardığım için özür dilerim.
+
+280
+00:15:07,493 --> 00:15:10,460
+Hayır, endişelenmeyin.
+
+281
+00:15:10,483 --> 00:15:14,449
+Çok nazik davrandığınız için mutlu oldum.
+
+282
+00:15:14,472 --> 00:15:18,639
+Salata sosunda da karides bulunmuyor.
+
+283
+00:15:18,662 --> 00:15:22,999
+Ah, salata da sipariş etmek istiyordum.
+
+284
+00:15:23,023 --> 00:15:27,037
+Japon usulü sos, endişelenmeyin.
+
+285
+00:15:27,061 --> 00:15:31,102
+O zaman bir de Japon usulü salata lütfen.
+
+286
+00:15:31,126 --> 00:15:33,292
+Anlaşıldı.
+
+287
+00:15:33,315 --> 00:15:35,882
+Salata ve pilav, değil mi?
+
+288
+00:15:35,905 --> 00:15:37,838
+Rica ederim.
+
+289
+00:15:37,861 --> 00:15:41,636
+Lezzetli bir şekilde hazırlayacağım, lütfen bekleyin.
+
+290
+00:15:41,660 --> 00:15:44,936
+Evet, sabırsızlıkla bekliyorum.
+
+291
+00:15:44,959 --> 00:15:46,459
+Sahne 8: Zevk Farklılıkları / Damak Zevkindeki Farklılıklar
+
+292
+00:15:46,459 --> 00:15:51,426
+Herkesin yemek zevki farklıdır, değil mi?
+
+293
+00:15:51,449 --> 00:15:53,715
+Evet, öyle.
+
+294
+00:15:53,738 --> 00:15:57,154
+Acı yemekleri sever misiniz?
+
+295
+00:15:57,178 --> 00:15:59,850
+Çok severim!
+
+296
+00:15:59,873 --> 00:16:04,806
+Ma Po Tofu ve Kore yemeklerini çok severim.
+
+297
+00:16:04,829 --> 00:16:06,966
+Gerçekten mi?
+
+298
+00:16:06,990 --> 00:16:11,556
+Ben acıyı hiç sevmem.
+
+299
+00:16:11,579 --> 00:16:16,398
+Yaa! Kimchi de mi yiyemezsiniz?
+
+300
+00:16:16,422 --> 00:16:21,467
+Kimchi de biraz fazla acı geldiği için sevmiyorum.
+
+301
+00:16:21,491 --> 00:16:23,749
+Anladım.
+
+302
+00:16:23,772 --> 00:16:28,439
+Tatlı şeyleri veya hafif tatları mı seversiniz?
+
+303
+00:16:28,462 --> 00:16:34,862
+Evet, dashi aromalı Japon yemekleri ve tatlı sosları severim.
+
+304
+00:16:34,885 --> 00:16:36,697
+Anlaşıldı.
+
+305
+00:16:36,720 --> 00:16:41,287
+O zaman bugünkü siparişe dikkat etmeliyim.
+
+306
+00:16:41,310 --> 00:16:45,743
+Acı yemekleri tek başınıza mı yiyebiliyorsunuz?
+
+307
+00:16:45,766 --> 00:16:50,343
+Bugün acısız yemekleri birlikte yiyelim.
+
+308
+00:16:50,367 --> 00:16:52,537
+Çok naziksiniz.
+
+309
+00:16:52,561 --> 00:16:54,327
+Teşekkür ederiz.
+
+310
+00:16:54,350 --> 00:16:57,950
+Tatlı omlet sever misiniz?
+
+311
+00:16:57,974 --> 00:17:00,374
+Çok severim!
+
+312
+00:17:00,397 --> 00:17:03,167
+Annemin tadı gibi.
+
+313
+00:17:03,191 --> 00:17:05,357
+Harika.
+
+314
+00:17:05,380 --> 00:17:09,047
+O zaman omlet sipariş edelim.
+
+315
+00:17:09,070 --> 00:17:13,758
+Suşi veya sashimi gibi çiğ balıkları sever misiniz?
+
+316
+00:17:13,782 --> 00:17:16,348
+Çok severim!
+
+317
+00:17:16,371 --> 00:17:18,938
+Her gün bile yiyebilirim.
+
+318
+00:17:18,961 --> 00:17:23,928
+Ben de sashimi çok severim.
+
+319
+00:17:23,951 --> 00:17:26,448
+Zevklerimiz uyuştu.
+
+320
+00:17:26,471 --> 00:17:29,037
+Ne güzel!
+
+321
+00:17:29,060 --> 00:17:32,394
+Ton balığı ve somon severim.
+
+322
+00:17:32,417 --> 00:17:36,428
+Ben beyaz etli balıkları severim.
+
+323
+00:17:36,452 --> 00:17:38,625
+Örneğin dil balığı gibi.
+
+324
+00:17:38,648 --> 00:17:41,541
+Çok olgun bir zevkiniz var.
+
+325
+00:17:41,564 --> 00:17:45,043
+Bu balıklarla içki iyi gider.
+
+326
+00:17:45,067 --> 00:17:50,123
+İçkiden bahsetmişken, tatlı kokteyller içer misiniz?
+
+327
+00:17:50,147 --> 00:17:53,580
+Çok içmem.
+
+328
+00:17:53,603 --> 00:17:57,770
+Serinletici bir oolong highball severim.
+
+329
+00:17:57,793 --> 00:18:03,726
+Ben tatlı umeshu ve cassis orange severim.
+
+330
+00:18:03,749 --> 00:18:08,116
+Zevklerimiz tam tersi, ilginç.
+
+331
+00:18:08,139 --> 00:18:13,141
+Farklılıklar sohbeti daha eğlenceli hale getiriyor.
+
+332
+00:18:13,165 --> 00:18:15,131
+Gerçekten öyle.
+
+333
+00:18:15,154 --> 00:18:19,221
+Birbirimize favori mekanlarımızı söyleyelim.
+
+334
+00:18:19,244 --> 00:18:21,653
+Harika.
+
+335
+00:18:21,676 --> 00:18:26,692
+İleride size önerdiğim bir Japon restoranını söyleyeceğim.
+
+336
+00:18:26,716 --> 00:18:32,370
+Ben de size önerdiğim çok acılı bir restoranı söyleyeceğim.
+
+337
+00:18:32,393 --> 00:18:36,843
+O konuda biraz yumuşak davranın lütfen.
+
+338
+00:18:36,867 --> 00:18:38,367
+Sahne 9: Yemek Servisi ve Taleplere Yanıt / Yemek Servisi ve İsteklerin Karşılanması
+
+339
+00:18:38,367 --> 00:18:41,700
+Yemeklerinizi getirdim.
+
+340
+00:18:41,723 --> 00:18:44,456
+İşte kızarmış tavuk.
+
+341
+00:18:44,479 --> 00:18:48,213
+Vay, çok lezzetli görünüyor.
+
+342
+00:18:48,236 --> 00:18:51,089
+Teşekkür ederiz.
+
+343
+00:18:51,112 --> 00:18:54,645
+Afiyetle yiyin.
+
+344
+00:18:54,668 --> 00:18:57,635
+Affedersiniz.
+
+345
+00:18:57,658 --> 00:19:00,729
+Bir şey sorabilir miyim?
+
+346
+00:19:00,752 --> 00:19:03,971
+Evet, buyurun?
+
+347
+00:19:03,995 --> 00:19:08,034
+Lütfen üç tane küçük tabak getirir misiniz?
+
+348
+00:19:08,058 --> 00:19:10,465
+Anlaşıldı.
+
+349
+00:19:10,488 --> 00:19:13,505
+Üç tane küçük tabak, değil mi?
+
+350
+00:19:13,528 --> 00:19:20,128
+Bir de çubukları yere düşürdüm, değiştirebilir misiniz lütfen?
+
+351
+00:19:20,151 --> 00:19:22,793
+Çok özür dilerim.
+
+352
+00:19:22,817 --> 00:19:26,502
+Yeni çubukları hemen getiriyorum.
+
+353
+00:19:26,526 --> 00:19:28,159
+Teşekkür ederiz.
+
+354
+00:19:28,182 --> 00:19:30,061
+Çok yardımcı oldunuz.
+
+355
+00:19:30,084 --> 00:19:33,781
+Su bardağı da ekleyeyim mi?
+
+356
+00:19:33,805 --> 00:19:38,405
+Ah, boş bardaktan iki tane alabilir miyim?
+
+357
+00:19:38,428 --> 00:19:42,299
+Şişe birayı paylaşmak için bardak, değil mi?
+
+358
+00:19:42,323 --> 00:19:45,256
+Evet, aynen öyle.
+
+359
+00:19:45,279 --> 00:19:47,967
+Biraz küçük bardak olsun lütfen.
+
+360
+00:19:47,990 --> 00:19:50,364
+Anlaşıldı.
+
+361
+00:19:50,388 --> 00:19:53,668
+Hemen hazırlıyorum.
+
+362
+00:19:53,691 --> 00:19:57,191
+Havlu ya da ıslak mendil de ekleyebilir misiniz?
+
+363
+00:19:57,214 --> 00:20:03,393
+Evet, yeni sıcak mendiller getiriyorum.
+
+364
+00:20:03,417 --> 00:20:05,670
+Çok teşekkür ederim, her şey için.
+
+365
+00:20:05,693 --> 00:20:09,761
+Rica ederim, lütfen takmayın.
+
+366
+00:20:09,784 --> 00:20:15,879
+Bu restorandaki çalışanlar hepsi çok nazik ve hızlılar.
+
+367
+00:20:15,903 --> 00:20:17,480
+Teşekkür ederiz.
+
+368
+00:20:17,504 --> 00:20:21,937
+Yemek soğumadan hep birlikte paylaşmak istiyoruz.
+
+369
+00:20:21,960 --> 00:20:25,794
+Hemen getiriyorum.
+
+370
+00:20:25,817 --> 00:20:27,217
+Rica ederim.
+
+371
+00:20:27,240 --> 00:20:29,406
+Beklettiğim için özür dilerim.
+
+372
+00:20:29,429 --> 00:20:33,232
+Buyurun, küçük tabaklar ve çubuklar.
+
+373
+00:20:33,255 --> 00:20:35,455
+Çok hızlısınız!
+
+374
+00:20:35,478 --> 00:20:37,083
+Teşekkür ederiz.
+
+375
+00:20:37,107 --> 00:20:41,641
+Bardakları ve mendilleri de buraya bırakıyorum.
+
+376
+00:20:41,664 --> 00:20:43,464
+Mükemmel!
+
+377
+00:20:43,487 --> 00:20:46,053
+Çok teşekkür ederim.
+
+378
+00:20:46,076 --> 00:20:50,043
+Başka bir şeye ihtiyacınız var mı?
+
+379
+00:20:50,066 --> 00:20:53,320
+Şimdilik bir şey yok, teşekkürler.
+
+380
+00:20:53,344 --> 00:20:55,477
+Yine çağırırım.
+
+381
+00:20:55,500 --> 00:20:57,000
+Sahne 10: Yoğun Bir Vardiyada Siparişlerin Yönetimi
+
+382
+00:20:57,000 --> 00:21:02,283
+Saat sekiz oldu, restoran tamamen doldu.
+
+383
+00:21:02,306 --> 00:21:06,139
+Sipariş zilleri sürekli çalıyor.
+
+384
+00:21:06,162 --> 00:21:08,329
+Çok yoğunuz.
+
+385
+00:21:08,352 --> 00:21:13,285
+Sakin olalım, siparişleri tek tek halledelim.
+
+386
+00:21:13,308 --> 00:21:14,978
+Tamam.
+
+387
+00:21:15,002 --> 00:21:19,294
+On tane içecek siparişi birikti.
+
+388
+00:21:19,317 --> 00:21:23,656
+Ben bira ve highball hazırlayacağım.
+
+389
+00:21:23,680 --> 00:21:29,113
+O zaman ben sour ve alkolsüz içecekleri hallederim.
+
+390
+00:21:29,136 --> 00:21:31,108
+Çok yardımcı oldunuz.
+
+391
+00:21:31,132 --> 00:21:34,066
+Hızlıca bölüşüp çıkartalım.
+
+392
+00:21:34,089 --> 00:21:39,691
+Birkaç masaya yemek servisi gecikti.
+
+393
+00:21:39,714 --> 00:21:41,650
+Hangi masalar?
+
+394
+00:21:41,674 --> 00:21:43,956
+Kontrol edip geliyorum.
+
+395
+00:21:43,979 --> 00:21:47,913
+5 numaralı ve 8 numaralı masalar.
+
+396
+00:21:47,936 --> 00:21:52,829
+Mutfak şefine söyleyip hızlandırmalarını isteyeceğim.
+
+397
+00:21:52,852 --> 00:21:54,386
+Rica ederim.
+
+398
+00:21:54,408 --> 00:21:58,105
+Ben de müşterilerden özür dileyeceğim.
+
+399
+00:21:58,128 --> 00:22:01,220
+Harika bir düşünce!
+
+400
+00:22:01,243 --> 00:22:03,721
+Rica ederim.
+
+401
+00:22:03,745 --> 00:22:07,155
+Of, terlemeye başladım.
+
+402
+00:22:07,179 --> 00:22:09,857
+Gerçekten çok yoğunuz.
+
+403
+00:22:09,880 --> 00:22:14,214
+Şu an en yoğun saatlerimiz.
+
+404
+00:22:14,237 --> 00:22:15,903
+Hadi, biraz daha dayanalım.
+
+405
+00:22:15,927 --> 00:22:17,527
+Tamam.
+
+406
+00:22:17,550 --> 00:22:21,583
+Sizinle çalışmak içimi rahatlatıyor.
+
+407
+00:22:21,606 --> 00:22:23,940
+Ben de öyle düşünüyorum.
+
+408
+00:22:23,963 --> 00:22:26,849
+Gülüşünüz çok hoş.
+
+409
+00:22:26,872 --> 00:22:31,141
+Müşterilere de gülümseyerek hizmet vermeye devam edelim.
+
+410
+00:22:31,165 --> 00:22:34,698
+Bir saat sonra rahatlayacağız zaten.
+
+411
+00:22:34,721 --> 00:22:38,755
+Tamam, şimdi tüm gücümle çalışacağım.
+
+412
+00:22:38,778 --> 00:22:42,978
+İçecekleri de doldurmayı unutmayın lütfen.
+
+413
+00:22:43,001 --> 00:22:45,968
+Buz ve bardakları doldurmak, değil mi?
+
+414
+00:22:45,991 --> 00:22:47,991
+Anlaşıldı.
+
+415
+00:22:48,014 --> 00:22:52,581
+Lütfen dikkatli olun, sakın yaralanmayın.
+
+416
+00:22:52,604 --> 00:22:53,694
+Tamam.
+
+417
+00:22:53,718 --> 00:22:56,596
+Ayağıma dikkat edip hızlıca gideceğim.
+
+418
+00:22:56,619 --> 00:23:00,452
+Koşmayın, hızlı adımlarla gidelim.
+
+419
+00:23:00,475 --> 00:23:02,922
+Ah, evet öyleydi.
+
+420
+00:23:02,946 --> 00:23:05,749
+Güvenlik her şeyden önce.
+
+421
+00:23:05,773 --> 00:23:10,573
+Yoğunluk geçince lezzetli yemeklerimizi yiyelim.
+
+422
+00:23:10,596 --> 00:23:13,596
+Onu dört gözle bekleyerek çalışacağım.
+
+423
+00:23:13,619 --> 00:23:17,352
+Bakın, içecekler hazır.
+
+424
+00:23:17,375 --> 00:23:19,215
+Götürün lütfen.
+
+425
+00:23:19,238 --> 00:23:20,972
+Tamam.
+
+426
+00:23:20,995 --> 00:23:23,079
+Gidip geliyorum.
+
+427
+00:23:23,102 --> 00:23:24,602
+Sahne 11: Gecikmiş Siparişlerin Yönetimi / Gecikmiş Siparişlerle Başa Çıkma
+
+428
+00:23:24,602 --> 00:23:27,136
+Beni mi çağırdınız?
+
+429
+00:23:27,159 --> 00:23:29,042
+Size danışmaya geldim.
+
+430
+00:23:29,065 --> 00:23:30,798
+Affedersiniz,
+
+431
+00:23:30,821 --> 00:23:35,291
+Yarım saat önce sipariş verdiğim yemekler hâlâ gelmedi.
+
+432
+00:23:35,315 --> 00:23:38,205
+Çok özür dileriz.
+
+433
+00:23:38,229 --> 00:23:41,029
+Hangi yemeklerdi acaba?
+
+434
+00:23:41,052 --> 00:23:45,018
+Karışık ızgara ve kızarmış noodle.
+
+435
+00:23:45,041 --> 00:23:49,061
+Karışık ızgara ve kızarmış noodle, değil mi?
+
+436
+00:23:49,085 --> 00:23:51,485
+Kontrol ediyorum.
+
+437
+00:23:51,508 --> 00:23:56,593
+İçecekler hemen geldi ama yemekler gecikti.
+
+438
+00:23:56,616 --> 00:24:00,435
+Size zahmet verdiğimiz için gerçekten çok özür dileriz.
+
+439
+00:24:00,459 --> 00:24:06,026
+Şu anki durumu mutfağa sorabilir misiniz?
+
+440
+00:24:06,049 --> 00:24:09,827
+Evet, hemen mutfağa gidip kontrol ediyorum.
+
+441
+00:24:09,850 --> 00:24:12,417
+Biraz bekleyin lütfen.
+
+442
+00:24:12,440 --> 00:24:15,046
+Evet, lütfen.
+
+443
+00:24:15,070 --> 00:24:17,403
+Sizi beklettik, özür dileriz.
+
+444
+00:24:17,426 --> 00:24:20,517
+Mutfaktan bilgi alıp geldim.
+
+445
+00:24:20,540 --> 00:24:22,507
+Ne çıktı?
+
+446
+00:24:22,530 --> 00:24:25,497
+Sipariş kaydedilmiş miydi?
+
+447
+00:24:25,520 --> 00:24:28,855
+Evet, sipariş alınmıştı.
+
+448
+00:24:28,878 --> 00:24:31,337
+O zaman iyi.
+
+449
+00:24:31,360 --> 00:24:34,493
+Daha ne kadar sürer?
+
+450
+00:24:34,516 --> 00:24:39,250
+Izgara şu an pişiyor.
+
+451
+00:24:39,273 --> 00:24:42,406
+Beş dakika içinde gelir mi acaba?
+
+452
+00:24:42,429 --> 00:24:45,796
+Evet, üç dakika içinde getireceğiz.
+
+453
+00:24:45,818 --> 00:24:48,652
+Peki kızarmış noodle ne olacak?
+
+454
+00:24:48,675 --> 00:24:52,716
+Kızarmış noodle şimdi yapılmaya başlanacak.
+
+455
+00:24:52,740 --> 00:24:56,176
+Şimdi mi? Şu anda mı?
+
+456
+00:24:56,199 --> 00:24:59,135
+Zaman alacak gibi görünüyor.
+
+457
+00:24:59,158 --> 00:25:04,246
+Yoğunluk nedeniyle sıralama gecikti.
+
+458
+00:25:04,270 --> 00:25:09,470
+Son tren saatim de var, kızarmış noodle'ı iptal edebilir miyim?
+
+459
+00:25:09,493 --> 00:25:14,826
+Evet, henüz yapılmadığı için iptal edilebilir.
+
+460
+00:25:14,849 --> 00:25:18,538
+O zaman kızarmış noodle'ı iptal edelim lütfen.
+
+461
+00:25:18,562 --> 00:25:20,728
+Anlaşıldı.
+
+462
+00:25:20,751 --> 00:25:23,446
+Çok özür dilerim.
+
+463
+00:25:23,470 --> 00:25:27,637
+Hayır hayır, kontrol ettiğiniz için teşekkür ederim.
+
+464
+00:25:27,660 --> 00:25:32,326
+Izgara hemen getirilecek, lütfen bekleyin.
+
+465
+00:25:32,349 --> 00:25:35,202
+Tamam, teşekkür ederim.
+
+466
+00:25:35,226 --> 00:25:38,593
+Gerçekten çok özür dilerim.
+
+467
+00:25:38,616 --> 00:25:40,683
+Affedersiniz.
+
+468
+00:25:40,706 --> 00:25:43,106
+Evet, anladım.
+
+469
+00:25:43,129 --> 00:25:44,629
+Sahne 12: Patrondan Azar İşitme Hikayesi / Patronun Azarlaması Hakkında Konuşmak
+
+470
+00:25:44,629 --> 00:25:48,596
+Bugün de içki iyi gidiyor, değil mi?
+
+471
+00:25:48,619 --> 00:25:51,638
+Bir şey mi oldu?
+
+472
+00:25:51,661 --> 00:25:57,541
+Aslında bugün işte patronum bana kızdı.
+
+473
+00:25:57,565 --> 00:26:01,531
+Ne? Gerçekten mi?
+
+474
+00:26:01,554 --> 00:26:04,521
+Çok kötü olmuş.
+
+475
+00:26:04,544 --> 00:26:09,477
+Benim hatam değildi ama yine de bana kızdı.
+
+476
+00:26:09,500 --> 00:26:12,467
+Bu çok haksızlık.
+
+477
+00:26:12,490 --> 00:26:15,523
+Ne oldu ki?
+
+478
+00:26:15,546 --> 00:26:22,595
+Belgelerdeki rakamların yanlış olduğunu söyledi ama ben yapmadım ki.
+
+479
+00:26:22,619 --> 00:26:25,266
+Bu çok kötü!
+
+480
+00:26:25,290 --> 00:26:28,544
+Karşılık verdin mi peki?
+
+481
+00:26:28,567 --> 00:26:34,034
+Patron çok korkutucu olduğu için hiçbir şey söyleyemedim.
+
+482
+00:26:34,057 --> 00:26:39,623
+Hımm, bu kızgınlığı çok iyi anlıyorum.
+
+483
+00:26:39,646 --> 00:26:43,695
+İzaka’da moral bozucu şeyler söylediğim için özür dilerim.
+
+484
+00:26:43,718 --> 00:26:51,966
+Yo yo! Bu tür zamanlarda moral bozucu şeyler konuşmak için izakalar var zaten.
+
+485
+00:26:51,990 --> 00:26:55,390
+Bunu söylediğin için çok mutlu oldum.
+
+486
+00:26:55,413 --> 00:26:59,413
+Hadi çok içelim ve kötü şeyleri unutalım!
+
+487
+00:26:59,436 --> 00:27:04,330
+Evet, bugün doya doya içmek istiyorum.
+
+488
+00:27:04,353 --> 00:27:10,330
+İş yerindeki insan ilişkileri gerçekten zor, değil mi?
+
+489
+00:27:10,354 --> 00:27:12,754
+Gerçekten öyle.
+
+490
+00:27:12,777 --> 00:27:15,835
+Çok fazla dikkat etmekten yoruluyorum.
+
+491
+00:27:15,859 --> 00:27:22,625
+Ben de geçen hafta bir acemi çalışana bir şeyler öğretirken sıkıntı yaşıyordum.
+
+492
+00:27:22,649 --> 00:27:24,905
+Ne? Öyle mi?
+
+493
+00:27:24,928 --> 00:27:27,220
+Ne tür bir sıkıntı?
+
+494
+00:27:27,244 --> 00:27:32,777
+Ne kadar öğretsem de aynı hatayı tekrarlıyor.
+
+495
+00:27:32,800 --> 00:27:35,457
+Bu da zor bir durum.
+
+496
+00:27:35,481 --> 00:27:38,374
+Öğretmek de kolay değil.
+
+497
+00:27:38,398 --> 00:27:43,931
+Nazikçe söylesem de olmuyor, sert söylesem de üzülüyor.
+
+498
+00:27:43,954 --> 00:27:48,154
+İkimizin de işle ilgili dertleri çok.
+
+499
+00:27:48,177 --> 00:27:54,196
+İşte bu yüzden böyle konuşmak en iyi ilaç.
+
+500
+00:27:54,219 --> 00:27:55,875
+Gerçekten öyle.
+
+501
+00:27:55,898 --> 00:27:59,065
+İçim rahatladı.
+
+502
+00:27:59,088 --> 00:28:02,964
+Sen her zaman çok çalışıyorsun.
+
+503
+00:28:02,987 --> 00:28:05,620
+Biliyorum.
+
+504
+00:28:05,643 --> 00:28:07,377
+Teşekkür ederiz.
+
+505
+00:28:07,400 --> 00:28:09,933
+Ağlayasım geliyor.
+
+506
+00:28:09,956 --> 00:28:14,974
+Hadi gülümse ve highball’unu iç!
+
+507
+00:28:14,997 --> 00:28:18,266
+Evet, moralim düzeldi.
+
+508
+00:28:18,289 --> 00:28:20,746
+Hadi yeniden kadeh kaldıralım!
+
+509
+00:28:20,770 --> 00:28:22,807
+Harika.
+
+510
+00:28:22,830 --> 00:28:27,275
+Şerefe! Yarın da elimizden geleni yapalım.
+
+511
+00:28:27,298 --> 00:28:28,432
+Şerefe!
+
+512
+00:28:28,455 --> 00:28:31,655
+Yarından itibaren yeniden başlayacağım!
+
+513
+00:28:31,678 --> 00:28:33,178
+Sahne 13: Biranın Doğru Dökülüşü / Biranın Nasıl Döküleceği
+
+514
+00:28:33,178 --> 00:28:37,611
+Ah, bardak boşalmış.
+
+515
+00:28:37,634 --> 00:28:40,434
+Oha, gerçekten.
+
+516
+00:28:40,457 --> 00:28:42,955
+Fark etmemişim.
+
+517
+00:28:42,978 --> 00:28:46,469
+Şişe biradan dökeyim mi?
+
+518
+00:28:46,493 --> 00:28:48,426
+Teşekkür ederiz.
+
+519
+00:28:48,449 --> 00:28:51,886
+Teşekkür ederim, çok naziksiniz.
+
+520
+00:28:51,910 --> 00:28:55,357
+Hayır hayır, buyurun buyurun.
+
+521
+00:28:55,380 --> 00:28:58,317
+Bardağı iki elinizle tutun lütfen.
+
+522
+00:28:58,341 --> 00:29:01,360
+Evet, afiyet olsun.
+
+523
+00:29:01,383 --> 00:29:03,817
+Toto to...
+
+524
+00:29:03,840 --> 00:29:07,293
+Köpük oranı tam kıvamında oldu!
+
+525
+00:29:07,316 --> 00:29:10,049
+Harika olmuşsunuz!
+
+526
+00:29:10,072 --> 00:29:13,041
+Köpükler pırıl pırıl.
+
+527
+00:29:13,065 --> 00:29:17,799
+Eskiden part-time işte dökmeyi pratik yapmıştım.
+
+528
+00:29:17,823 --> 00:29:19,589
+Anlaşıldı.
+
+529
+00:29:19,612 --> 00:29:22,346
+Profesyonel işi gibi!
+
+530
+00:29:22,369 --> 00:29:24,056
+Teşekkür ederiz.
+
+531
+00:29:24,079 --> 00:29:28,365
+Sizin bardağınız da azalmamış mı?
+
+532
+00:29:28,389 --> 00:29:31,227
+Ah, gerçekten öyle.
+
+533
+00:29:31,250 --> 00:29:34,823
+Sırada ne içeceğiz?
+
+534
+00:29:34,846 --> 00:29:38,646
+Ben sake içmeyi denemek istiyorum.
+
+535
+00:29:38,669 --> 00:29:41,269
+Harika!
+
+536
+00:29:41,292 --> 00:29:45,177
+Soğuk sake mi yoksa sıcak sake mi istersiniz?
+
+537
+00:29:45,200 --> 00:29:48,434
+Serinletici soğuk sake iyi olur.
+
+538
+00:29:48,457 --> 00:29:53,590
+O zaman bu dükkânın önerdiği yerel sakeyi sipariş edelim.
+
+539
+00:29:53,613 --> 00:29:55,646
+Çok sevindim!
+
+540
+00:29:55,669 --> 00:29:59,069
+Birlikte küçük sake bardaklarıyla içelim.
+
+541
+00:29:59,092 --> 00:30:00,930
+Harika.
+
+542
+00:30:00,954 --> 00:30:04,687
+Ben de sake alayım beraber.
+
+543
+00:30:04,710 --> 00:30:08,244
+Garsonu çağırıp sipariş vereyim.
+
+544
+00:30:08,267 --> 00:30:11,556
+Ah, ben çağırayım.
+
+545
+00:30:11,579 --> 00:30:13,594
+Affedersiiin!
+
+546
+00:30:13,618 --> 00:30:16,418
+Güven veriyorsunuz.
+
+547
+00:30:16,441 --> 00:30:17,974
+Teşekkür ederiz.
+
+548
+00:30:17,997 --> 00:30:22,476
+İçkiyi kendi tempoda için lütfen.
+
+549
+00:30:22,500 --> 00:30:23,700
+Tamam.
+
+550
+00:30:23,723 --> 00:30:26,372
+Zorlamamaya çalışacağım.
+
+551
+00:30:26,396 --> 00:30:29,762
+Su da içseniz iyi olur.
+
+552
+00:30:29,785 --> 00:30:31,472
+Evet, öyle.
+
+553
+00:30:31,496 --> 00:30:34,229
+Soğuk su da sipariş edelim.
+
+554
+00:30:34,252 --> 00:30:39,019
+Alkol ve su birlikte içilirse sarhoş olmazsınız.
+
+555
+00:30:39,042 --> 00:30:41,910
+İlginiz harika.
+
+556
+00:30:41,934 --> 00:30:44,136
+Gerçekten öyle.
+
+557
+00:30:44,159 --> 00:30:48,559
+Sonuna kadar birlikte keyifle içmek istiyoruz çünkü.
+
+558
+00:30:48,582 --> 00:30:50,052
+Tamam.
+
+559
+00:30:50,075 --> 00:30:54,146
+Lezzetli sakeyi yavaş yavaş tadını çıkaralım.
+
+560
+00:30:54,170 --> 00:30:58,103
+O zaman sake gelene kadar bekleyelim.
+
+561
+00:30:58,126 --> 00:30:59,626
+14. Sahne: Çubuk Düşürdüğünüzde Nasıl Davranmalı / Yemek Çubuklarını Düşürdüğünüzde Ne Yapmalı
+
+562
+00:30:59,626 --> 00:31:05,460
+Ah! Oldu işte! Takır takır!
+
+563
+00:31:05,483 --> 00:31:07,449
+İyi misiniz?
+
+564
+00:31:07,472 --> 00:31:10,289
+Bir yeriniz acımadı değil mi?
+
+565
+00:31:10,313 --> 00:31:12,679
+Özür dilerim.
+
+566
+00:31:12,702 --> 00:31:16,969
+Elim kaydı da çubukları düşürdüm.
+
+567
+00:31:16,992 --> 00:31:19,625
+İyi ki bir yeriniz acımamış.
+
+568
+00:31:19,648 --> 00:31:23,892
+Yeri kirlettim, affedersiniz.
+
+569
+00:31:23,916 --> 00:31:28,149
+Hayır hayır, lütfen öyle bırakın.
+
+570
+00:31:28,172 --> 00:31:31,006
+Ben alırım.
+
+571
+00:31:31,030 --> 00:31:36,563
+Hayır, ben alırım, siz öyle kalın.
+
+572
+00:31:36,586 --> 00:31:38,675
+Özür dilerim.
+
+573
+00:31:38,698 --> 00:31:41,196
+Rahatsızlık verdiğim için özür dilerim.
+
+574
+00:31:41,220 --> 00:31:45,153
+Yeni çubuk getireyim.
+
+575
+00:31:45,176 --> 00:31:46,870
+Teşekkür ederiz.
+
+576
+00:31:46,893 --> 00:31:49,103
+Çok yardımcı oldunuz.
+
+577
+00:31:49,127 --> 00:31:54,096
+Ayrılabilir çubuk mu yoksa plastik çubuk mu istersiniz?
+
+578
+00:31:54,120 --> 00:31:58,920
+Ayrılabilir çubuk kaymaz, daha iyi olur.
+
+579
+00:31:58,943 --> 00:32:01,277
+Anlaşıldı.
+
+580
+00:32:01,301 --> 00:32:04,556
+Ayrılabilir çubuk getireyim.
+
+581
+00:32:04,579 --> 00:32:08,746
+Yemeğin kıyafetime sıçrayıp sıçramadığını merak ediyorum.
+
+582
+00:32:08,769 --> 00:32:12,102
+Kıyafetleriniz kirlenmedi değil mi?
+
+583
+00:32:12,125 --> 00:32:15,658
+Sıcak havlu açayım... Kullanır mısınız?
+
+584
+00:32:15,681 --> 00:32:18,615
+Kıyafetlerim sorun olmadı.
+
+585
+00:32:18,638 --> 00:32:21,371
+Sıcak havlu alabilir miyim lütfen?
+
+586
+00:32:21,394 --> 00:32:23,194
+Tamam.
+
+587
+00:32:23,217 --> 00:32:27,307
+Evet, hemen yeni bir sıcak havlu ve çubuk getiriyorum.
+
+588
+00:32:27,331 --> 00:32:30,698
+Hızlı ilgilendiğiniz için teşekkür ederim.
+
+589
+00:32:30,721 --> 00:32:34,054
+Beklettiğim için özür dilerim.
+
+590
+00:32:34,077 --> 00:32:38,124
+Buyurun, tek kullanımlık çubuklar ve sıcak havlu.
+
+591
+00:32:38,147 --> 00:32:41,186
+Gerçekten çok teşekkür ederim.
+
+592
+00:32:41,210 --> 00:32:45,850
+Yerleri de güzelce sildim, rahat olun lütfen.
+
+593
+00:32:45,873 --> 00:32:50,916
+Nezaketiniz beni çok duygulandırdı.
+
+594
+00:32:50,940 --> 00:32:55,906
+Yemek yerken rahatsız ettiğim için özür dilerim.
+
+595
+00:32:55,929 --> 00:33:01,063
+Hayır, ben çubukları düşürdüğüm için oldu.
+
+596
+00:33:01,086 --> 00:33:05,864
+Lütfen, yemek soğumadan afiyetle yiyin.
+
+597
+00:33:05,887 --> 00:33:07,499
+Tamam.
+
+598
+00:33:07,523 --> 00:33:10,956
+Evet, bu sefer düşürmemeye dikkat edeceğim.
+
+599
+00:33:10,979 --> 00:33:14,412
+Keyifle yemeğinizin tadını çıkarın.
+
+600
+00:33:14,436 --> 00:33:15,936
+Teşekkür ederim!
+
+601
+00:33:15,959 --> 00:33:17,892
+Afiyet olsun.
+
+602
+00:33:17,915 --> 00:33:20,250
+Rahat rahat yiyin lütfen.
+
+603
+00:33:20,274 --> 00:33:21,774
+15. Sahne: Müşteri Hizmetleri Olaylarına Müdahale / Müşteri Hizmetleri Sorunlarını Çözme
+
+604
+00:33:21,774 --> 00:33:25,830
+Müdür, şimdi müsait misiniz acaba?
+
+605
+00:33:25,853 --> 00:33:27,630
+Ne oldu?
+
+606
+00:33:27,653 --> 00:33:30,387
+Bir sorun mu var?
+
+607
+00:33:30,410 --> 00:33:36,666
+Evet, 3 numaralı masadaki müşteri bardağı kırmış.
+
+608
+00:33:36,689 --> 00:33:40,907
+Peki, kimse yaralanmadı değil mi?
+
+609
+00:33:40,930 --> 00:33:44,697
+Evet, kimse yaralanmadı.
+
+610
+00:33:44,720 --> 00:33:46,886
+İyi, çok şükür.
+
+611
+00:33:46,909 --> 00:33:49,983
+Peki, durum nasıl?
+
+612
+00:33:50,006 --> 00:33:56,140
+Kırmızı şarap dolu bardaktı, yerlere ve kıyafetlere biraz sıçradı.
+
+613
+00:33:56,163 --> 00:34:00,298
+Kıyafetlere de mi sıçradı?
+
+614
+00:34:00,321 --> 00:34:02,593
+Vah vah, kötü olmuş.
+
+615
+00:34:02,617 --> 00:34:06,687
+Müşteri çok üzgün görünüyor.
+
+616
+00:34:06,710 --> 00:34:11,710
+Hemen temizlik malzemeleri ve nemli bir havlu getirelim.
+
+617
+00:34:11,733 --> 00:34:16,300
+Tamam, süpürge ve faraş hazırladım.
+
+618
+00:34:16,323 --> 00:34:21,540
+Evet, cam kırıkları dağılmış, tehlikeli olabilir.
+
+619
+00:34:21,564 --> 00:34:25,164
+Ben süpürgeyle cam kırıklarını toplayayım.
+
+620
+00:34:25,187 --> 00:34:30,154
+Ben müşterinin kıyafet durumuna bakıp özür dileyeyim.
+
+621
+00:34:30,177 --> 00:34:34,444
+Temizlik ücretini restoran karşılayacak mı?
+
+622
+00:34:34,467 --> 00:34:39,151
+Duruma göre, gerekirse kartvizit verip ilgilenelim.
+
+623
+00:34:39,174 --> 00:34:40,941
+Tamam, anlaştık.
+
+624
+00:34:40,964 --> 00:34:43,862
+Sakin bir şekilde ilgilenelim.
+
+625
+00:34:43,885 --> 00:34:48,328
+Diğer müşterilerin cam kırıklarına basmaması için yönlendirme yap.
+
+626
+00:34:48,352 --> 00:34:53,152
+Tamam, yan masadaki müşterilere de seslenirim.
+
+627
+00:34:53,175 --> 00:34:55,988
+Harika bir yaklaşım.
+
+628
+00:34:56,011 --> 00:34:58,302
+Hızlı hareket edelim.
+
+629
+00:34:58,326 --> 00:35:02,260
+Yeni içecek servisi nasıl yapalım?
+
+630
+00:35:02,283 --> 00:35:06,090
+Aynı şaraptan bir kadeh ücretsiz ikram edelim.
+
+631
+00:35:06,114 --> 00:35:08,388
+Anlaşıldı.
+
+632
+00:35:08,411 --> 00:35:10,744
+Hazırlarım.
+
+633
+00:35:10,767 --> 00:35:15,134
+Kimsenin yaralanmamış olması en önemlisi, ama samimiyetimizi gösterelim.
+
+634
+00:35:15,157 --> 00:35:19,290
+Evet, müdürün burada olması çok iyi oldu.
+
+635
+00:35:19,313 --> 00:35:23,932
+Çünkü sen hemen haber verdin.
+
+636
+00:35:23,956 --> 00:35:25,694
+Teşekkür ederiz.
+
+637
+00:35:25,717 --> 00:35:28,284
+Hadi, gidelim.
+
+638
+00:35:28,307 --> 00:35:32,473
+Hadi, 3 numaralı masaya gidelim.
+
+639
+00:35:32,496 --> 00:35:35,173
+Ayak altına dikkat edin lütfen.
+
+640
+00:35:35,197 --> 00:35:36,730
+Anladım.
+
+641
+00:35:36,753 --> 00:35:38,320
+Teşekkür ederim.
+
+642
+00:35:38,343 --> 00:35:39,843
+Sahne 16: Tatilden Önce Devir Teslim / Mola Öncesi Devir
+
+643
+00:35:39,843 --> 00:35:45,939
+Yoğun saatler geçti, şimdi sakinleşti.
+
+644
+00:35:45,962 --> 00:35:49,296
+İki saat boyunca adeta sel gibiydi.
+
+645
+00:35:49,319 --> 00:35:54,588
+Şimdi ben 45 dakikalık molaya çıkıyorum.
+
+646
+00:35:54,611 --> 00:35:56,814
+Emeğinize sağlık.
+
+647
+00:35:56,837 --> 00:35:59,371
+İyi dinlenin.
+
+648
+00:35:59,394 --> 00:36:04,194
+Mola öncesi birkaç noktayı devretmek istiyorum.
+
+649
+00:36:04,217 --> 00:36:05,617
+Tamam.
+
+650
+00:36:05,640 --> 00:36:07,848
+Not defterime yazıyorum.
+
+651
+00:36:07,872 --> 00:36:09,479
+Rica ederim.
+
+652
+00:36:09,503 --> 00:36:14,669
+Öncelikle, 2 numaralı masadaki müşteriler tatlı bekliyor.
+
+653
+00:36:14,692 --> 00:36:20,492
+Hangi tatlıyı sipariş ettiler? İki vanilyalı dondurma.
+
+654
+00:36:20,516 --> 00:36:22,716
+Beş dakika sonra servis edin.
+
+655
+00:36:22,739 --> 00:36:24,506
+Tamam.
+
+656
+00:36:24,529 --> 00:36:27,529
+Beş dakika sonra vanilyalı dondurma, tamam.
+
+657
+00:36:27,552 --> 00:36:32,952
+Sonra, 7 numaralı masanın hesabı ayrı ayrı.
+
+658
+00:36:32,975 --> 00:36:35,608
+Herkes kendi hesabını ödeyecek, öyle mi?
+
+659
+00:36:35,631 --> 00:36:38,110
+Kasada halledeceğim.
+
+660
+00:36:38,133 --> 00:36:42,300
+Fişte notlar var, kontrol edin lütfen.
+
+661
+00:36:42,323 --> 00:36:44,368
+Anlaşıldı.
+
+662
+00:36:44,392 --> 00:36:47,025
+Hata olmayacak şekilde hallederim.
+
+663
+00:36:47,048 --> 00:36:51,181
+Mutfaktaki son sipariş saati 10:30.
+
+664
+00:36:51,204 --> 00:36:54,173
+Yani 30 dakika sonra.
+
+665
+00:36:54,196 --> 00:36:57,455
+Müşterilere hatırlatma yapayım mı?
+
+666
+00:36:57,478 --> 00:37:02,965
+15 dakika kala tüm masalara hatırlatma yapın lütfen.
+
+667
+00:37:02,989 --> 00:37:06,789
+10:15'te son sipariş hatırlatması, tamam.
+
+668
+00:37:06,812 --> 00:37:08,145
+Tamam.
+
+669
+00:37:08,168 --> 00:37:10,301
+Rica ederim.
+
+670
+00:37:10,324 --> 00:37:13,821
+İçecek dolumu tamamlandı mı?
+
+671
+00:37:13,845 --> 00:37:18,578
+Bira makinesinin fıçısını yenisiyle değiştirdim.
+
+672
+00:37:18,601 --> 00:37:21,010
+Gerçekten ustasınız!
+
+673
+00:37:21,034 --> 00:37:22,800
+Mükemmel.
+
+674
+00:37:22,823 --> 00:37:24,390
+Teşekkür ederiz.
+
+675
+00:37:24,413 --> 00:37:29,780
+Bir sorun olursa, dinlenme odasının kapısını çal.
+
+676
+00:37:29,803 --> 00:37:31,662
+Sorun değil.
+
+677
+00:37:31,685 --> 00:37:34,454
+Tek başıma salonu koruyacağım!
+
+678
+00:37:34,478 --> 00:37:36,711
+Güven veriyorsunuz.
+
+679
+00:37:36,734 --> 00:37:39,380
+Yemek molasına gidiyorum.
+
+680
+00:37:39,404 --> 00:37:41,970
+Bugünkü yemek ne?
+
+681
+00:37:41,993 --> 00:37:46,193
+Şefin özel kocaman köri pilavı!
+
+682
+00:37:46,216 --> 00:37:48,829
+Vay, harika!
+
+683
+00:37:48,853 --> 00:37:51,228
+Keyfini çıkarın.
+
+684
+00:37:51,251 --> 00:37:55,017
+Hih, sizin için de ayırırım.
+
+685
+00:37:55,040 --> 00:37:58,574
+Harika! İyi molalar!
+
+686
+00:37:58,597 --> 00:38:00,097
+Sahne 17: Fazla Yemek ve Artıklar / Aşırı Yeme ve Artan Yemekler
+
+687
+00:38:00,097 --> 00:38:04,330
+Of, karnım iyice doydu.
+
+688
+00:38:04,353 --> 00:38:08,720
+Benim de karnım iyice doydu.
+
+689
+00:38:08,743 --> 00:38:13,958
+Ama masada hâlâ yemek var.
+
+690
+00:38:13,981 --> 00:38:18,548
+Başta çok fazla sipariş vermişiz.
+
+691
+00:38:18,572 --> 00:38:22,105
+Hâlâ üç tane kızartma var.
+
+692
+00:38:22,128 --> 00:38:26,895
+Bu kızartmalar gerçekten büyükmüş.
+
+693
+00:38:26,918 --> 00:38:30,884
+Sen biraz daha yiyemez misin?
+
+694
+00:38:30,907 --> 00:38:36,197
+Ben de çok zorlanıyorum.
+
+695
+00:38:36,221 --> 00:38:38,587
+Lütfen rica ediyorum.
+
+696
+00:38:38,610 --> 00:38:41,589
+İki tane daha yiyemez misin?
+
+697
+00:38:41,613 --> 00:38:48,782
+Hmm, çok lezzetli görünüyor ama sığar mı acaba? Artırmak yazık olur.
+
+698
+00:38:48,805 --> 00:38:53,051
+Gerçekten, yiyecekleri artırmak iyi değil.
+
+699
+00:38:53,075 --> 00:38:58,694
+Sen erkeksin, midenin hâlâ yer olmalı.
+
+700
+00:38:58,717 --> 00:39:00,559
+Tamam.
+
+701
+00:39:00,583 --> 00:39:03,762
+Bir tane daha zorlayıp yiyeceğim.
+
+702
+00:39:03,785 --> 00:39:07,857
+Sadece bir tane değil, iki tane yiyin lütfen~.
+
+703
+00:39:07,880 --> 00:39:11,897
+O zaman limon sıkalım, biraz ferahlatalım.
+
+704
+00:39:11,921 --> 00:39:13,854
+İyi fikir.
+
+705
+00:39:13,877 --> 00:39:17,337
+Limon sıkınca daha kolay yeniyor.
+
+706
+00:39:17,360 --> 00:39:19,219
+Bir tane yedim.
+
+707
+00:39:19,242 --> 00:39:22,132
+Çıtır çıtır, çok lezzetli!
+
+708
+00:39:22,156 --> 00:39:23,650
+Harika!
+
+709
+00:39:23,673 --> 00:39:27,307
+O zaman ben de son bir tanesini zorlayıp yiyeyim.
+
+710
+00:39:27,330 --> 00:39:30,977
+Hayır, zorlamasanız da olur.
+
+711
+00:39:31,000 --> 00:39:33,833
+Sadece seni zorlamak istemiyorum.
+
+712
+00:39:33,856 --> 00:39:35,990
+Ben de yiyeceğim.
+
+713
+00:39:36,013 --> 00:39:39,246
+Haha, kaybetmek istemiyorsunuz galiba.
+
+714
+00:39:39,269 --> 00:39:41,343
+Afiyet olsun.
+
+715
+00:39:41,367 --> 00:39:45,204
+Hmm, zor ama lezzetli.
+
+716
+00:39:45,227 --> 00:39:48,560
+Ben de bir tane daha bitirdim.
+
+717
+00:39:48,583 --> 00:39:51,067
+Başardık!
+
+718
+00:39:51,090 --> 00:39:53,724
+Tabak tertemiz oldu.
+
+719
+00:39:53,748 --> 00:39:56,415
+Hepsini bitirdik!
+
+720
+00:39:56,438 --> 00:39:59,004
+Başarı hissi var.
+
+721
+00:39:59,027 --> 00:40:04,227
+Bir dahaki sefere sipariş verirken miktarı düşünelim.
+
+722
+00:40:04,250 --> 00:40:05,787
+Evet, öyle.
+
+723
+00:40:05,811 --> 00:40:08,984
+Açgözlülük tehlikelidir.
+
+724
+00:40:09,007 --> 00:40:12,774
+Ama artırmadan bitirebildik, iyi oldu.
+
+725
+00:40:12,797 --> 00:40:17,363
+Karnım patlayacak gibi, biraz dinlenelim.
+
+726
+00:40:17,386 --> 00:40:18,886
+18. Sahne: Son Tren Saati / Son Tren İçin Acele
+
+727
+00:40:18,886 --> 00:40:21,624
+Şu an saat kaç?
+
+728
+00:40:21,648 --> 00:40:24,881
+Saatiniz var mı?
+
+729
+00:40:24,904 --> 00:40:30,238
+Şey, tam 23:15 oldu.
+
+730
+00:40:30,261 --> 00:40:34,599
+Ne! Zaten bu kadar geç mi?
+
+731
+00:40:34,622 --> 00:40:39,640
+Gerçekten, zaman ne çabuk geçiyor.
+
+732
+00:40:39,664 --> 00:40:43,997
+Senin son trenin saat kaçta?
+
+733
+00:40:44,020 --> 00:40:48,987
+Benim son trenim 23:45'te.
+
+734
+00:40:49,010 --> 00:40:53,693
+Benim son trenim 23:30'da!
+
+735
+00:40:53,716 --> 00:40:57,089
+Sadece 15 dakikamız kaldı!
+
+736
+00:40:57,112 --> 00:40:59,746
+Bu çok kötü!
+
+737
+00:40:59,769 --> 00:41:02,583
+Hemen çıkmamız lazım, yetişemeyiz!
+
+738
+00:41:02,606 --> 00:41:06,540
+İstasyona yürüyerek 10 dakika sürüyor, değil mi?
+
+739
+00:41:06,563 --> 00:41:10,940
+Koşarsak 5 dakikada varırız ama tehlikeli olur.
+
+740
+00:41:10,963 --> 00:41:15,196
+Hemen dükkândan çıkmazsak kesinlikle geç kalırız.
+
+741
+00:41:15,219 --> 00:41:17,839
+Hesabı hızlıca ödeyelim.
+
+742
+00:41:17,862 --> 00:41:20,359
+Garsonu çağırayım.
+
+743
+00:41:20,382 --> 00:41:23,751
+Tamam, cüzdanımı çıkarıp hazırlanıyorum.
+
+744
+00:41:23,775 --> 00:41:27,908
+Ben hepsini ödeyeyim, siz önden gidebilirsiniz.
+
+745
+00:41:27,931 --> 00:41:31,774
+Hayır, böyle bir şey çok mahcup eder!
+
+746
+00:41:31,797 --> 00:41:35,174
+Sonra LINE'dan parayı gönderirsiniz.
+
+747
+00:41:35,198 --> 00:41:36,888
+Gerçekten mi?
+
+748
+00:41:36,911 --> 00:41:39,598
+Çok özür dilerim.
+
+749
+00:41:39,621 --> 00:41:41,221
+Çok yardımcı oldunuz!
+
+750
+00:41:41,244 --> 00:41:44,778
+Hadi, montunu ve çantanı al!
+
+751
+00:41:44,801 --> 00:41:47,267
+Unuttuğunuz bir şey yok, değil mi?
+
+752
+00:41:47,290 --> 00:41:49,324
+Şemsiyemi de aldım.
+
+753
+00:41:49,347 --> 00:41:53,780
+Koşmayın, hızlı adımlarla istasyona doğru gidin lütfen.
+
+754
+00:41:53,803 --> 00:41:54,936
+Tamam!
+
+755
+00:41:54,959 --> 00:41:58,736
+Bugün gerçekten çok eğlendim.
+
+756
+00:41:58,759 --> 00:42:00,537
+Teşekkür ederim!
+
+757
+00:42:00,561 --> 00:42:03,427
+Ben de çok eğlendim.
+
+758
+00:42:03,450 --> 00:42:06,017
+Varınca haber verin.
+
+759
+00:42:06,040 --> 00:42:08,286
+Tamam.
+
+760
+00:42:08,309 --> 00:42:11,676
+Trene bindiğimde LINE'dan mesaj atarım.
+
+761
+00:42:11,699 --> 00:42:14,432
+Dikkatli dönün lütfen.
+
+762
+00:42:14,455 --> 00:42:17,267
+Hesabı lütfen!
+
+763
+00:42:17,291 --> 00:42:19,691
+Afiyet olsun!
+
+764
+00:42:19,714 --> 00:42:23,209
+Tamam! Bana bırakın.
+
+765
+00:42:23,232 --> 00:42:25,166
+Koşun!
+
+766
+00:42:25,189 --> 00:42:26,649
+Tamam!
+
+767
+00:42:26,672 --> 00:42:28,808
+İyi geceler!
+
+768
+00:42:28,832 --> 00:42:30,876
+İyi geceler!
+
+769
+00:42:30,899 --> 00:42:32,956
+Acele edin~!
+
+770
+00:42:32,979 --> 00:42:36,513
+Ah, dikkatli dönün lütfen.
+
+771
+00:42:36,536 --> 00:42:38,987
+Evet, teşekkür ederim!
+
+772
+00:42:39,010 --> 00:42:42,983
+Nefes, yetişirsek iyi olacak.
+
+773
+00:42:43,007 --> 00:42:44,507
+Sahne 19: Yemekten Sonra Karaokeye / Yemekten Sonra, Hadi Karaokeye Gidelim
+
+774
+00:42:44,507 --> 00:42:47,440
+Dışarı çıktık.
+
+775
+00:42:47,463 --> 00:42:50,430
+Rüzgar çok hoş.
+
+776
+00:42:50,453 --> 00:42:52,820
+Çok lezzetliydi, değil mi?
+
+777
+00:42:52,843 --> 00:42:56,293
+Karnım çok tok.
+
+778
+00:42:56,316 --> 00:42:59,849
+Saat henüz 10 bile olmadı.
+
+779
+00:42:59,872 --> 00:43:02,125
+Çok hızlısınız!
+
+780
+00:43:02,149 --> 00:43:04,749
+Gerçekten öyle.
+
+781
+00:43:04,772 --> 00:43:08,138
+Bundan sonra ne yapalım?
+
+782
+00:43:08,161 --> 00:43:12,361
+Başka bir yere daha gidelim mi?
+
+783
+00:43:12,384 --> 00:43:14,828
+İkinci tur, öyle mi?
+
+784
+00:43:14,851 --> 00:43:17,651
+Karaokeye ne dersiniz?
+
+785
+00:43:17,674 --> 00:43:19,968
+Karaoke.
+
+786
+00:43:19,992 --> 00:43:21,926
+Harika.
+
+787
+00:43:21,950 --> 00:43:24,517
+Şarkı söylemek istiyorum.
+
+788
+00:43:24,540 --> 00:43:29,583
+Uzun zamandır şarkı söylemedim, çok şarkı söylemek istiyorum.
+
+789
+00:43:29,606 --> 00:43:34,206
+Sakin bir barda oturup sohbet etmek de güzel olurdu.
+
+790
+00:43:34,229 --> 00:43:38,195
+Bar da yetişkin havasında, çok hoş.
+
+791
+00:43:38,218 --> 00:43:40,852
+Hangisi havanızda?
+
+792
+00:43:40,875 --> 00:43:45,930
+Bugün enerjim yüksek, karaoke iyi olur.
+
+793
+00:43:45,954 --> 00:43:48,003
+Karar verildi.
+
+794
+00:43:48,026 --> 00:43:50,886
+Hadi karaokeye gidelim.
+
+795
+00:43:50,909 --> 00:43:54,343
+Yakınlarda güzel bir karaoke dükkanı var.
+
+796
+00:43:54,366 --> 00:43:57,499
+İstasyona yakın bir yer mi?
+
+797
+00:43:57,522 --> 00:43:58,655
+Tamam.
+
+798
+00:43:58,678 --> 00:44:01,950
+Yürüyerek 3 dakika uzaklıkta.
+
+799
+00:44:01,974 --> 00:44:04,807
+İçkili açık büfe paketine ne dersiniz?
+
+800
+00:44:04,830 --> 00:44:07,397
+Hâlâ içecek misiniz?
+
+801
+00:44:07,420 --> 00:44:10,296
+Yeşil çay da olur.
+
+802
+00:44:10,320 --> 00:44:13,653
+Sadece 1 saat şarkı söyleyip içelim.
+
+803
+00:44:13,676 --> 00:44:15,609
+Kabul.
+
+804
+00:44:15,632 --> 00:44:18,684
+Çok geç kalmayalım.
+
+805
+00:44:18,708 --> 00:44:22,280
+Yarın da işimiz var çünkü.
+
+806
+00:44:22,304 --> 00:44:25,837
+Son trene kadar kesinlikle dönelim.
+
+807
+00:44:25,860 --> 00:44:29,227
+İlk şarkı olarak ne söyleyeceksiniz?
+
+808
+00:44:29,250 --> 00:44:33,883
+90'ların nostaljik pop şarkılarını söyleyeceğiz.
+
+809
+00:44:33,906 --> 00:44:35,673
+Harika!
+
+810
+00:44:35,696 --> 00:44:38,963
+Ben de seninle birlikte söyleyeceğim.
+
+811
+00:44:38,987 --> 00:44:42,320
+İkili şarkılar da söyleyelim mi?
+
+812
+00:44:42,343 --> 00:44:44,010
+Çok eğlenceli görünüyor!
+
+813
+00:44:44,033 --> 00:44:46,284
+Hadi coşalım!
+
+814
+00:44:46,307 --> 00:44:50,473
+O zaman, karaoke salonuna doğru yola çıkalım.
+
+815
+00:44:50,496 --> 00:44:52,063
+Tamam.
+
+816
+00:44:52,086 --> 00:44:54,219
+Bana yol göster lütfen.
+
+817
+00:44:54,242 --> 00:44:56,376
+Bu taraftan buyurun.
+
+818
+00:44:56,399 --> 00:44:58,332
+Ardından gelin.
+
+819
+00:44:58,355 --> 00:44:59,855
+Sahne 20: Hesabın Temelleri / Japonca Ödeme Bilgileri
+
+820
+00:44:59,855 --> 00:45:01,855
+Hoş geldiniz.
+
+821
+00:45:01,878 --> 00:45:04,170
+Hesap ödeyeceğiz değil mi?
+
+822
+00:45:04,193 --> 00:45:05,593
+Tamam.
+
+823
+00:45:05,616 --> 00:45:08,657
+Fiş burada.
+
+824
+00:45:08,680 --> 00:45:10,151
+Rica ederim.
+
+825
+00:45:10,175 --> 00:45:11,869
+Teşekkür ederiz.
+
+826
+00:45:11,893 --> 00:45:15,064
+Fişi alıyorum.
+
+827
+00:45:15,087 --> 00:45:18,421
+Bugün toplam ne kadar tuttu?
+
+828
+00:45:18,444 --> 00:45:22,578
+Toplam sekiz bin beş yüz yen oldu.
+
+829
+00:45:22,601 --> 00:45:24,368
+Tamam.
+
+830
+00:45:24,391 --> 00:45:27,724
+Kredi kartı kullanabilir miyim?
+
+831
+00:45:27,747 --> 00:45:29,314
+Tamam.
+
+832
+00:45:29,337 --> 00:45:33,024
+Çeşitli kredi kartlarını kullanabilirsiniz.
+
+833
+00:45:33,048 --> 00:45:35,427
+Visa kartı ile ödeme yapacağım.
+
+834
+00:45:35,451 --> 00:45:38,084
+Anlaşıldı.
+
+835
+00:45:38,107 --> 00:45:40,840
+Kartınızı alıyorum.
+
+836
+00:45:40,863 --> 00:45:43,537
+Tek seferde ödeme yapmak istiyorum.
+
+837
+00:45:43,560 --> 00:45:45,960
+Tek seferlik ödeme mi?
+
+838
+00:45:45,983 --> 00:45:49,670
+Kartı buraya okutun lütfen.
+
+839
+00:45:49,694 --> 00:45:51,591
+Bip...
+
+840
+00:45:51,614 --> 00:45:53,548
+İşlem tamamlandı mı?
+
+841
+00:45:53,571 --> 00:45:55,304
+Tamam.
+
+842
+00:45:55,327 --> 00:45:58,094
+Temaslı ödeme tamamlandı.
+
+843
+00:45:58,117 --> 00:46:02,117
+Son model kasalar çok pratik olmuş.
+
+844
+00:46:02,140 --> 00:46:06,173
+Hızlı ödeme yapmak gerçekten çok kolay.
+
+845
+00:46:06,196 --> 00:46:10,163
+Fiş ve makbuzu alabilir miyim?
+
+846
+00:46:10,186 --> 00:46:11,719
+Tamam.
+
+847
+00:46:11,742 --> 00:46:15,009
+İkisini de hemen hazırlayacağım.
+
+848
+00:46:15,032 --> 00:46:19,087
+Makbuzun başlığı 'Üst' olarak olsun lütfen.
+
+849
+00:46:19,110 --> 00:46:21,193
+Anlaşıldı.
+
+850
+00:46:21,217 --> 00:46:24,017
+'Üst' olarak hazırlayacağım.
+
+851
+00:46:24,040 --> 00:46:27,840
+Ayrı ayrı ödeme yapmak da mümkün müydü?
+
+852
+00:46:27,863 --> 00:46:29,596
+Tamam.
+
+853
+00:46:29,619 --> 00:46:32,953
+Evet, bireysel ödeme de yapabiliyoruz.
+
+854
+00:46:32,976 --> 00:46:36,746
+Bir dahaki sefere arkadaşlarla bölüşerek öderiz.
+
+855
+00:46:36,769 --> 00:46:39,418
+Lütfen yine bekleriz.
+
+856
+00:46:39,442 --> 00:46:42,808
+Yemekler de çok lezzetliydi.
+
+857
+00:46:42,831 --> 00:46:45,231
+Afiyet olsun.
+
+858
+00:46:45,254 --> 00:46:46,821
+Teşekkür ederiz.
+
+859
+00:46:46,844 --> 00:46:49,525
+Çok memnun olduk.
+
+860
+00:46:49,549 --> 00:46:51,582
+Tekrar geleceğiz.
+
+861
+00:46:51,605 --> 00:46:56,338
+İşte fişiniz, makbuzunuz ve kartınız.
+
+862
+00:46:56,361 --> 00:46:57,828
+Tamam.
+
+863
+00:46:57,851 --> 00:47:00,053
+Teslim aldım.
+
+864
+00:47:00,077 --> 00:47:03,277
+Bugün geldiniz, teşekkür ederiz.
+
+865
+00:47:03,300 --> 00:47:05,598
+Yine bekleriz.
+
+866
+00:47:05,622 --> 00:47:07,155
+Teşekkür ederiz.
+
+867
+00:47:07,178 --> 00:47:09,453
+İyi günler.

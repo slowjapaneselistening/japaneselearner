@@ -1,0 +1,3467 @@
+1
+00:00:00,000 --> 00:00:10,008
+Vad handlar dagens video om? En konversation på en izakaya (japansk pub).
+
+2
+00:00:10,008 --> 00:00:11,508
+Scen 1: Bokning och vägledning på en izakaya / Introduktion till bokningar och sittplatser på en izakaya
+
+3
+00:00:11,508 --> 00:00:13,341
+Välkomna!
+
+4
+00:00:13,364 --> 00:00:15,938
+Välkomna till vår izakaya.
+
+5
+00:00:15,961 --> 00:00:18,860
+Hej, vi är två personer.
+
+6
+00:00:18,884 --> 00:00:20,650
+Javisst.
+
+7
+00:00:20,673 --> 00:00:23,676
+Har ni bokat bord för idag?
+
+8
+00:00:23,700 --> 00:00:27,033
+Nej, vi har inte bokat.
+
+9
+00:00:27,056 --> 00:00:29,023
+Javisst.
+
+10
+00:00:29,046 --> 00:00:31,479
+Det är inga problem.
+
+11
+00:00:31,502 --> 00:00:33,311
+Vad skönt!
+
+12
+00:00:33,334 --> 00:00:35,868
+Röker ni?
+
+13
+00:00:35,891 --> 00:00:38,741
+Nej, det gör vi inte.
+
+14
+00:00:38,764 --> 00:00:41,702
+Vi skulle vilja ha ett bord i rökfritt område, tack.
+
+15
+00:00:41,725 --> 00:00:43,892
+Javisst.
+
+16
+00:00:43,915 --> 00:00:47,048
+Jag ska visa er till ett rökfritt bord.
+
+17
+00:00:47,071 --> 00:00:48,688
+Tack så mycket.
+
+18
+00:00:48,712 --> 00:00:50,802
+Är det bordet längst in?
+
+19
+00:00:50,825 --> 00:00:54,825
+Ja, det är ett bord längst in.
+
+20
+00:00:54,848 --> 00:00:56,692
+Varsågod, den här vägen.
+
+21
+00:00:56,716 --> 00:00:59,516
+Det är ett ljust och fint bord!
+
+22
+00:00:59,539 --> 00:01:01,436
+Tack så mycket.
+
+23
+00:01:01,460 --> 00:01:04,193
+Passar det här bordet för er?
+
+24
+00:01:04,216 --> 00:01:07,508
+Ja, det är ett jättebra bord.
+
+25
+00:01:07,532 --> 00:01:10,932
+Ni kan lägga era väskor i den här lådan.
+
+26
+00:01:10,955 --> 00:01:12,955
+Okej, tack.
+
+27
+00:01:12,978 --> 00:01:15,911
+Tack för att ni visade oss.
+
+28
+00:01:15,934 --> 00:01:18,272
+Det är fullt här, eller hur?
+
+29
+00:01:18,296 --> 00:01:22,232
+Det är fredag, så det är många gäster.
+
+30
+00:01:22,256 --> 00:01:24,589
+Jaha, så är det.
+
+31
+00:01:24,612 --> 00:01:27,022
+Det var tur att vi kom in.
+
+32
+00:01:27,046 --> 00:01:29,779
+Kommer er vän snart?
+
+33
+00:01:29,802 --> 00:01:33,235
+Ja, hen kommer om fem minuter.
+
+34
+00:01:33,258 --> 00:01:35,025
+Javisst.
+
+35
+00:01:35,048 --> 00:01:37,697
+Jag hämtar menyn åt er.
+
+36
+00:01:37,721 --> 00:01:39,411
+Tack.
+
+37
+00:01:39,434 --> 00:01:41,968
+Kan vi också få vatten?
+
+38
+00:01:41,991 --> 00:01:45,268
+Ja, jag hämtar det direkt.
+
+39
+00:01:45,291 --> 00:01:49,098
+Vad är den där QR-koden på bordet?
+
+40
+00:01:49,122 --> 00:01:53,255
+Det är en QR-kod för att beställa med mobilen.
+
+41
+00:01:53,278 --> 00:01:55,122
+Vad smidigt!
+
+42
+00:01:55,145 --> 00:01:58,029
+Då beställer jag via mobilen.
+
+43
+00:01:58,053 --> 00:02:02,086
+Vi har också pappersmenyer om ni vill använda dem.
+
+44
+00:02:02,109 --> 00:02:04,242
+Okej, tack.
+
+45
+00:02:04,265 --> 00:02:06,032
+Tack så mycket.
+
+46
+00:02:06,055 --> 00:02:09,633
+Ta er tid och välj lugnt.
+
+47
+00:02:09,656 --> 00:02:13,223
+Okej, tack så mycket!
+
+48
+00:02:13,246 --> 00:02:22,255
+Dagens videoskript kan laddas ner från beskrivningen och det översta kommentaren. Glöm inte att kommentera innan ni laddar ner!
+
+49
+00:02:22,255 --> 00:02:23,755
+Scen 2: Grundläggande kundbemötande / Grundläggande kundservice
+
+50
+00:02:23,755 --> 00:02:26,633
+God kväll, bra jobbat idag också.
+
+51
+00:02:26,656 --> 00:02:29,195
+Dags att börja jobba.
+
+52
+00:02:29,219 --> 00:02:31,752
+Tack, jag ser fram emot det.
+
+53
+00:02:31,775 --> 00:02:34,433
+Vad ska jag göra?
+
+54
+00:02:34,457 --> 00:02:39,754
+Först och främst, vad man gör efter att ha visat gäster till deras bord.
+
+55
+00:02:39,778 --> 00:02:43,258
+Ja, jag ska lära mig det ordentligt.
+
+56
+00:02:43,281 --> 00:02:48,155
+När gästerna har satt sig, ge dem omedelbart en våt handduk.
+
+57
+00:02:48,179 --> 00:02:50,589
+Det är en våt handduk.
+
+58
+00:02:50,612 --> 00:02:53,020
+Ska den vara varm?
+
+59
+00:02:53,043 --> 00:02:57,843
+Ja, ge mig en varm våt handduk tack.
+
+60
+00:02:57,866 --> 00:02:59,833
+Okej, tack.
+
+61
+00:02:59,856 --> 00:03:02,500
+Ska jag ge den med båda händerna?
+
+62
+00:03:02,523 --> 00:03:08,123
+Ja, ge den artigt och säg 'varsågod'.
+
+63
+00:03:08,146 --> 00:03:09,780
+Okej.
+
+64
+00:03:09,803 --> 00:03:12,940
+Hälsa med hög och tydlig röst.
+
+65
+00:03:12,964 --> 00:03:17,497
+Sedan lägger du menyn på bordet.
+
+66
+00:03:17,520 --> 00:03:21,120
+En meny per person?
+
+67
+00:03:21,144 --> 00:03:26,024
+Nej, två menyer per grupp räcker.
+
+68
+00:03:26,048 --> 00:03:28,514
+Okej, tack.
+
+69
+00:03:28,537 --> 00:03:31,504
+Ska jag också servera vatten?
+
+70
+00:03:31,528 --> 00:03:36,534
+Eftersom det är en izakaya, servera först kallt vatten eller te.
+
+71
+00:03:36,557 --> 00:03:40,757
+Ska jag fråga gästen vad de föredrar?
+
+72
+00:03:40,780 --> 00:03:42,747
+Ja, det gör du.
+
+73
+00:03:42,770 --> 00:03:47,451
+Fråga om de vill ha varmt te eller kallt vatten.
+
+74
+00:03:47,474 --> 00:03:49,927
+Okej, tack.
+
+75
+00:03:49,950 --> 00:03:53,364
+Bör jag anteckna?
+
+76
+00:03:53,388 --> 00:03:57,121
+Till en början, anteckna gärna. Okej.
+
+77
+00:03:57,144 --> 00:04:00,477
+Jag förbereder anteckningsblock och penna.
+
+78
+00:04:00,500 --> 00:04:04,734
+Visa också dagens rekommendationstavla.
+
+79
+00:04:04,757 --> 00:04:08,643
+Var finns rekommendationstavlan?
+
+80
+00:04:08,666 --> 00:04:12,120
+Den står på hyllan bredvid köket.
+
+81
+00:04:12,143 --> 00:04:14,156
+Okej, tack.
+
+82
+00:04:14,179 --> 00:04:16,413
+Jag ska kolla.
+
+83
+00:04:16,436 --> 00:04:20,678
+När beställningen är klar, trycker gästen på knappen.
+
+84
+00:04:20,701 --> 00:04:24,874
+När summeringsljudet hörs, går jag direkt dit, eller hur?
+
+85
+00:04:24,897 --> 00:04:27,830
+Precis så.
+
+86
+00:04:27,853 --> 00:04:30,387
+Möt gästerna med ett leende.
+
+87
+00:04:30,410 --> 00:04:32,043
+Okej.
+
+88
+00:04:32,066 --> 00:04:33,999
+Jag ska göra mitt bästa.
+
+89
+00:04:34,022 --> 00:04:38,075
+Om det är något du inte förstår, fråga bara.
+
+90
+00:04:38,099 --> 00:04:39,766
+Okej.
+
+91
+00:04:39,790 --> 00:04:42,556
+Tack, jag ser fram emot det.
+
+92
+00:04:42,579 --> 00:04:49,684
+Länken till webbplatsen där du kan repetera dagens video finns i beskrivningen och i det översta kommentaren. *Webbplatsen kan komma att tas bort utan förvarning.
+
+93
+00:04:49,684 --> 00:04:51,184
+Scen 3: Övning i att ta beställningar / Övning för att ta emot beställningar
+
+94
+00:04:51,184 --> 00:04:53,584
+Välkomna!
+
+95
+00:04:53,607 --> 00:04:57,293
+Har ni bestämt er för beställningen?
+
+96
+00:04:57,317 --> 00:05:02,590
+Ja, jag vill först beställa dryck.
+
+97
+00:05:02,614 --> 00:05:04,890
+Javisst.
+
+98
+00:05:04,913 --> 00:05:07,713
+Vad önskar ni?
+
+99
+00:05:07,736 --> 00:05:12,936
+Först tar vi två färsköl, tack.
+
+100
+00:05:12,959 --> 00:05:16,233
+Två färsköl, noterat.
+
+101
+00:05:16,256 --> 00:05:18,428
+Okej, tack.
+
+102
+00:05:18,451 --> 00:05:23,418
+Åh, min kompis sa att hen vill ha en highball istället.
+
+103
+00:05:23,441 --> 00:05:30,316
+Så en färsköl och en highball då?
+
+104
+00:05:30,339 --> 00:05:33,754
+Ja, precis så.
+
+105
+00:05:33,778 --> 00:05:39,044
+Highballen kan göras starkare om ni önskar, hur vill ni ha den?
+
+106
+00:05:39,067 --> 00:05:42,304
+Vanlig styrka är bra.
+
+107
+00:05:42,328 --> 00:05:44,409
+Okej, tack.
+
+108
+00:05:44,433 --> 00:05:48,166
+Ska jag lägga i is?
+
+109
+00:05:48,189 --> 00:05:52,085
+Ja, lägg i is tack.
+
+110
+00:05:52,109 --> 00:05:58,509
+Färskölen finns i stor och liten storlek.
+
+111
+00:05:58,532 --> 00:06:01,340
+En mellanstor, tack.
+
+112
+00:06:01,364 --> 00:06:04,097
+En mellanstor färsköl, noterat.
+
+113
+00:06:04,120 --> 00:06:06,411
+Javisst.
+
+114
+00:06:06,434 --> 00:06:09,434
+Kommer dryckerna snart?
+
+115
+00:06:09,457 --> 00:06:14,024
+Ja, vi gör dem och kommer med dem direkt.
+
+116
+00:06:14,047 --> 00:06:15,742
+Tack så mycket.
+
+117
+00:06:15,765 --> 00:06:18,165
+Det låter gott.
+
+118
+00:06:18,188 --> 00:06:21,261
+Vad är dagens tilltugg?
+
+119
+00:06:21,284 --> 00:06:25,217
+Idag har vi edamame och små rätter.
+
+120
+00:06:25,240 --> 00:06:27,207
+Det låter bra.
+
+121
+00:06:27,230 --> 00:06:29,724
+Vi tar också en förrätt, tack.
+
+122
+00:06:29,748 --> 00:06:32,003
+Javisst.
+
+123
+00:06:32,026 --> 00:06:35,026
+Två förrätter, alltså.
+
+124
+00:06:35,049 --> 00:06:38,882
+Kan vi beställa maten lite senare?
+
+125
+00:06:38,905 --> 00:06:43,156
+Javisst, ropa på oss när ni bestämt er.
+
+126
+00:06:43,180 --> 00:06:45,187
+Okej, tack.
+
+127
+00:06:45,211 --> 00:06:48,277
+Vi tittar igenom menyn i lugn och ro.
+
+128
+00:06:48,300 --> 00:06:53,034
+Då hämtar jag en storöl och en highball.
+
+129
+00:06:53,057 --> 00:06:56,195
+Tack, det låter bra.
+
+130
+00:06:56,218 --> 00:06:58,854
+Ett ögonblick, tack.
+
+131
+00:06:58,878 --> 00:07:01,912
+Ja, vi väntar.
+
+132
+00:07:01,936 --> 00:07:03,436
+Scen 4: Skål efter jobbet / Skål efter arbetet
+
+133
+00:07:03,436 --> 00:07:06,120
+Tack för idag.
+
+134
+00:07:06,143 --> 00:07:08,745
+Drickorna är här nu.
+
+135
+00:07:08,768 --> 00:07:11,228
+Tack för idag.
+
+136
+00:07:11,251 --> 00:07:14,136
+Jag är törstig.
+
+137
+00:07:14,160 --> 00:07:19,693
+Då skålar vi för att vi klarat av veckan.
+
+138
+00:07:19,716 --> 00:07:22,450
+Tack för idag.
+
+139
+00:07:22,473 --> 00:07:24,839
+Skål!
+
+140
+00:07:24,862 --> 00:07:26,829
+Skål!
+
+141
+00:07:26,852 --> 00:07:29,019
+Skål!
+
+142
+00:07:29,042 --> 00:07:34,775
+Gulp, gulp… ahhh, så gott!
+
+143
+00:07:34,798 --> 00:07:40,246
+Verkligen, det kalla ölet är perfekt.
+
+144
+00:07:40,269 --> 00:07:45,157
+Öl efter jobbet smakar alltid så bra.
+
+145
+00:07:45,181 --> 00:07:50,548
+Ölet här har så fin skumkrona.
+
+146
+00:07:50,571 --> 00:07:52,706
+Det stämmer.
+
+147
+00:07:52,729 --> 00:07:56,104
+Det är kallt och lättdrucket.
+
+148
+00:07:56,127 --> 00:07:59,706
+Jag drack nästan halva glaset på en klunk.
+
+149
+00:07:59,729 --> 00:08:03,496
+Hehe, du tar i rejält.
+
+150
+00:08:03,519 --> 00:08:07,418
+Idag var verkligen en hektisk dag.
+
+151
+00:08:07,441 --> 00:08:11,516
+Vi jobbade över mycket också.
+
+152
+00:08:11,539 --> 00:08:15,792
+Därför smakar den här klunken så himla gott.
+
+153
+00:08:15,815 --> 00:08:19,382
+Vi äter lite edamame också.
+
+154
+00:08:19,405 --> 00:08:23,249
+Åh, det är salt och så gott.
+
+155
+00:08:23,272 --> 00:08:26,072
+Perfekt till ölet.
+
+156
+00:08:26,095 --> 00:08:28,982
+Den bästa tilltuggen.
+
+157
+00:08:29,005 --> 00:08:32,239
+Drick inte för mycket nu.
+
+158
+00:08:32,263 --> 00:08:34,339
+Det är lugnt.
+
+159
+00:08:34,363 --> 00:08:36,899
+Låt oss njuta av kvällen.
+
+160
+00:08:36,922 --> 00:08:41,701
+Ja, vi beställer massor av god mat också.
+
+161
+00:08:41,724 --> 00:08:44,005
+Det låter bra.
+
+162
+00:08:44,029 --> 00:08:47,243
+Ska vi titta på menyn?
+
+163
+00:08:47,267 --> 00:08:50,915
+Men först tar jag en klunk till.
+
+164
+00:08:50,938 --> 00:08:53,305
+Jag med.
+
+165
+00:08:53,328 --> 00:08:56,102
+Mmm, så gott.
+
+166
+00:08:56,126 --> 00:08:59,261
+En lycklig stund.
+
+167
+00:08:59,284 --> 00:09:03,096
+Så skönt att vi kom hit ikväll.
+
+168
+00:09:03,120 --> 00:09:06,920
+Låt oss prata och ha det trevligt.
+
+169
+00:09:06,943 --> 00:09:11,283
+Ja, vi dricker tillsammans till slutet.
+
+170
+00:09:11,306 --> 00:09:12,806
+Scen 5: Hur man bestämmer vad man ska beställa / Så här bestämmer du vad du ska beställa
+
+171
+00:09:12,806 --> 00:09:17,073
+Då beställer vi mat.
+
+172
+00:09:17,096 --> 00:09:19,029
+Det låter bra.
+
+173
+00:09:19,052 --> 00:09:21,670
+Vad känner du för att äta?
+
+174
+00:09:21,694 --> 00:09:24,927
+Jag är sugen på kötträtter.
+
+175
+00:09:24,950 --> 00:09:29,117
+Vi har friterad kyckling och yakitori.
+
+176
+00:09:29,140 --> 00:09:31,774
+Det är svårt att välja.
+
+177
+00:09:31,797 --> 00:09:34,332
+Vilket föredrar du?
+
+178
+00:09:34,356 --> 00:09:38,289
+Jag gillar friterad kyckling.
+
+179
+00:09:38,312 --> 00:09:43,845
+Friterad kyckling är gott, men yakitori är också svårt att motstå.
+
+180
+00:09:43,868 --> 00:09:49,302
+Gillar du yakitori med salt eller sås?
+
+181
+00:09:49,325 --> 00:09:53,858
+Jag älskar den söta såsen.
+
+182
+00:09:53,881 --> 00:09:57,814
+Jag föredrar salt – det är lätt och fräscht.
+
+183
+00:09:57,837 --> 00:10:02,304
+Då beställer vi en blandad tallrik?
+
+184
+00:10:02,327 --> 00:10:06,694
+En blandad tallrik innehåller ju båda.
+
+185
+00:10:06,717 --> 00:10:11,328
+Man kan beställa både salt och sås.
+
+186
+00:10:11,352 --> 00:10:14,231
+Det är en bra idé.
+
+187
+00:10:14,255 --> 00:10:18,388
+Ska vi beställa en portion friterad kyckling också?
+
+188
+00:10:18,411 --> 00:10:20,445
+Det låter bra.
+
+189
+00:10:20,468 --> 00:10:23,305
+Vi äter båda.
+
+190
+00:10:23,328 --> 00:10:25,895
+Kommer vi orka äta allt?
+
+191
+00:10:25,918 --> 00:10:29,851
+Det kan bli mycket.
+
+192
+00:10:29,874 --> 00:10:33,508
+Jag är hungrig, så det går bra.
+
+193
+00:10:33,531 --> 00:10:36,864
+Vi beställer också någon sallad.
+
+194
+00:10:36,887 --> 00:10:39,720
+Vad sägs om en Caesar-sallad?
+
+195
+00:10:39,743 --> 00:10:42,230
+Jag älskar den.
+
+196
+00:10:42,254 --> 00:10:44,550
+Då tar vi den.
+
+197
+00:10:44,573 --> 00:10:47,858
+Tofusallad ser också god ut.
+
+198
+00:10:47,881 --> 00:10:51,948
+Ska vi ta Caesar-sallad idag?
+
+199
+00:10:51,971 --> 00:10:54,145
+Okej.
+
+200
+00:10:54,169 --> 00:10:56,602
+Då gör vi så.
+
+201
+00:10:56,625 --> 00:10:59,958
+En blandad sashimi-tallrik skulle också vara gott.
+
+202
+00:10:59,981 --> 00:11:04,434
+Det finns fiskrekommendationer för idag.
+
+203
+00:11:04,457 --> 00:11:08,824
+Ska vi beställa både fisk och kött?
+
+204
+00:11:08,847 --> 00:11:13,023
+Det är tryggare att beställa lite i taget.
+
+205
+00:11:13,047 --> 00:11:14,680
+Ja, det gör du.
+
+206
+00:11:14,703 --> 00:11:17,757
+Vi börjar med kött och sallad.
+
+207
+00:11:17,781 --> 00:11:19,347
+Okej.
+
+208
+00:11:19,370 --> 00:11:22,137
+Vi kallar på servitören.
+
+209
+00:11:22,160 --> 00:11:23,660
+Scen 6: Beställning och rekommendationer
+
+210
+00:11:23,660 --> 00:11:26,111
+Var det något ni ville?
+
+211
+00:11:26,135 --> 00:11:29,404
+Jag tar gärna emot er beställning.
+
+212
+00:11:29,427 --> 00:11:33,630
+Ursäkta, vad rekommenderar ni idag?
+
+213
+00:11:33,654 --> 00:11:38,987
+Dagens rekommendation är en blandad tallrik med färsk sashimi.
+
+214
+00:11:39,010 --> 00:11:42,143
+Vilken fisk ingår?
+
+215
+00:11:42,166 --> 00:11:46,439
+Det är tonfisk, lax och amberjack.
+
+216
+00:11:46,463 --> 00:11:48,732
+Det låter gott.
+
+217
+00:11:48,755 --> 00:11:52,355
+Är det den bästa fisken just nu?
+
+218
+00:11:52,378 --> 00:11:56,845
+Den kom från hamnen i morse.
+
+219
+00:11:56,868 --> 00:11:59,901
+Det låter fantastiskt.
+
+220
+00:11:59,924 --> 00:12:02,157
+En portion, tack.
+
+221
+00:12:02,180 --> 00:12:03,780
+Tack så mycket.
+
+222
+00:12:03,803 --> 00:12:06,437
+En blandad sashimi-tallrik, javisst.
+
+223
+00:12:06,460 --> 00:12:10,026
+Har ni några andra populära tilltugg?
+
+224
+00:12:10,049 --> 00:12:14,666
+Vår hemgjorda dashimaki-tamago är väldigt populär.
+
+225
+00:12:14,690 --> 00:12:17,166
+Dashimaki-tamago?
+
+226
+00:12:17,190 --> 00:12:19,190
+Är den varm?
+
+227
+00:12:19,213 --> 00:12:23,261
+Ja, vi steker den när ni beställer.
+
+228
+00:12:23,284 --> 00:12:26,485
+Den verkar fluffig och god.
+
+229
+00:12:26,509 --> 00:12:31,349
+Den är smaksatt med dashi och verkligen läcker.
+
+230
+00:12:31,372 --> 00:12:35,612
+Då tar jag en vanlig dashimaki-tamago också, tack.
+
+231
+00:12:35,636 --> 00:12:40,636
+Vi har också dashimaki-tamago med mentaiko och ost!
+
+232
+00:12:40,659 --> 00:12:44,037
+Va? Mentaiko och ost?
+
+233
+00:12:44,060 --> 00:12:48,542
+Det är den mest populära rätten bland våra kvinnliga gäster.
+
+234
+00:12:48,566 --> 00:12:51,766
+Vilken av dem rekommenderar du?
+
+235
+00:12:51,789 --> 00:12:55,875
+Mentaiko-varianten passar perfekt till alkohol.
+
+236
+00:12:55,898 --> 00:12:59,501
+Då tar jag den med mentaiko.
+
+237
+00:12:59,525 --> 00:13:01,558
+Javisst.
+
+238
+00:13:01,581 --> 00:13:04,581
+Den är verkligen jättegott, det lovar jag!
+
+239
+00:13:04,604 --> 00:13:06,891
+Jag ser fram emot det.
+
+240
+00:13:06,915 --> 00:13:09,558
+Skulle du vilja ha något friterat också?
+
+241
+00:13:09,581 --> 00:13:13,948
+Vad är er bästa rekommendation bland de friterade rätterna?
+
+242
+00:13:13,971 --> 00:13:18,021
+Jag rekommenderar Toriten, en specialitet från Ōita.
+
+243
+00:13:18,044 --> 00:13:19,928
+Toriten?
+
+244
+00:13:19,951 --> 00:13:22,728
+Det är en rätt man äter med ponzu.
+
+245
+00:13:22,752 --> 00:13:27,118
+Den är lätt och fräsch – man kan äta hur många som helst!
+
+246
+00:13:27,141 --> 00:13:29,427
+Då tar jag en portion av den också, tack.
+
+247
+00:13:29,451 --> 00:13:31,522
+Javisst.
+
+248
+00:13:31,546 --> 00:13:34,712
+Perfekt beställning!
+
+249
+00:13:34,735 --> 00:13:36,235
+Scen 7: Beställning och allergianpassning
+
+250
+00:13:36,235 --> 00:13:39,505
+Vad får det lov att vara?
+
+251
+00:13:39,529 --> 00:13:42,746
+Jag skulle vilja beställa den här risfräsen.
+
+252
+00:13:42,769 --> 00:13:45,036
+Det är en kinaräksrisfräs, eller hur?
+
+253
+00:13:45,059 --> 00:13:46,659
+Tack så mycket.
+
+254
+00:13:46,682 --> 00:13:52,515
+Ursäkta, men innehåller den räkor?
+
+255
+00:13:52,538 --> 00:13:54,016
+Okej.
+
+256
+00:13:54,039 --> 00:13:57,016
+Ja, det ingår räkor i ingredienserna.
+
+257
+00:13:57,040 --> 00:14:01,573
+Jag är allergisk mot räkor, så jag kan inte äta det.
+
+258
+00:14:01,596 --> 00:14:04,074
+Jaha, jag förstår.
+
+259
+00:14:04,098 --> 00:14:06,667
+Du har alltså en allergi?
+
+260
+00:14:06,690 --> 00:14:11,023
+Skulle det gå att göra den utan räkor?
+
+261
+00:14:11,046 --> 00:14:13,713
+Ett ögonblick, tack.
+
+262
+00:14:13,736 --> 00:14:16,584
+Jag ska kolla med köket.
+
+263
+00:14:16,608 --> 00:14:19,008
+Tack för besväret.
+
+264
+00:14:19,031 --> 00:14:21,206
+Tack, jag ser fram emot det.
+
+265
+00:14:21,230 --> 00:14:23,523
+Ursäkta att du fick vänta.
+
+266
+00:14:23,546 --> 00:14:27,152
+Vi kan göra den utan räkor!
+
+267
+00:14:27,176 --> 00:14:29,109
+Verkligen?
+
+268
+00:14:29,132 --> 00:14:31,099
+Vad skönt!
+
+269
+00:14:31,121 --> 00:14:34,855
+Finns det några andra allergener jag bör känna till?
+
+270
+00:14:34,878 --> 00:14:38,319
+Ägg och fläskkött går bra.
+
+271
+00:14:38,342 --> 00:14:40,709
+Det är bara räkor och krabbor jag inte tål.
+
+272
+00:14:40,732 --> 00:14:42,776
+Javisst.
+
+273
+00:14:42,799 --> 00:14:45,766
+Vi gör den utan räkor.
+
+274
+00:14:45,789 --> 00:14:51,189
+Jag är också lite känslig för lök – skulle det gå att minska mängden?
+
+275
+00:14:51,212 --> 00:14:55,412
+Vi kan göra den helt utan lök om du vill?
+
+276
+00:14:55,435 --> 00:14:59,132
+Då tar jag den utan lök också, tack.
+
+277
+00:14:59,155 --> 00:15:01,355
+Uppfattat.
+
+278
+00:15:01,378 --> 00:15:04,580
+Utan räkor och lök, alltså.
+
+279
+00:15:04,604 --> 00:15:07,470
+Förlåt att jag ställer till det.
+
+280
+00:15:07,493 --> 00:15:10,460
+Ingen fara, det är lugnt!
+
+281
+00:15:10,483 --> 00:15:14,449
+Jag är så tacksam för er omtanke.
+
+282
+00:15:14,472 --> 00:15:18,639
+Salladsdressingen innehåller heller inga räkor, förresten.
+
+283
+00:15:18,662 --> 00:15:22,999
+Åh, jag tänkte faktiskt beställa en sallad också!
+
+284
+00:15:23,023 --> 00:15:27,037
+Det är en japansk dressing, så du kan äta den utan problem.
+
+285
+00:15:27,061 --> 00:15:31,102
+Då tar jag en japansk sallad också, tack.
+
+286
+00:15:31,126 --> 00:15:33,292
+Javisst.
+
+287
+00:15:33,315 --> 00:15:35,882
+En sallad och risfräs, kommer på en gång!
+
+288
+00:15:35,905 --> 00:15:37,838
+Tack, jag ser fram emot det.
+
+289
+00:15:37,861 --> 00:15:41,636
+Jag ska laga något gott, så vänta lite.
+
+290
+00:15:41,660 --> 00:15:44,936
+Ja, jag ser verkligen fram emot det!
+
+291
+00:15:44,959 --> 00:15:46,459
+Scen 8: Smakskillnader / Skillnader i smakpreferenser
+
+292
+00:15:46,459 --> 00:15:51,426
+Alla har ju olika smak när det gäller mat, eller hur?
+
+293
+00:15:51,449 --> 00:15:53,715
+Ja, det gör du.
+
+294
+00:15:53,738 --> 00:15:57,154
+Gillar du stark mat?
+
+295
+00:15:57,178 --> 00:15:59,850
+Jag älskar den.
+
+296
+00:15:59,873 --> 00:16:04,806
+Jag älskar mapo tofu och koreansk mat.
+
+297
+00:16:04,829 --> 00:16:06,966
+Verkligen?
+
+298
+00:16:06,990 --> 00:16:11,556
+Jag tål inte alls stark mat.
+
+299
+00:16:11,579 --> 00:16:16,398
+Va? Kan du inte ens äta kimchi?
+
+300
+00:16:16,422 --> 00:16:21,467
+Kimchi är lite för starkt för mig, tyvärr.
+
+301
+00:16:21,491 --> 00:16:23,749
+Jaha, okej.
+
+302
+00:16:23,772 --> 00:16:28,439
+Gillar du söta eller milda smaker istället?
+
+303
+00:16:28,462 --> 00:16:34,862
+Ja, jag gillar japansk mat med god dashi och söta såser.
+
+304
+00:16:34,885 --> 00:16:36,697
+Jaså.
+
+305
+00:16:36,720 --> 00:16:41,287
+Då måste jag tänka på vad jag beställer idag.
+
+306
+00:16:41,310 --> 00:16:45,743
+Kan du äta stark mat själv?
+
+307
+00:16:45,766 --> 00:16:50,343
+Idag äter vi något som inte är starkt tillsammans.
+
+308
+00:16:50,367 --> 00:16:52,537
+Det var snällt!
+
+309
+00:16:52,561 --> 00:16:54,327
+Tack så mycket.
+
+310
+00:16:54,350 --> 00:16:57,950
+Gillar du söt tamagoyaki?
+
+311
+00:16:57,974 --> 00:17:00,374
+Jag älskar den.
+
+312
+00:17:00,397 --> 00:17:03,167
+Det påminner om mammas mat.
+
+313
+00:17:03,191 --> 00:17:05,357
+Det låter bra.
+
+314
+00:17:05,380 --> 00:17:09,047
+Då beställer vi tamagoyaki!
+
+315
+00:17:09,070 --> 00:17:13,758
+Gillar du sushi och sashimi, alltså rå fisk?
+
+316
+00:17:13,782 --> 00:17:16,348
+Jag älskar den.
+
+317
+00:17:16,371 --> 00:17:18,938
+Jag skulle kunna äta det varje dag!
+
+318
+00:17:18,961 --> 00:17:23,928
+Jag älskar också sashimi.
+
+319
+00:17:23,951 --> 00:17:26,448
+Vi har samma smak!
+
+320
+00:17:26,471 --> 00:17:29,037
+Vad skönt!
+
+321
+00:17:29,060 --> 00:17:32,394
+Jag gillar tonfisk och lax.
+
+322
+00:17:32,417 --> 00:17:36,428
+Jag föredrar vit fisk.
+
+323
+00:17:36,452 --> 00:17:38,625
+Som tilapia eller flundra?
+
+324
+00:17:38,648 --> 00:17:41,541
+Det är en mer vuxen smak.
+
+325
+00:17:41,564 --> 00:17:45,043
+Det passar perfekt till en drink.
+
+326
+00:17:45,067 --> 00:17:50,123
+När det gäller alkohol, dricker du söta cocktails?
+
+327
+00:17:50,147 --> 00:17:53,580
+Inte så ofta.
+
+328
+00:17:53,603 --> 00:17:57,770
+Jag gillar en frisk oolong-highball.
+
+329
+00:17:57,793 --> 00:18:03,726
+Jag gillar söt umeshu och cassisorange.
+
+330
+00:18:03,749 --> 00:18:08,116
+Det är roligt att våra smaker är så olika!
+
+331
+00:18:08,139 --> 00:18:13,141
+Det är kul att prata om skillnader.
+
+332
+00:18:13,165 --> 00:18:15,131
+Det stämmer.
+
+333
+00:18:15,154 --> 00:18:19,221
+Då kan vi tipsa varandra om våra favoritrestauranger!
+
+334
+00:18:19,244 --> 00:18:21,653
+Det låter bra.
+
+335
+00:18:21,676 --> 00:18:26,692
+Jag ska tipsa dig om en bra japansk restaurang.
+
+336
+00:18:26,716 --> 00:18:32,370
+Och jag ska tipsa dig om en restaurang med riktigt stark mat!
+
+337
+00:18:32,393 --> 00:18:36,843
+Var snäll och ta det lite försiktigt med den.
+
+338
+00:18:36,867 --> 00:18:38,367
+Scen 9: Servering av mat och hantering av önskemål / Att servera mat och hantera förfrågningar
+
+339
+00:18:38,367 --> 00:18:41,700
+Här kommer er mat.
+
+340
+00:18:41,723 --> 00:18:44,456
+Det är kycklingkaraage.
+
+341
+00:18:44,479 --> 00:18:48,213
+Wow, det ser jättegott ut!
+
+342
+00:18:48,236 --> 00:18:51,089
+Tack så mycket.
+
+343
+00:18:51,112 --> 00:18:54,645
+Varsågoda och njut.
+
+344
+00:18:54,668 --> 00:18:57,635
+Ursäkta mig.
+
+345
+00:18:57,658 --> 00:19:00,729
+Får jag störa en liten stund?
+
+346
+00:19:00,752 --> 00:19:03,971
+Javisst, vad kan jag hjälpa till med?
+
+347
+00:19:03,995 --> 00:19:08,034
+Kan ni ta med tre små tallrikar, tack?
+
+348
+00:19:08,058 --> 00:19:10,465
+Javisst.
+
+349
+00:19:10,488 --> 00:19:13,505
+Tre små tallrikar, eller?
+
+350
+00:19:13,528 --> 00:19:20,128
+Och jag tappade mina ätpinnar på golvet, så kan jag få nya?
+
+351
+00:19:20,151 --> 00:19:22,793
+Jag ber om ursäkt för det.
+
+352
+00:19:22,817 --> 00:19:26,502
+Jag hämtar nya ätpinnar åt er.
+
+353
+00:19:26,526 --> 00:19:28,159
+Tack så mycket.
+
+354
+00:19:28,182 --> 00:19:30,061
+Vad skönt!
+
+355
+00:19:30,084 --> 00:19:33,781
+Skulle ni vilja ha ett extra vattenglas också?
+
+356
+00:19:33,805 --> 00:19:38,405
+Åh, kan jag få två tomma glas?
+
+357
+00:19:38,428 --> 00:19:42,299
+För att hälla upp flasköl i, antar jag?
+
+358
+00:19:42,323 --> 00:19:45,256
+Ja, precis.
+
+359
+00:19:45,279 --> 00:19:47,967
+Helst lite mindre glas.
+
+360
+00:19:47,990 --> 00:19:50,364
+Javisst.
+
+361
+00:19:50,388 --> 00:19:53,668
+Jag fixar det direkt.
+
+362
+00:19:53,691 --> 00:19:57,191
+Kan vi få extra handdukar eller våtservetter också?
+
+363
+00:19:57,214 --> 00:20:03,393
+Javisst, jag hämtar varma våtservetter till er.
+
+364
+00:20:03,417 --> 00:20:05,670
+Tack så mycket för allt.
+
+365
+00:20:05,693 --> 00:20:09,761
+Ingen orsak, det är inget att bry sig om.
+
+366
+00:20:09,784 --> 00:20:15,879
+Personalen här är verkligen både snälla och snabba!
+
+367
+00:20:15,903 --> 00:20:17,480
+Tack så mycket.
+
+368
+00:20:17,504 --> 00:20:21,937
+Vi vill dela maten medan den fortfarande är varm.
+
+369
+00:20:21,960 --> 00:20:25,794
+Jag skyndar mig med det.
+
+370
+00:20:25,817 --> 00:20:27,217
+Tack.
+
+371
+00:20:27,240 --> 00:20:29,406
+Ursäkta att ni fick vänta.
+
+372
+00:20:29,429 --> 00:20:33,232
+Här är era små tallrikar och ätpinnar.
+
+373
+00:20:33,255 --> 00:20:35,455
+Så snabbt!
+
+374
+00:20:35,478 --> 00:20:37,083
+Tack så mycket.
+
+375
+00:20:37,107 --> 00:20:41,641
+Jag ställer även glasen och våtservetterna här.
+
+376
+00:20:41,664 --> 00:20:43,464
+Perfekt!
+
+377
+00:20:43,487 --> 00:20:46,053
+Tack så mycket.
+
+378
+00:20:46,076 --> 00:20:50,043
+Behöver ni något mer just nu?
+
+379
+00:20:50,066 --> 00:20:53,320
+Just nu är allt bra.
+
+380
+00:20:53,344 --> 00:20:55,477
+Jag ropar om vi behöver något.
+
+381
+00:20:55,500 --> 00:20:57,000
+Scen 10: Beställningshantering under en hektisk kväll
+
+382
+00:20:57,000 --> 00:21:02,283
+Klockan är åtta och restaurangen är fullsatt!
+
+383
+00:21:02,306 --> 00:21:06,139
+Beställningsklockorna ringer oupphörligt.
+
+384
+00:21:06,162 --> 00:21:08,329
+Det är hektiskt.
+
+385
+00:21:08,352 --> 00:21:13,285
+Lugn, vi tar en beställning i taget.
+
+386
+00:21:13,308 --> 00:21:14,978
+Okej.
+
+387
+00:21:15,002 --> 00:21:19,294
+Det ligger tio drinkbeställningar och väntar.
+
+388
+00:21:19,317 --> 00:21:23,656
+Jag fixar öl och highball.
+
+389
+00:21:23,680 --> 00:21:29,113
+Då tar jag sour och läsk.
+
+390
+00:21:29,136 --> 00:21:31,108
+Vad skönt!
+
+391
+00:21:31,132 --> 00:21:34,066
+Vi delar upp oss och serverar snabbt.
+
+392
+00:21:34,089 --> 00:21:39,691
+Det finns bord där maten är försenad.
+
+393
+00:21:39,714 --> 00:21:41,650
+Vilka bord?
+
+394
+00:21:41,674 --> 00:21:43,956
+Jag ska kolla.
+
+395
+00:21:43,979 --> 00:21:47,913
+Bord fem och åtta.
+
+396
+00:21:47,936 --> 00:21:52,829
+Jag pratar med kocken så de skyndar på.
+
+397
+00:21:52,852 --> 00:21:54,386
+Tack.
+
+398
+00:21:54,408 --> 00:21:58,105
+Jag ber om ursäkt till gästerna.
+
+399
+00:21:58,128 --> 00:22:01,220
+Vilken omtanke!
+
+400
+00:22:01,243 --> 00:22:03,721
+Tack, jag ser fram emot det.
+
+401
+00:22:03,745 --> 00:22:07,155
+Puh, jag börjar svettas.
+
+402
+00:22:07,179 --> 00:22:09,857
+Det är verkligen hektiskt.
+
+403
+00:22:09,880 --> 00:22:14,214
+Det här är den mest hektiska tiden på kvällen.
+
+404
+00:22:14,237 --> 00:22:15,903
+Vi kämpar på!
+
+405
+00:22:15,927 --> 00:22:17,527
+Okej.
+
+406
+00:22:17,550 --> 00:22:21,583
+Det känns tryggt att jobba med dig som är erfaren.
+
+407
+00:22:21,606 --> 00:22:23,940
+Samma här.
+
+408
+00:22:23,963 --> 00:22:26,849
+Ditt leende är underbart.
+
+409
+00:22:26,872 --> 00:22:31,141
+Vi fortsätter att bemöta gästerna med ett leende.
+
+410
+00:22:31,165 --> 00:22:34,698
+Om en timme blir det lugnare.
+
+411
+00:22:34,721 --> 00:22:38,755
+Okej, nu kör vi! Jag ska ge järnet.
+
+412
+00:22:38,778 --> 00:22:42,978
+Glöm inte att fylla på dryckerna också, tack.
+
+413
+00:22:43,001 --> 00:22:45,968
+Is och glas ska fyllas på, eller hur?
+
+414
+00:22:45,991 --> 00:22:47,991
+Uppfattat!
+
+415
+00:22:48,014 --> 00:22:52,581
+Se till att inte skada dig, var försiktig.
+
+416
+00:22:52,604 --> 00:22:53,694
+Okej.
+
+417
+00:22:53,718 --> 00:22:56,596
+Jag springer försiktigt så jag inte snubblar.
+
+418
+00:22:56,619 --> 00:23:00,452
+Spring inte, vi går snabbt istället.
+
+419
+00:23:00,475 --> 00:23:02,922
+Just det, jag glömde.
+
+420
+00:23:02,946 --> 00:23:05,749
+Säkerheten först!
+
+421
+00:23:05,773 --> 00:23:10,573
+När rusningen är över ska vi njuta av god mat från köket.
+
+422
+00:23:10,596 --> 00:23:13,596
+Det ser jag fram emot, då kämpar jag på.
+
+423
+00:23:13,619 --> 00:23:17,352
+Nu är dryckerna klara!
+
+424
+00:23:17,375 --> 00:23:19,215
+Ta med dem.
+
+425
+00:23:19,238 --> 00:23:20,972
+Okej.
+
+426
+00:23:20,995 --> 00:23:23,079
+Jag går nu.
+
+427
+00:23:23,102 --> 00:23:24,602
+Scen 11: Hantering av försenade beställningar
+
+428
+00:23:24,602 --> 00:23:27,136
+Var det mig ni kallade på?
+
+429
+00:23:27,159 --> 00:23:29,042
+Jag kommer och kollar.
+
+430
+00:23:29,065 --> 00:23:30,798
+Ursäkta mig,
+
+431
+00:23:30,821 --> 00:23:35,291
+jag beställde mat för 30 minuter sedan, men den har inte kommit än.
+
+432
+00:23:35,315 --> 00:23:38,205
+Jag ber verkligen om ursäkt för det.
+
+433
+00:23:38,229 --> 00:23:41,029
+Vilken mat var det?
+
+434
+00:23:41,052 --> 00:23:45,018
+Yakitori-platter och yakisoba.
+
+435
+00:23:45,041 --> 00:23:49,061
+Yakitori-platter och yakisoba, jag förstår.
+
+436
+00:23:49,085 --> 00:23:51,485
+Jag ska kolla upp det.
+
+437
+00:23:51,508 --> 00:23:56,593
+Dryckerna kom snabbt, men maten dröjer.
+
+438
+00:23:56,616 --> 00:24:00,435
+Jag är verkligen ledsen för besväret.
+
+439
+00:24:00,459 --> 00:24:06,026
+Kan du fråga i köket hur det ligger till?
+
+440
+00:24:06,049 --> 00:24:09,827
+Ja, jag går direkt och kollar med köket.
+
+441
+00:24:09,850 --> 00:24:12,417
+Ett ögonblick, tack.
+
+442
+00:24:12,440 --> 00:24:15,046
+Tack, det låter bra.
+
+443
+00:24:15,070 --> 00:24:17,403
+Ursäkta att ni fick vänta.
+
+444
+00:24:17,426 --> 00:24:20,517
+Jag har kollat med köket.
+
+445
+00:24:20,540 --> 00:24:22,507
+Hur ser det ut?
+
+446
+00:24:22,530 --> 00:24:25,497
+Hade beställningen kommit in?
+
+447
+00:24:25,520 --> 00:24:28,855
+Ja, beställningen var registrerad.
+
+448
+00:24:28,878 --> 00:24:31,337
+Då är det bra.
+
+449
+00:24:31,360 --> 00:24:34,493
+Hur lång tid tar det ungefär?
+
+450
+00:24:34,516 --> 00:24:39,250
+Yakitorin är precis klar nu.
+
+451
+00:24:39,273 --> 00:24:42,406
+Kommer den om ungefär fem minuter?
+
+452
+00:24:42,429 --> 00:24:45,796
+Ja, jag kommer med den inom tre minuter.
+
+453
+00:24:45,818 --> 00:24:48,652
+Hur är det med yakisoban?
+
+454
+00:24:48,675 --> 00:24:52,716
+Yakisoban skulle precis börja tillagas.
+
+455
+00:24:52,740 --> 00:24:56,176
+Va? Nu först?
+
+456
+00:24:56,199 --> 00:24:59,135
+Det verkar ta tid.
+
+457
+00:24:59,158 --> 00:25:04,246
+Det är trångt i köket, så beställningarna har blivit försenade.
+
+458
+00:25:04,270 --> 00:25:09,470
+Jag måste passa sista tunnelbanan, så kan jag avbeställa yakisoban?
+
+459
+00:25:09,493 --> 00:25:14,826
+Ja, den är inte påbörjad än, så det går bra att avbeställa.
+
+460
+00:25:14,849 --> 00:25:18,538
+Då avbeställer jag yakisoban, tack.
+
+461
+00:25:18,562 --> 00:25:20,728
+Jag förstår.
+
+462
+00:25:20,751 --> 00:25:23,446
+Jag ber om ursäkt för det.
+
+463
+00:25:23,470 --> 00:25:27,637
+Nej nej, tack för att du kollade upp det.
+
+464
+00:25:27,660 --> 00:25:32,326
+Yakitorin kommer strax, vänta lite.
+
+465
+00:25:32,349 --> 00:25:35,202
+Ja, tack så mycket!
+
+466
+00:25:35,226 --> 00:25:38,593
+Jag är verkligen ledsen.
+
+467
+00:25:38,616 --> 00:25:40,683
+Ursäkta mig.
+
+468
+00:25:40,706 --> 00:25:43,106
+Ja, jag förstår.
+
+469
+00:25:43,129 --> 00:25:44,629
+Scen 12: När chefen blev arg / Att prata om att ha blivit utskälld av chefen
+
+470
+00:25:44,629 --> 00:25:48,596
+Det går undan med ölen ikväll också, eller?
+
+471
+00:25:48,619 --> 00:25:51,638
+Har något hänt?
+
+472
+00:25:51,661 --> 00:25:57,541
+Faktum är att jag blev utskälld av chefen på jobbet idag.
+
+473
+00:25:57,565 --> 00:26:01,531
+Va? Är det sant?
+
+474
+00:26:01,554 --> 00:26:04,521
+Det var ju hemskt.
+
+475
+00:26:04,544 --> 00:26:09,477
+Jag blev utskälld fast det inte ens var mitt fel.
+
+476
+00:26:09,500 --> 00:26:12,467
+Det är ju förfärligt.
+
+477
+00:26:12,490 --> 00:26:15,523
+Vad var det som hände?
+
+478
+00:26:15,546 --> 00:26:22,595
+Han sa att siffrorna i dokumentet var fel, men jag hade ju inte ens gjort det.
+
+479
+00:26:22,619 --> 00:26:25,266
+Det är ju fruktansvärt!
+
+480
+00:26:25,290 --> 00:26:28,544
+Sade du ifrån?
+
+481
+00:26:28,567 --> 00:26:34,034
+Chefen var så läskig att jag inte kunde säga något.
+
+482
+00:26:34,057 --> 00:26:39,623
+Hmm, jag förstår precis hur frustrerande det känns.
+
+483
+00:26:39,646 --> 00:26:43,695
+Förlåt att jag tar upp tråkiga saker här på krogen.
+
+484
+00:26:43,718 --> 00:26:51,966
+Nej nej! Det är ju till för att prata om sådant här på krogen.
+
+485
+00:26:51,990 --> 00:26:55,390
+Det känns bra att du säger så.
+
+486
+00:26:55,413 --> 00:26:59,413
+Nu dricker vi upp och glömmer allt elände!
+
+487
+00:26:59,436 --> 00:27:04,330
+Ja, ikväll vill jag dricka ordentligt.
+
+488
+00:27:04,353 --> 00:27:10,330
+Relationer på jobbet är verkligen komplicerade, eller hur?
+
+489
+00:27:10,354 --> 00:27:12,754
+Det stämmer verkligen.
+
+490
+00:27:12,777 --> 00:27:15,835
+Man blir så trött av att hela tiden behöva tänka på hur man beter sig.
+
+491
+00:27:15,859 --> 00:27:22,625
+Jag har faktiskt själv funderat på hur jag ska lära min junior förra veckan.
+
+492
+00:27:22,649 --> 00:27:24,905
+Va, är det sant?
+
+493
+00:27:24,928 --> 00:27:27,220
+Vad är det som bekymrar dig?
+
+494
+00:27:27,244 --> 00:27:32,777
+Hur mycket jag än förklarar så gör hen samma misstag om och om igen.
+
+495
+00:27:32,800 --> 00:27:35,457
+Det måste vara jobbigt.
+
+496
+00:27:35,481 --> 00:27:38,374
+Att lära ut är också svårt.
+
+497
+00:27:38,398 --> 00:27:43,931
+Även om jag säger det snällt så hjälper det inte, och om jag är sträng så blir hen ledsen.
+
+498
+00:27:43,954 --> 00:27:48,154
+Vi har båda massor av bekymmer på jobbet, eller hur?
+
+499
+00:27:48,177 --> 00:27:54,196
+Det är just därför som det här – att prata med varandra – är den bästa medicinen.
+
+500
+00:27:54,219 --> 00:27:55,875
+Det stämmer.
+
+501
+00:27:55,898 --> 00:27:59,065
+Jag känner mig redan lite lättare i hjärtat.
+
+502
+00:27:59,088 --> 00:28:02,964
+Du kämpar alltid så hårt, det vet jag.
+
+503
+00:28:02,987 --> 00:28:05,620
+Jag ser det.
+
+504
+00:28:05,643 --> 00:28:07,377
+Tack så mycket.
+
+505
+00:28:07,400 --> 00:28:09,933
+Jag är nära att börja gråta.
+
+506
+00:28:09,956 --> 00:28:14,974
+Kom igen, le lite och ta en klunk av din highball!
+
+507
+00:28:14,997 --> 00:28:18,266
+Ja, jag känner mig redan piggare.
+
+508
+00:28:18,289 --> 00:28:20,746
+Dags för en ny skål!
+
+509
+00:28:20,770 --> 00:28:22,807
+Det låter bra.
+
+510
+00:28:22,830 --> 00:28:27,275
+Skål! Nu kör vi imorgon också!
+
+511
+00:28:27,298 --> 00:28:28,432
+Skål!
+
+512
+00:28:28,455 --> 00:28:31,655
+Imorgon är en ny dag!
+
+513
+00:28:31,678 --> 00:28:33,178
+Scen 13: Hur man häller upp öl / Så här häller du upp öl på rätt sätt
+
+514
+00:28:33,178 --> 00:28:37,611
+Åh, ditt glas är tomt!
+
+515
+00:28:37,634 --> 00:28:40,434
+Oj, det är det ju.
+
+516
+00:28:40,457 --> 00:28:42,955
+Jag märkte inte.
+
+517
+00:28:42,978 --> 00:28:46,469
+Ska jag hälla upp flaskölen?
+
+518
+00:28:46,493 --> 00:28:48,426
+Tack så mycket.
+
+519
+00:28:48,449 --> 00:28:51,886
+Tack, det var snällt.
+
+520
+00:28:51,910 --> 00:28:55,357
+Nej nej, varsågod varsågod.
+
+521
+00:28:55,380 --> 00:28:58,317
+Håll glaset med båda händerna, tack.
+
+522
+00:28:58,341 --> 00:29:01,360
+Ja, tack för det.
+
+523
+00:29:01,383 --> 00:29:03,817
+Toto... to...
+
+524
+00:29:03,840 --> 00:29:07,293
+Perfekt skumförhållande!
+
+525
+00:29:07,316 --> 00:29:10,049
+Snyggt gjort!
+
+526
+00:29:10,072 --> 00:29:13,041
+Skummet är så fluffigt.
+
+527
+00:29:13,065 --> 00:29:17,799
+Jag övade på att hälla när jag jobbade extra för länge sedan.
+
+528
+00:29:17,823 --> 00:29:19,589
+Jaså.
+
+529
+00:29:19,612 --> 00:29:22,346
+Det där är proffsteknik.
+
+530
+00:29:22,369 --> 00:29:24,056
+Tack så mycket.
+
+531
+00:29:24,079 --> 00:29:28,365
+Ditt glas är också nästan tomt, eller hur?
+
+532
+00:29:28,389 --> 00:29:31,227
+Åh, det stämmer faktiskt.
+
+533
+00:29:31,250 --> 00:29:34,823
+Vad vill du dricka nästa gång?
+
+534
+00:29:34,846 --> 00:29:38,646
+Jag skulle vilja prova sake.
+
+535
+00:29:38,669 --> 00:29:41,269
+Låter bra!
+
+536
+00:29:41,292 --> 00:29:45,177
+Föredrar du kall sake eller varm?
+
+537
+00:29:45,200 --> 00:29:48,434
+Jag tar en frisk och kall sake.
+
+538
+00:29:48,457 --> 00:29:53,590
+Då beställer vi den här restaurangens rekommenderade lokala sake.
+
+539
+00:29:53,613 --> 00:29:55,646
+Så roligt!
+
+540
+00:29:55,669 --> 00:29:59,069
+Vi dricker ur samma saké-kopp tillsammans.
+
+541
+00:29:59,092 --> 00:30:00,930
+Det låter bra.
+
+542
+00:30:00,954 --> 00:30:04,687
+Jag tar också sake.
+
+543
+00:30:04,710 --> 00:30:08,244
+Jag ropar på personalen och beställer.
+
+544
+00:30:08,267 --> 00:30:11,556
+Åh, jag ropar på dem.
+
+545
+00:30:11,579 --> 00:30:13,594
+Ursäkta!
+
+546
+00:30:13,618 --> 00:30:16,418
+Så pålitlig du är.
+
+547
+00:30:16,441 --> 00:30:17,974
+Tack så mycket.
+
+548
+00:30:17,997 --> 00:30:22,476
+Drick sakta i din egen takt.
+
+549
+00:30:22,500 --> 00:30:23,700
+Okej.
+
+550
+00:30:23,723 --> 00:30:26,372
+Jag ska inte överdriva.
+
+551
+00:30:26,396 --> 00:30:29,762
+Det är bra att dricka vatten också.
+
+552
+00:30:29,785 --> 00:30:31,472
+Ja, det gör du.
+
+553
+00:30:31,496 --> 00:30:34,229
+Vi beställer kallt vatten också.
+
+554
+00:30:34,252 --> 00:30:39,019
+Om du dricker både alkohol och vatten blir du inte full lika lätt.
+
+555
+00:30:39,042 --> 00:30:41,910
+Vilken omtanke du har.
+
+556
+00:30:41,934 --> 00:30:44,136
+Verkligen imponerande.
+
+557
+00:30:44,159 --> 00:30:48,559
+Vi vill båda njuta och dricka trevligt till slutet.
+
+558
+00:30:48,582 --> 00:30:50,052
+Okej.
+
+559
+00:30:50,075 --> 00:30:54,146
+Låt oss njuta av den goda saken långsamt.
+
+560
+00:30:54,170 --> 00:30:58,103
+Då väntar vi på att saken ska komma.
+
+561
+00:30:58,126 --> 00:30:59,626
+Scen 14: Hur man hanterar när man tappar ätpinnar / Så här gör du när du tappar ätpinnarna
+
+562
+00:30:59,626 --> 00:31:05,460
+Åh nej! Oj! Klirr!
+
+563
+00:31:05,483 --> 00:31:07,449
+Är du okej?
+
+564
+00:31:07,472 --> 00:31:10,289
+Har du skadat dig?
+
+565
+00:31:10,313 --> 00:31:12,679
+Förlåt.
+
+566
+00:31:12,702 --> 00:31:16,969
+Jag tappade ätpinnarna, de gled ur handen.
+
+567
+00:31:16,992 --> 00:31:19,625
+Så bra att du inte skadade dig.
+
+568
+00:31:19,648 --> 00:31:23,892
+Förlåt att jag smutsade ner golvet.
+
+569
+00:31:23,916 --> 00:31:28,149
+Nej nej, låt det vara.
+
+570
+00:31:28,172 --> 00:31:31,006
+Jag plockar upp dem.
+
+571
+00:31:31,030 --> 00:31:36,563
+Nej, jag plockar upp dem, sitt kvar du.
+
+572
+00:31:36,586 --> 00:31:38,675
+Förlåt.
+
+573
+00:31:38,698 --> 00:31:41,196
+Tack för besväret.
+
+574
+00:31:41,220 --> 00:31:45,153
+Jag hämtar nya ätpinnar.
+
+575
+00:31:45,176 --> 00:31:46,870
+Tack så mycket.
+
+576
+00:31:46,893 --> 00:31:49,103
+Vad skönt!
+
+577
+00:31:49,127 --> 00:31:54,096
+Vill du ha engångsätpinnar av trä eller plast?
+
+578
+00:31:54,120 --> 00:31:58,920
+Träätpinnar är mindre hala, så de vore bra.
+
+579
+00:31:58,943 --> 00:32:01,277
+Javisst.
+
+580
+00:32:01,301 --> 00:32:04,556
+Jag hämtar träätpinnar.
+
+581
+00:32:04,579 --> 00:32:08,746
+Jag är orolig för att maten kanske stänkt på kläderna.
+
+582
+00:32:08,769 --> 00:32:12,102
+Är kläderna inte smutsiga?
+
+583
+00:32:12,125 --> 00:32:15,658
+Skulle ni vilja använda en fuktig handduk?
+
+584
+00:32:15,681 --> 00:32:18,615
+Kläderna var okej.
+
+585
+00:32:18,638 --> 00:32:21,371
+Kan jag få en fuktig handduk, tack?
+
+586
+00:32:21,394 --> 00:32:23,194
+Okej.
+
+587
+00:32:23,217 --> 00:32:27,307
+Ja, jag hämtar genast en ny fuktig handduk och pinnar.
+
+588
+00:32:27,331 --> 00:32:30,698
+Tack så mycket för den snabba hjälpen.
+
+589
+00:32:30,721 --> 00:32:34,054
+Ursäkta att du fick vänta.
+
+590
+00:32:34,077 --> 00:32:38,124
+Här är engångspinnar och en fuktig handduk.
+
+591
+00:32:38,147 --> 00:32:41,186
+Tack så väldigt mycket.
+
+592
+00:32:41,210 --> 00:32:45,850
+Golvet är också noggrant torkat, så ni kan vara lugna.
+
+593
+00:32:45,873 --> 00:32:50,916
+Er vänlighet har verkligen värmt mitt hjärta.
+
+594
+00:32:50,940 --> 00:32:55,906
+Förlåt att vi störde er under måltiden.
+
+595
+00:32:55,929 --> 00:33:01,063
+Nej, det var mitt fel eftersom jag tappade pinnarna.
+
+596
+00:33:01,086 --> 00:33:05,864
+Varsågod, ät innan maten blir kall.
+
+597
+00:33:05,887 --> 00:33:07,499
+Okej.
+
+598
+00:33:07,523 --> 00:33:10,956
+Ja, jag ska vara försiktig så att jag inte tappar dem igen.
+
+599
+00:33:10,979 --> 00:33:14,412
+Ta det lugnt och njut av måltiden.
+
+600
+00:33:14,436 --> 00:33:15,936
+Tack så mycket!
+
+601
+00:33:15,959 --> 00:33:17,892
+Smaklig måltid.
+
+602
+00:33:17,915 --> 00:33:20,250
+Varsågod och ta det lugnt.
+
+603
+00:33:20,274 --> 00:33:21,774
+Scen 15: Hantering av kundserviceincidenter
+
+604
+00:33:21,774 --> 00:33:25,830
+Chef, har du ett ögonblick?
+
+605
+00:33:25,853 --> 00:33:27,630
+Vad är det?
+
+606
+00:33:27,653 --> 00:33:30,387
+Har det hänt något problem?
+
+607
+00:33:30,410 --> 00:33:36,666
+Ja, en gäst vid bord tre har råkat ta sönder ett glas.
+
+608
+00:33:36,689 --> 00:33:40,907
+Oj, är det någon som har skadat sig?
+
+609
+00:33:40,930 --> 00:33:44,697
+Nej, ingen har skadat sig.
+
+610
+00:33:44,720 --> 00:33:46,886
+Det var bra.
+
+611
+00:33:46,909 --> 00:33:49,983
+Och hur ser situationen ut?
+
+612
+00:33:50,006 --> 00:33:56,140
+Det var ett glas med rödvin, som spilldes lite på golvet och kläderna.
+
+613
+00:33:56,163 --> 00:34:00,298
+Det hamnade på kläderna också, alltså.
+
+614
+00:34:00,321 --> 00:34:02,593
+Det var tråkigt.
+
+615
+00:34:02,617 --> 00:34:06,687
+Gästen verkar väldigt ledsen.
+
+616
+00:34:06,710 --> 00:34:11,710
+Jag hämtar genast städverktyg och en fuktig trasa.
+
+617
+00:34:11,733 --> 00:34:16,300
+Ja, jag har redan förberett kvast och sopskyffel.
+
+618
+00:34:16,323 --> 00:34:21,540
+Bra, det ligger glasbitar överallt så det är farligt.
+
+619
+00:34:21,564 --> 00:34:25,164
+Jag sopar ihop glasbitarna.
+
+620
+00:34:25,187 --> 00:34:30,154
+Jag ska kolla gästens kläder och be om ursäkt.
+
+621
+00:34:30,177 --> 00:34:34,444
+Ska vi betala för kemtvätt?
+
+622
+00:34:34,467 --> 00:34:39,151
+Beroende på situationen, ge dem ett visitkort och hantera det.
+
+623
+00:34:39,174 --> 00:34:40,941
+Okej.
+
+624
+00:34:40,964 --> 00:34:43,862
+Vi hanterar det lugnt.
+
+625
+00:34:43,885 --> 00:34:48,328
+Se till att inga andra gäster trampar på glasbitarna.
+
+626
+00:34:48,352 --> 00:34:53,152
+Ja, jag ska prata med gästerna vid bordet bredvid.
+
+627
+00:34:53,175 --> 00:34:55,988
+Det är ett utmärkt bemötande.
+
+628
+00:34:56,011 --> 00:34:58,302
+Vi måste agera snabbt.
+
+629
+00:34:58,326 --> 00:35:02,260
+Hur gör vi med en ny drink?
+
+630
+00:35:02,283 --> 00:35:06,090
+Vi bjuder på ett glas av samma vin.
+
+631
+00:35:06,114 --> 00:35:08,388
+Javisst.
+
+632
+00:35:08,411 --> 00:35:10,744
+Jag förbereder det.
+
+633
+00:35:10,767 --> 00:35:15,134
+Det viktigaste är att ingen skadade sig, men vi ska visa vår uppriktighet.
+
+634
+00:35:15,157 --> 00:35:19,290
+Ja, det hjälpte att du var här, chef.
+
+635
+00:35:19,313 --> 00:35:23,932
+Det är tack vare att du som extraarbetare rapporterade direkt.
+
+636
+00:35:23,956 --> 00:35:25,694
+Tack så mycket.
+
+637
+00:35:25,717 --> 00:35:28,284
+Då går vi.
+
+638
+00:35:28,307 --> 00:35:32,473
+Okej, vi går till bord tre.
+
+639
+00:35:32,496 --> 00:35:35,173
+Se upp för fötterna.
+
+640
+00:35:35,197 --> 00:35:36,730
+Förstått.
+
+641
+00:35:36,753 --> 00:35:38,320
+Tack.
+
+642
+00:35:38,343 --> 00:35:39,843
+Scen 16: Överlämning innan paus / Pre-Break Handover
+
+643
+00:35:39,843 --> 00:35:45,939
+Rushen är över, det har blivit lugnt nu.
+
+644
+00:35:45,962 --> 00:35:49,296
+Det var två intensiva timmar.
+
+645
+00:35:49,319 --> 00:35:54,588
+Jag tar nu min 45-minuters paus.
+
+646
+00:35:54,611 --> 00:35:56,814
+Tack för idag.
+
+647
+00:35:56,837 --> 00:35:59,371
+Ta det lugnt och vila ordentligt.
+
+648
+00:35:59,394 --> 00:36:04,194
+Innan jag går på paus, har jag några saker att överlämna.
+
+649
+00:36:04,217 --> 00:36:05,617
+Okej.
+
+650
+00:36:05,640 --> 00:36:07,848
+Jag skriver ner det i anteckningsblocket.
+
+651
+00:36:07,872 --> 00:36:09,479
+Tack.
+
+652
+00:36:09,503 --> 00:36:14,669
+Först, gästerna vid bord två väntar på efterrätt.
+
+653
+00:36:14,692 --> 00:36:20,492
+Vad har de beställt för efterrätt? Två vaniljglassar.
+
+654
+00:36:20,516 --> 00:36:22,716
+Servera dem om fem minuter.
+
+655
+00:36:22,739 --> 00:36:24,506
+Okej, tack.
+
+656
+00:36:24,529 --> 00:36:27,529
+Vaniljglass om fem minuter, noterat.
+
+657
+00:36:27,552 --> 00:36:32,952
+Sedan, notan för bord sju är separat.
+
+658
+00:36:32,975 --> 00:36:35,608
+Det blir delad betalning alltså.
+
+659
+00:36:35,631 --> 00:36:38,110
+Jag tar hand om det i kassan.
+
+660
+00:36:38,133 --> 00:36:42,300
+Det finns en lapp på kvittot, kolla den.
+
+661
+00:36:42,323 --> 00:36:44,368
+Uppfattat.
+
+662
+00:36:44,392 --> 00:36:47,025
+Jag ser till att det blir rätt.
+
+663
+00:36:47,048 --> 00:36:51,181
+Sista beställningen i köket är klockan halv elva.
+
+664
+00:36:51,204 --> 00:36:54,173
+Om en halvtimme alltså.
+
+665
+00:36:54,196 --> 00:36:57,455
+Ska jag meddela gästerna?
+
+666
+00:36:57,478 --> 00:37:02,965
+Meddela alla bord när det är femton minuter kvar.
+
+667
+00:37:02,989 --> 00:37:06,789
+Kolla sista beställning klockan kvart över tio, noterat.
+
+668
+00:37:06,812 --> 00:37:08,145
+Okej.
+
+669
+00:37:08,168 --> 00:37:10,301
+Tack, jag ser fram emot det.
+
+670
+00:37:10,324 --> 00:37:13,821
+Är dryckespåfyllningen på golvet klar?
+
+671
+00:37:13,845 --> 00:37:18,578
+Jag har bytt till en ny öl-tunna i kranen.
+
+672
+00:37:18,601 --> 00:37:21,010
+Som vanligt, du är bäst!
+
+673
+00:37:21,034 --> 00:37:22,800
+Perfekt!
+
+674
+00:37:22,823 --> 00:37:24,390
+Tack så mycket.
+
+675
+00:37:24,413 --> 00:37:29,780
+Om det blir något problem, knacka på pausrummets dörr.
+
+676
+00:37:29,803 --> 00:37:31,662
+Det är lugnt.
+
+677
+00:37:31,685 --> 00:37:34,454
+Jag håller ställningarna här ensam!
+
+678
+00:37:34,478 --> 00:37:36,711
+Så pålitlig du är.
+
+679
+00:37:36,734 --> 00:37:39,380
+Jag går och äter min personalmat.
+
+680
+00:37:39,404 --> 00:37:41,970
+Vad är det för mat idag?
+
+681
+00:37:41,993 --> 00:37:46,193
+Kockens special: jättegrov curryris!
+
+682
+00:37:46,216 --> 00:37:48,829
+Åh, vad gott!
+
+683
+00:37:48,853 --> 00:37:51,228
+Njut så mycket du kan!
+
+684
+00:37:51,251 --> 00:37:55,017
+Hehe, jag sparar lite åt dig.
+
+685
+00:37:55,040 --> 00:37:58,574
+Jippi! Ha det så bra!
+
+686
+00:37:58,597 --> 00:38:00,097
+Scen 17: För mycket mat och rester / Overeating and Leftovers
+
+687
+00:38:00,097 --> 00:38:04,330
+Puh, jag börjar bli mätt.
+
+688
+00:38:04,353 --> 00:38:08,720
+Jag med, jag är proppmätt.
+
+689
+00:38:08,743 --> 00:38:13,958
+Men det ligger fortfarande mat kvar på bordet.
+
+690
+00:38:13,981 --> 00:38:18,548
+Vi beställde alldeles för mycket i början.
+
+691
+00:38:18,572 --> 00:38:22,105
+Det ligger fortfarande tre stycken friterad kyckling kvar.
+
+692
+00:38:22,128 --> 00:38:26,895
+De där kycklingbitarna är ju enorma!
+
+693
+00:38:26,918 --> 00:38:30,884
+Kan du inte äta lite till?
+
+694
+00:38:30,907 --> 00:38:36,197
+Jag är också jättemätt, det är svårt.
+
+695
+00:38:36,221 --> 00:38:38,587
+Snälla du...
+
+696
+00:38:38,610 --> 00:38:41,589
+Kan du inte äta upp två till?
+
+697
+00:38:41,613 --> 00:38:48,782
+Hmm, det ser gott ut, men får jag plats med det? Det vore synd att slänga.
+
+698
+00:38:48,805 --> 00:38:53,051
+Det är verkligen inte bra att slösa med mat.
+
+699
+00:38:53,075 --> 00:38:58,694
+Du är ju kille, så du borde ha lite mer plats i magen.
+
+700
+00:38:58,717 --> 00:39:00,559
+Okej, tack.
+
+701
+00:39:00,583 --> 00:39:03,762
+Jag ska försöka äta en bit.
+
+702
+00:39:03,785 --> 00:39:07,857
+Inte bara en, ät två stycken!
+
+703
+00:39:07,880 --> 00:39:11,897
+Då tar vi lite citron på det, så blir det fräscht.
+
+704
+00:39:11,921 --> 00:39:13,854
+Låter bra.
+
+705
+00:39:13,877 --> 00:39:17,337
+Med citron blir det lättare att äta.
+
+706
+00:39:17,360 --> 00:39:19,219
+Jag åt en bit.
+
+707
+00:39:19,242 --> 00:39:22,132
+Den är krispig och jättegott!
+
+708
+00:39:22,156 --> 00:39:23,650
+Wow.
+
+709
+00:39:23,673 --> 00:39:27,307
+Då ska jag kämpa med den sista biten också.
+
+710
+00:39:27,330 --> 00:39:30,977
+Äh, du behöver inte pressa dig.
+
+711
+00:39:31,000 --> 00:39:33,833
+Jag tänker inte låta dig kämpa ensam.
+
+712
+00:39:33,856 --> 00:39:35,990
+Jag äter också.
+
+713
+00:39:36,013 --> 00:39:39,246
+Hehe, du vill inte förlora, va?
+
+714
+00:39:39,269 --> 00:39:41,343
+Smaklig måltid.
+
+715
+00:39:41,367 --> 00:39:45,204
+Usch, det är tungt, men det är gott.
+
+716
+00:39:45,227 --> 00:39:48,560
+Jag åt också upp en till.
+
+717
+00:39:48,583 --> 00:39:51,067
+Vi klarade det!
+
+718
+00:39:51,090 --> 00:39:53,724
+Tallriken är ren.
+
+719
+00:39:53,748 --> 00:39:56,415
+Fullträff – vi åt upp allt!
+
+720
+00:39:56,438 --> 00:39:59,004
+Det känns som en bedrift.
+
+721
+00:39:59,027 --> 00:40:04,227
+Nästa gång får vi tänka på mängden när vi beställer.
+
+722
+00:40:04,250 --> 00:40:05,787
+Ja, det gör du.
+
+723
+00:40:05,811 --> 00:40:08,984
+Att vara för girig är farligt.
+
+724
+00:40:09,007 --> 00:40:12,774
+Men det känns bra att vi åt upp allt.
+
+725
+00:40:12,797 --> 00:40:17,363
+Jag känner mig så proppmätt att jag måste vila lite.
+
+726
+00:40:17,386 --> 00:40:18,886
+Scen 18: Sista tunnelbanan / Skynda till sista tåget
+
+727
+00:40:18,886 --> 00:40:21,624
+Vad är klockan nu?
+
+728
+00:40:21,648 --> 00:40:24,881
+Har du en klocka?
+
+729
+00:40:24,904 --> 00:40:30,238
+Öh, den är precis 23:15.
+
+730
+00:40:30,261 --> 00:40:34,599
+Va?! Är klockan redan så mycket?!
+
+731
+00:40:34,622 --> 00:40:39,640
+Sant, tiden går fort.
+
+732
+00:40:39,664 --> 00:40:43,997
+När går ditt sista tåg?
+
+733
+00:40:44,020 --> 00:40:48,987
+Mitt sista går 23:45.
+
+734
+00:40:49,010 --> 00:40:53,693
+Mitt sista går 23:30!
+
+735
+00:40:53,716 --> 00:40:57,089
+Vi har bara 15 minuter kvar!
+
+736
+00:40:57,112 --> 00:40:59,746
+Det var illa!
+
+737
+00:40:59,769 --> 00:41:02,583
+Vi måste gå nu för att hinna!
+
+738
+00:41:02,606 --> 00:41:06,540
+Det tar ungefär 10 minuter att gå till stationen.
+
+739
+00:41:06,563 --> 00:41:10,940
+Om vi springer kan vi vara där på 5 minuter, men det är farligt.
+
+740
+00:41:10,963 --> 00:41:15,196
+Vi måste lämna restaurangen nu, annars hinner vi inte.
+
+741
+00:41:15,219 --> 00:41:17,839
+Låt oss skynda på betalningen.
+
+742
+00:41:17,862 --> 00:41:20,359
+Jag ropar på personalen.
+
+743
+00:41:20,382 --> 00:41:23,751
+Okej, jag tar fram plånboken och gör mig redo.
+
+744
+00:41:23,775 --> 00:41:27,908
+Jag betalar allt, så du kan gå före.
+
+745
+00:41:27,931 --> 00:41:31,774
+Åh, det känns inte rätt!
+
+746
+00:41:31,797 --> 00:41:35,174
+Du kan betala tillbaka via LINE senare.
+
+747
+00:41:35,198 --> 00:41:36,888
+Verkligen?
+
+748
+00:41:36,911 --> 00:41:39,598
+Förlåt mig.
+
+749
+00:41:39,621 --> 00:41:41,221
+Du räddar mig!
+
+750
+00:41:41,244 --> 00:41:44,778
+Här, ta din jacka och väska!
+
+751
+00:41:44,801 --> 00:41:47,267
+Du har väl inte glömt något?
+
+752
+00:41:47,290 --> 00:41:49,324
+Jag tog med paraplyet också.
+
+753
+00:41:49,347 --> 00:41:53,780
+Spring inte, men skynda dig till stationen.
+
+754
+00:41:53,803 --> 00:41:54,936
+Ja!
+
+755
+00:41:54,959 --> 00:41:58,736
+Idag hade jag verkligen jätteroligt.
+
+756
+00:41:58,759 --> 00:42:00,537
+Tack!
+
+757
+00:42:00,561 --> 00:42:03,427
+Jag hade också jätteroligt.
+
+758
+00:42:03,450 --> 00:42:06,017
+Meddela när du har kommit fram.
+
+759
+00:42:06,040 --> 00:42:08,286
+Okej, tack.
+
+760
+00:42:08,309 --> 00:42:11,676
+Jag skickar ett meddelande på LINE när jag har kommit på tåget.
+
+761
+00:42:11,699 --> 00:42:14,432
+Res försiktigt hem.
+
+762
+00:42:14,455 --> 00:42:17,267
+Kan jag få notan, tack!
+
+763
+00:42:17,291 --> 00:42:19,691
+Tack för maten!
+
+764
+00:42:19,714 --> 00:42:23,209
+Jajamen! Lita på mig.
+
+765
+00:42:23,232 --> 00:42:25,166
+Spring!
+
+766
+00:42:25,189 --> 00:42:26,649
+Ja!
+
+767
+00:42:26,672 --> 00:42:28,808
+God natt!
+
+768
+00:42:28,832 --> 00:42:30,876
+God natt!
+
+769
+00:42:30,899 --> 00:42:32,956
+Skynda dig!
+
+770
+00:42:32,979 --> 00:42:36,513
+Åh, res försiktigt hem.
+
+771
+00:42:36,536 --> 00:42:38,987
+Ja, tack så mycket!
+
+772
+00:42:39,010 --> 00:42:42,983
+Puh, jag hoppas vi hinner.
+
+773
+00:42:43,007 --> 00:42:44,507
+Scen 19: Efter att ha ätit, låt oss gå till karaoke
+
+774
+00:42:44,507 --> 00:42:47,440
+Vi har lämnat restaurangen.
+
+775
+00:42:47,463 --> 00:42:50,430
+Det blåser så skönt.
+
+776
+00:42:50,453 --> 00:42:52,820
+Det var verkligen gott.
+
+777
+00:42:52,843 --> 00:42:56,293
+Jag är proppmätt.
+
+778
+00:42:56,316 --> 00:42:59,849
+Klockan är fortfarande före tio.
+
+779
+00:42:59,872 --> 00:43:02,125
+Så snabbt!
+
+780
+00:43:02,149 --> 00:43:04,749
+Det stämmer.
+
+781
+00:43:04,772 --> 00:43:08,138
+Vad gör vi härnäst?
+
+782
+00:43:08,161 --> 00:43:12,361
+Ska vi gå någonstans mer?
+
+783
+00:43:12,384 --> 00:43:14,828
+Efterfest alltså.
+
+784
+00:43:14,851 --> 00:43:17,651
+Hur låter karaoke?
+
+785
+00:43:17,674 --> 00:43:19,968
+Karaoke.
+
+786
+00:43:19,992 --> 00:43:21,926
+Det låter bra.
+
+787
+00:43:21,950 --> 00:43:24,517
+Jag vill sjunga.
+
+788
+00:43:24,540 --> 00:43:29,583
+Jag har inte sjungit på länge, så jag vill sjunga mycket.
+
+789
+00:43:29,606 --> 00:43:34,206
+Det skulle också vara trevligt att prata i lugn och ro på en tyst bar.
+
+790
+00:43:34,229 --> 00:43:38,195
+En bar har också en härlig vuxenstämning.
+
+791
+00:43:38,218 --> 00:43:40,852
+Vilket humör är du på?
+
+792
+00:43:40,875 --> 00:43:45,930
+Idag är jag på hög energi, så karaoke låter perfekt.
+
+793
+00:43:45,954 --> 00:43:48,003
+Då är det bestämt.
+
+794
+00:43:48,026 --> 00:43:50,886
+Låt oss gå till karaoke.
+
+795
+00:43:50,909 --> 00:43:54,343
+Det finns en bra karaokebar i närheten.
+
+796
+00:43:54,366 --> 00:43:57,499
+Är det en bar nära stationen?
+
+797
+00:43:57,522 --> 00:43:58,655
+Okej.
+
+798
+00:43:58,678 --> 00:44:01,950
+Den ligger tre minuters promenad härifrån.
+
+799
+00:44:01,974 --> 00:44:04,807
+Ska vi ta all-you-can-drink-kursen?
+
+800
+00:44:04,830 --> 00:44:07,397
+Ska vi fortsätta dricka?
+
+801
+00:44:07,420 --> 00:44:10,296
+Jag kan ta wulongte om det passar.
+
+802
+00:44:10,320 --> 00:44:13,653
+Låt oss sjunga och dricka i en timme.
+
+803
+00:44:13,676 --> 00:44:15,609
+Jag håller med.
+
+804
+00:44:15,632 --> 00:44:18,684
+Vi borde inte stanna för sent.
+
+805
+00:44:18,708 --> 00:44:22,280
+Vi har jobb imorgon.
+
+806
+00:44:22,304 --> 00:44:25,837
+Vi måste absolut åka hem innan sista tåget.
+
+807
+00:44:25,860 --> 00:44:29,227
+Vilken låt ska vi sjunga först?
+
+808
+00:44:29,250 --> 00:44:33,883
+Vi sjunger nostalgiska 90-talspoplåtar.
+
+809
+00:44:33,906 --> 00:44:35,673
+Låter bra!
+
+810
+00:44:35,696 --> 00:44:38,963
+Jag sjunger med!
+
+811
+00:44:38,987 --> 00:44:42,320
+Ska vi sjunga en duett också?
+
+812
+00:44:42,343 --> 00:44:44,010
+Det låter kul!
+
+813
+00:44:44,033 --> 00:44:46,284
+Nu kör vi igång!
+
+814
+00:44:46,307 --> 00:44:50,473
+Då åker vi till karaokebaren!
+
+815
+00:44:50,496 --> 00:44:52,063
+Okej.
+
+816
+00:44:52,086 --> 00:44:54,219
+Visa vägen.
+
+817
+00:44:54,242 --> 00:44:56,376
+Varsågod, den här vägen.
+
+818
+00:44:56,399 --> 00:44:58,332
+Följ efter mig.
+
+819
+00:44:58,355 --> 00:44:59,855
+Scen 20: Grunderna i betalning
+
+820
+00:44:59,855 --> 00:45:01,855
+Välkomna!
+
+821
+00:45:01,878 --> 00:45:04,170
+Det är dags att betala.
+
+822
+00:45:04,193 --> 00:45:05,593
+Okej.
+
+823
+00:45:05,616 --> 00:45:08,657
+Här är notan.
+
+824
+00:45:08,680 --> 00:45:10,151
+Tack.
+
+825
+00:45:10,175 --> 00:45:11,869
+Tack så mycket.
+
+826
+00:45:11,893 --> 00:45:15,064
+Jag tar hand om notan.
+
+827
+00:45:15,087 --> 00:45:18,421
+Hur mycket blir det idag?
+
+828
+00:45:18,444 --> 00:45:22,578
+Totalt blir det 8 500 yen.
+
+829
+00:45:22,601 --> 00:45:24,368
+Okej, tack.
+
+830
+00:45:24,391 --> 00:45:27,724
+Kan jag betala med kreditkort?
+
+831
+00:45:27,747 --> 00:45:29,314
+Okej.
+
+832
+00:45:29,337 --> 00:45:33,024
+Vi accepterar olika kreditkort.
+
+833
+00:45:33,048 --> 00:45:35,427
+Jag betalar med Visa-kort.
+
+834
+00:45:35,451 --> 00:45:38,084
+Javisst.
+
+835
+00:45:38,107 --> 00:45:40,840
+Jag tar kortet.
+
+836
+00:45:40,863 --> 00:45:43,537
+Jag vill betala på en gång.
+
+837
+00:45:43,560 --> 00:45:45,960
+En engångsbetalning, alltså.
+
+838
+00:45:45,983 --> 00:45:49,670
+Håll kortet mot terminalen här.
+
+839
+00:45:49,694 --> 00:45:51,591
+Pip...
+
+840
+00:45:51,614 --> 00:45:53,548
+Är det klart nu?
+
+841
+00:45:53,571 --> 00:45:55,304
+Okej.
+
+842
+00:45:55,327 --> 00:45:58,094
+Touch-betalningen är genomförd.
+
+843
+00:45:58,117 --> 00:46:02,117
+Moderna kassor är så smidiga!
+
+844
+00:46:02,140 --> 00:46:06,173
+Det är verkligen bekvämt med snabba betalningar.
+
+845
+00:46:06,196 --> 00:46:10,163
+Kan jag få kvitto och faktura?
+
+846
+00:46:10,186 --> 00:46:11,719
+Okej.
+
+847
+00:46:11,742 --> 00:46:15,009
+Jag skriver ut båda.
+
+848
+00:46:15,032 --> 00:46:19,087
+Skriv fakturan till 'Okänd' tack.
+
+849
+00:46:19,110 --> 00:46:21,193
+Javisst.
+
+850
+00:46:21,217 --> 00:46:24,017
+Jag skriver ut den till 'Okänd'.
+
+851
+00:46:24,040 --> 00:46:27,840
+Kunde vi ha betalat separat också?
+
+852
+00:46:27,863 --> 00:46:29,596
+Okej.
+
+853
+00:46:29,619 --> 00:46:32,953
+Ja, vi hanterar även individuella betalningar.
+
+854
+00:46:32,976 --> 00:46:36,746
+Nästa gång ska jag dela notan med vänner.
+
+855
+00:46:36,769 --> 00:46:39,418
+Välkommen att använda den tjänsten.
+
+856
+00:46:39,442 --> 00:46:42,808
+Maten var också jättegott!
+
+857
+00:46:42,831 --> 00:46:45,231
+Tack för maten!
+
+858
+00:46:45,254 --> 00:46:46,821
+Tack så mycket.
+
+859
+00:46:46,844 --> 00:46:49,525
+Det gläder mig att höra!
+
+860
+00:46:49,549 --> 00:46:51,582
+Vi kommer tillbaka!
+
+861
+00:46:51,605 --> 00:46:56,338
+Här är kvittot, fakturan och ditt kort.
+
+862
+00:46:56,361 --> 00:46:57,828
+Okej.
+
+863
+00:46:57,851 --> 00:47:00,053
+Jag har tagit emot dem.
+
+864
+00:47:00,077 --> 00:47:03,277
+Tack för att ni kom hit idag.
+
+865
+00:47:03,300 --> 00:47:05,598
+Välkommen åter!
+
+866
+00:47:05,622 --> 00:47:07,155
+Tack så mycket!
+
+867
+00:47:07,178 --> 00:47:09,453
+Hej då.

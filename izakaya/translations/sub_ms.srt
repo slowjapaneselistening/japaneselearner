@@ -1,0 +1,3467 @@
+1
+00:00:00,000 --> 00:00:10,008
+Apakah video hari ini? Ia adalah perbualan di izakaya.
+
+2
+00:00:10,008 --> 00:00:11,508
+Senario 1: Tempahan dan Panduan di Izakaya / Pengenalan Tempahan dan Tempat Duduk di Izakaya
+
+3
+00:00:11,508 --> 00:00:13,341
+Selamat datang.
+
+4
+00:00:13,364 --> 00:00:15,938
+Selamat datang ke izakaya kami.
+
+5
+00:00:15,961 --> 00:00:18,860
+Hai, kami berdua.
+
+6
+00:00:18,884 --> 00:00:20,650
+Baiklah, tuan.
+
+7
+00:00:20,673 --> 00:00:23,676
+Adakah tuan mempunyai tempahan untuk hari ini?
+
+8
+00:00:23,700 --> 00:00:27,033
+Tidak, kami tidak membuat tempahan.
+
+9
+00:00:27,056 --> 00:00:29,023
+Baiklah, tuan.
+
+10
+00:00:29,046 --> 00:00:31,479
+Tidak mengapa.
+
+11
+00:00:31,502 --> 00:00:33,311
+Syukurlah.
+
+12
+00:00:33,334 --> 00:00:35,868
+Adakah tuan merokok?
+
+13
+00:00:35,891 --> 00:00:38,741
+Tidak, saya tidak merokok.
+
+14
+00:00:38,764 --> 00:00:41,702
+Saya mahu tempat duduk kawasan larangan merokok.
+
+15
+00:00:41,725 --> 00:00:43,892
+Baiklah, tuan.
+
+16
+00:00:43,915 --> 00:00:47,048
+Saya akan bawa tuan ke tempat duduk kawasan larangan merokok.
+
+17
+00:00:47,071 --> 00:00:48,688
+Terima kasih banyak.
+
+18
+00:00:48,712 --> 00:00:50,802
+Adakah di bahagian dalam?
+
+19
+00:00:50,825 --> 00:00:54,825
+Ya, meja di bahagian dalam.
+
+20
+00:00:54,848 --> 00:00:56,692
+Silakan ikut saya ke sini.
+
+21
+00:00:56,716 --> 00:00:59,516
+Tempat duduk yang terang dan bersih ya.
+
+22
+00:00:59,539 --> 00:01:01,436
+Terima kasih banyak.
+
+23
+00:01:01,460 --> 00:01:04,193
+Adakah tempat duduk ini sesuai untuk tuan?
+
+24
+00:01:04,216 --> 00:01:07,508
+Ya, tempat duduk ini sangat bagus.
+
+25
+00:01:07,532 --> 00:01:10,932
+Sila letakkan barang-barang tuan di dalam kotak ini.
+
+26
+00:01:10,955 --> 00:01:12,955
+Baiklah.
+
+27
+00:01:12,978 --> 00:01:15,911
+Terima kasih kerana memberitahu.
+
+28
+00:01:15,934 --> 00:01:18,272
+Ramai orang ya.
+
+29
+00:01:18,296 --> 00:01:22,232
+Kerana hari Jumaat, ramai pelanggan.
+
+30
+00:01:22,256 --> 00:01:24,589
+Begitu ya.
+
+31
+00:01:24,612 --> 00:01:27,022
+Syukur dapat masuk.
+
+32
+00:01:27,046 --> 00:01:29,779
+Adakah rakan tuan akan datang sebentar lagi?
+
+33
+00:01:29,802 --> 00:01:33,235
+Ya, dia akan datang dalam masa 5 minit lagi.
+
+34
+00:01:33,258 --> 00:01:35,025
+Baiklah, tuan.
+
+35
+00:01:35,048 --> 00:01:37,697
+Saya akan bawa menu.
+
+36
+00:01:37,721 --> 00:01:39,411
+Tolong.
+
+37
+00:01:39,434 --> 00:01:41,968
+Boleh minta air juga?
+
+38
+00:01:41,991 --> 00:01:45,268
+Baik, saya akan bawa segera.
+
+39
+00:01:45,291 --> 00:01:49,098
+Apakah kod QR di atas meja ini?
+
+40
+00:01:49,122 --> 00:01:53,255
+Ia adalah kod QR untuk membuat pesanan menggunakan telefon pintar.
+
+41
+00:01:53,278 --> 00:01:55,122
+Mudahnya!
+
+42
+00:01:55,145 --> 00:01:58,029
+Saya akan membuat pesanan melalui telefon pintar.
+
+43
+00:01:58,053 --> 00:02:02,086
+Kami juga ada menu kertas, silakan gunakan.
+
+44
+00:02:02,109 --> 00:02:04,242
+Baiklah.
+
+45
+00:02:04,265 --> 00:02:06,032
+Terima kasih banyak.
+
+46
+00:02:06,055 --> 00:02:09,633
+Jadi, silakan pilih dengan santai.
+
+47
+00:02:09,656 --> 00:02:13,223
+Baiklah, terima kasih banyak.
+
+48
+00:02:13,246 --> 00:02:22,255
+Skrip video hari ini boleh dimuat turun dari keterangan dan komen teratas. Sila tinggalkan komen sebelum memuat turun.
+
+49
+00:02:22,255 --> 00:02:23,755
+Senario 2: Asas Etika Perkhidmatan Pelanggan / Asas Tatacara Khidmat Pelanggan
+
+50
+00:02:23,755 --> 00:02:26,633
+Terima kasih atas kerja keras hari ini juga.
+
+51
+00:02:26,656 --> 00:02:29,195
+Mari kita mulakan kerja.
+
+52
+00:02:29,219 --> 00:02:31,752
+Tolong bantu.
+
+53
+00:02:31,775 --> 00:02:34,433
+Apa yang perlu saya buat?
+
+54
+00:02:34,457 --> 00:02:39,754
+Pertama, tugas selepas membawa pelanggan.
+
+55
+00:02:39,778 --> 00:02:43,258
+Baik, saya akan ingat dengan baik.
+
+56
+00:02:43,281 --> 00:02:48,155
+Selepas pelanggan duduk, segera berikan tuala panas.
+
+57
+00:02:48,179 --> 00:02:50,589
+Ini tuala panas, ya.
+
+58
+00:02:50,612 --> 00:02:53,020
+Adakah yang hangat?
+
+59
+00:02:53,043 --> 00:02:57,843
+Ya, tolong berikan tuala panas yang hangat.
+
+60
+00:02:57,866 --> 00:02:59,833
+Baiklah.
+
+61
+00:02:59,856 --> 00:03:02,500
+Adakah saya perlu memberikannya dengan kedua-dua belah tangan?
+
+62
+00:03:02,523 --> 00:03:08,123
+Ya, berikan dengan sopan sambil berkata 'Selamat datang'.
+
+63
+00:03:08,146 --> 00:03:09,780
+Baik.
+
+64
+00:03:09,803 --> 00:03:12,940
+Sapa dengan suara yang kuat.
+
+65
+00:03:12,964 --> 00:03:17,497
+Kemudian, letakkan menu di atas meja.
+
+66
+00:03:17,520 --> 00:03:21,120
+Adakah satu menu untuk setiap orang?
+
+67
+00:03:21,144 --> 00:03:26,024
+Tidak, dua menu untuk setiap kumpulan sudah mencukupi.
+
+68
+00:03:26,048 --> 00:03:28,514
+Baiklah.
+
+69
+00:03:28,537 --> 00:03:31,504
+Adakah saya perlu menghidangkan air juga?
+
+70
+00:03:31,528 --> 00:03:36,534
+Ini izakaya, jadi hidangkan air sejuk atau teh dahulu.
+
+71
+00:03:36,557 --> 00:03:40,757
+Adakah saya perlu bertanya kepada pelanggan mana yang mereka suka?
+
+72
+00:03:40,780 --> 00:03:42,747
+Ya, betul.
+
+73
+00:03:42,770 --> 00:03:47,451
+Tanya sama ada mereka mahu teh panas atau air sejuk.
+
+74
+00:03:47,474 --> 00:03:49,927
+Baiklah.
+
+75
+00:03:49,950 --> 00:03:53,364
+Adakah saya perlu mengambil nota?
+
+76
+00:03:53,388 --> 00:03:57,121
+Pada mulanya, sila ambil nota. Baiklah.
+
+77
+00:03:57,144 --> 00:04:00,477
+Sediakan buku nota dan pen.
+
+78
+00:04:00,500 --> 00:04:04,734
+Kemudian, tunjukkan papan cadangan hari ini juga.
+
+79
+00:04:04,757 --> 00:04:08,643
+Di manakah papan cadangan itu?
+
+80
+00:04:08,666 --> 00:04:12,120
+Ia diletakkan di atas rak sebelah dapur.
+
+81
+00:04:12,143 --> 00:04:14,156
+Baiklah.
+
+82
+00:04:14,179 --> 00:04:16,413
+Saya akan pergi semak.
+
+83
+00:04:16,436 --> 00:04:20,678
+Apabila pesanan sudah diputuskan, minta mereka tekan butang.
+
+84
+00:04:20,701 --> 00:04:24,874
+Apabila bunyi buzzer berbunyi, saya perlu pergi segera, ya?
+
+85
+00:04:24,897 --> 00:04:27,830
+Betul sekali.
+
+86
+00:04:27,853 --> 00:04:30,387
+Layan dengan senyuman.
+
+87
+00:04:30,410 --> 00:04:32,043
+Baik.
+
+88
+00:04:32,066 --> 00:04:33,999
+Saya akan berusaha.
+
+89
+00:04:34,022 --> 00:04:38,075
+Jika ada apa-apa yang tidak difahami, tanya saja.
+
+90
+00:04:38,099 --> 00:04:39,766
+Baik.
+
+91
+00:04:39,790 --> 00:04:42,556
+Tolong bantu.
+
+92
+00:04:42,579 --> 00:04:49,684
+Pautan ke laman web untuk mengulang kaji video hari ini ada di bahagian keterangan dan komen teratas. *Laman web mungkin akan dipadam tanpa sebarang notis.
+
+93
+00:04:49,684 --> 00:04:51,184
+Sesi 3: Latihan Mengambil Pesanan / Latihan Mengambil Pesanan
+
+94
+00:04:51,184 --> 00:04:53,584
+Selamat datang.
+
+95
+00:04:53,607 --> 00:04:57,293
+Adakah tuan/puan sudah membuat keputusan untuk pesanan?
+
+96
+00:04:57,317 --> 00:05:02,590
+Ya, saya ingin memesan minuman dahulu.
+
+97
+00:05:02,614 --> 00:05:04,890
+Baiklah, tuan.
+
+98
+00:05:04,913 --> 00:05:07,713
+Apa yang tuan/puan mahu?
+
+99
+00:05:07,736 --> 00:05:12,936
+Buat masa ini, dua bir segar, tolong.
+
+100
+00:05:12,959 --> 00:05:16,233
+Dua bir segar, ya.
+
+101
+00:05:16,256 --> 00:05:18,428
+Baiklah.
+
+102
+00:05:18,451 --> 00:05:23,418
+Oh, rakan saya kata dia mahu highball.
+
+103
+00:05:23,441 --> 00:05:30,316
+Jadi, satu bir segar dan satu highball, ya?
+
+104
+00:05:30,339 --> 00:05:33,754
+Ya, tolong begitu.
+
+105
+00:05:33,778 --> 00:05:39,044
+Highball boleh dibuat lebih kuat, bagaimana?
+
+106
+00:05:39,067 --> 00:05:42,304
+Kekuatan biasa sudah cukup.
+
+107
+00:05:42,328 --> 00:05:44,409
+Baiklah.
+
+108
+00:05:44,433 --> 00:05:48,166
+Adakah tuan/puan mahu ais?
+
+109
+00:05:48,189 --> 00:05:52,085
+Ya, masukkan ais.
+
+110
+00:05:52,109 --> 00:05:58,509
+Bir segar ada saiz besar dan kecil.
+
+111
+00:05:58,532 --> 00:06:01,340
+Saiz sederhana, tolong.
+
+112
+00:06:01,364 --> 00:06:04,097
+Bir segar saiz sederhana, ya.
+
+113
+00:06:04,120 --> 00:06:06,411
+Baiklah, tuan.
+
+114
+00:06:06,434 --> 00:06:09,434
+Adakah minuman akan datang segera?
+
+115
+00:06:09,457 --> 00:06:14,024
+Ya, kami akan sediakan dan bawakan segera.
+
+116
+00:06:14,047 --> 00:06:15,742
+Terima kasih banyak.
+
+117
+00:06:15,765 --> 00:06:18,165
+Saya tidak sabar untuk mencubanya.
+
+118
+00:06:18,188 --> 00:06:21,261
+Apakah hidangan sampingan hari ini?
+
+119
+00:06:21,284 --> 00:06:25,217
+Hari ini, edamame dan hidangan kecil.
+
+120
+00:06:25,240 --> 00:06:27,207
+Baguslah.
+
+121
+00:06:27,230 --> 00:06:29,724
+Tolong beri kami makanan pembuka juga.
+
+122
+00:06:29,748 --> 00:06:32,003
+Baiklah, tuan.
+
+123
+00:06:32,026 --> 00:06:35,026
+Dua makanan pembuka, ya.
+
+124
+00:06:35,049 --> 00:06:38,882
+Bolehkah kami pesan makanan nanti?
+
+125
+00:06:38,905 --> 00:06:43,156
+Baik, panggil kami apabila sudah membuat keputusan.
+
+126
+00:06:43,180 --> 00:06:45,187
+Baiklah.
+
+127
+00:06:45,211 --> 00:06:48,277
+Kami mahu melihat menu dengan perlahan.
+
+128
+00:06:48,300 --> 00:06:53,034
+Baiklah, kami akan bawa bir segar dan highball.
+
+129
+00:06:53,057 --> 00:06:56,195
+Baik, tolonglah.
+
+130
+00:06:56,218 --> 00:06:58,854
+Tolong tunggu sebentar.
+
+131
+00:06:58,878 --> 00:07:01,912
+Oke, kami tunggu.
+
+132
+00:07:01,936 --> 00:07:03,436
+Sesi 4: Bersulang Selepas Kerja
+
+133
+00:07:03,436 --> 00:07:06,120
+Terima kasih atas kerja keras hari ini.
+
+134
+00:07:06,143 --> 00:07:08,745
+Minuman sudah datang.
+
+135
+00:07:08,768 --> 00:07:11,228
+Terima kasih atas kerja keras hari ini.
+
+136
+00:07:11,251 --> 00:07:14,136
+Haus betul, ya.
+
+137
+00:07:14,160 --> 00:07:19,693
+Jadi, terima kasih atas kerja keras minggu ini.
+
+138
+00:07:19,716 --> 00:07:22,450
+Terima kasih atas kerja kerasnya.
+
+139
+00:07:22,473 --> 00:07:24,839
+Mari bersulang.
+
+140
+00:07:24,862 --> 00:07:26,829
+Bersulang!
+
+141
+00:07:26,852 --> 00:07:29,019
+Bersulang!
+
+142
+00:07:29,042 --> 00:07:34,775
+Glek gluk... ahhh, sedapnya!
+
+143
+00:07:34,798 --> 00:07:40,246
+Memang betul, bir ini sejuk dan sedap!
+
+144
+00:07:40,269 --> 00:07:45,157
+Bir selepas kerja memang sedap betul.
+
+145
+00:07:45,181 --> 00:07:50,548
+Buih bir di kedai ini cantik sangat.
+
+146
+00:07:50,571 --> 00:07:52,706
+Memang betul.
+
+147
+00:07:52,729 --> 00:07:56,104
+Sejuk dan mudah diminum.
+
+148
+00:07:56,127 --> 00:07:59,706
+Saya minum separuh dalam satu tegukan.
+
+149
+00:07:59,729 --> 00:08:03,496
+Hehe, cepat betul pace awak.
+
+150
+00:08:03,519 --> 00:08:07,418
+Hari ini memang sibuk sangat.
+
+151
+00:08:07,441 --> 00:08:11,516
+Lembur pun banyak.
+
+152
+00:08:11,539 --> 00:08:15,792
+Itulah sebabnya, gelas ini terasa sangat sedap.
+
+153
+00:08:15,815 --> 00:08:19,382
+Mari makan edamame sebagai makanan pembuka.
+
+154
+00:08:19,405 --> 00:08:23,249
+Wah, rasanya masin dan sangat sedap.
+
+155
+00:08:23,272 --> 00:08:26,072
+Sangat sesuai dengan bir.
+
+156
+00:08:26,095 --> 00:08:28,982
+Makanan sampingan yang terbaik.
+
+157
+00:08:29,005 --> 00:08:32,239
+Jangan minum terlalu banyak, ya.
+
+158
+00:08:32,263 --> 00:08:34,339
+Tidak mengapa.
+
+159
+00:08:34,363 --> 00:08:36,899
+Hari ini mari kita minum dengan gembira.
+
+160
+00:08:36,922 --> 00:08:41,701
+Baik, mari pesan banyak makanan yang sedap.
+
+161
+00:08:41,724 --> 00:08:44,005
+Baguslah.
+
+162
+00:08:44,029 --> 00:08:47,243
+Mari lihat menunya.
+
+163
+00:08:47,267 --> 00:08:50,915
+Sebelum itu, saya nak minum lagi satu teguk.
+
+164
+00:08:50,938 --> 00:08:53,305
+Saya pun nak minum.
+
+165
+00:08:53,328 --> 00:08:56,102
+Hmm, sedapnya.
+
+166
+00:08:56,126 --> 00:08:59,261
+Masa yang membahagiakan.
+
+167
+00:08:59,284 --> 00:09:03,096
+Syukurlah datang ke izakaya hari ini.
+
+168
+00:09:03,120 --> 00:09:06,920
+Hari ini mari kita berbual dan berseronok.
+
+169
+00:09:06,943 --> 00:09:11,283
+Baik, mari minum bersama sampai akhir.
+
+170
+00:09:11,306 --> 00:09:12,806
+Sesi 5: Cara Memutuskan Pesanan
+
+171
+00:09:12,806 --> 00:09:17,073
+Ayuh, mari pesan makanan.
+
+172
+00:09:17,096 --> 00:09:19,029
+Baguslah.
+
+173
+00:09:19,052 --> 00:09:21,670
+Awak nak makan apa?
+
+174
+00:09:21,694 --> 00:09:24,927
+Saya nak makan hidangan daging.
+
+175
+00:09:24,950 --> 00:09:29,117
+Ada ayam goreng dan yakitori.
+
+176
+00:09:29,140 --> 00:09:31,774
+Agak susah nak pilih, ya.
+
+177
+00:09:31,797 --> 00:09:34,332
+Yang mana satu lebih bagus?
+
+178
+00:09:34,356 --> 00:09:38,289
+Saya suka ayam goreng berempah.
+
+179
+00:09:38,312 --> 00:09:43,845
+Ayam goreng memang sedap, tapi yakitori pun tak boleh dilepaskan.
+
+180
+00:09:43,868 --> 00:09:49,302
+Yakitori, awak suka yang masin atau sos?
+
+181
+00:09:49,325 --> 00:09:53,858
+Saya suka sos yang manis.
+
+182
+00:09:53,881 --> 00:09:57,814
+Saya lebih suka yang masin, rasa ringan.
+
+183
+00:09:57,837 --> 00:10:02,304
+Kalau begitu, kita pesan set campur lah?
+
+184
+00:10:02,327 --> 00:10:06,694
+Set campur tu ada dua-dua jenis, kan?
+
+185
+00:10:06,717 --> 00:10:11,328
+Boleh pesan yang masin dan sos sekali.
+
+186
+00:10:11,352 --> 00:10:14,231
+Itu idea yang bagus!
+
+187
+00:10:14,255 --> 00:10:18,388
+Tambah ayam goreng berempah satu pinggan, boleh?
+
+188
+00:10:18,411 --> 00:10:20,445
+Baguslah.
+
+189
+00:10:20,468 --> 00:10:23,305
+Makan dua-dua lah!
+
+190
+00:10:23,328 --> 00:10:25,895
+Boleh habis semua?
+
+191
+00:10:25,918 --> 00:10:29,851
+Mungkin agak banyak.
+
+192
+00:10:29,874 --> 00:10:33,508
+Saya lapar, tak apa lah.
+
+193
+00:10:33,531 --> 00:10:36,864
+Tambah salad sikit, boleh?
+
+194
+00:10:36,887 --> 00:10:39,720
+Salad Caesar macam mana?
+
+195
+00:10:39,743 --> 00:10:42,230
+Saya suka sangat!
+
+196
+00:10:42,254 --> 00:10:44,550
+Baiklah, pesan yang itu.
+
+197
+00:10:44,573 --> 00:10:47,858
+Salad tauhu pun nampak sedap, ya.
+
+198
+00:10:47,881 --> 00:10:51,948
+Hari ni kita pesan salad Caesar dulu, boleh?
+
+199
+00:10:51,971 --> 00:10:54,145
+Baiklah.
+
+200
+00:10:54,169 --> 00:10:56,602
+Setuju!
+
+201
+00:10:56,625 --> 00:10:59,958
+Set sashimi campur pun sedap, kan?
+
+202
+00:10:59,981 --> 00:11:04,434
+Ada ikan istimewa hari ini.
+
+203
+00:11:04,457 --> 00:11:08,824
+Kita pesan ikan dan daging semua, boleh?
+
+204
+00:11:08,847 --> 00:11:13,023
+Lebih baik pesan sedikit demi sedikit dulu.
+
+205
+00:11:13,047 --> 00:11:14,680
+Ya, betul.
+
+206
+00:11:14,703 --> 00:11:17,757
+Mula-mula kita pesan daging dan salad dulu.
+
+207
+00:11:17,781 --> 00:11:19,347
+Baik.
+
+208
+00:11:19,370 --> 00:11:22,137
+Mari panggil pelayan.
+
+209
+00:11:22,160 --> 00:11:23,660
+Sekuen 6: Tempahan dan Cadangan Hidangan
+
+210
+00:11:23,660 --> 00:11:26,111
+Encik/Puan panggil?
+
+211
+00:11:26,135 --> 00:11:29,404
+Boleh saya ambil tempahan?
+
+212
+00:11:29,427 --> 00:11:33,630
+Maaf, apa cadangan istimewa hari ini?
+
+213
+00:11:33,654 --> 00:11:38,987
+Cadangan hari ini ialah set sashimi segar.
+
+214
+00:11:39,010 --> 00:11:42,143
+Ada ikan apa dalam set tu?
+
+215
+00:11:42,166 --> 00:11:46,439
+Ada tuna, salmon, dan kampachi.
+
+216
+00:11:46,463 --> 00:11:48,732
+Nampak sedap!
+
+217
+00:11:48,755 --> 00:11:52,355
+Ini waktu terbaik untuk makan ikan ni?
+
+218
+00:11:52,378 --> 00:11:56,845
+Ikan ni baru sampai dari pelabuhan pagi tadi.
+
+219
+00:11:56,868 --> 00:11:59,901
+Wah, hebatnya!
+
+220
+00:11:59,924 --> 00:12:02,157
+Satu set, tolong.
+
+221
+00:12:02,180 --> 00:12:03,780
+Terima kasih banyak.
+
+222
+00:12:03,803 --> 00:12:06,437
+Set sashimi campur, ya?
+
+223
+00:12:06,460 --> 00:12:10,026
+Ada lagi makanan ringan yang popular?
+
+224
+00:12:10,049 --> 00:12:14,666
+Telur gulung buatan kami sangat popular.
+
+225
+00:12:14,690 --> 00:12:17,166
+Telur gulung tu?
+
+226
+00:12:17,190 --> 00:12:19,190
+Panaskan?
+
+227
+00:12:19,213 --> 00:12:23,261
+Ya, kami goreng selepas tempahan.
+
+228
+00:12:23,284 --> 00:12:26,485
+Nampak lembut dan sedap!
+
+229
+00:12:26,509 --> 00:12:31,349
+Rasanya sedap dengan kuah dashi yang kaya.
+
+230
+00:12:31,372 --> 00:12:35,612
+Baiklah, saya juga mahu pesan satu tamagoyaki biasa.
+
+231
+00:12:35,636 --> 00:12:40,636
+Kami ada juga tamagoyaki dengan mentaiko dan keju.
+
+232
+00:12:40,659 --> 00:12:44,037
+Eh, mentaiko dan keju?
+
+233
+00:12:44,060 --> 00:12:48,542
+Ini paling popular di kalangan pelanggan wanita.
+
+234
+00:12:48,566 --> 00:12:51,766
+Antara yang biasa dengan yang ini, mana yang lebih disyorkan?
+
+235
+00:12:51,789 --> 00:12:55,875
+Yang ada mentaiko lebih sesuai dengan minuman beralkohol.
+
+236
+00:12:55,898 --> 00:12:59,501
+Baiklah, saya akan ambil yang ada mentaiko.
+
+237
+00:12:59,525 --> 00:13:01,558
+Baiklah, tuan.
+
+238
+00:13:01,581 --> 00:13:04,581
+Pasti sedap!
+
+239
+00:13:04,604 --> 00:13:06,891
+Saya tak sabar nak mencubanya.
+
+240
+00:13:06,915 --> 00:13:09,558
+Adakah encik mahu pesan makanan goreng?
+
+241
+00:13:09,581 --> 00:13:13,948
+Apakah makanan goreng yang paling disyorkan?
+
+242
+00:13:13,971 --> 00:13:18,021
+Saya cadangkan Toriten, makanan istimewa dari Oita.
+
+243
+00:13:18,044 --> 00:13:19,928
+Toriten?
+
+244
+00:13:19,951 --> 00:13:22,728
+Ia dimakan dengan sos ponzu.
+
+245
+00:13:22,752 --> 00:13:27,118
+Rasanya segar dan boleh makan banyak.
+
+246
+00:13:27,141 --> 00:13:29,427
+Baiklah, saya pesan satu juga.
+
+247
+00:13:29,451 --> 00:13:31,522
+Baiklah, tuan.
+
+248
+00:13:31,546 --> 00:13:34,712
+Pesanan encik sangat sempurna!
+
+249
+00:13:34,735 --> 00:13:36,235
+Sesi 7: Tempahan dan Pengendalian Alahan / Ordering and Allergy Accommodation
+
+250
+00:13:36,235 --> 00:13:39,505
+Boleh saya ambil pesanan encik?
+
+251
+00:13:39,529 --> 00:13:42,746
+Saya nak pesan nasi goreng ini.
+
+252
+00:13:42,769 --> 00:13:45,036
+Nasi goreng lima rasa, ya.
+
+253
+00:13:45,059 --> 00:13:46,659
+Terima kasih banyak.
+
+254
+00:13:46,682 --> 00:13:52,515
+Maaf, saya ada satu soalan. Adakah udang ada dalam hidangan ini?
+
+255
+00:13:52,538 --> 00:13:54,016
+Baik.
+
+256
+00:13:54,039 --> 00:13:57,016
+Ya, udang ada dalam bahan-bahannya.
+
+257
+00:13:57,040 --> 00:14:01,573
+Saya ada alahan, jadi saya tak boleh makan udang.
+
+258
+00:14:01,596 --> 00:14:04,074
+Oh, begitu.
+
+259
+00:14:04,098 --> 00:14:06,667
+Encik ada alahan, ya.
+
+260
+00:14:06,690 --> 00:14:11,023
+Bolehkah dibuat tanpa udang?
+
+261
+00:14:11,046 --> 00:14:13,713
+Tolong tunggu sebentar.
+
+262
+00:14:13,736 --> 00:14:16,584
+Saya akan semak dengan dapur.
+
+263
+00:14:16,608 --> 00:14:19,008
+Maaf merepotkan.
+
+264
+00:14:19,031 --> 00:14:21,206
+Tolong bantu.
+
+265
+00:14:21,230 --> 00:14:23,523
+Tunggu sebentar ya.
+
+266
+00:14:23,546 --> 00:14:27,152
+Boleh dibuat tanpa udang.
+
+267
+00:14:27,176 --> 00:14:29,109
+Betul ke?
+
+268
+00:14:29,132 --> 00:14:31,099
+Terima kasih banyak!
+
+269
+00:14:31,121 --> 00:14:34,855
+Adakah encik ada alahan terhadap bahan lain?
+
+270
+00:14:34,878 --> 00:14:38,319
+Telur dan daging babi tidak mengapa.
+
+271
+00:14:38,342 --> 00:14:40,709
+Hanya udang dan ketam.
+
+272
+00:14:40,732 --> 00:14:42,776
+Baiklah, tuan.
+
+273
+00:14:42,799 --> 00:14:45,766
+Kami akan buat tanpa udang.
+
+274
+00:14:45,789 --> 00:14:51,189
+Saya juga kurang suka daun bawang. Boleh dibuat sedikit saja?
+
+275
+00:14:51,212 --> 00:14:55,412
+Boleh juga dibuat tanpa daun bawang. Bagaimana?
+
+276
+00:14:55,435 --> 00:14:59,132
+Baiklah, buat tanpa daun bawang juga.
+
+277
+00:14:59,155 --> 00:15:01,355
+Baiklah, saya faham.
+
+278
+00:15:01,378 --> 00:15:04,580
+Tanpa udang dan daun bawang, ya.
+
+279
+00:15:04,604 --> 00:15:07,470
+Maaf kerana menyusahkan.
+
+280
+00:15:07,493 --> 00:15:10,460
+Tidak mengapa, jangan risau.
+
+281
+00:15:10,483 --> 00:15:14,449
+Saya sangat gembira dengan layanan yang baik ini.
+
+282
+00:15:14,472 --> 00:15:18,639
+Dressing salad juga tidak mengandungi udang.
+
+283
+00:15:18,662 --> 00:15:22,999
+Oh, saya juga nak pesan salad.
+
+284
+00:15:23,023 --> 00:15:27,037
+Dressingnya jenis Jepun, jadi encik boleh makan dengan selamat.
+
+285
+00:15:27,061 --> 00:15:31,102
+Baiklah, saya tambah satu salad Jepun.
+
+286
+00:15:31,126 --> 00:15:33,292
+Baiklah, tuan.
+
+287
+00:15:33,315 --> 00:15:35,882
+Jadi, salad dan nasi goreng, ya.
+
+288
+00:15:35,905 --> 00:15:37,838
+Tolong bantu.
+
+289
+00:15:37,861 --> 00:15:41,636
+Saya akan menyediakannya dengan sedap, sila tunggu sebentar.
+
+290
+00:15:41,660 --> 00:15:44,936
+Baiklah, saya tidak sabar untuk mencubanya.
+
+291
+00:15:44,959 --> 00:15:46,459
+Senario 8: Perbezaan Citarasa / Perbezaan dalam Keutamaan Rasa
+
+292
+00:15:46,459 --> 00:15:51,426
+Setiap orang memang mempunyai citarasa makanan yang berbeza, bukan?
+
+293
+00:15:51,449 --> 00:15:53,715
+Ya, betul.
+
+294
+00:15:53,738 --> 00:15:57,154
+Adakah awak suka makanan pedas?
+
+295
+00:15:57,178 --> 00:15:59,850
+Saya suka sangat!
+
+296
+00:15:59,873 --> 00:16:04,806
+Saya suka mapo tofu dan masakan Korea.
+
+297
+00:16:04,829 --> 00:16:06,966
+Betulkah?
+
+298
+00:16:06,990 --> 00:16:11,556
+Saya langsung tidak boleh makan makanan pedas.
+
+299
+00:16:11,579 --> 00:16:16,398
+Eh! Awak tak boleh makan kimchi juga ke?
+
+300
+00:16:16,422 --> 00:16:21,467
+Kimchi pun agak terlalu pedas untuk saya.
+
+301
+00:16:21,491 --> 00:16:23,749
+Oh, begitu rupanya.
+
+302
+00:16:23,772 --> 00:16:28,439
+Awak suka makanan manis atau rasa yang lembut?
+
+303
+00:16:28,462 --> 00:16:34,862
+Ya, saya suka masakan Jepun yang berperisa dashi dan sos manis.
+
+304
+00:16:34,885 --> 00:16:36,697
+Faham.
+
+305
+00:16:36,720 --> 00:16:41,287
+Jadi, kita kena berhati-hati dengan pesanan hari ini.
+
+306
+00:16:41,310 --> 00:16:45,743
+Awak boleh makan makanan pedas seorang diri?
+
+307
+00:16:45,766 --> 00:16:50,343
+Hari ini, mari kita makan makanan yang tidak pedas bersama.
+
+308
+00:16:50,367 --> 00:16:52,537
+Awak baik betul.
+
+309
+00:16:52,561 --> 00:16:54,327
+Terima kasih banyak.
+
+310
+00:16:54,350 --> 00:16:57,950
+Awak suka tamagoyaki yang manis?
+
+311
+00:16:57,974 --> 00:17:00,374
+Saya suka sangat!
+
+312
+00:17:00,397 --> 00:17:03,167
+Rasanya seperti masakan ibu.
+
+313
+00:17:03,191 --> 00:17:05,357
+Baguslah.
+
+314
+00:17:05,380 --> 00:17:09,047
+Kalau begitu, mari kita pesan tamagoyaki.
+
+315
+00:17:09,070 --> 00:17:13,758
+Awak suka sushi dan sashimi seperti ikan mentah?
+
+316
+00:17:13,782 --> 00:17:16,348
+Saya suka sangat!
+
+317
+00:17:16,371 --> 00:17:18,938
+Saya boleh makan setiap hari.
+
+318
+00:17:18,961 --> 00:17:23,928
+Saya juga sangat suka sashimi.
+
+319
+00:17:23,951 --> 00:17:26,448
+Rupanya kita mempunyai citarasa yang sama.
+
+320
+00:17:26,471 --> 00:17:29,037
+Baguslah!
+
+321
+00:17:29,060 --> 00:17:32,394
+Saya suka tuna dan salmon.
+
+322
+00:17:32,417 --> 00:17:36,428
+Saya lebih suka ikan putih.
+
+323
+00:17:36,452 --> 00:17:38,625
+Seperti hirame.
+
+324
+00:17:38,648 --> 00:17:41,541
+Citarasa yang matang.
+
+325
+00:17:41,564 --> 00:17:45,043
+Nampaknya minuman keras akan laris.
+
+326
+00:17:45,067 --> 00:17:50,123
+Kalau bercakap tentang minuman keras, awak minum koktel manis?
+
+327
+00:17:50,147 --> 00:17:53,580
+Saya jarang minum.
+
+328
+00:17:53,603 --> 00:17:57,770
+Saya suka wulong highball yang menyegarkan.
+
+329
+00:17:57,793 --> 00:18:03,726
+Saya suka umeshu yang manis dan cassis orange.
+
+330
+00:18:03,749 --> 00:18:08,116
+Menarik, citarasa kita berbeza.
+
+331
+00:18:08,139 --> 00:18:13,141
+Dengan perbezaan ini, kita boleh berbual lebih banyak dan seronok.
+
+332
+00:18:13,165 --> 00:18:15,131
+Memang betul.
+
+333
+00:18:15,154 --> 00:18:19,221
+Mari kita kongsi restoran kegemaran masing-masing.
+
+334
+00:18:19,244 --> 00:18:21,653
+Baguslah.
+
+335
+00:18:21,676 --> 00:18:26,692
+Lain kali, saya akan beritahu awak tentang restoran masakan Jepun yang saya cadangkan.
+
+336
+00:18:26,716 --> 00:18:32,370
+Saya akan beritahu awak tentang restoran makanan pedas yang saya cadangkan.
+
+337
+00:18:32,393 --> 00:18:36,843
+Awak tolong kawal sedikit, ya.
+
+338
+00:18:36,867 --> 00:18:38,367
+Senario 9: Menyajikan Makanan dan Menangani Permintaan / Menyajikan Makanan dan Mengurus Permintaan
+
+339
+00:18:38,367 --> 00:18:41,700
+Saya telah membawa makanan untuk tuan.
+
+340
+00:18:41,723 --> 00:18:44,456
+Ini adalah karaage.
+
+341
+00:18:44,479 --> 00:18:48,213
+Wah, nampak sedap!
+
+342
+00:18:48,236 --> 00:18:51,089
+Terima kasih banyak.
+
+343
+00:18:51,112 --> 00:18:54,645
+Silakan nikmati dengan perlahan-lahan.
+
+344
+00:18:54,668 --> 00:18:57,635
+Eh, maafkan saya.
+
+345
+00:18:57,658 --> 00:19:00,729
+Boleh saya mengganggu sebentar?
+
+346
+00:19:00,752 --> 00:19:03,971
+Ya, apa yang boleh saya bantu?
+
+347
+00:19:03,995 --> 00:19:08,034
+Tolong bawakan tiga keping pinggan kecil.
+
+348
+00:19:08,058 --> 00:19:10,465
+Baiklah, tuan.
+
+349
+00:19:10,488 --> 00:19:13,505
+Tiga keping piring kecil, ya.
+
+350
+00:19:13,528 --> 00:19:20,128
+Kemudian, saya terjatuhkan penyepit ke lantai. Boleh tolong gantikan?
+
+351
+00:19:20,151 --> 00:19:22,793
+Saya sangat memohon maaf.
+
+352
+00:19:22,817 --> 00:19:26,502
+Saya akan bawa penyepit yang baru.
+
+353
+00:19:26,526 --> 00:19:28,159
+Terima kasih banyak.
+
+354
+00:19:28,182 --> 00:19:30,061
+Terima kasih banyak!
+
+355
+00:19:30,084 --> 00:19:33,781
+Adakah tuan mahu tambah gelas air?
+
+356
+00:19:33,805 --> 00:19:38,405
+Eh, boleh beri saya dua gelas kosong?
+
+357
+00:19:38,428 --> 00:19:42,299
+Gelas untuk menuang bir botol, kan?
+
+358
+00:19:42,323 --> 00:19:45,256
+Ya, betul.
+
+359
+00:19:45,279 --> 00:19:47,967
+Saya mahu gelas yang kecil sedikit.
+
+360
+00:19:47,990 --> 00:19:50,364
+Baiklah, tuan.
+
+361
+00:19:50,388 --> 00:19:53,668
+Akan saya sediakan segera.
+
+362
+00:19:53,691 --> 00:19:57,191
+Boleh tambah tuala atau lap tangan panas?
+
+363
+00:19:57,214 --> 00:20:03,393
+Baik, saya akan bawa lap tangan panas yang baru.
+
+364
+00:20:03,417 --> 00:20:05,670
+Terima kasih banyak atas segalanya.
+
+365
+00:20:05,693 --> 00:20:09,761
+Sama-sama, jangan dipikirkan.
+
+366
+00:20:09,784 --> 00:20:15,879
+Kakitangan di restoran ini semua baik dan cepat, ya.
+
+367
+00:20:15,903 --> 00:20:17,480
+Terima kasih banyak.
+
+368
+00:20:17,504 --> 00:20:21,937
+Saya nak bahagikan makanan sebelum ia sejuk.
+
+369
+00:20:21,960 --> 00:20:25,794
+Akan saya bawa segera.
+
+370
+00:20:25,817 --> 00:20:27,217
+Tolong.
+
+371
+00:20:27,240 --> 00:20:29,406
+Tunggu sebentar ya.
+
+372
+00:20:29,429 --> 00:20:33,232
+Ini piring kecil dan penyepitnya.
+
+373
+00:20:33,255 --> 00:20:35,455
+Cepatnya!
+
+374
+00:20:35,478 --> 00:20:37,083
+Terima kasih banyak.
+
+375
+00:20:37,107 --> 00:20:41,641
+Gelas dan lap tangan panas juga saya letakkan di sini.
+
+376
+00:20:41,664 --> 00:20:43,464
+Sempurna!
+
+377
+00:20:43,487 --> 00:20:46,053
+Terima kasih banyak-banyak.
+
+378
+00:20:46,076 --> 00:20:50,043
+Ada lagi yang diperlukan?
+
+379
+00:20:50,066 --> 00:20:53,320
+Buat sekarang, tak ada.
+
+380
+00:20:53,344 --> 00:20:55,477
+Nanti saya panggil lagi.
+
+381
+00:20:55,500 --> 00:20:57,000
+Adegan 10: Pemprosesan Pesanan Ketika Sibuk / Mengendalikan Pesanan Semasa Pergantian Sibuk
+
+382
+00:20:57,000 --> 00:21:02,283
+Sudah pukul lapan, restoran sudah penuh.
+
+383
+00:21:02,306 --> 00:21:06,139
+Bunyi loceng pesanan berbunyi banyak, ya.
+
+384
+00:21:06,162 --> 00:21:08,329
+Sibuk betul.
+
+385
+00:21:08,352 --> 00:21:13,285
+Tenang, kita proses satu persatu.
+
+386
+00:21:13,308 --> 00:21:14,978
+Baik.
+
+387
+00:21:15,002 --> 00:21:19,294
+Ada sepuluh pesanan minuman yang belum siap.
+
+388
+00:21:19,317 --> 00:21:23,656
+Saya akan sediakan bir dan highball.
+
+389
+00:21:23,680 --> 00:21:29,113
+Kalau begitu, saya akan uruskan sour dan minuman ringan.
+
+390
+00:21:29,136 --> 00:21:31,108
+Terima kasih banyak!
+
+391
+00:21:31,132 --> 00:21:34,066
+Kita bahagikan tugas dan cepatkan.
+
+392
+00:21:34,089 --> 00:21:39,691
+Ada meja yang makanan terlewat dihantar.
+
+393
+00:21:39,714 --> 00:21:41,650
+Meja yang mana?
+
+394
+00:21:41,674 --> 00:21:43,956
+Saya akan pergi semak.
+
+395
+00:21:43,979 --> 00:21:47,913
+Meja 5 dan meja 8.
+
+396
+00:21:47,936 --> 00:21:52,829
+Saya akan beritahu chef dapur untuk percepatkan.
+
+397
+00:21:52,852 --> 00:21:54,386
+Tolong.
+
+398
+00:21:54,408 --> 00:21:58,105
+Saya akan pergi minta maaf kepada pelanggan.
+
+399
+00:21:58,128 --> 00:22:01,220
+Bagusnya perhatian awak.
+
+400
+00:22:01,243 --> 00:22:03,721
+Tolong bantu.
+
+401
+00:22:03,745 --> 00:22:07,155
+Uh, peluh dah keluar.
+
+402
+00:22:07,179 --> 00:22:09,857
+Sibuk sangat, ya.
+
+403
+00:22:09,880 --> 00:22:14,214
+Ini waktu paling sibuk sekarang.
+
+404
+00:22:14,237 --> 00:22:15,903
+Kita usaha sama-sama.
+
+405
+00:22:15,927 --> 00:22:17,527
+Baik.
+
+406
+00:22:17,550 --> 00:22:21,583
+Bekerja dengan senior membuatkan saya rasa tenang.
+
+407
+00:22:21,606 --> 00:22:23,940
+Saya juga begitu.
+
+408
+00:22:23,963 --> 00:22:26,849
+Senyuman awak memang comel.
+
+409
+00:22:26,872 --> 00:22:31,141
+Kita teruskan layan pelanggan dengan senyuman.
+
+410
+00:22:31,165 --> 00:22:34,698
+Dalam sejam lagi, keadaan akan reda.
+
+411
+00:22:34,721 --> 00:22:38,755
+Baiklah, saya akan beri tumpuan dan berusaha sebaik mungkin.
+
+412
+00:22:38,778 --> 00:22:42,978
+Jangan lupa untuk menambah minuman juga, ya.
+
+413
+00:22:43,001 --> 00:22:45,968
+Tambah ais dan gelas, ya.
+
+414
+00:22:45,991 --> 00:22:47,991
+Baiklah.
+
+415
+00:22:48,014 --> 00:22:52,581
+Hati-hati jangan sampai cedera, ya.
+
+416
+00:22:52,604 --> 00:22:53,694
+Baik.
+
+417
+00:22:53,718 --> 00:22:56,596
+Saya akan berlari dengan berhati-hati agar tidak tergelincir.
+
+418
+00:22:56,619 --> 00:23:00,452
+Jangan berlari, berjalan cepat saja.
+
+419
+00:23:00,475 --> 00:23:02,922
+Oh, betul juga.
+
+420
+00:23:02,946 --> 00:23:05,749
+Keselamatan yang utama.
+
+421
+00:23:05,773 --> 00:23:10,573
+Selepas waktu sibuk, mari kita makan makanan enak.
+
+422
+00:23:10,596 --> 00:23:13,596
+Saya akan berusaha sambil menantikan makanan itu.
+
+423
+00:23:13,619 --> 00:23:17,352
+Nah, minuman sudah siap.
+
+424
+00:23:17,375 --> 00:23:19,215
+Bawalah ini.
+
+425
+00:23:19,238 --> 00:23:20,972
+Baik.
+
+426
+00:23:20,995 --> 00:23:23,079
+Saya pergi dulu.
+
+427
+00:23:23,102 --> 00:23:24,602
+Senario 11: Menangani Pesanan yang Tertunda
+
+428
+00:23:24,602 --> 00:23:27,136
+Adakah tuan memanggil?
+
+429
+00:23:27,159 --> 00:23:29,042
+Boleh saya bantu?
+
+430
+00:23:29,065 --> 00:23:30,798
+Maafkan saya,
+
+431
+00:23:30,821 --> 00:23:35,291
+Saya sudah memesan makanan setengah jam yang lalu, tapi masih belum datang.
+
+432
+00:23:35,315 --> 00:23:38,205
+Sangat mohon maaf atas kesulitan ini.
+
+433
+00:23:38,229 --> 00:23:41,029
+Makanan yang mana satu?
+
+434
+00:23:41,052 --> 00:23:45,018
+Yakitori assorted dan yakisoba.
+
+435
+00:23:45,041 --> 00:23:49,061
+Yakitori assorted dan yakisoba, betul?
+
+436
+00:23:49,085 --> 00:23:51,485
+Saya akan semak sekarang.
+
+437
+00:23:51,508 --> 00:23:56,593
+Minuman sudah datang tadi, tapi makanan agak lambat.
+
+438
+00:23:56,616 --> 00:24:00,435
+Sangat mohon maaf atas kesulitan yang berlaku.
+
+439
+00:24:00,459 --> 00:24:06,026
+Bolehkah anda tanya keadaan sekarang di dapur?
+
+440
+00:24:06,049 --> 00:24:09,827
+Baik, saya akan pergi semak di dapur sekarang.
+
+441
+00:24:09,850 --> 00:24:12,417
+Tolong tunggu sebentar.
+
+442
+00:24:12,440 --> 00:24:15,046
+Baik, tolonglah.
+
+443
+00:24:15,070 --> 00:24:17,403
+Maaf membuatkan anda menunggu.
+
+444
+00:24:17,426 --> 00:24:20,517
+Saya sudah semak di dapur.
+
+445
+00:24:20,540 --> 00:24:22,507
+Bagaimana keadaannya?
+
+446
+00:24:22,530 --> 00:24:25,497
+Adakah pesanan sudah diterima?
+
+447
+00:24:25,520 --> 00:24:28,855
+Ya, pesanan sudah diterima.
+
+448
+00:24:28,878 --> 00:24:31,337
+Syukurlah.
+
+449
+00:24:31,360 --> 00:24:34,493
+Berapa lama lagi akan siap?
+
+450
+00:24:34,516 --> 00:24:39,250
+Yakitori sedang dalam proses dimasak sekarang.
+
+451
+00:24:39,273 --> 00:24:42,406
+Lebih kurang 5 minit lagi akan datang?
+
+452
+00:24:42,429 --> 00:24:45,796
+Ya, akan dihidangkan dalam masa 3 minit.
+
+453
+00:24:45,818 --> 00:24:48,652
+Bagaimana dengan yakisoba?
+
+454
+00:24:48,675 --> 00:24:52,716
+Yakisoba baru nak dimasak sekarang.
+
+455
+00:24:52,740 --> 00:24:56,176
+Eh, baru nak dimasak sekarang?
+
+456
+00:24:56,199 --> 00:24:59,135
+Nampaknya akan mengambil masa yang agak lama.
+
+457
+00:24:59,158 --> 00:25:04,246
+Restoran sedang sibuk, jadi pesanan agak lambat diproses.
+
+458
+00:25:04,270 --> 00:25:09,470
+Saya ada masa untuk menaiki kereta api terakhir, bolehkah batalkan yakisoba?
+
+459
+00:25:09,493 --> 00:25:14,826
+Ya, kerana belum dimasak, boleh dibatalkan.
+
+460
+00:25:14,849 --> 00:25:18,538
+Kalau begitu, batalkan sahaja yakisoba.
+
+461
+00:25:18,562 --> 00:25:20,728
+Baiklah, saya faham.
+
+462
+00:25:20,751 --> 00:25:23,446
+Saya sangat memohon maaf.
+
+463
+00:25:23,470 --> 00:25:27,637
+Tak apa, terima kasih kerana membantu semak.
+
+464
+00:25:27,660 --> 00:25:32,326
+Yakitori akan dihidangkan segera, sila tunggu sebentar.
+
+465
+00:25:32,349 --> 00:25:35,202
+Baiklah, tolonglah ya.
+
+466
+00:25:35,226 --> 00:25:38,593
+Saya benar-benar memohon maaf.
+
+467
+00:25:38,616 --> 00:25:40,683
+Maaf, saya masuk dulu.
+
+468
+00:25:40,706 --> 00:25:43,106
+Baik, saya faham.
+
+469
+00:25:43,129 --> 00:25:44,629
+Senario 12: Cerita Dimarahi Bos / Bercerita Tentang Dimarahi Bos
+
+470
+00:25:44,629 --> 00:25:48,596
+Hari ini minuman arak semakin sedap pula.
+
+471
+00:25:48,619 --> 00:25:51,638
+Ada apa yang terjadi?
+
+472
+00:25:51,661 --> 00:25:57,541
+Sebenarnya, hari ini saya dimarahi bos di pejabat.
+
+473
+00:25:57,565 --> 00:26:01,531
+Eh, betul ke?
+
+474
+00:26:01,554 --> 00:26:04,521
+Sungguh teruk keadaan itu.
+
+475
+00:26:04,544 --> 00:26:09,477
+Saya dimarahi walaupun bukan kesalahan saya.
+
+476
+00:26:09,500 --> 00:26:12,467
+Itu memang kejam.
+
+477
+00:26:12,490 --> 00:26:15,523
+Apa yang sebenarnya terjadi?
+
+478
+00:26:15,546 --> 00:26:22,595
+Katanya nombor dalam dokumen itu salah, tapi bukan saya yang buat.
+
+479
+00:26:22,619 --> 00:26:25,266
+Itu memang teruk!
+
+480
+00:26:25,290 --> 00:26:28,544
+Awak balas kata-kata dia tak?
+
+481
+00:26:28,567 --> 00:26:34,034
+Bos saya sangat menakutkan, saya tak dapat cakap apa-apa.
+
+482
+00:26:34,057 --> 00:26:39,623
+Hmm, saya faham perasaan kecewa awak.
+
+483
+00:26:39,646 --> 00:26:43,695
+Maaf ya, bercerita hal yang tak menyenangkan di kedai arak ni.
+
+484
+00:26:43,718 --> 00:26:51,966
+Tak apa! Untuk bercerita hal yang tak menyenangkan inilah kedai arak tu.
+
+485
+00:26:51,990 --> 00:26:55,390
+Saya gembira awak kata macam tu.
+
+486
+00:26:55,413 --> 00:26:59,413
+Minum banyak-banyak dan lupakan semua yang tak menyenangkan!
+
+487
+00:26:59,436 --> 00:27:04,330
+Baik, hari ini saya nak minum sepuas-puasnya.
+
+488
+00:27:04,353 --> 00:27:10,330
+Hubungan sesama rakan sekerja memang susah betul, kan?
+
+489
+00:27:10,354 --> 00:27:12,754
+Memang betul tu.
+
+490
+00:27:12,777 --> 00:27:15,835
+Terlalu banyak berfikir buat penat je.
+
+491
+00:27:15,859 --> 00:27:22,625
+Saya pun minggu lepas risau pasal mengajar junior.
+
+492
+00:27:22,649 --> 00:27:24,905
+Eh, betul ke?
+
+493
+00:27:24,928 --> 00:27:27,220
+Apa masalahnya?
+
+494
+00:27:27,244 --> 00:27:32,777
+Saya ajar berulang kali tapi dia tetap buat kesilapan yang sama.
+
+495
+00:27:32,800 --> 00:27:35,457
+Itu pun susah juga.
+
+496
+00:27:35,481 --> 00:27:38,374
+Mengajar pun memang payah.
+
+497
+00:27:38,398 --> 00:27:43,931
+Kata baik tak faham, kata keras dia pula merajuk.
+
+498
+00:27:43,954 --> 00:27:48,154
+Kita berdua memang banyak masalah kerja, ya.
+
+499
+00:27:48,177 --> 00:27:54,196
+Sebab itulah bercerita macam ni ubat yang paling mujarab.
+
+500
+00:27:54,219 --> 00:27:55,875
+Memang betul.
+
+501
+00:27:55,898 --> 00:27:59,065
+Hati saya dah rasa lega sikit.
+
+502
+00:27:59,088 --> 00:28:02,964
+Awak selalu berusaha dengan gigih.
+
+503
+00:28:02,987 --> 00:28:05,620
+Saya tahu.
+
+504
+00:28:05,643 --> 00:28:07,377
+Terima kasih banyak.
+
+505
+00:28:07,400 --> 00:28:09,933
+Saya nak menangis dah ni.
+
+506
+00:28:09,956 --> 00:28:14,974
+Ayuh, senyum dan minum highball!
+
+507
+00:28:14,997 --> 00:28:18,266
+Baik, saya dah rasa bersemangat semula.
+
+508
+00:28:18,289 --> 00:28:20,746
+Mari kita bersulang semula!
+
+509
+00:28:20,770 --> 00:28:22,807
+Baguslah.
+
+510
+00:28:22,830 --> 00:28:27,275
+Bersulang! Mari kita berusaha esok juga.
+
+511
+00:28:27,298 --> 00:28:28,432
+Bersulang!
+
+512
+00:28:28,455 --> 00:28:31,655
+Esok kita mulakan semula!
+
+513
+00:28:31,678 --> 00:28:33,178
+Senario 13: Cara Menuang Bir / Cara Menuang Bir dengan Betul
+
+514
+00:28:33,178 --> 00:28:37,611
+Eh, gelas dah kosong tu.
+
+515
+00:28:37,634 --> 00:28:40,434
+Oh, betul juga.
+
+516
+00:28:40,457 --> 00:28:42,955
+Saya tak perasan langsung.
+
+517
+00:28:42,978 --> 00:28:46,469
+Biar saya tuang bir botol ni.
+
+518
+00:28:46,493 --> 00:28:48,426
+Terima kasih banyak.
+
+519
+00:28:48,449 --> 00:28:51,886
+Terima kasih, awak baik sungguh.
+
+520
+00:28:51,910 --> 00:28:55,357
+Tak tak, silakan silakan.
+
+521
+00:28:55,380 --> 00:28:58,317
+Tolong pegang gelas dengan kedua-dua belah tangan.
+
+522
+00:28:58,341 --> 00:29:01,360
+Baiklah, saya terima.
+
+523
+00:29:01,383 --> 00:29:03,817
+To to to...
+
+524
+00:29:03,840 --> 00:29:07,293
+Nisbah buihnya sudah pas betul!
+
+525
+00:29:07,316 --> 00:29:10,049
+Hebatnya anda!
+
+526
+00:29:10,072 --> 00:29:13,041
+Buihnya gebu gebu.
+
+527
+00:29:13,065 --> 00:29:17,799
+Dulu semasa bekerja sambilan, saya pernah berlatih cara menuangnya.
+
+528
+00:29:17,823 --> 00:29:19,589
+Faham.
+
+529
+00:29:19,612 --> 00:29:22,346
+Itu teknik profesional!
+
+530
+00:29:22,369 --> 00:29:24,056
+Terima kasih banyak.
+
+531
+00:29:24,079 --> 00:29:28,365
+Gelas anda pun dah kurang isinya, kan?
+
+532
+00:29:28,389 --> 00:29:31,227
+Oh, betul juga.
+
+533
+00:29:31,250 --> 00:29:34,823
+Apa yang nak diminum seterusnya?
+
+534
+00:29:34,846 --> 00:29:38,646
+Saya nak cuba minum sake Jepun.
+
+535
+00:29:38,669 --> 00:29:41,269
+Baguslah!
+
+536
+00:29:41,292 --> 00:29:45,177
+Anda nak sake sejuk atau panas?
+
+537
+00:29:45,200 --> 00:29:48,434
+Sake sejuk yang menyegarkan lebih baik.
+
+538
+00:29:48,457 --> 00:29:53,590
+Baiklah, mari kita pesan sake tempatan yang disyorkan di kedai ini.
+
+539
+00:29:53,613 --> 00:29:55,646
+Seronoknya~!
+
+540
+00:29:55,669 --> 00:29:59,069
+Mari kita minum bersama menggunakan cawan sake kecil.
+
+541
+00:29:59,092 --> 00:30:00,930
+Baguslah.
+
+542
+00:30:00,954 --> 00:30:04,687
+Saya pun nak minum sake Jepun bersama.
+
+543
+00:30:04,710 --> 00:30:08,244
+Saya akan panggil pelayan untuk membuat pesanan.
+
+544
+00:30:08,267 --> 00:30:11,556
+Eh, biar saya yang panggil.
+
+545
+00:30:11,579 --> 00:30:13,594
+Maafkan saya~!
+
+546
+00:30:13,618 --> 00:30:16,418
+Anda memang boleh diharap.
+
+547
+00:30:16,441 --> 00:30:17,974
+Terima kasih banyak.
+
+548
+00:30:17,997 --> 00:30:22,476
+Minumlah sake mengikut kadar anda sendiri.
+
+549
+00:30:22,500 --> 00:30:23,700
+Baik.
+
+550
+00:30:23,723 --> 00:30:26,372
+Saya akan cuba tidak memaksakan diri.
+
+551
+00:30:26,396 --> 00:30:29,762
+Lebih baik minum air bersama sake.
+
+552
+00:30:29,785 --> 00:30:31,472
+Ya, betul.
+
+553
+00:30:31,496 --> 00:30:34,229
+Mari kita pesan air sejuk juga.
+
+554
+00:30:34,252 --> 00:30:39,019
+Jika minum sake dan air bersama, anda tidak akan mabuk.
+
+555
+00:30:39,042 --> 00:30:41,910
+Anda sangat prihatin.
+
+556
+00:30:41,934 --> 00:30:44,136
+Memang hebat.
+
+557
+00:30:44,159 --> 00:30:48,559
+Kita mahu menikmati minuman dengan gembira hingga akhir.
+
+558
+00:30:48,582 --> 00:30:50,052
+Baik.
+
+559
+00:30:50,075 --> 00:30:54,146
+Mari kita nikmati sake yang sedap ini perlahan-lahan.
+
+560
+00:30:54,170 --> 00:30:58,103
+Baiklah, mari kita tunggu sake tiba.
+
+561
+00:30:58,126 --> 00:30:59,626
+Sesi 14: Cara Menangani Apabila Anda Menjatuhkan Penyepit / Cara Bertindak Apabila Menjatuhkan Penyepit
+
+562
+00:30:59,626 --> 00:31:05,460
+Aduh! Terjadi juga! Klentang!
+
+563
+00:31:05,483 --> 00:31:07,449
+Anda tak apa-apa?
+
+564
+00:31:07,472 --> 00:31:10,289
+Anda tidak cedera, kan?
+
+565
+00:31:10,313 --> 00:31:12,679
+Maafkan saya.
+
+566
+00:31:12,702 --> 00:31:16,969
+Tangan saya tergelincir dan penyepit terjatuh.
+
+567
+00:31:16,992 --> 00:31:19,625
+Syukurlah anda tidak cedera.
+
+568
+00:31:19,648 --> 00:31:23,892
+Maaf kerana mengotorkan lantai.
+
+569
+00:31:23,916 --> 00:31:28,149
+Tak apa, biarkan saja.
+
+570
+00:31:28,172 --> 00:31:31,006
+Saya akan ambil sendiri.
+
+571
+00:31:31,030 --> 00:31:36,563
+Tidak, saya akan ambil. Anda biarkan saja.
+
+572
+00:31:36,586 --> 00:31:38,675
+Maafkan saya.
+
+573
+00:31:38,698 --> 00:31:41,196
+Maaf merepotkan.
+
+574
+00:31:41,220 --> 00:31:45,153
+Saya akan bawa penyepit baru.
+
+575
+00:31:45,176 --> 00:31:46,870
+Terima kasih banyak.
+
+576
+00:31:46,893 --> 00:31:49,103
+Terima kasih banyak!
+
+577
+00:31:49,127 --> 00:31:54,096
+Anda mahu penyepit kayu atau plastik?
+
+578
+00:31:54,120 --> 00:31:58,920
+Penyepit kayu lebih baik kerana tidak licin.
+
+579
+00:31:58,943 --> 00:32:01,277
+Baiklah, tuan.
+
+580
+00:32:01,301 --> 00:32:04,556
+Saya akan bawa penyepit kayu.
+
+581
+00:32:04,579 --> 00:32:08,746
+Saya risaukan makanan terkena baju saya.
+
+582
+00:32:08,769 --> 00:32:12,102
+Adakah pakaian anda kotor?
+
+583
+00:32:12,125 --> 00:32:15,658
+Tuala sejuk ini... mahu gunakannya?
+
+584
+00:32:15,681 --> 00:32:18,615
+Pakaian saya tidak bermasalah.
+
+585
+00:32:18,638 --> 00:32:21,371
+Boleh saya dapatkan tuala sejuk?
+
+586
+00:32:21,394 --> 00:32:23,194
+Baik.
+
+587
+00:32:23,217 --> 00:32:27,307
+Baiklah, saya akan bawa tuala sejuk dan penyepit yang baru segera.
+
+588
+00:32:27,331 --> 00:32:30,698
+Terima kasih atas tindakan cepatnya.
+
+589
+00:32:30,721 --> 00:32:34,054
+Tunggu sebentar ya.
+
+590
+00:32:34,077 --> 00:32:38,124
+Ini penyepit pakai buang dan tuala sejuk.
+
+591
+00:32:38,147 --> 00:32:41,186
+Terima kasih banyak sekali.
+
+592
+00:32:41,210 --> 00:32:45,850
+Lantai sudah saya lap hingga bersih, jadi jangan risau.
+
+593
+00:32:45,873 --> 00:32:50,916
+Anda sangat baik kepada saya, membuatkan hati saya terasa hangat.
+
+594
+00:32:50,940 --> 00:32:55,906
+Maaf kerana mengganggu semasa anda sedang makan.
+
+595
+00:32:55,929 --> 00:33:01,063
+Tidak mengapa, saya yang menjatuhkan penyepit.
+
+596
+00:33:01,086 --> 00:33:05,864
+Silakan nikmati hidangan sebelum ia sejuk.
+
+597
+00:33:05,887 --> 00:33:07,499
+Baik.
+
+598
+00:33:07,523 --> 00:33:10,956
+Baik, saya akan berhati-hati agar tidak menjatuhkannya lagi.
+
+599
+00:33:10,979 --> 00:33:14,412
+Nikmatilah dengan santai.
+
+600
+00:33:14,436 --> 00:33:15,936
+Terima kasih!
+
+601
+00:33:15,959 --> 00:33:17,892
+Mari makan.
+
+602
+00:33:17,915 --> 00:33:20,250
+Silakan nikmati dengan santai.
+
+603
+00:33:20,274 --> 00:33:21,774
+Senario 15: Menangani Insiden Perkhidmatan Pelanggan
+
+604
+00:33:21,774 --> 00:33:25,830
+Pengurus, boleh saya bercakap sebentar?
+
+605
+00:33:25,853 --> 00:33:27,630
+Ada apa?
+
+606
+00:33:27,653 --> 00:33:30,387
+Ada masalah ke?
+
+607
+00:33:30,410 --> 00:33:36,666
+Ya, tetamu di meja nombor 3 telah memecahkan gelas.
+
+608
+00:33:36,689 --> 00:33:40,907
+Oh, adakah sesiapa yang cedera?
+
+609
+00:33:40,930 --> 00:33:44,697
+Tidak, tiada sesiapa yang cedera.
+
+610
+00:33:44,720 --> 00:33:46,886
+Syukurlah.
+
+611
+00:33:46,909 --> 00:33:49,983
+Jadi, apa yang berlaku?
+
+612
+00:33:50,006 --> 00:33:56,140
+Gelas berisi wain merah, sedikit tumpah ke lantai dan pakaian.
+
+613
+00:33:56,163 --> 00:34:00,298
+Wain tumpah ke pakaian juga ya.
+
+614
+00:34:00,321 --> 00:34:02,593
+Ini serius.
+
+615
+00:34:02,617 --> 00:34:06,687
+Tetamu kelihatan sangat bersalah.
+
+616
+00:34:06,710 --> 00:34:11,710
+Segera bawa alat pembersih dan tuala lembap.
+
+617
+00:34:11,733 --> 00:34:16,300
+Baik, saya sudah sediakan penyapu dan pengumpul sampah.
+
+618
+00:34:16,323 --> 00:34:21,540
+Baiklah, serpihan kaca berselerak, berbahaya juga.
+
+619
+00:34:21,564 --> 00:34:25,164
+Saya akan sapu serpihan kaca.
+
+620
+00:34:25,187 --> 00:34:30,154
+Saya akan periksa keadaan pakaian tetamu saya dan meminta maaf.
+
+621
+00:34:30,177 --> 00:34:34,444
+Adakah kedai akan membayar kos cucian?
+
+622
+00:34:34,467 --> 00:34:39,151
+Lihat situasi dulu, kalau perlu berikan kad nama untuk tindakan lanjut.
+
+623
+00:34:39,174 --> 00:34:40,941
+Baiklah.
+
+624
+00:34:40,964 --> 00:34:43,862
+Kita akan bertindak dengan tenang.
+
+625
+00:34:43,885 --> 00:34:48,328
+Pastikan tetamu lain tidak terpijak kaca.
+
+626
+00:34:48,352 --> 00:34:53,152
+Baik, saya akan beritahu tetamu di meja sebelah.
+
+627
+00:34:53,175 --> 00:34:55,988
+Tindakan yang bagus.
+
+628
+00:34:56,011 --> 00:34:58,302
+Bertindak dengan cepat.
+
+629
+00:34:58,326 --> 00:35:02,260
+Bagaimana dengan minuman gantian?
+
+630
+00:35:02,283 --> 00:35:06,090
+Hidangkan segelas wain yang sama secara percuma.
+
+631
+00:35:06,114 --> 00:35:08,388
+Baiklah, tuan.
+
+632
+00:35:08,411 --> 00:35:10,744
+Akan saya sediakan.
+
+633
+00:35:10,767 --> 00:35:15,134
+Walaupun tiada kecederaan, tunjukkanlah ketulusan kita.
+
+634
+00:35:15,157 --> 00:35:19,290
+Baik, kehadiran pengurus sangat membantu.
+
+635
+00:35:19,313 --> 00:35:23,932
+Kerana anda sebagai pekerja sambilan melaporkannya dengan segera.
+
+636
+00:35:23,956 --> 00:35:25,694
+Terima kasih banyak.
+
+637
+00:35:25,717 --> 00:35:28,284
+Baiklah, mari kita pergi.
+
+638
+00:35:28,307 --> 00:35:32,473
+Baiklah, mari kita ke meja nombor tiga.
+
+639
+00:35:32,496 --> 00:35:35,173
+Hati-hati dengan kaki anda, ya.
+
+640
+00:35:35,197 --> 00:35:36,730
+Baik.
+
+641
+00:35:36,753 --> 00:35:38,320
+Terima kasih.
+
+642
+00:35:38,343 --> 00:35:39,843
+Senario 16: Penyerahan Tugas Sebelum Rehat / Pre-Break Handover
+
+643
+00:35:39,843 --> 00:35:45,939
+Waktu sibuk sudah berlalu, sekarang sudah tenang.
+
+644
+00:35:45,962 --> 00:35:49,296
+Dua jam yang penuh cabaran, ya.
+
+645
+00:35:49,319 --> 00:35:54,588
+Baiklah, saya akan mengambil rehat selama empat puluh lima minit sekarang.
+
+646
+00:35:54,611 --> 00:35:56,814
+Terima kasih atas kerja keras hari ini.
+
+647
+00:35:56,837 --> 00:35:59,371
+Rehatlah dengan baik.
+
+648
+00:35:59,394 --> 00:36:04,194
+Sebelum rehat, saya ada beberapa perkara untuk diserahkan.
+
+649
+00:36:04,217 --> 00:36:05,617
+Baik.
+
+650
+00:36:05,640 --> 00:36:07,848
+Saya akan catat dalam buku nota.
+
+651
+00:36:07,872 --> 00:36:09,479
+Tolong.
+
+652
+00:36:09,503 --> 00:36:14,669
+Pertama, pelanggan di meja dua sedang menunggu pencuci mulut.
+
+653
+00:36:14,692 --> 00:36:20,492
+Apa yang mereka pesan untuk pencuci mulut? Dua ais krim vanila.
+
+654
+00:36:20,516 --> 00:36:22,716
+Sila hidangkan dalam masa lima minit.
+
+655
+00:36:22,739 --> 00:36:24,506
+Baiklah.
+
+656
+00:36:24,529 --> 00:36:27,529
+Ais krim vanila dalam masa lima minit, ya.
+
+657
+00:36:27,552 --> 00:36:32,952
+Kemudian, bil untuk meja tujuh adalah bayaran individu.
+
+658
+00:36:32,975 --> 00:36:35,608
+Kiraan pembahagian bil, ya.
+
+659
+00:36:35,631 --> 00:36:38,110
+Akan diuruskan di kaunter tunai.
+
+660
+00:36:38,133 --> 00:36:42,300
+Ada nota pada resit, sila semak.
+
+661
+00:36:42,323 --> 00:36:44,368
+Baiklah, saya faham.
+
+662
+00:36:44,392 --> 00:36:47,025
+Saya akan pastikan tiada kesilapan.
+
+663
+00:36:47,048 --> 00:36:51,181
+Pesanan terakhir dapur adalah pada pukul sepuluh setengah.
+
+664
+00:36:51,204 --> 00:36:54,173
+Tiga puluh minit lagi, ya.
+
+665
+00:36:54,196 --> 00:36:57,455
+Perlu saya maklumkan kepada pelanggan?
+
+666
+00:36:57,478 --> 00:37:02,965
+Lima belas minit sebelum itu, tolong maklumkan kepada semua meja.
+
+667
+00:37:02,989 --> 00:37:06,789
+Pengesahan pesanan terakhir pada pukul sepuluh suku, ya.
+
+668
+00:37:06,812 --> 00:37:08,145
+Baik.
+
+669
+00:37:08,168 --> 00:37:10,301
+Tolong bantu.
+
+670
+00:37:10,324 --> 00:37:13,821
+Adakah minuman di lantai sudah diisi semula?
+
+671
+00:37:13,845 --> 00:37:18,578
+Tong bir sudah ditukar yang baru.
+
+672
+00:37:18,601 --> 00:37:21,010
+Sungguh hebat, senior.
+
+673
+00:37:21,034 --> 00:37:22,800
+Sempurna.
+
+674
+00:37:22,823 --> 00:37:24,390
+Terima kasih banyak.
+
+675
+00:37:24,413 --> 00:37:29,780
+Jika ada masalah, ketuk pintu bilik rehat, ya.
+
+676
+00:37:29,803 --> 00:37:31,662
+Tidak mengapa.
+
+677
+00:37:31,685 --> 00:37:34,454
+Saya akan jaga lantai ini seorang diri!
+
+678
+00:37:34,478 --> 00:37:36,711
+Anda memang boleh diharap.
+
+679
+00:37:36,734 --> 00:37:39,380
+Saya pergi makan makanan kaki.
+
+680
+00:37:39,404 --> 00:37:41,970
+Apa makanan kaki hari ini?
+
+681
+00:37:41,993 --> 00:37:46,193
+Nasi kari istimewa saiz besar oleh chef!
+
+682
+00:37:46,216 --> 00:37:48,829
+Wah, bagusnya!
+
+683
+00:37:48,853 --> 00:37:51,228
+Nikmatilah.
+
+684
+00:37:51,251 --> 00:37:55,017
+Hehe, saya akan simpan bahagian anda.
+
+685
+00:37:55,040 --> 00:37:58,574
+Yeay! Selamat pergi!
+
+686
+00:37:58,597 --> 00:38:00,097
+Senario 17: Makan Terlalu Kenyang dan Sisa Makanan / Overeating and Leftovers
+
+687
+00:38:00,097 --> 00:38:04,330
+Uh, perut saya sudah kenyang.
+
+688
+00:38:04,353 --> 00:38:08,720
+Saya pun sudah kenyang.
+
+689
+00:38:08,743 --> 00:38:13,958
+Tapi, masih ada makanan yang tertinggal di atas meja.
+
+690
+00:38:13,981 --> 00:38:18,548
+Kita pesan terlalu banyak pada awalnya.
+
+691
+00:38:18,572 --> 00:38:22,105
+Masih ada tiga keping ayam goreng.
+
+692
+00:38:22,128 --> 00:38:26,895
+Ayam goreng ini memang besar.
+
+693
+00:38:26,918 --> 00:38:30,884
+Awak masih boleh makan lagi?
+
+694
+00:38:30,907 --> 00:38:36,197
+Saya pun sudah sangat kenyang.
+
+695
+00:38:36,221 --> 00:38:38,587
+Tolonglah.
+
+696
+00:38:38,610 --> 00:38:41,589
+Bolehkah awak makan dua lagi?
+
+697
+00:38:41,613 --> 00:38:48,782
+Hmm, nampak sedap tapi boleh masuk ke perut ke ni? Sayang kalau dibazirkan.
+
+698
+00:38:48,805 --> 00:38:53,051
+Memang tak elok membazirkan makanan.
+
+699
+00:38:53,075 --> 00:38:58,694
+Awak lelaki, pasti perut masih ada ruang lagi.
+
+700
+00:38:58,717 --> 00:39:00,559
+Baiklah.
+
+701
+00:39:00,583 --> 00:39:03,762
+Baiklah, saya akan cuba habiskan satu.
+
+702
+00:39:03,785 --> 00:39:07,857
+Jangan cuma satu, makanlah dua ya~.
+
+703
+00:39:07,880 --> 00:39:11,897
+Baiklah, mari perahkan lemon supaya jadi segar.
+
+704
+00:39:11,921 --> 00:39:13,854
+Bagus tu.
+
+705
+00:39:13,877 --> 00:39:17,337
+Dengan lemon, lebih mudah nak makan.
+
+706
+00:39:17,360 --> 00:39:19,219
+Satu dah habis saya makan.
+
+707
+00:39:19,242 --> 00:39:22,132
+Renyah dan sedapnya!
+
+708
+00:39:22,156 --> 00:39:23,650
+Wow!
+
+709
+00:39:23,673 --> 00:39:27,307
+Baiklah, saya pun akan cuba habiskan yang terakhir ni.
+
+710
+00:39:27,330 --> 00:39:30,977
+Eh, tak perlu paksa-paksa pun tak apa.
+
+711
+00:39:31,000 --> 00:39:33,833
+Takkan saya biarkan awak berusaha sorang-sorang.
+
+712
+00:39:33,856 --> 00:39:35,990
+Saya pun nak makan juga.
+
+713
+00:39:36,013 --> 00:39:39,246
+Hehe, awak tak mahu kalah kan?
+
+714
+00:39:39,269 --> 00:39:41,343
+Mari makan.
+
+715
+00:39:41,367 --> 00:39:45,204
+Hmm, perut terasa penuh tapi sedapnya.
+
+716
+00:39:45,227 --> 00:39:48,560
+Saya pun dah habiskan satu lagi.
+
+717
+00:39:48,583 --> 00:39:51,067
+Berjaya!
+
+718
+00:39:51,090 --> 00:39:53,724
+Pinggan dah kosong.
+
+719
+00:39:53,748 --> 00:39:56,415
+Habis makan berjaya!
+
+720
+00:39:56,438 --> 00:39:59,004
+Terasa puasnya.
+
+721
+00:39:59,027 --> 00:40:04,227
+Lain kali, fikirkan jumlah makanan semasa memesan ya.
+
+722
+00:40:04,250 --> 00:40:05,787
+Ya, betul.
+
+723
+00:40:05,811 --> 00:40:08,984
+Terlalu tamak itu bahaya.
+
+724
+00:40:09,007 --> 00:40:12,774
+Tapi, bagus juga tak bazir makanan.
+
+725
+00:40:12,797 --> 00:40:17,363
+Perut rasa nak pecah ni, rehat sebentar dulu.
+
+726
+00:40:17,386 --> 00:40:18,886
+Sekuen 18: Masa Kereta Api Terakhir / Bergegas ke Kereta Api Terakhir
+
+727
+00:40:18,886 --> 00:40:21,624
+Sekarang pukul berapa?
+
+728
+00:40:21,648 --> 00:40:24,881
+Awak ada jam?
+
+729
+00:40:24,904 --> 00:40:30,238
+Erm, sekarang pukul 11:15 tepat.
+
+730
+00:40:30,261 --> 00:40:34,599
+Eh! Dah masa tu ke?
+
+731
+00:40:34,622 --> 00:40:39,640
+Betul, masa berlalu dengan cepat.
+
+732
+00:40:39,664 --> 00:40:43,997
+Kereta api terakhir awak pukul berapa?
+
+733
+00:40:44,020 --> 00:40:48,987
+Kereta api terakhir saya pukul 11:45.
+
+734
+00:40:49,010 --> 00:40:53,693
+Kereta api terakhir saya pukul 11:30!
+
+735
+00:40:53,716 --> 00:40:57,089
+Dah tinggal 15 minit je!
+
+736
+00:40:57,112 --> 00:40:59,746
+Masa tu dah genting!
+
+737
+00:40:59,769 --> 00:41:02,583
+Kena keluar sekarang kalau tak tak sempat!
+
+738
+00:41:02,606 --> 00:41:06,540
+Dari sini ke stesen, jalan kaki ambil masa 10 minit kan?
+
+739
+00:41:06,563 --> 00:41:10,940
+Kalau lari, boleh sampai dalam 5 minit tapi bahaya.
+
+740
+00:41:10,963 --> 00:41:15,196
+Kita kena keluar sekarang atau mesti lambat.
+
+741
+00:41:15,219 --> 00:41:17,839
+Mari percepatkan bayaran.
+
+742
+00:41:17,862 --> 00:41:20,359
+Saya akan panggil pelayan.
+
+743
+00:41:20,382 --> 00:41:23,751
+Baiklah, saya keluarkan dompet dan bersedia.
+
+744
+00:41:23,775 --> 00:41:27,908
+Saya akan bayar dulu, awak boleh pergi dulu.
+
+745
+00:41:27,931 --> 00:41:31,774
+Eh, macam tu tak baik pula!
+
+746
+00:41:31,797 --> 00:41:35,174
+Nanti bayar balik melalui LINE ya.
+
+747
+00:41:35,198 --> 00:41:36,888
+Betulkah?
+
+748
+00:41:36,911 --> 00:41:39,598
+Maafkan saya.
+
+749
+00:41:39,621 --> 00:41:41,221
+Terima kasih banyak!
+
+750
+00:41:41,244 --> 00:41:44,778
+Ayo, ambil kot dan beg awak!
+
+751
+00:41:44,801 --> 00:41:47,267
+Tak ada barang yang tertinggal, kan?
+
+752
+00:41:47,290 --> 00:41:49,324
+Payung pun sudah dibawa.
+
+753
+00:41:49,347 --> 00:41:53,780
+Jangan berlari, cepat-cepatlah berjalan ke stesen, ya.
+
+754
+00:41:53,803 --> 00:41:54,936
+Baik!
+
+755
+00:41:54,959 --> 00:41:58,736
+Hari ini sangat seronok!
+
+756
+00:41:58,759 --> 00:42:00,537
+Terima kasih!
+
+757
+00:42:00,561 --> 00:42:03,427
+Saya juga seronok.
+
+758
+00:42:03,450 --> 00:42:06,017
+Beri tahu saya bila sudah sampai, ya.
+
+759
+00:42:06,040 --> 00:42:08,286
+Baiklah.
+
+760
+00:42:08,309 --> 00:42:11,676
+Nanti saya hantar mesej LINE bila sudah selamat naik kereta.
+
+761
+00:42:11,699 --> 00:42:14,432
+Hati-hati dalam perjalanan pulang, ya.
+
+762
+00:42:14,455 --> 00:42:17,267
+Boleh tolong uruskan pembayaran?
+
+763
+00:42:17,291 --> 00:42:19,691
+Terima kasih atas makanannya!
+
+764
+00:42:19,714 --> 00:42:23,209
+Baiklah! Serahkan pada saya.
+
+765
+00:42:23,232 --> 00:42:25,166
+Lari!
+
+766
+00:42:25,189 --> 00:42:26,649
+Baik!
+
+767
+00:42:26,672 --> 00:42:28,808
+Selamat malam!
+
+768
+00:42:28,832 --> 00:42:30,876
+Selamat malam!
+
+769
+00:42:30,899 --> 00:42:32,956
+Cepatlah~!
+
+770
+00:42:32,979 --> 00:42:36,513
+Eh, hati-hati dalam perjalanan pulang, ya.
+
+771
+00:42:36,536 --> 00:42:38,987
+Baik, terima kasih banyak!
+
+772
+00:42:39,010 --> 00:42:42,983
+Huh, semoga sempatlah...
+
+773
+00:42:43,007 --> 00:42:44,507
+Adegan 19: Habis Makan, Mari ke Karaoke
+
+774
+00:42:44,507 --> 00:42:47,440
+Kita sudah keluar dari restoran, ya.
+
+775
+00:42:47,463 --> 00:42:50,430
+Anginnya terasa nyaman.
+
+776
+00:42:50,453 --> 00:42:52,820
+Sedapnya makanan tadi, kan?
+
+777
+00:42:52,843 --> 00:42:56,293
+Perut sudah kenyang.
+
+778
+00:42:56,316 --> 00:42:59,849
+Masih belum pukul 10 lagi, loh.
+
+779
+00:42:59,872 --> 00:43:02,125
+Cepatnya!
+
+780
+00:43:02,149 --> 00:43:04,749
+Memang betul.
+
+781
+00:43:04,772 --> 00:43:08,138
+Selepas ini nak buat apa?
+
+782
+00:43:08,161 --> 00:43:12,361
+Mau pergi ke tempat lain lagi tak?
+
+783
+00:43:12,384 --> 00:43:14,828
+Maksudnya, sambung parti la.
+
+784
+00:43:14,851 --> 00:43:17,651
+Bagaimana kalau karaoke?
+
+785
+00:43:17,674 --> 00:43:19,968
+Karaoke.
+
+786
+00:43:19,992 --> 00:43:21,926
+Baguslah.
+
+787
+00:43:21,950 --> 00:43:24,517
+Saya nak nyanyi.
+
+788
+00:43:24,540 --> 00:43:29,583
+Baru-baru ni tak sempat nyanyi, jadi nak nyanyi banyak-banyak.
+
+789
+00:43:29,606 --> 00:43:34,206
+Atau pergi ke bar yang tenang untuk berbual santai pun bagus juga.
+
+790
+00:43:34,229 --> 00:43:38,195
+Bar pun suasananya dewasa dan menarik.
+
+791
+00:43:38,218 --> 00:43:40,852
+Kau nak suasana yang mana?
+
+792
+00:43:40,875 --> 00:43:45,930
+Hari ini semangat tinggi, jadi karaoke lah yang sesuai.
+
+793
+00:43:45,954 --> 00:43:48,003
+Sudah diputuskan.
+
+794
+00:43:48,026 --> 00:43:50,886
+Mari pergi ke karaoke.
+
+795
+00:43:50,909 --> 00:43:54,343
+Ada kedai karaoke yang bagus dekat sini.
+
+796
+00:43:54,366 --> 00:43:57,499
+Kedai yang dekat dengan stesen?
+
+797
+00:43:57,522 --> 00:43:58,655
+Baik.
+
+798
+00:43:58,678 --> 00:44:01,950
+Hanya 3 minit berjalan kaki dari sini.
+
+799
+00:44:01,974 --> 00:44:04,807
+Mahu pilih pakej minum sepuasnya?
+
+800
+00:44:04,830 --> 00:44:07,397
+Masih nak minum lagi?
+
+801
+00:44:07,420 --> 00:44:10,296
+Teh oolong pun boleh.
+
+802
+00:44:10,320 --> 00:44:13,653
+Nyanyi dan minum selama satu jam saja.
+
+803
+00:44:13,676 --> 00:44:15,609
+Setuju.
+
+804
+00:44:15,632 --> 00:44:18,684
+Jangan sampai terlalu lewat.
+
+805
+00:44:18,708 --> 00:44:22,280
+Esok masih ada kerja.
+
+806
+00:44:22,304 --> 00:44:25,837
+Kita mesti pulang sebelum kereta api terakhir.
+
+807
+00:44:25,860 --> 00:44:29,227
+Lagu pertama nak nyanyi apa?
+
+808
+00:44:29,250 --> 00:44:33,883
+Mari kita nyanyi lagu pop tahun 90-an yang nostalgia.
+
+809
+00:44:33,906 --> 00:44:35,673
+Baguslah!
+
+810
+00:44:35,696 --> 00:44:38,963
+Saya pun akan menyanyi bersama.
+
+811
+00:44:38,987 --> 00:44:42,320
+Bagaimana kalau kita nyanyi lagu duet juga?
+
+812
+00:44:42,343 --> 00:44:44,010
+Seronoknya!
+
+813
+00:44:44,033 --> 00:44:46,284
+Mari kita bersemangat!
+
+814
+00:44:46,307 --> 00:44:50,473
+Baiklah, mari kita berangkat ke kedai karaoke.
+
+815
+00:44:50,496 --> 00:44:52,063
+Baik.
+
+816
+00:44:52,086 --> 00:44:54,219
+Tolong tunjukkan jalan.
+
+817
+00:44:54,242 --> 00:44:56,376
+Silakan ikut saya ke sini.
+
+818
+00:44:56,399 --> 00:44:58,332
+Sila ikut saya.
+
+819
+00:44:58,355 --> 00:44:59,855
+Sesi 20: Asas Pembayaran / Basics of Payment in Japanese
+
+820
+00:44:59,855 --> 00:45:01,855
+Selamat datang.
+
+821
+00:45:01,878 --> 00:45:04,170
+Membayar, ya?
+
+822
+00:45:04,193 --> 00:45:05,593
+Baik.
+
+823
+00:45:05,616 --> 00:45:08,657
+Ini resitnya.
+
+824
+00:45:08,680 --> 00:45:10,151
+Tolong.
+
+825
+00:45:10,175 --> 00:45:11,869
+Terima kasih banyak.
+
+826
+00:45:11,893 --> 00:45:15,064
+Saya akan ambil resit ini.
+
+827
+00:45:15,087 --> 00:45:18,421
+Hari ini, berapa jumlahnya?
+
+828
+00:45:18,444 --> 00:45:22,578
+Jumlah keseluruhannya ialah lapan ribu lima ratus yen.
+
+829
+00:45:22,601 --> 00:45:24,368
+Baiklah.
+
+830
+00:45:24,391 --> 00:45:27,724
+Boleh guna kad kredit?
+
+831
+00:45:27,747 --> 00:45:29,314
+Baik.
+
+832
+00:45:29,337 --> 00:45:33,024
+Pelbagai jenis kad kredit boleh digunakan.
+
+833
+00:45:33,048 --> 00:45:35,427
+Saya akan guna kad Visa.
+
+834
+00:45:35,451 --> 00:45:38,084
+Baiklah, tuan.
+
+835
+00:45:38,107 --> 00:45:40,840
+Saya akan ambil kad anda sebentar.
+
+836
+00:45:40,863 --> 00:45:43,537
+Saya mahu bayar sekaligus.
+
+837
+00:45:43,560 --> 00:45:45,960
+Pembayaran sekali, ya?
+
+838
+00:45:45,983 --> 00:45:49,670
+Sila letakkan kad anda di sini.
+
+839
+00:45:49,694 --> 00:45:51,591
+Pip...
+
+840
+00:45:51,614 --> 00:45:53,548
+Sudah selesai?
+
+841
+00:45:53,571 --> 00:45:55,304
+Baik.
+
+842
+00:45:55,327 --> 00:45:58,094
+Pembayaran melalui sentuhan telah selesai.
+
+843
+00:45:58,117 --> 00:46:02,117
+Mesin kasir sekarang sangat mudah, ya.
+
+844
+00:46:02,140 --> 00:46:06,173
+Pembayaran cepat dan mudah, betul tak?
+
+845
+00:46:06,196 --> 00:46:10,163
+Boleh dapatkan resit dan invois?
+
+846
+00:46:10,186 --> 00:46:11,719
+Baik.
+
+847
+00:46:11,742 --> 00:46:15,009
+Kedua-duanya akan saya sediakan.
+
+848
+00:46:15,032 --> 00:46:19,087
+Tolong buat nama pada invois sebagai 'Atas Nama'.
+
+849
+00:46:19,110 --> 00:46:21,193
+Baiklah, tuan.
+
+850
+00:46:21,217 --> 00:46:24,017
+Akan saya buat dengan nama 'Atas Nama'.
+
+851
+00:46:24,040 --> 00:46:27,840
+Boleh bayar secara berasingan juga?
+
+852
+00:46:27,863 --> 00:46:29,596
+Baik.
+
+853
+00:46:29,619 --> 00:46:32,953
+Ya, kami sediakan perkhidmatan pembayaran individu.
+
+854
+00:46:32,976 --> 00:46:36,746
+Lain kali saya akan cuba bayar secara 'split bill' dengan rakan.
+
+855
+00:46:36,769 --> 00:46:39,418
+Sila gunakan perkhidmatan kami lagi.
+
+856
+00:46:39,442 --> 00:46:42,808
+Makanannya sangat sedap.
+
+857
+00:46:42,831 --> 00:46:45,231
+Terima kasih atas hidangannya.
+
+858
+00:46:45,254 --> 00:46:46,821
+Terima kasih banyak.
+
+859
+00:46:46,844 --> 00:46:49,525
+Saya sangat gembira.
+
+860
+00:46:49,549 --> 00:46:51,582
+Saya akan datang lagi.
+
+861
+00:46:51,605 --> 00:46:56,338
+Ini resit, invois, dan kad anda.
+
+862
+00:46:56,361 --> 00:46:57,828
+Baik.
+
+863
+00:46:57,851 --> 00:47:00,053
+Sudah saya terima.
+
+864
+00:47:00,077 --> 00:47:03,277
+Terima kasih kerana datang ke kedai kami hari ini.
+
+865
+00:47:03,300 --> 00:47:05,598
+Sila datang lagi.
+
+866
+00:47:05,622 --> 00:47:07,155
+Terima kasih banyak-banyak.
+
+867
+00:47:07,178 --> 00:47:09,453
+Saya permisi dulu.
