@@ -1,0 +1,16 @@
+[
+    {
+        "speaker": "1",
+        "index": "1",
+        "start": 0.0,
+        "end": 3.24,
+        "exampleRomaji": "Hajimemashite, shashin saakuru e youkoso.",
+        "japaneseFurigana": "初(はじ)めまして。写真(しゃしん)サークルへようこそ。",
+        "exampleEn": "Nice to meet you, welcome to the photography club.",
+        "audioPath": "clips/001_はじめまして、写真サークルへようこそ。.wav",
+        "grammar2": "N + へようこそ = Welcome to N\n写真(しゃしん)サークル = photography club",
+        "is_learning_point": true,
+        "bgImage": "Job15_001_cut_01.png",
+        "bgPrompt": "Use the exact same two people as in the attached image. Two-shot, two people are clearly visible, medium shot, smiling politely and bowing slightly as they greet each other, standing inside a bright photography club room with framed photos on the wall. (no speech bubbles, no text, no captions:1.5)"
+    }
+]
