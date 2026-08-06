@@ -554,7 +554,7 @@ const quizDataGrammar = [
             }
             if (!audioPath) return;
             currentAudio = new Audio(audioPath);
-            currentAudio.playbackRate = 0.85;
+            currentAudio.playbackRate = Number(document.getElementById("playback-rate-selector")?.value) || 0.85;
             currentAudio.play().catch(e => console.error("Audio play failed:", e));
         }
 
@@ -594,7 +594,7 @@ const quizDataGrammar = [
                         await new Promise(resolve => {
                             if (currentAudio) currentAudio.pause();
                             currentAudio = new Audio(line.audioPath);
-                            currentAudio.playbackRate = 0.85;
+                            currentAudio.playbackRate = Number(document.getElementById("playback-rate-selector")?.value) || 0.85;
                             currentAudio.onended = resolve;
                             currentAudio.onerror = resolve;
                             currentAudio.play().catch(e => {
@@ -1063,7 +1063,7 @@ const sceneStartTimes = [9, 173, 381, 551, 734, 904, 1074, 1258, 1440, 1603, 178
                         currentAudio = new Audio(activeAudioSrc);
                         
                         // 自分の声の時は等倍速、お手本は既存通り0.85倍速
-                        currentAudio.playbackRate = myAudioUrl ? 1.0 : 0.85;
+                        currentAudio.playbackRate = myAudioUrl ? 1.0 : (Number(document.getElementById("playback-rate-selector")?.value) || 0.85);
                         
                         currentAudio.onended = resolve;
                         currentAudio.onerror = resolve;
@@ -1087,5 +1087,6 @@ const sceneStartTimes = [9, 173, 381, 551, 734, 904, 1074, 1258, 1440, 1603, 178
             mixBtnIcon.className = 'fa-solid fa-shuffle';
         }
     </script>
+    <script src="../assets/playback-controls.js"></script>
 </body>
 </html>
