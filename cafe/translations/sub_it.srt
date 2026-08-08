@@ -1,0 +1,3331 @@
+1
+00:00:00,000 --> 00:00:10,008
+Di cosa parla il video di oggi? Una conversazione al bar.
+
+2
+00:00:10,008 --> 00:00:11,508
+Scena 1: Come ordinare in giapponese / Come ordinare in un bar
+
+3
+00:00:11,508 --> 00:00:13,508
+Benvenuto!
+
+4
+00:00:13,530 --> 00:00:16,297
+Ha già deciso cosa ordinare?
+
+5
+00:00:16,320 --> 00:00:18,053
+Sì.
+
+6
+00:00:18,076 --> 00:00:21,249
+Un caffè freddo, per favore.
+
+7
+00:00:21,273 --> 00:00:24,441
+Un caffè freddo, giusto?
+
+8
+00:00:24,464 --> 00:00:27,705
+Che taglia desidera?
+
+9
+00:00:27,729 --> 00:00:32,262
+Abbiamo Short, Tall e Grande.
+
+10
+00:00:32,285 --> 00:00:35,052
+Prendo la taglia Tall, grazie.
+
+11
+00:00:35,075 --> 00:00:37,208
+Perfetto.
+
+12
+00:00:37,231 --> 00:00:39,431
+Tall, d’accordo.
+
+13
+00:00:39,454 --> 00:00:42,621
+Lo consuma qui o lo porta via?
+
+14
+00:00:42,644 --> 00:00:46,577
+Lo porto via, grazie.
+
+15
+00:00:46,600 --> 00:00:48,767
+Perfetto.
+
+16
+00:00:48,790 --> 00:00:51,157
+Da asporto, bene.
+
+17
+00:00:51,180 --> 00:00:55,113
+Desidera aggiungere latte o sciroppo?
+
+18
+00:00:55,136 --> 00:00:57,736
+No, va bene così.
+
+19
+00:00:57,759 --> 00:00:59,832
+Capito.
+
+20
+00:00:59,855 --> 00:01:03,055
+Desidera ordinare qualcos’altro?
+
+21
+00:01:03,078 --> 00:01:06,478
+Le interessa questo cibo?
+
+22
+00:01:06,501 --> 00:01:08,168
+Mmm…
+
+23
+00:01:08,191 --> 00:01:11,469
+Allora prendo anche uno scone al cioccolato.
+
+24
+00:01:11,493 --> 00:01:14,226
+Uno scone al cioccolato, giusto?
+
+25
+00:01:14,249 --> 00:01:16,685
+Lo vuole scaldare?
+
+26
+00:01:16,709 --> 00:01:18,345
+Sì.
+
+27
+00:01:18,369 --> 00:01:20,502
+Sì, grazie.
+
+28
+00:01:20,525 --> 00:01:23,058
+Perfetto.
+
+29
+00:01:23,081 --> 00:01:26,214
+Scaldato è più buono!
+
+30
+00:01:26,237 --> 00:01:28,004
+Grazie!
+
+31
+00:01:28,027 --> 00:01:31,160
+Allora, procediamo con il conto.
+
+32
+00:01:31,183 --> 00:01:39,037
+Un caffè freddo Tall e uno scone al cioccolato, il totale è 750 yen.
+
+33
+00:01:39,061 --> 00:01:42,094
+Posso pagare con la carta di credito?
+
+34
+00:01:42,117 --> 00:01:44,717
+Sì, certo.
+
+35
+00:01:44,740 --> 00:01:48,594
+Appoggi la carta su questo terminale, per favore.
+
+36
+00:01:48,618 --> 00:01:51,716
+Fatto!
+
+37
+00:01:51,740 --> 00:01:53,306
+Grazie!
+
+38
+00:01:53,329 --> 00:01:57,409
+Il pagamento è stato completato.
+
+39
+00:01:57,433 --> 00:02:01,166
+Prenda lo scontrino e il numero per il ritiro.
+
+40
+00:02:01,189 --> 00:02:02,674
+Grazie!
+
+41
+00:02:02,698 --> 00:02:06,510
+I prodotti li ritirate laggiù.
+
+42
+00:02:06,533 --> 00:02:10,733
+Aspetti che chiamiamo il suo numero.
+
+43
+00:02:10,756 --> 00:02:12,569
+Capito.
+
+44
+00:02:12,593 --> 00:02:14,593
+Laggiù, giusto?
+
+45
+00:02:14,616 --> 00:02:17,950
+Sì, esatto.
+
+46
+00:02:17,973 --> 00:02:22,263
+Lo scone va scaldato, ci vorranno circa 2 minuti.
+
+47
+00:02:22,286 --> 00:02:24,153
+Capito.
+
+48
+00:02:24,176 --> 00:02:26,610
+Mi scusi per l’attesa.
+
+49
+00:02:26,632 --> 00:02:29,078
+Cliente numero 15!
+
+50
+00:02:29,101 --> 00:02:32,438
+Sì, sono io!
+
+51
+00:02:32,462 --> 00:02:34,477
+Mi scusi per l’attesa.
+
+52
+00:02:34,500 --> 00:02:40,333
+Ecco il suo caffè freddo Tall e lo scone al cioccolato appena scaldato.
+
+53
+00:02:40,356 --> 00:02:41,890
+Grazie!
+
+54
+00:02:41,913 --> 00:02:43,779
+Sembra delizioso!
+
+55
+00:02:43,802 --> 00:02:48,936
+Lo scone è molto caldo, faccia attenzione quando lo porta via.
+
+56
+00:02:48,959 --> 00:02:50,825
+Capito.
+
+57
+00:02:50,848 --> 00:02:52,382
+Grazie!
+
+58
+00:02:52,405 --> 00:02:57,638
+Cannucce e tovaglioli sono a disposizione su quel bancone.
+
+59
+00:02:57,661 --> 00:02:59,636
+Capito.
+
+60
+00:02:59,659 --> 00:03:01,592
+Grazie mille!
+
+61
+00:03:01,615 --> 00:03:03,849
+Torni a trovarci presto!
+
+62
+00:03:03,872 --> 00:03:06,121
+Grazie!
+
+63
+00:03:06,145 --> 00:03:15,154
+Puoi scaricare la trascrizione del video di oggi dalla descrizione e dal commento in evidenza. Lascia un commento prima di scaricare, per favore.
+
+64
+00:03:15,154 --> 00:03:16,654
+Scena 2: Le basi della preparazione mattutina
+
+65
+00:03:16,654 --> 00:03:21,544
+Ora prepariamoci per la mattina.
+
+66
+00:03:21,568 --> 00:03:25,701
+Prima di tutto, controlla i chicchi di caffè.
+
+67
+00:03:25,724 --> 00:03:27,457
+Sì.
+
+68
+00:03:27,480 --> 00:03:30,247
+Questi chicchi qui.
+
+69
+00:03:30,270 --> 00:03:33,803
+Guarda la data sulla confezione.
+
+70
+00:03:33,826 --> 00:03:36,460
+Sono chicchi freschi?
+
+71
+00:03:36,482 --> 00:03:38,291
+Sì.
+
+72
+00:03:38,315 --> 00:03:41,283
+Sono arrivati ieri.
+
+73
+00:03:41,306 --> 00:03:43,173
+Perfetto!
+
+74
+00:03:43,196 --> 00:03:46,329
+Che profumo hanno i chicchi?
+
+75
+00:03:46,352 --> 00:03:49,403
+Hanno un profumo delizioso.
+
+76
+00:03:49,426 --> 00:03:52,494
+La freschezza è ottima.
+
+77
+00:03:52,518 --> 00:03:55,529
+Meglio così!
+
+78
+00:03:55,552 --> 00:04:00,552
+Poi, controlla la temperatura del frigorifero.
+
+79
+00:04:00,575 --> 00:04:03,870
+Il frigorifero è a 4 gradi.
+
+80
+00:04:03,893 --> 00:04:07,790
+Il vano caldo è a 60 gradi.
+
+81
+00:04:07,814 --> 00:04:10,512
+Va bene così, no?
+
+82
+00:04:10,536 --> 00:04:14,469
+Allora, prepariamo i panini.
+
+83
+00:04:14,492 --> 00:04:18,425
+Quante fette di pane tagliamo?
+
+84
+00:04:18,448 --> 00:04:21,022
+Tagliane 10, per favore.
+
+85
+00:04:21,046 --> 00:04:23,979
+Tagliale sottili, mi raccomando.
+
+86
+00:04:24,002 --> 00:04:26,136
+Capito.
+
+87
+00:04:26,159 --> 00:04:28,892
+Laviamo anche le verdure?
+
+88
+00:04:28,915 --> 00:04:30,482
+Sì.
+
+89
+00:04:30,505 --> 00:04:34,638
+Lava bene la lattuga e i pomodori.
+
+90
+00:04:34,661 --> 00:04:37,953
+Prendo anche il prosciutto e il formaggio.
+
+91
+00:04:37,976 --> 00:04:39,748
+Grazie.
+
+92
+00:04:39,772 --> 00:04:43,007
+Prepariamo anche l’insalata di uova.
+
+93
+00:04:43,030 --> 00:04:46,688
+Quante uova sode usiamo?
+
+94
+00:04:46,711 --> 00:04:49,311
+Usane 8, per favore.
+
+95
+00:04:49,334 --> 00:04:52,821
+Schiacciale nella ciotola.
+
+96
+00:04:52,844 --> 00:04:54,262
+Sì.
+
+97
+00:04:54,286 --> 00:04:56,620
+Lo faccio subito.
+
+98
+00:04:56,643 --> 00:05:00,209
+Prepariamo tutto entro le 8.
+
+99
+00:05:00,232 --> 00:05:01,665
+Sì.
+
+100
+00:05:01,688 --> 00:05:03,822
+Ce la faremo!
+
+101
+00:05:03,845 --> 00:05:10,950
+Trovi il link per ripassare il video di oggi nella descrizione e nel commento in evidenza. *Il sito potrebbe essere rimosso senza preavviso.
+
+102
+00:05:10,950 --> 00:05:12,450
+Scena 3: Preparativi prima dell’apertura e ore di punta
+
+103
+00:05:12,450 --> 00:05:15,416
+Sono quasi le 8.
+
+104
+00:05:15,439 --> 00:05:18,073
+Mancano 10 minuti all’apertura.
+
+105
+00:05:18,096 --> 00:05:22,234
+Sì, è quasi tutto pronto.
+
+106
+00:05:22,257 --> 00:05:24,790
+Diamo il massimo anche oggi!
+
+107
+00:05:24,813 --> 00:05:29,147
+Sai che tempo farà oggi?
+
+108
+00:05:29,170 --> 00:05:30,903
+Sì.
+
+109
+00:05:30,926 --> 00:05:34,165
+Nel pomeriggio pioverà.
+
+110
+00:05:34,189 --> 00:05:35,955
+Mmm…
+
+111
+00:05:35,978 --> 00:05:39,978
+Per questo stamattina arriveranno tanti clienti.
+
+112
+00:05:40,001 --> 00:05:41,768
+Capito.
+
+113
+00:05:41,791 --> 00:05:45,324
+Qual è l’orario più intenso?
+
+114
+00:05:45,347 --> 00:05:49,281
+Di solito dalle 12 alle 14.
+
+115
+00:05:49,304 --> 00:05:53,509
+L’ora di pranzo è sempre molto movimentata.
+
+116
+00:05:53,532 --> 00:05:54,899
+Capito.
+
+117
+00:05:54,922 --> 00:05:57,388
+Starò attento.
+
+118
+00:05:57,411 --> 00:06:01,178
+L’obiettivo di vendita per oggi è 100.000 yen.
+
+119
+00:06:01,201 --> 00:06:03,734
+100.000 yen, capito.
+
+120
+00:06:03,757 --> 00:06:06,691
+Vendiamo anche la nuova torta?
+
+121
+00:06:06,714 --> 00:06:08,380
+Sì.
+
+122
+00:06:08,403 --> 00:06:12,437
+Consiglia ai clienti la torta di stagione.
+
+123
+00:06:12,460 --> 00:06:14,264
+Capito.
+
+124
+00:06:14,288 --> 00:06:17,867
+Dirai: 'Questa è la nostra proposta del giorno!'
+
+125
+00:06:17,890 --> 00:06:19,823
+Perfetto!
+
+126
+00:06:19,846 --> 00:06:24,046
+Adesso decidiamo i ruoli.
+
+127
+00:06:24,069 --> 00:06:25,836
+Sì.
+
+128
+00:06:25,859 --> 00:06:28,826
+Cosa devo fare io?
+
+129
+00:06:28,849 --> 00:06:31,824
+Mike, per favore occupati della cassa.
+
+130
+00:06:31,847 --> 00:06:35,580
+Gestisci i pagamenti e prendi gli ordini.
+
+131
+00:06:35,603 --> 00:06:37,491
+Capito.
+
+132
+00:06:37,515 --> 00:06:40,781
+Io mi occupo della cassa.
+
+133
+00:06:40,804 --> 00:06:44,338
+Io preparo le bevande e il cibo.
+
+134
+00:06:44,361 --> 00:06:47,894
+Nei momenti di fretta, aiutiamoci a vicenda.
+
+135
+00:06:47,917 --> 00:06:49,650
+Sì.
+
+136
+00:06:49,673 --> 00:06:51,683
+Piacere di lavorare insieme.
+
+137
+00:06:51,706 --> 00:06:55,106
+Allora, apriamo il locale!
+
+138
+00:06:55,130 --> 00:06:56,696
+Sì.
+
+139
+00:06:56,719 --> 00:06:58,738
+Apriamo!
+
+140
+00:06:58,762 --> 00:07:00,262
+Scena 4: Conversazione mattutina in un caffè / Conversazioni mattutine al bar
+
+141
+00:07:00,262 --> 00:07:02,595
+Buongiorno.
+
+142
+00:07:02,618 --> 00:07:05,151
+Benvenuto!
+
+143
+00:07:05,174 --> 00:07:07,578
+Buongiorno.
+
+144
+00:07:07,602 --> 00:07:10,769
+Oggi è una bella giornata, vero?
+
+145
+00:07:10,792 --> 00:07:12,725
+Sì.
+
+146
+00:07:12,748 --> 00:07:16,406
+Fa davvero caldo adesso.
+
+147
+00:07:16,430 --> 00:07:19,630
+Il solito menù della colazione?
+
+148
+00:07:19,653 --> 00:07:21,386
+Sì.
+
+149
+00:07:21,409 --> 00:07:23,409
+Grazie.
+
+150
+00:07:23,432 --> 00:07:27,365
+Pane tostato con burro e caffè nero, giusto?
+
+151
+00:07:27,388 --> 00:07:29,389
+Sì.
+
+152
+00:07:29,413 --> 00:07:33,146
+Vorrei il caffè bello caldo, per favore.
+
+153
+00:07:33,169 --> 00:07:35,424
+Capito.
+
+154
+00:07:35,447 --> 00:07:38,381
+Prego, si accomodi al tavolo.
+
+155
+00:07:38,404 --> 00:07:40,204
+Grazie!
+
+156
+00:07:40,227 --> 00:07:43,960
+Oggi sono un po' in anticipo.
+
+157
+00:07:43,983 --> 00:07:45,759
+Mmm…
+
+158
+00:07:45,782 --> 00:07:49,749
+Di solito arriva alle 8:30, no?
+
+159
+00:07:49,772 --> 00:07:53,425
+Oggi ho da lavorare dalle 9.
+
+160
+00:07:53,448 --> 00:07:55,543
+Che fatica!
+
+161
+00:07:55,566 --> 00:07:57,733
+Ecco a lei, mi scusi per l'attesa.
+
+162
+00:07:57,756 --> 00:08:00,222
+Ecco il menù della colazione.
+
+163
+00:08:00,245 --> 00:08:02,012
+Grazie!
+
+164
+00:08:02,035 --> 00:08:04,168
+Sembra delizioso!
+
+165
+00:08:04,191 --> 00:08:08,958
+Questa settimana ha piovuto tanto, vero?
+
+166
+00:08:08,981 --> 00:08:10,617
+Sì, proprio così.
+
+167
+00:08:10,641 --> 00:08:14,374
+Non si asciugava il bucato.
+
+168
+00:08:14,397 --> 00:08:18,568
+Dicono che oggi pomeriggio pioverà di nuovo.
+
+169
+00:08:18,591 --> 00:08:21,490
+Ah, davvero?
+
+170
+00:08:21,514 --> 00:08:24,721
+Meno male che ho portato l'ombrello.
+
+171
+00:08:24,744 --> 00:08:27,379
+Grazie per il pasto.
+
+172
+00:08:27,402 --> 00:08:29,207
+Grazie!
+
+173
+00:08:29,231 --> 00:08:32,847
+Il conto è di 500 yen.
+
+174
+00:08:32,871 --> 00:08:35,904
+Ecco esattamente 500 yen.
+
+175
+00:08:35,927 --> 00:08:37,494
+Grazie!
+
+176
+00:08:37,517 --> 00:08:41,083
+Buona giornata al lavoro!
+
+177
+00:08:41,106 --> 00:08:42,885
+Sì.
+
+178
+00:08:42,909 --> 00:08:44,842
+Vado!
+
+179
+00:08:44,865 --> 00:08:46,913
+A presto!
+
+180
+00:08:46,937 --> 00:08:49,670
+La aspettiamo di nuovo.
+
+181
+00:08:49,693 --> 00:08:51,193
+Scena 5: Gestione rapida degli ordini / Gestione veloce degli ordini
+
+182
+00:08:51,193 --> 00:08:53,231
+Benvenuto!
+
+183
+00:08:53,255 --> 00:08:55,658
+Buongiorno.
+
+184
+00:08:55,681 --> 00:08:58,348
+Buongiorno.
+
+185
+00:08:58,371 --> 00:09:03,189
+Mi scusi, ho molta fretta.
+
+186
+00:09:03,213 --> 00:09:07,746
+Ho solo dieci minuti prima che parta il treno.
+
+187
+00:09:07,769 --> 00:09:09,769
+Perfetto.
+
+188
+00:09:09,792 --> 00:09:12,428
+Lo preparo subito.
+
+189
+00:09:12,452 --> 00:09:16,624
+Qual è la bevanda che si prepara più velocemente?
+
+190
+00:09:16,647 --> 00:09:20,494
+Il caffè latte freddo è il più veloce.
+
+191
+00:09:20,518 --> 00:09:24,391
+Allora prendo un caffè latte freddo, grazie.
+
+192
+00:09:24,414 --> 00:09:28,481
+Va bene la taglia media (M)?
+
+193
+00:09:28,504 --> 00:09:32,470
+Sì, la taglia media, grazie.
+
+194
+00:09:32,493 --> 00:09:35,027
+Da asporto?
+
+195
+00:09:35,050 --> 00:09:38,709
+Sì, da portare via, grazie.
+
+196
+00:09:38,732 --> 00:09:42,372
+Vuole sciroppo o latte?
+
+197
+00:09:42,395 --> 00:09:45,869
+No, non metterlo, per favore.
+
+198
+00:09:45,893 --> 00:09:48,779
+Potrebbe metterci meno ghiaccio?
+
+199
+00:09:48,802 --> 00:09:51,657
+Sì, certo.
+
+200
+00:09:51,680 --> 00:09:55,047
+Le metto meno ghiaccio, allora.
+
+201
+00:09:55,070 --> 00:09:57,436
+Quant'è il conto?
+
+202
+00:09:57,459 --> 00:10:01,474
+In totale fanno quattrocentocinquanta yen.
+
+203
+00:10:01,498 --> 00:10:04,431
+Posso pagare con il portafoglio elettronico?
+
+204
+00:10:04,454 --> 00:10:08,021
+Sì, può utilizzarlo.
+
+205
+00:10:08,044 --> 00:10:10,855
+Appoggi qui il dispositivo, per favore.
+
+206
+00:10:10,878 --> 00:10:13,644
+Sì, ho toccato.
+
+207
+00:10:13,667 --> 00:10:15,267
+Grazie!
+
+208
+00:10:15,290 --> 00:10:18,224
+Pagamento completato.
+
+209
+00:10:18,247 --> 00:10:22,052
+Desidera un sacchetto per l'asporto?
+
+210
+00:10:22,075 --> 00:10:25,283
+Sì, vorrei un sacchetto, grazie.
+
+211
+00:10:25,306 --> 00:10:30,106
+Fa freddo, le metto anche un manicotto sul bicchiere.
+
+212
+00:10:30,129 --> 00:10:33,298
+Sì, mi aiuta molto.
+
+213
+00:10:33,321 --> 00:10:36,055
+Mi scusi per l'attesa.
+
+214
+00:10:36,078 --> 00:10:39,411
+Ecco il suo caffè latte freddo, misura M.
+
+215
+00:10:39,434 --> 00:10:40,909
+Grazie!
+
+216
+00:10:40,932 --> 00:10:43,766
+Meno male che è pronto presto!
+
+217
+00:10:43,789 --> 00:10:45,670
+Arrivederci, buona giornata!
+
+218
+00:10:45,693 --> 00:10:47,296
+Stia attento.
+
+219
+00:10:47,320 --> 00:10:50,720
+Sì, vado.
+
+220
+00:10:50,743 --> 00:10:52,243
+Scena 6: Conversazione mattutina e conferma della programmazione / Conversazione del mattino e conferma dell'agenda
+
+221
+00:10:52,243 --> 00:10:54,645
+Buongiorno.
+
+222
+00:10:54,669 --> 00:10:57,802
+Oggi è una bella giornata, vero?
+
+223
+00:10:57,825 --> 00:11:00,158
+Buongiorno.
+
+224
+00:11:00,181 --> 00:11:02,148
+Mmm…
+
+225
+00:11:02,171 --> 00:11:05,388
+Hai già comprato il caffè?
+
+226
+00:11:05,411 --> 00:11:07,178
+Sì.
+
+227
+00:11:07,201 --> 00:11:10,652
+Ho preso un caffè latte caldo.
+
+228
+00:11:10,676 --> 00:11:14,153
+Io invece ho scelto un caffè caldo.
+
+229
+00:11:14,177 --> 00:11:18,510
+Allora, confermiamo la programmazione di oggi.
+
+230
+00:11:18,533 --> 00:11:20,267
+Sì.
+
+231
+00:11:20,290 --> 00:11:22,158
+Grazie.
+
+232
+00:11:22,181 --> 00:11:26,473
+Oggi abbiamo una riunione alle 10 del mattino, giusto?
+
+233
+00:11:26,497 --> 00:11:28,264
+Sì.
+
+234
+00:11:28,287 --> 00:11:32,062
+È la presentazione del nuovo progetto.
+
+235
+00:11:32,085 --> 00:11:35,353
+Hai preparato i documenti?
+
+236
+00:11:35,377 --> 00:11:37,143
+Sì.
+
+237
+00:11:37,166 --> 00:11:40,966
+Li ho controllati tutti ieri sera.
+
+238
+00:11:40,990 --> 00:11:43,523
+Ottimo!
+
+239
+00:11:43,546 --> 00:11:46,638
+Diamo un'altra occhiata insieme.
+
+240
+00:11:46,662 --> 00:11:48,300
+Sì.
+
+241
+00:11:48,323 --> 00:11:51,357
+Questi sono i documenti di oggi.
+
+242
+00:11:51,380 --> 00:11:54,113
+Guarda la seconda pagina.
+
+243
+00:11:54,136 --> 00:11:57,337
+Questi numeri sono corretti?
+
+244
+00:11:57,361 --> 00:11:59,294
+Sì.
+
+245
+00:11:59,317 --> 00:12:02,384
+Sono gli stessi dati della scorsa settimana.
+
+246
+00:12:02,407 --> 00:12:04,773
+Capito.
+
+247
+00:12:04,796 --> 00:12:07,263
+Sono molto chiari.
+
+248
+00:12:07,286 --> 00:12:09,019
+Grazie!
+
+249
+00:12:09,042 --> 00:12:12,076
+Le modifiche sono qui.
+
+250
+00:12:12,099 --> 00:12:14,957
+Anche le foto sono più grandi, vero?
+
+251
+00:12:14,981 --> 00:12:16,827
+Sì.
+
+252
+00:12:16,850 --> 00:12:19,183
+Sono più facili da vedere.
+
+253
+00:12:19,206 --> 00:12:22,692
+Chi farà la presentazione?
+
+254
+00:12:22,716 --> 00:12:26,328
+Io parlerò della prima parte.
+
+255
+00:12:26,351 --> 00:12:28,218
+Capito.
+
+256
+00:12:28,241 --> 00:12:33,008
+Io mi occuperò del tempo per le domande alla fine.
+
+257
+00:12:33,031 --> 00:12:34,722
+Sì.
+
+258
+00:12:34,745 --> 00:12:36,778
+Piacere di lavorare insieme.
+
+259
+00:12:36,801 --> 00:12:40,201
+Sei un po' nervoso?
+
+260
+00:12:40,224 --> 00:12:43,391
+Sono un po' nervoso.
+
+261
+00:12:43,414 --> 00:12:45,581
+Andrà tutto bene.
+
+262
+00:12:45,604 --> 00:12:48,370
+Hai fatto tanta pratica.
+
+263
+00:12:48,393 --> 00:12:49,927
+Sì.
+
+264
+00:12:49,950 --> 00:12:52,150
+Farò del mio meglio.
+
+265
+00:12:52,173 --> 00:12:55,506
+Cosa fate dopo la riunione?
+
+266
+00:12:55,529 --> 00:12:59,262
+Alle 13 pranzeremo.
+
+267
+00:12:59,285 --> 00:13:01,119
+Perfetto!
+
+268
+00:13:01,142 --> 00:13:03,942
+Mangiamo qualcosa di buono.
+
+269
+00:13:03,965 --> 00:13:05,634
+Sì.
+
+270
+00:13:05,657 --> 00:13:08,124
+Non vedo l'ora!
+
+271
+00:13:08,147 --> 00:13:11,029
+La sala riunioni è al terzo piano, giusto?
+
+272
+00:13:11,052 --> 00:13:12,855
+Sì.
+
+273
+00:13:12,879 --> 00:13:16,537
+La sala riunioni al terzo piano.
+
+274
+00:13:16,560 --> 00:13:20,093
+Andiamo in ufficio quindici minuti prima?
+
+275
+00:13:20,116 --> 00:13:21,650
+Sì.
+
+276
+00:13:21,673 --> 00:13:23,806
+Sì, facciamo così.
+
+277
+00:13:23,829 --> 00:13:27,103
+Allora, andiamo in ufficio.
+
+278
+00:13:27,126 --> 00:13:28,564
+Sì.
+
+279
+00:13:28,588 --> 00:13:30,564
+Andiamo!
+
+280
+00:13:30,587 --> 00:13:32,087
+Scena 7: Guida ai posti a sedere e al Wi-Fi / Guida ai posti e al Wi-Fi
+
+281
+00:13:32,087 --> 00:13:33,961
+Benvenuto!
+
+282
+00:13:33,985 --> 00:13:36,920
+Prego, accomodatevi dove preferite.
+
+283
+00:13:36,943 --> 00:13:38,776
+Mi scusi.
+
+284
+00:13:38,799 --> 00:13:42,333
+Dove sono i posti con la presa di corrente?
+
+285
+00:13:42,356 --> 00:13:44,156
+Sì.
+
+286
+00:13:44,179 --> 00:13:47,512
+Ce ne sono ai posti al bancone laggiù.
+
+287
+00:13:47,535 --> 00:13:49,185
+Grazie!
+
+288
+00:13:49,208 --> 00:13:52,175
+Vorrei usare il computer.
+
+289
+00:13:52,198 --> 00:13:55,398
+Vi accompagno ai posti al bancone.
+
+290
+00:13:55,421 --> 00:13:57,698
+Prego, da questa parte.
+
+291
+00:13:57,722 --> 00:13:59,363
+Grazie!
+
+292
+00:13:59,387 --> 00:14:02,220
+Avete il Wi-Fi?
+
+293
+00:14:02,243 --> 00:14:03,810
+Sì.
+
+294
+00:14:03,833 --> 00:14:06,709
+Sì, abbiamo il Wi-Fi gratuito.
+
+295
+00:14:06,732 --> 00:14:10,214
+Qual è la password?
+
+296
+00:14:10,237 --> 00:14:13,735
+È scritta sul retro del menù.
+
+297
+00:14:13,759 --> 00:14:15,835
+Guardate qui.
+
+298
+00:14:15,859 --> 00:14:17,893
+Capito.
+
+299
+00:14:17,916 --> 00:14:19,984
+Mi è di grande aiuto, grazie.
+
+300
+00:14:20,007 --> 00:14:24,274
+Signore, avrei una piccola richiesta.
+
+301
+00:14:24,297 --> 00:14:29,497
+Nei momenti di maggiore affluenza, vi chiediamo di limitare l'uso a due ore.
+
+302
+00:14:29,520 --> 00:14:31,087
+Sì.
+
+303
+00:14:31,110 --> 00:14:32,944
+Capito.
+
+304
+00:14:32,967 --> 00:14:35,300
+Starò attento.
+
+305
+00:14:35,323 --> 00:14:38,057
+Grazie per la collaborazione.
+
+306
+00:14:38,080 --> 00:14:41,494
+Avete deciso cosa ordinare da bere?
+
+307
+00:14:41,517 --> 00:14:43,326
+Sì.
+
+308
+00:14:43,349 --> 00:14:46,549
+Un caffè caldo, per favore.
+
+309
+00:14:46,572 --> 00:14:49,548
+Che misura preferisce?
+
+310
+00:14:49,572 --> 00:14:52,459
+La misura media, grazie.
+
+311
+00:14:52,483 --> 00:14:54,561
+Perfetto.
+
+312
+00:14:54,584 --> 00:14:57,817
+Zucchero e latte li desidera?
+
+313
+00:14:57,840 --> 00:15:01,040
+Uno zucchero, per favore.
+
+314
+00:15:01,063 --> 00:15:02,930
+Capito.
+
+315
+00:15:02,953 --> 00:15:05,786
+Un attimo di pazienza, per favore.
+
+316
+00:15:05,809 --> 00:15:07,309
+Scena 8: Servizio clienti e ambiente confortevole / Servizio clienti e ambiente accogliente
+
+317
+00:15:07,309 --> 00:15:09,148
+Benvenuto!
+
+318
+00:15:09,172 --> 00:15:12,816
+Signore, non ha freddo?
+
+319
+00:15:12,839 --> 00:15:15,373
+Ah, mi scusi.
+
+320
+00:15:15,395 --> 00:15:18,162
+Un po' sì.
+
+321
+00:15:18,185 --> 00:15:20,818
+Mi dispiace molto.
+
+322
+00:15:20,841 --> 00:15:25,575
+Qui arriva direttamente l'aria condizionata, vero?
+
+323
+00:15:25,598 --> 00:15:27,164
+Sì.
+
+324
+00:15:27,187 --> 00:15:30,221
+Sì, il getto è un po' forte.
+
+325
+00:15:30,244 --> 00:15:33,492
+Vuole che alzi un po' la temperatura?
+
+326
+00:15:33,515 --> 00:15:35,115
+Sì, per favore.
+
+327
+00:15:35,138 --> 00:15:39,472
+Avete anche delle coperte?
+
+328
+00:15:39,495 --> 00:15:41,728
+Sì, certo.
+
+329
+00:15:41,751 --> 00:15:44,686
+Ve le porto subito.
+
+330
+00:15:44,710 --> 00:15:46,315
+Grazie!
+
+331
+00:15:46,338 --> 00:15:48,305
+Mi è di grande aiuto, grazie.
+
+332
+00:15:48,328 --> 00:15:50,561
+Mi scusi per l’attesa.
+
+333
+00:15:50,584 --> 00:15:54,051
+Prego, usate questa coperta.
+
+334
+00:15:54,074 --> 00:15:55,679
+Grazie!
+
+335
+00:15:55,703 --> 00:15:58,379
+È molto calda, grazie.
+
+336
+00:15:58,402 --> 00:16:00,435
+Meglio così!
+
+337
+00:16:00,458 --> 00:16:05,192
+Se lo desidera, possiamo cambiare posto.
+
+338
+00:16:05,215 --> 00:16:08,671
+Sì, vorrei spostarmi.
+
+339
+00:16:08,694 --> 00:16:12,301
+Là in fondo i posti sono liberi?
+
+340
+00:16:12,325 --> 00:16:13,795
+Sì.
+
+341
+00:16:13,819 --> 00:16:17,513
+Il tavolo quadrato laggiù è libero.
+
+342
+00:16:17,536 --> 00:16:20,936
+È tranquillo lì?
+
+343
+00:16:20,959 --> 00:16:25,126
+Oggi vorrei leggere un libro con calma.
+
+344
+00:16:25,149 --> 00:16:26,282
+Sì.
+
+345
+00:16:26,305 --> 00:16:29,572
+Il posto in fondo è molto tranquillo.
+
+346
+00:16:29,595 --> 00:16:32,473
+Non arriva nemmeno l'aria condizionata.
+
+347
+00:16:32,496 --> 00:16:34,766
+Che bello!
+
+348
+00:16:34,790 --> 00:16:38,324
+Allora, vado a sedermi laggiù.
+
+349
+00:16:38,347 --> 00:16:41,480
+Posso portare i suoi bagagli?
+
+350
+00:16:41,503 --> 00:16:44,503
+No, li porto da solo.
+
+351
+00:16:44,526 --> 00:16:46,659
+Va bene così.
+
+352
+00:16:46,682 --> 00:16:48,376
+Capito.
+
+353
+00:16:48,400 --> 00:16:51,600
+Allora, Le faccio strada.
+
+354
+00:16:51,622 --> 00:16:53,189
+Grazie!
+
+355
+00:16:53,212 --> 00:16:58,379
+Ah, e poi, per favore, un altro tè caldo.
+
+356
+00:16:58,402 --> 00:17:00,568
+Perfetto.
+
+357
+00:17:00,591 --> 00:17:03,648
+Va bene il tè semplice?
+
+358
+00:17:03,672 --> 00:17:05,311
+Sì.
+
+359
+00:17:05,334 --> 00:17:07,811
+Sì, vorrei un tè semplice, grazie.
+
+360
+00:17:07,835 --> 00:17:10,602
+Lo porto subito.
+
+361
+00:17:10,625 --> 00:17:13,442
+Si rilassi pure.
+
+362
+00:17:13,466 --> 00:17:15,926
+Grazie!
+
+363
+00:17:15,949 --> 00:17:17,449
+Scena 9: Esercizi su kanji e particelle
+
+364
+00:17:17,449 --> 00:17:22,249
+Oggi studiamo tanto!
+
+365
+00:17:22,272 --> 00:17:24,639
+Sì, diamoci da fare!
+
+366
+00:17:24,662 --> 00:17:28,628
+La prossima settimana c'è il test di giapponese, vero?
+
+367
+00:17:28,651 --> 00:17:32,531
+Sì, è il test N5.
+
+368
+00:17:32,555 --> 00:17:35,688
+Come procede lo studio?
+
+369
+00:17:35,711 --> 00:17:40,978
+Beh, i kanji sono un po' difficili.
+
+370
+00:17:41,001 --> 00:17:44,201
+Quali kanji trovi difficili?
+
+371
+00:17:44,224 --> 00:17:48,224
+Quelli come 'settimana' e 'scrivere'.
+
+372
+00:17:48,247 --> 00:17:51,783
+Ah, quelli con tanti tratti!
+
+373
+00:17:51,806 --> 00:17:56,474
+Sì, è faticoso ricordarli.
+
+374
+00:17:56,498 --> 00:17:59,631
+Scrivendoli più volte li memorizzerai.
+
+375
+00:17:59,654 --> 00:18:03,832
+Giusto, mi eserciterò ogni giorno.
+
+376
+00:18:03,856 --> 00:18:06,136
+E la grammatica?
+
+377
+00:18:06,159 --> 00:18:09,572
+A volte non capisco le particelle.
+
+378
+00:18:09,596 --> 00:18:12,670
+Intendi la differenza tra 'ni' e 'de'?
+
+379
+00:18:12,694 --> 00:18:16,361
+Sì, a volte mi confondo.
+
+380
+00:18:16,385 --> 00:18:20,427
+Allora, facciamoci delle domande a vicenda.
+
+381
+00:18:20,450 --> 00:18:23,383
+Ottima idea, procediamo!
+
+382
+00:18:23,406 --> 00:18:26,475
+Prima domanda.
+
+383
+00:18:26,499 --> 00:18:30,670
+Studio al caffè.
+
+384
+00:18:30,694 --> 00:18:33,927
+Quale particella va nello spazio?
+
+385
+00:18:33,950 --> 00:18:38,232
+Essendo un luogo, è 'de'?
+
+386
+00:18:38,256 --> 00:18:40,505
+Esatto!
+
+387
+00:18:40,528 --> 00:18:42,995
+Ben fatto!
+
+388
+00:18:43,018 --> 00:18:46,385
+Meno male, mi sento sollevato!
+
+389
+00:18:46,408 --> 00:18:50,490
+Ora tocca a me farti una domanda.
+
+390
+00:18:50,513 --> 00:18:52,680
+Sì, prego.
+
+391
+00:18:52,703 --> 00:18:57,073
+Domani mi alzo alle 8.
+
+392
+00:18:57,096 --> 00:19:01,764
+Quale particella va nello spazio?
+
+393
+00:19:01,788 --> 00:19:06,054
+Dopo il tempo, quindi è 'ni', giusto?
+
+394
+00:19:06,077 --> 00:19:08,052
+Perfetto!
+
+395
+00:19:08,075 --> 00:19:10,142
+Sei proprio bravo!
+
+396
+00:19:10,165 --> 00:19:14,062
+Uff, sono un po' stanco.
+
+397
+00:19:14,085 --> 00:19:17,852
+Anche a me inizia a far male la testa.
+
+398
+00:19:17,875 --> 00:19:21,242
+Abbiamo studiato per circa un'ora!
+
+399
+00:19:21,265 --> 00:19:24,398
+Facciamo una piccola pausa?
+
+400
+00:19:24,421 --> 00:19:28,310
+Sì, ho voglia di qualcosa di dolce.
+
+401
+00:19:28,333 --> 00:19:32,066
+In quella vetrina ci sono delle torte.
+
+402
+00:19:32,089 --> 00:19:35,823
+Che bella quella torta alle fragole!
+
+403
+00:19:35,846 --> 00:19:38,612
+C'è anche la torta al cioccolato.
+
+404
+00:19:38,635 --> 00:19:41,845
+Io prendo quella alle fragole.
+
+405
+00:19:41,869 --> 00:19:45,766
+Allora io prendo quella al cioccolato.
+
+406
+00:19:45,789 --> 00:19:48,723
+Chiamo il cameriere?
+
+407
+00:19:48,747 --> 00:19:51,429
+Sì, chiamiamolo.
+
+408
+00:19:51,452 --> 00:19:52,952
+Scena 10: Preparativi per il pranzo e assegnazione dei ruoli
+
+409
+00:19:52,952 --> 00:19:58,185
+Sono quasi le 11:45.
+
+410
+00:19:58,208 --> 00:20:01,296
+Sta per arrivare l'ora di pranzo.
+
+411
+00:20:01,320 --> 00:20:04,322
+Sì, senpai.
+
+412
+00:20:04,345 --> 00:20:07,678
+Il locale si riempirà presto.
+
+413
+00:20:07,701 --> 00:20:11,068
+Confermiamo i ruoli.
+
+414
+00:20:11,091 --> 00:20:15,091
+Oggi tu sei alla cassa.
+
+415
+00:20:15,114 --> 00:20:17,247
+Capito.
+
+416
+00:20:17,270 --> 00:20:20,948
+Io prendo gli ordini alla cassa.
+
+417
+00:20:20,971 --> 00:20:25,619
+Io mi occupo della cucina e delle bevande.
+
+418
+00:20:25,642 --> 00:20:29,076
+Preparo panini e caffè.
+
+419
+00:20:29,099 --> 00:20:30,865
+Sì.
+
+420
+00:20:30,888 --> 00:20:33,890
+Siete pronti?
+
+421
+00:20:33,914 --> 00:20:37,281
+Ci sono cucchiai e forchette?
+
+422
+00:20:37,304 --> 00:20:41,312
+Controlla vicino alla cassa.
+
+423
+00:20:41,336 --> 00:20:45,336
+Ah, mancano dei cucchiai.
+
+424
+00:20:45,359 --> 00:20:48,492
+Li rifornisco subito.
+
+425
+00:20:48,515 --> 00:20:50,392
+Grazie.
+
+426
+00:20:50,416 --> 00:20:54,883
+Controlla anche i sacchetti per l'asporto e i bicchieri.
+
+427
+00:20:54,906 --> 00:20:56,514
+Sì.
+
+428
+00:20:56,537 --> 00:21:00,004
+Di sacchetti e bicchieri ce ne sono tanti.
+
+429
+00:21:00,027 --> 00:21:03,270
+Meglio così!
+
+430
+00:21:03,294 --> 00:21:06,827
+Non dimenticate le cannucce.
+
+431
+00:21:06,850 --> 00:21:08,223
+Capito.
+
+432
+00:21:08,247 --> 00:21:10,899
+Anche le cannucce sono pronte.
+
+433
+00:21:10,922 --> 00:21:15,255
+Ora esercitiamoci con i saluti.
+
+434
+00:21:15,278 --> 00:21:18,812
+Riuscite a salutare ad alta voce?
+
+435
+00:21:18,835 --> 00:21:21,635
+Sì, ci riusciamo.
+
+436
+00:21:21,658 --> 00:21:23,671
+Benvenuto!
+
+437
+00:21:23,694 --> 00:21:26,627
+Avete una voce bellissima.
+
+438
+00:21:26,650 --> 00:21:29,983
+E anche il sorriso è splendido.
+
+439
+00:21:30,006 --> 00:21:31,904
+Grazie!
+
+440
+00:21:31,928 --> 00:21:34,967
+Oggi daremo il massimo.
+
+441
+00:21:34,991 --> 00:21:39,057
+Sì, diamoci da fare insieme!
+
+442
+00:21:39,080 --> 00:21:42,280
+È arrivato un cliente.
+
+443
+00:21:42,303 --> 00:21:45,870
+Benvenuto!
+
+444
+00:21:45,893 --> 00:21:47,393
+Scena 11: Ordini e controllo delle allergie
+
+445
+00:21:47,393 --> 00:21:49,393
+Benvenuto!
+
+446
+00:21:49,416 --> 00:21:52,383
+Desidera mangiare qui?
+
+447
+00:21:52,406 --> 00:21:56,006
+Sì, mangio qui.
+
+448
+00:21:56,028 --> 00:21:57,662
+Grazie!
+
+449
+00:21:57,685 --> 00:22:00,851
+Ha già deciso cosa ordinare?
+
+450
+00:22:00,874 --> 00:22:04,916
+Vorrei il menù del giorno con panino.
+
+451
+00:22:04,940 --> 00:22:08,189
+Il menù del giorno con panino, giusto?
+
+452
+00:22:08,212 --> 00:22:12,748
+Oggi il panino è con pollo e verdure.
+
+453
+00:22:12,771 --> 00:22:14,938
+Sembra delizioso!
+
+454
+00:22:14,962 --> 00:22:17,260
+Lo prendo.
+
+455
+00:22:17,283 --> 00:22:22,083
+Ha qualche allergia alimentare?
+
+456
+00:22:22,106 --> 00:22:27,040
+Sì, sono allergico alle uova.
+
+457
+00:22:27,063 --> 00:22:29,496
+Capito.
+
+458
+00:22:29,519 --> 00:22:34,286
+Nel panino c'è la maionese.
+
+459
+00:22:34,309 --> 00:22:38,309
+La maionese contiene uova.
+
+460
+00:22:38,332 --> 00:22:40,415
+Capisco.
+
+461
+00:22:40,438 --> 00:22:44,012
+È possibile togliere la maionese?
+
+462
+00:22:44,035 --> 00:22:48,475
+Sì, lo preparo senza maionese.
+
+463
+00:22:48,498 --> 00:22:50,098
+Grazie!
+
+464
+00:22:50,121 --> 00:22:52,140
+Mi è di grande aiuto, grazie.
+
+465
+00:22:52,164 --> 00:22:55,964
+Che bevanda desidera con il suo menù?
+
+466
+00:22:55,987 --> 00:22:58,387
+Che cosa avete?
+
+467
+00:22:58,410 --> 00:23:03,610
+Abbiamo caffè, tè e succo d'arancia.
+
+468
+00:23:03,633 --> 00:23:06,718
+Un tè caldo, per favore.
+
+469
+00:23:06,741 --> 00:23:09,708
+Un tè caldo, certo.
+
+470
+00:23:09,731 --> 00:23:12,740
+Il totale è di 1000 yen.
+
+471
+00:23:12,764 --> 00:23:15,297
+Pago in contanti.
+
+472
+00:23:15,320 --> 00:23:18,654
+Ricevo esattamente 1000 yen.
+
+473
+00:23:18,676 --> 00:23:22,010
+Tenga pure questo numero d'ordine.
+
+474
+00:23:22,033 --> 00:23:24,099
+Capito.
+
+475
+00:23:24,122 --> 00:23:28,165
+Quando sarà pronto, glielo porterò al tavolo.
+
+476
+00:23:28,189 --> 00:23:30,989
+Attenda pure in uno dei tavoli liberi.
+
+477
+00:23:31,012 --> 00:23:33,645
+Grazie!
+
+478
+00:23:33,668 --> 00:23:35,168
+Scena 12: Pagamento e metodi di pagamento / Metodi di Pagamento alla Cassa
+
+479
+00:23:35,168 --> 00:23:36,935
+Benvenuto!
+
+480
+00:23:36,958 --> 00:23:39,026
+Ecco il conto.
+
+481
+00:23:39,050 --> 00:23:41,823
+Sì, grazie.
+
+482
+00:23:41,846 --> 00:23:44,700
+Il menù del giorno, giusto?
+
+483
+00:23:44,723 --> 00:23:48,323
+In totale fa 980 yen.
+
+484
+00:23:48,346 --> 00:23:49,961
+Capito.
+
+485
+00:23:49,985 --> 00:23:52,218
+Pago in contanti.
+
+486
+00:23:52,241 --> 00:23:54,419
+Ah, mi scusi.
+
+487
+00:23:54,443 --> 00:23:56,693
+Non ho abbastanza spiccioli.
+
+488
+00:23:56,716 --> 00:23:59,083
+E non ho nemmeno una banconota da 1000 yen.
+
+489
+00:23:59,106 --> 00:24:01,472
+Andrà tutto bene.
+
+490
+00:24:01,495 --> 00:24:05,162
+Può pagare anche con moneta elettronica o carta.
+
+491
+00:24:05,185 --> 00:24:07,072
+Meglio così!
+
+492
+00:24:07,095 --> 00:24:09,174
+Pago con lo smartphone.
+
+493
+00:24:09,198 --> 00:24:11,772
+Mi mostri pure il codice a barre, per favore.
+
+494
+00:24:11,795 --> 00:24:15,494
+Sì, lo scannerizzo subito.
+
+495
+00:24:15,517 --> 00:24:18,852
+Oh, lo schermo non cambia.
+
+496
+00:24:18,875 --> 00:24:21,409
+Eh, davvero?
+
+497
+00:24:21,432 --> 00:24:24,699
+Il segnale del telefono è debole.
+
+498
+00:24:24,723 --> 00:24:27,092
+L'app non funziona.
+
+499
+00:24:27,115 --> 00:24:30,449
+C'è il Wi-Fi gratuito del negozio.
+
+500
+00:24:30,472 --> 00:24:33,705
+Usi questa password.
+
+501
+00:24:33,728 --> 00:24:35,304
+Grazie!
+
+502
+00:24:35,327 --> 00:24:39,728
+Ma ci vorrà del tempo, però.
+
+503
+00:24:39,751 --> 00:24:42,485
+C'è gente in fila dietro di lei.
+
+504
+00:24:42,508 --> 00:24:45,324
+Ha una carta di credito?
+
+505
+00:24:45,348 --> 00:24:48,348
+Sì, ho la carta.
+
+506
+00:24:48,371 --> 00:24:51,504
+Può pagare anche con la carta.
+
+507
+00:24:51,527 --> 00:24:54,370
+Allora pago con la carta, grazie.
+
+508
+00:24:54,394 --> 00:24:57,794
+Appoggi la carta qui, per favore.
+
+509
+00:24:57,817 --> 00:24:59,583
+Fatto.
+
+510
+00:24:59,606 --> 00:25:02,142
+Pagamento completato.
+
+511
+00:25:02,166 --> 00:25:04,966
+Prenda pure lo scontrino.
+
+512
+00:25:04,989 --> 00:25:06,766
+Mi ha salvato!
+
+513
+00:25:06,789 --> 00:25:08,589
+Grazie mille!
+
+514
+00:25:08,612 --> 00:25:12,146
+Prego, torni a trovarci.
+
+515
+00:25:12,169 --> 00:25:13,669
+Scena 13: Come pianificare un viaggio / Pianificare un Viaggio
+
+516
+00:25:13,669 --> 00:25:18,035
+Questo sandwich è davvero delizioso!
+
+517
+00:25:18,058 --> 00:25:23,525
+Sì, anche il mio sandwich all'uovo è buonissimo.
+
+518
+00:25:23,548 --> 00:25:28,081
+Oggi parliamo del viaggio del prossimo mese.
+
+519
+00:25:28,104 --> 00:25:32,562
+Sì, organizziamo il viaggio a Kyoto.
+
+520
+00:25:32,585 --> 00:25:34,681
+Quando andiamo?
+
+521
+00:25:34,705 --> 00:25:37,913
+Che ne dice del 10 del prossimo mese?
+
+522
+00:25:37,937 --> 00:25:41,870
+Partiamo da venerdì fino a domenica.
+
+523
+00:25:41,893 --> 00:25:43,726
+Perfetto!
+
+524
+00:25:43,749 --> 00:25:46,482
+Due notti e tre giorni, perfetto.
+
+525
+00:25:46,505 --> 00:25:49,305
+Andiamo con lo Shinkansen.
+
+526
+00:25:49,328 --> 00:25:53,695
+Quando si comprano i biglietti dello Shinkansen?
+
+527
+00:25:53,718 --> 00:25:57,318
+Li prenoterò su Internet la prossima settimana.
+
+528
+00:25:57,341 --> 00:25:59,308
+Capito.
+
+529
+00:25:59,331 --> 00:26:02,897
+Uno Shinkansen di mattina presto sarebbe perfetto, no?
+
+530
+00:26:02,920 --> 00:26:07,720
+Sì, prendiamo lo Shinkansen delle 8:00 del mattino.
+
+531
+00:26:07,743 --> 00:26:11,577
+Quando arriviamo a Kyoto, dove vuoi andare?
+
+532
+00:26:11,600 --> 00:26:15,215
+Vorrei visitare dei templi famosi.
+
+533
+00:26:15,238 --> 00:26:18,053
+Andiamo al Kiyomizu-dera!
+
+534
+00:26:18,077 --> 00:26:21,966
+Il Kiyomizu-dera è davvero bellissimo!
+
+535
+00:26:21,989 --> 00:26:26,645
+Vorrei vedere anche dei santuari antichi.
+
+536
+00:26:26,669 --> 00:26:30,149
+Allora andiamo anche al Fushimi Inari Taisha!
+
+537
+00:26:30,172 --> 00:26:31,774
+Perfetto!
+
+538
+00:26:31,798 --> 00:26:35,610
+Vorrei andare anche in qualche caffè buono di Kyoto.
+
+539
+00:26:35,633 --> 00:26:39,000
+Mangiamo un gelato al matcha!
+
+540
+00:26:39,023 --> 00:26:41,081
+Non vedo l'ora!
+
+541
+00:26:41,104 --> 00:26:44,271
+Dove prenotiamo l'hotel?
+
+542
+00:26:44,294 --> 00:26:47,900
+Un hotel vicino alla stazione di Kyoto sarebbe comodo.
+
+543
+00:26:47,924 --> 00:26:50,621
+Qual è il budget a persona?
+
+544
+00:26:50,644 --> 00:26:53,977
+Penso circa 50.000 yen a testa.
+
+545
+00:26:54,000 --> 00:26:55,972
+Capito.
+
+546
+00:26:55,996 --> 00:27:00,207
+30.000 yen per Shinkansen e hotel, giusto?
+
+547
+00:27:00,230 --> 00:27:03,463
+E 20.000 yen per cibo e shopping.
+
+548
+00:27:03,486 --> 00:27:05,737
+Perfetto!
+
+549
+00:27:05,761 --> 00:27:10,094
+Stasera prenoto l'hotel, va bene?
+
+550
+00:27:10,117 --> 00:27:11,684
+Grazie!
+
+551
+00:27:11,707 --> 00:27:13,907
+Piacere di lavorare insieme.
+
+552
+00:27:13,930 --> 00:27:15,465
+Sì.
+
+553
+00:27:15,488 --> 00:27:18,340
+Facciamo in modo che sia un viaggio indimenticabile!
+
+554
+00:27:18,363 --> 00:27:19,863
+Scena 14: L'ora di punta del pranzo e la chiusura della cassa
+
+555
+00:27:19,863 --> 00:27:22,333
+Grazie per il duro lavoro!
+
+556
+00:27:22,357 --> 00:27:26,047
+L'ora di punta del pranzo è finita, finalmente!
+
+557
+00:27:26,070 --> 00:27:28,313
+Grazie per il duro lavoro!
+
+558
+00:27:28,336 --> 00:27:32,170
+Oggi è stata davvero una giornata intensa.
+
+559
+00:27:32,193 --> 00:27:33,999
+Sì.
+
+560
+00:27:34,022 --> 00:27:38,115
+È venuta tantissima gente, eh?
+
+561
+00:27:38,139 --> 00:27:41,539
+I panini sono andati a ruba!
+
+562
+00:27:41,562 --> 00:27:44,702
+Anche i succhi sono andati via come il pane!
+
+563
+00:27:44,725 --> 00:27:48,691
+Bene, facciamo la chiusura intermedia della cassa.
+
+564
+00:27:48,714 --> 00:27:51,581
+Conta i soldi, per favore.
+
+565
+00:27:51,604 --> 00:27:53,776
+Capito.
+
+566
+00:27:53,799 --> 00:27:56,999
+Conto i soldi della cassa.
+
+567
+00:27:57,022 --> 00:28:00,422
+Quante banconote da 1.000 yen ci sono?
+
+568
+00:28:00,445 --> 00:28:04,312
+Ci sono venti banconote da 1.000 yen.
+
+569
+00:28:04,335 --> 00:28:07,501
+E le monete da 500 yen?
+
+570
+00:28:07,524 --> 00:28:11,262
+Ci sono dieci monete da 500 yen.
+
+571
+00:28:11,285 --> 00:28:15,324
+Verifichiamo il totale.
+
+572
+00:28:15,348 --> 00:28:18,630
+Corrisponde con il totale del computer?
+
+573
+00:28:18,653 --> 00:28:20,520
+Sì.
+
+574
+00:28:20,543 --> 00:28:23,310
+Sì, è lo stesso importo.
+
+575
+00:28:23,333 --> 00:28:26,300
+Meglio così!
+
+576
+00:28:26,323 --> 00:28:29,256
+La chiusura della cassa è finita.
+
+577
+00:28:29,279 --> 00:28:31,412
+Che sollievo!
+
+578
+00:28:31,435 --> 00:28:34,002
+Adesso facciamo una pausa?
+
+579
+00:28:34,025 --> 00:28:35,663
+Sì.
+
+580
+00:28:35,687 --> 00:28:39,220
+Facciamo una pausa di 15 minuti a turno.
+
+581
+00:28:39,243 --> 00:28:43,416
+Prima tu, vai pure a riposarti.
+
+582
+00:28:43,439 --> 00:28:45,092
+Grazie!
+
+583
+00:28:45,116 --> 00:28:47,974
+Posso bere qualcosa?
+
+584
+00:28:47,997 --> 00:28:49,637
+Sì, proprio così.
+
+585
+00:28:49,661 --> 00:28:53,027
+Preparati pure la bevanda che preferisci.
+
+586
+00:28:53,050 --> 00:28:56,184
+Prendo un tè freddo.
+
+587
+00:28:56,207 --> 00:29:00,007
+Ci metto un po' di zucchero.
+
+588
+00:29:00,030 --> 00:29:03,363
+Riposati bene nella sala relax.
+
+589
+00:29:03,386 --> 00:29:07,243
+Tornate tra quindici minuti, per favore.
+
+590
+00:29:07,267 --> 00:29:08,883
+Sì.
+
+591
+00:29:08,906 --> 00:29:11,740
+Quando torni, ci diamo il cambio.
+
+592
+00:29:11,763 --> 00:29:13,996
+Piacere di lavorare insieme.
+
+593
+00:29:14,019 --> 00:29:16,619
+Diamoci da fare anche questo pomeriggio!
+
+594
+00:29:16,642 --> 00:29:18,142
+Scena 15: Come ordinare al bar / How to Order at a Café
+
+595
+00:29:18,142 --> 00:29:20,011
+Benvenuto!
+
+596
+00:29:20,035 --> 00:29:22,803
+Prego, accomodatevi dove preferite.
+
+597
+00:29:22,826 --> 00:29:24,710
+Grazie!
+
+598
+00:29:24,734 --> 00:29:27,067
+Mi siedo qui.
+
+599
+00:29:27,091 --> 00:29:31,105
+Quando avete deciso, chiamatemi pure.
+
+600
+00:29:31,128 --> 00:29:32,766
+Mi scusi.
+
+601
+00:29:32,789 --> 00:29:35,237
+Vorrei ordinare, per favore.
+
+602
+00:29:35,261 --> 00:29:36,994
+Sì.
+
+603
+00:29:37,017 --> 00:29:39,631
+Cosa desiderate ordinare?
+
+604
+00:29:39,655 --> 00:29:43,188
+Mi andrebbe qualcosa di dolce.
+
+605
+00:29:43,211 --> 00:29:46,145
+Avete qualche torta da consigliare?
+
+606
+00:29:46,168 --> 00:29:49,846
+Vi consiglio la torta stagionale d'autunno.
+
+607
+00:29:49,869 --> 00:29:52,515
+La torta di castagne va molto di moda.
+
+608
+00:29:52,539 --> 00:29:54,984
+La torta di castagne, dite?
+
+609
+00:29:55,007 --> 00:29:57,174
+Sembra delizioso!
+
+610
+00:29:57,197 --> 00:30:00,472
+Anche il parfait al matcha è molto popolare.
+
+611
+00:30:00,495 --> 00:30:03,429
+Sembrano entrambi deliziosi.
+
+612
+00:30:03,452 --> 00:30:05,261
+Non so proprio cosa scegliere!
+
+613
+00:30:05,284 --> 00:30:09,183
+La torta di castagne non è troppo dolce.
+
+614
+00:30:09,206 --> 00:30:11,539
+Si abbina benissimo al caffè.
+
+615
+00:30:11,562 --> 00:30:13,529
+Capisco.
+
+616
+00:30:13,552 --> 00:30:16,752
+Allora prendo la torta di castagne.
+
+617
+00:30:16,775 --> 00:30:18,392
+Grazie!
+
+618
+00:30:18,416 --> 00:30:21,049
+E da bere cosa desiderate?
+
+619
+00:30:21,072 --> 00:30:23,907
+Un caffè caldo, per favore.
+
+620
+00:30:23,930 --> 00:30:27,788
+Il menù torta e caffè è più conveniente.
+
+621
+00:30:27,812 --> 00:30:30,661
+Risparmiate 50 yen!
+
+622
+00:30:30,685 --> 00:30:33,251
+Che bello!
+
+623
+00:30:33,274 --> 00:30:35,453
+Allora prendo il menù completo.
+
+624
+00:30:35,477 --> 00:30:37,610
+Perfetto.
+
+625
+00:30:37,633 --> 00:30:41,766
+Quindi torta di castagne e caffè caldo, giusto?
+
+626
+00:30:41,789 --> 00:30:43,437
+Sì.
+
+627
+00:30:43,461 --> 00:30:45,461
+Piacere di lavorare insieme.
+
+628
+00:30:45,484 --> 00:30:47,817
+Un attimo di pazienza, per favore.
+
+629
+00:30:47,840 --> 00:30:51,007
+Ve li porto al tavolo.
+
+630
+00:30:51,030 --> 00:30:52,630
+Capito.
+
+631
+00:30:52,653 --> 00:30:55,224
+Non vedo l'ora!
+
+632
+00:30:55,247 --> 00:30:56,747
+Scena 16: Come preparare i nuovi latte / How to Make New Lattes
+
+633
+00:30:56,747 --> 00:31:00,222
+Ora è un po' tranquillo, no?
+
+634
+00:31:00,245 --> 00:31:04,212
+Esercitiamoci con il nuovo menù.
+
+635
+00:31:04,235 --> 00:31:06,368
+Sì, grazie.
+
+636
+00:31:06,391 --> 00:31:11,125
+Da domani inizieremo con i nuovi latte.
+
+637
+00:31:11,148 --> 00:31:14,714
+Latte al matcha e latte al caramello.
+
+638
+00:31:14,737 --> 00:31:17,771
+Sembrano entrambi buonissimi!
+
+639
+00:31:17,794 --> 00:31:20,927
+È difficile prepararli?
+
+640
+00:31:20,950 --> 00:31:23,750
+No, non è difficile!
+
+641
+00:31:23,773 --> 00:31:27,773
+Iniziamo con il latte al caramello.
+
+642
+00:31:27,796 --> 00:31:31,929
+Sì, preparo la tazza.
+
+643
+00:31:31,952 --> 00:31:36,204
+Mettete 15 grammi di sciroppo al caramello.
+
+644
+00:31:36,227 --> 00:31:39,044
+Misuratelo bene con il cucchiaio.
+
+645
+00:31:39,068 --> 00:31:41,868
+15 grammi, giusto?
+
+646
+00:31:41,891 --> 00:31:44,425
+Ho messo lo sciroppo.
+
+647
+00:31:44,448 --> 00:31:48,814
+Poi aggiungete l'espresso.
+
+648
+00:31:48,837 --> 00:31:51,471
+Premete il pulsante una volta.
+
+649
+00:31:51,494 --> 00:31:54,761
+Aggiungo l'espresso.
+
+650
+00:31:54,784 --> 00:31:57,718
+Che buon profumo!
+
+651
+00:31:57,741 --> 00:32:01,478
+Dopo, scaldate il latte.
+
+652
+00:32:01,501 --> 00:32:05,747
+Montatelo bene con il vapore fino a renderlo schiumoso.
+
+653
+00:32:05,771 --> 00:32:08,811
+A che temperatura va il latte?
+
+654
+00:32:08,834 --> 00:32:12,319
+65 gradi è la temperatura ideale.
+
+655
+00:32:12,343 --> 00:32:15,810
+Se è troppo caldo, non è buono.
+
+656
+00:32:15,833 --> 00:32:17,966
+Capito.
+
+657
+00:32:17,989 --> 00:32:21,088
+Abbiamo riscaldato fino a 65 gradi.
+
+658
+00:32:21,111 --> 00:32:24,547
+Versate delicatamente il latte.
+
+659
+00:32:24,571 --> 00:32:28,804
+Aggiungiamo la salsa al caramello sopra.
+
+660
+00:32:28,827 --> 00:32:30,594
+Fatto!
+
+661
+00:32:30,617 --> 00:32:32,954
+È venuto benissimo!
+
+662
+00:32:32,977 --> 00:32:35,344
+Che sapore ha?
+
+663
+00:32:35,367 --> 00:32:38,767
+È molto dolce e delizioso.
+
+664
+00:32:38,790 --> 00:32:42,057
+Ora prepariamo un latte al matcha.
+
+665
+00:32:42,080 --> 00:32:46,713
+Sciogliete bene la polvere di matcha con l’acqua calda, mi raccomando.
+
+666
+00:32:46,736 --> 00:32:48,269
+Sì.
+
+667
+00:32:48,292 --> 00:32:50,959
+Mescolate energicamente.
+
+668
+00:32:50,982 --> 00:32:52,482
+Scena 17: Come trovare oggetti smarriti
+
+669
+00:32:52,482 --> 00:32:54,415
+Benvenuto!
+
+670
+00:32:54,438 --> 00:32:56,405
+Buongiorno.
+
+671
+00:32:56,428 --> 00:32:58,280
+Mi scusi.
+
+672
+00:32:58,303 --> 00:33:01,313
+Sto cercando una cosa che ho dimenticato.
+
+673
+00:33:01,337 --> 00:33:04,142
+Un oggetto smarrito, giusto?
+
+674
+00:33:04,165 --> 00:33:08,165
+Oggi è venuto qui, vero?
+
+675
+00:33:08,188 --> 00:33:09,963
+Sì.
+
+676
+00:33:09,987 --> 00:33:14,120
+Sì, sono arrivato verso le dodici e mezza.
+
+677
+00:33:14,143 --> 00:33:16,149
+Capito.
+
+678
+00:33:16,173 --> 00:33:19,506
+A quale tavolo si è seduto?
+
+679
+00:33:19,529 --> 00:33:23,605
+Al tavolo vicino alla finestra in fondo.
+
+680
+00:33:23,628 --> 00:33:27,228
+Ho dimenticato qualcosa sul tavolo.
+
+681
+00:33:27,251 --> 00:33:31,384
+Cosa ha dimenticato?
+
+682
+00:33:31,407 --> 00:33:36,262
+Un ombrello pieghevole nero e una piccola borsa.
+
+683
+00:33:36,286 --> 00:33:39,087
+Mi dia più dettagli, per favore.
+
+684
+00:33:39,110 --> 00:33:42,577
+Che forma ha l’ombrello?
+
+685
+00:33:42,600 --> 00:33:46,733
+È un piccolo ombrello pieghevole nero.
+
+686
+00:33:46,756 --> 00:33:50,495
+Sul manico c’è un adesivo blu.
+
+687
+00:33:50,518 --> 00:33:54,252
+Che tipo di borsa è?
+
+688
+00:33:54,275 --> 00:33:57,935
+È una borsa di pelle marrone.
+
+689
+00:33:57,958 --> 00:34:00,451
+Ha due tasche.
+
+690
+00:34:00,474 --> 00:34:02,722
+Capito.
+
+691
+00:34:02,746 --> 00:34:06,583
+Vado a controllare nell’archivio in fondo.
+
+692
+00:34:06,606 --> 00:34:09,039
+Un attimo di pazienza, per favore.
+
+693
+00:34:09,062 --> 00:34:10,747
+Sì.
+
+694
+00:34:10,770 --> 00:34:13,041
+Piacere di lavorare insieme.
+
+695
+00:34:13,065 --> 00:34:15,498
+Mi scusi per l’attesa.
+
+696
+00:34:15,521 --> 00:34:17,795
+È questa?
+
+697
+00:34:17,818 --> 00:34:19,955
+Ah, sì!
+
+698
+00:34:19,979 --> 00:34:22,983
+È il mio ombrello e la mia borsa!
+
+699
+00:34:23,006 --> 00:34:25,740
+Grazie infinite!
+
+700
+00:34:25,763 --> 00:34:28,129
+Meglio così!
+
+701
+00:34:28,152 --> 00:34:32,219
+Per conferma, potrebbe dirmi il suo nome?
+
+702
+00:34:32,242 --> 00:34:34,861
+Tanaka.
+
+703
+00:34:34,885 --> 00:34:37,218
+Kenta Tanaka.
+
+704
+00:34:37,241 --> 00:34:39,808
+Il signor Tanaka, giusto?
+
+705
+00:34:39,831 --> 00:34:43,398
+Scriva il suo nome su questo foglio, per favore.
+
+706
+00:34:43,421 --> 00:34:45,354
+Sì.
+
+707
+00:34:45,377 --> 00:34:47,235
+Ho scritto.
+
+708
+00:34:47,259 --> 00:34:48,937
+Grazie!
+
+709
+00:34:48,961 --> 00:34:51,894
+Ecco, le restituisco i suoi oggetti.
+
+710
+00:34:51,917 --> 00:34:54,093
+Mi ha salvato!
+
+711
+00:34:54,117 --> 00:34:57,090
+Grazie davvero di cuore.
+
+712
+00:34:57,114 --> 00:35:01,651
+Prego, le auguriamo di tornare presto!
+
+713
+00:35:01,675 --> 00:35:03,175
+Scena 18: Richiesta di permesso per un importante esame
+
+714
+00:35:03,175 --> 00:35:05,655
+Buongiorno.
+
+715
+00:35:05,679 --> 00:35:09,279
+Ha un momento adesso?
+
+716
+00:35:09,302 --> 00:35:11,868
+Buongiorno.
+
+717
+00:35:11,891 --> 00:35:14,925
+Sì, certo, mi dica pure.
+
+718
+00:35:14,947 --> 00:35:18,200
+In realtà vorrei parlarle di una cosa.
+
+719
+00:35:18,224 --> 00:35:21,990
+Riguarda sabato prossimo.
+
+720
+00:35:22,013 --> 00:35:25,147
+Sabato prossimo, sì.
+
+721
+00:35:25,170 --> 00:35:27,446
+Di cosa si tratta?
+
+722
+00:35:27,469 --> 00:35:31,802
+Sabato prossimo c'è un esame.
+
+723
+00:35:31,825 --> 00:35:35,281
+È un esame importante dell'università.
+
+724
+00:35:35,305 --> 00:35:37,485
+Capisco.
+
+725
+00:35:37,508 --> 00:35:40,041
+Gli esami sono davvero impegnativi, eh?
+
+726
+00:35:40,064 --> 00:35:41,998
+Sì.
+
+727
+00:35:42,021 --> 00:35:46,319
+Per questo vorrei prendere un giorno libero dal lavoro.
+
+728
+00:35:46,342 --> 00:35:48,217
+Capito.
+
+729
+00:35:48,241 --> 00:35:51,974
+Io sabato ho tempo.
+
+730
+00:35:51,997 --> 00:35:54,164
+Davvero?
+
+731
+00:35:54,187 --> 00:35:58,477
+Potresti sostituirmi nel turno?
+
+732
+00:35:58,500 --> 00:36:01,700
+Sì, certo!
+
+733
+00:36:01,723 --> 00:36:04,132
+Lavorerò sabato.
+
+734
+00:36:04,156 --> 00:36:07,043
+Grazie infinite!
+
+735
+00:36:07,067 --> 00:36:09,400
+Mi aiuti davvero tanto.
+
+736
+00:36:09,423 --> 00:36:13,482
+No, figurati!
+
+737
+00:36:13,505 --> 00:36:16,605
+Buono studio per l'esame!
+
+738
+00:36:16,628 --> 00:36:19,638
+Sì, darò il massimo!
+
+739
+00:36:19,662 --> 00:36:24,596
+In cambio, domenica lavorerò io.
+
+740
+00:36:24,619 --> 00:36:27,285
+Domenica?
+
+741
+00:36:27,308 --> 00:36:31,075
+Il mio turno è domenica, giusto?
+
+742
+00:36:31,098 --> 00:36:32,751
+Sì.
+
+743
+00:36:32,775 --> 00:36:37,741
+Domenica lavoro io al posto tuo!
+
+744
+00:36:37,764 --> 00:36:39,531
+Grazie!
+
+745
+00:36:39,554 --> 00:36:42,887
+Allora, ti affido il turno di domenica.
+
+746
+00:36:42,910 --> 00:36:46,444
+Va bene, perfetto!
+
+747
+00:36:46,467 --> 00:36:49,435
+Ne parlo anche con il direttore.
+
+748
+00:36:49,458 --> 00:36:52,335
+Sì, grazie mille!
+
+749
+00:36:52,358 --> 00:36:55,158
+Grazie sempre per il tuo aiuto.
+
+750
+00:36:55,181 --> 00:36:59,582
+La prossima volta ti offro un buon succo!
+
+751
+00:36:59,605 --> 00:37:01,539
+Ahah, grazie!
+
+752
+00:37:01,562 --> 00:37:04,832
+Bene, finiamo la pausa.
+
+753
+00:37:04,855 --> 00:37:08,855
+Sì, torniamo al lavoro.
+
+754
+00:37:08,878 --> 00:37:10,378
+Scena 19: Le basi dell'accoglienza clienti
+
+755
+00:37:10,378 --> 00:37:12,231
+Mi scusi.
+
+756
+00:37:12,254 --> 00:37:14,295
+Mi scusi.
+
+757
+00:37:14,319 --> 00:37:17,253
+Sì, mi dica.
+
+758
+00:37:17,275 --> 00:37:22,076
+La ringraziamo per aver scelto il nostro locale.
+
+759
+00:37:22,100 --> 00:37:25,634
+Tra poco chiuderemo, sono le 20:00.
+
+760
+00:37:25,657 --> 00:37:29,057
+Ah, è già così tardi?
+
+761
+00:37:29,080 --> 00:37:31,113
+Capito.
+
+762
+00:37:31,136 --> 00:37:34,936
+Posso ritirare le tazze vuote?
+
+763
+00:37:34,959 --> 00:37:37,492
+Sì, grazie.
+
+764
+00:37:37,515 --> 00:37:39,963
+Questa tazza, giusto?
+
+765
+00:37:39,987 --> 00:37:41,787
+Grazie!
+
+766
+00:37:41,810 --> 00:37:44,410
+La ritiro subito.
+
+767
+00:37:44,433 --> 00:37:47,110
+Prenda pure il suo tempo per prepararsi.
+
+768
+00:37:47,134 --> 00:37:51,568
+Sì, sistemo subito le mie cose.
+
+769
+00:37:51,591 --> 00:37:54,558
+Il pagamento lo effettua alla cassa.
+
+770
+00:37:54,581 --> 00:37:58,514
+Oggi accettiamo contanti e carte di credito.
+
+771
+00:37:58,537 --> 00:38:01,196
+Pago con la carta.
+
+772
+00:38:01,219 --> 00:38:04,553
+Mi metto la giacca e vado alla cassa.
+
+773
+00:38:04,576 --> 00:38:06,176
+Perfetto.
+
+774
+00:38:06,199 --> 00:38:08,933
+L'aspetto alla cassa.
+
+775
+00:38:08,956 --> 00:38:10,723
+Mi scusi.
+
+776
+00:38:10,746 --> 00:38:12,963
+Vorrei pagare, per favore.
+
+777
+00:38:12,986 --> 00:38:16,961
+Sì, un caffè caldo e una fetta di torta, giusto?
+
+778
+00:38:16,985 --> 00:38:19,918
+In totale fanno 800 yen.
+
+779
+00:38:19,941 --> 00:38:21,874
+Con la carta, grazie.
+
+780
+00:38:21,897 --> 00:38:24,331
+Prendo la sua carta.
+
+781
+00:38:24,354 --> 00:38:27,052
+Pagamento in un'unica soluzione?
+
+782
+00:38:27,076 --> 00:38:30,443
+Sì, in un'unica soluzione.
+
+783
+00:38:30,467 --> 00:38:33,345
+Ecco la ricevuta e la sua carta.
+
+784
+00:38:33,368 --> 00:38:35,535
+La prego di controllare.
+
+785
+00:38:35,558 --> 00:38:37,326
+Grazie!
+
+786
+00:38:37,349 --> 00:38:40,205
+Era un caffè davvero delizioso.
+
+787
+00:38:40,229 --> 00:38:41,766
+Grazie!
+
+788
+00:38:41,790 --> 00:38:44,757
+Sono felice che lo dica.
+
+789
+00:38:44,780 --> 00:38:48,980
+Stasera fa molto freddo, quindi faccia attenzione.
+
+790
+00:38:49,003 --> 00:38:50,848
+Grazie!
+
+791
+00:38:50,871 --> 00:38:53,038
+Tornerò presto.
+
+792
+00:38:53,061 --> 00:38:54,718
+Grazie!
+
+793
+00:38:54,742 --> 00:38:58,775
+Attendiamo con sincero piacere il suo prossimo ritorno.
+
+794
+00:38:58,798 --> 00:39:01,365
+Le auguro una buona serata.
+
+795
+00:39:01,388 --> 00:39:04,032
+Le auguro una buona serata.
+
+796
+00:39:04,055 --> 00:39:05,555
+Scena 20: Chiusura e conteggio degli incassi / Chiusura e calcolo delle vendite di oggi
+
+797
+00:39:05,555 --> 00:39:08,394
+Grazie per il duro lavoro di oggi.
+
+798
+00:39:08,417 --> 00:39:11,550
+Ha chiuso a chiave la porta del negozio?
+
+799
+00:39:11,573 --> 00:39:14,252
+Sì, l'ho chiusa.
+
+800
+00:39:14,276 --> 00:39:18,409
+Ho portato dentro anche l'insegna esterna.
+
+801
+00:39:18,432 --> 00:39:20,286
+Grazie!
+
+802
+00:39:20,310 --> 00:39:24,545
+Allora, contiamo i soldi della cassa.
+
+803
+00:39:24,568 --> 00:39:28,020
+Sì, li conto io.
+
+804
+00:39:28,044 --> 00:39:31,977
+Ci sono venti banconote da mille yen.
+
+805
+00:39:32,000 --> 00:39:35,659
+Quante banconote da cinquemila yen ci sono?
+
+806
+00:39:35,683 --> 00:39:39,250
+Ci sono quattro banconote da cinquemila yen.
+
+807
+00:39:39,273 --> 00:39:43,075
+Le banconote da diecimila yen sono sei, giusto?
+
+808
+00:39:43,098 --> 00:39:45,532
+Ho contato anche gli spiccioli.
+
+809
+00:39:45,555 --> 00:39:48,488
+A quanto ammonta l'incasso di oggi?
+
+810
+00:39:48,511 --> 00:39:51,678
+Sì, centomila yen.
+
+811
+00:39:51,701 --> 00:39:54,120
+Fantastico!
+
+812
+00:39:54,143 --> 00:39:57,279
+Corrisponde al totale della cassa.
+
+813
+00:39:57,302 --> 00:39:59,240
+Meglio così!
+
+814
+00:39:59,264 --> 00:40:02,330
+Ora portiamo fuori la spazzatura?
+
+815
+00:40:02,353 --> 00:40:04,410
+Sì, grazie.
+
+816
+00:40:04,434 --> 00:40:07,967
+Raggruppi i sacchi della spazzatura in cucina, per favore.
+
+817
+00:40:07,990 --> 00:40:09,842
+Capito.
+
+818
+00:40:09,865 --> 00:40:13,151
+Li porto nel deposito dietro il locale.
+
+819
+00:40:13,174 --> 00:40:16,642
+Io scrivo sul quaderno.
+
+820
+00:40:16,666 --> 00:40:20,099
+Avviso lo staff per domani mattina.
+
+821
+00:40:20,122 --> 00:40:22,356
+Cosa scrive?
+
+822
+00:40:22,380 --> 00:40:26,350
+Scrivo che il latte sta per finire.
+
+823
+00:40:26,374 --> 00:40:32,007
+Dica di comprare del latte nuovo domani mattina.
+
+824
+00:40:32,030 --> 00:40:34,597
+È molto importante.
+
+825
+00:40:34,620 --> 00:40:37,293
+Ho finito di portare fuori la spazzatura.
+
+826
+00:40:37,316 --> 00:40:40,329
+Spenga le luci e l'aria condizionata, per favore.
+
+827
+00:40:40,353 --> 00:40:42,753
+Sì, ho spento tutto.
+
+828
+00:40:42,776 --> 00:40:45,634
+Non ha dimenticato nulla?
+
+829
+00:40:45,657 --> 00:40:48,590
+Sì, è tutto a posto.
+
+830
+00:40:48,613 --> 00:40:50,981
+Allora, andiamo a casa.
+
+831
+00:40:51,005 --> 00:40:54,343
+Grazie per la giornata di oggi.
+
+832
+00:40:54,366 --> 00:40:56,700
+Grazie per il duro lavoro!
+
+833
+00:40:56,723 --> 00:40:59,656
+Vado avanti, arrivederci.

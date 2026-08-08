@@ -1,0 +1,1403 @@
+1
+00:00:00,000 --> 00:00:10,008
+Worum geht es in diesem Video? Ein Gespräch im Krankenhaus.
+
+2
+00:00:10,008 --> 00:00:11,508
+Szene 1: Erster Besuch in der Inneren Medizin
+
+3
+00:00:11,508 --> 00:00:13,141
+Guten Tag.
+
+4
+00:00:13,164 --> 00:00:15,131
+Guten Tag.
+
+5
+00:00:15,154 --> 00:00:18,521
+Sind Sie heute zum ersten Mal hier?
+
+6
+00:00:18,544 --> 00:00:21,763
+Ja, das ist mein erstes Mal.
+
+7
+00:00:21,786 --> 00:00:24,034
+Was führt Sie zu uns?
+
+8
+00:00:24,057 --> 00:00:27,591
+Ich habe starke Bauchschmerzen.
+
+9
+00:00:27,614 --> 00:00:30,428
+Das tut mir leid zu hören.
+
+10
+00:00:30,451 --> 00:00:33,539
+Ja, es tut wirklich weh.
+
+11
+00:00:33,563 --> 00:00:36,412
+Haben Sie Ihre Versicherungskarte dabei?
+
+12
+00:00:36,435 --> 00:00:39,002
+Ja, die habe ich.
+
+13
+00:00:39,025 --> 00:00:40,834
+Hier bitte.
+
+14
+00:00:40,858 --> 00:00:43,064
+Vielen Dank.
+
+15
+00:00:43,088 --> 00:00:46,024
+Welche Abteilung ist das hier?
+
+16
+00:00:46,047 --> 00:00:48,696
+Das ist die Innere Medizin.
+
+17
+00:00:48,720 --> 00:00:51,086
+Gut zu wissen.
+
+18
+00:00:51,109 --> 00:00:53,607
+Dort drüben sind Stühle.
+
+19
+00:00:53,631 --> 00:00:56,564
+Ah, dort, ja.
+
+20
+00:00:56,587 --> 00:00:59,354
+Bitte setzen Sie sich dorthin.
+
+21
+00:00:59,377 --> 00:01:01,433
+Alles klar.
+
+22
+00:01:01,456 --> 00:01:04,140
+Wie lange muss ich warten?
+
+23
+00:01:04,163 --> 00:01:06,822
+Etwa 30 Minuten.
+
+24
+00:01:06,845 --> 00:01:08,779
+Alles klar.
+
+25
+00:01:08,802 --> 00:01:10,468
+Ich warte.
+
+26
+00:01:10,491 --> 00:01:13,058
+Die Toilette ist dort drüben.
+
+27
+00:01:13,082 --> 00:01:15,049
+Vielen Dank.
+
+28
+00:01:15,072 --> 00:01:17,805
+Fühlen Sie sich unwohl?
+
+29
+00:01:17,828 --> 00:01:20,628
+Ein bisschen.
+
+30
+00:01:20,651 --> 00:01:23,251
+Möchten Sie sich auf einer Liege ausruhen?
+
+31
+00:01:23,274 --> 00:01:26,041
+Nein, danke, es geht schon.
+
+32
+00:01:26,064 --> 00:01:28,197
+Alles klar.
+
+33
+00:01:28,220 --> 00:01:37,229
+Das Skript zu diesem Video können Sie in der Beschreibung und im Top-Kommentar herunterladen. Bitte hinterlassen Sie vor dem Download einen Kommentar.
+
+34
+00:01:37,229 --> 00:01:38,729
+Szene 2: Ausfüllen des Anamnesebogens
+
+35
+00:01:38,729 --> 00:01:40,463
+Entschuldigung.
+
+36
+00:01:40,487 --> 00:01:42,554
+Ja, bitte?
+
+37
+00:01:42,577 --> 00:01:44,977
+Könnten Sie das bitte ausfüllen?
+
+38
+00:01:45,000 --> 00:01:47,856
+Das ist der Anamnesebogen, richtig?
+
+39
+00:01:47,880 --> 00:01:50,128
+Ja, genau.
+
+40
+00:01:50,151 --> 00:01:52,151
+Wo soll ich schreiben?
+
+41
+00:01:52,174 --> 00:01:55,214
+Tragen Sie hier bitte Ihren Namen ein.
+
+42
+00:01:55,237 --> 00:01:57,332
+Alles klar, verstanden.
+
+43
+00:01:57,356 --> 00:02:00,390
+Hier bitte Ihre Adresse eintragen.
+
+44
+00:02:00,413 --> 00:02:03,148
+Soll ich auch meine Telefonnummer angeben?
+
+45
+00:02:03,171 --> 00:02:05,455
+Ja, bitte tragen Sie sie ein.
+
+46
+00:02:05,479 --> 00:02:07,129
+Alles klar.
+
+47
+00:02:07,153 --> 00:02:09,953
+Haben Sie heute Fieber?
+
+48
+00:02:09,976 --> 00:02:12,742
+Ja, ein wenig.
+
+49
+00:02:12,765 --> 00:02:14,650
+Wie hoch ist es?
+
+50
+00:02:14,674 --> 00:02:17,107
+37 Grad.
+
+51
+00:02:17,130 --> 00:02:19,097
+Alles klar.
+
+52
+00:02:19,120 --> 00:02:21,402
+Haben Sie Allergien?
+
+53
+00:02:21,425 --> 00:02:23,630
+Nein, keine.
+
+54
+00:02:23,654 --> 00:02:26,551
+Nehmen Sie derzeit Medikamente ein?
+
+55
+00:02:26,575 --> 00:02:29,210
+Nein, ich nehme keine.
+
+56
+00:02:29,234 --> 00:02:30,834
+Alles klar.
+
+57
+00:02:30,857 --> 00:02:32,590
+Ist das so in Ordnung?
+
+58
+00:02:32,613 --> 00:02:35,046
+Ja, das ist in Ordnung.
+
+59
+00:02:35,069 --> 00:02:36,715
+Vielen Dank.
+
+60
+00:02:36,739 --> 00:02:39,106
+Bitte warten Sie dort drüben.
+
+61
+00:02:39,129 --> 00:02:41,262
+Alles klar, verstanden.
+
+62
+00:02:41,285 --> 00:02:43,303
+Ich rufe Sie gleich.
+
+63
+00:02:43,327 --> 00:02:45,011
+Bitte sehr.
+
+64
+00:02:45,034 --> 00:02:52,139
+Der Link zur Website, auf der du die heutige Videolektion wiederholen kannst, findest du in der Beschreibung und im Top-Kommentar. *Hinweis: Die Website kann ohne Vorankündigung gelöscht werden.
+
+65
+00:02:52,139 --> 00:02:53,639
+Szene 3: Wie man eine ärztliche Untersuchung durchführt / So läuft eine medizinische Untersuchung ab
+
+66
+00:02:53,639 --> 00:02:56,573
+Kommen Sie bitte herein.
+
+67
+00:02:56,596 --> 00:02:58,762
+Entschuldigung, darf ich eintreten?
+
+68
+00:02:58,785 --> 00:03:01,319
+Bitte setzen Sie sich.
+
+69
+00:03:01,342 --> 00:03:04,615
+Ja, vielen Dank.
+
+70
+00:03:04,638 --> 00:03:07,512
+Was führt Sie heute zu mir?
+
+71
+00:03:07,536 --> 00:03:10,417
+Ich habe Bauchschmerzen.
+
+72
+00:03:10,440 --> 00:03:12,709
+Wo tut es weh?
+
+73
+00:03:12,733 --> 00:03:15,099
+Hier.
+
+74
+00:03:15,122 --> 00:03:17,161
+Rechts?
+
+75
+00:03:17,185 --> 00:03:19,364
+Links?
+
+76
+00:03:19,388 --> 00:03:21,521
+Rechts.
+
+77
+00:03:21,544 --> 00:03:24,028
+Es tut rechts weh.
+
+78
+00:03:24,051 --> 00:03:25,985
+Alles klar.
+
+79
+00:03:26,008 --> 00:03:28,696
+Tut es die ganze Zeit weh?
+
+80
+00:03:28,719 --> 00:03:31,052
+Haben Sie auch Fieber?
+
+81
+00:03:31,075 --> 00:03:34,928
+Ja, ein wenig.
+
+82
+00:03:34,952 --> 00:03:37,319
+Haben Sie Kopfschmerzen?
+
+83
+00:03:37,342 --> 00:03:40,945
+Nein, keine Kopfschmerzen.
+
+84
+00:03:40,969 --> 00:03:43,067
+Wie ist es mit dem Hals?
+
+85
+00:03:43,090 --> 00:03:46,456
+Der Hals tut nicht weh.
+
+86
+00:03:46,479 --> 00:03:48,547
+Husten Sie?
+
+87
+00:03:48,570 --> 00:03:51,441
+Nein, ich huste nicht.
+
+88
+00:03:51,465 --> 00:03:54,665
+Ich schaue mir kurz Ihren Bauch an.
+
+89
+00:03:54,688 --> 00:03:57,522
+Ja, bitte.
+
+90
+00:03:57,545 --> 00:04:00,044
+Tut es hier weh?
+
+91
+00:04:00,067 --> 00:04:03,401
+Ja, es tut wirklich weh.
+
+92
+00:04:03,424 --> 00:04:05,590
+Wie ist es hier?
+
+93
+00:04:05,613 --> 00:04:08,468
+Da tut es nicht weh.
+
+94
+00:04:08,492 --> 00:04:10,859
+Ist Ihnen übel?
+
+95
+00:04:10,882 --> 00:04:14,090
+Ja, ein wenig.
+
+96
+00:04:14,113 --> 00:04:16,651
+Haben Sie schon etwas gegessen?
+
+97
+00:04:16,675 --> 00:04:20,108
+Nein, ich habe nichts gegessen.
+
+98
+00:04:20,131 --> 00:04:22,269
+Alles klar.
+
+99
+00:04:22,293 --> 00:04:24,503
+Ist es eine schlimme Krankheit?
+
+100
+00:04:24,526 --> 00:04:27,202
+Keine Sorge, alles wird gut.
+
+101
+00:04:27,226 --> 00:04:28,726
+Szene 4: Ursachenforschung bei Bauchschmerzen / Die Ursache der Bauchschmerzen ermitteln
+
+102
+00:04:28,726 --> 00:04:31,865
+Seit wann haben Sie Bauchschmerzen?
+
+103
+00:04:31,888 --> 00:04:34,688
+Seit gestern.
+
+104
+00:04:34,711 --> 00:04:36,798
+Seit gestern Morgen?
+
+105
+00:04:36,822 --> 00:04:40,026
+Nein, seit gestern Abend.
+
+106
+00:04:40,050 --> 00:04:44,050
+Was haben Sie gestern Abend gegessen?
+
+107
+00:04:44,073 --> 00:04:46,560
+Ich habe Fisch gegessen.
+
+108
+00:04:46,583 --> 00:04:49,231
+Was für ein Fisch war das?
+
+109
+00:04:49,255 --> 00:04:51,934
+Rohfisch.
+
+110
+00:04:51,957 --> 00:04:54,124
+Sashimi?
+
+111
+00:04:54,147 --> 00:04:57,680
+Ja, ich habe Sashimi gegessen.
+
+112
+00:04:57,703 --> 00:05:00,270
+Wo haben Sie es gegessen?
+
+113
+00:05:00,293 --> 00:05:02,860
+In einem Restaurant.
+
+114
+00:05:02,883 --> 00:05:05,319
+Mit wem waren Sie dort?
+
+115
+00:05:05,342 --> 00:05:08,316
+Ich habe mit einem Freund gegessen.
+
+116
+00:05:08,340 --> 00:05:11,274
+Hat dein Freund auch Bauchschmerzen?
+
+117
+00:05:11,297 --> 00:05:14,750
+Ja, er sagte, es tut weh.
+
+118
+00:05:14,774 --> 00:05:16,645
+Verstehe.
+
+119
+00:05:16,668 --> 00:05:19,269
+War es eine Lebensmittelvergiftung?
+
+120
+00:05:19,293 --> 00:05:22,751
+Das ist sehr wahrscheinlich.
+
+121
+00:05:22,775 --> 00:05:25,808
+Ich konnte vor Schmerzen nicht schlafen.
+
+122
+00:05:25,831 --> 00:05:28,714
+Das muss schlimm gewesen sein.
+
+123
+00:05:28,738 --> 00:05:32,138
+Ja, es war wirklich schlimm.
+
+124
+00:05:32,161 --> 00:05:35,528
+Haben Sie heute Morgen schon Medikamente genommen?
+
+125
+00:05:35,551 --> 00:05:39,084
+Nein, ich habe nichts genommen.
+
+126
+00:05:39,107 --> 00:05:42,590
+Medikamente vom Arzt sind am besten.
+
+127
+00:05:42,613 --> 00:05:45,880
+Ja, deshalb bin ich hier.
+
+128
+00:05:45,903 --> 00:05:48,762
+Sind die Schmerzen die ganze Zeit gleich?
+
+129
+00:05:48,785 --> 00:05:52,719
+Nein, manchmal ist es sehr schlimm.
+
+130
+00:05:52,742 --> 00:05:55,576
+Was machen Sie, wenn es wehtut?
+
+131
+00:05:55,599 --> 00:05:58,199
+Ich sitze einfach still da.
+
+132
+00:05:58,222 --> 00:05:59,990
+Alles klar.
+
+133
+00:06:00,014 --> 00:06:02,614
+Ich möchte schnell wieder gesund werden.
+
+134
+00:06:02,637 --> 00:06:04,137
+Szene 5: Die Bedeutung der Flüssigkeitszufuhr
+
+135
+00:06:04,137 --> 00:06:07,828
+Haben Sie heute schon Wasser getrunken?
+
+136
+00:06:07,851 --> 00:06:10,863
+Ja, ein bisschen.
+
+137
+00:06:10,887 --> 00:06:13,572
+Wie viel haben Sie getrunken?
+
+138
+00:06:13,595 --> 00:06:16,061
+Ein Glas.
+
+139
+00:06:16,084 --> 00:06:18,939
+Das ist zu wenig.
+
+140
+00:06:18,963 --> 00:06:21,529
+Ich habe Übelkeit.
+
+141
+00:06:21,552 --> 00:06:24,986
+Aber Wasser ist wichtig.
+
+142
+00:06:25,009 --> 00:06:27,542
+Alles klar, verstanden.
+
+143
+00:06:27,565 --> 00:06:30,576
+Sportgetränke sind auch gut.
+
+144
+00:06:30,599 --> 00:06:33,233
+Die gibt es im Convenience Store, oder?
+
+145
+00:06:33,256 --> 00:06:36,325
+Ja, kaufen Sie welche auf dem Heimweg.
+
+146
+00:06:36,348 --> 00:06:39,082
+Möchten Sie kaltes Wasser?
+
+147
+00:06:39,106 --> 00:06:43,246
+Nein, lieber warmen Tee.
+
+148
+00:06:43,269 --> 00:06:45,644
+Warme Getränke also.
+
+149
+00:06:45,668 --> 00:06:49,469
+Ja, halten Sie Ihren Bauch warm.
+
+150
+00:06:49,492 --> 00:06:52,125
+Was möchten Sie essen?
+
+151
+00:06:52,148 --> 00:06:54,548
+Udon-Nudeln wären gut.
+
+152
+00:06:54,571 --> 00:06:57,105
+Oder vielleicht Reisbrei?
+
+153
+00:06:57,128 --> 00:07:00,928
+Ja, Reisbrei ist auch sehr gut.
+
+154
+00:07:00,951 --> 00:07:03,628
+Darf ich Fleisch essen?
+
+155
+00:07:03,651 --> 00:07:07,384
+Nein, heute bitte nichts davon.
+
+156
+00:07:07,407 --> 00:07:09,214
+Alles klar.
+
+157
+00:07:09,238 --> 00:07:11,110
+Ich halte mich zurück.
+
+158
+00:07:11,133 --> 00:07:14,010
+Trinken Sie heute auch keinen Kaffee.
+
+159
+00:07:14,034 --> 00:07:16,467
+Nein, ich trinke nichts.
+
+160
+00:07:16,490 --> 00:07:19,690
+Scharfes Essen ist auch nicht gut.
+
+161
+00:07:19,713 --> 00:07:21,212
+Alles klar.
+
+162
+00:07:21,235 --> 00:07:24,171
+Essen Sie etwas, das leicht verdaulich ist.
+
+163
+00:07:24,195 --> 00:07:26,884
+Ja, ich passe auf.
+
+164
+00:07:26,908 --> 00:07:30,241
+Es ist auch wichtig, sich auszuruhen.
+
+165
+00:07:30,264 --> 00:07:33,102
+Ja, ich schlafe viel.
+
+166
+00:07:33,125 --> 00:07:36,059
+Das ist die beste Medizin.
+
+167
+00:07:36,082 --> 00:07:38,363
+Vielen Dank.
+
+168
+00:07:38,386 --> 00:07:39,886
+Szene 6: Bluttest (Injektion)
+
+169
+00:07:39,886 --> 00:07:43,379
+Lassen Sie uns einen kleinen Bluttest machen.
+
+170
+00:07:43,403 --> 00:07:45,136
+Eine Spritze?
+
+171
+00:07:45,159 --> 00:07:47,597
+Ja, genau.
+
+172
+00:07:47,621 --> 00:07:49,492
+Tut das weh?
+
+173
+00:07:49,516 --> 00:07:52,551
+Es piekst nur ein bisschen.
+
+174
+00:07:52,574 --> 00:07:54,446
+Alles klar.
+
+175
+00:07:54,469 --> 00:07:56,926
+Bitte krempeln Sie den Ärmel hoch.
+
+176
+00:07:56,950 --> 00:07:59,796
+So, ist das in Ordnung?
+
+177
+00:07:59,819 --> 00:08:02,264
+Ja, das ist in Ordnung.
+
+178
+00:08:02,287 --> 00:08:04,864
+Ich habe ein bisschen Angst.
+
+179
+00:08:04,888 --> 00:08:07,021
+Keine Sorge, alles wird gut.
+
+180
+00:08:07,044 --> 00:08:08,851
+Es ist gleich vorbei.
+
+181
+00:08:08,875 --> 00:08:11,120
+Ja, bitte.
+
+182
+00:08:11,144 --> 00:08:13,642
+So, fertig.
+
+183
+00:08:13,666 --> 00:08:16,137
+Ist es schon vorbei?
+
+184
+00:08:16,160 --> 00:08:18,694
+Ja, das ging schnell, nicht wahr?
+
+185
+00:08:18,717 --> 00:08:22,050
+Ja, es hat gar nicht wehgetan.
+
+186
+00:08:22,073 --> 00:08:25,274
+Als Nächstes machen wir einen Ultraschall.
+
+187
+00:08:25,297 --> 00:08:27,097
+Ein Ultraschall?
+
+188
+00:08:27,120 --> 00:08:30,693
+Ja, wir schauen uns Ihren Bauch an.
+
+189
+00:08:30,717 --> 00:08:32,390
+Alles klar.
+
+190
+00:08:32,413 --> 00:08:34,698
+Bitte legen Sie sich aufs Bett.
+
+191
+00:08:34,721 --> 00:08:37,013
+Okay, ich lege mich hin.
+
+192
+00:08:37,037 --> 00:08:39,452
+Bitte machen Sie Ihren Bauch frei.
+
+193
+00:08:39,475 --> 00:08:41,810
+So, fertig.
+
+194
+00:08:41,833 --> 00:08:44,433
+Ich trage jetzt etwas Gel auf.
+
+195
+00:08:44,456 --> 00:08:47,256
+Das ist ein bisschen kalt.
+
+196
+00:08:47,279 --> 00:08:50,046
+Ja, es ist gleich vorbei.
+
+197
+00:08:50,069 --> 00:08:53,002
+Gibt es etwas Schlimmes?
+
+198
+00:08:53,025 --> 00:08:55,720
+Nein, alles in Ordnung.
+
+199
+00:08:55,744 --> 00:08:58,310
+Das beruhigt mich.
+
+200
+00:08:58,333 --> 00:09:00,825
+Es handelt sich um eine leichte Lebensmittelvergiftung.
+
+201
+00:09:00,849 --> 00:09:02,706
+Alles klar.
+
+202
+00:09:02,730 --> 00:09:04,230
+Szene 7: Baden und Alkoholkonsum / Einschränkungen beim Baden und Alkohol
+
+203
+00:09:04,230 --> 00:09:08,463
+Bitte baden Sie heute nicht.
+
+204
+00:09:08,486 --> 00:09:12,286
+Was, Baden ist nicht erlaubt?
+
+205
+00:09:12,309 --> 00:09:16,443
+Ja, bitte duschen Sie nur.
+
+206
+00:09:16,466 --> 00:09:18,266
+Alles klar.
+
+207
+00:09:18,289 --> 00:09:20,922
+Ich werde duschen.
+
+208
+00:09:20,945 --> 00:09:23,983
+Aber nicht zu lange.
+
+209
+00:09:24,007 --> 00:09:26,696
+Nur kurz, richtig?
+
+210
+00:09:26,719 --> 00:09:29,416
+Ja, genau.
+
+211
+00:09:29,440 --> 00:09:32,054
+Darf ich Alkohol trinken?
+
+212
+00:09:32,077 --> 00:09:35,346
+Auf keinen Fall.
+
+213
+00:09:35,370 --> 00:09:38,003
+Nicht einmal ein bisschen?
+
+214
+00:09:38,026 --> 00:09:41,896
+Nein, Sie nehmen doch Medikamente.
+
+215
+00:09:41,919 --> 00:09:43,919
+Alles klar.
+
+216
+00:09:43,942 --> 00:09:46,475
+Ich werde keinen Alkohol trinken.
+
+217
+00:09:46,498 --> 00:09:49,732
+Anstrengende Bewegung ist ebenfalls nicht erlaubt.
+
+218
+00:09:49,755 --> 00:09:52,488
+Darf ich ins Fitnessstudio gehen?
+
+219
+00:09:52,511 --> 00:09:55,809
+Nein, das dürfen Sie nicht.
+
+220
+00:09:55,832 --> 00:09:58,199
+Auch nicht joggen?
+
+221
+00:09:58,222 --> 00:10:02,028
+Nein, bleiben Sie bitte zu Hause und ruhen Sie sich aus.
+
+222
+00:10:02,051 --> 00:10:03,947
+Alles klar.
+
+223
+00:10:03,970 --> 00:10:06,136
+Ich bleibe zu Hause und ruhe mich aus.
+
+224
+00:10:06,159 --> 00:10:09,293
+Und bitte nicht zu lange aufbleiben.
+
+225
+00:10:09,316 --> 00:10:11,933
+Um wie viel Uhr soll ich schlafen gehen?
+
+226
+00:10:11,956 --> 00:10:14,835
+Gehen Sie bitte um 22 Uhr ins Bett.
+
+227
+00:10:14,858 --> 00:10:16,910
+Das ist aber früh.
+
+228
+00:10:16,933 --> 00:10:19,867
+Das dient Ihrer Erholung.
+
+229
+00:10:19,890 --> 00:10:21,944
+Alles klar.
+
+230
+00:10:21,968 --> 00:10:23,901
+Ich gehe früh schlafen.
+
+231
+00:10:23,924 --> 00:10:26,967
+Und schauen Sie nicht zu viel aufs Handy.
+
+232
+00:10:26,991 --> 00:10:29,666
+Liegt es daran, dass Ihre Augen müde sind?
+
+233
+00:10:29,689 --> 00:10:31,363
+Ja.
+
+234
+00:10:31,386 --> 00:10:34,021
+Ich kann schlecht schlafen.
+
+235
+00:10:34,044 --> 00:10:36,011
+Alles klar.
+
+236
+00:10:36,034 --> 00:10:38,001
+Ich werde darauf achten.
+
+237
+00:10:38,024 --> 00:10:40,990
+Bitte halten Sie sich daran, ja?
+
+238
+00:10:41,013 --> 00:10:42,347
+Ja.
+
+239
+00:10:42,370 --> 00:10:44,660
+Ich halte mich bestimmt daran.
+
+240
+00:10:44,684 --> 00:10:47,537
+Ich hoffe, es geht Ihnen bald besser.
+
+241
+00:10:47,560 --> 00:10:49,975
+Vielen Dank.
+
+242
+00:10:49,999 --> 00:10:51,499
+Szene 8: Erholung und Gesundheitsmanagement
+
+243
+00:10:51,499 --> 00:10:55,032
+Haben Sie noch Fragen?
+
+244
+00:10:55,055 --> 00:10:58,667
+Ja, ich habe ein paar Fragen.
+
+245
+00:10:58,690 --> 00:11:00,301
+Was denn?
+
+246
+00:11:00,325 --> 00:11:04,745
+Darf ich morgen zur Arbeit gehen?
+
+247
+00:11:04,768 --> 00:11:08,701
+Sie sollten sich morgen lieber ausruhen.
+
+248
+00:11:08,724 --> 00:11:11,779
+Muss ich mich ausruhen?
+
+249
+00:11:11,803 --> 00:11:15,836
+Ja, Sie haben doch noch Bauchschmerzen, oder?
+
+250
+00:11:15,859 --> 00:11:19,193
+Ja, es tut wirklich weh.
+
+251
+00:11:19,216 --> 00:11:23,056
+Deshalb ruhen Sie sich bitte gut aus.
+
+252
+00:11:23,079 --> 00:11:25,246
+Alles klar.
+
+253
+00:11:25,269 --> 00:11:27,602
+Ich rufe in der Firma an.
+
+254
+00:11:27,625 --> 00:11:31,658
+Übermorgen dürfen Sie wieder hingehen.
+
+255
+00:11:31,681 --> 00:11:33,495
+Gut zu wissen.
+
+256
+00:11:33,519 --> 00:11:36,895
+Aber überanstrengen Sie sich nicht.
+
+257
+00:11:36,919 --> 00:11:40,174
+Ja, ich passe auf.
+
+258
+00:11:40,198 --> 00:11:43,198
+Haben Sie noch weitere Fragen?
+
+259
+00:11:43,221 --> 00:11:47,864
+Muss ich die Medikamente mit Wasser einnehmen?
+
+260
+00:11:47,887 --> 00:11:53,170
+Ja, nehmen Sie sie bitte mit Wasser oder warmem Tee ein.
+
+261
+00:11:53,193 --> 00:11:56,427
+Darf ich sie nicht mit Tee einnehmen?
+
+262
+00:11:56,450 --> 00:11:59,783
+Tee ist nicht so gut.
+
+263
+00:11:59,806 --> 00:12:02,173
+Wie ist es mit Saft?
+
+264
+00:12:02,196 --> 00:12:05,162
+Saft geht auch nicht.
+
+265
+00:12:05,185 --> 00:12:06,785
+Alles klar.
+
+266
+00:12:06,808 --> 00:12:09,085
+Ich nehme sie mit Wasser ein.
+
+267
+00:12:09,109 --> 00:12:11,525
+Ist sonst noch etwas unklar?
+
+268
+00:12:11,548 --> 00:12:14,317
+Darf ich noch eine Frage stellen?
+
+269
+00:12:14,341 --> 00:12:17,007
+Ja, bitte?
+
+270
+00:12:17,030 --> 00:12:20,248
+Wann soll ich das nächste Mal kommen?
+
+271
+00:12:20,272 --> 00:12:23,677
+Kommen Sie bitte, wenn die Medikamente aufgebraucht sind.
+
+272
+00:12:23,700 --> 00:12:26,467
+Für wie viele Tage bekomme ich sie?
+
+273
+00:12:26,490 --> 00:12:29,373
+Ich gebe Ihnen Medikamente für drei Tage.
+
+274
+00:12:29,396 --> 00:12:31,330
+Alles klar.
+
+275
+00:12:31,353 --> 00:12:35,119
+Wenn die Schmerzen weg sind, müssen Sie nicht mehr kommen.
+
+276
+00:12:35,142 --> 00:12:36,952
+Alles klar.
+
+277
+00:12:36,976 --> 00:12:39,109
+Vielen Dank.
+
+278
+00:12:39,132 --> 00:12:40,632
+Szene 9: Untersuchung und Bezahlung
+
+279
+00:12:40,632 --> 00:12:43,199
+Das war es dann für heute.
+
+280
+00:12:43,222 --> 00:12:45,289
+Vielen Dank.
+
+281
+00:12:45,312 --> 00:12:48,192
+Ich mache jetzt die Abrechnung.
+
+282
+00:12:48,215 --> 00:12:51,149
+Ja, wie viel macht das?
+
+283
+00:12:51,172 --> 00:12:55,505
+Die heutige Untersuchung kostet 1500 Yen.
+
+284
+00:12:55,528 --> 00:12:58,936
+Kann ich mit Kreditkarte zahlen?
+
+285
+00:12:58,959 --> 00:13:01,526
+Ja, das geht.
+
+286
+00:13:01,549 --> 00:13:04,959
+Dann zahle ich mit Karte.
+
+287
+00:13:04,983 --> 00:13:06,716
+Vielen Dank.
+
+288
+00:13:06,739 --> 00:13:10,586
+Wo bekomme ich die Medikamente?
+
+289
+00:13:10,609 --> 00:13:14,676
+Außerhalb dieses Krankenhauses gibt es eine Apotheke.
+
+290
+00:13:14,699 --> 00:13:16,504
+Wo ist die?
+
+291
+00:13:16,527 --> 00:13:20,494
+Gehen Sie aus dem Krankenhaus raus und biegen Sie rechts ab.
+
+292
+00:13:20,517 --> 00:13:22,317
+Rechts, richtig?
+
+293
+00:13:22,341 --> 00:13:26,559
+Ja, dort gibt es eine große Apotheke.
+
+294
+00:13:26,582 --> 00:13:28,516
+Alles klar.
+
+295
+00:13:28,539 --> 00:13:31,205
+Hier ist das Rezept.
+
+296
+00:13:31,228 --> 00:13:33,295
+Ein Rezept, richtig?
+
+297
+00:13:33,318 --> 00:13:37,173
+Ja, geben Sie das bitte in der Apotheke ab.
+
+298
+00:13:37,197 --> 00:13:39,175
+Alles klar.
+
+299
+00:13:39,198 --> 00:13:42,210
+Ihren Behandlungsschein gebe ich Ihnen zurück.
+
+300
+00:13:42,234 --> 00:13:43,967
+Vielen Dank.
+
+301
+00:13:43,990 --> 00:13:47,285
+Wie möchten Sie den nächsten Termin vereinbaren?
+
+302
+00:13:47,309 --> 00:13:52,042
+Der Arzt sagte, wenn die Medikamente aufgebraucht sind.
+
+303
+00:13:52,065 --> 00:13:55,102
+Dann also in drei Tagen.
+
+304
+00:13:55,126 --> 00:13:57,759
+Am Freitag, bitte.
+
+305
+00:13:57,782 --> 00:14:00,865
+Welche Uhrzeit am Freitag passt Ihnen?
+
+306
+00:14:00,889 --> 00:14:03,889
+Wie wäre es mit 15 Uhr nachmittags?
+
+307
+00:14:03,912 --> 00:14:06,770
+Ja, 15 Uhr nachmittags.
+
+308
+00:14:06,794 --> 00:14:08,727
+In Ordnung.
+
+309
+00:14:08,750 --> 00:14:10,204
+Bitte sehr.
+
+310
+00:14:10,228 --> 00:14:12,318
+Gute Besserung!
+
+311
+00:14:12,341 --> 00:14:14,474
+Vielen Dank.
+
+312
+00:14:14,497 --> 00:14:15,997
+Szene 10: Abholung von verschreibungspflichtigen Medikamenten / So erhalten Sie Ihre verschriebenen Medikamente
+
+313
+00:14:15,997 --> 00:14:17,865
+Guten Tag.
+
+314
+00:14:17,889 --> 00:14:21,022
+Mein Rezept, bitte.
+
+315
+00:14:21,045 --> 00:14:22,900
+Guten Tag.
+
+316
+00:14:22,924 --> 00:14:25,124
+Hier bitte.
+
+317
+00:14:25,147 --> 00:14:28,481
+Ja, ich werde es gleich überprüfen.
+
+318
+00:14:28,504 --> 00:14:31,337
+Wie lange muss ich warten?
+
+319
+00:14:31,360 --> 00:14:33,973
+Es ist gleich fertig.
+
+320
+00:14:33,997 --> 00:14:36,133
+Ungefähr fünf Minuten.
+
+321
+00:14:36,156 --> 00:14:37,967
+Verstanden.
+
+322
+00:14:37,991 --> 00:14:40,324
+Entschuldigen Sie die Wartezeit.
+
+323
+00:14:40,347 --> 00:14:42,217
+Ja.
+
+324
+00:14:42,240 --> 00:14:44,927
+Sie bekommen zwei verschiedene Medikamente.
+
+325
+00:14:44,951 --> 00:14:47,352
+Zwei verschiedene, richtig.
+
+326
+00:14:47,376 --> 00:14:52,343
+Dieses hier ist gegen Ihre Bauchschmerzen.
+
+327
+00:14:52,366 --> 00:14:54,603
+Wann soll ich es einnehmen?
+
+328
+00:14:54,626 --> 00:14:58,793
+Nehmen Sie es dreimal täglich.
+
+329
+00:14:58,816 --> 00:15:00,706
+Vor dem Essen?
+
+330
+00:15:00,729 --> 00:15:02,600
+Nach dem Essen?
+
+331
+00:15:02,624 --> 00:15:05,424
+Nehmen Sie es nach dem Essen ein.
+
+332
+00:15:05,447 --> 00:15:07,464
+Alles klar.
+
+333
+00:15:07,487 --> 00:15:10,854
+Morgens, mittags und abends.
+
+334
+00:15:10,877 --> 00:15:12,210
+Ja.
+
+335
+00:15:12,233 --> 00:15:15,872
+Morgens, mittags und abends, ja.
+
+336
+00:15:15,896 --> 00:15:19,565
+Das andere ist ein Magenschutzmittel.
+
+337
+00:15:19,588 --> 00:15:22,921
+Soll ich das auch dreimal täglich nehmen?
+
+338
+00:15:22,944 --> 00:15:24,638
+Ja.
+
+339
+00:15:24,662 --> 00:15:27,029
+Nehmen Sie es zusammen ein.
+
+340
+00:15:27,052 --> 00:15:29,100
+Alles klar.
+
+341
+00:15:29,123 --> 00:15:31,923
+Die Medikamente sind für drei Tage.
+
+342
+00:15:31,946 --> 00:15:36,044
+Muss ich alle aufbrauchen?
+
+343
+00:15:36,067 --> 00:15:40,034
+Sie können aufhören, wenn die Schmerzen weg sind.
+
+344
+00:15:40,057 --> 00:15:42,513
+Alles klar, verstanden.
+
+345
+00:15:42,537 --> 00:15:46,470
+Die Rechnung beträgt 800 Yen.
+
+346
+00:15:46,493 --> 00:15:48,826
+Ich zahle bar.
+
+347
+00:15:48,849 --> 00:15:51,460
+Ich nehme 1000 Yen von Ihnen entgegen.
+
+348
+00:15:51,484 --> 00:15:53,371
+Ja.
+
+349
+00:15:53,394 --> 00:15:56,013
+Hier sind 200 Yen zurück.
+
+350
+00:15:56,037 --> 00:15:58,170
+Gute Besserung!
+
+351
+00:15:58,193 --> 00:16:00,526
+Vielen Dank.

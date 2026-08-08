@@ -1,0 +1,3331 @@
+1
+00:00:00,000 --> 00:00:10,008
+Mi a mai videónk? Egy beszélgetés egy kávézóban.
+
+2
+00:00:10,008 --> 00:00:11,508
+1. jelenet: Hogyan rendeljünk japánul / Rendelés japánul
+
+3
+00:00:11,508 --> 00:00:13,508
+Üdvözlöm!
+
+4
+00:00:13,530 --> 00:00:16,297
+Már eldöntötte, mit szeretne rendelni?
+
+5
+00:00:16,320 --> 00:00:18,053
+Igen.
+
+6
+00:00:18,076 --> 00:00:21,249
+Egy jeges kávét kérek.
+
+7
+00:00:21,273 --> 00:00:24,441
+Rendben. Egy jeges kávé, ugye?
+
+8
+00:00:24,464 --> 00:00:27,705
+Milyen méretben szeretné?
+
+9
+00:00:27,729 --> 00:00:32,262
+Rövid, közepes és nagy méret közül választhat.
+
+10
+00:00:32,285 --> 00:00:35,052
+Közepes méretet kérek.
+
+11
+00:00:35,075 --> 00:00:37,208
+Értettem.
+
+12
+00:00:37,231 --> 00:00:39,431
+Közepes méret, rendben.
+
+13
+00:00:39,454 --> 00:00:42,621
+Itt fogyasztja el, vagy elviszi?
+
+14
+00:00:42,644 --> 00:00:46,577
+Nem, elvinném, legyen szíves.
+
+15
+00:00:46,600 --> 00:00:48,767
+Értettem.
+
+16
+00:00:48,790 --> 00:00:51,157
+Elvitel, rendben.
+
+17
+00:00:51,180 --> 00:00:55,113
+Szeretne tejet vagy szirupot hozzá?
+
+18
+00:00:55,136 --> 00:00:57,736
+Nem, köszönöm.
+
+19
+00:00:57,759 --> 00:00:59,832
+Rendben.
+
+20
+00:00:59,855 --> 00:01:03,055
+Kér még valamit?
+
+21
+00:01:03,078 --> 00:01:06,478
+Mit szól ehhez az ételhez?
+
+22
+00:01:06,501 --> 00:01:08,168
+Hmm.
+
+23
+00:01:08,191 --> 00:01:11,469
+Egy csokoládés sconest is kérek.
+
+24
+00:01:11,493 --> 00:01:14,226
+Egy csokoládés scones, rendben.
+
+25
+00:01:14,249 --> 00:01:16,685
+Melegítsem meg?
+
+26
+00:01:16,709 --> 00:01:18,345
+Igen.
+
+27
+00:01:18,369 --> 00:01:20,502
+Igen, melegítse meg, legyen szíves.
+
+28
+00:01:20,525 --> 00:01:23,058
+Értettem.
+
+29
+00:01:23,081 --> 00:01:26,214
+Melegen sokkal finomabb!
+
+30
+00:01:26,237 --> 00:01:28,004
+Köszönöm.
+
+31
+00:01:28,027 --> 00:01:31,160
+A fizetés következik.
+
+32
+00:01:31,183 --> 00:01:39,037
+Egy közepes jeges kávé és egy csokoládés scones összesen 750 jen.
+
+33
+00:01:39,061 --> 00:01:42,094
+Fizethetek bankkártyával?
+
+34
+00:01:42,117 --> 00:01:44,717
+Igen, természetesen.
+
+35
+00:01:44,740 --> 00:01:48,594
+Kérem, érintse a kártyáját ehhez a készülékhez.
+
+36
+00:01:48,618 --> 00:01:51,716
+Rendben, megérintettem.
+
+37
+00:01:51,740 --> 00:01:53,306
+Köszönöm.
+
+38
+00:01:53,329 --> 00:01:57,409
+A fizetés megtörtént.
+
+39
+00:01:57,433 --> 00:02:01,166
+Kérem, vegye el a blokkot és a hívószámos jegyet.
+
+40
+00:02:01,189 --> 00:02:02,674
+Köszönöm.
+
+41
+00:02:02,698 --> 00:02:06,510
+A termékeket ott adhatjuk át, az átvételi pultnál.
+
+42
+00:02:06,533 --> 00:02:10,733
+Kérem, várjon egy kicsit, amíg a számát kihívjuk.
+
+43
+00:02:10,756 --> 00:02:12,569
+Értettem.
+
+44
+00:02:12,593 --> 00:02:14,593
+Ott, ugye?
+
+45
+00:02:14,616 --> 00:02:17,950
+Igen, ott.
+
+46
+00:02:17,973 --> 00:02:22,263
+A sconest megmelegítjük, körülbelül 2 perc lesz.
+
+47
+00:02:22,286 --> 00:02:24,153
+Értettem.
+
+48
+00:02:24,176 --> 00:02:26,610
+Elnézést a várakozásért.
+
+49
+00:02:26,632 --> 00:02:29,078
+15-ös számú vendég!
+
+50
+00:02:29,101 --> 00:02:32,438
+Igen, én vagyok.
+
+51
+00:02:32,462 --> 00:02:34,477
+Elnézést a várakozásért.
+
+52
+00:02:34,500 --> 00:02:40,333
+Egy közepes jeges kávé és egy melegített csokoládés scones.
+
+53
+00:02:40,356 --> 00:02:41,890
+Köszönöm.
+
+54
+00:02:41,913 --> 00:02:43,779
+Nagyon finomnak tűnik!
+
+55
+00:02:43,802 --> 00:02:48,936
+A scones nagyon forró, vigyázzon, amikor elviszi.
+
+56
+00:02:48,959 --> 00:02:50,825
+Értettem.
+
+57
+00:02:50,848 --> 00:02:52,382
+Köszönöm.
+
+58
+00:02:52,405 --> 00:02:57,638
+Szívószálakat és szalvétákat ott talál, szabadon vehet.
+
+59
+00:02:57,661 --> 00:02:59,636
+Értettem.
+
+60
+00:02:59,659 --> 00:03:01,592
+Köszönöm szépen!
+
+61
+00:03:01,615 --> 00:03:03,849
+Jöjjön máskor is!
+
+62
+00:03:03,872 --> 00:03:06,121
+Köszönöm.
+
+63
+00:03:06,145 --> 00:03:15,154
+A mai videó forgatókönyve letölthető a leírásból és a legfelső kommentből. Kérlek, kommentelj a letöltés előtt!
+
+64
+00:03:15,154 --> 00:03:16,654
+2. jelenet: A reggeli előkészületek alapjai / Basics of Morning Preparation
+
+65
+00:03:16,654 --> 00:03:21,544
+Most pedig lássuk a reggeli előkészületeket!
+
+66
+00:03:21,568 --> 00:03:25,701
+Először is, ellenőrizd a kávébabokat!
+
+67
+00:03:25,724 --> 00:03:27,457
+Igen.
+
+68
+00:03:27,480 --> 00:03:30,247
+Ez a bab lesz az.
+
+69
+00:03:30,270 --> 00:03:33,803
+Nézd meg a zacskón a dátumot!
+
+70
+00:03:33,826 --> 00:03:36,460
+Friss bab?
+
+71
+00:03:36,482 --> 00:03:38,291
+Igen.
+
+72
+00:03:38,315 --> 00:03:41,283
+Tegnap érkezett.
+
+73
+00:03:41,306 --> 00:03:43,173
+Remek!
+
+74
+00:03:43,196 --> 00:03:46,329
+Milyen az illata?
+
+75
+00:03:46,352 --> 00:03:49,403
+Nagyon jó illata van.
+
+76
+00:03:49,426 --> 00:03:52,494
+A frissesség rendben van.
+
+77
+00:03:52,518 --> 00:03:55,529
+Nagyszerű!
+
+78
+00:03:55,552 --> 00:04:00,552
+Most pedig ellenőrizd a hűtő hőmérsékletét!
+
+79
+00:04:00,575 --> 00:04:03,870
+A hűtő 4 fokos.
+
+80
+00:04:03,893 --> 00:04:07,790
+A melegítőszekrény 60 fokos.
+
+81
+00:04:07,814 --> 00:04:10,512
+Mindkettő rendben van.
+
+82
+00:04:10,536 --> 00:04:14,469
+Akkor csináljunk szendvicseket!
+
+83
+00:04:14,492 --> 00:04:18,425
+Hány szelet kenyeret vágjunk?
+
+84
+00:04:18,448 --> 00:04:21,022
+Vágj 10 szeletet!
+
+85
+00:04:21,046 --> 00:04:23,979
+Vágd vékonyra, kérlek!
+
+86
+00:04:24,002 --> 00:04:26,136
+Értettem.
+
+87
+00:04:26,159 --> 00:04:28,892
+Mossunk zöldséget is?
+
+88
+00:04:28,915 --> 00:04:30,482
+Igen.
+
+89
+00:04:30,505 --> 00:04:34,638
+Mosd meg alaposan a fejes salátát és a paradicsomot!
+
+90
+00:04:34,661 --> 00:04:37,953
+Kiveszem a sonkát és a sajtot is.
+
+91
+00:04:37,976 --> 00:04:39,748
+Köszi!
+
+92
+00:04:39,772 --> 00:04:43,007
+Tojássalátát is készítünk.
+
+93
+00:04:43,030 --> 00:04:46,688
+Hány főtt tojást használjunk?
+
+94
+00:04:46,711 --> 00:04:49,311
+Használj 8-at!
+
+95
+00:04:49,334 --> 00:04:52,821
+Zúzd össze őket egy tálban!
+
+96
+00:04:52,844 --> 00:04:54,262
+Igen.
+
+97
+00:04:54,286 --> 00:04:56,620
+Azonnal megcsinálom.
+
+98
+00:04:56,643 --> 00:05:00,209
+8 óráig készítsük el mindent!
+
+99
+00:05:00,232 --> 00:05:01,665
+Igen.
+
+100
+00:05:01,688 --> 00:05:03,822
+Meglesz időben.
+
+101
+00:05:03,845 --> 00:05:10,950
+A mai videó ismétléséhez használható oldal linkje a leírásban és a legfelső kommentben található. *A weboldal váratlanul törölhető.
+
+102
+00:05:10,950 --> 00:05:12,450
+3. jelenet: A nyitás előtti előkészületek és a csúcsforgalom / Pre-Opening Preparations and Busy Hours
+
+103
+00:05:12,450 --> 00:05:15,416
+Mindjárt 8 óra.
+
+104
+00:05:15,439 --> 00:05:18,073
+10 perc múlva nyitunk.
+
+105
+00:05:18,096 --> 00:05:22,234
+Igen, a készülődés nagyjából kész.
+
+106
+00:05:22,257 --> 00:05:24,790
+Ma is keményen dolgozunk!
+
+107
+00:05:24,813 --> 00:05:29,147
+Tudod, milyen idő lesz ma?
+
+108
+00:05:29,170 --> 00:05:30,903
+Igen.
+
+109
+00:05:30,926 --> 00:05:34,165
+Délután esni fog.
+
+110
+00:05:34,189 --> 00:05:35,955
+Hmm.
+
+111
+00:05:35,978 --> 00:05:39,978
+Ezért délelőtt sok vendég lesz.
+
+112
+00:05:40,001 --> 00:05:41,768
+Értettem.
+
+113
+00:05:41,791 --> 00:05:45,324
+Mikor lesz a legforgalmasabb időszak?
+
+114
+00:05:45,347 --> 00:05:49,281
+Általában 12-től 2-ig.
+
+115
+00:05:49,304 --> 00:05:53,509
+Az ebédidő nagyon forgalmas.
+
+116
+00:05:53,532 --> 00:05:54,899
+Értettem.
+
+117
+00:05:54,922 --> 00:05:57,388
+Vigyázni fogok.
+
+118
+00:05:57,411 --> 00:06:01,178
+A mai célbevétel 100 000 forint.
+
+119
+00:06:01,201 --> 00:06:03,734
+100 000 forint, értem.
+
+120
+00:06:03,757 --> 00:06:06,691
+Új sütit is árulunk ma?
+
+121
+00:06:06,714 --> 00:06:08,380
+Igen.
+
+122
+00:06:08,403 --> 00:06:12,437
+Ajánld a vendégeknek a szezonális süteményt!
+
+123
+00:06:12,460 --> 00:06:14,264
+Értettem.
+
+124
+00:06:14,288 --> 00:06:17,867
+A mai ajánlatunk – mondom majd.
+
+125
+00:06:17,890 --> 00:06:19,823
+Remek!
+
+126
+00:06:19,846 --> 00:06:24,046
+Most következő lépésben osszuk fel a feladatokat.
+
+127
+00:06:24,069 --> 00:06:25,836
+Igen.
+
+128
+00:06:25,859 --> 00:06:28,826
+Én mit csináljak?
+
+129
+00:06:28,849 --> 00:06:31,824
+Mike, kérlek, te vezesd a pénztárgépet.
+
+130
+00:06:31,847 --> 00:06:35,580
+Vegyél fel rendeléseket, és kezeld a fizetéseket.
+
+131
+00:06:35,603 --> 00:06:37,491
+Értettem.
+
+132
+00:06:37,515 --> 00:06:40,781
+Én vállalom a pénztárgépet.
+
+133
+00:06:40,804 --> 00:06:44,338
+Én készítem az italokat és az ételeket.
+
+134
+00:06:44,361 --> 00:06:47,894
+Amikor sok a dolgunk, segítsünk egymásnak.
+
+135
+00:06:47,917 --> 00:06:49,650
+Igen.
+
+136
+00:06:49,673 --> 00:06:51,683
+Köszönöm szépen.
+
+137
+00:06:51,706 --> 00:06:55,106
+Akár nyitunk is.
+
+138
+00:06:55,130 --> 00:06:56,696
+Igen.
+
+139
+00:06:56,719 --> 00:06:58,738
+Nyissuk ki.
+
+140
+00:06:58,762 --> 00:07:00,262
+4. jelenet: Reggeli beszélgetés egy kávézóban / Reggeli beszélgetések a kávézóban
+
+141
+00:07:00,262 --> 00:07:02,595
+Jó reggelt kívánok!
+
+142
+00:07:02,618 --> 00:07:05,151
+Üdvözlöm!
+
+143
+00:07:05,174 --> 00:07:07,578
+Jó reggelt kívánok!
+
+144
+00:07:07,602 --> 00:07:10,769
+Ma is szép idő van, nem?
+
+145
+00:07:10,792 --> 00:07:12,725
+Igen.
+
+146
+00:07:12,748 --> 00:07:16,406
+Most nagyon kellemes meleg van.
+
+147
+00:07:16,430 --> 00:07:19,630
+A szokásos reggeliző menüt kérné?
+
+148
+00:07:19,653 --> 00:07:21,386
+Igen.
+
+149
+00:07:21,409 --> 00:07:23,409
+Köszi!
+
+150
+00:07:23,432 --> 00:07:27,365
+Vajas pirítóst kérek feketekávéval.
+
+151
+00:07:27,388 --> 00:07:29,389
+Igen.
+
+152
+00:07:29,413 --> 00:07:33,146
+A kávét forrón kérem.
+
+153
+00:07:33,169 --> 00:07:35,424
+Értettem.
+
+154
+00:07:35,447 --> 00:07:38,381
+Foglaljon helyet az asztalnál.
+
+155
+00:07:38,404 --> 00:07:40,204
+Köszönöm.
+
+156
+00:07:40,227 --> 00:07:43,960
+Ma egy kicsit korábban jöttem.
+
+157
+00:07:43,983 --> 00:07:45,759
+Hmm.
+
+158
+00:07:45,782 --> 00:07:49,749
+Általában fél kilenckor szokott jönni, ugye?
+
+159
+00:07:49,772 --> 00:07:53,425
+Ma kilenctől dolgoznom kell.
+
+160
+00:07:53,448 --> 00:07:55,543
+Nehéz napja lesz, ugye?
+
+161
+00:07:55,566 --> 00:07:57,733
+Elnézést a várakoztatásért.
+
+162
+00:07:57,756 --> 00:08:00,222
+Itt a reggeliző menü.
+
+163
+00:08:00,245 --> 00:08:02,012
+Köszönöm.
+
+164
+00:08:02,035 --> 00:08:04,168
+Nagyon finomnak tűnik!
+
+165
+00:08:04,191 --> 00:08:08,958
+Ezen a héten sok eső volt, nem?
+
+166
+00:08:08,981 --> 00:08:10,617
+Igen.
+
+167
+00:08:10,641 --> 00:08:14,374
+A mosott ruhák nem száradtak meg.
+
+168
+00:08:14,397 --> 00:08:18,568
+Azt mondják, délután esni fog.
+
+169
+00:08:18,591 --> 00:08:21,490
+Ó, tényleg?
+
+170
+00:08:21,514 --> 00:08:24,721
+Jó, hogy hoztam esernyőt.
+
+171
+00:08:24,744 --> 00:08:27,379
+Köszönöm a finom reggelit.
+
+172
+00:08:27,402 --> 00:08:29,207
+Köszönöm.
+
+173
+00:08:29,231 --> 00:08:32,847
+Az összeg 500 forint.
+
+174
+00:08:32,871 --> 00:08:35,904
+Pontosan 500 forintot fizetek.
+
+175
+00:08:35,927 --> 00:08:37,494
+Köszönöm.
+
+176
+00:08:37,517 --> 00:08:41,083
+Ma is sok sikert a munkához.
+
+177
+00:08:41,106 --> 00:08:42,885
+Igen.
+
+178
+00:08:42,909 --> 00:08:44,842
+Megyek is.
+
+179
+00:08:44,865 --> 00:08:46,913
+Jó munkát!
+
+180
+00:08:46,937 --> 00:08:49,670
+Várjuk, hogy újra jöjjön.
+
+181
+00:08:49,693 --> 00:08:51,193
+5. jelenet: Gyors rendeléskezelés / Gyors rendelésfelvétel
+
+182
+00:08:51,193 --> 00:08:53,231
+Üdvözlöm!
+
+183
+00:08:53,255 --> 00:08:55,658
+Jó reggelt!
+
+184
+00:08:55,681 --> 00:08:58,348
+Jó reggelt!
+
+185
+00:08:58,371 --> 00:09:03,189
+Elnézést, nagyon sietek.
+
+186
+00:09:03,213 --> 00:09:07,746
+Már csak tíz percem van a vonatig.
+
+187
+00:09:07,769 --> 00:09:09,769
+Értettem.
+
+188
+00:09:09,792 --> 00:09:12,428
+Azonnal elkészítjük.
+
+189
+00:09:12,452 --> 00:09:16,624
+Melyik ital készül a leggyorsabban?
+
+190
+00:09:16,647 --> 00:09:20,494
+A jegeskávé latte készül a leggyorsabban.
+
+191
+00:09:20,518 --> 00:09:24,391
+Akkor egy jegeskávé lattét kérek.
+
+192
+00:09:24,414 --> 00:09:28,481
+M méret megfelel?
+
+193
+00:09:28,504 --> 00:09:32,470
+Igen, M méret legyen.
+
+194
+00:09:32,493 --> 00:09:35,027
+Elvitelre lesz?
+
+195
+00:09:35,050 --> 00:09:38,709
+Igen, elvitelre kérem.
+
+196
+00:09:38,732 --> 00:09:42,372
+Cukrot vagy tejet használ hozzá?
+
+197
+00:09:42,395 --> 00:09:45,869
+Nem, ne tegyen bele, kérem.
+
+198
+00:09:45,893 --> 00:09:48,779
+Kaphatnék kevésbé jeget?
+
+199
+00:09:48,802 --> 00:09:51,657
+Természetesen, megoldható.
+
+200
+00:09:51,680 --> 00:09:55,047
+Akkor kevés jeget teszek bele.
+
+201
+00:09:55,070 --> 00:09:57,436
+Mennyi lesz a fizetendő összeg?
+
+202
+00:09:57,459 --> 00:10:01,474
+Összesen négyszázötven jen lesz.
+
+203
+00:10:01,498 --> 00:10:04,431
+Fizethetek elektronikus pénzzel?
+
+204
+00:10:04,454 --> 00:10:08,021
+Igen, természetesen használhatja.
+
+205
+00:10:08,044 --> 00:10:10,855
+Kérem, érintse meg ezt a készüléket.
+
+206
+00:10:10,878 --> 00:10:13,644
+Igen, megérintettem.
+
+207
+00:10:13,667 --> 00:10:15,267
+Köszönöm.
+
+208
+00:10:15,290 --> 00:10:18,224
+A fizetés megtörtént.
+
+209
+00:10:18,247 --> 00:10:22,052
+Használ elvitelre zacskót?
+
+210
+00:10:22,075 --> 00:10:25,283
+Igen, kérek egy zacskót.
+
+211
+00:10:25,306 --> 00:10:30,106
+Mivel hideg, ráteszek egy csészeburkot is.
+
+212
+00:10:30,129 --> 00:10:33,298
+Köszönöm, nagy segítség.
+
+213
+00:10:33,321 --> 00:10:36,055
+Nagyon sokáig várakoztattam.
+
+214
+00:10:36,078 --> 00:10:39,411
+Ezt kapja: közepes méretű jegeskávé latte.
+
+215
+00:10:39,434 --> 00:10:40,909
+Köszönöm.
+
+216
+00:10:40,932 --> 00:10:43,766
+Jó, hogy gyorsan elkészült.
+
+217
+00:10:43,789 --> 00:10:45,670
+Viszontlátásra!
+
+218
+00:10:45,693 --> 00:10:47,296
+Vigyázzon magára!
+
+219
+00:10:47,320 --> 00:10:50,720
+Igen, megyek.
+
+220
+00:10:50,743 --> 00:10:52,243
+6. jelenet: Reggeli beszélgetés és napi program megerősítése
+
+221
+00:10:52,243 --> 00:10:54,645
+Jó reggelt kívánok!
+
+222
+00:10:54,669 --> 00:10:57,802
+Ma is szép idő van, nem?
+
+223
+00:10:57,825 --> 00:11:00,158
+Jó reggelt kívánok!
+
+224
+00:11:00,181 --> 00:11:02,148
+Hmm.
+
+225
+00:11:02,171 --> 00:11:05,388
+Már vettél kávét?
+
+226
+00:11:05,411 --> 00:11:07,178
+Igen.
+
+227
+00:11:07,201 --> 00:11:10,652
+Meleg kávé lattét vettem.
+
+228
+00:11:10,676 --> 00:11:14,153
+Én forró kávét választottam.
+
+229
+00:11:14,177 --> 00:11:18,510
+Akkor nézzük meg a mai programot!
+
+230
+00:11:18,533 --> 00:11:20,267
+Igen.
+
+231
+00:11:20,290 --> 00:11:22,158
+Köszi!
+
+232
+00:11:22,181 --> 00:11:26,473
+Ma délelőtt 10-kor lesz értekezlet, ugye?
+
+233
+00:11:26,497 --> 00:11:28,264
+Igen.
+
+234
+00:11:28,287 --> 00:11:32,062
+Az új projekt prezentációja lesz.
+
+235
+00:11:32,085 --> 00:11:35,353
+Elkészültél a dokumentumokkal?
+
+236
+00:11:35,377 --> 00:11:37,143
+Igen.
+
+237
+00:11:37,166 --> 00:11:40,966
+Tegnap este mindent ellenőriztem.
+
+238
+00:11:40,990 --> 00:11:43,523
+Nagyszerű!
+
+239
+00:11:43,546 --> 00:11:46,638
+Nézzük meg még egyszer együtt!
+
+240
+00:11:46,662 --> 00:11:48,300
+Igen.
+
+241
+00:11:48,323 --> 00:11:51,357
+Ez a mai anyag.
+
+242
+00:11:51,380 --> 00:11:54,113
+Kérlek, nézd meg a második oldalt!
+
+243
+00:11:54,136 --> 00:11:57,337
+Ezek a számok helyesek?
+
+244
+00:11:57,361 --> 00:11:59,294
+Igen.
+
+245
+00:11:59,317 --> 00:12:02,384
+Ugyanazok, mint a múlt heti adatok.
+
+246
+00:12:02,407 --> 00:12:04,773
+Értettem.
+
+247
+00:12:04,796 --> 00:12:07,263
+Nagyon jól átlátható!
+
+248
+00:12:07,286 --> 00:12:09,019
+Köszönöm.
+
+249
+00:12:09,042 --> 00:12:12,076
+A módosított rész itt van.
+
+250
+00:12:12,099 --> 00:12:14,957
+A képek is nagyobbak lettek!
+
+251
+00:12:14,981 --> 00:12:16,827
+Igen.
+
+252
+00:12:16,850 --> 00:12:19,183
+Most már jobban látszik.
+
+253
+00:12:19,206 --> 00:12:22,692
+Ki tartja a prezentációt?
+
+254
+00:12:22,716 --> 00:12:26,328
+Én beszélek az első részben.
+
+255
+00:12:26,351 --> 00:12:28,218
+Értettem.
+
+256
+00:12:28,241 --> 00:12:33,008
+Én pedig a kérdések idejét fogom kezelni a végén.
+
+257
+00:12:33,031 --> 00:12:34,722
+Igen.
+
+258
+00:12:34,745 --> 00:12:36,778
+Köszönöm szépen.
+
+259
+00:12:36,801 --> 00:12:40,201
+Kicsit izgulsz?
+
+260
+00:12:40,224 --> 00:12:43,391
+Igen, kicsit izgulok.
+
+261
+00:12:43,414 --> 00:12:45,581
+Ne aggódj, minden rendben lesz!
+
+262
+00:12:45,604 --> 00:12:48,370
+Sokat gyakoroltunk.
+
+263
+00:12:48,393 --> 00:12:49,927
+Igen.
+
+264
+00:12:49,950 --> 00:12:52,150
+Mindent megteszek!
+
+265
+00:12:52,173 --> 00:12:55,506
+Mi lesz az értekezlet után?
+
+266
+00:12:55,529 --> 00:12:59,262
+Délután 1-kor ebédelünk.
+
+267
+00:12:59,285 --> 00:13:01,119
+Remek!
+
+268
+00:13:01,142 --> 00:13:03,942
+Együnk valami finomat.
+
+269
+00:13:03,965 --> 00:13:05,634
+Igen.
+
+270
+00:13:05,657 --> 00:13:08,124
+Alig várom.
+
+271
+00:13:08,147 --> 00:13:11,029
+A tárgyaló a 3. emeleten van, ugye?
+
+272
+00:13:11,052 --> 00:13:12,855
+Igen.
+
+273
+00:13:12,879 --> 00:13:16,537
+A 3. emeleti tárgyalóban.
+
+274
+00:13:16,560 --> 00:13:20,093
+Menjünk be 15 perccel korábban a céghez?
+
+275
+00:13:20,116 --> 00:13:21,650
+Igen.
+
+276
+00:13:21,673 --> 00:13:23,806
+Rendben, menjünk.
+
+277
+00:13:23,829 --> 00:13:27,103
+Akkor induljunk a céghez.
+
+278
+00:13:27,126 --> 00:13:28,564
+Igen.
+
+279
+00:13:28,588 --> 00:13:30,564
+Induljunk.
+
+280
+00:13:30,587 --> 00:13:32,087
+7. jelenet: Ülőhelyek és Wi-Fi tájékoztató / Ülőhelyek és Wi-Fi információ
+
+281
+00:13:32,087 --> 00:13:33,961
+Üdvözlöm!
+
+282
+00:13:33,985 --> 00:13:36,920
+Üljön le, ahol szeretne.
+
+283
+00:13:36,943 --> 00:13:38,776
+Elnézést.
+
+284
+00:13:38,799 --> 00:13:42,333
+Hol vannak konnektoros asztalok?
+
+285
+00:13:42,356 --> 00:13:44,156
+Igen.
+
+286
+00:13:44,179 --> 00:13:47,512
+A pult melletti ülőhelyeken vannak.
+
+287
+00:13:47,535 --> 00:13:49,185
+Köszönöm.
+
+288
+00:13:49,208 --> 00:13:52,175
+Szeretném használni a laptopomat.
+
+289
+00:13:52,198 --> 00:13:55,398
+Odakísérem a pult melletti ülőhelyekhez.
+
+290
+00:13:55,421 --> 00:13:57,698
+Erre tessék.
+
+291
+00:13:57,722 --> 00:13:59,363
+Köszönöm.
+
+292
+00:13:59,387 --> 00:14:02,220
+Van Wi-Fi?
+
+293
+00:14:02,243 --> 00:14:03,810
+Igen.
+
+294
+00:14:03,833 --> 00:14:06,709
+Van ingyenes Wi-Fi.
+
+295
+00:14:06,732 --> 00:14:10,214
+Mi a jelszó?
+
+296
+00:14:10,237 --> 00:14:13,735
+A menü hátoldalán található.
+
+297
+00:14:13,759 --> 00:14:15,835
+Nézze csak meg itt.
+
+298
+00:14:15,859 --> 00:14:17,893
+Értettem.
+
+299
+00:14:17,916 --> 00:14:19,984
+Nagyon köszönöm.
+
+300
+00:14:20,007 --> 00:14:24,274
+Kedves vendégünk, lenne egy kérésünk.
+
+301
+00:14:24,297 --> 00:14:29,497
+Zsúfoltság esetén kérjük, hogy legfeljebb 2 órát tartózkodjon itt.
+
+302
+00:14:29,520 --> 00:14:31,087
+Igen.
+
+303
+00:14:31,110 --> 00:14:32,944
+Értettem.
+
+304
+00:14:32,967 --> 00:14:35,300
+Vigyázni fogok.
+
+305
+00:14:35,323 --> 00:14:38,057
+Köszönjük a közreműködést.
+
+306
+00:14:38,080 --> 00:14:41,494
+Már eldöntötte, mit szeretne inni?
+
+307
+00:14:41,517 --> 00:14:43,326
+Igen.
+
+308
+00:14:43,349 --> 00:14:46,549
+Egy forró kávét kérek.
+
+309
+00:14:46,572 --> 00:14:49,548
+Milyen méretet kér?
+
+310
+00:14:49,572 --> 00:14:52,459
+Közepes méretet kérek.
+
+311
+00:14:52,483 --> 00:14:54,561
+Értettem.
+
+312
+00:14:54,584 --> 00:14:57,817
+Cukrot és tejet használ?
+
+313
+00:14:57,840 --> 00:15:01,040
+Egy cukrot kérek.
+
+314
+00:15:01,063 --> 00:15:02,930
+Értettem.
+
+315
+00:15:02,953 --> 00:15:05,786
+Kis türelmet kérünk.
+
+316
+00:15:05,809 --> 00:15:07,309
+8. jelenet: Vendéglátás és kényelmes környezet / Ügyfélszolgálat és kényelmes környezet
+
+317
+00:15:07,309 --> 00:15:09,148
+Üdvözlöm!
+
+318
+00:15:09,172 --> 00:15:12,816
+Nem fázik, kedves vendégünk?
+
+319
+00:15:12,839 --> 00:15:15,373
+Ó, elnézést.
+
+320
+00:15:15,395 --> 00:15:18,162
+Kicsit hideg van.
+
+321
+00:15:18,185 --> 00:15:20,818
+Nagyon sajnálom.
+
+322
+00:15:20,841 --> 00:15:25,575
+Itt közvetlenül éri a légkondicionáló levegője, ugye?
+
+323
+00:15:25,598 --> 00:15:27,164
+Igen.
+
+324
+00:15:27,187 --> 00:15:30,221
+Kicsit erős a huzat.
+
+325
+00:15:30,244 --> 00:15:33,492
+Emeljem egy kicsit a hőmérsékletet?
+
+326
+00:15:33,515 --> 00:15:35,115
+Kérem, tegye meg.
+
+327
+00:15:35,138 --> 00:15:39,472
+Van esetleg takaró?
+
+328
+00:15:39,495 --> 00:15:41,728
+Igen, van.
+
+329
+00:15:41,751 --> 00:15:44,686
+Azonnal hozom.
+
+330
+00:15:44,710 --> 00:15:46,315
+Köszönöm.
+
+331
+00:15:46,338 --> 00:15:48,305
+Nagyon köszönöm.
+
+332
+00:15:48,328 --> 00:15:50,561
+Elnézést a várakozásért.
+
+333
+00:15:50,584 --> 00:15:54,051
+Kérem, használja ezt a takarót.
+
+334
+00:15:54,074 --> 00:15:55,679
+Köszönöm.
+
+335
+00:15:55,703 --> 00:15:58,379
+Nagyon meleg.
+
+336
+00:15:58,402 --> 00:16:00,435
+Nagyszerű!
+
+337
+00:16:00,458 --> 00:16:05,192
+Szeretne esetleg átülni máshová?
+
+338
+00:16:05,215 --> 00:16:08,671
+Igen, szívesen átülnék.
+
+339
+00:16:08,694 --> 00:16:12,301
+Szabad az a sarokban lévő asztal?
+
+340
+00:16:12,325 --> 00:16:13,795
+Igen.
+
+341
+00:16:13,819 --> 00:16:17,513
+Az a négyszögletes asztal a sarokban szabad.
+
+342
+00:16:17,536 --> 00:16:20,936
+Ott csendes a hely?
+
+343
+00:16:20,959 --> 00:16:25,126
+Ma nyugodtan szeretnék olvasgatni egy könyvet.
+
+344
+00:16:25,149 --> 00:16:26,282
+Igen.
+
+345
+00:16:26,305 --> 00:16:29,572
+A belső asztalok nagyon csendesek.
+
+346
+00:16:29,595 --> 00:16:32,473
+Az légkondicionáló sem fúj oda.
+
+347
+00:16:32,496 --> 00:16:34,766
+Az jó!
+
+348
+00:16:34,790 --> 00:16:38,324
+Akkor oda megyünk.
+
+349
+00:16:38,347 --> 00:16:41,480
+Segítsek vinni a csomagját?
+
+350
+00:16:41,503 --> 00:16:44,503
+Nem, majd én viszem.
+
+351
+00:16:44,526 --> 00:16:46,659
+Rendben van.
+
+352
+00:16:46,682 --> 00:16:48,376
+Értettem.
+
+353
+00:16:48,400 --> 00:16:51,600
+Akkor kérem, kövessen.
+
+354
+00:16:51,622 --> 00:16:53,189
+Köszönöm.
+
+355
+00:16:53,212 --> 00:16:58,379
+Ja, és még kérnék egy meleg teát, ha lehet.
+
+356
+00:16:58,402 --> 00:17:00,568
+Értettem.
+
+357
+00:17:00,591 --> 00:17:03,648
+Természetes tea megfelel?
+
+358
+00:17:03,672 --> 00:17:05,311
+Igen.
+
+359
+00:17:05,334 --> 00:17:07,811
+Természetes teát kérek.
+
+360
+00:17:07,835 --> 00:17:10,602
+Azonnal hozom.
+
+361
+00:17:10,625 --> 00:17:13,442
+Nyugodtan töltse itt az idejét.
+
+362
+00:17:13,466 --> 00:17:15,926
+Köszönöm.
+
+363
+00:17:15,949 --> 00:17:17,449
+9. jelenet: Kandzsi és partikulák gyakorlása
+
+364
+00:17:17,449 --> 00:17:22,249
+Ma sokat fogunk tanulni.
+
+365
+00:17:22,272 --> 00:17:24,639
+Igen, igyekezzünk!
+
+366
+00:17:24,662 --> 00:17:28,628
+Jövő héten lesz a japán nyelvvizsgánk, ugye?
+
+367
+00:17:28,651 --> 00:17:32,531
+Igen, N5-ös vizsga.
+
+368
+00:17:32,555 --> 00:17:35,688
+Halad a tanulás?
+
+369
+00:17:35,711 --> 00:17:40,978
+Hmm, a kandzsik egy kicsit nehezek.
+
+370
+00:17:41,001 --> 00:17:44,201
+Milyen kandzsik okoznak gondot?
+
+371
+00:17:44,224 --> 00:17:48,224
+A hét (週) és az írás (書) kandzsijai.
+
+372
+00:17:48,247 --> 00:17:51,783
+Á, azok a vonalakban gazdag kandzsik.
+
+373
+00:17:51,806 --> 00:17:56,474
+Igen, nehéz őket megjegyezni.
+
+374
+00:17:56,498 --> 00:17:59,631
+Ha többször leírod, meg fogod jegyezni.
+
+375
+00:17:59,654 --> 00:18:03,832
+Igazad van, mindennap gyakorolni fogom.
+
+376
+00:18:03,856 --> 00:18:06,136
+És a nyelvtan hogy áll?
+
+377
+00:18:06,159 --> 00:18:09,572
+Néha nem értem a partikulákat.
+
+378
+00:18:09,596 --> 00:18:12,670
+A „ni” és a „de” különbsége, ugye?
+
+379
+00:18:12,694 --> 00:18:16,361
+Igen, néha elbizonytalanodom.
+
+380
+00:18:16,385 --> 00:18:20,427
+Akkor mostantól feladatokkal gyakoroljunk.
+
+381
+00:18:20,450 --> 00:18:23,383
+Jó ötlet, kezdjük!
+
+382
+00:18:23,406 --> 00:18:26,475
+Első kérdés.
+
+383
+00:18:26,499 --> 00:18:30,670
+Kávézóban tanulok.
+
+384
+00:18:30,694 --> 00:18:33,927
+Milyen partikula kerül a zárójelbe?
+
+385
+00:18:33,950 --> 00:18:38,232
+Helyszín, szóval „de”?
+
+386
+00:18:38,256 --> 00:18:40,505
+Helyes!
+
+387
+00:18:40,528 --> 00:18:42,995
+Nagyon jól csináltad!
+
+388
+00:18:43,018 --> 00:18:46,385
+Jó, megkönnyebbültem.
+
+389
+00:18:46,408 --> 00:18:50,490
+Most én kérdezek tőled.
+
+390
+00:18:50,513 --> 00:18:52,680
+Rendben, tessék!
+
+391
+00:18:52,703 --> 00:18:57,073
+Holnap 8-kor kelek fel.
+
+392
+00:18:57,096 --> 00:19:01,764
+Milyen partikula kerül a zárójelbe?
+
+393
+00:19:01,788 --> 00:19:06,054
+Időpont után „ni” kerül, ugye?
+
+394
+00:19:06,077 --> 00:19:08,052
+Nagyon helyes!
+
+395
+00:19:08,075 --> 00:19:10,142
+Ügyes vagy!
+
+396
+00:19:10,165 --> 00:19:14,062
+Huh, egy kicsit elfáradtam.
+
+397
+00:19:14,085 --> 00:19:17,852
+Én is kezdem érezni a fáradtságot.
+
+398
+00:19:17,875 --> 00:19:21,242
+Körülbelül egy órát tanultunk.
+
+399
+00:19:21,265 --> 00:19:24,398
+Tartsunk egy kis szünetet?
+
+400
+00:19:24,421 --> 00:19:28,310
+Igen, ennék valami édeset.
+
+401
+00:19:28,333 --> 00:19:32,066
+Ott a vitrinben sütemények vannak.
+
+402
+00:19:32,089 --> 00:19:35,823
+Finomnak tűnő epres sütemény!
+
+403
+00:19:35,846 --> 00:19:38,612
+Van csokoládés süti is.
+
+404
+00:19:38,635 --> 00:19:41,845
+Én az epres sütit választom.
+
+405
+00:19:41,869 --> 00:19:45,766
+Akkor én a csokoládésat kérem.
+
+406
+00:19:45,789 --> 00:19:48,723
+Hívjuk a pincért?
+
+407
+00:19:48,747 --> 00:19:51,429
+Igen, hívjuk.
+
+408
+00:19:51,452 --> 00:19:52,952
+10. jelenet: Ebéd előkészületei és feladatmegosztás
+
+409
+00:19:52,952 --> 00:19:58,185
+Mindjárt 11:45 lesz.
+
+410
+00:19:58,208 --> 00:20:01,296
+Nemsokára ebédidő.
+
+411
+00:20:01,320 --> 00:20:04,322
+Igen, előttem.
+
+412
+00:20:04,345 --> 00:20:07,678
+Mindjárt tele lesz a bolt.
+
+413
+00:20:07,701 --> 00:20:11,068
+Ellenőrizzük a feladatokat.
+
+414
+00:20:11,091 --> 00:20:15,091
+Te ma a pénztárnál vagy.
+
+415
+00:20:15,114 --> 00:20:17,247
+Értettem.
+
+416
+00:20:17,270 --> 00:20:20,948
+Én veszem fel a rendeléseket a pénztárnál.
+
+417
+00:20:20,971 --> 00:20:25,619
+Én a konyha és az italok felelőse vagyok.
+
+418
+00:20:25,642 --> 00:20:29,076
+Szendvicseket és kávét készítek.
+
+419
+00:20:29,099 --> 00:20:30,865
+Igen.
+
+420
+00:20:30,888 --> 00:20:33,890
+Minden készen áll?
+
+421
+00:20:33,914 --> 00:20:37,281
+Van kanál és villa?
+
+422
+00:20:37,304 --> 00:20:41,312
+Ellenőrizd a pénztár közelét.
+
+423
+00:20:41,336 --> 00:20:45,336
+Ó, kevés a kanál.
+
+424
+00:20:45,359 --> 00:20:48,492
+Azonnal feltöltöm.
+
+425
+00:20:48,515 --> 00:20:50,392
+Köszi!
+
+426
+00:20:50,416 --> 00:20:54,883
+Ellenőrizd az elviteles zacskókat és poharakat is.
+
+427
+00:20:54,906 --> 00:20:56,514
+Igen.
+
+428
+00:20:56,537 --> 00:21:00,004
+Zacskóból és pohárból is van elég.
+
+429
+00:21:00,027 --> 00:21:03,270
+Nagyszerű!
+
+430
+00:21:03,294 --> 00:21:06,827
+Ne felejtsd el a szívószálakat sem.
+
+431
+00:21:06,850 --> 00:21:08,223
+Értettem.
+
+432
+00:21:08,247 --> 00:21:10,899
+A szívószálakat is előkészítettem.
+
+433
+00:21:10,922 --> 00:21:15,255
+Most gyakoroljuk az üdvözlést.
+
+434
+00:21:15,278 --> 00:21:18,812
+Ki tudsz köszönni hangosan?
+
+435
+00:21:18,835 --> 00:21:21,635
+Igen, ki tudok.
+
+436
+00:21:21,658 --> 00:21:23,671
+Üdvözlöm!
+
+437
+00:21:23,694 --> 00:21:26,627
+Nagyon szép a hangod.
+
+438
+00:21:26,650 --> 00:21:29,983
+A mosolyod is csodálatos.
+
+439
+00:21:30,006 --> 00:21:31,904
+Köszönöm.
+
+440
+00:21:31,928 --> 00:21:34,967
+Ma is nagyon igyekszem.
+
+441
+00:21:34,991 --> 00:21:39,057
+Igen, együtt fogunk dolgozni.
+
+442
+00:21:39,080 --> 00:21:42,280
+Jönnek a vendégek.
+
+443
+00:21:42,303 --> 00:21:45,870
+Igen, üdvözlöm!
+
+444
+00:21:45,893 --> 00:21:47,393
+11. jelenet: Rendelésfelvétel és allergiás vizsgálat
+
+445
+00:21:47,393 --> 00:21:49,393
+Üdvözlöm!
+
+446
+00:21:49,416 --> 00:21:52,383
+Itt fogyasztják el?
+
+447
+00:21:52,406 --> 00:21:56,006
+Igen, itt eszem.
+
+448
+00:21:56,028 --> 00:21:57,662
+Köszönöm.
+
+449
+00:21:57,685 --> 00:22:00,851
+Már eldöntötte, mit szeretne rendelni?
+
+450
+00:22:00,874 --> 00:22:04,916
+Kérném a napi szendvics menüt.
+
+451
+00:22:04,940 --> 00:22:08,189
+A napi szendvics menü, értettem.
+
+452
+00:22:08,212 --> 00:22:12,748
+Ma csirke és zöldség van a szendvicsben.
+
+453
+00:22:12,771 --> 00:22:14,938
+Nagyon finomnak tűnik!
+
+454
+00:22:14,962 --> 00:22:17,260
+Azt kérem.
+
+455
+00:22:17,283 --> 00:22:22,083
+Van ételallergiája?
+
+456
+00:22:22,106 --> 00:22:27,040
+Igen, tojásra allergiás vagyok.
+
+457
+00:22:27,063 --> 00:22:29,496
+Értettem.
+
+458
+00:22:29,519 --> 00:22:34,286
+A szendvicsben majonéz van.
+
+459
+00:22:34,309 --> 00:22:38,309
+A majonéz tojást tartalmaz.
+
+460
+00:22:38,332 --> 00:22:40,415
+Értem.
+
+461
+00:22:40,438 --> 00:22:44,012
+Lehet majonéz nélkül kérni?
+
+462
+00:22:44,035 --> 00:22:48,475
+Igen, majonéz nélkül készítem el.
+
+463
+00:22:48,498 --> 00:22:50,098
+Köszönöm.
+
+464
+00:22:50,121 --> 00:22:52,140
+Nagyon köszönöm.
+
+465
+00:22:52,164 --> 00:22:55,964
+Milyen italt kér a menühöz?
+
+466
+00:22:55,987 --> 00:22:58,387
+Milyen italok vannak?
+
+467
+00:22:58,410 --> 00:23:03,610
+Van kávé, tea és narancslé.
+
+468
+00:23:03,633 --> 00:23:06,718
+Meleg teát kérek.
+
+469
+00:23:06,741 --> 00:23:09,708
+Meleg tea, értettem.
+
+470
+00:23:09,731 --> 00:23:12,740
+A fizetendő összeg 1000 jen.
+
+471
+00:23:12,764 --> 00:23:15,297
+Készpénzzel fizetek.
+
+472
+00:23:15,320 --> 00:23:18,654
+Pontosan 1000 jent kérek.
+
+473
+00:23:18,676 --> 00:23:22,010
+Kérem, vigye magával ezt a számlajelzőt.
+
+474
+00:23:22,033 --> 00:23:24,099
+Értettem.
+
+475
+00:23:24,122 --> 00:23:28,165
+Amikor kész lesz, kihozzuk az asztalához.
+
+476
+00:23:28,189 --> 00:23:30,989
+Kérem, várjon egy szabad asztalnál.
+
+477
+00:23:31,012 --> 00:23:33,645
+Köszönöm.
+
+478
+00:23:33,668 --> 00:23:35,168
+12. jelenet: Fizetés és fizetési módok / Fizetési módok a pénztárnál
+
+479
+00:23:35,168 --> 00:23:36,935
+Üdvözlöm!
+
+480
+00:23:36,958 --> 00:23:39,026
+Fizetni szeretne?
+
+481
+00:23:39,050 --> 00:23:41,823
+Igen, kérem.
+
+482
+00:23:41,846 --> 00:23:44,700
+A napi menü, ugye?
+
+483
+00:23:44,723 --> 00:23:48,323
+Összesen 980 jen.
+
+484
+00:23:48,346 --> 00:23:49,961
+Értettem.
+
+485
+00:23:49,985 --> 00:23:52,218
+Készpénzzel fizetek.
+
+486
+00:23:52,241 --> 00:23:54,419
+Ó, elnézést.
+
+487
+00:23:54,443 --> 00:23:56,693
+Nincs elég apróm.
+
+488
+00:23:56,716 --> 00:23:59,083
+Nincs nálam 1000 jenes sem.
+
+489
+00:23:59,106 --> 00:24:01,472
+Ne aggódj, minden rendben lesz!
+
+490
+00:24:01,495 --> 00:24:05,162
+Használhat elektronikus pénzt vagy kártyát is.
+
+491
+00:24:05,185 --> 00:24:07,072
+Nagyszerű!
+
+492
+00:24:07,095 --> 00:24:09,174
+Mobiltelefonnal fizetek.
+
+493
+00:24:09,198 --> 00:24:11,772
+Kérem, ezt a vonalkódot olvassa be.
+
+494
+00:24:11,795 --> 00:24:15,494
+Rendben, beolvasom.
+
+495
+00:24:15,517 --> 00:24:18,852
+Hűha, nem változik a képernyő.
+
+496
+00:24:18,875 --> 00:24:21,409
+Tényleg?
+
+497
+00:24:21,432 --> 00:24:24,699
+Gyenge a telefon jelzése.
+
+498
+00:24:24,723 --> 00:24:27,092
+Nem működik az alkalmazás.
+
+499
+00:24:27,115 --> 00:24:30,449
+Van ingyenes Wi-Fi a boltban.
+
+500
+00:24:30,472 --> 00:24:33,705
+Használja ezt a jelszót.
+
+501
+00:24:33,728 --> 00:24:35,304
+Köszönöm.
+
+502
+00:24:35,327 --> 00:24:39,728
+De ez időbe telik.
+
+503
+00:24:39,751 --> 00:24:42,485
+Mögöttünk vannak vendégek.
+
+504
+00:24:42,508 --> 00:24:45,324
+Van hitelkártyája?
+
+505
+00:24:45,348 --> 00:24:48,348
+Igen, van nálam kártya.
+
+506
+00:24:48,371 --> 00:24:51,504
+Kártyával is fizethet.
+
+507
+00:24:51,527 --> 00:24:54,370
+Akkor kártyával kérem.
+
+508
+00:24:54,394 --> 00:24:57,794
+Kérem, érintse hozzá a kártyát ehhez.
+
+509
+00:24:57,817 --> 00:24:59,583
+Megérintettem.
+
+510
+00:24:59,606 --> 00:25:02,142
+A fizetés megtörtént.
+
+511
+00:25:02,166 --> 00:25:04,966
+Kérem, vigye magával a blokkot.
+
+512
+00:25:04,989 --> 00:25:06,766
+Nagyon köszönöm!
+
+513
+00:25:06,789 --> 00:25:08,589
+Köszönöm szépen!
+
+514
+00:25:08,612 --> 00:25:12,146
+Nincs mit, jöjjön máskor is!
+
+515
+00:25:12,169 --> 00:25:13,669
+13. jelenet: Utazási terv készítése / Utazás tervezése
+
+516
+00:25:13,669 --> 00:25:18,035
+Ez a szendvics nagyon finom!
+
+517
+00:25:18,058 --> 00:25:23,525
+Igen, az én tojásos szendvicsem is nagyon finom.
+
+518
+00:25:23,548 --> 00:25:28,081
+Beszéljünk a jövő havi utazásról!
+
+519
+00:25:28,104 --> 00:25:32,562
+Igen, tervezzük meg a kiotói utazást!
+
+520
+00:25:32,585 --> 00:25:34,681
+Mikor utazunk?
+
+521
+00:25:34,705 --> 00:25:37,913
+Mit szólna a jövő hónap 10-éhez?
+
+522
+00:25:37,937 --> 00:25:41,870
+Utazzunk péntekről vasárnapig!
+
+523
+00:25:41,893 --> 00:25:43,726
+Remek!
+
+524
+00:25:43,749 --> 00:25:46,482
+2 éjszaka, 3 nap.
+
+525
+00:25:46,505 --> 00:25:49,305
+Utazzunk sinkanszennel!
+
+526
+00:25:49,328 --> 00:25:53,695
+Mikor vegyük meg a sinkanszen jegyét?
+
+527
+00:25:53,718 --> 00:25:57,318
+Jövő héten foglalom le interneten.
+
+528
+00:25:57,341 --> 00:25:59,308
+Értettem.
+
+529
+00:25:59,331 --> 00:26:02,897
+A korai sinkanszen jó lenne, nem?
+
+530
+00:26:02,920 --> 00:26:07,720
+Igen, legyen a reggel 8 órás sinkanszen.
+
+531
+00:26:07,743 --> 00:26:11,577
+Miután megérkeztünk Kiotóba, hová szeretnél menni?
+
+532
+00:26:11,600 --> 00:26:15,215
+Szeretnék híres templomokat látogatni.
+
+533
+00:26:15,238 --> 00:26:18,053
+Menjünk a Kijomizu-derához!
+
+534
+00:26:18,077 --> 00:26:21,966
+A Kijomizu-dera nagyon szép, ugye?
+
+535
+00:26:21,989 --> 00:26:26,645
+Én régi szentélyeket is szeretnék látni.
+
+536
+00:26:26,669 --> 00:26:30,149
+Akkor menjünk el a Fushimi Inari-szentélyhez is!
+
+537
+00:26:30,172 --> 00:26:31,774
+Remek!
+
+538
+00:26:31,798 --> 00:26:35,610
+Szeretnék elmenni egy jó kiotói kávézóba is.
+
+539
+00:26:35,633 --> 00:26:39,000
+Együnk matcha fagylaltot!
+
+540
+00:26:39,023 --> 00:26:41,081
+Alig várom!
+
+541
+00:26:41,104 --> 00:26:44,271
+Melyik szállodát választjuk?
+
+542
+00:26:44,294 --> 00:26:47,900
+Egy szálloda a Kiotó állomás közelében kényelmes lenne.
+
+543
+00:26:47,924 --> 00:26:50,621
+Mennyi a költségvetésünk?
+
+544
+00:26:50,644 --> 00:26:53,977
+Szerintem fejenként körülbelül 50 000 jen.
+
+545
+00:26:54,000 --> 00:26:55,972
+Értettem.
+
+546
+00:26:55,996 --> 00:27:00,207
+A sinkanszen és a szálloda körülbelül 30 000 jenbe kerül.
+
+547
+00:27:00,230 --> 00:27:03,463
+Az étkezésre és vásárlásra pedig körülbelül 20 000 jen jut.
+
+548
+00:27:03,486 --> 00:27:05,737
+Pont jó lesz így.
+
+549
+00:27:05,761 --> 00:27:10,094
+Ma este lefoglalom a szállodát.
+
+550
+00:27:10,117 --> 00:27:11,684
+Köszönöm!
+
+551
+00:27:11,707 --> 00:27:13,907
+Köszönöm szépen.
+
+552
+00:27:13,930 --> 00:27:15,465
+Igen.
+
+553
+00:27:15,488 --> 00:27:18,340
+Legyen jó utazásunk!
+
+554
+00:27:18,363 --> 00:27:19,863
+14. jelenet: A forgalmas ebédidő csúcsa és a pénztárzárás
+
+555
+00:27:19,863 --> 00:27:22,333
+Köszönöm a munkát!
+
+556
+00:27:22,357 --> 00:27:26,047
+Vége az ebédidő csúcsának.
+
+557
+00:27:26,070 --> 00:27:28,313
+Köszönöm a munkát!
+
+558
+00:27:28,336 --> 00:27:32,170
+Ma nagyon elfoglaltak voltunk.
+
+559
+00:27:32,193 --> 00:27:33,999
+Igen.
+
+560
+00:27:34,022 --> 00:27:38,115
+Sok vendég jött ma.
+
+561
+00:27:38,139 --> 00:27:41,539
+Sok szendvicset adtunk el.
+
+562
+00:27:41,562 --> 00:27:44,702
+A gyümölcsleveket is jól eladtuk.
+
+563
+00:27:44,725 --> 00:27:48,691
+Akkor csináljuk meg a pénztárközeli zárást.
+
+564
+00:27:48,714 --> 00:27:51,581
+Számold meg a pénzt!
+
+565
+00:27:51,604 --> 00:27:53,776
+Értettem.
+
+566
+00:27:53,799 --> 00:27:56,999
+Megszámolom a pénztárgépben lévő pénzt.
+
+567
+00:27:57,022 --> 00:28:00,422
+Hány darab ezres van?
+
+568
+00:28:00,445 --> 00:28:04,312
+Húsz darab ezres van.
+
+569
+00:28:04,335 --> 00:28:07,501
+És az ötszázasok?
+
+570
+00:28:07,524 --> 00:28:11,262
+Tíz darab ötszázas van.
+
+571
+00:28:11,285 --> 00:28:15,324
+Ellenőrizzük az összesen lévő összeget!
+
+572
+00:28:15,348 --> 00:28:18,630
+Egyezik a számítógépes számmal?
+
+573
+00:28:18,653 --> 00:28:20,520
+Igen.
+
+574
+00:28:20,543 --> 00:28:23,310
+Igen, ugyanaz az összeg.
+
+575
+00:28:23,333 --> 00:28:26,300
+Nagyszerű!
+
+576
+00:28:26,323 --> 00:28:29,256
+Végeztünk a pénztárzárással.
+
+577
+00:28:29,279 --> 00:28:31,412
+Megkönnyebbültem.
+
+578
+00:28:31,435 --> 00:28:34,002
+Most jön a szünet?
+
+579
+00:28:34,025 --> 00:28:35,663
+Igen.
+
+580
+00:28:35,687 --> 00:28:39,220
+Váltva tizenöt percet pihenünk.
+
+581
+00:28:39,243 --> 00:28:43,416
+Először te pihenj!
+
+582
+00:28:43,439 --> 00:28:45,092
+Köszönöm.
+
+583
+00:28:45,116 --> 00:28:47,974
+Ihatok valamit?
+
+584
+00:28:47,997 --> 00:28:49,637
+Igen.
+
+585
+00:28:49,661 --> 00:28:53,027
+Készíts magadnak bármilyen italt!
+
+586
+00:28:53,050 --> 00:28:56,184
+Hideg teát kérek.
+
+587
+00:28:56,207 --> 00:29:00,007
+Teszek bele egy kis cukrot.
+
+588
+00:29:00,030 --> 00:29:03,363
+Pihenj nyugodtan a pihenőszobában!
+
+589
+00:29:03,386 --> 00:29:07,243
+Tizenöt perc múlva jöjjön vissza, kérem.
+
+590
+00:29:07,267 --> 00:29:08,883
+Igen.
+
+591
+00:29:08,906 --> 00:29:11,740
+Visszajöttem, váltunk.
+
+592
+00:29:11,763 --> 00:29:13,996
+Köszönöm szépen.
+
+593
+00:29:14,019 --> 00:29:16,619
+Délután is adjunk bele apait-anyait!
+
+594
+00:29:16,642 --> 00:29:18,142
+15. jelenet: Rendelés egy kávézóban / Hogyan rendeljünk kávézóban
+
+595
+00:29:18,142 --> 00:29:20,011
+Üdvözlöm!
+
+596
+00:29:20,035 --> 00:29:22,803
+Üljön le, ahol szeretne.
+
+597
+00:29:22,826 --> 00:29:24,710
+Köszönöm.
+
+598
+00:29:24,734 --> 00:29:27,067
+Itt ülünk le.
+
+599
+00:29:27,091 --> 00:29:31,105
+Ha döntött, szóljon, kérem.
+
+600
+00:29:31,128 --> 00:29:32,766
+Elnézést.
+
+601
+00:29:32,789 --> 00:29:35,237
+Kérnék rendelni.
+
+602
+00:29:35,261 --> 00:29:36,994
+Igen.
+
+603
+00:29:37,017 --> 00:29:39,631
+Mit hozhatok?
+
+604
+00:29:39,655 --> 00:29:43,188
+Valami édeset szeretnék enni.
+
+605
+00:29:43,211 --> 00:29:46,145
+Van ajánlott süteményük?
+
+606
+00:29:46,168 --> 00:29:49,846
+Az őszi szezonális süteményünk ajánlott.
+
+607
+00:29:49,869 --> 00:29:52,515
+A gesztenyés süti most nagyon népszerű.
+
+608
+00:29:52,539 --> 00:29:54,984
+Gesztenyés süti?
+
+609
+00:29:55,007 --> 00:29:57,174
+Nagyon finomnak tűnik!
+
+610
+00:29:57,197 --> 00:30:00,472
+A matcha parfait is nagyon népszerű.
+
+611
+00:30:00,495 --> 00:30:03,429
+Mindkettő jól hangzik.
+
+612
+00:30:03,452 --> 00:30:05,261
+Nehéz dönteni.
+
+613
+00:30:05,284 --> 00:30:09,183
+A gesztenyés süti nem túl édes.
+
+614
+00:30:09,206 --> 00:30:11,539
+Nagyszerűen passzol a kávéhoz.
+
+615
+00:30:11,562 --> 00:30:13,529
+Értem.
+
+616
+00:30:13,552 --> 00:30:16,752
+Akkor a gesztenyés sütit kérem.
+
+617
+00:30:16,775 --> 00:30:18,392
+Köszönöm.
+
+618
+00:30:18,416 --> 00:30:21,049
+Mit szeretne inni?
+
+619
+00:30:21,072 --> 00:30:23,907
+Egy meleg kávét kérek.
+
+620
+00:30:23,930 --> 00:30:27,788
+A süti és kávé kombó kedvezményes.
+
+621
+00:30:27,812 --> 00:30:30,661
+50 forinttal olcsóbb.
+
+622
+00:30:30,685 --> 00:30:33,251
+Az jó!
+
+623
+00:30:33,274 --> 00:30:35,453
+Akkor a kombót kérem.
+
+624
+00:30:35,477 --> 00:30:37,610
+Értettem.
+
+625
+00:30:37,633 --> 00:30:41,766
+Gesztenyés süti és meleg kávé, ugye?
+
+626
+00:30:41,789 --> 00:30:43,437
+Igen.
+
+627
+00:30:43,461 --> 00:30:45,461
+Köszönöm szépen.
+
+628
+00:30:45,484 --> 00:30:47,817
+Kis türelmet kérünk.
+
+629
+00:30:47,840 --> 00:30:51,007
+Hozom az asztalukhoz.
+
+630
+00:30:51,030 --> 00:30:52,630
+Értettem.
+
+631
+00:30:52,653 --> 00:30:55,224
+Alig várom!
+
+632
+00:30:55,247 --> 00:30:56,747
+16. jelenet: Új latte-készítés / Hogyan készítsünk új latte-kávékat
+
+633
+00:30:56,747 --> 00:31:00,222
+Most egy kicsit csendes van.
+
+634
+00:31:00,245 --> 00:31:04,212
+Gyakoroljuk az új menüt.
+
+635
+00:31:04,235 --> 00:31:06,368
+Igen, kérem.
+
+636
+00:31:06,391 --> 00:31:11,125
+Hónap végén új latte-kínálatunk lesz.
+
+637
+00:31:11,148 --> 00:31:14,714
+Matcha latte és karamell latte.
+
+638
+00:31:14,737 --> 00:31:17,771
+Mindkettő finomnak tűnik.
+
+639
+00:31:17,794 --> 00:31:20,927
+Nehéz elkészíteni?
+
+640
+00:31:20,950 --> 00:31:23,750
+Nem nehéz.
+
+641
+00:31:23,773 --> 00:31:27,773
+Először a karamell lattét készítjük el.
+
+642
+00:31:27,796 --> 00:31:31,929
+Rendben, előkészítem a csészét.
+
+643
+00:31:31,952 --> 00:31:36,204
+Tegyünk bele 15 gramm karamellszirupot.
+
+644
+00:31:36,227 --> 00:31:39,044
+Kérem, mérje le pontosan kanállal.
+
+645
+00:31:39,068 --> 00:31:41,868
+15 gramm, ugye?
+
+646
+00:31:41,891 --> 00:31:44,425
+Beletettem a szirupot.
+
+647
+00:31:44,448 --> 00:31:48,814
+Most tegyünk bele eszpresszót.
+
+648
+00:31:48,837 --> 00:31:51,471
+Nyomja meg egyszer a gombot.
+
+649
+00:31:51,494 --> 00:31:54,761
+Beletettem az eszpresszót.
+
+650
+00:31:54,784 --> 00:31:57,718
+Jó illata van!
+
+651
+00:31:57,741 --> 00:32:01,478
+Ezután melegítsük fel a tejet.
+
+652
+00:32:01,501 --> 00:32:05,747
+Gőzölje fel finom habbá.
+
+653
+00:32:05,771 --> 00:32:08,811
+Milyen hőmérsékletű legyen a tej?
+
+654
+00:32:08,834 --> 00:32:12,319
+65 fok a legjobb.
+
+655
+00:32:12,343 --> 00:32:15,810
+Túl forró nem lesz finom.
+
+656
+00:32:15,833 --> 00:32:17,966
+Értettem.
+
+657
+00:32:17,989 --> 00:32:21,088
+Felmelegítettük 65 fokra.
+
+658
+00:32:21,111 --> 00:32:24,547
+Lassan öntsd hozzá a tejet.
+
+659
+00:32:24,571 --> 00:32:28,804
+A tetejére karamellöntetet locsolunk.
+
+660
+00:32:28,827 --> 00:32:30,594
+Kész is van.
+
+661
+00:32:30,617 --> 00:32:32,954
+Gyönyörűen sikerült.
+
+662
+00:32:32,977 --> 00:32:35,344
+Hogy ízlik?
+
+663
+00:32:35,367 --> 00:32:38,767
+Nagyon édes és finom.
+
+664
+00:32:38,790 --> 00:32:42,057
+Most matcha latte-t készítünk.
+
+665
+00:32:42,080 --> 00:32:46,713
+A matcha port forró vízzel jól oldd fel.
+
+666
+00:32:46,736 --> 00:32:48,269
+Igen.
+
+667
+00:32:48,292 --> 00:32:50,959
+Jól keverd el.
+
+668
+00:32:50,982 --> 00:32:52,482
+17. jelenet: Elveszett tárgyak keresése / Hogyan találjunk elfelejtett dolgokat
+
+669
+00:32:52,482 --> 00:32:54,415
+Üdvözlöm!
+
+670
+00:32:54,438 --> 00:32:56,405
+Jó napot kívánok!
+
+671
+00:32:56,428 --> 00:32:58,280
+Elnézést.
+
+672
+00:32:58,303 --> 00:33:01,313
+Valami elveszett dolgot keresek.
+
+673
+00:33:01,337 --> 00:33:04,142
+Elveszett tárgyat, értem.
+
+674
+00:33:04,165 --> 00:33:08,165
+Ma járt itt?
+
+675
+00:33:08,188 --> 00:33:09,963
+Igen.
+
+676
+00:33:09,987 --> 00:33:14,120
+Ma déli fél egy körül voltam itt.
+
+677
+00:33:14,143 --> 00:33:16,149
+Értettem.
+
+678
+00:33:16,173 --> 00:33:19,506
+Melyik asztalnál ült?
+
+679
+00:33:19,529 --> 00:33:23,605
+A terem végében, az ablak melletti asztalnál.
+
+680
+00:33:23,628 --> 00:33:27,228
+Az asztalon felejtettem el valamit.
+
+681
+00:33:27,251 --> 00:33:31,384
+Mit felejtett el?
+
+682
+00:33:31,407 --> 00:33:36,262
+Egy fekete összecsukható esernyőt és egy kis táskát.
+
+683
+00:33:36,286 --> 00:33:39,087
+Kérem, részletesebben mondja el.
+
+684
+00:33:39,110 --> 00:33:42,577
+Milyen az esernyő?
+
+685
+00:33:42,600 --> 00:33:46,733
+Kicsi, fekete összecsukható esernyő.
+
+686
+00:33:46,756 --> 00:33:50,495
+A nyele kék matricával van díszítve.
+
+687
+00:33:50,518 --> 00:33:54,252
+Milyen a táska?
+
+688
+00:33:54,275 --> 00:33:57,935
+Barna bőrtáska.
+
+689
+00:33:57,958 --> 00:34:00,451
+Két zsebe van.
+
+690
+00:34:00,474 --> 00:34:02,722
+Értettem.
+
+691
+00:34:02,746 --> 00:34:06,583
+Megnézem a hátsó tárolót.
+
+692
+00:34:06,606 --> 00:34:09,039
+Kis türelmet kérünk.
+
+693
+00:34:09,062 --> 00:34:10,747
+Igen.
+
+694
+00:34:10,770 --> 00:34:13,041
+Köszönöm szépen.
+
+695
+00:34:13,065 --> 00:34:15,498
+Elnézést a várakozásért.
+
+696
+00:34:15,521 --> 00:34:17,795
+Ez lenne az?
+
+697
+00:34:17,818 --> 00:34:19,955
+Igen, ez az.
+
+698
+00:34:19,979 --> 00:34:22,983
+Az én esernyőm és táskám.
+
+699
+00:34:23,006 --> 00:34:25,740
+Nagyon köszönöm!
+
+700
+00:34:25,763 --> 00:34:28,129
+Nagyszerű!
+
+701
+00:34:28,152 --> 00:34:32,219
+Az azonosításhoz kérem a nevét.
+
+702
+00:34:32,242 --> 00:34:34,861
+Tanaka.
+
+703
+00:34:34,885 --> 00:34:37,218
+Tanaka Kenta.
+
+704
+00:34:37,241 --> 00:34:39,808
+Tanaka úr, ugye?
+
+705
+00:34:39,831 --> 00:34:43,398
+Kérem, írja alá ezt a papírt.
+
+706
+00:34:43,421 --> 00:34:45,354
+Igen.
+
+707
+00:34:45,377 --> 00:34:47,235
+Már aláírtam.
+
+708
+00:34:47,259 --> 00:34:48,937
+Köszönöm.
+
+709
+00:34:48,961 --> 00:34:51,894
+Visszaadom az elveszett tárgyait.
+
+710
+00:34:51,917 --> 00:34:54,093
+Nagyon köszönöm!
+
+711
+00:34:54,117 --> 00:34:57,090
+Nagyon köszönöm!
+
+712
+00:34:57,114 --> 00:35:01,651
+Nincs mit, várjuk ismét a látogatását!
+
+713
+00:35:01,675 --> 00:35:03,175
+18. jelenet: Hiányzás kérése fontos vizsga miatt / Hiányzási kérelem fontos vizsga miatt
+
+714
+00:35:03,175 --> 00:35:05,655
+Üdvözlöm!
+
+715
+00:35:05,679 --> 00:35:09,279
+Van most egy kis ideje?
+
+716
+00:35:09,302 --> 00:35:11,868
+Üdvözlöm!
+
+717
+00:35:11,891 --> 00:35:14,925
+Igen, persze.
+
+718
+00:35:14,947 --> 00:35:18,200
+Valamit szeretnék megbeszélni.
+
+719
+00:35:18,224 --> 00:35:21,990
+A jövő hét szombatjáról van szó.
+
+720
+00:35:22,013 --> 00:35:25,147
+A jövő hét szombatjáról?
+
+721
+00:35:25,170 --> 00:35:27,446
+Mi a helyzet?
+
+722
+00:35:27,469 --> 00:35:31,802
+Jövő szombaton vizsgám lesz.
+
+723
+00:35:31,825 --> 00:35:35,281
+Ez egy nagyon fontos egyetemi vizsga.
+
+724
+00:35:35,305 --> 00:35:37,485
+Értem.
+
+725
+00:35:37,508 --> 00:35:40,041
+A vizsgák mindig nehezek, ugye?
+
+726
+00:35:40,064 --> 00:35:41,998
+Igen.
+
+727
+00:35:42,021 --> 00:35:46,319
+Ezért szeretnék szabadságot kérni a munkából.
+
+728
+00:35:46,342 --> 00:35:48,217
+Értettem.
+
+729
+00:35:48,241 --> 00:35:51,974
+Én szombaton ráérek.
+
+730
+00:35:51,997 --> 00:35:54,164
+Tényleg?
+
+731
+00:35:54,187 --> 00:35:58,477
+Be tudnál ugrani helyettem a műszakba?
+
+732
+00:35:58,500 --> 00:36:01,700
+Persze, szívesen!
+
+733
+00:36:01,723 --> 00:36:04,132
+Dolgozni fogok szombaton.
+
+734
+00:36:04,156 --> 00:36:07,043
+Nagyon köszönöm!
+
+735
+00:36:07,067 --> 00:36:09,400
+Nagyon sokat segítesz vele!
+
+736
+00:36:09,423 --> 00:36:13,482
+Ugyan, nincs mit!
+
+737
+00:36:13,505 --> 00:36:16,605
+Hajrá a tanulással a vizsgára!
+
+738
+00:36:16,628 --> 00:36:19,638
+Köszönöm, meglesz!
+
+739
+00:36:19,662 --> 00:36:24,596
+Cserébe vasárnap én dolgozom helyetted.
+
+740
+00:36:24,619 --> 00:36:27,285
+Vasárnap?
+
+741
+00:36:27,308 --> 00:36:31,075
+Én dolgozom vasárnap, nem?
+
+742
+00:36:31,098 --> 00:36:32,751
+Igen.
+
+743
+00:36:32,775 --> 00:36:37,741
+Vasárnap én dolgozom helyetted.
+
+744
+00:36:37,764 --> 00:36:39,531
+Köszönöm.
+
+745
+00:36:39,554 --> 00:36:42,887
+Akkor vasárnapra kérem szépen.
+
+746
+00:36:42,910 --> 00:36:46,444
+Rendben, megbeszéltük!
+
+747
+00:36:46,467 --> 00:36:49,435
+Majd szólok a főnöknek is.
+
+748
+00:36:49,458 --> 00:36:52,335
+Köszönöm, nagyon kedves vagy!
+
+749
+00:36:52,358 --> 00:36:55,158
+Mindig számíthatok rád.
+
+750
+00:36:55,181 --> 00:36:59,582
+Legközelebb veszek neked egy finom gyümölcslevet!
+
+751
+00:36:59,605 --> 00:37:01,539
+Hihi, köszönöm szépen!
+
+752
+00:37:01,562 --> 00:37:04,832
+Na, akkor vége a szünetnek.
+
+753
+00:37:04,855 --> 00:37:08,855
+Igen, térjünk vissza a munkához!
+
+754
+00:37:08,878 --> 00:37:10,378
+19. jelenet: Az ügyfélszolgálat alapjai
+
+755
+00:37:10,378 --> 00:37:12,231
+Elnézést.
+
+756
+00:37:12,254 --> 00:37:14,295
+Elnézést kérek!
+
+757
+00:37:14,319 --> 00:37:17,253
+Igen, tessék?
+
+758
+00:37:17,275 --> 00:37:22,076
+Köszönjük, hogy ismét nálunk járt!
+
+759
+00:37:22,100 --> 00:37:25,634
+Hamarosan 20 óra, zárunk.
+
+760
+00:37:25,657 --> 00:37:29,057
+Ó, már ennyi az idő?
+
+761
+00:37:29,080 --> 00:37:31,113
+Értettem.
+
+762
+00:37:31,136 --> 00:37:34,936
+Elvihetem az üres csészéjét?
+
+763
+00:37:34,959 --> 00:37:37,492
+Igen, kérem.
+
+764
+00:37:37,515 --> 00:37:39,963
+Ezt a csészét, ugye?
+
+765
+00:37:39,987 --> 00:37:41,787
+Köszönöm.
+
+766
+00:37:41,810 --> 00:37:44,410
+Elviszem, kérem.
+
+767
+00:37:44,433 --> 00:37:47,110
+Nyugodtan készülődjön!
+
+768
+00:37:47,134 --> 00:37:51,568
+Igen, mindjárt összeszedem a holmimat.
+
+769
+00:37:51,591 --> 00:37:54,558
+A fizetés a kasszánál történik.
+
+770
+00:37:54,581 --> 00:37:58,514
+Ma készpénzzel és bankkártyával is fizethet.
+
+771
+00:37:58,537 --> 00:38:01,196
+Bankkártyával fizetek.
+
+772
+00:38:01,219 --> 00:38:04,553
+Felveszem a kabátomat, aztán megyek a kasszához.
+
+773
+00:38:04,576 --> 00:38:06,176
+Értettem.
+
+774
+00:38:06,199 --> 00:38:08,933
+A kasszánál várom önt.
+
+775
+00:38:08,956 --> 00:38:10,723
+Elnézést.
+
+776
+00:38:10,746 --> 00:38:12,963
+Fizetnék, kérem.
+
+777
+00:38:12,986 --> 00:38:16,961
+Igen, egy forró kávé és egy szelet torta, ugye?
+
+778
+00:38:16,985 --> 00:38:19,918
+Összesen 800 forint lesz.
+
+779
+00:38:19,941 --> 00:38:21,874
+Kártyával fizetek.
+
+780
+00:38:21,897 --> 00:38:24,331
+Átveszem a kártyáját.
+
+781
+00:38:24,354 --> 00:38:27,052
+Egy összegben fizet?
+
+782
+00:38:27,076 --> 00:38:30,443
+Igen, egy összegben kérem.
+
+783
+00:38:30,467 --> 00:38:33,345
+Itt a blokk és a kártyája.
+
+784
+00:38:33,368 --> 00:38:35,535
+Kérem, ellenőrizze.
+
+785
+00:38:35,558 --> 00:38:37,326
+Köszönöm.
+
+786
+00:38:37,349 --> 00:38:40,205
+Nagyon finom kávé volt.
+
+787
+00:38:40,229 --> 00:38:41,766
+Köszönöm.
+
+788
+00:38:41,790 --> 00:38:44,757
+Örömmel hallom, hogy ezt mondja.
+
+789
+00:38:44,780 --> 00:38:48,980
+Ma este nagyon hideg van, kérem, vigyázzon magára.
+
+790
+00:38:49,003 --> 00:38:50,848
+Köszönöm.
+
+791
+00:38:50,871 --> 00:38:53,038
+Még visszajövök.
+
+792
+00:38:53,061 --> 00:38:54,718
+Köszönöm.
+
+793
+00:38:54,742 --> 00:38:58,775
+Szívből várjuk, hogy újra nálunk járjon.
+
+794
+00:38:58,798 --> 00:39:01,365
+Legyen szép estéje.
+
+795
+00:39:01,388 --> 00:39:04,032
+Legyen szép estéje.
+
+796
+00:39:04,055 --> 00:39:05,555
+20. jelenet: Zárás és a napi bevétel összeszámlálása
+
+797
+00:39:05,555 --> 00:39:08,394
+Ma is jól dolgoztatok.
+
+798
+00:39:08,417 --> 00:39:11,550
+Bezártad az üzlet ajtaját?
+
+799
+00:39:11,573 --> 00:39:14,252
+Igen, bezártam.
+
+800
+00:39:14,276 --> 00:39:18,409
+A kinti táblát is behoztam.
+
+801
+00:39:18,432 --> 00:39:20,286
+Köszönöm!
+
+802
+00:39:20,310 --> 00:39:24,545
+Akkor számoljuk meg a pénztárgépben lévő pénzt.
+
+803
+00:39:24,568 --> 00:39:28,020
+Igen, én megszámolom.
+
+804
+00:39:28,044 --> 00:39:31,977
+Húszezer forintosból húsz darab van.
+
+805
+00:39:32,000 --> 00:39:35,659
+Hány ötezres van?
+
+806
+00:39:35,683 --> 00:39:39,250
+Négy ötezres van.
+
+807
+00:39:39,273 --> 00:39:43,075
+Tízezresből pedig hat darab, ugye?
+
+808
+00:39:43,098 --> 00:39:45,532
+Az aprót is megszámoltam.
+
+809
+00:39:45,555 --> 00:39:48,488
+Mennyi volt a mai bevétel?
+
+810
+00:39:48,511 --> 00:39:51,678
+Tízezer forint.
+
+811
+00:39:51,701 --> 00:39:54,120
+Nagyszerű!
+
+812
+00:39:54,143 --> 00:39:57,279
+A pénztárgép számával megegyezik.
+
+813
+00:39:57,302 --> 00:39:59,240
+Nagyszerű!
+
+814
+00:39:59,264 --> 00:40:02,330
+Most kivisszük a szemetet?
+
+815
+00:40:02,353 --> 00:40:04,410
+Igen, kérem.
+
+816
+00:40:04,434 --> 00:40:07,967
+Kérlek, szedd össze a konyhai szemeteszsákokat.
+
+817
+00:40:07,990 --> 00:40:09,842
+Értettem.
+
+818
+00:40:09,865 --> 00:40:13,151
+Hátul, a szemétlerakóhoz viszem.
+
+819
+00:40:13,174 --> 00:40:16,642
+Én pedig írok a füzetbe.
+
+820
+00:40:16,666 --> 00:40:20,099
+Értesítem a holnapi reggeli személyzetet.
+
+821
+00:40:20,122 --> 00:40:22,356
+Mit írsz?
+
+822
+00:40:22,380 --> 00:40:26,350
+Azt írom, hogy fogyóban a tej.
+
+823
+00:40:26,374 --> 00:40:32,007
+Kérlek, holnap reggel vegyetek új tejet.
+
+824
+00:40:32,030 --> 00:40:34,597
+Ez nagyon fontos.
+
+825
+00:40:34,620 --> 00:40:37,293
+Kész a szemét kivitele.
+
+826
+00:40:37,316 --> 00:40:40,329
+Kapcsold le a villanyt és a légkondicionálót.
+
+827
+00:40:40,353 --> 00:40:42,753
+Igen, lekapcsoltam.
+
+828
+00:40:42,776 --> 00:40:45,634
+Nincs ottfelejtett holmid?
+
+829
+00:40:45,657 --> 00:40:48,590
+Igen, minden rendben.
+
+830
+00:40:48,613 --> 00:40:50,981
+Akkor menjünk haza.
+
+831
+00:40:51,005 --> 00:40:54,343
+Köszönjük a mai napot.
+
+832
+00:40:54,366 --> 00:40:56,700
+Köszönöm a munkát!
+
+833
+00:40:56,723 --> 00:40:59,656
+Elnézést, én megyek előre.

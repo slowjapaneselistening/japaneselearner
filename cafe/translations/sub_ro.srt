@@ -1,0 +1,3331 @@
+1
+00:00:00,000 --> 00:00:10,008
+Ce vom vedea în videoclipul de astăzi? O conversație la cafenea.
+
+2
+00:00:10,008 --> 00:00:11,508
+Scena 1: Cum să comanzi în japoneză / Cum să faci o comandă în japoneză
+
+3
+00:00:11,508 --> 00:00:13,508
+Bun venit!
+
+4
+00:00:13,530 --> 00:00:16,297
+Ați decis ce doriți să comandați?
+
+5
+00:00:16,320 --> 00:00:18,053
+Da.
+
+6
+00:00:18,076 --> 00:00:21,249
+Aș dori o cafea rece, vă rog.
+
+7
+00:00:21,273 --> 00:00:24,441
+Da, o cafea rece.
+
+8
+00:00:24,464 --> 00:00:27,705
+Ce mărime doriți?
+
+9
+00:00:27,729 --> 00:00:32,262
+Avem Short, Tall și Grande.
+
+10
+00:00:32,285 --> 00:00:35,052
+Aș dori mărimea Tall, vă rog.
+
+11
+00:00:35,075 --> 00:00:37,208
+Am înțeles.
+
+12
+00:00:37,231 --> 00:00:39,431
+Mărimea Tall, desigur.
+
+13
+00:00:39,454 --> 00:00:42,621
+Doriți să consumați aici?
+
+14
+00:00:42,644 --> 00:00:46,577
+Nu, la pachet, vă rog.
+
+15
+00:00:46,600 --> 00:00:48,767
+Am înțeles.
+
+16
+00:00:48,790 --> 00:00:51,157
+La pachet, desigur.
+
+17
+00:00:51,180 --> 00:00:55,113
+Doriți să adăugați lapte sau sirop?
+
+18
+00:00:55,136 --> 00:00:57,736
+Nu, mulțumesc.
+
+19
+00:00:57,759 --> 00:00:59,832
+Am înțeles.
+
+20
+00:00:59,855 --> 00:01:03,055
+Mai doriți ceva?
+
+21
+00:01:03,078 --> 00:01:06,478
+Ce părere aveți despre aceste produse alimentare?
+
+22
+00:01:06,501 --> 00:01:08,168
+Hmm...
+
+23
+00:01:08,191 --> 00:01:11,469
+Aș mai lua și un scon cu ciocolată, vă rog.
+
+24
+00:01:11,493 --> 00:01:14,226
+Un scon cu ciocolată, desigur.
+
+25
+00:01:14,249 --> 00:01:16,685
+Doriți să fie încălzit?
+
+26
+00:01:16,709 --> 00:01:18,345
+Da.
+
+27
+00:01:18,369 --> 00:01:20,502
+Da, încălziți-l, vă rog.
+
+28
+00:01:20,525 --> 00:01:23,058
+Am înțeles.
+
+29
+00:01:23,081 --> 00:01:26,214
+Va fi mai gustos încălzit.
+
+30
+00:01:26,237 --> 00:01:28,004
+Mulțumesc.
+
+31
+00:01:28,027 --> 00:01:31,160
+Atunci, urmează plata.
+
+32
+00:01:31,183 --> 00:01:39,037
+Cafeaua rece Tall și sconul cu ciocolată fac în total 750 de yeni.
+
+33
+00:01:39,061 --> 00:01:42,094
+Pot plăti cu cardul de credit?
+
+34
+00:01:42,117 --> 00:01:44,717
+Da, puteți.
+
+35
+00:01:44,740 --> 00:01:48,594
+Atingeți cardul de acest aparat, vă rog.
+
+36
+00:01:48,618 --> 00:01:51,716
+Bine. Am atins.
+
+37
+00:01:51,740 --> 00:01:53,306
+Mulțumesc.
+
+38
+00:01:53,329 --> 00:01:57,409
+Plata s-a efectuat cu succes.
+
+39
+00:01:57,433 --> 00:02:01,166
+Luați bonul și numărul de apel.
+
+40
+00:02:01,189 --> 00:02:02,674
+Mulțumesc.
+
+41
+00:02:02,698 --> 00:02:06,510
+Produsele vi le vom preda la ghișeul de livrare.
+
+42
+00:02:06,533 --> 00:02:10,733
+Vă rugăm să așteptați puțin până vă chemăm numărul.
+
+43
+00:02:10,756 --> 00:02:12,569
+Am înțeles.
+
+44
+00:02:12,593 --> 00:02:14,593
+Acolo, nu?
+
+45
+00:02:14,616 --> 00:02:17,950
+Da, exact acolo.
+
+46
+00:02:17,973 --> 00:02:22,263
+Vom încălzi sconul, așa că va dura aproximativ 2 minute.
+
+47
+00:02:22,286 --> 00:02:24,153
+Am înțeles.
+
+48
+00:02:24,176 --> 00:02:26,610
+Vă mulțumim pentru așteptare.
+
+49
+00:02:26,632 --> 00:02:29,078
+Clientul numărul 15.
+
+50
+00:02:29,101 --> 00:02:32,438
+Da, eu sunt.
+
+51
+00:02:32,462 --> 00:02:34,477
+Vă mulțumim pentru așteptare.
+
+52
+00:02:34,500 --> 00:02:40,333
+Iată cafeaua rece Tall și sconul cu ciocolată încălzit.
+
+53
+00:02:40,356 --> 00:02:41,890
+Mulțumesc.
+
+54
+00:02:41,913 --> 00:02:43,779
+Arată delicios.
+
+55
+00:02:43,802 --> 00:02:48,936
+Sconul este foarte fierbinte, așa că aveți grijă când îl luați.
+
+56
+00:02:48,959 --> 00:02:50,825
+Am înțeles.
+
+57
+00:02:50,848 --> 00:02:52,382
+Mulțumesc.
+
+58
+00:02:52,405 --> 00:02:57,638
+Paie și șervețele sunt disponibile pe tejghea, luați cât doriți.
+
+59
+00:02:57,661 --> 00:02:59,636
+Am înțeles.
+
+60
+00:02:59,659 --> 00:03:01,592
+Mulțumesc frumos.
+
+61
+00:03:01,615 --> 00:03:03,849
+Vă așteptăm din nou!
+
+62
+00:03:03,872 --> 00:03:06,121
+Mulțumesc.
+
+63
+00:03:06,145 --> 00:03:15,154
+Scenariul videoclipului de astăzi poate fi descărcat din descriere și din primul comentariu. Vă rugăm să lăsați un comentariu înainte de a descărca.
+
+64
+00:03:15,154 --> 00:03:16,654
+Scena 2: Bazele pregătirilor de dimineață / Elementele de bază ale pregătirii de dimineață
+
+65
+00:03:16,654 --> 00:03:21,544
+Acum, să ne pregătim pentru dimineață.
+
+66
+00:03:21,568 --> 00:03:25,701
+Mai întâi, verificați boabele de cafea.
+
+67
+00:03:25,724 --> 00:03:27,457
+Da.
+
+68
+00:03:27,480 --> 00:03:30,247
+Aceste boabe, da.
+
+69
+00:03:30,270 --> 00:03:33,803
+Uitați-vă la data de pe pungă.
+
+70
+00:03:33,826 --> 00:03:36,460
+Sunt boabe proaspete?
+
+71
+00:03:36,482 --> 00:03:38,291
+Da.
+
+72
+00:03:38,315 --> 00:03:41,283
+Sunt boabe care au sosit ieri.
+
+73
+00:03:41,306 --> 00:03:43,173
+Foarte bine.
+
+74
+00:03:43,196 --> 00:03:46,329
+Cum miroase boabele?
+
+75
+00:03:46,352 --> 00:03:49,403
+Miroase foarte bine.
+
+76
+00:03:49,426 --> 00:03:52,494
+Prospețimea este în regulă.
+
+77
+00:03:52,518 --> 00:03:55,529
+Mă bucur.
+
+78
+00:03:55,552 --> 00:04:00,552
+Apoi, verificați temperatura frigiderului.
+
+79
+00:04:00,575 --> 00:04:03,870
+Frigiderul este la 4 grade.
+
+80
+00:04:03,893 --> 00:04:07,790
+Cuptorul de menținere a temperaturii este la 60 de grade.
+
+81
+00:04:07,814 --> 00:04:10,512
+Ambele sunt în regulă.
+
+82
+00:04:10,536 --> 00:04:14,469
+Acum, să facem niște sandvișuri.
+
+83
+00:04:14,492 --> 00:04:18,425
+Câte felii de pâine tăiem?
+
+84
+00:04:18,448 --> 00:04:21,022
+Tăiați 10 felii, vă rog.
+
+85
+00:04:21,046 --> 00:04:23,979
+Tăiați-le subțire, bine?
+
+86
+00:04:24,002 --> 00:04:26,136
+Am înțeles.
+
+87
+00:04:26,159 --> 00:04:28,892
+Spălăm și legumele?
+
+88
+00:04:28,915 --> 00:04:30,482
+Da.
+
+89
+00:04:30,505 --> 00:04:34,638
+Spălați bine salata și roșiile.
+
+90
+00:04:34,661 --> 00:04:37,953
+Scoatem și șunca și brânza.
+
+91
+00:04:37,976 --> 00:04:39,748
+Vă rog.
+
+92
+00:04:39,772 --> 00:04:43,007
+Vom face și salată de ouă.
+
+93
+00:04:43,030 --> 00:04:46,688
+Câte ouă fierte folosim?
+
+94
+00:04:46,711 --> 00:04:49,311
+Folosiți 8 ouă, vă rog.
+
+95
+00:04:49,334 --> 00:04:52,821
+Zdrobiți-le într-un bol, bine?
+
+96
+00:04:52,844 --> 00:04:54,262
+Da.
+
+97
+00:04:54,286 --> 00:04:56,620
+Le fac imediat.
+
+98
+00:04:56,643 --> 00:05:00,209
+Să terminăm totul până la ora 8.
+
+99
+00:05:00,232 --> 00:05:01,665
+Da.
+
+100
+00:05:01,688 --> 00:05:03,822
+O să reușim.
+
+101
+00:05:03,845 --> 00:05:10,950
+Link-ul către site-ul unde poți recapitula videoclipul de astăzi se află în descriere și în primul comentariu. *Site-ul poate fi șters fără notificare prealabilă.
+
+102
+00:05:10,950 --> 00:05:12,450
+Scena 3: Pregătirile de dinainte de deschidere și orele aglomerate / Pregătirile de dinainte de deschidere și orele de vârf
+
+103
+00:05:12,450 --> 00:05:15,416
+E aproape ora 8.
+
+104
+00:05:15,439 --> 00:05:18,073
+Mai sunt 10 minute până la deschidere.
+
+105
+00:05:18,096 --> 00:05:22,234
+Da, pregătirile sunt aproape gata.
+
+106
+00:05:22,257 --> 00:05:24,790
+Să ne străduim și astăzi.
+
+107
+00:05:24,813 --> 00:05:29,147
+Știți cum va fi vremea astăzi?
+
+108
+00:05:29,170 --> 00:05:30,903
+Da.
+
+109
+00:05:30,926 --> 00:05:34,165
+Plouă după-amiază.
+
+110
+00:05:34,189 --> 00:05:35,955
+Hmm...
+
+111
+00:05:35,978 --> 00:05:39,978
+De aceea, dimineața vor veni mulți clienți.
+
+112
+00:05:40,001 --> 00:05:41,768
+Am înțeles.
+
+113
+00:05:41,791 --> 00:05:45,324
+Pe la ce oră este cel mai aglomerat?
+
+114
+00:05:45,347 --> 00:05:49,281
+De obicei, între 12 și 2.
+
+115
+00:05:49,304 --> 00:05:53,509
+Ora prânzului este foarte aglomerată.
+
+116
+00:05:53,532 --> 00:05:54,899
+Am înțeles.
+
+117
+00:05:54,922 --> 00:05:57,388
+O să fiu atent.
+
+118
+00:05:57,411 --> 00:06:01,178
+Obiectivul de vânzări pentru astăzi este de 100.000 de yeni.
+
+119
+00:06:01,201 --> 00:06:03,734
+100.000 de yeni, da.
+
+120
+00:06:03,757 --> 00:06:06,691
+Vindem și prăjitura nouă?
+
+121
+00:06:06,714 --> 00:06:08,380
+Da.
+
+122
+00:06:08,403 --> 00:06:12,437
+Recomandați clienților prăjitura sezonieră.
+
+123
+00:06:12,460 --> 00:06:14,264
+Am înțeles.
+
+124
+00:06:14,288 --> 00:06:17,867
+Spuneți: „Recomandarea de astăzi!”.
+
+125
+00:06:17,890 --> 00:06:19,823
+Foarte bine.
+
+126
+00:06:19,846 --> 00:06:24,046
+Să stabilim acum distribuirea sarcinilor.
+
+127
+00:06:24,069 --> 00:06:25,836
+Da.
+
+128
+00:06:25,859 --> 00:06:28,826
+Ce ar trebui să fac eu?
+
+129
+00:06:28,849 --> 00:06:31,824
+Domnule Mike, te rog să te ocupi de casa de marcat.
+
+130
+00:06:31,847 --> 00:06:35,580
+Te rog să preiei plățile și să iei comanda.
+
+131
+00:06:35,603 --> 00:06:37,491
+Am înțeles.
+
+132
+00:06:37,515 --> 00:06:40,781
+Eu mă voi ocupa de casa de marcat.
+
+133
+00:06:40,804 --> 00:06:44,338
+Eu voi pregăti băuturile și mâncarea.
+
+134
+00:06:44,361 --> 00:06:47,894
+Când suntem ocupați, să ne ajutăm reciproc.
+
+135
+00:06:47,917 --> 00:06:49,650
+Da.
+
+136
+00:06:49,673 --> 00:06:51,683
+Vă mulțumesc frumos.
+
+137
+00:06:51,706 --> 00:06:55,106
+Atunci, să deschidem magazinul.
+
+138
+00:06:55,130 --> 00:06:56,696
+Da.
+
+139
+00:06:56,719 --> 00:06:58,738
+Să deschidem!
+
+140
+00:06:58,762 --> 00:07:00,262
+Scena 4: Conversații de dimineață la cafenea / Discuții de dimineață la o cafenea
+
+141
+00:07:00,262 --> 00:07:02,595
+Bună dimineața!
+
+142
+00:07:02,618 --> 00:07:05,151
+Bun venit!
+
+143
+00:07:05,174 --> 00:07:07,578
+Bună dimineața!
+
+144
+00:07:07,602 --> 00:07:10,769
+Și azi este o zi frumoasă, nu-i așa?
+
+145
+00:07:10,792 --> 00:07:12,725
+Da.
+
+146
+00:07:12,748 --> 00:07:16,406
+Acum este foarte cald.
+
+147
+00:07:16,430 --> 00:07:19,630
+Doriți setul obișnuit de dimineață?
+
+148
+00:07:19,653 --> 00:07:21,386
+Da.
+
+149
+00:07:21,409 --> 00:07:23,409
+Vă rog.
+
+150
+00:07:23,432 --> 00:07:27,365
+Pâine prăjită cu unt și cafea neagră, corect?
+
+151
+00:07:27,388 --> 00:07:29,389
+Da.
+
+152
+00:07:29,413 --> 00:07:33,146
+Vă rog să-mi dați cafeaua fierbinte.
+
+153
+00:07:33,169 --> 00:07:35,424
+Am înțeles.
+
+154
+00:07:35,447 --> 00:07:38,381
+Poftiți, luați loc la masă.
+
+155
+00:07:38,404 --> 00:07:40,204
+Mulțumesc.
+
+156
+00:07:40,227 --> 00:07:43,960
+Astăzi am venit puțin mai devreme.
+
+157
+00:07:43,983 --> 00:07:45,759
+Hmm...
+
+158
+00:07:45,782 --> 00:07:49,749
+De obicei veniți pe la 8:30, nu?
+
+159
+00:07:49,772 --> 00:07:53,425
+Astăzi am de lucru de la 9.
+
+160
+00:07:53,448 --> 00:07:55,543
+E greu, nu-i așa?
+
+161
+00:07:55,566 --> 00:07:57,733
+V-am făcut să așteptați.
+
+162
+00:07:57,756 --> 00:08:00,222
+Poftiți setul de dimineață.
+
+163
+00:08:00,245 --> 00:08:02,012
+Mulțumesc.
+
+164
+00:08:02,035 --> 00:08:04,168
+Arată delicios.
+
+165
+00:08:04,191 --> 00:08:08,958
+Săptămâna asta a plouat mult, nu?
+
+166
+00:08:08,981 --> 00:08:10,617
+Da.
+
+167
+00:08:10,641 --> 00:08:14,374
+Rufele nu s-au uscat.
+
+168
+00:08:14,397 --> 00:08:18,568
+Se pare că va ploua din nou după-amiază.
+
+169
+00:08:18,591 --> 00:08:21,490
+A, da?
+
+170
+00:08:21,514 --> 00:08:24,721
+Mă bucur că mi-am luat umbrela.
+
+171
+00:08:24,744 --> 00:08:27,379
+Mulțumesc pentru masă.
+
+172
+00:08:27,402 --> 00:08:29,207
+Mulțumesc.
+
+173
+00:08:29,231 --> 00:08:32,847
+Plata este de 500 de yeni.
+
+174
+00:08:32,871 --> 00:08:35,904
+Plătesc exact 500 de yeni.
+
+175
+00:08:35,927 --> 00:08:37,494
+Mulțumesc.
+
+176
+00:08:37,517 --> 00:08:41,083
+Spor la muncă și astăzi!
+
+177
+00:08:41,106 --> 00:08:42,885
+Da.
+
+178
+00:08:42,909 --> 00:08:44,842
+Mă duc.
+
+179
+00:08:44,865 --> 00:08:46,913
+Drum bun!
+
+180
+00:08:46,937 --> 00:08:49,670
+Vă așteptăm din nou.
+
+181
+00:08:49,693 --> 00:08:51,193
+Scena 5: Preluarea rapidă a comenzilor / Preluarea rapidă a comenzilor
+
+182
+00:08:51,193 --> 00:08:53,231
+Bun venit!
+
+183
+00:08:53,255 --> 00:08:55,658
+Bună dimineața!
+
+184
+00:08:55,681 --> 00:08:58,348
+Bună dimineața!
+
+185
+00:08:58,371 --> 00:09:03,189
+Îmi cer scuze, sunt foarte grăbit.
+
+186
+00:09:03,213 --> 00:09:07,746
+Mai am doar zece minute până la plecarea trenului.
+
+187
+00:09:07,769 --> 00:09:09,769
+Am înțeles.
+
+188
+00:09:09,792 --> 00:09:12,428
+Vă pregătesc imediat comanda.
+
+189
+00:09:12,452 --> 00:09:16,624
+Care este cea mai rapidă băutură pe care o puteți face?
+
+190
+00:09:16,647 --> 00:09:20,494
+Cafeaua latte rece este cea mai rapidă.
+
+191
+00:09:20,518 --> 00:09:24,391
+Atunci, vă rog o cafea latte rece.
+
+192
+00:09:24,414 --> 00:09:28,481
+Mărimea M este în regulă?
+
+193
+00:09:28,504 --> 00:09:32,470
+Da, mărimea M, vă rog.
+
+194
+00:09:32,493 --> 00:09:35,027
+Doriți să o luați la pachet?
+
+195
+00:09:35,050 --> 00:09:38,709
+Da, la pachet, vă rog.
+
+196
+00:09:38,732 --> 00:09:42,372
+Folosiți sirop de zahăr sau lapte?
+
+197
+00:09:42,395 --> 00:09:45,869
+Nu, vă rog să nu puneți.
+
+198
+00:09:45,893 --> 00:09:48,779
+Ați putea pune mai puțină gheață?
+
+199
+00:09:48,802 --> 00:09:51,657
+Da, se poate.
+
+200
+00:09:51,680 --> 00:09:55,047
+O să pun mai puțină gheață.
+
+201
+00:09:55,070 --> 00:09:57,436
+Cât costă nota de plată?
+
+202
+00:09:57,459 --> 00:10:01,474
+Totalul este 450 de yeni.
+
+203
+00:10:01,498 --> 00:10:04,431
+Pot plăti cu portofelul electronic?
+
+204
+00:10:04,454 --> 00:10:08,021
+Da, îl puteți folosi.
+
+205
+00:10:08,044 --> 00:10:10,855
+Atingeți acest aparat, vă rog.
+
+206
+00:10:10,878 --> 00:10:13,644
+Da, am atins.
+
+207
+00:10:13,667 --> 00:10:15,267
+Mulțumesc.
+
+208
+00:10:15,290 --> 00:10:18,224
+Plata s-a finalizat.
+
+209
+00:10:18,247 --> 00:10:22,052
+Folosiți o pungă pentru a lua cu dumneavoastră?
+
+210
+00:10:22,075 --> 00:10:25,283
+Da, o pungă, vă rog.
+
+211
+00:10:25,306 --> 00:10:30,106
+E rece, așa că o să pun și un manșon pe cupă.
+
+212
+00:10:30,129 --> 00:10:33,298
+Da, mă ajutați mult.
+
+213
+00:10:33,321 --> 00:10:36,055
+Vă cerem scuze pentru întârziere.
+
+214
+00:10:36,078 --> 00:10:39,411
+Iată latte cu gheață, mărimea M.
+
+215
+00:10:39,434 --> 00:10:40,909
+Mulțumesc.
+
+216
+00:10:40,932 --> 00:10:43,766
+Mă bucur că s-a făcut repede.
+
+217
+00:10:43,789 --> 00:10:45,670
+La revedere!
+
+218
+00:10:45,693 --> 00:10:47,296
+Aveți grijă!
+
+219
+00:10:47,320 --> 00:10:50,720
+Da, plec.
+
+220
+00:10:50,743 --> 00:10:52,243
+Scena 6: Conversație de dimineață și confirmarea programului / Conversație de dimineață și confirmarea programului
+
+221
+00:10:52,243 --> 00:10:54,645
+Bună dimineața!
+
+222
+00:10:54,669 --> 00:10:57,802
+Și azi este o zi frumoasă, nu-i așa?
+
+223
+00:10:57,825 --> 00:11:00,158
+Bună dimineața!
+
+224
+00:11:00,181 --> 00:11:02,148
+Hmm...
+
+225
+00:11:02,171 --> 00:11:05,388
+Ați cumpărat deja cafeaua?
+
+226
+00:11:05,411 --> 00:11:07,178
+Da.
+
+227
+00:11:07,201 --> 00:11:10,652
+Am cumpărat un latte cald.
+
+228
+00:11:10,676 --> 00:11:14,153
+Eu am ales o cafea fierbinte.
+
+229
+00:11:14,177 --> 00:11:18,510
+Atunci, să confirmăm programul de astăzi.
+
+230
+00:11:18,533 --> 00:11:20,267
+Da.
+
+231
+00:11:20,290 --> 00:11:22,158
+Vă rog.
+
+232
+00:11:22,181 --> 00:11:26,473
+Astăzi avem o ședință de la ora 10 dimineața, nu-i așa?
+
+233
+00:11:26,497 --> 00:11:28,264
+Da.
+
+234
+00:11:28,287 --> 00:11:32,062
+Este prezentarea pentru noul proiect.
+
+235
+00:11:32,085 --> 00:11:35,353
+Ați pregătit materialele?
+
+236
+00:11:35,377 --> 00:11:37,143
+Da.
+
+237
+00:11:37,166 --> 00:11:40,966
+Am verificat totul aseară.
+
+238
+00:11:40,990 --> 00:11:43,523
+Excelent!
+
+239
+00:11:43,546 --> 00:11:46,638
+Să ne uităm împreună încă o dată.
+
+240
+00:11:46,662 --> 00:11:48,300
+Da.
+
+241
+00:11:48,323 --> 00:11:51,357
+Acestea sunt materialele pentru astăzi.
+
+242
+00:11:51,380 --> 00:11:54,113
+Uitați-vă la pagina 2.
+
+243
+00:11:54,136 --> 00:11:57,337
+Sunt corecte aceste cifre?
+
+244
+00:11:57,361 --> 00:11:59,294
+Da.
+
+245
+00:11:59,317 --> 00:12:02,384
+Sunt aceleași ca datele de săptămâna trecută.
+
+246
+00:12:02,407 --> 00:12:04,773
+Am înțeles.
+
+247
+00:12:04,796 --> 00:12:07,263
+Sunt foarte ușor de citit.
+
+248
+00:12:07,286 --> 00:12:09,019
+Mulțumesc.
+
+249
+00:12:09,042 --> 00:12:12,076
+Partea modificată este aici.
+
+250
+00:12:12,099 --> 00:12:14,957
+Pozele au devenit mai mari, nu-i așa?
+
+251
+00:12:14,981 --> 00:12:16,827
+Da.
+
+252
+00:12:16,850 --> 00:12:19,183
+S-au făcut mai ușor de văzut.
+
+253
+00:12:19,206 --> 00:12:22,692
+Cine va face prezentarea?
+
+254
+00:12:22,716 --> 00:12:26,328
+Eu voi vorbi prima parte.
+
+255
+00:12:26,351 --> 00:12:28,218
+Am înțeles.
+
+256
+00:12:28,241 --> 00:12:33,008
+Eu mă ocup de timpul pentru întrebări la final.
+
+257
+00:12:33,031 --> 00:12:34,722
+Da.
+
+258
+00:12:34,745 --> 00:12:36,778
+Vă mulțumesc frumos.
+
+259
+00:12:36,801 --> 00:12:40,201
+Sunteți puțin emoționat?
+
+260
+00:12:40,224 --> 00:12:43,391
+Sunt puțin emoționat.
+
+261
+00:12:43,414 --> 00:12:45,581
+Nu vă faceți griji.
+
+262
+00:12:45,604 --> 00:12:48,370
+Ați exersat mult.
+
+263
+00:12:48,393 --> 00:12:49,927
+Da.
+
+264
+00:12:49,950 --> 00:12:52,150
+Voi face tot posibilul.
+
+265
+00:12:52,173 --> 00:12:55,506
+Ce faceți după ședință?
+
+266
+00:12:55,529 --> 00:12:59,262
+De la ora 1:00 după-amiază vom lua prânzul.
+
+267
+00:12:59,285 --> 00:13:01,119
+Foarte bine.
+
+268
+00:13:01,142 --> 00:13:03,942
+Să mâncăm ceva delicios.
+
+269
+00:13:03,965 --> 00:13:05,634
+Da.
+
+270
+00:13:05,657 --> 00:13:08,124
+Abia aștept.
+
+271
+00:13:08,147 --> 00:13:11,029
+Sala de ședințe este la etajul 3, nu-i așa?
+
+272
+00:13:11,052 --> 00:13:12,855
+Da.
+
+273
+00:13:12,879 --> 00:13:16,537
+Sala de ședințe este la etajul 3.
+
+274
+00:13:16,560 --> 00:13:20,093
+Să mergem la firmă cu 15 minute înainte?
+
+275
+00:13:20,116 --> 00:13:21,650
+Da.
+
+276
+00:13:21,673 --> 00:13:23,806
+Să facem așa.
+
+277
+00:13:23,829 --> 00:13:27,103
+Atunci, să mergem la firmă.
+
+278
+00:13:27,126 --> 00:13:28,564
+Da.
+
+279
+00:13:28,588 --> 00:13:30,564
+Hai să mergem.
+
+280
+00:13:30,587 --> 00:13:32,087
+Scena 7: Ghidare locuri și Wi-Fi / Ghidare locuri și Wi-Fi
+
+281
+00:13:32,087 --> 00:13:33,961
+Bun venit!
+
+282
+00:13:33,985 --> 00:13:36,920
+Vă rugăm să luați loc unde doriți.
+
+283
+00:13:36,943 --> 00:13:38,776
+Mă scuzați.
+
+284
+00:13:38,799 --> 00:13:42,333
+Unde sunt locurile cu priză?
+
+285
+00:13:42,356 --> 00:13:44,156
+Da.
+
+286
+00:13:44,179 --> 00:13:47,512
+Sunt la tejgheaua de acolo.
+
+287
+00:13:47,535 --> 00:13:49,185
+Mulțumesc.
+
+288
+00:13:49,208 --> 00:13:52,175
+Aș vrea să folosesc calculatorul.
+
+289
+00:13:52,198 --> 00:13:55,398
+Vă conduc la locul de la tejghea.
+
+290
+00:13:55,421 --> 00:13:57,698
+Pe aici, vă rog.
+
+291
+00:13:57,722 --> 00:13:59,363
+Mulțumesc.
+
+292
+00:13:59,387 --> 00:14:02,220
+Aveți Wi-Fi?
+
+293
+00:14:02,243 --> 00:14:03,810
+Da.
+
+294
+00:14:03,833 --> 00:14:06,709
+Avem Wi-Fi gratuit.
+
+295
+00:14:06,732 --> 00:14:10,214
+Care este parola?
+
+296
+00:14:10,237 --> 00:14:13,735
+Este scrisă pe spatele meniului.
+
+297
+00:14:13,759 --> 00:14:15,835
+Uitați-vă aici.
+
+298
+00:14:15,859 --> 00:14:17,893
+Am înțeles.
+
+299
+00:14:17,916 --> 00:14:19,984
+Mă ajutați foarte mult.
+
+300
+00:14:20,007 --> 00:14:24,274
+Domnule client, am o rugăminte.
+
+301
+00:14:24,297 --> 00:14:29,497
+În perioadele aglomerate, vă rugăm să limitați utilizarea la maxim 2 ore.
+
+302
+00:14:29,520 --> 00:14:31,087
+Da.
+
+303
+00:14:31,110 --> 00:14:32,944
+Am înțeles.
+
+304
+00:14:32,967 --> 00:14:35,300
+O să fiu atent.
+
+305
+00:14:35,323 --> 00:14:38,057
+Vă mulțumim pentru cooperare.
+
+306
+00:14:38,080 --> 00:14:41,494
+Ați decis ce băutură doriți să comandați?
+
+307
+00:14:41,517 --> 00:14:43,326
+Da.
+
+308
+00:14:43,349 --> 00:14:46,549
+Aș dori o cafea fierbinte, vă rog.
+
+309
+00:14:46,572 --> 00:14:49,548
+Ce mărime doriți?
+
+310
+00:14:49,572 --> 00:14:52,459
+M, vă rog.
+
+311
+00:14:52,483 --> 00:14:54,561
+Am înțeles.
+
+312
+00:14:54,584 --> 00:14:57,817
+Folosiți zahăr și lapte?
+
+313
+00:14:57,840 --> 00:15:01,040
+Un zahăr, vă rog.
+
+314
+00:15:01,063 --> 00:15:02,930
+Am înțeles.
+
+315
+00:15:02,953 --> 00:15:05,786
+Vă rog să așteptați puțin.
+
+316
+00:15:05,809 --> 00:15:07,309
+Scena 8: Servirea clienților și un mediu confortabil / Servirea clienților și un mediu confortabil
+
+317
+00:15:07,309 --> 00:15:09,148
+Bun venit!
+
+318
+00:15:09,172 --> 00:15:12,816
+Nu vă este frig, domnule client?
+
+319
+00:15:12,839 --> 00:15:15,373
+Ah, îmi cer scuze.
+
+320
+00:15:15,395 --> 00:15:18,162
+Este puțin frig.
+
+321
+00:15:18,185 --> 00:15:20,818
+Îmi pare foarte rău.
+
+322
+00:15:20,841 --> 00:15:25,575
+Aici vă lovește direct curentul de la aerul condiționat, nu-i așa?
+
+323
+00:15:25,598 --> 00:15:27,164
+Da.
+
+324
+00:15:27,187 --> 00:15:30,221
+Curentul este puțin puternic.
+
+325
+00:15:30,244 --> 00:15:33,492
+Să ridicăm puțin temperatura?
+
+326
+00:15:33,515 --> 00:15:35,115
+Vă rog.
+
+327
+00:15:35,138 --> 00:15:39,472
+Apoi, aveți pături?
+
+328
+00:15:39,495 --> 00:15:41,728
+Da, avem.
+
+329
+00:15:41,751 --> 00:15:44,686
+Vi le aduc imediat.
+
+330
+00:15:44,710 --> 00:15:46,315
+Mulțumesc.
+
+331
+00:15:46,338 --> 00:15:48,305
+Mă ajutați foarte mult.
+
+332
+00:15:48,328 --> 00:15:50,561
+Vă mulțumim pentru așteptare.
+
+333
+00:15:50,584 --> 00:15:54,051
+Vă rog să folosiți această pătură.
+
+334
+00:15:54,074 --> 00:15:55,679
+Mulțumesc.
+
+335
+00:15:55,703 --> 00:15:58,379
+Este foarte caldă.
+
+336
+00:15:58,402 --> 00:16:00,435
+Mă bucur.
+
+337
+00:16:00,458 --> 00:16:05,192
+Dacă doriți, să vă mutăm la alt loc?
+
+338
+00:16:05,215 --> 00:16:08,671
+Da, aș vrea să mă mut.
+
+339
+00:16:08,694 --> 00:16:12,301
+Este liberă masa din fundul acela?
+
+340
+00:16:12,325 --> 00:16:13,795
+Da.
+
+341
+00:16:13,819 --> 00:16:17,513
+Masa pătrată de acolo este liberă.
+
+342
+00:16:17,536 --> 00:16:20,936
+E liniștit acolo?
+
+343
+00:16:20,959 --> 00:16:25,126
+Azi aș vrea să citesc o carte în liniște.
+
+344
+00:16:25,149 --> 00:16:26,282
+Da.
+
+345
+00:16:26,305 --> 00:16:29,572
+Locul din fund este foarte liniștit.
+
+346
+00:16:29,595 --> 00:16:32,473
+Nici curentul de la aer condiționat nu ajunge acolo.
+
+347
+00:16:32,496 --> 00:16:34,766
+Asta e minunat.
+
+348
+00:16:34,790 --> 00:16:38,324
+Atunci, mă duc la locul acela.
+
+349
+00:16:38,347 --> 00:16:41,480
+Să vă ajut cu bagajele?
+
+350
+00:16:41,503 --> 00:16:44,503
+Nu, le duc singur.
+
+351
+00:16:44,526 --> 00:16:46,659
+E în regulă.
+
+352
+00:16:46,682 --> 00:16:48,376
+Am înțeles.
+
+353
+00:16:48,400 --> 00:16:51,600
+Atunci, vă conduc eu.
+
+354
+00:16:51,622 --> 00:16:53,189
+Mulțumesc.
+
+355
+00:16:53,212 --> 00:16:58,379
+Ah, și aș mai dori o ceașcă de ceai negru cald, vă rog.
+
+356
+00:16:58,402 --> 00:17:00,568
+Am înțeles.
+
+357
+00:17:00,591 --> 00:17:03,648
+Ceai simplu, fără zahăr, este în regulă?
+
+358
+00:17:03,672 --> 00:17:05,311
+Da.
+
+359
+00:17:05,334 --> 00:17:07,811
+Da, ceai simplu, vă rog.
+
+360
+00:17:07,835 --> 00:17:10,602
+Vi-l aduc imediat.
+
+361
+00:17:10,625 --> 00:17:13,442
+Să vă simțiți cât mai bine.
+
+362
+00:17:13,466 --> 00:17:15,926
+Mulțumesc.
+
+363
+00:17:15,949 --> 00:17:17,449
+Scena 9: Exersarea kanji și a particulelor
+
+364
+00:17:17,449 --> 00:17:22,249
+Hai să învățăm mult astăzi.
+
+365
+00:17:22,272 --> 00:17:24,639
+Da, să ne străduim!
+
+366
+00:17:24,662 --> 00:17:28,628
+Săptămâna viitoare avem test de japoneză, nu-i așa?
+
+367
+00:17:28,651 --> 00:17:32,531
+Da, este testul N5.
+
+368
+00:17:32,555 --> 00:17:35,688
+Cum merge studiul?
+
+369
+00:17:35,711 --> 00:17:40,978
+Hmm, kanji-ul este puțin dificil.
+
+370
+00:17:41,001 --> 00:17:44,201
+Ce kanji vă dau bătăi de cap?
+
+371
+00:17:44,224 --> 00:17:48,224
+Kanji-ul pentru săptămână și a scrie.
+
+372
+00:17:48,247 --> 00:17:51,783
+Ah, kanji cu multe linii.
+
+373
+00:17:51,806 --> 00:17:56,474
+Da, e greu de memorat.
+
+374
+00:17:56,498 --> 00:17:59,631
+Dacă scrii de mai multe ori, o să-ți intre în cap.
+
+375
+00:17:59,654 --> 00:18:03,832
+Așa e, voi exersa în fiecare zi.
+
+376
+00:18:03,856 --> 00:18:06,136
+Cum merge cu gramatica?
+
+377
+00:18:06,159 --> 00:18:09,572
+Uneori nu înțeleg particulele.
+
+378
+00:18:09,596 --> 00:18:12,670
+Diferența dintre „ni” și „de”.
+
+379
+00:18:12,694 --> 00:18:16,361
+Da, mă cam încurc.
+
+380
+00:18:16,385 --> 00:18:20,427
+Atunci, să ne dăm probleme unul altuia de acum înainte.
+
+381
+00:18:20,450 --> 00:18:23,383
+Sună bine, te rog.
+
+382
+00:18:23,406 --> 00:18:26,475
+Prima întrebare.
+
+383
+00:18:26,499 --> 00:18:30,670
+Învăț la cafenea.
+
+384
+00:18:30,694 --> 00:18:33,927
+Ce particulă intră în paranteză?
+
+385
+00:18:33,950 --> 00:18:38,232
+Fiindcă e vorba de loc, „de”?
+
+386
+00:18:38,256 --> 00:18:40,505
+Corect!
+
+387
+00:18:40,528 --> 00:18:42,995
+Foarte bine!
+
+388
+00:18:43,018 --> 00:18:46,385
+Mă bucur, mi-am făcut griji.
+
+389
+00:18:46,408 --> 00:18:50,490
+Acum îți dau eu o întrebare.
+
+390
+00:18:50,513 --> 00:18:52,680
+Te rog.
+
+391
+00:18:52,703 --> 00:18:57,073
+Mâine mă trezesc la 8.
+
+392
+00:18:57,096 --> 00:19:01,764
+Ce particulă intră în paranteză?
+
+393
+00:19:01,788 --> 00:19:06,054
+După timp, așadar „ni”.
+
+394
+00:19:06,077 --> 00:19:08,052
+Perfect!
+
+395
+00:19:08,075 --> 00:19:10,142
+Chiar ești bun!
+
+396
+00:19:10,165 --> 00:19:14,062
+Uf, sunt puțin obosit.
+
+397
+00:19:14,085 --> 00:19:17,852
+Și eu mi s-a cam înmuiat creierul.
+
+398
+00:19:17,875 --> 00:19:21,242
+Am studiat cam o oră.
+
+399
+00:19:21,265 --> 00:19:24,398
+Să luăm o mică pauză.
+
+400
+00:19:24,421 --> 00:19:28,310
+Da, mi-ar plăcea ceva dulce.
+
+401
+00:19:28,333 --> 00:19:32,066
+În vitrina aceea sunt prăjituri.
+
+402
+00:19:32,089 --> 00:19:35,823
+Ce delicioasă arată prăjitura cu căpșuni!
+
+403
+00:19:35,846 --> 00:19:38,612
+Avem și prăjitură cu ciocolată.
+
+404
+00:19:38,635 --> 00:19:41,845
+Eu o să iau prăjitura cu căpșuni.
+
+405
+00:19:41,869 --> 00:19:45,766
+Atunci eu o să iau prăjitura cu ciocolată.
+
+406
+00:19:45,789 --> 00:19:48,723
+Să chemăm chelnerul?
+
+407
+00:19:48,747 --> 00:19:51,429
+Da, să-l chemăm.
+
+408
+00:19:51,452 --> 00:19:52,952
+Scena 10: Pregătiri pentru prânz și atribuirea sarcinilor
+
+409
+00:19:52,952 --> 00:19:58,185
+E aproape 11:45.
+
+410
+00:19:58,208 --> 00:20:01,296
+Se apropie ora prânzului.
+
+411
+00:20:01,320 --> 00:20:04,322
+Da, înțeleg, senior.
+
+412
+00:20:04,345 --> 00:20:07,678
+Magazinul se va aglomera în curând.
+
+413
+00:20:07,701 --> 00:20:11,068
+Să confirmăm sarcinile.
+
+414
+00:20:11,091 --> 00:20:15,091
+Tu ești responsabil(ă) de casa de marcat astăzi.
+
+415
+00:20:15,114 --> 00:20:17,247
+Am înțeles.
+
+416
+00:20:17,270 --> 00:20:20,948
+Eu voi prelua comenzile la casă.
+
+417
+00:20:20,971 --> 00:20:25,619
+Eu mă ocup de bucătărie și băuturi.
+
+418
+00:20:25,642 --> 00:20:29,076
+Voi pregăti sandvișuri și cafea.
+
+419
+00:20:29,099 --> 00:20:30,865
+Da.
+
+420
+00:20:30,888 --> 00:20:33,890
+Ești pregătit(ă)?
+
+421
+00:20:33,914 --> 00:20:37,281
+Avem linguri și furculițe?
+
+422
+00:20:37,304 --> 00:20:41,312
+Verifică lângă casa de marcat.
+
+423
+00:20:41,336 --> 00:20:45,336
+Ah, sunt puține linguri.
+
+424
+00:20:45,359 --> 00:20:48,492
+Le completez imediat.
+
+425
+00:20:48,515 --> 00:20:50,392
+Vă rog.
+
+426
+00:20:50,416 --> 00:20:54,883
+Verifică și pungile pentru takeaway și paharele.
+
+427
+00:20:54,906 --> 00:20:56,514
+Da.
+
+428
+00:20:56,537 --> 00:21:00,004
+Avem multe pungi și pahare.
+
+429
+00:21:00,027 --> 00:21:03,270
+Mă bucur.
+
+430
+00:21:03,294 --> 00:21:06,827
+Nu uitați de paiele.
+
+431
+00:21:06,850 --> 00:21:08,223
+Am înțeles.
+
+432
+00:21:08,247 --> 00:21:10,899
+Am pregătit și paiele.
+
+433
+00:21:10,922 --> 00:21:15,255
+Acum să exersăm salutul.
+
+434
+00:21:15,278 --> 00:21:18,812
+Poți să saluți cu voce tare?
+
+435
+00:21:18,835 --> 00:21:21,635
+Da, pot.
+
+436
+00:21:21,658 --> 00:21:23,671
+Bun venit!
+
+437
+00:21:23,694 --> 00:21:26,627
+Ai o voce foarte frumoasă.
+
+438
+00:21:26,650 --> 00:21:29,983
+Zâmbetul tău e minunat.
+
+439
+00:21:30,006 --> 00:21:31,904
+Mulțumesc.
+
+440
+00:21:31,928 --> 00:21:34,967
+Astăzi voi munci din greu.
+
+441
+00:21:34,991 --> 00:21:39,057
+Da, să muncim împreună.
+
+442
+00:21:39,080 --> 00:21:42,280
+Au venit clienți.
+
+443
+00:21:42,303 --> 00:21:45,870
+Bine ați venit!
+
+444
+00:21:45,893 --> 00:21:47,393
+Scena 11: Preluarea comenzilor și verificarea alergiilor
+
+445
+00:21:47,393 --> 00:21:49,393
+Bun venit!
+
+446
+00:21:49,416 --> 00:21:52,383
+Doriți să mâncați aici?
+
+447
+00:21:52,406 --> 00:21:56,006
+Da, mâncăm în local.
+
+448
+00:21:56,028 --> 00:21:57,662
+Mulțumesc.
+
+449
+00:21:57,685 --> 00:22:00,851
+Ați decis ce doriți să comandați?
+
+450
+00:22:00,874 --> 00:22:04,916
+Aș dori setul cu sandvișul zilei, vă rog.
+
+451
+00:22:04,940 --> 00:22:08,189
+Setul cu sandvișul zilei, în regulă.
+
+452
+00:22:08,212 --> 00:22:12,748
+Sandvișul de azi este cu pui și legume.
+
+453
+00:22:12,771 --> 00:22:14,938
+Arată delicios.
+
+454
+00:22:14,962 --> 00:22:17,260
+Îl voi lua pe acela.
+
+455
+00:22:17,283 --> 00:22:22,083
+Domnule/Domnișoară, aveți alergii alimentare?
+
+456
+00:22:22,106 --> 00:22:27,040
+Da, sunt alergic(ă) la ouă.
+
+457
+00:22:27,063 --> 00:22:29,496
+Am înțeles.
+
+458
+00:22:29,519 --> 00:22:34,286
+Sandvișul conține maioneză.
+
+459
+00:22:34,309 --> 00:22:38,309
+Maioneza conține ou.
+
+460
+00:22:38,332 --> 00:22:40,415
+Înțeleg.
+
+461
+00:22:40,438 --> 00:22:44,012
+Se poate să excludeți maioneza?
+
+462
+00:22:44,035 --> 00:22:48,475
+Da, îl voi pregăti fără maioneză.
+
+463
+00:22:48,498 --> 00:22:50,098
+Mulțumesc.
+
+464
+00:22:50,121 --> 00:22:52,140
+Mă ajutați foarte mult.
+
+465
+00:22:52,164 --> 00:22:55,964
+Ce băutură doriți la set?
+
+466
+00:22:55,987 --> 00:22:58,387
+Ce aveți?
+
+467
+00:22:58,410 --> 00:23:03,610
+Avem cafea, ceai negru și suc de portocale.
+
+468
+00:23:03,633 --> 00:23:06,718
+Aș dori un ceai cald, vă rog.
+
+469
+00:23:06,741 --> 00:23:09,708
+Un ceai cald, desigur.
+
+470
+00:23:09,731 --> 00:23:12,740
+Totalul este 1000 de yeni.
+
+471
+00:23:12,764 --> 00:23:15,297
+Plătesc cash.
+
+472
+00:23:15,320 --> 00:23:18,654
+Vă rog exact 1000 de yeni.
+
+473
+00:23:18,676 --> 00:23:22,010
+Luați acest număr de comandă, vă rog.
+
+474
+00:23:22,033 --> 00:23:24,099
+Am înțeles.
+
+475
+00:23:24,122 --> 00:23:28,165
+Când va fi gata, vi-l vom aduce la masă.
+
+476
+00:23:28,189 --> 00:23:30,989
+Așteptați la o masă liberă, vă rog.
+
+477
+00:23:31,012 --> 00:23:33,645
+Mulțumesc.
+
+478
+00:23:33,668 --> 00:23:35,168
+Scena 12: Plata și metode de plată / Metode de plată la casă
+
+479
+00:23:35,168 --> 00:23:36,935
+Bun venit!
+
+480
+00:23:36,958 --> 00:23:39,026
+Este vorba despre plată, nu?
+
+481
+00:23:39,050 --> 00:23:41,823
+Da, vă rog.
+
+482
+00:23:41,846 --> 00:23:44,700
+Este vorba despre meniul zilei, nu?
+
+483
+00:23:44,723 --> 00:23:48,323
+Totalul este 980 de yeni.
+
+484
+00:23:48,346 --> 00:23:49,961
+Am înțeles.
+
+485
+00:23:49,985 --> 00:23:52,218
+Plătesc cash.
+
+486
+00:23:52,241 --> 00:23:54,419
+Ah, îmi cer scuze.
+
+487
+00:23:54,443 --> 00:23:56,693
+Nu am mărunțiș.
+
+488
+00:23:56,716 --> 00:23:59,083
+Nici bancnotă de 1000 de yeni nu am.
+
+489
+00:23:59,106 --> 00:24:01,472
+Nu vă faceți griji.
+
+490
+00:24:01,495 --> 00:24:05,162
+Puteți plăti și cu portofel electronic sau card.
+
+491
+00:24:05,185 --> 00:24:07,072
+Mă bucur.
+
+492
+00:24:07,095 --> 00:24:09,174
+Voi plăti cu telefonul.
+
+493
+00:24:09,198 --> 00:24:11,772
+Vă rog să scanați acest cod de bare.
+
+494
+00:24:11,795 --> 00:24:15,494
+Da, îl scanez acum.
+
+495
+00:24:15,517 --> 00:24:18,852
+Hmm, ecranul nu se schimbă.
+
+496
+00:24:18,875 --> 00:24:21,409
+Serios?
+
+497
+00:24:21,432 --> 00:24:24,699
+Semnalul telefonului este slab.
+
+498
+00:24:24,723 --> 00:24:27,092
+Aplicația nu funcționează.
+
+499
+00:24:27,115 --> 00:24:30,449
+Avem Wi-Fi gratuit în magazin.
+
+500
+00:24:30,472 --> 00:24:33,705
+Folosiți această parolă, vă rog.
+
+501
+00:24:33,728 --> 00:24:35,304
+Mulțumesc.
+
+502
+00:24:35,327 --> 00:24:39,728
+Dar va dura ceva timp.
+
+503
+00:24:39,751 --> 00:24:42,485
+Mai sunt clienți în spate.
+
+504
+00:24:42,508 --> 00:24:45,324
+Aveți card de credit?
+
+505
+00:24:45,348 --> 00:24:48,348
+Da, am card.
+
+506
+00:24:48,371 --> 00:24:51,504
+Puteți plăti și cu cardul.
+
+507
+00:24:51,527 --> 00:24:54,370
+Atunci, voi plăti cu cardul.
+
+508
+00:24:54,394 --> 00:24:57,794
+Atingeți cardul aici, vă rog.
+
+509
+00:24:57,817 --> 00:24:59,583
+Am atins.
+
+510
+00:24:59,606 --> 00:25:02,142
+Plata s-a finalizat.
+
+511
+00:25:02,166 --> 00:25:04,966
+Luați bonul, vă rog.
+
+512
+00:25:04,989 --> 00:25:06,766
+M-ați salvat!
+
+513
+00:25:06,789 --> 00:25:08,589
+Mulțumesc frumos.
+
+514
+00:25:08,612 --> 00:25:12,146
+Cu plăcere, reveniți oricând!
+
+515
+00:25:12,169 --> 00:25:13,669
+Scena 13: Planificarea unei călătorii / Planificarea unei excursii
+
+516
+00:25:13,669 --> 00:25:18,035
+Acest sandviș este foarte gustos!
+
+517
+00:25:18,058 --> 00:25:23,525
+Da, și sandvișul meu cu ou este delicios.
+
+518
+00:25:23,548 --> 00:25:28,081
+Astăzi să vorbim despre călătoria de luna viitoare.
+
+519
+00:25:28,104 --> 00:25:32,562
+Da, să facem planuri pentru călătoria la Kyoto.
+
+520
+00:25:32,585 --> 00:25:34,681
+Când plecăm?
+
+521
+00:25:34,705 --> 00:25:37,913
+Ce ziceți de data de 10 a lunii viitoare?
+
+522
+00:25:37,937 --> 00:25:41,870
+Să mergem de vineri până duminică.
+
+523
+00:25:41,893 --> 00:25:43,726
+Foarte bine.
+
+524
+00:25:43,749 --> 00:25:46,482
+Două nopți și trei zile, așadar.
+
+525
+00:25:46,505 --> 00:25:49,305
+Să mergem cu shinkansenul.
+
+526
+00:25:49,328 --> 00:25:53,695
+Când cumpărăm biletele pentru Shinkansen?
+
+527
+00:25:53,718 --> 00:25:57,318
+Săptămâna viitoare le rezerv pe internet.
+
+528
+00:25:57,341 --> 00:25:59,308
+Am înțeles.
+
+529
+00:25:59,331 --> 00:26:02,897
+Un Shinkansen devreme dimineața ar fi minunat, nu-i așa?
+
+530
+00:26:02,920 --> 00:26:07,720
+Da, să luăm Shinkansen-ul de la ora 8 dimineața.
+
+531
+00:26:07,743 --> 00:26:11,577
+După ce ajungem la Kyoto, unde vrei să mergem?
+
+532
+00:26:11,600 --> 00:26:15,215
+Aș vrea să vizităm niște temple celebre.
+
+533
+00:26:15,238 --> 00:26:18,053
+Să mergem la Templul Kiyomizu!
+
+534
+00:26:18,077 --> 00:26:21,966
+Templul Kiyomizu este atât de frumos!
+
+535
+00:26:21,989 --> 00:26:26,645
+Aș vrea să văd și niște sanctuare vechi.
+
+536
+00:26:26,669 --> 00:26:30,149
+Atunci, să mergem și la Fushimi Inari Taisha!
+
+537
+00:26:30,172 --> 00:26:31,774
+Foarte bine.
+
+538
+00:26:31,798 --> 00:26:35,610
+Mi-ar plăcea să mergem și la niște cafenele delicioase din Kyoto.
+
+539
+00:26:35,633 --> 00:26:39,000
+Să mâncăm înghețată cu matcha!
+
+540
+00:26:39,023 --> 00:26:41,081
+Abia aștept!
+
+541
+00:26:41,104 --> 00:26:44,271
+Unde vom sta la hotel?
+
+542
+00:26:44,294 --> 00:26:47,900
+Un hotel lângă gara Kyoto ar fi foarte convenabil.
+
+543
+00:26:47,924 --> 00:26:50,621
+Care este bugetul aproximativ?
+
+544
+00:26:50,644 --> 00:26:53,977
+Cred că în jur de 50.000 de yeni de persoană.
+
+545
+00:26:54,000 --> 00:26:55,972
+Am înțeles.
+
+546
+00:26:55,996 --> 00:27:00,207
+Shinkansen-ul și hotelul vor costa aproximativ 30.000 de yeni.
+
+547
+00:27:00,230 --> 00:27:03,463
+Mâncarea și cumpărăturile vor fi în jur de 20.000 de yeni.
+
+548
+00:27:03,486 --> 00:27:05,737
+Sună perfect!
+
+549
+00:27:05,761 --> 00:27:10,094
+Deseară voi face rezervarea pentru hotel.
+
+550
+00:27:10,117 --> 00:27:11,684
+Mulțumesc!
+
+551
+00:27:11,707 --> 00:27:13,907
+Vă mulțumesc frumos.
+
+552
+00:27:13,930 --> 00:27:15,465
+Da.
+
+553
+00:27:15,488 --> 00:27:18,340
+Să avem o călătorie minunată!
+
+554
+00:27:18,363 --> 00:27:19,863
+Scena 14: Ora de vârf aglomerată de la prânz și închiderea casei de marcat
+
+555
+00:27:19,863 --> 00:27:22,333
+O zi obositoare, nu-i așa?
+
+556
+00:27:22,357 --> 00:27:26,047
+Am terminat cu ora de vârf de la prânz.
+
+557
+00:27:26,070 --> 00:27:28,313
+O zi obositoare, nu-i așa?
+
+558
+00:27:28,336 --> 00:27:32,170
+Azi a fost foarte aglomerat.
+
+559
+00:27:32,193 --> 00:27:33,999
+Da.
+
+560
+00:27:34,022 --> 00:27:38,115
+Au venit mulți clienți.
+
+561
+00:27:38,139 --> 00:27:41,539
+S-au vândut multe sandvișuri.
+
+562
+00:27:41,562 --> 00:27:44,702
+De asemenea, s-au vândut multe sucuri.
+
+563
+00:27:44,725 --> 00:27:48,691
+Acum, să facem închiderea intermediară a casei de marcat.
+
+564
+00:27:48,714 --> 00:27:51,581
+Numără banii, te rog.
+
+565
+00:27:51,604 --> 00:27:53,776
+Am înțeles.
+
+566
+00:27:53,799 --> 00:27:56,999
+Număr banii din casa de marcat.
+
+567
+00:27:57,022 --> 00:28:00,422
+Câte bancnote de o mie de yeni sunt?
+
+568
+00:28:00,445 --> 00:28:04,312
+Sunt douăzeci de bancnote de o mie de yeni.
+
+569
+00:28:04,335 --> 00:28:07,501
+Ce zici de monedele de cinci sute de yeni?
+
+570
+00:28:07,524 --> 00:28:11,262
+Sunt zece monede de cinci sute de yeni.
+
+571
+00:28:11,285 --> 00:28:15,324
+Să verificăm suma totală.
+
+572
+00:28:15,348 --> 00:28:18,630
+Se potrivește cu suma de pe calculator?
+
+573
+00:28:18,653 --> 00:28:20,520
+Da.
+
+574
+00:28:20,543 --> 00:28:23,310
+Suma este aceeași.
+
+575
+00:28:23,333 --> 00:28:26,300
+Mă bucur.
+
+576
+00:28:26,323 --> 00:28:29,256
+Am terminat cu închiderea casei de marcat.
+
+577
+00:28:29,279 --> 00:28:31,412
+Mă simt ușurat(ă).
+
+578
+00:28:31,435 --> 00:28:34,002
+Acum avem pauză?
+
+579
+00:28:34,025 --> 00:28:35,663
+Da.
+
+580
+00:28:35,687 --> 00:28:39,220
+Să ne luăm pauză pe rând, câte cincisprezece minute.
+
+581
+00:28:39,243 --> 00:28:43,416
+Mai întâi, tu mergi primul/prima la pauză.
+
+582
+00:28:43,439 --> 00:28:45,092
+Mulțumesc.
+
+583
+00:28:45,116 --> 00:28:47,974
+Pot să beau ceva?
+
+584
+00:28:47,997 --> 00:28:49,637
+Da.
+
+585
+00:28:49,661 --> 00:28:53,027
+Poți să-ți prepari băutura preferată.
+
+586
+00:28:53,050 --> 00:28:56,184
+Voi lua un ceai rece.
+
+587
+00:28:56,207 --> 00:29:00,007
+Voi pune puțin zahăr.
+
+588
+00:29:00,030 --> 00:29:03,363
+Odihnește-te bine în camera de pauză.
+
+589
+00:29:03,386 --> 00:29:07,243
+Vă rog să reveniți peste 15 minute.
+
+590
+00:29:07,267 --> 00:29:08,883
+Da.
+
+591
+00:29:08,906 --> 00:29:11,740
+Când vă întoarceți, ne schimbăm.
+
+592
+00:29:11,763 --> 00:29:13,996
+Vă mulțumesc frumos.
+
+593
+00:29:14,019 --> 00:29:16,619
+Să ne străduim și după-amiază!
+
+594
+00:29:16,642 --> 00:29:18,142
+Scena 15: Cum să comanzi / Cum să comanzi la o cafenea
+
+595
+00:29:18,142 --> 00:29:20,011
+Bun venit!
+
+596
+00:29:20,035 --> 00:29:22,803
+Vă rugăm să luați loc unde doriți.
+
+597
+00:29:22,826 --> 00:29:24,710
+Mulțumesc.
+
+598
+00:29:24,734 --> 00:29:27,067
+Mă așez aici.
+
+599
+00:29:27,091 --> 00:29:31,105
+Când v-ați hotărât, chemați-mă, vă rog.
+
+600
+00:29:31,128 --> 00:29:32,766
+Mă scuzați.
+
+601
+00:29:32,789 --> 00:29:35,237
+Aș dori să comand.
+
+602
+00:29:35,261 --> 00:29:36,994
+Da.
+
+603
+00:29:37,017 --> 00:29:39,631
+Ce doriți să comandați?
+
+604
+00:29:39,655 --> 00:29:43,188
+Mi-ar plăcea ceva dulce.
+
+605
+00:29:43,211 --> 00:29:46,145
+Aveți vreo prăjitură recomandată?
+
+606
+00:29:46,168 --> 00:29:49,846
+Vă recomand prăjitura sezonieră de toamnă.
+
+607
+00:29:49,869 --> 00:29:52,515
+Prăjitura cu castane este foarte populară.
+
+608
+00:29:52,539 --> 00:29:54,984
+Prăjitura cu castane?
+
+609
+00:29:55,007 --> 00:29:57,174
+Arată delicios.
+
+610
+00:29:57,197 --> 00:30:00,472
+Parfeul cu matcha este de asemenea foarte popular.
+
+611
+00:30:00,495 --> 00:30:03,429
+Ambele par delicioase.
+
+612
+00:30:03,452 --> 00:30:05,261
+Mă faceți să nu mă pot decide.
+
+613
+00:30:05,284 --> 00:30:09,183
+Prăjitura cu castane nu este prea dulce.
+
+614
+00:30:09,206 --> 00:30:11,539
+Se potrivește foarte bine cu cafeaua.
+
+615
+00:30:11,562 --> 00:30:13,529
+Înțeleg.
+
+616
+00:30:13,552 --> 00:30:16,752
+Atunci, voi lua prăjitura cu castane.
+
+617
+00:30:16,775 --> 00:30:18,392
+Mulțumesc.
+
+618
+00:30:18,416 --> 00:30:21,049
+Doriți ceva de băut?
+
+619
+00:30:21,072 --> 00:30:23,907
+Aș dori o cafea caldă, vă rog.
+
+620
+00:30:23,930 --> 00:30:27,788
+Setul cu prăjitură și cafea este mai avantajos.
+
+621
+00:30:27,812 --> 00:30:30,661
+Economisiți 50 de yeni.
+
+622
+00:30:30,685 --> 00:30:33,251
+Asta e minunat.
+
+623
+00:30:33,274 --> 00:30:35,453
+Voi lua setul, vă rog.
+
+624
+00:30:35,477 --> 00:30:37,610
+Am înțeles.
+
+625
+00:30:37,633 --> 00:30:41,766
+Prăjitura cu castane și cafeaua caldă, așa este.
+
+626
+00:30:41,789 --> 00:30:43,437
+Da.
+
+627
+00:30:43,461 --> 00:30:45,461
+Vă mulțumesc frumos.
+
+628
+00:30:45,484 --> 00:30:47,817
+Vă rog să așteptați puțin.
+
+629
+00:30:47,840 --> 00:30:51,007
+Vă aduc comanda la masă.
+
+630
+00:30:51,030 --> 00:30:52,630
+Am înțeles.
+
+631
+00:30:52,653 --> 00:30:55,224
+Abia aștept!
+
+632
+00:30:55,247 --> 00:30:56,747
+Scena 16: Cum să prepari noi latte-uri / Cum să prepari noi rețete de latte
+
+633
+00:30:56,747 --> 00:31:00,222
+Acum este puțin liniște, nu-i așa?
+
+634
+00:31:00,245 --> 00:31:04,212
+Să exersăm pentru noul meniu.
+
+635
+00:31:04,235 --> 00:31:06,368
+Da, vă rog.
+
+636
+00:31:06,391 --> 00:31:11,125
+De săptămâna viitoare începem cu noi latte-uri.
+
+637
+00:31:11,148 --> 00:31:14,714
+Latte cu matcha și latte cu caramel.
+
+638
+00:31:14,737 --> 00:31:17,771
+Ambele par delicioase.
+
+639
+00:31:17,794 --> 00:31:20,927
+Este greu de preparat?
+
+640
+00:31:20,950 --> 00:31:23,750
+Nu este deloc greu.
+
+641
+00:31:23,773 --> 00:31:27,773
+Mai întâi, vom prepara latte-ul cu caramel.
+
+642
+00:31:27,796 --> 00:31:31,929
+Bine, pregătesc ceașca.
+
+643
+00:31:31,952 --> 00:31:36,204
+Puneți 15 grame de sirop de caramel.
+
+644
+00:31:36,227 --> 00:31:39,044
+Măsurați bine cu lingurița.
+
+645
+00:31:39,068 --> 00:31:41,868
+15 grame, așa este.
+
+646
+00:31:41,891 --> 00:31:44,425
+Am pus siropul.
+
+647
+00:31:44,448 --> 00:31:48,814
+Apoi, adăugați espresso.
+
+648
+00:31:48,837 --> 00:31:51,471
+Apăsați o dată butonul.
+
+649
+00:31:51,494 --> 00:31:54,761
+Am pus espresso.
+
+650
+00:31:54,784 --> 00:31:57,718
+Miroase minunat!
+
+651
+00:31:57,741 --> 00:32:01,478
+După aceea, încălzim laptele.
+
+652
+00:32:01,501 --> 00:32:05,747
+Spumați-l bine cu abur.
+
+653
+00:32:05,771 --> 00:32:08,811
+Care este temperatura ideală pentru lapte?
+
+654
+00:32:08,834 --> 00:32:12,319
+65 de grade este ideal.
+
+655
+00:32:12,343 --> 00:32:15,810
+Dacă este prea fierbinte, nu va fi la fel de gustos.
+
+656
+00:32:15,833 --> 00:32:17,966
+Am înțeles.
+
+657
+00:32:17,989 --> 00:32:21,088
+Am încălzit până la 65 de grade.
+
+658
+00:32:21,111 --> 00:32:24,547
+Turnați laptele încet, cu grijă.
+
+659
+00:32:24,571 --> 00:32:28,804
+Peste tot, adăugați sos de caramel.
+
+660
+00:32:28,827 --> 00:32:30,594
+Gata!
+
+661
+00:32:30,617 --> 00:32:32,954
+A ieșit perfect!
+
+662
+00:32:32,977 --> 00:32:35,344
+Cum este gustul?
+
+663
+00:32:35,367 --> 00:32:38,767
+Este foarte dulce și delicios.
+
+664
+00:32:38,790 --> 00:32:42,057
+Acum vom prepara un latte matcha.
+
+665
+00:32:42,080 --> 00:32:46,713
+Dizolvați bine praful de matcha în apă fierbinte, vă rog.
+
+666
+00:32:46,736 --> 00:32:48,269
+Da.
+
+667
+00:32:48,292 --> 00:32:50,959
+Amestecați energic.
+
+668
+00:32:50,982 --> 00:32:52,482
+Scena 17: Cum să-ți găsești obiectele pierdute
+
+669
+00:32:52,482 --> 00:32:54,415
+Bun venit!
+
+670
+00:32:54,438 --> 00:32:56,405
+Bună ziua!
+
+671
+00:32:56,428 --> 00:32:58,280
+Mă scuzați.
+
+672
+00:32:58,303 --> 00:33:01,313
+Caut un obiect pierdut.
+
+673
+00:33:01,337 --> 00:33:04,142
+Un obiect pierdut, da.
+
+674
+00:33:04,165 --> 00:33:08,165
+Ați fost aici astăzi?
+
+675
+00:33:08,188 --> 00:33:09,963
+Da.
+
+676
+00:33:09,987 --> 00:33:14,120
+Am venit în jurul orei 12:30.
+
+677
+00:33:14,143 --> 00:33:16,149
+Am înțeles.
+
+678
+00:33:16,173 --> 00:33:19,506
+La ce masă ați stat?
+
+679
+00:33:19,529 --> 00:33:23,605
+La masa de lângă fereastra din fund.
+
+680
+00:33:23,628 --> 00:33:27,228
+Am uitat ceva pe masă.
+
+681
+00:33:27,251 --> 00:33:31,384
+Ce anume ați uitat?
+
+682
+00:33:31,407 --> 00:33:36,262
+O umbrelă neagră pliabilă și o geantă mică.
+
+683
+00:33:36,286 --> 00:33:39,087
+Vă rog să-mi dați mai multe detalii.
+
+684
+00:33:39,110 --> 00:33:42,577
+Ce formă are umbrela?
+
+685
+00:33:42,600 --> 00:33:46,733
+Este o umbrelă neagră, mică și pliabilă.
+
+686
+00:33:46,756 --> 00:33:50,495
+Pe mâner are un autocolant albastru.
+
+687
+00:33:50,518 --> 00:33:54,252
+Ce fel de geantă este?
+
+688
+00:33:54,275 --> 00:33:57,935
+Este o geantă din piele, maro.
+
+689
+00:33:57,958 --> 00:34:00,451
+Are două buzunare.
+
+690
+00:34:00,474 --> 00:34:02,722
+Am înțeles.
+
+691
+00:34:02,746 --> 00:34:06,583
+Mă duc să verific zona de depozitare din spate.
+
+692
+00:34:06,606 --> 00:34:09,039
+Vă rog să așteptați puțin.
+
+693
+00:34:09,062 --> 00:34:10,747
+Da.
+
+694
+00:34:10,770 --> 00:34:13,041
+Vă mulțumesc frumos.
+
+695
+00:34:13,065 --> 00:34:15,498
+Vă mulțumim pentru așteptare.
+
+696
+00:34:15,521 --> 00:34:17,795
+Sunt acestea?
+
+697
+00:34:17,818 --> 00:34:19,955
+Ah, da!
+
+698
+00:34:19,979 --> 00:34:22,983
+Sunt umbrela și geanta mea!
+
+699
+00:34:23,006 --> 00:34:25,740
+Vă mulțumesc foarte mult!
+
+700
+00:34:25,763 --> 00:34:28,129
+Mă bucur.
+
+701
+00:34:28,152 --> 00:34:32,219
+Pentru confirmare, vă rog să-mi spuneți numele.
+
+702
+00:34:32,242 --> 00:34:34,861
+Tanaka.
+
+703
+00:34:34,885 --> 00:34:37,218
+Tanaka Kenta.
+
+704
+00:34:37,241 --> 00:34:39,808
+Domnul Tanaka, așa este?
+
+705
+00:34:39,831 --> 00:34:43,398
+Vă rog să vă scrieți numele pe acest formular.
+
+706
+00:34:43,421 --> 00:34:45,354
+Da.
+
+707
+00:34:45,377 --> 00:34:47,235
+Am scris.
+
+708
+00:34:47,259 --> 00:34:48,937
+Mulțumesc.
+
+709
+00:34:48,961 --> 00:34:51,894
+Vă înapoiez obiectele pierdute.
+
+710
+00:34:51,917 --> 00:34:54,093
+M-ați salvat!
+
+711
+00:34:54,117 --> 00:34:57,090
+Vă mulțumesc foarte mult!
+
+712
+00:34:57,114 --> 00:35:01,651
+Cu plăcere! Vă așteptăm cu drag să reveniți.
+
+713
+00:35:01,675 --> 00:35:03,175
+Scena 18: Cerere de concediu din cauza unui examen important
+
+714
+00:35:03,175 --> 00:35:05,655
+Bună ziua!
+
+715
+00:35:05,679 --> 00:35:09,279
+Aveți puțin timp acum?
+
+716
+00:35:09,302 --> 00:35:11,868
+Bună ziua!
+
+717
+00:35:11,891 --> 00:35:14,925
+Da, desigur!
+
+718
+00:35:14,947 --> 00:35:18,200
+De fapt, aș vrea să vă cer un sfat.
+
+719
+00:35:18,224 --> 00:35:21,990
+Este vorba despre sâmbăta viitoare.
+
+720
+00:35:22,013 --> 00:35:25,147
+Sâmbăta viitoare, da.
+
+721
+00:35:25,170 --> 00:35:27,446
+Ce s-a întâmplat?
+
+722
+00:35:27,469 --> 00:35:31,802
+Sâmbăta viitoare avem un test.
+
+723
+00:35:31,825 --> 00:35:35,281
+E un test important de la facultate.
+
+724
+00:35:35,305 --> 00:35:37,485
+Înțeleg.
+
+725
+00:35:37,508 --> 00:35:40,041
+Testele sunt dificile, nu-i așa?
+
+726
+00:35:40,064 --> 00:35:41,998
+Da.
+
+727
+00:35:42,021 --> 00:35:46,319
+De aceea, aș vrea să-mi iau liber de la muncă.
+
+728
+00:35:46,342 --> 00:35:48,217
+Am înțeles.
+
+729
+00:35:48,241 --> 00:35:51,974
+Eu am timp sâmbătă.
+
+730
+00:35:51,997 --> 00:35:54,164
+Chiar?
+
+731
+00:35:54,187 --> 00:35:58,477
+Ai putea să-mi iei tura în loc?
+
+732
+00:35:58,500 --> 00:36:01,700
+Da, desigur.
+
+733
+00:36:01,723 --> 00:36:04,132
+O să lucrez sâmbătă.
+
+734
+00:36:04,156 --> 00:36:07,043
+Vă mulțumesc foarte mult!
+
+735
+00:36:07,067 --> 00:36:09,400
+Mă ajuți foarte mult.
+
+736
+00:36:09,423 --> 00:36:13,482
+Nu-i nimic, cu plăcere.
+
+737
+00:36:13,505 --> 00:36:16,605
+Îți urez succes la învățat pentru test!
+
+738
+00:36:16,628 --> 00:36:19,638
+Da, o să mă străduiesc.
+
+739
+00:36:19,662 --> 00:36:24,596
+În schimb, eu o să lucrez duminică.
+
+740
+00:36:24,619 --> 00:36:27,285
+Duminică?
+
+741
+00:36:27,308 --> 00:36:31,075
+Eu am tura de duminică, nu?
+
+742
+00:36:31,098 --> 00:36:32,751
+Da.
+
+743
+00:36:32,775 --> 00:36:37,741
+Duminică lucrez eu în locul tău.
+
+744
+00:36:37,764 --> 00:36:39,531
+Mulțumesc.
+
+745
+00:36:39,554 --> 00:36:42,887
+Atunci, te rog frumos pentru duminică.
+
+746
+00:36:42,910 --> 00:36:46,444
+Da, am înțeles.
+
+747
+00:36:46,467 --> 00:36:49,435
+O să vorbesc și cu managerul.
+
+748
+00:36:49,458 --> 00:36:52,335
+Da, te rog.
+
+749
+00:36:52,358 --> 00:36:55,158
+Îți mulțumesc mereu pentru ajutor.
+
+750
+00:36:55,181 --> 00:36:59,582
+Data viitoare îți cumpăr un suc bun.
+
+751
+00:36:59,605 --> 00:37:01,539
+Hehe, mulțumesc.
+
+752
+00:37:01,562 --> 00:37:04,832
+Hai să ne întoarcem la muncă după pauză.
+
+753
+00:37:04,855 --> 00:37:08,855
+Da, să ne întoarcem.
+
+754
+00:37:08,878 --> 00:37:10,378
+Scena 19: Bazele serviciului clienți
+
+755
+00:37:10,378 --> 00:37:12,231
+Mă scuzați.
+
+756
+00:37:12,254 --> 00:37:14,295
+Mă scuzați.
+
+757
+00:37:14,319 --> 00:37:17,253
+Da, cu ce vă pot ajuta?
+
+758
+00:37:17,275 --> 00:37:22,076
+Vă mulțumim că ne-ați ales astăzi.
+
+759
+00:37:22,100 --> 00:37:25,634
+Urmează să închidem la ora 20:00.
+
+760
+00:37:25,657 --> 00:37:29,057
+Ah, deja e ora aceea?
+
+761
+00:37:29,080 --> 00:37:31,113
+Am înțeles.
+
+762
+00:37:31,136 --> 00:37:34,936
+Pot să vă strâng paharele goale?
+
+763
+00:37:34,959 --> 00:37:37,492
+Da, vă rog.
+
+764
+00:37:37,515 --> 00:37:39,963
+Acest pahar, nu?
+
+765
+00:37:39,987 --> 00:37:41,787
+Mulțumesc.
+
+766
+00:37:41,810 --> 00:37:44,410
+Îl strâng acum.
+
+767
+00:37:44,433 --> 00:37:47,110
+Luați-vă timpul să vă pregătiți.
+
+768
+00:37:47,134 --> 00:37:51,568
+Da, îmi strâng imediat lucrurile.
+
+769
+00:37:51,591 --> 00:37:54,558
+Plata se face la casă.
+
+770
+00:37:54,581 --> 00:37:58,514
+Astăzi acceptăm atât numerar, cât și carduri.
+
+771
+00:37:58,537 --> 00:38:01,196
+Plătesc cu cardul.
+
+772
+00:38:01,219 --> 00:38:04,553
+Mă îmbrac cu haina și vin la casă.
+
+773
+00:38:04,576 --> 00:38:06,176
+Am înțeles.
+
+774
+00:38:06,199 --> 00:38:08,933
+Vă aștept la casă.
+
+775
+00:38:08,956 --> 00:38:10,723
+Mă scuzați.
+
+776
+00:38:10,746 --> 00:38:12,963
+Aș dori să plătesc, vă rog.
+
+777
+00:38:12,986 --> 00:38:16,961
+Da, o cafea fierbinte și o prăjitură.
+
+778
+00:38:16,985 --> 00:38:19,918
+Totalul este 800 de yeni.
+
+779
+00:38:19,941 --> 00:38:21,874
+Cu cardul, vă rog.
+
+780
+00:38:21,897 --> 00:38:24,331
+Vă preiau cardul.
+
+781
+00:38:24,354 --> 00:38:27,052
+Doriți plata într-o singură rată?
+
+782
+00:38:27,076 --> 00:38:30,443
+Da, într-o singură rată, vă rog.
+
+783
+00:38:30,467 --> 00:38:33,345
+Vă înapoiez bonul și cardul.
+
+784
+00:38:33,368 --> 00:38:35,535
+Vă rog să verificați.
+
+785
+00:38:35,558 --> 00:38:37,326
+Mulțumesc.
+
+786
+00:38:37,349 --> 00:38:40,205
+A fost o cafea foarte bună.
+
+787
+00:38:40,229 --> 00:38:41,766
+Mulțumesc.
+
+788
+00:38:41,790 --> 00:38:44,757
+Mă bucur că spuneți asta.
+
+789
+00:38:44,780 --> 00:38:48,980
+În seara asta este foarte frig, așa că aveți grijă.
+
+790
+00:38:49,003 --> 00:38:50,848
+Mulțumesc.
+
+791
+00:38:50,871 --> 00:38:53,038
+Voi mai veni.
+
+792
+00:38:53,061 --> 00:38:54,718
+Mulțumesc.
+
+793
+00:38:54,742 --> 00:38:58,775
+Așteptăm cu drag să reveniți.
+
+794
+00:38:58,798 --> 00:39:01,365
+Să aveți o seară plăcută.
+
+795
+00:39:01,388 --> 00:39:04,032
+Să aveți o seară plăcută.
+
+796
+00:39:04,055 --> 00:39:05,555
+Scena 20: Închiderea și calcularea vânzărilor de astăzi
+
+797
+00:39:05,555 --> 00:39:08,394
+Ați muncit din greu astăzi.
+
+798
+00:39:08,417 --> 00:39:11,550
+Ați încuiat ușa magazinului?
+
+799
+00:39:11,573 --> 00:39:14,252
+Da, am încuiat-o.
+
+800
+00:39:14,276 --> 00:39:18,409
+Am adus și afișul din față înăuntru.
+
+801
+00:39:18,432 --> 00:39:20,286
+Mulțumesc!
+
+802
+00:39:20,310 --> 00:39:24,545
+Atunci, să numărăm banii din casa de marcat.
+
+803
+00:39:24,568 --> 00:39:28,020
+Da, îi număr eu.
+
+804
+00:39:28,044 --> 00:39:31,977
+Avem douăzeci de bancnote de o mie de yeni.
+
+805
+00:39:32,000 --> 00:39:35,659
+Câte bancnote de cinci mii de yeni sunt?
+
+806
+00:39:35,683 --> 00:39:39,250
+Sunt patru bancnote de cinci mii de yeni.
+
+807
+00:39:39,273 --> 00:39:43,075
+Șase bancnote de zece mii de yeni, corect?
+
+808
+00:39:43,098 --> 00:39:45,532
+Am numărat și mărunțișul.
+
+809
+00:39:45,555 --> 00:39:48,488
+Care este vânzarea de astăzi?
+
+810
+00:39:48,511 --> 00:39:51,678
+Da, este o sută de mii de yeni.
+
+811
+00:39:51,701 --> 00:39:54,120
+Excelent!
+
+812
+00:39:54,143 --> 00:39:57,279
+Se potrivește cu suma din casa de marcat.
+
+813
+00:39:57,302 --> 00:39:59,240
+Mă bucur.
+
+814
+00:39:59,264 --> 00:40:02,330
+Să scoatem gunoiul acum?
+
+815
+00:40:02,353 --> 00:40:04,410
+Da, vă rog.
+
+816
+00:40:04,434 --> 00:40:07,967
+Strângeți pungile de gunoi din bucătărie.
+
+817
+00:40:07,990 --> 00:40:09,842
+Am înțeles.
+
+818
+00:40:09,865 --> 00:40:13,151
+Le duc la locul de gunoi din spate.
+
+819
+00:40:13,174 --> 00:40:16,642
+Eu voi scrie în caiet.
+
+820
+00:40:16,666 --> 00:40:20,099
+Voi contacta personalul pentru dimineața de mâine.
+
+821
+00:40:20,122 --> 00:40:22,356
+Ce scrieți?
+
+822
+00:40:22,380 --> 00:40:26,350
+Voi scrie că laptele este pe terminate.
+
+823
+00:40:26,374 --> 00:40:32,007
+Spuneți-le să cumpere lapte proaspăt mâine dimineață.
+
+824
+00:40:32,030 --> 00:40:34,597
+Este important.
+
+825
+00:40:34,620 --> 00:40:37,293
+Am terminat cu scoaterea gunoiului.
+
+826
+00:40:37,316 --> 00:40:40,329
+Stingeți luminile și aerul condiționat, vă rog.
+
+827
+00:40:40,353 --> 00:40:42,753
+Da, le-am stins.
+
+828
+00:40:42,776 --> 00:40:45,634
+Nu ați uitat nimic?
+
+829
+00:40:45,657 --> 00:40:48,590
+Da, totul este în regulă.
+
+830
+00:40:48,613 --> 00:40:50,981
+Atunci, să mergem acasă.
+
+831
+00:40:51,005 --> 00:40:54,343
+Vă mulțumim pentru munca de astăzi.
+
+832
+00:40:54,366 --> 00:40:56,700
+O zi obositoare, nu-i așa?
+
+833
+00:40:56,723 --> 00:40:59,656
+Vă rog să mă scuzați că plec primul.

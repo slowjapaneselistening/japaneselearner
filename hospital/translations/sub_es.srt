@@ -1,0 +1,1403 @@
+1
+00:00:00,000 --> 00:00:10,008
+¿De qué trata el video de hoy? Es sobre conversaciones en el hospital.
+
+2
+00:00:10,008 --> 00:00:11,508
+Escena 1: Primera visita al departamento de medicina interna
+
+3
+00:00:11,508 --> 00:00:13,141
+Hola.
+
+4
+00:00:13,164 --> 00:00:15,131
+Hola.
+
+5
+00:00:15,154 --> 00:00:18,521
+¿Es su primera vez aquí?
+
+6
+00:00:18,544 --> 00:00:21,763
+Sí, es mi primera vez.
+
+7
+00:00:21,786 --> 00:00:24,034
+¿Qué le ocurre?
+
+8
+00:00:24,057 --> 00:00:27,591
+Me duele mucho el estómago.
+
+9
+00:00:27,614 --> 00:00:30,428
+Vaya, eso es preocupante.
+
+10
+00:00:30,451 --> 00:00:33,539
+Sí, me duele mucho.
+
+11
+00:00:33,563 --> 00:00:36,412
+¿Tiene tarjeta del seguro?
+
+12
+00:00:36,435 --> 00:00:39,002
+Sí, la tengo.
+
+13
+00:00:39,025 --> 00:00:40,834
+Aquí está.
+
+14
+00:00:40,858 --> 00:00:43,064
+Gracias.
+
+15
+00:00:43,088 --> 00:00:46,024
+¿Qué especialidad atienden aquí?
+
+16
+00:00:46,047 --> 00:00:48,696
+Aquí es medicina interna.
+
+17
+00:00:48,720 --> 00:00:51,086
+Perfecto.
+
+18
+00:00:51,109 --> 00:00:53,607
+Allí hay sillas.
+
+19
+00:00:53,631 --> 00:00:56,564
+Ah, sí, ya las veo.
+
+20
+00:00:56,587 --> 00:00:59,354
+Por favor, siéntese allí.
+
+21
+00:00:59,377 --> 00:01:01,433
+Entendido.
+
+22
+00:01:01,456 --> 00:01:04,140
+¿Cuánto tiempo tendré que esperar?
+
+23
+00:01:04,163 --> 00:01:06,822
+Unos 30 minutos.
+
+24
+00:01:06,845 --> 00:01:08,779
+Entendido.
+
+25
+00:01:08,802 --> 00:01:10,468
+Espero.
+
+26
+00:01:10,491 --> 00:01:13,058
+El baño está por allí.
+
+27
+00:01:13,082 --> 00:01:15,049
+Gracias.
+
+28
+00:01:15,072 --> 00:01:17,805
+¿Se siente mal?
+
+29
+00:01:17,828 --> 00:01:20,628
+Un poco.
+
+30
+00:01:20,651 --> 00:01:23,251
+¿Quiere descansar en una camilla?
+
+31
+00:01:23,274 --> 00:01:26,041
+No, estoy bien.
+
+32
+00:01:26,064 --> 00:01:28,197
+Entendido.
+
+33
+00:01:28,220 --> 00:01:37,229
+El guion de hoy puede descargarse desde la descripción y el comentario principal. ¡No olvides dejar un comentario antes de descargar!
+
+34
+00:01:37,229 --> 00:01:38,729
+Escena 2: Cómo llenar el cuestionario médico
+
+35
+00:01:38,729 --> 00:01:40,463
+Disculpe.
+
+36
+00:01:40,487 --> 00:01:42,554
+Sí, ¿en qué puedo ayudarle?
+
+37
+00:01:42,577 --> 00:01:44,977
+Por favor, llene esto.
+
+38
+00:01:45,000 --> 00:01:47,856
+¿Esto es el cuestionario médico, verdad?
+
+39
+00:01:47,880 --> 00:01:50,128
+Sí, así es.
+
+40
+00:01:50,151 --> 00:01:52,151
+¿Dónde debo escribir?
+
+41
+00:01:52,174 --> 00:01:55,214
+Escriba su nombre aquí.
+
+42
+00:01:55,237 --> 00:01:57,332
+Bien, entendido.
+
+43
+00:01:57,356 --> 00:02:00,390
+Escriba su dirección allí.
+
+44
+00:02:00,413 --> 00:02:03,148
+¿También debo escribir mi número de teléfono?
+
+45
+00:02:03,171 --> 00:02:05,455
+Sí, por favor escríbalo.
+
+46
+00:02:05,479 --> 00:02:07,129
+Entendido.
+
+47
+00:02:07,153 --> 00:02:09,953
+¿Tiene fiebre hoy?
+
+48
+00:02:09,976 --> 00:02:12,742
+Sí, un poco.
+
+49
+00:02:12,765 --> 00:02:14,650
+¿Cuántos grados?
+
+50
+00:02:14,674 --> 00:02:17,107
+37 grados.
+
+51
+00:02:17,130 --> 00:02:19,097
+Entendido.
+
+52
+00:02:19,120 --> 00:02:21,402
+¿Tiene alguna alergia?
+
+53
+00:02:21,425 --> 00:02:23,630
+No, no tengo.
+
+54
+00:02:23,654 --> 00:02:26,551
+¿Está tomando algún medicamento ahora?
+
+55
+00:02:26,575 --> 00:02:29,210
+No, no estoy tomando nada.
+
+56
+00:02:29,234 --> 00:02:30,834
+Entendido.
+
+57
+00:02:30,857 --> 00:02:32,590
+¿Está bien así?
+
+58
+00:02:32,613 --> 00:02:35,046
+Sí, no hay problema.
+
+59
+00:02:35,069 --> 00:02:36,715
+Gracias.
+
+60
+00:02:36,739 --> 00:02:39,106
+Espere allí, por favor.
+
+61
+00:02:39,129 --> 00:02:41,262
+Bien, entendido.
+
+62
+00:02:41,285 --> 00:02:43,303
+Lo llamaré enseguida.
+
+63
+00:02:43,327 --> 00:02:45,011
+Por favor.
+
+64
+00:02:45,034 --> 00:02:52,139
+El enlace al sitio donde puedes repasar el video de hoy está en la descripción y en el primer comentario. *Ten en cuenta que el sitio puede ser eliminado sin previo aviso.
+
+65
+00:02:52,139 --> 00:02:53,639
+Escena 3: Cómo realizar una consulta médica / How to Undergo a Medical Examination
+
+66
+00:02:53,639 --> 00:02:56,573
+Adelante, pase por favor.
+
+67
+00:02:56,596 --> 00:02:58,762
+Con permiso.
+
+68
+00:02:58,785 --> 00:03:01,319
+Siéntese en la silla, por favor.
+
+69
+00:03:01,342 --> 00:03:04,615
+Sí, gracias.
+
+70
+00:03:04,638 --> 00:03:07,512
+¿Qué le trae por aquí hoy?
+
+71
+00:03:07,536 --> 00:03:10,417
+Me duele el estómago.
+
+72
+00:03:10,440 --> 00:03:12,709
+¿Dónde le duele?
+
+73
+00:03:12,733 --> 00:03:15,099
+Aquí.
+
+74
+00:03:15,122 --> 00:03:17,161
+¿A la derecha?
+
+75
+00:03:17,185 --> 00:03:19,364
+¿A la izquierda?
+
+76
+00:03:19,388 --> 00:03:21,521
+A la derecha.
+
+77
+00:03:21,544 --> 00:03:24,028
+Me duele el lado derecho.
+
+78
+00:03:24,051 --> 00:03:25,985
+Entendido.
+
+79
+00:03:26,008 --> 00:03:28,696
+Me duele todo el tiempo.
+
+80
+00:03:28,719 --> 00:03:31,052
+¿Tiene fiebre también?
+
+81
+00:03:31,075 --> 00:03:34,928
+Sí, un poco.
+
+82
+00:03:34,952 --> 00:03:37,319
+¿Le duele la cabeza?
+
+83
+00:03:37,342 --> 00:03:40,945
+No, no me duele.
+
+84
+00:03:40,969 --> 00:03:43,067
+¿Y la garganta?
+
+85
+00:03:43,090 --> 00:03:46,456
+No me duele la garganta.
+
+86
+00:03:46,479 --> 00:03:48,547
+¿Tiene tos?
+
+87
+00:03:48,570 --> 00:03:51,441
+No, no tengo.
+
+88
+00:03:51,465 --> 00:03:54,665
+Voy a revisarle un poco el estómago.
+
+89
+00:03:54,688 --> 00:03:57,522
+Sí, por favor.
+
+90
+00:03:57,545 --> 00:04:00,044
+¿Le duele aquí?
+
+91
+00:04:00,067 --> 00:04:03,401
+Sí, me duele mucho.
+
+92
+00:04:03,424 --> 00:04:05,590
+¿Qué tal aquí?
+
+93
+00:04:05,613 --> 00:04:08,468
+Ahí no me duele.
+
+94
+00:04:08,492 --> 00:04:10,859
+¿Tiene náuseas?
+
+95
+00:04:10,882 --> 00:04:14,090
+Sí, un poco.
+
+96
+00:04:14,113 --> 00:04:16,651
+¿Ha comido algo hoy?
+
+97
+00:04:16,675 --> 00:04:20,108
+No, no he comido.
+
+98
+00:04:20,131 --> 00:04:22,269
+Entendido.
+
+99
+00:04:22,293 --> 00:04:24,503
+¿Es algo grave?
+
+100
+00:04:24,526 --> 00:04:27,202
+No se preocupe, todo estará bien.
+
+101
+00:04:27,226 --> 00:04:28,726
+Escena 4: Investigando la causa del dolor abdominal / Investigating the Cause of Stomachache
+
+102
+00:04:28,726 --> 00:04:31,865
+¿Desde cuándo le duele el estómago?
+
+103
+00:04:31,888 --> 00:04:34,688
+Desde ayer.
+
+104
+00:04:34,711 --> 00:04:36,798
+¿Desde ayer por la mañana?
+
+105
+00:04:36,822 --> 00:04:40,026
+No, desde anoche.
+
+106
+00:04:40,050 --> 00:04:44,050
+¿Qué comió anoche?
+
+107
+00:04:44,073 --> 00:04:46,560
+Comí pescado.
+
+108
+00:04:46,583 --> 00:04:49,231
+¿Qué tipo de pescado?
+
+109
+00:04:49,255 --> 00:04:51,934
+Pescado crudo.
+
+110
+00:04:51,957 --> 00:04:54,124
+¿Sashimi?
+
+111
+00:04:54,147 --> 00:04:57,680
+Sí, comí sashimi.
+
+112
+00:04:57,703 --> 00:05:00,270
+¿Dónde lo comió?
+
+113
+00:05:00,293 --> 00:05:02,860
+Lo comí en un restaurante.
+
+114
+00:05:02,883 --> 00:05:05,319
+¿Con quién lo comió?
+
+115
+00:05:05,342 --> 00:05:08,316
+Comí con mis amigos.
+
+116
+00:05:08,340 --> 00:05:11,274
+¿Tu amigo también tiene dolor de estómago?
+
+117
+00:05:11,297 --> 00:05:14,750
+Sí, dijo que le dolía.
+
+118
+00:05:14,774 --> 00:05:16,645
+Ya veo.
+
+119
+00:05:16,668 --> 00:05:19,269
+¿Será intoxicación alimentaria?
+
+120
+00:05:19,293 --> 00:05:22,751
+Es muy probable.
+
+121
+00:05:22,775 --> 00:05:25,808
+No pude dormir por el dolor.
+
+122
+00:05:25,831 --> 00:05:28,714
+Eso debe haber sido muy duro.
+
+123
+00:05:28,738 --> 00:05:32,138
+Sí, fue realmente terrible.
+
+124
+00:05:32,161 --> 00:05:35,528
+¿Tomó medicina esta mañana?
+
+125
+00:05:35,551 --> 00:05:39,084
+No, no tomé nada.
+
+126
+00:05:39,107 --> 00:05:42,590
+Lo mejor es la medicina del hospital.
+
+127
+00:05:42,613 --> 00:05:45,880
+Sí, por eso vine.
+
+128
+00:05:45,903 --> 00:05:48,762
+¿El dolor es constante?
+
+129
+00:05:48,785 --> 00:05:52,719
+No, a veces duele mucho.
+
+130
+00:05:52,742 --> 00:05:55,576
+¿Qué hace cuando le duele?
+
+131
+00:05:55,599 --> 00:05:58,199
+Me quedo quieto sentado.
+
+132
+00:05:58,222 --> 00:05:59,990
+Entendido.
+
+133
+00:06:00,014 --> 00:06:02,614
+Quiero mejorarme pronto.
+
+134
+00:06:02,637 --> 00:06:04,137
+Escena 5: La importancia de la hidratación
+
+135
+00:06:04,137 --> 00:06:07,828
+¿Hoy ha tomado agua?
+
+136
+00:06:07,851 --> 00:06:10,863
+Sí, tomé un poco.
+
+137
+00:06:10,887 --> 00:06:13,572
+¿Cuánto tomó?
+
+138
+00:06:13,595 --> 00:06:16,061
+Un vaso.
+
+139
+00:06:16,084 --> 00:06:18,939
+Eso es poco.
+
+140
+00:06:18,963 --> 00:06:21,529
+Es que tengo náuseas.
+
+141
+00:06:21,552 --> 00:06:24,986
+Pero el agua es importante.
+
+142
+00:06:25,009 --> 00:06:27,542
+Bien, entendido.
+
+143
+00:06:27,565 --> 00:06:30,576
+Las bebidas deportivas también son buenas.
+
+144
+00:06:30,599 --> 00:06:33,233
+Las venden en la tienda de conveniencia, ¿verdad?
+
+145
+00:06:33,256 --> 00:06:36,325
+Sí, compre y lléveselas.
+
+146
+00:06:36,348 --> 00:06:39,082
+¿Prefiere agua fría?
+
+147
+00:06:39,106 --> 00:06:43,246
+No, prefiero té caliente.
+
+148
+00:06:43,269 --> 00:06:45,644
+Bebidas calientes, entonces.
+
+149
+00:06:45,668 --> 00:06:49,469
+Sí, caliente su estómago.
+
+150
+00:06:49,492 --> 00:06:52,125
+¿Qué le apetece comer?
+
+151
+00:06:52,148 --> 00:06:54,548
+Udon estaría bien.
+
+152
+00:06:54,571 --> 00:06:57,105
+¿Y un poco de arroz congee?
+
+153
+00:06:57,128 --> 00:07:00,928
+Sí, el congee también es muy bueno.
+
+154
+00:07:00,951 --> 00:07:03,628
+¿Puedo comer carne?
+
+155
+00:07:03,651 --> 00:07:07,384
+No, hoy no coma carne.
+
+156
+00:07:07,407 --> 00:07:09,214
+Entendido.
+
+157
+00:07:09,238 --> 00:07:11,110
+Lo aguantaré.
+
+158
+00:07:11,133 --> 00:07:14,010
+Tampoco tome café.
+
+159
+00:07:14,034 --> 00:07:16,467
+Sí, no lo tomaré.
+
+160
+00:07:16,490 --> 00:07:19,690
+Tampoco comida picante.
+
+161
+00:07:19,713 --> 00:07:21,212
+Entendido.
+
+162
+00:07:21,235 --> 00:07:24,171
+Coma algo fácil de digerir.
+
+163
+00:07:24,195 --> 00:07:26,884
+Sí, tendré cuidado.
+
+164
+00:07:26,908 --> 00:07:30,241
+Descansar bien también es importante.
+
+165
+00:07:30,264 --> 00:07:33,102
+Sí, dormiré mucho.
+
+166
+00:07:33,125 --> 00:07:36,059
+Eso es la mejor medicina.
+
+167
+00:07:36,082 --> 00:07:38,363
+Gracias.
+
+168
+00:07:38,386 --> 00:07:39,886
+Escena 6: Análisis de sangre / Extracción de sangre
+
+169
+00:07:39,886 --> 00:07:43,379
+Vamos a hacerle un pequeño análisis de sangre.
+
+170
+00:07:43,403 --> 00:07:45,136
+¿Una inyección?
+
+171
+00:07:45,159 --> 00:07:47,597
+Sí, así es.
+
+172
+00:07:47,621 --> 00:07:49,492
+¿Va a doler?
+
+173
+00:07:49,516 --> 00:07:52,551
+Solo un pequeño pinchazo.
+
+174
+00:07:52,574 --> 00:07:54,446
+Entendido.
+
+175
+00:07:54,469 --> 00:07:56,926
+Súbase la manga, por favor.
+
+176
+00:07:56,950 --> 00:07:59,796
+¿Así está bien?
+
+177
+00:07:59,819 --> 00:08:02,264
+Sí, no hay problema.
+
+178
+00:08:02,287 --> 00:08:04,864
+Tengo un poco de miedo.
+
+179
+00:08:04,888 --> 00:08:07,021
+No se preocupe, todo estará bien.
+
+180
+00:08:07,044 --> 00:08:08,851
+Terminará en un momento.
+
+181
+00:08:08,875 --> 00:08:11,120
+Sí, por favor.
+
+182
+00:08:11,144 --> 00:08:13,642
+Listo, ya terminó.
+
+183
+00:08:13,666 --> 00:08:16,137
+¿Ya terminó?
+
+184
+00:08:16,160 --> 00:08:18,694
+Sí, fue rápido, ¿verdad?
+
+185
+00:08:18,717 --> 00:08:22,050
+Sí, no dolió nada.
+
+186
+00:08:22,073 --> 00:08:25,274
+Ahora haremos un ultrasonido.
+
+187
+00:08:25,297 --> 00:08:27,097
+¿Un ultrasonido?
+
+188
+00:08:27,120 --> 00:08:30,693
+Sí, vamos a revisar su abdomen.
+
+189
+00:08:30,717 --> 00:08:32,390
+Entendido.
+
+190
+00:08:32,413 --> 00:08:34,698
+Acuéstese en la camilla, por favor.
+
+191
+00:08:34,721 --> 00:08:37,013
+Sí, ya me acuesto.
+
+192
+00:08:37,037 --> 00:08:39,452
+Por favor, descubra su abdomen.
+
+193
+00:08:39,475 --> 00:08:41,810
+Ya lo descubrí.
+
+194
+00:08:41,833 --> 00:08:44,433
+Voy a ponerle un poco de gel.
+
+195
+00:08:44,456 --> 00:08:47,256
+Está un poco frío.
+
+196
+00:08:47,279 --> 00:08:50,046
+Sí, terminará pronto.
+
+197
+00:08:50,069 --> 00:08:53,002
+¿Hay algo malo?
+
+198
+00:08:53,025 --> 00:08:55,720
+No, todo está bien.
+
+199
+00:08:55,744 --> 00:08:58,310
+Qué alivio.
+
+200
+00:08:58,333 --> 00:09:00,825
+Es una leve intoxicación alimentaria.
+
+201
+00:09:00,849 --> 00:09:02,706
+Entendido.
+
+202
+00:09:02,730 --> 00:09:04,230
+Escena 7: Restricciones de baño y alcohol
+
+203
+00:09:04,230 --> 00:09:08,463
+Hoy no debe bañarse.
+
+204
+00:09:08,486 --> 00:09:12,286
+¿No puedo bañarme?
+
+205
+00:09:12,309 --> 00:09:16,443
+Solo tome una ducha rápida.
+
+206
+00:09:16,466 --> 00:09:18,266
+Entendido.
+
+207
+00:09:18,289 --> 00:09:20,922
+Voy a ducharme.
+
+208
+00:09:20,945 --> 00:09:23,983
+No por mucho tiempo.
+
+209
+00:09:24,007 --> 00:09:26,696
+Solo un rato corto, ¿verdad?
+
+210
+00:09:26,719 --> 00:09:29,416
+Sí, así es.
+
+211
+00:09:29,440 --> 00:09:32,054
+¿Puedo tomar alcohol?
+
+212
+00:09:32,077 --> 00:09:35,346
+No debe tomar absolutamente nada.
+
+213
+00:09:35,370 --> 00:09:38,003
+¿Ni siquiera un poco?
+
+214
+00:09:38,026 --> 00:09:41,896
+No, porque va a tomar medicamentos.
+
+215
+00:09:41,919 --> 00:09:43,919
+Entendido.
+
+216
+00:09:43,942 --> 00:09:46,475
+No tomaré alcohol.
+
+217
+00:09:46,498 --> 00:09:49,732
+Tampoco debe hacer ejercicio intenso.
+
+218
+00:09:49,755 --> 00:09:52,488
+¿Puedo ir al gimnasio?
+
+219
+00:09:52,511 --> 00:09:55,809
+No, no debe ir.
+
+220
+00:09:55,832 --> 00:09:58,199
+¿Tampoco puedo correr?
+
+221
+00:09:58,222 --> 00:10:02,028
+No, descanse en casa.
+
+222
+00:10:02,051 --> 00:10:03,947
+Entendido.
+
+223
+00:10:03,970 --> 00:10:06,136
+Me quedaré en casa descansando.
+
+224
+00:10:06,159 --> 00:10:09,293
+Tampoco debe trasnochar.
+
+225
+00:10:09,316 --> 00:10:11,933
+¿A qué hora debo acostarme?
+
+226
+00:10:11,956 --> 00:10:14,835
+Acuéstese a las 10.
+
+227
+00:10:14,858 --> 00:10:16,910
+¡Qué temprano!
+
+228
+00:10:16,933 --> 00:10:19,867
+Es para que su cuerpo descanse.
+
+229
+00:10:19,890 --> 00:10:21,944
+Entendido.
+
+230
+00:10:21,968 --> 00:10:23,901
+Me acostaré temprano.
+
+231
+00:10:23,924 --> 00:10:26,967
+Tampoco use mucho el celular.
+
+232
+00:10:26,991 --> 00:10:29,666
+¿Es porque te cansan los ojos?
+
+233
+00:10:29,689 --> 00:10:31,363
+Sí.
+
+234
+00:10:31,386 --> 00:10:34,021
+He empezado a dormir mal.
+
+235
+00:10:34,044 --> 00:10:36,011
+Entendido.
+
+236
+00:10:36,034 --> 00:10:38,001
+Tendré cuidado.
+
+237
+00:10:38,024 --> 00:10:40,990
+Cumple tu promesa, ¿vale?
+
+238
+00:10:41,013 --> 00:10:42,347
+Sí.
+
+239
+00:10:42,370 --> 00:10:44,660
+La cumpliré sin falta.
+
+240
+00:10:44,684 --> 00:10:47,537
+Ojalá te mejores pronto.
+
+241
+00:10:47,560 --> 00:10:49,975
+Gracias.
+
+242
+00:10:49,999 --> 00:10:51,499
+Escena 8: Descanso y cuidado de la salud
+
+243
+00:10:51,499 --> 00:10:55,032
+¿Tienes alguna pregunta?
+
+244
+00:10:55,055 --> 00:10:58,667
+Sí, tengo algunas dudas.
+
+245
+00:10:58,690 --> 00:11:00,301
+¿De qué se trata?
+
+246
+00:11:00,325 --> 00:11:04,745
+¿Puedo ir a trabajar mañana?
+
+247
+00:11:04,768 --> 00:11:08,701
+Mejor descansa mañana.
+
+248
+00:11:08,724 --> 00:11:11,779
+¿Tengo que descansar sí o sí?
+
+249
+00:11:11,803 --> 00:11:15,836
+Sí, ¿aún te duele el estómago, no?
+
+250
+00:11:15,859 --> 00:11:19,193
+Sí, me duele mucho.
+
+251
+00:11:19,216 --> 00:11:23,056
+Así que descansa bien.
+
+252
+00:11:23,079 --> 00:11:25,246
+Entendido.
+
+253
+00:11:25,269 --> 00:11:27,602
+Voy a llamar a la empresa.
+
+254
+00:11:27,625 --> 00:11:31,658
+Pasado mañana ya puedes ir.
+
+255
+00:11:31,681 --> 00:11:33,495
+Perfecto.
+
+256
+00:11:33,519 --> 00:11:36,895
+Pero no te esfuerces demasiado.
+
+257
+00:11:36,919 --> 00:11:40,174
+Sí, tendré cuidado.
+
+258
+00:11:40,198 --> 00:11:43,198
+¿Alguna otra pregunta?
+
+259
+00:11:43,221 --> 00:11:47,864
+¿Tengo que tomar la medicina con agua?
+
+260
+00:11:47,887 --> 00:11:53,170
+Sí, tómala con agua o agua tibia.
+
+261
+00:11:53,193 --> 00:11:56,427
+¿No puedo tomarla con té?
+
+262
+00:11:56,450 --> 00:11:59,783
+El té no es muy recomendable.
+
+263
+00:11:59,806 --> 00:12:02,173
+¿Y con jugo?
+
+264
+00:12:02,196 --> 00:12:05,162
+El jugo tampoco.
+
+265
+00:12:05,185 --> 00:12:06,785
+Entendido.
+
+266
+00:12:06,808 --> 00:12:09,085
+La tomaré con agua.
+
+267
+00:12:09,109 --> 00:12:11,525
+¿Todo bien por lo demás?
+
+268
+00:12:11,548 --> 00:12:14,317
+Solo una cosa más, ¿puedo?
+
+269
+00:12:14,341 --> 00:12:17,007
+Sí, ¿en qué puedo ayudarle?
+
+270
+00:12:17,030 --> 00:12:20,248
+¿Cuándo debo volver?
+
+271
+00:12:20,272 --> 00:12:23,677
+Vuelve cuando se te acabe la medicina.
+
+272
+00:12:23,700 --> 00:12:26,467
+¿Para cuántos días me la dan?
+
+273
+00:12:26,490 --> 00:12:29,373
+Te doy para tres días.
+
+274
+00:12:29,396 --> 00:12:31,330
+Entendido.
+
+275
+00:12:31,353 --> 00:12:35,119
+Si el dolor desaparece, no hace falta que vuelvas.
+
+276
+00:12:35,142 --> 00:12:36,952
+Entendido.
+
+277
+00:12:36,976 --> 00:12:39,109
+Gracias.
+
+278
+00:12:39,132 --> 00:12:40,632
+Escena 9: Consulta médica y pago
+
+279
+00:12:40,632 --> 00:12:43,199
+Gracias por tu paciencia.
+
+280
+00:12:43,222 --> 00:12:45,289
+Muchas gracias.
+
+281
+00:12:45,312 --> 00:12:48,192
+Vamos a hacer el pago.
+
+282
+00:12:48,215 --> 00:12:51,149
+Sí, ¿cuánto es?
+
+283
+00:12:51,172 --> 00:12:55,505
+La consulta de hoy cuesta 1500 yenes.
+
+284
+00:12:55,528 --> 00:12:58,936
+¿Aceptan tarjeta de crédito?
+
+285
+00:12:58,959 --> 00:13:01,526
+Sí, por supuesto.
+
+286
+00:13:01,549 --> 00:13:04,959
+Entonces, pago con tarjeta.
+
+287
+00:13:04,983 --> 00:13:06,716
+Gracias.
+
+288
+00:13:06,739 --> 00:13:10,586
+¿Dónde retiro los medicamentos?
+
+289
+00:13:10,609 --> 00:13:14,676
+Fuera del hospital hay una farmacia.
+
+290
+00:13:14,699 --> 00:13:16,504
+¿Dónde está?
+
+291
+00:13:16,527 --> 00:13:20,494
+Al salir del hospital, gira a la derecha.
+
+292
+00:13:20,517 --> 00:13:22,317
+¿A la derecha?
+
+293
+00:13:22,341 --> 00:13:26,559
+Sí, ahí hay una farmacia grande.
+
+294
+00:13:26,582 --> 00:13:28,516
+Entendido.
+
+295
+00:13:28,539 --> 00:13:31,205
+Esta es la receta.
+
+296
+00:13:31,228 --> 00:13:33,295
+Es una receta médica.
+
+297
+00:13:33,318 --> 00:13:37,173
+Sí, por favor, entréguesela a la farmacia.
+
+298
+00:13:37,197 --> 00:13:39,175
+Entendido.
+
+299
+00:13:39,198 --> 00:13:42,210
+Le devuelvo su tarjeta de consulta.
+
+300
+00:13:42,234 --> 00:13:43,967
+Gracias.
+
+301
+00:13:43,990 --> 00:13:47,285
+¿Cómo desea programar su próxima cita?
+
+302
+00:13:47,309 --> 00:13:52,042
+El doctor dijo que cuando se le acaben los medicamentos.
+
+303
+00:13:52,065 --> 00:13:55,102
+Entonces, dentro de tres días.
+
+304
+00:13:55,126 --> 00:13:57,759
+El viernes, por favor.
+
+305
+00:13:57,782 --> 00:14:00,865
+¿A qué hora del viernes le viene bien?
+
+306
+00:14:00,889 --> 00:14:03,889
+¿Qué tal a las tres de la tarde?
+
+307
+00:14:03,912 --> 00:14:06,770
+Sí, a las tres de la tarde está bien.
+
+308
+00:14:06,794 --> 00:14:08,727
+Perfecto.
+
+309
+00:14:08,750 --> 00:14:10,204
+Por favor.
+
+310
+00:14:10,228 --> 00:14:12,318
+Cuídese mucho.
+
+311
+00:14:12,341 --> 00:14:14,474
+Muchas gracias.
+
+312
+00:14:14,497 --> 00:14:15,997
+Escena 10: Cómo retirar los medicamentos recetados
+
+313
+00:14:15,997 --> 00:14:17,865
+Hola.
+
+314
+00:14:17,889 --> 00:14:21,022
+Por favor, deme la receta.
+
+315
+00:14:21,045 --> 00:14:22,900
+Hola.
+
+316
+00:14:22,924 --> 00:14:25,124
+Aquí está.
+
+317
+00:14:25,147 --> 00:14:28,481
+Sí, permítame confirmarla.
+
+318
+00:14:28,504 --> 00:14:31,337
+¿Cuánto tiempo tendré que esperar?
+
+319
+00:14:31,360 --> 00:14:33,973
+Estará listo enseguida.
+
+320
+00:14:33,997 --> 00:14:36,133
+Serán unos cinco minutos.
+
+321
+00:14:36,156 --> 00:14:37,967
+Entendido.
+
+322
+00:14:37,991 --> 00:14:40,324
+Disculpe la espera.
+
+323
+00:14:40,347 --> 00:14:42,217
+Sí.
+
+324
+00:14:42,240 --> 00:14:44,927
+Son dos tipos de medicamentos.
+
+325
+00:14:44,951 --> 00:14:47,352
+Dos tipos, ¿verdad?
+
+326
+00:14:47,376 --> 00:14:52,343
+Este es para aliviar el dolor de estómago.
+
+327
+00:14:52,366 --> 00:14:54,603
+¿Cuándo debo tomarlo?
+
+328
+00:14:54,626 --> 00:14:58,793
+Tómelo tres veces al día.
+
+329
+00:14:58,816 --> 00:15:00,706
+¿Antes de comer?
+
+330
+00:15:00,729 --> 00:15:02,600
+¿Después de comer?
+
+331
+00:15:02,624 --> 00:15:05,424
+Tómelo después de las comidas.
+
+332
+00:15:05,447 --> 00:15:07,464
+Entendido.
+
+333
+00:15:07,487 --> 00:15:10,854
+Mañana, tarde y noche.
+
+334
+00:15:10,877 --> 00:15:12,210
+Sí.
+
+335
+00:15:12,233 --> 00:15:15,872
+Mañana, tarde y noche, ¿cierto?
+
+336
+00:15:15,896 --> 00:15:19,565
+El otro es para el estómago.
+
+337
+00:15:19,588 --> 00:15:22,921
+¿Este también tres veces al día?
+
+338
+00:15:22,944 --> 00:15:24,638
+Sí.
+
+339
+00:15:24,662 --> 00:15:27,029
+Tómelos juntos.
+
+340
+00:15:27,052 --> 00:15:29,100
+Entendido.
+
+341
+00:15:29,123 --> 00:15:31,923
+Son medicamentos para tres días.
+
+342
+00:15:31,946 --> 00:15:36,044
+¿Tengo que tomarlos todos?
+
+343
+00:15:36,067 --> 00:15:40,034
+Puede dejar de tomarlos si el dolor desaparece.
+
+344
+00:15:40,057 --> 00:15:42,513
+Bien, entendido.
+
+345
+00:15:42,537 --> 00:15:46,470
+El total es ochocientos yenes.
+
+346
+00:15:46,493 --> 00:15:48,826
+Voy a pagar en efectivo.
+
+347
+00:15:48,849 --> 00:15:51,460
+Recibo mil yenes.
+
+348
+00:15:51,484 --> 00:15:53,371
+Sí.
+
+349
+00:15:53,394 --> 00:15:56,013
+Su cambio es doscientos yenes.
+
+350
+00:15:56,037 --> 00:15:58,170
+Cuídese mucho.
+
+351
+00:15:58,193 --> 00:16:00,526
+Muchas gracias.

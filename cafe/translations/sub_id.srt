@@ -1,0 +1,3331 @@
+1
+00:00:00,000 --> 00:00:10,008
+Video hari ini tentang apa? Percakapan di kafe.
+
+2
+00:00:10,008 --> 00:00:11,508
+Scene 1: Cara Memesan dalam Bahasa Jepang
+
+3
+00:00:11,508 --> 00:00:13,508
+Selamat datang.
+
+4
+00:00:13,530 --> 00:00:16,297
+Apakah Anda sudah memutuskan pesanan?
+
+5
+00:00:16,320 --> 00:00:18,053
+Sudah.
+
+6
+00:00:18,076 --> 00:00:21,249
+Saya minta satu es kopi.
+
+7
+00:00:21,273 --> 00:00:24,441
+Baik, es kopi ya.
+
+8
+00:00:24,464 --> 00:00:27,705
+Ukuran apa yang Anda inginkan?
+
+9
+00:00:27,729 --> 00:00:32,262
+Ada ukuran Short, Tall, dan Grande.
+
+10
+00:00:32,285 --> 00:00:35,052
+Tolong ukuran Tall.
+
+11
+00:00:35,075 --> 00:00:37,208
+Baiklah.
+
+12
+00:00:37,231 --> 00:00:39,431
+Ukuran Tall ya.
+
+13
+00:00:39,454 --> 00:00:42,621
+Apakah Anda akan menikmatinya di sini?
+
+14
+00:00:42,644 --> 00:00:46,577
+Tidak, bawa pulang saja.
+
+15
+00:00:46,600 --> 00:00:48,767
+Baiklah.
+
+16
+00:00:48,790 --> 00:00:51,157
+Bawa pulang ya.
+
+17
+00:00:51,180 --> 00:00:55,113
+Apakah Anda ingin menambahkan susu atau sirup?
+
+18
+00:00:55,136 --> 00:00:57,736
+Tidak, tidak usah.
+
+19
+00:00:57,759 --> 00:00:59,832
+Baik, kami mengerti.
+
+20
+00:00:59,855 --> 00:01:03,055
+Apakah ada pesanan lain?
+
+21
+00:01:03,078 --> 00:01:06,478
+Bagaimana dengan makanan ini?
+
+22
+00:01:06,501 --> 00:01:08,168
+Hmm...
+
+23
+00:01:08,191 --> 00:01:11,469
+Saya juga minta satu scone cokelat.
+
+24
+00:01:11,493 --> 00:01:14,226
+Scone cokelat ya.
+
+25
+00:01:14,249 --> 00:01:16,685
+Apakah Anda ingin kami hangatkan?
+
+26
+00:01:16,709 --> 00:01:18,345
+Sudah.
+
+27
+00:01:18,369 --> 00:01:20,502
+Ya, hangatkan saja.
+
+28
+00:01:20,525 --> 00:01:23,058
+Baiklah.
+
+29
+00:01:23,081 --> 00:01:26,214
+Dihangatkan akan lebih enak lho.
+
+30
+00:01:26,237 --> 00:01:28,004
+Terima kasih.
+
+31
+00:01:28,027 --> 00:01:31,160
+Baik, sekarang pembayaran.
+
+32
+00:01:31,183 --> 00:01:39,037
+Es kopi ukuran Tall dan scone cokelat, totalnya 750 yen.
+
+33
+00:01:39,061 --> 00:01:42,094
+Apakah bisa bayar dengan kartu kredit?
+
+34
+00:01:42,117 --> 00:01:44,717
+Bisa.
+
+35
+00:01:44,740 --> 00:01:48,594
+Silakan tap kartu Anda di mesin ini.
+
+36
+00:01:48,618 --> 00:01:51,716
+Baik, sudah saya tap.
+
+37
+00:01:51,740 --> 00:01:53,306
+Terima kasih.
+
+38
+00:01:53,329 --> 00:01:57,409
+Pembayaran sudah selesai.
+
+39
+00:01:57,433 --> 00:02:01,166
+Silakan ambil struk dan nomor panggilan Anda.
+
+40
+00:02:01,189 --> 00:02:02,674
+Terima kasih.
+
+41
+00:02:02,698 --> 00:02:06,510
+Pesanan akan diberikan di loket pengambilan sebelah sana.
+
+42
+00:02:06,533 --> 00:02:10,733
+Tunggu sebentar sampai nomor Anda dipanggil.
+
+43
+00:02:10,756 --> 00:02:12,569
+Baik.
+
+44
+00:02:12,593 --> 00:02:14,593
+Di sebelah sana ya?
+
+45
+00:02:14,616 --> 00:02:17,950
+Iya, benar.
+
+46
+00:02:17,973 --> 00:02:22,263
+Scone akan dihangatkan, jadi butuh waktu sekitar 2 menit.
+
+47
+00:02:22,286 --> 00:02:24,153
+Baik.
+
+48
+00:02:24,176 --> 00:02:26,610
+Mohon tunggu sebentar.
+
+49
+00:02:26,632 --> 00:02:29,078
+Pelanggan nomor 15.
+
+50
+00:02:29,101 --> 00:02:32,438
+Ya, saya.
+
+51
+00:02:32,462 --> 00:02:34,477
+Mohon tunggu sebentar.
+
+52
+00:02:34,500 --> 00:02:40,333
+Ini es kopi ukuran Tall dan scone cokelat yang sudah dihangatkan.
+
+53
+00:02:40,356 --> 00:02:41,890
+Terima kasih.
+
+54
+00:02:41,913 --> 00:02:43,779
+Kelihatannya enak ya.
+
+55
+00:02:43,802 --> 00:02:48,936
+Scone sangat panas, jadi hati-hati saat dibawa pulang.
+
+56
+00:02:48,959 --> 00:02:50,825
+Baik.
+
+57
+00:02:50,848 --> 00:02:52,382
+Terima kasih.
+
+58
+00:02:52,405 --> 00:02:57,638
+Sedotan dan tisu bisa diambil dengan bebas di meja sebelah sana.
+
+59
+00:02:57,661 --> 00:02:59,636
+Baik.
+
+60
+00:02:59,659 --> 00:03:01,592
+Terima kasih.
+
+61
+00:03:01,615 --> 00:03:03,849
+Silakan datang kembali.
+
+62
+00:03:03,872 --> 00:03:06,121
+Terima kasih.
+
+63
+00:03:06,145 --> 00:03:15,154
+Naskah video hari ini bisa diunduh dari deskripsi dan komentar teratas. Mohon tinggalkan komentar sebelum mengunduh, ya.
+
+64
+00:03:15,154 --> 00:03:16,654
+Scene 2: Dasar-Dasar Persiapan Pagi / Basics of Morning Preparation
+
+65
+00:03:16,654 --> 00:03:21,544
+Selanjutnya, mari kita siapkan persiapan pagi.
+
+66
+00:03:21,568 --> 00:03:25,701
+Pertama, periksa biji kopinya.
+
+67
+00:03:25,724 --> 00:03:27,457
+Sudah.
+
+68
+00:03:27,480 --> 00:03:30,247
+Ini bijinya.
+
+69
+00:03:30,270 --> 00:03:33,803
+Lihat tanggal pada kemasannya.
+
+70
+00:03:33,826 --> 00:03:36,460
+Apakah bijinya masih baru?
+
+71
+00:03:36,482 --> 00:03:38,291
+Sudah.
+
+72
+00:03:38,315 --> 00:03:41,283
+Ini biji yang tadi baru sampai.
+
+73
+00:03:41,306 --> 00:03:43,173
+Bagus sekali.
+
+74
+00:03:43,196 --> 00:03:46,329
+Bagaimana aromanya?
+
+75
+00:03:46,352 --> 00:03:49,403
+Aromanya sangat harum.
+
+76
+00:03:49,426 --> 00:03:52,494
+Kesegarannya tidak ada masalah.
+
+77
+00:03:52,518 --> 00:03:55,529
+Syukurlah.
+
+78
+00:03:55,552 --> 00:04:00,552
+Selanjutnya, periksa suhu kulkasnya.
+
+79
+00:04:00,575 --> 00:04:03,870
+Kulkasnya 4 derajat.
+
+80
+00:04:03,893 --> 00:04:07,790
+Pemanasnya 60 derajat.
+
+81
+00:04:07,814 --> 00:04:10,512
+Keduanya baik-baik saja ya.
+
+82
+00:04:10,536 --> 00:04:14,469
+Sekarang, mari kita buat sandwich.
+
+83
+00:04:14,492 --> 00:04:18,425
+Berapa lembar roti yang akan dipotong?
+
+84
+00:04:18,448 --> 00:04:21,022
+Potong 10 lembar ya.
+
+85
+00:04:21,046 --> 00:04:23,979
+Potong tipis-tipis saja.
+
+86
+00:04:24,002 --> 00:04:26,136
+Baik.
+
+87
+00:04:26,159 --> 00:04:28,892
+Apakah sayurannya juga dicuci?
+
+88
+00:04:28,915 --> 00:04:30,482
+Sudah.
+
+89
+00:04:30,505 --> 00:04:34,638
+Cuci selada dan tomatnya sampai bersih.
+
+90
+00:04:34,661 --> 00:04:37,953
+Saya ambilkan ham dan keju juga ya.
+
+91
+00:04:37,976 --> 00:04:39,748
+Tolong.
+
+92
+00:04:39,772 --> 00:04:43,007
+Kita juga akan buat salad telur.
+
+93
+00:04:43,030 --> 00:04:46,688
+Berapa butir telur rebus yang digunakan?
+
+94
+00:04:46,711 --> 00:04:49,311
+Gunakan 8 butir ya.
+
+95
+00:04:49,334 --> 00:04:52,821
+Hancurkan di dalam mangkuk.
+
+96
+00:04:52,844 --> 00:04:54,262
+Sudah.
+
+97
+00:04:54,286 --> 00:04:56,620
+Akan segera saya buat.
+
+98
+00:04:56,643 --> 00:05:00,209
+Semua harus siap sebelum jam 8.
+
+99
+00:05:00,232 --> 00:05:01,665
+Sudah.
+
+100
+00:05:01,688 --> 00:05:03,822
+Pasti bisa selesai tepat waktu.
+
+101
+00:05:03,845 --> 00:05:10,950
+Link situs untuk mengulang materi video hari ini ada di deskripsi dan komentar teratas, lho! *Situs bisa dihapus sewaktu-waktu tanpa pemberitahuan.
+
+102
+00:05:10,950 --> 00:05:12,450
+Scene 3: Persiapan Sebelum Buka dan Kesibukan / Pre-Opening Preparations and Busy Hours
+
+103
+00:05:12,450 --> 00:05:15,416
+Sudah hampir jam 8.
+
+104
+00:05:15,439 --> 00:05:18,073
+10 menit lagi sebelum buka.
+
+105
+00:05:18,096 --> 00:05:22,234
+Iya, persiapannya hampir selesai.
+
+106
+00:05:22,257 --> 00:05:24,790
+Mari kita semangat hari ini!
+
+107
+00:05:24,813 --> 00:05:29,147
+Tahukah kamu cuaca hari ini?
+
+108
+00:05:29,170 --> 00:05:30,903
+Sudah.
+
+109
+00:05:30,926 --> 00:05:34,165
+Nanti sore akan hujan.
+
+110
+00:05:34,189 --> 00:05:35,955
+Hmm...
+
+111
+00:05:35,978 --> 00:05:39,978
+Karena itu, pagi ini pasti banyak pelanggan.
+
+112
+00:05:40,001 --> 00:05:41,768
+Baik.
+
+113
+00:05:41,791 --> 00:05:45,324
+Jam berapa biasanya paling ramai?
+
+114
+00:05:45,347 --> 00:05:49,281
+Biasanya dari jam 12 sampai 2 siang.
+
+115
+00:05:49,304 --> 00:05:53,509
+Waktu makan siang memang selalu ramai.
+
+116
+00:05:53,532 --> 00:05:54,899
+Baik.
+
+117
+00:05:54,922 --> 00:05:57,388
+Akan saya perhatikan.
+
+118
+00:05:57,411 --> 00:06:01,178
+Target penjualan hari ini adalah 100 ribu yen.
+
+119
+00:06:01,201 --> 00:06:03,734
+100 ribu yen ya.
+
+120
+00:06:03,757 --> 00:06:06,691
+Apakah hari ini juga menjual kue baru?
+
+121
+00:06:06,714 --> 00:06:08,380
+Sudah.
+
+122
+00:06:08,403 --> 00:06:12,437
+Tawarkan kue musiman kepada pelanggan.
+
+123
+00:06:12,460 --> 00:06:14,264
+Baik.
+
+124
+00:06:14,288 --> 00:06:17,867
+Katakan 'Ini rekomendasi hari ini'.
+
+125
+00:06:17,890 --> 00:06:19,823
+Bagus sekali.
+
+126
+00:06:19,846 --> 00:06:24,046
+Selanjutnya, mari tentukan pembagian tugas.
+
+127
+00:06:24,069 --> 00:06:25,836
+Sudah.
+
+128
+00:06:25,859 --> 00:06:28,826
+Saya harus melakukan apa?
+
+129
+00:06:28,849 --> 00:06:31,824
+Mike, tolong tangani kasirnya.
+
+130
+00:06:31,847 --> 00:06:35,580
+Tolong urus pembayaran dan catat pesanan.
+
+131
+00:06:35,603 --> 00:06:37,491
+Baik.
+
+132
+00:06:37,515 --> 00:06:40,781
+Saya yang akan menangani kasir.
+
+133
+00:06:40,804 --> 00:06:44,338
+Saya akan membuat minuman dan makanan.
+
+134
+00:06:44,361 --> 00:06:47,894
+Saat sibuk, mari saling bantu.
+
+135
+00:06:47,917 --> 00:06:49,650
+Sudah.
+
+136
+00:06:49,673 --> 00:06:51,683
+Mohon bantuannya.
+
+137
+00:06:51,706 --> 00:06:55,106
+Baiklah, mari buka tokonya.
+
+138
+00:06:55,130 --> 00:06:56,696
+Sudah.
+
+139
+00:06:56,719 --> 00:06:58,738
+Buka, yuk!
+
+140
+00:06:58,762 --> 00:07:00,262
+Scene 4: Percakapan Pagi di Kafe / Morning Conversations at a Cafe
+
+141
+00:07:00,262 --> 00:07:02,595
+Selamat pagi.
+
+142
+00:07:02,618 --> 00:07:05,151
+Selamat datang.
+
+143
+00:07:05,174 --> 00:07:07,578
+Selamat pagi.
+
+144
+00:07:07,602 --> 00:07:10,769
+Hari ini cuacanya cerah ya.
+
+145
+00:07:10,792 --> 00:07:12,725
+Sudah.
+
+146
+00:07:12,748 --> 00:07:16,406
+Sekarang terasa hangat sekali.
+
+147
+00:07:16,430 --> 00:07:19,630
+Pesan set menu pagi seperti biasa?
+
+148
+00:07:19,653 --> 00:07:21,386
+Sudah.
+
+149
+00:07:21,409 --> 00:07:23,409
+Tolong.
+
+150
+00:07:23,432 --> 00:07:27,365
+Roti panggang mentega dan kopi hitam, ya.
+
+151
+00:07:27,388 --> 00:07:29,389
+Sudah.
+
+152
+00:07:29,413 --> 00:07:33,146
+Tolong kopinya dibuat panas.
+
+153
+00:07:33,169 --> 00:07:35,424
+Baik.
+
+154
+00:07:35,447 --> 00:07:38,381
+Silakan duduk di meja.
+
+155
+00:07:38,404 --> 00:07:40,204
+Terima kasih.
+
+156
+00:07:40,227 --> 00:07:43,960
+Hari ini agak lebih awal.
+
+157
+00:07:43,983 --> 00:07:45,759
+Hmm...
+
+158
+00:07:45,782 --> 00:07:49,749
+Biasanya datang jam setengah sembilan, ya.
+
+159
+00:07:49,772 --> 00:07:53,425
+Hari ini ada kerjaan mulai jam sembilan.
+
+160
+00:07:53,448 --> 00:07:55,543
+Sibuk sekali ya.
+
+161
+00:07:55,566 --> 00:07:57,733
+Maaf menunggu.
+
+162
+00:07:57,756 --> 00:08:00,222
+Ini set menu paginya.
+
+163
+00:08:00,245 --> 00:08:02,012
+Terima kasih.
+
+164
+00:08:02,035 --> 00:08:04,168
+Kelihatannya enak ya.
+
+165
+00:08:04,191 --> 00:08:08,958
+Minggu ini hujannya banyak sekali ya.
+
+166
+00:08:08,981 --> 00:08:10,617
+Iya.
+
+167
+00:08:10,641 --> 00:08:14,374
+Cucian jadi tidak kering.
+
+168
+00:08:14,397 --> 00:08:18,568
+Katanya siang nanti akan hujan lagi.
+
+169
+00:08:18,591 --> 00:08:21,490
+Oh, begitu ya.
+
+170
+00:08:21,514 --> 00:08:24,721
+Syukurlah bawa payung.
+
+171
+00:08:24,744 --> 00:08:27,379
+Terima kasih atas makanannya.
+
+172
+00:08:27,402 --> 00:08:29,207
+Terima kasih.
+
+173
+00:08:29,231 --> 00:08:32,847
+Totalnya 500 yen.
+
+174
+00:08:32,871 --> 00:08:35,904
+Bayar pas 500 yen.
+
+175
+00:08:35,927 --> 00:08:37,494
+Terima kasih.
+
+176
+00:08:37,517 --> 00:08:41,083
+Semangat bekerja hari ini juga.
+
+177
+00:08:41,106 --> 00:08:42,885
+Sudah.
+
+178
+00:08:42,909 --> 00:08:44,842
+Saya berangkat.
+
+179
+00:08:44,865 --> 00:08:46,913
+Hati-hati di jalan.
+
+180
+00:08:46,937 --> 00:08:49,670
+Sampai jumpa lagi.
+
+181
+00:08:49,693 --> 00:08:51,193
+Scene 5: Penanganan Pesanan dengan Cepat / Quick Order Handling
+
+182
+00:08:51,193 --> 00:08:53,231
+Selamat datang.
+
+183
+00:08:53,255 --> 00:08:55,658
+Selamat pagi.
+
+184
+00:08:55,681 --> 00:08:58,348
+Selamat pagi.
+
+185
+00:08:58,371 --> 00:09:03,189
+Maaf, saya sedang terburu-buru.
+
+186
+00:09:03,213 --> 00:09:07,746
+Kereta akan berangkat dalam sepuluh menit lagi.
+
+187
+00:09:07,769 --> 00:09:09,769
+Baiklah.
+
+188
+00:09:09,792 --> 00:09:12,428
+Akan segera kami buatkan.
+
+189
+00:09:12,452 --> 00:09:16,624
+Minuman apa yang paling cepat dibuat?
+
+190
+00:09:16,647 --> 00:09:20,494
+Ice café latte yang paling cepat.
+
+191
+00:09:20,518 --> 00:09:24,391
+Kalau begitu, ice café latte satu, ya.
+
+192
+00:09:24,414 --> 00:09:28,481
+Ukuran M, boleh?
+
+193
+00:09:28,504 --> 00:09:32,470
+Ya, ukuran M saja.
+
+194
+00:09:32,493 --> 00:09:35,027
+Untuk dibawa pulang, ya?
+
+195
+00:09:35,050 --> 00:09:38,709
+Ya, tolong dibungkus.
+
+196
+00:09:38,732 --> 00:09:42,372
+Pakai sirup gula atau susu?
+
+197
+00:09:42,395 --> 00:09:45,869
+Tidak, jangan masukkan.
+
+198
+00:09:45,893 --> 00:09:48,779
+Bisa dibuat sedikit esnya?
+
+199
+00:09:48,802 --> 00:09:51,657
+Bisa, silakan.
+
+200
+00:09:51,680 --> 00:09:55,047
+Esnya akan dibuat sedikit.
+
+201
+00:09:55,070 --> 00:09:57,436
+Berapa total pembayarannya?
+
+202
+00:09:57,459 --> 00:10:01,474
+Totalnya empat ratus lima puluh yen.
+
+203
+00:10:01,498 --> 00:10:04,431
+Bisa bayar dengan e-money?
+
+204
+00:10:04,454 --> 00:10:08,021
+Bisa, silakan gunakan.
+
+205
+00:10:08,044 --> 00:10:10,855
+Silakan sentuh mesin ini.
+
+206
+00:10:10,878 --> 00:10:13,644
+Sudah saya sentuh.
+
+207
+00:10:13,667 --> 00:10:15,267
+Terima kasih.
+
+208
+00:10:15,290 --> 00:10:18,224
+Pembayaran sudah selesai.
+
+209
+00:10:18,247 --> 00:10:22,052
+Apakah Anda akan menggunakan kantong untuk dibawa pulang?
+
+210
+00:10:22,075 --> 00:10:25,283
+Ya, minta kantongnya.
+
+211
+00:10:25,306 --> 00:10:30,106
+Karena dingin, saya akan menambahkan sleeve pada cangkirnya.
+
+212
+00:10:30,129 --> 00:10:33,298
+Ya, sangat membantu.
+
+213
+00:10:33,321 --> 00:10:36,055
+Maaf telah membuat Anda menunggu lama.
+
+214
+00:10:36,078 --> 00:10:39,411
+Ini es cafe latte ukuran M.
+
+215
+00:10:39,434 --> 00:10:40,909
+Terima kasih.
+
+216
+00:10:40,932 --> 00:10:43,766
+Syukurlah cepat selesai.
+
+217
+00:10:43,789 --> 00:10:45,670
+Hati-hati di jalan.
+
+218
+00:10:45,693 --> 00:10:47,296
+Hati-hati ya.
+
+219
+00:10:47,320 --> 00:10:50,720
+Ya, saya pergi dulu.
+
+220
+00:10:50,743 --> 00:10:52,243
+Scene 6: Percakapan Pagi dan Konfirmasi Jadwal / Percakapan Pagi dan Konfirmasi Jadwal
+
+221
+00:10:52,243 --> 00:10:54,645
+Selamat pagi.
+
+222
+00:10:54,669 --> 00:10:57,802
+Hari ini cuacanya cerah ya.
+
+223
+00:10:57,825 --> 00:11:00,158
+Selamat pagi.
+
+224
+00:11:00,181 --> 00:11:02,148
+Hmm...
+
+225
+00:11:02,171 --> 00:11:05,388
+Apakah kamu sudah membeli kopi?
+
+226
+00:11:05,411 --> 00:11:07,178
+Sudah.
+
+227
+00:11:07,201 --> 00:11:10,652
+Saya sudah membeli cafe latte hangat.
+
+228
+00:11:10,676 --> 00:11:14,153
+Saya memilih kopi panas.
+
+229
+00:11:14,177 --> 00:11:18,510
+Baiklah, mari kita cek jadwal hari ini.
+
+230
+00:11:18,533 --> 00:11:20,267
+Sudah.
+
+231
+00:11:20,290 --> 00:11:22,158
+Tolong.
+
+232
+00:11:22,181 --> 00:11:26,473
+Hari ini ada rapat mulai pukul 10 pagi ya.
+
+233
+00:11:26,497 --> 00:11:28,264
+Sudah.
+
+234
+00:11:28,287 --> 00:11:32,062
+Presentasi proyek baru.
+
+235
+00:11:32,085 --> 00:11:35,353
+Apakah persiapan bahan sudah selesai?
+
+236
+00:11:35,377 --> 00:11:37,143
+Sudah.
+
+237
+00:11:37,166 --> 00:11:40,966
+Semua sudah saya cek tadi malam.
+
+238
+00:11:40,990 --> 00:11:43,523
+Bagus sekali.
+
+239
+00:11:43,546 --> 00:11:46,638
+Mari kita lihat sekali lagi bersama.
+
+240
+00:11:46,662 --> 00:11:48,300
+Sudah.
+
+241
+00:11:48,323 --> 00:11:51,357
+Ini bahan untuk hari ini.
+
+242
+00:11:51,380 --> 00:11:54,113
+Lihat halaman kedua.
+
+243
+00:11:54,136 --> 00:11:57,337
+Apakah angka ini benar?
+
+244
+00:11:57,361 --> 00:11:59,294
+Sudah.
+
+245
+00:11:59,317 --> 00:12:02,384
+Sama dengan data minggu lalu.
+
+246
+00:12:02,407 --> 00:12:04,773
+Baik.
+
+247
+00:12:04,796 --> 00:12:07,263
+Sangat mudah dibaca.
+
+248
+00:12:07,286 --> 00:12:09,019
+Terima kasih.
+
+249
+00:12:09,042 --> 00:12:12,076
+Bagian yang diperbaiki ada di sini.
+
+250
+00:12:12,099 --> 00:12:14,957
+Fotonya juga jadi lebih besar ya.
+
+251
+00:12:14,981 --> 00:12:16,827
+Sudah.
+
+252
+00:12:16,850 --> 00:12:19,183
+Jadi lebih mudah dilihat.
+
+253
+00:12:19,206 --> 00:12:22,692
+Siapa yang akan presentasi?
+
+254
+00:12:22,716 --> 00:12:26,328
+Saya akan menyampaikan bagian awal.
+
+255
+00:12:26,351 --> 00:12:28,218
+Baik.
+
+256
+00:12:28,241 --> 00:12:33,008
+Saya akan menangani sesi tanya jawab di akhir.
+
+257
+00:12:33,031 --> 00:12:34,722
+Sudah.
+
+258
+00:12:34,745 --> 00:12:36,778
+Mohon bantuannya.
+
+259
+00:12:36,801 --> 00:12:40,201
+Agak gugup ya?
+
+260
+00:12:40,224 --> 00:12:43,391
+Agak gugup.
+
+261
+00:12:43,414 --> 00:12:45,581
+Tidak apa-apa.
+
+262
+00:12:45,604 --> 00:12:48,370
+Kamu sudah banyak berlatih.
+
+263
+00:12:48,393 --> 00:12:49,927
+Sudah.
+
+264
+00:12:49,950 --> 00:12:52,150
+Saya akan berusaha.
+
+265
+00:12:52,173 --> 00:12:55,506
+Setelah rapat, apa yang akan dilakukan?
+
+266
+00:12:55,529 --> 00:12:59,262
+Makan siang mulai pukul 1 siang.
+
+267
+00:12:59,285 --> 00:13:01,119
+Bagus sekali.
+
+268
+00:13:01,142 --> 00:13:03,942
+Mari kita makan sesuatu yang enak.
+
+269
+00:13:03,965 --> 00:13:05,634
+Sudah.
+
+270
+00:13:05,657 --> 00:13:08,124
+Saya sangat menantikannya.
+
+271
+00:13:08,147 --> 00:13:11,029
+Ruang rapat ada di lantai 3, ya?
+
+272
+00:13:11,052 --> 00:13:12,855
+Sudah.
+
+273
+00:13:12,879 --> 00:13:16,537
+Ruang rapatnya di lantai 3.
+
+274
+00:13:16,560 --> 00:13:20,093
+Bagaimana kalau kita berangkat ke kantor 15 menit lagi?
+
+275
+00:13:20,116 --> 00:13:21,650
+Sudah.
+
+276
+00:13:21,673 --> 00:13:23,806
+Baiklah.
+
+277
+00:13:23,829 --> 00:13:27,103
+Kalau begitu, mari kita berangkat ke kantor.
+
+278
+00:13:27,126 --> 00:13:28,564
+Sudah.
+
+279
+00:13:28,588 --> 00:13:30,564
+Ayo berangkat.
+
+280
+00:13:30,587 --> 00:13:32,087
+Scene 7: Panduan Tempat Duduk dan Wi-Fi / Seating and Wi-Fi Guide
+
+281
+00:13:32,087 --> 00:13:33,961
+Selamat datang.
+
+282
+00:13:33,985 --> 00:13:36,920
+Silakan duduk di tempat yang Anda suka.
+
+283
+00:13:36,943 --> 00:13:38,776
+Maaf.
+
+284
+00:13:38,799 --> 00:13:42,333
+Di mana tempat duduk yang ada colokan listriknya?
+
+285
+00:13:42,356 --> 00:13:44,156
+Sudah.
+
+286
+00:13:44,179 --> 00:13:47,512
+Ada di kursi counter sebelah sana.
+
+287
+00:13:47,535 --> 00:13:49,185
+Terima kasih.
+
+288
+00:13:49,208 --> 00:13:52,175
+Saya ingin menggunakan laptop.
+
+289
+00:13:52,198 --> 00:13:55,398
+Saya akan mengantar Anda ke kursi counter.
+
+290
+00:13:55,421 --> 00:13:57,698
+Silakan ke sini.
+
+291
+00:13:57,722 --> 00:13:59,363
+Terima kasih.
+
+292
+00:13:59,387 --> 00:14:02,220
+Apakah ada Wi-Fi?
+
+293
+00:14:02,243 --> 00:14:03,810
+Sudah.
+
+294
+00:14:03,833 --> 00:14:06,709
+Ada Wi-Fi gratis.
+
+295
+00:14:06,732 --> 00:14:10,214
+Berapa kata sandinya?
+
+296
+00:14:10,237 --> 00:14:13,735
+Tertulis di balik menu.
+
+297
+00:14:13,759 --> 00:14:15,835
+Lihat di sini.
+
+298
+00:14:15,859 --> 00:14:17,893
+Baik.
+
+299
+00:14:17,916 --> 00:14:19,984
+Sangat membantu, terima kasih.
+
+300
+00:14:20,007 --> 00:14:24,274
+Pak/Buk, saya ada satu permintaan.
+
+301
+00:14:24,297 --> 00:14:29,497
+Saat ramai, mohon batasi penggunaan tempat hingga 2 jam.
+
+302
+00:14:29,520 --> 00:14:31,087
+Sudah.
+
+303
+00:14:31,110 --> 00:14:32,944
+Baik.
+
+304
+00:14:32,967 --> 00:14:35,300
+Akan saya perhatikan.
+
+305
+00:14:35,323 --> 00:14:38,057
+Terima kasih atas kerja samanya.
+
+306
+00:14:38,080 --> 00:14:41,494
+Apakah Anda sudah memutuskan pesanan minuman?
+
+307
+00:14:41,517 --> 00:14:43,326
+Sudah.
+
+308
+00:14:43,349 --> 00:14:46,549
+Saya pesan kopi panas, ya.
+
+309
+00:14:46,572 --> 00:14:49,548
+Ukuran apa yang Anda pilih?
+
+310
+00:14:49,572 --> 00:14:52,459
+Saya pesan ukuran M.
+
+311
+00:14:52,483 --> 00:14:54,561
+Baiklah.
+
+312
+00:14:54,584 --> 00:14:57,817
+Apakah Anda menggunakan gula dan susu?
+
+313
+00:14:57,840 --> 00:15:01,040
+Tolong beri saya satu gula.
+
+314
+00:15:01,063 --> 00:15:02,930
+Baik.
+
+315
+00:15:02,953 --> 00:15:05,786
+Mohon tunggu sebentar.
+
+316
+00:15:05,809 --> 00:15:07,309
+Scene 8: Pelayanan dan Kenyamanan Lingkungan / Customer Service and Comfortable Environment
+
+317
+00:15:07,309 --> 00:15:09,148
+Selamat datang.
+
+318
+00:15:09,172 --> 00:15:12,816
+Apakah Anda tidak kedinginan?
+
+319
+00:15:12,839 --> 00:15:15,373
+Oh, maaf.
+
+320
+00:15:15,395 --> 00:15:18,162
+Sedikit dingin.
+
+321
+00:15:18,185 --> 00:15:20,818
+Saya sangat mohon maaf.
+
+322
+00:15:20,841 --> 00:15:25,575
+Di sini angin AC langsung mengenai Anda, ya?
+
+323
+00:15:25,598 --> 00:15:27,164
+Sudah.
+
+324
+00:15:27,187 --> 00:15:30,221
+Anginnya agak kencang.
+
+325
+00:15:30,244 --> 00:15:33,492
+Mau saya naikkan sedikit suhunya?
+
+326
+00:15:33,515 --> 00:15:35,115
+Tolong.
+
+327
+00:15:35,138 --> 00:15:39,472
+Omong-omong, apakah ada selimut?
+
+328
+00:15:39,495 --> 00:15:41,728
+Ya, ada.
+
+329
+00:15:41,751 --> 00:15:44,686
+Saya akan segera membawakannya.
+
+330
+00:15:44,710 --> 00:15:46,315
+Terima kasih.
+
+331
+00:15:46,338 --> 00:15:48,305
+Sangat membantu, terima kasih.
+
+332
+00:15:48,328 --> 00:15:50,561
+Mohon tunggu sebentar.
+
+333
+00:15:50,584 --> 00:15:54,051
+Silakan gunakan selimut ini.
+
+334
+00:15:54,074 --> 00:15:55,679
+Terima kasih.
+
+335
+00:15:55,703 --> 00:15:58,379
+Sangat hangat.
+
+336
+00:15:58,402 --> 00:16:00,435
+Syukurlah.
+
+337
+00:16:00,458 --> 00:16:05,192
+Kalau berkenan, mau pindah tempat duduk?
+
+338
+00:16:05,215 --> 00:16:08,671
+Ya, saya ingin pindah.
+
+339
+00:16:08,694 --> 00:16:12,301
+Apakah kursi di pojok sebelah sana kosong?
+
+340
+00:16:12,325 --> 00:16:13,795
+Sudah.
+
+341
+00:16:13,819 --> 00:16:17,513
+Kursi meja persegi di sebelah sana kosong.
+
+342
+00:16:17,536 --> 00:16:20,936
+Apakah di sana sepi?
+
+343
+00:16:20,959 --> 00:16:25,126
+Hari ini saya ingin membaca buku dengan santai.
+
+344
+00:16:25,149 --> 00:16:26,282
+Sudah.
+
+345
+00:16:26,305 --> 00:16:29,572
+Tempat duduk di bagian dalam sangat sepi.
+
+346
+00:16:29,595 --> 00:16:32,473
+Tidak terkena angin AC juga.
+
+347
+00:16:32,496 --> 00:16:34,766
+Itu bagus sekali.
+
+348
+00:16:34,790 --> 00:16:38,324
+Kalau begitu, saya akan duduk di sana.
+
+349
+00:16:38,347 --> 00:16:41,480
+Boleh saya bawakan barang Anda?
+
+350
+00:16:41,503 --> 00:16:44,503
+Tidak, saya bawa sendiri.
+
+351
+00:16:44,526 --> 00:16:46,659
+Tidak apa-apa.
+
+352
+00:16:46,682 --> 00:16:48,376
+Baik.
+
+353
+00:16:48,400 --> 00:16:51,600
+Baiklah, saya akan mengantarkan Anda.
+
+354
+00:16:51,622 --> 00:16:53,189
+Terima kasih.
+
+355
+00:16:53,212 --> 00:16:58,379
+Oh iya, boleh minta teh hangat lagi?
+
+356
+00:16:58,402 --> 00:17:00,568
+Baiklah.
+
+357
+00:17:00,591 --> 00:17:03,648
+Teh polos saja, boleh?
+
+358
+00:17:03,672 --> 00:17:05,311
+Sudah.
+
+359
+00:17:05,334 --> 00:17:07,811
+Teh polos saja, terima kasih.
+
+360
+00:17:07,835 --> 00:17:10,602
+Akan segera saya bawakan.
+
+361
+00:17:10,625 --> 00:17:13,442
+Silakan nikmati waktu Anda dengan santai.
+
+362
+00:17:13,466 --> 00:17:15,926
+Terima kasih.
+
+363
+00:17:15,949 --> 00:17:17,449
+Scene 9: Latihan Kanji dan Partikel
+
+364
+00:17:17,449 --> 00:17:22,249
+Hari ini mari kita belajar banyak.
+
+365
+00:17:22,272 --> 00:17:24,639
+Ya, mari kita semangat.
+
+366
+00:17:24,662 --> 00:17:28,628
+Minggu depan ada ujian bahasa Jepang, ya?
+
+367
+00:17:28,651 --> 00:17:32,531
+Ya, ujian N5.
+
+368
+00:17:32,555 --> 00:17:35,688
+Sudah sejauh mana belajarnya?
+
+369
+00:17:35,711 --> 00:17:40,978
+Hmm, kanji agak sulit.
+
+370
+00:17:41,001 --> 00:17:44,201
+Kanji apa yang sulit?
+
+371
+00:17:44,224 --> 00:17:48,224
+Kanji untuk 'minggu' dan 'tulis'.
+
+372
+00:17:48,247 --> 00:17:51,783
+Oh, kanji yang garisnya banyak ya.
+
+373
+00:17:51,806 --> 00:17:56,474
+Ya, susah untuk diingat.
+
+374
+00:17:56,498 --> 00:17:59,631
+Kalau ditulis berulang-ulang, pasti ingat.
+
+375
+00:17:59,654 --> 00:18:03,832
+Iya ya, saya akan berlatih setiap hari.
+
+376
+00:18:03,856 --> 00:18:06,136
+Bagaimana dengan tata bahasanya?
+
+377
+00:18:06,159 --> 00:18:09,572
+Kadang-kadang saya bingung dengan partikel.
+
+378
+00:18:09,596 --> 00:18:12,670
+Perbedaan antara 'ni', 'to', dan 'de' ya?
+
+379
+00:18:12,694 --> 00:18:16,361
+Ya, kadang saya ragu.
+
+380
+00:18:16,385 --> 00:18:20,427
+Kalau begitu, mari kita saling memberi soal mulai sekarang.
+
+381
+00:18:20,450 --> 00:18:23,383
+Ide bagus, silakan.
+
+382
+00:18:23,406 --> 00:18:26,475
+Soal pertama.
+
+383
+00:18:26,499 --> 00:18:30,670
+Saya belajar di kafe.
+
+384
+00:18:30,694 --> 00:18:33,927
+Partikel apa yang harus dimasukkan ke dalam kurung?
+
+385
+00:18:33,950 --> 00:18:38,232
+Karena tempat, jadi 'de' ya?
+
+386
+00:18:38,256 --> 00:18:40,505
+Benar!
+
+387
+00:18:40,528 --> 00:18:42,995
+Bagus sekali!
+
+388
+00:18:43,018 --> 00:18:46,385
+Syukurlah, lega rasanya.
+
+389
+00:18:46,408 --> 00:18:50,490
+Sekarang giliran saya yang memberi soal.
+
+390
+00:18:50,513 --> 00:18:52,680
+Ya, silakan.
+
+391
+00:18:52,703 --> 00:18:57,073
+Besok saya bangun jam 8.
+
+392
+00:18:57,096 --> 00:19:01,764
+Partikel apa yang harus dimasukkan ke dalam kurung?
+
+393
+00:19:01,788 --> 00:19:06,054
+Karena setelah waktu, jadi 'ni' ya?
+
+394
+00:19:06,077 --> 00:19:08,052
+Jawaban tepat!
+
+395
+00:19:08,075 --> 00:19:10,142
+Pantas saja.
+
+396
+00:19:10,165 --> 00:19:14,062
+Huff, sedikit lelah ya.
+
+397
+00:19:14,085 --> 00:19:17,852
+Saya juga sedikit pusing.
+
+398
+00:19:17,875 --> 00:19:21,242
+Kita sudah belajar sekitar satu jam lho.
+
+399
+00:19:21,265 --> 00:19:24,398
+Mari kita istirahat sebentar.
+
+400
+00:19:24,421 --> 00:19:28,310
+Iya, aku ingin makan sesuatu yang manis.
+
+401
+00:19:28,333 --> 00:19:32,066
+Di sana ada kue di dalam kotak kaca.
+
+402
+00:19:32,089 --> 00:19:35,823
+Kue stroberi itu kelihatannya enak ya.
+
+403
+00:19:35,846 --> 00:19:38,612
+Ada juga kue cokelat lho.
+
+404
+00:19:38,635 --> 00:19:41,845
+Aku pilih kue stroberinya.
+
+405
+00:19:41,869 --> 00:19:45,766
+Kalau aku, pilih kue cokelat deh.
+
+406
+00:19:45,789 --> 00:19:48,723
+Mau aku panggilkan pelayannya?
+
+407
+00:19:48,747 --> 00:19:51,429
+Iya, panggil aja.
+
+408
+00:19:51,452 --> 00:19:52,952
+Scene 10: Persiapan Siang dan Pembagian Tugas
+
+409
+00:19:52,952 --> 00:19:58,185
+Sebentar lagi jam 11.45 ya.
+
+410
+00:19:58,208 --> 00:20:01,296
+Sudah waktunya makan siang nih.
+
+411
+00:20:01,320 --> 00:20:04,322
+Baik, Kak.
+
+412
+00:20:04,345 --> 00:20:07,678
+Sebentar lagi restoran pasti ramai.
+
+413
+00:20:07,701 --> 00:20:11,068
+Ayo kita konfirmasi tugas masing-masing.
+
+414
+00:20:11,091 --> 00:20:15,091
+Kamu hari ini bertugas di kasir.
+
+415
+00:20:15,114 --> 00:20:17,247
+Baik.
+
+416
+00:20:17,270 --> 00:20:20,948
+Aku akan menerima pesanan di kasir.
+
+417
+00:20:20,971 --> 00:20:25,619
+Aku yang menangani dapur dan minuman.
+
+418
+00:20:25,642 --> 00:20:29,076
+Aku akan membuat sandwich dan kopi.
+
+419
+00:20:29,099 --> 00:20:30,865
+Sudah.
+
+420
+00:20:30,888 --> 00:20:33,890
+Sudah siap semua?
+
+421
+00:20:33,914 --> 00:20:37,281
+Sendok dan garpu sudah ada?
+
+422
+00:20:37,304 --> 00:20:41,312
+Cek dekat kasir ya.
+
+423
+00:20:41,336 --> 00:20:45,336
+Wah, sendoknya kurang nih.
+
+424
+00:20:45,359 --> 00:20:48,492
+Aku segera isi ulang.
+
+425
+00:20:48,515 --> 00:20:50,392
+Tolong.
+
+426
+00:20:50,416 --> 00:20:54,883
+Tas takeaway dan gelasnya juga dicek ya.
+
+427
+00:20:54,906 --> 00:20:56,514
+Sudah.
+
+428
+00:20:56,537 --> 00:21:00,004
+Tas dan gelasnya banyak kok.
+
+429
+00:21:00,027 --> 00:21:03,270
+Syukurlah.
+
+430
+00:21:03,294 --> 00:21:06,827
+Jangan lupa sedotannya juga.
+
+431
+00:21:06,850 --> 00:21:08,223
+Baik.
+
+432
+00:21:08,247 --> 00:21:10,899
+Sedotannya sudah disiapkan.
+
+433
+00:21:10,922 --> 00:21:15,255
+Sekarang latihan menyapa yuk.
+
+434
+00:21:15,278 --> 00:21:18,812
+Bisa menyapa dengan suara keras?
+
+435
+00:21:18,835 --> 00:21:21,635
+Bisa, Kak.
+
+436
+00:21:21,658 --> 00:21:23,671
+Selamat datang.
+
+437
+00:21:23,694 --> 00:21:26,627
+Suaranya bagus sekali.
+
+438
+00:21:26,650 --> 00:21:29,983
+Senyumnya juga sangat manis.
+
+439
+00:21:30,006 --> 00:21:31,904
+Terima kasih.
+
+440
+00:21:31,928 --> 00:21:34,967
+Hari ini aku akan berusaha semaksimal mungkin.
+
+441
+00:21:34,991 --> 00:21:39,057
+Iya, kita semangat bersama ya.
+
+442
+00:21:39,080 --> 00:21:42,280
+Pelanggan sudah datang nih.
+
+443
+00:21:42,303 --> 00:21:45,870
+Baik, selamat datang.
+
+444
+00:21:45,893 --> 00:21:47,393
+Scene 11: Pemesanan dan Pengecekan Alergi
+
+445
+00:21:47,393 --> 00:21:49,393
+Selamat datang.
+
+446
+00:21:49,416 --> 00:21:52,383
+Mau makan di sini?
+
+447
+00:21:52,406 --> 00:21:56,006
+Iya, saya makan di sini.
+
+448
+00:21:56,028 --> 00:21:57,662
+Terima kasih.
+
+449
+00:21:57,685 --> 00:22:00,851
+Apakah Anda sudah memutuskan pesanan?
+
+450
+00:22:00,874 --> 00:22:04,916
+Saya pesan set sandwich spesial hari ini.
+
+451
+00:22:04,940 --> 00:22:08,189
+Set sandwich spesial hari ini ya.
+
+452
+00:22:08,212 --> 00:22:12,748
+Sandwich hari ini adalah ayam dan sayuran.
+
+453
+00:22:12,771 --> 00:22:14,938
+Kelihatannya enak ya.
+
+454
+00:22:14,962 --> 00:22:17,260
+Saya pesan itu.
+
+455
+00:22:17,283 --> 00:22:22,083
+Apakah Bapak/Ibu punya alergi makanan?
+
+456
+00:22:22,106 --> 00:22:27,040
+Iya, saya alergi telur.
+
+457
+00:22:27,063 --> 00:22:29,496
+Baik.
+
+458
+00:22:29,519 --> 00:22:34,286
+Di sandwichnya ada mayones.
+
+459
+00:22:34,309 --> 00:22:38,309
+Mayones mengandung telur.
+
+460
+00:22:38,332 --> 00:22:40,415
+Oh begitu ya.
+
+461
+00:22:40,438 --> 00:22:44,012
+Bisa tanpa mayones?
+
+462
+00:22:44,035 --> 00:22:48,475
+Baik, saya akan membuatnya tanpa mayones.
+
+463
+00:22:48,498 --> 00:22:50,098
+Terima kasih.
+
+464
+00:22:50,121 --> 00:22:52,140
+Sangat membantu, terima kasih.
+
+465
+00:22:52,164 --> 00:22:55,964
+Minuman untuk set ini mau yang mana?
+
+466
+00:22:55,987 --> 00:22:58,387
+Ada apa saja?
+
+467
+00:22:58,410 --> 00:23:03,610
+Ada kopi, teh, dan jus jeruk.
+
+468
+00:23:03,633 --> 00:23:06,718
+Saya minta teh hangat, ya.
+
+469
+00:23:06,741 --> 00:23:09,708
+Teh hangat, ya.
+
+470
+00:23:09,731 --> 00:23:12,740
+Totalnya 1000 yen.
+
+471
+00:23:12,764 --> 00:23:15,297
+Saya bayar dengan uang tunai.
+
+472
+00:23:15,320 --> 00:23:18,654
+Terima kasih, pas 1000 yen.
+
+473
+00:23:18,676 --> 00:23:22,010
+Silakan simpan nomor ini.
+
+474
+00:23:22,033 --> 00:23:24,099
+Baik.
+
+475
+00:23:24,122 --> 00:23:28,165
+Setelah selesai, akan saya antarkan ke tempat duduk Anda.
+
+476
+00:23:28,189 --> 00:23:30,989
+Silakan tunggu di tempat duduk yang kosong.
+
+477
+00:23:31,012 --> 00:23:33,645
+Terima kasih.
+
+478
+00:23:33,668 --> 00:23:35,168
+Scene 12: Pembayaran di Kasir / Metode Pembayaran
+
+479
+00:23:35,168 --> 00:23:36,935
+Selamat datang.
+
+480
+00:23:36,958 --> 00:23:39,026
+Mau bayar, ya?
+
+481
+00:23:39,050 --> 00:23:41,823
+Iya, tolong.
+
+482
+00:23:41,846 --> 00:23:44,700
+Lunch set menu hari ini, ya?
+
+483
+00:23:44,723 --> 00:23:48,323
+Totalnya 980 yen.
+
+484
+00:23:48,346 --> 00:23:49,961
+Baik.
+
+485
+00:23:49,985 --> 00:23:52,218
+Saya bayar dengan uang tunai.
+
+486
+00:23:52,241 --> 00:23:54,419
+Oh, maaf.
+
+487
+00:23:54,443 --> 00:23:56,693
+Uang receh saya kurang.
+
+488
+00:23:56,716 --> 00:23:59,083
+Saya juga tidak punya uang kertas 1000 yen.
+
+489
+00:23:59,106 --> 00:24:01,472
+Tidak apa-apa.
+
+490
+00:24:01,495 --> 00:24:05,162
+Bisa pakai e-money atau kartu.
+
+491
+00:24:05,185 --> 00:24:07,072
+Syukurlah.
+
+492
+00:24:07,095 --> 00:24:09,174
+Saya bayar pakai ponsel.
+
+493
+00:24:09,198 --> 00:24:11,772
+Tolong scan barcode ini.
+
+494
+00:24:11,795 --> 00:24:15,494
+Baik, saya akan scan.
+
+495
+00:24:15,517 --> 00:24:18,852
+Eh, kok layarnya tidak berubah?
+
+496
+00:24:18,875 --> 00:24:21,409
+Hah, benarkah?
+
+497
+00:24:21,432 --> 00:24:24,699
+Sinyal ponselnya lemah.
+
+498
+00:24:24,723 --> 00:24:27,092
+Aplikasi tidak bisa berjalan.
+
+499
+00:24:27,115 --> 00:24:30,449
+Di sini ada Wi-Fi gratis, lho.
+
+500
+00:24:30,472 --> 00:24:33,705
+Gunakan password ini.
+
+501
+00:24:33,728 --> 00:24:35,304
+Terima kasih.
+
+502
+00:24:35,327 --> 00:24:39,728
+Tapi kayaknya butuh waktu lama, ya.
+
+503
+00:24:39,751 --> 00:24:42,485
+Di belakang ada pelanggan lain.
+
+504
+00:24:42,508 --> 00:24:45,324
+Apakah Anda punya kartu kredit?
+
+505
+00:24:45,348 --> 00:24:48,348
+Iya, saya punya kartu.
+
+506
+00:24:48,371 --> 00:24:51,504
+Bisa bayar pakai kartu juga, kok.
+
+507
+00:24:51,527 --> 00:24:54,370
+Kalau begitu, saya bayar pakai kartu saja.
+
+508
+00:24:54,394 --> 00:24:57,794
+Silakan tap kartunya di sini.
+
+509
+00:24:57,817 --> 00:24:59,583
+Sudah saya tap.
+
+510
+00:24:59,606 --> 00:25:02,142
+Pembayaran sudah selesai.
+
+511
+00:25:02,166 --> 00:25:04,966
+Silakan ambil struknya.
+
+512
+00:25:04,989 --> 00:25:06,766
+Terima kasih banyak, Anda sangat membantu.
+
+513
+00:25:06,789 --> 00:25:08,589
+Terima kasih.
+
+514
+00:25:08,612 --> 00:25:12,146
+Sama-sama, silakan datang lagi.
+
+515
+00:25:12,169 --> 00:25:13,669
+Scene 13: Cara Merencanakan Perjalanan / Merencanakan Liburan
+
+516
+00:25:13,669 --> 00:25:18,035
+Sandwich ini enak sekali, ya!
+
+517
+00:25:18,058 --> 00:25:23,525
+Iya, sandwich telur saya juga enak, lho.
+
+518
+00:25:23,548 --> 00:25:28,081
+Hari ini kita bahas rencana liburan bulan depan, yuk.
+
+519
+00:25:28,104 --> 00:25:32,562
+Baik, ayo rencanakan liburan ke Kyoto.
+
+520
+00:25:32,585 --> 00:25:34,681
+Kapan kita berangkat?
+
+521
+00:25:34,705 --> 00:25:37,913
+Tanggal 10 bulan depan bagaimana?
+
+522
+00:25:37,937 --> 00:25:41,870
+Ayo berangkat dari Jumat sampai Minggu.
+
+523
+00:25:41,893 --> 00:25:43,726
+Bagus sekali.
+
+524
+00:25:43,749 --> 00:25:46,482
+Jadi 2 malam 3 hari, ya.
+
+525
+00:25:46,505 --> 00:25:49,305
+Kita naik shinkansen saja, yuk.
+
+526
+00:25:49,328 --> 00:25:53,695
+Kapan kita beli tiket Shinkansen?
+
+527
+00:25:53,718 --> 00:25:57,318
+Saya akan pesan lewat internet minggu depan.
+
+528
+00:25:57,341 --> 00:25:59,308
+Baik.
+
+529
+00:25:59,331 --> 00:26:02,897
+Shinkansen pagi-pagi enak ya.
+
+530
+00:26:02,920 --> 00:26:07,720
+Iya, ayo naik Shinkansen pukul 8 pagi.
+
+531
+00:26:07,743 --> 00:26:11,577
+Setelah sampai di Kyoto, mau ke mana?
+
+532
+00:26:11,600 --> 00:26:15,215
+Saya ingin mengunjungi kuil terkenal.
+
+533
+00:26:15,238 --> 00:26:18,053
+Ayo ke Kiyomizu-dera.
+
+534
+00:26:18,077 --> 00:26:21,966
+Kiyomizu-dera sangat indah.
+
+535
+00:26:21,989 --> 00:26:26,645
+Saya juga ingin melihat kuil tua.
+
+536
+00:26:26,669 --> 00:26:30,149
+Kalau begitu, ayo ke Fushimi Inari Taisha juga.
+
+537
+00:26:30,172 --> 00:26:31,774
+Bagus sekali.
+
+538
+00:26:31,798 --> 00:26:35,610
+Saya juga ingin mampir ke kafe enak di Kyoto.
+
+539
+00:26:35,633 --> 00:26:39,000
+Ayo makan es krim matcha.
+
+540
+00:26:39,023 --> 00:26:41,081
+Seru ya!
+
+541
+00:26:41,104 --> 00:26:44,271
+Hotelnya mau di mana?
+
+542
+00:26:44,294 --> 00:26:47,900
+Hotel dekat Stasiun Kyoto lebih praktis.
+
+543
+00:26:47,924 --> 00:26:50,621
+Berapa budgetnya?
+
+544
+00:26:50,644 --> 00:26:53,977
+Sekitar 50 ribu yen per orang.
+
+545
+00:26:54,000 --> 00:26:55,972
+Baik.
+
+546
+00:26:55,996 --> 00:27:00,207
+30 ribu yen untuk Shinkansen dan hotel ya.
+
+547
+00:27:00,230 --> 00:27:03,463
+20 ribu yen untuk makan dan belanja.
+
+548
+00:27:03,486 --> 00:27:05,737
+Pas banget ya.
+
+549
+00:27:05,761 --> 00:27:10,094
+Malam ini saya akan pesan hotelnya.
+
+550
+00:27:10,117 --> 00:27:11,684
+Terima kasih.
+
+551
+00:27:11,707 --> 00:27:13,907
+Mohon bantuannya.
+
+552
+00:27:13,930 --> 00:27:15,465
+Sudah.
+
+553
+00:27:15,488 --> 00:27:18,340
+Ayo buat liburan ini menyenangkan!
+
+554
+00:27:18,363 --> 00:27:19,863
+Scene 14: Puncak Keramaian Siang dan Penutupan Kasir
+
+555
+00:27:19,863 --> 00:27:22,333
+Terima kasih atas kerja kerasnya.
+
+556
+00:27:22,357 --> 00:27:26,047
+Puncak keramaian siang sudah selesai ya.
+
+557
+00:27:26,070 --> 00:27:28,313
+Terima kasih atas kerja kerasnya.
+
+558
+00:27:28,336 --> 00:27:32,170
+Hari ini sangat sibuk sekali.
+
+559
+00:27:32,193 --> 00:27:33,999
+Sudah.
+
+560
+00:27:34,022 --> 00:27:38,115
+Banyak sekali pelanggan yang datang.
+
+561
+00:27:38,139 --> 00:27:41,539
+Sandwichnya laku banyak.
+
+562
+00:27:41,562 --> 00:27:44,702
+Jusnya juga terjual banyak.
+
+563
+00:27:44,725 --> 00:27:48,691
+Sekarang, mari kita lakukan penutupan kasir sementara.
+
+564
+00:27:48,714 --> 00:27:51,581
+Tolong hitung uangnya.
+
+565
+00:27:51,604 --> 00:27:53,776
+Baik.
+
+566
+00:27:53,799 --> 00:27:56,999
+Saya akan menghitung uang di kasir.
+
+567
+00:27:57,022 --> 00:28:00,422
+Berapa lembar uang seribu yen?
+
+568
+00:28:00,445 --> 00:28:04,312
+Ada dua puluh lembar uang seribu yen.
+
+569
+00:28:04,335 --> 00:28:07,501
+Bagaimana dengan koin lima ratus yen?
+
+570
+00:28:07,524 --> 00:28:11,262
+Ada sepuluh koin lima ratus yen.
+
+571
+00:28:11,285 --> 00:28:15,324
+Mari kita cek total jumlah uangnya.
+
+572
+00:28:15,348 --> 00:28:18,630
+Apakah sama dengan angka di komputer?
+
+573
+00:28:18,653 --> 00:28:20,520
+Sudah.
+
+574
+00:28:20,543 --> 00:28:23,310
+Jumlahnya sama.
+
+575
+00:28:23,333 --> 00:28:26,300
+Syukurlah.
+
+576
+00:28:26,323 --> 00:28:29,256
+Penutupan kasir sudah selesai ya.
+
+577
+00:28:29,279 --> 00:28:31,412
+Leganya.
+
+578
+00:28:31,435 --> 00:28:34,002
+Sekarang istirahat?
+
+579
+00:28:34,025 --> 00:28:35,663
+Sudah.
+
+580
+00:28:35,687 --> 00:28:39,220
+Mari kita istirahat bergantian selama lima belas menit.
+
+581
+00:28:39,243 --> 00:28:43,416
+Kamu duluan saja yang istirahat.
+
+582
+00:28:43,439 --> 00:28:45,092
+Terima kasih.
+
+583
+00:28:45,116 --> 00:28:47,974
+Boleh minum?
+
+584
+00:28:47,997 --> 00:28:49,637
+Iya.
+
+585
+00:28:49,661 --> 00:28:53,027
+Silakan buat minuman kesukaanmu.
+
+586
+00:28:53,050 --> 00:28:56,184
+Saya mau teh dingin.
+
+587
+00:28:56,207 --> 00:29:00,007
+Saya tambahkan sedikit gula.
+
+588
+00:29:00,030 --> 00:29:03,363
+Silakan istirahat dengan santai di ruang istirahat.
+
+589
+00:29:03,386 --> 00:29:07,243
+Tolong kembali lagi setelah 15 menit, ya.
+
+590
+00:29:07,267 --> 00:29:08,883
+Sudah.
+
+591
+00:29:08,906 --> 00:29:11,740
+Kalau sudah kembali, kita ganti shift.
+
+592
+00:29:11,763 --> 00:29:13,996
+Mohon bantuannya.
+
+593
+00:29:14,019 --> 00:29:16,619
+Ayo semangat terus di sore hari!
+
+594
+00:29:16,642 --> 00:29:18,142
+Scene 15: Cara Memesan di Kafe
+
+595
+00:29:18,142 --> 00:29:20,011
+Selamat datang.
+
+596
+00:29:20,035 --> 00:29:22,803
+Silakan duduk di tempat yang Anda suka.
+
+597
+00:29:22,826 --> 00:29:24,710
+Terima kasih.
+
+598
+00:29:24,734 --> 00:29:27,067
+Saya duduk di sini.
+
+599
+00:29:27,091 --> 00:29:31,105
+Jika sudah memutuskan, silakan panggil kami.
+
+600
+00:29:31,128 --> 00:29:32,766
+Maaf.
+
+601
+00:29:32,789 --> 00:29:35,237
+Saya mau pesan.
+
+602
+00:29:35,261 --> 00:29:36,994
+Sudah.
+
+603
+00:29:37,017 --> 00:29:39,631
+Apa yang bisa saya bantu untuk pesanan Anda?
+
+604
+00:29:39,655 --> 00:29:43,188
+Saya ingin makan sesuatu yang manis.
+
+605
+00:29:43,211 --> 00:29:46,145
+Ada rekomendasi kue?
+
+606
+00:29:46,168 --> 00:29:49,846
+Kue edisi musim gugur sangat direkomendasikan, lho.
+
+607
+00:29:49,869 --> 00:29:52,515
+Kue kastanya sedang populer.
+
+608
+00:29:52,539 --> 00:29:54,984
+Kue kastanya?
+
+609
+00:29:55,007 --> 00:29:57,174
+Kelihatannya enak ya.
+
+610
+00:29:57,197 --> 00:30:00,472
+Parfait matcha juga sedang populer, lho.
+
+611
+00:30:00,495 --> 00:30:03,429
+Keduanya terlihat enak ya.
+
+612
+00:30:03,452 --> 00:30:05,261
+Bingung nih.
+
+613
+00:30:05,284 --> 00:30:09,183
+Kue kastanya nggak terlalu manis, kok.
+
+614
+00:30:09,206 --> 00:30:11,539
+Cocok banget sama kopi.
+
+615
+00:30:11,562 --> 00:30:13,529
+Oh begitu ya.
+
+616
+00:30:13,552 --> 00:30:16,752
+Baiklah, saya pesan kue kastanya.
+
+617
+00:30:16,775 --> 00:30:18,392
+Terima kasih.
+
+618
+00:30:18,416 --> 00:30:21,049
+Mau pesan minuman apa?
+
+619
+00:30:21,072 --> 00:30:23,907
+Saya minta kopi hangat.
+
+620
+00:30:23,930 --> 00:30:27,788
+Paket kue dan kopi lebih hemat, lho.
+
+621
+00:30:27,812 --> 00:30:30,661
+Bisa lebih murah 50 yen.
+
+622
+00:30:30,685 --> 00:30:33,251
+Itu bagus sekali.
+
+623
+00:30:33,274 --> 00:30:35,453
+Saya pesan paketnya saja.
+
+624
+00:30:35,477 --> 00:30:37,610
+Baiklah.
+
+625
+00:30:37,633 --> 00:30:41,766
+Jadi, kue kastanya dan kopi hangat, ya?
+
+626
+00:30:41,789 --> 00:30:43,437
+Sudah.
+
+627
+00:30:43,461 --> 00:30:45,461
+Mohon bantuannya.
+
+628
+00:30:45,484 --> 00:30:47,817
+Mohon tunggu sebentar.
+
+629
+00:30:47,840 --> 00:30:51,007
+Nanti akan kami antarkan ke meja Anda.
+
+630
+00:30:51,030 --> 00:30:52,630
+Baik.
+
+631
+00:30:52,653 --> 00:30:55,224
+Saya tunggu dengan tidak sabar.
+
+632
+00:30:55,247 --> 00:30:56,747
+Scene 16: Cara Membuat Latte Baru
+
+633
+00:30:56,747 --> 00:31:00,222
+Sekarang sepi ya.
+
+634
+00:31:00,245 --> 00:31:04,212
+Ayo latihan menu baru.
+
+635
+00:31:04,235 --> 00:31:06,368
+Iya, tolong.
+
+636
+00:31:06,391 --> 00:31:11,125
+Mulai bulan depan, ada latte baru, nih.
+
+637
+00:31:11,148 --> 00:31:14,714
+Latte matcha dan latte karamel.
+
+638
+00:31:14,737 --> 00:31:17,771
+Keduanya kelihatannya enak ya.
+
+639
+00:31:17,794 --> 00:31:20,927
+Apakah cara membuatnya sulit?
+
+640
+00:31:20,950 --> 00:31:23,750
+Nggak sulit, kok.
+
+641
+00:31:23,773 --> 00:31:27,773
+Pertama, kita buat latte karamel dulu.
+
+642
+00:31:27,796 --> 00:31:31,929
+Siap, saya siapkan cangkirnya.
+
+643
+00:31:31,952 --> 00:31:36,204
+Masukkan sirup karamel sebanyak 15 gram.
+
+644
+00:31:36,227 --> 00:31:39,044
+Tolong ukur dengan sendok ya.
+
+645
+00:31:39,068 --> 00:31:41,868
+15 gram, ya?
+
+646
+00:31:41,891 --> 00:31:44,425
+Sudah saya masukkan sirupnya.
+
+647
+00:31:44,448 --> 00:31:48,814
+Selanjutnya, masukkan espresso.
+
+648
+00:31:48,837 --> 00:31:51,471
+Tekan tombolnya sekali.
+
+649
+00:31:51,494 --> 00:31:54,761
+Espresso dimasukkan.
+
+650
+00:31:54,784 --> 00:31:57,718
+Wangi sekali ya.
+
+651
+00:31:57,741 --> 00:32:01,478
+Setelah itu, panaskan susunya.
+
+652
+00:32:01,501 --> 00:32:05,747
+Kukus hingga berbusa halus.
+
+653
+00:32:05,771 --> 00:32:08,811
+Suhu susunya berapa?
+
+654
+00:32:08,834 --> 00:32:12,319
+65 derajat itu yang terbaik.
+
+655
+00:32:12,343 --> 00:32:15,810
+Kalau terlalu panas, jadi nggak enak.
+
+656
+00:32:15,833 --> 00:32:17,966
+Baik.
+
+657
+00:32:17,989 --> 00:32:21,088
+Sudah dipanaskan hingga 65 derajat.
+
+658
+00:32:21,111 --> 00:32:24,547
+Tuangkan susu secara perlahan.
+
+659
+00:32:24,571 --> 00:32:28,804
+Siram saus karamel di bagian paling atas.
+
+660
+00:32:28,827 --> 00:32:30,594
+Selesai.
+
+661
+00:32:30,617 --> 00:32:32,954
+Terlihat cantik, ya!
+
+662
+00:32:32,977 --> 00:32:35,344
+Bagaimana rasanya?
+
+663
+00:32:35,367 --> 00:32:38,767
+Manis sekali dan sangat enak!
+
+664
+00:32:38,790 --> 00:32:42,057
+Selanjutnya, kita akan membuat matcha latte.
+
+665
+00:32:42,080 --> 00:32:46,713
+Larutkan bubuk matcha dengan air panas hingga merata, ya.
+
+666
+00:32:46,736 --> 00:32:48,269
+Sudah.
+
+667
+00:32:48,292 --> 00:32:50,959
+Aduk hingga benar-benar halus.
+
+668
+00:32:50,982 --> 00:32:52,482
+Scene 17: Cara Mencari Barang yang Hilang
+
+669
+00:32:52,482 --> 00:32:54,415
+Selamat datang.
+
+670
+00:32:54,438 --> 00:32:56,405
+Halo.
+
+671
+00:32:56,428 --> 00:32:58,280
+Maaf.
+
+672
+00:32:58,303 --> 00:33:01,313
+Saya sedang mencari barang yang tertinggal.
+
+673
+00:33:01,337 --> 00:33:04,142
+Barang yang tertinggal, ya?
+
+674
+00:33:04,165 --> 00:33:08,165
+Apakah Anda datang ke sini hari ini?
+
+675
+00:33:08,188 --> 00:33:09,963
+Sudah.
+
+676
+00:33:09,987 --> 00:33:14,120
+Saya datang sekitar pukul 12.30 tadi.
+
+677
+00:33:14,143 --> 00:33:16,149
+Baik.
+
+678
+00:33:16,173 --> 00:33:19,506
+Anda duduk di kursi yang mana?
+
+679
+00:33:19,529 --> 00:33:23,605
+Di kursi dekat jendela bagian dalam.
+
+680
+00:33:23,628 --> 00:33:27,228
+Saya meninggalkan barang di atas meja.
+
+681
+00:33:27,251 --> 00:33:31,384
+Apa yang Anda lupakan?
+
+682
+00:33:31,407 --> 00:33:36,262
+Payung lipat hitam dan tas kecil.
+
+683
+00:33:36,286 --> 00:33:39,087
+Bisa dijelaskan lebih detail?
+
+684
+00:33:39,110 --> 00:33:42,577
+Payungnya seperti apa?
+
+685
+00:33:42,600 --> 00:33:46,733
+Payung lipat kecil berwarna hitam.
+
+686
+00:33:46,756 --> 00:33:50,495
+Ada stiker biru di bagian gagangnya.
+
+687
+00:33:50,518 --> 00:33:54,252
+Tasnya seperti apa?
+
+688
+00:33:54,275 --> 00:33:57,935
+Tas kulit berwarna cokelat.
+
+689
+00:33:57,958 --> 00:34:00,451
+Ada dua saku di bagian luarnya.
+
+690
+00:34:00,474 --> 00:34:02,722
+Baik.
+
+691
+00:34:02,746 --> 00:34:06,583
+Saya akan memeriksa tempat penyimpanan di bagian dalam.
+
+692
+00:34:06,606 --> 00:34:09,039
+Mohon tunggu sebentar.
+
+693
+00:34:09,062 --> 00:34:10,747
+Sudah.
+
+694
+00:34:10,770 --> 00:34:13,041
+Mohon bantuannya.
+
+695
+00:34:13,065 --> 00:34:15,498
+Mohon tunggu sebentar.
+
+696
+00:34:15,521 --> 00:34:17,795
+Inikah barangnya?
+
+697
+00:34:17,818 --> 00:34:19,955
+Ya, betul.
+
+698
+00:34:19,979 --> 00:34:22,983
+Ini payung dan tas saya!
+
+699
+00:34:23,006 --> 00:34:25,740
+Terima kasih banyak.
+
+700
+00:34:25,763 --> 00:34:28,129
+Syukurlah.
+
+701
+00:34:28,152 --> 00:34:32,219
+Untuk konfirmasi, boleh minta nama Anda?
+
+702
+00:34:32,242 --> 00:34:34,861
+Tanaka.
+
+703
+00:34:34,885 --> 00:34:37,218
+Tanaka Kenta.
+
+704
+00:34:37,241 --> 00:34:39,808
+Bapak/Ibu Tanaka, ya?
+
+705
+00:34:39,831 --> 00:34:43,398
+Tolong tulis nama Anda di kertas ini.
+
+706
+00:34:43,421 --> 00:34:45,354
+Sudah.
+
+707
+00:34:45,377 --> 00:34:47,235
+Sudah saya tulis.
+
+708
+00:34:47,259 --> 00:34:48,937
+Terima kasih.
+
+709
+00:34:48,961 --> 00:34:51,894
+Barang Anda kami kembalikan.
+
+710
+00:34:51,917 --> 00:34:54,093
+Terima kasih banyak, Anda sangat membantu.
+
+711
+00:34:54,117 --> 00:34:57,090
+Terima kasih banyak.
+
+712
+00:34:57,114 --> 00:35:01,651
+Sama-sama, kami tunggu kedatangan Anda kembali.
+
+713
+00:35:01,675 --> 00:35:03,175
+Scene 18: Permohonan Izin karena Ujian Penting
+
+714
+00:35:03,175 --> 00:35:05,655
+Selamat bekerja.
+
+715
+00:35:05,679 --> 00:35:09,279
+Sekarang ada waktu sebentar?
+
+716
+00:35:09,302 --> 00:35:11,868
+Selamat bekerja.
+
+717
+00:35:11,891 --> 00:35:14,925
+Ya, tidak masalah.
+
+718
+00:35:14,947 --> 00:35:18,200
+Sebenarnya, saya ingin membicarakan sesuatu.
+
+719
+00:35:18,224 --> 00:35:21,990
+Tentang hari Sabtu minggu depan.
+
+720
+00:35:22,013 --> 00:35:25,147
+Sabtu minggu depan, ya?
+
+721
+00:35:25,170 --> 00:35:27,446
+Ada apa?
+
+722
+00:35:27,469 --> 00:35:31,802
+Akan ada ujian minggu depan pada hari Sabtu.
+
+723
+00:35:31,825 --> 00:35:35,281
+Ini ujian penting di universitas.
+
+724
+00:35:35,305 --> 00:35:37,485
+Oh begitu ya.
+
+725
+00:35:37,508 --> 00:35:40,041
+Ujian memang melelahkan ya.
+
+726
+00:35:40,064 --> 00:35:41,998
+Sudah.
+
+727
+00:35:42,021 --> 00:35:46,319
+Karena itu, saya ingin cuti kerja.
+
+728
+00:35:46,342 --> 00:35:48,217
+Baik.
+
+729
+00:35:48,241 --> 00:35:51,974
+Saya ada waktu di hari Sabtu.
+
+730
+00:35:51,997 --> 00:35:54,164
+Benarkah?
+
+731
+00:35:54,187 --> 00:35:58,477
+Bisa ganti shift saya nggak?
+
+732
+00:35:58,500 --> 00:36:01,700
+Bisa, tentu saja.
+
+733
+00:36:01,723 --> 00:36:04,132
+Saya akan kerja di hari Sabtu.
+
+734
+00:36:04,156 --> 00:36:07,043
+Terima kasih banyak.
+
+735
+00:36:07,067 --> 00:36:09,400
+Sangat membantu sekali.
+
+736
+00:36:09,423 --> 00:36:13,482
+Sama-sama.
+
+737
+00:36:13,505 --> 00:36:16,605
+Semangat belajar untuk ujiannya ya!
+
+738
+00:36:16,628 --> 00:36:19,638
+Ya, akan saya usahakan.
+
+739
+00:36:19,662 --> 00:36:24,596
+Sebagai gantinya, saya akan kerja di hari Minggu.
+
+740
+00:36:24,619 --> 00:36:27,285
+Hari Minggu?
+
+741
+00:36:27,308 --> 00:36:31,075
+Saya yang jaga shift hari Minggu ya.
+
+742
+00:36:31,098 --> 00:36:32,751
+Sudah.
+
+743
+00:36:32,775 --> 00:36:37,741
+Di hari Minggu, saya yang akan gantiin kamu.
+
+744
+00:36:37,764 --> 00:36:39,531
+Terima kasih.
+
+745
+00:36:39,554 --> 00:36:42,887
+Kalau begitu, tolong di hari Minggu ya.
+
+746
+00:36:42,910 --> 00:36:46,444
+Baik, mengerti.
+
+747
+00:36:46,467 --> 00:36:49,435
+Nanti saya bicara ke manajer juga.
+
+748
+00:36:49,458 --> 00:36:52,335
+Baik, terima kasih banyak.
+
+749
+00:36:52,358 --> 00:36:55,158
+Selalu terima kasih atas bantuannya.
+
+750
+00:36:55,181 --> 00:36:59,582
+Nanti saya traktir jus enak deh.
+
+751
+00:36:59,605 --> 00:37:01,539
+Hehe, terima kasih ya.
+
+752
+00:37:01,562 --> 00:37:04,832
+Yuk, istirahatnya selesai dulu.
+
+753
+00:37:04,855 --> 00:37:08,855
+Iya, kita kembali kerja ya.
+
+754
+00:37:08,878 --> 00:37:10,378
+Scene 19: Dasar-Dasar Pelayanan Pelanggan
+
+755
+00:37:10,378 --> 00:37:12,231
+Maaf.
+
+756
+00:37:12,254 --> 00:37:14,295
+Permisi.
+
+757
+00:37:14,319 --> 00:37:17,253
+Ya, ada yang bisa dibantu?
+
+758
+00:37:17,275 --> 00:37:22,076
+Terima kasih telah selalu menggunakan layanan kami.
+
+759
+00:37:22,100 --> 00:37:25,634
+Toko akan segera tutup pada pukul 20.00.
+
+760
+00:37:25,657 --> 00:37:29,057
+Wah, sudah jam segitu ya?
+
+761
+00:37:29,080 --> 00:37:31,113
+Baik.
+
+762
+00:37:31,136 --> 00:37:34,936
+Bolehkah saya mengambil cangkir yang kosong ini?
+
+763
+00:37:34,959 --> 00:37:37,492
+Iya, tolong.
+
+764
+00:37:37,515 --> 00:37:39,963
+Cangkir ini ya?
+
+765
+00:37:39,987 --> 00:37:41,787
+Terima kasih.
+
+766
+00:37:41,810 --> 00:37:44,410
+Saya akan mengambilnya.
+
+767
+00:37:44,433 --> 00:37:47,110
+Silakan persiapkan barang-barang Anda dengan tenang.
+
+768
+00:37:47,134 --> 00:37:51,568
+Baik, saya akan segera membereskan barang-barang.
+
+769
+00:37:51,591 --> 00:37:54,558
+Pembayaran bisa dilakukan di kasir.
+
+770
+00:37:54,581 --> 00:37:58,514
+Hari ini bisa membayar dengan tunai atau kartu kredit.
+
+771
+00:37:58,537 --> 00:38:01,196
+Saya akan membayar dengan kartu kredit.
+
+772
+00:38:01,219 --> 00:38:04,553
+Saya akan memakai jaket dulu baru ke kasir.
+
+773
+00:38:04,576 --> 00:38:06,176
+Baiklah.
+
+774
+00:38:06,199 --> 00:38:08,933
+Saya akan menunggu di kasir ya.
+
+775
+00:38:08,956 --> 00:38:10,723
+Maaf.
+
+776
+00:38:10,746 --> 00:38:12,963
+Minta tolong hitung pembayarannya.
+
+777
+00:38:12,986 --> 00:38:16,961
+Baik, kopi panas dan kue ya?
+
+778
+00:38:16,985 --> 00:38:19,918
+Totalnya 800 yen.
+
+779
+00:38:19,941 --> 00:38:21,874
+Saya bayar pakai kartu.
+
+780
+00:38:21,897 --> 00:38:24,331
+Kartu Anda akan saya proses.
+
+781
+00:38:24,354 --> 00:38:27,052
+Apakah pembayaran sekaligus?
+
+782
+00:38:27,076 --> 00:38:30,443
+Ya, sekaligus saja.
+
+783
+00:38:30,467 --> 00:38:33,345
+Ini kartu dan struk Anda.
+
+784
+00:38:33,368 --> 00:38:35,535
+Silakan diperiksa.
+
+785
+00:38:35,558 --> 00:38:37,326
+Terima kasih.
+
+786
+00:38:37,349 --> 00:38:40,205
+Kopinya sangat enak.
+
+787
+00:38:40,229 --> 00:38:41,766
+Terima kasih.
+
+788
+00:38:41,790 --> 00:38:44,757
+Saya senang Anda berkata begitu.
+
+789
+00:38:44,780 --> 00:38:48,980
+Malam ini sangat dingin, hati-hati ya.
+
+790
+00:38:49,003 --> 00:38:50,848
+Terima kasih.
+
+791
+00:38:50,871 --> 00:38:53,038
+Saya akan datang lagi.
+
+792
+00:38:53,061 --> 00:38:54,718
+Terima kasih.
+
+793
+00:38:54,742 --> 00:38:58,775
+Kami dengan tulus menantikan kedatangan Anda kembali.
+
+794
+00:38:58,798 --> 00:39:01,365
+Semoga Anda memiliki malam yang menyenangkan.
+
+795
+00:39:01,388 --> 00:39:04,032
+Semoga Anda memiliki malam yang menyenangkan.
+
+796
+00:39:04,055 --> 00:39:05,555
+Scene 20: Menutup Toko dan Menghitung Penjualan Hari Ini
+
+797
+00:39:05,555 --> 00:39:08,394
+Hari ini juga, terima kasih atas kerja kerasnya.
+
+798
+00:39:08,417 --> 00:39:11,550
+Apakah kunci pintu toko sudah dikunci?
+
+799
+00:39:11,573 --> 00:39:14,252
+Sudah, saya sudah menguncinya.
+
+800
+00:39:14,276 --> 00:39:18,409
+Papan tanda di depan juga sudah saya masukkan.
+
+801
+00:39:18,432 --> 00:39:20,286
+Terima kasih.
+
+802
+00:39:20,310 --> 00:39:24,545
+Baiklah, sekarang mari kita hitung uang di kasir.
+
+803
+00:39:24,568 --> 00:39:28,020
+Baik, saya yang akan menghitungnya.
+
+804
+00:39:28,044 --> 00:39:31,977
+Ada dua puluh lembar uang seribu rupiah.
+
+805
+00:39:32,000 --> 00:39:35,659
+Berapa lembar uang lima ribu rupiahnya?
+
+806
+00:39:35,683 --> 00:39:39,250
+Ada empat lembar uang lima ribu rupiah.
+
+807
+00:39:39,273 --> 00:39:43,075
+Uang sepuluh ribu rupiahnya ada enam lembar ya.
+
+808
+00:39:43,098 --> 00:39:45,532
+Uang recehnya juga sudah saya hitung.
+
+809
+00:39:45,555 --> 00:39:48,488
+Berapa penjualan hari ini?
+
+810
+00:39:48,511 --> 00:39:51,678
+Ya, seratus ribu rupiah.
+
+811
+00:39:51,701 --> 00:39:54,120
+Luar biasa!
+
+812
+00:39:54,143 --> 00:39:57,279
+Jumlahnya sama dengan di kasir.
+
+813
+00:39:57,302 --> 00:39:59,240
+Syukurlah.
+
+814
+00:39:59,264 --> 00:40:02,330
+Selanjutnya, kita buang sampah?
+
+815
+00:40:02,353 --> 00:40:04,410
+Iya, tolong.
+
+816
+00:40:04,434 --> 00:40:07,967
+Tolong kumpulkan kantong sampah di dapur.
+
+817
+00:40:07,990 --> 00:40:09,842
+Baik.
+
+818
+00:40:09,865 --> 00:40:13,151
+Saya akan membawanya ke tempat sampah di belakang.
+
+819
+00:40:13,174 --> 00:40:16,642
+Saya akan menulis di buku catatan.
+
+820
+00:40:16,666 --> 00:40:20,099
+Saya akan menghubungi staf untuk besok pagi.
+
+821
+00:40:20,122 --> 00:40:22,356
+Apa yang akan ditulis?
+
+822
+00:40:22,380 --> 00:40:26,350
+Saya tulis bahwa susu sudah hampir habis.
+
+823
+00:40:26,374 --> 00:40:32,007
+Sampaikan agar besok pagi dibelikan susu baru.
+
+824
+00:40:32,030 --> 00:40:34,597
+Itu penting sekali.
+
+825
+00:40:34,620 --> 00:40:37,293
+Pembuangan sampah sudah selesai.
+
+826
+00:40:37,316 --> 00:40:40,329
+Tolong matikan lampu dan AC.
+
+827
+00:40:40,353 --> 00:40:42,753
+Sudah, saya sudah mematikannya.
+
+828
+00:40:42,776 --> 00:40:45,634
+Tidak ada barang yang tertinggal, kan?
+
+829
+00:40:45,657 --> 00:40:48,590
+Ya, tidak ada.
+
+830
+00:40:48,613 --> 00:40:50,981
+Kalau begitu, mari kita pulang.
+
+831
+00:40:51,005 --> 00:40:54,343
+Terima kasih atas kerja kerasnya hari ini juga.
+
+832
+00:40:54,366 --> 00:40:56,700
+Terima kasih atas kerja kerasnya.
+
+833
+00:40:56,723 --> 00:40:59,656
+Saya permisi duluan.

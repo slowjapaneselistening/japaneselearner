@@ -1,0 +1,3331 @@
+1
+00:00:00,000 --> 00:00:10,008
+Wat is de video van vandaag? Een gesprek in een café.
+
+2
+00:00:10,008 --> 00:00:11,508
+Scène 1: Hoe bestel je in het Japans
+
+3
+00:00:11,508 --> 00:00:13,508
+Welkom.
+
+4
+00:00:13,530 --> 00:00:16,297
+Heeft u al een keuze kunnen maken?
+
+5
+00:00:16,320 --> 00:00:18,053
+Ja.
+
+6
+00:00:18,076 --> 00:00:21,249
+Ik wil graag een ijskoffie.
+
+7
+00:00:21,273 --> 00:00:24,441
+Een ijskoffie, komt voor elkaar.
+
+8
+00:00:24,464 --> 00:00:27,705
+Welke grootte had u gewild?
+
+9
+00:00:27,729 --> 00:00:32,262
+We hebben Short, Tall en Grande.
+
+10
+00:00:32,285 --> 00:00:35,052
+Een Tall, alstublieft.
+
+11
+00:00:35,075 --> 00:00:37,208
+Uiteraard.
+
+12
+00:00:37,231 --> 00:00:39,431
+Een Tall-formaat, begrepen.
+
+13
+00:00:39,454 --> 00:00:42,621
+Gaat u het hier opdrinken?
+
+14
+00:00:42,644 --> 00:00:46,577
+Nee, ik neem het mee.
+
+15
+00:00:46,600 --> 00:00:48,767
+Uiteraard.
+
+16
+00:00:48,790 --> 00:00:51,157
+Meenemen, begrepen.
+
+17
+00:00:51,180 --> 00:00:55,113
+Wilt u melk of siroop gebruiken?
+
+18
+00:00:55,136 --> 00:00:57,736
+Nee, dank u.
+
+19
+00:00:57,759 --> 00:00:59,832
+Prima, komt in orde.
+
+20
+00:00:59,855 --> 00:01:03,055
+Verder nog iets?
+
+21
+00:01:03,078 --> 00:01:06,478
+Hoe vindt u dit eten?
+
+22
+00:01:06,501 --> 00:01:08,168
+Even denken...
+
+23
+00:01:08,191 --> 00:01:11,469
+Doe mij ook maar een chocolade-scone.
+
+24
+00:01:11,493 --> 00:01:14,226
+Een chocolade-scone, komt eraan.
+
+25
+00:01:14,249 --> 00:01:16,685
+Wilt u die opwarmen?
+
+26
+00:01:16,709 --> 00:01:18,345
+Ja.
+
+27
+00:01:18,369 --> 00:01:20,502
+Ja, graag opwarmen.
+
+28
+00:01:20,525 --> 00:01:23,058
+Uiteraard.
+
+29
+00:01:23,081 --> 00:01:26,214
+Opwarmen maakt het nog lekkerder!
+
+30
+00:01:26,237 --> 00:01:28,004
+Dank u wel.
+
+31
+00:01:28,027 --> 00:01:31,160
+Dan gaan we afrekenen.
+
+32
+00:01:31,183 --> 00:01:39,037
+Een Tall ijskoffie en een chocolade-scone, dat is dan in totaal €7,50.
+
+33
+00:01:39,061 --> 00:01:42,094
+Kan ik met creditcard betalen?
+
+34
+00:01:42,117 --> 00:01:44,717
+Ja, dat kan.
+
+35
+00:01:44,740 --> 00:01:48,594
+Raak uw kaart alstublieft aan op dit apparaat.
+
+36
+00:01:48,618 --> 00:01:51,716
+Oké, aangeraakt.
+
+37
+00:01:51,740 --> 00:01:53,306
+Dank u wel.
+
+38
+00:01:53,329 --> 00:01:57,409
+De betaling is voltooid.
+
+39
+00:01:57,433 --> 00:02:01,166
+Neem alstublieft uw bonnetje en uw oproepnummer.
+
+40
+00:02:01,189 --> 00:02:02,674
+Dank u wel.
+
+41
+00:02:02,698 --> 00:02:06,510
+Uw bestelling wordt daar bij het afhaalpunt afgegeven.
+
+42
+00:02:06,533 --> 00:02:10,733
+Wacht alstublieft even tot uw nummer wordt omgeroepen.
+
+43
+00:02:10,756 --> 00:02:12,569
+Begrepen.
+
+44
+00:02:12,593 --> 00:02:14,593
+Daar, toch?
+
+45
+00:02:14,616 --> 00:02:17,950
+Ja, precies.
+
+46
+00:02:17,973 --> 00:02:22,263
+We warmen de scone op, dat duurt ongeveer 2 minuten.
+
+47
+00:02:22,286 --> 00:02:24,153
+Begrepen.
+
+48
+00:02:24,176 --> 00:02:26,610
+Sorry voor het wachten.
+
+49
+00:02:26,632 --> 00:02:29,078
+Klant nummer 15.
+
+50
+00:02:29,101 --> 00:02:32,438
+Ja, dat ben ik.
+
+51
+00:02:32,462 --> 00:02:34,477
+Sorry voor het wachten.
+
+52
+00:02:34,500 --> 00:02:40,333
+Uw Tall ijskoffie en opgewarmde chocolade-scone.
+
+53
+00:02:40,356 --> 00:02:41,890
+Dank u wel.
+
+54
+00:02:41,913 --> 00:02:43,779
+Dat ziet er lekker uit!
+
+55
+00:02:43,802 --> 00:02:48,936
+De scone is erg heet, wees voorzichtig met meenemen.
+
+56
+00:02:48,959 --> 00:02:50,825
+Begrepen.
+
+57
+00:02:50,848 --> 00:02:52,382
+Dank u wel.
+
+58
+00:02:52,405 --> 00:02:57,638
+Rietjes en servetten kunt u daar vrij pakken.
+
+59
+00:02:57,661 --> 00:02:59,636
+Begrepen.
+
+60
+00:02:59,659 --> 00:03:01,592
+Dank u wel.
+
+61
+00:03:01,615 --> 00:03:03,849
+Tot ziens en graag tot een volgende keer!
+
+62
+00:03:03,872 --> 00:03:06,121
+Dank u wel.
+
+63
+00:03:06,145 --> 00:03:15,154
+Het script van de video van vandaag kun je downloaden vanuit de beschrijving en de topcomment. Laat gerust een reactie achter voordat je downloadt.
+
+64
+00:03:15,154 --> 00:03:16,654
+Scène 2: De basis van ochtendvoorbereidingen
+
+65
+00:03:16,654 --> 00:03:21,544
+Laten we nu de ochtendvoorbereidingen doen.
+
+66
+00:03:21,568 --> 00:03:25,701
+Controleer eerst de koffiebonen.
+
+67
+00:03:25,724 --> 00:03:27,457
+Ja.
+
+68
+00:03:27,480 --> 00:03:30,247
+Deze bonen hier, toch?
+
+69
+00:03:30,270 --> 00:03:33,803
+Kijk even naar de datum op de verpakking.
+
+70
+00:03:33,826 --> 00:03:36,460
+Zijn het verse bonen?
+
+71
+00:03:36,482 --> 00:03:38,291
+Ja.
+
+72
+00:03:38,315 --> 00:03:41,283
+De bonen zijn gisteren geleverd.
+
+73
+00:03:41,306 --> 00:03:43,173
+Mooi zo.
+
+74
+00:03:43,196 --> 00:03:46,329
+Hoe ruiken de bonen?
+
+75
+00:03:46,352 --> 00:03:49,403
+Ze ruiken heerlijk.
+
+76
+00:03:49,426 --> 00:03:52,494
+De versheid is uitstekend.
+
+77
+00:03:52,518 --> 00:03:55,529
+Gelukkig maar.
+
+78
+00:03:55,552 --> 00:04:00,552
+Controleer nu de temperatuur van de koelkast.
+
+79
+00:04:00,575 --> 00:04:03,870
+De koelkast staat op 4 graden.
+
+80
+00:04:03,893 --> 00:04:07,790
+De warmhoudkast is 60 graden.
+
+81
+00:04:07,814 --> 00:04:10,512
+Beide zijn in orde, toch?
+
+82
+00:04:10,536 --> 00:04:14,469
+Laten we dan sandwiches maken.
+
+83
+00:04:14,492 --> 00:04:18,425
+Hoeveel sneetjes brood snijden we?
+
+84
+00:04:18,448 --> 00:04:21,022
+Snijd er maar 10.
+
+85
+00:04:21,046 --> 00:04:23,979
+Snijd ze wel dun, hè?
+
+86
+00:04:24,002 --> 00:04:26,136
+Begrepen.
+
+87
+00:04:26,159 --> 00:04:28,892
+Moeten we ook groenten wassen?
+
+88
+00:04:28,915 --> 00:04:30,482
+Ja.
+
+89
+00:04:30,505 --> 00:04:34,638
+Was de sla en tomaten goed.
+
+90
+00:04:34,661 --> 00:04:37,953
+Ik haal de ham en kaas er ook bij.
+
+91
+00:04:37,976 --> 00:04:39,748
+Graag gedaan.
+
+92
+00:04:39,772 --> 00:04:43,007
+We maken ook eiersalade.
+
+93
+00:04:43,030 --> 00:04:46,688
+Hoeveel gekookte eieren gebruiken we?
+
+94
+00:04:46,711 --> 00:04:49,311
+Gebruik er maar 8.
+
+95
+00:04:49,334 --> 00:04:52,821
+Prak ze maar in een kom.
+
+96
+00:04:52,844 --> 00:04:54,262
+Ja.
+
+97
+00:04:54,286 --> 00:04:56,620
+Ik maak het meteen.
+
+98
+00:04:56,643 --> 00:05:00,209
+Laten we alles voor 8 uur klaar hebben.
+
+99
+00:05:00,232 --> 00:05:01,665
+Ja.
+
+100
+00:05:01,688 --> 00:05:03,822
+Dat lukt wel.
+
+101
+00:05:03,845 --> 00:05:10,950
+De link naar de site waar je de inhoud van de video van vandaag kunt herhalen, vind je in de beschrijving en in de topcomment. Let op: de site kan zonder voorafgaande melding verwijderd worden.
+
+102
+00:05:10,950 --> 00:05:12,450
+Scène 3: Voorbereidingen voor de opening en drukke uren
+
+103
+00:05:12,450 --> 00:05:15,416
+Het is bijna 8 uur.
+
+104
+00:05:15,439 --> 00:05:18,073
+Nog 10 minuten tot openingstijd.
+
+105
+00:05:18,096 --> 00:05:22,234
+Ja, de voorbereidingen zijn bijna klaar.
+
+106
+00:05:22,257 --> 00:05:24,790
+Laten we er vandaag weer tegenaan gaan!
+
+107
+00:05:24,813 --> 00:05:29,147
+Weet je al hoe het weer vandaag wordt?
+
+108
+00:05:29,170 --> 00:05:30,903
+Ja.
+
+109
+00:05:30,926 --> 00:05:34,165
+Vanmiddag gaat het regenen.
+
+110
+00:05:34,189 --> 00:05:35,955
+Even denken...
+
+111
+00:05:35,978 --> 00:05:39,978
+Daarom verwachten we veel klanten in de ochtend.
+
+112
+00:05:40,001 --> 00:05:41,768
+Begrepen.
+
+113
+00:05:41,791 --> 00:05:45,324
+Rond welk tijdstip is het het drukst?
+
+114
+00:05:45,347 --> 00:05:49,281
+Meestal tussen 12 en 2 uur.
+
+115
+00:05:49,304 --> 00:05:53,509
+De lunchuren zijn altijd heel druk.
+
+116
+00:05:53,532 --> 00:05:54,899
+Begrepen.
+
+117
+00:05:54,922 --> 00:05:57,388
+Ik zal goed opletten.
+
+118
+00:05:57,411 --> 00:06:01,178
+Het verkoopdoel voor vandaag is 100.000 yen.
+
+119
+00:06:01,201 --> 00:06:03,734
+100.000 yen, begrepen.
+
+120
+00:06:03,757 --> 00:06:06,691
+Verkopen we vandaag ook nieuwe taarten?
+
+121
+00:06:06,714 --> 00:06:08,380
+Ja.
+
+122
+00:06:08,403 --> 00:06:12,437
+Beveel de seizoensgebonden taarten aan bij de klanten.
+
+123
+00:06:12,460 --> 00:06:14,264
+Begrepen.
+
+124
+00:06:14,288 --> 00:06:17,867
+Zeg maar: 'Dit is de aanrader van vandaag!'
+
+125
+00:06:17,890 --> 00:06:19,823
+Mooi zo.
+
+126
+00:06:19,846 --> 00:06:24,046
+Laten we vervolgens de taken verdelen.
+
+127
+00:06:24,069 --> 00:06:25,836
+Ja.
+
+128
+00:06:25,859 --> 00:06:28,826
+Wat zal ik doen?
+
+129
+00:06:28,849 --> 00:06:31,824
+Mike, jij neemt de kassa voor je rekening.
+
+130
+00:06:31,847 --> 00:06:35,580
+Je bent verantwoordelijk voor de betalingen en het opnemen van bestellingen.
+
+131
+00:06:35,603 --> 00:06:37,491
+Begrepen.
+
+132
+00:06:37,515 --> 00:06:40,781
+Ik neem de kassa voor mijn rekening.
+
+133
+00:06:40,804 --> 00:06:44,338
+Ik maak de drankjes en het eten.
+
+134
+00:06:44,361 --> 00:06:47,894
+Laten we elkaar helpen als het druk is.
+
+135
+00:06:47,917 --> 00:06:49,650
+Ja.
+
+136
+00:06:49,673 --> 00:06:51,683
+Alvast bedankt.
+
+137
+00:06:51,706 --> 00:06:55,106
+Laten we de winkel dan maar openen.
+
+138
+00:06:55,130 --> 00:06:56,696
+Ja.
+
+139
+00:06:56,719 --> 00:06:58,738
+Openen maar!
+
+140
+00:06:58,762 --> 00:07:00,262
+Scène 4: Ochtendgesprekken in een café / Ochtendgesprekken in een café
+
+141
+00:07:00,262 --> 00:07:02,595
+Goedemorgen.
+
+142
+00:07:02,618 --> 00:07:05,151
+Welkom.
+
+143
+00:07:05,174 --> 00:07:07,578
+Goedemorgen.
+
+144
+00:07:07,602 --> 00:07:10,769
+Vandaag is het weer prachtig weer, hè?
+
+145
+00:07:10,792 --> 00:07:12,725
+Ja.
+
+146
+00:07:12,748 --> 00:07:16,406
+Het is nu echt lekker warm.
+
+147
+00:07:16,430 --> 00:07:19,630
+De gebruikelijke ochtendset?
+
+148
+00:07:19,653 --> 00:07:21,386
+Ja.
+
+149
+00:07:21,409 --> 00:07:23,409
+Graag gedaan.
+
+150
+00:07:23,432 --> 00:07:27,365
+Botertoast en zwarte koffie, toch?
+
+151
+00:07:27,388 --> 00:07:29,389
+Ja.
+
+152
+00:07:29,413 --> 00:07:33,146
+Mag de koffie heet zijn, alstublieft?
+
+153
+00:07:33,169 --> 00:07:35,424
+Begrepen.
+
+154
+00:07:35,447 --> 00:07:38,381
+Neemt u plaats aan een tafeltje.
+
+155
+00:07:38,404 --> 00:07:40,204
+Dank u wel.
+
+156
+00:07:40,227 --> 00:07:43,960
+Vandaag ben ik wat vroeger.
+
+157
+00:07:43,983 --> 00:07:45,759
+Even denken...
+
+158
+00:07:45,782 --> 00:07:49,749
+Normaal kom je rond half negen, toch?
+
+159
+00:07:49,772 --> 00:07:53,425
+Vandaag moet ik om negen uur aan het werk.
+
+160
+00:07:53,448 --> 00:07:55,543
+Dat is druk, hè?
+
+161
+00:07:55,566 --> 00:07:57,733
+Sorry dat u moest wachten.
+
+162
+00:07:57,756 --> 00:08:00,222
+Alstublieft, uw ochtendset.
+
+163
+00:08:00,245 --> 00:08:02,012
+Dank u wel.
+
+164
+00:08:02,035 --> 00:08:04,168
+Dat ziet er lekker uit!
+
+165
+00:08:04,191 --> 00:08:08,958
+Deze week heeft het veel geregend, hè?
+
+166
+00:08:08,981 --> 00:08:10,617
+Ja, inderdaad.
+
+167
+00:08:10,641 --> 00:08:14,374
+De was wilde maar niet drogen.
+
+168
+00:08:14,397 --> 00:08:18,568
+Vanmiddag schijnt het weer te gaan regenen.
+
+169
+00:08:18,591 --> 00:08:21,490
+O, echt waar?
+
+170
+00:08:21,514 --> 00:08:24,721
+Gelukkig dat ik mijn paraplu heb meegenomen.
+
+171
+00:08:24,744 --> 00:08:27,379
+Dank u wel voor de maaltijd.
+
+172
+00:08:27,402 --> 00:08:29,207
+Dank u wel.
+
+173
+00:08:29,231 --> 00:08:32,847
+Dat is dan 500 yen, alstublieft.
+
+174
+00:08:32,871 --> 00:08:35,904
+Ik betaal precies 500 yen.
+
+175
+00:08:35,927 --> 00:08:37,494
+Dank u wel.
+
+176
+00:08:37,517 --> 00:08:41,083
+Succes vandaag met werken!
+
+177
+00:08:41,106 --> 00:08:42,885
+Ja.
+
+178
+00:08:42,909 --> 00:08:44,842
+Ik ga ervandoor.
+
+179
+00:08:44,865 --> 00:08:46,913
+Tot ziens!
+
+180
+00:08:46,937 --> 00:08:49,670
+We zien u graag weer terug.
+
+181
+00:08:49,693 --> 00:08:51,193
+Scène 5: Snelle bestellingafhandeling / Snelle afhandeling van bestellingen
+
+182
+00:08:51,193 --> 00:08:53,231
+Welkom.
+
+183
+00:08:53,255 --> 00:08:55,658
+Goedemorgen.
+
+184
+00:08:55,681 --> 00:08:58,348
+Goedemorgen.
+
+185
+00:08:58,371 --> 00:09:03,189
+Sorry, ik heb erg veel haast.
+
+186
+00:09:03,213 --> 00:09:07,746
+Ik heb nog maar tien minuten voordat mijn trein vertrekt.
+
+187
+00:09:07,769 --> 00:09:09,769
+Uiteraard.
+
+188
+00:09:09,792 --> 00:09:12,428
+Ik maak het meteen voor u klaar.
+
+189
+00:09:12,452 --> 00:09:16,624
+Wat is het snelste drankje dat u kunt maken?
+
+190
+00:09:16,647 --> 00:09:20,494
+IJskoffie latte is het snelst klaar.
+
+191
+00:09:20,518 --> 00:09:24,391
+Dan graag een ijskoffie latte.
+
+192
+00:09:24,414 --> 00:09:28,481
+Is een medium-formaat goed?
+
+193
+00:09:28,504 --> 00:09:32,470
+Ja, medium is prima.
+
+194
+00:09:32,493 --> 00:09:35,027
+Is het voor hier of om mee te nemen?
+
+195
+00:09:35,050 --> 00:09:38,709
+Ja, ik neem het mee.
+
+196
+00:09:38,732 --> 00:09:42,372
+Wilt u suikerstroop of melk gebruiken?
+
+197
+00:09:42,395 --> 00:09:45,869
+Nee, doe er alstublieft geen ijs in.
+
+198
+00:09:45,893 --> 00:09:48,779
+Kunt u er wat minder ijs in doen?
+
+199
+00:09:48,802 --> 00:09:51,657
+Ja, dat kan.
+
+200
+00:09:51,680 --> 00:09:55,047
+Ik doe er wat minder ijs in.
+
+201
+00:09:55,070 --> 00:09:57,436
+Hoeveel is de rekening?
+
+202
+00:09:57,459 --> 00:10:01,474
+Dat wordt in totaal vierhonderdvijftig yen.
+
+203
+00:10:01,498 --> 00:10:04,431
+Kan ik met elektronisch geld betalen?
+
+204
+00:10:04,454 --> 00:10:08,021
+Ja, dat kan.
+
+205
+00:10:08,044 --> 00:10:10,855
+Raak alstublieft dit apparaat aan.
+
+206
+00:10:10,878 --> 00:10:13,644
+Ja, ik heb het aangeraakt.
+
+207
+00:10:13,667 --> 00:10:15,267
+Dank u wel.
+
+208
+00:10:15,290 --> 00:10:18,224
+De betaling is voltooid.
+
+209
+00:10:18,247 --> 00:10:22,052
+Gebruikt u een tasje voor onderweg?
+
+210
+00:10:22,075 --> 00:10:25,283
+Ja, een tasje alstublieft.
+
+211
+00:10:25,306 --> 00:10:30,106
+Het is koud, dus ik doe er ook een huls om de beker.
+
+212
+00:10:30,129 --> 00:10:33,298
+Ja, dat helpt zeker.
+
+213
+00:10:33,321 --> 00:10:36,055
+Sorry dat u heeft moeten wachten.
+
+214
+00:10:36,078 --> 00:10:39,411
+Dit is uw middelgrote ijskoffielatte.
+
+215
+00:10:39,434 --> 00:10:40,909
+Dank u wel.
+
+216
+00:10:40,932 --> 00:10:43,766
+Fijn dat het snel klaar was.
+
+217
+00:10:43,789 --> 00:10:45,670
+Goede reis!
+
+218
+00:10:45,693 --> 00:10:47,296
+Pas goed op uzelf.
+
+219
+00:10:47,320 --> 00:10:50,720
+Ja, tot ziens.
+
+220
+00:10:50,743 --> 00:10:52,243
+Scène 6: Ochtendgesprek en planning bevestiging
+
+221
+00:10:52,243 --> 00:10:54,645
+Goedemorgen.
+
+222
+00:10:54,669 --> 00:10:57,802
+Vandaag is het weer prachtig weer, hè?
+
+223
+00:10:57,825 --> 00:11:00,158
+Goedemorgen.
+
+224
+00:11:00,181 --> 00:11:02,148
+Even denken...
+
+225
+00:11:02,171 --> 00:11:05,388
+Heb je al koffie gehaald?
+
+226
+00:11:05,411 --> 00:11:07,178
+Ja.
+
+227
+00:11:07,201 --> 00:11:10,652
+Ik heb een warme latte macchiato gekocht.
+
+228
+00:11:10,676 --> 00:11:14,153
+Ik heb voor warme koffie gekozen.
+
+229
+00:11:14,177 --> 00:11:18,510
+Laten we dan de planning voor vandaag doornemen.
+
+230
+00:11:18,533 --> 00:11:20,267
+Ja.
+
+231
+00:11:20,290 --> 00:11:22,158
+Graag gedaan.
+
+232
+00:11:22,181 --> 00:11:26,473
+Vandaag hebben we om 10 uur 's ochtends een vergadering, toch?
+
+233
+00:11:26,497 --> 00:11:28,264
+Ja.
+
+234
+00:11:28,287 --> 00:11:32,062
+Het is de presentatie voor het nieuwe project.
+
+235
+00:11:32,085 --> 00:11:35,353
+Is de voorbereiding van de documenten klaar?
+
+236
+00:11:35,377 --> 00:11:37,143
+Ja.
+
+237
+00:11:37,166 --> 00:11:40,966
+Ik heb alles gisteravond gecontroleerd.
+
+238
+00:11:40,990 --> 00:11:43,523
+Geweldig!
+
+239
+00:11:43,546 --> 00:11:46,638
+Laten we het nog een keer samen doornemen.
+
+240
+00:11:46,662 --> 00:11:48,300
+Ja.
+
+241
+00:11:48,323 --> 00:11:51,357
+Dit zijn de documenten voor vandaag.
+
+242
+00:11:51,380 --> 00:11:54,113
+Kijk alstublieft op pagina twee.
+
+243
+00:11:54,136 --> 00:11:57,337
+Klopt dit cijfer?
+
+244
+00:11:57,361 --> 00:11:59,294
+Ja.
+
+245
+00:11:59,317 --> 00:12:02,384
+Het is hetzelfde als de gegevens van vorige week.
+
+246
+00:12:02,407 --> 00:12:04,773
+Begrepen.
+
+247
+00:12:04,796 --> 00:12:07,263
+Het is heel overzichtelijk.
+
+248
+00:12:07,286 --> 00:12:09,019
+Dank u wel.
+
+249
+00:12:09,042 --> 00:12:12,076
+Dit is het aangepaste gedeelte.
+
+250
+00:12:12,099 --> 00:12:14,957
+De foto's zijn ook groter geworden, hè?
+
+251
+00:12:14,981 --> 00:12:16,827
+Ja.
+
+252
+00:12:16,850 --> 00:12:19,183
+Het is veel duidelijker geworden.
+
+253
+00:12:19,206 --> 00:12:22,692
+Wie doet de presentatie?
+
+254
+00:12:22,716 --> 00:12:26,328
+Ik doe het eerste deel.
+
+255
+00:12:26,351 --> 00:12:28,218
+Begrepen.
+
+256
+00:12:28,241 --> 00:12:33,008
+Ik neem het vragenuurtje aan het einde voor mijn rekening.
+
+257
+00:12:33,031 --> 00:12:34,722
+Ja.
+
+258
+00:12:34,745 --> 00:12:36,778
+Alvast bedankt.
+
+259
+00:12:36,801 --> 00:12:40,201
+Ben je een beetje nerveus?
+
+260
+00:12:40,224 --> 00:12:43,391
+Ik ben een beetje nerveus.
+
+261
+00:12:43,414 --> 00:12:45,581
+Dat komt helemaal goed.
+
+262
+00:12:45,604 --> 00:12:48,370
+We hebben veel geoefend.
+
+263
+00:12:48,393 --> 00:12:49,927
+Ja.
+
+264
+00:12:49,950 --> 00:12:52,150
+Ik zal mijn best doen.
+
+265
+00:12:52,173 --> 00:12:55,506
+Wat doen we na de vergadering?
+
+266
+00:12:55,529 --> 00:12:59,262
+Om 1 uur 's middags gaan we lunchen.
+
+267
+00:12:59,285 --> 00:13:01,119
+Mooi zo.
+
+268
+00:13:01,142 --> 00:13:03,942
+Laten we iets lekkers eten.
+
+269
+00:13:03,965 --> 00:13:05,634
+Ja.
+
+270
+00:13:05,657 --> 00:13:08,124
+Ik kijk ernaar uit.
+
+271
+00:13:08,147 --> 00:13:11,029
+De vergaderruimte is op de derde verdieping, toch?
+
+272
+00:13:11,052 --> 00:13:12,855
+Ja.
+
+273
+00:13:12,879 --> 00:13:16,537
+De vergaderruimte op de derde verdieping.
+
+274
+00:13:16,560 --> 00:13:20,093
+Zullen we vijftien minuten eerder naar het bedrijf gaan?
+
+275
+00:13:20,116 --> 00:13:21,650
+Ja.
+
+276
+00:13:21,673 --> 00:13:23,806
+Laten we dat doen.
+
+277
+00:13:23,829 --> 00:13:27,103
+Laten we dan naar het bedrijf gaan.
+
+278
+00:13:27,126 --> 00:13:28,564
+Ja.
+
+279
+00:13:28,588 --> 00:13:30,564
+Laten we gaan.
+
+280
+00:13:30,587 --> 00:13:32,087
+Scène 7: Zitplaatsen en Wi-Fi informatie / Seating and Wi-Fi Guide
+
+281
+00:13:32,087 --> 00:13:33,961
+Welkom.
+
+282
+00:13:33,985 --> 00:13:36,920
+Neemt u gerust plaats waar u wilt.
+
+283
+00:13:36,943 --> 00:13:38,776
+Pardon.
+
+284
+00:13:38,799 --> 00:13:42,333
+Waar zijn de zitplaatsen met stopcontacten?
+
+285
+00:13:42,356 --> 00:13:44,156
+Ja.
+
+286
+00:13:44,179 --> 00:13:47,512
+Die vindt u bij de toonbank.
+
+287
+00:13:47,535 --> 00:13:49,185
+Dank u wel.
+
+288
+00:13:49,208 --> 00:13:52,175
+Ik wil mijn laptop gebruiken.
+
+289
+00:13:52,198 --> 00:13:55,398
+Ik breng u naar de zitplaatsen bij de toonbank.
+
+290
+00:13:55,421 --> 00:13:57,698
+Deze kant op, alstublieft.
+
+291
+00:13:57,722 --> 00:13:59,363
+Dank u wel.
+
+292
+00:13:59,387 --> 00:14:02,220
+Is er Wi-Fi?
+
+293
+00:14:02,243 --> 00:14:03,810
+Ja.
+
+294
+00:14:03,833 --> 00:14:06,709
+Er is gratis Wi-Fi beschikbaar.
+
+295
+00:14:06,732 --> 00:14:10,214
+Wat is het wachtwoord?
+
+296
+00:14:10,237 --> 00:14:13,735
+Het staat achterop het menu.
+
+297
+00:14:13,759 --> 00:14:15,835
+Kijkt u hier maar.
+
+298
+00:14:15,859 --> 00:14:17,893
+Begrepen.
+
+299
+00:14:17,916 --> 00:14:19,984
+Dat helpt enorm.
+
+300
+00:14:20,007 --> 00:14:24,274
+Excuseer, ik heb een verzoek.
+
+301
+00:14:24,297 --> 00:14:29,497
+Bij drukte vragen wij u om maximaal twee uur gebruik te maken van de ruimte.
+
+302
+00:14:29,520 --> 00:14:31,087
+Ja.
+
+303
+00:14:31,110 --> 00:14:32,944
+Begrepen.
+
+304
+00:14:32,967 --> 00:14:35,300
+Ik zal goed opletten.
+
+305
+00:14:35,323 --> 00:14:38,057
+Bedankt voor uw medewerking.
+
+306
+00:14:38,080 --> 00:14:41,494
+Heeft u al een keuze gemaakt voor uw drankje?
+
+307
+00:14:41,517 --> 00:14:43,326
+Ja.
+
+308
+00:14:43,349 --> 00:14:46,549
+Een warme koffie, alstublieft.
+
+309
+00:14:46,572 --> 00:14:49,548
+Welke grootte wilt u?
+
+310
+00:14:49,572 --> 00:14:52,459
+Een medium, alstublieft.
+
+311
+00:14:52,483 --> 00:14:54,561
+Uiteraard.
+
+312
+00:14:54,584 --> 00:14:57,817
+Wilt u suiker en melk?
+
+313
+00:14:57,840 --> 00:15:01,040
+Eén suiker, alstublieft.
+
+314
+00:15:01,063 --> 00:15:02,930
+Begrepen.
+
+315
+00:15:02,953 --> 00:15:05,786
+Een ogenblik geduld, alstublieft.
+
+316
+00:15:05,809 --> 00:15:07,309
+Scène 8: Klantenservice en een comfortabele omgeving / Customer Service and Comfortable Environment
+
+317
+00:15:07,309 --> 00:15:09,148
+Welkom.
+
+318
+00:15:09,172 --> 00:15:12,816
+Heeft u het niet koud?
+
+319
+00:15:12,839 --> 00:15:15,373
+Oh, sorry.
+
+320
+00:15:15,395 --> 00:15:18,162
+Het is een beetje koud.
+
+321
+00:15:18,185 --> 00:15:20,818
+Mijn excuses daarvoor.
+
+322
+00:15:20,841 --> 00:15:25,575
+Hier komt de airco direct op u neer, hè?
+
+323
+00:15:25,598 --> 00:15:27,164
+Ja.
+
+324
+00:15:27,187 --> 00:15:30,221
+De wind is een beetje sterk.
+
+325
+00:15:30,244 --> 00:15:33,492
+Zal ik de temperatuur een beetje verhogen?
+
+326
+00:15:33,515 --> 00:15:35,115
+Graag.
+
+327
+00:15:35,138 --> 00:15:39,472
+En heeft u ook dekentjes?
+
+328
+00:15:39,495 --> 00:15:41,728
+Ja, die hebben we.
+
+329
+00:15:41,751 --> 00:15:44,686
+Ik breng er meteen een.
+
+330
+00:15:44,710 --> 00:15:46,315
+Dank u wel.
+
+331
+00:15:46,338 --> 00:15:48,305
+Dat helpt enorm.
+
+332
+00:15:48,328 --> 00:15:50,561
+Sorry voor het wachten.
+
+333
+00:15:50,584 --> 00:15:54,051
+Gebruikt u alstublieft dit dekentje.
+
+334
+00:15:54,074 --> 00:15:55,679
+Dank u wel.
+
+335
+00:15:55,703 --> 00:15:58,379
+Het is heel warm.
+
+336
+00:15:58,402 --> 00:16:00,435
+Gelukkig maar.
+
+337
+00:16:00,458 --> 00:16:05,192
+Zal ik u naar een andere plek brengen, als u wilt?
+
+338
+00:16:05,215 --> 00:16:08,671
+Ja, ik wil graag verplaatsen.
+
+339
+00:16:08,694 --> 00:16:12,301
+Is die tafel achterin vrij?
+
+340
+00:16:12,325 --> 00:16:13,795
+Ja.
+
+341
+00:16:13,819 --> 00:16:17,513
+Die vierkante tafel daar is vrij.
+
+342
+00:16:17,536 --> 00:16:20,936
+Is het daar rustig?
+
+343
+00:16:20,959 --> 00:16:25,126
+Vandaag wil ik graag rustig een boek lezen.
+
+344
+00:16:25,149 --> 00:16:26,282
+Ja.
+
+345
+00:16:26,305 --> 00:16:29,572
+De zitplaatsen achterin zijn erg rustig.
+
+346
+00:16:29,595 --> 00:16:32,473
+Je krijgt er ook geen lucht van de airco.
+
+347
+00:16:32,496 --> 00:16:34,766
+Dat klinkt goed.
+
+348
+00:16:34,790 --> 00:16:38,324
+Dan ga ik daar zitten.
+
+349
+00:16:38,347 --> 00:16:41,480
+Zal ik uw bagage dragen?
+
+350
+00:16:41,503 --> 00:16:44,503
+Nee, ik draag het zelf.
+
+351
+00:16:44,526 --> 00:16:46,659
+Geen probleem.
+
+352
+00:16:46,682 --> 00:16:48,376
+Begrepen.
+
+353
+00:16:48,400 --> 00:16:51,600
+Dan breng ik u erheen.
+
+354
+00:16:51,622 --> 00:16:53,189
+Dank u wel.
+
+355
+00:16:53,212 --> 00:16:58,379
+O, en nog een kopje warme thee, alstublieft.
+
+356
+00:16:58,402 --> 00:17:00,568
+Uiteraard.
+
+357
+00:17:00,591 --> 00:17:03,648
+Gewone thee, is dat goed?
+
+358
+00:17:03,672 --> 00:17:05,311
+Ja.
+
+359
+00:17:05,334 --> 00:17:07,811
+Gewone thee, graag.
+
+360
+00:17:07,835 --> 00:17:10,602
+Ik breng het meteen.
+
+361
+00:17:10,625 --> 00:17:13,442
+Geniet u van uw tijd.
+
+362
+00:17:13,466 --> 00:17:15,926
+Dank u wel.
+
+363
+00:17:15,949 --> 00:17:17,449
+Scène 9: Oefenen met kanji en partikels
+
+364
+00:17:17,449 --> 00:17:22,249
+Laten we vandaag veel studeren.
+
+365
+00:17:22,272 --> 00:17:24,639
+Ja, laten we ons best doen.
+
+366
+00:17:24,662 --> 00:17:28,628
+Volgende week is er een Japanse toets, hè?
+
+367
+00:17:28,651 --> 00:17:32,531
+Ja, het is de N5-toets.
+
+368
+00:17:32,555 --> 00:17:35,688
+Hoe gaat het met studeren?
+
+369
+00:17:35,711 --> 00:17:40,978
+Hmm, kanji is een beetje moeilijk.
+
+370
+00:17:41,001 --> 00:17:44,201
+Welke kanji vind je moeilijk?
+
+371
+00:17:44,224 --> 00:17:48,224
+De kanji voor 'week' en 'schrijven'.
+
+372
+00:17:48,247 --> 00:17:51,783
+Ah, die met veel strepen.
+
+373
+00:17:51,806 --> 00:17:56,474
+Ja, het is lastig om ze te onthouden.
+
+374
+00:17:56,498 --> 00:17:59,631
+Als je ze vaak schrijft, onthoud je ze vanzelf.
+
+375
+00:17:59,654 --> 00:18:03,832
+Ja, ik ga elke dag oefenen.
+
+376
+00:18:03,856 --> 00:18:06,136
+Hoe gaat het met grammatica?
+
+377
+00:18:06,159 --> 00:18:09,572
+Soms snap ik de partikels niet.
+
+378
+00:18:09,596 --> 00:18:12,670
+Het verschil tussen 'ni', 'to' en 'de', toch?
+
+379
+00:18:12,694 --> 00:18:16,361
+Ja, soms twijfel ik.
+
+380
+00:18:16,385 --> 00:18:20,427
+Laten we elkaar dan nu vragen stellen.
+
+381
+00:18:20,450 --> 00:18:23,383
+Goed idee, graag.
+
+382
+00:18:23,406 --> 00:18:26,475
+Vraag 1.
+
+383
+00:18:26,499 --> 00:18:30,670
+Ik studeer in een café.
+
+384
+00:18:30,694 --> 00:18:33,927
+Welke partikel moet er op de stippellijn?
+
+385
+00:18:33,950 --> 00:18:38,232
+Omdat het een plaats is, is het 'de'?
+
+386
+00:18:38,256 --> 00:18:40,505
+Correct!
+
+387
+00:18:40,528 --> 00:18:42,995
+Goed gedaan!
+
+388
+00:18:43,018 --> 00:18:46,385
+Gelukkig, ik was even ongerust.
+
+389
+00:18:46,408 --> 00:18:50,490
+Nu stel ik een vraag.
+
+390
+00:18:50,513 --> 00:18:52,680
+Ga je gang.
+
+391
+00:18:52,703 --> 00:18:57,073
+Morgen sta ik om 8 uur op.
+
+392
+00:18:57,096 --> 00:19:01,764
+Welke partikel moet er op de stippellijn?
+
+393
+00:19:01,788 --> 00:19:06,054
+Na een tijdsaanduiding komt 'ni', toch?
+
+394
+00:19:06,077 --> 00:19:08,052
+Helemaal goed!
+
+395
+00:19:08,075 --> 00:19:10,142
+Inderdaad, knap gedaan.
+
+396
+00:19:10,165 --> 00:19:14,062
+Pff, ik ben een beetje moe.
+
+397
+00:19:14,085 --> 00:19:17,852
+Ik voel mijn hoofd ook een beetje zwaar worden.
+
+398
+00:19:17,875 --> 00:19:21,242
+We hebben ongeveer een uur gestudeerd.
+
+399
+00:19:21,265 --> 00:19:24,398
+Zullen we even een pauze nemen?
+
+400
+00:19:24,421 --> 00:19:28,310
+Ja, ik zou wel iets zoets willen eten.
+
+401
+00:19:28,333 --> 00:19:32,066
+Daar in die vitrine staan taarten.
+
+402
+00:19:32,089 --> 00:19:35,823
+Wat een heerlijke aardbeientaart!
+
+403
+00:19:35,846 --> 00:19:38,612
+Er is ook chocoladetaart, hoor.
+
+404
+00:19:38,635 --> 00:19:41,845
+Ik neem de aardbeientaart.
+
+405
+00:19:41,869 --> 00:19:45,766
+Dan neem ik de chocoladetaart.
+
+406
+00:19:45,789 --> 00:19:48,723
+Zullen we de bediende roepen?
+
+407
+00:19:48,747 --> 00:19:51,429
+Ja, laten we dat doen.
+
+408
+00:19:51,452 --> 00:19:52,952
+Scène 10: Voorbereiding op de lunchdrukte en taakverdeling
+
+409
+00:19:52,952 --> 00:19:58,185
+Het is bijna 11:45 uur.
+
+410
+00:19:58,208 --> 00:20:01,296
+Het is bijna lunchtijd.
+
+411
+00:20:01,320 --> 00:20:04,322
+Ja, senior.
+
+412
+00:20:04,345 --> 00:20:07,678
+Het wordt zo druk in de zaak.
+
+413
+00:20:07,701 --> 00:20:11,068
+Laten we de taken doornemen.
+
+414
+00:20:11,091 --> 00:20:15,091
+Jij bent vandaag verantwoordelijk voor de kassa.
+
+415
+00:20:15,114 --> 00:20:17,247
+Begrepen.
+
+416
+00:20:17,270 --> 00:20:20,948
+Ik neem de bestellingen aan de kassa op.
+
+417
+00:20:20,971 --> 00:20:25,619
+Ik ben verantwoordelijk voor de keuken en de drankjes.
+
+418
+00:20:25,642 --> 00:20:29,076
+Ik maak sandwiches en koffie.
+
+419
+00:20:29,099 --> 00:20:30,865
+Ja.
+
+420
+00:20:30,888 --> 00:20:33,890
+Is alles klaar voor gebruik?
+
+421
+00:20:33,914 --> 00:20:37,281
+Zijn er lepels en vorken?
+
+422
+00:20:37,304 --> 00:20:41,312
+Controleer even bij de kassa.
+
+423
+00:20:41,336 --> 00:20:45,336
+Oh, er zijn weinig lepels.
+
+424
+00:20:45,359 --> 00:20:48,492
+Ik vul ze meteen aan.
+
+425
+00:20:48,515 --> 00:20:50,392
+Graag gedaan.
+
+426
+00:20:50,416 --> 00:20:54,883
+Controleer ook de tasjes en bekers voor afhaalbestellingen.
+
+427
+00:20:54,906 --> 00:20:56,514
+Ja.
+
+428
+00:20:56,537 --> 00:21:00,004
+Er zijn genoeg tasjes en bekers.
+
+429
+00:21:00,027 --> 00:21:03,270
+Gelukkig maar.
+
+430
+00:21:03,294 --> 00:21:06,827
+Vergeet de rietjes niet.
+
+431
+00:21:06,850 --> 00:21:08,223
+Begrepen.
+
+432
+00:21:08,247 --> 00:21:10,899
+De rietjes zijn ook klaargezet.
+
+433
+00:21:10,922 --> 00:21:15,255
+Laten we nu de begroeting oefenen.
+
+434
+00:21:15,278 --> 00:21:18,812
+Kun je luid en duidelijk groeten?
+
+435
+00:21:18,835 --> 00:21:21,635
+Ja, dat kan ik.
+
+436
+00:21:21,658 --> 00:21:23,671
+Welkom.
+
+437
+00:21:23,694 --> 00:21:26,627
+Wat een mooie stem heb je!
+
+438
+00:21:26,650 --> 00:21:29,983
+En je glimlach is ook prachtig.
+
+439
+00:21:30,006 --> 00:21:31,904
+Dank u wel.
+
+440
+00:21:31,928 --> 00:21:34,967
+Vandaag doe ik ook mijn best.
+
+441
+00:21:34,991 --> 00:21:39,057
+Ja, laten we samen ons best doen.
+
+442
+00:21:39,080 --> 00:21:42,280
+Er komt een klant aan.
+
+443
+00:21:42,303 --> 00:21:45,870
+Ja, welkom!
+
+444
+00:21:45,893 --> 00:21:47,393
+Scène 11: Bestellingen opnemen en allergieën controleren
+
+445
+00:21:47,393 --> 00:21:49,393
+Welkom.
+
+446
+00:21:49,416 --> 00:21:52,383
+Gaat u hier eten?
+
+447
+00:21:52,406 --> 00:21:56,006
+Ja, ik eet hier.
+
+448
+00:21:56,028 --> 00:21:57,662
+Dank u wel.
+
+449
+00:21:57,685 --> 00:22:00,851
+Heeft u al een keuze kunnen maken?
+
+450
+00:22:00,874 --> 00:22:04,916
+Ik wil graag de dagschotel-sandwichset.
+
+451
+00:22:04,940 --> 00:22:08,189
+De dagschotel-sandwichset, komt in orde.
+
+452
+00:22:08,212 --> 00:22:12,748
+De sandwich van vandaag is met kip en groenten.
+
+453
+00:22:12,771 --> 00:22:14,938
+Dat ziet er lekker uit!
+
+454
+00:22:14,962 --> 00:22:17,260
+Die neem ik.
+
+455
+00:22:17,283 --> 00:22:22,083
+Heeft u voedselallergieën?
+
+456
+00:22:22,106 --> 00:22:27,040
+Ja, ik ben allergisch voor eieren.
+
+457
+00:22:27,063 --> 00:22:29,496
+Begrepen.
+
+458
+00:22:29,519 --> 00:22:34,286
+In de sandwich zit mayonaise.
+
+459
+00:22:34,309 --> 00:22:38,309
+Mayonaise bevat eieren.
+
+460
+00:22:38,332 --> 00:22:40,415
+O, is dat zo?
+
+461
+00:22:40,438 --> 00:22:44,012
+Kunnen we de mayonaise weglaten?
+
+462
+00:22:44,035 --> 00:22:48,475
+Ja, ik maak het zonder mayonaise.
+
+463
+00:22:48,498 --> 00:22:50,098
+Dank u wel.
+
+464
+00:22:50,121 --> 00:22:52,140
+Dat helpt enorm.
+
+465
+00:22:52,164 --> 00:22:55,964
+Welke drank wilt u bij uw bestelling?
+
+466
+00:22:55,987 --> 00:22:58,387
+Wat heeft u zoal?
+
+467
+00:22:58,410 --> 00:23:03,610
+We hebben koffie, thee en sinaasappelsap.
+
+468
+00:23:03,633 --> 00:23:06,718
+Ik wil graag warme thee, alstublieft.
+
+469
+00:23:06,741 --> 00:23:09,708
+Warme thee, komt eraan.
+
+470
+00:23:09,731 --> 00:23:12,740
+Dat is dan 1000 yen, alstublieft.
+
+471
+00:23:12,764 --> 00:23:15,297
+Ik betaal contant.
+
+472
+00:23:15,320 --> 00:23:18,654
+Ik ontvang precies 1000 yen.
+
+473
+00:23:18,676 --> 00:23:22,010
+Neemt u alstublieft dit nummertje mee.
+
+474
+00:23:22,033 --> 00:23:24,099
+Begrepen.
+
+475
+00:23:24,122 --> 00:23:28,165
+Zodra het klaar is, brengen we het naar uw tafel.
+
+476
+00:23:28,189 --> 00:23:30,989
+Wacht u alstublieft even aan een vrij tafeltje.
+
+477
+00:23:31,012 --> 00:23:33,645
+Dank u wel.
+
+478
+00:23:33,668 --> 00:23:35,168
+Scène 12: Afrekenen en Betaalmethoden
+
+479
+00:23:35,168 --> 00:23:36,935
+Welkom.
+
+480
+00:23:36,958 --> 00:23:39,026
+U wilt afrekenen?
+
+481
+00:23:39,050 --> 00:23:41,823
+Ja, graag.
+
+482
+00:23:41,846 --> 00:23:44,700
+De dagschotel lunchset, toch?
+
+483
+00:23:44,723 --> 00:23:48,323
+Dat is dan in totaal 980 yen.
+
+484
+00:23:48,346 --> 00:23:49,961
+Begrepen.
+
+485
+00:23:49,985 --> 00:23:52,218
+Ik betaal contant.
+
+486
+00:23:52,241 --> 00:23:54,419
+Oh, sorry.
+
+487
+00:23:54,443 --> 00:23:56,693
+Ik heb niet genoeg kleingeld.
+
+488
+00:23:56,716 --> 00:23:59,083
+Ik heb ook geen briefje van 1000 yen.
+
+489
+00:23:59,106 --> 00:24:01,472
+Dat komt helemaal goed.
+
+490
+00:24:01,495 --> 00:24:05,162
+U kunt ook met elektronisch geld of een kaart betalen.
+
+491
+00:24:05,185 --> 00:24:07,072
+Gelukkig maar.
+
+492
+00:24:07,095 --> 00:24:09,174
+Ik betaal met mijn telefoon.
+
+493
+00:24:09,198 --> 00:24:11,772
+Mag ik deze streepjescode scannen?
+
+494
+00:24:11,795 --> 00:24:15,494
+Ja, ik scan hem even.
+
+495
+00:24:15,517 --> 00:24:18,852
+Hè, het scherm verandert niet.
+
+496
+00:24:18,875 --> 00:24:21,409
+Echt waar?
+
+497
+00:24:21,432 --> 00:24:24,699
+De verbinding van mijn telefoon is zwak.
+
+498
+00:24:24,723 --> 00:24:27,092
+De app reageert niet.
+
+499
+00:24:27,115 --> 00:24:30,449
+We hebben gratis Wi-Fi in de zaak.
+
+500
+00:24:30,472 --> 00:24:33,705
+Gebruik alstublieft dit wachtwoord.
+
+501
+00:24:33,728 --> 00:24:35,304
+Dank u wel.
+
+502
+00:24:35,327 --> 00:24:39,728
+Maar dat gaat wel even duren, hè?
+
+503
+00:24:39,751 --> 00:24:42,485
+Er staat al een klant achter u.
+
+504
+00:24:42,508 --> 00:24:45,324
+Heeft u een creditcard bij u?
+
+505
+00:24:45,348 --> 00:24:48,348
+Ja, ik heb een kaart.
+
+506
+00:24:48,371 --> 00:24:51,504
+U kunt ook met een kaart betalen.
+
+507
+00:24:51,527 --> 00:24:54,370
+Dan betaal ik maar met de kaart.
+
+508
+00:24:54,394 --> 00:24:57,794
+Houd uw kaart hier even tegen het apparaat.
+
+509
+00:24:57,817 --> 00:24:59,583
+Ik heb hem aangeraakt.
+
+510
+00:24:59,606 --> 00:25:02,142
+De betaling is voltooid.
+
+511
+00:25:02,166 --> 00:25:04,966
+Neemt u alstublieft uw bonnetje mee.
+
+512
+00:25:04,989 --> 00:25:06,766
+Dat scheelt een hoop gedoe!
+
+513
+00:25:06,789 --> 00:25:08,589
+Dank u wel.
+
+514
+00:25:08,612 --> 00:25:12,146
+Graag gedaan, en kom gerust nog eens langs.
+
+515
+00:25:12,169 --> 00:25:13,669
+Scène 13: Het Plannen van een Reis
+
+516
+00:25:13,669 --> 00:25:18,035
+Deze sandwich is echt heerlijk!
+
+517
+00:25:18,058 --> 00:25:23,525
+Ja, mijn eiersandwich is ook erg lekker.
+
+518
+00:25:23,548 --> 00:25:28,081
+Laten we het vandaag eens hebben over onze reis van volgende maand.
+
+519
+00:25:28,104 --> 00:25:32,562
+Ja, laten we een plan maken voor onze reis naar Kyoto.
+
+520
+00:25:32,585 --> 00:25:34,681
+Wanneer gaan we?
+
+521
+00:25:34,705 --> 00:25:37,913
+Wat dacht je van de 10e van volgende maand?
+
+522
+00:25:37,937 --> 00:25:41,870
+Laten we van vrijdag tot zondag gaan.
+
+523
+00:25:41,893 --> 00:25:43,726
+Mooi zo.
+
+524
+00:25:43,749 --> 00:25:46,482
+Dat wordt dan twee nachten en drie dagen.
+
+525
+00:25:46,505 --> 00:25:49,305
+Laten we met de Shinkansen gaan.
+
+526
+00:25:49,328 --> 00:25:53,695
+Wanneer kopen we de Shinkansen-tickets?
+
+527
+00:25:53,718 --> 00:25:57,318
+Ik reserveer ze volgende week online.
+
+528
+00:25:57,341 --> 00:25:59,308
+Begrepen.
+
+529
+00:25:59,331 --> 00:26:02,897
+Een vroege Shinkansen lijkt me wel wat.
+
+530
+00:26:02,920 --> 00:26:07,720
+Ja, laten we de Shinkansen van 8 uur 's ochtends nemen.
+
+531
+00:26:07,743 --> 00:26:11,577
+Waar wil je naartoe als we in Kyoto aankomen?
+
+532
+00:26:11,600 --> 00:26:15,215
+Ik wil graag naar beroemde tempels.
+
+533
+00:26:15,238 --> 00:26:18,053
+Laten we naar Kiyomizu-dera gaan.
+
+534
+00:26:18,077 --> 00:26:21,966
+Kiyomizu-dera is echt prachtig, hè?
+
+535
+00:26:21,989 --> 00:26:26,645
+Ik wil ook graag oude schrijnen zien.
+
+536
+00:26:26,669 --> 00:26:30,149
+Dan gaan we ook naar Fushimi Inari-taisha.
+
+537
+00:26:30,172 --> 00:26:31,774
+Mooi zo.
+
+538
+00:26:31,798 --> 00:26:35,610
+Ik wil ook graag naar leuke cafés in Kyoto.
+
+539
+00:26:35,633 --> 00:26:39,000
+Laten we matcha-ijs proeven.
+
+540
+00:26:39,023 --> 00:26:41,081
+Ik kijk er echt naar uit!
+
+541
+00:26:41,104 --> 00:26:44,271
+Welk hotel nemen we?
+
+542
+00:26:44,294 --> 00:26:47,900
+Een hotel dicht bij Kyoto Station is handig.
+
+543
+00:26:47,924 --> 00:26:50,621
+Wat is het budget ongeveer?
+
+544
+00:26:50,644 --> 00:26:53,977
+Ik denk zo'n 50.000 yen per persoon.
+
+545
+00:26:54,000 --> 00:26:55,972
+Begrepen.
+
+546
+00:26:55,996 --> 00:27:00,207
+De Shinkansen en het hotel kosten samen ongeveer 30.000 yen.
+
+547
+00:27:00,230 --> 00:27:03,463
+Dan blijft er 20.000 yen over voor eten en winkelen.
+
+548
+00:27:03,486 --> 00:27:05,737
+Dat komt mooi uit.
+
+549
+00:27:05,761 --> 00:27:10,094
+Ik boek het hotel vanavond.
+
+550
+00:27:10,117 --> 00:27:11,684
+Bedankt!
+
+551
+00:27:11,707 --> 00:27:13,907
+Alvast bedankt.
+
+552
+00:27:13,930 --> 00:27:15,465
+Ja.
+
+553
+00:27:15,488 --> 00:27:18,340
+Laten we een geweldige reis maken!
+
+554
+00:27:18,363 --> 00:27:19,863
+Scène 14: Drukke lunchpiek en kassa-afsluiting
+
+555
+00:27:19,863 --> 00:27:22,333
+Goed gedaan!
+
+556
+00:27:22,357 --> 00:27:26,047
+De lunchpiek is voorbij.
+
+557
+00:27:26,070 --> 00:27:28,313
+Goed gedaan!
+
+558
+00:27:28,336 --> 00:27:32,170
+Het was vandaag echt druk.
+
+559
+00:27:32,193 --> 00:27:33,999
+Ja.
+
+560
+00:27:34,022 --> 00:27:38,115
+Er kwamen veel klanten.
+
+561
+00:27:38,139 --> 00:27:41,539
+We hebben veel sandwiches verkocht.
+
+562
+00:27:41,562 --> 00:27:44,702
+Er zijn ook veel sapjes verkocht.
+
+563
+00:27:44,725 --> 00:27:48,691
+Laten we nu de tussentijdse kassa-afsluiting doen.
+
+564
+00:27:48,714 --> 00:27:51,581
+Tel het geld maar.
+
+565
+00:27:51,604 --> 00:27:53,776
+Begrepen.
+
+566
+00:27:53,799 --> 00:27:56,999
+Ik tel het geld in de kassa.
+
+567
+00:27:57,022 --> 00:28:00,422
+Hoeveel briefjes van duizend yen zijn er?
+
+568
+00:28:00,445 --> 00:28:04,312
+Er zijn twintig briefjes van duizend yen.
+
+569
+00:28:04,335 --> 00:28:07,501
+Hoe zit het met de munten van vijfhonderd yen?
+
+570
+00:28:07,524 --> 00:28:11,262
+Er zijn tien munten van vijfhonderd yen.
+
+571
+00:28:11,285 --> 00:28:15,324
+Laten we het totaalbedrag controleren.
+
+572
+00:28:15,348 --> 00:28:18,630
+Komt het overeen met het bedrag op de computer?
+
+573
+00:28:18,653 --> 00:28:20,520
+Ja.
+
+574
+00:28:20,543 --> 00:28:23,310
+Het bedrag klopt.
+
+575
+00:28:23,333 --> 00:28:26,300
+Gelukkig maar.
+
+576
+00:28:26,323 --> 00:28:29,256
+De kassa-afsluiting is klaar.
+
+577
+00:28:29,279 --> 00:28:31,412
+Opgelucht!
+
+578
+00:28:31,435 --> 00:28:34,002
+Gaan we nu pauzeren?
+
+579
+00:28:34,025 --> 00:28:35,663
+Ja.
+
+580
+00:28:35,687 --> 00:28:39,220
+Laten we om de beurt vijftien minuten pauzeren.
+
+581
+00:28:39,243 --> 00:28:43,416
+Jij mag eerst pauzeren.
+
+582
+00:28:43,439 --> 00:28:45,092
+Dank u wel.
+
+583
+00:28:45,116 --> 00:28:47,974
+Mag ik iets drinken?
+
+584
+00:28:47,997 --> 00:28:49,637
+Ja, inderdaad.
+
+585
+00:28:49,661 --> 00:28:53,027
+Maak maar iets lekkers voor jezelf.
+
+586
+00:28:53,050 --> 00:28:56,184
+Ik neem ijsthee.
+
+587
+00:28:56,207 --> 00:29:00,007
+Ik doe er een beetje suiker in.
+
+588
+00:29:00,030 --> 00:29:03,363
+Rust lekker uit in de pauzeruimte.
+
+589
+00:29:03,386 --> 00:29:07,243
+Kom over vijftien minuten terug, alstublieft.
+
+590
+00:29:07,267 --> 00:29:08,883
+Ja.
+
+591
+00:29:08,906 --> 00:29:11,740
+Als je terug bent, wissel ik met je.
+
+592
+00:29:11,763 --> 00:29:13,996
+Alvast bedankt.
+
+593
+00:29:14,019 --> 00:29:16,619
+Laten we ook deze middag ons best doen!
+
+594
+00:29:16,642 --> 00:29:18,142
+Scène 15: Bestellen bij een café / Hoe bestel je in een café
+
+595
+00:29:18,142 --> 00:29:20,011
+Welkom.
+
+596
+00:29:20,035 --> 00:29:22,803
+Neemt u gerust plaats waar u wilt.
+
+597
+00:29:22,826 --> 00:29:24,710
+Dank u wel.
+
+598
+00:29:24,734 --> 00:29:27,067
+Ik ga hier zitten.
+
+599
+00:29:27,091 --> 00:29:31,105
+Roep ons maar als u uw keuze heeft gemaakt.
+
+600
+00:29:31,128 --> 00:29:32,766
+Pardon.
+
+601
+00:29:32,789 --> 00:29:35,237
+Ik wil graag bestellen.
+
+602
+00:29:35,261 --> 00:29:36,994
+Ja.
+
+603
+00:29:37,017 --> 00:29:39,631
+Wat kan ik voor u noteren?
+
+604
+00:29:39,655 --> 00:29:43,188
+Ik heb zin in iets zoets.
+
+605
+00:29:43,211 --> 00:29:46,145
+Heeft u een aanbevolen taart?
+
+606
+00:29:46,168 --> 00:29:49,846
+Onze seizoensgebonden herfsttaart is een aanrader!
+
+607
+00:29:49,869 --> 00:29:52,515
+De kastanjetaart is erg populair.
+
+608
+00:29:52,539 --> 00:29:54,984
+Kastanjetaart, zegt u?
+
+609
+00:29:55,007 --> 00:29:57,174
+Dat ziet er lekker uit!
+
+610
+00:29:57,197 --> 00:30:00,472
+De groene-theeparfait is ook erg in trek.
+
+611
+00:30:00,495 --> 00:30:03,429
+Ze klinken allebei heerlijk.
+
+612
+00:30:03,452 --> 00:30:05,261
+Ik twijfel nog.
+
+613
+00:30:05,284 --> 00:30:09,183
+De kastanjetaart is niet te zoet.
+
+614
+00:30:09,206 --> 00:30:11,539
+Hij past perfect bij koffie.
+
+615
+00:30:11,562 --> 00:30:13,529
+O, is dat zo?
+
+616
+00:30:13,552 --> 00:30:16,752
+Dan neem ik de kastanjetaart.
+
+617
+00:30:16,775 --> 00:30:18,392
+Dank u wel.
+
+618
+00:30:18,416 --> 00:30:21,049
+Wilt u iets te drinken?
+
+619
+00:30:21,072 --> 00:30:23,907
+Een warme koffie, alstublieft.
+
+620
+00:30:23,930 --> 00:30:27,788
+De taart- en koffieset is voordeliger.
+
+621
+00:30:27,812 --> 00:30:30,661
+U bespaart er 50 cent mee.
+
+622
+00:30:30,685 --> 00:30:33,251
+Dat klinkt goed.
+
+623
+00:30:33,274 --> 00:30:35,453
+Doe maar de set.
+
+624
+00:30:35,477 --> 00:30:37,610
+Uiteraard.
+
+625
+00:30:37,633 --> 00:30:41,766
+Een kastanjetaart en een warme koffie, komt eraan.
+
+626
+00:30:41,789 --> 00:30:43,437
+Ja.
+
+627
+00:30:43,461 --> 00:30:45,461
+Alvast bedankt.
+
+628
+00:30:45,484 --> 00:30:47,817
+Een ogenblik geduld, alstublieft.
+
+629
+00:30:47,840 --> 00:30:51,007
+Ik breng het naar uw tafel.
+
+630
+00:30:51,030 --> 00:30:52,630
+Begrepen.
+
+631
+00:30:52,653 --> 00:30:55,224
+Ik kijk ernaar uit!
+
+632
+00:30:55,247 --> 00:30:56,747
+Scène 16: Nieuwe latte maken / Hoe maak je nieuwe lattes
+
+633
+00:30:56,747 --> 00:31:00,222
+Het is nu even rustig, hè?
+
+634
+00:31:00,245 --> 00:31:04,212
+Laten we de nieuwe menu-items oefenen.
+
+635
+00:31:04,235 --> 00:31:06,368
+Ja, graag.
+
+636
+00:31:06,391 --> 00:31:11,125
+Vanaf morgen starten we met nieuwe lattes.
+
+637
+00:31:11,148 --> 00:31:14,714
+Groene-theelatte en karamellatte.
+
+638
+00:31:14,737 --> 00:31:17,771
+Ze zien er allebei heerlijk uit!
+
+639
+00:31:17,794 --> 00:31:20,927
+Is het moeilijk om te maken?
+
+640
+00:31:20,950 --> 00:31:23,750
+Nee hoor, helemaal niet.
+
+641
+00:31:23,773 --> 00:31:27,773
+Laten we beginnen met de karamellatte.
+
+642
+00:31:27,796 --> 00:31:31,929
+Oké, ik pak een kopje.
+
+643
+00:31:31,952 --> 00:31:36,204
+Doe 15 gram karamelsiroop erin.
+
+644
+00:31:36,227 --> 00:31:39,044
+Meet het goed af met een lepel.
+
+645
+00:31:39,068 --> 00:31:41,868
+15 gram, toch?
+
+646
+00:31:41,891 --> 00:31:44,425
+De siroop is erin.
+
+647
+00:31:44,448 --> 00:31:48,814
+Voeg nu de espresso toe.
+
+648
+00:31:48,837 --> 00:31:51,471
+Druk één keer op de knop.
+
+649
+00:31:51,494 --> 00:31:54,761
+De espresso gaat erin.
+
+650
+00:31:54,784 --> 00:31:57,718
+Wat ruikt dat lekker!
+
+651
+00:31:57,741 --> 00:32:01,478
+Daarna verwarmen we de melk.
+
+652
+00:32:01,501 --> 00:32:05,747
+Klop het schuim fijn met stoom.
+
+653
+00:32:05,771 --> 00:32:08,811
+Hoe warm moet de melk zijn?
+
+654
+00:32:08,834 --> 00:32:12,319
+65 graden is perfect.
+
+655
+00:32:12,343 --> 00:32:15,810
+Als het te heet is, smaakt het niet lekker.
+
+656
+00:32:15,833 --> 00:32:17,966
+Begrepen.
+
+657
+00:32:17,989 --> 00:32:21,088
+We hebben het verwarmd tot 65 graden.
+
+658
+00:32:21,111 --> 00:32:24,547
+Giet de melk er voorzichtig bij.
+
+659
+00:32:24,571 --> 00:32:28,804
+Giet de karamelsaus er tot slot overheen.
+
+660
+00:32:28,827 --> 00:32:30,594
+Klaar!
+
+661
+00:32:30,617 --> 00:32:32,954
+Mooi geworden!
+
+662
+00:32:32,977 --> 00:32:35,344
+Hoe smaakt het?
+
+663
+00:32:35,367 --> 00:32:38,767
+Heel zoet en lekker!
+
+664
+00:32:38,790 --> 00:32:42,057
+Nu maken we een matcha latte.
+
+665
+00:32:42,080 --> 00:32:46,713
+Los het matchapoeder goed op in heet water, hè?
+
+666
+00:32:46,736 --> 00:32:48,269
+Ja.
+
+667
+00:32:48,292 --> 00:32:50,959
+Goed roeren.
+
+668
+00:32:50,982 --> 00:32:52,482
+Scène 17: Zoeken naar verloren voorwerpen / Hoe verloren voorwerpen te vinden
+
+669
+00:32:52,482 --> 00:32:54,415
+Welkom.
+
+670
+00:32:54,438 --> 00:32:56,405
+Hallo.
+
+671
+00:32:56,428 --> 00:32:58,280
+Pardon.
+
+672
+00:32:58,303 --> 00:33:01,313
+Ik ben op zoek naar iets dat ik ben vergeten.
+
+673
+00:33:01,337 --> 00:33:04,142
+Iets vergeten, zegt u?
+
+674
+00:33:04,165 --> 00:33:08,165
+Bent u vandaag hier geweest?
+
+675
+00:33:08,188 --> 00:33:09,963
+Ja.
+
+676
+00:33:09,987 --> 00:33:14,120
+Ik was hier rond half één vanmiddag.
+
+677
+00:33:14,143 --> 00:33:16,149
+Begrepen.
+
+678
+00:33:16,173 --> 00:33:19,506
+Aan welke tafel zat u?
+
+679
+00:33:19,529 --> 00:33:23,605
+Aan het tafeltje bij het raam achterin.
+
+680
+00:33:23,628 --> 00:33:27,228
+Ik heb het op de tafel laten liggen.
+
+681
+00:33:27,251 --> 00:33:31,384
+Wat hebt u laten liggen?
+
+682
+00:33:31,407 --> 00:33:36,262
+Een zwarte opvouwbare paraplu en een klein tasje.
+
+683
+00:33:36,286 --> 00:33:39,087
+Kunt u dat wat gedetailleerder beschrijven?
+
+684
+00:33:39,110 --> 00:33:42,577
+Hoe ziet de paraplu eruit?
+
+685
+00:33:42,600 --> 00:33:46,733
+Het is een kleine, zwarte opvouwbare paraplu.
+
+686
+00:33:46,756 --> 00:33:50,495
+Er zit een blauw stickertje op het handvat.
+
+687
+00:33:50,518 --> 00:33:54,252
+Hoe ziet de tas eruit?
+
+688
+00:33:54,275 --> 00:33:57,935
+Het is een bruin leren tasje.
+
+689
+00:33:57,958 --> 00:34:00,451
+Er zitten twee zakjes aan.
+
+690
+00:34:00,474 --> 00:34:02,722
+Begrepen.
+
+691
+00:34:02,746 --> 00:34:06,583
+Ik ga even kijken in de opslag achterin.
+
+692
+00:34:06,606 --> 00:34:09,039
+Een ogenblik geduld, alstublieft.
+
+693
+00:34:09,062 --> 00:34:10,747
+Ja.
+
+694
+00:34:10,770 --> 00:34:13,041
+Alvast bedankt.
+
+695
+00:34:13,065 --> 00:34:15,498
+Sorry voor het wachten.
+
+696
+00:34:15,521 --> 00:34:17,795
+Is dit het?
+
+697
+00:34:17,818 --> 00:34:19,955
+Ja, dat klopt!
+
+698
+00:34:19,979 --> 00:34:22,983
+Dat is mijn paraplu en tas!
+
+699
+00:34:23,006 --> 00:34:25,740
+Heel erg bedankt!
+
+700
+00:34:25,763 --> 00:34:28,129
+Gelukkig maar.
+
+701
+00:34:28,152 --> 00:34:32,219
+Voor de bevestiging, mag ik uw naam?
+
+702
+00:34:32,242 --> 00:34:34,861
+Tanaka.
+
+703
+00:34:34,885 --> 00:34:37,218
+Kenta Tanaka.
+
+704
+00:34:37,241 --> 00:34:39,808
+Meneer Tanaka, toch?
+
+705
+00:34:39,831 --> 00:34:43,398
+Wilt u hier uw naam opschrijven?
+
+706
+00:34:43,421 --> 00:34:45,354
+Ja.
+
+707
+00:34:45,377 --> 00:34:47,235
+Ik heb het opgeschreven.
+
+708
+00:34:47,259 --> 00:34:48,937
+Dank u wel.
+
+709
+00:34:48,961 --> 00:34:51,894
+Ik geef u uw verloren voorwerpen terug.
+
+710
+00:34:51,917 --> 00:34:54,093
+Dat scheelt een hoop gedoe!
+
+711
+00:34:54,117 --> 00:34:57,090
+Heel erg bedankt!
+
+712
+00:34:57,114 --> 00:35:01,651
+Graag gedaan, we hopen u snel weer te zien.
+
+713
+00:35:01,675 --> 00:35:03,175
+Scène 18: Verlofaanvraag voor een belangrijke test / Verzoek om verlof vanwege een belangrijke toets
+
+714
+00:35:03,175 --> 00:35:05,655
+Goed werk vandaag.
+
+715
+00:35:05,679 --> 00:35:09,279
+Heb je even tijd?
+
+716
+00:35:09,302 --> 00:35:11,868
+Goed werk vandaag.
+
+717
+00:35:11,891 --> 00:35:14,925
+Ja, natuurlijk.
+
+718
+00:35:14,947 --> 00:35:18,200
+Ik wil eigenlijk iets met je bespreken.
+
+719
+00:35:18,224 --> 00:35:21,990
+Het gaat over aanstaande zaterdag.
+
+720
+00:35:22,013 --> 00:35:25,147
+Aanstaande zaterdag, zeg je?
+
+721
+00:35:25,170 --> 00:35:27,446
+Wat is er aan de hand?
+
+722
+00:35:27,469 --> 00:35:31,802
+Volgende week zaterdag heb ik een toets.
+
+723
+00:35:31,825 --> 00:35:35,281
+Het is een belangrijke toets voor de universiteit.
+
+724
+00:35:35,305 --> 00:35:37,485
+O, is dat zo?
+
+725
+00:35:37,508 --> 00:35:40,041
+Toetsen zijn altijd zwaar, hè?
+
+726
+00:35:40,064 --> 00:35:41,998
+Ja.
+
+727
+00:35:42,021 --> 00:35:46,319
+Daarom wil ik graag vrij nemen van mijn werk.
+
+728
+00:35:46,342 --> 00:35:48,217
+Begrepen.
+
+729
+00:35:48,241 --> 00:35:51,974
+Ik heb zaterdag tijd, hoor.
+
+730
+00:35:51,997 --> 00:35:54,164
+Echt waar?
+
+731
+00:35:54,187 --> 00:35:58,477
+Zou je voor mij in kunnen vallen?
+
+732
+00:35:58,500 --> 00:36:01,700
+Ja, natuurlijk!
+
+733
+00:36:01,723 --> 00:36:04,132
+Ik werk zaterdag wel.
+
+734
+00:36:04,156 --> 00:36:07,043
+Heel erg bedankt!
+
+735
+00:36:07,067 --> 00:36:09,400
+Dat helpt me enorm!
+
+736
+00:36:09,423 --> 00:36:13,482
+Nee, geen dank!
+
+737
+00:36:13,505 --> 00:36:16,605
+Succes met studeren voor je toets!
+
+738
+00:36:16,628 --> 00:36:19,638
+Ja, ik zal mijn best doen!
+
+739
+00:36:19,662 --> 00:36:24,596
+In ruil daarvoor werk ik zondag voor je.
+
+740
+00:36:24,619 --> 00:36:27,285
+Zondag?
+
+741
+00:36:27,308 --> 00:36:31,075
+Dat is mijn dienst op zondag, toch?
+
+742
+00:36:31,098 --> 00:36:32,751
+Ja.
+
+743
+00:36:32,775 --> 00:36:37,741
+Op zondag werk ik in jouw plaats, hoor.
+
+744
+00:36:37,764 --> 00:36:39,531
+Dank u wel.
+
+745
+00:36:39,554 --> 00:36:42,887
+Dan regel ik het voor zondag, graag.
+
+746
+00:36:42,910 --> 00:36:46,444
+Ja, begrepen!
+
+747
+00:36:46,467 --> 00:36:49,435
+Ik zal het ook met de manager bespreken.
+
+748
+00:36:49,458 --> 00:36:52,335
+Ja, bedankt alvast!
+
+749
+00:36:52,358 --> 00:36:55,158
+Je helpt me altijd zo goed.
+
+750
+00:36:55,181 --> 00:36:59,582
+Volgende keer trakteer ik op een lekker sapje!
+
+751
+00:36:59,605 --> 00:37:01,539
+Haha, dank je wel!
+
+752
+00:37:01,562 --> 00:37:04,832
+Zo, laten we onze pauze afronden.
+
+753
+00:37:04,855 --> 00:37:08,855
+Ja, terug aan het werk!
+
+754
+00:37:08,878 --> 00:37:10,378
+Scène 19: Basisprincipes van klantenservice
+
+755
+00:37:10,378 --> 00:37:12,231
+Pardon.
+
+756
+00:37:12,254 --> 00:37:14,295
+Neemt u mij niet kwalijk.
+
+757
+00:37:14,319 --> 00:37:17,253
+Ja, wat kan ik voor u doen?
+
+758
+00:37:17,275 --> 00:37:22,076
+Hartelijk dank dat u altijd bij ons komt.
+
+759
+00:37:22,100 --> 00:37:25,634
+We sluiten bijna, het is bijna 20:00 uur.
+
+760
+00:37:25,657 --> 00:37:29,057
+O, is het al zo laat?
+
+761
+00:37:29,080 --> 00:37:31,113
+Begrepen.
+
+762
+00:37:31,136 --> 00:37:34,936
+Mag ik uw gebruikte kopjes weghalen?
+
+763
+00:37:34,959 --> 00:37:37,492
+Ja, graag.
+
+764
+00:37:37,515 --> 00:37:39,963
+Deze kopjes, toch?
+
+765
+00:37:39,987 --> 00:37:41,787
+Dank u wel.
+
+766
+00:37:41,810 --> 00:37:44,410
+Ik neem ze mee.
+
+767
+00:37:44,433 --> 00:37:47,110
+Neemt u gerust de tijd om uw spullen te pakken.
+
+768
+00:37:47,134 --> 00:37:51,568
+Ja, ik ruim mijn spullen meteen op.
+
+769
+00:37:51,591 --> 00:37:54,558
+U kunt afrekenen bij de kassa.
+
+770
+00:37:54,581 --> 00:37:58,514
+Vandaag kunt u contant of met creditcard betalen.
+
+771
+00:37:58,537 --> 00:38:01,196
+Ik betaal met creditcard.
+
+772
+00:38:01,219 --> 00:38:04,553
+Ik doe eerst mijn jas aan en kom dan naar de kassa.
+
+773
+00:38:04,576 --> 00:38:06,176
+Uiteraard.
+
+774
+00:38:06,199 --> 00:38:08,933
+Ik wacht op u bij de kassa.
+
+775
+00:38:08,956 --> 00:38:10,723
+Pardon.
+
+776
+00:38:10,746 --> 00:38:12,963
+Mag ik afrekenen, alstublieft?
+
+777
+00:38:12,986 --> 00:38:16,961
+Ja, een warme koffie en een stuk taart, toch?
+
+778
+00:38:16,985 --> 00:38:19,918
+Dat is dan in totaal €8,00.
+
+779
+00:38:19,941 --> 00:38:21,874
+Ik betaal met de kaart.
+
+780
+00:38:21,897 --> 00:38:24,331
+Ik neem uw kaart even aan.
+
+781
+00:38:24,354 --> 00:38:27,052
+Wilt u in één keer betalen?
+
+782
+00:38:27,076 --> 00:38:30,443
+Ja, graag in één keer.
+
+783
+00:38:30,467 --> 00:38:33,345
+Hier is uw bonnetje en uw kaart terug.
+
+784
+00:38:33,368 --> 00:38:35,535
+Controleer dit alstublieft.
+
+785
+00:38:35,558 --> 00:38:37,326
+Dank u wel.
+
+786
+00:38:37,349 --> 00:38:40,205
+Dat was echt een heerlijke koffie.
+
+787
+00:38:40,229 --> 00:38:41,766
+Dank u wel.
+
+788
+00:38:41,790 --> 00:38:44,757
+Wat fijn dat u dat zegt.
+
+789
+00:38:44,780 --> 00:38:48,980
+Het is vanavond erg koud, dus wees voorzichtig.
+
+790
+00:38:49,003 --> 00:38:50,848
+Dank u wel.
+
+791
+00:38:50,871 --> 00:38:53,038
+Ik kom zeker nog eens terug.
+
+792
+00:38:53,061 --> 00:38:54,718
+Dank u wel.
+
+793
+00:38:54,742 --> 00:38:58,775
+We kijken er echt naar uit u weer te mogen verwelkomen.
+
+794
+00:38:58,798 --> 00:39:01,365
+Fijne avond nog.
+
+795
+00:39:01,388 --> 00:39:04,032
+Fijne avond nog.
+
+796
+00:39:04,055 --> 00:39:05,555
+Scène 20: Afsluiten en de dagomzet tellen
+
+797
+00:39:05,555 --> 00:39:08,394
+Goed werk vandaag.
+
+798
+00:39:08,417 --> 00:39:11,550
+Heb je de winkeldeur op slot gedaan?
+
+799
+00:39:11,573 --> 00:39:14,252
+Ja, die is op slot.
+
+800
+00:39:14,276 --> 00:39:18,409
+Het uithangbord buiten heb ik ook naar binnen gehaald.
+
+801
+00:39:18,432 --> 00:39:20,286
+Bedankt!
+
+802
+00:39:20,310 --> 00:39:24,545
+Laten we dan nu het geld in de kassa tellen.
+
+803
+00:39:24,568 --> 00:39:28,020
+Ja, ik tel het wel.
+
+804
+00:39:28,044 --> 00:39:31,977
+Er zijn twintig briefjes van duizend yen.
+
+805
+00:39:32,000 --> 00:39:35,659
+Hoeveel briefjes van vijfduizend yen zijn er?
+
+806
+00:39:35,683 --> 00:39:39,250
+Er zijn vier briefjes van vijfduizend yen.
+
+807
+00:39:39,273 --> 00:39:43,075
+Zes briefjes van tienduizend yen, toch?
+
+808
+00:39:43,098 --> 00:39:45,532
+Ik heb het kleingeld ook geteld.
+
+809
+00:39:45,555 --> 00:39:48,488
+Wat is de omzet van vandaag?
+
+810
+00:39:48,511 --> 00:39:51,678
+Tien miljoen yen.
+
+811
+00:39:51,701 --> 00:39:54,120
+Geweldig!
+
+812
+00:39:54,143 --> 00:39:57,279
+Het klopt met het bedrag in de kassa.
+
+813
+00:39:57,302 --> 00:39:59,240
+Gelukkig maar.
+
+814
+00:39:59,264 --> 00:40:02,330
+Zullen we nu het afval buitenzetten?
+
+815
+00:40:02,353 --> 00:40:04,410
+Ja, graag.
+
+816
+00:40:04,434 --> 00:40:07,967
+Haal de vuilniszakken uit de keuken bij elkaar, alsjeblieft.
+
+817
+00:40:07,990 --> 00:40:09,842
+Begrepen.
+
+818
+00:40:09,865 --> 00:40:13,151
+Ik breng ze naar de vuilnisplaats achter het gebouw.
+
+819
+00:40:13,174 --> 00:40:16,642
+Ik schrijf even iets in het notitieboek.
+
+820
+00:40:16,666 --> 00:40:20,099
+Ik neem morgenochtend contact op met het personeel.
+
+821
+00:40:20,122 --> 00:40:22,356
+Wat schrijf je op?
+
+822
+00:40:22,380 --> 00:40:26,350
+Ik schrijf dat de melk bijna op is.
+
+823
+00:40:26,374 --> 00:40:32,007
+Ik zeg dat ze morgenochtend nieuwe melk moeten kopen.
+
+824
+00:40:32,030 --> 00:40:34,597
+Dat is belangrijk, ja.
+
+825
+00:40:34,620 --> 00:40:37,293
+Het afval buitenzetten is klaar.
+
+826
+00:40:37,316 --> 00:40:40,329
+Doe het licht en de airco uit, alsjeblieft.
+
+827
+00:40:40,353 --> 00:40:42,753
+Ja, ik heb ze uitgezet.
+
+828
+00:40:42,776 --> 00:40:45,634
+Is er niets vergeten?
+
+829
+00:40:45,657 --> 00:40:48,590
+Ja, alles is in orde.
+
+830
+00:40:48,613 --> 00:40:50,981
+Dan gaan we naar huis.
+
+831
+00:40:51,005 --> 00:40:54,343
+Bedankt voor jullie harde werk vandaag.
+
+832
+00:40:54,366 --> 00:40:56,700
+Goed gedaan!
+
+833
+00:40:56,723 --> 00:40:59,656
+Ik ga alvast, tot morgen.
