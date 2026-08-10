@@ -1,0 +1,6200 @@
+1
+00:00:00,000 --> 00:00:10,008
+Bugünün videosu ne hakkında? Disneyland randevusu.
+
+2
+00:00:10,008 --> 00:00:11,508
+Sahne 1: Disneyland Planı / Disneyland Gezisi Planlamak
+
+3
+00:00:11,508 --> 00:00:13,286
+Alo.
+
+4
+00:00:13,309 --> 00:00:14,743
+Alo.
+
+5
+00:00:14,766 --> 00:00:17,699
+Şu an vaktin var mı?
+
+6
+00:00:17,722 --> 00:00:19,955
+Evet, sorun yok.
+
+7
+00:00:19,978 --> 00:00:23,212
+Gelecek pazar günü izinli misin?
+
+8
+00:00:23,234 --> 00:00:25,371
+Evet, izinliyim.
+
+9
+00:00:25,395 --> 00:00:28,728
+Birlikte Disneyland'a gitmeye ne dersin?
+
+10
+00:00:28,751 --> 00:00:30,951
+Disneyland mı?
+
+11
+00:00:30,974 --> 00:00:32,633
+Harika olur!
+
+12
+00:00:32,657 --> 00:00:35,938
+Hep gitmek istiyordum.
+
+13
+00:00:35,962 --> 00:00:38,851
+Ben de gitmek istiyordum.
+
+14
+00:00:38,874 --> 00:00:40,880
+Gerçekten mi?
+
+15
+00:00:40,904 --> 00:00:42,670
+Çok sevindim.
+
+16
+00:00:42,693 --> 00:00:45,701
+Pazar günü hava güzel olacakmış.
+
+17
+00:00:45,725 --> 00:00:47,858
+Bu iyi oldu.
+
+18
+00:00:47,881 --> 00:00:50,898
+Disneyland'a ilk kez mi gidiyorsun?
+
+19
+00:00:50,922 --> 00:00:54,405
+Hayır, çocukken gitmiştim.
+
+20
+00:00:54,428 --> 00:00:55,961
+Anladım.
+
+21
+00:00:55,984 --> 00:00:58,562
+Ben ilk kez gidiyorum.
+
+22
+00:00:58,586 --> 00:01:00,856
+Gerçekten mi? Şaşırdım!
+
+23
+00:01:00,880 --> 00:01:04,213
+Evet, çok heyecanlıyım.
+
+24
+00:01:04,236 --> 00:01:07,919
+Sabah erken kalkabilir misin?
+
+25
+00:01:07,943 --> 00:01:10,745
+Evet, sorun yok.
+
+26
+00:01:10,768 --> 00:01:13,101
+Saat kaçta buluşalım?
+
+27
+00:01:13,124 --> 00:01:15,775
+Saat sekizde istasyonda buluşalım.
+
+28
+00:01:15,798 --> 00:01:17,565
+Tamam.
+
+29
+00:01:17,588 --> 00:01:19,360
+Saat sekizde, değil mi?
+
+30
+00:01:19,383 --> 00:01:22,250
+Biletleri ben alacağım.
+
+31
+00:01:22,273 --> 00:01:23,840
+Teşekkür ederim.
+
+32
+00:01:23,863 --> 00:01:26,663
+Parayı sonra öderim.
+
+33
+00:01:26,686 --> 00:01:28,886
+Evet, sorun yok.
+
+34
+00:01:28,909 --> 00:01:31,147
+Ne tür kıyafetler giysem iyi olur?
+
+35
+00:01:31,170 --> 00:01:34,904
+Çok yürüyeceğiz, spor ayakkabı giymek iyi olur.
+
+36
+00:01:34,927 --> 00:01:36,542
+Tamam.
+
+37
+00:01:36,566 --> 00:01:38,699
+Spor ayakkabı giyeceğim.
+
+38
+00:01:38,722 --> 00:01:41,592
+Öğle yemeğini içeride yiyelim.
+
+39
+00:01:41,615 --> 00:01:45,349
+Evet, lezzetli bir şeyler yemek istiyorum.
+
+40
+00:01:45,372 --> 00:01:47,790
+O zaman, haftaya görüşürüz.
+
+41
+00:01:47,813 --> 00:01:51,013
+Evet, sabırsızlıkla bekliyorum.
+
+42
+00:01:51,036 --> 00:02:00,045
+Bugünkü videonun senaryosunu açıklama bölümünden ve en üstteki yorumdan indirebilirsiniz. İndirmeden önce yorum yapmayı unutmayın.
+
+43
+00:02:00,045 --> 00:02:01,545
+Sahne 2: Sabah Selamlaşmaları ve Sohbet / Sabah Selamlaşmaları ve Konuşmalar
+
+44
+00:02:01,545 --> 00:02:03,789
+Günaydın.
+
+45
+00:02:03,813 --> 00:02:05,902
+Günaydın.
+
+46
+00:02:05,925 --> 00:02:07,925
+Erken gelmişsin.
+
+47
+00:02:07,948 --> 00:02:12,960
+Evet, çok heyecanlıydım, erken kalktım.
+
+48
+00:02:12,984 --> 00:02:14,951
+Ben de öyle.
+
+49
+00:02:14,974 --> 00:02:17,540
+Bugün hava çok güzel, değil mi?
+
+50
+00:02:17,563 --> 00:02:21,248
+Evet, hiç bulut yok.
+
+51
+00:02:21,272 --> 00:02:24,805
+Kıyafetin çok yakışmış.
+
+52
+00:02:24,828 --> 00:02:27,008
+Teşekkür ederim.
+
+53
+00:02:27,031 --> 00:02:29,865
+Biraz utandım.
+
+54
+00:02:29,888 --> 00:02:32,537
+Çok şık görünüyorsun.
+
+55
+00:02:32,560 --> 00:02:34,293
+Teşekkür ederim.
+
+56
+00:02:34,316 --> 00:02:37,451
+O elbise de çok güzel.
+
+57
+00:02:37,475 --> 00:02:39,708
+Gerçekten mi?
+
+58
+00:02:39,731 --> 00:02:41,665
+Çok sevindim.
+
+59
+00:02:41,687 --> 00:02:44,554
+Hadi, gidelim mi?
+
+60
+00:02:44,577 --> 00:02:45,645
+Evet.
+
+61
+00:02:45,668 --> 00:02:49,286
+Ah, monorayla mı gideceğiz?
+
+62
+00:02:49,309 --> 00:02:52,076
+Yürüyerek de gidebilir miyiz?
+
+63
+00:02:52,099 --> 00:02:53,466
+Evet.
+
+64
+00:02:53,489 --> 00:02:56,122
+Yürüyerek yaklaşık on dakika sürer.
+
+65
+00:02:56,146 --> 00:02:58,979
+O zaman yürüyelim.
+
+66
+00:02:59,002 --> 00:03:00,537
+Evet, öyle yapalım.
+
+67
+00:03:00,561 --> 00:03:03,133
+Manzarayı görmek istiyorum.
+
+68
+00:03:03,157 --> 00:03:05,890
+Çok insan var, değil mi?
+
+69
+00:03:05,913 --> 00:03:07,313
+Evet.
+
+70
+00:03:07,336 --> 00:03:10,102
+Bugün pazar da ondan.
+
+71
+00:03:10,125 --> 00:03:12,975
+Yabancılar da çok fazla.
+
+72
+00:03:12,999 --> 00:03:14,799
+Evet, öyle yapalım.
+
+73
+00:03:14,822 --> 00:03:17,305
+Herkes çok eğleniyor gibi.
+
+74
+00:03:17,329 --> 00:03:20,067
+Müzik sesi geliyor.
+
+75
+00:03:20,090 --> 00:03:22,459
+Disney müziği galiba.
+
+76
+00:03:22,482 --> 00:03:24,449
+Heyecanlanıyorum!
+
+77
+00:03:24,472 --> 00:03:25,905
+Evet.
+
+78
+00:03:25,928 --> 00:03:28,406
+Bir an önce girmek istiyorum.
+
+79
+00:03:28,429 --> 00:03:31,202
+Bagajın ağır değil mi?
+
+80
+00:03:31,225 --> 00:03:33,282
+Sorun değil.
+
+81
+00:03:33,306 --> 00:03:34,840
+Hafif.
+
+82
+00:03:34,864 --> 00:03:38,231
+Çantamda su var.
+
+83
+00:03:38,254 --> 00:03:40,233
+Teşekkür ederim.
+
+84
+00:03:40,256 --> 00:03:42,309
+Sonra içerim.
+
+85
+00:03:42,332 --> 00:03:45,581
+Ah, giriş görünüyor!
+
+86
+00:03:45,605 --> 00:03:47,621
+Gerçekten!
+
+87
+00:03:47,644 --> 00:03:49,411
+Çok büyük!
+
+88
+00:03:49,434 --> 00:03:51,401
+Hadi acele edelim.
+
+89
+00:03:51,424 --> 00:03:52,790
+Evet.
+
+90
+00:03:52,813 --> 00:03:54,547
+Gidelim!
+
+91
+00:03:54,569 --> 00:04:01,675
+Bugünkü videonun tekrarını yapabileceğiniz sitenin linki açıklama bölümünde ve en üst yorumda bulunuyor. *Site önceden haber verilmeden kaldırılabilir.
+
+92
+00:04:01,675 --> 00:04:03,175
+Sahne 3: Tematik Park Girişi / Bir Tematik Parka Giriş
+
+93
+00:04:03,175 --> 00:04:06,347
+Biletimizi çıkaralım.
+
+94
+00:04:06,371 --> 00:04:08,244
+Evet, lütfen.
+
+95
+00:04:08,268 --> 00:04:12,537
+Bunu telefon ekranında göstereceğim.
+
+96
+00:04:12,560 --> 00:04:14,419
+Ne kadar pratik!
+
+97
+00:04:14,442 --> 00:04:16,009
+Evet.
+
+98
+00:04:16,032 --> 00:04:17,877
+Ah, girdik!
+
+99
+00:04:17,900 --> 00:04:21,187
+Vay canına, harika!
+
+100
+00:04:21,211 --> 00:04:24,777
+Binalar çok güzel.
+
+101
+00:04:24,800 --> 00:04:26,600
+Gerçekten öyle.
+
+102
+00:04:26,623 --> 00:04:28,720
+Film gibi!
+
+103
+00:04:28,744 --> 00:04:31,978
+Önce nereye gitmek istersin?
+
+104
+00:04:32,001 --> 00:04:34,867
+Pek bilmiyorum.
+
+105
+00:04:34,890 --> 00:04:37,770
+O zaman haritaya bakalım.
+
+106
+00:04:37,794 --> 00:04:40,927
+Çok fazla atraksiyon var!
+
+107
+00:04:40,950 --> 00:04:44,792
+Evet, hız trenlerini sever misin?
+
+108
+00:04:44,816 --> 00:04:47,555
+Evet, çok severim.
+
+109
+00:04:47,579 --> 00:04:49,638
+Hızlı olanlar iyi.
+
+110
+00:04:49,661 --> 00:04:52,639
+O zaman şu dağa gidelim.
+
+111
+00:04:52,663 --> 00:04:55,229
+Şu büyük dağ mı?
+
+112
+00:04:55,252 --> 00:04:58,948
+Evet, çok popüler.
+
+113
+00:04:58,972 --> 00:05:01,863
+Bekleme süresi ne kadar?
+
+114
+00:05:01,886 --> 00:05:04,498
+Uygulamadan bakayım.
+
+115
+00:05:04,522 --> 00:05:06,198
+Lütfen.
+
+116
+00:05:06,221 --> 00:05:09,679
+Şu an yaklaşık 40 dakika.
+
+117
+00:05:09,702 --> 00:05:11,749
+40 dakika, değil mi?
+
+118
+00:05:11,773 --> 00:05:13,706
+Sorun değil.
+
+119
+00:05:13,729 --> 00:05:15,948
+O zaman gidelim.
+
+120
+00:05:15,972 --> 00:05:19,005
+Ah, karakterler var!
+
+121
+00:05:19,028 --> 00:05:21,118
+Gerçekten!
+
+122
+00:05:21,141 --> 00:05:23,175
+Fotoğraf çekelim mi?
+
+123
+00:05:23,198 --> 00:05:25,531
+Sonra çekeriz.
+
+124
+00:05:25,554 --> 00:05:26,887
+Evet, öyle yapalım.
+
+125
+00:05:26,910 --> 00:05:29,277
+Önce gidelim.
+
+126
+00:05:29,300 --> 00:05:31,900
+İçerisi çok genişmiş.
+
+127
+00:05:31,923 --> 00:05:33,356
+Evet.
+
+128
+00:05:33,379 --> 00:05:36,413
+Kaybolmayın sakın.
+
+129
+00:05:36,436 --> 00:05:38,102
+Sorun değil.
+
+130
+00:05:38,125 --> 00:05:40,258
+El ele tutuşalım mı?
+
+131
+00:05:40,281 --> 00:05:42,448
+E-evet.
+
+132
+00:05:42,471 --> 00:05:44,510
+Biraz utanıyorum ama.
+
+133
+00:05:44,533 --> 00:05:46,033
+Sahne 4: Şapka Seçimi
+
+134
+00:05:46,033 --> 00:05:49,200
+Bu dükkâna girelim mi?
+
+135
+00:05:49,223 --> 00:05:50,790
+Harika olur!
+
+136
+00:05:50,813 --> 00:05:53,855
+Çok şapka var!
+
+137
+00:05:53,878 --> 00:05:57,844
+Herkes çok tatlı şapkalar takmış.
+
+138
+00:05:57,867 --> 00:06:00,334
+Biz de alalım.
+
+139
+00:06:00,357 --> 00:06:03,693
+Ben şapka takmam ki.
+
+140
+00:06:03,716 --> 00:06:07,050
+Ama hadi birlikte takalım!
+
+141
+00:06:07,073 --> 00:06:09,288
+Utanıyorum.
+
+142
+00:06:09,312 --> 00:06:12,961
+Bugün özel bir gün, sorun değil.
+
+143
+00:06:12,984 --> 00:06:14,665
+Peki, tamam.
+
+144
+00:06:14,688 --> 00:06:16,655
+Hangisi güzel?
+
+145
+00:06:16,678 --> 00:06:18,845
+Bu nasıl?
+
+146
+00:06:18,868 --> 00:06:22,234
+Onun kulakları çok büyük.
+
+147
+00:06:22,257 --> 00:06:24,350
+Anladım.
+
+148
+00:06:24,374 --> 00:06:26,140
+Peki, bu?
+
+149
+00:06:26,163 --> 00:06:29,397
+Ah, bu iyi görünüyor.
+
+150
+00:06:29,420 --> 00:06:31,918
+Farklı renklerden alalım.
+
+151
+00:06:31,941 --> 00:06:34,359
+Ben siyahı tercih ederim.
+
+152
+00:06:34,383 --> 00:06:37,116
+O zaman ben kırmızı alırım.
+
+153
+00:06:37,139 --> 00:06:39,672
+Biraz deneyeyim.
+
+154
+00:06:39,695 --> 00:06:41,295
+Nasıl oldu?
+
+155
+00:06:41,318 --> 00:06:43,952
+Çok yakıştı!
+
+156
+00:06:43,975 --> 00:06:45,508
+Harika görünüyorsun.
+
+157
+00:06:45,531 --> 00:06:47,464
+Gerçekten mi?
+
+158
+00:06:47,487 --> 00:06:50,461
+Biraz tuhaf değil mi?
+
+159
+00:06:50,484 --> 00:06:53,061
+Hiç tuhaf değil.
+
+160
+00:06:53,085 --> 00:06:55,382
+O zaman bunu alıyorum.
+
+161
+00:06:55,406 --> 00:06:57,806
+Ben de bunu alacağım.
+
+162
+00:06:57,829 --> 00:07:00,162
+Ben ikisini de alacağım.
+
+163
+00:07:00,185 --> 00:07:02,785
+Yok, olur mu öyle şey!
+
+164
+00:07:02,808 --> 00:07:05,441
+Kendi paramla öderim.
+
+165
+00:07:05,464 --> 00:07:08,102
+Hayır, hediye ediyorum.
+
+166
+00:07:08,125 --> 00:07:10,092
+Gerçekten mi?
+
+167
+00:07:10,115 --> 00:07:12,115
+Teşekkür ederim.
+
+168
+00:07:12,138 --> 00:07:14,538
+Kasa nerede?
+
+169
+00:07:14,561 --> 00:07:16,376
+Şurada.
+
+170
+00:07:16,400 --> 00:07:18,966
+Biraz sıra var.
+
+171
+00:07:18,989 --> 00:07:20,840
+Sıraya girelim.
+
+172
+00:07:20,863 --> 00:07:22,597
+Çok sevindim.
+
+173
+00:07:22,620 --> 00:07:25,157
+Hep saklayacağım.
+
+174
+00:07:25,180 --> 00:07:26,680
+Sahne 5: Bekleme Süresini Değerlendirme
+
+175
+00:07:26,680 --> 00:07:31,146
+Buradan itibaren 40 dakika sıra bekleyeceğiz.
+
+176
+00:07:31,169 --> 00:07:33,969
+Epey uzunmuş.
+
+177
+00:07:33,992 --> 00:07:36,288
+Evet, öyle yapalım.
+
+178
+00:07:36,311 --> 00:07:39,111
+Yorulmadın mı?
+
+179
+00:07:39,134 --> 00:07:42,068
+Hâlâ iyiyim.
+
+180
+00:07:42,091 --> 00:07:43,569
+İyiyim.
+
+181
+00:07:43,592 --> 00:07:46,487
+Susadın mı?
+
+182
+00:07:46,511 --> 00:07:50,591
+Hayır, biraz sıcak oldu.
+
+183
+00:07:50,614 --> 00:07:52,447
+Evet.
+
+184
+00:07:52,471 --> 00:07:55,604
+Ah, bir vantilatör var.
+
+185
+00:07:55,627 --> 00:07:58,317
+Serinledi, değil mi?
+
+186
+00:07:58,340 --> 00:08:02,307
+Disney filmlerini sık izler misin?
+
+187
+00:08:02,330 --> 00:08:03,963
+Evet.
+
+188
+00:08:03,986 --> 00:08:07,153
+Eskiden sık izlerdim.
+
+189
+00:08:07,176 --> 00:08:10,674
+En sevdiğin film hangisi?
+
+190
+00:08:10,698 --> 00:08:14,231
+Aslan filmini seviyorum.
+
+191
+00:08:14,254 --> 00:08:18,273
+Ah, o çok eğlenceli.
+
+192
+00:08:18,296 --> 00:08:20,229
+Evet.
+
+193
+00:08:20,252 --> 00:08:23,786
+Müziği de harika.
+
+194
+00:08:23,809 --> 00:08:25,942
+Evet, öyle yapalım.
+
+195
+00:08:25,965 --> 00:08:28,406
+Ben de seviyorum.
+
+196
+00:08:28,429 --> 00:08:31,119
+Sen hangi filmleri seversin?
+
+197
+00:08:31,143 --> 00:08:35,610
+Ben prenses filmlerini severim.
+
+198
+00:08:35,633 --> 00:08:38,466
+Elbiseleri çok güzel, değil mi?
+
+199
+00:08:38,489 --> 00:08:40,422
+Evet.
+
+200
+00:08:40,445 --> 00:08:43,979
+Çocukken çok imrenirdim.
+
+201
+00:08:44,002 --> 00:08:47,768
+Şimdi de sana yakışır diye düşünüyorum.
+
+202
+00:08:47,791 --> 00:08:50,258
+Öyle bir şey yok.
+
+203
+00:08:50,281 --> 00:08:52,254
+Utanıyorum.
+
+204
+00:08:52,278 --> 00:08:54,878
+Gerçekten öyle.
+
+205
+00:08:54,901 --> 00:08:56,717
+Teşekkür ederim.
+
+206
+00:08:56,740 --> 00:09:00,074
+Sıra biraz ilerledi.
+
+207
+00:09:00,096 --> 00:09:01,663
+Evet.
+
+208
+00:09:01,686 --> 00:09:04,086
+Artık çok az kaldı.
+
+209
+00:09:04,109 --> 00:09:08,083
+İçeriden çığlık sesleri geliyor.
+
+210
+00:09:08,106 --> 00:09:09,981
+Korkuyor musun?
+
+211
+00:09:10,005 --> 00:09:13,616
+Hayır, heyecanlanıyorum.
+
+212
+00:09:13,640 --> 00:09:16,373
+Ben de öyle.
+
+213
+00:09:16,396 --> 00:09:18,329
+Çok heyecan verici, değil mi?
+
+214
+00:09:18,352 --> 00:09:20,003
+Evet.
+
+215
+00:09:20,027 --> 00:09:23,230
+İyi tutunun lütfen.
+
+216
+00:09:23,254 --> 00:09:24,754
+6. Sahne: Dinlenme ve İlgi / Dinlenme ve Düşünme
+
+217
+00:09:24,754 --> 00:09:27,920
+Biraz yorulduk, değil mi?
+
+218
+00:09:27,943 --> 00:09:31,631
+Evet, çok yürüdük çünkü.
+
+219
+00:09:31,655 --> 00:09:34,906
+Şu kafede biraz dinlenelim mi?
+
+220
+00:09:34,930 --> 00:09:36,601
+Harika olur!
+
+221
+00:09:36,624 --> 00:09:39,758
+Soğuk bir şeyler içmek istiyorum.
+
+222
+00:09:39,781 --> 00:09:42,114
+İçeri girelim.
+
+223
+00:09:42,137 --> 00:09:44,787
+Boş yer var.
+
+224
+00:09:44,810 --> 00:09:46,744
+İyi oldu.
+
+225
+00:09:46,767 --> 00:09:48,407
+Oturabiliriz artık.
+
+226
+00:09:48,430 --> 00:09:50,899
+Ayakların ağrımıyor mu?
+
+227
+00:09:50,923 --> 00:09:54,923
+Biraz ağrıyor ama sorun değil.
+
+228
+00:09:54,946 --> 00:09:58,224
+Ben kahve almaya gidiyorum.
+
+229
+00:09:58,247 --> 00:10:00,647
+Ben de seninle geliyorum.
+
+230
+00:10:00,670 --> 00:10:02,842
+Sorun değil.
+
+231
+00:10:02,865 --> 00:10:05,265
+Sen burada dinlen.
+
+232
+00:10:05,288 --> 00:10:07,622
+O zaman rica ediyorum.
+
+233
+00:10:07,645 --> 00:10:10,132
+Ne içmek istersin?
+
+234
+00:10:10,155 --> 00:10:13,189
+Buzlu kahve lütfen.
+
+235
+00:10:13,212 --> 00:10:16,245
+Süt ve şeker ister misin?
+
+236
+00:10:16,268 --> 00:10:19,735
+Evet, biraz koy lütfen.
+
+237
+00:10:19,758 --> 00:10:21,398
+Tamam.
+
+238
+00:10:21,421 --> 00:10:23,912
+Pasta da yer misin?
+
+239
+00:10:23,935 --> 00:10:27,620
+Hayır, sadece içecek yeterli.
+
+240
+00:10:27,644 --> 00:10:29,411
+Tamam.
+
+241
+00:10:29,434 --> 00:10:31,400
+Bekle, hemen geliyorum.
+
+242
+00:10:31,423 --> 00:10:33,557
+Seni beklettim, özür dilerim.
+
+243
+00:10:33,580 --> 00:10:35,260
+Teşekkür ederim.
+
+244
+00:10:35,284 --> 00:10:38,762
+Bu çok soğuk ve lezzetli.
+
+245
+00:10:38,785 --> 00:10:42,043
+Evet, alayım.
+
+246
+00:10:42,067 --> 00:10:45,233
+Ah, çok lezzetli!
+
+247
+00:10:45,256 --> 00:10:47,231
+İyi oldu.
+
+248
+00:10:47,255 --> 00:10:50,622
+Dışarısı çok sıcaktı çünkü.
+
+249
+00:10:50,645 --> 00:10:52,304
+Evet, öyle yapalım.
+
+250
+00:10:52,328 --> 00:10:56,405
+Biraz serin bir yerde dinlenmek istedim.
+
+251
+00:10:56,429 --> 00:10:59,662
+Bundan sonra nereye gideceğiz?
+
+252
+00:10:59,685 --> 00:11:02,085
+Geçit törenini izlemek istiyorum.
+
+253
+00:11:02,108 --> 00:11:04,041
+Saat kaçta başlıyor?
+
+254
+00:11:04,064 --> 00:11:08,131
+Saat 3'te başlıyor, daha vaktimiz var.
+
+255
+00:11:08,154 --> 00:11:12,051
+O zaman biraz dinlendikten sonra gidelim.
+
+256
+00:11:12,075 --> 00:11:13,575
+7. Sahne: Akşam Yemeği İçin Köri Seçimi
+
+257
+00:11:13,575 --> 00:11:16,583
+Acıktım.
+
+258
+00:11:16,606 --> 00:11:20,682
+Evet, saat akşam yediyi geçiyor bile.
+
+259
+00:11:20,705 --> 00:11:23,339
+Hadi yemek yiyelim.
+
+260
+00:11:23,362 --> 00:11:25,895
+Ne yemek istersin?
+
+261
+00:11:25,918 --> 00:11:28,557
+Köri yapsak nasıl olur?
+
+262
+00:11:28,580 --> 00:11:30,634
+Harika olur!
+
+263
+00:11:30,658 --> 00:11:32,897
+Köriyi severim.
+
+264
+00:11:32,920 --> 00:11:36,127
+Şu restorana gidelim.
+
+265
+00:11:36,150 --> 00:11:39,048
+Çok güzel bir restoranmış.
+
+266
+00:11:39,072 --> 00:11:42,638
+Arap havası var.
+
+267
+00:11:42,661 --> 00:11:45,128
+Menüye bakalım.
+
+268
+00:11:45,151 --> 00:11:48,151
+Ben tavuk köri alacağım.
+
+269
+00:11:48,174 --> 00:11:51,642
+Ben de dana eti köri alacağım.
+
+270
+00:11:51,665 --> 00:11:54,199
+Acı seviyesi nasıl olsun?
+
+271
+00:11:54,222 --> 00:11:56,588
+Orta acılı olsun.
+
+272
+00:11:56,611 --> 00:11:59,411
+Ben de orta acılı alayım.
+
+273
+00:11:59,434 --> 00:12:03,201
+Pilav mı yoksa nan mı istersin?
+
+274
+00:12:03,224 --> 00:12:05,463
+Nan istiyorum.
+
+275
+00:12:05,487 --> 00:12:08,154
+Büyük nan severim.
+
+276
+00:12:08,178 --> 00:12:11,544
+O zaman iki tane nan lütfen.
+
+277
+00:12:11,567 --> 00:12:14,601
+Salata da yiyelim mi?
+
+278
+00:12:14,624 --> 00:12:17,403
+Evet, birlikte yiyelim.
+
+279
+00:12:17,426 --> 00:12:19,792
+Yemek geldi!
+
+280
+00:12:19,815 --> 00:12:22,849
+Çok güzel kokuyor.
+
+281
+00:12:22,872 --> 00:12:24,711
+Afiyet olsun.
+
+282
+00:12:24,734 --> 00:12:26,768
+Afiyet olsun.
+
+283
+00:12:26,792 --> 00:12:28,825
+Sıcakmış!
+
+284
+00:12:28,848 --> 00:12:31,928
+Evet, dikkat et.
+
+285
+00:12:31,951 --> 00:12:35,618
+Hmm, çok lezzetli!
+
+286
+00:12:35,641 --> 00:12:37,607
+Gerçekten öyle.
+
+287
+00:12:37,630 --> 00:12:40,485
+Et çok yumuşak.
+
+288
+00:12:40,509 --> 00:12:43,842
+Nan da büyük ve lezzetli.
+
+289
+00:12:43,865 --> 00:12:46,632
+Karnım doydu.
+
+290
+00:12:46,655 --> 00:12:48,892
+Ben de öyle.
+
+291
+00:12:48,916 --> 00:12:51,049
+Elinize sağlık.
+
+292
+00:12:51,072 --> 00:12:52,572
+8. Sahne: Akşam Geçidi ve Kalplerin Sıcaklığı
+
+293
+00:12:52,572 --> 00:12:55,906
+Dışarısı karardı.
+
+294
+00:12:55,929 --> 00:13:00,176
+Evet, geçit töreni yakında başlayacak.
+
+295
+00:13:00,199 --> 00:13:02,489
+Nerede izleyelim?
+
+296
+00:13:02,513 --> 00:13:05,048
+Şurada güzel görünüyor.
+
+297
+00:13:05,071 --> 00:13:06,721
+Gidelim!
+
+298
+00:13:06,744 --> 00:13:09,911
+Biraz kalabalık olmuş.
+
+299
+00:13:09,934 --> 00:13:13,608
+Evet, kaybolmayalım.
+
+300
+00:13:13,631 --> 00:13:16,703
+Elini tutabilir miyim?
+
+301
+00:13:16,727 --> 00:13:19,560
+Evet, lütfen.
+
+302
+00:13:19,583 --> 00:13:22,950
+Biraz serinledi, değil mi?
+
+303
+00:13:22,973 --> 00:13:26,906
+Evet, rüzgar da soğuk.
+
+304
+00:13:26,929 --> 00:13:29,796
+Ceketimi vereyim mi?
+
+305
+00:13:29,819 --> 00:13:32,716
+Gerçekten olur mu?
+
+306
+00:13:32,740 --> 00:13:36,673
+Evet, ben üşümüyorum çünkü.
+
+307
+00:13:36,696 --> 00:13:38,629
+Teşekkür ederim.
+
+308
+00:13:38,652 --> 00:13:40,986
+Çok sıcak.
+
+309
+00:13:41,009 --> 00:13:44,242
+Ah, müzik duyuluyor.
+
+310
+00:13:44,265 --> 00:13:46,548
+Başlıyor!
+
+311
+00:13:46,571 --> 00:13:48,057
+Bakın!
+
+312
+00:13:48,081 --> 00:13:51,916
+Vay, çok güzel!
+
+313
+00:13:51,940 --> 00:13:54,940
+Çok ışık var.
+
+314
+00:13:54,963 --> 00:13:58,138
+O gemi çok büyük, değil mi?
+
+315
+00:13:58,162 --> 00:14:02,528
+Evet, içinde bir sürü karakter var.
+
+316
+00:14:02,551 --> 00:14:05,607
+Herkes el sallıyor!
+
+317
+00:14:05,631 --> 00:14:08,364
+Biz de sallayalım.
+
+318
+00:14:08,387 --> 00:14:10,794
+Çok eğlenceli görünüyor.
+
+319
+00:14:10,817 --> 00:14:14,287
+Evet, rüya gibi.
+
+320
+00:14:14,311 --> 00:14:17,111
+Bugün gelmek çok iyi oldu.
+
+321
+00:14:17,134 --> 00:14:19,370
+Ben de öyle.
+
+322
+00:14:19,393 --> 00:14:21,993
+Davet ettiğin için teşekkürler.
+
+323
+00:14:22,016 --> 00:14:25,183
+Yine birlikte gelmek isterim.
+
+324
+00:14:25,206 --> 00:14:28,739
+Evet, kesinlikle tekrar gelelim.
+
+325
+00:14:28,762 --> 00:14:31,499
+Sürekli izlemek istiyorum.
+
+326
+00:14:31,522 --> 00:14:34,289
+Gerçekten öyle.
+
+327
+00:14:34,312 --> 00:14:35,812
+Sahne 9: Fotoğraf Çektirme Alıştırması / Fotoğraf Çektirmek İçin Nasıl Rica Edilir
+
+328
+00:14:35,812 --> 00:14:39,453
+Işıklandırmalar çok güzel, değil mi?
+
+329
+00:14:39,476 --> 00:14:43,451
+Burada fotoğraf çekelim mi?
+
+330
+00:14:43,475 --> 00:14:46,441
+Evet, çekmek istiyorum.
+
+331
+00:14:46,464 --> 00:14:49,243
+Nasıl çekeceğiz?
+
+332
+00:14:49,266 --> 00:14:52,742
+Birinden rica edelim.
+
+333
+00:14:52,765 --> 00:14:54,299
+Evet, öyle yapalım.
+
+334
+00:14:54,322 --> 00:14:57,288
+Şu kişiye soralım.
+
+335
+00:14:57,311 --> 00:14:59,180
+Lütfen.
+
+336
+00:14:59,204 --> 00:15:03,404
+Affedersiniz, fotoğrafımızı çekebilir misiniz?
+
+337
+00:15:03,427 --> 00:15:06,560
+Bu düğmeye basmanız yeterli.
+
+338
+00:15:06,583 --> 00:15:08,516
+Lütfen.
+
+339
+00:15:08,539 --> 00:15:11,349
+Tamam, peynir deyin!
+
+340
+00:15:11,373 --> 00:15:14,506
+Bir tane daha lütfen.
+
+341
+00:15:14,529 --> 00:15:16,201
+Teşekkür ederim.
+
+342
+00:15:16,225 --> 00:15:19,225
+Fotoğrafı görelim.
+
+343
+00:15:19,248 --> 00:15:21,062
+Nasıl oldu?
+
+344
+00:15:21,086 --> 00:15:23,568
+Güzel çıkmış mı?
+
+345
+00:15:23,591 --> 00:15:27,279
+Evet, çok güzel bir fotoğraf.
+
+346
+00:15:27,303 --> 00:15:30,903
+Kale çok güzel görünüyor.
+
+347
+00:15:30,926 --> 00:15:32,821
+Çok sevindim.
+
+348
+00:15:32,844 --> 00:15:34,577
+Bana gönderir misin?
+
+349
+00:15:34,600 --> 00:15:38,533
+Evet, sonra mesajla atarım.
+
+350
+00:15:38,556 --> 00:15:41,990
+Benim telefonumla da çekelim.
+
+351
+00:15:42,013 --> 00:15:44,220
+Selfie mi?
+
+352
+00:15:44,244 --> 00:15:47,777
+Evet, biraz yaklaşın.
+
+353
+00:15:47,800 --> 00:15:50,375
+Bu kadar mı?
+
+354
+00:15:50,398 --> 00:15:53,999
+Evet, gülümseyin lütfen.
+
+355
+00:15:54,022 --> 00:15:57,304
+Tamam, peynir deyin!
+
+356
+00:15:57,328 --> 00:16:00,421
+Ah, gözlerimi kapattım.
+
+357
+00:16:00,445 --> 00:16:02,326
+Bir daha çekelim.
+
+358
+00:16:02,349 --> 00:16:04,149
+Pardon.
+
+359
+00:16:04,172 --> 00:16:06,839
+Bu sefer oldu.
+
+360
+00:16:06,862 --> 00:16:08,532
+Mükemmel.
+
+361
+00:16:08,555 --> 00:16:11,489
+Bugün güzel bir anı oldu.
+
+362
+00:16:11,512 --> 00:16:15,162
+Evet, bir hazine gibi saklayacağım.
+
+363
+00:16:15,186 --> 00:16:16,686
+Sahne 10: Neşeli Zamanın Sonu
+
+364
+00:16:16,686 --> 00:16:19,569
+Artık dönme vakti geldi.
+
+365
+00:16:19,592 --> 00:16:22,687
+Evet, göz açıp kapayıncaya kadar geçti.
+
+366
+00:16:22,711 --> 00:16:25,145
+Çok eğlendim.
+
+367
+00:16:25,168 --> 00:16:27,060
+Ben de öyle.
+
+368
+00:16:27,084 --> 00:16:29,486
+Bugün teşekkür ederim.
+
+369
+00:16:29,510 --> 00:16:31,878
+Yorulmadın değil mi?
+
+370
+00:16:31,901 --> 00:16:36,001
+Biraz yoruldum ama çok mutluyum.
+
+371
+00:16:36,024 --> 00:16:37,991
+Tren geldi.
+
+372
+00:16:38,014 --> 00:16:39,547
+Binelim.
+
+373
+00:16:39,570 --> 00:16:41,437
+Oturabiliriz.
+
+374
+00:16:41,460 --> 00:16:43,027
+İyi oldu.
+
+375
+00:16:43,050 --> 00:16:45,495
+Ayaklarını dinlendir.
+
+376
+00:16:45,518 --> 00:16:48,718
+Çok fotoğraf çektik, değil mi?
+
+377
+00:16:48,741 --> 00:16:51,357
+Evet, evde bakacağım.
+
+378
+00:16:51,381 --> 00:16:53,061
+Ben de öyle.
+
+379
+00:16:53,084 --> 00:16:55,018
+Yarın da bakacağım.
+
+380
+00:16:55,041 --> 00:16:58,874
+Gelecek pazar ne yapacaksın?
+
+381
+00:16:58,897 --> 00:17:02,497
+Henüz bir planım yok.
+
+382
+00:17:02,520 --> 00:17:05,987
+O zaman yine bir yere gitmeye ne dersin?
+
+383
+00:17:06,010 --> 00:17:08,276
+Evet, gitmek istiyorum.
+
+384
+00:17:08,299 --> 00:17:10,066
+Nereye gitmek istersin?
+
+385
+00:17:10,089 --> 00:17:13,499
+Biraz hareket etmek istiyorum.
+
+386
+00:17:13,522 --> 00:17:15,772
+Round One’a ne dersin?
+
+387
+00:17:15,796 --> 00:17:17,615
+Harika olur!
+
+388
+00:17:17,639 --> 00:17:21,006
+Evet, içerisi serin olur.
+
+389
+00:17:21,029 --> 00:17:22,995
+Eğlenceli görünüyor.
+
+390
+00:17:23,018 --> 00:17:24,900
+Gitmek istiyorum.
+
+391
+00:17:24,924 --> 00:17:29,757
+O zaman gelecek pazar akvaryuma gidelim.
+
+392
+00:17:29,780 --> 00:17:32,713
+Evet, sabırsızlıkla bekliyorum.
+
+393
+00:17:32,736 --> 00:17:35,670
+Rahat hareket edebileceğin kıyafetler giymek iyi olur.
+
+394
+00:17:35,693 --> 00:17:37,392
+Tamam.
+
+395
+00:17:37,415 --> 00:17:39,615
+Pantolon giyeceğim.
+
+396
+00:17:39,638 --> 00:17:42,405
+Ah, benim durağım.
+
+397
+00:17:42,428 --> 00:17:44,961
+Dikkatli dön.
+
+398
+00:17:44,984 --> 00:17:47,762
+Evet. İyi geceler.
+
+399
+00:17:47,785 --> 00:17:49,660
+İyi geceler.
+
+400
+00:17:49,684 --> 00:17:51,684
+Haftaya görüşürüz.
+
+401
+00:18:01,343 --> 00:18:02,843
+Sahne 1: Disneyland Planı / Disneyland Gezisi Planlamak
+
+402
+00:18:02,843 --> 00:18:05,110
+Dinleme Testi
+
+403
+00:18:05,110 --> 00:18:07,652
+Alo.
+
+404
+00:18:11,259 --> 00:18:13,195
+Dinleme Testi
+
+405
+00:18:13,195 --> 00:18:15,345
+Alo.
+
+406
+00:18:18,435 --> 00:18:21,735
+Dinleme Testi
+
+407
+00:18:21,735 --> 00:18:25,572
+Şu an vaktin var mı?
+
+408
+00:18:25,572 --> 00:18:30,872
+N + var mı? = N’ye sahip misin?
+Zaman = vakit
+
+409
+00:18:30,894 --> 00:18:33,561
+Dinleme Testi
+
+410
+00:18:33,561 --> 00:18:36,628
+Evet, sorun yok.
+
+411
+00:18:36,628 --> 00:18:40,866
+Sorun yok / Tamam
+
+412
+00:18:40,889 --> 00:18:44,447
+Dinleme Testi
+
+413
+00:18:44,447 --> 00:18:48,619
+Gelecek pazar günü izinli misin?
+
+414
+00:18:48,619 --> 00:18:54,358
+N + tatil mi? = N tatil mi? / N tatil günü mü?
+Gelecek hafta = önümüzdeki hafta
+Tatil = tatil günü / izin günü
+
+415
+00:18:54,381 --> 00:18:56,963
+Dinleme Testi
+
+416
+00:18:56,963 --> 00:18:59,930
+Evet, izinliyim.
+
+417
+00:19:04,068 --> 00:19:07,734
+Dinleme Testi
+
+418
+00:19:07,734 --> 00:19:12,034
+Birlikte Disneyland'a gitmeye ne dersin?
+
+419
+00:19:12,034 --> 00:19:17,934
+V + mak ister misin? = V yapmak ister misin?
+Birlikte = beraber
+
+420
+00:19:17,957 --> 00:19:20,591
+Dinleme Testi
+
+421
+00:19:20,591 --> 00:19:23,624
+Disneyland mı?
+
+422
+00:19:23,624 --> 00:19:27,798
+N + mi? = O N mi?
+
+423
+00:19:27,822 --> 00:19:29,970
+Dinleme Testi
+
+424
+00:19:29,970 --> 00:19:32,403
+Harika olur!
+
+425
+00:19:35,807 --> 00:19:39,407
+Dinleme Testi
+
+426
+00:19:39,407 --> 00:19:43,674
+Hep gitmek istiyordum.
+
+427
+00:19:43,674 --> 00:19:49,507
+V + mak istiyordum = V yapmak istiyordum
+Hep / Uzun süre = sürekli / uzun zamandır
+
+428
+00:19:49,530 --> 00:19:52,797
+Dinleme Testi
+
+429
+00:19:52,797 --> 00:19:56,594
+Ben de gitmek istiyordum.
+
+430
+00:19:56,594 --> 00:20:01,827
+V + mak istediğimi düşünüyordum = V yapmak istediğimi düşünüyordum
+Düşünmek = düşünmek
+
+431
+00:20:01,850 --> 00:20:04,317
+Dinleme Testi
+
+432
+00:20:04,317 --> 00:20:07,150
+Gerçekten mi?
+
+433
+00:20:07,150 --> 00:20:11,050
+Gerçek / Doğru
+
+434
+00:20:11,073 --> 00:20:13,340
+Dinleme Testi
+
+435
+00:20:13,340 --> 00:20:15,873
+Çok sevindim.
+
+436
+00:20:15,873 --> 00:20:19,407
+Mutlu ↔ Üzgün
+
+437
+00:20:19,431 --> 00:20:22,797
+Dinleme Testi
+
+438
+00:20:22,797 --> 00:20:26,731
+Pazar günü hava güzel olacakmış.
+
+439
+00:20:26,731 --> 00:20:32,126
+Hava + -dır (bilgilendirme) = Hava öyle
+Hava = hava durumu
+
+440
+00:20:32,149 --> 00:20:34,723
+Dinleme Testi
+
+441
+00:20:34,723 --> 00:20:37,673
+Bu iyi oldu.
+
+442
+00:20:41,796 --> 00:20:45,164
+Dinleme Testi
+
+443
+00:20:45,164 --> 00:20:49,104
+Disneyland'a ilk kez mi gidiyorsun?
+
+444
+00:20:49,104 --> 00:20:54,570
+N + ilk defa mı? = N ilk defa mı?
+İlk defa = ilk kez
+
+445
+00:20:54,593 --> 00:20:58,389
+Dinleme Testi
+
+446
+00:20:58,389 --> 00:21:02,889
+Hayır, çocukken gitmiştim.
+
+447
+00:21:02,889 --> 00:21:09,056
+N + iken = N olduğum zaman
+Çocuk (çocuk) ↔ Yetişkin (büyük)
+
+448
+00:21:09,079 --> 00:21:11,115
+Dinleme Testi
+
+449
+00:21:11,115 --> 00:21:13,415
+Anladım.
+
+450
+00:21:16,671 --> 00:21:19,647
+Dinleme Testi
+
+451
+00:21:19,647 --> 00:21:23,114
+Ben ilk kez gidiyorum.
+
+452
+00:21:23,114 --> 00:21:27,883
+N + ilk defa = N ilk defa
+
+453
+00:21:27,907 --> 00:21:30,607
+Dinleme Testi
+
+454
+00:21:30,607 --> 00:21:33,709
+Gerçekten mi? Şaşırdım!
+
+455
+00:21:38,033 --> 00:21:41,700
+Dinleme Testi
+
+456
+00:21:41,700 --> 00:21:46,000
+Evet, çok heyecanlıyım.
+
+457
+00:21:46,000 --> 00:21:51,900
+Sabırsızlık = dört gözle beklemek / heyecan
+
+458
+00:21:51,923 --> 00:21:55,889
+Dinleme Testi
+
+459
+00:21:55,889 --> 00:22:00,589
+Sabah erken kalkabilir misin?
+
+460
+00:22:00,589 --> 00:22:07,023
+Fiil sözlük hali + こと が できますか = V yapabilir misin?
+Sabah ↔ Akşam
+
+461
+00:22:07,046 --> 00:22:10,224
+Dinleme Testi
+
+462
+00:22:10,224 --> 00:22:13,924
+Evet, sorun yok.
+
+463
+00:22:19,050 --> 00:22:21,786
+Dinleme Testi
+
+464
+00:22:21,786 --> 00:22:24,940
+Saat kaçta buluşalım?
+
+465
+00:22:24,940 --> 00:22:29,289
+Saat kaçta V yaparsın/yapacaksın? = Saat kaçta V yaparsın?
+Buluşmak = buluşmak
+
+466
+00:22:29,313 --> 00:22:32,349
+Dinleme Testi
+
+467
+00:22:32,349 --> 00:22:35,883
+Saat sekizde istasyonda buluşalım.
+
+468
+00:22:35,883 --> 00:22:40,750
+N (yer) + で V yapalım = N'de V yapalım
+İstasyon = istasyon
+
+469
+00:22:40,773 --> 00:22:43,006
+Dinleme Testi
+
+470
+00:22:43,006 --> 00:22:45,539
+Tamam.
+
+471
+00:22:45,539 --> 00:22:49,058
+Anlamak = anlamak
+
+472
+00:22:49,082 --> 00:22:51,349
+Dinleme Testi
+
+473
+00:22:51,349 --> 00:22:53,900
+Saat sekizde, değil mi?
+
+474
+00:22:57,490 --> 00:23:00,723
+Dinleme Testi
+
+475
+00:23:00,723 --> 00:23:04,490
+Biletleri ben alacağım.
+
+476
+00:23:04,490 --> 00:23:09,670
+N + は N (kişi) + が V yapar = N'ye gelince, N V yapacak
+Satın almak ↔ Satmak
+
+477
+00:23:09,693 --> 00:23:11,760
+Dinleme Testi
+
+478
+00:23:11,760 --> 00:23:14,060
+Teşekkür ederim.
+
+479
+00:23:17,316 --> 00:23:20,490
+Dinleme Testi
+
+480
+00:23:20,490 --> 00:23:24,191
+Parayı sonra öderim.
+
+481
+00:23:24,191 --> 00:23:29,291
+N + daha sonra V yaparım = N'ye gelince, daha sonra V yapacağım
+Para = para
+Ödemek = ödemek
+
+482
+00:23:29,314 --> 00:23:31,947
+Dinleme Testi
+
+483
+00:23:31,947 --> 00:23:34,981
+Evet, sorun yok.
+
+484
+00:23:39,178 --> 00:23:41,848
+Dinleme Testi
+
+485
+00:23:41,848 --> 00:23:44,948
+Ne tür kıyafetler giysem iyi olur?
+
+486
+00:23:44,948 --> 00:23:49,214
+Ne tür bir N iyi olur? = Nasıl bir N istersin?
+Kıyafet = kıyafet
+
+487
+00:23:49,237 --> 00:23:53,271
+Dinleme Testi
+
+488
+00:23:53,271 --> 00:23:58,007
+Çok yürüyeceğiz, spor ayakkabı giymek iyi olur.
+
+489
+00:23:58,007 --> 00:24:04,507
+V yaparım + çünkü = çünkü V yaptım
+Yürümek = yürümek
+
+490
+00:24:04,530 --> 00:24:06,642
+Dinleme Testi
+
+491
+00:24:06,642 --> 00:24:09,011
+Tamam.
+
+492
+00:24:12,367 --> 00:24:14,919
+Dinleme Testi
+
+493
+00:24:14,919 --> 00:24:17,832
+Spor ayakkabı giyeceğim.
+
+494
+00:24:17,832 --> 00:24:21,907
+N (araç) + ile giderim = N ile giderim
+Gitmek ↔ Gelmek
+
+495
+00:24:21,931 --> 00:24:25,164
+Dinleme Testi
+
+496
+00:24:25,164 --> 00:24:28,938
+Öğle yemeğini içeride yiyelim.
+
+497
+00:24:28,938 --> 00:24:34,136
+N (yer) + içinde V yapalım = N'de V yapalım
+Öğle yemeği = öğle yemeği
+İç ↔ Dış
+
+498
+00:24:34,159 --> 00:24:38,193
+Dinleme Testi
+
+499
+00:24:38,193 --> 00:24:42,928
+Evet, lezzetli bir şeyler yemek istiyorum.
+
+500
+00:24:42,928 --> 00:24:49,429
+İ sıfatı + şey + yemek istiyorum = İ sıfatı bir şey yemek istiyorum
+Lezzetli ↔ Tatsız
+
+501
+00:24:49,452 --> 00:24:52,285
+Dinleme Testi
+
+502
+00:24:52,285 --> 00:24:55,552
+O zaman, haftaya görüşürüz.
+
+503
+00:25:00,108 --> 00:25:03,642
+Dinleme Testi
+
+504
+00:25:03,642 --> 00:25:07,789
+Evet, sabırsızlıkla bekliyorum.
+
+505
+00:25:07,789 --> 00:25:13,468
+N + için sabırsızlanıyorum = N'yi dört gözle bekliyorum
+
+506
+00:25:13,492 --> 00:25:14,992
+Sahne 2: Sabah Selamlaşmaları ve Sohbet / Sabah Selamlaşmaları ve Konuşmalar
+
+507
+00:25:14,992 --> 00:25:17,665
+Dinleme Testi
+
+508
+00:25:17,665 --> 00:25:20,765
+Günaydın.
+
+509
+00:25:25,064 --> 00:25:27,600
+Dinleme Testi
+
+510
+00:25:27,600 --> 00:25:30,500
+Günaydın.
+
+511
+00:25:34,557 --> 00:25:37,023
+Dinleme Testi
+
+512
+00:25:37,023 --> 00:25:39,857
+Erken gelmişsin.
+
+513
+00:25:39,857 --> 00:25:43,757
+İ sıfatı + dır = İ sıfatıdır
+Erken ↔ Geç
+
+514
+00:25:43,780 --> 00:25:48,946
+Dinleme Testi
+
+515
+00:25:48,946 --> 00:25:55,140
+Evet, çok heyecanlıydım, erken kalktım.
+
+516
+00:25:55,140 --> 00:26:03,574
+~ çünkü = çünkü ...
+Heyecanla beklemek = dört gözle beklemek
+
+517
+00:26:03,597 --> 00:26:06,030
+Dinleme Testi
+
+518
+00:26:06,030 --> 00:26:08,770
+Ben de öyle.
+
+519
+00:26:08,770 --> 00:26:12,603
+N + de = ben de
+
+520
+00:26:12,626 --> 00:26:15,580
+Dinleme Testi
+
+521
+00:26:15,580 --> 00:26:19,014
+Bugün hava çok güzel, değil mi?
+
+522
+00:26:19,014 --> 00:26:23,747
+N + İ sıfatıdır = N İ sıfatıdır
+Hava = hava durumu
+
+523
+00:26:23,770 --> 00:26:27,738
+Dinleme Testi
+
+524
+00:26:27,738 --> 00:26:32,438
+Evet, hiç bulut yok.
+
+525
+00:26:32,438 --> 00:26:38,871
+N + yok = N yok
+Bulut = bulut
+
+526
+00:26:38,894 --> 00:26:42,728
+Dinleme Testi
+
+527
+00:26:42,728 --> 00:26:47,236
+Kıyafetin çok yakışmış.
+
+528
+00:26:47,236 --> 00:26:53,402
+V yapıyorum = ... yapıyorum
+Kıyafet = kıyafet
+
+529
+00:26:53,425 --> 00:26:56,059
+Dinleme Testi
+
+530
+00:26:56,059 --> 00:26:59,054
+Teşekkür ederim.
+
+531
+00:27:03,248 --> 00:27:06,445
+Dinleme Testi
+
+532
+00:27:06,445 --> 00:27:10,178
+Biraz utandım.
+
+533
+00:27:10,178 --> 00:27:15,312
+İ sıfatıdır = utanmış durumda
+
+534
+00:27:15,336 --> 00:27:18,374
+Dinleme Testi
+
+535
+00:27:18,374 --> 00:27:21,910
+Çok şık görünüyorsun.
+
+536
+00:27:21,910 --> 00:27:26,776
+İ sıfatıdır = havalı, yakışıklı
+
+537
+00:27:26,799 --> 00:27:29,033
+Dinleme Testi
+
+538
+00:27:29,033 --> 00:27:31,550
+Teşekkür ederim.
+
+539
+00:27:35,083 --> 00:27:38,583
+Dinleme Testi
+
+540
+00:27:38,583 --> 00:27:42,683
+O elbise de çok güzel.
+
+541
+00:27:42,683 --> 00:27:48,316
+N + de + N sıfatıdır = N de N sıfatıdır
+Harika = harika, güzel
+
+542
+00:27:48,339 --> 00:27:51,006
+Dinleme Testi
+
+543
+00:27:51,006 --> 00:27:54,041
+Gerçekten mi?
+
+544
+00:27:54,041 --> 00:27:58,274
+N mi? = N mi?
+Gerçek = gerçek, doğru
+
+545
+00:27:58,297 --> 00:28:00,669
+Dinleme Testi
+
+546
+00:28:00,669 --> 00:28:03,377
+Çok sevindim.
+
+547
+00:28:03,377 --> 00:28:07,144
+İ sıfatıdır = mutlu
+
+548
+00:28:07,167 --> 00:28:10,400
+Dinleme Testi
+
+549
+00:28:10,400 --> 00:28:14,179
+Hadi, gidelim mi?
+
+550
+00:28:14,179 --> 00:28:19,360
+V yapalım mı? = ... yapalım mı?
+
+551
+00:28:19,384 --> 00:28:21,017
+Evet.
+
+552
+00:28:21,040 --> 00:28:24,954
+Dinleme Testi
+
+553
+00:28:24,954 --> 00:28:29,588
+Ah, monorayla mı gideceğiz?
+
+554
+00:28:29,588 --> 00:28:35,943
+N'ye biner misin? = N'ye biner misin?
+Monoray = monoray
+
+555
+00:28:35,966 --> 00:28:39,100
+Dinleme Testi
+
+556
+00:28:39,100 --> 00:28:42,766
+Yürüyerek de gidebilir miyiz?
+
+557
+00:28:42,766 --> 00:28:47,800
+Fiil sözlük hali + こと + de + yapabilir misin? = ... da yapabilir misin?
+Yürümek ↔ Koşmak
+
+558
+00:28:47,823 --> 00:28:49,697
+Evet.
+
+559
+00:28:49,720 --> 00:28:52,753
+Dinleme Testi
+
+560
+00:28:52,753 --> 00:28:56,259
+Yürüyerek yaklaşık on dakika sürer.
+
+561
+00:28:56,259 --> 00:29:01,126
+V yaparak + miktar + kadar = ... yaparak yaklaşık [miktar]
+10 dakika = 10 dakika
+
+562
+00:29:01,149 --> 00:29:04,382
+Dinleme Testi
+
+563
+00:29:04,382 --> 00:29:08,124
+O zaman yürüyelim.
+
+564
+00:29:08,124 --> 00:29:13,267
+V yapalım = ... yapalım
+
+565
+00:29:13,291 --> 00:29:15,327
+Dinleme Testi
+
+566
+00:29:15,327 --> 00:29:17,599
+Evet, öyle yapalım.
+
+567
+00:29:20,816 --> 00:29:23,784
+Dinleme Testi
+
+568
+00:29:23,784 --> 00:29:27,251
+Manzarayı görmek istiyorum.
+
+569
+00:29:27,251 --> 00:29:31,999
+V yapmak istiyorum = ... yapmak istiyorum
+Manzara = manzara, görünüm
+
+570
+00:29:32,023 --> 00:29:35,123
+Dinleme Testi
+
+571
+00:29:35,123 --> 00:29:38,756
+Çok insan var, değil mi?
+
+572
+00:29:38,756 --> 00:29:43,729
+N + çok var = çok N var
+Çok ↔ Az
+
+573
+00:29:43,752 --> 00:29:45,654
+Evet.
+
+574
+00:29:45,677 --> 00:29:48,819
+Dinleme Testi
+
+575
+00:29:48,819 --> 00:29:52,486
+Bugün pazar da ondan.
+
+576
+00:29:52,486 --> 00:29:57,553
+N + çünkü = çünkü N
+Pazar = Pazar
+
+577
+00:29:57,576 --> 00:30:00,809
+Dinleme Testi
+
+578
+00:30:00,809 --> 00:30:04,561
+Yabancılar da çok fazla.
+
+579
+00:30:04,561 --> 00:30:09,748
+N + de + İ sıfatıdır = N de İ sıfatıdır
+Yabancı = yabancı
+
+580
+00:30:09,771 --> 00:30:12,039
+Dinleme Testi
+
+581
+00:30:12,039 --> 00:30:14,606
+Evet, öyle yapalım.
+
+582
+00:30:18,210 --> 00:30:21,110
+Dinleme Testi
+
+583
+00:30:21,110 --> 00:30:24,477
+Herkes çok eğleniyor gibi.
+
+584
+00:30:24,477 --> 00:30:29,144
+İ sıfatı kökü + gibi görünüyor = ... gibi görünüyor
+Eğlenceli = eğlenceli
+
+585
+00:30:29,167 --> 00:30:32,300
+Dinleme Testi
+
+586
+00:30:32,300 --> 00:30:35,967
+Müzik sesi geliyor.
+
+587
+00:30:35,967 --> 00:30:41,000
+N + duyuluyor = N duyuluyor
+Müzik = müzik
+
+588
+00:30:41,023 --> 00:30:43,797
+Dinleme Testi
+
+589
+00:30:43,797 --> 00:30:47,031
+Disney müziği galiba.
+
+590
+00:30:47,031 --> 00:30:51,464
+N1 + nin + N2 = N1'in N2'si
+Disney = Disney
+
+591
+00:30:51,487 --> 00:30:53,920
+Dinleme Testi
+
+592
+00:30:53,920 --> 00:30:56,672
+Heyecanlanıyorum!
+
+593
+00:30:56,672 --> 00:31:00,506
+N + yapmak = N yapmak
+Heyecanlı = heyecanlı
+
+594
+00:31:00,529 --> 00:31:02,471
+Evet.
+
+595
+00:31:02,494 --> 00:31:05,394
+Dinleme Testi
+
+596
+00:31:05,394 --> 00:31:08,733
+Bir an önce girmek istiyorum.
+
+597
+00:31:08,733 --> 00:31:13,399
+V yapmak istiyorum = ... yapmak istiyorum
+Girmek ↔ Çıkmak
+
+598
+00:31:13,422 --> 00:31:16,568
+Dinleme Testi
+
+599
+00:31:16,568 --> 00:31:20,235
+Bagajın ağır değil mi?
+
+600
+00:31:20,235 --> 00:31:25,302
+İ sıfatı + değil mi? = İ sıfatı değil mi?
+Bagaj = bagaj, eşya
+
+601
+00:31:25,325 --> 00:31:27,831
+Dinleme Testi
+
+602
+00:31:27,831 --> 00:31:30,697
+Sorun değil.
+
+603
+00:31:30,697 --> 00:31:34,673
+N sıfatıdır = iyidir
+İyi, tamam = iyi, sorun yok
+
+604
+00:31:34,697 --> 00:31:36,731
+Dinleme Testi
+
+605
+00:31:36,731 --> 00:31:39,004
+Hafif.
+
+606
+00:31:39,004 --> 00:31:42,237
+İ sıfatıdır = ağırdır
+Ağır ↔ Hafif
+
+607
+00:31:42,260 --> 00:31:45,928
+Dinleme Testi
+
+608
+00:31:45,928 --> 00:31:50,237
+Çantamda su var.
+
+609
+00:31:50,237 --> 00:31:56,148
+N1 + de + N2 + var = N2, N1'in içinde
+Çanta = çanta
+
+610
+00:31:56,172 --> 00:31:58,609
+Dinleme Testi
+
+611
+00:31:58,609 --> 00:32:01,390
+Teşekkür ederim.
+
+612
+00:32:05,279 --> 00:32:07,786
+Dinleme Testi
+
+613
+00:32:07,786 --> 00:32:10,653
+Sonra içerim.
+
+614
+00:32:10,653 --> 00:32:14,648
+N + de + V yaparım = N'den sonra ... yaparım
+Sonra = sonra
+
+615
+00:32:14,671 --> 00:32:18,255
+Dinleme Testi
+
+616
+00:32:18,255 --> 00:32:22,488
+Ah, giriş görünüyor!
+
+617
+00:32:22,488 --> 00:32:28,277
+N + göründü = N göründü
+Giriş ↔ Çıkış
+
+618
+00:32:28,301 --> 00:32:30,769
+Gerçekten!
+
+619
+00:32:30,792 --> 00:32:33,026
+Dinleme Testi
+
+620
+00:32:33,026 --> 00:32:35,534
+Çok büyük!
+
+621
+00:32:35,534 --> 00:32:39,052
+İ sıfatıdır = büyüktür
+Büyük ↔ Küçük
+
+622
+00:32:39,075 --> 00:32:41,508
+Dinleme Testi
+
+623
+00:32:41,508 --> 00:32:44,247
+Hadi acele edelim.
+
+624
+00:32:44,247 --> 00:32:48,081
+V yapalım = ... yapalım
+Acele etmek = acele etmek
+
+625
+00:32:48,104 --> 00:32:50,004
+Evet.
+
+626
+00:32:50,027 --> 00:32:52,227
+Dinleme Testi
+
+627
+00:32:52,227 --> 00:32:54,727
+Gidelim!
+
+628
+00:32:54,727 --> 00:32:58,195
+V yapalım = ... yapalım
+
+629
+00:32:58,218 --> 00:32:59,718
+Sahne 3: Tematik Park Girişi / Bir Tematik Parka Giriş
+
+630
+00:32:59,718 --> 00:33:03,225
+Dinleme Testi
+
+631
+00:33:03,225 --> 00:33:07,343
+Biletimizi çıkaralım.
+
+632
+00:33:07,343 --> 00:33:13,010
+V yaparım = yaparım/yapacağım
+Bilet = bilet
+
+633
+00:33:13,033 --> 00:33:15,374
+Dinleme Testi
+
+634
+00:33:15,374 --> 00:33:18,040
+Evet, lütfen.
+
+635
+00:33:18,040 --> 00:33:21,746
+Lütfen = Lütfen
+
+636
+00:33:21,770 --> 00:33:26,270
+Dinleme Testi
+
+637
+00:33:26,270 --> 00:33:31,624
+Bunu telefon ekranında göstereceğim.
+
+638
+00:33:31,624 --> 00:33:38,924
+N ile = N ile
+Ekran = ekran
+
+639
+00:33:38,947 --> 00:33:41,265
+Dinleme Testi
+
+640
+00:33:41,265 --> 00:33:43,904
+Ne kadar pratik!
+
+641
+00:33:43,904 --> 00:33:47,604
+N sıfatı + değil mi? = N sıfatı, değil mi?
+Kullanışlı ↔ Kullanışsız
+
+642
+00:33:47,627 --> 00:33:49,694
+Evet.
+
+643
+00:33:49,717 --> 00:33:52,027
+Dinleme Testi
+
+644
+00:33:52,027 --> 00:33:54,660
+Ah, girdik!
+
+645
+00:33:54,660 --> 00:33:58,327
+V yaptım = ... yaptım
+Koymak = koymak, yerleştirmek
+
+646
+00:33:58,350 --> 00:34:01,983
+Dinleme Testi
+
+647
+00:34:01,983 --> 00:34:06,250
+Vay canına, harika!
+
+648
+00:34:06,250 --> 00:34:12,085
+A + ですね = ... değil mi?
+
+649
+00:34:12,108 --> 00:34:15,975
+Dinleme Testi
+
+650
+00:34:15,975 --> 00:34:20,515
+Binalar çok güzel.
+
+651
+00:34:20,515 --> 00:34:26,751
+N が + sıfat + です = N ...dır
+Bina = bina
+
+652
+00:34:26,774 --> 00:34:29,048
+Dinleme Testi
+
+653
+00:34:29,048 --> 00:34:31,634
+Gerçekten öyle.
+
+654
+00:34:31,634 --> 00:34:35,267
+本当 = gerçek / gerçekten
+
+655
+00:34:35,290 --> 00:34:37,834
+Dinleme Testi
+
+656
+00:34:37,834 --> 00:34:40,748
+Film gibi!
+
+657
+00:34:40,748 --> 00:34:44,815
+N + gibi görünüyor = N'ye benziyor
+Film = film
+
+658
+00:34:44,838 --> 00:34:48,405
+Dinleme Testi
+
+659
+00:34:48,405 --> 00:34:52,603
+Önce nereye gitmek istersin?
+
+660
+00:34:52,603 --> 00:34:58,369
+V + mak istiyor musunuz? = ...mek ister misin?
+İlk ↔ son
+
+661
+00:34:58,392 --> 00:35:01,626
+Dinleme Testi
+
+662
+00:35:01,626 --> 00:35:05,405
+Pek bilmiyorum.
+
+663
+00:35:05,405 --> 00:35:10,638
+N + V + mem = N'yi V yapmam
+Anlamak = anlamak
+
+664
+00:35:10,661 --> 00:35:13,928
+Dinleme Testi
+
+665
+00:35:13,928 --> 00:35:17,706
+O zaman haritaya bakalım.
+
+666
+00:35:17,706 --> 00:35:22,939
+V + alım = Hadi V yapalım
+Harita = harita
+
+667
+00:35:22,962 --> 00:35:26,438
+Dinleme Testi
+
+668
+00:35:26,438 --> 00:35:30,511
+Çok fazla atraksiyon var!
+
+669
+00:35:30,511 --> 00:35:36,110
+N + var = N var
+Çok ↔ az
+
+670
+00:35:36,133 --> 00:35:40,241
+Dinleme Testi
+
+671
+00:35:40,241 --> 00:35:45,113
+Evet, hız trenlerini sever misin?
+
+672
+00:35:45,113 --> 00:35:51,780
+N + seviyor musunuz? = N'yi sever misin?
+Sevmek ↔ sevmemek
+
+673
+00:35:51,803 --> 00:35:54,936
+Dinleme Testi
+
+674
+00:35:54,936 --> 00:35:58,570
+Evet, çok severim.
+
+675
+00:35:58,570 --> 00:36:03,603
+N + çok seviyorum = N'yi çok seviyorum
+Çok sevmek ↔ nefret etmek
+
+676
+00:36:03,626 --> 00:36:06,134
+Dinleme Testi
+
+677
+00:36:06,134 --> 00:36:09,011
+Hızlı olanlar iyi.
+
+678
+00:36:09,011 --> 00:36:12,990
+Sıfat + olanı + iyidir = ... olanı daha iyi
+Hızlı ↔ yavaş
+
+679
+00:36:13,013 --> 00:36:16,347
+Dinleme Testi
+
+680
+00:36:16,347 --> 00:36:20,247
+O zaman şu dağa gidelim.
+
+681
+00:36:20,247 --> 00:36:25,615
+N + 'ye gidelim = Hadi N'ye gidelim
+Dağ = dağ
+
+682
+00:36:25,638 --> 00:36:28,592
+Dinleme Testi
+
+683
+00:36:28,592 --> 00:36:32,025
+Şu büyük dağ mı?
+
+684
+00:36:32,025 --> 00:36:36,759
+Sıfat + N + mi? = ... N mi?
+Büyük ↔ küçük
+
+685
+00:36:36,782 --> 00:36:40,756
+Dinleme Testi
+
+686
+00:36:40,756 --> 00:36:45,458
+Evet, çok popüler.
+
+687
+00:36:45,458 --> 00:36:51,924
+N + var = N'ye sahipsin
+Popülerlik = popülerlik
+
+688
+00:36:51,947 --> 00:36:55,214
+Dinleme Testi
+
+689
+00:36:55,214 --> 00:36:59,012
+Bekleme süresi ne kadar?
+
+690
+00:36:59,012 --> 00:37:04,245
+N + ne kadar? = N ne kadar?
+Bekleme süresi = bekleme süresi
+
+691
+00:37:04,269 --> 00:37:07,265
+Dinleme Testi
+
+692
+00:37:07,265 --> 00:37:10,739
+Uygulamadan bakayım.
+
+693
+00:37:10,739 --> 00:37:15,572
+N + ile + V = N ile V yap
+Araştırmak = kontrol etmek / bakmak
+
+694
+00:37:15,595 --> 00:37:17,765
+Dinleme Testi
+
+695
+00:37:17,765 --> 00:37:20,232
+Lütfen.
+
+696
+00:37:20,232 --> 00:37:23,665
+Lütfen = Lütfen
+
+697
+00:37:23,688 --> 00:37:27,455
+Dinleme Testi
+
+698
+00:37:27,455 --> 00:37:31,921
+Şu an yaklaşık 40 dakika.
+
+699
+00:37:31,921 --> 00:37:38,021
+Miktar + kadar = yaklaşık ...
+Şimdi = şimdi
+
+700
+00:37:38,044 --> 00:37:40,544
+Dinleme Testi
+
+701
+00:37:40,544 --> 00:37:43,411
+40 dakika, değil mi?
+
+702
+00:37:47,415 --> 00:37:49,805
+Dinleme Testi
+
+703
+00:37:49,805 --> 00:37:52,538
+Sorun değil.
+
+704
+00:37:52,538 --> 00:37:56,325
+Sıfat + dır = ...dır
+Sorun yok = tamam / iyi
+
+705
+00:37:56,348 --> 00:37:59,015
+Dinleme Testi
+
+706
+00:37:59,015 --> 00:38:02,082
+O zaman gidelim.
+
+707
+00:38:02,082 --> 00:38:06,315
+V + alım = Hadi V yapalım
+
+708
+00:38:06,338 --> 00:38:09,722
+Dinleme Testi
+
+709
+00:38:09,722 --> 00:38:13,689
+Ah, karakterler var!
+
+710
+00:38:13,689 --> 00:38:19,155
+N + var = N var
+Karakter = karakter
+
+711
+00:38:19,178 --> 00:38:21,718
+Gerçekten!
+
+712
+00:38:21,742 --> 00:38:24,216
+Dinleme Testi
+
+713
+00:38:24,216 --> 00:38:27,082
+Fotoğraf çekelim mi?
+
+714
+00:38:27,082 --> 00:38:31,031
+N + V + yapar mısın? = N'yi V yapar mısın?
+Fotoğraf = fotoğraf
+
+715
+00:38:31,055 --> 00:38:33,807
+Dinleme Testi
+
+716
+00:38:33,807 --> 00:38:36,986
+Sonra çekeriz.
+
+717
+00:38:36,986 --> 00:38:41,381
+V + alım = Hadi V yapalım
+Sonra ↔ hemen
+
+718
+00:38:41,404 --> 00:38:43,238
+Dinleme Testi
+
+719
+00:38:43,238 --> 00:38:45,271
+Evet, öyle yapalım.
+
+720
+00:38:48,160 --> 00:38:50,942
+Dinleme Testi
+
+721
+00:38:50,942 --> 00:38:54,176
+Önce gidelim.
+
+722
+00:38:54,176 --> 00:38:58,642
+Önce + V + alım = Hadi önce V yapalım
+Önce ↔ sonra
+
+723
+00:38:58,665 --> 00:39:01,663
+Dinleme Testi
+
+724
+00:39:01,663 --> 00:39:05,142
+İçerisi çok genişmiş.
+
+725
+00:39:05,142 --> 00:39:09,976
+Sıfat + değil mi? = ... değil mi?
+Geniş ↔ dar
+
+726
+00:39:09,999 --> 00:39:11,932
+Evet.
+
+727
+00:39:11,955 --> 00:39:15,327
+Dinleme Testi
+
+728
+00:39:15,327 --> 00:39:19,264
+Kaybolmayın sakın.
+
+729
+00:39:19,264 --> 00:39:24,697
+V + mayın = Lütfen V yapmayın
+Kaybolmuş çocuk / kişi = kaybolmuş çocuk / kişi
+
+730
+00:39:24,720 --> 00:39:26,868
+Dinleme Testi
+
+731
+00:39:26,868 --> 00:39:29,302
+Sorun değil.
+
+732
+00:39:32,719 --> 00:39:35,287
+Dinleme Testi
+
+733
+00:39:35,287 --> 00:39:38,237
+El ele tutuşalım mı?
+
+734
+00:39:38,237 --> 00:39:42,337
+N + V + yapalım mı? = N'yi V yapalım mı?
+El tutuşmak = el tutuşmak
+
+735
+00:39:42,360 --> 00:39:44,948
+Dinleme Testi
+
+736
+00:39:44,948 --> 00:39:47,916
+E-evet.
+
+737
+00:39:52,073 --> 00:39:54,573
+Dinleme Testi
+
+738
+00:39:54,573 --> 00:39:57,439
+Biraz utanıyorum ama.
+
+739
+00:39:57,439 --> 00:40:01,392
+Sıfat + ama = ... ama...
+Utangaç = utanmış / çekingen
+
+740
+00:40:01,416 --> 00:40:02,916
+Sahne 4: Şapka Seçimi
+
+741
+00:40:02,916 --> 00:40:06,416
+Dinleme Testi
+
+742
+00:40:06,416 --> 00:40:10,520
+Bu dükkâna girelim mi?
+
+743
+00:40:10,520 --> 00:40:16,187
+V + alım mı? = ... yapalım mı?
+Dükkan = dükkan
+
+744
+00:40:16,210 --> 00:40:18,276
+Dinleme Testi
+
+745
+00:40:18,276 --> 00:40:20,576
+Harika olur!
+
+746
+00:40:23,839 --> 00:40:27,231
+Dinleme Testi
+
+747
+00:40:27,231 --> 00:40:31,204
+Çok şapka var!
+
+748
+00:40:31,204 --> 00:40:36,675
+Çok N var = Çok N var
+Şapka = şapka
+
+749
+00:40:36,699 --> 00:40:40,932
+Dinleme Testi
+
+750
+00:40:40,932 --> 00:40:45,965
+Herkes çok tatlı şapkalar takmış.
+
+751
+00:40:45,965 --> 00:40:52,832
+V + ıyor = ... giyiyor
+Giymek (baş için) = giymek (baş için)
+
+752
+00:40:52,855 --> 00:40:55,729
+Dinleme Testi
+
+753
+00:40:55,729 --> 00:40:59,043
+Biz de alalım.
+
+754
+00:40:59,043 --> 00:41:03,626
+V + alım = Hadi ... yapalım
+Satın almak = satın almak
+
+755
+00:41:03,650 --> 00:41:07,316
+Dinleme Testi
+
+756
+00:41:07,316 --> 00:41:11,616
+Ben şapka takmam ki.
+
+757
+00:41:11,616 --> 00:41:17,519
+V + mam = (Ben) V yapmam (yeni bilgi vermek için)
+
+758
+00:41:17,543 --> 00:41:21,179
+Dinleme Testi
+
+759
+00:41:21,179 --> 00:41:25,479
+Ama hadi birlikte takalım!
+
+760
+00:41:25,479 --> 00:41:31,346
+Birlikte + V + alım = Hadi birlikte V yapalım
+Birlikte = birlikte
+
+761
+00:41:31,370 --> 00:41:34,036
+Dinleme Testi
+
+762
+00:41:34,036 --> 00:41:37,103
+Utanıyorum.
+
+763
+00:41:37,103 --> 00:41:41,336
+Sıfat + dır = ...dır
+Utanmış = utanmış
+
+764
+00:41:41,359 --> 00:41:45,297
+Dinleme Testi
+
+765
+00:41:45,297 --> 00:41:49,964
+Bugün özel bir gün, sorun değil.
+
+766
+00:41:49,964 --> 00:41:56,331
+Çünkü ... = ... çünkü
+Özel = özel
+
+767
+00:41:56,354 --> 00:41:58,522
+Dinleme Testi
+
+768
+00:41:58,522 --> 00:42:00,961
+Peki, tamam.
+
+769
+00:42:04,417 --> 00:42:06,850
+Dinleme Testi
+
+770
+00:42:06,850 --> 00:42:09,584
+Hangisi güzel?
+
+771
+00:42:09,584 --> 00:42:13,417
+Hangisi + sıfat + dır? = Hangisi ...?
+
+772
+00:42:13,440 --> 00:42:16,026
+Dinleme Testi
+
+773
+00:42:16,026 --> 00:42:18,985
+Bu nasıl?
+
+774
+00:42:18,985 --> 00:42:23,118
+N + nasıl? = N nasıl?
+
+775
+00:42:23,141 --> 00:42:26,811
+Dinleme Testi
+
+776
+00:42:26,811 --> 00:42:31,123
+Onun kulakları çok büyük.
+
+777
+00:42:31,123 --> 00:42:37,057
+Çok + sıfat = çok ...
+Kulak = kulak
+Büyük ↔ küçük
+
+778
+00:42:37,079 --> 00:42:39,613
+Dinleme Testi
+
+779
+00:42:39,613 --> 00:42:42,513
+Anladım.
+
+780
+00:42:46,570 --> 00:42:48,803
+Dinleme Testi
+
+781
+00:42:48,803 --> 00:42:51,336
+Peki, bu?
+
+782
+00:42:54,893 --> 00:42:58,449
+Dinleme Testi
+
+783
+00:42:58,449 --> 00:43:02,618
+Ah, bu iyi görünüyor.
+
+784
+00:43:08,374 --> 00:43:11,274
+Dinleme Testi
+
+785
+00:43:11,274 --> 00:43:14,651
+Farklı renklerden alalım.
+
+786
+00:43:14,651 --> 00:43:19,318
+N + olarak seç = N'yi seç
+Farklı renk = farklı renk
+
+787
+00:43:19,341 --> 00:43:22,179
+Dinleme Testi
+
+788
+00:43:22,179 --> 00:43:25,479
+Ben siyahı tercih ederim.
+
+789
+00:43:25,479 --> 00:43:29,997
+N + sıfat + dır = N'yi tercih ederim / N iyidir
+Siyah ↔ beyaz
+
+790
+00:43:30,020 --> 00:43:33,120
+Dinleme Testi
+
+791
+00:43:33,120 --> 00:43:36,710
+O zaman ben kırmızı alırım.
+
+792
+00:43:36,710 --> 00:43:41,665
+N + olarak seç = N'yi seç
+Kırmızı = kırmızı
+
+793
+00:43:41,688 --> 00:43:44,598
+Dinleme Testi
+
+794
+00:43:44,598 --> 00:43:47,972
+Biraz deneyeyim.
+
+795
+00:43:47,972 --> 00:43:52,642
+V + yapmaya çalış = ... yapmayı dene
+
+796
+00:43:52,666 --> 00:43:54,766
+Dinleme Testi
+
+797
+00:43:54,766 --> 00:43:57,121
+Nasıl oldu?
+
+798
+00:44:00,444 --> 00:44:03,477
+Dinleme Testi
+
+799
+00:44:03,477 --> 00:44:06,977
+Çok yakıştı!
+
+800
+00:44:06,977 --> 00:44:11,811
+V + ıyor = ... yakışıyor
+Yakışmak = yakışmak / uymak
+
+801
+00:44:11,833 --> 00:44:13,867
+Dinleme Testi
+
+802
+00:44:13,867 --> 00:44:16,133
+Harika görünüyorsun.
+
+803
+00:44:16,133 --> 00:44:19,303
+Havalı ↔ demode
+
+804
+00:44:19,327 --> 00:44:21,703
+Dinleme Testi
+
+805
+00:44:21,703 --> 00:44:24,414
+Gerçekten mi?
+
+806
+00:44:24,414 --> 00:44:28,164
+Gerçek = gerçek
+
+807
+00:44:28,188 --> 00:44:31,524
+Dinleme Testi
+
+808
+00:44:31,524 --> 00:44:35,434
+Biraz tuhaf değil mi?
+
+809
+00:44:35,434 --> 00:44:40,800
+Sıfat + değil mi? = ... değil mi?
+Garip = garip
+
+810
+00:44:40,823 --> 00:44:43,795
+Dinleme Testi
+
+811
+00:44:43,795 --> 00:44:47,262
+Hiç tuhaf değil.
+
+812
+00:44:47,262 --> 00:44:52,029
+Hiç + sıfat + değil = Hiç ... değil
+Hiç = hiç
+
+813
+00:44:52,052 --> 00:44:54,772
+Dinleme Testi
+
+814
+00:44:54,772 --> 00:44:57,905
+O zaman bunu alıyorum.
+
+815
+00:44:57,905 --> 00:45:02,255
+N + olarak seç = N'yi seç
+
+816
+00:45:02,278 --> 00:45:05,074
+Dinleme Testi
+
+817
+00:45:05,074 --> 00:45:08,341
+Ben de bunu alacağım.
+
+818
+00:45:08,341 --> 00:45:12,808
+N + olarak seç = N'yi seç
+
+819
+00:45:12,831 --> 00:45:15,577
+Dinleme Testi
+
+820
+00:45:15,577 --> 00:45:18,757
+Ben ikisini de alacağım.
+
+821
+00:45:18,757 --> 00:45:23,148
+N (sayı) + V = [sayı] adet satın al
+İki (tane) = iki (nesne)
+
+822
+00:45:23,171 --> 00:45:26,165
+Dinleme Testi
+
+823
+00:45:26,165 --> 00:45:29,643
+Yok, olur mu öyle şey!
+
+824
+00:45:34,462 --> 00:45:37,495
+Dinleme Testi
+
+825
+00:45:37,495 --> 00:45:40,998
+Kendi paramla öderim.
+
+826
+00:45:40,998 --> 00:45:45,832
+N + ile + V = N ile öde
+Kendi = kendisi
+Para = para
+
+827
+00:45:45,855 --> 00:45:48,888
+Dinleme Testi
+
+828
+00:45:48,888 --> 00:45:52,421
+Hayır, hediye ediyorum.
+
+829
+00:45:52,421 --> 00:45:57,288
+N + します = N yapmak (hediye olarak vermek)
+プレゼント = hediye
+
+830
+00:45:57,311 --> 00:45:59,744
+Dinleme Testi
+
+831
+00:45:59,744 --> 00:46:02,482
+Gerçekten mi?
+
+832
+00:46:06,343 --> 00:46:08,810
+Dinleme Testi
+
+833
+00:46:08,810 --> 00:46:11,584
+Teşekkür ederim.
+
+834
+00:46:15,474 --> 00:46:18,272
+Dinleme Testi
+
+835
+00:46:18,272 --> 00:46:21,507
+Kasa nerede?
+
+836
+00:46:21,507 --> 00:46:25,973
+N + は + どこですか = N nerede?
+レジ = kasa
+
+837
+00:46:25,996 --> 00:46:28,296
+Dinleme Testi
+
+838
+00:46:28,296 --> 00:46:30,890
+Şurada.
+
+839
+00:46:30,890 --> 00:46:34,524
+あそこ = orada (uzakta)
+
+840
+00:46:34,547 --> 00:46:37,503
+Dinleme Testi
+
+841
+00:46:37,503 --> 00:46:40,936
+Biraz sıra var.
+
+842
+00:46:40,936 --> 00:46:45,669
+Vて + います = sıralanmış durumda
+少(すこ)し (biraz) ↔ 多(おお)く (çok)
+並(なら)ぶ = sıraya girmek
+
+843
+00:46:45,692 --> 00:46:48,006
+Dinleme Testi
+
+844
+00:46:48,006 --> 00:46:50,640
+Sıraya girelim.
+
+845
+00:46:50,640 --> 00:46:54,306
+Vます + ましょう = Haydi... (yapalım)
+
+846
+00:46:54,329 --> 00:46:56,519
+Dinleme Testi
+
+847
+00:46:56,519 --> 00:46:58,986
+Çok sevindim.
+
+848
+00:46:58,986 --> 00:47:02,453
+Mutlu ↔ Üzgün
+
+849
+00:47:02,476 --> 00:47:05,418
+Dinleme Testi
+
+850
+00:47:05,418 --> 00:47:08,851
+Hep saklayacağım.
+
+851
+00:47:08,851 --> 00:47:13,552
+大切(たいせつ)に + します = değer vermek / özen göstermek
+ずっと = her zaman / sonsuza kadar
+大切(たいせつ) = değerli / önemli
+
+852
+00:47:13,575 --> 00:47:15,075
+Sahne 5: Bekleme Süresini Değerlendirme
+
+853
+00:47:15,075 --> 00:47:19,745
+Dinleme Testi
+
+854
+00:47:19,745 --> 00:47:25,314
+Buradan itibaren 40 dakika sıra bekleyeceğiz.
+
+855
+00:47:25,314 --> 00:47:32,948
+Vます + ます = yapacak / yapıyor
+並(なら)ぶ = sıraya girmek
+
+856
+00:47:32,970 --> 00:47:36,137
+Dinleme Testi
+
+857
+00:47:36,137 --> 00:47:39,837
+Epey uzunmuş.
+
+858
+00:47:39,837 --> 00:47:44,912
+いA + です = ...dır (sıfat)
+長(なが)い (uzun) ↔ 短(みじか)い (kısa)
+
+859
+00:47:44,936 --> 00:47:47,650
+Dinleme Testi
+
+860
+00:47:47,650 --> 00:47:50,783
+Evet, öyle yapalım.
+
+861
+00:47:55,139 --> 00:47:58,313
+Dinleme Testi
+
+862
+00:47:58,313 --> 00:48:02,013
+Yorulmadın mı?
+
+863
+00:48:02,013 --> 00:48:07,116
+Vて + います = yapıyor (devam eden eylem)
+疲(つか)れる = yorulmak
+
+864
+00:48:07,140 --> 00:48:10,416
+Dinleme Testi
+
+865
+00:48:10,416 --> 00:48:14,249
+Hâlâ iyiyim.
+
+866
+00:48:14,249 --> 00:48:19,528
+まだ + N / cümle = hala...
+まだ = hala
+
+867
+00:48:19,551 --> 00:48:21,535
+Dinleme Testi
+
+868
+00:48:21,535 --> 00:48:23,768
+İyiyim.
+
+869
+00:48:23,768 --> 00:48:26,902
+なA + です = ...dır (sıfat)
+元気(げんき) = enerjik / sağlıklı
+
+870
+00:48:26,925 --> 00:48:30,191
+Dinleme Testi
+
+871
+00:48:30,191 --> 00:48:34,025
+Susadın mı?
+
+872
+00:48:34,025 --> 00:48:39,258
+N + が + Vます = N ... yapar / N ... durumda
+喉(のど)が渇(かわ)く = susamak
+
+873
+00:48:39,281 --> 00:48:43,614
+Dinleme Testi
+
+874
+00:48:43,614 --> 00:48:48,781
+Hayır, biraz sıcak oldu.
+
+875
+00:48:48,781 --> 00:48:55,814
+いA + です = ...dır (sıfat)
+暑(あつ)い (sıcak) ↔ 寒(さむ)い (soğuk)
+
+876
+00:48:55,837 --> 00:48:58,145
+Evet.
+
+877
+00:48:58,169 --> 00:49:01,635
+Dinleme Testi
+
+878
+00:49:01,635 --> 00:49:05,702
+Ah, bir vantilatör var.
+
+879
+00:49:05,702 --> 00:49:11,269
+N + が + あります = N var
+扇風機(せんぷうき) = vantilatör
+
+880
+00:49:11,292 --> 00:49:14,360
+Dinleme Testi
+
+881
+00:49:14,360 --> 00:49:17,926
+Serinledi, değil mi?
+
+882
+00:49:17,926 --> 00:49:22,837
+いA + です = ...dır (sıfat)
+涼(すず)しい (serin) ↔ 蒸(む)し暑(あつ)い (bunaltıcı sıcak)
+
+883
+00:49:22,860 --> 00:49:27,094
+Dinleme Testi
+
+884
+00:49:27,094 --> 00:49:32,077
+Disney filmlerini sık izler misin?
+
+885
+00:49:32,077 --> 00:49:38,864
+Vます + ます = yapacak / yapıyor
+映画(えいが) = film
+
+886
+00:49:38,888 --> 00:49:41,004
+Evet.
+
+887
+00:49:41,027 --> 00:49:44,527
+Dinleme Testi
+
+888
+00:49:44,527 --> 00:49:48,627
+Eskiden sık izlerdim.
+
+889
+00:49:48,627 --> 00:49:54,260
+Vました = yaptı
+昔(むかし) = eski zamanlar
+
+890
+00:49:54,283 --> 00:49:58,117
+Dinleme Testi
+
+891
+00:49:58,117 --> 00:50:02,597
+En sevdiğin film hangisi?
+
+892
+00:50:02,597 --> 00:50:08,737
+一番(いちばん) + A / V = en...
+一番(いちばん) = en çok
+
+893
+00:50:08,760 --> 00:50:12,593
+Dinleme Testi
+
+894
+00:50:12,593 --> 00:50:17,094
+Aslan filmini seviyorum.
+
+895
+00:50:17,094 --> 00:50:23,274
+N + が + 好(す)きです = N’yi seviyorum
+好(す)き (sevmek) ↔ 嫌(きら)い (sevmemek)
+
+896
+00:50:23,297 --> 00:50:27,564
+Dinleme Testi
+
+897
+00:50:27,564 --> 00:50:32,631
+Ah, o çok eğlenceli.
+
+898
+00:50:32,631 --> 00:50:39,534
+いA + です = ...dır (sıfat)
+面白(おもしろ)い (ilginç) ↔ つまらない (sıkıcı)
+
+899
+00:50:39,557 --> 00:50:41,939
+Evet.
+
+900
+00:50:41,962 --> 00:50:45,796
+Dinleme Testi
+
+901
+00:50:45,796 --> 00:50:50,299
+Müziği de harika.
+
+902
+00:50:50,299 --> 00:50:56,465
+いA + です = ...dır (sıfat)
+音楽(おんがく) = müzik
+素晴(すば)らしい = harika
+
+903
+00:50:56,488 --> 00:50:59,055
+Dinleme Testi
+
+904
+00:50:59,055 --> 00:51:01,988
+Evet, öyle yapalım.
+
+905
+00:51:06,082 --> 00:51:08,949
+Dinleme Testi
+
+906
+00:51:08,949 --> 00:51:12,249
+Ben de seviyorum.
+
+907
+00:51:12,249 --> 00:51:16,827
+N + も = N de / N da
+
+908
+00:51:16,850 --> 00:51:19,926
+Dinleme Testi
+
+909
+00:51:19,926 --> 00:51:23,497
+Sen hangi filmleri seversin?
+
+910
+00:51:23,497 --> 00:51:28,439
+どんな + N = nasıl bir N
+どんな = nasıl bir
+
+911
+00:51:28,462 --> 00:51:33,134
+Dinleme Testi
+
+912
+00:51:33,134 --> 00:51:38,703
+Ben prenses filmlerini severim.
+
+913
+00:51:38,703 --> 00:51:46,295
+N + が + 好(す)きです = N’yi seviyorum
+お姫様(ひめさま) = prenses
+
+914
+00:51:46,319 --> 00:51:49,511
+Dinleme Testi
+
+915
+00:51:49,511 --> 00:51:53,228
+Elbiseleri çok güzel, değil mi?
+
+916
+00:51:53,228 --> 00:51:58,361
+なA + です = ...dır (sıfat)
+綺麗(きれい) = güzel
+
+917
+00:51:58,384 --> 00:52:00,780
+Evet.
+
+918
+00:52:00,803 --> 00:52:04,636
+Dinleme Testi
+
+919
+00:52:04,636 --> 00:52:09,147
+Çocukken çok imrenirdim.
+
+920
+00:52:09,147 --> 00:52:15,381
+N + の + 時(とき) = N’nin zamanı / N iken
+子供(こども) (çocuk) ↔ 大人(おとな) (yetişkin)
+憧(あこが)れる = hayran olmak
+
+921
+00:52:15,404 --> 00:52:19,437
+Dinleme Testi
+
+922
+00:52:19,437 --> 00:52:24,208
+Şimdi de sana yakışır diye düşünüyorum.
+
+923
+00:52:24,208 --> 00:52:30,741
+VPlain + と + 思(おも)います = ... olduğunu düşünüyorum
+似合(にあ)う = yakışmak
+
+924
+00:52:30,764 --> 00:52:33,631
+Dinleme Testi
+
+925
+00:52:33,631 --> 00:52:36,946
+Öyle bir şey yok.
+
+926
+00:52:36,946 --> 00:52:41,524
+そんなことありません = Böyle bir şey yok
+
+927
+00:52:41,548 --> 00:52:43,981
+Dinleme Testi
+
+928
+00:52:43,981 --> 00:52:46,748
+Utanıyorum.
+
+929
+00:52:46,748 --> 00:52:50,617
+いA + です = ...dır (sıfat)
+恥(は)ずかしい = utanç verici / mahcup
+
+930
+00:52:50,641 --> 00:52:53,623
+Dinleme Testi
+
+931
+00:52:53,623 --> 00:52:57,090
+Gerçekten öyle.
+
+932
+00:52:57,090 --> 00:53:01,876
+N + です = ...dır (isim)
+本当(ほんとう) = gerçek / doğru
+
+933
+00:53:01,899 --> 00:53:04,199
+Dinleme Testi
+
+934
+00:53:04,199 --> 00:53:06,797
+Teşekkür ederim.
+
+935
+00:53:10,453 --> 00:53:14,086
+Dinleme Testi
+
+936
+00:53:14,086 --> 00:53:18,353
+Sıra biraz ilerledi.
+
+937
+00:53:18,353 --> 00:53:24,220
+Vました = yaptı
+列(れつ) = sıra / kuyruk
+進(すす)む (ilerlemek) ↔ 止(と)まる (durmak)
+
+938
+00:53:24,243 --> 00:53:26,309
+Evet.
+
+939
+00:53:26,332 --> 00:53:29,128
+Dinleme Testi
+
+940
+00:53:29,128 --> 00:53:32,362
+Artık çok az kaldı.
+
+941
+00:53:32,362 --> 00:53:36,833
+あと + N = ... daha kaldı
+あともう少(すこ)し = neredeyse geldik
+
+942
+00:53:36,857 --> 00:53:41,090
+Dinleme Testi
+
+943
+00:53:41,090 --> 00:53:46,123
+İçeriden çığlık sesleri geliyor.
+
+944
+00:53:46,123 --> 00:53:52,990
+N + が + 聞(き)こえます = N duyuluyor
+悲鳴(ひめい) = çığlık
+聞(き)こえる = duyulmak
+
+945
+00:53:53,013 --> 00:53:55,357
+Dinleme Testi
+
+946
+00:53:55,357 --> 00:53:58,023
+Korkuyor musun?
+
+947
+00:53:58,023 --> 00:54:01,733
+いA + です = ...dır (sıfat)
+怖(こわ)い = korkunç / korkmuş
+
+948
+00:54:01,757 --> 00:54:05,657
+Dinleme Testi
+
+949
+00:54:05,657 --> 00:54:10,291
+Hayır, heyecanlanıyorum.
+
+950
+00:54:10,291 --> 00:54:16,607
+わくわく = heyecanlı
+
+951
+00:54:16,630 --> 00:54:19,734
+Dinleme Testi
+
+952
+00:54:19,734 --> 00:54:23,367
+Ben de öyle.
+
+953
+00:54:23,367 --> 00:54:28,364
+N + も = N de / N da
+
+954
+00:54:28,388 --> 00:54:30,781
+Dinleme Testi
+
+955
+00:54:30,781 --> 00:54:33,515
+Çok heyecan verici, değil mi?
+
+956
+00:54:33,515 --> 00:54:37,348
+N + です = ...dır (isim)
+楽(たの)しみ = dört gözle beklemek
+
+957
+00:54:37,371 --> 00:54:39,517
+Evet.
+
+958
+00:54:39,540 --> 00:54:43,088
+Dinleme Testi
+
+959
+00:54:43,088 --> 00:54:47,239
+İyi tutunun lütfen.
+
+960
+00:54:47,239 --> 00:54:52,939
+Vて + ください = lütfen ... yapın
+しっかり = sıkıca / sağlam
+つかまる = tutunmak
+
+961
+00:54:52,962 --> 00:54:54,462
+6. Sahne: Dinlenme ve İlgi / Dinlenme ve Düşünme
+
+962
+00:54:54,462 --> 00:54:57,962
+Dinleme Testi
+
+963
+00:54:57,962 --> 00:55:02,062
+Biraz yorulduk, değil mi?
+
+964
+00:55:02,062 --> 00:55:07,696
+Vました + ね = ... değil mi?
+疲(つか)れる = yorulmak
+
+965
+00:55:07,719 --> 00:55:11,691
+Dinleme Testi
+
+966
+00:55:11,691 --> 00:55:16,397
+Evet, çok yürüdük çünkü.
+
+967
+00:55:16,397 --> 00:55:22,863
+Vました + から = çünkü ...
+歩(ある)く = yürümek
+
+968
+00:55:22,886 --> 00:55:26,468
+Dinleme Testi
+
+969
+00:55:26,468 --> 00:55:30,702
+Şu kafede biraz dinlenelim mi?
+
+970
+00:55:30,702 --> 00:55:36,469
+Vましょうか = ... yapalım mı?
+休(やす)む = dinlenmek
+
+971
+00:55:36,492 --> 00:55:38,636
+Dinleme Testi
+
+972
+00:55:38,636 --> 00:55:41,070
+Harika olur!
+
+973
+00:55:41,070 --> 00:55:44,449
+いA + です + ね = ... değil mi? (onay beklerken)
+
+974
+00:55:44,472 --> 00:55:47,939
+Dinleme Testi
+
+975
+00:55:47,939 --> 00:55:52,005
+Soğuk bir şeyler içmek istiyorum.
+
+976
+00:55:52,005 --> 00:55:57,559
+いA + N + が + Vたい + です = ... istiyorum
+冷(つめ)たい (soğuk) ↔ 温(あたた)かい (ılık)
+
+977
+00:55:57,583 --> 00:56:00,317
+Dinleme Testi
+
+978
+00:56:00,317 --> 00:56:03,476
+İçeri girelim.
+
+979
+00:56:03,476 --> 00:56:07,855
+Vましょう = Haydi ... yapalım
+中(なか) (iç) ↔ 外(そと) (dış)
+
+980
+00:56:07,878 --> 00:56:10,944
+Dinleme Testi
+
+981
+00:56:10,944 --> 00:56:14,478
+Boş yer var.
+
+982
+00:56:14,478 --> 00:56:19,381
+N + が + Vています + よ = ... yapıyor (bilgi vermek için)
+席(せき) = koltuk / yer
+
+983
+00:56:19,405 --> 00:56:21,801
+Dinleme Testi
+
+984
+00:56:21,801 --> 00:56:24,534
+İyi oldu.
+
+985
+00:56:24,534 --> 00:56:28,368
+いAかったです = ... idi (geçmiş zaman sıfat)
+
+986
+00:56:28,391 --> 00:56:30,524
+Dinleme Testi
+
+987
+00:56:30,524 --> 00:56:32,910
+Oturabiliriz artık.
+
+988
+00:56:32,910 --> 00:56:36,258
+Vましょう = Haydi ... yapalım
+座(すわ)る (oturmak) ↔ 立(た)つ (ayakta durmak)
+
+989
+00:56:36,281 --> 00:56:39,181
+Dinleme Testi
+
+990
+00:56:39,181 --> 00:56:42,515
+Ayakların ağrımıyor mu?
+
+991
+00:56:42,515 --> 00:56:47,148
+N + が + いAくない + ですか = N ... değil mi?
+足(あし) = ayak / bacak
+痛(いた)い = ağrılı / acıyor
+
+992
+00:56:47,171 --> 00:56:51,438
+Dinleme Testi
+
+993
+00:56:51,438 --> 00:56:56,504
+Biraz ağrıyor ama sorun değil.
+
+994
+00:56:56,504 --> 00:57:03,404
+いAいです + が = ... ama ...
+大丈夫(だいじょうぶ) = sorun yok / iyiyim
+
+995
+00:57:03,427 --> 00:57:07,061
+Dinleme Testi
+
+996
+00:57:07,061 --> 00:57:11,327
+Ben kahve almaya gidiyorum.
+
+997
+00:57:11,327 --> 00:57:17,161
+N + は + N + を + Vに行(い)きます = ... yapmaya gidiyorum
+買(か)う (satın almak) ↔ 売(う)る (satmak)
+
+998
+00:57:17,184 --> 00:57:20,017
+Dinleme Testi
+
+999
+00:57:20,017 --> 00:57:23,284
+Ben de seninle geliyorum.
+
+1000
+00:57:23,284 --> 00:57:27,797
+一緒(いっしょ)に + Vます + よ = birlikte ... yapalım
+一緒(いっしょ)に = birlikte
+
+1001
+00:57:27,820 --> 00:57:30,453
+Dinleme Testi
+
+1002
+00:57:30,453 --> 00:57:33,449
+Sorun değil.
+
+1003
+00:57:33,449 --> 00:57:37,607
+A + dir = Sorun değil.
+
+1004
+00:57:37,631 --> 00:57:40,464
+Dinleme Testi
+
+1005
+00:57:40,464 --> 00:57:43,703
+Sen burada dinlen.
+
+1006
+00:57:43,703 --> 00:57:48,203
+V + -ıp/-ip/-up/-üp lütfen = Lütfen yapın...
+
+1007
+00:57:48,226 --> 00:57:50,968
+Dinleme Testi
+
+1008
+00:57:50,968 --> 00:57:54,119
+O zaman rica ediyorum.
+
+1009
+00:57:54,119 --> 00:57:58,494
+Lütfen = rica ederim
+
+1010
+00:57:58,518 --> 00:58:01,418
+Dinleme Testi
+
+1011
+00:58:01,418 --> 00:58:04,753
+Ne içmek istersin?
+
+1012
+00:58:04,753 --> 00:58:09,386
+Ne + -ı/-i/-u/-ü + V + -ırsınız? = Ne yaparsınız?
+İçmek = içmek
+
+1013
+00:58:09,409 --> 00:58:12,795
+Dinleme Testi
+
+1014
+00:58:12,795 --> 00:58:16,762
+Buzlu kahve lütfen.
+
+1015
+00:58:16,762 --> 00:58:22,228
+N + lütfen = N, lütfen
+
+1016
+00:58:22,251 --> 00:58:25,621
+Dinleme Testi
+
+1017
+00:58:25,621 --> 00:58:29,563
+Süt ve şeker ister misin?
+
+1018
+00:58:29,563 --> 00:58:35,030
+N1 + ve + N2 + V + -ır mı? = N1 ve N2
+Şeker = şeker
+
+1019
+00:58:35,053 --> 00:58:38,820
+Dinleme Testi
+
+1020
+00:58:38,820 --> 00:58:43,286
+Evet, biraz koy lütfen.
+
+1021
+00:58:43,286 --> 00:58:49,353
+V + -ıp/-ip/-up/-üp lütfen = Lütfen yapın...
+Koymak/eklemek = koymak, eklemek
+
+1022
+00:58:49,376 --> 00:58:51,509
+Dinleme Testi
+
+1023
+00:58:51,509 --> 00:58:53,943
+Tamam.
+
+1024
+00:58:57,335 --> 00:59:00,235
+Dinleme Testi
+
+1025
+00:59:00,235 --> 00:59:03,583
+Pasta da yer misin?
+
+1026
+00:59:03,583 --> 00:59:08,217
+N + de/da + V + -ır mı? = ... da mı?
+Yemek = yemek
+
+1027
+00:59:08,239 --> 00:59:12,213
+Dinleme Testi
+
+1028
+00:59:12,213 --> 00:59:16,916
+Hayır, sadece içecek yeterli.
+
+1029
+00:59:16,916 --> 00:59:23,350
+Sadece N + yeterli = Sadece ... yeterli.
+İçecek = içecek
+
+1030
+00:59:23,373 --> 00:59:25,607
+Dinleme Testi
+
+1031
+00:59:25,607 --> 00:59:28,140
+Tamam.
+
+1032
+00:59:31,698 --> 00:59:34,131
+Dinleme Testi
+
+1033
+00:59:34,131 --> 00:59:36,888
+Bekle, hemen geliyorum.
+
+1034
+00:59:36,888 --> 00:59:40,727
+V + -ıp/-ip/-up/-üp lütfen = Lütfen yapın...
+Beklemek = beklemek
+
+1035
+00:59:40,751 --> 00:59:43,297
+Dinleme Testi
+
+1036
+00:59:43,297 --> 00:59:46,210
+Seni beklettim, özür dilerim.
+
+1037
+00:59:46,210 --> 00:59:50,276
+Sizi beklettim, özür dilerim = Beklettiğim için özür dilerim.
+
+1038
+00:59:50,299 --> 00:59:52,466
+Dinleme Testi
+
+1039
+00:59:52,466 --> 00:59:54,899
+Teşekkür ederim.
+
+1040
+00:59:58,356 --> 01:00:02,144
+Dinleme Testi
+
+1041
+01:00:02,144 --> 01:00:06,616
+Bu çok soğuk ve lezzetli.
+
+1042
+01:00:06,616 --> 01:00:12,736
+İA + -ıp/-ip + İA + -dır = ... ve ...
+Lezzetli ↔ Tatsız
+
+1043
+01:00:12,759 --> 01:00:16,343
+Dinleme Testi
+
+1044
+01:00:16,343 --> 01:00:20,576
+Evet, alayım.
+
+1045
+01:00:20,576 --> 01:00:26,346
+Almak/içmek/yemek (alçakgönüllü) = almak, yemek/içmek (kibarca)
+
+1046
+01:00:26,370 --> 01:00:29,870
+Dinleme Testi
+
+1047
+01:00:29,870 --> 01:00:33,970
+Ah, çok lezzetli!
+
+1048
+01:00:33,970 --> 01:00:39,604
+İA + -dır = ...dır
+
+1049
+01:00:39,627 --> 01:00:42,060
+Dinleme Testi
+
+1050
+01:00:42,060 --> 01:00:44,843
+İyi oldu.
+
+1051
+01:00:44,843 --> 01:00:48,710
+İA + -dı = Güzeldi.
+
+1052
+01:00:48,733 --> 01:00:52,399
+Dinleme Testi
+
+1053
+01:00:52,399 --> 01:00:56,699
+Dışarısı çok sıcaktı çünkü.
+
+1054
+01:00:56,699 --> 01:01:02,605
+N + -dı çünkü = çünkü ...
+Sıcak ↔ Soğuk
+
+1055
+01:01:02,628 --> 01:01:04,770
+Dinleme Testi
+
+1056
+01:01:04,770 --> 01:01:07,204
+Evet, öyle yapalım.
+
+1057
+01:01:10,621 --> 01:01:14,954
+Dinleme Testi
+
+1058
+01:01:14,954 --> 01:01:20,093
+Biraz serin bir yerde dinlenmek istedim.
+
+1059
+01:01:20,093 --> 01:01:27,126
+İA + N + istedim = ... istedim
+Serin ↔ Bunaltıcı sıcak
+
+1060
+01:01:27,149 --> 01:01:30,701
+Dinleme Testi
+
+1061
+01:01:30,701 --> 01:01:34,876
+Bundan sonra nereye gideceğiz?
+
+1062
+01:01:34,876 --> 01:01:40,610
+Bundan sonra nereye V + -ırsınız? = Bundan sonra nereye gidersiniz?
+Sonra ↔ Önce
+
+1063
+01:01:40,634 --> 01:01:43,467
+Dinleme Testi
+
+1064
+01:01:43,467 --> 01:01:46,734
+Geçit törenini izlemek istiyorum.
+
+1065
+01:01:46,734 --> 01:01:51,234
+N + -ı/-i/-u/-ü + V + -mak istiyorum = ... istiyorum
+İzlemek/görmek = izlemek, görmek
+
+1066
+01:01:51,257 --> 01:01:53,635
+Dinleme Testi
+
+1067
+01:01:53,635 --> 01:01:56,338
+Saat kaçta başlıyor?
+
+1068
+01:01:56,338 --> 01:02:00,106
+Saat kaçtan itibaren? = Saat kaçtan başlıyor?
+
+1069
+01:02:00,129 --> 01:02:04,443
+Dinleme Testi
+
+1070
+01:02:04,443 --> 01:02:09,577
+Saat 3'te başlıyor, daha vaktimiz var.
+
+1071
+01:02:09,577 --> 01:02:16,566
+N + -dan/-den itibaren = çünkü ...-dan/-den itibaren
+Zaman = zaman
+
+1072
+01:02:16,589 --> 01:02:20,756
+Dinleme Testi
+
+1073
+01:02:20,756 --> 01:02:25,694
+O zaman biraz dinlendikten sonra gidelim.
+
+1074
+01:02:25,694 --> 01:02:32,435
+V + -ıp/-ip/-up/-üp + sonra V + -alım = ... yaptıktan sonra ... yapalım
+Gitmek ↔ Gelmek
+
+1075
+01:02:32,458 --> 01:02:33,958
+7. Sahne: Akşam Yemeği İçin Köri Seçimi
+
+1076
+01:02:33,958 --> 01:02:37,316
+Dinleme Testi
+
+1077
+01:02:37,316 --> 01:02:41,250
+Acıktım.
+
+1078
+01:02:41,250 --> 01:02:46,683
+V + -dı değil mi? = ... yapmıştın, değil mi?
+Acıkmak = acıkmak
+
+1079
+01:02:46,706 --> 01:02:51,039
+Dinleme Testi
+
+1080
+01:02:51,039 --> 01:02:56,173
+Evet, saat akşam yediyi geçiyor bile.
+
+1081
+01:02:56,173 --> 01:03:03,206
+N + değil mi? = N, değil mi?
+Gece ↔ Gündüz
+
+1082
+01:03:03,229 --> 01:03:06,262
+Dinleme Testi
+
+1083
+01:03:06,262 --> 01:03:09,762
+Hadi yemek yiyelim.
+
+1084
+01:03:09,762 --> 01:03:14,596
+V + -alım = Hadi yapalım...
+Yemek = yemek/pirinç
+
+1085
+01:03:14,620 --> 01:03:17,522
+Dinleme Testi
+
+1086
+01:03:17,522 --> 01:03:20,878
+Ne yemek istersin?
+
+1087
+01:03:20,878 --> 01:03:25,511
+V + -mak istiyor musun? = ... yapmak ister misin?
+
+1088
+01:03:25,534 --> 01:03:28,568
+Dinleme Testi
+
+1089
+01:03:28,568 --> 01:03:32,085
+Köri yapsak nasıl olur?
+
+1090
+01:03:32,085 --> 01:03:36,952
+N nasıl? = N nasıl?
+
+1091
+01:03:36,975 --> 01:03:39,481
+Dinleme Testi
+
+1092
+01:03:39,481 --> 01:03:42,351
+Harika olur!
+
+1093
+01:03:46,368 --> 01:03:49,034
+Dinleme Testi
+
+1094
+01:03:49,034 --> 01:03:52,101
+Köriyi severim.
+
+1095
+01:03:52,101 --> 01:03:56,340
+N + -ı/-i/-u/-ü + seviyorum = N'yi seviyorum
+Sevmek ↔ Sevmemek
+
+1096
+01:03:56,364 --> 01:03:59,900
+Dinleme Testi
+
+1097
+01:03:59,900 --> 01:04:04,050
+Şu restorana gidelim.
+
+1098
+01:04:04,050 --> 01:04:09,750
+N + -a/-e gidelim = Hadi N'ye gidelim
+Restoran = restoran
+
+1099
+01:04:09,773 --> 01:04:13,039
+Dinleme Testi
+
+1100
+01:04:13,039 --> 01:04:16,873
+Çok güzel bir restoranmış.
+
+1101
+01:04:16,873 --> 01:04:22,106
+NA + N = Sıfat N
+Temiz/ güzel ↔ Kirli
+
+1102
+01:04:22,129 --> 01:04:25,996
+Dinleme Testi
+
+1103
+01:04:25,996 --> 01:04:30,548
+Arap havası var.
+
+1104
+01:04:30,548 --> 01:04:36,815
+N + var = N var
+Atmosfer = atmosfer
+
+1105
+01:04:36,838 --> 01:04:39,708
+Dinleme Testi
+
+1106
+01:04:39,708 --> 01:04:43,022
+Menüye bakalım.
+
+1107
+01:04:43,022 --> 01:04:47,655
+V + -alım = Hadi yapalım...
+Menü = menü
+
+1108
+01:04:47,678 --> 01:04:51,014
+Dinleme Testi
+
+1109
+01:04:51,014 --> 01:04:54,914
+Ben tavuk köri alacağım.
+
+1110
+01:04:54,914 --> 01:05:00,281
+N + alacağım = N alacağım
+Tavuk = tavuk
+
+1111
+01:05:00,304 --> 01:05:04,084
+Dinleme Testi
+
+1112
+01:05:04,084 --> 01:05:08,550
+Ben de dana eti köri alacağım.
+
+1113
+01:05:08,550 --> 01:05:14,655
+N + alacağım = N alacağım
+Dana eti = dana eti
+
+1114
+01:05:14,679 --> 01:05:17,612
+Dinleme Testi
+
+1115
+01:05:17,612 --> 01:05:21,003
+Acı seviyesi nasıl olsun?
+
+1116
+01:05:21,003 --> 01:05:25,703
+N hakkında ne yaparsınız? = N hakkında ne yapmak istersiniz?
+Acı ↔ Tatlı
+
+1117
+01:05:25,726 --> 01:05:28,506
+Dinleme Testi
+
+1118
+01:05:28,506 --> 01:05:31,739
+Orta acılı olsun.
+
+1119
+01:05:31,739 --> 01:05:36,206
+N iyi olur = N iyi olur
+Orta acılı = orta acılı
+
+1120
+01:05:36,229 --> 01:05:39,396
+Dinleme Testi
+
+1121
+01:05:39,396 --> 01:05:43,096
+Ben de orta acılı alayım.
+
+1122
+01:05:43,096 --> 01:05:48,196
+N alacağım = N alacağım
+
+1123
+01:05:48,219 --> 01:05:52,252
+Dinleme Testi
+
+1124
+01:05:52,252 --> 01:05:57,029
+Pilav mı yoksa nan mı istersin?
+
+1125
+01:05:57,029 --> 01:06:03,562
+N1 mi N2 mi tercih edersiniz? = N1 mi yoksa N2 mi tercih edersiniz?
+Naan = naan
+
+1126
+01:06:03,585 --> 01:06:06,259
+Dinleme Testi
+
+1127
+01:06:06,259 --> 01:06:09,333
+Nan istiyorum.
+
+1128
+01:06:09,333 --> 01:06:13,607
+N iyi olur = N iyi olur
+
+1129
+01:06:13,631 --> 01:06:16,698
+Dinleme Testi
+
+1130
+01:06:16,698 --> 01:06:20,267
+Büyük nan severim.
+
+1131
+01:06:20,267 --> 01:06:25,176
+İA + N = Sıfat N
+Büyük ↔ Küçük
+
+1132
+01:06:25,199 --> 01:06:28,875
+Dinleme Testi
+
+1133
+01:06:28,875 --> 01:06:33,212
+O zaman iki tane nan lütfen.
+
+1134
+01:06:33,212 --> 01:06:39,157
+N + sayısını rica ederim = N, ... adet lütfen
+İki = iki (adet)
+
+1135
+01:06:39,180 --> 01:06:42,562
+Dinleme Testi
+
+1136
+01:06:42,562 --> 01:06:46,529
+Salata da yiyelim mi?
+
+1137
+01:06:46,529 --> 01:06:51,996
+V + -alım mı? = ... yapalım mı?
+Salata = salata
+
+1138
+01:06:52,019 --> 01:06:55,175
+Dinleme Testi
+
+1139
+01:06:55,175 --> 01:06:58,875
+Evet, birlikte yiyelim.
+
+1140
+01:06:58,875 --> 01:07:03,947
+Birlikte V + -alım = Hadi birlikte yapalım
+Birlikte = birlikte
+
+1141
+01:07:03,970 --> 01:07:06,737
+Dinleme Testi
+
+1142
+01:07:06,737 --> 01:07:09,918
+Yemek geldi!
+
+1143
+01:07:09,918 --> 01:07:14,351
+V + -dım! = Yaptım!
+Yemek pişirme = yemek/pişirme
+
+1144
+01:07:14,374 --> 01:07:17,754
+Dinleme Testi
+
+1145
+01:07:17,754 --> 01:07:21,721
+Çok güzel kokuyor.
+
+1146
+01:07:21,721 --> 01:07:27,188
+N + var/kokuyor/hissediliyor = N var/kokuyor/hissediliyor
+Koku = koku
+
+1147
+01:07:27,211 --> 01:07:29,525
+Dinleme Testi
+
+1148
+01:07:29,525 --> 01:07:32,158
+Afiyet olsun.
+
+1149
+01:07:32,158 --> 01:07:35,825
+Afiyet olsun = Yemekten önce söylenen ifade
+
+1150
+01:07:35,848 --> 01:07:38,322
+Dinleme Testi
+
+1151
+01:07:38,322 --> 01:07:41,155
+Afiyet olsun.
+
+1152
+01:07:45,113 --> 01:07:47,613
+Dinleme Testi
+
+1153
+01:07:47,613 --> 01:07:50,447
+Sıcakmış!
+
+1154
+01:07:50,447 --> 01:07:54,380
+İA + değil mi? = ... değil mi?
+Sıcak (sıcaklık) ↔ Soğuk
+
+1155
+01:07:54,403 --> 01:07:57,836
+Dinleme Testi
+
+1156
+01:07:57,836 --> 01:08:01,870
+Evet, dikkat et.
+
+1157
+01:08:01,870 --> 01:08:07,389
+Dikkatli olun lütfen = Lütfen dikkatli olun
+Dikkat etmek = dikkatli olmak
+
+1158
+01:08:07,412 --> 01:08:11,364
+Dinleme Testi
+
+1159
+01:08:11,364 --> 01:08:16,064
+Hmm, çok lezzetli!
+
+1160
+01:08:16,064 --> 01:08:22,455
+Çok İA = Çok ...
+Lezzetli ↔ Tatsız
+
+1161
+01:08:22,479 --> 01:08:24,913
+Dinleme Testi
+
+1162
+01:08:24,913 --> 01:08:27,653
+Gerçekten öyle.
+
+1163
+01:08:27,653 --> 01:08:31,486
+Gerçek = gerçek/hakikat
+
+1164
+01:08:31,509 --> 01:08:34,742
+Dinleme Testi
+
+1165
+01:08:34,742 --> 01:08:38,509
+Et çok yumuşak.
+
+1166
+01:08:38,509 --> 01:08:43,695
+N + が + sıfat + dır = N sıfattır
+Yumuşak ↔ Sert
+
+1167
+01:08:43,718 --> 01:08:47,351
+Dinleme Testi
+
+1168
+01:08:47,351 --> 01:08:51,622
+Nan da büyük ve lezzetli.
+
+1169
+01:08:51,622 --> 01:08:57,489
+Sıfat + -k + sıfat + dır = Hem sıfattır hem de sıfattır
+
+1170
+01:08:57,512 --> 01:09:00,645
+Dinleme Testi
+
+1171
+01:09:00,645 --> 01:09:04,279
+Karnım doydu.
+
+1172
+01:09:04,279 --> 01:09:09,312
+N + oldu = N oldu
+Karnım tok = tok (mide)
+
+1173
+01:09:09,335 --> 01:09:12,002
+Dinleme Testi
+
+1174
+01:09:12,002 --> 01:09:15,068
+Ben de öyle.
+
+1175
+01:09:19,358 --> 01:09:21,912
+Dinleme Testi
+
+1176
+01:09:21,912 --> 01:09:24,855
+Elinize sağlık.
+
+1177
+01:09:24,855 --> 01:09:28,929
+Afiyet olsun = Yemekten sonra söylenen ifade
+
+1178
+01:09:28,952 --> 01:09:30,452
+8. Sahne: Akşam Geçidi ve Kalplerin Sıcaklığı
+
+1179
+01:09:30,452 --> 01:09:34,086
+Dinleme Testi
+
+1180
+01:09:34,086 --> 01:09:38,354
+Dışarısı karardı.
+
+1181
+01:09:38,354 --> 01:09:44,220
+Sıfat + -k + olur = ... olur
+Karanlık ↔ Aydınlık
+
+1182
+01:09:44,243 --> 01:09:48,721
+Dinleme Testi
+
+1183
+01:09:48,721 --> 01:09:54,055
+Evet, geçit töreni yakında başlayacak.
+
+1184
+01:09:54,055 --> 01:10:01,327
+Fiil + -r/-ar = ... yapacak
+Geçit töreni
+Başlamak ↔ Bitmek
+
+1185
+01:10:01,351 --> 01:10:04,061
+Dinleme Testi
+
+1186
+01:10:04,061 --> 01:10:07,194
+Nerede izleyelim?
+
+1187
+01:10:07,194 --> 01:10:11,527
+Fiil + -r/-ar mıyız? = ... yapalım mı?
+Nerede
+
+1188
+01:10:11,550 --> 01:10:14,488
+Dinleme Testi
+
+1189
+01:10:14,488 --> 01:10:17,922
+Şurada güzel görünüyor.
+
+1190
+01:10:17,922 --> 01:10:22,622
+Fiil (potansiyel) + -r/-ar = ... yapabilir
+Görünmek
+
+1191
+01:10:22,645 --> 01:10:24,778
+Dinleme Testi
+
+1192
+01:10:24,778 --> 01:10:27,169
+Gidelim!
+
+1193
+01:10:27,169 --> 01:10:30,525
+Fiil + -elim/-alım = haydi ...
+Gitmek ↔ Gelmek
+
+1194
+01:10:30,548 --> 01:10:34,050
+Dinleme Testi
+
+1195
+01:10:34,050 --> 01:10:38,158
+Biraz kalabalık olmuş.
+
+1196
+01:10:38,158 --> 01:10:43,825
+Sıfat + değil mi? = ..., değil mi?
+Çok ↔ Az
+
+1197
+01:10:43,848 --> 01:10:47,802
+Dinleme Testi
+
+1198
+01:10:47,802 --> 01:10:52,502
+Evet, kaybolmayalım.
+
+1199
+01:10:52,502 --> 01:10:58,892
+Fiil + -me/-ma + yapmayın = lütfen ... yapmayın
+Ayrılmak
+
+1200
+01:10:58,915 --> 01:11:02,349
+Dinleme Testi
+
+1201
+01:11:02,349 --> 01:11:06,342
+Elini tutabilir miyim?
+
+1202
+01:11:06,342 --> 01:11:11,842
+Fiil + -e/-a + bilir miyim? = ... yapabilir miyim?
+El
+Tutmak (elleri)
+
+1203
+01:11:11,865 --> 01:11:15,098
+Dinleme Testi
+
+1204
+01:11:15,098 --> 01:11:18,831
+Evet, lütfen.
+
+1205
+01:11:18,831 --> 01:11:23,969
+Dilemek = dilemek / rica etmek
+
+1206
+01:11:23,993 --> 01:11:27,669
+Dinleme Testi
+
+1207
+01:11:27,669 --> 01:11:31,987
+Biraz serinledi, değil mi?
+
+1208
+01:11:31,987 --> 01:11:37,920
+Sıfat + -k + oldu = ... oldu
+Soğuk ↔ Sıcak
+
+1209
+01:11:37,943 --> 01:11:42,127
+Dinleme Testi
+
+1210
+01:11:42,127 --> 01:11:47,095
+Evet, rüzgar da soğuk.
+
+1211
+01:11:47,095 --> 01:11:53,862
+Doğru = öyle / katılıyorum
+Rüzgâr
+Soğuk (dokununca) ↔ Ilık
+
+1212
+01:11:53,885 --> 01:11:57,118
+Dinleme Testi
+
+1213
+01:11:57,118 --> 01:12:00,885
+Ceketimi vereyim mi?
+
+1214
+01:12:00,885 --> 01:12:06,066
+N + fiil = N yapmak
+Ceket
+Ödünç vermek ↔ Ödünç almak
+
+1215
+01:12:06,089 --> 01:12:09,356
+Dinleme Testi
+
+1216
+01:12:09,356 --> 01:12:13,189
+Gerçekten olur mu?
+
+1217
+01:12:13,189 --> 01:12:18,423
+Sıfat mı? = ... mi?
+İyi / Sorun yok
+
+1218
+01:12:18,446 --> 01:12:22,624
+Dinleme Testi
+
+1219
+01:12:22,624 --> 01:12:27,580
+Evet, ben üşümüyorum çünkü.
+
+1220
+01:12:27,580 --> 01:12:34,347
+Sıfat + değil + çünkü = çünkü ... değil
+Soğuk değil
+
+1221
+01:12:34,370 --> 01:12:36,754
+Dinleme Testi
+
+1222
+01:12:36,754 --> 01:12:39,469
+Teşekkür ederim.
+
+1223
+01:12:43,266 --> 01:12:46,000
+Dinleme Testi
+
+1224
+01:12:46,000 --> 01:12:49,156
+Çok sıcak.
+
+1225
+01:12:49,156 --> 01:12:53,526
+Sıfat + dır = ... dır
+Ilık ↔ Serin
+
+1226
+01:12:53,550 --> 01:12:57,100
+Dinleme Testi
+
+1227
+01:12:57,100 --> 01:13:01,270
+Ah, müzik duyuluyor.
+
+1228
+01:13:01,270 --> 01:13:07,003
+N + fiil (potansiyel) + -r/-ar = N ... yapabilir
+Müzik
+Duyulmak
+
+1229
+01:13:07,026 --> 01:13:09,732
+Dinleme Testi
+
+1230
+01:13:09,732 --> 01:13:12,846
+Başlıyor!
+
+1231
+01:13:12,846 --> 01:13:17,179
+Fiil + -dı/-di + ya = ... (bilgilendirme)
+Başlamak
+
+1232
+01:13:17,202 --> 01:13:19,194
+Dinleme Testi
+
+1233
+01:13:19,194 --> 01:13:21,428
+Bakın!
+
+1234
+01:13:21,428 --> 01:13:24,543
+Lütfen ... yapın
+Bakmak / İzlemek
+
+1235
+01:13:24,566 --> 01:13:28,672
+Dinleme Testi
+
+1236
+01:13:28,672 --> 01:13:33,539
+Vay, çok güzel!
+
+1237
+01:13:33,539 --> 01:13:40,205
+Sıfat + değil mi? = ..., değil mi?
+Güzel / Temiz
+
+1238
+01:13:40,228 --> 01:13:43,576
+Dinleme Testi
+
+1239
+01:13:43,576 --> 01:13:47,488
+Çok ışık var.
+
+1240
+01:13:47,488 --> 01:13:52,872
+N + var = N var
+Işık
+
+1241
+01:13:52,896 --> 01:13:56,404
+Dinleme Testi
+
+1242
+01:13:56,404 --> 01:14:00,515
+O gemi çok büyük, değil mi?
+
+1243
+01:14:00,515 --> 01:14:06,181
+Bu / Şu / O + N = bu / şu / oradaki N
+Gemi
+Büyük ↔ Küçük
+
+1244
+01:14:06,204 --> 01:14:10,774
+Dinleme Testi
+
+1245
+01:14:10,774 --> 01:14:16,241
+Evet, içinde bir sürü karakter var.
+
+1246
+01:14:16,241 --> 01:14:23,676
+Fiil + -yor = ... yapıyor
+Binmek ↔ İnmek
+
+1247
+01:14:23,699 --> 01:14:27,133
+Dinleme Testi
+
+1248
+01:14:27,133 --> 01:14:31,118
+Herkes el sallıyor!
+
+1249
+01:14:31,118 --> 01:14:36,584
+N + fiil + -yor = N ... yapıyor
+Herkes
+Sallamak
+
+1250
+01:14:36,607 --> 01:14:39,707
+Dinleme Testi
+
+1251
+01:14:39,707 --> 01:14:43,341
+Biz de sallayalım.
+
+1252
+01:14:43,341 --> 01:14:48,299
+N de fiil + -elim/-alım = N de ... yapalım
+Biz
+
+1253
+01:14:48,322 --> 01:14:51,155
+Dinleme Testi
+
+1254
+01:14:51,155 --> 01:14:54,422
+Çok eğlenceli görünüyor.
+
+1255
+01:14:54,422 --> 01:14:58,924
+Sıfat + görünüyor, değil mi? = ... gibi görünüyor, değil mi?
+Eğlenceli ↔ Sıkıcı
+
+1256
+01:14:58,948 --> 01:15:02,728
+Dinleme Testi
+
+1257
+01:15:02,728 --> 01:15:07,195
+Evet, rüya gibi.
+
+1258
+01:15:07,195 --> 01:15:13,310
+N + gibi = N gibi görünüyor / N gibi hissediyor
+Rüya
+
+1259
+01:15:13,333 --> 01:15:16,500
+Dinleme Testi
+
+1260
+01:15:16,500 --> 01:15:20,206
+Bugün gelmek çok iyi oldu.
+
+1261
+01:15:20,206 --> 01:15:25,306
+... yaptığıma memnun oldum
+Bugün
+İyi ↔ Kötü
+
+1262
+01:15:25,329 --> 01:15:27,996
+Dinleme Testi
+
+1263
+01:15:27,996 --> 01:15:31,062
+Ben de öyle.
+
+1264
+01:15:31,062 --> 01:15:35,296
+Ben de / N de
+
+1265
+01:15:35,320 --> 01:15:38,318
+Dinleme Testi
+
+1266
+01:15:38,318 --> 01:15:41,798
+Davet ettiğin için teşekkürler.
+
+1267
+01:15:41,798 --> 01:15:46,631
+... için teşekkürler
+Davet etmek
+
+1268
+01:15:46,654 --> 01:15:50,154
+Dinleme Testi
+
+1269
+01:15:50,154 --> 01:15:54,254
+Yine birlikte gelmek isterim.
+
+1270
+01:15:54,254 --> 01:15:59,887
+... istiyorum, değil mi?
+Birlikte
+
+1271
+01:15:59,910 --> 01:16:03,744
+Dinleme Testi
+
+1272
+01:16:03,744 --> 01:16:08,244
+Evet, kesinlikle tekrar gelelim.
+
+1273
+01:16:08,244 --> 01:16:14,400
+Kesinlikle ... yapalım
+Kesinlikle
+
+1274
+01:16:14,423 --> 01:16:17,541
+Dinleme Testi
+
+1275
+01:16:17,541 --> 01:16:21,174
+Sürekli izlemek istiyorum.
+
+1276
+01:16:21,174 --> 01:16:26,173
+... yapmaya devam etmek istiyorum, değil mi?
+Her zaman / Sürekli
+
+1277
+01:16:26,197 --> 01:16:29,330
+Dinleme Testi
+
+1278
+01:16:29,330 --> 01:16:32,997
+Gerçekten öyle.
+
+1279
+01:16:32,997 --> 01:16:38,030
+Gerçekten / Doğrusu
+Gerçek / Hakikat
+
+1280
+01:16:38,053 --> 01:16:39,553
+Sahne 9: Fotoğraf Çektirme Alıştırması / Fotoğraf Çektirmek İçin Nasıl Rica Edilir
+
+1281
+01:16:39,553 --> 01:16:43,486
+Dinleme Testi
+
+1282
+01:16:43,486 --> 01:16:48,153
+Işıklandırmalar çok güzel, değil mi?
+
+1283
+01:16:48,153 --> 01:16:54,520
+Sıfat + değil mi? = ..., değil mi?
+Işıklandırmalar / Noel ışıkları
+
+1284
+01:16:54,543 --> 01:16:58,779
+Dinleme Testi
+
+1285
+01:16:58,779 --> 01:17:03,812
+Burada fotoğraf çekelim mi?
+
+1286
+01:17:03,812 --> 01:17:10,679
+... yapalım mı?
+Fotoğraf çekmek
+
+1287
+01:17:10,702 --> 01:17:14,010
+Dinleme Testi
+
+1288
+01:17:14,010 --> 01:17:17,876
+Evet, çekmek istiyorum.
+
+1289
+01:17:17,876 --> 01:17:23,184
+... istiyorum
+
+1290
+01:17:23,207 --> 01:17:26,361
+Dinleme Testi
+
+1291
+01:17:26,361 --> 01:17:30,061
+Nasıl çekeceğiz?
+
+1292
+01:17:30,061 --> 01:17:35,135
+Nasıl ... yaparsın?
+Nasıl
+
+1293
+01:17:35,158 --> 01:17:38,940
+Dinleme Testi
+
+1294
+01:17:38,940 --> 01:17:43,407
+Birinden rica edelim.
+
+1295
+01:17:43,407 --> 01:17:49,507
+... yapalım
+Birisi
+
+1296
+01:17:49,530 --> 01:17:51,563
+Dinleme Testi
+
+1297
+01:17:51,563 --> 01:17:53,830
+Evet, öyle yapalım.
+
+1298
+01:17:57,022 --> 01:18:00,335
+Dinleme Testi
+
+1299
+01:18:00,335 --> 01:18:04,201
+Şu kişiye soralım.
+
+1300
+01:18:04,201 --> 01:18:09,545
+N + rica ederim = N’den yardım istemek
+Rica etmek
+
+1301
+01:18:09,568 --> 01:18:11,904
+Dinleme Testi
+
+1302
+01:18:11,904 --> 01:18:14,571
+Lütfen.
+
+1303
+01:18:18,294 --> 01:18:22,727
+Dinleme Testi
+
+1304
+01:18:22,727 --> 01:18:27,994
+Affedersiniz, fotoğrafımızı çekebilir misiniz?
+
+1305
+01:18:27,994 --> 01:18:35,175
+Lütfen ... yapın
+Affedersiniz / Özür dilerim
+
+1306
+01:18:35,198 --> 01:18:38,676
+Dinleme Testi
+
+1307
+01:18:38,676 --> 01:18:42,776
+Bu düğmeye basmanız yeterli.
+
+1308
+01:18:42,776 --> 01:18:48,361
+Lütfen ... yapın
+Düğmeye basmak
+
+1309
+01:18:48,384 --> 01:18:50,770
+Dinleme Testi
+
+1310
+01:18:50,770 --> 01:18:53,480
+Lütfen.
+
+1311
+01:18:57,273 --> 01:19:00,461
+Dinleme Testi
+
+1312
+01:19:00,461 --> 01:19:04,195
+Tamam, peynir deyin!
+
+1313
+01:19:04,195 --> 01:19:09,307
+Pişti deyin
+
+1314
+01:19:09,330 --> 01:19:12,797
+Dinleme Testi
+
+1315
+01:19:12,797 --> 01:19:16,863
+Bir tane daha lütfen.
+
+1316
+01:19:16,863 --> 01:19:22,421
+Miktar + lütfen
+Bir tane daha
+
+1317
+01:19:22,445 --> 01:19:24,611
+Dinleme Testi
+
+1318
+01:19:24,611 --> 01:19:27,045
+Teşekkür ederim.
+
+1319
+01:19:30,501 --> 01:19:33,834
+Dinleme Testi
+
+1320
+01:19:33,834 --> 01:19:37,734
+Fotoğrafı görelim.
+
+1321
+01:19:37,734 --> 01:19:43,101
+Lütfen ... gösterin
+
+1322
+01:19:43,124 --> 01:19:45,424
+Dinleme Testi
+
+1323
+01:19:45,424 --> 01:19:48,017
+Nasıl oldu?
+
+1324
+01:19:51,675 --> 01:19:54,575
+Dinleme Testi
+
+1325
+01:19:54,575 --> 01:19:57,909
+Güzel çıkmış mı?
+
+1326
+01:19:57,909 --> 01:20:02,542
+Sıfat + olarak ... yaptı mı? = ... şekilde yaptı mı?
+Güzelce / Tertemiz
+
+1327
+01:20:02,565 --> 01:20:06,535
+Dinleme Testi
+
+1328
+01:20:06,535 --> 01:20:11,242
+Evet, çok güzel bir fotoğraf.
+
+1329
+01:20:11,242 --> 01:20:17,676
+İyi ↔ Kötü
+
+1330
+01:20:17,699 --> 01:20:21,599
+Dinleme Testi
+
+1331
+01:20:21,599 --> 01:20:26,232
+Kale çok güzel görünüyor.
+
+1332
+01:20:26,232 --> 01:20:32,532
+Vています = V-iyor / fotoğrafta görünüyor (V-ed)
+
+1333
+01:20:32,555 --> 01:20:34,922
+Dinleme Testi
+
+1334
+01:20:34,922 --> 01:20:37,622
+Çok sevindim.
+
+1335
+01:20:37,622 --> 01:20:41,368
+Mutlu ↔ Üzgün
+
+1336
+01:20:41,391 --> 01:20:43,624
+Dinleme Testi
+
+1337
+01:20:43,624 --> 01:20:46,124
+Bana gönderir misin?
+
+1338
+01:20:46,124 --> 01:20:49,594
+Vてください = Lütfen V yapın
+Göndermek = yollamak
+
+1339
+01:20:49,618 --> 01:20:53,792
+Dinleme Testi
+
+1340
+01:20:53,792 --> 01:20:58,744
+Evet, sonra mesajla atarım.
+
+1341
+01:20:58,744 --> 01:21:05,512
+N ile + Vます = N aracılığıyla V yapmak
+Sonra = daha sonra
+
+1342
+01:21:05,535 --> 01:21:09,275
+Dinleme Testi
+
+1343
+01:21:09,275 --> 01:21:13,709
+Benim telefonumla da çekelim.
+
+1344
+01:21:13,709 --> 01:21:19,775
+N ile de + Vましょう = Hadi N ile de V yapalım
+Akıllı telefon = akıllı telefon
+
+1345
+01:21:19,798 --> 01:21:22,465
+Dinleme Testi
+
+1346
+01:21:22,465 --> 01:21:25,501
+Selfie mi?
+
+1347
+01:21:25,501 --> 01:21:29,734
+Otokaydır = selfie
+
+1348
+01:21:29,757 --> 01:21:33,591
+Dinleme Testi
+
+1349
+01:21:33,591 --> 01:21:38,093
+Evet, biraz yaklaşın.
+
+1350
+01:21:38,093 --> 01:21:44,259
+Vてください = Lütfen V yapın
+Yaklaşmak = yaklaşmak
+
+1351
+01:21:44,283 --> 01:21:47,249
+Dinleme Testi
+
+1352
+01:21:47,249 --> 01:21:50,683
+Bu kadar mı?
+
+1353
+01:21:50,683 --> 01:21:55,427
+Bu kadar = yaklaşık bu kadar
+
+1354
+01:21:55,450 --> 01:21:59,350
+Dinleme Testi
+
+1355
+01:21:59,350 --> 01:22:03,947
+Evet, gülümseyin lütfen.
+
+1356
+01:22:03,947 --> 01:22:10,247
+Vてくださいね = Lütfen V yap, tamam mı?
+Gülmek ↔ Ağlamak
+
+1357
+01:22:10,270 --> 01:22:13,903
+Dinleme Testi
+
+1358
+01:22:13,903 --> 01:22:18,142
+Tamam, peynir deyin!
+
+1359
+01:22:23,999 --> 01:22:27,432
+Dinleme Testi
+
+1360
+01:22:27,432 --> 01:22:31,465
+Ah, gözlerimi kapattım.
+
+1361
+01:22:31,465 --> 01:22:36,981
+Gözlerini kapatmak ↔ Gözlerini açmak
+
+1362
+01:22:37,005 --> 01:22:39,353
+Dinleme Testi
+
+1363
+01:22:39,353 --> 01:22:42,053
+Bir daha çekelim.
+
+1364
+01:22:42,053 --> 01:22:45,770
+Bir kez daha = bir daha / tekrar
+
+1365
+01:22:45,793 --> 01:22:48,060
+Dinleme Testi
+
+1366
+01:22:48,060 --> 01:22:50,626
+Pardon.
+
+1367
+01:22:54,216 --> 01:22:57,283
+Dinleme Testi
+
+1368
+01:22:57,283 --> 01:23:00,829
+Bu sefer oldu.
+
+1369
+01:23:00,829 --> 01:23:05,729
+Bu seferki + N / なA + dir = Bu sefer ...
+Bu sefer = bu sefer / gelecek sefer
+
+1370
+01:23:05,752 --> 01:23:07,906
+Dinleme Testi
+
+1371
+01:23:07,906 --> 01:23:10,339
+Mükemmel.
+
+1372
+01:23:10,339 --> 01:23:13,733
+Mükemmel = mükemmel
+
+1373
+01:23:13,756 --> 01:23:17,056
+Dinleme Testi
+
+1374
+01:23:17,056 --> 01:23:20,890
+Bugün güzel bir anı oldu.
+
+1375
+01:23:20,890 --> 01:23:26,163
+N oldu = N oldu
+Hatıra = anı
+
+1376
+01:23:26,186 --> 01:23:30,126
+Dinleme Testi
+
+1377
+01:23:30,126 --> 01:23:34,792
+Evet, bir hazine gibi saklayacağım.
+
+1378
+01:23:34,792 --> 01:23:41,181
+N olarak + seçmek/karar vermek = N olarak seçmek/karar vermek
+Hazine = hazine
+
+1379
+01:23:41,204 --> 01:23:42,704
+Sahne 10: Neşeli Zamanın Sonu
+
+1380
+01:23:42,704 --> 01:23:45,971
+Dinleme Testi
+
+1381
+01:23:45,971 --> 01:23:49,761
+Artık dönme vakti geldi.
+
+1382
+01:23:49,761 --> 01:23:54,996
+Vます + zaman = ... yapma zamanı
+Dönmek = dönmek, eve gitmek
+
+1383
+01:23:55,019 --> 01:23:58,486
+Dinleme Testi
+
+1384
+01:23:58,486 --> 01:24:02,520
+Evet, göz açıp kapayıncaya kadar geçti.
+
+1385
+01:24:02,520 --> 01:24:08,058
+N + idi = N idi
+Göz açıp kapayıncaya kadar = göz açıp kapayıncaya kadar
+
+1386
+01:24:08,081 --> 01:24:10,948
+Dinleme Testi
+
+1387
+01:24:10,948 --> 01:24:14,248
+Çok eğlendim.
+
+1388
+01:24:14,248 --> 01:24:18,818
+いA + かった + dır = ... idi
+Eğlenceli = eğlenceli
+
+1389
+01:24:18,841 --> 01:24:21,197
+Dinleme Testi
+
+1390
+01:24:21,197 --> 01:24:23,897
+Ben de öyle.
+
+1391
+01:24:27,664 --> 01:24:30,498
+Dinleme Testi
+
+1392
+01:24:30,498 --> 01:24:33,764
+Bugün teşekkür ederim.
+
+1393
+01:24:38,287 --> 01:24:41,077
+Dinleme Testi
+
+1394
+01:24:41,077 --> 01:24:44,311
+Yorulmadın değil mi?
+
+1395
+01:24:44,311 --> 01:24:48,777
+Vmediniz mi? = ... yapmadınız mı?
+Yorulmak = yorulmak
+
+1396
+01:24:48,800 --> 01:24:53,152
+Dinleme Testi
+
+1397
+01:24:53,152 --> 01:24:58,319
+Biraz yoruldum ama çok mutluyum.
+
+1398
+01:24:58,319 --> 01:25:05,386
+Vdim, ama... = ... yaptım, ama...
+Mutlu = mutlu
+
+1399
+01:25:05,409 --> 01:25:07,842
+Dinleme Testi
+
+1400
+01:25:07,842 --> 01:25:10,597
+Tren geldi.
+
+1401
+01:25:10,597 --> 01:25:14,430
+Vdim (bilgilendirme) = ... yaptım
+Tren = tren
+
+1402
+01:25:14,453 --> 01:25:16,487
+Dinleme Testi
+
+1403
+01:25:16,487 --> 01:25:18,753
+Binelim.
+
+1404
+01:25:18,753 --> 01:25:21,925
+Vましょう = Hadi ... yapalım
+Binmek = binmek
+
+1405
+01:25:21,948 --> 01:25:24,282
+Dinleme Testi
+
+1406
+01:25:24,282 --> 01:25:26,948
+Oturabiliriz.
+
+1407
+01:25:26,948 --> 01:25:30,653
+V可能形 + değil mi? = ... yapabilirsin, değil mi?
+Oturmak ↔ Ayakta durmak
+
+1408
+01:25:30,676 --> 01:25:32,743
+Dinleme Testi
+
+1409
+01:25:32,743 --> 01:25:35,019
+İyi oldu.
+
+1410
+01:25:35,019 --> 01:25:38,252
+İyiydi = İyiydi
+
+1411
+01:25:38,275 --> 01:25:41,142
+Dinleme Testi
+
+1412
+01:25:41,142 --> 01:25:44,442
+Ayaklarını dinlendir.
+
+1413
+01:25:44,442 --> 01:25:49,000
+Vて + ください = Lütfen ... yapın
+Bacak = bacak
+Dinlenmek = dinlenmek
+
+1414
+01:25:49,023 --> 01:25:52,557
+Dinleme Testi
+
+1415
+01:25:52,557 --> 01:25:56,690
+Çok fotoğraf çektik, değil mi?
+
+1416
+01:25:56,690 --> 01:26:02,362
+Vdin, değil mi? = ... yaptın, değil mi?
+Fotoğraf = fotoğraf
+Çekmek = fotoğraf çekmek
+
+1417
+01:26:02,385 --> 01:26:05,419
+Dinleme Testi
+
+1418
+01:26:05,419 --> 01:26:08,919
+Evet, evde bakacağım.
+
+1419
+01:26:08,919 --> 01:26:13,785
+N + de = N'de
+Ev = ev
+İzlemek = izlemek, görmek
+
+1420
+01:26:13,808 --> 01:26:15,978
+Dinleme Testi
+
+1421
+01:26:15,978 --> 01:26:18,445
+Ben de öyle.
+
+1422
+01:26:21,901 --> 01:26:24,268
+Dinleme Testi
+
+1423
+01:26:24,268 --> 01:26:26,968
+Yarın da bakacağım.
+
+1424
+01:26:26,968 --> 01:26:30,708
+N + de = N de
+Yarın = yarın
+
+1425
+01:26:30,731 --> 01:26:34,831
+Dinleme Testi
+
+1426
+01:26:34,831 --> 01:26:39,698
+Gelecek pazar ne yapacaksın?
+
+1427
+01:26:39,698 --> 01:26:46,331
+Ne + yapacaksın? = Ne yapacaksın?
+Bu sefer = bu sefer / gelecek sefer
+Pazar = Pazar
+
+1428
+01:26:46,354 --> 01:26:50,254
+Dinleme Testi
+
+1429
+01:26:50,254 --> 01:26:54,847
+Henüz bir planım yok.
+
+1430
+01:26:54,847 --> 01:27:01,125
+Hiçbir şey + Vmemek = hiçbir şey yapmamak
+Plan = plan
+
+1431
+01:27:01,148 --> 01:27:04,915
+Dinleme Testi
+
+1432
+01:27:04,915 --> 01:27:09,382
+O zaman yine bir yere gitmeye ne dersin?
+
+1433
+01:27:09,382 --> 01:27:15,482
+Bir yere + Vmeye ne dersin? = Bir yere gitmeye ne dersin?
+Bir yer = bir yer
+
+1434
+01:27:15,505 --> 01:27:18,205
+Dinleme Testi
+
+1435
+01:27:18,205 --> 01:27:21,305
+Evet, gitmek istiyorum.
+
+1436
+01:27:21,305 --> 01:27:25,583
+Vmek + istiyorum = ... yapmak istiyorum
+
+1437
+01:27:25,606 --> 01:27:27,840
+Dinleme Testi
+
+1438
+01:27:27,840 --> 01:27:30,357
+Nereye gitmek istersin?
+
+1439
+01:27:30,357 --> 01:27:33,874
+Nerede iyi olur? = Neresi iyi olur?
+
+1440
+01:27:33,897 --> 01:27:37,630
+Dinleme Testi
+
+1441
+01:27:37,630 --> 01:27:42,017
+Biraz hareket etmek istiyorum.
+
+1442
+01:27:42,017 --> 01:27:48,051
+Vmek + istiyorum = ... yapmak istiyorum
+Vücut = vücut
+Hareket ettirmek = hareket ettirmek
+
+1443
+01:27:48,074 --> 01:27:50,754
+Dinleme Testi
+
+1444
+01:27:50,754 --> 01:27:53,832
+Round One’a ne dersin?
+
+1445
+01:27:53,832 --> 01:27:58,102
+N + nasıl? = N nasıl?
+
+1446
+01:27:58,125 --> 01:28:00,425
+Dinleme Testi
+
+1447
+01:28:00,425 --> 01:28:03,058
+Harika olur!
+
+1448
+01:28:06,748 --> 01:28:10,418
+Dinleme Testi
+
+1449
+01:28:10,418 --> 01:28:14,732
+Evet, içerisi serin olur.
+
+1450
+01:28:14,732 --> 01:28:20,683
+N + ve = ve (durum bağlacı)
+İçerisi (iç mekan) ↔ Dışarısı (dış mekan)
+Serin = serin
+
+1451
+01:28:20,707 --> 01:28:23,140
+Dinleme Testi
+
+1452
+01:28:23,140 --> 01:28:25,885
+Eğlenceli görünüyor.
+
+1453
+01:28:25,885 --> 01:28:29,718
+いA gibi görünüyor = ... gibi görünüyor
+İlginç = ilginç, eğlenceli
+
+1454
+01:28:29,741 --> 01:28:32,091
+Dinleme Testi
+
+1455
+01:28:32,091 --> 01:28:34,758
+Gitmek istiyorum.
+
+1456
+01:28:34,758 --> 01:28:38,472
+Vmek + istiyorum = ... yapmak istiyorum
+
+1457
+01:28:38,495 --> 01:28:43,491
+Dinleme Testi
+
+1458
+01:28:43,491 --> 01:28:49,469
+O zaman gelecek pazar akvaryuma gidelim.
+
+1459
+01:28:49,469 --> 01:28:57,606
+N + ye + Vましょう = Hadi N'ye gidelim
+Sonraki = sonraki
+Pazar = Pazar
+
+1460
+01:28:57,629 --> 01:29:00,929
+Dinleme Testi
+
+1461
+01:29:00,929 --> 01:29:04,796
+Evet, sabırsızlıkla bekliyorum.
+
+1462
+01:29:04,796 --> 01:29:10,069
+Vて + います = ... yapıyorum/yapıyor/yapıyoruz
+Sabırsızlıkla beklemek = dört gözle beklemek
+
+1463
+01:29:10,093 --> 01:29:13,393
+Dinleme Testi
+
+1464
+01:29:13,393 --> 01:29:17,259
+Rahat hareket edebileceğin kıyafetler giymek iyi olur.
+
+1465
+01:29:17,259 --> 01:29:22,593
+V yapması kolay + N = yapması kolay N
+Kıyafet = kıyafet
+
+1466
+01:29:22,616 --> 01:29:24,804
+Dinleme Testi
+
+1467
+01:29:24,804 --> 01:29:27,270
+Tamam.
+
+1468
+01:29:30,760 --> 01:29:33,393
+Dinleme Testi
+
+1469
+01:29:33,393 --> 01:29:36,427
+Pantolon giyeceğim.
+
+1470
+01:29:36,427 --> 01:29:40,593
+N + ile + Vます = N ile gitmek
+Pantolon = pantolon
+
+1471
+01:29:40,616 --> 01:29:43,764
+Dinleme Testi
+
+1472
+01:29:43,764 --> 01:29:47,431
+Ah, benim durağım.
+
+1473
+01:29:47,431 --> 01:29:52,498
+N + nin + N = N'nin N'si
+İstasyon = istasyon
+
+1474
+01:29:52,521 --> 01:29:55,454
+Dinleme Testi
+
+1475
+01:29:55,454 --> 01:29:58,829
+Dikkatli dön.
+
+1476
+01:29:58,829 --> 01:30:03,497
+Vて + ください = Lütfen ... yapın
+Dikkat etmek = dikkat etmek
+
+1477
+01:30:03,520 --> 01:30:06,678
+Dinleme Testi
+
+1478
+01:30:06,678 --> 01:30:10,378
+Evet. İyi geceler.
+
+1479
+01:30:15,474 --> 01:30:17,816
+Dinleme Testi
+
+1480
+01:30:17,816 --> 01:30:20,483
+İyi geceler.
+
+1481
+01:30:24,206 --> 01:30:26,673
+Dinleme Testi
+
+1482
+01:30:26,673 --> 01:30:29,456
+Haftaya görüşürüz.
+
+1483
+01:30:29,456 --> 01:30:33,334
+Gelecek hafta = gelecek hafta
