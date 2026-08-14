@@ -1,0 +1,5559 @@
+1
+00:00:00,000 --> 00:00:07,616
+Bugungi videomiz qanday? Bankdagi suhbat haqida.
+
+2
+00:00:07,616 --> 00:00:09,116
+Sahna 1: Hisob ochish tartibi / Bank hisobini ochish tartibi
+
+3
+00:00:09,116 --> 00:00:10,916
+Xush kelibsiz!
+
+4
+00:00:10,938 --> 00:00:13,938
+Bugun nima uchun kelgansiz?
+
+5
+00:00:13,961 --> 00:00:15,528
+Kechirasiz.
+
+6
+00:00:15,551 --> 00:00:18,969
+Bank hisobini ochmoqchiman.
+
+7
+00:00:18,993 --> 00:00:20,847
+Tushunarli.
+
+8
+00:00:20,870 --> 00:00:23,304
+Yangi hisob ochmoqchisiz, shundaymi?
+
+9
+00:00:23,327 --> 00:00:25,960
+Ha, shunday.
+
+10
+00:00:25,983 --> 00:00:29,392
+Siz Yaponiyada yashaysizmi?
+
+11
+00:00:29,415 --> 00:00:31,215
+Ha.
+
+12
+00:00:31,238 --> 00:00:34,250
+O'tgan oydan beri Tokioda yashayapman.
+
+13
+00:00:34,274 --> 00:00:37,077
+Ishlayapsizmi?
+
+14
+00:00:37,100 --> 00:00:38,636
+Ha.
+
+15
+00:00:38,659 --> 00:00:40,237
+Ishchimanki.
+
+16
+00:00:40,261 --> 00:00:42,227
+Tushunarli.
+
+17
+00:00:42,250 --> 00:00:46,927
+Hisob ochish uchun shaxsiy guvohnoma kerak.
+
+18
+00:00:46,951 --> 00:00:50,118
+Shaxsiy guvohnomami?
+
+19
+00:00:50,141 --> 00:00:51,416
+Ha.
+
+20
+00:00:51,439 --> 00:00:55,039
+Yashash kartasi yoki pasportingiz bormi?
+
+21
+00:00:55,062 --> 00:00:56,296
+Ha.
+
+22
+00:00:56,319 --> 00:00:59,094
+Yashash kartam bor.
+
+23
+00:00:59,117 --> 00:01:00,723
+Rahmat.
+
+24
+00:01:00,746 --> 00:01:03,915
+Unda, iltimos, buni ko'rsating.
+
+25
+00:01:03,939 --> 00:01:05,272
+Ha.
+
+26
+00:01:05,295 --> 00:01:06,829
+Marhamat.
+
+27
+00:01:06,852 --> 00:01:08,697
+Tekshirib chiqayapman.
+
+28
+00:01:08,720 --> 00:01:11,730
+My Number kartangiz bormi?
+
+29
+00:01:11,753 --> 00:01:14,927
+My Number kartam hali yo'q.
+
+30
+00:01:14,951 --> 00:01:16,751
+Bundaymi.
+
+31
+00:01:16,774 --> 00:01:20,174
+My Number raqami yozilgan hujjatlaringiz bormi?
+
+32
+00:01:20,197 --> 00:01:22,808
+Aholi ro'yxati bo'lsa bor.
+
+33
+00:01:22,831 --> 00:01:24,431
+Rahmat.
+
+34
+00:01:24,454 --> 00:01:27,187
+Aholi ro'yxatini ham iltimos qilaman.
+
+35
+00:01:27,210 --> 00:01:29,810
+Ha, mana bu.
+
+36
+00:01:29,833 --> 00:01:31,475
+Tekshirdim.
+
+37
+00:01:31,498 --> 00:01:34,965
+Keyin, muhringiz bormi?
+
+38
+00:01:34,988 --> 00:01:37,458
+Muhr yo'q.
+
+39
+00:01:37,482 --> 00:01:40,021
+Imzo qo'yish ham mumkin.
+
+40
+00:01:40,044 --> 00:01:41,977
+Yaxshimi, yaxshi.
+
+41
+00:01:42,000 --> 00:01:47,134
+Unda, bu blankaga ismingiz va manzilingizni yozing.
+
+42
+00:01:47,157 --> 00:01:49,357
+Kanji (xitoycha belgilar) bilan yozaymi?
+
+43
+00:01:49,380 --> 00:01:51,946
+Lotin harflari bilan ham yozishingiz mumkin.
+
+44
+00:01:51,969 --> 00:01:53,614
+Tushunarli.
+
+45
+00:01:53,637 --> 00:01:55,671
+Hozir yozaman.
+
+46
+00:01:55,694 --> 00:01:58,833
+Nimadir tushunmagan joyingiz bo'lsa, so'rang.
+
+47
+00:01:58,856 --> 00:02:02,089
+Ha, rahmat.
+
+48
+00:02:02,112 --> 00:02:11,121
+Bugungi videoning skriptini tavsifdan va eng yuqori kommentdan yuklab olishingiz mumkin. Yuklashdan oldin izoh qoldirishni unutmang!
+
+49
+00:02:11,121 --> 00:02:12,621
+Sahna 2: Kurs yaratish tartibi / Kurs yaratish tartibi
+
+50
+00:02:12,621 --> 00:02:14,559
+Xush kelibsiz!
+
+51
+00:02:14,582 --> 00:02:17,627
+Nima uchun kelgansiz?
+
+52
+00:02:17,651 --> 00:02:19,140
+Kechirasiz.
+
+53
+00:02:19,164 --> 00:02:21,776
+Hisob ochmoqchiman.
+
+54
+00:02:21,800 --> 00:02:23,766
+Rahmat.
+
+55
+00:02:23,789 --> 00:02:26,956
+Bugun tartibni bajarasizmi?
+
+56
+00:02:26,979 --> 00:02:32,146
+Yo'q, bugun nimalar kerakligini bilish uchun keldim.
+
+57
+00:02:32,169 --> 00:02:34,102
+Tushunarli.
+
+58
+00:02:34,125 --> 00:02:37,925
+Avvalo, yashash kartasi kerak.
+
+59
+00:02:37,948 --> 00:02:40,361
+Yashash kartasi, shundaymi?
+
+60
+00:02:40,385 --> 00:02:42,218
+Bor.
+
+61
+00:02:42,241 --> 00:02:45,916
+Shundan keyin, muhr ham kerak boʻladi.
+
+62
+00:02:45,939 --> 00:02:47,873
+Muhrmi?
+
+63
+00:02:47,896 --> 00:02:49,353
+Ha.
+
+64
+00:02:49,377 --> 00:02:52,310
+Sizning shaxsiy muhringiz.
+
+65
+00:02:52,333 --> 00:02:54,745
+Shachihata (rezina muhr) ham boʻladimi?
+
+66
+00:02:54,769 --> 00:02:56,666
+Kechirasiz.
+
+67
+00:02:56,689 --> 00:02:59,223
+Shachihata (rezina muhr) boʻlmaydi.
+
+68
+00:02:59,246 --> 00:03:00,979
+Bundaymi.
+
+69
+00:03:01,002 --> 00:03:03,486
+Oddiy muhr kerak, shundaymi?
+
+70
+00:03:03,510 --> 00:03:04,910
+Ha.
+
+71
+00:03:04,933 --> 00:03:08,966
+Bundan tashqari, shaxsiy raqamingiz (MY Number) kartasi ham kerak boʻladi.
+
+72
+00:03:08,989 --> 00:03:11,661
+Shaxsiy raqam kartasimi?
+
+73
+00:03:11,685 --> 00:03:13,085
+Ha.
+
+74
+00:03:13,108 --> 00:03:15,108
+Kartangiz bormi?
+
+75
+00:03:15,131 --> 00:03:16,565
+Ha.
+
+76
+00:03:16,589 --> 00:03:18,003
+Bor.
+
+77
+00:03:18,026 --> 00:03:20,359
+Unda muammo yoʻq.
+
+78
+00:03:20,382 --> 00:03:22,982
+Pasport ham kerakmi?
+
+79
+00:03:23,005 --> 00:03:26,477
+Yoʻq, pasport kerak emas.
+
+80
+00:03:26,501 --> 00:03:28,556
+Tushunarli.
+
+81
+00:03:28,580 --> 00:03:32,346
+Dastlabki toʻlov uchun ham ozgina pul kerak boʻladi.
+
+82
+00:03:32,369 --> 00:03:33,847
+Qancha kerak?
+
+83
+00:03:33,871 --> 00:03:36,804
+1000 yen atrofida kifoya qiladi.
+
+84
+00:03:36,827 --> 00:03:38,494
+Tushunarli.
+
+85
+00:03:38,517 --> 00:03:41,517
+Roʻyxatdan oʻtish uchun vaqt ketadi.
+
+86
+00:03:41,540 --> 00:03:43,940
+Qancha vaqt ketadi?
+
+87
+00:03:43,963 --> 00:03:46,563
+Taxminan 1 soat ketadi.
+
+88
+00:03:46,586 --> 00:03:48,357
+Tushunarli.
+
+89
+00:03:48,380 --> 00:03:50,559
+Ertaga yana kelaman.
+
+90
+00:03:50,582 --> 00:03:52,549
+Sizni kutamiz.
+
+91
+00:03:52,572 --> 00:03:54,783
+Rahmat.
+
+92
+00:03:54,806 --> 00:04:01,911
+Bugungi videodagi mashqlarni takrorlash uchun sayt havolasini tavsif qismida va eng yuqori kommentda topishingiz mumkin. *Sayt oldindan ogohlantirmasdan oʻchirilishi mumkin.
+
+93
+00:04:01,911 --> 00:04:03,411
+3-Sahna: Anketalarni toʻldirishni oʻrgatish / Yapon tilida hujjatlarni toʻldirish usuli
+
+94
+00:04:03,411 --> 00:04:06,083
+Kutib turgandingiz uchun uzr.
+
+95
+00:04:06,106 --> 00:04:11,306
+Uzr, bu qogʻozni qanday toʻldirishni oʻrgatib yubora olasizmi?
+
+96
+00:04:11,329 --> 00:04:15,227
+Ha, qaysi joyi tushunarsiz?
+
+97
+00:04:15,250 --> 00:04:18,084
+Bu yerda ism.
+
+98
+00:04:18,107 --> 00:04:20,589
+Ismmi?
+
+99
+00:04:20,612 --> 00:04:23,212
+Kanji (xitoycha belgilar) bilan yozaymi?
+
+100
+00:04:23,235 --> 00:04:25,570
+Lotin harflari bilan yozaymi?
+
+101
+00:04:25,594 --> 00:04:29,850
+Yashash kartangizdagidek yozing.
+
+102
+00:04:29,873 --> 00:04:32,040
+Lotin harflaridami?
+
+103
+00:04:32,063 --> 00:04:33,996
+Tushunarli.
+
+104
+00:04:34,019 --> 00:04:37,986
+Yuqori qatorga furigana (oʻqilishini) ham yozing.
+
+105
+00:04:38,009 --> 00:04:41,742
+Furigana – bu katakana (yapon boʻgʻin yozuvi)mi?
+
+106
+00:04:41,765 --> 00:04:45,932
+Ha, iltimos, katakana bilan yozing.
+
+107
+00:04:45,955 --> 00:04:47,921
+Tushunarli.
+
+108
+00:04:47,944 --> 00:04:51,163
+Keyin manzilingiz.
+
+109
+00:04:51,186 --> 00:04:54,038
+Manzil uzun ekan.
+
+110
+00:04:54,061 --> 00:04:57,661
+Ikki qatorga boʻlib yozsangiz ham boʻladi.
+
+111
+00:04:57,685 --> 00:05:01,085
+Kvartira nomi ham yozish kerakmi?
+
+112
+00:05:01,107 --> 00:05:04,911
+Ha, xonadon raqamini ham yozing.
+
+113
+00:05:04,935 --> 00:05:07,419
+Yozib boʻldim.
+
+114
+00:05:07,443 --> 00:05:10,525
+Keyin telefon raqamingiz.
+
+115
+00:05:10,549 --> 00:05:14,482
+Mobil telefon raqami ham boʻladimi?
+
+116
+00:05:14,505 --> 00:05:18,238
+Ha, muammo yoʻq.
+
+117
+00:05:18,261 --> 00:05:21,195
+Keyin maxfiy kod.
+
+118
+00:05:21,218 --> 00:05:25,484
+Toʻrtta raqam tanlang.
+
+119
+00:05:25,507 --> 00:05:28,000
+Tugʻilgan kunimni yozsam ham boʻladimi?
+
+120
+00:05:28,024 --> 00:05:31,095
+Tugʻilgan kunni yozmang.
+
+121
+00:05:31,118 --> 00:05:33,252
+Tushunarli.
+
+122
+00:05:33,275 --> 00:05:35,649
+Boshqa raqam tanlayman.
+
+123
+00:05:35,672 --> 00:05:39,250
+Bu yerda xato qilmaslikka harakat qiling.
+
+124
+00:05:39,273 --> 00:05:41,919
+Yozib boʻldim.
+
+125
+00:05:41,943 --> 00:05:46,943
+Oxirida shu yerga muhr bosing.
+
+126
+00:05:46,966 --> 00:05:48,658
+Tushunarli.
+
+127
+00:05:48,681 --> 00:05:50,886
+Rahmat.
+
+128
+00:05:50,910 --> 00:05:52,410
+4-Sahna: Ruchka qarz olish va rang qoidalari
+
+129
+00:05:52,410 --> 00:05:54,467
+Xush kelibsiz!
+
+130
+00:05:54,491 --> 00:05:58,424
+Kechirasiz, ruchkani bir oz berib yuborishingiz mumkinmi?
+
+131
+00:05:58,447 --> 00:06:01,180
+Ha, nima uchun?
+
+132
+00:06:01,203 --> 00:06:04,044
+Mening ruchkam ishlamayapti.
+
+133
+00:06:04,068 --> 00:06:05,701
+Bundaymi.
+
+134
+00:06:05,724 --> 00:06:08,458
+Bu ruchkani oling.
+
+135
+00:06:08,481 --> 00:06:10,095
+Rahmat.
+
+136
+00:06:10,118 --> 00:06:14,518
+Bank hujjatlarini qora ruchka bilan yozing.
+
+137
+00:06:14,541 --> 00:06:17,113
+Bu ruchka qora rangdami?
+
+138
+00:06:17,137 --> 00:06:20,034
+Ha, qora rangda.
+
+139
+00:06:20,057 --> 00:06:22,624
+Ko‘k ruchka bilan yozsam bo‘ladimi?
+
+140
+00:06:22,647 --> 00:06:25,293
+Ko‘k ruchka bilan yozish mumkin emas.
+
+141
+00:06:25,316 --> 00:06:27,049
+Tushunarli.
+
+142
+00:06:27,072 --> 00:06:29,839
+Qalam ham ishlatmang.
+
+143
+00:06:29,862 --> 00:06:33,275
+Ha, men sharikli ruchka bilan yozaman.
+
+144
+00:06:33,298 --> 00:06:36,276
+O‘chirib tashlanadigan ruchkalar ham mumkin emas.
+
+145
+00:06:36,300 --> 00:06:37,833
+Tushunarli.
+
+146
+00:06:37,856 --> 00:06:40,990
+Xato qilsam, nima qilaman?
+
+147
+00:06:41,013 --> 00:06:44,079
+Yangi qog‘ozga yozsam bo‘ladimi?
+
+148
+00:06:44,102 --> 00:06:47,671
+Yo‘q, ikki chiziq chizing.
+
+149
+00:06:47,695 --> 00:06:49,761
+Ikki chiziqmi?
+
+150
+00:06:49,784 --> 00:06:51,184
+Ha.
+
+151
+00:06:51,207 --> 00:06:55,340
+So‘ngra, u yerga muhr bosing.
+
+152
+00:06:55,363 --> 00:06:58,530
+Tuzatish lenti ishlatsam bo‘ladimi?
+
+153
+00:06:58,553 --> 00:07:01,886
+Tuzatish lentasini ishlatmang.
+
+154
+00:07:01,909 --> 00:07:03,923
+Tushunarli.
+
+155
+00:07:03,947 --> 00:07:05,680
+Ehtiyot bo‘laman.
+
+156
+00:07:05,703 --> 00:07:08,837
+U yerda joylashgan stol ustida yozing.
+
+157
+00:07:08,860 --> 00:07:10,460
+Ha.
+
+158
+00:07:10,483 --> 00:07:13,370
+Yozib bo‘lgach, qayerga borishim kerak?
+
+159
+00:07:13,393 --> 00:07:16,009
+Yana shu yerga keling.
+
+160
+00:07:16,033 --> 00:07:17,722
+Tushunarli.
+
+161
+00:07:17,745 --> 00:07:21,280
+Nimadir tushunmagan bo‘lsangiz, so‘rang.
+
+162
+00:07:21,304 --> 00:07:24,037
+Ha, juda yaxshi bo‘ladi.
+
+163
+00:07:24,060 --> 00:07:25,560
+5-Sahna: Bankomatdan foydalanish
+
+164
+00:07:25,560 --> 00:07:27,927
+Xush kelibsiz!
+
+165
+00:07:27,950 --> 00:07:29,483
+Kechirasiz.
+
+166
+00:07:29,506 --> 00:07:32,444
+Pul yechmoqchiman.
+
+167
+00:07:32,468 --> 00:07:35,235
+Karta bilan ekansiz?
+
+168
+00:07:35,257 --> 00:07:37,943
+Ha, bor.
+
+169
+00:07:37,966 --> 00:07:42,302
+Unda bankomatdan foydalanishingiz mumkin.
+
+170
+00:07:42,326 --> 00:07:45,792
+Bankomat qayerda?
+
+171
+00:07:45,815 --> 00:07:49,027
+Ushbu binoning tashqarisida.
+
+172
+00:07:49,050 --> 00:07:51,050
+Tashqaridami?
+
+173
+00:07:51,073 --> 00:07:52,807
+Ha.
+
+174
+00:07:52,830 --> 00:07:56,196
+Ana o‘sha eshikdan chiqib, o‘ngga boring.
+
+175
+00:07:56,219 --> 00:07:59,253
+Eshikdan chiqib o‘ngga, shundaymi?
+
+176
+00:07:59,276 --> 00:08:01,009
+Ha.
+
+177
+00:08:01,032 --> 00:08:02,911
+Ko‘rib turganingizda darhol ko‘rasiz.
+
+178
+00:08:02,934 --> 00:08:05,411
+Tushunarli.
+
+179
+00:08:05,435 --> 00:08:09,202
+Bankomatdan foydalanishni bilasizmi?
+
+180
+00:08:09,225 --> 00:08:10,237
+Ha.
+
+181
+00:08:10,261 --> 00:08:11,731
+Xavotir olmang, bilaman.
+
+182
+00:08:11,754 --> 00:08:14,422
+Inglizcha menyu bormi?
+
+183
+00:08:14,445 --> 00:08:15,903
+Ha.
+
+184
+00:08:15,927 --> 00:08:18,582
+Inglizcha ekran ham bor.
+
+185
+00:08:18,606 --> 00:08:20,972
+Bu juda qulay ekan.
+
+186
+00:08:20,995 --> 00:08:24,568
+Xitoy va koreys tillarida ham mavjud.
+
+187
+00:08:24,592 --> 00:08:26,443
+Tushunarli.
+
+188
+00:08:26,466 --> 00:08:30,600
+Pul yechishda komissiya olinishi mumkin.
+
+189
+00:08:30,623 --> 00:08:32,556
+Qancha?
+
+190
+00:08:32,579 --> 00:08:35,848
+Hozirgi vaqtda bepul.
+
+191
+00:08:35,871 --> 00:08:38,364
+Kechqurun pullimi?
+
+192
+00:08:38,388 --> 00:08:40,221
+Ha.
+
+193
+00:08:40,244 --> 00:08:43,813
+Kechqurun soat oltidan keyin 110 yen olinadi.
+
+194
+00:08:43,837 --> 00:08:47,281
+Shanba va yakshanba kunlari qanday?
+
+195
+00:08:47,305 --> 00:08:50,672
+Dam olish kunlarida ham komissiya olinadi.
+
+196
+00:08:50,695 --> 00:08:52,369
+Tushunarli.
+
+197
+00:08:52,392 --> 00:08:54,358
+Hozir boraman.
+
+198
+00:08:54,381 --> 00:08:55,864
+Ha.
+
+199
+00:08:55,888 --> 00:08:57,665
+Ehtiyot boʻling.
+
+200
+00:08:57,688 --> 00:08:59,321
+Rahmat.
+
+201
+00:08:59,344 --> 00:09:02,711
+Yana biror narsa boʻlsa, soʻrashingiz mumkin.
+
+202
+00:09:02,734 --> 00:09:04,301
+Ha.
+
+203
+00:09:04,324 --> 00:09:05,925
+Kechirasiz.
+
+204
+00:09:05,948 --> 00:09:07,448
+6-Sahna: Bank kassasi va bankomat ish vaqti / Bank kassasi va bankomatning ishlash soatlari
+
+205
+00:09:07,448 --> 00:09:09,625
+Xush kelibsiz!
+
+206
+00:09:09,648 --> 00:09:11,926
+Kechirasiz.
+
+207
+00:09:11,950 --> 00:09:15,350
+Biroz soʻrashim mumkinmi?
+
+208
+00:09:15,373 --> 00:09:18,740
+Ha, nima uchun?
+
+209
+00:09:18,762 --> 00:09:23,432
+Bank kassasi soat nechchagacha ishlaydi?
+
+210
+00:09:23,456 --> 00:09:27,870
+Kassa soat 15:00 gacha ishlaydi.
+
+211
+00:09:27,894 --> 00:09:30,764
+Sohat 15:00 gacha?
+
+212
+00:09:30,787 --> 00:09:33,387
+Erta ekan.
+
+213
+00:09:33,410 --> 00:09:36,949
+Ha, uzr.
+
+214
+00:09:36,972 --> 00:09:41,506
+15:00 dan keyin nima boʻladi?
+
+215
+00:09:41,529 --> 00:09:45,662
+Kassa eshigi yopiladi.
+
+216
+00:09:45,685 --> 00:09:48,818
+Bankomatdan foydalanish mumkinmi?
+
+217
+00:09:48,841 --> 00:09:54,930
+Ha, bankomat kechki 21:00 gacha ishlaydi.
+
+218
+00:09:54,954 --> 00:09:58,604
+Shundaymi, yaxshi boʻldi.
+
+219
+00:09:58,627 --> 00:10:03,427
+Shanba va yakshanba kunlari kassa yopiq boʻladi.
+
+220
+00:10:03,450 --> 00:10:06,721
+Bankomat ham yopiqmi?
+
+221
+00:10:06,744 --> 00:10:12,188
+Yoʻq, bankomat dam olish kunlarida ham ishlaydi.
+
+222
+00:10:12,212 --> 00:10:15,545
+Ertalab soat nechchadan boshlanadi?
+
+223
+00:10:15,568 --> 00:10:20,780
+Kassa ertalab soat 9:00 dan boshlab ishlaydi.
+
+224
+00:10:20,804 --> 00:10:24,578
+Bankomat undan ham erta boshlaydimi?
+
+225
+00:10:24,601 --> 00:10:30,334
+Ha, bankomat ertalab soat 8:00 dan boshlab ishlaydi.
+
+226
+00:10:30,357 --> 00:10:32,454
+Tushunarli.
+
+227
+00:10:32,478 --> 00:10:36,411
+Bugun kassada ish koʻrasizmi?
+
+228
+00:10:36,434 --> 00:10:41,106
+Yoʻq, bugun vaqtim yoʻq.
+
+229
+00:10:41,130 --> 00:10:43,378
+Bundaymi.
+
+230
+00:10:43,401 --> 00:10:47,401
+Ertaga tushlik tanaffusida yana kelaman.
+
+231
+00:10:47,424 --> 00:10:50,957
+Tushlik vaqtida biroz gavjum boʻladi.
+
+232
+00:10:50,980 --> 00:10:54,459
+Qancha kutish kerak boʻladi?
+
+233
+00:10:54,482 --> 00:10:58,216
+30 daqiqa atrofida kutishingiz mumkin.
+
+234
+00:10:58,240 --> 00:11:00,073
+Tushunarli.
+
+235
+00:11:00,096 --> 00:11:02,949
+Biroz erta kelaman.
+
+236
+00:11:02,973 --> 00:11:05,573
+Sizni kutamiz.
+
+237
+00:11:05,596 --> 00:11:08,797
+Rahmat.
+
+238
+00:11:08,821 --> 00:11:10,321
+7-Sahna: Bank ishlarini yakunlash / Bank protseduralarini yakunlash
+
+239
+00:11:10,321 --> 00:11:13,797
+Hisob ochish jarayoni shu bilan tugadi.
+
+240
+00:11:13,820 --> 00:11:15,697
+Rahmat.
+
+241
+00:11:15,720 --> 00:11:18,120
+Hisob varaqasini oldim.
+
+242
+00:11:18,143 --> 00:11:19,476
+Ha.
+
+243
+00:11:19,499 --> 00:11:22,533
+Hisob varaqasidan bugundan boshlab foydalanishingiz mumkin.
+
+244
+00:11:22,556 --> 00:11:25,437
+Kassa kartasi yoʻqmi?
+
+245
+00:11:25,460 --> 00:11:29,098
+Kassa kartasi keyinroq pochta orqali yuboriladi.
+
+246
+00:11:29,122 --> 00:11:31,255
+Pochta orqali, shundaymi?
+
+247
+00:11:31,278 --> 00:11:33,549
+Qachon yetib keladi?
+
+248
+00:11:33,573 --> 00:11:36,862
+Taxminan bir hafta kerak boʻladi.
+
+249
+00:11:36,885 --> 00:11:39,336
+Bir haftami?
+
+250
+00:11:39,360 --> 00:11:42,212
+Imzo kerak boʻladi?
+
+251
+00:11:42,235 --> 00:11:43,846
+Ha.
+
+252
+00:11:43,870 --> 00:11:47,679
+Roʻyxatga olingan pochta orqali yuboriladi, shuning uchun imzo kerak boʻladi.
+
+253
+00:11:47,702 --> 00:11:53,702
+Uyda hech kim boʻlmaganida nima boʻladi?
+
+254
+00:11:53,725 --> 00:11:56,159
+Pochta xodimi yetkazib boʻlmaganligi toʻgʻrisida xabar qoldiradi.
+
+255
+00:11:56,182 --> 00:11:58,272
+Yetkazilmaganligi toʻgʻrisida xabarmikin?
+
+256
+00:11:58,295 --> 00:11:59,738
+Ha.
+
+257
+00:11:59,762 --> 00:12:03,795
+Shu qogʻozga qarab pochta boʻlimiga bogʻlaning.
+
+258
+00:12:03,818 --> 00:12:05,985
+Tushunarli.
+
+259
+00:12:06,008 --> 00:12:09,778
+Karta yetib kelguncha pulni qanday olish mumkin?
+
+260
+00:12:09,801 --> 00:12:12,837
+Pulni olish mumkin emasmi?
+
+261
+00:12:12,860 --> 00:12:17,194
+Hisobotchingiz va muhringiz bo'lsa, derazadan pul yechishingiz mumkin.
+
+262
+00:12:17,217 --> 00:12:19,295
+Bundaymi.
+
+263
+00:12:19,318 --> 00:12:24,187
+Ammo deraza soat 3 gacha ochiq, shuning uchun e'tiborli bo'ling.
+
+264
+00:12:24,211 --> 00:12:25,744
+Ha.
+
+265
+00:12:25,767 --> 00:12:27,460
+Tushunarli.
+
+266
+00:12:27,484 --> 00:12:31,450
+Karta kelganda orqa tomoniga ismingizni yozing.
+
+267
+00:12:31,473 --> 00:12:33,010
+Ha.
+
+268
+00:12:33,034 --> 00:12:36,909
+Maxfiy raqamingizni hech kimga aytmang.
+
+269
+00:12:36,933 --> 00:12:38,416
+Ha.
+
+270
+00:12:38,439 --> 00:12:40,287
+Albatta.
+
+271
+00:12:40,310 --> 00:12:44,379
+Yo'qolsa, darhol bankka qo'ng'iroq qiling.
+
+272
+00:12:44,403 --> 00:12:46,170
+Tushunarli.
+
+273
+00:12:46,193 --> 00:12:49,593
+Telefon raqami qayerda yozilgan?
+
+274
+00:12:49,616 --> 00:12:52,227
+Hisobotchingizning orqa tomonida yozilgan.
+
+275
+00:12:52,250 --> 00:12:53,850
+Ha.
+
+276
+00:12:53,873 --> 00:12:55,923
+Katta rahmat.
+
+277
+00:12:55,947 --> 00:12:57,447
+8-Sahna: Bankda pul yechish / Bankda pul olish
+
+278
+00:12:57,447 --> 00:12:59,618
+Xush kelibsiz!
+
+279
+00:12:59,642 --> 00:13:03,975
+Kechirasiz, pul yechmoqchiman.
+
+280
+00:13:03,998 --> 00:13:06,010
+Tushunarli.
+
+281
+00:13:06,033 --> 00:13:08,966
+Karta bilan ekansiz?
+
+282
+00:13:08,989 --> 00:13:13,357
+Yo'q, kartani uyda unutib qoldim.
+
+283
+00:13:13,380 --> 00:13:17,669
+Tushunarli. Hisobotchingiz bormi?
+
+284
+00:13:17,693 --> 00:13:22,260
+Ha, hisobotchingiz va muhrim bor.
+
+285
+00:13:22,283 --> 00:13:27,156
+Unda, bu derazada sizga xizmat ko'rsatamiz.
+
+286
+00:13:27,179 --> 00:13:29,412
+Yaxshimi, yaxshi.
+
+287
+00:13:29,435 --> 00:13:33,092
+Iltimos, bu blankaga ma'lumotlarni kiriting.
+
+288
+00:13:33,115 --> 00:13:36,649
+Qayerga yozish kerak?
+
+289
+00:13:36,672 --> 00:13:40,131
+Shu yerga va bu yerga yozing.
+
+290
+00:13:40,154 --> 00:13:42,443
+Bu ismmi?
+
+291
+00:13:42,467 --> 00:13:46,877
+Ha, uning pastiga summani yozing.
+
+292
+00:13:46,901 --> 00:13:50,960
+Bugun o'n ming yen yechmoqchiman.
+
+293
+00:13:50,984 --> 00:13:53,076
+Tushunarli.
+
+294
+00:13:53,099 --> 00:13:58,306
+Shu yerga o'n ming yen deb yozing.
+
+295
+00:13:58,329 --> 00:14:01,426
+Yozib boʻldim.
+
+296
+00:14:01,449 --> 00:14:03,249
+Rahmat.
+
+297
+00:14:03,272 --> 00:14:07,290
+Keyin bu yerga muhr bosing.
+
+298
+00:14:07,313 --> 00:14:10,985
+Ha, shunday bo'ladimi?
+
+299
+00:14:11,008 --> 00:14:14,575
+Ha, muammo yoʻq.
+
+300
+00:14:14,598 --> 00:14:17,798
+Pulni darhol ololamanmi?
+
+301
+00:14:17,821 --> 00:14:22,102
+Biroz tekshirish kerak, iltimos kutib turing.
+
+302
+00:14:22,125 --> 00:14:23,725
+Ha.
+
+303
+00:14:23,748 --> 00:14:27,348
+Iltimos, u yerda stulda kutib turing.
+
+304
+00:14:27,371 --> 00:14:30,538
+Raqamli bilet bormi?
+
+305
+00:14:30,561 --> 00:14:34,649
+Ha, sizni bu raqam bilan chaqiramiz.
+
+306
+00:14:34,672 --> 00:14:36,742
+Tushunarli.
+
+307
+00:14:36,765 --> 00:14:39,174
+Kutib turgandingiz uchun uzr.
+
+308
+00:14:39,198 --> 00:14:41,769
+O'n beshinchi raqamli mijoz.
+
+309
+00:14:41,792 --> 00:14:43,489
+Ha.
+
+310
+00:14:43,512 --> 00:14:48,246
+Bu sizning o'n ming yen va hisobotchingiz.
+
+311
+00:14:48,269 --> 00:14:50,440
+Iltimos, tekshirib ko'ring.
+
+312
+00:14:50,463 --> 00:14:53,532
+Ha, katta rahmat.
+
+313
+00:14:53,556 --> 00:14:55,056
+9-Sahna: Chet elga pul o'tkazish tartibi / Chet elga pul jo'natish tartibi
+
+314
+00:14:55,056 --> 00:14:57,122
+Xush kelibsiz!
+
+315
+00:14:57,145 --> 00:14:59,979
+Bugun nima uchun kelgansiz?
+
+316
+00:15:00,002 --> 00:15:03,500
+Chet elga pul jo'natmoqchiman.
+
+317
+00:15:03,523 --> 00:15:05,256
+Tushunarli.
+
+318
+00:15:05,279 --> 00:15:07,679
+Chet elga pul o'tkazish, shundaymi?
+
+319
+00:15:07,702 --> 00:15:09,269
+Ha.
+
+320
+00:15:09,292 --> 00:15:12,826
+Mening oilamga, mening mamlakatimga jo'nataman.
+
+321
+00:15:12,849 --> 00:15:15,748
+Qaysi davlatga jo'natmoqchisiz?
+
+322
+00:15:15,771 --> 00:15:18,572
+Vetnamga jo'natmoqchiman.
+
+323
+00:15:18,596 --> 00:15:20,396
+Tushunarli.
+
+324
+00:15:20,419 --> 00:15:23,752
+Pul jo'natish manzilining ma'lumotlari bormi?
+
+325
+00:15:23,776 --> 00:15:25,247
+Ha.
+
+326
+00:15:25,270 --> 00:15:29,874
+Bank nomi va hisob raqamining eslatmasi bor.
+
+327
+00:15:29,898 --> 00:15:31,898
+Rahmat.
+
+328
+00:15:31,921 --> 00:15:35,329
+Pul qachon yetib boradi?
+
+329
+00:15:35,352 --> 00:15:39,191
+Taxminan 3 kundan 1 haftagacha vaqt ketadi.
+
+330
+00:15:39,214 --> 00:15:41,014
+Bundaymi.
+
+331
+00:15:41,037 --> 00:15:44,333
+Davlat va bankka qarab farq qilishi mumkin.
+
+332
+00:15:44,357 --> 00:15:46,890
+Komissiya qancha?
+
+333
+00:15:46,913 --> 00:15:51,513
+Derazadagi pul jo'natish komissiyasi 4000 yen.
+
+334
+00:15:51,536 --> 00:15:53,770
+4000 yenmi?
+
+335
+00:15:53,793 --> 00:15:56,359
+Biroz qimmat ekan.
+
+336
+00:15:56,382 --> 00:15:58,721
+Kechirasiz.
+
+337
+00:15:58,745 --> 00:16:01,745
+Ilova orqali jo'natish mumkinmi?
+
+338
+00:16:01,768 --> 00:16:03,061
+Ha.
+
+339
+00:16:03,084 --> 00:16:06,218
+Internet bank orqali ham jo'natishingiz mumkin.
+
+340
+00:16:06,241 --> 00:16:08,780
+U holda arzonroqmi?
+
+341
+00:16:08,803 --> 00:16:10,459
+Ha.
+
+342
+00:16:10,483 --> 00:16:14,249
+Internet orqali jo'natilsa, komissiya 3000 yendan iborat.
+
+343
+00:16:14,272 --> 00:16:17,406
+Unda internet orqali qilmoqchiman.
+
+344
+00:16:17,429 --> 00:16:19,229
+Tushunarli.
+
+345
+00:16:19,252 --> 00:16:22,549
+Endi ilovaga ro'yxatdan o'tasizmi?
+
+346
+00:16:22,572 --> 00:16:23,938
+Ha.
+
+347
+00:16:23,961 --> 00:16:25,452
+Iltimos.
+
+348
+00:16:25,476 --> 00:16:28,242
+Smartfoningiz bormi?
+
+349
+00:16:28,265 --> 00:16:29,799
+Ha.
+
+350
+00:16:29,822 --> 00:16:31,293
+Bu.
+
+351
+00:16:31,316 --> 00:16:34,483
+Bankimiz ilovasini yuklab oling.
+
+352
+00:16:34,507 --> 00:16:36,311
+Tushunarli.
+
+353
+00:16:36,334 --> 00:16:38,101
+Hozir qilaman.
+
+354
+00:16:38,124 --> 00:16:41,091
+Nimadir tushunmagan bo‘lsangiz, so‘rang.
+
+355
+00:16:41,115 --> 00:16:42,681
+Ha.
+
+356
+00:16:42,704 --> 00:16:44,704
+Rahmat.
+
+357
+00:16:44,727 --> 00:16:46,227
+10-Sahna: Valyuta ayirboshlash usuli
+
+358
+00:16:46,227 --> 00:16:48,594
+Xush kelibsiz!
+
+359
+00:16:48,617 --> 00:16:50,316
+Kechirasiz.
+
+360
+00:16:50,340 --> 00:16:53,473
+Valyuta ayirboshlamoqchiman.
+
+361
+00:16:53,496 --> 00:16:55,576
+Tushunarli.
+
+362
+00:16:55,600 --> 00:17:00,200
+Amerika dollarini yapon iyenasiga almashtirmoqchiman.
+
+363
+00:17:00,223 --> 00:17:01,425
+Ha.
+
+364
+00:17:01,448 --> 00:17:04,917
+Bugungi kurs shu yerda.
+
+365
+00:17:04,941 --> 00:17:08,021
+1 dollar qancha?
+
+366
+00:17:08,045 --> 00:17:12,289
+Bugun 1 dollar 150 iyena.
+
+367
+00:17:12,313 --> 00:17:14,353
+Tushunarli.
+
+368
+00:17:14,376 --> 00:17:17,109
+500 dollarni almashtirib bering.
+
+369
+00:17:17,132 --> 00:17:19,499
+Tushunarli.
+
+370
+00:17:19,522 --> 00:17:23,122
+Jami qancha bo'ladi?
+
+371
+00:17:23,145 --> 00:17:27,393
+75 000 iyena bo'ladi.
+
+372
+00:17:27,416 --> 00:17:30,750
+Komissiya olinadimi?
+
+373
+00:17:30,773 --> 00:17:34,839
+Kursga komissiya kiritilgan.
+
+374
+00:17:34,862 --> 00:17:36,996
+Tushunarli.
+
+375
+00:17:37,019 --> 00:17:41,952
+Bu anketaga ismingizni yozing.
+
+376
+00:17:41,975 --> 00:17:44,908
+Lotin harflarida yozsam bo'ladimi?
+
+377
+00:17:44,931 --> 00:17:47,565
+Ha, bo'ladi.
+
+378
+00:17:47,588 --> 00:17:49,621
+Yozib bo'ldim.
+
+379
+00:17:49,644 --> 00:17:52,677
+Pasport ham kerakmi?
+
+380
+00:17:52,700 --> 00:17:54,467
+Ha.
+
+381
+00:17:54,490 --> 00:17:58,290
+Shaxsingizni tasdiqlash uchun kerak.
+
+382
+00:17:58,313 --> 00:18:01,513
+Ha, iltimos.
+
+383
+00:18:01,536 --> 00:18:03,136
+Rahmat.
+
+384
+00:18:03,159 --> 00:18:06,159
+Tekshirib chiqayapman.
+
+385
+00:18:06,182 --> 00:18:09,415
+Pulni qanday berasizlar?
+
+386
+00:18:09,438 --> 00:18:16,605
+7 ta 10 000 iyenalik va 1 ta 5000 iyenalik kupyura bo'ladimi?
+
+387
+00:18:16,628 --> 00:18:20,961
+1000 iyenalik kupyuralarni ham ozgina aralashtirib bering.
+
+388
+00:18:20,984 --> 00:18:23,317
+Tushunarli.
+
+389
+00:18:23,340 --> 00:18:32,999
+6 ta 10 000 iyenalik, 1 ta 5000 iyenalik va 10 ta 1000 iyenalik kupyura qilib bering.
+
+390
+00:18:33,023 --> 00:18:36,196
+Tushunarli.
+
+391
+00:18:36,219 --> 00:18:38,291
+Iltimos.
+
+392
+00:18:38,314 --> 00:18:40,748
+Kutib turgandingiz uchun uzr.
+
+393
+00:18:40,771 --> 00:18:43,704
+Bu sizning pulingiz.
+
+394
+00:18:43,727 --> 00:18:45,773
+Tekshirib ko'rayapman.
+
+395
+00:18:45,796 --> 00:18:48,663
+Ha, hammasi joyida.
+
+396
+00:18:48,686 --> 00:18:50,743
+Rahmat.
+
+397
+00:19:00,403 --> 00:19:01,903
+Sahna 1: Hisob ochish tartibi / Bank hisobini ochish tartibi
+
+398
+00:19:01,903 --> 00:19:04,173
+Eshitish testi
+
+399
+00:19:04,173 --> 00:19:06,740
+Xush kelibsiz!
+
+400
+00:19:06,740 --> 00:19:10,373
+いらっしゃいませ = Xush kelibsiz
+
+401
+00:19:10,396 --> 00:19:13,744
+Eshitish testi
+
+402
+00:19:13,744 --> 00:19:17,662
+Bugun nima uchun kelgansiz?
+
+403
+00:19:17,662 --> 00:19:23,039
+どうされましたか = Nima uchun keldingiz?
+
+404
+00:19:23,062 --> 00:19:25,129
+Eshitish testi
+
+405
+00:19:25,129 --> 00:19:27,429
+Kechirasiz.
+
+406
+00:19:30,685 --> 00:19:34,427
+Eshitish testi
+
+407
+00:19:34,427 --> 00:19:38,824
+Bank hisobini ochmoqchiman.
+
+408
+00:19:38,824 --> 00:19:44,858
+Vたい = V + moqchiman
+銀行(ぎんこう) = bank
+口座(こうざ) = bank hisob raqami
+
+409
+00:19:44,881 --> 00:19:47,199
+Eshitish testi
+
+410
+00:19:47,199 --> 00:19:49,833
+Tushunarli.
+
+411
+00:19:49,833 --> 00:19:53,508
+かしこまりました = Albatta / Tushunarli
+
+412
+00:19:53,531 --> 00:19:56,398
+Eshitish testi
+
+413
+00:19:56,398 --> 00:19:59,698
+Yangi hisob ochmoqchisiz, shundaymi?
+
+414
+00:19:59,698 --> 00:20:04,255
+新(あたら)しい (yangi) ↔ 古(ふる)い (eski)
+
+415
+00:20:04,278 --> 00:20:07,311
+Eshitish testi
+
+416
+00:20:07,311 --> 00:20:10,811
+Ha, shunday.
+
+417
+00:20:15,668 --> 00:20:19,401
+Eshitish testi
+
+418
+00:20:19,401 --> 00:20:23,834
+Siz Yaponiyada yashaysizmi?
+
+419
+00:20:23,834 --> 00:20:29,868
+お + N = hurmat prefiksi
+お客様(きゃくさま) = mijoz
+お住(す)まい = yashash joyi
+
+420
+00:20:29,891 --> 00:20:32,163
+Ha.
+
+421
+00:20:32,186 --> 00:20:35,553
+Eshitish testi
+
+422
+00:20:35,553 --> 00:20:39,486
+O'tgan oydan beri Tokioda yashayapman.
+
+423
+00:20:39,486 --> 00:20:44,919
+N + から = N + dan
+先月(せんげつ) (o'tgan oy) ↔ 今月(こんげつ) (shu oy)
+
+424
+00:20:44,942 --> 00:20:48,120
+Eshitish testi
+
+425
+00:20:48,120 --> 00:20:51,825
+Ishlayapsizmi?
+
+426
+00:20:51,825 --> 00:20:56,925
+Vていますか = V + yapsizmi?
+お仕事(しごと) = ish / kasb
+
+427
+00:20:56,948 --> 00:20:59,015
+Ha.
+
+428
+00:20:59,038 --> 00:21:01,138
+Eshitish testi
+
+429
+00:21:01,138 --> 00:21:03,472
+Ishchimanki.
+
+430
+00:21:03,472 --> 00:21:06,738
+N + です = Men N / Bu N
+会社員(かいしゃいん) = ofis xodimi
+
+431
+00:21:06,761 --> 00:21:09,195
+Eshitish testi
+
+432
+00:21:09,195 --> 00:21:11,973
+Tushunarli.
+
+433
+00:21:15,862 --> 00:21:20,730
+Eshitish testi
+
+434
+00:21:20,730 --> 00:21:26,564
+Hisob ochish uchun shaxsiy guvohnoma kerak.
+
+435
+00:21:26,564 --> 00:21:34,472
+N + が必要(ひつよう)です = N kerak
+開設(かいせつ) = ochish (hisob raqam)
+身分証明書(みぶんしょうめいしょ) = shaxsni tasdiqlovchi hujjat
+
+436
+00:21:34,496 --> 00:21:37,996
+Eshitish testi
+
+437
+00:21:37,996 --> 00:21:42,096
+Shaxsiy guvohnomami?
+
+438
+00:21:42,096 --> 00:21:47,729
+N + ですか = Bu Nmi?
+
+439
+00:21:47,752 --> 00:21:49,552
+Ha.
+
+440
+00:21:49,575 --> 00:21:53,475
+Eshitish testi
+
+441
+00:21:53,475 --> 00:21:58,108
+Yashash kartasi yoki pasportingiz bormi?
+
+442
+00:21:58,108 --> 00:22:04,408
+N1 + や + N2 = N1 va N2
+在留(ざいりゅう)カード = yashash kartasi
+
+443
+00:22:04,431 --> 00:22:06,189
+Ha.
+
+444
+00:22:06,213 --> 00:22:09,361
+Eshitish testi
+
+445
+00:22:09,361 --> 00:22:13,061
+Yashash kartam bor.
+
+446
+00:22:13,061 --> 00:22:18,129
+Vています = ega / ushlab turmoq
+持(も)つ = ega bo'lmoq / ushlab turmoq
+
+447
+00:22:18,152 --> 00:22:20,252
+Eshitish testi
+
+448
+00:22:20,252 --> 00:22:22,619
+Rahmat.
+
+449
+00:22:25,942 --> 00:22:29,453
+Eshitish testi
+
+450
+00:22:29,453 --> 00:22:33,568
+Unda, iltimos, buni ko'rsating.
+
+451
+00:22:33,568 --> 00:22:39,235
+Vてください = iltimos qiling... (qilmoq)
+見(み)せる = koʻrsatmoq
+
+452
+00:22:39,258 --> 00:22:41,124
+Ha.
+
+453
+00:22:41,147 --> 00:22:43,181
+Marhamat.
+
+454
+00:22:43,204 --> 00:22:45,516
+Eshitish testi
+
+455
+00:22:45,516 --> 00:22:48,149
+Tekshirib chiqayapman.
+
+456
+00:22:48,149 --> 00:22:51,816
+Vいたします = kamtarona qilmoq (kamtarona shakli)
+確認(かくにん) = tasdiqlash / tekshirish
+
+457
+00:22:51,839 --> 00:22:55,205
+Eshitish testi
+
+458
+00:22:55,205 --> 00:22:59,141
+My Number kartangiz bormi?
+
+459
+00:22:59,141 --> 00:23:04,540
+N + はありますか = Sizda N bormi?
+マイナンバーカード = Shaxsiy raqamli guvohnoma
+
+460
+00:23:04,564 --> 00:23:08,076
+Eshitish testi
+
+461
+00:23:08,076 --> 00:23:12,195
+My Number kartam hali yo'q.
+
+462
+00:23:12,195 --> 00:23:17,861
+まだ + Vません = hali qilmadim
+まだ = hali
+
+463
+00:23:17,884 --> 00:23:20,151
+Eshitish testi
+
+464
+00:23:20,151 --> 00:23:22,706
+Bundaymi.
+
+465
+00:23:26,320 --> 00:23:30,022
+Eshitish testi
+
+466
+00:23:30,022 --> 00:23:34,379
+My Number raqami yozilgan hujjatlaringiz bormi?
+
+467
+00:23:34,379 --> 00:23:40,412
+V + N = [feʼl] N
+書類(しょるい) = hujjat
+
+468
+00:23:40,435 --> 00:23:43,469
+Eshitish testi
+
+469
+00:23:43,469 --> 00:23:46,969
+Aholi ro'yxati bo'lsa bor.
+
+470
+00:23:46,969 --> 00:23:51,765
+N + なら = agar N boʻlsa
+住民票(じゅうみんひょう) = yashash joyi toʻgʻrisidagi guvohnoma
+
+471
+00:23:51,788 --> 00:23:53,888
+Eshitish testi
+
+472
+00:23:53,888 --> 00:23:56,230
+Rahmat.
+
+473
+00:23:59,553 --> 00:24:02,653
+Eshitish testi
+
+474
+00:24:02,653 --> 00:24:06,245
+Aholi ro'yxatini ham iltimos qilaman.
+
+475
+00:24:06,245 --> 00:24:11,224
+N + もお願(ねが)いします = N ham iltimos qilaman
+お願(ねが)いします = iltimos
+
+476
+00:24:11,248 --> 00:24:14,224
+Eshitish testi
+
+477
+00:24:14,224 --> 00:24:17,696
+Ha, mana bu.
+
+478
+00:24:22,506 --> 00:24:24,642
+Eshitish testi
+
+479
+00:24:24,642 --> 00:24:27,075
+Tekshirdim.
+
+480
+00:24:30,473 --> 00:24:34,240
+Eshitish testi
+
+481
+00:24:34,240 --> 00:24:38,673
+Keyin, muhringiz bormi?
+
+482
+00:24:38,673 --> 00:24:44,743
+ご + N = hurmatli prefiks
+次(つぎ) = keyingi
+印鑑(いんかん) = shaxsiy muhr
+
+483
+00:24:44,767 --> 00:24:47,667
+Eshitish testi
+
+484
+00:24:47,667 --> 00:24:51,003
+Muhr yo'q.
+
+485
+00:24:51,003 --> 00:24:55,636
+N + はありません = Menda N yoʻq
+
+486
+00:24:55,659 --> 00:24:58,597
+Eshitish testi
+
+487
+00:24:58,597 --> 00:25:02,030
+Imzo qo'yish ham mumkin.
+
+488
+00:25:02,030 --> 00:25:06,735
+N + でも大丈夫(だいじょうぶ)です = N ham boʻlaveradi
+サイン = imzo
+大丈夫(だいじょうぶ) = yaxshi / muammo yoʻq
+
+489
+00:25:06,759 --> 00:25:09,145
+Eshitish testi
+
+490
+00:25:09,145 --> 00:25:11,858
+Yaxshimi, yaxshi.
+
+491
+00:25:11,858 --> 00:25:15,655
+いAかった = [sifat] edi
+よかった = xursandman
+
+492
+00:25:15,678 --> 00:25:20,945
+Eshitish testi
+
+493
+00:25:20,945 --> 00:25:27,245
+Unda, bu blankaga ismingiz va manzilingizni yozing.
+
+494
+00:25:27,245 --> 00:25:35,797
+Vてください = iltimos qiling...
+用紙(ようし) = blanka / shakl
+住所(じゅうしょ) = manzil
+
+495
+00:25:35,820 --> 00:25:38,454
+Eshitish testi
+
+496
+00:25:38,454 --> 00:25:41,487
+Kanji (xitoycha belgilar) bilan yozaymi?
+
+497
+00:25:41,487 --> 00:25:45,663
+N + で = N tilida / N orqali
+漢字(かんじ) = kanji (xitoycha belgilar)
+
+498
+00:25:45,687 --> 00:25:48,633
+Eshitish testi
+
+499
+00:25:48,633 --> 00:25:52,066
+Lotin harflari bilan ham yozishingiz mumkin.
+
+500
+00:25:52,066 --> 00:25:56,767
+N + でもいい = N ham boʻlaveradi
+ローマ字(じ) = lotin alifbosi / romaji
+
+501
+00:25:56,790 --> 00:25:58,926
+Eshitish testi
+
+502
+00:25:58,926 --> 00:26:01,359
+Tushunarli.
+
+503
+00:26:04,749 --> 00:26:07,225
+Eshitish testi
+
+504
+00:26:07,225 --> 00:26:10,058
+Hozir yozaman.
+
+505
+00:26:10,058 --> 00:26:13,992
+N + から = N dan
+今(いま)から = hozirdan boshlab
+
+506
+00:26:14,014 --> 00:26:17,486
+Eshitish testi
+
+507
+00:26:17,486 --> 00:26:21,586
+Nimadir tushunmagan joyingiz bo'lsa, so'rang.
+
+508
+00:26:21,586 --> 00:26:27,184
+Vたら = agar / ...sa
+聞(き)く = soʻramoq
+
+509
+00:26:27,208 --> 00:26:30,775
+Eshitish testi
+
+510
+00:26:30,775 --> 00:26:34,953
+Ha, rahmat.
+
+511
+00:26:40,709 --> 00:26:42,209
+Sahna 2: Kurs yaratish tartibi / Kurs yaratish tartibi
+
+512
+00:26:42,209 --> 00:26:44,599
+Eshitish testi
+
+513
+00:26:44,599 --> 00:26:47,333
+Xush kelibsiz!
+
+514
+00:26:51,189 --> 00:26:54,575
+Eshitish testi
+
+515
+00:26:54,575 --> 00:26:58,542
+Nima uchun kelgansiz?
+
+516
+00:26:58,542 --> 00:27:04,008
+何(なん)でしょうか = Nima boʻlishi mumkin?
+用件(ようけん) = ish / masala
+
+517
+00:27:04,031 --> 00:27:06,065
+Eshitish testi
+
+518
+00:27:06,065 --> 00:27:08,298
+Kechirasiz.
+
+519
+00:27:11,469 --> 00:27:14,502
+Eshitish testi
+
+520
+00:27:14,502 --> 00:27:18,002
+Hisob ochmoqchiman.
+
+521
+00:27:18,002 --> 00:27:22,836
+Vたいです = V qilishni xohlayman
+口座(こうざ) = bank hisob raqami
+
+522
+00:27:22,859 --> 00:27:25,292
+Eshitish testi
+
+523
+00:27:25,292 --> 00:27:28,044
+Rahmat.
+
+524
+00:27:31,904 --> 00:27:35,404
+Eshitish testi
+
+525
+00:27:35,404 --> 00:27:39,504
+Bugun tartibni bajarasizmi?
+
+526
+00:27:39,504 --> 00:27:45,138
+N + を しますか = N bilan shugʻullanasizmi?
+手続(てつづ)き = tartib / protsedura
+
+527
+00:27:45,161 --> 00:27:50,461
+Eshitish testi
+
+528
+00:27:50,461 --> 00:27:56,796
+Yo'q, bugun nimalar kerakligini bilish uchun keldim.
+
+529
+00:27:56,796 --> 00:28:05,395
+V に 来(き)ました = V qilish uchun keldim
+必要(ひつよう) (kerak) ↔ 不要(ふよう) (kerak emas)
+
+530
+00:28:05,418 --> 00:28:07,788
+Eshitish testi
+
+531
+00:28:07,788 --> 00:28:10,488
+Tushunarli.
+
+532
+00:28:14,258 --> 00:28:18,325
+Eshitish testi
+
+533
+00:28:18,325 --> 00:28:23,158
+Avvalo, yashash kartasi kerak.
+
+534
+00:28:23,158 --> 00:28:29,730
+N + が 必要(ひつよう)です = N kerak
+在留(ざいりゅう)カード = yashash kartasi
+
+535
+00:28:29,754 --> 00:28:32,587
+Eshitish testi
+
+536
+00:28:32,587 --> 00:28:35,854
+Yashash kartasi, shundaymi?
+
+537
+00:28:35,854 --> 00:28:40,371
+N + ですね = Bu N, shundaymi?
+
+538
+00:28:40,394 --> 00:28:42,694
+Eshitish testi
+
+539
+00:28:42,694 --> 00:28:45,328
+Bor.
+
+540
+00:28:45,328 --> 00:28:48,961
+Vています = ega / bor
+持(も)つ = ega boʻlish / ushlab turmoq
+
+541
+00:28:48,984 --> 00:28:52,951
+Eshitish testi
+
+542
+00:28:52,951 --> 00:28:57,651
+Shundan keyin, muhr ham kerak boʻladi.
+
+543
+00:28:57,651 --> 00:29:04,084
+N + も 必要(ひつよう)です = N ham kerak
+印鑑(いんかん) = shaxsiy muhr
+
+544
+00:29:04,107 --> 00:29:06,481
+Eshitish testi
+
+545
+00:29:06,481 --> 00:29:09,187
+Muhrmi?
+
+546
+00:29:09,187 --> 00:29:12,957
+N + ですか = Bu Nmi?
+
+547
+00:29:12,981 --> 00:29:14,947
+Ha.
+
+548
+00:29:14,970 --> 00:29:18,270
+Eshitish testi
+
+549
+00:29:18,270 --> 00:29:22,104
+Sizning shaxsiy muhringiz.
+
+550
+00:29:22,104 --> 00:29:27,379
+N1 の N2 = N1 ning N2
+ハンコ ≒ 印鑑(いんかん) (shaxsiy muhr)
+
+551
+00:29:27,402 --> 00:29:30,235
+Eshitish testi
+
+552
+00:29:30,235 --> 00:29:33,502
+Shachihata (rezina muhr) ham boʻladimi?
+
+553
+00:29:33,502 --> 00:29:38,016
+N + でもいいですか = N boʻlavermi?
+シャチハタ = avtomatik muhr
+
+554
+00:29:38,040 --> 00:29:40,406
+Eshitish testi
+
+555
+00:29:40,406 --> 00:29:43,106
+Kechirasiz.
+
+556
+00:29:46,871 --> 00:29:49,785
+Eshitish testi
+
+557
+00:29:49,785 --> 00:29:53,151
+Shachihata (rezina muhr) boʻlmaydi.
+
+558
+00:29:53,151 --> 00:29:57,818
+N + は だめです = N mumkin emas
+だめ (yaramaydi) ↔ いい (yaxshi / mumkin)
+
+559
+00:29:57,841 --> 00:30:00,035
+Eshitish testi
+
+560
+00:30:00,035 --> 00:30:02,507
+Bundaymi.
+
+561
+00:30:05,998 --> 00:30:08,898
+Eshitish testi
+
+562
+00:30:08,898 --> 00:30:12,236
+Oddiy muhr kerak, shundaymi?
+
+563
+00:30:12,236 --> 00:30:16,870
+普通(ふつう)の + N = oddiy N
+普通(ふつう) (oddiy) ↔ 特別(とくべつ) (maxsus)
+
+564
+00:30:16,893 --> 00:30:18,793
+Ha.
+
+565
+00:30:18,816 --> 00:30:23,116
+Eshitish testi
+
+566
+00:30:23,116 --> 00:30:28,216
+Bundan tashqari, shaxsiy raqamingiz (MY Number) kartasi ham kerak boʻladi.
+
+567
+00:30:28,216 --> 00:30:35,167
+あとは = Bundan tashqari...
+マイナンバーカード = Shaxsiy raqamli guvohnoma
+
+568
+00:30:35,190 --> 00:30:38,257
+Eshitish testi
+
+569
+00:30:38,257 --> 00:30:41,811
+Shaxsiy raqam kartasimi?
+
+570
+00:30:41,811 --> 00:30:46,711
+N + ですね = N, shundaymi?
+
+571
+00:30:46,734 --> 00:30:48,640
+Ha.
+
+572
+00:30:48,663 --> 00:30:51,130
+Eshitish testi
+
+573
+00:30:51,130 --> 00:30:53,913
+Kartangiz bormi?
+
+574
+00:30:53,913 --> 00:30:57,779
+Vていますか = Sizda ... bormi?
+
+575
+00:30:57,802 --> 00:30:59,746
+Ha.
+
+576
+00:30:59,770 --> 00:31:01,684
+Eshitish testi
+
+577
+00:31:01,684 --> 00:31:03,820
+Bor.
+
+578
+00:31:03,820 --> 00:31:06,853
+Vています = ega / bor
+
+579
+00:31:06,876 --> 00:31:09,620
+Eshitish testi
+
+580
+00:31:09,620 --> 00:31:12,776
+Unda muammo yoʻq.
+
+581
+00:31:12,776 --> 00:31:17,153
+それなら = Bunday boʻlsa...
+大丈夫(だいじょうぶ) = yaxshi / muammo yoʻq
+
+582
+00:31:17,176 --> 00:31:20,164
+Eshitish testi
+
+583
+00:31:20,164 --> 00:31:23,637
+Pasport ham kerakmi?
+
+584
+00:31:23,637 --> 00:31:28,426
+N + も 必要(ひつよう)ですか = N ham kerakmi?
+パスポート = pasport
+
+585
+00:31:28,449 --> 00:31:32,225
+Eshitish testi
+
+586
+00:31:32,225 --> 00:31:36,692
+Yoʻq, pasport kerak emas.
+
+587
+00:31:36,692 --> 00:31:42,792
+N + は 要(い)りません = N kerak emas
+要(い)る = kerak
+
+588
+00:31:42,815 --> 00:31:45,329
+Eshitish testi
+
+589
+00:31:45,329 --> 00:31:48,195
+Tushunarli.
+
+590
+00:31:52,194 --> 00:31:56,227
+Eshitish testi
+
+591
+00:31:56,227 --> 00:32:00,994
+Dastlabki toʻlov uchun ham ozgina pul kerak boʻladi.
+
+592
+00:32:00,994 --> 00:32:07,496
+V + N = V qiladigan N
+最初(さいしょ) (birinchi) ↔ 最後(さいご) (oxirgi)
+
+593
+00:32:07,520 --> 00:32:09,502
+Eshitish testi
+
+594
+00:32:09,502 --> 00:32:11,735
+Qancha kerak?
+
+595
+00:32:11,735 --> 00:32:14,845
+いくらですか = Qancha turadi?
+
+596
+00:32:14,868 --> 00:32:18,168
+Eshitish testi
+
+597
+00:32:18,168 --> 00:32:22,001
+1000 yen atrofida kifoya qiladi.
+
+598
+00:32:22,001 --> 00:32:27,271
+N + くらいでいいです = taxminan N yetarli
+〜くらい = taxminan
+
+599
+00:32:27,295 --> 00:32:29,439
+Eshitish testi
+
+600
+00:32:29,439 --> 00:32:31,872
+Tushunarli.
+
+601
+00:32:35,276 --> 00:32:38,612
+Eshitish testi
+
+602
+00:32:38,612 --> 00:32:42,528
+Roʻyxatdan oʻtish uchun vaqt ketadi.
+
+603
+00:32:42,528 --> 00:32:47,896
+時間(じかん)がかかります = vaqt ketadi
+かかる = ketmoq (vaqt/pul)
+
+604
+00:32:47,919 --> 00:32:50,753
+Eshitish testi
+
+605
+00:32:50,753 --> 00:32:53,986
+Qancha vaqt ketadi?
+
+606
+00:32:53,986 --> 00:32:58,486
+どのくらい かかりますか = Qancha vaqt ketadi?
+どのくらい = qancha / qanchalik
+
+607
+00:32:58,509 --> 00:33:01,497
+Eshitish testi
+
+608
+00:33:01,497 --> 00:33:04,964
+Taxminan 1 soat ketadi.
+
+609
+00:33:04,964 --> 00:33:09,735
+N + くらい かかります = taxminan N vaqt ketadi
+1時間(じかん) = bir soat
+
+610
+00:33:09,758 --> 00:33:12,025
+Eshitish testi
+
+611
+00:33:12,025 --> 00:33:14,558
+Tushunarli.
+
+612
+00:33:18,124 --> 00:33:20,757
+Eshitish testi
+
+613
+00:33:20,757 --> 00:33:23,748
+Ertaga yana kelaman.
+
+614
+00:33:23,748 --> 00:33:27,915
+また + Vます = yana V qilaman
+明日(あした) (ertaga) ↔ 昨日(きのう) (kecha)
+
+615
+00:33:27,938 --> 00:33:30,371
+Eshitish testi
+
+616
+00:33:30,371 --> 00:33:33,123
+Sizni kutamiz.
+
+617
+00:33:33,123 --> 00:33:36,956
+お待(ま)ちしております = Sizni kutib qolamiz
+待(ま)つ = kutmoq
+
+618
+00:33:36,979 --> 00:33:39,646
+Eshitish testi
+
+619
+00:33:39,646 --> 00:33:42,679
+Rahmat.
+
+620
+00:33:46,936 --> 00:33:48,436
+3-Sahna: Anketalarni toʻldirishni oʻrgatish / Yapon tilida hujjatlarni toʻldirish usuli
+
+621
+00:33:48,436 --> 00:33:51,502
+Eshitish testi
+
+622
+00:33:51,502 --> 00:33:55,050
+Kutib turgandingiz uchun uzr.
+
+623
+00:33:55,050 --> 00:33:59,953
+お待(ま)たせする = kutib turishga majbur qilmoq
+
+624
+00:33:59,977 --> 00:34:05,310
+Eshitish testi
+
+625
+00:34:05,310 --> 00:34:11,699
+Uzr, bu qogʻozni qanday toʻldirishni oʻrgatib yubora olasizmi?
+
+626
+00:34:11,699 --> 00:34:20,399
+Vstem + 方(かた) = ... qilish usuli
+紙(かみ) = qogʻoz
+教(おし)える = oʻrgatmoq, aytmoq
+
+627
+00:34:20,422 --> 00:34:24,588
+Eshitish testi
+
+628
+00:34:24,588 --> 00:34:29,525
+Ha, qaysi joyi tushunarsiz?
+
+629
+00:34:29,525 --> 00:34:36,268
+どこ + が + V = qayeri / qaysi qismi...
+
+630
+00:34:36,292 --> 00:34:39,525
+Eshitish testi
+
+631
+00:34:39,525 --> 00:34:43,259
+Bu yerda ism.
+
+632
+00:34:43,259 --> 00:34:48,399
+N + です = ...dir / N
+名前(なまえ) = ism
+
+633
+00:34:48,422 --> 00:34:51,300
+Eshitish testi
+
+634
+00:34:51,300 --> 00:34:54,634
+Ismmi?
+
+635
+00:34:54,634 --> 00:34:59,267
+N + ですね = Bu N, shundaymi?
+
+636
+00:34:59,290 --> 00:35:02,274
+Eshitish testi
+
+637
+00:35:02,274 --> 00:35:05,753
+Kanji (xitoycha belgilar) bilan yozaymi?
+
+638
+00:35:05,753 --> 00:35:10,522
+N + で = N tilida / N bilan
+漢字(かんじ) = kanji (xitoycha belgilar)
+
+639
+00:35:10,546 --> 00:35:13,313
+Eshitish testi
+
+640
+00:35:13,313 --> 00:35:16,491
+Lotin harflari bilan yozaymi?
+
+641
+00:35:16,491 --> 00:35:20,886
+N + で = N tilida / N bilan
+ローマ字(じ) = lotin alifbosi / romaji
+
+642
+00:35:20,909 --> 00:35:25,409
+Eshitish testi
+
+643
+00:35:25,409 --> 00:35:30,744
+Yashash kartangizdagidek yozing.
+
+644
+00:35:30,744 --> 00:35:38,024
+N + bilan bir xil tarzda = N bilan bir xil usulda
+Yashash kartasi = yashash kartasi
+Bir xil ↔ Turli (turli xil)
+
+645
+00:35:38,047 --> 00:35:40,681
+Eshitish testi
+
+646
+00:35:40,681 --> 00:35:43,661
+Lotin harflaridami?
+
+647
+00:35:43,661 --> 00:35:47,809
+N + ですね = Bu N, shundaymi?
+
+648
+00:35:47,832 --> 00:35:50,204
+Eshitish testi
+
+649
+00:35:50,204 --> 00:35:52,904
+Tushunarli.
+
+650
+00:35:56,697 --> 00:36:00,891
+Eshitish testi
+
+651
+00:36:00,891 --> 00:36:05,864
+Yuqori qatorga furigana (oʻqilishini) ham yozing.
+
+652
+00:36:05,864 --> 00:36:12,697
+V(て) + kiting = iltimos, qiling...
+Yuqori (tepa) ↔ Past (ost)
+Ustun = ustun, maydon
+
+653
+00:36:12,720 --> 00:36:16,718
+Eshitish testi
+
+654
+00:36:16,718 --> 00:36:21,452
+Furigana – bu katakana (yapon boʻgʻin yozuvi)mi?
+
+655
+00:36:21,452 --> 00:36:27,918
+N1 + N2 + mi? = N1 N2mi?
+Furigana = furigana (kanada oʻqilishi)
+
+656
+00:36:27,941 --> 00:36:32,335
+Eshitish testi
+
+657
+00:36:32,335 --> 00:36:37,573
+Ha, iltimos, katakana bilan yozing.
+
+658
+00:36:37,573 --> 00:36:44,687
+N + iltimos = N, iltimos
+Katakana = katakana
+
+659
+00:36:44,711 --> 00:36:47,144
+Eshitish testi
+
+660
+00:36:47,144 --> 00:36:49,877
+Tushunarli.
+
+661
+00:36:53,734 --> 00:36:57,290
+Eshitish testi
+
+662
+00:36:57,290 --> 00:37:01,471
+Keyin manzilingiz.
+
+663
+00:37:01,471 --> 00:37:07,205
+Keyingi + N = keyingi N
+Manzil = manzil
+
+664
+00:37:07,228 --> 00:37:10,462
+Eshitish testi
+
+665
+00:37:10,462 --> 00:37:14,216
+Manzil uzun ekan.
+
+666
+00:37:14,216 --> 00:37:19,359
+iA + (desu) = ...dir
+Uzun ↔ Qisqa
+
+667
+00:37:19,382 --> 00:37:23,282
+Eshitish testi
+
+668
+00:37:23,282 --> 00:37:27,865
+Ikki qatorga boʻlib yozsangiz ham boʻladi.
+
+669
+00:37:27,865 --> 00:37:34,165
+V(て) + moʻmaydi = ...shu ishni qilishingiz mumkin / ruxsat beriladi...
+Qator = matn qatori
+Boʻlmoq = ajratmoq, boʻlish
+
+670
+00:37:34,188 --> 00:37:37,904
+Eshitish testi
+
+671
+00:37:37,904 --> 00:37:42,281
+Kvartira nomi ham yozish kerakmi?
+
+672
+00:37:42,281 --> 00:37:48,315
+N + ham = ham / ham
+Manshon = koʻp qavatli uy, kondominium
+
+673
+00:37:48,338 --> 00:37:52,410
+Eshitish testi
+
+674
+00:37:52,410 --> 00:37:57,243
+Ha, xonadon raqamini ham yozing.
+
+675
+00:37:57,243 --> 00:38:03,824
+V(て) + kiting = iltimos, qiling...
+Xona = xona
+Raqam = raqam
+
+676
+00:38:03,847 --> 00:38:06,747
+Eshitish testi
+
+677
+00:38:06,747 --> 00:38:10,082
+Yozib boʻldim.
+
+678
+00:38:10,082 --> 00:38:14,716
+V(ました) = qildi / qilgan
+
+679
+00:38:14,739 --> 00:38:18,172
+Eshitish testi
+
+680
+00:38:18,172 --> 00:38:22,171
+Keyin telefon raqamingiz.
+
+681
+00:38:22,171 --> 00:38:27,678
+Keyingi + N = keyingi N
+Telefon raqami = telefon raqami
+
+682
+00:38:27,702 --> 00:38:31,888
+Eshitish testi
+
+683
+00:38:31,888 --> 00:38:36,856
+Mobil telefon raqami ham boʻladimi?
+
+684
+00:38:36,856 --> 00:38:43,650
+N + ham boʻladimi? = N ham yaxshi boʻladi mi?
+Mobil telefon = mobil telefon, uyali telefon
+
+685
+00:38:43,674 --> 00:38:47,662
+Eshitish testi
+
+686
+00:38:47,662 --> 00:38:52,395
+Ha, muammo yoʻq.
+
+687
+00:38:52,395 --> 00:38:58,864
+Hech qisi yo'q = yaxshi, hammasi joyida
+
+688
+00:38:58,887 --> 00:39:02,157
+Eshitish testi
+
+689
+00:39:02,157 --> 00:39:05,991
+Keyin maxfiy kod.
+
+690
+00:39:05,991 --> 00:39:11,261
+Keyingi + N + oʻzi, shundaymi? = keyingi N, shundaymi?
+Maxfiy raqam = PIN-kod, maxfiy kod
+
+691
+00:39:11,285 --> 00:39:15,785
+Eshitish testi
+
+692
+00:39:15,785 --> 00:39:21,137
+Toʻrtta raqam tanlang.
+
+693
+00:39:21,137 --> 00:39:28,437
+V(て) + kiting = iltimos, qiling...
+Raqam = raqam, son
+Belgilamoq = belgilamoq, qaror qilmoq
+
+694
+00:39:28,460 --> 00:39:31,360
+Eshitish testi
+
+695
+00:39:31,360 --> 00:39:34,719
+Tugʻilgan kunimni yozsam ham boʻladimi?
+
+696
+00:39:34,719 --> 00:39:39,385
+N + ham boʻladimi? = N ham yaxshi boʻladi mi?
+Tugʻilgan kun = tugʻilgan kun
+
+697
+00:39:39,408 --> 00:39:42,842
+Eshitish testi
+
+698
+00:39:42,842 --> 00:39:46,875
+Tugʻilgan kunni yozmang.
+
+699
+00:39:46,875 --> 00:39:52,378
+N + yaramaydi = N yaramaydi / yaramas
+Yaramaydi = yaramaydi, ruxsat etilmaydi
+
+700
+00:39:52,401 --> 00:39:54,957
+Eshitish testi
+
+701
+00:39:54,957 --> 00:39:57,890
+Tushunarli.
+
+702
+00:40:01,980 --> 00:40:04,772
+Eshitish testi
+
+703
+00:40:04,772 --> 00:40:08,005
+Boshqa raqam tanlayman.
+
+704
+00:40:08,005 --> 00:40:12,472
+N + ga + qilaman = N ni tanlayman / N ga qaror qilaman
+Boshqa = boshqa, yana bir
+
+705
+00:40:12,496 --> 00:40:16,370
+Eshitish testi
+
+706
+00:40:16,370 --> 00:40:20,945
+Bu yerda xato qilmaslikka harakat qiling.
+
+707
+00:40:20,945 --> 00:40:27,223
+V(ない) + qilmaslik uchun = ... qilmaslik uchun...
+Xato qilmoq = xato qilmoq
+
+708
+00:40:27,247 --> 00:40:30,280
+Eshitish testi
+
+709
+00:40:30,280 --> 00:40:33,814
+Yozib boʻldim.
+
+710
+00:40:33,814 --> 00:40:38,680
+V(ました) = qildi / qilgan
+
+711
+00:40:38,703 --> 00:40:43,837
+Eshitish testi
+
+712
+00:40:43,837 --> 00:40:49,985
+Oxirida shu yerga muhr bosing.
+
+713
+00:40:49,985 --> 00:40:58,351
+Oxirida = oxirida / nihoyat
+Oxirgi ↔ Birinchi
+Muhr = shaxsiy muhr, tamgʻa
+
+714
+00:40:58,374 --> 00:41:00,554
+Eshitish testi
+
+715
+00:41:00,554 --> 00:41:03,021
+Tushunarli.
+
+716
+00:41:06,511 --> 00:41:09,149
+Eshitish testi
+
+717
+00:41:09,149 --> 00:41:12,184
+Rahmat.
+
+718
+00:41:16,440 --> 00:41:17,940
+4-Sahna: Ruchka qarz olish va rang qoidalari
+
+719
+00:41:17,940 --> 00:41:20,456
+Eshitish testi
+
+720
+00:41:20,456 --> 00:41:23,323
+Xush kelibsiz!
+
+721
+00:41:27,323 --> 00:41:31,503
+Eshitish testi
+
+722
+00:41:31,503 --> 00:41:36,470
+Kechirasiz, ruchkani bir oz berib yuborishingiz mumkinmi?
+
+723
+00:41:36,470 --> 00:41:43,254
+V(て) kiting = iltimos, qiling...
+Qarz bermoq ↔ Qarz olmoq
+
+724
+00:41:43,277 --> 00:41:46,377
+Eshitish testi
+
+725
+00:41:46,377 --> 00:41:50,010
+Ha, nima uchun?
+
+726
+00:41:50,010 --> 00:41:54,980
+Nima boʻldi? = Nima boʻldi?
+
+727
+00:41:55,004 --> 00:41:58,237
+Eshitish testi
+
+728
+00:41:58,237 --> 00:42:01,986
+Mening ruchkam ishlamayapti.
+
+729
+00:42:01,986 --> 00:42:07,153
+V(ません) = qilmasman / qilmayman...
+Chiqmoq = chiqmoq / ishlamoq
+
+730
+00:42:07,176 --> 00:42:09,309
+Eshitish testi
+
+731
+00:42:09,309 --> 00:42:11,695
+Bundaymi.
+
+732
+00:42:15,074 --> 00:42:18,174
+Eshitish testi
+
+733
+00:42:18,174 --> 00:42:21,763
+Bu ruchkani oling.
+
+734
+00:42:21,763 --> 00:42:26,697
+Marhamat = iltimos / marhamat
+
+735
+00:42:26,720 --> 00:42:28,830
+Eshitish testi
+
+736
+00:42:28,830 --> 00:42:31,209
+Rahmat.
+
+737
+00:42:34,538 --> 00:42:39,172
+Eshitish testi
+
+738
+00:42:39,172 --> 00:42:44,672
+Bank hujjatlarini qora ruchka bilan yozing.
+
+739
+00:42:44,672 --> 00:42:52,138
+N bilan + V = N bilan V qilmoq
+Hujjat = hujjat
+
+740
+00:42:52,161 --> 00:42:55,128
+Eshitish testi
+
+741
+00:42:55,128 --> 00:42:58,595
+Bu ruchka qora rangdami?
+
+742
+00:42:58,595 --> 00:43:03,339
+N + mi? = Bu Nmi?
+Qora ↔ Oq
+
+743
+00:43:03,362 --> 00:43:06,629
+Eshitish testi
+
+744
+00:43:06,629 --> 00:43:10,462
+Ha, qora rangda.
+
+745
+00:43:10,462 --> 00:43:15,729
+Qora rang = qora rang
+
+746
+00:43:15,752 --> 00:43:18,706
+Eshitish testi
+
+747
+00:43:18,706 --> 00:43:22,139
+Ko‘k ruchka bilan yozsam bo‘ladimi?
+
+748
+00:43:22,139 --> 00:43:26,885
+N ham boʻladimi? = N ham yaxshi boʻladi mi?
+Koʻk = koʻk
+
+749
+00:43:26,909 --> 00:43:29,945
+Eshitish testi
+
+750
+00:43:29,945 --> 00:43:33,478
+Ko‘k ruchka bilan yozish mumkin emas.
+
+751
+00:43:33,478 --> 00:43:38,345
+N yaramaydi = N ruxsat etilmaydi
+
+752
+00:43:38,368 --> 00:43:40,566
+Eshitish testi
+
+753
+00:43:40,566 --> 00:43:43,043
+Tushunarli.
+
+754
+00:43:46,532 --> 00:43:49,666
+Eshitish testi
+
+755
+00:43:49,666 --> 00:43:53,332
+Qalam ham ishlatmang.
+
+756
+00:43:53,332 --> 00:43:58,399
+V(ないで) kiting = iltimos, qilmaslik...
+Qalam = qalam
+
+757
+00:43:58,422 --> 00:44:02,156
+Eshitish testi
+
+758
+00:44:02,156 --> 00:44:06,550
+Ha, men sharikli ruchka bilan yozaman.
+
+759
+00:44:06,550 --> 00:44:12,588
+N bilan + V = N bilan V qilmoq
+Yozmoq = yozmoq
+
+760
+00:44:12,611 --> 00:44:15,955
+Eshitish testi
+
+761
+00:44:15,955 --> 00:44:19,856
+O‘chirib tashlanadigan ruchkalar ham mumkin emas.
+
+762
+00:44:19,856 --> 00:44:25,223
+V(ことが) + mumkin = ... qila olasiz
+Oʻchirmoq ↔ Yozmoq
+
+763
+00:44:25,246 --> 00:44:27,280
+Eshitish testi
+
+764
+00:44:27,280 --> 00:44:29,547
+Tushunarli.
+
+765
+00:44:32,803 --> 00:44:36,270
+Eshitish testi
+
+766
+00:44:36,270 --> 00:44:40,337
+Xato qilsam, nima qilaman?
+
+767
+00:44:40,337 --> 00:44:45,918
+V(た) + payt = ... qilgan paytda / agar ... qilgan boʻlsa
+Xato qilmoq = xato qilmoq
+
+768
+00:44:45,941 --> 00:44:49,374
+Eshitish testi
+
+769
+00:44:49,374 --> 00:44:53,364
+Yangi qog‘ozga yozsam bo‘ladimi?
+
+770
+00:44:53,364 --> 00:44:58,864
+iA + N = [sifat] N
+Yangi ↔ Eski
+
+771
+00:44:58,887 --> 00:45:02,754
+Eshitish testi
+
+772
+00:45:02,754 --> 00:45:07,320
+Yo‘q, ikki chiziq chizing.
+
+773
+00:45:07,320 --> 00:45:13,587
+V(て) kiting = iltimos, qiling...
+Ikki chiziq = ikki chiziq
+
+774
+00:45:13,610 --> 00:45:16,126
+Eshitish testi
+
+775
+00:45:16,126 --> 00:45:18,996
+Ikki chiziqmi?
+
+776
+00:45:18,996 --> 00:45:22,976
+N + ですか = Bu Nmi?
+
+777
+00:45:22,999 --> 00:45:24,907
+Ha.
+
+778
+00:45:24,931 --> 00:45:29,313
+Eshitish testi
+
+779
+00:45:29,313 --> 00:45:34,507
+So‘ngra, u yerga muhr bosing.
+
+780
+00:45:34,507 --> 00:45:41,607
+Va keyin = va keyin
+Muhr = shaxsiy muhr / tamgʻa
+
+781
+00:45:41,630 --> 00:45:45,130
+Eshitish testi
+
+782
+00:45:45,130 --> 00:45:49,237
+Tuzatish lenti ishlatsam bo‘ladimi?
+
+783
+00:45:49,237 --> 00:45:54,870
+V(ても) + boʻladi mi? = ... qilsam boʻladi mi?
+Tuzatish lentasi = tuzatish lentasi
+
+784
+00:45:54,893 --> 00:45:58,526
+Eshitish testi
+
+785
+00:45:58,526 --> 00:46:02,794
+Tuzatish lentasini ishlatmang.
+
+786
+00:46:02,794 --> 00:46:08,661
+V(ないで) kiting = iltimos, qilmaslik...
+Tuzatish lentasi = tuzatish lentasi
+
+787
+00:46:08,684 --> 00:46:11,151
+Eshitish testi
+
+788
+00:46:11,151 --> 00:46:13,984
+Tushunarli.
+
+789
+00:46:17,908 --> 00:46:20,141
+Eshitish testi
+
+790
+00:46:20,141 --> 00:46:22,618
+Ehtiyot bo‘laman.
+
+791
+00:46:22,618 --> 00:46:26,118
+Ehtiyot boʻling = ehtiyot boʻling
+
+792
+00:46:26,141 --> 00:46:29,608
+Eshitish testi
+
+793
+00:46:29,608 --> 00:46:33,647
+U yerda joylashgan stol ustida yozing.
+
+794
+00:46:33,647 --> 00:46:39,194
+N da + V = N da V qilmoq
+Parta = parta
+
+795
+00:46:39,217 --> 00:46:41,291
+Ha.
+
+796
+00:46:41,314 --> 00:46:44,581
+Eshitish testi
+
+797
+00:46:44,581 --> 00:46:48,372
+Yozib bo‘lgach, qayerga borishim kerak?
+
+798
+00:46:48,372 --> 00:46:53,605
+V(たら) = ... qilganingizda / ... qilgandan keyin
+Yozib tugatmoq = yozib tugatmoq
+
+799
+00:46:53,628 --> 00:46:56,662
+Eshitish testi
+
+800
+00:46:56,662 --> 00:47:00,140
+Yana shu yerga keling.
+
+801
+00:47:00,140 --> 00:47:04,973
+N ga + keling = iltimos, N ga keling
+Bu yerda ↔ U yerda
+
+802
+00:47:04,996 --> 00:47:07,168
+Eshitish testi
+
+803
+00:47:07,168 --> 00:47:09,635
+Tushunarli.
+
+804
+00:47:13,091 --> 00:47:16,958
+Eshitish testi
+
+805
+00:47:16,958 --> 00:47:21,491
+Nimadir tushunmagan bo‘lsangiz, so‘rang.
+
+806
+00:47:21,491 --> 00:47:27,724
+V(たら) = agar / ... qilganingizda...
+Soʻramoq = soʻramoq
+
+807
+00:47:27,747 --> 00:47:30,851
+Eshitish testi
+
+808
+00:47:30,851 --> 00:47:34,484
+Ha, juda yaxshi bo‘ladi.
+
+809
+00:47:34,484 --> 00:47:39,465
+Katta yordam beradi = juda katta yordam beradi
+
+810
+00:47:39,489 --> 00:47:40,989
+5-Sahna: Bankomatdan foydalanish
+
+811
+00:47:40,989 --> 00:47:43,761
+Eshitish testi
+
+812
+00:47:43,761 --> 00:47:46,957
+Xush kelibsiz!
+
+813
+00:47:51,413 --> 00:47:53,449
+Eshitish testi
+
+814
+00:47:53,449 --> 00:47:55,721
+Kechirasiz.
+
+815
+00:47:58,937 --> 00:48:02,239
+Eshitish testi
+
+816
+00:48:02,239 --> 00:48:06,105
+Pul yechmoqchiman.
+
+817
+00:48:11,433 --> 00:48:14,566
+Eshitish testi
+
+818
+00:48:14,566 --> 00:48:18,233
+Karta bilan ekansiz?
+
+819
+00:48:23,289 --> 00:48:26,359
+Eshitish testi
+
+820
+00:48:26,359 --> 00:48:29,926
+Ha, bor.
+
+821
+00:48:34,882 --> 00:48:39,449
+Eshitish testi
+
+822
+00:48:39,449 --> 00:48:44,882
+Unda bankomatdan foydalanishingiz mumkin.
+
+823
+00:48:52,339 --> 00:48:56,107
+Eshitish testi
+
+824
+00:48:56,107 --> 00:49:00,573
+Bankomat qayerda?
+
+825
+00:49:06,696 --> 00:49:10,246
+Eshitish testi
+
+826
+00:49:10,246 --> 00:49:14,414
+Ushbu binoning tashqarisida.
+
+827
+00:49:20,171 --> 00:49:22,637
+Eshitish testi
+
+828
+00:49:22,637 --> 00:49:25,471
+Tashqaridami?
+
+829
+00:49:29,398 --> 00:49:31,631
+Ha.
+
+830
+00:49:31,654 --> 00:49:35,322
+Eshitish testi
+
+831
+00:49:35,322 --> 00:49:39,656
+Ana o‘sha eshikdan chiqib, o‘ngga boring.
+
+832
+00:49:45,612 --> 00:49:48,994
+Eshitish testi
+
+833
+00:49:48,994 --> 00:49:52,950
+Eshikdan chiqib o‘ngga, shundaymi?
+
+834
+00:49:58,440 --> 00:50:00,624
+Ha.
+
+835
+00:50:00,647 --> 00:50:02,983
+Eshitish testi
+
+836
+00:50:02,983 --> 00:50:05,649
+Ko‘rib turganingizda darhol ko‘rasiz.
+
+837
+00:50:09,376 --> 00:50:12,276
+Eshitish testi
+
+838
+00:50:12,276 --> 00:50:15,621
+Tushunarli.
+
+839
+00:50:20,277 --> 00:50:24,311
+Eshitish testi
+
+840
+00:50:24,311 --> 00:50:29,059
+Bankomatdan foydalanishni bilasizmi?
+
+841
+00:50:35,582 --> 00:50:37,148
+Ha.
+
+842
+00:50:37,171 --> 00:50:39,149
+Eshitish testi
+
+843
+00:50:39,149 --> 00:50:41,383
+Xavotir olmang, bilaman.
+
+844
+00:50:44,506 --> 00:50:47,572
+Eshitish testi
+
+845
+00:50:47,572 --> 00:50:51,122
+Inglizcha menyu bormi?
+
+846
+00:50:56,047 --> 00:50:58,014
+Ha.
+
+847
+00:50:58,037 --> 00:51:01,103
+Eshitish testi
+
+848
+00:51:01,103 --> 00:51:04,650
+Inglizcha ekran ham bor.
+
+849
+00:51:09,573 --> 00:51:12,331
+Eshitish testi
+
+850
+00:51:12,331 --> 00:51:15,506
+Bu juda qulay ekan.
+
+851
+00:51:19,925 --> 00:51:23,799
+Eshitish testi
+
+852
+00:51:23,799 --> 00:51:28,371
+Xitoy va koreys tillarida ham mavjud.
+
+853
+00:51:34,694 --> 00:51:37,008
+Eshitish testi
+
+854
+00:51:37,008 --> 00:51:39,642
+Tushunarli.
+
+855
+00:51:43,331 --> 00:51:47,699
+Eshitish testi
+
+856
+00:51:47,699 --> 00:51:52,885
+Pul yechishda komissiya olinishi mumkin.
+
+857
+00:52:00,008 --> 00:52:02,376
+Eshitish testi
+
+858
+00:52:02,376 --> 00:52:05,076
+Qancha?
+
+859
+00:52:08,848 --> 00:52:12,444
+Eshitish testi
+
+860
+00:52:12,444 --> 00:52:16,678
+Hozirgi vaqtda bepul.
+
+861
+00:52:22,490 --> 00:52:25,392
+Eshitish testi
+
+862
+00:52:25,392 --> 00:52:28,748
+Kechqurun pullimi?
+
+863
+00:52:33,405 --> 00:52:35,705
+Ha.
+
+864
+00:52:35,728 --> 00:52:39,596
+Eshitish testi
+
+865
+00:52:39,596 --> 00:52:44,172
+Kechqurun soat oltidan keyin 110 yen olinadi.
+
+866
+00:52:50,462 --> 00:52:54,216
+Eshitish testi
+
+867
+00:52:54,216 --> 00:52:58,649
+Shanba va yakshanba kunlari qanday?
+
+868
+00:53:04,739 --> 00:53:08,409
+Eshitish testi
+
+869
+00:53:08,409 --> 00:53:12,721
+Dam olish kunlarida ham komissiya olinadi.
+
+870
+00:53:18,644 --> 00:53:20,796
+Eshitish testi
+
+871
+00:53:20,796 --> 00:53:23,229
+Tushunarli.
+
+872
+00:53:26,685 --> 00:53:29,119
+Eshitish testi
+
+873
+00:53:29,119 --> 00:53:31,872
+Hozir boraman.
+
+874
+00:53:35,728 --> 00:53:37,716
+Ha.
+
+875
+00:53:37,739 --> 00:53:40,006
+Eshitish testi
+
+876
+00:53:40,006 --> 00:53:42,543
+Ehtiyot boʻling.
+
+877
+00:53:46,137 --> 00:53:48,270
+Eshitish testi
+
+878
+00:53:48,270 --> 00:53:50,653
+Rahmat.
+
+879
+00:53:54,022 --> 00:53:57,692
+Eshitish testi
+
+880
+00:53:57,692 --> 00:54:02,003
+Yana biror narsa boʻlsa, soʻrashingiz mumkin.
+
+881
+00:54:07,936 --> 00:54:10,002
+Ha.
+
+882
+00:54:10,025 --> 00:54:12,125
+Eshitish testi
+
+883
+00:54:12,125 --> 00:54:14,470
+Kechirasiz.
+
+884
+00:54:17,793 --> 00:54:19,293
+6-Sahna: Bank kassasi va bankomat ish vaqti / Bank kassasi va bankomatning ishlash soatlari
+
+885
+00:54:19,293 --> 00:54:21,927
+Eshitish testi
+
+886
+00:54:21,927 --> 00:54:24,920
+Xush kelibsiz!
+
+887
+00:54:24,920 --> 00:54:29,066
+いらっしゃいませ = Xush kelibsiz
+
+888
+00:54:29,089 --> 00:54:31,793
+Eshitish testi
+
+889
+00:54:31,793 --> 00:54:34,905
+Kechirasiz.
+
+890
+00:54:39,231 --> 00:54:42,943
+Eshitish testi
+
+891
+00:54:42,943 --> 00:54:47,312
+Biroz soʻrashim mumkinmi?
+
+892
+00:54:47,312 --> 00:54:53,290
+V(ても) + boʻladi mi? = ... qilsam boʻladi mi?
+Biroz ↔ Koʻp
+
+893
+00:54:53,314 --> 00:54:56,986
+Eshitish testi
+
+894
+00:54:56,986 --> 00:55:01,303
+Ha, nima uchun?
+
+895
+00:55:07,259 --> 00:55:12,126
+Eshitish testi
+
+896
+00:55:12,126 --> 00:55:17,925
+Bank kassasi soat nechchagacha ishlaydi?
+
+897
+00:55:17,925 --> 00:55:25,825
+N + gacha = N gacha
+Xizmat peshtaxtasi = xizmat peshtaxtasi
+
+898
+00:55:25,848 --> 00:55:30,481
+Eshitish testi
+
+899
+00:55:30,481 --> 00:55:36,000
+Kassa soat 15:00 gacha ishlaydi.
+
+900
+00:55:36,000 --> 00:55:43,533
+Ertalab (AM/ertalab) ↔ Kechki payt (PM/kun kechasi)
+
+901
+00:55:43,556 --> 00:55:46,790
+Eshitish testi
+
+902
+00:55:46,790 --> 00:55:50,565
+Sohat 15:00 gacha?
+
+903
+00:55:55,772 --> 00:55:58,758
+Eshitish testi
+
+904
+00:55:58,758 --> 00:56:02,225
+Erta ekan.
+
+905
+00:56:02,225 --> 00:56:07,004
+Erta ↔ Kech
+
+906
+00:56:07,028 --> 00:56:10,862
+Eshitish testi
+
+907
+00:56:10,862 --> 00:56:15,395
+Ha, uzr.
+
+908
+00:56:15,395 --> 00:56:21,628
+Kechirasiz = uzr, kechirasiz (hurmatli)
+
+909
+00:56:21,651 --> 00:56:26,385
+Eshitish testi
+
+910
+00:56:26,385 --> 00:56:32,021
+15:00 dan keyin nima boʻladi?
+
+911
+00:56:32,021 --> 00:56:39,692
+V(たら) = agar / ... qilganingizda
+Oʻtmoq = oʻtmoq / oshib ketmoq
+
+912
+00:56:39,715 --> 00:56:44,071
+Eshitish testi
+
+913
+00:56:44,071 --> 00:56:49,247
+Kassa eshigi yopiladi.
+
+914
+00:56:49,247 --> 00:56:56,347
+очиш (ochish) ↔ ёпиш (yopish)
+
+915
+00:56:56,370 --> 00:56:59,837
+Eshitish testi
+
+916
+00:56:59,837 --> 00:57:03,903
+Bankomatdan foydalanish mumkinmi?
+
+917
+00:57:03,903 --> 00:57:09,455
+фойдаланиш (foydalanish) = ishlatmoq
+
+918
+00:57:09,479 --> 00:57:15,612
+Eshitish testi
+
+919
+00:57:15,612 --> 00:57:23,001
+Ha, bankomat kechki 21:00 gacha ishlaydi.
+
+920
+00:57:23,001 --> 00:57:33,035
+эрталаб (ertalab) ↔ кеча (kecha)
+
+921
+00:57:33,058 --> 00:57:36,994
+Eshitish testi
+
+922
+00:57:36,994 --> 00:57:41,660
+Shundaymi, yaxshi boʻldi.
+
+923
+00:57:48,056 --> 00:57:53,022
+Eshitish testi
+
+924
+00:57:53,022 --> 00:57:58,959
+Shanba va yakshanba kunlari kassa yopiq boʻladi.
+
+925
+00:57:58,959 --> 00:58:07,033
+N1 + ва + N2 = N1 va N2
+дам олиш (dam olish) = dam olish / yopiq
+
+926
+00:58:07,057 --> 00:58:10,653
+Eshitish testi
+
+927
+00:58:10,653 --> 00:58:14,886
+Bankomat ham yopiqmi?
+
+928
+00:58:14,886 --> 00:58:20,674
+N + ҳам = N ham / ham N
+
+929
+00:58:20,697 --> 00:58:26,247
+Eshitish testi
+
+930
+00:58:26,247 --> 00:58:32,917
+Yoʻq, bankomat dam olish kunlarida ham ishlaydi.
+
+931
+00:58:32,917 --> 00:58:41,984
+V+япти = V holati / V qilmoqda
+дам олиш кунлари (dam olish kunlari) = hafta oxiri
+
+932
+00:58:42,007 --> 00:58:45,674
+Eshitish testi
+
+933
+00:58:45,674 --> 00:58:49,974
+Ertalab soat nechchadan boshlanadi?
+
+934
+00:58:49,974 --> 00:58:55,840
+N + дан = N dan
+
+935
+00:58:55,863 --> 00:59:01,205
+Eshitish testi
+
+936
+00:59:01,205 --> 00:59:07,639
+Kassa ertalab soat 9:00 dan boshlab ishlaydi.
+
+937
+00:59:07,639 --> 00:59:16,372
+N + дан = N dan
+
+938
+00:59:16,395 --> 00:59:20,462
+Eshitish testi
+
+939
+00:59:20,462 --> 00:59:25,255
+Bankomat undan ham erta boshlaydimi?
+
+940
+00:59:25,255 --> 00:59:31,811
+кўпроқ (koʻproq)
+
+941
+00:59:31,834 --> 00:59:37,668
+Eshitish testi
+
+942
+00:59:37,668 --> 00:59:44,658
+Ha, bankomat ertalab soat 8:00 dan boshlab ishlaydi.
+
+943
+00:59:44,658 --> 00:59:54,158
+N + дан = N dan
+
+944
+00:59:54,181 --> 00:59:56,717
+Eshitish testi
+
+945
+00:59:56,717 --> 00:59:59,632
+Tushunarli.
+
+946
+01:00:03,688 --> 01:00:07,855
+Eshitish testi
+
+947
+01:00:07,855 --> 01:00:12,793
+Bugun kassada ish koʻrasizmi?
+
+948
+01:00:12,793 --> 01:00:19,551
+жой (joy) + да = [joy]da
+қайд қилиш (qayd qilish) = tartib / protsedura
+
+949
+01:00:19,574 --> 01:00:24,441
+Eshitish testi
+
+950
+01:00:24,441 --> 01:00:30,274
+Yoʻq, bugun vaqtim yoʻq.
+
+951
+01:00:30,274 --> 01:00:38,181
+N + бор / йўқ = N bor / N yoʻq
+вақт (vaqt) = vaqt
+
+952
+01:00:38,204 --> 01:00:40,876
+Eshitish testi
+
+953
+01:00:40,876 --> 01:00:43,976
+Bundaymi.
+
+954
+01:00:48,274 --> 01:00:52,507
+Eshitish testi
+
+955
+01:00:52,507 --> 01:00:57,541
+Ertaga tushlik tanaffusida yana kelaman.
+
+956
+01:00:57,541 --> 01:01:04,419
+вақт (vaqt) + да = [vaqt]da
+тушлик таътили (tushlik taitili) = tushlik tanaffusi
+
+957
+01:01:04,442 --> 01:01:08,275
+Eshitish testi
+
+958
+01:01:08,275 --> 01:01:12,788
+Tushlik vaqtida biroz gavjum boʻladi.
+
+959
+01:01:12,788 --> 01:01:18,979
+тиқилмоқ (tiqilmoq) ↔ бўш бўлмоқ (boʻsh boʻlmoq)
+
+960
+01:01:19,003 --> 01:01:22,781
+Eshitish testi
+
+961
+01:01:22,781 --> 01:01:27,249
+Qancha kutish kerak boʻladi?
+
+962
+01:01:27,249 --> 01:01:33,365
+қанча вақт / қанча + V = qancha vaqt / qancha V qilish kerak
+кутмоқ (kutmoq) = kutmoq
+
+963
+01:01:33,388 --> 01:01:37,422
+Eshitish testi
+
+964
+01:01:37,422 --> 01:01:42,177
+30 daqiqa atrofida kutishingiz mumkin.
+
+965
+01:01:42,177 --> 01:01:48,685
+V + қилса бўлади = V qilishi mumkin
+чамаси (chamasi) = taxminan / чамаси
+
+966
+01:01:48,708 --> 01:01:51,008
+Eshitish testi
+
+967
+01:01:51,008 --> 01:01:53,600
+Tushunarli.
+
+968
+01:01:57,257 --> 01:02:00,490
+Eshitish testi
+
+969
+01:02:00,490 --> 01:02:04,259
+Biroz erta kelaman.
+
+970
+01:02:04,259 --> 01:02:09,443
+эрта (erta) ↔ кеч (kech)
+
+971
+01:02:09,466 --> 01:02:12,442
+Eshitish testi
+
+972
+01:02:12,442 --> 01:02:15,909
+Sizni kutamiz.
+
+973
+01:02:15,909 --> 01:02:20,693
+кутиб турибман (kutib turibman) = сизни кўришга интизориман (hurmat bilan)
+
+974
+01:02:20,716 --> 01:02:24,262
+Eshitish testi
+
+975
+01:02:24,262 --> 01:02:28,411
+Rahmat.
+
+976
+01:02:34,134 --> 01:02:35,634
+7-Sahna: Bank ishlarini yakunlash / Bank protseduralarini yakunlash
+
+977
+01:02:35,634 --> 01:02:39,420
+Eshitish testi
+
+978
+01:02:39,420 --> 01:02:43,887
+Hisob ochish jarayoni shu bilan tugadi.
+
+979
+01:02:43,887 --> 01:02:49,999
+ҳисоб рақами (hisob raqami) = bank hisobi
+қайд қилиш (qayd qilish) = tartib / protsedura
+
+980
+01:02:50,022 --> 01:02:52,368
+Eshitish testi
+
+981
+01:02:52,368 --> 01:02:55,035
+Rahmat.
+
+982
+01:02:58,768 --> 01:03:01,601
+Eshitish testi
+
+983
+01:03:01,601 --> 01:03:04,868
+Hisob varaqasini oldim.
+
+984
+01:03:04,868 --> 01:03:09,368
+V+ди = ... қилди
+ҳисоб китоби (hisob kitobi) = hisob daftari
+олмоқ (olmoq) ↔ бермоқ (bermoq)
+
+985
+01:03:09,391 --> 01:03:11,225
+Ha.
+
+986
+01:03:11,248 --> 01:03:14,628
+Eshitish testi
+
+987
+01:03:14,628 --> 01:03:18,585
+Hisob varaqasidan bugundan boshlab foydalanishingiz mumkin.
+
+988
+01:03:18,585 --> 01:03:24,052
+N + дан = N dan
+бугун (bugun) = bugun
+фойдаланиш (foydalanish) = ishlatmoq
+
+989
+01:03:24,075 --> 01:03:27,341
+Eshitish testi
+
+990
+01:03:27,341 --> 01:03:31,132
+Kassa kartasi yoʻqmi?
+
+991
+01:03:31,132 --> 01:03:36,366
+N + йўқми? = N yoʻqmi? / N bormi?
+нақд пул картаси (naqd pul kartasi) = kassa kartasi / bankomat kartasi
+
+992
+01:03:36,389 --> 01:03:40,322
+Eshitish testi
+
+993
+01:03:40,322 --> 01:03:44,961
+Kassa kartasi keyinroq pochta orqali yuboriladi.
+
+994
+01:03:44,961 --> 01:03:51,308
+кейин (keyin) = keyin
+кейин (keyin) ↔ тез (tez)
+почта орқали юбормоқ (pochta orqali yubormoq) = pochta orqali yubormoq
+
+995
+01:03:51,332 --> 01:03:53,898
+Eshitish testi
+
+996
+01:03:53,898 --> 01:03:56,834
+Pochta orqali, shundaymi?
+
+997
+01:03:56,834 --> 01:04:00,934
+N + экан, шунақами? = Bu N, shundaymi?
+почта орқали юбориш (pochta orqali yuborish) = pochta orqali yuborish
+
+998
+01:04:00,957 --> 01:04:03,657
+Eshitish testi
+
+999
+01:04:03,657 --> 01:04:06,768
+Qachon yetib keladi?
+
+1000
+01:04:06,768 --> 01:04:11,068
+қачон + V+сиз? = Qachon V qilasiz?
+етиб бормоқ (yetib bormoq) = yetib kelmoq / etkazib berilmoq
+
+1001
+01:04:11,091 --> 01:04:14,725
+Eshitish testi
+
+1002
+01:04:14,725 --> 01:04:18,991
+Taxminan bir hafta kerak boʻladi.
+
+1003
+01:04:18,991 --> 01:04:24,825
+[вақт] + чамаси + кетади = [vaqt] taxminan ketadi
+taхminan (taxminan) ≈ чамаси (chamasi)
+ҳафта (hafta) = hafta (muddati)
+
+1004
+01:04:24,848 --> 01:04:27,714
+Eshitish testi
+
+1005
+01:04:27,714 --> 01:04:31,034
+Bir haftami?
+
+1006
+01:04:31,034 --> 01:04:35,616
+N + ми? = Bu Nmi?
+бир ҳафта (bir hafta) = bir hafta
+
+1007
+01:04:35,640 --> 01:04:38,873
+Eshitish testi
+
+1008
+01:04:38,873 --> 01:04:42,644
+Imzo kerak boʻladi?
+
+1009
+01:04:42,644 --> 01:04:47,831
+naA + ми? = Bu [na-sifat]mi?
+имзо (imzo) = imzo
+зарур (zarur) ↔ керак эмас (kerak emas)
+
+1010
+01:04:47,854 --> 01:04:49,960
+Ha.
+
+1011
+01:04:49,984 --> 01:04:54,084
+Eshitish testi
+
+1012
+01:04:54,084 --> 01:04:58,917
+Roʻyxatga olingan pochta orqali yuboriladi, shuning uchun imzo kerak boʻladi.
+
+1013
+01:04:58,917 --> 01:05:05,550
+~дан / ~са = чунки...
+қайд қилинган хат (qayd qilingan xat) = roʻyxatga olingan xat
+юбормоқ (yubormoq) ↔ олмоқ (olmoq)
+
+1014
+01:05:05,573 --> 01:05:11,640
+Eshitish testi
+
+1015
+01:05:11,640 --> 01:05:18,940
+Uyda hech kim boʻlmaganida nima boʻladi?
+
+1016
+01:05:18,940 --> 01:05:28,840
+V+маган + вақт = ... qilmasdan turib
+ҳеч ким (hech kim) + инкор = hech kim / hech narsa
+уй (uy) = uy / uy
+
+1017
+01:05:28,863 --> 01:05:31,730
+Eshitish testi
+
+1018
+01:05:31,730 --> 01:05:35,007
+Pochta xodimi yetkazib boʻlmaganligi toʻgʻrisida xabar qoldiradi.
+
+1019
+01:05:35,007 --> 01:05:39,573
+N(одам) + V+ди = [Odam] V qiladi
+почта бўлими (pochta boʻlimi) = pochta boʻlimi
+етиб бормаганлик хабарномаси (yetib bormaganlik xabarnomasi) = yetkazib berilmaganligi haqida xabar
+
+1020
+01:05:39,596 --> 01:05:42,130
+Eshitish testi
+
+1021
+01:05:42,130 --> 01:05:45,030
+Yetkazilmaganligi toʻgʻrisida xabarmikin?
+
+1022
+01:05:45,030 --> 01:05:49,063
+N + экан, шунақами? = Bu N, shundaymi?
+етиб бормаганлик хабарномаси (yetib bormaganlik xabarnomasi) = yetkazilmaganligi haqida xabar
+
+1023
+01:05:49,086 --> 01:05:51,040
+Ha.
+
+1024
+01:05:51,063 --> 01:05:55,337
+Eshitish testi
+
+1025
+01:05:55,337 --> 01:06:00,411
+Shu qogʻozga qarab pochta boʻlimiga bogʻlaning.
+
+1026
+01:06:00,411 --> 01:06:07,344
+V+инг + қилинг = Iltimos, ... qiling
+қоғоз (qogʻoz) = qogʻoz / xabarnoma
+алоқа қилмоқ (aloqa qilmoq) = bogʻlanmoq
+
+1027
+01:06:07,367 --> 01:06:09,943
+Eshitish testi
+
+1028
+01:06:09,943 --> 01:06:12,893
+Tushunarli.
+
+1029
+01:06:12,893 --> 01:06:16,993
+тушунарли (tushunarli) = tushunmoq
+
+1030
+01:06:17,017 --> 01:06:21,083
+Eshitish testi
+
+1031
+01:06:21,083 --> 01:06:25,868
+Karta yetib kelguncha pulni qanday olish mumkin?
+
+1032
+01:06:25,868 --> 01:06:32,424
+V+гунча = ...gacha
+етиб бормоқ (yetib bormoq) = yetib kelmoq
+нима қиласиз? (nima qilasiz?) = nima qilasiz?
+
+1033
+01:06:32,448 --> 01:06:35,834
+Eshitish testi
+
+1034
+01:06:35,834 --> 01:06:39,801
+Pulni olish mumkin emasmi?
+
+1035
+01:06:39,801 --> 01:06:45,268
+пул (pul) = pul
+чиқармоқ (chiqarmoq) ↔ сақламоқ (saqlamoq)
+
+1036
+01:06:45,291 --> 01:06:49,837
+Eshitish testi
+
+1037
+01:06:49,837 --> 01:06:55,270
+Hisobotchingiz va muhringiz bo'lsa, derazadan pul yechishingiz mumkin.
+
+1038
+01:06:55,270 --> 01:07:02,662
+N + бўлса = agar N bo'lsa
+муҳр (muhr) = muhr / tamgʻa
+шифт (shift) = kassa / xizmat oynasi
+
+1039
+01:07:02,686 --> 01:07:05,219
+Eshitish testi
+
+1040
+01:07:05,219 --> 01:07:08,119
+Bundaymi.
+
+1041
+01:07:12,179 --> 01:07:17,246
+Eshitish testi
+
+1042
+01:07:17,246 --> 01:07:23,279
+Ammo deraza soat 3 gacha ochiq, shuning uchun e'tiborli bo'ling.
+
+1043
+01:07:23,279 --> 01:07:31,512
+N + гача эмас = chunki N gacha
+шифт (shift) = kassa
+эътибор бераман (e’tibor beraman) = ehtiyot boʻlaman
+
+1044
+01:07:31,535 --> 01:07:33,569
+Ha.
+
+1045
+01:07:33,592 --> 01:07:35,770
+Eshitish testi
+
+1046
+01:07:35,770 --> 01:07:38,236
+Tushunarli.
+
+1047
+01:07:41,692 --> 01:07:45,926
+Eshitish testi
+
+1048
+01:07:45,926 --> 01:07:50,915
+Karta kelganda orqa tomoniga ismingizni yozing.
+
+1049
+01:07:50,915 --> 01:07:57,748
+V+са = ...ganda / ...sa...
+орқаси (orqasi) ↔ олди (oldi)
+исм (ism) = ism
+
+1050
+01:07:57,771 --> 01:07:59,804
+Ha.
+
+1051
+01:07:59,827 --> 01:08:03,973
+Eshitish testi
+
+1052
+01:08:03,973 --> 01:08:08,890
+Maxfiy raqamingizni hech kimga aytmang.
+
+1053
+01:08:08,890 --> 01:08:15,630
+V+манг + қилинг = Iltimos, ... qilmang
+махфий рақам (maxfiy raqam) = PIN-kod / maxfiy kod
+айтмоқ (aytmoq) ↔ ўрганмоқ (oʻrganmoq)
+
+1054
+01:08:15,654 --> 01:08:17,636
+Ha.
+
+1055
+01:08:17,659 --> 01:08:19,975
+Eshitish testi
+
+1056
+01:08:19,975 --> 01:08:22,611
+Albatta.
+
+1057
+01:08:22,611 --> 01:08:26,278
+албатта (albatta) = albatta / albatta
+
+1058
+01:08:26,301 --> 01:08:30,617
+Eshitish testi
+
+1059
+01:08:30,617 --> 01:08:35,750
+Yo'qolsa, darhol bankka qo'ng'iroq qiling.
+
+1060
+01:08:35,750 --> 01:08:42,783
+V+ган + вақт = ...ganda / ...sa...
+йўқотмоқ (yoʻqotmoq) ↔ топмоқ (topmoq)
+тез (tez) ≈ зудлик билан (zudlik bilan)
+
+1061
+01:08:42,806 --> 01:08:45,044
+Eshitish testi
+
+1062
+01:08:45,044 --> 01:08:47,578
+Tushunarli.
+
+1063
+01:08:51,141 --> 01:08:54,841
+Eshitish testi
+
+1064
+01:08:54,841 --> 01:08:59,192
+Telefon raqami qayerda yozilgan?
+
+1065
+01:08:59,192 --> 01:09:05,168
+қаерда + бор? = Qayerda [joy/narsa]?
+телефон рақами (telefon raqami) = telefon raqami
+
+1066
+01:09:05,191 --> 01:09:08,225
+Eshitish testi
+
+1067
+01:09:08,225 --> 01:09:11,725
+Hisobotchingizning orqa tomonida yozilgan.
+
+1068
+01:09:11,725 --> 01:09:16,558
+V+ган + бўлиб турибди = ... qilingan (harakat natijasidagi holat)
+орқаси (orqasi) ↔ олди (oldi)
+ёзмоқ (yozmoq) = yozmoq
+
+1069
+01:09:16,581 --> 01:09:18,681
+Ha.
+
+1070
+01:09:18,704 --> 01:09:21,204
+Eshitish testi
+
+1071
+01:09:21,204 --> 01:09:24,071
+Katta rahmat.
+
+1072
+01:09:28,061 --> 01:09:29,561
+8-Sahna: Bankda pul yechish / Bankda pul olish
+
+1073
+01:09:29,561 --> 01:09:32,157
+Eshitish testi
+
+1074
+01:09:32,157 --> 01:09:35,144
+Xush kelibsiz!
+
+1075
+01:09:39,314 --> 01:09:43,847
+Eshitish testi
+
+1076
+01:09:43,847 --> 01:09:49,280
+Kechirasiz, pul yechmoqchiman.
+
+1077
+01:09:56,674 --> 01:09:59,140
+Eshitish testi
+
+1078
+01:09:59,140 --> 01:10:01,974
+Tushunarli.
+
+1079
+01:10:05,934 --> 01:10:09,234
+Eshitish testi
+
+1080
+01:10:09,234 --> 01:10:13,101
+Karta bilan ekansiz?
+
+1081
+01:10:18,424 --> 01:10:23,010
+Eshitish testi
+
+1082
+01:10:23,010 --> 01:10:28,477
+Yo'q, kartani uyda unutib qoldim.
+
+1083
+01:10:35,966 --> 01:10:40,500
+Eshitish testi
+
+1084
+01:10:40,500 --> 01:10:45,876
+Tushunarli. Hisobotchingiz bormi?
+
+1085
+01:10:53,248 --> 01:10:58,004
+Eshitish testi
+
+1086
+01:10:58,004 --> 01:11:03,677
+Ha, hisobotchingiz va muhrim bor.
+
+1087
+01:11:11,433 --> 01:11:16,471
+Eshitish testi
+
+1088
+01:11:16,471 --> 01:11:22,504
+Unda, bu derazada sizga xizmat ko'rsatamiz.
+
+1089
+01:11:30,725 --> 01:11:33,391
+Eshitish testi
+
+1090
+01:11:33,391 --> 01:11:36,458
+Yaxshimi, yaxshi.
+
+1091
+01:11:40,714 --> 01:11:44,662
+Eshitish testi
+
+1092
+01:11:44,662 --> 01:11:49,329
+Iltimos, bu blankaga ma'lumotlarni kiriting.
+
+1093
+01:11:55,747 --> 01:11:59,580
+Eshitish testi
+
+1094
+01:11:59,580 --> 01:12:04,057
+Qayerga yozish kerak?
+
+1095
+01:12:10,240 --> 01:12:14,008
+Eshitish testi
+
+1096
+01:12:14,008 --> 01:12:18,474
+Shu yerga va bu yerga yozing.
+
+1097
+01:12:24,597 --> 01:12:27,311
+Eshitish testi
+
+1098
+01:12:27,311 --> 01:12:30,445
+Bu ismmi?
+
+1099
+01:12:34,805 --> 01:12:39,439
+Eshitish testi
+
+1100
+01:12:39,439 --> 01:12:44,939
+Ha, uning pastiga summani yozing.
+
+1101
+01:12:52,474 --> 01:12:56,774
+Eshitish testi
+
+1102
+01:12:56,774 --> 01:13:01,883
+Bugun o'n ming yen yechmoqchiman.
+
+1103
+01:13:08,885 --> 01:13:11,419
+Eshitish testi
+
+1104
+01:13:11,419 --> 01:13:14,319
+Tushunarli.
+
+1105
+01:13:18,408 --> 01:13:23,752
+Eshitish testi
+
+1106
+01:13:23,752 --> 01:13:30,186
+Shu yerga o'n ming yen deb yozing.
+
+1107
+01:13:38,929 --> 01:13:42,395
+Eshitish testi
+
+1108
+01:13:42,395 --> 01:13:46,462
+Yozib boʻldim.
+
+1109
+01:13:52,022 --> 01:13:54,296
+Eshitish testi
+
+1110
+01:13:54,296 --> 01:13:56,862
+Rahmat.
+
+1111
+01:14:00,474 --> 01:14:04,750
+Eshitish testi
+
+1112
+01:14:04,750 --> 01:14:09,823
+Keyin bu yerga muhr bosing.
+
+1113
+01:14:16,779 --> 01:14:20,733
+Eshitish testi
+
+1114
+01:14:20,733 --> 01:14:25,401
+Ha, shunday bo'ladimi?
+
+1115
+01:14:31,816 --> 01:14:35,683
+Eshitish testi
+
+1116
+01:14:35,683 --> 01:14:40,229
+Ha, muammo yoʻq.
+
+1117
+01:14:46,485 --> 01:14:50,019
+Eshitish testi
+
+1118
+01:14:50,019 --> 01:14:54,165
+Pulni darhol ololamanmi?
+
+1119
+01:14:59,863 --> 01:15:04,367
+Eshitish testi
+
+1120
+01:15:04,367 --> 01:15:09,741
+Biroz tekshirish kerak, iltimos kutib turing.
+
+1121
+01:15:17,098 --> 01:15:19,166
+Ha.
+
+1122
+01:15:19,189 --> 01:15:23,067
+Eshitish testi
+
+1123
+01:15:23,067 --> 01:15:27,657
+Iltimos, u yerda stulda kutib turing.
+
+1124
+01:15:33,980 --> 01:15:37,480
+Eshitish testi
+
+1125
+01:15:37,480 --> 01:15:41,582
+Raqamli bilet bormi?
+
+1126
+01:15:47,238 --> 01:15:51,571
+Eshitish testi
+
+1127
+01:15:51,571 --> 01:15:56,723
+Ha, sizni bu raqam bilan chaqiramiz.
+
+1128
+01:16:03,813 --> 01:16:06,325
+Eshitish testi
+
+1129
+01:16:06,325 --> 01:16:09,225
+Tushunarli.
+
+1130
+01:16:13,281 --> 01:16:16,115
+Eshitish testi
+
+1131
+01:16:16,115 --> 01:16:19,387
+Kutib turgandingiz uchun uzr.
+
+1132
+01:16:23,943 --> 01:16:26,917
+Eshitish testi
+
+1133
+01:16:26,917 --> 01:16:30,384
+O'n beshinchi raqamli mijoz.
+
+1134
+01:16:35,173 --> 01:16:37,353
+Ha.
+
+1135
+01:16:37,377 --> 01:16:42,277
+Eshitish testi
+
+1136
+01:16:42,277 --> 01:16:48,143
+Bu sizning o'n ming yen va hisobotchingiz.
+
+1137
+01:16:56,144 --> 01:16:58,744
+Eshitish testi
+
+1138
+01:16:58,744 --> 01:17:01,737
+Iltimos, tekshirib ko'ring.
+
+1139
+01:17:05,917 --> 01:17:09,351
+Eshitish testi
+
+1140
+01:17:09,351 --> 01:17:13,384
+Ha, katta rahmat.
+
+1141
+01:17:18,914 --> 01:17:20,414
+9-Sahna: Chet elga pul o'tkazish tartibi / Chet elga pul jo'natish tartibi
+
+1142
+01:17:20,414 --> 01:17:22,928
+Eshitish testi
+
+1143
+01:17:22,928 --> 01:17:25,801
+Xush kelibsiz!
+
+1144
+01:17:29,808 --> 01:17:32,992
+Eshitish testi
+
+1145
+01:17:32,992 --> 01:17:36,708
+Bugun nima uchun kelgansiz?
+
+1146
+01:17:36,708 --> 01:17:41,819
+қандай + V+дингиз? = Qanday V qildingiz?
+
+1147
+01:17:41,843 --> 01:17:45,676
+Eshitish testi
+
+1148
+01:17:45,676 --> 01:17:50,176
+Chet elga pul jo'natmoqchiman.
+
+1149
+01:17:50,176 --> 01:17:56,318
+V+моқчи = V qilmoqchiman
+чет эл (chet el) ↔ ички (ichki)
+
+1150
+01:17:56,342 --> 01:17:58,538
+Eshitish testi
+
+1151
+01:17:58,538 --> 01:18:01,010
+Tushunarli.
+
+1152
+01:18:04,500 --> 01:18:07,333
+Eshitish testi
+
+1153
+01:18:07,333 --> 01:18:10,566
+Chet elga pul o'tkazish, shundaymi?
+
+1154
+01:18:10,566 --> 01:18:15,033
+N + экан, шунақами? = Bu N, shundaymi?
+чет элга пул ўтказиш (chet elga pul oʻtkazish) = xalqaro pul oʻtkazish
+
+1155
+01:18:15,057 --> 01:18:17,123
+Ha.
+
+1156
+01:18:17,146 --> 01:18:20,979
+Eshitish testi
+
+1157
+01:18:20,979 --> 01:18:25,497
+Mening oilamga, mening mamlakatimga jo'nataman.
+
+1158
+01:18:25,497 --> 01:18:31,678
+N(одам) + га + V = N(odam)ga
+ой-оила (oila) = oila
+
+1159
+01:18:31,702 --> 01:18:34,969
+Eshitish testi
+
+1160
+01:18:34,969 --> 01:18:38,802
+Qaysi davlatga jo'natmoqchisiz?
+
+1161
+01:18:38,802 --> 01:18:44,069
+қаернинг + N = qaysi N
+
+1162
+01:18:44,092 --> 01:18:47,266
+Eshitish testi
+
+1163
+01:18:47,266 --> 01:18:50,967
+Vetnamga jo'natmoqchiman.
+
+1164
+01:18:50,967 --> 01:18:56,067
+V+моқчи = V qilmoqchiman
+
+1165
+01:18:56,090 --> 01:18:58,364
+Eshitish testi
+
+1166
+01:18:58,364 --> 01:19:00,936
+Tushunarli.
+
+1167
+01:19:04,545 --> 01:19:08,211
+Eshitish testi
+
+1168
+01:19:08,211 --> 01:19:12,511
+Pul jo'natish manzilining ma'lumotlari bormi?
+
+1169
+01:19:12,511 --> 01:19:18,411
+олиб турибсизми? (olib turibsizmi?) = ... bormi?
+пул ўтказиш жойи (pul oʻtkazish joyi) = pul oʻtkazish manzili
+маълумот (ma’lumot) = ma’lumot
+
+1170
+01:19:18,434 --> 01:19:20,418
+Ha.
+
+1171
+01:19:20,442 --> 01:19:25,238
+Eshitish testi
+
+1172
+01:19:25,238 --> 01:19:30,971
+Bank nomi va hisob raqamining eslatmasi bor.
+
+1173
+01:19:30,971 --> 01:19:38,758
+N + бор = N bor / N bor
+ҳисоб рақами (hisob raqami) = hisob raqami
+
+1174
+01:19:38,781 --> 01:19:41,248
+Eshitish testi
+
+1175
+01:19:41,248 --> 01:19:44,032
+Rahmat.
+
+1176
+01:19:47,927 --> 01:19:51,643
+Eshitish testi
+
+1177
+01:19:51,643 --> 01:19:56,028
+Pul qachon yetib boradi?
+
+1178
+01:19:56,028 --> 01:20:02,061
+yetib kelmoq = arrive
+
+1179
+01:20:02,084 --> 01:20:06,195
+Eshitish testi
+
+1180
+01:20:06,195 --> 01:20:11,071
+Taxminan 3 kundan 1 haftagacha vaqt ketadi.
+
+1181
+01:20:11,071 --> 01:20:17,738
+N1 dan N2 ga = from N1 to N2
+hafta (davomiyligi) = week (duration)
+
+1182
+01:20:17,761 --> 01:20:20,027
+Eshitish testi
+
+1183
+01:20:20,027 --> 01:20:22,575
+Bundaymi.
+
+1184
+01:20:26,165 --> 01:20:29,798
+Eshitish testi
+
+1185
+01:20:29,798 --> 01:20:34,065
+Davlat va bankka qarab farq qilishi mumkin.
+
+1186
+01:20:34,065 --> 01:20:39,898
+N ga qarab = depending on N
+farq qiladi (differ) ↔ bir xil (same)
+
+1187
+01:20:39,921 --> 01:20:42,829
+Eshitish testi
+
+1188
+01:20:42,829 --> 01:20:46,196
+Komissiya qancha?
+
+1189
+01:20:46,196 --> 01:20:50,863
+N qancha turadi? = How much is N?
+komissiya = fee
+
+1190
+01:20:50,886 --> 01:20:55,680
+Eshitish testi
+
+1191
+01:20:55,680 --> 01:21:01,396
+Derazadagi pul jo'natish komissiyasi 4000 yen.
+
+1192
+01:21:01,396 --> 01:21:09,191
+kerak boʻladi / turadi = it takes / it costs
+xizmat peshtaxtasi = service counter
+
+1193
+01:21:09,215 --> 01:21:11,881
+Eshitish testi
+
+1194
+01:21:11,881 --> 01:21:14,916
+4000 yenmi?
+
+1195
+01:21:19,206 --> 01:21:22,173
+Eshitish testi
+
+1196
+01:21:22,173 --> 01:21:25,608
+Biroz qimmat ekan.
+
+1197
+01:21:25,608 --> 01:21:30,341
+bir oz + sifat = a little sifat
+qimmat (expensive) ↔ arzon (cheap)
+
+1198
+01:21:30,364 --> 01:21:33,114
+Eshitish testi
+
+1199
+01:21:33,114 --> 01:21:36,285
+Kechirasiz.
+
+1200
+01:21:36,285 --> 01:21:40,662
+Kechirasiz = I am sorry
+
+1201
+01:21:40,686 --> 01:21:44,038
+Eshitish testi
+
+1202
+01:21:44,038 --> 01:21:47,956
+Ilova orqali jo'natish mumkinmi?
+
+1203
+01:21:47,956 --> 01:21:53,389
+V olasizmi? = can you V?
+
+1204
+01:21:53,412 --> 01:21:55,245
+Ha.
+
+1205
+01:21:55,268 --> 01:21:58,735
+Eshitish testi
+
+1206
+01:21:58,735 --> 01:22:02,802
+Internet bank orqali ham jo'natishingiz mumkin.
+
+1207
+01:22:02,802 --> 01:22:08,355
+N bilan ham = also with N / even with N
+
+1208
+01:22:08,379 --> 01:22:11,319
+Eshitish testi
+
+1209
+01:22:11,319 --> 01:22:14,752
+U holda arzonroqmi?
+
+1210
+01:22:14,752 --> 01:22:19,485
+shunday qilish yanada... = that way is more...
+arzon (cheap) ↔ qimmat (expensive)
+
+1211
+01:22:19,508 --> 01:22:21,652
+Ha.
+
+1212
+01:22:21,675 --> 01:22:25,709
+Eshitish testi
+
+1213
+01:22:25,709 --> 01:22:30,475
+Internet orqali jo'natilsa, komissiya 3000 yendan iborat.
+
+1214
+01:22:30,475 --> 01:22:36,988
+agar N boʻlsa = if it is N
+
+1215
+01:22:37,012 --> 01:22:40,478
+Eshitish testi
+
+1216
+01:22:40,478 --> 01:22:44,545
+Unda internet orqali qilmoqchiman.
+
+1217
+01:22:44,545 --> 01:22:50,119
+V+моқчи = V qilmoqchiman
+
+1218
+01:22:50,142 --> 01:22:52,409
+Eshitish testi
+
+1219
+01:22:52,409 --> 01:22:54,966
+Tushunarli.
+
+1220
+01:22:58,555 --> 01:23:02,189
+Eshitish testi
+
+1221
+01:23:02,189 --> 01:23:06,455
+Endi ilovaga ro'yxatdan o'tasizmi?
+
+1222
+01:23:06,455 --> 01:23:12,322
+N ni qilasizmi? = will you do N?
+roʻyxatdan oʻtish = registration
+
+1223
+01:23:12,345 --> 01:23:14,217
+Ha.
+
+1224
+01:23:14,240 --> 01:23:16,234
+Eshitish testi
+
+1225
+01:23:16,234 --> 01:23:18,468
+Iltimos.
+
+1226
+01:23:21,624 --> 01:23:24,758
+Eshitish testi
+
+1227
+01:23:24,758 --> 01:23:28,425
+Smartfoningiz bormi?
+
+1228
+01:23:28,425 --> 01:23:33,458
+olib yurganmisiz? = do you have?
+
+1229
+01:23:33,481 --> 01:23:35,514
+Ha.
+
+1230
+01:23:35,537 --> 01:23:37,513
+Eshitish testi
+
+1231
+01:23:37,513 --> 01:23:39,710
+Bu.
+
+1232
+01:23:42,833 --> 01:23:46,339
+Eshitish testi
+
+1233
+01:23:46,339 --> 01:23:50,446
+Bankimiz ilovasini yuklab oling.
+
+1234
+01:23:50,446 --> 01:23:56,113
+iltimos, V qiling = please V
+bizning bank = our bank
+
+1235
+01:23:56,136 --> 01:23:58,410
+Eshitish testi
+
+1236
+01:23:58,410 --> 01:24:01,001
+Tushunarli.
+
+1237
+01:24:04,657 --> 01:24:06,891
+Eshitish testi
+
+1238
+01:24:06,891 --> 01:24:09,405
+Hozir qilaman.
+
+1239
+01:24:12,940 --> 01:24:16,258
+Eshitish testi
+
+1240
+01:24:16,258 --> 01:24:20,158
+Nimadir tushunmagan bo‘lsangiz, so‘rang.
+
+1241
+01:24:20,158 --> 01:24:25,505
+agar V qilsangiz / V qilganda = if / when V
+soʻramoq = to ask
+
+1242
+01:24:25,528 --> 01:24:27,562
+Ha.
+
+1243
+01:24:27,585 --> 01:24:30,023
+Eshitish testi
+
+1244
+01:24:30,023 --> 01:24:32,808
+Rahmat.
+
+1245
+01:24:36,731 --> 01:24:38,231
+10-Sahna: Valyuta ayirboshlash usuli
+
+1246
+01:24:38,231 --> 01:24:41,011
+Eshitish testi
+
+1247
+01:24:41,011 --> 01:24:44,207
+Xush kelibsiz!
+
+1248
+01:24:48,697 --> 01:24:50,885
+Eshitish testi
+
+1249
+01:24:50,885 --> 01:24:53,385
+Kechirasiz.
+
+1250
+01:24:56,878 --> 01:25:00,345
+Eshitish testi
+
+1251
+01:25:00,345 --> 01:25:04,411
+Valyuta ayirboshlamoqchiman.
+
+1252
+01:25:04,411 --> 01:25:09,971
+V qilmoqchiman = want to V
+chet el valyutasi almashtirish = foreign currency exchange
+
+1253
+01:25:09,994 --> 01:25:12,527
+Eshitish testi
+
+1254
+01:25:12,527 --> 01:25:15,427
+Tushunarli.
+
+1255
+01:25:19,517 --> 01:25:24,350
+Eshitish testi
+
+1256
+01:25:24,350 --> 01:25:30,083
+Amerika dollarini yapon iyenasiga almashtirmoqchiman.
+
+1257
+01:25:30,083 --> 01:25:37,871
+N1 ni N2 ga almashtirmoq = change N1 into N2
+almashtirmoq = exchange / change
+
+1258
+01:25:37,895 --> 01:25:39,629
+Ha.
+
+1259
+01:25:39,652 --> 01:25:43,430
+Eshitish testi
+
+1260
+01:25:43,430 --> 01:25:47,901
+Bugungi kurs shu yerda.
+
+1261
+01:25:47,901 --> 01:25:54,017
+N boʻladi / mana N = will be N / here is N
+valyuta kursi = exchange rate
+
+1262
+01:25:54,041 --> 01:25:57,474
+Eshitish testi
+
+1263
+01:25:57,474 --> 01:26:01,507
+1 dollar qancha?
+
+1264
+01:26:01,507 --> 01:26:07,044
+qancha turadi? = How much is ~?
+
+1265
+01:26:07,068 --> 01:26:11,546
+Eshitish testi
+
+1266
+01:26:11,546 --> 01:26:16,879
+Bugun 1 dollar 150 iyena.
+
+1267
+01:26:16,879 --> 01:26:24,147
+N1 — N2 = N1 is N2
+
+1268
+01:26:24,171 --> 01:26:26,671
+Eshitish testi
+
+1269
+01:26:26,671 --> 01:26:29,537
+Tushunarli.
+
+1270
+01:26:33,530 --> 01:26:36,640
+Eshitish testi
+
+1271
+01:26:36,640 --> 01:26:40,274
+500 dollarni almashtirib bering.
+
+1272
+01:26:40,274 --> 01:26:45,267
+iltimos, V qiling = please V
+
+1273
+01:26:45,290 --> 01:26:48,057
+Eshitish testi
+
+1274
+01:26:48,057 --> 01:26:51,246
+Tushunarli.
+
+1275
+01:26:55,702 --> 01:26:59,602
+Eshitish testi
+
+1276
+01:26:59,602 --> 01:27:04,236
+Jami qancha bo'ladi?
+
+1277
+01:27:04,236 --> 01:27:10,541
+jami = in total
+
+1278
+01:27:10,564 --> 01:27:15,064
+Eshitish testi
+
+1279
+01:27:15,064 --> 01:27:20,397
+75 000 iyena bo'ladi.
+
+1280
+01:27:20,397 --> 01:27:27,674
+N boʻladi / N miqdorga yetadi = will be N / amounts to N
+
+1281
+01:27:27,698 --> 01:27:31,365
+Eshitish testi
+
+1282
+01:27:31,365 --> 01:27:35,665
+Komissiya olinadimi?
+
+1283
+01:27:35,665 --> 01:27:41,565
+turadi / ketadi = cost / take
+xizmat haqi = service fee / commission
+
+1284
+01:27:41,588 --> 01:27:45,900
+Eshitish testi
+
+1285
+01:27:45,900 --> 01:27:51,015
+Kursga komissiya kiritilgan.
+
+1286
+01:27:51,015 --> 01:27:58,049
+N1 tarkibida N2 mavjud = N2 is included in N1
+mavjud = be included
+
+1287
+01:27:58,072 --> 01:28:00,638
+Eshitish testi
+
+1288
+01:28:00,638 --> 01:28:03,572
+Tushunarli.
+
+1289
+01:28:07,661 --> 01:28:12,761
+Eshitish testi
+
+1290
+01:28:12,761 --> 01:28:18,861
+Bu anketaga ismingizni yozing.
+
+1291
+01:28:18,861 --> 01:28:27,129
+iltimos, N da V qiling = please V on / in N
+blanka / hujjat = form / paper
+
+1292
+01:28:27,153 --> 01:28:30,453
+Eshitish testi
+
+1293
+01:28:30,453 --> 01:28:34,319
+Lotin harflarida yozsam bo'ladimi?
+
+1294
+01:28:34,319 --> 01:28:39,598
+N bilan boʻladimi? = Is N okay?
+lotin alifbosi = Roman alphabet
+
+1295
+01:28:39,621 --> 01:28:42,655
+Eshitish testi
+
+1296
+01:28:42,655 --> 01:28:46,188
+Ha, bo'ladi.
+
+1297
+01:28:46,188 --> 01:28:51,055
+Yaxshi / Muammo yoʻq = It is fine / No problem
+
+1298
+01:28:51,078 --> 01:28:53,578
+Eshitish testi
+
+1299
+01:28:53,578 --> 01:28:56,444
+Yozib bo'ldim.
+
+1300
+01:28:56,444 --> 01:29:00,378
+V qildim = did V
+
+1301
+01:29:00,401 --> 01:29:03,781
+Eshitish testi
+
+1302
+01:29:03,781 --> 01:29:07,747
+Pasport ham kerakmi?
+
+1303
+01:29:07,747 --> 01:29:13,214
+N kerak = N is necessary / need N
+kerak (necessary) ↔ kerak emas (unnecessary)
+
+1304
+01:29:13,237 --> 01:29:15,475
+Ha.
+
+1305
+01:29:15,499 --> 01:29:19,565
+Eshitish testi
+
+1306
+01:29:19,565 --> 01:29:24,399
+Shaxsingizni tasdiqlash uchun kerak.
+
+1307
+01:29:24,399 --> 01:29:30,981
+N uchun = for N / for the purpose of N
+shaxsni tasdiqlash = identity verification
+
+1308
+01:29:31,004 --> 01:29:34,537
+Eshitish testi
+
+1309
+01:29:34,537 --> 01:29:38,692
+Ha, iltimos.
+
+1310
+01:29:44,393 --> 01:29:46,467
+Eshitish testi
+
+1311
+01:29:46,467 --> 01:29:48,784
+Rahmat.
+
+1312
+01:29:52,073 --> 01:29:55,407
+Eshitish testi
+
+1313
+01:29:55,407 --> 01:29:59,307
+Tekshirib chiqayapman.
+
+1314
+01:29:59,307 --> 01:30:04,674
+N qilamiz (kamtarona) = do N (humble)
+tasdiqlash = confirmation / verification
+
+1315
+01:30:04,698 --> 01:30:08,264
+Eshitish testi
+
+1316
+01:30:08,264 --> 01:30:12,445
+Pulni qanday berasizlar?
+
+1317
+01:30:12,445 --> 01:30:18,183
+qanday qilib V qilish mumkin? = how to V
+tutqazmoq = hand over
+
+1318
+01:30:18,206 --> 01:30:25,306
+Eshitish testi
+
+1319
+01:30:25,306 --> 01:30:33,894
+7 ta 10 000 iyenalik va 1 ta 5000 iyenalik kupyura bo'ladimi?
+
+1320
+01:30:33,894 --> 01:30:45,528
+N bilan boʻladimi? = Is N okay?
+banknota (pul) ↔ tanga (coin)
+
+1321
+01:30:45,551 --> 01:30:50,085
+Eshitish testi
+
+1322
+01:30:50,085 --> 01:30:55,473
+1000 iyenalik kupyuralarni ham ozgina aralashtirib bering.
+
+1323
+01:30:55,473 --> 01:31:02,821
+bir oz + V = V a little
+aralashtirmoq = mix / include
+
+1324
+01:31:02,844 --> 01:31:05,582
+Eshitish testi
+
+1325
+01:31:05,582 --> 01:31:08,750
+Tushunarli.
+
+1326
+01:31:13,150 --> 01:31:22,490
+Eshitish testi
+
+1327
+01:31:22,490 --> 01:31:33,923
+6 ta 10 000 iyenalik, 1 ta 5000 iyenalik va 10 ta 1000 iyenalik kupyura qilib bering.
+
+1328
+01:31:33,923 --> 01:31:49,299
+iltimos, N qilib bering = please make it N
+
+1329
+01:31:49,323 --> 01:31:52,856
+Eshitish testi
+
+1330
+01:31:52,856 --> 01:31:56,975
+Tushunarli.
+
+1331
+01:31:56,975 --> 01:32:02,642
+tushunarli / roziman = acknowledgment / consent
+
+1332
+01:32:02,665 --> 01:32:05,198
+Eshitish testi
+
+1333
+01:32:05,198 --> 01:32:08,065
+Iltimos.
+
+1334
+01:32:12,087 --> 01:32:14,953
+Eshitish testi
+
+1335
+01:32:14,953 --> 01:32:18,253
+Kutib turgandingiz uchun uzr.
+
+1336
+01:32:18,253 --> 01:32:22,809
+kutib turganingiz uchun uzr = sorry to keep you waiting
+
+1337
+01:32:22,832 --> 01:32:26,132
+Eshitish testi
+
+1338
+01:32:26,132 --> 01:32:29,999
+Bu sizning pulingiz.
+
+1339
+01:32:29,999 --> 01:32:35,299
+bu yerda / mana bu (hurmat bilan) = here / this (polite)
+
+1340
+01:32:35,322 --> 01:32:37,822
+Eshitish testi
+
+1341
+01:32:37,822 --> 01:32:40,689
+Tekshirib ko'rayapman.
+
+1342
+01:32:40,689 --> 01:32:44,647
+N qilmoq = do N
+
+1343
+01:32:44,671 --> 01:32:47,904
+Eshitish testi
+
+1344
+01:32:47,904 --> 01:32:51,678
+Ha, hammasi joyida.
+
+1345
+01:32:56,893 --> 01:32:59,409
+Eshitish testi
+
+1346
+01:32:59,409 --> 01:33:02,276
+Rahmat.

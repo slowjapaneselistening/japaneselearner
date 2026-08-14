@@ -1,0 +1,5557 @@
+1
+00:00:00,000 --> 00:00:07,616
+¿De qué trata el video de hoy? Es una conversación en un banco.
+
+2
+00:00:07,616 --> 00:00:09,116
+Escena 1: Trámites para abrir una cuenta bancaria
+
+3
+00:00:09,116 --> 00:00:10,916
+Bienvenido.
+
+4
+00:00:10,938 --> 00:00:13,938
+¿En qué puedo ayudarle hoy?
+
+5
+00:00:13,961 --> 00:00:15,528
+Disculpe.
+
+6
+00:00:15,551 --> 00:00:18,969
+Quisiera abrir una cuenta bancaria.
+
+7
+00:00:18,993 --> 00:00:20,847
+Entendido.
+
+8
+00:00:20,870 --> 00:00:23,304
+¿Una cuenta nueva, verdad?
+
+9
+00:00:23,327 --> 00:00:25,960
+Sí, así es.
+
+10
+00:00:25,983 --> 00:00:29,392
+¿Vive usted en Japón?
+
+11
+00:00:29,415 --> 00:00:31,215
+Sí.
+
+12
+00:00:31,238 --> 00:00:34,250
+Vivo en Tokio desde el mes pasado.
+
+13
+00:00:34,274 --> 00:00:37,077
+¿Trabaja actualmente?
+
+14
+00:00:37,100 --> 00:00:38,636
+Sí.
+
+15
+00:00:38,659 --> 00:00:40,237
+Soy empleado de una empresa.
+
+16
+00:00:40,261 --> 00:00:42,227
+Perfecto.
+
+17
+00:00:42,250 --> 00:00:46,927
+Para abrir una cuenta, necesita un documento de identidad.
+
+18
+00:00:46,951 --> 00:00:50,118
+¿Un documento de identidad?
+
+19
+00:00:50,141 --> 00:00:51,416
+Sí.
+
+20
+00:00:51,439 --> 00:00:55,039
+¿Tiene tarjeta de residencia o pasaporte?
+
+21
+00:00:55,062 --> 00:00:56,296
+Sí.
+
+22
+00:00:56,319 --> 00:00:59,094
+Tengo la tarjeta de residencia.
+
+23
+00:00:59,117 --> 00:01:00,723
+Muchas gracias.
+
+24
+00:01:00,746 --> 00:01:03,915
+Por favor, muéstremela.
+
+25
+00:01:03,939 --> 00:01:05,272
+Sí.
+
+26
+00:01:05,295 --> 00:01:06,829
+Aquí tiene.
+
+27
+00:01:06,852 --> 00:01:08,697
+Voy a verificarlo.
+
+28
+00:01:08,720 --> 00:01:11,730
+¿Tiene tarjeta My Number?
+
+29
+00:01:11,753 --> 00:01:14,927
+Aún no tengo la tarjeta My Number.
+
+30
+00:01:14,951 --> 00:01:16,751
+Ya veo.
+
+31
+00:01:16,774 --> 00:01:20,174
+¿Tiene algún documento donde aparezca su número My Number?
+
+32
+00:01:20,197 --> 00:01:22,808
+Tengo mi certificado de residencia.
+
+33
+00:01:22,831 --> 00:01:24,431
+Muchas gracias.
+
+34
+00:01:24,454 --> 00:01:27,187
+El certificado de residencia también, por favor.
+
+35
+00:01:27,210 --> 00:01:29,810
+Sí, aquí está.
+
+36
+00:01:29,833 --> 00:01:31,475
+Verificado.
+
+37
+00:01:31,498 --> 00:01:34,965
+¿Tiene sello personal (inkan)?
+
+38
+00:01:34,988 --> 00:01:37,458
+No tengo sello personal.
+
+39
+00:01:37,482 --> 00:01:40,021
+Firmar también está bien.
+
+40
+00:01:40,044 --> 00:01:41,977
+¡Qué alivio!
+
+41
+00:01:42,000 --> 00:01:47,134
+Por favor, escriba su nombre y dirección en este formulario.
+
+42
+00:01:47,157 --> 00:01:49,357
+¿Lo escribo en kanji?
+
+43
+00:01:49,380 --> 00:01:51,946
+En romaji también está bien.
+
+44
+00:01:51,969 --> 00:01:53,614
+Perfecto.
+
+45
+00:01:53,637 --> 00:01:55,671
+Ahora mismo lo escribo.
+
+46
+00:01:55,694 --> 00:01:58,833
+Si tiene alguna duda, pregúnteme.
+
+47
+00:01:58,856 --> 00:02:02,089
+Sí, muchas gracias.
+
+48
+00:02:02,112 --> 00:02:11,121
+El guion de hoy está disponible para descargar desde la descripción y el primer comentario. ¡No olvides comentar antes de descargar!
+
+49
+00:02:11,121 --> 00:02:12,621
+Escena 2: Trámites para crear un curso
+
+50
+00:02:12,621 --> 00:02:14,559
+Bienvenido.
+
+51
+00:02:14,582 --> 00:02:17,627
+¿En qué puedo ayudarle?
+
+52
+00:02:17,651 --> 00:02:19,140
+Disculpe.
+
+53
+00:02:19,164 --> 00:02:21,776
+Quisiera abrir una cuenta.
+
+54
+00:02:21,800 --> 00:02:23,766
+Muchas gracias.
+
+55
+00:02:23,789 --> 00:02:26,956
+¿Va a realizar el trámite hoy?
+
+56
+00:02:26,979 --> 00:02:32,146
+No, hoy solo vine a preguntar qué necesito.
+
+57
+00:02:32,169 --> 00:02:34,102
+Entendido.
+
+58
+00:02:34,125 --> 00:02:37,925
+Primero, necesita su tarjeta de residencia.
+
+59
+00:02:37,948 --> 00:02:40,361
+¿La tarjeta de residencia?
+
+60
+00:02:40,385 --> 00:02:42,218
+Sí, la tengo.
+
+61
+00:02:42,241 --> 00:02:45,916
+Además, necesitará un sello.
+
+62
+00:02:45,939 --> 00:02:47,873
+¿Un sello?
+
+63
+00:02:47,896 --> 00:02:49,353
+Sí.
+
+64
+00:02:49,377 --> 00:02:52,310
+El sello personal del cliente.
+
+65
+00:02:52,333 --> 00:02:54,745
+¿Sirve un sello de tinta tipo Shachihata?
+
+66
+00:02:54,769 --> 00:02:56,666
+Disculpe.
+
+67
+00:02:56,689 --> 00:02:59,223
+No, el sello de tinta tipo Shachihata no sirve.
+
+68
+00:02:59,246 --> 00:03:00,979
+Ya veo.
+
+69
+00:03:01,002 --> 00:03:03,486
+Un sello normal, entonces.
+
+70
+00:03:03,510 --> 00:03:04,910
+Sí.
+
+71
+00:03:04,933 --> 00:03:08,966
+También necesitará su tarjeta My Number.
+
+72
+00:03:08,989 --> 00:03:11,661
+La tarjeta My Number, ¿verdad?
+
+73
+00:03:11,685 --> 00:03:13,085
+Sí.
+
+74
+00:03:13,108 --> 00:03:15,108
+¿La tiene?
+
+75
+00:03:15,131 --> 00:03:16,565
+Sí.
+
+76
+00:03:16,589 --> 00:03:18,003
+Sí, la tengo.
+
+77
+00:03:18,026 --> 00:03:20,359
+Entonces, no hay problema.
+
+78
+00:03:20,382 --> 00:03:22,982
+¿También necesito el pasaporte?
+
+79
+00:03:23,005 --> 00:03:26,477
+No, el pasaporte no es necesario.
+
+80
+00:03:26,501 --> 00:03:28,556
+Perfecto.
+
+81
+00:03:28,580 --> 00:03:32,346
+También necesitará un poco de dinero para el depósito inicial.
+
+82
+00:03:32,369 --> 00:03:33,847
+¿Cuánto?
+
+83
+00:03:33,871 --> 00:03:36,804
+Con unos 1000 yenes es suficiente.
+
+84
+00:03:36,827 --> 00:03:38,494
+Perfecto.
+
+85
+00:03:38,517 --> 00:03:41,517
+El trámite tomará tiempo.
+
+86
+00:03:41,540 --> 00:03:43,940
+¿Cuánto tiempo llevará?
+
+87
+00:03:43,963 --> 00:03:46,563
+Tomará alrededor de una hora.
+
+88
+00:03:46,586 --> 00:03:48,357
+Perfecto.
+
+89
+00:03:48,380 --> 00:03:50,559
+Volveré mañana.
+
+90
+00:03:50,582 --> 00:03:52,549
+Lo estaremos esperando.
+
+91
+00:03:52,572 --> 00:03:54,783
+Muchas gracias.
+
+92
+00:03:54,806 --> 00:04:01,911
+El enlace para repasar el contenido del video de hoy está en la descripción y en el primer comentario. *El sitio puede eliminarse sin previo aviso.
+
+93
+00:04:01,911 --> 00:04:03,411
+Escena 3: Cómo llenar formularios / Cómo completar formularios en japonés
+
+94
+00:04:03,411 --> 00:04:06,083
+Disculpe la espera.
+
+95
+00:04:06,106 --> 00:04:11,306
+Disculpe, ¿podría enseñarme cómo llenar este formulario?
+
+96
+00:04:11,329 --> 00:04:15,227
+Claro, ¿qué parte no entiende?
+
+97
+00:04:15,250 --> 00:04:18,084
+Aquí, el nombre.
+
+98
+00:04:18,107 --> 00:04:20,589
+Su nombre, ¿verdad?
+
+99
+00:04:20,612 --> 00:04:23,212
+¿Lo escribo en kanji?
+
+100
+00:04:23,235 --> 00:04:25,570
+¿O en romaji?
+
+101
+00:04:25,594 --> 00:04:29,850
+Escríbalo igual que en su tarjeta de residencia.
+
+102
+00:04:29,873 --> 00:04:32,040
+En romaji, entonces.
+
+103
+00:04:32,063 --> 00:04:33,996
+Perfecto.
+
+104
+00:04:34,019 --> 00:04:37,986
+En el espacio de arriba, escriba también el furigana.
+
+105
+00:04:38,009 --> 00:04:41,742
+¿El furigana va en katakana?
+
+106
+00:04:41,765 --> 00:04:45,932
+Sí, en katakana, por favor.
+
+107
+00:04:45,955 --> 00:04:47,921
+Perfecto.
+
+108
+00:04:47,944 --> 00:04:51,163
+Ahora, su dirección.
+
+109
+00:04:51,186 --> 00:04:54,038
+La dirección es larga.
+
+110
+00:04:54,061 --> 00:04:57,661
+Puede escribirla en dos líneas.
+
+111
+00:04:57,685 --> 00:05:01,085
+¿Debo escribir también el nombre del edificio?
+
+112
+00:05:01,107 --> 00:05:04,911
+Sí, y también el número de departamento.
+
+113
+00:05:04,935 --> 00:05:07,419
+Listo, ya lo escribí.
+
+114
+00:05:07,443 --> 00:05:10,525
+Ahora, el número de teléfono.
+
+115
+00:05:10,549 --> 00:05:14,482
+¿Puedo poner el número de mi celular?
+
+116
+00:05:14,505 --> 00:05:18,238
+Sí, no hay problema.
+
+117
+00:05:18,261 --> 00:05:21,195
+Ahora, el número PIN.
+
+118
+00:05:21,218 --> 00:05:25,484
+Sí, elija cuatro números.
+
+119
+00:05:25,507 --> 00:05:28,000
+¿Puedo usar mi fecha de nacimiento?
+
+120
+00:05:28,024 --> 00:05:31,095
+No, la fecha de nacimiento no sirve.
+
+121
+00:05:31,118 --> 00:05:33,252
+Perfecto.
+
+122
+00:05:33,275 --> 00:05:35,649
+Elegiré otros números.
+
+123
+00:05:35,672 --> 00:05:39,250
+Escriba con cuidado para no equivocarse aquí.
+
+124
+00:05:39,273 --> 00:05:41,919
+Listo, ya lo escribí.
+
+125
+00:05:41,943 --> 00:05:46,943
+Por último, estampe su sello aquí.
+
+126
+00:05:46,966 --> 00:05:48,658
+Perfecto.
+
+127
+00:05:48,681 --> 00:05:50,886
+Muchas gracias.
+
+128
+00:05:50,910 --> 00:05:52,410
+Escena 4: Préstamo de bolígrafos y reglas de colores
+
+129
+00:05:52,410 --> 00:05:54,467
+Bienvenido.
+
+130
+00:05:54,491 --> 00:05:58,424
+Disculpe, ¿me podría prestar un bolígrafo?
+
+131
+00:05:58,447 --> 00:06:01,180
+Claro, ¿qué necesita?
+
+132
+00:06:01,203 --> 00:06:04,044
+No me sale la tinta de mi bolígrafo.
+
+133
+00:06:04,068 --> 00:06:05,701
+Ya veo.
+
+134
+00:06:05,724 --> 00:06:08,458
+Aquí tiene, use este.
+
+135
+00:06:08,481 --> 00:06:10,095
+Muchas gracias.
+
+136
+00:06:10,118 --> 00:06:14,518
+Para los documentos del banco, escriba con bolígrafo negro.
+
+137
+00:06:14,541 --> 00:06:17,113
+¿Este bolígrafo es negro?
+
+138
+00:06:17,137 --> 00:06:20,034
+Sí, es negro.
+
+139
+00:06:20,057 --> 00:06:22,624
+¿Puedo usar uno azul?
+
+140
+00:06:22,647 --> 00:06:25,293
+No, el bolígrafo azul no está permitido.
+
+141
+00:06:25,316 --> 00:06:27,049
+Perfecto.
+
+142
+00:06:27,072 --> 00:06:29,839
+Tampoco use lápiz.
+
+143
+00:06:29,862 --> 00:06:33,275
+Entendido, escribiré con bolígrafo.
+
+144
+00:06:33,298 --> 00:06:36,276
+Los bolígrafos borrables tampoco están permitidos.
+
+145
+00:06:36,300 --> 00:06:37,833
+Perfecto.
+
+146
+00:06:37,856 --> 00:06:40,990
+¿Qué hago si me equivoco?
+
+147
+00:06:41,013 --> 00:06:44,079
+¿Escribo en una hoja nueva?
+
+148
+00:06:44,102 --> 00:06:47,671
+No, trace una línea doble.
+
+149
+00:06:47,695 --> 00:06:49,761
+¿Una línea doble?
+
+150
+00:06:49,784 --> 00:06:51,184
+Sí.
+
+151
+00:06:51,207 --> 00:06:55,340
+Y luego, selle con su estampilla allí.
+
+152
+00:06:55,363 --> 00:06:58,530
+¿Puedo usar cinta correctora?
+
+153
+00:06:58,553 --> 00:07:01,886
+No use cinta correctora, por favor.
+
+154
+00:07:01,909 --> 00:07:03,923
+Perfecto.
+
+155
+00:07:03,947 --> 00:07:05,680
+Tendré cuidado.
+
+156
+00:07:05,703 --> 00:07:08,837
+Escriba en aquel escritorio, por favor.
+
+157
+00:07:08,860 --> 00:07:10,460
+Sí.
+
+158
+00:07:10,483 --> 00:07:13,370
+¿A dónde voy cuando termine de escribir?
+
+159
+00:07:13,393 --> 00:07:16,009
+Vuelva aquí, por favor.
+
+160
+00:07:16,033 --> 00:07:17,722
+Perfecto.
+
+161
+00:07:17,745 --> 00:07:21,280
+Si tiene dudas, pregunte sin problema.
+
+162
+00:07:21,304 --> 00:07:24,037
+Gracias, me ayuda mucho.
+
+163
+00:07:24,060 --> 00:07:25,560
+Escena 5: Cómo usar un cajero automático (ATM)
+
+164
+00:07:25,560 --> 00:07:27,927
+Bienvenido.
+
+165
+00:07:27,950 --> 00:07:29,483
+Disculpe.
+
+166
+00:07:29,506 --> 00:07:32,444
+Quiero retirar dinero.
+
+167
+00:07:32,468 --> 00:07:35,235
+¿Tiene su tarjeta de débito?
+
+168
+00:07:35,257 --> 00:07:37,943
+Sí, la tengo.
+
+169
+00:07:37,966 --> 00:07:42,302
+Entonces puede usar el cajero automático.
+
+170
+00:07:42,326 --> 00:07:45,792
+¿Dónde está el cajero automático?
+
+171
+00:07:45,815 --> 00:07:49,027
+Está afuera de este edificio.
+
+172
+00:07:49,050 --> 00:07:51,050
+¿Afuera?
+
+173
+00:07:51,073 --> 00:07:52,807
+Sí.
+
+174
+00:07:52,830 --> 00:07:56,196
+Salga por esa puerta y gire a la derecha.
+
+175
+00:07:56,219 --> 00:07:59,253
+Salir por la puerta y girar a la derecha, ¿verdad?
+
+176
+00:07:59,276 --> 00:08:01,009
+Sí.
+
+177
+00:08:01,032 --> 00:08:02,911
+Lo verá enseguida.
+
+178
+00:08:02,934 --> 00:08:05,411
+Entendido.
+
+179
+00:08:05,435 --> 00:08:09,202
+¿Sabe cómo usar el cajero automático?
+
+180
+00:08:09,225 --> 00:08:10,237
+Sí.
+
+181
+00:08:10,261 --> 00:08:11,731
+No hay problema.
+
+182
+00:08:11,754 --> 00:08:14,422
+¿Hay menú en inglés?
+
+183
+00:08:14,445 --> 00:08:15,903
+Sí.
+
+184
+00:08:15,927 --> 00:08:18,582
+También tiene pantalla en inglés.
+
+185
+00:08:18,606 --> 00:08:20,972
+¡Qué útil!
+
+186
+00:08:20,995 --> 00:08:24,568
+También está disponible en chino y coreano.
+
+187
+00:08:24,592 --> 00:08:26,443
+Perfecto.
+
+188
+00:08:26,466 --> 00:08:30,600
+Algunos retiros pueden tener comisión.
+
+189
+00:08:30,623 --> 00:08:32,556
+¿Cuánto es?
+
+190
+00:08:32,579 --> 00:08:35,848
+A esta hora, es gratis.
+
+191
+00:08:35,871 --> 00:08:38,364
+¿Y por la noche es de pago?
+
+192
+00:08:38,388 --> 00:08:40,221
+Sí.
+
+193
+00:08:40,244 --> 00:08:43,813
+Después de las 6 de la tarde, cuesta 110 yenes.
+
+194
+00:08:43,837 --> 00:08:47,281
+¿Y los sábados y domingos?
+
+195
+00:08:47,305 --> 00:08:50,672
+Los fines de semana también se cobra comisión.
+
+196
+00:08:50,695 --> 00:08:52,369
+Entendido.
+
+197
+00:08:52,392 --> 00:08:54,358
+Voy para allá ahora mismo.
+
+198
+00:08:54,381 --> 00:08:55,864
+Sí.
+
+199
+00:08:55,888 --> 00:08:57,665
+Cuídese.
+
+200
+00:08:57,688 --> 00:08:59,321
+Muchas gracias.
+
+201
+00:08:59,344 --> 00:09:02,711
+Si necesita algo más, no dude en preguntar.
+
+202
+00:09:02,734 --> 00:09:04,301
+Sí.
+
+203
+00:09:04,324 --> 00:09:05,925
+Con permiso.
+
+204
+00:09:05,948 --> 00:09:07,448
+Escena 6: Horario de la ventanilla y los cajeros automáticos del banco
+
+205
+00:09:07,448 --> 00:09:09,625
+Bienvenido.
+
+206
+00:09:09,648 --> 00:09:11,926
+Disculpe.
+
+207
+00:09:11,950 --> 00:09:15,350
+¿Puedo hacerle una pregunta?
+
+208
+00:09:15,373 --> 00:09:18,740
+Sí, ¿en qué puedo ayudarle?
+
+209
+00:09:18,762 --> 00:09:23,432
+¿Hasta qué hora está abierta la ventanilla del banco?
+
+210
+00:09:23,456 --> 00:09:27,870
+La ventanilla cierra a las 3 de la tarde.
+
+211
+00:09:27,894 --> 00:09:30,764
+¿A las 3 de la tarde?
+
+212
+00:09:30,787 --> 00:09:33,387
+Es temprano, ¿no?
+
+213
+00:09:33,410 --> 00:09:36,949
+Sí, lo siento mucho.
+
+214
+00:09:36,972 --> 00:09:41,506
+¿Qué pasa si paso de las 3?
+
+215
+00:09:41,529 --> 00:09:45,662
+La puerta de la ventanilla se cierra.
+
+216
+00:09:45,685 --> 00:09:48,818
+¿Puedo usar el cajero automático?
+
+217
+00:09:48,841 --> 00:09:54,930
+Sí, el cajero automático está disponible hasta las 9 de la noche.
+
+218
+00:09:54,954 --> 00:09:58,604
+Ah, qué bien.
+
+219
+00:09:58,627 --> 00:10:03,427
+Los sábados y domingos la ventanilla está cerrada.
+
+220
+00:10:03,450 --> 00:10:06,721
+¿El cajero automático también cierra?
+
+221
+00:10:06,744 --> 00:10:12,188
+No, el cajero automático está abierto los fines de semana.
+
+222
+00:10:12,212 --> 00:10:15,545
+¿Desde qué hora abren por la mañana?
+
+223
+00:10:15,568 --> 00:10:20,780
+La ventanilla abre a las 9 de la mañana.
+
+224
+00:10:20,804 --> 00:10:24,578
+¿El cajero automático abre más temprano?
+
+225
+00:10:24,601 --> 00:10:30,334
+Sí, el cajero automático está disponible desde las 8 de la mañana.
+
+226
+00:10:30,357 --> 00:10:32,454
+Perfecto.
+
+227
+00:10:32,478 --> 00:10:36,411
+¿Hoy va a hacer el trámite en ventanilla?
+
+228
+00:10:36,434 --> 00:10:41,106
+No, hoy no tengo tiempo.
+
+229
+00:10:41,130 --> 00:10:43,378
+Ya veo.
+
+230
+00:10:43,401 --> 00:10:47,401
+Vendré de nuevo en mi descanso del mediodía mañana.
+
+231
+00:10:47,424 --> 00:10:50,957
+A esa hora suele haber mucha gente.
+
+232
+00:10:50,980 --> 00:10:54,459
+¿Cuánto tiempo tendré que esperar?
+
+233
+00:10:54,482 --> 00:10:58,216
+Quizás tenga que esperar unos 30 minutos.
+
+234
+00:10:58,240 --> 00:11:00,073
+Perfecto.
+
+235
+00:11:00,096 --> 00:11:02,949
+Vendré un poco más temprano.
+
+236
+00:11:02,973 --> 00:11:05,573
+Lo estaremos esperando.
+
+237
+00:11:05,596 --> 00:11:08,797
+Muchas gracias.
+
+238
+00:11:08,821 --> 00:11:10,321
+Escena 7: Finalización de trámites bancarios
+
+239
+00:11:10,321 --> 00:11:13,797
+Con esto, el trámite de su cuenta ha finalizado.
+
+240
+00:11:13,820 --> 00:11:15,697
+Muchas gracias.
+
+241
+00:11:15,720 --> 00:11:18,120
+Ya tengo mi libreta.
+
+242
+00:11:18,143 --> 00:11:19,476
+Sí.
+
+243
+00:11:19,499 --> 00:11:22,533
+La libreta puede usarse desde hoy mismo.
+
+244
+00:11:22,556 --> 00:11:25,437
+¿No tengo tarjeta de débito?
+
+245
+00:11:25,460 --> 00:11:29,098
+La tarjeta de débito se la enviaremos por correo más tarde.
+
+246
+00:11:29,122 --> 00:11:31,255
+¿Por correo, verdad?
+
+247
+00:11:31,278 --> 00:11:33,549
+¿Cuándo llegará?
+
+248
+00:11:33,573 --> 00:11:36,862
+Tardará aproximadamente una semana.
+
+249
+00:11:36,885 --> 00:11:39,336
+¿Una semana?
+
+250
+00:11:39,360 --> 00:11:42,212
+¿Necesito firmar algo?
+
+251
+00:11:42,235 --> 00:11:43,846
+Sí.
+
+252
+00:11:43,870 --> 00:11:47,679
+Como lo enviaremos por correo certificado, necesitará firmar al recibirlo.
+
+253
+00:11:47,702 --> 00:11:53,702
+¿Qué pasa si no hay nadie en casa?
+
+254
+00:11:53,725 --> 00:11:56,159
+El cartero dejará un aviso de ausencia.
+
+255
+00:11:56,182 --> 00:11:58,272
+Un aviso de ausencia, ¿verdad?
+
+256
+00:11:58,295 --> 00:11:59,738
+Sí.
+
+257
+00:11:59,762 --> 00:12:03,795
+Con ese papel, por favor contacte a la oficina de correos.
+
+258
+00:12:03,818 --> 00:12:05,985
+Perfecto.
+
+259
+00:12:06,008 --> 00:12:09,778
+¿Qué hago con el dinero hasta que llegue la tarjeta?
+
+260
+00:12:09,801 --> 00:12:12,837
+¿No puedo retirar dinero?
+
+261
+00:12:12,860 --> 00:12:17,194
+Con libreta y sello, puedes retirar dinero en ventanilla.
+
+262
+00:12:17,217 --> 00:12:19,295
+Ya veo.
+
+263
+00:12:19,318 --> 00:12:24,187
+Pero ten en cuenta que la ventanilla cierra a las 3 en punto.
+
+264
+00:12:24,211 --> 00:12:25,744
+Sí.
+
+265
+00:12:25,767 --> 00:12:27,460
+Perfecto.
+
+266
+00:12:27,484 --> 00:12:31,450
+Cuando recibas la tarjeta, escribe tu nombre en el reverso.
+
+267
+00:12:31,473 --> 00:12:33,010
+Sí.
+
+268
+00:12:33,034 --> 00:12:36,909
+No le digas tu número de PIN a nadie.
+
+269
+00:12:36,933 --> 00:12:38,416
+Sí.
+
+270
+00:12:38,439 --> 00:12:40,287
+Por supuesto.
+
+271
+00:12:40,310 --> 00:12:44,379
+Si la pierdes, llama al banco de inmediato.
+
+272
+00:12:44,403 --> 00:12:46,170
+Perfecto.
+
+273
+00:12:46,193 --> 00:12:49,593
+¿Dónde está el número de teléfono?
+
+274
+00:12:49,616 --> 00:12:52,227
+Está escrito en el reverso de la libreta.
+
+275
+00:12:52,250 --> 00:12:53,850
+Sí.
+
+276
+00:12:53,873 --> 00:12:55,923
+Muchas gracias.
+
+277
+00:12:55,947 --> 00:12:57,447
+Escena 8: Retirar dinero en el banco / Retirando dinero en el banco
+
+278
+00:12:57,447 --> 00:12:59,618
+Bienvenido.
+
+279
+00:12:59,642 --> 00:13:03,975
+Disculpe, quiero retirar dinero.
+
+280
+00:13:03,998 --> 00:13:06,010
+Entendido.
+
+281
+00:13:06,033 --> 00:13:08,966
+¿Tiene su tarjeta de débito?
+
+282
+00:13:08,989 --> 00:13:13,357
+No, olvidé la tarjeta en casa.
+
+283
+00:13:13,380 --> 00:13:17,669
+Ya veo. ¿Tienes la libreta?
+
+284
+00:13:17,693 --> 00:13:22,260
+Sí, tengo la libreta y el sello.
+
+285
+00:13:22,283 --> 00:13:27,156
+Entonces, puedes hacer el trámite en esta ventanilla.
+
+286
+00:13:27,179 --> 00:13:29,412
+¡Qué alivio!
+
+287
+00:13:29,435 --> 00:13:33,092
+Por favor, rellena este formulario.
+
+288
+00:13:33,115 --> 00:13:36,649
+¿Dónde debo escribir?
+
+289
+00:13:36,672 --> 00:13:40,131
+Escribe aquí y aquí.
+
+290
+00:13:40,154 --> 00:13:42,443
+¿Aquí va el nombre, verdad?
+
+291
+00:13:42,467 --> 00:13:46,877
+Sí, y debajo escribe la cantidad.
+
+292
+00:13:46,901 --> 00:13:50,960
+Hoy quiero retirar cien mil yenes.
+
+293
+00:13:50,984 --> 00:13:53,076
+Perfecto.
+
+294
+00:13:53,099 --> 00:13:58,306
+Escribe aquí 'cien mil yenes'.
+
+295
+00:13:58,329 --> 00:14:01,426
+Listo, ya lo escribí.
+
+296
+00:14:01,449 --> 00:14:03,249
+Muchas gracias.
+
+297
+00:14:03,272 --> 00:14:07,290
+Luego, estampa tu sello aquí.
+
+298
+00:14:07,313 --> 00:14:10,985
+¿Así está bien?
+
+299
+00:14:11,008 --> 00:14:14,575
+Sí, no hay problema.
+
+300
+00:14:14,598 --> 00:14:17,798
+¿Puedo recibir el dinero enseguida?
+
+301
+00:14:17,821 --> 00:14:22,102
+Voy a verificar, así que espera un momento, por favor.
+
+302
+00:14:22,125 --> 00:14:23,725
+Sí.
+
+303
+00:14:23,748 --> 00:14:27,348
+Por favor, siéntate en aquella silla y espera.
+
+304
+00:14:27,371 --> 00:14:30,538
+¿Tienes el número de turno?
+
+305
+00:14:30,561 --> 00:14:34,649
+Sí, te llamaremos con este número.
+
+306
+00:14:34,672 --> 00:14:36,742
+Entendido.
+
+307
+00:14:36,765 --> 00:14:39,174
+Disculpe la espera.
+
+308
+00:14:39,198 --> 00:14:41,769
+Cliente número quince.
+
+309
+00:14:41,792 --> 00:14:43,489
+Sí.
+
+310
+00:14:43,512 --> 00:14:48,246
+Aquí tienes los cien mil yenes y tu libreta.
+
+311
+00:14:48,269 --> 00:14:50,440
+Por favor, verifica.
+
+312
+00:14:50,463 --> 00:14:53,532
+Sí, muchas gracias.
+
+313
+00:14:53,556 --> 00:14:55,056
+Escena 9: Trámite de envío de dinero al extranjero / Procedimiento de remesa internacional
+
+314
+00:14:55,056 --> 00:14:57,122
+Bienvenido.
+
+315
+00:14:57,145 --> 00:14:59,979
+¿En qué puedo ayudarle hoy?
+
+316
+00:15:00,002 --> 00:15:03,500
+Quiero enviar dinero al extranjero.
+
+317
+00:15:03,523 --> 00:15:05,256
+Entendido.
+
+318
+00:15:05,279 --> 00:15:07,679
+¿Una remesa internacional, verdad?
+
+319
+00:15:07,702 --> 00:15:09,269
+Sí.
+
+320
+00:15:09,292 --> 00:15:12,826
+Lo enviaré a mi familia en mi país.
+
+321
+00:15:12,849 --> 00:15:15,748
+¿A qué país lo envías?
+
+322
+00:15:15,771 --> 00:15:18,572
+Quiero enviarlo a Vietnam.
+
+323
+00:15:18,596 --> 00:15:20,396
+Perfecto.
+
+324
+00:15:20,419 --> 00:15:23,752
+¿Tienes la información del destinatario?
+
+325
+00:15:23,776 --> 00:15:25,247
+Sí.
+
+326
+00:15:25,270 --> 00:15:29,874
+Tengo anotado el nombre del banco y el número de cuenta.
+
+327
+00:15:29,898 --> 00:15:31,898
+Muchas gracias.
+
+328
+00:15:31,921 --> 00:15:35,329
+¿Cuándo llegará el dinero?
+
+329
+00:15:35,352 --> 00:15:39,191
+Generalmente tarda entre 3 días y una semana.
+
+330
+00:15:39,214 --> 00:15:41,014
+Ya veo.
+
+331
+00:15:41,037 --> 00:15:44,333
+Varía según el país y el banco.
+
+332
+00:15:44,357 --> 00:15:46,890
+¿Cuánto es la comisión?
+
+333
+00:15:46,913 --> 00:15:51,513
+La comisión por envío en ventanilla es de 4000 yenes.
+
+334
+00:15:51,536 --> 00:15:53,770
+¿4000 yenes?
+
+335
+00:15:53,793 --> 00:15:56,359
+Es un poco caro, ¿no?
+
+336
+00:15:56,382 --> 00:15:58,721
+Disculpe las molestias.
+
+337
+00:15:58,745 --> 00:16:01,745
+¿Puedo enviarlo por la aplicación?
+
+338
+00:16:01,768 --> 00:16:03,061
+Sí.
+
+339
+00:16:03,084 --> 00:16:06,218
+También puede enviarlo por banca en línea.
+
+340
+00:16:06,241 --> 00:16:08,780
+¿Es más barato así?
+
+341
+00:16:08,803 --> 00:16:10,459
+Sí.
+
+342
+00:16:10,483 --> 00:16:14,249
+Por internet, la comisión es de 3000 yenes.
+
+343
+00:16:14,272 --> 00:16:17,406
+Entonces prefiero hacerlo por internet.
+
+344
+00:16:17,429 --> 00:16:19,229
+Entendido.
+
+345
+00:16:19,252 --> 00:16:22,549
+¿Desea registrarse en la aplicación?
+
+346
+00:16:22,572 --> 00:16:23,938
+Sí.
+
+347
+00:16:23,961 --> 00:16:25,452
+Sí, por favor.
+
+348
+00:16:25,476 --> 00:16:28,242
+¿Tiene un teléfono inteligente?
+
+349
+00:16:28,265 --> 00:16:29,799
+Sí.
+
+350
+00:16:29,822 --> 00:16:31,293
+Este es.
+
+351
+00:16:31,316 --> 00:16:34,483
+Descargue la aplicación de nuestro banco, por favor.
+
+352
+00:16:34,507 --> 00:16:36,311
+Perfecto.
+
+353
+00:16:36,334 --> 00:16:38,101
+Lo haré ahora mismo.
+
+354
+00:16:38,124 --> 00:16:41,091
+Si tiene dudas, pregunte sin problema.
+
+355
+00:16:41,115 --> 00:16:42,681
+Sí.
+
+356
+00:16:42,704 --> 00:16:44,704
+Muchas gracias.
+
+357
+00:16:44,727 --> 00:16:46,227
+Escena 10: Cómo cambiar divisas / How to Exchange Foreign Currency
+
+358
+00:16:46,227 --> 00:16:48,594
+Bienvenido.
+
+359
+00:16:48,617 --> 00:16:50,316
+Disculpe.
+
+360
+00:16:50,340 --> 00:16:53,473
+Quiero cambiar divisas.
+
+361
+00:16:53,496 --> 00:16:55,576
+Entendido.
+
+362
+00:16:55,600 --> 00:17:00,200
+Quiero cambiar dólares estadounidenses a yenes japoneses.
+
+363
+00:17:00,223 --> 00:17:01,425
+Sí.
+
+364
+00:17:01,448 --> 00:17:04,917
+Este es el tipo de cambio de hoy.
+
+365
+00:17:04,941 --> 00:17:08,021
+¿A cuánto está el dólar?
+
+366
+00:17:08,045 --> 00:17:12,289
+Hoy está a 150 yenes por dólar.
+
+367
+00:17:12,313 --> 00:17:14,353
+Perfecto.
+
+368
+00:17:14,376 --> 00:17:17,109
+Quiero cambiar 500 dólares.
+
+369
+00:17:17,132 --> 00:17:19,499
+Entendido.
+
+370
+00:17:19,522 --> 00:17:23,122
+¿Cuánto sería en total?
+
+371
+00:17:23,145 --> 00:17:27,393
+Serían 75,000 yenes.
+
+372
+00:17:27,416 --> 00:17:30,750
+¿Hay comisión?
+
+373
+00:17:30,773 --> 00:17:34,839
+La comisión ya está incluida en el tipo de cambio.
+
+374
+00:17:34,862 --> 00:17:36,996
+Perfecto.
+
+375
+00:17:37,019 --> 00:17:41,952
+Por favor, escriba su nombre en este formulario.
+
+376
+00:17:41,975 --> 00:17:44,908
+¿Puedo escribirlo en romaji?
+
+377
+00:17:44,931 --> 00:17:47,565
+Sí, está bien.
+
+378
+00:17:47,588 --> 00:17:49,621
+Ya lo escribí.
+
+379
+00:17:49,644 --> 00:17:52,677
+¿También necesito el pasaporte?
+
+380
+00:17:52,700 --> 00:17:54,467
+Sí.
+
+381
+00:17:54,490 --> 00:17:58,290
+Es necesario para verificar su identidad.
+
+382
+00:17:58,313 --> 00:18:01,513
+Aquí tiene.
+
+383
+00:18:01,536 --> 00:18:03,136
+Muchas gracias.
+
+384
+00:18:03,159 --> 00:18:06,159
+Voy a verificarlo.
+
+385
+00:18:06,182 --> 00:18:09,415
+¿Cómo quiere que le entregue el dinero?
+
+386
+00:18:09,438 --> 00:18:16,605
+¿Le parece bien 7 billetes de 10,000 yenes y 1 de 5,000 yenes?
+
+387
+00:18:16,628 --> 00:18:20,961
+Agregue también algunos billetes de 1,000 yenes, por favor.
+
+388
+00:18:20,984 --> 00:18:23,317
+Entendido.
+
+389
+00:18:23,340 --> 00:18:32,999
+Prefiero 6 billetes de 10,000 yenes, 1 de 5,000 yenes y 10 de 1,000 yenes.
+
+390
+00:18:33,023 --> 00:18:36,196
+Entendido.
+
+391
+00:18:36,219 --> 00:18:38,291
+Muchas gracias.
+
+392
+00:18:38,314 --> 00:18:40,748
+Disculpe la espera.
+
+393
+00:18:40,771 --> 00:18:43,704
+Aquí tiene su dinero.
+
+394
+00:18:43,727 --> 00:18:45,773
+Voy a revisar.
+
+395
+00:18:45,796 --> 00:18:48,663
+Sí, está bien.
+
+396
+00:18:48,686 --> 00:18:50,743
+Muchas gracias.
+
+397
+00:19:00,403 --> 00:19:01,903
+Escena 1: Trámites para abrir una cuenta bancaria
+
+398
+00:19:01,903 --> 00:19:04,173
+Prueba de escucha
+
+399
+00:19:04,173 --> 00:19:06,740
+Bienvenido.
+
+400
+00:19:06,740 --> 00:19:10,373
+いらっしゃいませ = bienvenido
+
+401
+00:19:10,396 --> 00:19:13,744
+Prueba de escucha
+
+402
+00:19:13,744 --> 00:19:17,662
+¿En qué puedo ayudarle hoy?
+
+403
+00:19:17,662 --> 00:19:23,039
+どうされましたか = ¿En qué puedo ayudarle?
+
+404
+00:19:23,062 --> 00:19:25,129
+Prueba de escucha
+
+405
+00:19:25,129 --> 00:19:27,429
+Disculpe.
+
+406
+00:19:30,685 --> 00:19:34,427
+Prueba de escucha
+
+407
+00:19:34,427 --> 00:19:38,824
+Quisiera abrir una cuenta bancaria.
+
+408
+00:19:38,824 --> 00:19:44,858
+Vたい = querer hacer
+銀行 = banco
+口座 = cuenta bancaria
+
+409
+00:19:44,881 --> 00:19:47,199
+Prueba de escucha
+
+410
+00:19:47,199 --> 00:19:49,833
+Entendido.
+
+411
+00:19:49,833 --> 00:19:53,508
+かしこまりました = entendido / con gusto
+
+412
+00:19:53,531 --> 00:19:56,398
+Prueba de escucha
+
+413
+00:19:56,398 --> 00:19:59,698
+¿Una cuenta nueva, verdad?
+
+414
+00:19:59,698 --> 00:20:04,255
+新しい (nuevo) ↔ 古い (viejo)
+
+415
+00:20:04,278 --> 00:20:07,311
+Prueba de escucha
+
+416
+00:20:07,311 --> 00:20:10,811
+Sí, así es.
+
+417
+00:20:15,668 --> 00:20:19,401
+Prueba de escucha
+
+418
+00:20:19,401 --> 00:20:23,834
+¿Vive usted en Japón?
+
+419
+00:20:23,834 --> 00:20:29,868
+お + Sustantivo = prefijo de respeto
+お客様 = cliente
+お住まい = residencia
+
+420
+00:20:29,891 --> 00:20:32,163
+Sí.
+
+421
+00:20:32,186 --> 00:20:35,553
+Prueba de escucha
+
+422
+00:20:35,553 --> 00:20:39,486
+Vivo en Tokio desde el mes pasado.
+
+423
+00:20:39,486 --> 00:20:44,919
+Sustantivo + から = desde (Sustantivo)
+先月 (mes pasado) ↔ 今月 (este mes)
+
+424
+00:20:44,942 --> 00:20:48,120
+Prueba de escucha
+
+425
+00:20:48,120 --> 00:20:51,825
+¿Trabaja actualmente?
+
+426
+00:20:51,825 --> 00:20:56,925
+Vていますか = ¿Está haciendo...?
+お仕事 = trabajo / empleo
+
+427
+00:20:56,948 --> 00:20:59,015
+Sí.
+
+428
+00:20:59,038 --> 00:21:01,138
+Prueba de escucha
+
+429
+00:21:01,138 --> 00:21:03,472
+Soy empleado de una empresa.
+
+430
+00:21:03,472 --> 00:21:06,738
+Sustantivo + です = Soy (Sustantivo) / Es (Sustantivo)
+会社員 = empleado de oficina
+
+431
+00:21:06,761 --> 00:21:09,195
+Prueba de escucha
+
+432
+00:21:09,195 --> 00:21:11,973
+Perfecto.
+
+433
+00:21:15,862 --> 00:21:20,730
+Prueba de escucha
+
+434
+00:21:20,730 --> 00:21:26,564
+Para abrir una cuenta, necesita un documento de identidad.
+
+435
+00:21:26,564 --> 00:21:34,472
+Sustantivo + が必要です = Se necesita (Sustantivo)
+開設 = apertura (de cuenta)
+身分証明書 = documento de identificación
+
+436
+00:21:34,496 --> 00:21:37,996
+Prueba de escucha
+
+437
+00:21:37,996 --> 00:21:42,096
+¿Un documento de identidad?
+
+438
+00:21:42,096 --> 00:21:47,729
+Sustantivo + ですか = ¿Es (Sustantivo)?
+
+439
+00:21:47,752 --> 00:21:49,552
+Sí.
+
+440
+00:21:49,575 --> 00:21:53,475
+Prueba de escucha
+
+441
+00:21:53,475 --> 00:21:58,108
+¿Tiene tarjeta de residencia o pasaporte?
+
+442
+00:21:58,108 --> 00:22:04,408
+Sustantivo1 + y + Sustantivo2 = Sustantivo1 y Sustantivo2
+在留カード = tarjeta de residencia
+
+443
+00:22:04,431 --> 00:22:06,189
+Sí.
+
+444
+00:22:06,213 --> 00:22:09,361
+Prueba de escucha
+
+445
+00:22:09,361 --> 00:22:13,061
+Tengo la tarjeta de residencia.
+
+446
+00:22:13,061 --> 00:22:18,129
+Vています = tener / poseer
+持つ = tener / poseer
+
+447
+00:22:18,152 --> 00:22:20,252
+Prueba de escucha
+
+448
+00:22:20,252 --> 00:22:22,619
+Muchas gracias.
+
+449
+00:22:25,942 --> 00:22:29,453
+Prueba de escucha
+
+450
+00:22:29,453 --> 00:22:33,568
+Por favor, muéstremela.
+
+451
+00:22:33,568 --> 00:22:39,235
+Vてください = Por favor, haz... 
+見(み)せる = mostrar
+
+452
+00:22:39,258 --> 00:22:41,124
+Sí.
+
+453
+00:22:41,147 --> 00:22:43,181
+Aquí tiene.
+
+454
+00:22:43,204 --> 00:22:45,516
+Prueba de escucha
+
+455
+00:22:45,516 --> 00:22:48,149
+Voy a verificarlo.
+
+456
+00:22:48,149 --> 00:22:51,816
+Vいたします = forma humilde de 'hacer' 
+確認(かくにん) = confirmación / revisión
+
+457
+00:22:51,839 --> 00:22:55,205
+Prueba de escucha
+
+458
+00:22:55,205 --> 00:22:59,141
+¿Tiene tarjeta My Number?
+
+459
+00:22:59,141 --> 00:23:04,540
+N + はありますか = ¿Tienes N? 
+マイナンバーカード = Tarjeta de Número Individual
+
+460
+00:23:04,564 --> 00:23:08,076
+Prueba de escucha
+
+461
+00:23:08,076 --> 00:23:12,195
+Aún no tengo la tarjeta My Number.
+
+462
+00:23:12,195 --> 00:23:17,861
+まだ + Vません = aún no he hecho... 
+まだ = aún no
+
+463
+00:23:17,884 --> 00:23:20,151
+Prueba de escucha
+
+464
+00:23:20,151 --> 00:23:22,706
+Ya veo.
+
+465
+00:23:26,320 --> 00:23:30,022
+Prueba de escucha
+
+466
+00:23:30,022 --> 00:23:34,379
+¿Tiene algún documento donde aparezca su número My Number?
+
+467
+00:23:34,379 --> 00:23:40,412
+V + N = [verbo] N 
+書類(しょるい) = documento
+
+468
+00:23:40,435 --> 00:23:43,469
+Prueba de escucha
+
+469
+00:23:43,469 --> 00:23:46,969
+Tengo mi certificado de residencia.
+
+470
+00:23:46,969 --> 00:23:51,765
+N + なら = si es N 
+住民票(じゅうみんひょう) = certificado de residencia
+
+471
+00:23:51,788 --> 00:23:53,888
+Prueba de escucha
+
+472
+00:23:53,888 --> 00:23:56,230
+Muchas gracias.
+
+473
+00:23:59,553 --> 00:24:02,653
+Prueba de escucha
+
+474
+00:24:02,653 --> 00:24:06,245
+El certificado de residencia también, por favor.
+
+475
+00:24:06,245 --> 00:24:11,224
+N + もお願(ねが)いします = También N, por favor 
+お願(ねが)いします = por favor
+
+476
+00:24:11,248 --> 00:24:14,224
+Prueba de escucha
+
+477
+00:24:14,224 --> 00:24:17,696
+Sí, aquí está.
+
+478
+00:24:22,506 --> 00:24:24,642
+Prueba de escucha
+
+479
+00:24:24,642 --> 00:24:27,075
+Verificado.
+
+480
+00:24:30,473 --> 00:24:34,240
+Prueba de escucha
+
+481
+00:24:34,240 --> 00:24:38,673
+¿Tiene sello personal (inkan)?
+
+482
+00:24:38,673 --> 00:24:44,743
+ご + N = prefijo de cortesía 
+次(つぎ) = siguiente 
+印鑑(いんかん) = sello personal
+
+483
+00:24:44,767 --> 00:24:47,667
+Prueba de escucha
+
+484
+00:24:47,667 --> 00:24:51,003
+No tengo sello personal.
+
+485
+00:24:51,003 --> 00:24:55,636
+N + はありません = no tengo N
+
+486
+00:24:55,659 --> 00:24:58,597
+Prueba de escucha
+
+487
+00:24:58,597 --> 00:25:02,030
+Firmar también está bien.
+
+488
+00:25:02,030 --> 00:25:06,735
+N + でも大丈夫(だいじょうぶ)です = N también está bien 
+サイン = firma 
+大丈夫(だいじょうぶ) = bien / de acuerdo
+
+489
+00:25:06,759 --> 00:25:09,145
+Prueba de escucha
+
+490
+00:25:09,145 --> 00:25:11,858
+¡Qué alivio!
+
+491
+00:25:11,858 --> 00:25:15,655
+いAかった = era [adjetivo] 
+よかった = me alegro
+
+492
+00:25:15,678 --> 00:25:20,945
+Prueba de escucha
+
+493
+00:25:20,945 --> 00:25:27,245
+Por favor, escriba su nombre y dirección en este formulario.
+
+494
+00:25:27,245 --> 00:25:35,797
+Vてください = Por favor, haz... 
+用紙(ようし) = formulario / hoja 
+住所(じゅうしょ) = dirección
+
+495
+00:25:35,820 --> 00:25:38,454
+Prueba de escucha
+
+496
+00:25:38,454 --> 00:25:41,487
+¿Lo escribo en kanji?
+
+497
+00:25:41,487 --> 00:25:45,663
+N + で = en N / mediante N 
+漢字(かんじ) = kanji
+
+498
+00:25:45,687 --> 00:25:48,633
+Prueba de escucha
+
+499
+00:25:48,633 --> 00:25:52,066
+En romaji también está bien.
+
+500
+00:25:52,066 --> 00:25:56,767
+N + でもいい = N también está bien 
+ローマ字(じ) = alfabeto latino / rōmaji
+
+501
+00:25:56,790 --> 00:25:58,926
+Prueba de escucha
+
+502
+00:25:58,926 --> 00:26:01,359
+Perfecto.
+
+503
+00:26:04,749 --> 00:26:07,225
+Prueba de escucha
+
+504
+00:26:07,225 --> 00:26:10,058
+Ahora mismo lo escribo.
+
+505
+00:26:10,058 --> 00:26:13,992
+N + から = desde N 
+今(いま)から = desde ahora
+
+506
+00:26:14,014 --> 00:26:17,486
+Prueba de escucha
+
+507
+00:26:17,486 --> 00:26:21,586
+Si tiene alguna duda, pregúnteme.
+
+508
+00:26:21,586 --> 00:26:27,184
+Vたら = si / cuando... 
+聞(き)く = preguntar
+
+509
+00:26:27,208 --> 00:26:30,775
+Prueba de escucha
+
+510
+00:26:30,775 --> 00:26:34,953
+Sí, muchas gracias.
+
+511
+00:26:40,709 --> 00:26:42,209
+Escena 2: Trámites para crear un curso
+
+512
+00:26:42,209 --> 00:26:44,599
+Prueba de escucha
+
+513
+00:26:44,599 --> 00:26:47,333
+Bienvenido.
+
+514
+00:26:51,189 --> 00:26:54,575
+Prueba de escucha
+
+515
+00:26:54,575 --> 00:26:58,542
+¿En qué puedo ayudarle?
+
+516
+00:26:58,542 --> 00:27:04,008
+何(なん)でしょうか = ¿De qué se trata? 
+用件(ようけん) = asunto / tema
+
+517
+00:27:04,031 --> 00:27:06,065
+Prueba de escucha
+
+518
+00:27:06,065 --> 00:27:08,298
+Disculpe.
+
+519
+00:27:11,469 --> 00:27:14,502
+Prueba de escucha
+
+520
+00:27:14,502 --> 00:27:18,002
+Quisiera abrir una cuenta.
+
+521
+00:27:18,002 --> 00:27:22,836
+Vたいです = quiero V 
+口座(こうざ) = cuenta bancaria
+
+522
+00:27:22,859 --> 00:27:25,292
+Prueba de escucha
+
+523
+00:27:25,292 --> 00:27:28,044
+Muchas gracias.
+
+524
+00:27:31,904 --> 00:27:35,404
+Prueba de escucha
+
+525
+00:27:35,404 --> 00:27:39,504
+¿Va a realizar el trámite hoy?
+
+526
+00:27:39,504 --> 00:27:45,138
+N + を しますか = ¿Haces N? 
+手続(てつづ)き = trámite / procedimiento
+
+527
+00:27:45,161 --> 00:27:50,461
+Prueba de escucha
+
+528
+00:27:50,461 --> 00:27:56,796
+No, hoy solo vine a preguntar qué necesito.
+
+529
+00:27:56,796 --> 00:28:05,395
+V に 来(き)ました = vine a V 
+必要(ひつよう) (necesario) ↔ 不要(ふよう) (innecesario)
+
+530
+00:28:05,418 --> 00:28:07,788
+Prueba de escucha
+
+531
+00:28:07,788 --> 00:28:10,488
+Entendido.
+
+532
+00:28:14,258 --> 00:28:18,325
+Prueba de escucha
+
+533
+00:28:18,325 --> 00:28:23,158
+Primero, necesita su tarjeta de residencia.
+
+534
+00:28:23,158 --> 00:28:29,730
+N + が 必要(ひつよう)です = necesito N 
+在留(ざいりゅう)カード = tarjeta de residencia
+
+535
+00:28:29,754 --> 00:28:32,587
+Prueba de escucha
+
+536
+00:28:32,587 --> 00:28:35,854
+¿La tarjeta de residencia?
+
+537
+00:28:35,854 --> 00:28:40,371
+N + ですね = Es N, ¿verdad?
+
+538
+00:28:40,394 --> 00:28:42,694
+Prueba de escucha
+
+539
+00:28:42,694 --> 00:28:45,328
+Sí, la tengo.
+
+540
+00:28:45,328 --> 00:28:48,961
+Vています = tener / poseer 
+持(も)つ = tener / sostener
+
+541
+00:28:48,984 --> 00:28:52,951
+Prueba de escucha
+
+542
+00:28:52,951 --> 00:28:57,651
+Además, necesitará un sello.
+
+543
+00:28:57,651 --> 00:29:04,084
+N + も 必要(ひつよう)です = también necesito N 
+印鑑(いんかん) = sello personal
+
+544
+00:29:04,107 --> 00:29:06,481
+Prueba de escucha
+
+545
+00:29:06,481 --> 00:29:09,187
+¿Un sello?
+
+546
+00:29:09,187 --> 00:29:12,957
+Sustantivo + ですか = ¿Es (Sustantivo)?
+
+547
+00:29:12,981 --> 00:29:14,947
+Sí.
+
+548
+00:29:14,970 --> 00:29:18,270
+Prueba de escucha
+
+549
+00:29:18,270 --> 00:29:22,104
+El sello personal del cliente.
+
+550
+00:29:22,104 --> 00:29:27,379
+N1 の N2 = N2 de N1 
+ハンコ ≒ 印鑑(いんかん) (sello personal)
+
+551
+00:29:27,402 --> 00:29:30,235
+Prueba de escucha
+
+552
+00:29:30,235 --> 00:29:33,502
+¿Sirve un sello de tinta tipo Shachihata?
+
+553
+00:29:33,502 --> 00:29:38,016
+N + でもいいですか = ¿Está bien N? 
+シャチハタ = sello de tinta automática
+
+554
+00:29:38,040 --> 00:29:40,406
+Prueba de escucha
+
+555
+00:29:40,406 --> 00:29:43,106
+Disculpe.
+
+556
+00:29:46,871 --> 00:29:49,785
+Prueba de escucha
+
+557
+00:29:49,785 --> 00:29:53,151
+No, el sello de tinta tipo Shachihata no sirve.
+
+558
+00:29:53,151 --> 00:29:57,818
+N + は だめです = N no está permitido 
+だめ (no sirve) ↔ いい (bien / permitido)
+
+559
+00:29:57,841 --> 00:30:00,035
+Prueba de escucha
+
+560
+00:30:00,035 --> 00:30:02,507
+Ya veo.
+
+561
+00:30:05,998 --> 00:30:08,898
+Prueba de escucha
+
+562
+00:30:08,898 --> 00:30:12,236
+Un sello normal, entonces.
+
+563
+00:30:12,236 --> 00:30:16,870
+普通(ふつう)の + N = N común 
+普通(ふつう) (común / ordinario) ↔ 特別(とくべつ) (especial)
+
+564
+00:30:16,893 --> 00:30:18,793
+Sí.
+
+565
+00:30:18,816 --> 00:30:23,116
+Prueba de escucha
+
+566
+00:30:23,116 --> 00:30:28,216
+También necesitará su tarjeta My Number.
+
+567
+00:30:28,216 --> 00:30:35,167
+あとは = Además / Por otro lado 
+マイナンバーカード = Tarjeta de Número Individual
+
+568
+00:30:35,190 --> 00:30:38,257
+Prueba de escucha
+
+569
+00:30:38,257 --> 00:30:41,811
+La tarjeta My Number, ¿verdad?
+
+570
+00:30:41,811 --> 00:30:46,711
+N + ですね = N, ¿verdad?
+
+571
+00:30:46,734 --> 00:30:48,640
+Sí.
+
+572
+00:30:48,663 --> 00:30:51,130
+Prueba de escucha
+
+573
+00:30:51,130 --> 00:30:53,913
+¿La tiene?
+
+574
+00:30:53,913 --> 00:30:57,779
+Vていますか = ¿Tienes...?
+
+575
+00:30:57,802 --> 00:30:59,746
+Sí.
+
+576
+00:30:59,770 --> 00:31:01,684
+Prueba de escucha
+
+577
+00:31:01,684 --> 00:31:03,820
+Sí, la tengo.
+
+578
+00:31:03,820 --> 00:31:06,853
+Vています = tener / poseer
+
+579
+00:31:06,876 --> 00:31:09,620
+Prueba de escucha
+
+580
+00:31:09,620 --> 00:31:12,776
+Entonces, no hay problema.
+
+581
+00:31:12,776 --> 00:31:17,153
+それなら = En ese caso... 
+大丈夫(だいじょうぶ) = está bien / de acuerdo
+
+582
+00:31:17,176 --> 00:31:20,164
+Prueba de escucha
+
+583
+00:31:20,164 --> 00:31:23,637
+¿También necesito el pasaporte?
+
+584
+00:31:23,637 --> 00:31:28,426
+N + も 必要(ひつよう)ですか = ¿También necesitas N? 
+パスポート = pasaporte
+
+585
+00:31:28,449 --> 00:31:32,225
+Prueba de escucha
+
+586
+00:31:32,225 --> 00:31:36,692
+No, el pasaporte no es necesario.
+
+587
+00:31:36,692 --> 00:31:42,792
+N + は 要(い)りません = no necesito N 
+要(い)る = necesitar
+
+588
+00:31:42,815 --> 00:31:45,329
+Prueba de escucha
+
+589
+00:31:45,329 --> 00:31:48,195
+Perfecto.
+
+590
+00:31:52,194 --> 00:31:56,227
+Prueba de escucha
+
+591
+00:31:56,227 --> 00:32:00,994
+También necesitará un poco de dinero para el depósito inicial.
+
+592
+00:32:00,994 --> 00:32:07,496
+V + N = N que V 
+最初(さいしょ) (primero / inicio) ↔ 最後(さいご) (último / final)
+
+593
+00:32:07,520 --> 00:32:09,502
+Prueba de escucha
+
+594
+00:32:09,502 --> 00:32:11,735
+¿Cuánto?
+
+595
+00:32:11,735 --> 00:32:14,845
+いくらですか = ¿Cuánto cuesta?
+
+596
+00:32:14,868 --> 00:32:18,168
+Prueba de escucha
+
+597
+00:32:18,168 --> 00:32:22,001
+Con unos 1000 yenes es suficiente.
+
+598
+00:32:22,001 --> 00:32:27,271
+N + くらいでいいです = más o menos N está bien 
+〜くらい = aproximadamente
+
+599
+00:32:27,295 --> 00:32:29,439
+Prueba de escucha
+
+600
+00:32:29,439 --> 00:32:31,872
+Perfecto.
+
+601
+00:32:35,276 --> 00:32:38,612
+Prueba de escucha
+
+602
+00:32:38,612 --> 00:32:42,528
+El trámite tomará tiempo.
+
+603
+00:32:42,528 --> 00:32:47,896
+時間(じかん)がかかります = toma tiempo 
+かかる = tomar (tiempo/dinero)
+
+604
+00:32:47,919 --> 00:32:50,753
+Prueba de escucha
+
+605
+00:32:50,753 --> 00:32:53,986
+¿Cuánto tiempo llevará?
+
+606
+00:32:53,986 --> 00:32:58,486
+どのくらい かかりますか = ¿Cuánto tiempo toma? 
+どのくらい = cuánto / cuánto tiempo
+
+607
+00:32:58,509 --> 00:33:01,497
+Prueba de escucha
+
+608
+00:33:01,497 --> 00:33:04,964
+Tomará alrededor de una hora.
+
+609
+00:33:04,964 --> 00:33:09,735
+N + くらい かかります = toma aproximadamente N 
+1時間(じかん) = una hora
+
+610
+00:33:09,758 --> 00:33:12,025
+Prueba de escucha
+
+611
+00:33:12,025 --> 00:33:14,558
+Perfecto.
+
+612
+00:33:18,124 --> 00:33:20,757
+Prueba de escucha
+
+613
+00:33:20,757 --> 00:33:23,748
+Volveré mañana.
+
+614
+00:33:23,748 --> 00:33:27,915
+また + Vます = V de nuevo 
+明日(あした) (mañana) ↔ 昨日(きのう) (ayer)
+
+615
+00:33:27,938 --> 00:33:30,371
+Prueba de escucha
+
+616
+00:33:30,371 --> 00:33:33,123
+Lo estaremos esperando.
+
+617
+00:33:33,123 --> 00:33:36,956
+お待(ま)ちしております = Esperamos su visita 
+待(ま)つ = esperar
+
+618
+00:33:36,979 --> 00:33:39,646
+Prueba de escucha
+
+619
+00:33:39,646 --> 00:33:42,679
+Muchas gracias.
+
+620
+00:33:46,936 --> 00:33:48,436
+Escena 3: Cómo llenar formularios / Cómo completar formularios en japonés
+
+621
+00:33:48,436 --> 00:33:51,502
+Prueba de escucha
+
+622
+00:33:51,502 --> 00:33:55,050
+Disculpe la espera.
+
+623
+00:33:55,050 --> 00:33:59,953
+お待(ま)たせする = hacer esperar
+
+624
+00:33:59,977 --> 00:34:05,310
+Prueba de escucha
+
+625
+00:34:05,310 --> 00:34:11,699
+Disculpe, ¿podría enseñarme cómo llenar este formulario?
+
+626
+00:34:11,699 --> 00:34:20,399
+Vstem + 方(かた) = cómo hacer... 
+紙(かみ) = papel 
+教(おし)える = enseñar / indicar
+
+627
+00:34:20,422 --> 00:34:24,588
+Prueba de escucha
+
+628
+00:34:24,588 --> 00:34:29,525
+Claro, ¿qué parte no entiende?
+
+629
+00:34:29,525 --> 00:34:36,268
+どこ + が + V = dónde / qué parte...
+
+630
+00:34:36,292 --> 00:34:39,525
+Prueba de escucha
+
+631
+00:34:39,525 --> 00:34:43,259
+Aquí, el nombre.
+
+632
+00:34:43,259 --> 00:34:48,399
+N + です = es / es N 
+名前(なまえ) = nombre
+
+633
+00:34:48,422 --> 00:34:51,300
+Prueba de escucha
+
+634
+00:34:51,300 --> 00:34:54,634
+Su nombre, ¿verdad?
+
+635
+00:34:54,634 --> 00:34:59,267
+N + ですね = es N, ¿verdad?
+
+636
+00:34:59,290 --> 00:35:02,274
+Prueba de escucha
+
+637
+00:35:02,274 --> 00:35:05,753
+¿Lo escribo en kanji?
+
+638
+00:35:05,753 --> 00:35:10,522
+N + で = en / con / usando N 
+漢字(かんじ) = kanji / caracteres chinos
+
+639
+00:35:10,546 --> 00:35:13,313
+Prueba de escucha
+
+640
+00:35:13,313 --> 00:35:16,491
+¿O en romaji?
+
+641
+00:35:16,491 --> 00:35:20,886
+N + で = en / con / usando N 
+ローマ字(じ) = rōmaji / alfabeto romano
+
+642
+00:35:20,909 --> 00:35:25,409
+Prueba de escucha
+
+643
+00:35:25,409 --> 00:35:30,744
+Escríbalo igual que en su tarjeta de residencia.
+
+644
+00:35:30,744 --> 00:35:38,024
+N + と + 同じ manera = de la misma manera que N
+Tarjeta de residencia = tarjeta de residencia
+Mismo (同じ) ↔ Diferente (違う)
+
+645
+00:35:38,047 --> 00:35:40,681
+Prueba de escucha
+
+646
+00:35:40,681 --> 00:35:43,661
+En romaji, entonces.
+
+647
+00:35:43,661 --> 00:35:47,809
+N + ですね = es N, ¿verdad?
+
+648
+00:35:47,832 --> 00:35:50,204
+Prueba de escucha
+
+649
+00:35:50,204 --> 00:35:52,904
+Perfecto.
+
+650
+00:35:56,697 --> 00:36:00,891
+Prueba de escucha
+
+651
+00:36:00,891 --> 00:36:05,864
+En el espacio de arriba, escriba también el furigana.
+
+652
+00:36:05,864 --> 00:36:12,697
+V (forma て) + ください = por favor, haz...
+Arriba (上) ↔ Abajo (下)
+Columna/campo = columna, campo
+
+653
+00:36:12,720 --> 00:36:16,718
+Prueba de escucha
+
+654
+00:36:16,718 --> 00:36:21,452
+¿El furigana va en katakana?
+
+655
+00:36:21,452 --> 00:36:27,918
+¿N1 es N2? = ¿Es N1 N2?
+Furigana = furigana (lectura en kana)
+
+656
+00:36:27,941 --> 00:36:32,335
+Prueba de escucha
+
+657
+00:36:32,335 --> 00:36:37,573
+Sí, en katakana, por favor.
+
+658
+00:36:37,573 --> 00:36:44,687
+N + お願いします = N, por favor
+Katakana = katakana
+
+659
+00:36:44,711 --> 00:36:47,144
+Prueba de escucha
+
+660
+00:36:47,144 --> 00:36:49,877
+Perfecto.
+
+661
+00:36:53,734 --> 00:36:57,290
+Prueba de escucha
+
+662
+00:36:57,290 --> 00:37:01,471
+Ahora, su dirección.
+
+663
+00:37:01,471 --> 00:37:07,205
+Lo siguiente es + N = ahora sigue N
+Dirección = dirección
+
+664
+00:37:07,228 --> 00:37:10,462
+Prueba de escucha
+
+665
+00:37:10,462 --> 00:37:14,216
+La dirección es larga.
+
+666
+00:37:14,216 --> 00:37:19,359
+Adjetivo い + です = es...
+Largo (長い) ↔ Corto (短い)
+
+667
+00:37:19,382 --> 00:37:23,282
+Prueba de escucha
+
+668
+00:37:23,282 --> 00:37:27,865
+Puede escribirla en dos líneas.
+
+669
+00:37:27,865 --> 00:37:34,165
+V (forma て) + もいい = se puede hacer... / está permitido...
+Línea (行) = línea (de texto)
+Dividir = dividir, separar
+
+670
+00:37:34,188 --> 00:37:37,904
+Prueba de escucha
+
+671
+00:37:37,904 --> 00:37:42,281
+¿Debo escribir también el nombre del edificio?
+
+672
+00:37:42,281 --> 00:37:48,315
+N + も = también / además
+Mansión = edificio de apartamentos, condominio
+
+673
+00:37:48,338 --> 00:37:52,410
+Prueba de escucha
+
+674
+00:37:52,410 --> 00:37:57,243
+Sí, y también el número de departamento.
+
+675
+00:37:57,243 --> 00:38:03,824
+V (forma て) + ください = por favor, haz...
+Habitación = habitación
+Número = número
+
+676
+00:38:03,847 --> 00:38:06,747
+Prueba de escucha
+
+677
+00:38:06,747 --> 00:38:10,082
+Listo, ya lo escribí.
+
+678
+00:38:10,082 --> 00:38:14,716
+V (forma ました) = hice / he hecho
+
+679
+00:38:14,739 --> 00:38:18,172
+Prueba de escucha
+
+680
+00:38:18,172 --> 00:38:22,171
+Ahora, el número de teléfono.
+
+681
+00:38:22,171 --> 00:38:27,678
+Lo siguiente es + N = ahora sigue N
+Número de teléfono = número de teléfono
+
+682
+00:38:27,702 --> 00:38:31,888
+Prueba de escucha
+
+683
+00:38:31,888 --> 00:38:36,856
+¿Puedo poner el número de mi celular?
+
+684
+00:38:36,856 --> 00:38:43,650
+N + でもいいですか = ¿Está bien N?
+Teléfono móvil = teléfono móvil, celular
+
+685
+00:38:43,674 --> 00:38:47,662
+Prueba de escucha
+
+686
+00:38:47,662 --> 00:38:52,395
+Sí, no hay problema.
+
+687
+00:38:52,395 --> 00:38:58,864
+大丈夫 = está bien, no hay problema
+
+688
+00:38:58,887 --> 00:39:02,157
+Prueba de escucha
+
+689
+00:39:02,157 --> 00:39:05,991
+Ahora, el número PIN.
+
+690
+00:39:05,991 --> 00:39:11,261
+Lo siguiente es + N, ¿verdad? = ahora sigue N, ¿cierto?
+Número secreto = PIN, código secreto
+
+691
+00:39:11,285 --> 00:39:15,785
+Prueba de escucha
+
+692
+00:39:15,785 --> 00:39:21,137
+Sí, elija cuatro números.
+
+693
+00:39:21,137 --> 00:39:28,437
+V (forma て) + ください = por favor, haz...
+Número/dígito = número, dígito
+Decidir = decidir
+
+694
+00:39:28,460 --> 00:39:31,360
+Prueba de escucha
+
+695
+00:39:31,360 --> 00:39:34,719
+¿Puedo usar mi fecha de nacimiento?
+
+696
+00:39:34,719 --> 00:39:39,385
+N + でもいいですか = ¿Está bien N?
+Cumpleaños = cumpleaños
+
+697
+00:39:39,408 --> 00:39:42,842
+Prueba de escucha
+
+698
+00:39:42,842 --> 00:39:46,875
+No, la fecha de nacimiento no sirve.
+
+699
+00:39:46,875 --> 00:39:52,378
+N + はだめです = N no está permitido / N no sirve
+No sirve = no sirve, no está permitido
+
+700
+00:39:52,401 --> 00:39:54,957
+Prueba de escucha
+
+701
+00:39:54,957 --> 00:39:57,890
+Perfecto.
+
+702
+00:40:01,980 --> 00:40:04,772
+Prueba de escucha
+
+703
+00:40:04,772 --> 00:40:08,005
+Elegiré otros números.
+
+704
+00:40:08,005 --> 00:40:12,472
+N + にします = decido N / elijo N
+Otro = otro, diferente
+
+705
+00:40:12,496 --> 00:40:16,370
+Prueba de escucha
+
+706
+00:40:16,370 --> 00:40:20,945
+Escriba con cuidado para no equivocarse aquí.
+
+707
+00:40:20,945 --> 00:40:27,223
+V (forma ない) + ように = para no hacer...
+Equivocarse = cometer un error
+
+708
+00:40:27,247 --> 00:40:30,280
+Prueba de escucha
+
+709
+00:40:30,280 --> 00:40:33,814
+Listo, ya lo escribí.
+
+710
+00:40:33,814 --> 00:40:38,680
+V (forma ました) = hice / he hecho
+
+711
+00:40:38,703 --> 00:40:43,837
+Prueba de escucha
+
+712
+00:40:43,837 --> 00:40:49,985
+Por último, estampe su sello aquí.
+
+713
+00:40:49,985 --> 00:40:58,351
+Al final = finalmente
+Último (最後) ↔ Primero (最初)
+Sello personal = sello personal, estampilla
+
+714
+00:40:58,374 --> 00:41:00,554
+Prueba de escucha
+
+715
+00:41:00,554 --> 00:41:03,021
+Perfecto.
+
+716
+00:41:06,511 --> 00:41:09,149
+Prueba de escucha
+
+717
+00:41:09,149 --> 00:41:12,184
+Muchas gracias.
+
+718
+00:41:16,440 --> 00:41:17,940
+Escena 4: Préstamo de bolígrafos y reglas de colores
+
+719
+00:41:17,940 --> 00:41:20,456
+Prueba de escucha
+
+720
+00:41:20,456 --> 00:41:23,323
+Bienvenido.
+
+721
+00:41:27,323 --> 00:41:31,503
+Prueba de escucha
+
+722
+00:41:31,503 --> 00:41:36,470
+Disculpe, ¿me podría prestar un bolígrafo?
+
+723
+00:41:36,470 --> 00:41:43,254
+V (forma て) ください = por favor, haz...
+Prestar (貸す) ↔ Pedir prestado (借りる)
+
+724
+00:41:43,277 --> 00:41:46,377
+Prueba de escucha
+
+725
+00:41:46,377 --> 00:41:50,010
+Claro, ¿qué necesita?
+
+726
+00:41:50,010 --> 00:41:54,980
+¿Qué pasó? = ¿Qué ocurrió?
+
+727
+00:41:55,004 --> 00:41:58,237
+Prueba de escucha
+
+728
+00:41:58,237 --> 00:42:01,986
+No me sale la tinta de mi bolígrafo.
+
+729
+00:42:01,986 --> 00:42:07,153
+V (forma ません) = no hago / no haré...
+Salir = salir / funcionar
+
+730
+00:42:07,176 --> 00:42:09,309
+Prueba de escucha
+
+731
+00:42:09,309 --> 00:42:11,695
+Ya veo.
+
+732
+00:42:15,074 --> 00:42:18,174
+Prueba de escucha
+
+733
+00:42:18,174 --> 00:42:21,763
+Aquí tiene, use este.
+
+734
+00:42:21,763 --> 00:42:26,697
+どうぞ = por favor / toma
+
+735
+00:42:26,720 --> 00:42:28,830
+Prueba de escucha
+
+736
+00:42:28,830 --> 00:42:31,209
+Muchas gracias.
+
+737
+00:42:34,538 --> 00:42:39,172
+Prueba de escucha
+
+738
+00:42:39,172 --> 00:42:44,672
+Para los documentos del banco, escriba con bolígrafo negro.
+
+739
+00:42:44,672 --> 00:42:52,138
+N + で + V = V con / usando N
+Documento = documento
+
+740
+00:42:52,161 --> 00:42:55,128
+Prueba de escucha
+
+741
+00:42:55,128 --> 00:42:58,595
+¿Este bolígrafo es negro?
+
+742
+00:42:58,595 --> 00:43:03,339
+¿Es N? = ¿Es N?
+Negro (黒) ↔ Blanco (白)
+
+743
+00:43:03,362 --> 00:43:06,629
+Prueba de escucha
+
+744
+00:43:06,629 --> 00:43:10,462
+Sí, es negro.
+
+745
+00:43:10,462 --> 00:43:15,729
+Color negro = color negro
+
+746
+00:43:15,752 --> 00:43:18,706
+Prueba de escucha
+
+747
+00:43:18,706 --> 00:43:22,139
+¿Puedo usar uno azul?
+
+748
+00:43:22,139 --> 00:43:26,885
+¿Está bien N? = ¿Está bien si es N?
+Azul = azul
+
+749
+00:43:26,909 --> 00:43:29,945
+Prueba de escucha
+
+750
+00:43:29,945 --> 00:43:33,478
+No, el bolígrafo azul no está permitido.
+
+751
+00:43:33,478 --> 00:43:38,345
+N no está permitido = N no se permite
+
+752
+00:43:38,368 --> 00:43:40,566
+Prueba de escucha
+
+753
+00:43:40,566 --> 00:43:43,043
+Perfecto.
+
+754
+00:43:46,532 --> 00:43:49,666
+Prueba de escucha
+
+755
+00:43:49,666 --> 00:43:53,332
+Tampoco use lápiz.
+
+756
+00:43:53,332 --> 00:43:58,399
+V (forma ないで) ください = por favor, no hagas...
+Lápiz = lápiz
+
+757
+00:43:58,422 --> 00:44:02,156
+Prueba de escucha
+
+758
+00:44:02,156 --> 00:44:06,550
+Entendido, escribiré con bolígrafo.
+
+759
+00:44:06,550 --> 00:44:12,588
+N + で + V = V con N
+Escribir = escribir
+
+760
+00:44:12,611 --> 00:44:15,955
+Prueba de escucha
+
+761
+00:44:15,955 --> 00:44:19,856
+Los bolígrafos borrables tampoco están permitidos.
+
+762
+00:44:19,856 --> 00:44:25,223
+V (forma 辞書形) + ことができる = puedo hacer...
+Borrar (消す) ↔ Escribir (書く)
+
+763
+00:44:25,246 --> 00:44:27,280
+Prueba de escucha
+
+764
+00:44:27,280 --> 00:44:29,547
+Perfecto.
+
+765
+00:44:32,803 --> 00:44:36,270
+Prueba de escucha
+
+766
+00:44:36,270 --> 00:44:40,337
+¿Qué hago si me equivoco?
+
+767
+00:44:40,337 --> 00:44:45,918
+V (forma た) + とき = cuando / si hice V...
+Equivocarse = cometer un error
+
+768
+00:44:45,941 --> 00:44:49,374
+Prueba de escucha
+
+769
+00:44:49,374 --> 00:44:53,364
+¿Escribo en una hoja nueva?
+
+770
+00:44:53,364 --> 00:44:58,864
+Adjetivo い + N = N [adjetivo]
+Nuevo (新しい) ↔ Viejo (古い)
+
+771
+00:44:58,887 --> 00:45:02,754
+Prueba de escucha
+
+772
+00:45:02,754 --> 00:45:07,320
+No, trace una línea doble.
+
+773
+00:45:07,320 --> 00:45:13,587
+V (forma て) ください = por favor, haz...
+Doble línea = línea doble
+
+774
+00:45:13,610 --> 00:45:16,126
+Prueba de escucha
+
+775
+00:45:16,126 --> 00:45:18,996
+¿Una línea doble?
+
+776
+00:45:18,996 --> 00:45:22,976
+Sustantivo + ですか = ¿Es (Sustantivo)?
+
+777
+00:45:22,999 --> 00:45:24,907
+Sí.
+
+778
+00:45:24,931 --> 00:45:29,313
+Prueba de escucha
+
+779
+00:45:29,313 --> 00:45:34,507
+Y luego, selle con su estampilla allí.
+
+780
+00:45:34,507 --> 00:45:41,607
+そして = y luego
+Sello personal = sello personal / estampilla
+
+781
+00:45:41,630 --> 00:45:45,130
+Prueba de escucha
+
+782
+00:45:45,130 --> 00:45:49,237
+¿Puedo usar cinta correctora?
+
+783
+00:45:49,237 --> 00:45:54,870
+¿Puedo V? = ¿Puedo hacer...?
+Cinta correctora = cinta correctora
+
+784
+00:45:54,893 --> 00:45:58,526
+Prueba de escucha
+
+785
+00:45:58,526 --> 00:46:02,794
+No use cinta correctora, por favor.
+
+786
+00:46:02,794 --> 00:46:08,661
+V (forma ないで) ください = por favor, no hagas...
+Cinta correctora = cinta correctora
+
+787
+00:46:08,684 --> 00:46:11,151
+Prueba de escucha
+
+788
+00:46:11,151 --> 00:46:13,984
+Perfecto.
+
+789
+00:46:17,908 --> 00:46:20,141
+Prueba de escucha
+
+790
+00:46:20,141 --> 00:46:22,618
+Tendré cuidado.
+
+791
+00:46:22,618 --> 00:46:26,118
+Tener cuidado = tener cuidado
+
+792
+00:46:26,141 --> 00:46:29,608
+Prueba de escucha
+
+793
+00:46:29,608 --> 00:46:33,647
+Escriba en aquel escritorio, por favor.
+
+794
+00:46:33,647 --> 00:46:39,194
+N + で + V = V en N
+Escritorio = escritorio
+
+795
+00:46:39,217 --> 00:46:41,291
+Sí.
+
+796
+00:46:41,314 --> 00:46:44,581
+Prueba de escucha
+
+797
+00:46:44,581 --> 00:46:48,372
+¿A dónde voy cuando termine de escribir?
+
+798
+00:46:48,372 --> 00:46:53,605
+V (forma た) ら = cuando / después de hacer V...
+Terminar de escribir = terminar de escribir
+
+799
+00:46:53,628 --> 00:46:56,662
+Prueba de escucha
+
+800
+00:46:56,662 --> 00:47:00,140
+Vuelva aquí, por favor.
+
+801
+00:47:00,140 --> 00:47:04,973
+Por favor, ven a N = ven a N, por favor
+Aquí (こちら) ↔ Allá (あちら)
+
+802
+00:47:04,996 --> 00:47:07,168
+Prueba de escucha
+
+803
+00:47:07,168 --> 00:47:09,635
+Perfecto.
+
+804
+00:47:13,091 --> 00:47:16,958
+Prueba de escucha
+
+805
+00:47:16,958 --> 00:47:21,491
+Si tiene dudas, pregunte sin problema.
+
+806
+00:47:21,491 --> 00:47:27,724
+V (forma た) ら = si / cuando...
+Preguntar = preguntar
+
+807
+00:47:27,747 --> 00:47:30,851
+Prueba de escucha
+
+808
+00:47:30,851 --> 00:47:34,484
+Gracias, me ayuda mucho.
+
+809
+00:47:34,484 --> 00:47:39,465
+Me ayudas mucho = eso me ayuda mucho
+
+810
+00:47:39,489 --> 00:47:40,989
+Escena 5: Cómo usar un cajero automático (ATM)
+
+811
+00:47:40,989 --> 00:47:43,761
+Prueba de escucha
+
+812
+00:47:43,761 --> 00:47:46,957
+Bienvenido.
+
+813
+00:47:51,413 --> 00:47:53,449
+Prueba de escucha
+
+814
+00:47:53,449 --> 00:47:55,721
+Disculpe.
+
+815
+00:47:58,937 --> 00:48:02,239
+Prueba de escucha
+
+816
+00:48:02,239 --> 00:48:06,105
+Quiero retirar dinero.
+
+817
+00:48:11,433 --> 00:48:14,566
+Prueba de escucha
+
+818
+00:48:14,566 --> 00:48:18,233
+¿Tiene su tarjeta de débito?
+
+819
+00:48:23,289 --> 00:48:26,359
+Prueba de escucha
+
+820
+00:48:26,359 --> 00:48:29,926
+Sí, la tengo.
+
+821
+00:48:34,882 --> 00:48:39,449
+Prueba de escucha
+
+822
+00:48:39,449 --> 00:48:44,882
+Entonces puede usar el cajero automático.
+
+823
+00:48:52,339 --> 00:48:56,107
+Prueba de escucha
+
+824
+00:48:56,107 --> 00:49:00,573
+¿Dónde está el cajero automático?
+
+825
+00:49:06,696 --> 00:49:10,246
+Prueba de escucha
+
+826
+00:49:10,246 --> 00:49:14,414
+Está afuera de este edificio.
+
+827
+00:49:20,171 --> 00:49:22,637
+Prueba de escucha
+
+828
+00:49:22,637 --> 00:49:25,471
+¿Afuera?
+
+829
+00:49:29,398 --> 00:49:31,631
+Sí.
+
+830
+00:49:31,654 --> 00:49:35,322
+Prueba de escucha
+
+831
+00:49:35,322 --> 00:49:39,656
+Salga por esa puerta y gire a la derecha.
+
+832
+00:49:45,612 --> 00:49:48,994
+Prueba de escucha
+
+833
+00:49:48,994 --> 00:49:52,950
+Salir por la puerta y girar a la derecha, ¿verdad?
+
+834
+00:49:58,440 --> 00:50:00,624
+Sí.
+
+835
+00:50:00,647 --> 00:50:02,983
+Prueba de escucha
+
+836
+00:50:02,983 --> 00:50:05,649
+Lo verá enseguida.
+
+837
+00:50:09,376 --> 00:50:12,276
+Prueba de escucha
+
+838
+00:50:12,276 --> 00:50:15,621
+Entendido.
+
+839
+00:50:20,277 --> 00:50:24,311
+Prueba de escucha
+
+840
+00:50:24,311 --> 00:50:29,059
+¿Sabe cómo usar el cajero automático?
+
+841
+00:50:35,582 --> 00:50:37,148
+Sí.
+
+842
+00:50:37,171 --> 00:50:39,149
+Prueba de escucha
+
+843
+00:50:39,149 --> 00:50:41,383
+No hay problema.
+
+844
+00:50:44,506 --> 00:50:47,572
+Prueba de escucha
+
+845
+00:50:47,572 --> 00:50:51,122
+¿Hay menú en inglés?
+
+846
+00:50:56,047 --> 00:50:58,014
+Sí.
+
+847
+00:50:58,037 --> 00:51:01,103
+Prueba de escucha
+
+848
+00:51:01,103 --> 00:51:04,650
+También tiene pantalla en inglés.
+
+849
+00:51:09,573 --> 00:51:12,331
+Prueba de escucha
+
+850
+00:51:12,331 --> 00:51:15,506
+¡Qué útil!
+
+851
+00:51:19,925 --> 00:51:23,799
+Prueba de escucha
+
+852
+00:51:23,799 --> 00:51:28,371
+También está disponible en chino y coreano.
+
+853
+00:51:34,694 --> 00:51:37,008
+Prueba de escucha
+
+854
+00:51:37,008 --> 00:51:39,642
+Perfecto.
+
+855
+00:51:43,331 --> 00:51:47,699
+Prueba de escucha
+
+856
+00:51:47,699 --> 00:51:52,885
+Algunos retiros pueden tener comisión.
+
+857
+00:52:00,008 --> 00:52:02,376
+Prueba de escucha
+
+858
+00:52:02,376 --> 00:52:05,076
+¿Cuánto es?
+
+859
+00:52:08,848 --> 00:52:12,444
+Prueba de escucha
+
+860
+00:52:12,444 --> 00:52:16,678
+A esta hora, es gratis.
+
+861
+00:52:22,490 --> 00:52:25,392
+Prueba de escucha
+
+862
+00:52:25,392 --> 00:52:28,748
+¿Y por la noche es de pago?
+
+863
+00:52:33,405 --> 00:52:35,705
+Sí.
+
+864
+00:52:35,728 --> 00:52:39,596
+Prueba de escucha
+
+865
+00:52:39,596 --> 00:52:44,172
+Después de las 6 de la tarde, cuesta 110 yenes.
+
+866
+00:52:50,462 --> 00:52:54,216
+Prueba de escucha
+
+867
+00:52:54,216 --> 00:52:58,649
+¿Y los sábados y domingos?
+
+868
+00:53:04,739 --> 00:53:08,409
+Prueba de escucha
+
+869
+00:53:08,409 --> 00:53:12,721
+Los fines de semana también se cobra comisión.
+
+870
+00:53:18,644 --> 00:53:20,796
+Prueba de escucha
+
+871
+00:53:20,796 --> 00:53:23,229
+Entendido.
+
+872
+00:53:26,685 --> 00:53:29,119
+Prueba de escucha
+
+873
+00:53:29,119 --> 00:53:31,872
+Voy para allá ahora mismo.
+
+874
+00:53:35,728 --> 00:53:37,716
+Sí.
+
+875
+00:53:37,739 --> 00:53:40,006
+Prueba de escucha
+
+876
+00:53:40,006 --> 00:53:42,543
+Cuídese.
+
+877
+00:53:46,137 --> 00:53:48,270
+Prueba de escucha
+
+878
+00:53:48,270 --> 00:53:50,653
+Muchas gracias.
+
+879
+00:53:54,022 --> 00:53:57,692
+Prueba de escucha
+
+880
+00:53:57,692 --> 00:54:02,003
+Si necesita algo más, no dude en preguntar.
+
+881
+00:54:07,936 --> 00:54:10,002
+Sí.
+
+882
+00:54:10,025 --> 00:54:12,125
+Prueba de escucha
+
+883
+00:54:12,125 --> 00:54:14,470
+Con permiso.
+
+884
+00:54:17,793 --> 00:54:19,293
+Escena 6: Horario de la ventanilla y los cajeros automáticos del banco
+
+885
+00:54:19,293 --> 00:54:21,927
+Prueba de escucha
+
+886
+00:54:21,927 --> 00:54:24,920
+Bienvenido.
+
+887
+00:54:24,920 --> 00:54:29,066
+いらっしゃいませ = bienvenido
+
+888
+00:54:29,089 --> 00:54:31,793
+Prueba de escucha
+
+889
+00:54:31,793 --> 00:54:34,905
+Disculpe.
+
+890
+00:54:39,231 --> 00:54:42,943
+Prueba de escucha
+
+891
+00:54:42,943 --> 00:54:47,312
+¿Puedo hacerle una pregunta?
+
+892
+00:54:47,312 --> 00:54:53,290
+¿Puedo V? = ¿Puedo hacer...?
+Un poco (少し) ↔ Mucho (たくさん)
+
+893
+00:54:53,314 --> 00:54:56,986
+Prueba de escucha
+
+894
+00:54:56,986 --> 00:55:01,303
+Sí, ¿en qué puedo ayudarle?
+
+895
+00:55:07,259 --> 00:55:12,126
+Prueba de escucha
+
+896
+00:55:12,126 --> 00:55:17,925
+¿Hasta qué hora está abierta la ventanilla del banco?
+
+897
+00:55:17,925 --> 00:55:25,825
+Hasta N = hasta N
+Ventanilla = ventanilla de atención
+
+898
+00:55:25,848 --> 00:55:30,481
+Prueba de escucha
+
+899
+00:55:30,481 --> 00:55:36,000
+La ventanilla cierra a las 3 de la tarde.
+
+900
+00:55:36,000 --> 00:55:43,533
+Mañana (午前) ↔ Tarde (午後)
+
+901
+00:55:43,556 --> 00:55:46,790
+Prueba de escucha
+
+902
+00:55:46,790 --> 00:55:50,565
+¿A las 3 de la tarde?
+
+903
+00:55:55,772 --> 00:55:58,758
+Prueba de escucha
+
+904
+00:55:58,758 --> 00:56:02,225
+Es temprano, ¿no?
+
+905
+00:56:02,225 --> 00:56:07,004
+Temprano (早い) ↔ Tarde (遅い)
+
+906
+00:56:07,028 --> 00:56:10,862
+Prueba de escucha
+
+907
+00:56:10,862 --> 00:56:15,395
+Sí, lo siento mucho.
+
+908
+00:56:15,395 --> 00:56:21,628
+Disculpe = lo siento mucho (formal)
+
+909
+00:56:21,651 --> 00:56:26,385
+Prueba de escucha
+
+910
+00:56:26,385 --> 00:56:32,021
+¿Qué pasa si paso de las 3?
+
+911
+00:56:32,021 --> 00:56:39,692
+V (forma た) ら = si / cuando V
+Pasar = pasar / exceder
+
+912
+00:56:39,715 --> 00:56:44,071
+Prueba de escucha
+
+913
+00:56:44,071 --> 00:56:49,247
+La puerta de la ventanilla se cierra.
+
+914
+00:56:49,247 --> 00:56:56,347
+Abrir ↔ Cerrar
+
+915
+00:56:56,370 --> 00:56:59,837
+Prueba de escucha
+
+916
+00:56:59,837 --> 00:57:03,903
+¿Puedo usar el cajero automático?
+
+917
+00:57:03,903 --> 00:57:09,455
+Usar = usar
+
+918
+00:57:09,479 --> 00:57:15,612
+Prueba de escucha
+
+919
+00:57:15,612 --> 00:57:23,001
+Sí, el cajero automático está disponible hasta las 9 de la noche.
+
+920
+00:57:23,001 --> 00:57:33,035
+Mañana (mañana) ↔ Noche (noche)
+
+921
+00:57:33,058 --> 00:57:36,994
+Prueba de escucha
+
+922
+00:57:36,994 --> 00:57:41,660
+Ah, qué bien.
+
+923
+00:57:48,056 --> 00:57:53,022
+Prueba de escucha
+
+924
+00:57:53,022 --> 00:57:58,959
+Los sábados y domingos la ventanilla está cerrada.
+
+925
+00:57:58,959 --> 00:58:07,033
+N1 + と + N2 = N1 y N2
+Día libre / cerrado = día de descanso / cerrado
+
+926
+00:58:07,057 --> 00:58:10,653
+Prueba de escucha
+
+927
+00:58:10,653 --> 00:58:14,886
+¿El cajero automático también cierra?
+
+928
+00:58:14,886 --> 00:58:20,674
+N + も = N también / además
+
+929
+00:58:20,697 --> 00:58:26,247
+Prueba de escucha
+
+930
+00:58:26,247 --> 00:58:32,917
+No, el cajero automático está abierto los fines de semana.
+
+931
+00:58:32,917 --> 00:58:41,984
+Vています = estado de V / está V-iendo
+Fin de semana = fin de semana
+
+932
+00:58:42,007 --> 00:58:45,674
+Prueba de escucha
+
+933
+00:58:45,674 --> 00:58:49,974
+¿Desde qué hora abren por la mañana?
+
+934
+00:58:49,974 --> 00:58:55,840
+N + から = desde N
+
+935
+00:58:55,863 --> 00:59:01,205
+Prueba de escucha
+
+936
+00:59:01,205 --> 00:59:07,639
+La ventanilla abre a las 9 de la mañana.
+
+937
+00:59:07,639 --> 00:59:16,372
+N + から = desde N
+
+938
+00:59:16,395 --> 00:59:20,462
+Prueba de escucha
+
+939
+00:59:20,462 --> 00:59:25,255
+¿El cajero automático abre más temprano?
+
+940
+00:59:25,255 --> 00:59:31,811
+Más = más
+
+941
+00:59:31,834 --> 00:59:37,668
+Prueba de escucha
+
+942
+00:59:37,668 --> 00:59:44,658
+Sí, el cajero automático está disponible desde las 8 de la mañana.
+
+943
+00:59:44,658 --> 00:59:54,158
+N + から = desde N
+
+944
+00:59:54,181 --> 00:59:56,717
+Prueba de escucha
+
+945
+00:59:56,717 --> 00:59:59,632
+Perfecto.
+
+946
+01:00:03,688 --> 01:00:07,855
+Prueba de escucha
+
+947
+01:00:07,855 --> 01:00:12,793
+¿Hoy va a hacer el trámite en ventanilla?
+
+948
+01:00:12,793 --> 01:00:19,551
+En [lugar] = en [lugar]
+Trámite = procedimiento
+
+949
+01:00:19,574 --> 01:00:24,441
+Prueba de escucha
+
+950
+01:00:24,441 --> 01:00:30,274
+No, hoy no tengo tiempo.
+
+951
+01:00:30,274 --> 01:00:38,181
+Tener / no tener N = tener / no tener N
+Tiempo = tiempo
+
+952
+01:00:38,204 --> 01:00:40,876
+Prueba de escucha
+
+953
+01:00:40,876 --> 01:00:43,976
+Ya veo.
+
+954
+01:00:48,274 --> 01:00:52,507
+Prueba de escucha
+
+955
+01:00:52,507 --> 01:00:57,541
+Vendré de nuevo en mi descanso del mediodía mañana.
+
+956
+01:00:57,541 --> 01:01:04,419
+A la(s) [hora] = a las [hora]
+Descanso para almorzar = descanso para comer
+
+957
+01:01:04,442 --> 01:01:08,275
+Prueba de escucha
+
+958
+01:01:08,275 --> 01:01:12,788
+A esa hora suele haber mucha gente.
+
+959
+01:01:12,788 --> 01:01:18,979
+Estar lleno (estar lleno) ↔ Estar vacío (estar poco concurrido)
+
+960
+01:01:19,003 --> 01:01:22,781
+Prueba de escucha
+
+961
+01:01:22,781 --> 01:01:27,249
+¿Cuánto tiempo tendré que esperar?
+
+962
+01:01:27,249 --> 01:01:33,365
+¿Cuánto tiempo + V? = ¿cuánto tiempo / cuánto para V?
+Esperar = esperar
+
+963
+01:01:33,388 --> 01:01:37,422
+Prueba de escucha
+
+964
+01:01:37,422 --> 01:01:42,177
+Quizás tenga que esperar unos 30 minutos.
+
+965
+01:01:42,177 --> 01:01:48,685
+Podría V = podría V
+Aproximadamente = aproximadamente
+
+966
+01:01:48,708 --> 01:01:51,008
+Prueba de escucha
+
+967
+01:01:51,008 --> 01:01:53,600
+Perfecto.
+
+968
+01:01:57,257 --> 01:02:00,490
+Prueba de escucha
+
+969
+01:02:00,490 --> 01:02:04,259
+Vendré un poco más temprano.
+
+970
+01:02:04,259 --> 01:02:09,443
+Temprano (temprano) ↔ Tarde (tarde)
+
+971
+01:02:09,466 --> 01:02:12,442
+Prueba de escucha
+
+972
+01:02:12,442 --> 01:02:15,909
+Lo estaremos esperando.
+
+973
+01:02:15,909 --> 01:02:20,693
+Esperamos su visita (formal)
+
+974
+01:02:20,716 --> 01:02:24,262
+Prueba de escucha
+
+975
+01:02:24,262 --> 01:02:28,411
+Muchas gracias.
+
+976
+01:02:34,134 --> 01:02:35,634
+Escena 7: Finalización de trámites bancarios
+
+977
+01:02:35,634 --> 01:02:39,420
+Prueba de escucha
+
+978
+01:02:39,420 --> 01:02:43,887
+Con esto, el trámite de su cuenta ha finalizado.
+
+979
+01:02:43,887 --> 01:02:49,999
+Cuenta bancaria = cuenta bancaria
+Trámite = procedimiento
+
+980
+01:02:50,022 --> 01:02:52,368
+Prueba de escucha
+
+981
+01:02:52,368 --> 01:02:55,035
+Muchas gracias.
+
+982
+01:02:58,768 --> 01:03:01,601
+Prueba de escucha
+
+983
+01:03:01,601 --> 01:03:04,868
+Ya tengo mi libreta.
+
+984
+01:03:04,868 --> 01:03:09,368
+Vました = hice...
+Libreta bancaria = libreta bancaria
+Recibir ↔ Dar
+
+985
+01:03:09,391 --> 01:03:11,225
+Sí.
+
+986
+01:03:11,248 --> 01:03:14,628
+Prueba de escucha
+
+987
+01:03:14,628 --> 01:03:18,585
+La libreta puede usarse desde hoy mismo.
+
+988
+01:03:18,585 --> 01:03:24,052
+Desde N = desde N
+Hoy = hoy
+Usar = usar
+
+989
+01:03:24,075 --> 01:03:27,341
+Prueba de escucha
+
+990
+01:03:27,341 --> 01:03:31,132
+¿No tengo tarjeta de débito?
+
+991
+01:03:31,132 --> 01:03:36,366
+¿No tiene N? = ¿No tiene N?
+Tarjeta de débito = tarjeta de débito / tarjeta ATM
+
+992
+01:03:36,389 --> 01:03:40,322
+Prueba de escucha
+
+993
+01:03:40,322 --> 01:03:44,961
+La tarjeta de débito se la enviaremos por correo más tarde.
+
+994
+01:03:44,961 --> 01:03:51,308
+Más tarde = más tarde
+Más tarde ↔ Inmediatamente
+Enviar por correo = enviar por correo
+
+995
+01:03:51,332 --> 01:03:53,898
+Prueba de escucha
+
+996
+01:03:53,898 --> 01:03:56,834
+¿Por correo, verdad?
+
+997
+01:03:56,834 --> 01:04:00,934
+Es N, ¿verdad? = Es N, ¿no?
+Envío postal = envío por correo
+
+998
+01:04:00,957 --> 01:04:03,657
+Prueba de escucha
+
+999
+01:04:03,657 --> 01:04:06,768
+¿Cuándo llegará?
+
+1000
+01:04:06,768 --> 01:04:11,068
+¿Cuándo + V? = ¿Cuándo hará V?
+Llegar = llegar / ser entregado
+
+1001
+01:04:11,091 --> 01:04:14,725
+Prueba de escucha
+
+1002
+01:04:14,725 --> 01:04:18,991
+Tardará aproximadamente una semana.
+
+1003
+01:04:18,991 --> 01:04:24,825
+Tarda aproximadamente [período de tiempo] = Toma alrededor de [período de tiempo]
+Aproximadamente ≈ más o menos
+Semana = semana (duración)
+
+1004
+01:04:24,848 --> 01:04:27,714
+Prueba de escucha
+
+1005
+01:04:27,714 --> 01:04:31,034
+¿Una semana?
+
+1006
+01:04:31,034 --> 01:04:35,616
+¿Es N? = ¿Es N?
+Una semana = una semana
+
+1007
+01:04:35,640 --> 01:04:38,873
+Prueba de escucha
+
+1008
+01:04:38,873 --> 01:04:42,644
+¿Necesito firmar algo?
+
+1009
+01:04:42,644 --> 01:04:47,831
+¿Es [adjetivo-na]? = ¿Es [adjetivo-na]?
+Firma = firma
+Necesario ↔ Innecesario
+
+1010
+01:04:47,854 --> 01:04:49,960
+Sí.
+
+1011
+01:04:49,984 --> 01:04:54,084
+Prueba de escucha
+
+1012
+01:04:54,084 --> 01:04:58,917
+Como lo enviaremos por correo certificado, necesitará firmar al recibirlo.
+
+1013
+01:04:58,917 --> 01:05:05,550
+Porque... = porque...
+Correo certificado = correo certificado
+Enviar ↔ Recibir
+
+1014
+01:05:05,573 --> 01:05:11,640
+Prueba de escucha
+
+1015
+01:05:11,640 --> 01:05:18,940
+¿Qué pasa si no hay nadie en casa?
+
+1016
+01:05:18,940 --> 01:05:28,840
+Cuando no V = cuando no [hacer]
+Nadie + negación = nadie
+Casa = casa / hogar
+
+1017
+01:05:28,863 --> 01:05:31,730
+Prueba de escucha
+
+1018
+01:05:31,730 --> 01:05:35,007
+El cartero dejará un aviso de ausencia.
+
+1019
+01:05:35,007 --> 01:05:39,573
+[Persona] + hace V = [Persona] hace V
+Oficina de correos = oficina de correos
+Aviso de ausencia = aviso de entrega / aviso de ausencia
+
+1020
+01:05:39,596 --> 01:05:42,130
+Prueba de escucha
+
+1021
+01:05:42,130 --> 01:05:45,030
+Un aviso de ausencia, ¿verdad?
+
+1022
+01:05:45,030 --> 01:05:49,063
+Es un aviso de ausencia, ¿verdad? = Es un aviso de ausencia, ¿no?
+
+1023
+01:05:49,086 --> 01:05:51,040
+Sí.
+
+1024
+01:05:51,063 --> 01:05:55,337
+Prueba de escucha
+
+1025
+01:05:55,337 --> 01:06:00,411
+Con ese papel, por favor contacte a la oficina de correos.
+
+1026
+01:06:00,411 --> 01:06:07,344
+Por favor + V = Por favor, haga...
+Papel = papel / aviso
+Contactar = contactar / comunicarse
+
+1027
+01:06:07,367 --> 01:06:09,943
+Prueba de escucha
+
+1028
+01:06:09,943 --> 01:06:12,893
+Perfecto.
+
+1029
+01:06:12,893 --> 01:06:16,993
+Entender = entender
+
+1030
+01:06:17,017 --> 01:06:21,083
+Prueba de escucha
+
+1031
+01:06:21,083 --> 01:06:25,868
+¿Qué hago con el dinero hasta que llegue la tarjeta?
+
+1032
+01:06:25,868 --> 01:06:32,424
+Hasta que + V = hasta que...
+Llegar = llegar
+¿Qué hará? = ¿qué hará?
+
+1033
+01:06:32,448 --> 01:06:35,834
+Prueba de escucha
+
+1034
+01:06:35,834 --> 01:06:39,801
+¿No puedo retirar dinero?
+
+1035
+01:06:39,801 --> 01:06:45,268
+Dinero = dinero
+Retirar ↔ Depositar
+
+1036
+01:06:45,291 --> 01:06:49,837
+Prueba de escucha
+
+1037
+01:06:49,837 --> 01:06:55,270
+Con libreta y sello, puedes retirar dinero en ventanilla.
+
+1038
+01:06:55,270 --> 01:07:02,662
+Si tiene N = si tiene N
+Sello personal = sello personal / estampilla
+Ventanilla = mostrador / ventanilla de atención
+
+1039
+01:07:02,686 --> 01:07:05,219
+Prueba de escucha
+
+1040
+01:07:05,219 --> 01:07:08,119
+Ya veo.
+
+1041
+01:07:12,179 --> 01:07:17,246
+Prueba de escucha
+
+1042
+01:07:17,246 --> 01:07:23,279
+Pero ten en cuenta que la ventanilla cierra a las 3 en punto.
+
+1043
+01:07:23,279 --> 01:07:31,512
+Porque es hasta N = porque es hasta N
+Ventanilla = mostrador
+Tener cuidado = tener cuidado
+
+1044
+01:07:31,535 --> 01:07:33,569
+Sí.
+
+1045
+01:07:33,592 --> 01:07:35,770
+Prueba de escucha
+
+1046
+01:07:35,770 --> 01:07:38,236
+Perfecto.
+
+1047
+01:07:41,692 --> 01:07:45,926
+Prueba de escucha
+
+1048
+01:07:45,926 --> 01:07:50,915
+Cuando recibas la tarjeta, escribe tu nombre en el reverso.
+
+1049
+01:07:50,915 --> 01:07:57,748
+Si / cuando V = si / cuando...
+Reverso ↔ Anverso
+Nombre = nombre
+
+1050
+01:07:57,771 --> 01:07:59,804
+Sí.
+
+1051
+01:07:59,827 --> 01:08:03,973
+Prueba de escucha
+
+1052
+01:08:03,973 --> 01:08:08,890
+No le digas tu número de PIN a nadie.
+
+1053
+01:08:08,890 --> 01:08:15,630
+Por favor, no + V = Por favor, no haga...
+Número secreto = PIN / código secreto
+Decir ↔ Aprender
+
+1054
+01:08:15,654 --> 01:08:17,636
+Sí.
+
+1055
+01:08:17,659 --> 01:08:19,975
+Prueba de escucha
+
+1056
+01:08:19,975 --> 01:08:22,611
+Por supuesto.
+
+1057
+01:08:22,611 --> 01:08:26,278
+Por supuesto = por supuesto / claro
+
+1058
+01:08:26,301 --> 01:08:30,617
+Prueba de escucha
+
+1059
+01:08:30,617 --> 01:08:35,750
+Si la pierdes, llama al banco de inmediato.
+
+1060
+01:08:35,750 --> 01:08:42,783
+Cuando V = cuando / en caso de...
+Perder ↔ Encontrar
+Inmediatamente ≈ rápido
+
+1061
+01:08:42,806 --> 01:08:45,044
+Prueba de escucha
+
+1062
+01:08:45,044 --> 01:08:47,578
+Perfecto.
+
+1063
+01:08:51,141 --> 01:08:54,841
+Prueba de escucha
+
+1064
+01:08:54,841 --> 01:08:59,192
+¿Dónde está el número de teléfono?
+
+1065
+01:08:59,192 --> 01:09:05,168
+¿Dónde está [lugar/cosa]? = ¿Dónde está [lugar/cosa]?
+Número de teléfono = número de teléfono
+
+1066
+01:09:05,191 --> 01:09:08,225
+Prueba de escucha
+
+1067
+01:09:08,225 --> 01:09:11,725
+Está escrito en el reverso de la libreta.
+
+1068
+01:09:11,725 --> 01:09:16,558
+Está V-ado (estado resultante de una acción) = está hecho
+Reverso ↔ Anverso
+Escribir = escribir
+
+1069
+01:09:16,581 --> 01:09:18,681
+Sí.
+
+1070
+01:09:18,704 --> 01:09:21,204
+Prueba de escucha
+
+1071
+01:09:21,204 --> 01:09:24,071
+Muchas gracias.
+
+1072
+01:09:28,061 --> 01:09:29,561
+Escena 8: Retirar dinero en el banco / Retirando dinero en el banco
+
+1073
+01:09:29,561 --> 01:09:32,157
+Prueba de escucha
+
+1074
+01:09:32,157 --> 01:09:35,144
+Bienvenido.
+
+1075
+01:09:39,314 --> 01:09:43,847
+Prueba de escucha
+
+1076
+01:09:43,847 --> 01:09:49,280
+Disculpe, quiero retirar dinero.
+
+1077
+01:09:56,674 --> 01:09:59,140
+Prueba de escucha
+
+1078
+01:09:59,140 --> 01:10:01,974
+Entendido.
+
+1079
+01:10:05,934 --> 01:10:09,234
+Prueba de escucha
+
+1080
+01:10:09,234 --> 01:10:13,101
+¿Tiene su tarjeta de débito?
+
+1081
+01:10:18,424 --> 01:10:23,010
+Prueba de escucha
+
+1082
+01:10:23,010 --> 01:10:28,477
+No, olvidé la tarjeta en casa.
+
+1083
+01:10:35,966 --> 01:10:40,500
+Prueba de escucha
+
+1084
+01:10:40,500 --> 01:10:45,876
+Ya veo. ¿Tienes la libreta?
+
+1085
+01:10:53,248 --> 01:10:58,004
+Prueba de escucha
+
+1086
+01:10:58,004 --> 01:11:03,677
+Sí, tengo la libreta y el sello.
+
+1087
+01:11:11,433 --> 01:11:16,471
+Prueba de escucha
+
+1088
+01:11:16,471 --> 01:11:22,504
+Entonces, puedes hacer el trámite en esta ventanilla.
+
+1089
+01:11:30,725 --> 01:11:33,391
+Prueba de escucha
+
+1090
+01:11:33,391 --> 01:11:36,458
+¡Qué alivio!
+
+1091
+01:11:40,714 --> 01:11:44,662
+Prueba de escucha
+
+1092
+01:11:44,662 --> 01:11:49,329
+Por favor, rellena este formulario.
+
+1093
+01:11:55,747 --> 01:11:59,580
+Prueba de escucha
+
+1094
+01:11:59,580 --> 01:12:04,057
+¿Dónde debo escribir?
+
+1095
+01:12:10,240 --> 01:12:14,008
+Prueba de escucha
+
+1096
+01:12:14,008 --> 01:12:18,474
+Escribe aquí y aquí.
+
+1097
+01:12:24,597 --> 01:12:27,311
+Prueba de escucha
+
+1098
+01:12:27,311 --> 01:12:30,445
+¿Aquí va el nombre, verdad?
+
+1099
+01:12:34,805 --> 01:12:39,439
+Prueba de escucha
+
+1100
+01:12:39,439 --> 01:12:44,939
+Sí, y debajo escribe la cantidad.
+
+1101
+01:12:52,474 --> 01:12:56,774
+Prueba de escucha
+
+1102
+01:12:56,774 --> 01:13:01,883
+Hoy quiero retirar cien mil yenes.
+
+1103
+01:13:08,885 --> 01:13:11,419
+Prueba de escucha
+
+1104
+01:13:11,419 --> 01:13:14,319
+Perfecto.
+
+1105
+01:13:18,408 --> 01:13:23,752
+Prueba de escucha
+
+1106
+01:13:23,752 --> 01:13:30,186
+Escribe aquí 'cien mil yenes'.
+
+1107
+01:13:38,929 --> 01:13:42,395
+Prueba de escucha
+
+1108
+01:13:42,395 --> 01:13:46,462
+Listo, ya lo escribí.
+
+1109
+01:13:52,022 --> 01:13:54,296
+Prueba de escucha
+
+1110
+01:13:54,296 --> 01:13:56,862
+Muchas gracias.
+
+1111
+01:14:00,474 --> 01:14:04,750
+Prueba de escucha
+
+1112
+01:14:04,750 --> 01:14:09,823
+Luego, estampa tu sello aquí.
+
+1113
+01:14:16,779 --> 01:14:20,733
+Prueba de escucha
+
+1114
+01:14:20,733 --> 01:14:25,401
+¿Así está bien?
+
+1115
+01:14:31,816 --> 01:14:35,683
+Prueba de escucha
+
+1116
+01:14:35,683 --> 01:14:40,229
+Sí, no hay problema.
+
+1117
+01:14:46,485 --> 01:14:50,019
+Prueba de escucha
+
+1118
+01:14:50,019 --> 01:14:54,165
+¿Puedo recibir el dinero enseguida?
+
+1119
+01:14:59,863 --> 01:15:04,367
+Prueba de escucha
+
+1120
+01:15:04,367 --> 01:15:09,741
+Voy a verificar, así que espera un momento, por favor.
+
+1121
+01:15:17,098 --> 01:15:19,166
+Sí.
+
+1122
+01:15:19,189 --> 01:15:23,067
+Prueba de escucha
+
+1123
+01:15:23,067 --> 01:15:27,657
+Por favor, siéntate en aquella silla y espera.
+
+1124
+01:15:33,980 --> 01:15:37,480
+Prueba de escucha
+
+1125
+01:15:37,480 --> 01:15:41,582
+¿Tienes el número de turno?
+
+1126
+01:15:47,238 --> 01:15:51,571
+Prueba de escucha
+
+1127
+01:15:51,571 --> 01:15:56,723
+Sí, te llamaremos con este número.
+
+1128
+01:16:03,813 --> 01:16:06,325
+Prueba de escucha
+
+1129
+01:16:06,325 --> 01:16:09,225
+Entendido.
+
+1130
+01:16:13,281 --> 01:16:16,115
+Prueba de escucha
+
+1131
+01:16:16,115 --> 01:16:19,387
+Disculpe la espera.
+
+1132
+01:16:23,943 --> 01:16:26,917
+Prueba de escucha
+
+1133
+01:16:26,917 --> 01:16:30,384
+Cliente número quince.
+
+1134
+01:16:35,173 --> 01:16:37,353
+Sí.
+
+1135
+01:16:37,377 --> 01:16:42,277
+Prueba de escucha
+
+1136
+01:16:42,277 --> 01:16:48,143
+Aquí tienes los cien mil yenes y tu libreta.
+
+1137
+01:16:56,144 --> 01:16:58,744
+Prueba de escucha
+
+1138
+01:16:58,744 --> 01:17:01,737
+Por favor, verifica.
+
+1139
+01:17:05,917 --> 01:17:09,351
+Prueba de escucha
+
+1140
+01:17:09,351 --> 01:17:13,384
+Sí, muchas gracias.
+
+1141
+01:17:18,914 --> 01:17:20,414
+Escena 9: Trámite de envío de dinero al extranjero / Procedimiento de remesa internacional
+
+1142
+01:17:20,414 --> 01:17:22,928
+Prueba de escucha
+
+1143
+01:17:22,928 --> 01:17:25,801
+Bienvenido.
+
+1144
+01:17:29,808 --> 01:17:32,992
+Prueba de escucha
+
+1145
+01:17:32,992 --> 01:17:36,708
+¿En qué puedo ayudarle hoy?
+
+1146
+01:17:36,708 --> 01:17:41,819
+¿Cómo + V? = ¿cómo / qué hizo?
+
+1147
+01:17:41,843 --> 01:17:45,676
+Prueba de escucha
+
+1148
+01:17:45,676 --> 01:17:50,176
+Quiero enviar dinero al extranjero.
+
+1149
+01:17:50,176 --> 01:17:56,318
+Querer V = querer V
+Extranjero ↔ Nacional
+
+1150
+01:17:56,342 --> 01:17:58,538
+Prueba de escucha
+
+1151
+01:17:58,538 --> 01:18:01,010
+Entendido.
+
+1152
+01:18:04,500 --> 01:18:07,333
+Prueba de escucha
+
+1153
+01:18:07,333 --> 01:18:10,566
+¿Una remesa internacional, verdad?
+
+1154
+01:18:10,566 --> 01:18:15,033
+Es una transferencia internacional, ¿verdad? = Es una transferencia internacional, ¿no?
+
+1155
+01:18:15,057 --> 01:18:17,123
+Sí.
+
+1156
+01:18:17,146 --> 01:18:20,979
+Prueba de escucha
+
+1157
+01:18:20,979 --> 01:18:25,497
+Lo enviaré a mi familia en mi país.
+
+1158
+01:18:25,497 --> 01:18:31,678
+V + a [persona] = a [persona]
+Familia = familia
+
+1159
+01:18:31,702 --> 01:18:34,969
+Prueba de escucha
+
+1160
+01:18:34,969 --> 01:18:38,802
+¿A qué país lo envías?
+
+1161
+01:18:38,802 --> 01:18:44,069
+¿De dónde + N? = ¿de qué [N]?
+
+1162
+01:18:44,092 --> 01:18:47,266
+Prueba de escucha
+
+1163
+01:18:47,266 --> 01:18:50,967
+Quiero enviarlo a Vietnam.
+
+1164
+01:18:50,967 --> 01:18:56,067
+Querer V = querer V
+
+1165
+01:18:56,090 --> 01:18:58,364
+Prueba de escucha
+
+1166
+01:18:58,364 --> 01:19:00,936
+Perfecto.
+
+1167
+01:19:04,545 --> 01:19:08,211
+Prueba de escucha
+
+1168
+01:19:08,211 --> 01:19:12,511
+¿Tienes la información del destinatario?
+
+1169
+01:19:12,511 --> 01:19:18,411
+¿Tiene? = ¿tiene?
+Destinatario de la transferencia = destinatario de la transferencia
+Información = información
+
+1170
+01:19:18,434 --> 01:19:20,418
+Sí.
+
+1171
+01:19:20,442 --> 01:19:25,238
+Prueba de escucha
+
+1172
+01:19:25,238 --> 01:19:30,971
+Tengo anotado el nombre del banco y el número de cuenta.
+
+1173
+01:19:30,971 --> 01:19:38,758
+Hay N / tengo N = hay N / tengo N
+Número de cuenta = número de cuenta
+
+1174
+01:19:38,781 --> 01:19:41,248
+Prueba de escucha
+
+1175
+01:19:41,248 --> 01:19:44,032
+Muchas gracias.
+
+1176
+01:19:47,927 --> 01:19:51,643
+Prueba de escucha
+
+1177
+01:19:51,643 --> 01:19:56,028
+¿Cuándo llegará el dinero?
+
+1178
+01:19:56,028 --> 01:20:02,061
+llegar
+
+1179
+01:20:02,084 --> 01:20:06,195
+Prueba de escucha
+
+1180
+01:20:06,195 --> 01:20:11,071
+Generalmente tarda entre 3 días y una semana.
+
+1181
+01:20:11,071 --> 01:20:17,738
+de N1 a N2
+semana (duración)
+
+1182
+01:20:17,761 --> 01:20:20,027
+Prueba de escucha
+
+1183
+01:20:20,027 --> 01:20:22,575
+Ya veo.
+
+1184
+01:20:26,165 --> 01:20:29,798
+Prueba de escucha
+
+1185
+01:20:29,798 --> 01:20:34,065
+Varía según el país y el banco.
+
+1186
+01:20:34,065 --> 01:20:39,898
+dependiendo de N
+diferente ↔ igual
+
+1187
+01:20:39,921 --> 01:20:42,829
+Prueba de escucha
+
+1188
+01:20:42,829 --> 01:20:46,196
+¿Cuánto es la comisión?
+
+1189
+01:20:46,196 --> 01:20:50,863
+¿Cuánto cuesta N?
+comisión
+
+1190
+01:20:50,886 --> 01:20:55,680
+Prueba de escucha
+
+1191
+01:20:55,680 --> 01:21:01,396
+La comisión por envío en ventanilla es de 4000 yenes.
+
+1192
+01:21:01,396 --> 01:21:09,191
+tarda / cuesta
+ventanilla de atención
+
+1193
+01:21:09,215 --> 01:21:11,881
+Prueba de escucha
+
+1194
+01:21:11,881 --> 01:21:14,916
+¿4000 yenes?
+
+1195
+01:21:19,206 --> 01:21:22,173
+Prueba de escucha
+
+1196
+01:21:22,173 --> 01:21:25,608
+Es un poco caro, ¿no?
+
+1197
+01:21:25,608 --> 01:21:30,341
+un poco + adjetivo い
+caro ↔ barato
+
+1198
+01:21:30,364 --> 01:21:33,114
+Prueba de escucha
+
+1199
+01:21:33,114 --> 01:21:36,285
+Disculpe las molestias.
+
+1200
+01:21:36,285 --> 01:21:40,662
+Disculpe / Lo siento mucho
+
+1201
+01:21:40,686 --> 01:21:44,038
+Prueba de escucha
+
+1202
+01:21:44,038 --> 01:21:47,956
+¿Puedo enviarlo por la aplicación?
+
+1203
+01:21:47,956 --> 01:21:53,389
+¿Puede + verbo en infinitivo?
+
+1204
+01:21:53,412 --> 01:21:55,245
+Sí.
+
+1205
+01:21:55,268 --> 01:21:58,735
+Prueba de escucha
+
+1206
+01:21:58,735 --> 01:22:02,802
+También puede enviarlo por banca en línea.
+
+1207
+01:22:02,802 --> 01:22:08,355
+incluso con N / también con N
+
+1208
+01:22:08,379 --> 01:22:11,319
+Prueba de escucha
+
+1209
+01:22:11,319 --> 01:22:14,752
+¿Es más barato así?
+
+1210
+01:22:14,752 --> 01:22:19,485
+así es más...
+barato ↔ caro
+
+1211
+01:22:19,508 --> 01:22:21,652
+Sí.
+
+1212
+01:22:21,675 --> 01:22:25,709
+Prueba de escucha
+
+1213
+01:22:25,709 --> 01:22:30,475
+Por internet, la comisión es de 3000 yenes.
+
+1214
+01:22:30,475 --> 01:22:36,988
+si es N
+
+1215
+01:22:37,012 --> 01:22:40,478
+Prueba de escucha
+
+1216
+01:22:40,478 --> 01:22:44,545
+Entonces prefiero hacerlo por internet.
+
+1217
+01:22:44,545 --> 01:22:50,119
+Querer V = querer V
+
+1218
+01:22:50,142 --> 01:22:52,409
+Prueba de escucha
+
+1219
+01:22:52,409 --> 01:22:54,966
+Entendido.
+
+1220
+01:22:58,555 --> 01:23:02,189
+Prueba de escucha
+
+1221
+01:23:02,189 --> 01:23:06,455
+¿Desea registrarse en la aplicación?
+
+1222
+01:23:06,455 --> 01:23:12,322
+¿Va a realizar N?
+registro
+
+1223
+01:23:12,345 --> 01:23:14,217
+Sí.
+
+1224
+01:23:14,240 --> 01:23:16,234
+Prueba de escucha
+
+1225
+01:23:16,234 --> 01:23:18,468
+Sí, por favor.
+
+1226
+01:23:21,624 --> 01:23:24,758
+Prueba de escucha
+
+1227
+01:23:24,758 --> 01:23:28,425
+¿Tiene un teléfono inteligente?
+
+1228
+01:23:28,425 --> 01:23:33,458
+¿Lo tiene?
+
+1229
+01:23:33,481 --> 01:23:35,514
+Sí.
+
+1230
+01:23:35,537 --> 01:23:37,513
+Prueba de escucha
+
+1231
+01:23:37,513 --> 01:23:39,710
+Este es.
+
+1232
+01:23:42,833 --> 01:23:46,339
+Prueba de escucha
+
+1233
+01:23:46,339 --> 01:23:50,446
+Descargue la aplicación de nuestro banco, por favor.
+
+1234
+01:23:50,446 --> 01:23:56,113
+por favor + verbo en forma て
+nuestro banco
+
+1235
+01:23:56,136 --> 01:23:58,410
+Prueba de escucha
+
+1236
+01:23:58,410 --> 01:24:01,001
+Perfecto.
+
+1237
+01:24:04,657 --> 01:24:06,891
+Prueba de escucha
+
+1238
+01:24:06,891 --> 01:24:09,405
+Lo haré ahora mismo.
+
+1239
+01:24:12,940 --> 01:24:16,258
+Prueba de escucha
+
+1240
+01:24:16,258 --> 01:24:20,158
+Si tiene dudas, pregunte sin problema.
+
+1241
+01:24:20,158 --> 01:24:25,505
+si / cuando + verbo en forma て
+preguntar
+
+1242
+01:24:25,528 --> 01:24:27,562
+Sí.
+
+1243
+01:24:27,585 --> 01:24:30,023
+Prueba de escucha
+
+1244
+01:24:30,023 --> 01:24:32,808
+Muchas gracias.
+
+1245
+01:24:36,731 --> 01:24:38,231
+Escena 10: Cómo cambiar divisas / How to Exchange Foreign Currency
+
+1246
+01:24:38,231 --> 01:24:41,011
+Prueba de escucha
+
+1247
+01:24:41,011 --> 01:24:44,207
+Bienvenido.
+
+1248
+01:24:48,697 --> 01:24:50,885
+Prueba de escucha
+
+1249
+01:24:50,885 --> 01:24:53,385
+Disculpe.
+
+1250
+01:24:56,878 --> 01:25:00,345
+Prueba de escucha
+
+1251
+01:25:00,345 --> 01:25:04,411
+Quiero cambiar divisas.
+
+1252
+01:25:04,411 --> 01:25:09,971
+quiero + verbo en forma て
+cambio de divisas
+
+1253
+01:25:09,994 --> 01:25:12,527
+Prueba de escucha
+
+1254
+01:25:12,527 --> 01:25:15,427
+Entendido.
+
+1255
+01:25:19,517 --> 01:25:24,350
+Prueba de escucha
+
+1256
+01:25:24,350 --> 01:25:30,083
+Quiero cambiar dólares estadounidenses a yenes japoneses.
+
+1257
+01:25:30,083 --> 01:25:37,871
+cambiar N1 a N2
+cambiar / intercambiar
+
+1258
+01:25:37,895 --> 01:25:39,629
+Sí.
+
+1259
+01:25:39,652 --> 01:25:43,430
+Prueba de escucha
+
+1260
+01:25:43,430 --> 01:25:47,901
+Este es el tipo de cambio de hoy.
+
+1261
+01:25:47,901 --> 01:25:54,017
+será N / aquí tiene N
+tipo de cambio
+
+1262
+01:25:54,041 --> 01:25:57,474
+Prueba de escucha
+
+1263
+01:25:57,474 --> 01:26:01,507
+¿A cuánto está el dólar?
+
+1264
+01:26:01,507 --> 01:26:07,044
+¿Cuánto es?
+
+1265
+01:26:07,068 --> 01:26:11,546
+Prueba de escucha
+
+1266
+01:26:11,546 --> 01:26:16,879
+Hoy está a 150 yenes por dólar.
+
+1267
+01:26:16,879 --> 01:26:24,147
+N1 es N2
+
+1268
+01:26:24,171 --> 01:26:26,671
+Prueba de escucha
+
+1269
+01:26:26,671 --> 01:26:29,537
+Perfecto.
+
+1270
+01:26:33,530 --> 01:26:36,640
+Prueba de escucha
+
+1271
+01:26:36,640 --> 01:26:40,274
+Quiero cambiar 500 dólares.
+
+1272
+01:26:40,274 --> 01:26:45,267
+por favor + verbo en forma て
+
+1273
+01:26:45,290 --> 01:26:48,057
+Prueba de escucha
+
+1274
+01:26:48,057 --> 01:26:51,246
+Entendido.
+
+1275
+01:26:55,702 --> 01:26:59,602
+Prueba de escucha
+
+1276
+01:26:59,602 --> 01:27:04,236
+¿Cuánto sería en total?
+
+1277
+01:27:04,236 --> 01:27:10,541
+en total
+
+1278
+01:27:10,564 --> 01:27:15,064
+Prueba de escucha
+
+1279
+01:27:15,064 --> 01:27:20,397
+Serían 75,000 yenes.
+
+1280
+01:27:20,397 --> 01:27:27,674
+será N / asciende a N
+
+1281
+01:27:27,698 --> 01:27:31,365
+Prueba de escucha
+
+1282
+01:27:31,365 --> 01:27:35,665
+¿Hay comisión?
+
+1283
+01:27:35,665 --> 01:27:41,565
+cuesta / toma
+comisión / tarifa de servicio
+
+1284
+01:27:41,588 --> 01:27:45,900
+Prueba de escucha
+
+1285
+01:27:45,900 --> 01:27:51,015
+La comisión ya está incluida en el tipo de cambio.
+
+1286
+01:27:51,015 --> 01:27:58,049
+N2 está incluido en N1
+estar incluido
+
+1287
+01:27:58,072 --> 01:28:00,638
+Prueba de escucha
+
+1288
+01:28:00,638 --> 01:28:03,572
+Perfecto.
+
+1289
+01:28:07,661 --> 01:28:12,761
+Prueba de escucha
+
+1290
+01:28:12,761 --> 01:28:18,861
+Por favor, escriba su nombre en este formulario.
+
+1291
+01:28:18,861 --> 01:28:27,129
+por favor + verbo en forma て en N
+formulario / hoja
+
+1292
+01:28:27,153 --> 01:28:30,453
+Prueba de escucha
+
+1293
+01:28:30,453 --> 01:28:34,319
+¿Puedo escribirlo en romaji?
+
+1294
+01:28:34,319 --> 01:28:39,598
+¿Está bien con N?
+alfabeto romano
+
+1295
+01:28:39,621 --> 01:28:42,655
+Prueba de escucha
+
+1296
+01:28:42,655 --> 01:28:46,188
+Sí, está bien.
+
+1297
+01:28:46,188 --> 01:28:51,055
+Está bien / No hay problema
+
+1298
+01:28:51,078 --> 01:28:53,578
+Prueba de escucha
+
+1299
+01:28:53,578 --> 01:28:56,444
+Ya lo escribí.
+
+1300
+01:28:56,444 --> 01:29:00,378
+verbo en pasado (hice / hizo)
+
+1301
+01:29:00,401 --> 01:29:03,781
+Prueba de escucha
+
+1302
+01:29:03,781 --> 01:29:07,747
+¿También necesito el pasaporte?
+
+1303
+01:29:07,747 --> 01:29:13,214
+N es necesario / necesito N
+necesario ↔ innecesario
+
+1304
+01:29:13,237 --> 01:29:15,475
+Sí.
+
+1305
+01:29:15,499 --> 01:29:19,565
+Prueba de escucha
+
+1306
+01:29:19,565 --> 01:29:24,399
+Es necesario para verificar su identidad.
+
+1307
+01:29:24,399 --> 01:29:30,981
+para N / con el propósito de N
+verificación de identidad
+
+1308
+01:29:31,004 --> 01:29:34,537
+Prueba de escucha
+
+1309
+01:29:34,537 --> 01:29:38,692
+Aquí tiene.
+
+1310
+01:29:44,393 --> 01:29:46,467
+Prueba de escucha
+
+1311
+01:29:46,467 --> 01:29:48,784
+Muchas gracias.
+
+1312
+01:29:52,073 --> 01:29:55,407
+Prueba de escucha
+
+1313
+01:29:55,407 --> 01:29:59,307
+Voy a verificarlo.
+
+1314
+01:29:59,307 --> 01:30:04,674
+hacer N (forma humilde)
+confirmación / verificación
+
+1315
+01:30:04,698 --> 01:30:08,264
+Prueba de escucha
+
+1316
+01:30:08,264 --> 01:30:12,445
+¿Cómo quiere que le entregue el dinero?
+
+1317
+01:30:12,445 --> 01:30:18,183
+¿Cómo + verbo?
+entregar
+
+1318
+01:30:18,206 --> 01:30:25,306
+Prueba de escucha
+
+1319
+01:30:25,306 --> 01:30:33,894
+¿Le parece bien 7 billetes de 10,000 yenes y 1 de 5,000 yenes?
+
+1320
+01:30:33,894 --> 01:30:45,528
+¿Está bien con N?
+billete ↔ moneda
+
+1321
+01:30:45,551 --> 01:30:50,085
+Prueba de escucha
+
+1322
+01:30:50,085 --> 01:30:55,473
+Agregue también algunos billetes de 1,000 yenes, por favor.
+
+1323
+01:30:55,473 --> 01:31:02,821
+verbo + un poco
+mezclar / incluir
+
+1324
+01:31:02,844 --> 01:31:05,582
+Prueba de escucha
+
+1325
+01:31:05,582 --> 01:31:08,750
+Entendido.
+
+1326
+01:31:13,150 --> 01:31:22,490
+Prueba de escucha
+
+1327
+01:31:22,490 --> 01:31:33,923
+Prefiero 6 billetes de 10,000 yenes, 1 de 5,000 yenes y 10 de 1,000 yenes.
+
+1328
+01:31:33,923 --> 01:31:49,299
+por favor hágalo N
+
+1329
+01:31:49,323 --> 01:31:52,856
+Prueba de escucha
+
+1330
+01:31:52,856 --> 01:31:56,975
+Entendido.
+
+1331
+01:31:56,975 --> 01:32:02,642
+entendido / de acuerdo
+
+1332
+01:32:02,665 --> 01:32:05,198
+Prueba de escucha
+
+1333
+01:32:05,198 --> 01:32:08,065
+Muchas gracias.
+
+1334
+01:32:12,087 --> 01:32:14,953
+Prueba de escucha
+
+1335
+01:32:14,953 --> 01:32:18,253
+Disculpe la espera.
+
+1336
+01:32:18,253 --> 01:32:22,809
+Disculpe la espera
+
+1337
+01:32:22,832 --> 01:32:26,132
+Prueba de escucha
+
+1338
+01:32:26,132 --> 01:32:29,999
+Aquí tiene su dinero.
+
+1339
+01:32:29,999 --> 01:32:35,299
+aquí / esto (forma cortés)
+
+1340
+01:32:35,322 --> 01:32:37,822
+Prueba de escucha
+
+1341
+01:32:37,822 --> 01:32:40,689
+Voy a revisar.
+
+1342
+01:32:40,689 --> 01:32:44,647
+hacer N
+
+1343
+01:32:44,671 --> 01:32:47,904
+Prueba de escucha
+
+1344
+01:32:47,904 --> 01:32:51,678
+Sí, está bien.
+
+1345
+01:32:56,893 --> 01:32:59,409
+Prueba de escucha
+
+1346
+01:32:59,409 --> 01:33:02,276
+Muchas gracias.

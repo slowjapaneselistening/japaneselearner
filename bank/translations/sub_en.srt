@@ -1,0 +1,5514 @@
+1
+00:00:00,000 --> 00:00:07,616
+What's today's video about? It's a conversation at a bank.
+
+2
+00:00:07,616 --> 00:00:09,116
+Scene 1: Opening a Bank Account
+
+3
+00:00:09,116 --> 00:00:10,916
+Welcome.
+
+4
+00:00:10,938 --> 00:00:13,938
+How can I help you today?
+
+5
+00:00:13,961 --> 00:00:15,528
+Excuse me.
+
+6
+00:00:15,551 --> 00:00:18,969
+I'd like to open a bank account.
+
+7
+00:00:18,993 --> 00:00:20,847
+Understood.
+
+8
+00:00:20,870 --> 00:00:23,304
+A new account, correct?
+
+9
+00:00:23,327 --> 00:00:25,960
+Yes, that's right.
+
+10
+00:00:25,983 --> 00:00:29,392
+Do you currently reside in Japan?
+
+11
+00:00:29,415 --> 00:00:31,215
+Yes, I do.
+
+12
+00:00:31,238 --> 00:00:34,250
+I've been living in Tokyo since last month.
+
+13
+00:00:34,274 --> 00:00:37,077
+Are you employed?
+
+14
+00:00:37,100 --> 00:00:38,636
+Yes, I do.
+
+15
+00:00:38,659 --> 00:00:40,237
+Yes, I'm a company employee.
+
+16
+00:00:40,261 --> 00:00:42,227
+Got it.
+
+17
+00:00:42,250 --> 00:00:46,927
+To open an account, you'll need an ID.
+
+18
+00:00:46,951 --> 00:00:50,118
+An ID?
+
+19
+00:00:50,141 --> 00:00:51,416
+Yes, I do.
+
+20
+00:00:51,439 --> 00:00:55,039
+Do you have your residence card or passport?
+
+21
+00:00:55,062 --> 00:00:56,296
+Yes, I do.
+
+22
+00:00:56,319 --> 00:00:59,094
+I have my residence card.
+
+23
+00:00:59,117 --> 00:01:00,723
+Thank you.
+
+24
+00:01:00,746 --> 00:01:03,915
+May I see it, please?
+
+25
+00:01:03,939 --> 00:01:05,272
+Yes, I do.
+
+26
+00:01:05,295 --> 00:01:06,829
+Here you go.
+
+27
+00:01:06,852 --> 00:01:08,697
+I'll verify it now.
+
+28
+00:01:08,720 --> 00:01:11,730
+Do you have your My Number Card?
+
+29
+00:01:11,753 --> 00:01:14,927
+I don't have my My Number Card yet.
+
+30
+00:01:14,951 --> 00:01:16,751
+I see.
+
+31
+00:01:16,774 --> 00:01:20,174
+Do you have any documents with your My Number on them?
+
+32
+00:01:20,197 --> 00:01:22,808
+I have my residence record.
+
+33
+00:01:22,831 --> 00:01:24,431
+Thank you.
+
+34
+00:01:24,454 --> 00:01:27,187
+Your residence record will do, thank you.
+
+35
+00:01:27,210 --> 00:01:29,810
+Here it is.
+
+36
+00:01:29,833 --> 00:01:31,475
+I've confirmed it.
+
+37
+00:01:31,498 --> 00:01:34,965
+Do you have a personal seal with you?
+
+38
+00:01:34,988 --> 00:01:37,458
+I don't have a seal.
+
+39
+00:01:37,482 --> 00:01:40,021
+A signature is fine.
+
+40
+00:01:40,044 --> 00:01:41,977
+That's a relief.
+
+41
+00:01:42,000 --> 00:01:47,134
+Please write your name and address on this form.
+
+42
+00:01:47,157 --> 00:01:49,357
+Should I write it in kanji?
+
+43
+00:01:49,380 --> 00:01:51,946
+Roman letters are fine.
+
+44
+00:01:51,969 --> 00:01:53,614
+Got it.
+
+45
+00:01:53,637 --> 00:01:55,671
+I'll fill it out now.
+
+46
+00:01:55,694 --> 00:01:58,833
+If you have any questions, just let me know.
+
+47
+00:01:58,856 --> 00:02:02,089
+Okay, thank you.
+
+48
+00:02:02,112 --> 00:02:11,121
+You can download today's video script from the description and top comment. Please leave a comment before downloading!
+
+49
+00:02:11,121 --> 00:02:12,621
+Scene 2: Preparing to Open an Account
+
+50
+00:02:12,621 --> 00:02:14,559
+Welcome.
+
+51
+00:02:14,582 --> 00:02:17,627
+How may I assist you today?
+
+52
+00:02:17,651 --> 00:02:19,140
+Excuse me.
+
+53
+00:02:19,164 --> 00:02:21,776
+I'd like to open a bank account.
+
+54
+00:02:21,800 --> 00:02:23,766
+Thank you.
+
+55
+00:02:23,789 --> 00:02:26,956
+Would you like to complete the procedure today?
+
+56
+00:02:26,979 --> 00:02:32,146
+No, I just came to ask what documents I need.
+
+57
+00:02:32,169 --> 00:02:34,102
+Understood.
+
+58
+00:02:34,125 --> 00:02:37,925
+First, you'll need your residence card.
+
+59
+00:02:37,948 --> 00:02:40,361
+My residence card, right?
+
+60
+00:02:40,385 --> 00:02:42,218
+Yes, I have it.
+
+61
+00:02:42,241 --> 00:02:45,916
+And you'll also need your personal seal.
+
+62
+00:02:45,939 --> 00:02:47,873
+A personal seal?
+
+63
+00:02:47,896 --> 00:02:49,353
+Yes, I do.
+
+64
+00:02:49,377 --> 00:02:52,310
+Your personal stamp, yes.
+
+65
+00:02:52,333 --> 00:02:54,745
+Is a stamp pad seal okay?
+
+66
+00:02:54,769 --> 00:02:56,666
+Excuse me.
+
+67
+00:02:56,689 --> 00:02:59,223
+No, stamp pad seals aren't accepted.
+
+68
+00:02:59,246 --> 00:03:00,979
+I see.
+
+69
+00:03:01,002 --> 00:03:03,486
+So, a regular personal seal, then.
+
+70
+00:03:03,510 --> 00:03:04,910
+Yes, I do.
+
+71
+00:03:04,933 --> 00:03:08,966
+You'll also need your My Number Card.
+
+72
+00:03:08,989 --> 00:03:11,661
+My Number Card, right.
+
+73
+00:03:11,685 --> 00:03:13,085
+Yes, I do.
+
+74
+00:03:13,108 --> 00:03:15,108
+Do you have it with you?
+
+75
+00:03:15,131 --> 00:03:16,565
+Yes, I do.
+
+76
+00:03:16,589 --> 00:03:18,003
+Yes, I have it.
+
+77
+00:03:18,026 --> 00:03:20,359
+Yes, that's fine.
+
+78
+00:03:20,382 --> 00:03:22,982
+Do I need my passport too?
+
+79
+00:03:23,005 --> 00:03:26,477
+No, you don't need your passport.
+
+80
+00:03:26,501 --> 00:03:28,556
+Got it.
+
+81
+00:03:28,580 --> 00:03:32,346
+You'll also need to deposit a small amount of money upfront.
+
+82
+00:03:32,369 --> 00:03:33,847
+How much?
+
+83
+00:03:33,871 --> 00:03:36,804
+Around 1,000 yen will do.
+
+84
+00:03:36,827 --> 00:03:38,494
+Got it.
+
+85
+00:03:38,517 --> 00:03:41,517
+The process will take some time.
+
+86
+00:03:41,540 --> 00:03:43,940
+How long will it take?
+
+87
+00:03:43,963 --> 00:03:46,563
+About an hour.
+
+88
+00:03:46,586 --> 00:03:48,357
+Got it.
+
+89
+00:03:48,380 --> 00:03:50,559
+I'll come back tomorrow.
+
+90
+00:03:50,582 --> 00:03:52,549
+We look forward to seeing you then.
+
+91
+00:03:52,572 --> 00:03:54,783
+Thank you.
+
+92
+00:03:54,806 --> 00:04:01,911
+Check the description and top comment for a link to review today's video! *Note: The site may be removed without prior notice.
+
+93
+00:04:01,911 --> 00:04:03,411
+Scene 3: Teaching How to Fill Out Forms / How to Fill Out Forms in Japanese
+
+94
+00:04:03,411 --> 00:04:06,083
+Thank you for waiting.
+
+95
+00:04:06,106 --> 00:04:11,306
+Excuse me, could you show me how to fill out this form?
+
+96
+00:04:11,329 --> 00:04:15,227
+Of course, what part don't you understand?
+
+97
+00:04:15,250 --> 00:04:18,084
+Right here, the name section.
+
+98
+00:04:18,107 --> 00:04:20,589
+Your name, yes.
+
+99
+00:04:20,612 --> 00:04:23,212
+Should I write it in kanji?
+
+100
+00:04:23,235 --> 00:04:25,570
+Or in romaji?
+
+101
+00:04:25,594 --> 00:04:29,850
+Please write it the same way as on your residence card.
+
+102
+00:04:29,873 --> 00:04:32,040
+In romaji, then.
+
+103
+00:04:32,063 --> 00:04:33,996
+Got it.
+
+104
+00:04:34,019 --> 00:04:37,986
+And please write your furigana in the space above.
+
+105
+00:04:38,009 --> 00:04:41,742
+Furigana in katakana?
+
+106
+00:04:41,765 --> 00:04:45,932
+Yes, in katakana, please.
+
+107
+00:04:45,955 --> 00:04:47,921
+Got it.
+
+108
+00:04:47,944 --> 00:04:51,163
+Next is your address.
+
+109
+00:04:51,186 --> 00:04:54,038
+My address is so long.
+
+110
+00:04:54,061 --> 00:04:57,661
+You can write it across two lines if you'd like.
+
+111
+00:04:57,685 --> 00:05:01,085
+Should I include my apartment name too?
+
+112
+00:05:01,107 --> 00:05:04,911
+Yes, and your room number as well, please.
+
+113
+00:05:04,935 --> 00:05:07,419
+Okay, I've written it.
+
+114
+00:05:07,443 --> 00:05:10,525
+Next is your phone number.
+
+115
+00:05:10,549 --> 00:05:14,482
+Is my mobile number okay?
+
+116
+00:05:14,505 --> 00:05:18,238
+Yes, that's fine.
+
+117
+00:05:18,261 --> 00:05:21,195
+Next is your PIN.
+
+118
+00:05:21,218 --> 00:05:25,484
+Yes, please choose four numbers.
+
+119
+00:05:25,507 --> 00:05:28,000
+Can I use my birthday?
+
+120
+00:05:28,024 --> 00:05:31,095
+No, birthdays aren't allowed.
+
+121
+00:05:31,118 --> 00:05:33,252
+Got it.
+
+122
+00:05:33,275 --> 00:05:35,649
+I'll pick different numbers.
+
+123
+00:05:35,672 --> 00:05:39,250
+Please write it carefully so you don't make a mistake.
+
+124
+00:05:39,273 --> 00:05:41,919
+Okay, I've written it.
+
+125
+00:05:41,943 --> 00:05:46,943
+Finally, please stamp your seal here.
+
+126
+00:05:46,966 --> 00:05:48,658
+Got it.
+
+127
+00:05:48,681 --> 00:05:50,886
+Thank you.
+
+128
+00:05:50,910 --> 00:05:52,410
+Scene 4: Borrowing Pens and Color Rules
+
+129
+00:05:52,410 --> 00:05:54,467
+Welcome.
+
+130
+00:05:54,491 --> 00:05:58,424
+Excuse me, could I borrow a ballpoint pen?
+
+131
+00:05:58,447 --> 00:06:01,180
+Sure, what seems to be the problem?
+
+132
+00:06:01,203 --> 00:06:04,044
+My pen isn’t working.
+
+133
+00:06:04,068 --> 00:06:05,701
+I see.
+
+134
+00:06:05,724 --> 00:06:08,458
+Here, you can use this one.
+
+135
+00:06:08,481 --> 00:06:10,095
+Thank you.
+
+136
+00:06:10,118 --> 00:06:14,518
+Please fill out the bank forms using a black pen.
+
+137
+00:06:14,541 --> 00:06:17,113
+Is this pen black?
+
+138
+00:06:17,137 --> 00:06:20,034
+Yes, it’s black.
+
+139
+00:06:20,057 --> 00:06:22,624
+Would a blue pen be okay?
+
+140
+00:06:22,647 --> 00:06:25,293
+Blue pens are not allowed.
+
+141
+00:06:25,316 --> 00:06:27,049
+Got it.
+
+142
+00:06:27,072 --> 00:06:29,839
+Please do not use pencils either.
+
+143
+00:06:29,862 --> 00:06:33,275
+Got it, I’ll write with a ballpoint pen.
+
+144
+00:06:33,298 --> 00:06:36,276
+Erasable pens are also not permitted.
+
+145
+00:06:36,300 --> 00:06:37,833
+Got it.
+
+146
+00:06:37,856 --> 00:06:40,990
+What should I do if I make a mistake?
+
+147
+00:06:41,013 --> 00:06:44,079
+Should I rewrite it on a new sheet?
+
+148
+00:06:44,102 --> 00:06:47,671
+No, just draw a double line through it.
+
+149
+00:06:47,695 --> 00:06:49,761
+A double line?
+
+150
+00:06:49,784 --> 00:06:51,184
+Yes, I do.
+
+151
+00:06:51,207 --> 00:06:55,340
+Then, stamp your seal over it.
+
+152
+00:06:55,363 --> 00:06:58,530
+Is correction tape allowed?
+
+153
+00:06:58,553 --> 00:07:01,886
+Please do not use correction tape.
+
+154
+00:07:01,909 --> 00:07:03,923
+Got it.
+
+155
+00:07:03,947 --> 00:07:05,680
+I’ll be careful.
+
+156
+00:07:05,703 --> 00:07:08,837
+Please fill out the forms at that desk over there.
+
+157
+00:07:08,860 --> 00:07:10,460
+Yes, I do.
+
+158
+00:07:10,483 --> 00:07:13,370
+Where should I go after I’m done writing?
+
+159
+00:07:13,393 --> 00:07:16,009
+Please come back here.
+
+160
+00:07:16,033 --> 00:07:17,722
+Got it.
+
+161
+00:07:17,745 --> 00:07:21,280
+If you have any questions, just ask.
+
+162
+00:07:21,304 --> 00:07:24,037
+Okay, that’s very helpful.
+
+163
+00:07:24,060 --> 00:07:25,560
+Scene 5: How to Use an ATM
+
+164
+00:07:25,560 --> 00:07:27,927
+Welcome.
+
+165
+00:07:27,950 --> 00:07:29,483
+Excuse me.
+
+166
+00:07:29,506 --> 00:07:32,444
+I’d like to withdraw some money.
+
+167
+00:07:32,468 --> 00:07:35,235
+Do you have your cash card with you?
+
+168
+00:07:35,257 --> 00:07:37,943
+Yes, I do.
+
+169
+00:07:37,966 --> 00:07:42,302
+In that case, you can use the ATM.
+
+170
+00:07:42,326 --> 00:07:45,792
+Where is the ATM located?
+
+171
+00:07:45,815 --> 00:07:49,027
+It’s outside this building.
+
+172
+00:07:49,050 --> 00:07:51,050
+Outside?
+
+173
+00:07:51,073 --> 00:07:52,807
+Yes, I do.
+
+174
+00:07:52,830 --> 00:07:56,196
+Go out that door and turn right.
+
+175
+00:07:56,219 --> 00:07:59,253
+Go out the door and turn right, got it.
+
+176
+00:07:59,276 --> 00:08:01,009
+Yes, I do.
+
+177
+00:08:01,032 --> 00:08:02,911
+You’ll see it right away.
+
+178
+00:08:02,934 --> 00:08:05,411
+Understood.
+
+179
+00:08:05,435 --> 00:08:09,202
+Do you know how to use the ATM?
+
+180
+00:08:09,225 --> 00:08:10,237
+Yes, I do.
+
+181
+00:08:10,261 --> 00:08:11,731
+I think so.
+
+182
+00:08:11,754 --> 00:08:14,422
+Is there an English menu available?
+
+183
+00:08:14,445 --> 00:08:15,903
+Yes, I do.
+
+184
+00:08:15,927 --> 00:08:18,582
+Yes, there’s an English screen option.
+
+185
+00:08:18,606 --> 00:08:20,972
+That’s convenient!
+
+186
+00:08:20,995 --> 00:08:24,568
+There are also Chinese and Korean options.
+
+187
+00:08:24,592 --> 00:08:26,443
+Got it.
+
+188
+00:08:26,466 --> 00:08:30,600
+Note that there may be a fee for withdrawals.
+
+189
+00:08:30,623 --> 00:08:32,556
+How much is the fee?
+
+190
+00:08:32,579 --> 00:08:35,848
+It’s free right now.
+
+191
+00:08:35,871 --> 00:08:38,364
+Is there a fee at night?
+
+192
+00:08:38,388 --> 00:08:40,221
+Yes, I do.
+
+193
+00:08:40,244 --> 00:08:43,813
+After 6 PM, there’s a 110 yen fee.
+
+194
+00:08:43,837 --> 00:08:47,281
+What about on Saturdays and Sundays?
+
+195
+00:08:47,305 --> 00:08:50,672
+Weekends also incur service fees.
+
+196
+00:08:50,695 --> 00:08:52,369
+Understood.
+
+197
+00:08:52,392 --> 00:08:54,358
+I'm heading there now.
+
+198
+00:08:54,381 --> 00:08:55,864
+Yes, I do.
+
+199
+00:08:55,888 --> 00:08:57,665
+Take care.
+
+200
+00:08:57,688 --> 00:08:59,321
+Thank you.
+
+201
+00:08:59,344 --> 00:09:02,711
+Feel free to ask if you need anything else.
+
+202
+00:09:02,734 --> 00:09:04,301
+Yes, I do.
+
+203
+00:09:04,324 --> 00:09:05,925
+Excuse me.
+
+204
+00:09:05,948 --> 00:09:07,448
+Scene 6: Bank Counter and ATM Operating Hours
+
+205
+00:09:07,448 --> 00:09:09,625
+Welcome.
+
+206
+00:09:09,648 --> 00:09:11,926
+Excuse me.
+
+207
+00:09:11,950 --> 00:09:15,350
+May I ask you something?
+
+208
+00:09:15,373 --> 00:09:18,740
+Yes, how can I help?
+
+209
+00:09:18,762 --> 00:09:23,432
+What time does the bank counter close?
+
+210
+00:09:23,456 --> 00:09:27,870
+The counter closes at 3 PM.
+
+211
+00:09:27,894 --> 00:09:30,764
+3 PM?
+
+212
+00:09:30,787 --> 00:09:33,387
+That’s early.
+
+213
+00:09:33,410 --> 00:09:36,949
+Yes, I apologize for that.
+
+214
+00:09:36,972 --> 00:09:41,506
+What happens after 3 PM?
+
+215
+00:09:41,529 --> 00:09:45,662
+The counter doors will be closed.
+
+216
+00:09:45,685 --> 00:09:48,818
+Can I still use the ATM?
+
+217
+00:09:48,841 --> 00:09:54,930
+Yes, the ATM is available until 9 PM.
+
+218
+00:09:54,954 --> 00:09:58,604
+Oh, that’s a relief.
+
+219
+00:09:58,627 --> 00:10:03,427
+The counter is closed on weekends.
+
+220
+00:10:03,450 --> 00:10:06,721
+Is the ATM closed too?
+
+221
+00:10:06,744 --> 00:10:12,188
+No, the ATM is open on weekends.
+
+222
+00:10:12,212 --> 00:10:15,545
+What time does it open in the morning?
+
+223
+00:10:15,568 --> 00:10:20,780
+The counter opens at 9 AM.
+
+224
+00:10:20,804 --> 00:10:24,578
+Is the ATM open earlier?
+
+225
+00:10:24,601 --> 00:10:30,334
+Yes, the ATM is available from 8 AM.
+
+226
+00:10:30,357 --> 00:10:32,454
+Got it.
+
+227
+00:10:32,478 --> 00:10:36,411
+Are you handling your transaction at the counter today?
+
+228
+00:10:36,434 --> 00:10:41,106
+No, I don’t have time today.
+
+229
+00:10:41,130 --> 00:10:43,378
+I see.
+
+230
+00:10:43,401 --> 00:10:47,401
+I’ll come back during my lunch break tomorrow.
+
+231
+00:10:47,424 --> 00:10:50,957
+It can get a bit crowded during lunch breaks.
+
+232
+00:10:50,980 --> 00:10:54,459
+How long is the wait?
+
+233
+00:10:54,482 --> 00:10:58,216
+You might have to wait about 30 minutes.
+
+234
+00:10:58,240 --> 00:11:00,073
+Got it.
+
+235
+00:11:00,096 --> 00:11:02,949
+I’ll come a little earlier then.
+
+236
+00:11:02,973 --> 00:11:05,573
+We look forward to seeing you then.
+
+237
+00:11:05,596 --> 00:11:08,797
+Thank you.
+
+238
+00:11:08,821 --> 00:11:10,321
+Scene 7: Completion of Bank Procedures
+
+239
+00:11:10,321 --> 00:11:13,797
+Your account setup is now complete.
+
+240
+00:11:13,820 --> 00:11:15,697
+Thank you.
+
+241
+00:11:15,720 --> 00:11:18,120
+I’ve received my passbook.
+
+242
+00:11:18,143 --> 00:11:19,476
+Yes, I do.
+
+243
+00:11:19,499 --> 00:11:22,533
+You can use the passbook starting today.
+
+244
+00:11:22,556 --> 00:11:25,437
+Don’t I get a cash card?
+
+245
+00:11:25,460 --> 00:11:29,098
+Your cash card will be mailed to you later.
+
+246
+00:11:29,122 --> 00:11:31,255
+It’ll be mailed?
+
+247
+00:11:31,278 --> 00:11:33,549
+When will it arrive?
+
+248
+00:11:33,573 --> 00:11:36,862
+It usually takes about a week.
+
+249
+00:11:36,885 --> 00:11:39,336
+A week?
+
+250
+00:11:39,360 --> 00:11:42,212
+Do I need to sign for it?
+
+251
+00:11:42,235 --> 00:11:43,846
+Yes, I do.
+
+252
+00:11:43,870 --> 00:11:47,679
+Since it’s sent by registered mail, a signature is required.
+
+253
+00:11:47,702 --> 00:11:53,702
+What if no one is home?
+
+254
+00:11:53,725 --> 00:11:56,159
+The postal worker will leave a notice.
+
+255
+00:11:56,182 --> 00:11:58,272
+A notice?
+
+256
+00:11:58,295 --> 00:11:59,738
+Yes, I do.
+
+257
+00:11:59,762 --> 00:12:03,795
+Please contact the post office using that notice.
+
+258
+00:12:03,818 --> 00:12:05,985
+Got it.
+
+259
+00:12:06,008 --> 00:12:09,778
+How can I access my money until the card arrives?
+
+260
+00:12:09,801 --> 00:12:12,837
+Can’t I withdraw money?
+
+261
+00:12:12,860 --> 00:12:17,194
+You can withdraw money at the counter with your passbook and seal.
+
+262
+00:12:17,217 --> 00:12:19,295
+I see.
+
+263
+00:12:19,318 --> 00:12:24,187
+But the counter closes at 3 PM, so please be careful.
+
+264
+00:12:24,211 --> 00:12:25,744
+Yes, I do.
+
+265
+00:12:25,767 --> 00:12:27,460
+Got it.
+
+266
+00:12:27,484 --> 00:12:31,450
+Once your card arrives, please write your name on the back.
+
+267
+00:12:31,473 --> 00:12:33,010
+Yes, I do.
+
+268
+00:12:33,034 --> 00:12:36,909
+Never share your PIN with anyone.
+
+269
+00:12:36,933 --> 00:12:38,416
+Yes, I do.
+
+270
+00:12:38,439 --> 00:12:40,287
+Of course.
+
+271
+00:12:40,310 --> 00:12:44,379
+If you lose it, call the bank immediately.
+
+272
+00:12:44,403 --> 00:12:46,170
+Got it.
+
+273
+00:12:46,193 --> 00:12:49,593
+Where can I find the phone number?
+
+274
+00:12:49,616 --> 00:12:52,227
+It's written on the back of your passbook.
+
+275
+00:12:52,250 --> 00:12:53,850
+Yes, I do.
+
+276
+00:12:53,873 --> 00:12:55,923
+Thank you very much.
+
+277
+00:12:55,947 --> 00:12:57,447
+Scene 8: Withdrawing Money at the Bank
+
+278
+00:12:57,447 --> 00:12:59,618
+Welcome.
+
+279
+00:12:59,642 --> 00:13:03,975
+Excuse me, I'd like to withdraw some money.
+
+280
+00:13:03,998 --> 00:13:06,010
+Understood.
+
+281
+00:13:06,033 --> 00:13:08,966
+Do you have your cash card with you?
+
+282
+00:13:08,989 --> 00:13:13,357
+No, I left my card at home.
+
+283
+00:13:13,380 --> 00:13:17,669
+I see. Do you have your passbook?
+
+284
+00:13:17,693 --> 00:13:22,260
+Yes, I have my passbook and seal.
+
+285
+00:13:22,283 --> 00:13:27,156
+You can complete the procedure at this counter.
+
+286
+00:13:27,179 --> 00:13:29,412
+That's a relief.
+
+287
+00:13:29,435 --> 00:13:33,092
+Please fill out this form.
+
+288
+00:13:33,115 --> 00:13:36,649
+Where should I write?
+
+289
+00:13:36,672 --> 00:13:40,131
+Please write here and here.
+
+290
+00:13:40,154 --> 00:13:42,443
+This is for my name, right?
+
+291
+00:13:42,467 --> 00:13:46,877
+Yes, and please write the amount below it.
+
+292
+00:13:46,901 --> 00:13:50,960
+I'd like to withdraw 100,000 yen today.
+
+293
+00:13:50,984 --> 00:13:53,076
+Got it.
+
+294
+00:13:53,099 --> 00:13:58,306
+Please write '100,000 yen' here.
+
+295
+00:13:58,329 --> 00:14:01,426
+Okay, I've written it.
+
+296
+00:14:01,449 --> 00:14:03,249
+Thank you.
+
+297
+00:14:03,272 --> 00:14:07,290
+Next, please stamp your seal here.
+
+298
+00:14:07,313 --> 00:14:10,985
+Is this okay?
+
+299
+00:14:11,008 --> 00:14:14,575
+Yes, that's fine.
+
+300
+00:14:14,598 --> 00:14:17,798
+Will I get the money right away?
+
+301
+00:14:17,821 --> 00:14:22,102
+I need to verify a few things, so please wait a moment.
+
+302
+00:14:22,125 --> 00:14:23,725
+Yes, I do.
+
+303
+00:14:23,748 --> 00:14:27,348
+Please have a seat over there while you wait.
+
+304
+00:14:27,371 --> 00:14:30,538
+Do I have a number ticket?
+
+305
+00:14:30,561 --> 00:14:34,649
+Yes, we'll call you by this number.
+
+306
+00:14:34,672 --> 00:14:36,742
+Understood.
+
+307
+00:14:36,765 --> 00:14:39,174
+Thank you for waiting.
+
+308
+00:14:39,198 --> 00:14:41,769
+Customer number 15.
+
+309
+00:14:41,792 --> 00:14:43,489
+Yes, I do.
+
+310
+00:14:43,512 --> 00:14:48,246
+Here's your 100,000 yen and passbook.
+
+311
+00:14:48,269 --> 00:14:50,440
+Please check them.
+
+312
+00:14:50,463 --> 00:14:53,532
+Yes, thank you very much.
+
+313
+00:14:53,556 --> 00:14:55,056
+Scene 9: Overseas Remittance Procedure
+
+314
+00:14:55,056 --> 00:14:57,122
+Welcome.
+
+315
+00:14:57,145 --> 00:14:59,979
+How can I help you today?
+
+316
+00:15:00,002 --> 00:15:03,500
+I'd like to send money overseas.
+
+317
+00:15:03,523 --> 00:15:05,256
+Understood.
+
+318
+00:15:05,279 --> 00:15:07,679
+You mean an overseas remittance?
+
+319
+00:15:07,702 --> 00:15:09,269
+Yes, I do.
+
+320
+00:15:09,292 --> 00:15:12,826
+I'm sending it to my family in my home country.
+
+321
+00:15:12,849 --> 00:15:15,748
+Which country are you sending it to?
+
+322
+00:15:15,771 --> 00:15:18,572
+I'd like to send it to Vietnam.
+
+323
+00:15:18,596 --> 00:15:20,396
+Got it.
+
+324
+00:15:20,419 --> 00:15:23,752
+Do you have the recipient's information?
+
+325
+00:15:23,776 --> 00:15:25,247
+Yes, I do.
+
+326
+00:15:25,270 --> 00:15:29,874
+I have a note with the bank name and account number.
+
+327
+00:15:29,898 --> 00:15:31,898
+Thank you.
+
+328
+00:15:31,921 --> 00:15:35,329
+How long will it take for the money to arrive?
+
+329
+00:15:35,352 --> 00:15:39,191
+It usually takes about 3 days to a week.
+
+330
+00:15:39,214 --> 00:15:41,014
+I see.
+
+331
+00:15:41,037 --> 00:15:44,333
+It depends on the country and bank.
+
+332
+00:15:44,357 --> 00:15:46,890
+How much is the fee?
+
+333
+00:15:46,913 --> 00:15:51,513
+The counter remittance fee is 4,000 yen.
+
+334
+00:15:51,536 --> 00:15:53,770
+4,000 yen?
+
+335
+00:15:53,793 --> 00:15:56,359
+That's a bit expensive.
+
+336
+00:15:56,382 --> 00:15:58,721
+I apologize for that.
+
+337
+00:15:58,745 --> 00:16:01,745
+Can I send it through the app?
+
+338
+00:16:01,768 --> 00:16:03,061
+Yes, I do.
+
+339
+00:16:03,084 --> 00:16:06,218
+You can also send it via internet banking.
+
+340
+00:16:06,241 --> 00:16:08,780
+Is it cheaper that way?
+
+341
+00:16:08,803 --> 00:16:10,459
+Yes, I do.
+
+342
+00:16:10,483 --> 00:16:14,249
+The fee is 3,000 yen if you use the internet.
+
+343
+00:16:14,272 --> 00:16:17,406
+Then I'd like to do it online.
+
+344
+00:16:17,429 --> 00:16:19,229
+Understood.
+
+345
+00:16:19,252 --> 00:16:22,549
+Shall we register the app for you?
+
+346
+00:16:22,572 --> 00:16:23,938
+Yes, I do.
+
+347
+00:16:23,961 --> 00:16:25,452
+Yes, please.
+
+348
+00:16:25,476 --> 00:16:28,242
+Do you have a smartphone?
+
+349
+00:16:28,265 --> 00:16:29,799
+Yes, I do.
+
+350
+00:16:29,822 --> 00:16:31,293
+This one.
+
+351
+00:16:31,316 --> 00:16:34,483
+Please download our bank's app.
+
+352
+00:16:34,507 --> 00:16:36,311
+Got it.
+
+353
+00:16:36,334 --> 00:16:38,101
+I'll do it now.
+
+354
+00:16:38,124 --> 00:16:41,091
+If you have any questions, just ask.
+
+355
+00:16:41,115 --> 00:16:42,681
+Yes, I do.
+
+356
+00:16:42,704 --> 00:16:44,704
+Thank you.
+
+357
+00:16:44,727 --> 00:16:46,227
+Scene 10: How to Exchange Foreign Currency
+
+358
+00:16:46,227 --> 00:16:48,594
+Welcome.
+
+359
+00:16:48,617 --> 00:16:50,316
+Excuse me.
+
+360
+00:16:50,340 --> 00:16:53,473
+I'd like to exchange some foreign currency.
+
+361
+00:16:53,496 --> 00:16:55,576
+Understood.
+
+362
+00:16:55,600 --> 00:17:00,200
+I want to exchange US dollars to Japanese yen.
+
+363
+00:17:00,223 --> 00:17:01,425
+Yes, I do.
+
+364
+00:17:01,448 --> 00:17:04,917
+Here's today's exchange rate.
+
+365
+00:17:04,941 --> 00:17:08,021
+How much is one dollar?
+
+366
+00:17:08,045 --> 00:17:12,289
+Today, it's 150 yen per dollar.
+
+367
+00:17:12,313 --> 00:17:14,353
+Got it.
+
+368
+00:17:14,376 --> 00:17:17,109
+Please exchange 500 dollars for me.
+
+369
+00:17:17,132 --> 00:17:19,499
+Understood.
+
+370
+00:17:19,522 --> 00:17:23,122
+How much will that be in total?
+
+371
+00:17:23,145 --> 00:17:27,393
+That comes to 75,000 yen.
+
+372
+00:17:27,416 --> 00:17:30,750
+Is there a service fee?
+
+373
+00:17:30,773 --> 00:17:34,839
+The fee is included in the exchange rate.
+
+374
+00:17:34,862 --> 00:17:36,996
+Got it.
+
+375
+00:17:37,019 --> 00:17:41,952
+Please write your name on this form.
+
+376
+00:17:41,975 --> 00:17:44,908
+Is it okay in Roman letters?
+
+377
+00:17:44,931 --> 00:17:47,565
+Yes, that's fine.
+
+378
+00:17:47,588 --> 00:17:49,621
+I've filled it out.
+
+379
+00:17:49,644 --> 00:17:52,677
+Do I need my passport too?
+
+380
+00:17:52,700 --> 00:17:54,467
+Yes, I do.
+
+381
+00:17:54,490 --> 00:17:58,290
+We need it for identity verification.
+
+382
+00:17:58,313 --> 00:18:01,513
+Here you go.
+
+383
+00:18:01,536 --> 00:18:03,136
+Thank you.
+
+384
+00:18:03,159 --> 00:18:06,159
+I'll verify it now.
+
+385
+00:18:06,182 --> 00:18:09,415
+How would you like to receive the money?
+
+386
+00:18:09,438 --> 00:18:16,605
+Would seven 10,000-yen bills and one 5,000-yen bill be okay?
+
+387
+00:18:16,628 --> 00:18:20,961
+Could you include some 1,000-yen bills as well?
+
+388
+00:18:20,984 --> 00:18:23,317
+Understood.
+
+389
+00:18:23,340 --> 00:18:32,999
+Please give me six 10,000-yen bills, one 5,000-yen bill, and ten 1,000-yen bills.
+
+390
+00:18:33,023 --> 00:18:36,196
+Understood.
+
+391
+00:18:36,219 --> 00:18:38,291
+Thank you.
+
+392
+00:18:38,314 --> 00:18:40,748
+Thank you for waiting.
+
+393
+00:18:40,771 --> 00:18:43,704
+Here's your money.
+
+394
+00:18:43,727 --> 00:18:45,773
+Let me check.
+
+395
+00:18:45,796 --> 00:18:48,663
+Yes, it's all correct.
+
+396
+00:18:48,686 --> 00:18:50,743
+Thank you.
+
+397
+00:19:00,403 --> 00:19:01,903
+Scene 1: Opening a Bank Account
+
+398
+00:19:01,903 --> 00:19:04,173
+Listening Test
+
+399
+00:19:04,173 --> 00:19:06,740
+Welcome.
+
+400
+00:19:06,740 --> 00:19:10,373
+いらっしゃいませ = Welcome
+
+401
+00:19:10,396 --> 00:19:13,744
+Listening Test
+
+402
+00:19:13,744 --> 00:19:17,662
+How can I help you today?
+
+403
+00:19:17,662 --> 00:19:23,039
+どうされましたか = How can I help you?
+
+404
+00:19:23,062 --> 00:19:25,129
+Listening Test
+
+405
+00:19:25,129 --> 00:19:27,429
+Excuse me.
+
+406
+00:19:30,685 --> 00:19:34,427
+Listening Test
+
+407
+00:19:34,427 --> 00:19:38,824
+I'd like to open a bank account.
+
+408
+00:19:38,824 --> 00:19:44,858
+Vたい = want to (do something)
+bank = 銀行(ぎんこう)
+bank account = 口座(こうざ)
+
+409
+00:19:44,881 --> 00:19:47,199
+Listening Test
+
+410
+00:19:47,199 --> 00:19:49,833
+Understood.
+
+411
+00:19:49,833 --> 00:19:53,508
+かしこまりました = Certainly / Understood
+
+412
+00:19:53,531 --> 00:19:56,398
+Listening Test
+
+413
+00:19:56,398 --> 00:19:59,698
+A new account, correct?
+
+414
+00:19:59,698 --> 00:20:04,255
+new = 新(あたら)しい ↔ old = 古(ふる)い
+
+415
+00:20:04,278 --> 00:20:07,311
+Listening Test
+
+416
+00:20:07,311 --> 00:20:10,811
+Yes, that's right.
+
+417
+00:20:15,668 --> 00:20:19,401
+Listening Test
+
+418
+00:20:19,401 --> 00:20:23,834
+Do you currently reside in Japan?
+
+419
+00:20:23,834 --> 00:20:29,868
+お + N = respectful prefix
+customer = お客様(きゃくさま)
+residence = お住(す)まい
+
+420
+00:20:29,891 --> 00:20:32,163
+Yes, I do.
+
+421
+00:20:32,186 --> 00:20:35,553
+Listening Test
+
+422
+00:20:35,553 --> 00:20:39,486
+I've been living in Tokyo since last month.
+
+423
+00:20:39,486 --> 00:20:44,919
+from N = N + から
+last month = 先月(せんげつ) ↔ this month = 今月(こんげつ)
+
+424
+00:20:44,942 --> 00:20:48,120
+Listening Test
+
+425
+00:20:48,120 --> 00:20:51,825
+Are you employed?
+
+426
+00:20:51,825 --> 00:20:56,925
+Are you doing...? = Vていますか
+work / job = お仕事(しごと)
+
+427
+00:20:56,948 --> 00:20:59,015
+Yes, I do.
+
+428
+00:20:59,038 --> 00:21:01,138
+Listening Test
+
+429
+00:21:01,138 --> 00:21:03,472
+Yes, I'm a company employee.
+
+430
+00:21:03,472 --> 00:21:06,738
+I am N / It is N = N + です
+office worker = 会社員(かいしゃいん)
+
+431
+00:21:06,761 --> 00:21:09,195
+Listening Test
+
+432
+00:21:09,195 --> 00:21:11,973
+Got it.
+
+433
+00:21:15,862 --> 00:21:20,730
+Listening Test
+
+434
+00:21:20,730 --> 00:21:26,564
+To open an account, you'll need an ID.
+
+435
+00:21:26,564 --> 00:21:34,472
+N is necessary = N + が必要(ひつよう)です
+opening (an account) = 開設(かいせつ)
+identification document = 身分証明書(みぶんしょうめいしょ)
+
+436
+00:21:34,496 --> 00:21:37,996
+Listening Test
+
+437
+00:21:37,996 --> 00:21:42,096
+An ID?
+
+438
+00:21:42,096 --> 00:21:47,729
+Is it N? = N + ですか
+
+439
+00:21:47,752 --> 00:21:49,552
+Yes, I do.
+
+440
+00:21:49,575 --> 00:21:53,475
+Listening Test
+
+441
+00:21:53,475 --> 00:21:58,108
+Do you have your residence card or passport?
+
+442
+00:21:58,108 --> 00:22:04,408
+N1 and N2 = N1 + や + N2
+residence card = 在留(ざいりゅう)カード
+
+443
+00:22:04,431 --> 00:22:06,189
+Yes, I do.
+
+444
+00:22:06,213 --> 00:22:09,361
+Listening Test
+
+445
+00:22:09,361 --> 00:22:13,061
+I have my residence card.
+
+446
+00:22:13,061 --> 00:22:18,129
+have / be holding = Vています
+to have / to hold = 持(も)つ
+
+447
+00:22:18,152 --> 00:22:20,252
+Listening Test
+
+448
+00:22:20,252 --> 00:22:22,619
+Thank you.
+
+449
+00:22:25,942 --> 00:22:29,453
+Listening Test
+
+450
+00:22:29,453 --> 00:22:33,568
+May I see it, please?
+
+451
+00:22:33,568 --> 00:22:39,235
+Vてください = Please show me...
+
+452
+00:22:39,258 --> 00:22:41,124
+Yes, I do.
+
+453
+00:22:41,147 --> 00:22:43,181
+Here you go.
+
+454
+00:22:43,204 --> 00:22:45,516
+Listening Test
+
+455
+00:22:45,516 --> 00:22:48,149
+I'll verify it now.
+
+456
+00:22:48,149 --> 00:22:51,816
+Vいたします = (Humble form) I will check / confirm
+
+457
+00:22:51,839 --> 00:22:55,205
+Listening Test
+
+458
+00:22:55,205 --> 00:22:59,141
+Do you have your My Number Card?
+
+459
+00:22:59,141 --> 00:23:04,540
+N + はありますか = Do you have (N)? (e.g., Do you have an Individual Number Card?)
+
+460
+00:23:04,564 --> 00:23:08,076
+Listening Test
+
+461
+00:23:08,076 --> 00:23:12,195
+I don't have my My Number Card yet.
+
+462
+00:23:12,195 --> 00:23:17,861
+まだ + Vません = Haven’t done (V) yet (e.g., I haven’t done it yet)
+
+463
+00:23:17,884 --> 00:23:20,151
+Listening Test
+
+464
+00:23:20,151 --> 00:23:22,706
+I see.
+
+465
+00:23:26,320 --> 00:23:30,022
+Listening Test
+
+466
+00:23:30,022 --> 00:23:34,379
+Do you have any documents with your My Number on them?
+
+467
+00:23:34,379 --> 00:23:40,412
+V + N = (Verb) the (N) (e.g., Fill out the document)
+
+468
+00:23:40,435 --> 00:23:43,469
+Listening Test
+
+469
+00:23:43,469 --> 00:23:46,969
+I have my residence record.
+
+470
+00:23:46,969 --> 00:23:51,765
+N + なら = If it’s (N) (e.g., If it’s a certificate of residence)
+
+471
+00:23:51,788 --> 00:23:53,888
+Listening Test
+
+472
+00:23:53,888 --> 00:23:56,230
+Thank you.
+
+473
+00:23:59,553 --> 00:24:02,653
+Listening Test
+
+474
+00:24:02,653 --> 00:24:06,245
+Your residence record will do, thank you.
+
+475
+00:24:06,245 --> 00:24:11,224
+N + もお願(ねが)いします = (N) as well, please
+
+476
+00:24:11,248 --> 00:24:14,224
+Listening Test
+
+477
+00:24:14,224 --> 00:24:17,696
+Here it is.
+
+478
+00:24:22,506 --> 00:24:24,642
+Listening Test
+
+479
+00:24:24,642 --> 00:24:27,075
+I've confirmed it.
+
+480
+00:24:30,473 --> 00:24:34,240
+Listening Test
+
+481
+00:24:34,240 --> 00:24:38,673
+Do you have a personal seal with you?
+
+482
+00:24:38,673 --> 00:24:44,743
+ご + N = (Polite prefix) (e.g., Next, your personal seal, please)
+
+483
+00:24:44,767 --> 00:24:47,667
+Listening Test
+
+484
+00:24:47,667 --> 00:24:51,003
+I don't have a seal.
+
+485
+00:24:51,003 --> 00:24:55,636
+N + はありません = I/We do not have (N)
+
+486
+00:24:55,659 --> 00:24:58,597
+Listening Test
+
+487
+00:24:58,597 --> 00:25:02,030
+A signature is fine.
+
+488
+00:25:02,030 --> 00:25:06,735
+N + でも大丈夫(だいじょうぶ)です = (N) is also fine (e.g., A signature is also okay)
+
+489
+00:25:06,759 --> 00:25:09,145
+Listening Test
+
+490
+00:25:09,145 --> 00:25:11,858
+That's a relief.
+
+491
+00:25:11,858 --> 00:25:15,655
+いAかった = Was (adjective) (e.g., I’m glad)
+
+492
+00:25:15,678 --> 00:25:20,945
+Listening Test
+
+493
+00:25:20,945 --> 00:25:27,245
+Please write your name and address on this form.
+
+494
+00:25:27,245 --> 00:25:35,797
+Vてください = Please fill out the form with your address
+
+495
+00:25:35,820 --> 00:25:38,454
+Listening Test
+
+496
+00:25:38,454 --> 00:25:41,487
+Should I write it in kanji?
+
+497
+00:25:41,487 --> 00:25:45,663
+N + で = In/Using (N) (e.g., in kanji)
+
+498
+00:25:45,687 --> 00:25:48,633
+Listening Test
+
+499
+00:25:48,633 --> 00:25:52,066
+Roman letters are fine.
+
+500
+00:25:52,066 --> 00:25:56,767
+N + でもいい = (N) is also fine (e.g., Romaji is also fine)
+
+501
+00:25:56,790 --> 00:25:58,926
+Listening Test
+
+502
+00:25:58,926 --> 00:26:01,359
+Got it.
+
+503
+00:26:04,749 --> 00:26:07,225
+Listening Test
+
+504
+00:26:07,225 --> 00:26:10,058
+I'll fill it out now.
+
+505
+00:26:10,058 --> 00:26:13,992
+N + から = From (N) (e.g., from now)
+
+506
+00:26:14,014 --> 00:26:17,486
+Listening Test
+
+507
+00:26:17,486 --> 00:26:21,586
+If you have any questions, just let me know.
+
+508
+00:26:21,586 --> 00:26:27,184
+Vたら = If/When you (V) (e.g., If you ask...)
+
+509
+00:26:27,208 --> 00:26:30,775
+Listening Test
+
+510
+00:26:30,775 --> 00:26:34,953
+Okay, thank you.
+
+511
+00:26:40,709 --> 00:26:42,209
+Scene 2: Preparing to Open an Account
+
+512
+00:26:42,209 --> 00:26:44,599
+Listening Test
+
+513
+00:26:44,599 --> 00:26:47,333
+Welcome.
+
+514
+00:26:51,189 --> 00:26:54,575
+Listening Test
+
+515
+00:26:54,575 --> 00:26:58,542
+How may I assist you today?
+
+516
+00:26:58,542 --> 00:27:04,008
+何(なん)でしょうか = What can I help you with? / What is it regarding?
+
+517
+00:27:04,031 --> 00:27:06,065
+Listening Test
+
+518
+00:27:06,065 --> 00:27:08,298
+Excuse me.
+
+519
+00:27:11,469 --> 00:27:14,502
+Listening Test
+
+520
+00:27:14,502 --> 00:27:18,002
+I'd like to open a bank account.
+
+521
+00:27:18,002 --> 00:27:22,836
+Vたいです = I want to (V) (e.g., I want to open a bank account)
+
+522
+00:27:22,859 --> 00:27:25,292
+Listening Test
+
+523
+00:27:25,292 --> 00:27:28,044
+Thank you.
+
+524
+00:27:31,904 --> 00:27:35,404
+Listening Test
+
+525
+00:27:35,404 --> 00:27:39,504
+Would you like to complete the procedure today?
+
+526
+00:27:39,504 --> 00:27:45,138
+N + を しますか = Are you here for (N)? (e.g., Are you here for the procedure?)
+
+527
+00:27:45,161 --> 00:27:50,461
+Listening Test
+
+528
+00:27:50,461 --> 00:27:56,796
+No, I just came to ask what documents I need.
+
+529
+00:27:56,796 --> 00:28:05,395
+V に 来(き)ました = I came to (V) (e.g., I came because I need to...)
+
+530
+00:28:05,418 --> 00:28:07,788
+Listening Test
+
+531
+00:28:07,788 --> 00:28:10,488
+Understood.
+
+532
+00:28:14,258 --> 00:28:18,325
+Listening Test
+
+533
+00:28:18,325 --> 00:28:23,158
+First, you'll need your residence card.
+
+534
+00:28:23,158 --> 00:28:29,730
+N + が 必要(ひつよう)です = I/You need (N) (e.g., You need a residence card)
+
+535
+00:28:29,754 --> 00:28:32,587
+Listening Test
+
+536
+00:28:32,587 --> 00:28:35,854
+My residence card, right?
+
+537
+00:28:35,854 --> 00:28:40,371
+N + ですね = It’s (N), right?
+
+538
+00:28:40,394 --> 00:28:42,694
+Listening Test
+
+539
+00:28:42,694 --> 00:28:45,328
+Yes, I have it.
+
+540
+00:28:45,328 --> 00:28:48,961
+Vています = I/You have (e.g., I have it with me)
+
+541
+00:28:48,984 --> 00:28:52,951
+Listening Test
+
+542
+00:28:52,951 --> 00:28:57,651
+And you'll also need your personal seal.
+
+543
+00:28:57,651 --> 00:29:04,084
+N + も 必要(ひつよう)です = You also need (N) (e.g., You also need a personal seal)
+
+544
+00:29:04,107 --> 00:29:06,481
+Listening Test
+
+545
+00:29:06,481 --> 00:29:09,187
+A personal seal?
+
+546
+00:29:09,187 --> 00:29:12,957
+Is it N? = N + ですか
+
+547
+00:29:12,981 --> 00:29:14,947
+Yes, I do.
+
+548
+00:29:14,970 --> 00:29:18,270
+Listening Test
+
+549
+00:29:18,270 --> 00:29:22,104
+Your personal stamp, yes.
+
+550
+00:29:22,104 --> 00:29:27,379
+N1 の N2 = (N2) of (N1) (e.g., A seal (≈ personal seal))
+
+551
+00:29:27,402 --> 00:29:30,235
+Listening Test
+
+552
+00:29:30,235 --> 00:29:33,502
+Is a stamp pad seal okay?
+
+553
+00:29:33,502 --> 00:29:38,016
+N + でもいいですか = Is (N) okay? (e.g., Is a self-inking stamp okay?)
+
+554
+00:29:38,040 --> 00:29:40,406
+Listening Test
+
+555
+00:29:40,406 --> 00:29:43,106
+Excuse me.
+
+556
+00:29:46,871 --> 00:29:49,785
+Listening Test
+
+557
+00:29:49,785 --> 00:29:53,151
+No, stamp pad seals aren't accepted.
+
+558
+00:29:53,151 --> 00:29:57,818
+N + は だめです = (N) is not allowed
+
+559
+00:29:57,841 --> 00:30:00,035
+Listening Test
+
+560
+00:30:00,035 --> 00:30:02,507
+I see.
+
+561
+00:30:05,998 --> 00:30:08,898
+Listening Test
+
+562
+00:30:08,898 --> 00:30:12,236
+So, a regular personal seal, then.
+
+563
+00:30:12,236 --> 00:30:16,870
+普通(ふつう)の + N = A regular (N) (e.g., a regular seal)
+
+564
+00:30:16,893 --> 00:30:18,793
+Yes, I do.
+
+565
+00:30:18,816 --> 00:30:23,116
+Listening Test
+
+566
+00:30:23,116 --> 00:30:28,216
+You'll also need your My Number Card.
+
+567
+00:30:28,216 --> 00:30:35,167
+あとは = Besides that, (e.g., Besides that, do you have your Individual Number Card?)
+
+568
+00:30:35,190 --> 00:30:38,257
+Listening Test
+
+569
+00:30:38,257 --> 00:30:41,811
+My Number Card, right.
+
+570
+00:30:41,811 --> 00:30:46,711
+N + ですね = (N), right?
+
+571
+00:30:46,734 --> 00:30:48,640
+Yes, I do.
+
+572
+00:30:48,663 --> 00:30:51,130
+Listening Test
+
+573
+00:30:51,130 --> 00:30:53,913
+Do you have it with you?
+
+574
+00:30:53,913 --> 00:30:57,779
+Vていますか = Do you have...?
+
+575
+00:30:57,802 --> 00:30:59,746
+Yes, I do.
+
+576
+00:30:59,770 --> 00:31:01,684
+Listening Test
+
+577
+00:31:01,684 --> 00:31:03,820
+Yes, I have it.
+
+578
+00:31:03,820 --> 00:31:06,853
+Vています = I/You have (e.g., I have it)
+
+579
+00:31:06,876 --> 00:31:09,620
+Listening Test
+
+580
+00:31:09,620 --> 00:31:12,776
+Yes, that's fine.
+
+581
+00:31:12,776 --> 00:31:17,153
+それなら = In that case...
+
+582
+00:31:17,176 --> 00:31:20,164
+Listening Test
+
+583
+00:31:20,164 --> 00:31:23,637
+Do I need my passport too?
+
+584
+00:31:23,637 --> 00:31:28,426
+N + も 必要(ひつよう)ですか = Do you also need (N)? (e.g., Do you also need your passport?)
+
+585
+00:31:28,449 --> 00:31:32,225
+Listening Test
+
+586
+00:31:32,225 --> 00:31:36,692
+No, you don't need your passport.
+
+587
+00:31:36,692 --> 00:31:42,792
+N + は 要(い)りません = You don’t need (N)
+
+588
+00:31:42,815 --> 00:31:45,329
+Listening Test
+
+589
+00:31:45,329 --> 00:31:48,195
+Got it.
+
+590
+00:31:52,194 --> 00:31:56,227
+Listening Test
+
+591
+00:31:56,227 --> 00:32:00,994
+You'll also need to deposit a small amount of money upfront.
+
+592
+00:32:00,994 --> 00:32:07,496
+V + N = (N) that you (V) (e.g., The first document)
+
+593
+00:32:07,520 --> 00:32:09,502
+Listening Test
+
+594
+00:32:09,502 --> 00:32:11,735
+How much?
+
+595
+00:32:11,735 --> 00:32:14,845
+いくらですか = How much is it?
+
+596
+00:32:14,868 --> 00:32:18,168
+Listening Test
+
+597
+00:32:18,168 --> 00:32:22,001
+Around 1,000 yen will do.
+
+598
+00:32:22,001 --> 00:32:27,271
+N + くらいでいいです = About (N) is fine (e.g., About this much is fine)
+
+599
+00:32:27,295 --> 00:32:29,439
+Listening Test
+
+600
+00:32:29,439 --> 00:32:31,872
+Got it.
+
+601
+00:32:35,276 --> 00:32:38,612
+Listening Test
+
+602
+00:32:38,612 --> 00:32:42,528
+The process will take some time.
+
+603
+00:32:42,528 --> 00:32:47,896
+時間(じかん)がかかります = It takes time
+
+604
+00:32:47,919 --> 00:32:50,753
+Listening Test
+
+605
+00:32:50,753 --> 00:32:53,986
+How long will it take?
+
+606
+00:32:53,986 --> 00:32:58,486
+どのくらい かかりますか = How long will it take?
+
+607
+00:32:58,509 --> 00:33:01,497
+Listening Test
+
+608
+00:33:01,497 --> 00:33:04,964
+About an hour.
+
+609
+00:33:04,964 --> 00:33:09,735
+N + くらい かかります = It takes about (N) (e.g., It takes about one hour)
+
+610
+00:33:09,758 --> 00:33:12,025
+Listening Test
+
+611
+00:33:12,025 --> 00:33:14,558
+Got it.
+
+612
+00:33:18,124 --> 00:33:20,757
+Listening Test
+
+613
+00:33:20,757 --> 00:33:23,748
+I'll come back tomorrow.
+
+614
+00:33:23,748 --> 00:33:27,915
+また + Vます = (V) again (e.g., See you tomorrow)
+
+615
+00:33:27,938 --> 00:33:30,371
+Listening Test
+
+616
+00:33:30,371 --> 00:33:33,123
+We look forward to seeing you then.
+
+617
+00:33:33,123 --> 00:33:36,956
+お待(ま)ちしております = I/We look forward to seeing you
+
+618
+00:33:36,979 --> 00:33:39,646
+Listening Test
+
+619
+00:33:39,646 --> 00:33:42,679
+Thank you.
+
+620
+00:33:46,936 --> 00:33:48,436
+Scene 3: Teaching How to Fill Out Forms / How to Fill Out Forms in Japanese
+
+621
+00:33:48,436 --> 00:33:51,502
+Listening Test
+
+622
+00:33:51,502 --> 00:33:55,050
+Thank you for waiting.
+
+623
+00:33:55,050 --> 00:33:59,953
+お待(ま)たせする = To keep you waiting
+
+624
+00:33:59,977 --> 00:34:05,310
+Listening Test
+
+625
+00:34:05,310 --> 00:34:11,699
+Excuse me, could you show me how to fill out this form?
+
+626
+00:34:11,699 --> 00:34:20,399
+Vstem + 方(かた) = How to (V) (e.g., How to fill out the form)
+
+627
+00:34:20,422 --> 00:34:24,588
+Listening Test
+
+628
+00:34:24,588 --> 00:34:29,525
+Of course, what part don't you understand?
+
+629
+00:34:29,525 --> 00:34:36,268
+どこ + が + V = Where/Which part (do you mean)?
+
+630
+00:34:36,292 --> 00:34:39,525
+Listening Test
+
+631
+00:34:39,525 --> 00:34:43,259
+Right here, the name section.
+
+632
+00:34:43,259 --> 00:34:48,399
+N + です = It is (N) (e.g., It’s my name)
+
+633
+00:34:48,422 --> 00:34:51,300
+Listening Test
+
+634
+00:34:51,300 --> 00:34:54,634
+Your name, yes.
+
+635
+00:34:54,634 --> 00:34:59,267
+N + ですね = It’s (N), right?
+
+636
+00:34:59,290 --> 00:35:02,274
+Listening Test
+
+637
+00:35:02,274 --> 00:35:05,753
+Should I write it in kanji?
+
+638
+00:35:05,753 --> 00:35:10,522
+N + で = In/With (N) (e.g., in kanji)
+
+639
+00:35:10,546 --> 00:35:13,313
+Listening Test
+
+640
+00:35:13,313 --> 00:35:16,491
+Or in romaji?
+
+641
+00:35:16,491 --> 00:35:20,886
+N + で = In/With (N) (e.g., in romaji)
+
+642
+00:35:20,909 --> 00:35:25,409
+Listening Test
+
+643
+00:35:25,409 --> 00:35:30,744
+Please write it the same way as on your residence card.
+
+644
+00:35:30,744 --> 00:35:38,024
+N + と + 同じように = in the same way as N
+Residence Card = residence card
+Same (同じ) ↔ Different (違う)
+
+645
+00:35:38,047 --> 00:35:40,681
+Listening Test
+
+646
+00:35:40,681 --> 00:35:43,661
+In romaji, then.
+
+647
+00:35:43,661 --> 00:35:47,809
+N + ですね = It’s (N), right?
+
+648
+00:35:47,832 --> 00:35:50,204
+Listening Test
+
+649
+00:35:50,204 --> 00:35:52,904
+Got it.
+
+650
+00:35:56,697 --> 00:36:00,891
+Listening Test
+
+651
+00:36:00,891 --> 00:36:05,864
+And please write your furigana in the space above.
+
+652
+00:36:05,864 --> 00:36:12,697
+Vて + ください = please do...
+Top/Above (上) ↔ Bottom/Below (下)
+Column/Field = column, field
+
+653
+00:36:12,720 --> 00:36:16,718
+Listening Test
+
+654
+00:36:16,718 --> 00:36:21,452
+Furigana in katakana?
+
+655
+00:36:21,452 --> 00:36:27,918
+N1 + は + N2 + ですか = Is N1 N2?
+Furigana = furigana (reading in kana)
+
+656
+00:36:27,941 --> 00:36:32,335
+Listening Test
+
+657
+00:36:32,335 --> 00:36:37,573
+Yes, in katakana, please.
+
+658
+00:36:37,573 --> 00:36:44,687
+N + をお願いします = N, please
+Katakana = katakana
+
+659
+00:36:44,711 --> 00:36:47,144
+Listening Test
+
+660
+00:36:47,144 --> 00:36:49,877
+Got it.
+
+661
+00:36:53,734 --> 00:36:57,290
+Listening Test
+
+662
+00:36:57,290 --> 00:37:01,471
+Next is your address.
+
+663
+00:37:01,471 --> 00:37:07,205
+次は + N = next is N
+Address = address
+
+664
+00:37:07,228 --> 00:37:10,462
+Listening Test
+
+665
+00:37:10,462 --> 00:37:14,216
+My address is so long.
+
+666
+00:37:14,216 --> 00:37:19,359
+い-adjective + です = is...
+Long (長い) ↔ Short (短い)
+
+667
+00:37:19,382 --> 00:37:23,282
+Listening Test
+
+668
+00:37:23,282 --> 00:37:27,865
+You can write it across two lines if you'd like.
+
+669
+00:37:27,865 --> 00:37:34,165
+Vて + もいい = may do... / can do...
+Line (of text) = line
+To divide/split = to divide, to split
+
+670
+00:37:34,188 --> 00:37:37,904
+Listening Test
+
+671
+00:37:37,904 --> 00:37:42,281
+Should I include my apartment name too?
+
+672
+00:37:42,281 --> 00:37:48,315
+N + も = also / too
+Apartment building/Condominium = apartment building, condominium
+
+673
+00:37:48,338 --> 00:37:52,410
+Listening Test
+
+674
+00:37:52,410 --> 00:37:57,243
+Yes, and your room number as well, please.
+
+675
+00:37:57,243 --> 00:38:03,824
+Vて + ください = please do...
+Room = room
+Number = number
+
+676
+00:38:03,847 --> 00:38:06,747
+Listening Test
+
+677
+00:38:06,747 --> 00:38:10,082
+Okay, I've written it.
+
+678
+00:38:10,082 --> 00:38:14,716
+Vました = did / have done
+
+679
+00:38:14,739 --> 00:38:18,172
+Listening Test
+
+680
+00:38:18,172 --> 00:38:22,171
+Next is your phone number.
+
+681
+00:38:22,171 --> 00:38:27,678
+次は + N = next is N
+Telephone number = telephone number
+
+682
+00:38:27,702 --> 00:38:31,888
+Listening Test
+
+683
+00:38:31,888 --> 00:38:36,856
+Is my mobile number okay?
+
+684
+00:38:36,856 --> 00:38:43,650
+N + でもいいですか = Is N okay?
+Mobile phone/Cell phone = mobile phone, cell phone
+
+685
+00:38:43,674 --> 00:38:47,662
+Listening Test
+
+686
+00:38:47,662 --> 00:38:52,395
+Yes, that's fine.
+
+687
+00:38:52,395 --> 00:38:58,864
+大丈夫 = okay, all right
+
+688
+00:38:58,887 --> 00:39:02,157
+Listening Test
+
+689
+00:39:02,157 --> 00:39:05,991
+Next is your PIN.
+
+690
+00:39:05,991 --> 00:39:11,261
+次は + N + ですね = next is N, right?
+PIN/Secret code = PIN, secret code
+
+691
+00:39:11,285 --> 00:39:15,785
+Listening Test
+
+692
+00:39:15,785 --> 00:39:21,137
+Yes, please choose four numbers.
+
+693
+00:39:21,137 --> 00:39:28,437
+Vて + ください = please do...
+Number/Digit = number, digit
+To decide = to decide
+
+694
+00:39:28,460 --> 00:39:31,360
+Listening Test
+
+695
+00:39:31,360 --> 00:39:34,719
+Can I use my birthday?
+
+696
+00:39:34,719 --> 00:39:39,385
+N + でもいいですか = Is N okay?
+Birthday = birthday
+
+697
+00:39:39,408 --> 00:39:42,842
+Listening Test
+
+698
+00:39:42,842 --> 00:39:46,875
+No, birthdays aren't allowed.
+
+699
+00:39:46,875 --> 00:39:52,378
+N + は + だめです = N is not okay / not allowed
+Not allowed = no good, not allowed
+
+700
+00:39:52,401 --> 00:39:54,957
+Listening Test
+
+701
+00:39:54,957 --> 00:39:57,890
+Got it.
+
+702
+00:40:01,980 --> 00:40:04,772
+Listening Test
+
+703
+00:40:04,772 --> 00:40:08,005
+I'll pick different numbers.
+
+704
+00:40:08,005 --> 00:40:12,472
+N + に + します = decide on N / choose N
+Other/Another = other, another
+
+705
+00:40:12,496 --> 00:40:16,370
+Listening Test
+
+706
+00:40:16,370 --> 00:40:20,945
+Please write it carefully so you don't make a mistake.
+
+707
+00:40:20,945 --> 00:40:27,223
+Vない + ように = so as not to do...
+To make a mistake = to make a mistake
+
+708
+00:40:27,247 --> 00:40:30,280
+Listening Test
+
+709
+00:40:30,280 --> 00:40:33,814
+Okay, I've written it.
+
+710
+00:40:33,814 --> 00:40:38,680
+Vました = did / have done
+
+711
+00:40:38,703 --> 00:40:43,837
+Listening Test
+
+712
+00:40:43,837 --> 00:40:49,985
+Finally, please stamp your seal here.
+
+713
+00:40:49,985 --> 00:40:58,351
+最後に = at the end / finally
+Last (最後) ↔ First (最初)
+Personal seal/Stamp = personal seal, stamp
+
+714
+00:40:58,374 --> 00:41:00,554
+Listening Test
+
+715
+00:41:00,554 --> 00:41:03,021
+Got it.
+
+716
+00:41:06,511 --> 00:41:09,149
+Listening Test
+
+717
+00:41:09,149 --> 00:41:12,184
+Thank you.
+
+718
+00:41:16,440 --> 00:41:17,940
+Scene 4: Borrowing Pens and Color Rules
+
+719
+00:41:17,940 --> 00:41:20,456
+Listening Test
+
+720
+00:41:20,456 --> 00:41:23,323
+Welcome.
+
+721
+00:41:27,323 --> 00:41:31,503
+Listening Test
+
+722
+00:41:31,503 --> 00:41:36,470
+Excuse me, could I borrow a ballpoint pen?
+
+723
+00:41:36,470 --> 00:41:43,254
+Vてください = please do...
+To lend (貸す) ↔ To borrow (借りる)
+
+724
+00:41:43,277 --> 00:41:46,377
+Listening Test
+
+725
+00:41:46,377 --> 00:41:50,010
+Sure, what seems to be the problem?
+
+726
+00:41:50,010 --> 00:41:54,980
+どうしましたか = What happened?
+
+727
+00:41:55,004 --> 00:41:58,237
+Listening Test
+
+728
+00:41:58,237 --> 00:42:01,986
+My pen isn’t working.
+
+729
+00:42:01,986 --> 00:42:07,153
+Vません = do not / will not...
+To come out / work = come out / work
+
+730
+00:42:07,176 --> 00:42:09,309
+Listening Test
+
+731
+00:42:09,309 --> 00:42:11,695
+I see.
+
+732
+00:42:15,074 --> 00:42:18,174
+Listening Test
+
+733
+00:42:18,174 --> 00:42:21,763
+Here, you can use this one.
+
+734
+00:42:21,763 --> 00:42:26,697
+どうぞ = Please / Here you go
+
+735
+00:42:26,720 --> 00:42:28,830
+Listening Test
+
+736
+00:42:28,830 --> 00:42:31,209
+Thank you.
+
+737
+00:42:34,538 --> 00:42:39,172
+Listening Test
+
+738
+00:42:39,172 --> 00:42:44,672
+Please fill out the bank forms using a black pen.
+
+739
+00:42:44,672 --> 00:42:52,138
+Nで + V = V with / using N
+Document = document
+
+740
+00:42:52,161 --> 00:42:55,128
+Listening Test
+
+741
+00:42:55,128 --> 00:42:58,595
+Is this pen black?
+
+742
+00:42:58,595 --> 00:43:03,339
+N + ですか = Is it N?
+Black (黒) ↔ White (白)
+
+743
+00:43:03,362 --> 00:43:06,629
+Listening Test
+
+744
+00:43:06,629 --> 00:43:10,462
+Yes, it’s black.
+
+745
+00:43:10,462 --> 00:43:15,729
+黒色 = black color
+
+746
+00:43:15,752 --> 00:43:18,706
+Listening Test
+
+747
+00:43:18,706 --> 00:43:22,139
+Would a blue pen be okay?
+
+748
+00:43:22,139 --> 00:43:26,885
+Nでもいいですか = Is N okay?
+Blue = blue
+
+749
+00:43:26,909 --> 00:43:29,945
+Listening Test
+
+750
+00:43:29,945 --> 00:43:33,478
+Blue pens are not allowed.
+
+751
+00:43:33,478 --> 00:43:38,345
+Nはだめです = N is not allowed
+
+752
+00:43:38,368 --> 00:43:40,566
+Listening Test
+
+753
+00:43:40,566 --> 00:43:43,043
+Got it.
+
+754
+00:43:46,532 --> 00:43:49,666
+Listening Test
+
+755
+00:43:49,666 --> 00:43:53,332
+Please do not use pencils either.
+
+756
+00:43:53,332 --> 00:43:58,399
+Vないでください = please do not...
+Pencil = pencil
+
+757
+00:43:58,422 --> 00:44:02,156
+Listening Test
+
+758
+00:44:02,156 --> 00:44:06,550
+Got it, I’ll write with a ballpoint pen.
+
+759
+00:44:06,550 --> 00:44:12,588
+Nで + V = V with N
+To write = write
+
+760
+00:44:12,611 --> 00:44:15,955
+Listening Test
+
+761
+00:44:15,955 --> 00:44:19,856
+Erasable pens are also not permitted.
+
+762
+00:44:19,856 --> 00:44:25,223
+Vことができる = can do...
+To erase (消す) ↔ To write (書く)
+
+763
+00:44:25,246 --> 00:44:27,280
+Listening Test
+
+764
+00:44:27,280 --> 00:44:29,547
+Got it.
+
+765
+00:44:32,803 --> 00:44:36,270
+Listening Test
+
+766
+00:44:36,270 --> 00:44:40,337
+What should I do if I make a mistake?
+
+767
+00:44:40,337 --> 00:44:45,918
+Vた + とき = when / if V-ed
+To make a mistake = make a mistake
+
+768
+00:44:45,941 --> 00:44:49,374
+Listening Test
+
+769
+00:44:49,374 --> 00:44:53,364
+Should I rewrite it on a new sheet?
+
+770
+00:44:53,364 --> 00:44:58,864
+い-adjective + N = [adjective] N
+New (新しい) ↔ Old (古い)
+
+771
+00:44:58,887 --> 00:45:02,754
+Listening Test
+
+772
+00:45:02,754 --> 00:45:07,320
+No, just draw a double line through it.
+
+773
+00:45:07,320 --> 00:45:13,587
+Vてください = please do...
+Double line = double line
+
+774
+00:45:13,610 --> 00:45:16,126
+Listening Test
+
+775
+00:45:16,126 --> 00:45:18,996
+A double line?
+
+776
+00:45:18,996 --> 00:45:22,976
+Is it N? = N + ですか
+
+777
+00:45:22,999 --> 00:45:24,907
+Yes, I do.
+
+778
+00:45:24,931 --> 00:45:29,313
+Listening Test
+
+779
+00:45:29,313 --> 00:45:34,507
+Then, stamp your seal over it.
+
+780
+00:45:34,507 --> 00:45:41,607
+そして = and then
+Personal seal/Stamp = personal seal / stamp
+
+781
+00:45:41,630 --> 00:45:45,130
+Listening Test
+
+782
+00:45:45,130 --> 00:45:49,237
+Is correction tape allowed?
+
+783
+00:45:49,237 --> 00:45:54,870
+Vてもいいですか = May I do...?
+Correction tape = correction tape
+
+784
+00:45:54,893 --> 00:45:58,526
+Listening Test
+
+785
+00:45:58,526 --> 00:46:02,794
+Please do not use correction tape.
+
+786
+00:46:02,794 --> 00:46:08,661
+Vないでください = please do not...
+Correction tape = correction tape
+
+787
+00:46:08,684 --> 00:46:11,151
+Listening Test
+
+788
+00:46:11,151 --> 00:46:13,984
+Got it.
+
+789
+00:46:17,908 --> 00:46:20,141
+Listening Test
+
+790
+00:46:20,141 --> 00:46:22,618
+I’ll be careful.
+
+791
+00:46:22,618 --> 00:46:26,118
+気をつける = be careful
+
+792
+00:46:26,141 --> 00:46:29,608
+Listening Test
+
+793
+00:46:29,608 --> 00:46:33,647
+Please fill out the forms at that desk over there.
+
+794
+00:46:33,647 --> 00:46:39,194
+Nで + V = V at N
+Desk = desk
+
+795
+00:46:39,217 --> 00:46:41,291
+Yes, I do.
+
+796
+00:46:41,314 --> 00:46:44,581
+Listening Test
+
+797
+00:46:44,581 --> 00:46:48,372
+Where should I go after I’m done writing?
+
+798
+00:46:48,372 --> 00:46:53,605
+Vたら = when / after V-ing
+To finish writing = finish writing
+
+799
+00:46:53,628 --> 00:46:56,662
+Listening Test
+
+800
+00:46:56,662 --> 00:47:00,140
+Please come back here.
+
+801
+00:47:00,140 --> 00:47:04,973
+Nへ + 来てください = please come to N
+Here (こちら) ↔ There (あちら)
+
+802
+00:47:04,996 --> 00:47:07,168
+Listening Test
+
+803
+00:47:07,168 --> 00:47:09,635
+Got it.
+
+804
+00:47:13,091 --> 00:47:16,958
+Listening Test
+
+805
+00:47:16,958 --> 00:47:21,491
+If you have any questions, just ask.
+
+806
+00:47:21,491 --> 00:47:27,724
+Vたら = if / when...
+To ask = ask
+
+807
+00:47:27,747 --> 00:47:30,851
+Listening Test
+
+808
+00:47:30,851 --> 00:47:34,484
+Okay, that’s very helpful.
+
+809
+00:47:34,484 --> 00:47:39,465
+助かります = That helps a lot!
+
+810
+00:47:39,489 --> 00:47:40,989
+Scene 5: How to Use an ATM
+
+811
+00:47:40,989 --> 00:47:43,761
+Listening Test
+
+812
+00:47:43,761 --> 00:47:46,957
+Welcome.
+
+813
+00:47:51,413 --> 00:47:53,449
+Listening Test
+
+814
+00:47:53,449 --> 00:47:55,721
+Excuse me.
+
+815
+00:47:58,937 --> 00:48:02,239
+Listening Test
+
+816
+00:48:02,239 --> 00:48:06,105
+I’d like to withdraw some money.
+
+817
+00:48:11,433 --> 00:48:14,566
+Listening Test
+
+818
+00:48:14,566 --> 00:48:18,233
+Do you have your cash card with you?
+
+819
+00:48:23,289 --> 00:48:26,359
+Listening Test
+
+820
+00:48:26,359 --> 00:48:29,926
+Yes, I do.
+
+821
+00:48:34,882 --> 00:48:39,449
+Listening Test
+
+822
+00:48:39,449 --> 00:48:44,882
+In that case, you can use the ATM.
+
+823
+00:48:52,339 --> 00:48:56,107
+Listening Test
+
+824
+00:48:56,107 --> 00:49:00,573
+Where is the ATM located?
+
+825
+00:49:06,696 --> 00:49:10,246
+Listening Test
+
+826
+00:49:10,246 --> 00:49:14,414
+It’s outside this building.
+
+827
+00:49:20,171 --> 00:49:22,637
+Listening Test
+
+828
+00:49:22,637 --> 00:49:25,471
+Outside?
+
+829
+00:49:29,398 --> 00:49:31,631
+Yes, I do.
+
+830
+00:49:31,654 --> 00:49:35,322
+Listening Test
+
+831
+00:49:35,322 --> 00:49:39,656
+Go out that door and turn right.
+
+832
+00:49:45,612 --> 00:49:48,994
+Listening Test
+
+833
+00:49:48,994 --> 00:49:52,950
+Go out the door and turn right, got it.
+
+834
+00:49:58,440 --> 00:50:00,624
+Yes, I do.
+
+835
+00:50:00,647 --> 00:50:02,983
+Listening Test
+
+836
+00:50:02,983 --> 00:50:05,649
+You’ll see it right away.
+
+837
+00:50:09,376 --> 00:50:12,276
+Listening Test
+
+838
+00:50:12,276 --> 00:50:15,621
+Understood.
+
+839
+00:50:20,277 --> 00:50:24,311
+Listening Test
+
+840
+00:50:24,311 --> 00:50:29,059
+Do you know how to use the ATM?
+
+841
+00:50:35,582 --> 00:50:37,148
+Yes, I do.
+
+842
+00:50:37,171 --> 00:50:39,149
+Listening Test
+
+843
+00:50:39,149 --> 00:50:41,383
+I think so.
+
+844
+00:50:44,506 --> 00:50:47,572
+Listening Test
+
+845
+00:50:47,572 --> 00:50:51,122
+Is there an English menu available?
+
+846
+00:50:56,047 --> 00:50:58,014
+Yes, I do.
+
+847
+00:50:58,037 --> 00:51:01,103
+Listening Test
+
+848
+00:51:01,103 --> 00:51:04,650
+Yes, there’s an English screen option.
+
+849
+00:51:09,573 --> 00:51:12,331
+Listening Test
+
+850
+00:51:12,331 --> 00:51:15,506
+That’s convenient!
+
+851
+00:51:19,925 --> 00:51:23,799
+Listening Test
+
+852
+00:51:23,799 --> 00:51:28,371
+There are also Chinese and Korean options.
+
+853
+00:51:34,694 --> 00:51:37,008
+Listening Test
+
+854
+00:51:37,008 --> 00:51:39,642
+Got it.
+
+855
+00:51:43,331 --> 00:51:47,699
+Listening Test
+
+856
+00:51:47,699 --> 00:51:52,885
+Note that there may be a fee for withdrawals.
+
+857
+00:52:00,008 --> 00:52:02,376
+Listening Test
+
+858
+00:52:02,376 --> 00:52:05,076
+How much is the fee?
+
+859
+00:52:08,848 --> 00:52:12,444
+Listening Test
+
+860
+00:52:12,444 --> 00:52:16,678
+It’s free right now.
+
+861
+00:52:22,490 --> 00:52:25,392
+Listening Test
+
+862
+00:52:25,392 --> 00:52:28,748
+Is there a fee at night?
+
+863
+00:52:33,405 --> 00:52:35,705
+Yes, I do.
+
+864
+00:52:35,728 --> 00:52:39,596
+Listening Test
+
+865
+00:52:39,596 --> 00:52:44,172
+After 6 PM, there’s a 110 yen fee.
+
+866
+00:52:50,462 --> 00:52:54,216
+Listening Test
+
+867
+00:52:54,216 --> 00:52:58,649
+What about on Saturdays and Sundays?
+
+868
+00:53:04,739 --> 00:53:08,409
+Listening Test
+
+869
+00:53:08,409 --> 00:53:12,721
+Weekends also incur service fees.
+
+870
+00:53:18,644 --> 00:53:20,796
+Listening Test
+
+871
+00:53:20,796 --> 00:53:23,229
+Understood.
+
+872
+00:53:26,685 --> 00:53:29,119
+Listening Test
+
+873
+00:53:29,119 --> 00:53:31,872
+I'm heading there now.
+
+874
+00:53:35,728 --> 00:53:37,716
+Yes, I do.
+
+875
+00:53:37,739 --> 00:53:40,006
+Listening Test
+
+876
+00:53:40,006 --> 00:53:42,543
+Take care.
+
+877
+00:53:46,137 --> 00:53:48,270
+Listening Test
+
+878
+00:53:48,270 --> 00:53:50,653
+Thank you.
+
+879
+00:53:54,022 --> 00:53:57,692
+Listening Test
+
+880
+00:53:57,692 --> 00:54:02,003
+Feel free to ask if you need anything else.
+
+881
+00:54:07,936 --> 00:54:10,002
+Yes, I do.
+
+882
+00:54:10,025 --> 00:54:12,125
+Listening Test
+
+883
+00:54:12,125 --> 00:54:14,470
+Excuse me.
+
+884
+00:54:17,793 --> 00:54:19,293
+Scene 6: Bank Counter and ATM Operating Hours
+
+885
+00:54:19,293 --> 00:54:21,927
+Listening Test
+
+886
+00:54:21,927 --> 00:54:24,920
+Welcome.
+
+887
+00:54:24,920 --> 00:54:29,066
+いらっしゃいませ = Welcome
+
+888
+00:54:29,089 --> 00:54:31,793
+Listening Test
+
+889
+00:54:31,793 --> 00:54:34,905
+Excuse me.
+
+890
+00:54:39,231 --> 00:54:42,943
+Listening Test
+
+891
+00:54:42,943 --> 00:54:47,312
+May I ask you something?
+
+892
+00:54:47,312 --> 00:54:53,290
+Vてもいいですか = May I V?
+A little (少し) ↔ A lot (たくさん)
+
+893
+00:54:53,314 --> 00:54:56,986
+Listening Test
+
+894
+00:54:56,986 --> 00:55:01,303
+Yes, how can I help?
+
+895
+00:55:07,259 --> 00:55:12,126
+Listening Test
+
+896
+00:55:12,126 --> 00:55:17,925
+What time does the bank counter close?
+
+897
+00:55:17,925 --> 00:55:25,825
+N + まで = until N
+Service counter = service counter
+
+898
+00:55:25,848 --> 00:55:30,481
+Listening Test
+
+899
+00:55:30,481 --> 00:55:36,000
+The counter closes at 3 PM.
+
+900
+00:55:36,000 --> 00:55:43,533
+Morning/AM (午前) ↔ Afternoon/PM (午後)
+Early (早い) ↔ Late (遅い)
+
+901
+00:55:43,556 --> 00:55:46,790
+Listening Test
+
+902
+00:55:46,790 --> 00:55:50,565
+3 PM?
+
+903
+00:55:55,772 --> 00:55:58,758
+Listening Test
+
+904
+00:55:58,758 --> 00:56:02,225
+That’s early.
+
+905
+00:56:02,225 --> 00:56:07,004
+Early (早い) ↔ Late (遅い)
+
+906
+00:56:07,028 --> 00:56:10,862
+Listening Test
+
+907
+00:56:10,862 --> 00:56:15,395
+Yes, I apologize for that.
+
+908
+00:56:15,395 --> 00:56:21,628
+申し訳ありません = I am sorry (polite)
+
+909
+00:56:21,651 --> 00:56:26,385
+Listening Test
+
+910
+00:56:26,385 --> 00:56:32,021
+What happens after 3 PM?
+
+911
+00:56:32,021 --> 00:56:39,692
+Vたら = if / when V
+To pass / exceed = to pass / to exceed
+
+912
+00:56:39,715 --> 00:56:44,071
+Listening Test
+
+913
+00:56:44,071 --> 00:56:49,247
+The counter doors will be closed.
+
+914
+00:56:49,247 --> 00:56:56,347
+Open ↔ Close
+
+915
+00:56:56,370 --> 00:56:59,837
+Listening Test
+
+916
+00:56:59,837 --> 00:57:03,903
+Can I still use the ATM?
+
+917
+00:57:03,903 --> 00:57:09,455
+Use = to use
+
+918
+00:57:09,479 --> 00:57:15,612
+Listening Test
+
+919
+00:57:15,612 --> 00:57:23,001
+Yes, the ATM is available until 9 PM.
+
+920
+00:57:23,001 --> 00:57:33,035
+Morning ↔ Night
+
+921
+00:57:33,058 --> 00:57:36,994
+Listening Test
+
+922
+00:57:36,994 --> 00:57:41,660
+Oh, that’s a relief.
+
+923
+00:57:48,056 --> 00:57:53,022
+Listening Test
+
+924
+00:57:53,022 --> 00:57:58,959
+The counter is closed on weekends.
+
+925
+00:57:58,959 --> 00:58:07,033
+N1 + and + N2 = N1 and N2
+Day off / Closed
+
+926
+00:58:07,057 --> 00:58:10,653
+Listening Test
+
+927
+00:58:10,653 --> 00:58:14,886
+Is the ATM closed too?
+
+928
+00:58:14,886 --> 00:58:20,674
+N + also / too = N also / too
+
+929
+00:58:20,697 --> 00:58:26,247
+Listening Test
+
+930
+00:58:26,247 --> 00:58:32,917
+No, the ATM is open on weekends.
+
+931
+00:58:32,917 --> 00:58:41,984
+V-ing = state of V / is V-ing
+Weekend
+
+932
+00:58:42,007 --> 00:58:45,674
+Listening Test
+
+933
+00:58:45,674 --> 00:58:49,974
+What time does it open in the morning?
+
+934
+00:58:49,974 --> 00:58:55,840
+From N = from N
+
+935
+00:58:55,863 --> 00:59:01,205
+Listening Test
+
+936
+00:59:01,205 --> 00:59:07,639
+The counter opens at 9 AM.
+
+937
+00:59:07,639 --> 00:59:16,372
+From N = from N
+
+938
+00:59:16,395 --> 00:59:20,462
+Listening Test
+
+939
+00:59:20,462 --> 00:59:25,255
+Is the ATM open earlier?
+
+940
+00:59:25,255 --> 00:59:31,811
+More = more
+
+941
+00:59:31,834 --> 00:59:37,668
+Listening Test
+
+942
+00:59:37,668 --> 00:59:44,658
+Yes, the ATM is available from 8 AM.
+
+943
+00:59:44,658 --> 00:59:54,158
+From N = from N
+
+944
+00:59:54,181 --> 00:59:56,717
+Listening Test
+
+945
+00:59:56,717 --> 00:59:59,632
+Got it.
+
+946
+01:00:03,688 --> 01:00:07,855
+Listening Test
+
+947
+01:00:07,855 --> 01:00:12,793
+Are you handling your transaction at the counter today?
+
+948
+01:00:12,793 --> 01:00:19,551
+At [place] = at [place]
+Procedure
+
+949
+01:00:19,574 --> 01:00:24,441
+Listening Test
+
+950
+01:00:24,441 --> 01:00:30,274
+No, I don’t have time today.
+
+951
+01:00:30,274 --> 01:00:38,181
+Have / Don’t have N = have / don’t have N
+Time
+
+952
+01:00:38,204 --> 01:00:40,876
+Listening Test
+
+953
+01:00:40,876 --> 01:00:43,976
+I see.
+
+954
+01:00:48,274 --> 01:00:52,507
+Listening Test
+
+955
+01:00:52,507 --> 01:00:57,541
+I’ll come back during my lunch break tomorrow.
+
+956
+01:00:57,541 --> 01:01:04,419
+At [time] = at [time]
+Lunch break
+
+957
+01:01:04,442 --> 01:01:08,275
+Listening Test
+
+958
+01:01:08,275 --> 01:01:12,788
+It can get a bit crowded during lunch breaks.
+
+959
+01:01:12,788 --> 01:01:18,979
+Crowded ↔ Uncrowded
+
+960
+01:01:19,003 --> 01:01:22,781
+Listening Test
+
+961
+01:01:22,781 --> 01:01:27,249
+How long is the wait?
+
+962
+01:01:27,249 --> 01:01:33,365
+How long to V? = how long / how much to V
+Wait = to wait
+
+963
+01:01:33,388 --> 01:01:37,422
+Listening Test
+
+964
+01:01:37,422 --> 01:01:42,177
+You might have to wait about 30 minutes.
+
+965
+01:01:42,177 --> 01:01:48,685
+Might V = might V
+About / Approximately
+
+966
+01:01:48,708 --> 01:01:51,008
+Listening Test
+
+967
+01:01:51,008 --> 01:01:53,600
+Got it.
+
+968
+01:01:57,257 --> 01:02:00,490
+Listening Test
+
+969
+01:02:00,490 --> 01:02:04,259
+I’ll come a little earlier then.
+
+970
+01:02:04,259 --> 01:02:09,443
+Early ↔ Late
+
+971
+01:02:09,466 --> 01:02:12,442
+Listening Test
+
+972
+01:02:12,442 --> 01:02:15,909
+We look forward to seeing you then.
+
+973
+01:02:15,909 --> 01:02:20,693
+Looking forward to seeing you (polite)
+
+974
+01:02:20,716 --> 01:02:24,262
+Listening Test
+
+975
+01:02:24,262 --> 01:02:28,411
+Thank you.
+
+976
+01:02:34,134 --> 01:02:35,634
+Scene 7: Completion of Bank Procedures
+
+977
+01:02:35,634 --> 01:02:39,420
+Listening Test
+
+978
+01:02:39,420 --> 01:02:43,887
+Your account setup is now complete.
+
+979
+01:02:43,887 --> 01:02:49,999
+Bank account
+Procedure
+
+980
+01:02:50,022 --> 01:02:52,368
+Listening Test
+
+981
+01:02:52,368 --> 01:02:55,035
+Thank you.
+
+982
+01:02:58,768 --> 01:03:01,601
+Listening Test
+
+983
+01:03:01,601 --> 01:03:04,868
+I’ve received my passbook.
+
+984
+01:03:04,868 --> 01:03:09,368
+Did V...
+Passbook
+Receive ↔ Give
+
+985
+01:03:09,391 --> 01:03:11,225
+Yes, I do.
+
+986
+01:03:11,248 --> 01:03:14,628
+Listening Test
+
+987
+01:03:14,628 --> 01:03:18,585
+You can use the passbook starting today.
+
+988
+01:03:18,585 --> 01:03:24,052
+From N = from N
+Today
+Use = use
+
+989
+01:03:24,075 --> 01:03:27,341
+Listening Test
+
+990
+01:03:27,341 --> 01:03:31,132
+Don’t I get a cash card?
+
+991
+01:03:31,132 --> 01:03:36,366
+Isn’t there N? / Don’t you have N?
+Cash card / ATM card
+
+992
+01:03:36,389 --> 01:03:40,322
+Listening Test
+
+993
+01:03:40,322 --> 01:03:44,961
+Your cash card will be mailed to you later.
+
+994
+01:03:44,961 --> 01:03:51,308
+Later ↔ Immediately
+Mail / Send by post
+
+995
+01:03:51,332 --> 01:03:53,898
+Listening Test
+
+996
+01:03:53,898 --> 01:03:56,834
+It’ll be mailed?
+
+997
+01:03:56,834 --> 01:04:00,934
+It is N, isn’t it?
+Mailing / Postal delivery
+
+998
+01:04:00,957 --> 01:04:03,657
+Listening Test
+
+999
+01:04:03,657 --> 01:04:06,768
+When will it arrive?
+
+1000
+01:04:06,768 --> 01:04:11,068
+When do/will you V?
+Arrive / Be delivered
+
+1001
+01:04:11,091 --> 01:04:14,725
+Listening Test
+
+1002
+01:04:14,725 --> 01:04:18,991
+It usually takes about a week.
+
+1003
+01:04:18,991 --> 01:04:24,825
+It takes about [time period]
+About / Roughly
+Week (duration)
+
+1004
+01:04:24,848 --> 01:04:27,714
+Listening Test
+
+1005
+01:04:27,714 --> 01:04:31,034
+A week?
+
+1006
+01:04:31,034 --> 01:04:35,616
+Is it N?
+One week
+
+1007
+01:04:35,640 --> 01:04:38,873
+Listening Test
+
+1008
+01:04:38,873 --> 01:04:42,644
+Do I need to sign for it?
+
+1009
+01:04:42,644 --> 01:04:47,831
+Is it [na-adj]?
+Signature
+Necessary ↔ Unnecessary
+
+1010
+01:04:47,854 --> 01:04:49,960
+Yes, I do.
+
+1011
+01:04:49,984 --> 01:04:54,084
+Listening Test
+
+1012
+01:04:54,084 --> 01:04:58,917
+Since it’s sent by registered mail, a signature is required.
+
+1013
+01:04:58,917 --> 01:05:05,550
+Because / Since...
+Registered mail
+Send ↔ Receive
+
+1014
+01:05:05,573 --> 01:05:11,640
+Listening Test
+
+1015
+01:05:11,640 --> 01:05:18,940
+What if no one is home?
+
+1016
+01:05:18,940 --> 01:05:28,840
+When not V-ing = when [not doing]
+Nobody / No one
+House / Home
+
+1017
+01:05:28,863 --> 01:05:31,730
+Listening Test
+
+1018
+01:05:31,730 --> 01:05:35,007
+The postal worker will leave a notice.
+
+1019
+01:05:35,007 --> 01:05:39,573
+[Person] does V = [Person] does V
+Post office
+Delivery notice / Absence slip
+
+1020
+01:05:39,596 --> 01:05:42,130
+Listening Test
+
+1021
+01:05:42,130 --> 01:05:45,030
+A notice?
+
+1022
+01:05:45,030 --> 01:05:49,063
+It is N, isn’t it?
+Delivery notice / Missed delivery note
+
+1023
+01:05:49,086 --> 01:05:51,040
+Yes, I do.
+
+1024
+01:05:51,063 --> 01:05:55,337
+Listening Test
+
+1025
+01:05:55,337 --> 01:06:00,411
+Please contact the post office using that notice.
+
+1026
+01:06:00,411 --> 01:06:07,344
+Please do...
+Paper / Notice slip
+Contact / Get in touch
+
+1027
+01:06:07,367 --> 01:06:09,943
+Listening Test
+
+1028
+01:06:09,943 --> 01:06:12,893
+Got it.
+
+1029
+01:06:12,893 --> 01:06:16,993
+Understand = understand
+
+1030
+01:06:17,017 --> 01:06:21,083
+Listening Test
+
+1031
+01:06:21,083 --> 01:06:25,868
+How can I access my money until the card arrives?
+
+1032
+01:06:25,868 --> 01:06:32,424
+Until / Till...
+Arrive
+What will you do?
+
+1033
+01:06:32,448 --> 01:06:35,834
+Listening Test
+
+1034
+01:06:35,834 --> 01:06:39,801
+Can’t I withdraw money?
+
+1035
+01:06:39,801 --> 01:06:45,268
+Money
+Withdraw ↔ Deposit
+
+1036
+01:06:45,291 --> 01:06:49,837
+Listening Test
+
+1037
+01:06:49,837 --> 01:06:55,270
+You can withdraw money at the counter with your passbook and seal.
+
+1038
+01:06:55,270 --> 01:07:02,662
+If there is / If you have N
+Name seal / Stamp
+Counter / Service window
+
+1039
+01:07:02,686 --> 01:07:05,219
+Listening Test
+
+1040
+01:07:05,219 --> 01:07:08,119
+I see.
+
+1041
+01:07:12,179 --> 01:07:17,246
+Listening Test
+
+1042
+01:07:17,246 --> 01:07:23,279
+But the counter closes at 3 PM, so please be careful.
+
+1043
+01:07:23,279 --> 01:07:31,512
+Because it is until N
+Counter
+Be careful / Watch out
+
+1044
+01:07:31,535 --> 01:07:33,569
+Yes, I do.
+
+1045
+01:07:33,592 --> 01:07:35,770
+Listening Test
+
+1046
+01:07:35,770 --> 01:07:38,236
+Got it.
+
+1047
+01:07:41,692 --> 01:07:45,926
+Listening Test
+
+1048
+01:07:45,926 --> 01:07:50,915
+Once your card arrives, please write your name on the back.
+
+1049
+01:07:50,915 --> 01:07:57,748
+When / After / If...
+Back ↔ Front
+Name
+
+1050
+01:07:57,771 --> 01:07:59,804
+Yes, I do.
+
+1051
+01:07:59,827 --> 01:08:03,973
+Listening Test
+
+1052
+01:08:03,973 --> 01:08:08,890
+Never share your PIN with anyone.
+
+1053
+01:08:08,890 --> 01:08:15,630
+Please do not...
+PIN / Secret code
+Tell ↔ Learn
+
+1054
+01:08:15,654 --> 01:08:17,636
+Yes, I do.
+
+1055
+01:08:17,659 --> 01:08:19,975
+Listening Test
+
+1056
+01:08:19,975 --> 01:08:22,611
+Of course.
+
+1057
+01:08:22,611 --> 01:08:26,278
+Of course / Certainly
+
+1058
+01:08:26,301 --> 01:08:30,617
+Listening Test
+
+1059
+01:08:30,617 --> 01:08:35,750
+If you lose it, call the bank immediately.
+
+1060
+01:08:35,750 --> 01:08:42,783
+When / In case of...
+Lose ↔ Find
+Immediately / Right away
+
+1061
+01:08:42,806 --> 01:08:45,044
+Listening Test
+
+1062
+01:08:45,044 --> 01:08:47,578
+Got it.
+
+1063
+01:08:51,141 --> 01:08:54,841
+Listening Test
+
+1064
+01:08:54,841 --> 01:08:59,192
+Where can I find the phone number?
+
+1065
+01:08:59,192 --> 01:09:05,168
+Where is [place/thing]?
+Phone number
+
+1066
+01:09:05,191 --> 01:09:08,225
+Listening Test
+
+1067
+01:09:08,225 --> 01:09:11,725
+It's written on the back of your passbook.
+
+1068
+01:09:11,725 --> 01:09:16,558
+Is done (state resulting from an action)
+Back ↔ Front
+Write
+
+1069
+01:09:16,581 --> 01:09:18,681
+Yes, I do.
+
+1070
+01:09:18,704 --> 01:09:21,204
+Listening Test
+
+1071
+01:09:21,204 --> 01:09:24,071
+Thank you very much.
+
+1072
+01:09:28,061 --> 01:09:29,561
+Scene 8: Withdrawing Money at the Bank
+
+1073
+01:09:29,561 --> 01:09:32,157
+Listening Test
+
+1074
+01:09:32,157 --> 01:09:35,144
+Welcome.
+
+1075
+01:09:39,314 --> 01:09:43,847
+Listening Test
+
+1076
+01:09:43,847 --> 01:09:49,280
+Excuse me, I'd like to withdraw some money.
+
+1077
+01:09:56,674 --> 01:09:59,140
+Listening Test
+
+1078
+01:09:59,140 --> 01:10:01,974
+Understood.
+
+1079
+01:10:05,934 --> 01:10:09,234
+Listening Test
+
+1080
+01:10:09,234 --> 01:10:13,101
+Do you have your cash card with you?
+
+1081
+01:10:18,424 --> 01:10:23,010
+Listening Test
+
+1082
+01:10:23,010 --> 01:10:28,477
+No, I left my card at home.
+
+1083
+01:10:35,966 --> 01:10:40,500
+Listening Test
+
+1084
+01:10:40,500 --> 01:10:45,876
+I see. Do you have your passbook?
+
+1085
+01:10:53,248 --> 01:10:58,004
+Listening Test
+
+1086
+01:10:58,004 --> 01:11:03,677
+Yes, I have my passbook and seal.
+
+1087
+01:11:11,433 --> 01:11:16,471
+Listening Test
+
+1088
+01:11:16,471 --> 01:11:22,504
+You can complete the procedure at this counter.
+
+1089
+01:11:30,725 --> 01:11:33,391
+Listening Test
+
+1090
+01:11:33,391 --> 01:11:36,458
+That's a relief.
+
+1091
+01:11:40,714 --> 01:11:44,662
+Listening Test
+
+1092
+01:11:44,662 --> 01:11:49,329
+Please fill out this form.
+
+1093
+01:11:55,747 --> 01:11:59,580
+Listening Test
+
+1094
+01:11:59,580 --> 01:12:04,057
+Where should I write?
+
+1095
+01:12:10,240 --> 01:12:14,008
+Listening Test
+
+1096
+01:12:14,008 --> 01:12:18,474
+Please write here and here.
+
+1097
+01:12:24,597 --> 01:12:27,311
+Listening Test
+
+1098
+01:12:27,311 --> 01:12:30,445
+This is for my name, right?
+
+1099
+01:12:34,805 --> 01:12:39,439
+Listening Test
+
+1100
+01:12:39,439 --> 01:12:44,939
+Yes, and please write the amount below it.
+
+1101
+01:12:52,474 --> 01:12:56,774
+Listening Test
+
+1102
+01:12:56,774 --> 01:13:01,883
+I'd like to withdraw 100,000 yen today.
+
+1103
+01:13:08,885 --> 01:13:11,419
+Listening Test
+
+1104
+01:13:11,419 --> 01:13:14,319
+Got it.
+
+1105
+01:13:18,408 --> 01:13:23,752
+Listening Test
+
+1106
+01:13:23,752 --> 01:13:30,186
+Please write '100,000 yen' here.
+
+1107
+01:13:38,929 --> 01:13:42,395
+Listening Test
+
+1108
+01:13:42,395 --> 01:13:46,462
+Okay, I've written it.
+
+1109
+01:13:52,022 --> 01:13:54,296
+Listening Test
+
+1110
+01:13:54,296 --> 01:13:56,862
+Thank you.
+
+1111
+01:14:00,474 --> 01:14:04,750
+Listening Test
+
+1112
+01:14:04,750 --> 01:14:09,823
+Next, please stamp your seal here.
+
+1113
+01:14:16,779 --> 01:14:20,733
+Listening Test
+
+1114
+01:14:20,733 --> 01:14:25,401
+Is this okay?
+
+1115
+01:14:31,816 --> 01:14:35,683
+Listening Test
+
+1116
+01:14:35,683 --> 01:14:40,229
+Yes, that's fine.
+
+1117
+01:14:46,485 --> 01:14:50,019
+Listening Test
+
+1118
+01:14:50,019 --> 01:14:54,165
+Will I get the money right away?
+
+1119
+01:14:59,863 --> 01:15:04,367
+Listening Test
+
+1120
+01:15:04,367 --> 01:15:09,741
+I need to verify a few things, so please wait a moment.
+
+1121
+01:15:17,098 --> 01:15:19,166
+Yes, I do.
+
+1122
+01:15:19,189 --> 01:15:23,067
+Listening Test
+
+1123
+01:15:23,067 --> 01:15:27,657
+Please have a seat over there while you wait.
+
+1124
+01:15:33,980 --> 01:15:37,480
+Listening Test
+
+1125
+01:15:37,480 --> 01:15:41,582
+Do I have a number ticket?
+
+1126
+01:15:47,238 --> 01:15:51,571
+Listening Test
+
+1127
+01:15:51,571 --> 01:15:56,723
+Yes, we'll call you by this number.
+
+1128
+01:16:03,813 --> 01:16:06,325
+Listening Test
+
+1129
+01:16:06,325 --> 01:16:09,225
+Understood.
+
+1130
+01:16:13,281 --> 01:16:16,115
+Listening Test
+
+1131
+01:16:16,115 --> 01:16:19,387
+Thank you for waiting.
+
+1132
+01:16:23,943 --> 01:16:26,917
+Listening Test
+
+1133
+01:16:26,917 --> 01:16:30,384
+Customer number 15.
+
+1134
+01:16:35,173 --> 01:16:37,353
+Yes, I do.
+
+1135
+01:16:37,377 --> 01:16:42,277
+Listening Test
+
+1136
+01:16:42,277 --> 01:16:48,143
+Here's your 100,000 yen and passbook.
+
+1137
+01:16:56,144 --> 01:16:58,744
+Listening Test
+
+1138
+01:16:58,744 --> 01:17:01,737
+Please check them.
+
+1139
+01:17:05,917 --> 01:17:09,351
+Listening Test
+
+1140
+01:17:09,351 --> 01:17:13,384
+Yes, thank you very much.
+
+1141
+01:17:18,914 --> 01:17:20,414
+Scene 9: Overseas Remittance Procedure
+
+1142
+01:17:20,414 --> 01:17:22,928
+Listening Test
+
+1143
+01:17:22,928 --> 01:17:25,801
+Welcome.
+
+1144
+01:17:29,808 --> 01:17:32,992
+Listening Test
+
+1145
+01:17:32,992 --> 01:17:36,708
+How can I help you today?
+
+1146
+01:17:36,708 --> 01:17:41,819
+How did you V?
+
+1147
+01:17:41,843 --> 01:17:45,676
+Listening Test
+
+1148
+01:17:45,676 --> 01:17:50,176
+I'd like to send money overseas.
+
+1149
+01:17:50,176 --> 01:17:56,318
+Want to V
+Overseas ↔ Domestic
+
+1150
+01:17:56,342 --> 01:17:58,538
+Listening Test
+
+1151
+01:17:58,538 --> 01:18:01,010
+Understood.
+
+1152
+01:18:04,500 --> 01:18:07,333
+Listening Test
+
+1153
+01:18:07,333 --> 01:18:10,566
+You mean an overseas remittance?
+
+1154
+01:18:10,566 --> 01:18:15,033
+It is N, right?
+Overseas remittance
+
+1155
+01:18:15,057 --> 01:18:17,123
+Yes, I do.
+
+1156
+01:18:17,146 --> 01:18:20,979
+Listening Test
+
+1157
+01:18:20,979 --> 01:18:25,497
+I'm sending it to my family in my home country.
+
+1158
+01:18:25,497 --> 01:18:31,678
+To N (person)
+Family
+
+1159
+01:18:31,702 --> 01:18:34,969
+Listening Test
+
+1160
+01:18:34,969 --> 01:18:38,802
+Which country are you sending it to?
+
+1161
+01:18:38,802 --> 01:18:44,069
+Which N
+
+1162
+01:18:44,092 --> 01:18:47,266
+Listening Test
+
+1163
+01:18:47,266 --> 01:18:50,967
+I'd like to send it to Vietnam.
+
+1164
+01:18:50,967 --> 01:18:56,067
+Want to V
+
+1165
+01:18:56,090 --> 01:18:58,364
+Listening Test
+
+1166
+01:18:58,364 --> 01:19:00,936
+Got it.
+
+1167
+01:19:04,545 --> 01:19:08,211
+Listening Test
+
+1168
+01:19:08,211 --> 01:19:12,511
+Do you have the recipient's information?
+
+1169
+01:19:12,511 --> 01:19:18,411
+Do you have?
+Recipient of remittance
+Information
+
+1170
+01:19:18,434 --> 01:19:20,418
+Yes, I do.
+
+1171
+01:19:20,442 --> 01:19:25,238
+Listening Test
+
+1172
+01:19:25,238 --> 01:19:30,971
+I have a note with the bank name and account number.
+
+1173
+01:19:30,971 --> 01:19:38,758
+There is N / Have N
+Account number
+
+1174
+01:19:38,781 --> 01:19:41,248
+Listening Test
+
+1175
+01:19:41,248 --> 01:19:44,032
+Thank you.
+
+1176
+01:19:47,927 --> 01:19:51,643
+Listening Test
+
+1177
+01:19:51,643 --> 01:19:56,028
+How long will it take for the money to arrive?
+
+1178
+01:19:56,028 --> 01:20:02,061
+とどく (todoku) = to arrive
+
+1179
+01:20:02,084 --> 01:20:06,195
+Listening Test
+
+1180
+01:20:06,195 --> 01:20:11,071
+It usually takes about 3 days to a week.
+
+1181
+01:20:11,071 --> 01:20:17,738
+N1 から N2 = from N1 to N2
+しゅうかん (shūkan) = week (duration)
+
+1182
+01:20:17,761 --> 01:20:20,027
+Listening Test
+
+1183
+01:20:20,027 --> 01:20:22,575
+I see.
+
+1184
+01:20:26,165 --> 01:20:29,798
+Listening Test
+
+1185
+01:20:29,798 --> 01:20:34,065
+It depends on the country and bank.
+
+1186
+01:20:34,065 --> 01:20:39,898
+N によって = depending on N
+differ (ちがう) ↔ same (おなじ)
+
+1187
+01:20:39,921 --> 01:20:42,829
+Listening Test
+
+1188
+01:20:42,829 --> 01:20:46,196
+How much is the fee?
+
+1189
+01:20:46,196 --> 01:20:50,863
+N は いくらですか = How much is N?
+てすうりょう (tesūryō) = fee / commission
+
+1190
+01:20:50,886 --> 01:20:55,680
+Listening Test
+
+1191
+01:20:55,680 --> 01:21:01,396
+The counter remittance fee is 4,000 yen.
+
+1192
+01:21:01,396 --> 01:21:09,191
+かかります = it takes / it costs
+まどぐち (madoguchi) = service counter
+
+1193
+01:21:09,215 --> 01:21:11,881
+Listening Test
+
+1194
+01:21:11,881 --> 01:21:14,916
+4,000 yen?
+
+1195
+01:21:19,206 --> 01:21:22,173
+Listening Test
+
+1196
+01:21:22,173 --> 01:21:25,608
+That's a bit expensive.
+
+1197
+01:21:25,608 --> 01:21:30,341
+すこし + い-adjective = a little [adjective]
+takai (expensive) ↔ yasui (cheap)
+
+1198
+01:21:30,364 --> 01:21:33,114
+Listening Test
+
+1199
+01:21:33,114 --> 01:21:36,285
+I apologize for that.
+
+1200
+01:21:36,285 --> 01:21:40,662
+もうしわけありません = I’m very sorry / My apologies
+
+1201
+01:21:40,686 --> 01:21:44,038
+Listening Test
+
+1202
+01:21:44,038 --> 01:21:47,956
+Can I send it through the app?
+
+1203
+01:21:47,956 --> 01:21:53,389
+Vる + こと が できますか = Can you ~? / Are you able to ~?
+
+1204
+01:21:53,412 --> 01:21:55,245
+Yes, I do.
+
+1205
+01:21:55,268 --> 01:21:58,735
+Listening Test
+
+1206
+01:21:58,735 --> 01:22:02,802
+You can also send it via internet banking.
+
+1207
+01:22:02,802 --> 01:22:08,355
+N でも = even with N / also with N
+
+1208
+01:22:08,379 --> 01:22:11,319
+Listening Test
+
+1209
+01:22:11,319 --> 01:22:14,752
+Is it cheaper that way?
+
+1210
+01:22:14,752 --> 01:22:19,485
+その ほう が = That way is more...
+yasui (cheap) ↔ takai (expensive)
+
+1211
+01:22:19,508 --> 01:22:21,652
+Yes, I do.
+
+1212
+01:22:21,675 --> 01:22:25,709
+Listening Test
+
+1213
+01:22:25,709 --> 01:22:30,475
+The fee is 3,000 yen if you use the internet.
+
+1214
+01:22:30,475 --> 01:22:36,988
+N なら = If it’s N / In the case of N
+
+1215
+01:22:37,012 --> 01:22:40,478
+Listening Test
+
+1216
+01:22:40,478 --> 01:22:44,545
+Then I'd like to do it online.
+
+1217
+01:22:44,545 --> 01:22:50,119
+Want to V
+
+1218
+01:22:50,142 --> 01:22:52,409
+Listening Test
+
+1219
+01:22:52,409 --> 01:22:54,966
+Understood.
+
+1220
+01:22:58,555 --> 01:23:02,189
+Listening Test
+
+1221
+01:23:02,189 --> 01:23:06,455
+Shall we register the app for you?
+
+1222
+01:23:06,455 --> 01:23:12,322
+N を しますか = Would you like to do N?
+とうろく (tōroku) = registration
+
+1223
+01:23:12,345 --> 01:23:14,217
+Yes, I do.
+
+1224
+01:23:14,240 --> 01:23:16,234
+Listening Test
+
+1225
+01:23:16,234 --> 01:23:18,468
+Yes, please.
+
+1226
+01:23:21,624 --> 01:23:24,758
+Listening Test
+
+1227
+01:23:24,758 --> 01:23:28,425
+Do you have a smartphone?
+
+1228
+01:23:28,425 --> 01:23:33,458
+おもちですか = Do you have ~?
+
+1229
+01:23:33,481 --> 01:23:35,514
+Yes, I do.
+
+1230
+01:23:35,537 --> 01:23:37,513
+Listening Test
+
+1231
+01:23:37,513 --> 01:23:39,710
+This one.
+
+1232
+01:23:42,833 --> 01:23:46,339
+Listening Test
+
+1233
+01:23:46,339 --> 01:23:50,446
+Please download our bank's app.
+
+1234
+01:23:50,446 --> 01:23:56,113
+Vて + ください = Please ~
+とうこう (tōkō) = our bank (polite)
+
+1235
+01:23:56,136 --> 01:23:58,410
+Listening Test
+
+1236
+01:23:58,410 --> 01:24:01,001
+Got it.
+
+1237
+01:24:04,657 --> 01:24:06,891
+Listening Test
+
+1238
+01:24:06,891 --> 01:24:09,405
+I'll do it now.
+
+1239
+01:24:12,940 --> 01:24:16,258
+Listening Test
+
+1240
+01:24:16,258 --> 01:24:20,158
+If you have any questions, just ask.
+
+1241
+01:24:20,158 --> 01:24:25,505
+Vたら = If/When you ~
+きく (kiku) = to ask
+
+1242
+01:24:25,528 --> 01:24:27,562
+Yes, I do.
+
+1243
+01:24:27,585 --> 01:24:30,023
+Listening Test
+
+1244
+01:24:30,023 --> 01:24:32,808
+Thank you.
+
+1245
+01:24:36,731 --> 01:24:38,231
+Scene 10: How to Exchange Foreign Currency
+
+1246
+01:24:38,231 --> 01:24:41,011
+Listening Test
+
+1247
+01:24:41,011 --> 01:24:44,207
+Welcome.
+
+1248
+01:24:48,697 --> 01:24:50,885
+Listening Test
+
+1249
+01:24:50,885 --> 01:24:53,385
+Excuse me.
+
+1250
+01:24:56,878 --> 01:25:00,345
+Listening Test
+
+1251
+01:25:00,345 --> 01:25:04,411
+I'd like to exchange some foreign currency.
+
+1252
+01:25:04,411 --> 01:25:09,971
+Vたいです = I want to ~
+がいかりょうがえ (gaika ryōgae) = foreign currency exchange
+
+1253
+01:25:09,994 --> 01:25:12,527
+Listening Test
+
+1254
+01:25:12,527 --> 01:25:15,427
+Understood.
+
+1255
+01:25:19,517 --> 01:25:24,350
+Listening Test
+
+1256
+01:25:24,350 --> 01:25:30,083
+I want to exchange US dollars to Japanese yen.
+
+1257
+01:25:30,083 --> 01:25:37,871
+N1 を N2 に かえる = Exchange N1 for N2
+かえる (kaeru) = to exchange / change
+
+1258
+01:25:37,895 --> 01:25:39,629
+Yes, I do.
+
+1259
+01:25:39,652 --> 01:25:43,430
+Listening Test
+
+1260
+01:25:43,430 --> 01:25:47,901
+Here's today's exchange rate.
+
+1261
+01:25:47,901 --> 01:25:54,017
+N に なります = It will be N / Here is N
+レート (rēto) = exchange rate
+
+1262
+01:25:54,041 --> 01:25:57,474
+Listening Test
+
+1263
+01:25:57,474 --> 01:26:01,507
+How much is one dollar?
+
+1264
+01:26:01,507 --> 01:26:07,044
+いくらですか = How much is it?
+
+1265
+01:26:07,068 --> 01:26:11,546
+Listening Test
+
+1266
+01:26:11,546 --> 01:26:16,879
+Today, it's 150 yen per dollar.
+
+1267
+01:26:16,879 --> 01:26:24,147
+N1 は N2 です = N1 is N2
+
+1268
+01:26:24,171 --> 01:26:26,671
+Listening Test
+
+1269
+01:26:26,671 --> 01:26:29,537
+Got it.
+
+1270
+01:26:33,530 --> 01:26:36,640
+Listening Test
+
+1271
+01:26:36,640 --> 01:26:40,274
+Please exchange 500 dollars for me.
+
+1272
+01:26:40,274 --> 01:26:45,267
+Vてください = Please ~
+
+1273
+01:26:45,290 --> 01:26:48,057
+Listening Test
+
+1274
+01:26:48,057 --> 01:26:51,246
+Understood.
+
+1275
+01:26:55,702 --> 01:26:59,602
+Listening Test
+
+1276
+01:26:59,602 --> 01:27:04,236
+How much will that be in total?
+
+1277
+01:27:04,236 --> 01:27:10,541
+ぜんぶで = in total / all together
+
+1278
+01:27:10,564 --> 01:27:15,064
+Listening Test
+
+1279
+01:27:15,064 --> 01:27:20,397
+That comes to 75,000 yen.
+
+1280
+01:27:20,397 --> 01:27:27,674
+N に なります = It will be N / It amounts to N
+
+1281
+01:27:27,698 --> 01:27:31,365
+Listening Test
+
+1282
+01:27:31,365 --> 01:27:35,665
+Is there a service fee?
+
+1283
+01:27:35,665 --> 01:27:41,565
+かかります = costs / takes
+てすうりょう (tesūryō) = service fee / commission
+
+1284
+01:27:41,588 --> 01:27:45,900
+Listening Test
+
+1285
+01:27:45,900 --> 01:27:51,015
+The fee is included in the exchange rate.
+
+1286
+01:27:51,015 --> 01:27:58,049
+N1 の なかに N2 が ふくまれている = N2 is included in N1
+ふくまれる (fukumareru) = to be included
+
+1287
+01:27:58,072 --> 01:28:00,638
+Listening Test
+
+1288
+01:28:00,638 --> 01:28:03,572
+Got it.
+
+1289
+01:28:07,661 --> 01:28:12,761
+Listening Test
+
+1290
+01:28:12,761 --> 01:28:18,861
+Please write your name on this form.
+
+1291
+01:28:18,861 --> 01:28:27,129
+N に Vてください = Please ~ on/in N
+ようし (yōshi) = form / document
+
+1292
+01:28:27,153 --> 01:28:30,453
+Listening Test
+
+1293
+01:28:30,453 --> 01:28:34,319
+Is it okay in Roman letters?
+
+1294
+01:28:34,319 --> 01:28:39,598
+N で いいですか = Is N okay? / Would N be acceptable?
+ローマじ (rōmaji) = Roman alphabet
+
+1295
+01:28:39,621 --> 01:28:42,655
+Listening Test
+
+1296
+01:28:42,655 --> 01:28:46,188
+Yes, that's fine.
+
+1297
+01:28:46,188 --> 01:28:51,055
+けっこうです = That’s fine / No problem
+
+1298
+01:28:51,078 --> 01:28:53,578
+Listening Test
+
+1299
+01:28:53,578 --> 01:28:56,444
+I've filled it out.
+
+1300
+01:28:56,444 --> 01:29:00,378
+Vました = did ~ / have ~ed
+
+1301
+01:29:00,401 --> 01:29:03,781
+Listening Test
+
+1302
+01:29:03,781 --> 01:29:07,747
+Do I need my passport too?
+
+1303
+01:29:07,747 --> 01:29:13,214
+N が ひつようです = N is necessary / You need N
+hitsuyō (necessary) ↔ fuhitsuyō (unnecessary)
+
+1304
+01:29:13,237 --> 01:29:15,475
+Yes, I do.
+
+1305
+01:29:15,499 --> 01:29:19,565
+Listening Test
+
+1306
+01:29:19,565 --> 01:29:24,399
+We need it for identity verification.
+
+1307
+01:29:24,399 --> 01:29:30,981
+N の ために = for N / for the purpose of N
+ほんにんかくにん (honnin kakunin) = identity verification
+
+1308
+01:29:31,004 --> 01:29:34,537
+Listening Test
+
+1309
+01:29:34,537 --> 01:29:38,692
+Here you go.
+
+1310
+01:29:44,393 --> 01:29:46,467
+Listening Test
+
+1311
+01:29:46,467 --> 01:29:48,784
+Thank you.
+
+1312
+01:29:52,073 --> 01:29:55,407
+Listening Test
+
+1313
+01:29:55,407 --> 01:29:59,307
+I'll verify it now.
+
+1314
+01:29:59,307 --> 01:30:04,674
+N いたします = I will do N (humble)
+かくにん (kakunin) = confirmation / verification
+
+1315
+01:30:04,698 --> 01:30:08,264
+Listening Test
+
+1316
+01:30:08,264 --> 01:30:12,445
+How would you like to receive the money?
+
+1317
+01:30:12,445 --> 01:30:18,183
+どうやって + V = How do I ~? / How can I ~?
+わたす (watasu) = to hand over
+
+1318
+01:30:18,206 --> 01:30:25,306
+Listening Test
+
+1319
+01:30:25,306 --> 01:30:33,894
+Would seven 10,000-yen bills and one 5,000-yen bill be okay?
+
+1320
+01:30:33,894 --> 01:30:45,528
+N で よろしいですか = Would N be okay? / Is N acceptable?
+おさつ (osatsu) = bills ↔ こうか (kōka) = coins
+
+1321
+01:30:45,551 --> 01:30:50,085
+Listening Test
+
+1322
+01:30:50,085 --> 01:30:55,473
+Could you include some 1,000-yen bills as well?
+
+1323
+01:30:55,473 --> 01:31:02,821
+すこし + V = V a little / V slightly
+まぜる (mazeru) = to mix / include
+
+1324
+01:31:02,844 --> 01:31:05,582
+Listening Test
+
+1325
+01:31:05,582 --> 01:31:08,750
+Understood.
+
+1326
+01:31:13,150 --> 01:31:22,490
+Listening Test
+
+1327
+01:31:22,490 --> 01:31:33,923
+Please give me six 10,000-yen bills, one 5,000-yen bill, and ten 1,000-yen bills.
+
+1328
+01:31:33,923 --> 01:31:49,299
+N に してください = Please make it N
+
+1329
+01:31:49,323 --> 01:31:52,856
+Listening Test
+
+1330
+01:31:52,856 --> 01:31:56,975
+Understood.
+
+1331
+01:31:56,975 --> 01:32:02,642
+しょうち = Understood / I acknowledge
+
+1332
+01:32:02,665 --> 01:32:05,198
+Listening Test
+
+1333
+01:32:05,198 --> 01:32:08,065
+Thank you.
+
+1334
+01:32:12,087 --> 01:32:14,953
+Listening Test
+
+1335
+01:32:14,953 --> 01:32:18,253
+Thank you for waiting.
+
+1336
+01:32:18,253 --> 01:32:22,809
+おまたせしました = Sorry to keep you waiting
+
+1337
+01:32:22,832 --> 01:32:26,132
+Listening Test
+
+1338
+01:32:26,132 --> 01:32:29,999
+Here's your money.
+
+1339
+01:32:29,999 --> 01:32:35,299
+こちら = here / this (polite)
+
+1340
+01:32:35,322 --> 01:32:37,822
+Listening Test
+
+1341
+01:32:37,822 --> 01:32:40,689
+Let me check.
+
+1342
+01:32:40,689 --> 01:32:44,647
+N します = I will do N / Let’s do N
+
+1343
+01:32:44,671 --> 01:32:47,904
+Listening Test
+
+1344
+01:32:47,904 --> 01:32:51,678
+Yes, it's all correct.
+
+1345
+01:32:56,893 --> 01:32:59,409
+Listening Test
+
+1346
+01:32:59,409 --> 01:33:02,276
+Thank you.

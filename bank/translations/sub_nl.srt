@@ -1,0 +1,5558 @@
+1
+00:00:00,000 --> 00:00:07,616
+Waar gaat de video van vandaag over? Een gesprek bij de bank.
+
+2
+00:00:07,616 --> 00:00:09,116
+Scène 1: Procedure voor het openen van een bankrekening
+
+3
+00:00:09,116 --> 00:00:10,916
+Welkom.
+
+4
+00:00:10,938 --> 00:00:13,938
+Wat kan ik voor u doen vandaag?
+
+5
+00:00:13,961 --> 00:00:15,528
+Sorry.
+
+6
+00:00:15,551 --> 00:00:18,969
+Ik wil graag een bankrekening openen.
+
+7
+00:00:18,993 --> 00:00:20,847
+Uiteraard.
+
+8
+00:00:20,870 --> 00:00:23,304
+Een nieuwe rekening dus.
+
+9
+00:00:23,327 --> 00:00:25,960
+Ja, precies.
+
+10
+00:00:25,983 --> 00:00:29,392
+Woont u in Japan?
+
+11
+00:00:29,415 --> 00:00:31,215
+Ja.
+
+12
+00:00:31,238 --> 00:00:34,250
+Ik woon sinds vorige maand in Tokio.
+
+13
+00:00:34,274 --> 00:00:37,077
+Heeft u een baan?
+
+14
+00:00:37,100 --> 00:00:38,636
+Ja.
+
+15
+00:00:38,659 --> 00:00:40,237
+Ik ben werknemer.
+
+16
+00:00:40,261 --> 00:00:42,227
+Begrepen.
+
+17
+00:00:42,250 --> 00:00:46,927
+Voor het openen van een rekening heeft u een identiteitsbewijs nodig.
+
+18
+00:00:46,951 --> 00:00:50,118
+Een identiteitsbewijs?
+
+19
+00:00:50,141 --> 00:00:51,416
+Ja.
+
+20
+00:00:51,439 --> 00:00:55,039
+Heeft u een verblijfskaart of paspoort?
+
+21
+00:00:55,062 --> 00:00:56,296
+Ja.
+
+22
+00:00:56,319 --> 00:00:59,094
+Ik heb een verblijfskaart.
+
+23
+00:00:59,117 --> 00:01:00,723
+Dank u wel.
+
+24
+00:01:00,746 --> 00:01:03,915
+Mag ik deze dan even zien?
+
+25
+00:01:03,939 --> 00:01:05,272
+Ja.
+
+26
+00:01:05,295 --> 00:01:06,829
+Alstublieft.
+
+27
+00:01:06,852 --> 00:01:08,697
+Ik zal het controleren.
+
+28
+00:01:08,720 --> 00:01:11,730
+Heeft u een My Number-kaart?
+
+29
+00:01:11,753 --> 00:01:14,927
+Ik heb nog geen My Number-kaart.
+
+30
+00:01:14,951 --> 00:01:16,751
+Ah, ik snap het.
+
+31
+00:01:16,774 --> 00:01:20,174
+Heeft u een document waar uw My Number op staat?
+
+32
+00:01:20,197 --> 00:01:22,808
+Ik heb een bewijs van inschrijving in de gemeente.
+
+33
+00:01:22,831 --> 00:01:24,431
+Dank u wel.
+
+34
+00:01:24,454 --> 00:01:27,187
+Mag ik dat ook zien?
+
+35
+00:01:27,210 --> 00:01:29,810
+Ja, hier is het.
+
+36
+00:01:29,833 --> 00:01:31,475
+Ik heb het gecontroleerd.
+
+37
+00:01:31,498 --> 00:01:34,965
+Heeft u ook een zegel?
+
+38
+00:01:34,988 --> 00:01:37,458
+Ik heb geen zegel.
+
+39
+00:01:37,482 --> 00:01:40,021
+Een handtekening is ook goed.
+
+40
+00:01:40,044 --> 00:01:41,977
+Gelukkig maar.
+
+41
+00:01:42,000 --> 00:01:47,134
+Vul dan alstublieft uw naam en adres in op dit formulier.
+
+42
+00:01:47,157 --> 00:01:49,357
+Moet ik dat in kanji schrijven?
+
+43
+00:01:49,380 --> 00:01:51,946
+In romaji mag ook.
+
+44
+00:01:51,969 --> 00:01:53,614
+Begrepen.
+
+45
+00:01:53,637 --> 00:01:55,671
+Ik ga het nu invullen.
+
+46
+00:01:55,694 --> 00:01:58,833
+Als u iets niet begrijpt, vraag het dan gerust.
+
+47
+00:01:58,856 --> 00:02:02,089
+Ja, dank u wel.
+
+48
+00:02:02,112 --> 00:02:11,121
+Het script van de video van vandaag is beschikbaar in de beschrijving en in de topcommentaar. Laat gerust een reactie achter voordat u het downloadt.
+
+49
+00:02:11,121 --> 00:02:12,621
+Scène 2: Procedure voor het aanmaken van een cursus
+
+50
+00:02:12,621 --> 00:02:14,559
+Welkom.
+
+51
+00:02:14,582 --> 00:02:17,627
+Wat kan ik voor u doen?
+
+52
+00:02:17,651 --> 00:02:19,140
+Sorry.
+
+53
+00:02:19,164 --> 00:02:21,776
+Ik wil graag een rekening openen.
+
+54
+00:02:21,800 --> 00:02:23,766
+Dank u wel.
+
+55
+00:02:23,789 --> 00:02:26,956
+Wilt u vandaag de procedure afhandelen?
+
+56
+00:02:26,979 --> 00:02:32,146
+Nee, ik kwam vandaag alleen even vragen wat ik nodig heb.
+
+57
+00:02:32,169 --> 00:02:34,102
+Uiteraard.
+
+58
+00:02:34,125 --> 00:02:37,925
+Allereerst heeft u een verblijfskaart nodig.
+
+59
+00:02:37,948 --> 00:02:40,361
+Een verblijfskaart, oké.
+
+60
+00:02:40,385 --> 00:02:42,218
+Die heb ik.
+
+61
+00:02:42,241 --> 00:02:45,916
+En daarna hebt u ook een zegel nodig.
+
+62
+00:02:45,939 --> 00:02:47,873
+Een zegel?
+
+63
+00:02:47,896 --> 00:02:49,353
+Ja.
+
+64
+00:02:49,377 --> 00:02:52,310
+Uw persoonlijke stempel.
+
+65
+00:02:52,333 --> 00:02:54,745
+Is een Shachihata-stempel ook goed?
+
+66
+00:02:54,769 --> 00:02:56,666
+Sorry.
+
+67
+00:02:56,689 --> 00:02:59,223
+Een Shachihata-stempel mag niet.
+
+68
+00:02:59,246 --> 00:03:00,979
+Ah, ik snap het.
+
+69
+00:03:01,002 --> 00:03:03,486
+Een gewone zegel dus.
+
+70
+00:03:03,510 --> 00:03:04,910
+Ja.
+
+71
+00:03:04,933 --> 00:03:08,966
+Verder hebt u uw burgerservicenummerkaart nodig.
+
+72
+00:03:08,989 --> 00:03:11,661
+Mijn burgerservicenummerkaart, ja.
+
+73
+00:03:11,685 --> 00:03:13,085
+Ja.
+
+74
+00:03:13,108 --> 00:03:15,108
+Hebt u die bij u?
+
+75
+00:03:15,131 --> 00:03:16,565
+Ja.
+
+76
+00:03:16,589 --> 00:03:18,003
+Die heb ik.
+
+77
+00:03:18,026 --> 00:03:20,359
+Dan is het in orde.
+
+78
+00:03:20,382 --> 00:03:22,982
+Is een paspoort ook nodig?
+
+79
+00:03:23,005 --> 00:03:26,477
+Nee, een paspoort is niet nodig.
+
+80
+00:03:26,501 --> 00:03:28,556
+Begrepen.
+
+81
+00:03:28,580 --> 00:03:32,346
+U hebt ook een klein bedrag aan startgeld nodig.
+
+82
+00:03:32,369 --> 00:03:33,847
+Hoeveel?
+
+83
+00:03:33,871 --> 00:03:36,804
+Ongeveer 1000 yen is voldoende.
+
+84
+00:03:36,827 --> 00:03:38,494
+Begrepen.
+
+85
+00:03:38,517 --> 00:03:41,517
+De procedure duurt even.
+
+86
+00:03:41,540 --> 00:03:43,940
+Hoe lang duurt het ongeveer?
+
+87
+00:03:43,963 --> 00:03:46,563
+Ongeveer een uur.
+
+88
+00:03:46,586 --> 00:03:48,357
+Begrepen.
+
+89
+00:03:48,380 --> 00:03:50,559
+Ik kom morgen terug.
+
+90
+00:03:50,582 --> 00:03:52,549
+We zien u graag tegemoet.
+
+91
+00:03:52,572 --> 00:03:54,783
+Dank u wel.
+
+92
+00:03:54,806 --> 00:04:01,911
+De link naar de site waar je de herhaling van de video van vandaag kunt doen, vind je in de beschrijving en in de topcomment. *Let op: de site kan zonder voorafgaande kennisgeving worden verwijderd.
+
+93
+00:04:01,911 --> 00:04:03,411
+Scène 3: Hoe formulieren invullen / How to Fill Out Forms in Japanese
+
+94
+00:04:03,411 --> 00:04:06,083
+Sorry dat u moest wachten.
+
+95
+00:04:06,106 --> 00:04:11,306
+Pardon, kunt u mij uitleggen hoe ik dit formulier moet invullen?
+
+96
+00:04:11,329 --> 00:04:15,227
+Ja, wat begrijpt u niet?
+
+97
+00:04:15,250 --> 00:04:18,084
+Hier, bij de naam.
+
+98
+00:04:18,107 --> 00:04:20,589
+Uw naam, ja.
+
+99
+00:04:20,612 --> 00:04:23,212
+Moet ik die in kanji schrijven?
+
+100
+00:04:23,235 --> 00:04:25,570
+Of in het Latijnse alfabet?
+
+101
+00:04:25,594 --> 00:04:29,850
+Schrijf het alstublieft net zoals op uw verblijfsvergunning.
+
+102
+00:04:29,873 --> 00:04:32,040
+In het Latijnse alfabet dus.
+
+103
+00:04:32,063 --> 00:04:33,996
+Begrepen.
+
+104
+00:04:34,019 --> 00:04:37,986
+Vul boven ook de fonetische schrijfwijze in.
+
+105
+00:04:38,009 --> 00:04:41,742
+Moet de fonetische schrijfwijze in katakana?
+
+106
+00:04:41,765 --> 00:04:45,932
+Ja, in katakana alstublieft.
+
+107
+00:04:45,955 --> 00:04:47,921
+Begrepen.
+
+108
+00:04:47,944 --> 00:04:51,163
+Vervolgens uw adres.
+
+109
+00:04:51,186 --> 00:04:54,038
+Mijn adres is nogal lang.
+
+110
+00:04:54,061 --> 00:04:57,661
+U mag het over twee regels verdelen.
+
+111
+00:04:57,685 --> 00:05:01,085
+Moet ik ook de naam van het appartement vermelden?
+
+112
+00:05:01,107 --> 00:05:04,911
+Ja, en ook het kamernummer.
+
+113
+00:05:04,935 --> 00:05:07,419
+Goed, dat heb ik ingevuld.
+
+114
+00:05:07,443 --> 00:05:10,525
+Vervolgens uw telefoonnummer.
+
+115
+00:05:10,549 --> 00:05:14,482
+Mag ik mijn mobiele nummer invullen?
+
+116
+00:05:14,505 --> 00:05:18,238
+Ja, dat is prima.
+
+117
+00:05:18,261 --> 00:05:21,195
+Vervolgens de pincode.
+
+118
+00:05:21,218 --> 00:05:25,484
+Ja, kies alstublieft vier cijfers.
+
+119
+00:05:25,507 --> 00:05:28,000
+Mag ik mijn geboortedatum gebruiken?
+
+120
+00:05:28,024 --> 00:05:31,095
+Uw geboortedatum mag niet.
+
+121
+00:05:31,118 --> 00:05:33,252
+Begrepen.
+
+122
+00:05:33,275 --> 00:05:35,649
+Dan kies ik andere cijfers.
+
+123
+00:05:35,672 --> 00:05:39,250
+Schrijf dit alstublieft zorgvuldig, zodat u geen fouten maakt.
+
+124
+00:05:39,273 --> 00:05:41,919
+Goed, dat heb ik ingevuld.
+
+125
+00:05:41,943 --> 00:05:46,943
+Druk tot slot hier uw zegel.
+
+126
+00:05:46,966 --> 00:05:48,658
+Begrepen.
+
+127
+00:05:48,681 --> 00:05:50,886
+Dank u wel.
+
+128
+00:05:50,910 --> 00:05:52,410
+Scène 4: Lenen van pennen en kleurregels
+
+129
+00:05:52,410 --> 00:05:54,467
+Welkom.
+
+130
+00:05:54,491 --> 00:05:58,424
+Pardon, mag ik een balpen van u lenen?
+
+131
+00:05:58,447 --> 00:06:01,180
+Ja, wat is er aan de hand?
+
+132
+00:06:01,203 --> 00:06:04,044
+Mijn pen schrijft niet meer.
+
+133
+00:06:04,068 --> 00:06:05,701
+Ah, ik snap het.
+
+134
+00:06:05,724 --> 00:06:08,458
+Hier, neem deze pen maar.
+
+135
+00:06:08,481 --> 00:06:10,095
+Dank u wel.
+
+136
+00:06:10,118 --> 00:06:14,518
+Bankdocumenten moet u met een zwarte pen invullen.
+
+137
+00:06:14,541 --> 00:06:17,113
+Is deze pen zwart?
+
+138
+00:06:17,137 --> 00:06:20,034
+Ja, hij is zwart.
+
+139
+00:06:20,057 --> 00:06:22,624
+Mag het ook met een blauwe pen?
+
+140
+00:06:22,647 --> 00:06:25,293
+Een blauwe pen mag niet.
+
+141
+00:06:25,316 --> 00:06:27,049
+Begrepen.
+
+142
+00:06:27,072 --> 00:06:29,839
+Gebruik ook geen potlood.
+
+143
+00:06:29,862 --> 00:06:33,275
+Oké, ik schrijf met een balpen.
+
+144
+00:06:33,298 --> 00:06:36,276
+Een pen waarmee je kunt gummen, is ook niet toegestaan.
+
+145
+00:06:36,300 --> 00:06:37,833
+Begrepen.
+
+146
+00:06:37,856 --> 00:06:40,990
+Wat moet ik doen als ik een fout maak?
+
+147
+00:06:41,013 --> 00:06:44,079
+Moet ik het op een nieuw papier schrijven?
+
+148
+00:06:44,102 --> 00:06:47,671
+Nee, trek een dubbele streep door de fout.
+
+149
+00:06:47,695 --> 00:06:49,761
+Een dubbele streep?
+
+150
+00:06:49,784 --> 00:06:51,184
+Ja.
+
+151
+00:06:51,207 --> 00:06:55,340
+En zet daarna uw stempel erop.
+
+152
+00:06:55,363 --> 00:06:58,530
+Mag ik correctietape gebruiken?
+
+153
+00:06:58,553 --> 00:07:01,886
+Gebruik alstublieft geen correctietape.
+
+154
+00:07:01,909 --> 00:07:03,923
+Begrepen.
+
+155
+00:07:03,947 --> 00:07:05,680
+Ik zal voorzichtig zijn.
+
+156
+00:07:05,703 --> 00:07:08,837
+Vul het alstublieft daar aan dat bureau in.
+
+157
+00:07:08,860 --> 00:07:10,460
+Ja.
+
+158
+00:07:10,483 --> 00:07:13,370
+Waar moet ik heen als ik klaar ben met schrijven?
+
+159
+00:07:13,393 --> 00:07:16,009
+Kom dan weer hierheen.
+
+160
+00:07:16,033 --> 00:07:17,722
+Begrepen.
+
+161
+00:07:17,745 --> 00:07:21,280
+Als u iets niet begrijpt, vraag het dan gerust.
+
+162
+00:07:21,304 --> 00:07:24,037
+Ja, dat helpt me enorm.
+
+163
+00:07:24,060 --> 00:07:25,560
+Scène 5: Geld opnemen bij de geldautomaat
+
+164
+00:07:25,560 --> 00:07:27,927
+Welkom.
+
+165
+00:07:27,950 --> 00:07:29,483
+Sorry.
+
+166
+00:07:29,506 --> 00:07:32,444
+Ik wil graag geld opnemen.
+
+167
+00:07:32,468 --> 00:07:35,235
+Heeft u een bankpas bij u?
+
+168
+00:07:35,257 --> 00:07:37,943
+Ja, die heb ik.
+
+169
+00:07:37,966 --> 00:07:42,302
+Dan kunt u de geldautomaat gebruiken.
+
+170
+00:07:42,326 --> 00:07:45,792
+Waar kan ik een geldautomaat vinden?
+
+171
+00:07:45,815 --> 00:07:49,027
+Die staat buiten dit gebouw.
+
+172
+00:07:49,050 --> 00:07:51,050
+Buiten?
+
+173
+00:07:51,073 --> 00:07:52,807
+Ja.
+
+174
+00:07:52,830 --> 00:07:56,196
+Ga door die deur naar buiten en dan rechtsaf.
+
+175
+00:07:56,219 --> 00:07:59,253
+Door de deur naar buiten en dan rechts, toch?
+
+176
+00:07:59,276 --> 00:08:01,009
+Ja.
+
+177
+00:08:01,032 --> 00:08:02,911
+U ziet hem meteen.
+
+178
+00:08:02,934 --> 00:08:05,411
+Begrepen.
+
+179
+00:08:05,435 --> 00:08:09,202
+Weet u hoe u de geldautomaat moet gebruiken?
+
+180
+00:08:09,225 --> 00:08:10,237
+Ja.
+
+181
+00:08:10,261 --> 00:08:11,731
+Dat komt wel goed.
+
+182
+00:08:11,754 --> 00:08:14,422
+Is er ook een Engelstalig menu?
+
+183
+00:08:14,445 --> 00:08:15,903
+Ja.
+
+184
+00:08:15,927 --> 00:08:18,582
+Er is ook een Engelstalig scherm.
+
+185
+00:08:18,606 --> 00:08:20,972
+Dat is handig!
+
+186
+00:08:20,995 --> 00:08:24,568
+Er zijn ook schermen in het Chinees en Koreaans.
+
+187
+00:08:24,592 --> 00:08:26,443
+Begrepen.
+
+188
+00:08:26,466 --> 00:08:30,600
+Voor opnames kunnen er kosten in rekening worden gebracht.
+
+189
+00:08:30,623 --> 00:08:32,556
+Hoeveel is dat?
+
+190
+00:08:32,579 --> 00:08:35,848
+Op dit moment is het gratis.
+
+191
+00:08:35,871 --> 00:08:38,364
+Is het 's avonds wel kostenplichtig?
+
+192
+00:08:38,388 --> 00:08:40,221
+Ja.
+
+193
+00:08:40,244 --> 00:08:43,813
+Na 18:00 uur 's avonds kost het 110 yen.
+
+194
+00:08:43,837 --> 00:08:47,281
+Hoe zit het in het weekend?
+
+195
+00:08:47,305 --> 00:08:50,672
+Ook in het weekend worden er transactiekosten in rekening gebracht.
+
+196
+00:08:50,695 --> 00:08:52,369
+Begrepen.
+
+197
+00:08:52,392 --> 00:08:54,358
+Ik kom er nu aan.
+
+198
+00:08:54,381 --> 00:08:55,864
+Ja.
+
+199
+00:08:55,888 --> 00:08:57,665
+Doe voorzichtig.
+
+200
+00:08:57,688 --> 00:08:59,321
+Dank u wel.
+
+201
+00:08:59,344 --> 00:09:02,711
+Laat het gerust weten als je nog iets nodig hebt.
+
+202
+00:09:02,734 --> 00:09:04,301
+Ja.
+
+203
+00:09:04,324 --> 00:09:05,925
+Neemt u mij niet kwalijk.
+
+204
+00:09:05,948 --> 00:09:07,448
+Scène 6: Openingstijden van het bankloket en de geldautomaat
+
+205
+00:09:07,448 --> 00:09:09,625
+Welkom.
+
+206
+00:09:09,648 --> 00:09:11,926
+Sorry.
+
+207
+00:09:11,950 --> 00:09:15,350
+Mag ik u iets vragen?
+
+208
+00:09:15,373 --> 00:09:18,740
+Ja, wat kan ik voor u doen?
+
+209
+00:09:18,762 --> 00:09:23,432
+Tot hoe laat is het bankloket geopend?
+
+210
+00:09:23,456 --> 00:09:27,870
+Het loket is open tot 15:00 uur.
+
+211
+00:09:27,894 --> 00:09:30,764
+Tot 15:00 uur?
+
+212
+00:09:30,787 --> 00:09:33,387
+Dat is vroeg, hè?
+
+213
+00:09:33,410 --> 00:09:36,949
+Ja, het spijt me.
+
+214
+00:09:36,972 --> 00:09:41,506
+Wat gebeurt er na 15:00 uur?
+
+215
+00:09:41,529 --> 00:09:45,662
+Dan gaat de deur van het loket dicht.
+
+216
+00:09:45,685 --> 00:09:48,818
+Kan ik de geldautomaat nog gebruiken?
+
+217
+00:09:48,841 --> 00:09:54,930
+Ja, de geldautomaat is tot 21:00 uur beschikbaar.
+
+218
+00:09:54,954 --> 00:09:58,604
+O, gelukkig.
+
+219
+00:09:58,627 --> 00:10:03,427
+In het weekend is het loket gesloten.
+
+220
+00:10:03,450 --> 00:10:06,721
+Is de geldautomaat dan ook gesloten?
+
+221
+00:10:06,744 --> 00:10:12,188
+Nee, de geldautomaat is ook in het weekend geopend.
+
+222
+00:10:12,212 --> 00:10:15,545
+Vanaf hoe laat 's ochtends?
+
+223
+00:10:15,568 --> 00:10:20,780
+Het loket opent om 09:00 uur.
+
+224
+00:10:20,804 --> 00:10:24,578
+Is de geldautomaat nog vroeger beschikbaar?
+
+225
+00:10:24,601 --> 00:10:30,334
+Ja, de geldautomaat is al vanaf 08:00 uur beschikbaar.
+
+226
+00:10:30,357 --> 00:10:32,454
+Begrepen.
+
+227
+00:10:32,478 --> 00:10:36,411
+Wilt u vandaag nog iets aan het loket regelen?
+
+228
+00:10:36,434 --> 00:10:41,106
+Nee, vandaag heb ik geen tijd.
+
+229
+00:10:41,130 --> 00:10:43,378
+Ah, ik snap het.
+
+230
+00:10:43,401 --> 00:10:47,401
+Ik kom morgen tijdens de lunchpauze terug.
+
+231
+00:10:47,424 --> 00:10:50,957
+Tijdens de lunchpauze kan het behoorlijk druk zijn.
+
+232
+00:10:50,980 --> 00:10:54,459
+Hoe lang moet ik ongeveer wachten?
+
+233
+00:10:54,482 --> 00:10:58,216
+Misschien moet u ongeveer 30 minuten wachten.
+
+234
+00:10:58,240 --> 00:11:00,073
+Begrepen.
+
+235
+00:11:00,096 --> 00:11:02,949
+Dan kom ik iets eerder.
+
+236
+00:11:02,973 --> 00:11:05,573
+We zien u graag tegemoet.
+
+237
+00:11:05,596 --> 00:11:08,797
+Dank u wel.
+
+238
+00:11:08,821 --> 00:11:10,321
+Scène 7: Voltooiing van de bankprocedure
+
+239
+00:11:10,321 --> 00:11:13,797
+De procedure voor uw rekening is hiermee voltooid.
+
+240
+00:11:13,820 --> 00:11:15,697
+Dank u wel.
+
+241
+00:11:15,720 --> 00:11:18,120
+Ik heb mijn bankboekje ontvangen.
+
+242
+00:11:18,143 --> 00:11:19,476
+Ja.
+
+243
+00:11:19,499 --> 00:11:22,533
+U kunt het bankboekje vanaf vandaag gebruiken.
+
+244
+00:11:22,556 --> 00:11:25,437
+Krijg ik geen betaalpas?
+
+245
+00:11:25,460 --> 00:11:29,098
+De betaalpas wordt later per post verzonden.
+
+246
+00:11:29,122 --> 00:11:31,255
+Per post, dus.
+
+247
+00:11:31,278 --> 00:11:33,549
+Wanneer komt die aan?
+
+248
+00:11:33,573 --> 00:11:36,862
+Dat duurt ongeveer een week.
+
+249
+00:11:36,885 --> 00:11:39,336
+Een week?
+
+250
+00:11:39,360 --> 00:11:42,212
+Moet ik tekenen?
+
+251
+00:11:42,235 --> 00:11:43,846
+Ja.
+
+252
+00:11:43,870 --> 00:11:47,679
+Omdat het per aangetekende post wordt verzonden, is een handtekening vereist.
+
+253
+00:11:47,702 --> 00:11:53,702
+Wat als er niemand thuis is?
+
+254
+00:11:53,725 --> 00:11:56,159
+De postbode laat dan een afhaalbericht achter.
+
+255
+00:11:56,182 --> 00:11:58,272
+Een afhaalbericht, dus.
+
+256
+00:11:58,295 --> 00:11:59,738
+Ja.
+
+257
+00:11:59,762 --> 00:12:03,795
+Neem dan contact op met het postkantoor met behulp van dat briefje.
+
+258
+00:12:03,818 --> 00:12:05,985
+Begrepen.
+
+259
+00:12:06,008 --> 00:12:09,778
+Hoe kan ik geld opnemen totdat de pas arriveert?
+
+260
+00:12:09,801 --> 00:12:12,837
+Kan ik geen geld opnemen?
+
+261
+00:12:12,860 --> 00:12:17,194
+Met uw bankboekje en stempel kunt u geld aan het loket opnemen.
+
+262
+00:12:17,217 --> 00:12:19,295
+Ah, ik snap het.
+
+263
+00:12:19,318 --> 00:12:24,187
+Maar let op: het loket is alleen open tot 15:00 uur.
+
+264
+00:12:24,211 --> 00:12:25,744
+Ja.
+
+265
+00:12:25,767 --> 00:12:27,460
+Begrepen.
+
+266
+00:12:27,484 --> 00:12:31,450
+Zodra u uw kaart ontvangt, schrijf dan uw naam op de achterkant.
+
+267
+00:12:31,473 --> 00:12:33,010
+Ja.
+
+268
+00:12:33,034 --> 00:12:36,909
+Vertel uw pincode aan niemand.
+
+269
+00:12:36,933 --> 00:12:38,416
+Ja.
+
+270
+00:12:38,439 --> 00:12:40,287
+Natuurlijk.
+
+271
+00:12:40,310 --> 00:12:44,379
+Als u uw kaart verliest, bel dan direct de bank.
+
+272
+00:12:44,403 --> 00:12:46,170
+Begrepen.
+
+273
+00:12:46,193 --> 00:12:49,593
+Waar kan ik het telefoonnummer vinden?
+
+274
+00:12:49,616 --> 00:12:52,227
+Het staat op de achterkant van uw bankboekje.
+
+275
+00:12:52,250 --> 00:12:53,850
+Ja.
+
+276
+00:12:53,873 --> 00:12:55,923
+Hartelijk dank.
+
+277
+00:12:55,947 --> 00:12:57,447
+Scène 8: Geld opnemen bij de bank / Geld opnemen bij de bank
+
+278
+00:12:57,447 --> 00:12:59,618
+Welkom.
+
+279
+00:12:59,642 --> 00:13:03,975
+Pardon, ik wil graag geld opnemen.
+
+280
+00:13:03,998 --> 00:13:06,010
+Uiteraard.
+
+281
+00:13:06,033 --> 00:13:08,966
+Heeft u een bankpas bij u?
+
+282
+00:13:08,989 --> 00:13:13,357
+Nee, ik ben mijn kaart thuis vergeten.
+
+283
+00:13:13,380 --> 00:13:17,669
+Ah, heeft u uw bankboekje bij u?
+
+284
+00:13:17,693 --> 00:13:22,260
+Ja, ik heb mijn bankboekje en stempel bij me.
+
+285
+00:13:22,283 --> 00:13:27,156
+Dan kunt u de procedure aan dit loket voltooien.
+
+286
+00:13:27,179 --> 00:13:29,412
+Gelukkig maar.
+
+287
+00:13:29,435 --> 00:13:33,092
+Wilt u dit formulier invullen, alstublieft?
+
+288
+00:13:33,115 --> 00:13:36,649
+Waar moet ik invullen?
+
+289
+00:13:36,672 --> 00:13:40,131
+Hier en hier, alstublieft.
+
+290
+00:13:40,154 --> 00:13:42,443
+Dit is voor mijn naam, toch?
+
+291
+00:13:42,467 --> 00:13:46,877
+Ja, en daaronder schrijft u het bedrag.
+
+292
+00:13:46,901 --> 00:13:50,960
+Ik wil vandaag 100.000 yen opnemen.
+
+293
+00:13:50,984 --> 00:13:53,076
+Begrepen.
+
+294
+00:13:53,099 --> 00:13:58,306
+Schrijf hier alstublieft '100.000 yen'.
+
+295
+00:13:58,329 --> 00:14:01,426
+Goed, dat heb ik ingevuld.
+
+296
+00:14:01,449 --> 00:14:03,249
+Dank u wel.
+
+297
+00:14:03,272 --> 00:14:07,290
+Druk daarna hier uw stempel.
+
+298
+00:14:07,313 --> 00:14:10,985
+Zo, is dit goed?
+
+299
+00:14:11,008 --> 00:14:14,575
+Ja, dat is prima.
+
+300
+00:14:14,598 --> 00:14:17,798
+Krijg ik het geld meteen?
+
+301
+00:14:17,821 --> 00:14:22,102
+Ik moet even iets controleren, een ogenblik geduld alstublieft.
+
+302
+00:14:22,125 --> 00:14:23,725
+Ja.
+
+303
+00:14:23,748 --> 00:14:27,348
+Neemt u plaats op die stoel en wacht u even.
+
+304
+00:14:27,371 --> 00:14:30,538
+Heb ik een nummertje?
+
+305
+00:14:30,561 --> 00:14:34,649
+Ja, we roepen u bij dit nummer.
+
+306
+00:14:34,672 --> 00:14:36,742
+Begrepen.
+
+307
+00:14:36,765 --> 00:14:39,174
+Sorry dat u moest wachten.
+
+308
+00:14:39,198 --> 00:14:41,769
+Klant nummer vijftien.
+
+309
+00:14:41,792 --> 00:14:43,489
+Ja.
+
+310
+00:14:43,512 --> 00:14:48,246
+Hier is uw 100.000 yen en uw bankboekje.
+
+311
+00:14:48,269 --> 00:14:50,440
+Controleert u het alstublieft.
+
+312
+00:14:50,463 --> 00:14:53,532
+Ja, dank u wel.
+
+313
+00:14:53,556 --> 00:14:55,056
+Scène 9: Overboeking naar het buitenland / Procedure voor overmaking naar het buitenland
+
+314
+00:14:55,056 --> 00:14:57,122
+Welkom.
+
+315
+00:14:57,145 --> 00:14:59,979
+Wat kan ik voor u doen vandaag?
+
+316
+00:15:00,002 --> 00:15:03,500
+Ik wil graag geld naar het buitenland sturen.
+
+317
+00:15:03,523 --> 00:15:05,256
+Uiteraard.
+
+318
+00:15:05,279 --> 00:15:07,679
+Een overboeking naar het buitenland dus.
+
+319
+00:15:07,702 --> 00:15:09,269
+Ja.
+
+320
+00:15:09,292 --> 00:15:12,826
+Ik stuur het naar mijn familie in mijn thuisland.
+
+321
+00:15:12,849 --> 00:15:15,748
+Naar welk land wilt u het geld sturen?
+
+322
+00:15:15,771 --> 00:15:18,572
+Ik wil het naar Vietnam sturen.
+
+323
+00:15:18,596 --> 00:15:20,396
+Begrepen.
+
+324
+00:15:20,419 --> 00:15:23,752
+Heeft u de gegevens van de ontvanger bij u?
+
+325
+00:15:23,776 --> 00:15:25,247
+Ja.
+
+326
+00:15:25,270 --> 00:15:29,874
+Ik heb een notitie met de naam van de bank en het rekeningnummer.
+
+327
+00:15:29,898 --> 00:15:31,898
+Dank u wel.
+
+328
+00:15:31,921 --> 00:15:35,329
+Wanneer komt het geld aan?
+
+329
+00:15:35,352 --> 00:15:39,191
+Dat duurt ongeveer drie dagen tot een week.
+
+330
+00:15:39,214 --> 00:15:41,014
+Ah, ik snap het.
+
+331
+00:15:41,037 --> 00:15:44,333
+Het verschilt per land en bank.
+
+332
+00:15:44,357 --> 00:15:46,890
+Hoeveel zijn de kosten?
+
+333
+00:15:46,913 --> 00:15:51,513
+De kosten voor een overboeking aan het loket bedragen 4000 yen.
+
+334
+00:15:51,536 --> 00:15:53,770
+4000 yen?
+
+335
+00:15:53,793 --> 00:15:56,359
+Dat is een beetje duur.
+
+336
+00:15:56,382 --> 00:15:58,721
+Het spijt me.
+
+337
+00:15:58,745 --> 00:16:01,745
+Kan ik het ook via de app versturen?
+
+338
+00:16:01,768 --> 00:16:03,061
+Ja.
+
+339
+00:16:03,084 --> 00:16:06,218
+U kunt het ook via internetbankieren verzenden.
+
+340
+00:16:06,241 --> 00:16:08,780
+Is dat goedkoper?
+
+341
+00:16:08,803 --> 00:16:10,459
+Ja.
+
+342
+00:16:10,483 --> 00:16:14,249
+Via internet bedraagt de transactiekosten 3000 yen.
+
+343
+00:16:14,272 --> 00:16:17,406
+Dan wil ik het via internet doen.
+
+344
+00:16:17,429 --> 00:16:19,229
+Uiteraard.
+
+345
+00:16:19,252 --> 00:16:22,549
+Zullen we dan de app registreren?
+
+346
+00:16:22,572 --> 00:16:23,938
+Ja.
+
+347
+00:16:23,961 --> 00:16:25,452
+Graag.
+
+348
+00:16:25,476 --> 00:16:28,242
+Heeft u een smartphone?
+
+349
+00:16:28,265 --> 00:16:29,799
+Ja.
+
+350
+00:16:29,822 --> 00:16:31,293
+Deze hier.
+
+351
+00:16:31,316 --> 00:16:34,483
+Download alstublieft onze bankapp.
+
+352
+00:16:34,507 --> 00:16:36,311
+Begrepen.
+
+353
+00:16:36,334 --> 00:16:38,101
+Ik doe het meteen.
+
+354
+00:16:38,124 --> 00:16:41,091
+Als u iets niet begrijpt, vraag het dan gerust.
+
+355
+00:16:41,115 --> 00:16:42,681
+Ja.
+
+356
+00:16:42,704 --> 00:16:44,704
+Dank u wel.
+
+357
+00:16:44,727 --> 00:16:46,227
+Scène 10: Hoe wissel je vreemde valuta / How to Exchange Foreign Currency
+
+358
+00:16:46,227 --> 00:16:48,594
+Welkom.
+
+359
+00:16:48,617 --> 00:16:50,316
+Sorry.
+
+360
+00:16:50,340 --> 00:16:53,473
+Ik wil graag vreemde valuta wisselen.
+
+361
+00:16:53,496 --> 00:16:55,576
+Uiteraard.
+
+362
+00:16:55,600 --> 00:17:00,200
+Ik wil Amerikaanse dollars omwisselen naar Japanse yen.
+
+363
+00:17:00,223 --> 00:17:01,425
+Ja.
+
+364
+00:17:01,448 --> 00:17:04,917
+Dit is de wisselkoers van vandaag.
+
+365
+00:17:04,941 --> 00:17:08,021
+Hoeveel is één dollar waard?
+
+366
+00:17:08,045 --> 00:17:12,289
+Vandaag is één dollar 150 yen waard.
+
+367
+00:17:12,313 --> 00:17:14,353
+Begrepen.
+
+368
+00:17:14,376 --> 00:17:17,109
+Wissel alstublieft 500 dollar voor me.
+
+369
+00:17:17,132 --> 00:17:19,499
+Uiteraard.
+
+370
+00:17:19,522 --> 00:17:23,122
+Hoeveel wordt dat in totaal?
+
+371
+00:17:23,145 --> 00:17:27,393
+Dat wordt 75.000 yen.
+
+372
+00:17:27,416 --> 00:17:30,750
+Zijn er transactiekosten?
+
+373
+00:17:30,773 --> 00:17:34,839
+De transactiekosten zitten al in de wisselkoers inbegrepen.
+
+374
+00:17:34,862 --> 00:17:36,996
+Begrepen.
+
+375
+00:17:37,019 --> 00:17:41,952
+Schrijf alstublieft uw naam op dit formulier.
+
+376
+00:17:41,975 --> 00:17:44,908
+Mag het in het Latijnse alfabet?
+
+377
+00:17:44,931 --> 00:17:47,565
+Ja, dat is prima.
+
+378
+00:17:47,588 --> 00:17:49,621
+Ik heb het opgeschreven.
+
+379
+00:17:49,644 --> 00:17:52,677
+Is een paspoort ook nodig?
+
+380
+00:17:52,700 --> 00:17:54,467
+Ja.
+
+381
+00:17:54,490 --> 00:17:58,290
+Dit is nodig voor de identificatie van uzelf.
+
+382
+00:17:58,313 --> 00:18:01,513
+Alstublieft.
+
+383
+00:18:01,536 --> 00:18:03,136
+Dank u wel.
+
+384
+00:18:03,159 --> 00:18:06,159
+Ik zal het controleren.
+
+385
+00:18:06,182 --> 00:18:09,415
+Hoe wilt u het geld ontvangen?
+
+386
+00:18:09,438 --> 00:18:16,605
+Is 7 briefjes van 10.000 yen en 1 briefje van 5.000 yen goed?
+
+387
+00:18:16,628 --> 00:18:20,961
+Doe er ook wat briefjes van 1.000 yen bij, alstublieft.
+
+388
+00:18:20,984 --> 00:18:23,317
+Uiteraard.
+
+389
+00:18:23,340 --> 00:18:32,999
+Doe alstublieft 6 briefjes van 10.000 yen, 1 briefje van 5.000 yen en 10 briefjes van 1.000 yen.
+
+390
+00:18:33,023 --> 00:18:36,196
+Begrepen.
+
+391
+00:18:36,219 --> 00:18:38,291
+Alstublieft.
+
+392
+00:18:38,314 --> 00:18:40,748
+Sorry dat u moest wachten.
+
+393
+00:18:40,771 --> 00:18:43,704
+Dit is uw geld.
+
+394
+00:18:43,727 --> 00:18:45,773
+Ik controleer het even.
+
+395
+00:18:45,796 --> 00:18:48,663
+Ja, het klopt.
+
+396
+00:18:48,686 --> 00:18:50,743
+Dank u wel.
+
+397
+00:19:00,403 --> 00:19:01,903
+Scène 1: Procedure voor het openen van een bankrekening
+
+398
+00:19:01,903 --> 00:19:04,173
+Luistertoets
+
+399
+00:19:04,173 --> 00:19:06,740
+Welkom.
+
+400
+00:19:06,740 --> 00:19:10,373
+いらっしゃいませ = welkom
+
+401
+00:19:10,396 --> 00:19:13,744
+Luistertoets
+
+402
+00:19:13,744 --> 00:19:17,662
+Wat kan ik voor u doen vandaag?
+
+403
+00:19:17,662 --> 00:19:23,039
+どうされましたか = wat kan ik voor u doen
+
+404
+00:19:23,062 --> 00:19:25,129
+Luistertoets
+
+405
+00:19:25,129 --> 00:19:27,429
+Sorry.
+
+406
+00:19:30,685 --> 00:19:34,427
+Luistertoets
+
+407
+00:19:34,427 --> 00:19:38,824
+Ik wil graag een bankrekening openen.
+
+408
+00:19:38,824 --> 00:19:44,858
+Vたい = willen doen
+銀行(ぎんこう) = bank
+口座(こうざ) = bankrekening
+
+409
+00:19:44,881 --> 00:19:47,199
+Luistertoets
+
+410
+00:19:47,199 --> 00:19:49,833
+Uiteraard.
+
+411
+00:19:49,833 --> 00:19:53,508
+かしこまりました = zeker, komt in orde
+
+412
+00:19:53,531 --> 00:19:56,398
+Luistertoets
+
+413
+00:19:56,398 --> 00:19:59,698
+Een nieuwe rekening dus.
+
+414
+00:19:59,698 --> 00:20:04,255
+新(あたら)しい (nieuw) ↔ 古(ふる)い (oud)
+
+415
+00:20:04,278 --> 00:20:07,311
+Luistertoets
+
+416
+00:20:07,311 --> 00:20:10,811
+Ja, precies.
+
+417
+00:20:15,668 --> 00:20:19,401
+Luistertoets
+
+418
+00:20:19,401 --> 00:20:23,834
+Woont u in Japan?
+
+419
+00:20:23,834 --> 00:20:29,868
+お + N = beleefd voorvoegsel
+お客様(きゃくさま) = klant
+お住(す)まい = woonplaats
+
+420
+00:20:29,891 --> 00:20:32,163
+Ja.
+
+421
+00:20:32,186 --> 00:20:35,553
+Luistertoets
+
+422
+00:20:35,553 --> 00:20:39,486
+Ik woon sinds vorige maand in Tokio.
+
+423
+00:20:39,486 --> 00:20:44,919
+N + から = vanaf N
+先月(せんげつ) (vorige maand) ↔ 今月(こんげつ) (deze maand)
+
+424
+00:20:44,942 --> 00:20:48,120
+Luistertoets
+
+425
+00:20:48,120 --> 00:20:51,825
+Heeft u een baan?
+
+426
+00:20:51,825 --> 00:20:56,925
+Vていますか = Bent u aan het...?
+お仕事(しごと) = werk / baan
+
+427
+00:20:56,948 --> 00:20:59,015
+Ja.
+
+428
+00:20:59,038 --> 00:21:01,138
+Luistertoets
+
+429
+00:21:01,138 --> 00:21:03,472
+Ik ben werknemer.
+
+430
+00:21:03,472 --> 00:21:06,738
+N + です = Ik ben N / Het is N
+会社員(かいしゃいん) = kantoormedewerker
+
+431
+00:21:06,761 --> 00:21:09,195
+Luistertoets
+
+432
+00:21:09,195 --> 00:21:11,973
+Begrepen.
+
+433
+00:21:15,862 --> 00:21:20,730
+Luistertoets
+
+434
+00:21:20,730 --> 00:21:26,564
+Voor het openen van een rekening heeft u een identiteitsbewijs nodig.
+
+435
+00:21:26,564 --> 00:21:34,472
+N + が必要(ひつよう)です = N is nodig
+開設(かいせつ) = openen (van een rekening)
+身分証明書(みぶんしょうめいしょ) = identiteitsbewijs
+
+436
+00:21:34,496 --> 00:21:37,996
+Luistertoets
+
+437
+00:21:37,996 --> 00:21:42,096
+Een identiteitsbewijs?
+
+438
+00:21:42,096 --> 00:21:47,729
+N + ですか = Is het N?
+
+439
+00:21:47,752 --> 00:21:49,552
+Ja.
+
+440
+00:21:49,575 --> 00:21:53,475
+Luistertoets
+
+441
+00:21:53,475 --> 00:21:58,108
+Heeft u een verblijfskaart of paspoort?
+
+442
+00:21:58,108 --> 00:22:04,408
+N1 + や + N2 = N1 en N2
+在留(ざいりゅう)カード = verblijfsvergunning
+
+443
+00:22:04,431 --> 00:22:06,189
+Ja.
+
+444
+00:22:06,213 --> 00:22:09,361
+Luistertoets
+
+445
+00:22:09,361 --> 00:22:13,061
+Ik heb een verblijfskaart.
+
+446
+00:22:13,061 --> 00:22:18,129
+Vています = hebben / bij zich hebben
+持(も)つ = hebben / vasthouden
+
+447
+00:22:18,152 --> 00:22:20,252
+Luistertoets
+
+448
+00:22:20,252 --> 00:22:22,619
+Dank u wel.
+
+449
+00:22:25,942 --> 00:22:29,453
+Luistertoets
+
+450
+00:22:29,453 --> 00:22:33,568
+Mag ik deze dan even zien?
+
+451
+00:22:33,568 --> 00:22:39,235
+Vてください = Doe alstublieft...
+見(み)せる = laten zien
+
+452
+00:22:39,258 --> 00:22:41,124
+Ja.
+
+453
+00:22:41,147 --> 00:22:43,181
+Alstublieft.
+
+454
+00:22:43,204 --> 00:22:45,516
+Luistertoets
+
+455
+00:22:45,516 --> 00:22:48,149
+Ik zal het controleren.
+
+456
+00:22:48,149 --> 00:22:51,816
+Vいたします = bescheiden vorm van doen
+確認(かくにん) = bevestiging / controle
+
+457
+00:22:51,839 --> 00:22:55,205
+Luistertoets
+
+458
+00:22:55,205 --> 00:22:59,141
+Heeft u een My Number-kaart?
+
+459
+00:22:59,141 --> 00:23:04,540
+N + はありますか = Heeft u N?
+マイナンバーカード = Burgerservicenummerkaart
+
+460
+00:23:04,564 --> 00:23:08,076
+Luistertoets
+
+461
+00:23:08,076 --> 00:23:12,195
+Ik heb nog geen My Number-kaart.
+
+462
+00:23:12,195 --> 00:23:17,861
+まだ + Vません = nog niet gedaan
+まだ = nog niet
+
+463
+00:23:17,884 --> 00:23:20,151
+Luistertoets
+
+464
+00:23:20,151 --> 00:23:22,706
+Ah, ik snap het.
+
+465
+00:23:26,320 --> 00:23:30,022
+Luistertoets
+
+466
+00:23:30,022 --> 00:23:34,379
+Heeft u een document waar uw My Number op staat?
+
+467
+00:23:34,379 --> 00:23:40,412
+V + N = [werkwoord] N
+書類(しょるい) = document
+
+468
+00:23:40,435 --> 00:23:43,469
+Luistertoets
+
+469
+00:23:43,469 --> 00:23:46,969
+Ik heb een bewijs van inschrijving in de gemeente.
+
+470
+00:23:46,969 --> 00:23:51,765
+N + なら = als het N is
+住民票(じゅうみんひょう) = uittreksel uit de basisregistratie personen
+
+471
+00:23:51,788 --> 00:23:53,888
+Luistertoets
+
+472
+00:23:53,888 --> 00:23:56,230
+Dank u wel.
+
+473
+00:23:59,553 --> 00:24:02,653
+Luistertoets
+
+474
+00:24:02,653 --> 00:24:06,245
+Mag ik dat ook zien?
+
+475
+00:24:06,245 --> 00:24:11,224
+N + もお願(ねが)いします = N ook alstublieft
+お願(ねが)いします = alstublieft
+
+476
+00:24:11,248 --> 00:24:14,224
+Luistertoets
+
+477
+00:24:14,224 --> 00:24:17,696
+Ja, hier is het.
+
+478
+00:24:22,506 --> 00:24:24,642
+Luistertoets
+
+479
+00:24:24,642 --> 00:24:27,075
+Ik heb het gecontroleerd.
+
+480
+00:24:30,473 --> 00:24:34,240
+Luistertoets
+
+481
+00:24:34,240 --> 00:24:38,673
+Heeft u ook een zegel?
+
+482
+00:24:38,673 --> 00:24:44,743
+ご + N = beleefd voorvoegsel
+次(つぎ) = volgende
+印鑑(いんかん) = persoonlijk zegel
+
+483
+00:24:44,767 --> 00:24:47,667
+Luistertoets
+
+484
+00:24:47,667 --> 00:24:51,003
+Ik heb geen zegel.
+
+485
+00:24:51,003 --> 00:24:55,636
+N + はありません = heb geen N
+
+486
+00:24:55,659 --> 00:24:58,597
+Luistertoets
+
+487
+00:24:58,597 --> 00:25:02,030
+Een handtekening is ook goed.
+
+488
+00:25:02,030 --> 00:25:06,735
+N + でも大丈夫(だいじょうぶ)です = N is ook goed
+サイン = handtekening
+大丈夫(だいじょうぶ) = in orde / oké
+
+489
+00:25:06,759 --> 00:25:09,145
+Luistertoets
+
+490
+00:25:09,145 --> 00:25:11,858
+Gelukkig maar.
+
+491
+00:25:11,858 --> 00:25:15,655
+いAかった = was [bijvoeglijk naamwoord]
+よかった = fijn dat het zo was
+
+492
+00:25:15,678 --> 00:25:20,945
+Luistertoets
+
+493
+00:25:20,945 --> 00:25:27,245
+Vul dan alstublieft uw naam en adres in op dit formulier.
+
+494
+00:25:27,245 --> 00:25:35,797
+Vてください = Doe alstublieft...
+用紙(ようし) = formulier
+住所(じゅうしょ) = adres
+
+495
+00:25:35,820 --> 00:25:38,454
+Luistertoets
+
+496
+00:25:38,454 --> 00:25:41,487
+Moet ik dat in kanji schrijven?
+
+497
+00:25:41,487 --> 00:25:45,663
+N + で = in N / met N
+漢字(かんじ) = kanji
+
+498
+00:25:45,687 --> 00:25:48,633
+Luistertoets
+
+499
+00:25:48,633 --> 00:25:52,066
+In romaji mag ook.
+
+500
+00:25:52,066 --> 00:25:56,767
+N + でもいい = N is ook goed
+ローマ字(じ) = Latijns schrift / romaji
+
+501
+00:25:56,790 --> 00:25:58,926
+Luistertoets
+
+502
+00:25:58,926 --> 00:26:01,359
+Begrepen.
+
+503
+00:26:04,749 --> 00:26:07,225
+Luistertoets
+
+504
+00:26:07,225 --> 00:26:10,058
+Ik ga het nu invullen.
+
+505
+00:26:10,058 --> 00:26:13,992
+N + から = vanaf N
+今(いま)から = vanaf nu
+
+506
+00:26:14,014 --> 00:26:17,486
+Luistertoets
+
+507
+00:26:17,486 --> 00:26:21,586
+Als u iets niet begrijpt, vraag het dan gerust.
+
+508
+00:26:21,586 --> 00:26:27,184
+Vたら = als / wanneer...
+聞(き)く = vragen
+
+509
+00:26:27,208 --> 00:26:30,775
+Luistertoets
+
+510
+00:26:30,775 --> 00:26:34,953
+Ja, dank u wel.
+
+511
+00:26:40,709 --> 00:26:42,209
+Scène 2: Procedure voor het aanmaken van een cursus
+
+512
+00:26:42,209 --> 00:26:44,599
+Luistertoets
+
+513
+00:26:44,599 --> 00:26:47,333
+Welkom.
+
+514
+00:26:51,189 --> 00:26:54,575
+Luistertoets
+
+515
+00:26:54,575 --> 00:26:58,542
+Wat kan ik voor u doen?
+
+516
+00:26:58,542 --> 00:27:04,008
+何(なん)でしょうか = Wat zou het zijn?
+用件(ようけん) = zaak / kwestie
+
+517
+00:27:04,031 --> 00:27:06,065
+Luistertoets
+
+518
+00:27:06,065 --> 00:27:08,298
+Sorry.
+
+519
+00:27:11,469 --> 00:27:14,502
+Luistertoets
+
+520
+00:27:14,502 --> 00:27:18,002
+Ik wil graag een rekening openen.
+
+521
+00:27:18,002 --> 00:27:22,836
+Vたいです = wil graag V
+口座(こうざ) = bankrekening
+
+522
+00:27:22,859 --> 00:27:25,292
+Luistertoets
+
+523
+00:27:25,292 --> 00:27:28,044
+Dank u wel.
+
+524
+00:27:31,904 --> 00:27:35,404
+Luistertoets
+
+525
+00:27:35,404 --> 00:27:39,504
+Wilt u vandaag de procedure afhandelen?
+
+526
+00:27:39,504 --> 00:27:45,138
+N + を しますか = gaat u N doen?
+手続(てつづ)き = procedure
+
+527
+00:27:45,161 --> 00:27:50,461
+Luistertoets
+
+528
+00:27:50,461 --> 00:27:56,796
+Nee, ik kwam vandaag alleen even vragen wat ik nodig heb.
+
+529
+00:27:56,796 --> 00:28:05,395
+V に 来(き)ました = ben gekomen om te V
+必要(ひつよう) (nodig) ↔ 不要(ふよう) (onnodig)
+
+530
+00:28:05,418 --> 00:28:07,788
+Luistertoets
+
+531
+00:28:07,788 --> 00:28:10,488
+Uiteraard.
+
+532
+00:28:14,258 --> 00:28:18,325
+Luistertoets
+
+533
+00:28:18,325 --> 00:28:23,158
+Allereerst heeft u een verblijfskaart nodig.
+
+534
+00:28:23,158 --> 00:28:29,730
+N + が 必要(ひつよう)です = heeft N nodig
+在留(ざいりゅう)カード = verblijfsvergunning
+
+535
+00:28:29,754 --> 00:28:32,587
+Luistertoets
+
+536
+00:28:32,587 --> 00:28:35,854
+Een verblijfskaart, oké.
+
+537
+00:28:35,854 --> 00:28:40,371
+N + ですね = Het is N, toch?
+
+538
+00:28:40,394 --> 00:28:42,694
+Luistertoets
+
+539
+00:28:42,694 --> 00:28:45,328
+Die heb ik.
+
+540
+00:28:45,328 --> 00:28:48,961
+Vています = hebben / bezitten
+持(も)つ = hebben / vasthouden
+
+541
+00:28:48,984 --> 00:28:52,951
+Luistertoets
+
+542
+00:28:52,951 --> 00:28:57,651
+En daarna hebt u ook een zegel nodig.
+
+543
+00:28:57,651 --> 00:29:04,084
+N + も 必要(ひつよう)です = heeft ook N nodig
+印鑑(いんかん) = persoonlijk zegel
+
+544
+00:29:04,107 --> 00:29:06,481
+Luistertoets
+
+545
+00:29:06,481 --> 00:29:09,187
+Een zegel?
+
+546
+00:29:09,187 --> 00:29:12,957
+N + ですか = Is het N?
+
+547
+00:29:12,981 --> 00:29:14,947
+Ja.
+
+548
+00:29:14,970 --> 00:29:18,270
+Luistertoets
+
+549
+00:29:18,270 --> 00:29:22,104
+Uw persoonlijke stempel.
+
+550
+00:29:22,104 --> 00:29:27,379
+N1 の N2 = N2 van N1
+ハンコ ≒ 印鑑(いんかん) (persoonlijk zegel)
+
+551
+00:29:27,402 --> 00:29:30,235
+Luistertoets
+
+552
+00:29:30,235 --> 00:29:33,502
+Is een Shachihata-stempel ook goed?
+
+553
+00:29:33,502 --> 00:29:38,016
+N + でもいいですか = Is N ook goed?
+シャチハタ = zelfinktend stempel
+
+554
+00:29:38,040 --> 00:29:40,406
+Luistertoets
+
+555
+00:29:40,406 --> 00:29:43,106
+Sorry.
+
+556
+00:29:46,871 --> 00:29:49,785
+Luistertoets
+
+557
+00:29:49,785 --> 00:29:53,151
+Een Shachihata-stempel mag niet.
+
+558
+00:29:53,151 --> 00:29:57,818
+N + は だめです = N is niet toegestaan
+だめ (niet goed) ↔ いい (goed / oké)
+
+559
+00:29:57,841 --> 00:30:00,035
+Luistertoets
+
+560
+00:30:00,035 --> 00:30:02,507
+Ah, ik snap het.
+
+561
+00:30:05,998 --> 00:30:08,898
+Luistertoets
+
+562
+00:30:08,898 --> 00:30:12,236
+Een gewone zegel dus.
+
+563
+00:30:12,236 --> 00:30:16,870
+普通(ふつう)の + N = gewone N
+普通(ふつう) (gewoon / normaal) ↔ 特別(とくべつ) (speciaal)
+
+564
+00:30:16,893 --> 00:30:18,793
+Ja.
+
+565
+00:30:18,816 --> 00:30:23,116
+Luistertoets
+
+566
+00:30:23,116 --> 00:30:28,216
+Verder hebt u uw burgerservicenummerkaart nodig.
+
+567
+00:30:28,216 --> 00:30:35,167
+あとは = Daarnaast / Bovendien
+マイナンバーカード = Burgerservicenummerkaart
+
+568
+00:30:35,190 --> 00:30:38,257
+Luistertoets
+
+569
+00:30:38,257 --> 00:30:41,811
+Mijn burgerservicenummerkaart, ja.
+
+570
+00:30:41,811 --> 00:30:46,711
+N + ですね = N, toch?
+
+571
+00:30:46,734 --> 00:30:48,640
+Ja.
+
+572
+00:30:48,663 --> 00:30:51,130
+Luistertoets
+
+573
+00:30:51,130 --> 00:30:53,913
+Hebt u die bij u?
+
+574
+00:30:53,913 --> 00:30:57,779
+Vていますか = Heeft u...?
+
+575
+00:30:57,802 --> 00:30:59,746
+Ja.
+
+576
+00:30:59,770 --> 00:31:01,684
+Luistertoets
+
+577
+00:31:01,684 --> 00:31:03,820
+Die heb ik.
+
+578
+00:31:03,820 --> 00:31:06,853
+Vています = hebben / bezitten
+
+579
+00:31:06,876 --> 00:31:09,620
+Luistertoets
+
+580
+00:31:09,620 --> 00:31:12,776
+Dan is het in orde.
+
+581
+00:31:12,776 --> 00:31:17,153
+それなら = In dat geval...
+大丈夫(だいじょうぶ) = in orde / oké
+
+582
+00:31:17,176 --> 00:31:20,164
+Luistertoets
+
+583
+00:31:20,164 --> 00:31:23,637
+Is een paspoort ook nodig?
+
+584
+00:31:23,637 --> 00:31:28,426
+N + も 必要(ひつよう)ですか = Heeft u ook N nodig?
+パスポート = paspoort
+
+585
+00:31:28,449 --> 00:31:32,225
+Luistertoets
+
+586
+00:31:32,225 --> 00:31:36,692
+Nee, een paspoort is niet nodig.
+
+587
+00:31:36,692 --> 00:31:42,792
+N + は 要(い)りません = heeft geen N nodig
+要(い)る = nodig hebben
+
+588
+00:31:42,815 --> 00:31:45,329
+Luistertoets
+
+589
+00:31:45,329 --> 00:31:48,195
+Begrepen.
+
+590
+00:31:52,194 --> 00:31:56,227
+Luistertoets
+
+591
+00:31:56,227 --> 00:32:00,994
+U hebt ook een klein bedrag aan startgeld nodig.
+
+592
+00:32:00,994 --> 00:32:07,496
+V + N = N die V
+最初(さいしょ) (eerste / begin) ↔ 最後(さいご) (laatste / einde)
+
+593
+00:32:07,520 --> 00:32:09,502
+Luistertoets
+
+594
+00:32:09,502 --> 00:32:11,735
+Hoeveel?
+
+595
+00:32:11,735 --> 00:32:14,845
+いくらですか = Hoeveel kost het?
+
+596
+00:32:14,868 --> 00:32:18,168
+Luistertoets
+
+597
+00:32:18,168 --> 00:32:22,001
+Ongeveer 1000 yen is voldoende.
+
+598
+00:32:22,001 --> 00:32:27,271
+N + くらいでいいです = ongeveer N is goed
+〜くらい = ongeveer
+
+599
+00:32:27,295 --> 00:32:29,439
+Luistertoets
+
+600
+00:32:29,439 --> 00:32:31,872
+Begrepen.
+
+601
+00:32:35,276 --> 00:32:38,612
+Luistertoets
+
+602
+00:32:38,612 --> 00:32:42,528
+De procedure duurt even.
+
+603
+00:32:42,528 --> 00:32:47,896
+時間(じかん)がかかります = kost tijd
+かかる = duren (tijd/geld)
+
+604
+00:32:47,919 --> 00:32:50,753
+Luistertoets
+
+605
+00:32:50,753 --> 00:32:53,986
+Hoe lang duurt het ongeveer?
+
+606
+00:32:53,986 --> 00:32:58,486
+どのくらい かかりますか = Hoe lang duurt het?
+どのくらい = hoelang / hoeveel
+
+607
+00:32:58,509 --> 00:33:01,497
+Luistertoets
+
+608
+00:33:01,497 --> 00:33:04,964
+Ongeveer een uur.
+
+609
+00:33:04,964 --> 00:33:09,735
+N + くらい かかります = duurt ongeveer N
+1時間(じかん) = één uur
+
+610
+00:33:09,758 --> 00:33:12,025
+Luistertoets
+
+611
+00:33:12,025 --> 00:33:14,558
+Begrepen.
+
+612
+00:33:18,124 --> 00:33:20,757
+Luistertoets
+
+613
+00:33:20,757 --> 00:33:23,748
+Ik kom morgen terug.
+
+614
+00:33:23,748 --> 00:33:27,915
+また + Vます = weer V
+明日(あした) (morgen) ↔ 昨日(きのう) (gisteren)
+
+615
+00:33:27,938 --> 00:33:30,371
+Luistertoets
+
+616
+00:33:30,371 --> 00:33:33,123
+We zien u graag tegemoet.
+
+617
+00:33:33,123 --> 00:33:36,956
+お待(ま)ちしております = Ik kijk ernaar uit u te zien
+待(ま)つ = wachten
+
+618
+00:33:36,979 --> 00:33:39,646
+Luistertoets
+
+619
+00:33:39,646 --> 00:33:42,679
+Dank u wel.
+
+620
+00:33:46,936 --> 00:33:48,436
+Scène 3: Hoe formulieren invullen / How to Fill Out Forms in Japanese
+
+621
+00:33:48,436 --> 00:33:51,502
+Luistertoets
+
+622
+00:33:51,502 --> 00:33:55,050
+Sorry dat u moest wachten.
+
+623
+00:33:55,050 --> 00:33:59,953
+お待(ま)たせする = iemand laten wachten
+
+624
+00:33:59,977 --> 00:34:05,310
+Luistertoets
+
+625
+00:34:05,310 --> 00:34:11,699
+Pardon, kunt u mij uitleggen hoe ik dit formulier moet invullen?
+
+626
+00:34:11,699 --> 00:34:20,399
+Vstem + 方(かた) = hoe te...
+紙(かみ) = papier
+教(おし)える = leren / vertellen
+
+627
+00:34:20,422 --> 00:34:24,588
+Luistertoets
+
+628
+00:34:24,588 --> 00:34:29,525
+Ja, wat begrijpt u niet?
+
+629
+00:34:29,525 --> 00:34:36,268
+どこ + が + V = waar / welk deel...
+
+630
+00:34:36,292 --> 00:34:39,525
+Luistertoets
+
+631
+00:34:39,525 --> 00:34:43,259
+Hier, bij de naam.
+
+632
+00:34:43,259 --> 00:34:48,399
+N + です = is / het is N
+名前(なまえ) = naam
+
+633
+00:34:48,422 --> 00:34:51,300
+Luistertoets
+
+634
+00:34:51,300 --> 00:34:54,634
+Uw naam, ja.
+
+635
+00:34:54,634 --> 00:34:59,267
+N + ですね = het is N, toch?
+
+636
+00:34:59,290 --> 00:35:02,274
+Luistertoets
+
+637
+00:35:02,274 --> 00:35:05,753
+Moet ik die in kanji schrijven?
+
+638
+00:35:05,753 --> 00:35:10,522
+N + で = in / met / gebruikmakend van N
+漢字(かんじ) = kanji
+
+639
+00:35:10,546 --> 00:35:13,313
+Luistertoets
+
+640
+00:35:13,313 --> 00:35:16,491
+Of in het Latijnse alfabet?
+
+641
+00:35:16,491 --> 00:35:20,886
+N + で = in / met / gebruikmakend van N
+ローマ字(じ) = romaji
+
+642
+00:35:20,909 --> 00:35:25,409
+Luistertoets
+
+643
+00:35:25,409 --> 00:35:30,744
+Schrijf het alstublieft net zoals op uw verblijfsvergunning.
+
+644
+00:35:30,744 --> 00:35:38,024
+N + と + hetzelfde als = op dezelfde manier als N
+Verblijfskaart = verblijfsvergunning
+Hetzelfde (zelfde) ↔ Verschillend (verschillend)
+
+645
+00:35:38,047 --> 00:35:40,681
+Luistertoets
+
+646
+00:35:40,681 --> 00:35:43,661
+In het Latijnse alfabet dus.
+
+647
+00:35:43,661 --> 00:35:47,809
+N + ですね = het is N, toch?
+
+648
+00:35:47,832 --> 00:35:50,204
+Luistertoets
+
+649
+00:35:50,204 --> 00:35:52,904
+Begrepen.
+
+650
+00:35:56,697 --> 00:36:00,891
+Luistertoets
+
+651
+00:36:00,891 --> 00:36:05,864
+Vul boven ook de fonetische schrijfwijze in.
+
+652
+00:36:05,864 --> 00:36:12,697
+Vて + alstublieft = doe alstublieft...
+Boven (bovenkant) ↔ Onder (onderkant)
+Kolom = kolom, veld
+
+653
+00:36:12,720 --> 00:36:16,718
+Luistertoets
+
+654
+00:36:16,718 --> 00:36:21,452
+Moet de fonetische schrijfwijze in katakana?
+
+655
+00:36:21,452 --> 00:36:27,918
+N1 + is + N2 + ? = Is N1 N2?
+Furigana = furigana (uitspraak in kana)
+
+656
+00:36:27,941 --> 00:36:32,335
+Luistertoets
+
+657
+00:36:32,335 --> 00:36:37,573
+Ja, in katakana alstublieft.
+
+658
+00:36:37,573 --> 00:36:44,687
+N + alstublieft = N, alstublieft
+Katakana = katakana
+
+659
+00:36:44,711 --> 00:36:47,144
+Luistertoets
+
+660
+00:36:47,144 --> 00:36:49,877
+Begrepen.
+
+661
+00:36:53,734 --> 00:36:57,290
+Luistertoets
+
+662
+00:36:57,290 --> 00:37:01,471
+Vervolgens uw adres.
+
+663
+00:37:01,471 --> 00:37:07,205
+Volgende is + N = volgende is N
+Adres = adres
+
+664
+00:37:07,228 --> 00:37:10,462
+Luistertoets
+
+665
+00:37:10,462 --> 00:37:14,216
+Mijn adres is nogal lang.
+
+666
+00:37:14,216 --> 00:37:19,359
+いA + is = is...
+Lang (lang) ↔ Kort (kort)
+
+667
+00:37:19,382 --> 00:37:23,282
+Luistertoets
+
+668
+00:37:23,282 --> 00:37:27,865
+U mag het over twee regels verdelen.
+
+669
+00:37:27,865 --> 00:37:34,165
+Vて + mag = mag doen... / kan doen...
+Regel (van tekst) = regel
+Verdelen = verdelen, splitsen
+
+670
+00:37:34,188 --> 00:37:37,904
+Luistertoets
+
+671
+00:37:37,904 --> 00:37:42,281
+Moet ik ook de naam van het appartement vermelden?
+
+672
+00:37:42,281 --> 00:37:48,315
+N + ook = ook / eveneens
+Appartement = appartementencomplex, flat
+
+673
+00:37:48,338 --> 00:37:52,410
+Luistertoets
+
+674
+00:37:52,410 --> 00:37:57,243
+Ja, en ook het kamernummer.
+
+675
+00:37:57,243 --> 00:38:03,824
+Vて + alstublieft = doe alstublieft...
+Kamer = kamer
+Nummer = nummer
+
+676
+00:38:03,847 --> 00:38:06,747
+Luistertoets
+
+677
+00:38:06,747 --> 00:38:10,082
+Goed, dat heb ik ingevuld.
+
+678
+00:38:10,082 --> 00:38:14,716
+Vました = deed / heeft gedaan
+
+679
+00:38:14,739 --> 00:38:18,172
+Luistertoets
+
+680
+00:38:18,172 --> 00:38:22,171
+Vervolgens uw telefoonnummer.
+
+681
+00:38:22,171 --> 00:38:27,678
+Volgende is + N = volgende is N
+Telefoonnummer = telefoonnummer
+
+682
+00:38:27,702 --> 00:38:31,888
+Luistertoets
+
+683
+00:38:31,888 --> 00:38:36,856
+Mag ik mijn mobiele nummer invullen?
+
+684
+00:38:36,856 --> 00:38:43,650
+N + mag ook? = Is N goed?
+Mobiele telefoon = mobiele telefoon, gsm
+
+685
+00:38:43,674 --> 00:38:47,662
+Luistertoets
+
+686
+00:38:47,662 --> 00:38:52,395
+Ja, dat is prima.
+
+687
+00:38:52,395 --> 00:38:58,864
+Goed = oké, in orde
+
+688
+00:38:58,887 --> 00:39:02,157
+Luistertoets
+
+689
+00:39:02,157 --> 00:39:05,991
+Vervolgens de pincode.
+
+690
+00:39:05,991 --> 00:39:11,261
+Volgende is + N + toch? = volgende is N, toch?
+PIN-code = pincode, geheime code
+
+691
+00:39:11,285 --> 00:39:15,785
+Luistertoets
+
+692
+00:39:15,785 --> 00:39:21,137
+Ja, kies alstublieft vier cijfers.
+
+693
+00:39:21,137 --> 00:39:28,437
+Vて + alstublieft = doe alstublieft...
+Cijfer = nummer, cijfer
+Beslissen = beslissen
+
+694
+00:39:28,460 --> 00:39:31,360
+Luistertoets
+
+695
+00:39:31,360 --> 00:39:34,719
+Mag ik mijn geboortedatum gebruiken?
+
+696
+00:39:34,719 --> 00:39:39,385
+N + mag ook? = Is N goed?
+Verjaardag = verjaardag
+
+697
+00:39:39,408 --> 00:39:42,842
+Luistertoets
+
+698
+00:39:42,842 --> 00:39:46,875
+Uw geboortedatum mag niet.
+
+699
+00:39:46,875 --> 00:39:52,378
+N + mag niet = N is niet goed / niet toegestaan
+ton goed = niet goed, niet toegestaan
+
+700
+00:39:52,401 --> 00:39:54,957
+Luistertoets
+
+701
+00:39:54,957 --> 00:39:57,890
+Begrepen.
+
+702
+00:40:01,980 --> 00:40:04,772
+Luistertoets
+
+703
+00:40:04,772 --> 00:40:08,005
+Dan kies ik andere cijfers.
+
+704
+00:40:08,005 --> 00:40:12,472
+N + kiezen = kiezen voor N / beslissen op N
+Ander = ander, nog een
+
+705
+00:40:12,496 --> 00:40:16,370
+Luistertoets
+
+706
+00:40:16,370 --> 00:40:20,945
+Schrijf dit alstublieft zorgvuldig, zodat u geen fouten maakt.
+
+707
+00:40:20,945 --> 00:40:27,223
+Vない + zodat niet = om niet te doen...
+Vergissen = een fout maken
+
+708
+00:40:27,247 --> 00:40:30,280
+Luistertoets
+
+709
+00:40:30,280 --> 00:40:33,814
+Goed, dat heb ik ingevuld.
+
+710
+00:40:33,814 --> 00:40:38,680
+Vました = deed / heeft gedaan
+
+711
+00:40:38,703 --> 00:40:43,837
+Luistertoets
+
+712
+00:40:43,837 --> 00:40:49,985
+Druk tot slot hier uw zegel.
+
+713
+00:40:49,985 --> 00:40:58,351
+Tot slot = tot slot / ten slotte
+Laatste (laatste) ↔ Eerste (eerste)
+Stempel = persoonlijke stempel
+
+714
+00:40:58,374 --> 00:41:00,554
+Luistertoets
+
+715
+00:41:00,554 --> 00:41:03,021
+Begrepen.
+
+716
+00:41:06,511 --> 00:41:09,149
+Luistertoets
+
+717
+00:41:09,149 --> 00:41:12,184
+Dank u wel.
+
+718
+00:41:16,440 --> 00:41:17,940
+Scène 4: Lenen van pennen en kleurregels
+
+719
+00:41:17,940 --> 00:41:20,456
+Luistertoets
+
+720
+00:41:20,456 --> 00:41:23,323
+Welkom.
+
+721
+00:41:27,323 --> 00:41:31,503
+Luistertoets
+
+722
+00:41:31,503 --> 00:41:36,470
+Pardon, mag ik een balpen van u lenen?
+
+723
+00:41:36,470 --> 00:41:43,254
+Vて alstublieft = doe alstublieft...
+Uitlenen (uitlenen) ↔ Lenen (lenen)
+
+724
+00:41:43,277 --> 00:41:46,377
+Luistertoets
+
+725
+00:41:46,377 --> 00:41:50,010
+Ja, wat is er aan de hand?
+
+726
+00:41:50,010 --> 00:41:54,980
+Wat is er gebeurd?
+
+727
+00:41:55,004 --> 00:41:58,237
+Luistertoets
+
+728
+00:41:58,237 --> 00:42:01,986
+Mijn pen schrijft niet meer.
+
+729
+00:42:01,986 --> 00:42:07,153
+Vません = niet doen / zal niet doen...
+Verschijnen = verschijnen / werken
+
+730
+00:42:07,176 --> 00:42:09,309
+Luistertoets
+
+731
+00:42:09,309 --> 00:42:11,695
+Ah, ik snap het.
+
+732
+00:42:15,074 --> 00:42:18,174
+Luistertoets
+
+733
+00:42:18,174 --> 00:42:21,763
+Hier, neem deze pen maar.
+
+734
+00:42:21,763 --> 00:42:26,697
+Alstublieft / ga uw gang
+
+735
+00:42:26,720 --> 00:42:28,830
+Luistertoets
+
+736
+00:42:28,830 --> 00:42:31,209
+Dank u wel.
+
+737
+00:42:34,538 --> 00:42:39,172
+Luistertoets
+
+738
+00:42:39,172 --> 00:42:44,672
+Bankdocumenten moet u met een zwarte pen invullen.
+
+739
+00:42:44,672 --> 00:42:52,138
+N + gebruiken om te + V = V met / gebruikmakend van N
+Document = document
+
+740
+00:42:52,161 --> 00:42:55,128
+Luistertoets
+
+741
+00:42:55,128 --> 00:42:58,595
+Is deze pen zwart?
+
+742
+00:42:58,595 --> 00:43:03,339
+Is het + N? = Is het N?
+Zwart (zwart) ↔ Wit (wit)
+
+743
+00:43:03,362 --> 00:43:06,629
+Luistertoets
+
+744
+00:43:06,629 --> 00:43:10,462
+Ja, hij is zwart.
+
+745
+00:43:10,462 --> 00:43:15,729
+Zwart = zwarte kleur
+
+746
+00:43:15,752 --> 00:43:18,706
+Luistertoets
+
+747
+00:43:18,706 --> 00:43:22,139
+Mag het ook met een blauwe pen?
+
+748
+00:43:22,139 --> 00:43:26,885
+N + mag ook? = Is N goed?
+Blauw = blauw
+
+749
+00:43:26,909 --> 00:43:29,945
+Luistertoets
+
+750
+00:43:29,945 --> 00:43:33,478
+Een blauwe pen mag niet.
+
+751
+00:43:33,478 --> 00:43:38,345
+N is niet toegestaan
+
+752
+00:43:38,368 --> 00:43:40,566
+Luistertoets
+
+753
+00:43:40,566 --> 00:43:43,043
+Begrepen.
+
+754
+00:43:46,532 --> 00:43:49,666
+Luistertoets
+
+755
+00:43:49,666 --> 00:43:53,332
+Gebruik ook geen potlood.
+
+756
+00:43:53,332 --> 00:43:58,399
+Vないで alstublieft = doe alstublieft niet...
+Potlood = potlood
+
+757
+00:43:58,422 --> 00:44:02,156
+Luistertoets
+
+758
+00:44:02,156 --> 00:44:06,550
+Oké, ik schrijf met een balpen.
+
+759
+00:44:06,550 --> 00:44:12,588
+N + gebruiken om te + V = V met N
+Schrijven = schrijven
+
+760
+00:44:12,611 --> 00:44:15,955
+Luistertoets
+
+761
+00:44:15,955 --> 00:44:19,856
+Een pen waarmee je kunt gummen, is ook niet toegestaan.
+
+762
+00:44:19,856 --> 00:44:25,223
+Kunnen + V = kunnen doen...
+Wissen (wissen) ↔ Schrijven (schrijven)
+
+763
+00:44:25,246 --> 00:44:27,280
+Luistertoets
+
+764
+00:44:27,280 --> 00:44:29,547
+Begrepen.
+
+765
+00:44:32,803 --> 00:44:36,270
+Luistertoets
+
+766
+00:44:36,270 --> 00:44:40,337
+Wat moet ik doen als ik een fout maak?
+
+767
+00:44:40,337 --> 00:44:45,918
+Toen + Vた = toen / als V gedaan was
+Vergissen = een fout maken
+
+768
+00:44:45,941 --> 00:44:49,374
+Luistertoets
+
+769
+00:44:49,374 --> 00:44:53,364
+Moet ik het op een nieuw papier schrijven?
+
+770
+00:44:53,364 --> 00:44:58,864
+いA + N = [bijvoeglijk naamwoord] N
+Nieuw (nieuw) ↔ Oud (oud)
+
+771
+00:44:58,887 --> 00:45:02,754
+Luistertoets
+
+772
+00:45:02,754 --> 00:45:07,320
+Nee, trek een dubbele streep door de fout.
+
+773
+00:45:07,320 --> 00:45:13,587
+Vて alstublieft = doe alstublieft...
+Dubbele lijn = dubbele lijn
+
+774
+00:45:13,610 --> 00:45:16,126
+Luistertoets
+
+775
+00:45:16,126 --> 00:45:18,996
+Een dubbele streep?
+
+776
+00:45:18,996 --> 00:45:22,976
+N + ですか = Is het N?
+
+777
+00:45:22,999 --> 00:45:24,907
+Ja.
+
+778
+00:45:24,931 --> 00:45:29,313
+Luistertoets
+
+779
+00:45:29,313 --> 00:45:34,507
+En zet daarna uw stempel erop.
+
+780
+00:45:34,507 --> 00:45:41,607
+En dan = en dan
+Stempel = persoonlijke stempel
+
+781
+00:45:41,630 --> 00:45:45,130
+Luistertoets
+
+782
+00:45:45,130 --> 00:45:49,237
+Mag ik correctietape gebruiken?
+
+783
+00:45:49,237 --> 00:45:54,870
+Mag ik + V? = Mag ik... doen?
+Correctietape = correctietape
+
+784
+00:45:54,893 --> 00:45:58,526
+Luistertoets
+
+785
+00:45:58,526 --> 00:46:02,794
+Gebruik alstublieft geen correctietape.
+
+786
+00:46:02,794 --> 00:46:08,661
+Vないで alstublieft = doe alstublieft niet...
+Correctietape = correctietape
+
+787
+00:46:08,684 --> 00:46:11,151
+Luistertoets
+
+788
+00:46:11,151 --> 00:46:13,984
+Begrepen.
+
+789
+00:46:17,908 --> 00:46:20,141
+Luistertoets
+
+790
+00:46:20,141 --> 00:46:22,618
+Ik zal voorzichtig zijn.
+
+791
+00:46:22,618 --> 00:46:26,118
+Voorzichtig zijn = voorzichtig zijn
+
+792
+00:46:26,141 --> 00:46:29,608
+Luistertoets
+
+793
+00:46:29,608 --> 00:46:33,647
+Vul het alstublieft daar aan dat bureau in.
+
+794
+00:46:33,647 --> 00:46:39,194
+V + bij N = V op N
+Bureau = bureau
+
+795
+00:46:39,217 --> 00:46:41,291
+Ja.
+
+796
+00:46:41,314 --> 00:46:44,581
+Luistertoets
+
+797
+00:46:44,581 --> 00:46:48,372
+Waar moet ik heen als ik klaar ben met schrijven?
+
+798
+00:46:48,372 --> 00:46:53,605
+Als + Vたら = wanneer / nadat V gedaan is
+Klaar met schrijven = klaar zijn met schrijven
+
+799
+00:46:53,628 --> 00:46:56,662
+Luistertoets
+
+800
+00:46:56,662 --> 00:47:00,140
+Kom dan weer hierheen.
+
+801
+00:47:00,140 --> 00:47:04,973
+Kom alstublieft naar + N
+Hier (hier) ↔ Daar (daar)
+
+802
+00:47:04,996 --> 00:47:07,168
+Luistertoets
+
+803
+00:47:07,168 --> 00:47:09,635
+Begrepen.
+
+804
+00:47:13,091 --> 00:47:16,958
+Luistertoets
+
+805
+00:47:16,958 --> 00:47:21,491
+Als u iets niet begrijpt, vraag het dan gerust.
+
+806
+00:47:21,491 --> 00:47:27,724
+Als + Vたら = als / wanneer...
+Vragen = vragen
+
+807
+00:47:27,747 --> 00:47:30,851
+Luistertoets
+
+808
+00:47:30,851 --> 00:47:34,484
+Ja, dat helpt me enorm.
+
+809
+00:47:34,484 --> 00:47:39,465
+Dat helpt enorm
+
+810
+00:47:39,489 --> 00:47:40,989
+Scène 5: Geld opnemen bij de geldautomaat
+
+811
+00:47:40,989 --> 00:47:43,761
+Luistertoets
+
+812
+00:47:43,761 --> 00:47:46,957
+Welkom.
+
+813
+00:47:51,413 --> 00:47:53,449
+Luistertoets
+
+814
+00:47:53,449 --> 00:47:55,721
+Sorry.
+
+815
+00:47:58,937 --> 00:48:02,239
+Luistertoets
+
+816
+00:48:02,239 --> 00:48:06,105
+Ik wil graag geld opnemen.
+
+817
+00:48:11,433 --> 00:48:14,566
+Luistertoets
+
+818
+00:48:14,566 --> 00:48:18,233
+Heeft u een bankpas bij u?
+
+819
+00:48:23,289 --> 00:48:26,359
+Luistertoets
+
+820
+00:48:26,359 --> 00:48:29,926
+Ja, die heb ik.
+
+821
+00:48:34,882 --> 00:48:39,449
+Luistertoets
+
+822
+00:48:39,449 --> 00:48:44,882
+Dan kunt u de geldautomaat gebruiken.
+
+823
+00:48:52,339 --> 00:48:56,107
+Luistertoets
+
+824
+00:48:56,107 --> 00:49:00,573
+Waar kan ik een geldautomaat vinden?
+
+825
+00:49:06,696 --> 00:49:10,246
+Luistertoets
+
+826
+00:49:10,246 --> 00:49:14,414
+Die staat buiten dit gebouw.
+
+827
+00:49:20,171 --> 00:49:22,637
+Luistertoets
+
+828
+00:49:22,637 --> 00:49:25,471
+Buiten?
+
+829
+00:49:29,398 --> 00:49:31,631
+Ja.
+
+830
+00:49:31,654 --> 00:49:35,322
+Luistertoets
+
+831
+00:49:35,322 --> 00:49:39,656
+Ga door die deur naar buiten en dan rechtsaf.
+
+832
+00:49:45,612 --> 00:49:48,994
+Luistertoets
+
+833
+00:49:48,994 --> 00:49:52,950
+Door de deur naar buiten en dan rechts, toch?
+
+834
+00:49:58,440 --> 00:50:00,624
+Ja.
+
+835
+00:50:00,647 --> 00:50:02,983
+Luistertoets
+
+836
+00:50:02,983 --> 00:50:05,649
+U ziet hem meteen.
+
+837
+00:50:09,376 --> 00:50:12,276
+Luistertoets
+
+838
+00:50:12,276 --> 00:50:15,621
+Begrepen.
+
+839
+00:50:20,277 --> 00:50:24,311
+Luistertoets
+
+840
+00:50:24,311 --> 00:50:29,059
+Weet u hoe u de geldautomaat moet gebruiken?
+
+841
+00:50:35,582 --> 00:50:37,148
+Ja.
+
+842
+00:50:37,171 --> 00:50:39,149
+Luistertoets
+
+843
+00:50:39,149 --> 00:50:41,383
+Dat komt wel goed.
+
+844
+00:50:44,506 --> 00:50:47,572
+Luistertoets
+
+845
+00:50:47,572 --> 00:50:51,122
+Is er ook een Engelstalig menu?
+
+846
+00:50:56,047 --> 00:50:58,014
+Ja.
+
+847
+00:50:58,037 --> 00:51:01,103
+Luistertoets
+
+848
+00:51:01,103 --> 00:51:04,650
+Er is ook een Engelstalig scherm.
+
+849
+00:51:09,573 --> 00:51:12,331
+Luistertoets
+
+850
+00:51:12,331 --> 00:51:15,506
+Dat is handig!
+
+851
+00:51:19,925 --> 00:51:23,799
+Luistertoets
+
+852
+00:51:23,799 --> 00:51:28,371
+Er zijn ook schermen in het Chinees en Koreaans.
+
+853
+00:51:34,694 --> 00:51:37,008
+Luistertoets
+
+854
+00:51:37,008 --> 00:51:39,642
+Begrepen.
+
+855
+00:51:43,331 --> 00:51:47,699
+Luistertoets
+
+856
+00:51:47,699 --> 00:51:52,885
+Voor opnames kunnen er kosten in rekening worden gebracht.
+
+857
+00:52:00,008 --> 00:52:02,376
+Luistertoets
+
+858
+00:52:02,376 --> 00:52:05,076
+Hoeveel is dat?
+
+859
+00:52:08,848 --> 00:52:12,444
+Luistertoets
+
+860
+00:52:12,444 --> 00:52:16,678
+Op dit moment is het gratis.
+
+861
+00:52:22,490 --> 00:52:25,392
+Luistertoets
+
+862
+00:52:25,392 --> 00:52:28,748
+Is het 's avonds wel kostenplichtig?
+
+863
+00:52:33,405 --> 00:52:35,705
+Ja.
+
+864
+00:52:35,728 --> 00:52:39,596
+Luistertoets
+
+865
+00:52:39,596 --> 00:52:44,172
+Na 18:00 uur 's avonds kost het 110 yen.
+
+866
+00:52:50,462 --> 00:52:54,216
+Luistertoets
+
+867
+00:52:54,216 --> 00:52:58,649
+Hoe zit het in het weekend?
+
+868
+00:53:04,739 --> 00:53:08,409
+Luistertoets
+
+869
+00:53:08,409 --> 00:53:12,721
+Ook in het weekend worden er transactiekosten in rekening gebracht.
+
+870
+00:53:18,644 --> 00:53:20,796
+Luistertoets
+
+871
+00:53:20,796 --> 00:53:23,229
+Begrepen.
+
+872
+00:53:26,685 --> 00:53:29,119
+Luistertoets
+
+873
+00:53:29,119 --> 00:53:31,872
+Ik kom er nu aan.
+
+874
+00:53:35,728 --> 00:53:37,716
+Ja.
+
+875
+00:53:37,739 --> 00:53:40,006
+Luistertoets
+
+876
+00:53:40,006 --> 00:53:42,543
+Doe voorzichtig.
+
+877
+00:53:46,137 --> 00:53:48,270
+Luistertoets
+
+878
+00:53:48,270 --> 00:53:50,653
+Dank u wel.
+
+879
+00:53:54,022 --> 00:53:57,692
+Luistertoets
+
+880
+00:53:57,692 --> 00:54:02,003
+Laat het gerust weten als je nog iets nodig hebt.
+
+881
+00:54:07,936 --> 00:54:10,002
+Ja.
+
+882
+00:54:10,025 --> 00:54:12,125
+Luistertoets
+
+883
+00:54:12,125 --> 00:54:14,470
+Neemt u mij niet kwalijk.
+
+884
+00:54:17,793 --> 00:54:19,293
+Scène 6: Openingstijden van het bankloket en de geldautomaat
+
+885
+00:54:19,293 --> 00:54:21,927
+Luistertoets
+
+886
+00:54:21,927 --> 00:54:24,920
+Welkom.
+
+887
+00:54:24,920 --> 00:54:29,066
+いらっしゃいませ = welkom
+
+888
+00:54:29,089 --> 00:54:31,793
+Luistertoets
+
+889
+00:54:31,793 --> 00:54:34,905
+Sorry.
+
+890
+00:54:39,231 --> 00:54:42,943
+Luistertoets
+
+891
+00:54:42,943 --> 00:54:47,312
+Mag ik u iets vragen?
+
+892
+00:54:47,312 --> 00:54:53,290
+Mag ik + V? = Mag ik... doen?
+Een beetje (een beetje) ↔ Veel (veel)
+
+893
+00:54:53,314 --> 00:54:56,986
+Luistertoets
+
+894
+00:54:56,986 --> 00:55:01,303
+Ja, wat kan ik voor u doen?
+
+895
+00:55:07,259 --> 00:55:12,126
+Luistertoets
+
+896
+00:55:12,126 --> 00:55:17,925
+Tot hoe laat is het bankloket geopend?
+
+897
+00:55:17,925 --> 00:55:25,825
+Tot + N = tot N
+Loket = loket
+
+898
+00:55:25,848 --> 00:55:30,481
+Luistertoets
+
+899
+00:55:30,481 --> 00:55:36,000
+Het loket is open tot 15:00 uur.
+
+900
+00:55:36,000 --> 00:55:43,533
+Voormiddag (AM/ochtend) ↔ Namiddag (PM/middag)
+
+901
+00:55:43,556 --> 00:55:46,790
+Luistertoets
+
+902
+00:55:46,790 --> 00:55:50,565
+Tot 15:00 uur?
+
+903
+00:55:55,772 --> 00:55:58,758
+Luistertoets
+
+904
+00:55:58,758 --> 00:56:02,225
+Dat is vroeg, hè?
+
+905
+00:56:02,225 --> 00:56:07,004
+Vroeg (vroeg) ↔ Laat (laat)
+
+906
+00:56:07,028 --> 00:56:10,862
+Luistertoets
+
+907
+00:56:10,862 --> 00:56:15,395
+Ja, het spijt me.
+
+908
+00:56:15,395 --> 00:56:21,628
+Het spijt me zeer (formeel)
+
+909
+00:56:21,651 --> 00:56:26,385
+Luistertoets
+
+910
+00:56:26,385 --> 00:56:32,021
+Wat gebeurt er na 15:00 uur?
+
+911
+00:56:32,021 --> 00:56:39,692
+Als + Vたら = als / wanneer V
+Voorbijgaan = voorbijgaan / overschrijden
+
+912
+00:56:39,715 --> 00:56:44,071
+Luistertoets
+
+913
+00:56:44,071 --> 00:56:49,247
+Dan gaat de deur van het loket dicht.
+
+914
+00:56:49,247 --> 00:56:56,347
+openen ↔ sluiten
+
+915
+00:56:56,370 --> 00:56:59,837
+Luistertoets
+
+916
+00:56:59,837 --> 00:57:03,903
+Kan ik de geldautomaat nog gebruiken?
+
+917
+00:57:03,903 --> 00:57:09,455
+gebruiken = gebruiken
+
+918
+00:57:09,479 --> 00:57:15,612
+Luistertoets
+
+919
+00:57:15,612 --> 00:57:23,001
+Ja, de geldautomaat is tot 21:00 uur beschikbaar.
+
+920
+00:57:23,001 --> 00:57:33,035
+ochtend ↔ avond/nacht
+
+921
+00:57:33,058 --> 00:57:36,994
+Luistertoets
+
+922
+00:57:36,994 --> 00:57:41,660
+O, gelukkig.
+
+923
+00:57:48,056 --> 00:57:53,022
+Luistertoets
+
+924
+00:57:53,022 --> 00:57:58,959
+In het weekend is het loket gesloten.
+
+925
+00:57:58,959 --> 00:58:07,033
+N1 + と + N2 = N1 en N2
+vrije dag = vrije dag / gesloten
+
+926
+00:58:07,057 --> 00:58:10,653
+Luistertoets
+
+927
+00:58:10,653 --> 00:58:14,886
+Is de geldautomaat dan ook gesloten?
+
+928
+00:58:14,886 --> 00:58:20,674
+N + ook = N ook
+
+929
+00:58:20,697 --> 00:58:26,247
+Luistertoets
+
+930
+00:58:26,247 --> 00:58:32,917
+Nee, de geldautomaat is ook in het weekend geopend.
+
+931
+00:58:32,917 --> 00:58:41,984
+Vています = toestand van V / aan het V-en
+weekend = weekend
+
+932
+00:58:42,007 --> 00:58:45,674
+Luistertoets
+
+933
+00:58:45,674 --> 00:58:49,974
+Vanaf hoe laat 's ochtends?
+
+934
+00:58:49,974 --> 00:58:55,840
+N + vanaf = vanaf N
+
+935
+00:58:55,863 --> 00:59:01,205
+Luistertoets
+
+936
+00:59:01,205 --> 00:59:07,639
+Het loket opent om 09:00 uur.
+
+937
+00:59:07,639 --> 00:59:16,372
+N + vanaf = vanaf N
+
+938
+00:59:16,395 --> 00:59:20,462
+Luistertoets
+
+939
+00:59:20,462 --> 00:59:25,255
+Is de geldautomaat nog vroeger beschikbaar?
+
+940
+00:59:25,255 --> 00:59:31,811
+meer
+
+941
+00:59:31,834 --> 00:59:37,668
+Luistertoets
+
+942
+00:59:37,668 --> 00:59:44,658
+Ja, de geldautomaat is al vanaf 08:00 uur beschikbaar.
+
+943
+00:59:44,658 --> 00:59:54,158
+N + vanaf = vanaf N
+
+944
+00:59:54,181 --> 00:59:56,717
+Luistertoets
+
+945
+00:59:56,717 --> 00:59:59,632
+Begrepen.
+
+946
+01:00:03,688 --> 01:00:07,855
+Luistertoets
+
+947
+01:00:07,855 --> 01:00:12,793
+Wilt u vandaag nog iets aan het loket regelen?
+
+948
+01:00:12,793 --> 01:00:19,551
+op [plaats]
+procedure = procedure
+
+949
+01:00:19,574 --> 01:00:24,441
+Luistertoets
+
+950
+01:00:24,441 --> 01:00:30,274
+Nee, vandaag heb ik geen tijd.
+
+951
+01:00:30,274 --> 01:00:38,181
+N + hebben / niet hebben = heb / heb geen N
+tijd = tijd
+
+952
+01:00:38,204 --> 01:00:40,876
+Luistertoets
+
+953
+01:00:40,876 --> 01:00:43,976
+Ah, ik snap het.
+
+954
+01:00:48,274 --> 01:00:52,507
+Luistertoets
+
+955
+01:00:52,507 --> 01:00:57,541
+Ik kom morgen tijdens de lunchpauze terug.
+
+956
+01:00:57,541 --> 01:01:04,419
+om [tijd]
+lunchpauze = lunchpauze
+
+957
+01:01:04,442 --> 01:01:08,275
+Luistertoets
+
+958
+01:01:08,275 --> 01:01:12,788
+Tijdens de lunchpauze kan het behoorlijk druk zijn.
+
+959
+01:01:12,788 --> 01:01:18,979
+druk zijn ↔ rustig zijn
+
+960
+01:01:19,003 --> 01:01:22,781
+Luistertoets
+
+961
+01:01:22,781 --> 01:01:27,249
+Hoe lang moet ik ongeveer wachten?
+
+962
+01:01:27,249 --> 01:01:33,365
+hoe lang + V = hoe lang duurt het om te V
+wachten = wachten
+
+963
+01:01:33,388 --> 01:01:37,422
+Luistertoets
+
+964
+01:01:37,422 --> 01:01:42,177
+Misschien moet u ongeveer 30 minuten wachten.
+
+965
+01:01:42,177 --> 01:01:48,685
+V + misschien = misschien V
+grofweg = ongeveer
+
+966
+01:01:48,708 --> 01:01:51,008
+Luistertoets
+
+967
+01:01:51,008 --> 01:01:53,600
+Begrepen.
+
+968
+01:01:57,257 --> 01:02:00,490
+Luistertoets
+
+969
+01:02:00,490 --> 01:02:04,259
+Dan kom ik iets eerder.
+
+970
+01:02:04,259 --> 01:02:09,443
+vroeg ↔ laat
+
+971
+01:02:09,466 --> 01:02:12,442
+Luistertoets
+
+972
+01:02:12,442 --> 01:02:15,909
+We zien u graag tegemoet.
+
+973
+01:02:15,909 --> 01:02:20,693
+Wij kijken ernaar uit u te mogen verwelkomen (formeel)
+
+974
+01:02:20,716 --> 01:02:24,262
+Luistertoets
+
+975
+01:02:24,262 --> 01:02:28,411
+Dank u wel.
+
+976
+01:02:34,134 --> 01:02:35,634
+Scène 7: Voltooiing van de bankprocedure
+
+977
+01:02:35,634 --> 01:02:39,420
+Luistertoets
+
+978
+01:02:39,420 --> 01:02:43,887
+De procedure voor uw rekening is hiermee voltooid.
+
+979
+01:02:43,887 --> 01:02:49,999
+bankrekening = bankrekening
+procedure = procedure
+
+980
+01:02:50,022 --> 01:02:52,368
+Luistertoets
+
+981
+01:02:52,368 --> 01:02:55,035
+Dank u wel.
+
+982
+01:02:58,768 --> 01:03:01,601
+Luistertoets
+
+983
+01:03:01,601 --> 01:03:04,868
+Ik heb mijn bankboekje ontvangen.
+
+984
+01:03:04,868 --> 01:03:09,368
+V + deed = heeft ... gedaan
+bankboekje = bankboekje
+ontvangen ↔ geven
+
+985
+01:03:09,391 --> 01:03:11,225
+Ja.
+
+986
+01:03:11,248 --> 01:03:14,628
+Luistertoets
+
+987
+01:03:14,628 --> 01:03:18,585
+U kunt het bankboekje vanaf vandaag gebruiken.
+
+988
+01:03:18,585 --> 01:03:24,052
+N + vanaf = vanaf N
+vandaag = vandaag
+gebruiken = gebruiken
+
+989
+01:03:24,075 --> 01:03:27,341
+Luistertoets
+
+990
+01:03:27,341 --> 01:03:31,132
+Krijg ik geen betaalpas?
+
+991
+01:03:31,132 --> 01:03:36,366
+Is er geen N? / Heeft u geen N?
+bankpas = bankpas / pinpas
+
+992
+01:03:36,389 --> 01:03:40,322
+Luistertoets
+
+993
+01:03:40,322 --> 01:03:44,961
+De betaalpas wordt later per post verzonden.
+
+994
+01:03:44,961 --> 01:03:51,308
+later
+later ↔ meteen
+versturen per post = versturen per post
+
+995
+01:03:51,332 --> 01:03:53,898
+Luistertoets
+
+996
+01:03:53,898 --> 01:03:56,834
+Per post, dus.
+
+997
+01:03:56,834 --> 01:04:00,934
+Het is N, toch?
+versturen per post = postbezorging
+
+998
+01:04:00,957 --> 01:04:03,657
+Luistertoets
+
+999
+01:04:03,657 --> 01:04:06,768
+Wanneer komt die aan?
+
+1000
+01:04:06,768 --> 01:04:11,068
+Wanneer + V = Wanneer V je?
+
+1001
+01:04:11,091 --> 01:04:14,725
+Luistertoets
+
+1002
+01:04:14,725 --> 01:04:18,991
+Dat duurt ongeveer een week.
+
+1003
+01:04:18,991 --> 01:04:24,825
+[tijdsduur] + duurt ongeveer = Het duurt ongeveer [tijdsduur]
+ongeveer = ruwweg
+duur van een week = week
+
+1004
+01:04:24,848 --> 01:04:27,714
+Luistertoets
+
+1005
+01:04:27,714 --> 01:04:31,034
+Een week?
+
+1006
+01:04:31,034 --> 01:04:35,616
+Is het N?
+een week = één week
+
+1007
+01:04:35,640 --> 01:04:38,873
+Luistertoets
+
+1008
+01:04:38,873 --> 01:04:42,644
+Moet ik tekenen?
+
+1009
+01:04:42,644 --> 01:04:47,831
+Is het [na-bijvoeglijk naamwoord]?
+handtekening = handtekening
+nodig ↔ onnodig
+
+1010
+01:04:47,854 --> 01:04:49,960
+Ja.
+
+1011
+01:04:49,984 --> 01:04:54,084
+Luistertoets
+
+1012
+01:04:54,084 --> 01:04:58,917
+Omdat het per aangetekende post wordt verzonden, is een handtekening vereist.
+
+1013
+01:04:58,917 --> 01:05:05,550
+omdat / aangezien...
+aangetekende brief = aangetekende brief
+versturen ↔ ontvangen
+
+1014
+01:05:05,573 --> 01:05:11,640
+Luistertoets
+
+1015
+01:05:11,640 --> 01:05:18,940
+Wat als er niemand thuis is?
+
+1016
+01:05:18,940 --> 01:05:28,840
+wanneer niet V + tijd = wanneer [niet doen]
+niemand + ontkenning = niemand
+thuis = huis
+
+1017
+01:05:28,863 --> 01:05:31,730
+Luistertoets
+
+1018
+01:05:31,730 --> 01:05:35,007
+De postbode laat dan een afhaalbericht achter.
+
+1019
+01:05:35,007 --> 01:05:39,573
+[Persoon] + doet V = [Persoon] doet V
+postkantoor = postkantoor
+afwezigheidsbericht = afleveringsbericht / afwezigheidsbericht
+
+1020
+01:05:39,596 --> 01:05:42,130
+Luistertoets
+
+1021
+01:05:42,130 --> 01:05:45,030
+Een afhaalbericht, dus.
+
+1022
+01:05:45,030 --> 01:05:49,063
+Het is N, toch?
+afwezigheidsbericht = afleveringsbericht / gemist afleveringsbericht
+
+1023
+01:05:49,086 --> 01:05:51,040
+Ja.
+
+1024
+01:05:51,063 --> 01:05:55,337
+Luistertoets
+
+1025
+01:05:55,337 --> 01:06:00,411
+Neem dan contact op met het postkantoor met behulp van dat briefje.
+
+1026
+01:06:00,411 --> 01:06:07,344
+Doe alstublieft...
+papier / briefje = papier / briefje
+contact opnemen = contact opnemen
+
+1027
+01:06:07,367 --> 01:06:09,943
+Luistertoets
+
+1028
+01:06:09,943 --> 01:06:12,893
+Begrepen.
+
+1029
+01:06:12,893 --> 01:06:16,993
+begrijpen
+
+1030
+01:06:17,017 --> 01:06:21,083
+Luistertoets
+
+1031
+01:06:21,083 --> 01:06:25,868
+Hoe kan ik geld opnemen totdat de pas arriveert?
+
+1032
+01:06:25,868 --> 01:06:32,424
+totdat V + gebeurt = tot / totdat...
+aankomen = aankomen
+wat ga je doen?
+
+1033
+01:06:32,448 --> 01:06:35,834
+Luistertoets
+
+1034
+01:06:35,834 --> 01:06:39,801
+Kan ik geen geld opnemen?
+
+1035
+01:06:39,801 --> 01:06:45,268
+geld = geld
+opnemen ↔ storten
+
+1036
+01:06:45,291 --> 01:06:49,837
+Luistertoets
+
+1037
+01:06:49,837 --> 01:06:55,270
+Met uw bankboekje en stempel kunt u geld aan het loket opnemen.
+
+1038
+01:06:55,270 --> 01:07:02,662
+als er N is / als je N hebt
+stempel = naamstempel / stempel
+loket = loket
+
+1039
+01:07:02,686 --> 01:07:05,219
+Luistertoets
+
+1040
+01:07:05,219 --> 01:07:08,119
+Ah, ik snap het.
+
+1041
+01:07:12,179 --> 01:07:17,246
+Luistertoets
+
+1042
+01:07:17,246 --> 01:07:23,279
+Maar let op: het loket is alleen open tot 15:00 uur.
+
+1043
+01:07:23,279 --> 01:07:31,512
+omdat het tot N is
+loket = loket
+oppassen = voorzichtig zijn
+
+1044
+01:07:31,535 --> 01:07:33,569
+Ja.
+
+1045
+01:07:33,592 --> 01:07:35,770
+Luistertoets
+
+1046
+01:07:35,770 --> 01:07:38,236
+Begrepen.
+
+1047
+01:07:41,692 --> 01:07:45,926
+Luistertoets
+
+1048
+01:07:45,926 --> 01:07:50,915
+Zodra u uw kaart ontvangt, schrijf dan uw naam op de achterkant.
+
+1049
+01:07:50,915 --> 01:07:57,748
+als / nadat / wanneer...
+achterkant ↔ voorkant
+naam = naam
+
+1050
+01:07:57,771 --> 01:07:59,804
+Ja.
+
+1051
+01:07:59,827 --> 01:08:03,973
+Luistertoets
+
+1052
+01:08:03,973 --> 01:08:08,890
+Vertel uw pincode aan niemand.
+
+1053
+01:08:08,890 --> 01:08:15,630
+Doe alstublieft niet...
+pincode = pincode
+vertellen ↔ leren
+
+1054
+01:08:15,654 --> 01:08:17,636
+Ja.
+
+1055
+01:08:17,659 --> 01:08:19,975
+Luistertoets
+
+1056
+01:08:19,975 --> 01:08:22,611
+Natuurlijk.
+
+1057
+01:08:22,611 --> 01:08:26,278
+natuurlijk
+
+1058
+01:08:26,301 --> 01:08:30,617
+Luistertoets
+
+1059
+01:08:30,617 --> 01:08:35,750
+Als u uw kaart verliest, bel dan direct de bank.
+
+1060
+01:08:35,750 --> 01:08:42,783
+wanneer V + gebeurd is = wanneer / in geval van...
+verliezen ↔ vinden
+meteen = direct
+
+1061
+01:08:42,806 --> 01:08:45,044
+Luistertoets
+
+1062
+01:08:45,044 --> 01:08:47,578
+Begrepen.
+
+1063
+01:08:51,141 --> 01:08:54,841
+Luistertoets
+
+1064
+01:08:54,841 --> 01:08:59,192
+Waar kan ik het telefoonnummer vinden?
+
+1065
+01:08:59,192 --> 01:09:05,168
+Waar is [plaats/ding]?
+telefoonnummer = telefoonnummer
+
+1066
+01:09:05,191 --> 01:09:08,225
+Luistertoets
+
+1067
+01:09:08,225 --> 01:09:11,725
+Het staat op de achterkant van uw bankboekje.
+
+1068
+01:09:11,725 --> 01:09:16,558
+is gedaan (toestand als gevolg van een handeling)
+achterkant ↔ voorkant
+schrijven = schrijven
+
+1069
+01:09:16,581 --> 01:09:18,681
+Ja.
+
+1070
+01:09:18,704 --> 01:09:21,204
+Luistertoets
+
+1071
+01:09:21,204 --> 01:09:24,071
+Hartelijk dank.
+
+1072
+01:09:28,061 --> 01:09:29,561
+Scène 8: Geld opnemen bij de bank / Geld opnemen bij de bank
+
+1073
+01:09:29,561 --> 01:09:32,157
+Luistertoets
+
+1074
+01:09:32,157 --> 01:09:35,144
+Welkom.
+
+1075
+01:09:39,314 --> 01:09:43,847
+Luistertoets
+
+1076
+01:09:43,847 --> 01:09:49,280
+Pardon, ik wil graag geld opnemen.
+
+1077
+01:09:56,674 --> 01:09:59,140
+Luistertoets
+
+1078
+01:09:59,140 --> 01:10:01,974
+Uiteraard.
+
+1079
+01:10:05,934 --> 01:10:09,234
+Luistertoets
+
+1080
+01:10:09,234 --> 01:10:13,101
+Heeft u een bankpas bij u?
+
+1081
+01:10:18,424 --> 01:10:23,010
+Luistertoets
+
+1082
+01:10:23,010 --> 01:10:28,477
+Nee, ik ben mijn kaart thuis vergeten.
+
+1083
+01:10:35,966 --> 01:10:40,500
+Luistertoets
+
+1084
+01:10:40,500 --> 01:10:45,876
+Ah, heeft u uw bankboekje bij u?
+
+1085
+01:10:53,248 --> 01:10:58,004
+Luistertoets
+
+1086
+01:10:58,004 --> 01:11:03,677
+Ja, ik heb mijn bankboekje en stempel bij me.
+
+1087
+01:11:11,433 --> 01:11:16,471
+Luistertoets
+
+1088
+01:11:16,471 --> 01:11:22,504
+Dan kunt u de procedure aan dit loket voltooien.
+
+1089
+01:11:30,725 --> 01:11:33,391
+Luistertoets
+
+1090
+01:11:33,391 --> 01:11:36,458
+Gelukkig maar.
+
+1091
+01:11:40,714 --> 01:11:44,662
+Luistertoets
+
+1092
+01:11:44,662 --> 01:11:49,329
+Wilt u dit formulier invullen, alstublieft?
+
+1093
+01:11:55,747 --> 01:11:59,580
+Luistertoets
+
+1094
+01:11:59,580 --> 01:12:04,057
+Waar moet ik invullen?
+
+1095
+01:12:10,240 --> 01:12:14,008
+Luistertoets
+
+1096
+01:12:14,008 --> 01:12:18,474
+Hier en hier, alstublieft.
+
+1097
+01:12:24,597 --> 01:12:27,311
+Luistertoets
+
+1098
+01:12:27,311 --> 01:12:30,445
+Dit is voor mijn naam, toch?
+
+1099
+01:12:34,805 --> 01:12:39,439
+Luistertoets
+
+1100
+01:12:39,439 --> 01:12:44,939
+Ja, en daaronder schrijft u het bedrag.
+
+1101
+01:12:52,474 --> 01:12:56,774
+Luistertoets
+
+1102
+01:12:56,774 --> 01:13:01,883
+Ik wil vandaag 100.000 yen opnemen.
+
+1103
+01:13:08,885 --> 01:13:11,419
+Luistertoets
+
+1104
+01:13:11,419 --> 01:13:14,319
+Begrepen.
+
+1105
+01:13:18,408 --> 01:13:23,752
+Luistertoets
+
+1106
+01:13:23,752 --> 01:13:30,186
+Schrijf hier alstublieft '100.000 yen'.
+
+1107
+01:13:38,929 --> 01:13:42,395
+Luistertoets
+
+1108
+01:13:42,395 --> 01:13:46,462
+Goed, dat heb ik ingevuld.
+
+1109
+01:13:52,022 --> 01:13:54,296
+Luistertoets
+
+1110
+01:13:54,296 --> 01:13:56,862
+Dank u wel.
+
+1111
+01:14:00,474 --> 01:14:04,750
+Luistertoets
+
+1112
+01:14:04,750 --> 01:14:09,823
+Druk daarna hier uw stempel.
+
+1113
+01:14:16,779 --> 01:14:20,733
+Luistertoets
+
+1114
+01:14:20,733 --> 01:14:25,401
+Zo, is dit goed?
+
+1115
+01:14:31,816 --> 01:14:35,683
+Luistertoets
+
+1116
+01:14:35,683 --> 01:14:40,229
+Ja, dat is prima.
+
+1117
+01:14:46,485 --> 01:14:50,019
+Luistertoets
+
+1118
+01:14:50,019 --> 01:14:54,165
+Krijg ik het geld meteen?
+
+1119
+01:14:59,863 --> 01:15:04,367
+Luistertoets
+
+1120
+01:15:04,367 --> 01:15:09,741
+Ik moet even iets controleren, een ogenblik geduld alstublieft.
+
+1121
+01:15:17,098 --> 01:15:19,166
+Ja.
+
+1122
+01:15:19,189 --> 01:15:23,067
+Luistertoets
+
+1123
+01:15:23,067 --> 01:15:27,657
+Neemt u plaats op die stoel en wacht u even.
+
+1124
+01:15:33,980 --> 01:15:37,480
+Luistertoets
+
+1125
+01:15:37,480 --> 01:15:41,582
+Heb ik een nummertje?
+
+1126
+01:15:47,238 --> 01:15:51,571
+Luistertoets
+
+1127
+01:15:51,571 --> 01:15:56,723
+Ja, we roepen u bij dit nummer.
+
+1128
+01:16:03,813 --> 01:16:06,325
+Luistertoets
+
+1129
+01:16:06,325 --> 01:16:09,225
+Begrepen.
+
+1130
+01:16:13,281 --> 01:16:16,115
+Luistertoets
+
+1131
+01:16:16,115 --> 01:16:19,387
+Sorry dat u moest wachten.
+
+1132
+01:16:23,943 --> 01:16:26,917
+Luistertoets
+
+1133
+01:16:26,917 --> 01:16:30,384
+Klant nummer vijftien.
+
+1134
+01:16:35,173 --> 01:16:37,353
+Ja.
+
+1135
+01:16:37,377 --> 01:16:42,277
+Luistertoets
+
+1136
+01:16:42,277 --> 01:16:48,143
+Hier is uw 100.000 yen en uw bankboekje.
+
+1137
+01:16:56,144 --> 01:16:58,744
+Luistertoets
+
+1138
+01:16:58,744 --> 01:17:01,737
+Controleert u het alstublieft.
+
+1139
+01:17:05,917 --> 01:17:09,351
+Luistertoets
+
+1140
+01:17:09,351 --> 01:17:13,384
+Ja, dank u wel.
+
+1141
+01:17:18,914 --> 01:17:20,414
+Scène 9: Overboeking naar het buitenland / Procedure voor overmaking naar het buitenland
+
+1142
+01:17:20,414 --> 01:17:22,928
+Luistertoets
+
+1143
+01:17:22,928 --> 01:17:25,801
+Welkom.
+
+1144
+01:17:29,808 --> 01:17:32,992
+Luistertoets
+
+1145
+01:17:32,992 --> 01:17:36,708
+Wat kan ik voor u doen vandaag?
+
+1146
+01:17:36,708 --> 01:17:41,819
+Hoe heb je V + gedaan?
+
+1147
+01:17:41,843 --> 01:17:45,676
+Luistertoets
+
+1148
+01:17:45,676 --> 01:17:50,176
+Ik wil graag geld naar het buitenland sturen.
+
+1149
+01:17:50,176 --> 01:17:56,318
+wil V + doen
+buitenland ↔ binnenland
+
+1150
+01:17:56,342 --> 01:17:58,538
+Luistertoets
+
+1151
+01:17:58,538 --> 01:18:01,010
+Uiteraard.
+
+1152
+01:18:04,500 --> 01:18:07,333
+Luistertoets
+
+1153
+01:18:07,333 --> 01:18:10,566
+Een overboeking naar het buitenland dus.
+
+1154
+01:18:10,566 --> 01:18:15,033
+Het is N, toch?
+overseas geldovermaking = internationale overboeking
+
+1155
+01:18:15,057 --> 01:18:17,123
+Ja.
+
+1156
+01:18:17,146 --> 01:18:20,979
+Luistertoets
+
+1157
+01:18:20,979 --> 01:18:25,497
+Ik stuur het naar mijn familie in mijn thuisland.
+
+1158
+01:18:25,497 --> 01:18:31,678
+aan [persoon] + V = aan N (persoon)
+familie = familie
+
+1159
+01:18:31,702 --> 01:18:34,969
+Luistertoets
+
+1160
+01:18:34,969 --> 01:18:38,802
+Naar welk land wilt u het geld sturen?
+
+1161
+01:18:38,802 --> 01:18:44,069
+welke + N
+
+1162
+01:18:44,092 --> 01:18:47,266
+Luistertoets
+
+1163
+01:18:47,266 --> 01:18:50,967
+Ik wil het naar Vietnam sturen.
+
+1164
+01:18:50,967 --> 01:18:56,067
+wil V + doen
+
+1165
+01:18:56,090 --> 01:18:58,364
+Luistertoets
+
+1166
+01:18:58,364 --> 01:19:00,936
+Begrepen.
+
+1167
+01:19:04,545 --> 01:19:08,211
+Luistertoets
+
+1168
+01:19:08,211 --> 01:19:12,511
+Heeft u de gegevens van de ontvanger bij u?
+
+1169
+01:19:12,511 --> 01:19:18,411
+Hebt u...?
+begunstigde van de overboeking = begunstigde van de overboeking
+informatie = informatie
+
+1170
+01:19:18,434 --> 01:19:20,418
+Ja.
+
+1171
+01:19:20,442 --> 01:19:25,238
+Luistertoets
+
+1172
+01:19:25,238 --> 01:19:30,971
+Ik heb een notitie met de naam van de bank en het rekeningnummer.
+
+1173
+01:19:30,971 --> 01:19:38,758
+Er is N / Ik heb N
+rekeningnummer = rekeningnummer
+
+1174
+01:19:38,781 --> 01:19:41,248
+Luistertoets
+
+1175
+01:19:41,248 --> 01:19:44,032
+Dank u wel.
+
+1176
+01:19:47,927 --> 01:19:51,643
+Luistertoets
+
+1177
+01:19:51,643 --> 01:19:56,028
+Wanneer komt het geld aan?
+
+1178
+01:19:56,028 --> 01:20:02,061
+aankomen = arriveren
+
+1179
+01:20:02,084 --> 01:20:06,195
+Luistertoets
+
+1180
+01:20:06,195 --> 01:20:11,071
+Dat duurt ongeveer drie dagen tot een week.
+
+1181
+01:20:11,071 --> 01:20:17,738
+N1 naar N2 = van N1 naar N2
+week (duur) = week
+
+1182
+01:20:17,761 --> 01:20:20,027
+Luistertoets
+
+1183
+01:20:20,027 --> 01:20:22,575
+Ah, ik snap het.
+
+1184
+01:20:26,165 --> 01:20:29,798
+Luistertoets
+
+1185
+01:20:29,798 --> 01:20:34,065
+Het verschilt per land en bank.
+
+1186
+01:20:34,065 --> 01:20:39,898
+afhankelijk van N = afhankelijk van N
+verschillend ↔ hetzelfde
+
+1187
+01:20:39,921 --> 01:20:42,829
+Luistertoets
+
+1188
+01:20:42,829 --> 01:20:46,196
+Hoeveel zijn de kosten?
+
+1189
+01:20:46,196 --> 01:20:50,863
+Hoeveel kost N? = Hoeveel is N?
+kosten = vergoeding
+
+1190
+01:20:50,886 --> 01:20:55,680
+Luistertoets
+
+1191
+01:20:55,680 --> 01:21:01,396
+De kosten voor een overboeking aan het loket bedragen 4000 yen.
+
+1192
+01:21:01,396 --> 01:21:09,191
+het duurt / het kost = het duurt / het kost
+guichet = servicebalie
+
+1193
+01:21:09,215 --> 01:21:11,881
+Luistertoets
+
+1194
+01:21:11,881 --> 01:21:14,916
+4000 yen?
+
+1195
+01:21:19,206 --> 01:21:22,173
+Luistertoets
+
+1196
+01:21:22,173 --> 01:21:25,608
+Dat is een beetje duur.
+
+1197
+01:21:25,608 --> 01:21:30,341
+een beetje + bijv. nw. = een beetje + bijv. nw.
+duur ↔ goedkoop
+
+1198
+01:21:30,364 --> 01:21:33,114
+Luistertoets
+
+1199
+01:21:33,114 --> 01:21:36,285
+Het spijt me.
+
+1200
+01:21:36,285 --> 01:21:40,662
+Het spijt me = Het spijt me
+
+1201
+01:21:40,686 --> 01:21:44,038
+Luistertoets
+
+1202
+01:21:44,038 --> 01:21:47,956
+Kan ik het ook via de app versturen?
+
+1203
+01:21:47,956 --> 01:21:53,389
+Kunt u + ww.? = Kunt u V?
+
+1204
+01:21:53,412 --> 01:21:55,245
+Ja.
+
+1205
+01:21:55,268 --> 01:21:58,735
+Luistertoets
+
+1206
+01:21:58,735 --> 01:22:02,802
+U kunt het ook via internetbankieren verzenden.
+
+1207
+01:22:02,802 --> 01:22:08,355
+ook met N / zelfs met N = ook met N / zelfs met N
+
+1208
+01:22:08,379 --> 01:22:11,319
+Luistertoets
+
+1209
+01:22:11,319 --> 01:22:14,752
+Is dat goedkoper?
+
+1210
+01:22:14,752 --> 01:22:19,485
+Op die manier is het meer... = Zo is het meer...
+goedkoop ↔ duur
+
+1211
+01:22:19,508 --> 01:22:21,652
+Ja.
+
+1212
+01:22:21,675 --> 01:22:25,709
+Luistertoets
+
+1213
+01:22:25,709 --> 01:22:30,475
+Via internet bedraagt de transactiekosten 3000 yen.
+
+1214
+01:22:30,475 --> 01:22:36,988
+Als het N is = Als het N is
+
+1215
+01:22:37,012 --> 01:22:40,478
+Luistertoets
+
+1216
+01:22:40,478 --> 01:22:44,545
+Dan wil ik het via internet doen.
+
+1217
+01:22:44,545 --> 01:22:50,119
+wil V + doen
+
+1218
+01:22:50,142 --> 01:22:52,409
+Luistertoets
+
+1219
+01:22:52,409 --> 01:22:54,966
+Uiteraard.
+
+1220
+01:22:58,555 --> 01:23:02,189
+Luistertoets
+
+1221
+01:23:02,189 --> 01:23:06,455
+Zullen we dan de app registreren?
+
+1222
+01:23:06,455 --> 01:23:12,322
+Doet u N? = Gaat u N doen?
+registratie = registratie
+
+1223
+01:23:12,345 --> 01:23:14,217
+Ja.
+
+1224
+01:23:14,240 --> 01:23:16,234
+Luistertoets
+
+1225
+01:23:16,234 --> 01:23:18,468
+Graag.
+
+1226
+01:23:21,624 --> 01:23:24,758
+Luistertoets
+
+1227
+01:23:24,758 --> 01:23:28,425
+Heeft u een smartphone?
+
+1228
+01:23:28,425 --> 01:23:33,458
+Heeft u het? = Heeft u het bij u?
+
+1229
+01:23:33,481 --> 01:23:35,514
+Ja.
+
+1230
+01:23:35,537 --> 01:23:37,513
+Luistertoets
+
+1231
+01:23:37,513 --> 01:23:39,710
+Deze hier.
+
+1232
+01:23:42,833 --> 01:23:46,339
+Luistertoets
+
+1233
+01:23:46,339 --> 01:23:50,446
+Download alstublieft onze bankapp.
+
+1234
+01:23:50,446 --> 01:23:56,113
+Doe alstublieft + ww. = Doe alstublieft V
+onze bank = onze bank
+
+1235
+01:23:56,136 --> 01:23:58,410
+Luistertoets
+
+1236
+01:23:58,410 --> 01:24:01,001
+Begrepen.
+
+1237
+01:24:04,657 --> 01:24:06,891
+Luistertoets
+
+1238
+01:24:06,891 --> 01:24:09,405
+Ik doe het meteen.
+
+1239
+01:24:12,940 --> 01:24:16,258
+Luistertoets
+
+1240
+01:24:16,258 --> 01:24:20,158
+Als u iets niet begrijpt, vraag het dan gerust.
+
+1241
+01:24:20,158 --> 01:24:25,505
+als / wanneer + ww. = als / wanneer V
+vragen = vragen
+
+1242
+01:24:25,528 --> 01:24:27,562
+Ja.
+
+1243
+01:24:27,585 --> 01:24:30,023
+Luistertoets
+
+1244
+01:24:30,023 --> 01:24:32,808
+Dank u wel.
+
+1245
+01:24:36,731 --> 01:24:38,231
+Scène 10: Hoe wissel je vreemde valuta / How to Exchange Foreign Currency
+
+1246
+01:24:38,231 --> 01:24:41,011
+Luistertoets
+
+1247
+01:24:41,011 --> 01:24:44,207
+Welkom.
+
+1248
+01:24:48,697 --> 01:24:50,885
+Luistertoets
+
+1249
+01:24:50,885 --> 01:24:53,385
+Sorry.
+
+1250
+01:24:56,878 --> 01:25:00,345
+Luistertoets
+
+1251
+01:25:00,345 --> 01:25:04,411
+Ik wil graag vreemde valuta wisselen.
+
+1252
+01:25:04,411 --> 01:25:09,971
+Ik wil graag + ww. = Ik wil graag V
+valutawissel = buitenlandse valuta wisselen
+
+1253
+01:25:09,994 --> 01:25:12,527
+Luistertoets
+
+1254
+01:25:12,527 --> 01:25:15,427
+Uiteraard.
+
+1255
+01:25:19,517 --> 01:25:24,350
+Luistertoets
+
+1256
+01:25:24,350 --> 01:25:30,083
+Ik wil Amerikaanse dollars omwisselen naar Japanse yen.
+
+1257
+01:25:30,083 --> 01:25:37,871
+Wissel N1 om in N2 = Wissel N1 in voor N2
+wisselen = wisselen / omruilen
+
+1258
+01:25:37,895 --> 01:25:39,629
+Ja.
+
+1259
+01:25:39,652 --> 01:25:43,430
+Luistertoets
+
+1260
+01:25:43,430 --> 01:25:47,901
+Dit is de wisselkoers van vandaag.
+
+1261
+01:25:47,901 --> 01:25:54,017
+Het wordt N / Hier is N = Het wordt N / Hier is N
+wisselkoers = wisselkoers
+
+1262
+01:25:54,041 --> 01:25:57,474
+Luistertoets
+
+1263
+01:25:57,474 --> 01:26:01,507
+Hoeveel is één dollar waard?
+
+1264
+01:26:01,507 --> 01:26:07,044
+Hoeveel is het? = Hoeveel kost het?
+
+1265
+01:26:07,068 --> 01:26:11,546
+Luistertoets
+
+1266
+01:26:11,546 --> 01:26:16,879
+Vandaag is één dollar 150 yen waard.
+
+1267
+01:26:16,879 --> 01:26:24,147
+N1 is N2 = N1 is N2
+
+1268
+01:26:24,171 --> 01:26:26,671
+Luistertoets
+
+1269
+01:26:26,671 --> 01:26:29,537
+Begrepen.
+
+1270
+01:26:33,530 --> 01:26:36,640
+Luistertoets
+
+1271
+01:26:36,640 --> 01:26:40,274
+Wissel alstublieft 500 dollar voor me.
+
+1272
+01:26:40,274 --> 01:26:45,267
+Doe alstublieft + ww. = Doe alstublieft V
+
+1273
+01:26:45,290 --> 01:26:48,057
+Luistertoets
+
+1274
+01:26:48,057 --> 01:26:51,246
+Uiteraard.
+
+1275
+01:26:55,702 --> 01:26:59,602
+Luistertoets
+
+1276
+01:26:59,602 --> 01:27:04,236
+Hoeveel wordt dat in totaal?
+
+1277
+01:27:04,236 --> 01:27:10,541
+in totaal = in totaal
+
+1278
+01:27:10,564 --> 01:27:15,064
+Luistertoets
+
+1279
+01:27:15,064 --> 01:27:20,397
+Dat wordt 75.000 yen.
+
+1280
+01:27:20,397 --> 01:27:27,674
+Het wordt N / Bedraagt N = Het wordt N / Bedraagt N
+
+1281
+01:27:27,698 --> 01:27:31,365
+Luistertoets
+
+1282
+01:27:31,365 --> 01:27:35,665
+Zijn er transactiekosten?
+
+1283
+01:27:35,665 --> 01:27:41,565
+kost / duurt = kost / duurt
+servicekosten = servicekosten / commissie
+
+1284
+01:27:41,588 --> 01:27:45,900
+Luistertoets
+
+1285
+01:27:45,900 --> 01:27:51,015
+De transactiekosten zitten al in de wisselkoers inbegrepen.
+
+1286
+01:27:51,015 --> 01:27:58,049
+N2 is inbegrepen in N1 = N2 zit in N1
+inbegrepen zijn = inbegrepen zijn
+
+1287
+01:27:58,072 --> 01:28:00,638
+Luistertoets
+
+1288
+01:28:00,638 --> 01:28:03,572
+Begrepen.
+
+1289
+01:28:07,661 --> 01:28:12,761
+Luistertoets
+
+1290
+01:28:12,761 --> 01:28:18,861
+Schrijf alstublieft uw naam op dit formulier.
+
+1291
+01:28:18,861 --> 01:28:27,129
+Doe alstublieft + ww. op/in N = Vul alstublieft V in op N
+formulier = formulier
+
+1292
+01:28:27,153 --> 01:28:30,453
+Luistertoets
+
+1293
+01:28:30,453 --> 01:28:34,319
+Mag het in het Latijnse alfabet?
+
+1294
+01:28:34,319 --> 01:28:39,598
+Is N goed? = Is N oké?
+Romeinse letters = Romeinse letters
+
+1295
+01:28:39,621 --> 01:28:42,655
+Luistertoets
+
+1296
+01:28:42,655 --> 01:28:46,188
+Ja, dat is prima.
+
+1297
+01:28:46,188 --> 01:28:51,055
+Dat is prima = Dat is prima / Geen probleem
+
+1298
+01:28:51,078 --> 01:28:53,578
+Luistertoets
+
+1299
+01:28:53,578 --> 01:28:56,444
+Ik heb het opgeschreven.
+
+1300
+01:28:56,444 --> 01:29:00,378
+heeft + ww. = heeft V gedaan
+
+1301
+01:29:00,401 --> 01:29:03,781
+Luistertoets
+
+1302
+01:29:03,781 --> 01:29:07,747
+Is een paspoort ook nodig?
+
+1303
+01:29:07,747 --> 01:29:13,214
+N is nodig = N is nodig / heeft N nodig
+nodig ↔ onnodig
+
+1304
+01:29:13,237 --> 01:29:15,475
+Ja.
+
+1305
+01:29:15,499 --> 01:29:19,565
+Luistertoets
+
+1306
+01:29:19,565 --> 01:29:24,399
+Dit is nodig voor de identificatie van uzelf.
+
+1307
+01:29:24,399 --> 01:29:30,981
+voor N = voor N / met het doel van N
+identiteitsverificatie = identiteitsverificatie
+
+1308
+01:29:31,004 --> 01:29:34,537
+Luistertoets
+
+1309
+01:29:34,537 --> 01:29:38,692
+Alstublieft.
+
+1310
+01:29:44,393 --> 01:29:46,467
+Luistertoets
+
+1311
+01:29:46,467 --> 01:29:48,784
+Dank u wel.
+
+1312
+01:29:52,073 --> 01:29:55,407
+Luistertoets
+
+1313
+01:29:55,407 --> 01:29:59,307
+Ik zal het controleren.
+
+1314
+01:29:59,307 --> 01:30:04,674
+Ik zal N doen (bescheiden) = Ik zal N doen
+bevestiging = bevestiging / verificatie
+
+1315
+01:30:04,698 --> 01:30:08,264
+Luistertoets
+
+1316
+01:30:08,264 --> 01:30:12,445
+Hoe wilt u het geld ontvangen?
+
+1317
+01:30:12,445 --> 01:30:18,183
+Hoe + ww. = Hoe V je?
+overdragen = overhandigen
+
+1318
+01:30:18,206 --> 01:30:25,306
+Luistertoets
+
+1319
+01:30:25,306 --> 01:30:33,894
+Is 7 briefjes van 10.000 yen en 1 briefje van 5.000 yen goed?
+
+1320
+01:30:33,894 --> 01:30:45,528
+Is N goed? = Is N goed?
+biljetten ↔ munten
+
+1321
+01:30:45,551 --> 01:30:50,085
+Luistertoets
+
+1322
+01:30:50,085 --> 01:30:55,473
+Doe er ook wat briefjes van 1.000 yen bij, alstublieft.
+
+1323
+01:30:55,473 --> 01:31:02,821
+een beetje + ww. = V een beetje
+mengen = mengen / bijvoegen
+
+1324
+01:31:02,844 --> 01:31:05,582
+Luistertoets
+
+1325
+01:31:05,582 --> 01:31:08,750
+Uiteraard.
+
+1326
+01:31:13,150 --> 01:31:22,490
+Luistertoets
+
+1327
+01:31:22,490 --> 01:31:33,923
+Doe alstublieft 6 briefjes van 10.000 yen, 1 briefje van 5.000 yen en 10 briefjes van 1.000 yen.
+
+1328
+01:31:33,923 --> 01:31:49,299
+Maak er alstublieft N van = Maak het alstublieft N
+
+1329
+01:31:49,323 --> 01:31:52,856
+Luistertoets
+
+1330
+01:31:52,856 --> 01:31:56,975
+Begrepen.
+
+1331
+01:31:56,975 --> 01:32:02,642
+begrepen = begrepen / akkoord
+
+1332
+01:32:02,665 --> 01:32:05,198
+Luistertoets
+
+1333
+01:32:05,198 --> 01:32:08,065
+Alstublieft.
+
+1334
+01:32:12,087 --> 01:32:14,953
+Luistertoets
+
+1335
+01:32:14,953 --> 01:32:18,253
+Sorry dat u moest wachten.
+
+1336
+01:32:18,253 --> 01:32:22,809
+Sorry dat ik u liet wachten = Sorry dat ik u heb laten wachten
+
+1337
+01:32:22,832 --> 01:32:26,132
+Luistertoets
+
+1338
+01:32:26,132 --> 01:32:29,999
+Dit is uw geld.
+
+1339
+01:32:29,999 --> 01:32:35,299
+hier = hier / dit (beleefd)
+
+1340
+01:32:35,322 --> 01:32:37,822
+Luistertoets
+
+1341
+01:32:37,822 --> 01:32:40,689
+Ik controleer het even.
+
+1342
+01:32:40,689 --> 01:32:44,647
+N doen = N doen
+
+1343
+01:32:44,671 --> 01:32:47,904
+Luistertoets
+
+1344
+01:32:47,904 --> 01:32:51,678
+Ja, het klopt.
+
+1345
+01:32:56,893 --> 01:32:59,409
+Luistertoets
+
+1346
+01:32:59,409 --> 01:33:02,276
+Dank u wel.
