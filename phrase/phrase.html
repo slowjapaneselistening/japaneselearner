@@ -480,7 +480,7 @@
             }
             if (!audioPath) return;
             currentAudio = new Audio(audioPath);
-            currentAudio.playbackRate = 0.85;
+            currentAudio.playbackRate = Number(document.getElementById("playback-rate-selector")?.value) || 0.85;
             currentAudio.play().catch(e => console.error("Audio play failed:", e));
         }
 
@@ -520,7 +520,7 @@
                         await new Promise(resolve => {
                             if (currentAudio) currentAudio.pause();
                             currentAudio = new Audio(line.audioPath);
-                            currentAudio.playbackRate = 0.85;
+                            currentAudio.playbackRate = Number(document.getElementById("playback-rate-selector")?.value) || 0.85;
                             currentAudio.onended = resolve;
                             currentAudio.onerror = resolve;
                             currentAudio.play().catch(e => {
@@ -771,5 +771,6 @@
             renderScene();
         };
     </script>
+    <script src="../assets/playback-controls.js"></script>
 </body>
 </html>

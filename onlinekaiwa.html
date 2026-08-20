@@ -801,63 +801,6 @@ Speaker 1: はい、またね。 | Yes, see you.
             renderScene();
         };
     </script>
-</body>
-</html>
-            }
-        }
-
-        function init() {
-            // Populate Scene Selector
-            const selector = document.getElementById('scene-selector');
-            scenes.forEach((scene, index) => {
-                const option = document.createElement('option');
-                option.value = index;
-                option.textContent = sceneTitles[index] || `Scene ${index + 1}`;
-                selector.appendChild(option);
-            });
-
-            // Conversation Event Listeners
-            selector.addEventListener('change', (e) => {
-                appState.currentSceneIndex = parseInt(e.target.value);
-                window.speechSynthesis.cancel();
-                appState.isPlaying = false;
-                document.querySelector('#play-scene-btn i').className = 'fa-solid fa-play';
-                renderScene();
-                document.getElementById('chat-container').scrollTop = 0;
-            });
-
-            document.getElementById('toggle-romaji').addEventListener('change', (e) => {
-                appState.showRomaji = e.target.checked;
-                renderScene();
-            });
-
-            document.getElementById('toggle-translation').addEventListener('change', (e) => {
-                appState.showTranslation = e.target.checked;
-                renderScene();
-            });
-
-            document.getElementById('toggle-kanji-test').addEventListener('change', (e) => {
-                appState.hideFurigana = e.target.checked;
-                renderScene();
-            });
-
-            // Tab Event Listeners
-            document.getElementById('tab-btn-conv').addEventListener('click', () => switchTab('conv'));
-            document.getElementById('tab-btn-quiz').addEventListener('click', () => switchTab('quiz'));
-
-            // Initial Render
-            renderScene();
-            startQuiz(); // pre-render quiz implicitly
-        }
-
-        document.addEventListener('DOMContentLoaded', init);
-        
-        window.addEventListener('beforeunload', () => {
-            if ('speechSynthesis' in window) {
-                window.speechSynthesis.cancel();
-            }
-        });
-
-    </script>
+    <script src="assets/playback-controls.js"></script>
 </body>
 </html>
