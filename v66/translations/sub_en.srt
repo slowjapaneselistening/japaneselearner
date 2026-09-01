@@ -1,0 +1,1455 @@
+1
+00:00:10,008 --> 00:00:11,508
+Scene 1: Dog Sitting Request
+
+2
+00:00:11,508 --> 00:00:16,426
+Mr. Takahashi, do you have a moment?
+
+3
+00:00:16,449 --> 00:00:19,116
+Yes, what's up?
+
+4
+00:00:19,139 --> 00:00:22,492
+What can I do for you?
+
+5
+00:00:22,515 --> 00:00:29,648
+I’ve suddenly been assigned to a business trip abroad.
+
+6
+00:00:29,671 --> 00:00:33,439
+That sounds tough.
+
+7
+00:00:33,462 --> 00:00:36,496
+Yes, what's up?
+
+8
+00:00:36,519 --> 00:00:40,853
+Starting next Monday.
+
+9
+00:00:40,876 --> 00:00:45,145
+How long will you be gone?
+
+10
+00:00:45,168 --> 00:00:48,868
+For a week.
+
+11
+00:00:48,891 --> 00:00:53,028
+That’s quite a while.
+
+12
+00:00:53,052 --> 00:00:55,986
+Yeah.
+
+13
+00:00:56,009 --> 00:01:00,395
+So, I have a favor to ask.
+
+14
+00:01:00,418 --> 00:01:03,952
+What can I do for you?
+
+15
+00:01:03,975 --> 00:01:11,759
+Would you mind taking care of my dog while I’m away?
+
+16
+00:01:11,782 --> 00:01:14,416
+Your dog?
+
+17
+00:01:14,439 --> 00:01:17,357
+Yes, what's up?
+
+18
+00:01:17,380 --> 00:01:20,962
+It’s a small breed.
+
+19
+00:01:20,986 --> 00:01:26,286
+I’ve never owned a dog before.
+
+20
+00:01:26,309 --> 00:01:29,906
+Don’t worry.
+
+21
+00:01:29,929 --> 00:01:33,996
+He’s a very calm dog.
+
+22
+00:01:34,019 --> 00:01:38,319
+What about feeding?
+
+23
+00:01:38,342 --> 00:01:43,442
+I’ll prepare all the food.
+
+24
+00:01:43,465 --> 00:01:47,131
+Does he need walks?
+
+25
+00:01:47,154 --> 00:01:50,055
+Yes, what's up?
+
+26
+00:01:50,079 --> 00:01:54,213
+Yes, please take him out in the morning and evening.
+
+27
+00:01:54,236 --> 00:02:00,702
+I might worry about him during meetings.
+
+28
+00:02:00,725 --> 00:02:05,722
+He’ll sleep quietly in his cage.
+
+29
+00:02:05,746 --> 00:02:09,012
+I see.
+
+30
+00:02:09,035 --> 00:02:13,069
+Of course, I’ll pay you for your trouble.
+
+31
+00:02:13,092 --> 00:02:16,158
+Understood.
+
+32
+00:02:16,181 --> 00:02:19,215
+I’ll take care of him.
+
+33
+00:02:19,238 --> 00:02:22,075
+Thank you so much.
+
+34
+00:02:22,098 --> 00:02:25,199
+That’ll really help.
+
+35
+00:02:25,222 --> 00:02:29,289
+What’s your dog’s name?
+
+36
+00:02:29,312 --> 00:02:33,050
+His name is Pochi.
+
+37
+00:02:33,073 --> 00:02:38,506
+Can I see Pochi once over the weekend?
+
+38
+00:02:38,529 --> 00:02:41,863
+Understood.
+
+39
+00:02:41,886 --> 00:02:44,619
+I’ll bring him by.
+
+40
+00:02:44,642 --> 00:02:48,954
+Is there anything I need to prepare?
+
+41
+00:02:48,978 --> 00:02:52,878
+Nope, nothing.
+
+42
+00:02:52,901 --> 00:02:56,854
+I’ll bring everything.
+
+43
+00:02:56,878 --> 00:03:00,269
+Understood.
+
+44
+00:03:00,292 --> 00:03:01,792
+Scene 2: Meetup Gone Wrong
+
+45
+00:03:01,792 --> 00:03:06,567
+Hello? Where are you right now?
+
+46
+00:03:06,591 --> 00:03:11,891
+I’m standing in front of the sign next to the café.
+
+47
+00:03:11,914 --> 00:03:16,014
+I should be there too.
+
+48
+00:03:16,037 --> 00:03:21,221
+That’s weird. I don’t see you at all.
+
+49
+00:03:21,244 --> 00:03:25,078
+You should see a big clock.
+
+50
+00:03:25,101 --> 00:03:29,167
+I don’t see a clock.
+
+51
+00:03:29,190 --> 00:03:34,424
+Then we must be in the wrong place.
+
+52
+00:03:34,447 --> 00:03:39,234
+I came out of the East Exit of the subway, right?
+
+53
+00:03:39,258 --> 00:03:44,737
+No, it’s the West Exit.
+
+54
+00:03:44,760 --> 00:03:47,594
+Huh?
+
+55
+00:03:47,617 --> 00:03:50,523
+It was the West Exit.
+
+56
+00:03:50,546 --> 00:03:56,697
+I sent you a message saying ‘West Exit.’
+
+57
+00:03:56,721 --> 00:04:01,308
+Sorry, I wasn’t paying attention.
+
+58
+00:04:01,331 --> 00:04:05,966
+Should I head to the west exit now?
+
+59
+00:04:05,989 --> 00:04:10,656
+No, I’ll come over there.
+
+60
+00:04:10,679 --> 00:04:13,745
+I know the way.
+
+61
+00:04:13,768 --> 00:04:18,084
+I think it’ll be fine.
+
+62
+00:04:18,107 --> 00:04:22,541
+Turn right at the convenience store.
+
+63
+00:04:22,564 --> 00:04:25,752
+Got it, the convenience store.
+
+64
+00:04:25,775 --> 00:04:28,285
+Understood.
+
+65
+00:04:28,309 --> 00:04:31,679
+I’ll wait there.
+
+66
+00:04:31,702 --> 00:04:34,248
+Thanks.
+
+67
+00:04:34,272 --> 00:04:37,226
+I’ll hurry over.
+
+68
+00:04:37,249 --> 00:04:40,683
+You don’t need to run.
+
+69
+00:04:40,706 --> 00:04:44,372
+I’m really sorry.
+
+70
+00:04:44,395 --> 00:04:47,731
+Be careful on your way.
+
+71
+00:04:47,754 --> 00:04:51,705
+How long do you think it’ll take?
+
+72
+00:04:51,728 --> 00:04:56,262
+It should take about 5 minutes on foot.
+
+73
+00:04:56,285 --> 00:04:58,619
+Understood.
+
+74
+00:04:58,642 --> 00:05:02,190
+I’ll call you again when I arrive.
+
+75
+00:05:02,213 --> 00:05:06,596
+I’ll wait right here without moving.
+
+76
+00:05:06,620 --> 00:05:08,688
+Yeah.
+
+77
+00:05:08,712 --> 00:05:11,217
+Please.
+
+78
+00:05:11,241 --> 00:05:14,607
+See you later.
+
+79
+00:05:14,630 --> 00:05:17,805
+I’ll be there soon.
+
+80
+00:05:17,829 --> 00:05:19,329
+Scene 3: Changing a Hotel Reservation by Phone
+
+81
+00:05:19,329 --> 00:05:24,763
+Hello, this is Sakura Hotel.
+
+82
+00:05:24,786 --> 00:05:30,419
+I’d like to change my hotel reservation.
+
+83
+00:05:30,442 --> 00:05:33,342
+Understood.
+
+84
+00:05:33,365 --> 00:05:38,148
+May I have your name, please?
+
+85
+00:05:38,172 --> 00:05:41,705
+It’s Tanaka.
+
+86
+00:05:41,728 --> 00:05:44,962
+Mr. Tanaka, correct?
+
+87
+00:05:44,984 --> 00:05:48,284
+Please hold on.
+
+88
+00:05:48,307 --> 00:05:51,141
+Yes, what's up?
+
+89
+00:05:51,164 --> 00:05:57,830
+You have a reservation from Friday next week for 2 nights.
+
+90
+00:05:57,853 --> 00:06:00,487
+Yes, what's up?
+
+91
+00:06:00,510 --> 00:06:06,379
+Can I change it to a 1-night stay on Sunday?
+
+92
+00:06:06,402 --> 00:06:11,769
+A Sunday stay, correct?
+
+93
+00:06:11,792 --> 00:06:14,958
+Is it available?
+
+94
+00:06:14,981 --> 00:06:17,536
+Yes, what's up?
+
+95
+00:06:17,559 --> 00:06:21,793
+We can prepare a room for you.
+
+96
+00:06:21,816 --> 00:06:25,974
+How will the fee change?
+
+97
+00:06:25,997 --> 00:06:31,964
+Sunday has a discount rate.
+
+98
+00:06:31,987 --> 00:06:35,960
+How much will it be?
+
+99
+00:06:35,984 --> 00:06:40,817
+It’s 8,000 yen per night.
+
+100
+00:06:40,840 --> 00:06:44,151
+Understood.
+
+101
+00:06:44,175 --> 00:06:48,718
+Would you like to add breakfast?
+
+102
+00:06:48,741 --> 00:06:52,607
+How much is breakfast?
+
+103
+00:06:52,630 --> 00:06:57,001
+It’s 1,000 yen.
+
+104
+00:06:57,025 --> 00:07:00,407
+What’s on the menu?
+
+105
+00:07:00,430 --> 00:07:06,137
+You can choose between Japanese or Western-style breakfast.
+
+106
+00:07:06,161 --> 00:07:10,428
+Then, I’ll take breakfast as well.
+
+107
+00:07:10,451 --> 00:07:14,084
+Understood.
+
+108
+00:07:14,107 --> 00:07:18,086
+What time is check-in?
+
+109
+00:07:18,110 --> 00:07:22,876
+Check-in is from 3 PM.
+
+110
+00:07:22,899 --> 00:07:27,698
+Can I drop off my luggage in advance?
+
+111
+00:07:27,722 --> 00:07:30,588
+Yes, what's up?
+
+112
+00:07:30,611 --> 00:07:34,486
+We’ll hold it at the front desk.
+
+113
+00:07:34,509 --> 00:07:37,694
+Understood.
+
+114
+00:07:37,717 --> 00:07:43,685
+We’ll send you a detailed confirmation via email.
+
+115
+00:07:43,709 --> 00:07:46,776
+Please.
+
+116
+00:07:46,799 --> 00:07:51,947
+I'll send it as soon as it's ready.
+
+117
+00:07:51,970 --> 00:07:55,081
+I appreciate your help.
+
+118
+00:07:55,105 --> 00:07:58,771
+Looking forward to it.
+
+119
+00:07:58,794 --> 00:08:00,294
+Scene 4: The Spark That Started My Volunteering Journey
+
+120
+00:08:00,294 --> 00:08:07,473
+Mr. Yamada, how long have you been volunteering?
+
+121
+00:08:07,497 --> 00:08:11,763
+About half a year now.
+
+122
+00:08:11,786 --> 00:08:16,253
+What kind of activities do you do?
+
+123
+00:08:16,276 --> 00:08:20,976
+I pick up trash in the neighborhood.
+
+124
+00:08:20,999 --> 00:08:25,032
+Why did you start?
+
+125
+00:08:25,055 --> 00:08:29,822
+Moving here was the trigger.
+
+126
+00:08:29,845 --> 00:08:33,278
+You moved here?
+
+127
+00:08:33,301 --> 00:08:40,134
+Yes. I wanted to get to know this town better.
+
+128
+00:08:40,157 --> 00:08:44,524
+So that's why you joined, huh?
+
+129
+00:08:44,547 --> 00:08:50,647
+Yeah. Now I even chat with my neighbors.
+
+130
+00:08:50,670 --> 00:08:55,417
+That's wonderful.
+
+131
+00:08:55,441 --> 00:09:00,547
+At first, it was tough getting up early.
+
+132
+00:09:00,571 --> 00:09:05,329
+Do you gather early in the morning?
+
+133
+00:09:05,352 --> 00:09:10,731
+Every Sunday at 7 AM.
+
+134
+00:09:10,755 --> 00:09:14,723
+That's early.
+
+135
+00:09:14,746 --> 00:09:20,715
+But now I'm used to waking up early.
+
+136
+00:09:20,738 --> 00:09:24,772
+It's good for my health too.
+
+137
+00:09:24,795 --> 00:09:30,110
+Yeah, and it keeps the town clean.
+
+138
+00:09:30,133 --> 00:09:35,969
+How do you feel about people who litter?
+
+139
+00:09:35,993 --> 00:09:40,174
+It makes me sad.
+
+140
+00:09:40,197 --> 00:09:43,864
+I see.
+
+141
+00:09:43,887 --> 00:09:51,323
+But instead of getting angry, I want to keep cleaning up.
+
+142
+00:09:51,347 --> 00:09:55,424
+Can I join too?
+
+143
+00:09:55,447 --> 00:09:58,881
+Of course!
+
+144
+00:09:58,904 --> 00:10:02,455
+Anyone can participate.
+
+145
+00:10:02,478 --> 00:10:06,711
+Do I need to sign up?
+
+146
+00:10:06,734 --> 00:10:12,304
+No, just come to the park directly.
+
+147
+00:10:12,328 --> 00:10:17,828
+Then I'll try going this Sunday.
+
+148
+00:10:17,851 --> 00:10:21,559
+I'll be waiting!
+
+149
+00:10:21,582 --> 00:10:24,682
+I appreciate your help.
+
+150
+00:10:24,705 --> 00:10:29,045
+Let's do our best together!
+
+151
+00:10:29,068 --> 00:10:30,568
+Scene 5: Planning a Day Trip for Work
+
+152
+00:10:30,568 --> 00:10:36,537
+Tomorrow's business trip is to Osaka, right?
+
+153
+00:10:36,560 --> 00:10:40,996
+Yes, I'll take the Shinkansen there and back.
+
+154
+00:10:41,020 --> 00:10:44,720
+Are you staying overnight starting today?
+
+155
+00:10:44,743 --> 00:10:49,822
+No, it's a day trip.
+
+156
+00:10:49,846 --> 00:10:55,279
+A day trip? That must be tough.
+
+157
+00:10:55,302 --> 00:11:02,140
+My wife is on a business trip, so I'll take care of the kids instead.
+
+158
+00:11:02,163 --> 00:11:08,339
+I see. So your wife is also on a business trip?
+
+159
+00:11:08,363 --> 00:11:15,297
+Yes. That's why I can't leave home.
+
+160
+00:11:15,321 --> 00:11:19,155
+That makes sense.
+
+161
+00:11:19,178 --> 00:11:25,545
+I'll take the 6 AM Shinkansen tomorrow.
+
+162
+00:11:25,569 --> 00:11:29,936
+You'll have to wake up early, huh?
+
+163
+00:11:29,959 --> 00:11:34,792
+Yeah. The meeting starts at 10 AM.
+
+164
+00:11:34,815 --> 00:11:39,648
+When do you think you'll be back?
+
+165
+00:11:39,671 --> 00:11:44,571
+Probably around 5 PM.
+
+166
+00:11:44,594 --> 00:11:49,027
+Are you taking the Shinkansen soon?
+
+167
+00:11:49,050 --> 00:11:55,150
+Yes. I want to get home before the trains get too crowded.
+
+168
+00:11:55,173 --> 00:11:59,140
+Trains are packed at night, after all.
+
+169
+00:11:59,164 --> 00:12:03,831
+I should be home by around 8.
+
+170
+00:12:03,854 --> 00:12:07,888
+Be careful on your way there and back.
+
+171
+00:12:07,911 --> 00:12:10,744
+Thank you so much.
+
+172
+00:12:10,767 --> 00:12:16,041
+I’m looking forward to your souvenir from Osaka!
+
+173
+00:12:16,064 --> 00:12:19,298
+What would you like?
+
+174
+00:12:19,322 --> 00:12:24,074
+Something like takoyaki-flavored snacks would be great.
+
+175
+00:12:24,097 --> 00:12:29,288
+Got it. I’ll look for them at the station.
+
+176
+00:12:29,312 --> 00:12:34,688
+Write it down before you forget!
+
+177
+00:12:34,711 --> 00:12:38,978
+It’s fine. I’ll remember.
+
+178
+00:12:39,001 --> 00:12:43,547
+Well then, do your best tomorrow!
+
+179
+00:12:43,571 --> 00:12:47,540
+Okay. I’m off!
+
+180
+00:12:47,564 --> 00:12:51,043
+You must be tired.
+
+181
+00:12:51,066 --> 00:12:54,013
+Excuse me.
+
+182
+00:12:54,036 --> 00:12:55,536
+Scene 6: Considering a Job Change
+
+183
+00:12:55,536 --> 00:13:02,469
+You look serious while flipping through a job magazine.
+
+184
+00:13:02,492 --> 00:13:05,072
+Yeah.
+
+185
+00:13:05,096 --> 00:13:10,277
+I’m thinking about quitting my current part-time job.
+
+186
+00:13:10,301 --> 00:13:14,436
+The part-time job at the izakaya, right?
+
+187
+00:13:14,459 --> 00:13:17,959
+Why are you quitting?
+
+188
+00:13:17,982 --> 00:13:25,082
+I’ve been working late a lot lately, and I’m feeling exhausted.
+
+189
+00:13:25,105 --> 00:13:28,291
+I see.
+
+190
+00:13:28,314 --> 00:13:33,214
+Yeah, you always look sleepy.
+
+191
+00:13:33,237 --> 00:13:35,871
+Yeah.
+
+192
+00:13:35,894 --> 00:13:42,972
+I don’t want to overwork myself and get sick, so I’d like to take a break.
+
+193
+00:13:42,995 --> 00:13:47,767
+What kind of job are you looking for next?
+
+194
+00:13:47,791 --> 00:13:54,870
+I’m torn between moving work or teaching English at a cram school.
+
+195
+00:13:54,894 --> 00:13:58,879
+Those are totally different jobs.
+
+196
+00:13:58,902 --> 00:14:03,169
+Does moving work pay well?
+
+197
+00:14:03,192 --> 00:14:05,776
+Yeah.
+
+198
+00:14:05,799 --> 00:14:13,066
+But I’ve heard it’s tough on the body and you might hurt your back.
+
+199
+00:14:13,089 --> 00:14:16,722
+That sounds worrying.
+
+200
+00:14:16,745 --> 00:14:21,212
+How about teaching English?
+
+201
+00:14:21,235 --> 00:14:26,072
+It’s a job teaching English to kids.
+
+202
+00:14:26,095 --> 00:14:33,328
+It sounds fun, but preparing for lessons might leave you sleep-deprived.
+
+203
+00:14:33,351 --> 00:14:37,189
+That’s true.
+
+204
+00:14:37,212 --> 00:14:43,846
+But since I like kids, I think it could be enjoyable.
+
+205
+00:14:43,869 --> 00:14:49,744
+In that case, you should go for a job you really like!
+
+206
+00:14:49,767 --> 00:14:52,200
+Yeah.
+
+207
+00:14:52,223 --> 00:14:58,003
+It’s better to choose a job that suits you rather than just the money.
+
+208
+00:14:58,027 --> 00:15:05,618
+But if I teach English, I’ll need to study too.
+
+209
+00:15:05,641 --> 00:15:12,511
+I’ve been slacking off on studying English lately, so this might be perfect.
+
+210
+00:15:12,534 --> 00:15:18,087
+Then it’s settled—you’ll go for the English teaching job!
+
+211
+00:15:18,111 --> 00:15:23,483
+I’ll call and apply for it tomorrow.
+
+212
+00:15:23,506 --> 00:15:28,540
+I should also prepare thoroughly for the interview.
+
+213
+00:15:28,563 --> 00:15:35,108
+I always get nervous before interviews, so I’m a little anxious now.
+
+214
+00:15:35,131 --> 00:15:42,118
+Before the interview, it’s best to take deep breaths and relax.
+
+215
+00:15:42,142 --> 00:15:45,375
+Yeah, that’s right.
+
+216
+00:15:45,398 --> 00:15:49,565
+I’ll write my resume early too.
+
+217
+00:15:49,588 --> 00:15:57,299
+It’s best to get your ID photo taken at a photo studio rather than a machine at the station.
+
+218
+00:15:57,323 --> 00:16:03,281
+If you take it yourself, your expression tends to look gloomy.
+
+219
+00:16:03,305 --> 00:16:06,093
+Exactly.
+
+220
+00:16:06,116 --> 00:16:10,450
+First impressions are important, after all.
+
+221
+00:16:10,473 --> 00:16:17,173
+It's been a while since I last wore a tie, so I'll practice beforehand.
+
+222
+00:16:17,196 --> 00:16:23,075
+I don't usually wear one, so I tend to forget how to tie it.
+
+223
+00:16:23,098 --> 00:16:25,287
+Yeah.
+
+224
+00:16:25,310 --> 00:16:30,077
+Thanks for all the advice!
+
+225
+00:16:30,100 --> 00:16:34,857
+Let me treat you to something once I get the job!
+
+226
+00:16:34,881 --> 00:16:37,547
+Understood.
+
+227
+00:16:37,570 --> 00:16:41,604
+I'll do my best at the interview.
+
+228
+00:16:41,626 --> 00:16:43,126
+Scene 7: Homemade Bento for Better Health
+
+229
+00:16:43,126 --> 00:16:49,236
+You’ve been bringing your own bento lately, huh?
+
+230
+00:16:49,260 --> 00:16:51,493
+Yeah.
+
+231
+00:16:51,516 --> 00:16:56,235
+I’ve been making it myself since last month.
+
+232
+00:16:56,259 --> 00:16:59,359
+Good for you!
+
+233
+00:16:59,381 --> 00:17:02,851
+Do you wake up early?
+
+234
+00:17:02,875 --> 00:17:05,453
+Yeah.
+
+235
+00:17:05,476 --> 00:17:09,748
+I wake up at 6 every morning.
+
+236
+00:17:09,772 --> 00:17:13,438
+Isn’t cooking difficult?
+
+237
+00:17:13,461 --> 00:17:19,495
+The more you cook, the more fun it gets.
+
+238
+00:17:19,517 --> 00:17:22,831
+I see.
+
+239
+00:17:22,855 --> 00:17:29,955
+I think my body felt sluggish because I was eating out too much lately.
+
+240
+00:17:29,978 --> 00:17:33,978
+So you switched to bringing your own bento?
+
+241
+00:17:34,001 --> 00:17:36,901
+Yeah.
+
+242
+00:17:36,924 --> 00:17:41,024
+I started doing it for my health.
+
+243
+00:17:41,047 --> 00:17:44,355
+How’s your body feeling now?
+
+244
+00:17:44,379 --> 00:17:51,926
+As I get used to the bento routine, my body feels lighter.
+
+245
+00:17:51,949 --> 00:17:55,506
+That’s great to hear!
+
+246
+00:17:55,530 --> 00:17:59,907
+And it saves money too.
+
+247
+00:17:59,930 --> 00:18:04,964
+How much do you save per month?
+
+248
+00:18:04,987 --> 00:18:08,920
+About 10,000 yen, I think.
+
+249
+00:18:08,943 --> 00:18:12,896
+That’s a lot!
+
+250
+00:18:12,919 --> 00:18:19,386
+The more I save, the more my savings grow—I’m happy about that.
+
+251
+00:18:19,409 --> 00:18:24,042
+Maybe I’ll start making my own bento too.
+
+252
+00:18:24,065 --> 00:18:28,704
+You absolutely should!
+
+253
+00:18:28,727 --> 00:18:33,699
+But I’m not good at waking up early.
+
+254
+00:18:33,723 --> 00:18:38,556
+It’s easier if you prepare things the night before.
+
+255
+00:18:38,579 --> 00:18:42,346
+What kind of things do you prepare?
+
+256
+00:18:42,369 --> 00:18:48,108
+I cook rice and chop vegetables ahead of time.
+
+257
+00:18:48,132 --> 00:18:50,965
+I see.
+
+258
+00:18:50,988 --> 00:18:54,337
+That sounds doable.
+
+259
+00:18:54,361 --> 00:19:00,138
+You could also make side dishes on the weekend and freeze them.
+
+260
+00:19:00,161 --> 00:19:04,028
+I’ll give it a try starting tomorrow.
+
+261
+00:19:04,051 --> 00:19:07,284
+Good luck!
+
+262
+00:19:07,307 --> 00:19:11,774
+If you have any questions, just ask.
+
+263
+00:19:11,797 --> 00:19:14,939
+Of course!
+
+264
+00:19:14,962 --> 00:19:16,462
+Scene 8: Planning the Sports Tournament Prizes
+
+265
+00:19:16,462 --> 00:19:22,329
+Let’s decide on the prizes for the upcoming sports tournament.
+
+266
+00:19:22,352 --> 00:19:26,295
+The prizes for the winning team, right?
+
+267
+00:19:26,319 --> 00:19:31,152
+Yes, what do you think would be good?
+
+268
+00:19:31,175 --> 00:19:35,966
+Last year, it was towels and tea.
+
+269
+00:19:35,989 --> 00:19:41,135
+Do you think we should do the same this year?
+
+270
+00:19:41,158 --> 00:19:49,258
+Towels are fine, but compared to tea, people would be happier with a coffee set.
+
+271
+00:19:49,281 --> 00:19:54,874
+You’re right, let’s go with a coffee set.
+
+272
+00:19:54,898 --> 00:20:00,769
+Shouldn’t we also include a bookstore gift card as the top prize?
+
+273
+00:20:00,793 --> 00:20:04,188
+A bookstore gift card?
+
+274
+00:20:04,211 --> 00:20:10,344
+Yes, you can buy not just books but magazines too.
+
+275
+00:20:10,367 --> 00:20:13,667
+That’s a great idea!
+
+276
+00:20:13,690 --> 00:20:17,684
+Which gift card would you like?
+
+277
+00:20:17,708 --> 00:20:21,941
+How about 1,000 yen?
+
+278
+00:20:21,964 --> 00:20:25,912
+That fits within the budget.
+
+279
+00:20:25,936 --> 00:20:29,636
+What about the participation prizes?
+
+280
+00:20:29,659 --> 00:20:34,779
+Let’s give out snacks as prizes.
+
+281
+00:20:34,802 --> 00:20:38,541
+I think chocolate would be great.
+
+282
+00:20:38,565 --> 00:20:45,131
+Unlike summer, chocolate won’t melt in winter, right?
+
+283
+00:20:45,154 --> 00:20:49,592
+Yeah, let’s grab some at the supermarket.
+
+284
+00:20:49,616 --> 00:20:53,559
+When are we going shopping?
+
+285
+00:20:53,583 --> 00:20:57,616
+Let’s go tomorrow evening.
+
+286
+00:20:57,639 --> 00:21:02,539
+Got it, I’ll get the car ready.
+
+287
+00:21:02,562 --> 00:21:07,068
+Thanks, that’ll really help.
+
+288
+00:21:07,092 --> 00:21:11,200
+We’ll have a lot to carry, huh?
+
+289
+00:21:11,224 --> 00:21:15,617
+Should we wrap the prizes nicely?
+
+290
+00:21:15,640 --> 00:21:20,186
+Yes, let’s add some ribbons.
+
+291
+00:21:20,210 --> 00:21:23,877
+Preparations are going to be tough, aren’t they?
+
+292
+00:21:23,900 --> 00:21:28,766
+I hope everyone will be happy with them.
+
+293
+00:21:28,789 --> 00:21:32,896
+Yeah, let’s do our best!
+
+294
+00:21:32,920 --> 00:21:38,994
+Alright, let’s meet at the parking lot at 5 tomorrow.
+
+295
+00:21:39,017 --> 00:21:42,383
+Understood.
+
+296
+00:21:42,406 --> 00:21:43,906
+Scene 9: Strange Odor from a Heater / Handling Heater Issues
+
+297
+00:21:43,906 --> 00:21:49,878
+This heater is giving off a weird smell.
+
+298
+00:21:49,902 --> 00:21:52,469
+Yeah, it really is.
+
+299
+00:21:52,492 --> 00:21:56,525
+It smells like something’s burning.
+
+300
+00:21:56,548 --> 00:22:00,657
+It might be broken.
+
+301
+00:22:00,681 --> 00:22:05,551
+It’s dangerous—you should turn it off right away.
+
+302
+00:22:05,574 --> 00:22:10,173
+But if we turn it off, it’ll get cold.
+
+303
+00:22:10,197 --> 00:22:16,307
+That’s exactly why we need to use it safely.
+
+304
+00:22:16,330 --> 00:22:21,129
+What happens if we keep using it?
+
+305
+00:22:21,152 --> 00:22:25,419
+There’s a risk of a fire.
+
+306
+00:22:25,442 --> 00:22:28,675
+That’s scary.
+
+307
+00:22:28,698 --> 00:22:31,768
+I’ll turn it off right now.
+
+308
+00:22:31,792 --> 00:22:35,225
+Should we get it repaired?
+
+309
+00:22:35,248 --> 00:22:40,686
+Wouldn’t it be cheaper to just buy a new one?
+
+310
+00:22:40,710 --> 00:22:46,257
+We won’t know until we have it checked by an electrician.
+
+311
+00:22:46,281 --> 00:22:50,316
+Where’s the warranty?
+
+312
+00:22:50,339 --> 00:22:54,872
+It should be in the drawer.
+
+313
+00:22:54,895 --> 00:22:57,762
+Found it!
+
+314
+00:22:57,785 --> 00:23:01,652
+You bought this last winter, huh?
+
+315
+00:23:01,675 --> 00:23:07,441
+So it might still be covered under warranty.
+
+316
+00:23:07,464 --> 00:23:11,257
+Should I call and ask?
+
+317
+00:23:11,281 --> 00:23:13,674
+Yeah.
+
+318
+00:23:13,697 --> 00:23:17,330
+I’ll make the call.
+
+319
+00:23:17,353 --> 00:23:20,857
+Okay, thanks!
+
+320
+00:23:20,881 --> 00:23:27,181
+Hello, I’d like to request a repair for my heater.
+
+321
+00:23:27,204 --> 00:23:29,996
+Yes, what's up?
+
+322
+00:23:30,019 --> 00:23:32,786
+Yes, what's up?
+
+323
+00:23:32,810 --> 00:23:35,848
+What are they saying?
+
+324
+00:23:35,871 --> 00:23:40,538
+They said they’ll come by tomorrow afternoon.
+
+325
+00:23:40,561 --> 00:23:45,137
+So we can’t use the heater until then.
+
+326
+00:23:45,160 --> 00:23:49,279
+We’ll have to rely on the air conditioner.
+
+327
+00:23:49,302 --> 00:23:53,602
+Did you clean the air conditioner’s filter?
+
+328
+00:23:53,625 --> 00:23:58,392
+I cleaned it last week, so it should be fine.
+
+329
+00:23:58,415 --> 00:24:02,525
+Let's turn on the air conditioner.
+
+330
+00:24:02,549 --> 00:24:06,501
+Hope the repair cost isn't too high.
+
+331
+00:24:06,525 --> 00:24:09,592
+Yeah, I hope so.
+
+332
+00:24:09,615 --> 00:24:14,330
+Let's tough it out until tomorrow.
+
+333
+00:24:24,362 --> 00:24:25,862
+Scene 10: Reflections on the Speech Contest
+
+334
+00:24:25,862 --> 00:24:31,162
+Congrats on finishing the speech contest!
+
+335
+00:24:31,185 --> 00:24:34,151
+Thank you so much.
+
+336
+00:24:34,174 --> 00:24:37,754
+I was so nervous.
+
+337
+00:24:37,778 --> 00:24:42,920
+You did an amazing job—so confident and impressive!
+
+338
+00:24:42,944 --> 00:24:48,977
+Thanks to your guidance, I managed to finish my speech.
+
+339
+00:24:49,000 --> 00:24:53,712
+What was the hardest part for you?
+
+340
+00:24:53,736 --> 00:25:00,074
+It was tough keeping eye contact with everyone.
+
+341
+00:25:00,097 --> 00:25:04,564
+You were looking up a lot, though!
+
+342
+00:25:04,587 --> 00:25:09,823
+I blanked out halfway and panicked.
+
+343
+00:25:09,847 --> 00:25:14,514
+But you stayed calm and started over.
+
+344
+00:25:14,537 --> 00:25:21,652
+I thought, 'Even if I fail, I won’t give up halfway.'
+
+345
+00:25:21,675 --> 00:25:25,942
+That’s the right mindset.
+
+346
+00:25:25,965 --> 00:25:31,465
+My friends told me I should join again next year.
+
+347
+00:25:31,488 --> 00:25:35,472
+You absolutely should!
+
+348
+00:25:35,496 --> 00:25:41,806
+Next time, I want to try a longer speech.
+
+349
+00:25:41,829 --> 00:25:46,200
+Your pronunciation has really improved!
+
+350
+00:25:46,223 --> 00:25:51,356
+It’s all thanks to practicing out loud every day.
+
+351
+00:25:51,379 --> 00:25:56,556
+That effort will definitely pay off.
+
+352
+00:25:56,580 --> 00:26:01,813
+I want to get even better at Japanese.
+
+353
+00:26:01,836 --> 00:26:07,536
+Do you have any new goals?
+
+354
+00:26:07,559 --> 00:26:14,316
+My parents want me to be able to understand Japanese news.
+
+355
+00:26:14,340 --> 00:26:17,674
+That’s a great goal!
+
+356
+00:26:17,697 --> 00:26:22,174
+I’ll make sure to watch TV every day.
+
+357
+00:26:22,197 --> 00:26:27,141
+If there’s a word you don’t know, just ask me.
+
+358
+00:26:27,165 --> 00:26:31,521
+Okay! Thanks so much.
+
+359
+00:26:31,545 --> 00:26:36,245
+Take it easy and rest up today.
+
+360
+00:26:36,268 --> 00:26:39,305
+Thank you so much.
+
+361
+00:26:39,328 --> 00:26:44,767
+Make sure to share this with the class too!
+
+362
+00:26:44,791 --> 00:26:49,691
+I’ll tell everyone in tomorrow’s lesson.
+
+363
+00:26:49,714 --> 00:26:53,022
+Looking forward to it!
+
+364
+00:26:53,045 --> 00:26:57,145
+Alright, I’ll take my leave now.
