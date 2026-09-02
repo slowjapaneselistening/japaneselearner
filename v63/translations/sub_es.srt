@@ -1,0 +1,1343 @@
+1
+00:00:10,008 --> 00:00:11,508
+Escena 1: Planificando un viaje
+
+2
+00:00:11,508 --> 00:00:17,459
+Estoy pensando en irme de viaje en las próximas vacaciones.
+
+3
+00:00:17,482 --> 00:00:20,115
+¡Qué buena idea!
+
+4
+00:00:20,138 --> 00:00:23,615
+¿Adónde planeas ir?
+
+5
+00:00:23,638 --> 00:00:27,872
+Quiero ir a Hokkaido.
+
+6
+00:00:27,895 --> 00:00:32,995
+Hokkaido puede hacer mucho frío.
+
+7
+00:00:33,018 --> 00:00:39,359
+Sí, por eso tengo que comprar un abrigo abrigado.
+
+8
+00:00:39,382 --> 00:00:43,050
+¿Planeas esquiar?
+
+9
+00:00:43,073 --> 00:00:49,506
+Sí, voy a esquiar y también a bañarme en un onsen.
+
+10
+00:00:49,529 --> 00:00:53,362
+¡Los onsen son geniales!
+
+11
+00:00:53,385 --> 00:00:58,519
+Aún no he comprado los boletos de avión.
+
+12
+00:00:58,542 --> 00:01:02,775
+Sería mejor que los compres pronto.
+
+13
+00:01:02,798 --> 00:01:05,558
+Tienes razón.
+
+14
+00:01:05,581 --> 00:01:10,048
+¿Ya reservaste el hotel?
+
+15
+00:01:10,071 --> 00:01:15,771
+Sí, lo reservé por internet.
+
+16
+00:01:15,794 --> 00:01:19,060
+¡Qué bien!
+
+17
+00:01:19,083 --> 00:01:24,717
+¿Sabes cuáles son las comidas más ricas de Hokkaido?
+
+18
+00:01:24,740 --> 00:01:29,292
+El cangrejo y el ramen son deliciosos.
+
+19
+00:01:29,315 --> 00:01:32,082
+¿En serio?
+
+20
+00:01:32,106 --> 00:01:36,410
+¡Quiero probarlos sin falta!
+
+21
+00:01:36,433 --> 00:01:41,151
+¿Quieres que busque restaurantes famosos?
+
+22
+00:01:41,174 --> 00:01:44,091
+¡Gracias!
+
+23
+00:01:44,115 --> 00:01:46,848
+Por favor.
+
+24
+00:01:46,871 --> 00:01:51,371
+¡No olvides tomar muchas fotos!
+
+25
+00:01:51,394 --> 00:01:56,327
+Sí, llevaré mi cámara nueva.
+
+26
+00:01:56,350 --> 00:02:00,490
+¡Ten cuidado y disfruta tu viaje!
+
+27
+00:02:00,514 --> 00:02:03,148
+¡Gracias!
+
+28
+00:02:03,171 --> 00:02:07,404
+Traeré recuerdos.
+
+29
+00:02:07,427 --> 00:02:10,527
+¡Lo espero con ansias!
+
+30
+00:02:10,550 --> 00:02:14,696
+¿Hay algo que quieras que te traiga?
+
+31
+00:02:14,720 --> 00:02:18,687
+Quiero algún dulce.
+
+32
+00:02:18,710 --> 00:02:21,577
+Entendido.
+
+33
+00:02:21,600 --> 00:02:24,833
+Te lo traeré.
+
+34
+00:02:24,856 --> 00:02:28,123
+¡Gracias!
+
+35
+00:02:28,146 --> 00:02:37,155
+El guion de hoy está disponible para descargar en la descripción y en el top comentario. ¡Déjame un comentario antes de descargarlo!
+
+36
+00:02:37,155 --> 00:02:38,655
+Escena 2: Problemas con la computadora y una solución alternativa
+
+37
+00:02:38,655 --> 00:02:43,088
+Mi computadora se descompuso.
+
+38
+00:02:43,111 --> 00:02:47,450
+¿En serio?
+
+39
+00:02:47,473 --> 00:02:50,782
+¿Qué pasó?
+
+40
+00:02:50,806 --> 00:02:55,440
+De repente, la pantalla se oscureció.
+
+41
+00:02:55,464 --> 00:02:59,297
+¡Qué fastidio!
+
+42
+00:02:59,320 --> 00:03:04,187
+Tengo que escribir un informe.
+
+43
+00:03:04,210 --> 00:03:07,989
+¿Cuándo es la fecha límite?
+
+44
+00:03:08,012 --> 00:03:11,996
+Mañana en la mañana.
+
+45
+00:03:12,020 --> 00:03:16,554
+Entonces es mejor que te apures.
+
+46
+00:03:16,577 --> 00:03:21,344
+Voy a pedir que reparen la computadora.
+
+47
+00:03:21,367 --> 00:03:26,918
+Pero no sé si la arreglarán hoy.
+
+48
+00:03:26,941 --> 00:03:30,575
+¿Qué hago?
+
+49
+00:03:30,598 --> 00:03:35,968
+Puedes usar mi computadora si quieres.
+
+50
+00:03:35,991 --> 00:03:38,703
+¿De verdad?
+
+51
+00:03:38,726 --> 00:03:41,400
+¡Gracias!
+
+52
+00:03:41,423 --> 00:03:45,608
+¿Dónde vas a escribir el informe?
+
+53
+00:03:45,632 --> 00:03:49,932
+Voy a escribirlo en la biblioteca.
+
+54
+00:03:49,955 --> 00:03:55,189
+Bueno, ahora voy a llevar la computadora.
+
+55
+00:03:55,212 --> 00:03:58,248
+Disculpe.
+
+56
+00:03:58,271 --> 00:04:01,571
+No se preocupe.
+
+57
+00:04:01,594 --> 00:04:05,261
+¿Cuándo debo devolverla?
+
+58
+00:04:05,284 --> 00:04:09,596
+Mañana por la tarde está bien.
+
+59
+00:04:09,620 --> 00:04:12,486
+¡Me salvó!
+
+60
+00:04:12,509 --> 00:04:16,809
+¿Los datos del informe están bien?
+
+61
+00:04:16,833 --> 00:04:21,866
+Sí, los guardé en un USB.
+
+62
+00:04:21,889 --> 00:04:25,671
+Entonces, tranquilo.
+
+63
+00:04:25,695 --> 00:04:31,270
+Llevaré la computadora después a la tienda de reparaciones.
+
+64
+00:04:31,293 --> 00:04:34,427
+Ojalá se arregle.
+
+65
+00:04:34,450 --> 00:04:38,998
+Sí, sería un problema si no se arregla.
+
+66
+00:04:39,021 --> 00:04:43,597
+Bueno, nos vemos después.
+
+67
+00:04:43,621 --> 00:04:47,291
+¡Muchas gracias de verdad!
+
+68
+00:04:47,315 --> 00:04:51,948
+¡Mucha suerte con el informe!
+
+69
+00:04:51,971 --> 00:04:56,071
+Sí, lo escribiré rápido.
+
+70
+00:04:56,094 --> 00:04:59,202
+Ten cuidado.
+
+71
+00:04:59,226 --> 00:05:06,331
+El enlace para repasar el video de hoy está en la descripción y en el primer comentario. *El sitio puede eliminarse sin previo aviso.
+
+72
+00:05:06,331 --> 00:05:07,831
+Escena 3: Pedir en un restaurante / Ordering at a Restaurant
+
+73
+00:05:07,831 --> 00:05:12,931
+Es la primera vez que vengo a este restaurante.
+
+74
+00:05:12,954 --> 00:05:17,187
+Tienen un menú muy extenso.
+
+75
+00:05:17,210 --> 00:05:21,277
+¿Qué estará bueno aquí?
+
+76
+00:05:21,300 --> 00:05:27,000
+Un amigo me dijo que el curry está delicioso.
+
+77
+00:05:27,023 --> 00:05:32,357
+Bueno, yo probaré el curry.
+
+78
+00:05:32,380 --> 00:05:37,379
+Yo pediré hamburguesa.
+
+79
+00:05:37,402 --> 00:05:41,269
+Eso también se ve delicioso.
+
+80
+00:05:41,292 --> 00:05:45,725
+¿Pedimos algo para tomar?
+
+81
+00:05:45,748 --> 00:05:49,582
+Quiero un café.
+
+82
+00:05:49,605 --> 00:05:53,556
+Yo tomaré té.
+
+83
+00:05:53,579 --> 00:05:58,552
+Disculpe, ¿podemos hacer el pedido?
+
+84
+00:05:58,576 --> 00:06:04,276
+Por favor, un curry y una hamburguesa.
+
+85
+00:06:04,299 --> 00:06:10,016
+Después de la comida, café y té, por favor.
+
+86
+00:06:10,040 --> 00:06:14,106
+También quiero postre.
+
+87
+00:06:14,129 --> 00:06:17,963
+Tienen pastel.
+
+88
+00:06:17,986 --> 00:06:22,052
+El pastel de chocolate me parece bueno.
+
+89
+00:06:22,075 --> 00:06:28,309
+Quizás ya esté lleno.
+
+90
+00:06:28,332 --> 00:06:33,510
+Bueno, ¿pedimos solo uno?
+
+91
+00:06:33,533 --> 00:06:37,367
+Sí, así está bien.
+
+92
+00:06:37,390 --> 00:06:41,223
+Comamos la mitad cada uno.
+
+93
+00:06:41,246 --> 00:06:43,913
+¡Gracias!
+
+94
+00:06:43,936 --> 00:06:48,131
+¿El curry no está muy picante?
+
+95
+00:06:48,154 --> 00:06:53,054
+No, está en su punto.
+
+96
+00:06:53,077 --> 00:06:57,212
+La hamburguesa también está muy rica.
+
+97
+00:06:57,235 --> 00:07:02,594
+La próxima vez yo también quiero probar la hamburguesa.
+
+98
+00:07:02,618 --> 00:07:06,763
+Sí, por favor, pruébala.
+
+99
+00:07:06,787 --> 00:07:11,142
+El lugar es tranquilo y agradable.
+
+100
+00:07:11,166 --> 00:07:14,999
+Vengamos juntos otra vez.
+
+101
+00:07:15,022 --> 00:07:18,934
+Sí, es una cita.
+
+102
+00:07:18,958 --> 00:07:22,591
+¡Gracias por la comida!
+
+103
+00:07:22,614 --> 00:07:27,173
+La próxima vez invitemos a otros amigos.
+
+104
+00:07:27,197 --> 00:07:31,972
+Sí, me encantaría que todos vinieran.
+
+105
+00:07:31,995 --> 00:07:33,495
+Escena 4: Día de limpieza / Cómo ordenar y organizar
+
+106
+00:07:33,495 --> 00:07:38,446
+La habitación está muy desordenada, ¿verdad?
+
+107
+00:07:38,469 --> 00:07:43,814
+Esta semana he estado demasiado ocupada.
+
+108
+00:07:43,838 --> 00:07:48,271
+Hoy limpiemos juntos.
+
+109
+00:07:48,294 --> 00:07:53,594
+Sí, ¿por dónde quieres que empiece?
+
+110
+00:07:53,617 --> 00:07:58,584
+¿Podrías recoger la basura?
+
+111
+00:07:58,607 --> 00:08:02,240
+Entendido.
+
+112
+00:08:02,263 --> 00:08:07,497
+¿Separamos la basura en orgánica e inorgánica?
+
+113
+00:08:07,520 --> 00:08:13,153
+Sí, por favor ponla en bolsas diferentes.
+
+114
+00:08:13,176 --> 00:08:17,409
+¿Qué hacemos con las botellas de plástico?
+
+115
+00:08:17,432 --> 00:08:22,799
+Lávalas y ponlas en esa caja.
+
+116
+00:08:22,823 --> 00:08:27,889
+¿Puedo abrir la ventana?
+
+117
+00:08:27,912 --> 00:08:33,023
+Sí, vamos a ventilar.
+
+118
+00:08:33,047 --> 00:08:37,347
+Voy a ordenar la mesa también.
+
+119
+00:08:37,370 --> 00:08:42,403
+Yo pasaré la aspiradora por el suelo.
+
+120
+00:08:42,426 --> 00:08:46,360
+La aspiradora parece pesada.
+
+121
+00:08:46,383 --> 00:08:52,216
+No te preocupes, yo lo hago.
+
+122
+00:08:52,239 --> 00:08:56,623
+¿Cuándo sacamos la basura?
+
+123
+00:08:56,646 --> 00:09:01,984
+Tengo que sacarla mañana por la mañana.
+
+124
+00:09:02,008 --> 00:09:07,043
+Entonces la pondré delante de la puerta.
+
+125
+00:09:07,066 --> 00:09:09,766
+Por favor.
+
+126
+00:09:09,789 --> 00:09:16,181
+¿Deberíamos limpiar también el refrigerador?
+
+127
+00:09:16,204 --> 00:09:19,002
+Tienes razón.
+
+128
+00:09:19,026 --> 00:09:23,859
+Tira la comida vieja.
+
+129
+00:09:23,882 --> 00:09:29,116
+La leche está caducada.
+
+130
+00:09:29,139 --> 00:09:34,527
+Entonces tírala también.
+
+131
+00:09:34,550 --> 00:09:39,069
+Ya está mucho más limpio.
+
+132
+00:09:39,092 --> 00:09:43,926
+Sí, me siento mucho mejor.
+
+133
+00:09:43,949 --> 00:09:49,782
+¿Tomamos un café después de limpiar?
+
+134
+00:09:49,805 --> 00:09:53,351
+¡Qué buena idea!
+
+135
+00:09:53,375 --> 00:09:57,208
+Yo lo preparo.
+
+136
+00:09:57,231 --> 00:10:02,398
+Gracias por el café.
+
+137
+00:10:02,421 --> 00:10:08,554
+El café después de limpiar está delicioso.
+
+138
+00:10:08,577 --> 00:10:10,077
+Escena 5: Preparando una fiesta de cumpleaños
+
+139
+00:10:10,077 --> 00:10:15,848
+Mañana es la fiesta de cumpleaños de mi amigo.
+
+140
+00:10:15,872 --> 00:10:20,805
+Sí, ¿ya terminaste los preparativos?
+
+141
+00:10:20,829 --> 00:10:25,019
+Ya compré las bebidas.
+
+142
+00:10:25,043 --> 00:10:28,910
+¿Qué tal la comida?
+
+143
+00:10:28,934 --> 00:10:33,703
+Voy a prepararla ahora.
+
+144
+00:10:33,726 --> 00:10:37,993
+¿Quieres que te ayude con algo?
+
+145
+00:10:38,016 --> 00:10:43,053
+Entonces, ¿podrías cortar las verduras?
+
+146
+00:10:43,076 --> 00:10:48,015
+Sí, ¿las corto en trozos pequeños?
+
+147
+00:10:48,039 --> 00:10:53,150
+Sí, córtalas para que sean fáciles de comer.
+
+148
+00:10:53,174 --> 00:10:57,640
+¿Ya reservaste el pastel?
+
+149
+00:10:57,663 --> 00:11:03,497
+Sí, lo reservé en la pastelería de la estación.
+
+150
+00:11:03,520 --> 00:11:08,091
+¿A qué hora irás a recogerlo mañana?
+
+151
+00:11:08,114 --> 00:11:12,218
+Iré a las tres de la tarde.
+
+152
+00:11:12,242 --> 00:11:16,708
+¿Quieres que yo lo recoja?
+
+153
+00:11:16,731 --> 00:11:19,698
+¿En serio?
+
+154
+00:11:19,721 --> 00:11:23,692
+¿Te parece si te lo pido?
+
+155
+00:11:23,716 --> 00:11:28,149
+Sí, claro que sí.
+
+156
+00:11:28,172 --> 00:11:33,925
+Entonces te paso el comprobante de la reserva.
+
+157
+00:11:33,949 --> 00:11:36,815
+Entendido.
+
+158
+00:11:36,838 --> 00:11:40,828
+¿Qué hacemos con la decoración de la habitación?
+
+159
+00:11:40,852 --> 00:11:44,960
+¡Me encantaría decorar con flores!
+
+160
+00:11:44,984 --> 00:11:49,763
+Vamos a comprar flores bonitas en la floristería.
+
+161
+00:11:49,786 --> 00:11:54,620
+¡Seguro que le va a encantar!
+
+162
+00:11:54,643 --> 00:11:58,509
+¿Ya compraste el regalo?
+
+163
+00:11:58,532 --> 00:12:03,799
+Sí, pienso regalarle un libro.
+
+164
+00:12:03,822 --> 00:12:06,937
+¿Qué tipo de libro es?
+
+165
+00:12:06,960 --> 00:12:11,549
+Es un libro de recetas de dulces.
+
+166
+00:12:11,573 --> 00:12:14,921
+¡Qué buena idea!
+
+167
+00:12:14,944 --> 00:12:19,463
+¡Estoy emocionado por mañana!
+
+168
+00:12:19,486 --> 00:12:23,753
+Ojalá llegue pronto mañana.
+
+169
+00:12:23,776 --> 00:12:28,162
+Tengo ganas de ver a mis amigos pronto.
+
+170
+00:12:28,186 --> 00:12:33,579
+¡Sí! Vamos a hacer una fiesta increíble.
+
+171
+00:12:33,602 --> 00:12:35,102
+Escena 6: Conversación de entrevista de trabajo
+
+172
+00:12:35,102 --> 00:12:38,135
+Disculpe.
+
+173
+00:12:38,158 --> 00:12:41,592
+Por favor, tome asiento.
+
+174
+00:12:41,615 --> 00:12:44,768
+¡Gracias!
+
+175
+00:12:44,791 --> 00:12:49,424
+Primero, ¿podría decirme su nombre?
+
+176
+00:12:49,447 --> 00:12:54,381
+Me llamo Rin.
+
+177
+00:12:54,404 --> 00:12:58,583
+¿Cuándo llegó a Japón?
+
+178
+00:12:58,606 --> 00:13:03,003
+Llegué en abril del año pasado.
+
+179
+00:13:03,027 --> 00:13:07,927
+¿Qué tan bien habla japonés?
+
+180
+00:13:07,950 --> 00:13:13,983
+Sí, creo que puedo manejar conversaciones cotidianas.
+
+181
+00:13:14,006 --> 00:13:18,539
+¿Tiene experiencia trabajando en algo?
+
+182
+00:13:18,562 --> 00:13:23,429
+He trabajado en un restaurante.
+
+183
+00:13:23,452 --> 00:13:30,202
+Esta tienda es muy ocupada, ¿le parece bien?
+
+184
+00:13:30,226 --> 00:13:35,941
+Sí, me gusta más cuando hay mucho trabajo.
+
+185
+00:13:35,965 --> 00:13:41,098
+¿Cuántos días a la semana podría trabajar?
+
+186
+00:13:41,121 --> 00:13:46,875
+Creo que podría trabajar tres o cuatro días.
+
+187
+00:13:46,898 --> 00:13:51,731
+¿Le viene bien los sábados y domingos?
+
+188
+00:13:51,754 --> 00:13:56,265
+Sí, no hay problema.
+
+189
+00:13:56,289 --> 00:14:01,445
+¿Hasta qué hora puede trabajar por la noche?
+
+190
+00:14:01,469 --> 00:14:06,102
+Hasta las diez está bien.
+
+191
+00:14:06,125 --> 00:14:11,158
+¿Cómo piensa venir a la tienda?
+
+192
+00:14:11,181 --> 00:14:16,848
+Pienso venir en bicicleta.
+
+193
+00:14:16,871 --> 00:14:21,645
+¿Cuánto tiempo le toma en bicicleta?
+
+194
+00:14:21,668 --> 00:14:26,225
+Unos quince minutos.
+
+195
+00:14:26,248 --> 00:14:29,429
+Entendido.
+
+196
+00:14:29,453 --> 00:14:33,843
+¿Tiene alguna pregunta?
+
+197
+00:14:33,867 --> 00:14:39,300
+¿Nos prestan el uniforme, verdad?
+
+198
+00:14:39,323 --> 00:14:44,590
+Sí, le prestaremos el uniforme de la tienda.
+
+199
+00:14:44,613 --> 00:14:48,246
+Entendido.
+
+200
+00:14:48,269 --> 00:14:53,989
+Le avisaremos por teléfono la próxima semana.
+
+201
+00:14:54,012 --> 00:14:57,284
+Muchas gracias.
+
+202
+00:14:57,308 --> 00:15:01,008
+Cuídese al volver.
+
+203
+00:15:01,031 --> 00:15:04,064
+¡Gracias por todo!
+
+204
+00:15:04,087 --> 00:15:07,321
+Disculpe.
+
+205
+00:15:07,344 --> 00:15:08,844
+Escena 7: Retrasos en el tren y cómo actuar
+
+206
+00:15:08,844 --> 00:15:13,810
+El tren no llega, ¿verdad?
+
+207
+00:15:13,833 --> 00:15:17,270
+Tienes razón.
+
+208
+00:15:17,294 --> 00:15:21,261
+¿Qué habrá pasado?
+
+209
+00:15:21,284 --> 00:15:25,624
+Parece que hay un accidente y está detenido.
+
+210
+00:15:25,648 --> 00:15:30,645
+Vaya, eso sí que es un problema.
+
+211
+00:15:30,668 --> 00:15:36,368
+Quizás llegue tarde a mi próxima clase.
+
+212
+00:15:36,391 --> 00:15:40,901
+Sería bueno avisarle al profesor.
+
+213
+00:15:40,925 --> 00:15:43,758
+Tienes razón.
+
+214
+00:15:43,781 --> 00:15:48,380
+Ahora mismo le envío un correo.
+
+215
+00:15:48,403 --> 00:15:53,719
+Yo también voy a llegar tarde al trabajo de medio tiempo.
+
+216
+00:15:53,743 --> 00:15:58,110
+¿Puedo ir en autobús?
+
+217
+00:15:58,133 --> 00:16:02,666
+¿Vamos a la parada de autobús?
+
+218
+00:16:02,689 --> 00:16:08,589
+Pero el autobús podría estar lleno.
+
+219
+00:16:08,612 --> 00:16:11,604
+Tienes razón.
+
+220
+00:16:11,628 --> 00:16:15,895
+¿Esperamos un poco más?
+
+221
+00:16:15,918 --> 00:16:20,875
+¡Ah, escucho un anuncio!
+
+222
+00:16:20,898 --> 00:16:24,968
+¿Se reanudará la circulación?
+
+223
+00:16:24,992 --> 00:16:30,061
+Dice que se moverá en unos diez minutos.
+
+224
+00:16:30,085 --> 00:16:35,194
+Entonces, mejor esperar.
+
+225
+00:16:35,218 --> 00:16:39,205
+Sí, hagámoslo.
+
+226
+00:16:39,228 --> 00:16:44,173
+Hoy tengo un examen importante.
+
+227
+00:16:44,196 --> 00:16:48,463
+Eso debe ser preocupante.
+
+228
+00:16:48,486 --> 00:16:56,953
+¿Qué pasaría si llego tarde? Creo que si explico la situación, no habrá problema.
+
+229
+00:16:56,976 --> 00:17:00,759
+Ojalá sea así.
+
+230
+00:17:00,782 --> 00:17:05,172
+¡Ah, llegó el tren!
+
+231
+00:17:05,195 --> 00:17:08,262
+¡En serio!
+
+232
+00:17:08,285 --> 00:17:11,791
+¡Subamos rápido!
+
+233
+00:17:11,814 --> 00:17:16,157
+Tengan cuidado, no empujen.
+
+234
+00:17:16,181 --> 00:17:18,547
+Sí.
+
+235
+00:17:18,570 --> 00:17:22,904
+¡Qué bien que llegamos a tiempo!
+
+236
+00:17:22,927 --> 00:17:26,593
+¡Mucha suerte en tu examen!
+
+237
+00:17:26,616 --> 00:17:30,407
+¡Gracias!
+
+238
+00:17:30,431 --> 00:17:31,931
+Escena 8: Métodos para mejorar el sueño
+
+239
+00:17:31,931 --> 00:17:37,864
+Últimamente no duermo bien.
+
+240
+00:17:37,887 --> 00:17:41,423
+¿Qué pasó?
+
+241
+00:17:41,446 --> 00:17:47,146
+Estoy cansado, pero no puedo dormir.
+
+242
+00:17:47,169 --> 00:17:52,503
+Quizás sea por el estrés acumulado.
+
+243
+00:17:52,526 --> 00:17:56,559
+Puede ser.
+
+244
+00:17:56,582 --> 00:18:03,015
+¿Qué tal tomar leche tibia antes de dormir?
+
+245
+00:18:03,038 --> 00:18:07,626
+Eso suena bien para la salud.
+
+246
+00:18:07,650 --> 00:18:12,151
+Yo siempre lo hago.
+
+247
+00:18:12,174 --> 00:18:18,741
+¿Hay algún otro método bueno?
+
+248
+00:18:18,764 --> 00:18:24,230
+Sería bueno hacer ejercicio ligero.
+
+249
+00:18:24,253 --> 00:18:27,286
+¿Ejercicio?
+
+250
+00:18:27,309 --> 00:18:32,176
+¿Qué tipo de ejercicio sería bueno?
+
+251
+00:18:32,199 --> 00:18:38,976
+Se recomienda hacer estiramientos suaves antes de dormir.
+
+252
+00:18:39,000 --> 00:18:44,712
+Los estiramientos parecen algo que yo podría hacer.
+
+253
+00:18:44,735 --> 00:18:50,078
+También es bueno tomar un baño relajante.
+
+254
+00:18:50,102 --> 00:18:54,969
+Últimamente solo me ducho.
+
+255
+00:18:54,992 --> 00:19:02,307
+El agua caliente ayuda a que el cuerpo se caliente.
+
+256
+00:19:02,330 --> 00:19:07,430
+Esta noche probaré tomar un baño.
+
+257
+00:19:07,453 --> 00:19:13,891
+Es mejor no usar el teléfono antes de dormir.
+
+258
+00:19:13,914 --> 00:19:18,691
+Siempre lo usaba en la cama.
+
+259
+00:19:18,715 --> 00:19:24,303
+Si te cansas la vista, no podrás dormir.
+
+260
+00:19:24,327 --> 00:19:29,232
+Tengo que tener cuidado con eso.
+
+261
+00:19:29,255 --> 00:19:33,804
+No te esfuerces demasiado, ¿eh?
+
+262
+00:19:33,828 --> 00:19:36,542
+¡Gracias!
+
+263
+00:19:36,566 --> 00:19:43,499
+Es mejor descansar bien el fin de semana.
+
+264
+00:19:43,522 --> 00:19:50,000
+Sí, esta semana no iré a ningún lado.
+
+265
+00:19:50,024 --> 00:19:53,290
+Creo que es lo mejor.
+
+266
+00:19:53,313 --> 00:19:57,780
+Esta noche intentaré dormir temprano.
+
+267
+00:19:57,803 --> 00:20:02,171
+Cuídate mucho.
+
+268
+00:20:02,195 --> 00:20:04,935
+¡Gracias!
+
+269
+00:20:04,958 --> 00:20:10,091
+Espero que te mejores la próxima semana.
+
+270
+00:20:10,114 --> 00:20:15,381
+Sí, viviré con cuidado.
+
+271
+00:20:15,405 --> 00:20:16,905
+Escena 9: Cómo mejorar en kanji y conversación / Consejos para mejorar tus habilidades en kanji y conversación
+
+272
+00:20:16,905 --> 00:20:22,224
+¿Cómo va el estudio del japonés?
+
+273
+00:20:22,248 --> 00:20:28,681
+Los kanji son difíciles y no logro memorizarlos.
+
+274
+00:20:28,704 --> 00:20:33,840
+Hay muchos kanji, ¿verdad?
+
+275
+00:20:33,864 --> 00:20:39,134
+¿No conoces algún buen método de estudio?
+
+276
+00:20:39,157 --> 00:20:44,224
+Quizás leer libros te ayude.
+
+277
+00:20:44,247 --> 00:20:49,913
+Pero no puedo leer libros difíciles.
+
+278
+00:20:49,936 --> 00:20:55,803
+Los cómics o los libros para niños son más fáciles de leer.
+
+279
+00:20:55,826 --> 00:21:00,746
+Ah, eso suena bien.
+
+280
+00:21:00,769 --> 00:21:07,110
+Si no entiendes un kanji, búscalo en el diccionario.
+
+281
+00:21:07,134 --> 00:21:12,201
+Mejor leer un poco cada día.
+
+282
+00:21:12,223 --> 00:21:17,990
+Sí, seguir adelante es lo más importante.
+
+283
+00:21:18,013 --> 00:21:22,716
+También quiero mejorar más en la conversación.
+
+284
+00:21:22,740 --> 00:21:28,873
+Hablar con amigos japoneses es lo mejor.
+
+285
+00:21:28,896 --> 00:21:34,165
+Pero me da vergüenza equivocarme.
+
+286
+00:21:34,189 --> 00:21:38,758
+No te preocupes por equivocarte.
+
+287
+00:21:38,781 --> 00:21:43,414
+Me tranquiliza escucharte decir eso.
+
+288
+00:21:43,437 --> 00:21:48,157
+Todos cometemos errores al principio.
+
+289
+00:21:48,180 --> 00:21:53,514
+Tengo que ganar más confianza.
+
+290
+00:21:53,537 --> 00:22:00,245
+Si quieres, puedo ayudarte con la práctica cuando quieras.
+
+291
+00:22:00,268 --> 00:22:03,135
+¿De verdad?
+
+292
+00:22:03,158 --> 00:22:06,791
+¡Me encantaría!
+
+293
+00:22:06,814 --> 00:22:12,718
+¿Quieres hablar en japonés en un café este fin de semana?
+
+294
+00:22:12,741 --> 00:22:16,713
+¡Por supuesto que me encantaría!
+
+295
+00:22:16,737 --> 00:22:21,889
+Ver las noticias también es un buen método de estudio.
+
+296
+00:22:21,913 --> 00:22:27,179
+El habla de los locutores es demasiado rápida.
+
+297
+00:22:27,202 --> 00:22:32,751
+Al principio, puedes empezar con el pronóstico del tiempo.
+
+298
+00:22:32,775 --> 00:22:37,142
+El pronóstico del tiempo parece más fácil.
+
+299
+00:22:37,165 --> 00:22:42,140
+¡Sigue esforzándote!
+
+300
+00:22:42,163 --> 00:22:46,714
+Sí, haré todo lo posible.
+
+301
+00:22:46,738 --> 00:22:50,575
+¡Te apoyo!
+
+302
+00:22:50,598 --> 00:22:55,585
+¡Estoy deseando que llegue el café del fin de semana!
+
+303
+00:22:55,609 --> 00:23:00,527
+Yo también lo espero con ganas.
+
+304
+00:23:10,558 --> 00:23:12,058
+Escena 10: Cómo buscar objetos perdidos / Cómo encontrar lo que has perdido
+
+305
+00:23:12,058 --> 00:23:15,335
+Disculpe.
+
+306
+00:23:15,359 --> 00:23:19,792
+He perdido mi cartera.
+
+307
+00:23:19,815 --> 00:23:24,082
+¿Sabes dónde la perdiste?
+
+308
+00:23:24,105 --> 00:23:29,371
+Creo que fue dentro de esta tienda.
+
+309
+00:23:29,394 --> 00:23:32,828
+¿Cómo es tu cartera?
+
+310
+00:23:32,851 --> 00:23:37,684
+Es negra y de cuero.
+
+311
+00:23:37,707 --> 00:23:41,807
+¿Qué llevaba dentro?
+
+312
+00:23:41,830 --> 00:23:47,572
+Llevaba tarjetas de crédito y unos diez mil yenes.
+
+313
+00:23:47,595 --> 00:23:51,267
+¿Cuándo crees que la perdiste?
+
+314
+00:23:51,291 --> 00:23:55,757
+Creo que fue hace unos treinta minutos.
+
+315
+00:23:55,780 --> 00:23:59,499
+Vamos a buscarla.
+
+316
+00:23:59,522 --> 00:24:02,456
+¡Gracias!
+
+317
+00:24:02,479 --> 00:24:06,579
+Realmente estoy en un problema.
+
+318
+00:24:06,602 --> 00:24:11,135
+¿En qué asiento estabas sentado?
+
+319
+00:24:11,158 --> 00:24:14,948
+Estaba sentado cerca de la ventana.
+
+320
+00:24:14,971 --> 00:24:19,438
+No estaba cerca de tu asiento.
+
+321
+00:24:19,461 --> 00:24:23,455
+Quizás fuiste al baño.
+
+322
+00:24:23,479 --> 00:24:27,145
+Vamos a revisar el baño también.
+
+323
+00:24:27,168 --> 00:24:29,802
+Por favor.
+
+324
+00:24:29,825 --> 00:24:33,162
+¿Ah, esto?
+
+325
+00:24:33,185 --> 00:24:36,760
+¡Sí, eso!
+
+326
+00:24:36,783 --> 00:24:39,883
+Es mi cartera.
+
+327
+00:24:39,906 --> 00:24:44,273
+La encontré en el lavabo del baño.
+
+328
+00:24:44,296 --> 00:24:48,368
+Gracias por haberla encontrado.
+
+329
+00:24:48,392 --> 00:24:52,334
+Por favor, revisa el contenido.
+
+330
+00:24:52,357 --> 00:24:56,902
+Sí, todo está aquí.
+
+331
+00:24:56,926 --> 00:25:00,438
+¡Qué bien!
+
+332
+00:25:00,462 --> 00:25:04,528
+Tengo que tener cuidado con eso.
+
+333
+00:25:04,551 --> 00:25:09,710
+Sí, tenga cuidado con las cosas perdidas.
+
+334
+00:25:09,734 --> 00:25:13,478
+Realmente me ayudó mucho.
+
+335
+00:25:13,501 --> 00:25:18,201
+A partir de ahora, guárdelo en su bolso, ¿eh?
+
+336
+00:25:18,224 --> 00:25:22,794
+Sí, definitivamente lo haré.
