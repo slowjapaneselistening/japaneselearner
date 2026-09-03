@@ -1,0 +1,1471 @@
+1
+00:00:10,008 --> 00:00:11,508
+Adaptasi: Sakit dan Kehadiran Kelas
+
+2
+00:00:11,508 --> 00:00:16,174
+Pak Guru, selamat pagi.
+
+3
+00:00:16,197 --> 00:00:19,464
+Selamat pagi.
+
+4
+00:00:19,487 --> 00:00:22,638
+Ada apa?
+
+5
+00:00:22,661 --> 00:00:27,394
+Hari ini saya demam.
+
+6
+00:00:27,417 --> 00:00:30,684
+Oh begitu.
+
+7
+00:00:30,707 --> 00:00:33,807
+Kamu baik-baik saja?
+
+8
+00:00:33,830 --> 00:00:39,782
+Tidak, kepala saya sangat sakit.
+
+9
+00:00:39,805 --> 00:00:43,572
+Wah, kasihan sekali.
+
+10
+00:00:43,595 --> 00:00:46,662
+Iya.
+
+11
+00:00:46,685 --> 00:00:50,518
+Sudah pergi ke dokter?
+
+12
+00:00:50,541 --> 00:00:54,914
+Belum, belum sempat.
+
+13
+00:00:54,938 --> 00:00:58,438
+Kapan perginya?
+
+14
+00:00:58,460 --> 00:01:02,131
+Saya akan pergi nanti siang.
+
+15
+00:01:02,155 --> 00:01:05,272
+Oke.
+
+16
+00:01:05,295 --> 00:01:09,431
+Bagaimana dengan kelas hari ini?
+
+17
+00:01:09,455 --> 00:01:13,047
+Maaf.
+
+18
+00:01:13,070 --> 00:01:17,979
+Bolehkah saya tidak masuk sekolah hari ini?
+
+19
+00:01:18,003 --> 00:01:22,342
+Iya, boleh.
+
+20
+00:01:22,365 --> 00:01:25,140
+Terima kasih.
+
+21
+00:01:25,164 --> 00:01:28,797
+Sudah minum obat?
+
+22
+00:01:28,820 --> 00:01:32,809
+Iya, sudah.
+
+23
+00:01:32,832 --> 00:01:36,549
+Minumnya kapan?
+
+24
+00:01:36,573 --> 00:01:41,091
+Setelah sarapan tadi.
+
+25
+00:01:41,114 --> 00:01:44,947
+Baguslah kalau begitu.
+
+26
+00:01:44,970 --> 00:01:47,524
+Iya.
+
+27
+00:01:47,547 --> 00:01:51,681
+Istirahat yang cukup dan hangat ya.
+
+28
+00:01:51,703 --> 00:01:55,570
+Iya, akan saya lakukan.
+
+29
+00:01:55,593 --> 00:01:59,726
+Juga banyak minum air putih.
+
+30
+00:01:59,749 --> 00:02:03,743
+Iya, ngerti.
+
+31
+00:02:03,767 --> 00:02:08,100
+Besok bisa datang?
+
+32
+00:02:08,123 --> 00:02:11,432
+Belum tahu.
+
+33
+00:02:11,456 --> 00:02:14,638
+Oh begitu.
+
+34
+00:02:14,661 --> 00:02:19,644
+Besok pagi saya akan telepon lagi.
+
+35
+00:02:19,668 --> 00:02:22,803
+Oke.
+
+36
+00:02:22,826 --> 00:02:25,893
+Baik, saya tunggu.
+
+37
+00:02:25,916 --> 00:02:28,450
+Iya.
+
+38
+00:02:28,473 --> 00:02:31,785
+Semoga lekas sembuh.
+
+39
+00:02:31,809 --> 00:02:34,805
+Terima kasih.
+
+40
+00:02:34,829 --> 00:02:38,144
+Permisi.
+
+41
+00:02:38,167 --> 00:02:41,501
+Permisi.
+
+42
+00:02:41,524 --> 00:02:43,024
+Adaptasi: Melaporkan Keterlambatan Kereta
+
+43
+00:02:43,024 --> 00:02:47,690
+Pak Guru, selamat pagi.
+
+44
+00:02:47,713 --> 00:02:51,447
+Selamat pagi.
+
+45
+00:02:51,470 --> 00:02:55,103
+Sekarang kamu di mana?
+
+46
+00:02:55,126 --> 00:02:59,426
+Sekarang saya ada di stasiun.
+
+47
+00:02:59,449 --> 00:03:04,921
+Sebentar lagi kelas akan dimulai lho.
+
+48
+00:03:04,945 --> 00:03:08,178
+Maaf.
+
+49
+00:03:08,201 --> 00:03:11,712
+Ada apa?
+
+50
+00:03:11,736 --> 00:03:15,902
+Kereta saya terlambat.
+
+51
+00:03:15,925 --> 00:03:19,361
+Kereta?
+
+52
+00:03:19,384 --> 00:03:22,618
+Kenapa?
+
+53
+00:03:22,641 --> 00:03:26,674
+Ada kecelakaan.
+
+54
+00:03:26,697 --> 00:03:29,930
+Kecelakaan?
+
+55
+00:03:29,953 --> 00:03:32,887
+Iya.
+
+56
+00:03:32,910 --> 00:03:37,702
+Makanya kereta berhenti.
+
+57
+00:03:37,725 --> 00:03:42,094
+Wah, kasihan sekali.
+
+58
+00:03:42,117 --> 00:03:45,627
+Kapan berangkat lagi?
+
+59
+00:03:45,650 --> 00:03:50,284
+Kira-kira 20 menit lagi baru berangkat.
+
+60
+00:03:50,307 --> 00:03:53,540
+Oke.
+
+61
+00:03:53,563 --> 00:03:56,639
+Maaf.
+
+62
+00:03:56,662 --> 00:04:01,451
+Jam berapa sampai di sekolah?
+
+63
+00:04:01,475 --> 00:04:06,146
+Saya kira sekitar jam setengah sepuluh.
+
+64
+00:04:06,170 --> 00:04:11,003
+Jadi terlambat sedikit untuk kelas ya.
+
+65
+00:04:11,026 --> 00:04:13,893
+Iya.
+
+66
+00:04:13,916 --> 00:04:17,549
+Boleh terlambat?
+
+67
+00:04:17,572 --> 00:04:21,540
+Tidak apa-apa.
+
+68
+00:04:21,564 --> 00:04:24,497
+Iya.
+
+69
+00:04:24,520 --> 00:04:28,020
+Hati-hati ya.
+
+70
+00:04:28,043 --> 00:04:30,943
+Terima kasih.
+
+71
+00:04:30,966 --> 00:04:35,733
+Tidak perlu lari-lari.
+
+72
+00:04:35,756 --> 00:04:37,889
+Iya.
+
+73
+00:04:37,912 --> 00:04:40,751
+Oke.
+
+74
+00:04:40,775 --> 00:04:44,675
+Safety itu yang utama.
+
+75
+00:04:44,698 --> 00:04:47,668
+Jangan buru-buru.
+
+76
+00:04:47,691 --> 00:04:50,558
+Iya.
+
+77
+00:04:50,581 --> 00:04:53,951
+Saya tunggu di sini.
+
+78
+00:04:53,974 --> 00:04:57,518
+Terima kasih sebelumnya.
+
+79
+00:04:57,541 --> 00:05:00,379
+Permisi.
+
+80
+00:05:00,403 --> 00:05:03,669
+Hati-hati.
+
+81
+00:05:03,692 --> 00:05:05,192
+Scene 3: Meminta Surat Keterangan Mahasiswa / Permintaan Surat Keterangan Aktif Kuliah
+
+82
+00:05:05,192 --> 00:05:11,374
+Pak/Bu Guru, sekarang ada waktu?
+
+83
+00:05:11,397 --> 00:05:15,743
+Iya, ada.
+
+84
+00:05:15,767 --> 00:05:18,742
+Syukurlah.
+
+85
+00:05:18,766 --> 00:05:22,432
+Ada yang bisa saya bantu?
+
+86
+00:05:22,455 --> 00:05:27,089
+Saya mau minta tolong soal dokumen.
+
+87
+00:05:27,112 --> 00:05:30,825
+Dokumen apa?
+
+88
+00:05:30,848 --> 00:05:35,515
+Saya mau minta surat keterangan mahasiswa.
+
+89
+00:05:35,538 --> 00:05:39,904
+Surat keterangan mahasiswa, ya?
+
+90
+00:05:39,927 --> 00:05:43,501
+Untuk apa?
+
+91
+00:05:43,524 --> 00:05:48,796
+Untuk perpanjangan visa.
+
+92
+00:05:48,820 --> 00:05:51,920
+Oke.
+
+93
+00:05:51,943 --> 00:05:55,810
+Kapan harus selesai?
+
+94
+00:05:55,833 --> 00:06:02,547
+Harus selesai Senin minggu depan.
+
+95
+00:06:02,570 --> 00:06:07,750
+Kalau begitu, bisa saya buatkan besok.
+
+96
+00:06:07,774 --> 00:06:11,074
+Beneran?
+
+97
+00:06:11,096 --> 00:06:13,796
+Iya.
+
+98
+00:06:13,819 --> 00:06:16,762
+Terima kasih.
+
+99
+00:06:16,786 --> 00:06:21,520
+Tolong tulis nama Anda di sini.
+
+100
+00:06:21,543 --> 00:06:25,420
+Oke, sudah saya tulis.
+
+101
+00:06:25,444 --> 00:06:30,777
+Selanjutnya, tulis nomor mahasiswa Anda.
+
+102
+00:06:30,800 --> 00:06:34,707
+Oke, sudah saya tulis.
+
+103
+00:06:34,731 --> 00:06:38,164
+Gini sudah benar?
+
+104
+00:06:38,187 --> 00:06:42,020
+Iya, sudah pas.
+
+105
+00:06:42,043 --> 00:06:47,610
+Besok saya harus ke mana?
+
+106
+00:06:47,633 --> 00:06:53,133
+Besok sore, datang ke ruang tata usaha.
+
+107
+00:06:53,156 --> 00:06:56,789
+Ruang tata usaha, ya?
+
+108
+00:06:56,812 --> 00:06:59,679
+Oke.
+
+109
+00:06:59,702 --> 00:07:03,469
+Ini ada biaya administrasinya.
+
+110
+00:07:03,492 --> 00:07:06,812
+Berapa?
+
+111
+00:07:06,835 --> 00:07:10,535
+Tiga ratus yen.
+
+112
+00:07:10,558 --> 00:07:14,858
+Oke, besok saya bawa.
+
+113
+00:07:14,881 --> 00:07:18,914
+Jangan sampai lupa, ya.
+
+114
+00:07:18,937 --> 00:07:23,014
+Iya, tidak akan lupa.
+
+115
+00:07:23,038 --> 00:07:26,144
+Terima kasih sebelumnya.
+
+116
+00:07:26,168 --> 00:07:30,468
+Baiklah, sampai jumpa besok.
+
+117
+00:07:30,491 --> 00:07:31,991
+Scene 4: Konsultasi Kerja Paruh Waktu / Konsultasi Pekerjaan Sampingan
+
+118
+00:07:31,991 --> 00:07:36,624
+Pak/Bu Guru, boleh saya tanya?
+
+119
+00:07:36,647 --> 00:07:40,080
+Iya, ada apa?
+
+120
+00:07:40,103 --> 00:07:44,888
+Saya baru nemu kerja paruh waktu.
+
+121
+00:07:44,912 --> 00:07:49,670
+Oh ya? Kerjanya seperti apa?
+
+122
+00:07:49,693 --> 00:07:53,727
+Kerja di restoran.
+
+123
+00:07:53,750 --> 00:07:57,050
+Tugasnya apa?
+
+124
+00:07:57,073 --> 00:08:00,665
+Ngantar makanan.
+
+125
+00:08:00,688 --> 00:08:03,655
+Bagus, deh.
+
+126
+00:08:03,678 --> 00:08:09,066
+Seminggu kerja berapa jam?
+
+127
+00:08:09,089 --> 00:08:13,523
+Saya bekerja sekitar dua puluh jam.
+
+128
+00:08:13,546 --> 00:08:18,212
+Kurang dari dua puluh delapan jam, ya?
+
+129
+00:08:18,235 --> 00:08:21,935
+Ya, betul.
+
+130
+00:08:21,958 --> 00:08:26,632
+Kalau begitu, tidak masalah.
+
+131
+00:08:26,655 --> 00:08:29,522
+Syukurlah.
+
+132
+00:08:29,545 --> 00:08:34,012
+Tapi, apakah malamnya larut?
+
+133
+00:08:34,035 --> 00:08:37,911
+Sampai pukul sepuluh malam.
+
+134
+00:08:37,935 --> 00:08:42,901
+Apakah masih ada waktu untuk mengerjakan PR sekolah?
+
+135
+00:08:42,924 --> 00:08:46,758
+Ya, ada.
+
+136
+00:08:46,781 --> 00:08:50,547
+Kapan Anda belajar?
+
+137
+00:08:50,570 --> 00:08:55,070
+Saya belajar setelah bangun pagi.
+
+138
+00:08:55,093 --> 00:08:59,075
+Kalau begitu, saya tenang.
+
+139
+00:08:59,099 --> 00:09:01,832
+Iya.
+
+140
+00:09:01,855 --> 00:09:06,844
+Apakah mau saya memberi alamat toko baru?
+
+141
+00:09:06,868 --> 00:09:10,808
+Ya, tolong.
+
+142
+00:09:10,832 --> 00:09:14,865
+Apakah mau nomor telepon juga?
+
+143
+00:09:14,888 --> 00:09:17,988
+Iya.
+
+144
+00:09:18,012 --> 00:09:23,046
+Kalau begitu, tulis dan berikan di kertas ini.
+
+145
+00:09:23,068 --> 00:09:26,402
+Oke.
+
+146
+00:09:26,425 --> 00:09:30,258
+Bolehkah saya membawa besok?
+
+147
+00:09:30,281 --> 00:09:33,848
+Iya, boleh.
+
+148
+00:09:33,871 --> 00:09:36,505
+Baik, saya tunggu.
+
+149
+00:09:36,528 --> 00:09:39,840
+Terima kasih.
+
+150
+00:09:39,863 --> 00:09:43,097
+Saya akan berusaha keras.
+
+151
+00:09:43,119 --> 00:09:47,286
+Jangan terlalu memaksakan diri ya.
+
+152
+00:09:47,309 --> 00:09:48,809
+Adegan 5: Pindah Rumah dan Tempat Tinggal Baru / Moving and New Residence
+
+153
+00:09:48,809 --> 00:09:53,476
+Pak Guru, sudah selesai tugasnya?
+
+154
+00:09:53,499 --> 00:09:56,616
+Sudah, Pak.
+
+155
+00:09:56,639 --> 00:09:59,873
+Ada apa?
+
+156
+00:09:59,896 --> 00:10:04,729
+Sebetulnya, saya sudah pindah rumah.
+
+157
+00:10:04,752 --> 00:10:07,893
+Oh begitu.
+
+158
+00:10:07,917 --> 00:10:11,017
+Kapan?
+
+159
+00:10:11,040 --> 00:10:15,381
+Minggu lalu.
+
+160
+00:10:15,404 --> 00:10:19,321
+Pindah ke mana?
+
+161
+00:10:19,344 --> 00:10:23,844
+Apartemen dekat sekolah.
+
+162
+00:10:23,867 --> 00:10:27,501
+Bagus sekali.
+
+163
+00:10:27,524 --> 00:10:31,503
+Bisa jalan kaki ke sini?
+
+164
+00:10:31,526 --> 00:10:36,438
+Cuma sekitar 10 menit jalan kaki.
+
+165
+00:10:36,461 --> 00:10:41,047
+Jadi jadi lebih dekat dan praktis, ya.
+
+166
+00:10:41,071 --> 00:10:46,837
+Ya, saya akan memberitahu alamat baru.
+
+167
+00:10:46,860 --> 00:10:49,594
+Terima kasih.
+
+168
+00:10:49,617 --> 00:10:53,917
+Tolong tunjukkan bagian belakang kartu tinggal Anda.
+
+169
+00:10:53,940 --> 00:10:57,889
+Ini, Pak.
+
+170
+00:10:57,912 --> 00:11:02,545
+Anda sudah mengurus perubahan alamat di kantor kota, ya?
+
+171
+00:11:02,568 --> 00:11:06,868
+Ya, kemarin saya ke sana.
+
+172
+00:11:06,891 --> 00:11:10,058
+Oke.
+
+173
+00:11:10,081 --> 00:11:14,514
+Saya juga akan memperbaiki dokumen sekolah.
+
+174
+00:11:14,537 --> 00:11:17,322
+Terima kasih.
+
+175
+00:11:17,346 --> 00:11:21,503
+Bagaimana kamar barunya?
+
+176
+00:11:21,526 --> 00:11:24,684
+Bagus.
+
+177
+00:11:24,707 --> 00:11:27,649
+Luas?
+
+178
+00:11:27,673 --> 00:11:31,507
+Agak sempit.
+
+179
+00:11:31,530 --> 00:11:34,596
+Oh begitu.
+
+180
+00:11:34,619 --> 00:11:39,792
+Tapi, sangat tenang.
+
+181
+00:11:39,816 --> 00:11:43,350
+Itu bagus sekali.
+
+182
+00:11:43,373 --> 00:11:46,239
+Iya.
+
+183
+00:11:46,262 --> 00:11:50,401
+Jadi bisa banyak belajar, ya.
+
+184
+00:11:50,425 --> 00:11:54,325
+Ya, saya akan berusaha.
+
+185
+00:11:54,348 --> 00:11:57,648
+Oke.
+
+186
+00:11:57,671 --> 00:12:00,704
+Terima kasih banyak.
+
+187
+00:12:00,727 --> 00:12:05,229
+Sama-sama.
+
+188
+00:12:05,253 --> 00:12:06,753
+Adegan 6: Meminta Izin Pulang Awal / Requesting Permission to Leave Early
+
+189
+00:12:06,753 --> 00:12:12,220
+Pak Guru, ada sedikit permohonan.
+
+190
+00:12:12,243 --> 00:12:15,610
+Ya, ada yang bisa saya bantu?
+
+191
+00:12:15,633 --> 00:12:20,988
+Bolehkah saya pulang lebih awal sore ini?
+
+192
+00:12:21,011 --> 00:12:25,048
+Pulang lebih awal?
+
+193
+00:12:25,072 --> 00:12:27,772
+Iya.
+
+194
+00:12:27,795 --> 00:12:30,552
+Kenapa?
+
+195
+00:12:30,576 --> 00:12:35,292
+Saya harus pergi ke kantor kelurahan.
+
+196
+00:12:35,316 --> 00:12:39,027
+Kantor kelurahan?
+
+197
+00:12:39,050 --> 00:12:42,684
+Tugasnya apa?
+
+198
+00:12:42,706 --> 00:12:47,303
+Untuk membayar iuran asuransi.
+
+199
+00:12:47,327 --> 00:12:50,883
+Oh begitu.
+
+200
+00:12:50,906 --> 00:12:54,773
+Jam berapa pulangnya?
+
+201
+00:12:54,796 --> 00:12:59,762
+Saya mau pulang setelah jam pelajaran ketiga selesai.
+
+202
+00:12:59,785 --> 00:13:03,885
+Setelah jam pelajaran ketiga, ya.
+
+203
+00:13:03,908 --> 00:13:07,066
+Baiklah.
+
+204
+00:13:07,090 --> 00:13:12,204
+Bagaimana dengan ujian jam keempat hari ini?
+
+205
+00:13:12,227 --> 00:13:18,094
+Ujiannya boleh dilaksanakan besok pagi.
+
+206
+00:13:18,117 --> 00:13:21,657
+Besok pagi, ya.
+
+207
+00:13:21,681 --> 00:13:24,714
+Baiklah.
+
+208
+00:13:24,737 --> 00:13:30,652
+PR hari ini boleh tanya teman, ya.
+
+209
+00:13:30,675 --> 00:13:32,945
+Iya.
+
+210
+00:13:32,969 --> 00:13:37,407
+Nanti saya kirim email ke teman.
+
+211
+00:13:37,431 --> 00:13:42,297
+Apa saja yang harus dibawa ke kantor kelurahan?
+
+212
+00:13:42,320 --> 00:13:46,253
+Saya akan membawa paspor.
+
+213
+00:13:46,276 --> 00:13:49,793
+Ada yang lain?
+
+214
+00:13:49,817 --> 00:13:54,084
+Saya juga akan membawa kartu tinggal.
+
+215
+00:13:54,107 --> 00:13:58,680
+Hati-hati jangan sampai lupa, ya.
+
+216
+00:13:58,703 --> 00:14:02,301
+Sudah dimasukkan ke tas?
+
+217
+00:14:02,325 --> 00:14:04,758
+Iya.
+
+218
+00:14:04,781 --> 00:14:07,281
+Sudah.
+
+219
+00:14:07,304 --> 00:14:10,272
+Akan saya perhatikan.
+
+220
+00:14:10,296 --> 00:14:13,643
+Kalau begitu, tidak apa-apa.
+
+221
+00:14:13,666 --> 00:14:16,305
+Terima kasih.
+
+222
+00:14:16,328 --> 00:14:20,428
+Hati-hati di jalan, ya.
+
+223
+00:14:20,451 --> 00:14:22,718
+Iya.
+
+224
+00:14:22,741 --> 00:14:25,608
+Permisi.
+
+225
+00:14:25,631 --> 00:14:27,131
+Adegan 7: Memeriksa Kelengkapan Dokumen
+
+226
+00:14:27,131 --> 00:14:31,664
+Pak/Bu guru, bolehkah saya masuk?
+
+227
+00:14:31,687 --> 00:14:35,554
+Silakan.
+
+228
+00:14:35,577 --> 00:14:40,653
+Saya sudah membawa dokumen yang Bapak/Ibu guru bilang.
+
+229
+00:14:40,676 --> 00:14:44,610
+Ini kuesioner pemilihan jurusan, ya?
+
+230
+00:14:44,633 --> 00:14:48,819
+Ya, betul.
+
+231
+00:14:48,843 --> 00:14:51,943
+Terima kasih.
+
+232
+00:14:51,966 --> 00:14:55,517
+Apakah ini sudah benar?
+
+233
+00:14:55,540 --> 00:14:59,409
+Saya lihat sebentar.
+
+234
+00:14:59,432 --> 00:15:01,978
+Iya.
+
+235
+00:15:02,001 --> 00:15:07,301
+Oh, bagian ini belum diisi.
+
+236
+00:15:07,324 --> 00:15:10,991
+Apa? Mana?
+
+237
+00:15:11,014 --> 00:15:14,714
+Halaman kedua.
+
+238
+00:15:14,737 --> 00:15:18,522
+Oh, iya.
+
+239
+00:15:18,545 --> 00:15:23,212
+Di bagian nomor telepon ini.
+
+240
+00:15:23,235 --> 00:15:27,268
+Maaf, ya.
+
+241
+00:15:27,291 --> 00:15:30,191
+Saya lupa.
+
+242
+00:15:30,214 --> 00:15:34,409
+Silakan diisi di sini sekarang.
+
+243
+00:15:34,432 --> 00:15:37,935
+Saya ada bolpen, nih.
+
+244
+00:15:37,959 --> 00:15:41,092
+Terima kasih.
+
+245
+00:15:41,115 --> 00:15:44,301
+Sudah saya tulis.
+
+246
+00:15:44,325 --> 00:15:47,107
+Iya.
+
+247
+00:15:47,130 --> 00:15:50,666
+Ini sudah lengkap semua, ya.
+
+248
+00:15:50,690 --> 00:15:55,267
+Maaf sudah terlambat.
+
+249
+00:15:55,290 --> 00:16:01,157
+Belum deadline, jadi tidak apa-apa.
+
+250
+00:16:01,180 --> 00:16:04,378
+Syukurlah.
+
+251
+00:16:04,401 --> 00:16:07,182
+Jadi tenang.
+
+252
+00:16:07,205 --> 00:16:13,872
+Saat wawancara berikutnya, kita akan membahas kuesioner ini.
+
+253
+00:16:13,895 --> 00:16:17,649
+Iya, ngerti.
+
+254
+00:16:17,672 --> 00:16:22,189
+Wawancaranya minggu depan, ya.
+
+255
+00:16:22,212 --> 00:16:26,166
+Ya, minggu depan.
+
+256
+00:16:26,190 --> 00:16:30,572
+Ada pertanyaan lain?
+
+257
+00:16:30,595 --> 00:16:34,309
+Tidak, tidak ada.
+
+258
+00:16:34,332 --> 00:16:39,066
+Baiklah, kalau begitu, sampai jumpa.
+
+259
+00:16:39,089 --> 00:16:42,189
+Terima kasih banyak.
+
+260
+00:16:42,212 --> 00:16:47,045
+Sampai ketemu di kelas lagi.
+
+261
+00:16:47,068 --> 00:16:50,204
+Permisi.
+
+262
+00:16:50,228 --> 00:16:51,728
+Adegan 8: Penjadwalan Bimbingan Karir / Menjadwalkan Sesi Konseling Karir
+
+263
+00:16:51,728 --> 00:16:58,161
+Pak Guru, saya ingin mendiskusikan hal tentang minggu depan.
+
+264
+00:16:58,184 --> 00:17:01,662
+Iya, ada apa?
+
+265
+00:17:01,685 --> 00:17:07,585
+Saya ingin berbincang-bincang dengan Bapak tentang rencana masa depan.
+
+266
+00:17:07,609 --> 00:17:11,042
+Jadi, sesi konseling ya?
+
+267
+00:17:11,065 --> 00:17:14,198
+Kapan waktu yang cocok?
+
+268
+00:17:14,221 --> 00:17:19,398
+Bagaimana kalau Kamis minggu depan?
+
+269
+00:17:19,421 --> 00:17:25,055
+Kamis saya agak sibuk.
+
+270
+00:17:25,078 --> 00:17:28,311
+Oh begitu.
+
+271
+00:17:28,334 --> 00:17:32,480
+Saya ada rapat di sore hari.
+
+272
+00:17:32,504 --> 00:17:37,537
+Kalau Rabu, bagaimana?
+
+273
+00:17:37,560 --> 00:17:42,827
+Kalau setelah jam sekolah selesai, saya ada waktu.
+
+274
+00:17:42,850 --> 00:17:46,586
+Setelah jam sekolah, ya?
+
+275
+00:17:46,609 --> 00:17:49,476
+Dari jam berapa?
+
+276
+00:17:49,499 --> 00:17:53,732
+Bagaimana kalau mulai pukul tiga sore?
+
+277
+00:17:53,755 --> 00:17:59,022
+Baik, saya akan datang pukul tiga.
+
+278
+00:17:59,045 --> 00:18:02,078
+Oke.
+
+279
+00:18:02,101 --> 00:18:06,168
+Ada yang perlu dibawa?
+
+280
+00:18:06,192 --> 00:18:13,092
+Saat konseling nanti, tolong bawa buku tentang universitas yang ingin kamu tuju.
+
+281
+00:18:13,115 --> 00:18:16,615
+Jadi, brosurnya?
+
+282
+00:18:16,638 --> 00:18:19,427
+Sudah saya bawa.
+
+283
+00:18:19,450 --> 00:18:24,723
+Mari kita lihat bersama sambil memikirkannya.
+
+284
+00:18:24,747 --> 00:18:27,461
+Iya.
+
+285
+00:18:27,485 --> 00:18:31,618
+Kamu sudah punya universitas yang ingin dituju?
+
+286
+00:18:31,641 --> 00:18:36,311
+Saya punya dua universitas yang ingin saya tuju.
+
+287
+00:18:36,334 --> 00:18:40,001
+Oke.
+
+288
+00:18:40,024 --> 00:18:43,012
+Pastinya menyenangkan, ya.
+
+289
+00:18:43,035 --> 00:18:47,434
+Ya, terima kasih atas bantuannya.
+
+290
+00:18:47,458 --> 00:18:51,758
+Saya akan menunggu di sini Rabu pukul tiga.
+
+291
+00:18:51,781 --> 00:18:55,081
+Terima kasih.
+
+292
+00:18:55,104 --> 00:18:59,610
+Ada pertanyaan lain?
+
+293
+00:18:59,633 --> 00:19:03,792
+Tidak, sudah cukup.
+
+294
+00:19:03,815 --> 00:19:07,249
+Baiklah, sampai jumpa.
+
+295
+00:19:07,272 --> 00:19:10,105
+Permisi.
+
+296
+00:19:10,128 --> 00:19:13,841
+Permisi.
+
+297
+00:19:13,864 --> 00:19:15,364
+Adegan 9: Cara Mengecek Barang yang Tertinggal / Mengecek Barang yang Tertinggal
+
+298
+00:19:15,364 --> 00:19:19,264
+Pak Guru, maaf.
+
+299
+00:19:19,287 --> 00:19:23,021
+Ada apa?
+
+300
+00:19:23,044 --> 00:19:27,511
+Saya meninggalkan barang di kelas.
+
+301
+00:19:27,535 --> 00:19:31,052
+Barang apa yang kamu tinggalkan?
+
+302
+00:19:31,075 --> 00:19:35,175
+Saya meninggalkan payung hitam.
+
+303
+00:19:35,198 --> 00:19:38,632
+Jadi, payung hitam?
+
+304
+00:19:38,655 --> 00:19:41,093
+Iya.
+
+305
+00:19:41,116 --> 00:19:44,584
+Kapan kamu meninggalkannya?
+
+306
+00:19:44,608 --> 00:19:48,575
+Setelah kelas kemarin.
+
+307
+00:19:48,598 --> 00:19:51,964
+Di mana kamu meninggalkannya?
+
+308
+00:19:51,987 --> 00:19:55,928
+Saya meninggalkannya di samping meja.
+
+309
+00:19:55,952 --> 00:19:58,585
+Oh begitu.
+
+310
+00:19:58,608 --> 00:20:01,242
+Iya.
+
+311
+00:20:01,265 --> 00:20:05,765
+Mari kita lihat apakah barang itu sudah sampai di kantor.
+
+312
+00:20:05,787 --> 00:20:08,621
+Terima kasih.
+
+313
+00:20:08,644 --> 00:20:11,877
+Payungnya seperti apa?
+
+314
+00:20:11,900 --> 00:20:14,733
+Panjang?
+
+315
+00:20:14,756 --> 00:20:17,390
+Iya.
+
+316
+00:20:17,413 --> 00:20:20,379
+Payungnya panjang.
+
+317
+00:20:20,402 --> 00:20:24,102
+Bukan payung yang pendek, kan?
+
+318
+00:20:24,125 --> 00:20:26,594
+Iya.
+
+319
+00:20:26,618 --> 00:20:30,452
+Gagangnya berwarna cokelat.
+
+320
+00:20:30,475 --> 00:20:33,508
+Tunggu sebentar.
+
+321
+00:20:33,531 --> 00:20:36,044
+Iya.
+
+322
+00:20:36,067 --> 00:20:39,401
+Oh, ini ya?
+
+323
+00:20:39,424 --> 00:20:42,658
+Iya.
+
+324
+00:20:42,681 --> 00:20:45,274
+Itu dia.
+
+325
+00:20:45,297 --> 00:20:47,997
+Ini punya saya.
+
+326
+00:20:48,020 --> 00:20:51,527
+Senang bisa ketemu.
+
+327
+00:20:51,551 --> 00:20:54,190
+Iya.
+
+328
+00:20:54,213 --> 00:20:57,147
+Terima kasih.
+
+329
+00:20:57,170 --> 00:21:01,470
+Di luar lagi hujan, lho.
+
+330
+00:21:01,493 --> 00:21:04,193
+Iya, betul.
+
+331
+00:21:04,216 --> 00:21:08,449
+Hati-hati ke depannya ya.
+
+332
+00:21:08,472 --> 00:21:10,972
+Iya.
+
+333
+00:21:10,995 --> 00:21:13,862
+Akan saya perhatikan.
+
+334
+00:21:13,885 --> 00:21:17,662
+Terima kasih banyak, ya.
+
+335
+00:21:17,685 --> 00:21:21,953
+Silakan.
+
+336
+00:21:21,977 --> 00:21:25,573
+Hati-hati di jalan pulangnya, ya.
+
+337
+00:21:25,596 --> 00:21:27,947
+Iya.
+
+338
+00:21:27,971 --> 00:21:30,914
+Permisi.
+
+339
+00:21:30,937 --> 00:21:32,437
+Scene 10: Aturan Bersepeda ke Sekolah
+
+340
+00:21:32,437 --> 00:21:37,971
+Bu guru, boleh saya tanya?
+
+341
+00:21:37,994 --> 00:21:41,502
+Silakan.
+
+342
+00:21:41,526 --> 00:21:47,241
+Saya mau pergi ke sekolah naik sepeda mulai besok.
+
+343
+00:21:47,264 --> 00:21:50,609
+Sepeda, ya?
+
+344
+00:21:50,632 --> 00:21:54,605
+Jauh dari rumah?
+
+345
+00:21:54,629 --> 00:21:59,597
+Iya, agak jauh.
+
+346
+00:21:59,620 --> 00:22:03,987
+Kalau jalan kaki berapa menit?
+
+347
+00:22:04,010 --> 00:22:09,076
+Kalau jalan kaki, 30 menit.
+
+348
+00:22:09,099 --> 00:22:13,694
+Kalau begitu, naik sepeda lebih baik, ya.
+
+349
+00:22:13,718 --> 00:22:20,352
+Iya. Sepedanya boleh diparkir di mana saja?
+
+350
+00:22:20,375 --> 00:22:27,008
+Ada tempat parkir sepeda di belakang sekolah.
+
+351
+00:22:27,031 --> 00:22:30,029
+Di belakang, ya?
+
+352
+00:22:30,052 --> 00:22:35,086
+Di sana ada biaya?
+
+353
+00:22:35,109 --> 00:22:39,426
+Tidak, tidak perlu bayar.
+
+354
+00:22:39,449 --> 00:22:42,620
+Gratis?
+
+355
+00:22:42,644 --> 00:22:46,595
+Iya, gratis.
+
+356
+00:22:46,619 --> 00:22:49,935
+Syukurlah.
+
+357
+00:22:49,958 --> 00:22:53,691
+Boleh parkir kapan saja?
+
+358
+00:22:53,714 --> 00:22:58,548
+Hanya saat sekolah buka, ya.
+
+359
+00:22:58,571 --> 00:23:01,504
+Oke.
+
+360
+00:23:01,527 --> 00:23:05,800
+Ada hal yang perlu diperhatikan?
+
+361
+00:23:05,823 --> 00:23:09,774
+Ehm, apa ya?
+
+362
+00:23:09,798 --> 00:23:14,465
+Pastikan kunci sepedanya terkunci dengan baik, ya.
+
+363
+00:23:14,488 --> 00:23:19,988
+Iya, ada dua kunci.
+
+364
+00:23:20,011 --> 00:23:23,645
+Kalau begitu, tenang saja.
+
+365
+00:23:23,669 --> 00:23:29,370
+Kalau nggak tahu tempatnya, tanya lagi saja.
+
+366
+00:23:29,393 --> 00:23:34,893
+Hati-hati kalau naik sepeda, ya.
+
+367
+00:23:34,916 --> 00:23:39,585
+Terutama kalau hujan, lebih hati-hati lagi.
+
+368
+00:23:39,608 --> 00:23:43,675
+Baik, sampai jumpa besok.

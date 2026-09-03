@@ -1,0 +1,1471 @@
+1
+00:00:10,008 --> 00:00:11,508
+Scène 1 : Maladie et présence en cours
+
+2
+00:00:11,508 --> 00:00:16,174
+Professeur, bonjour.
+
+3
+00:00:16,197 --> 00:00:19,464
+Bonjour.
+
+4
+00:00:19,487 --> 00:00:22,638
+Qu’est-ce qui ne va pas ?
+
+5
+00:00:22,661 --> 00:00:27,394
+Aujourd’hui, j’ai de la fièvre.
+
+6
+00:00:27,417 --> 00:00:30,684
+Ah, d’accord.
+
+7
+00:00:30,707 --> 00:00:33,807
+Vous allez bien ?
+
+8
+00:00:33,830 --> 00:00:39,782
+Non, j’ai très mal à la tête.
+
+9
+00:00:39,805 --> 00:00:43,572
+Oh là là, c’est embêtant.
+
+10
+00:00:43,595 --> 00:00:46,662
+Oui.
+
+11
+00:00:46,685 --> 00:00:50,518
+Vous êtes allé à l’hôpital ?
+
+12
+00:00:50,541 --> 00:00:54,914
+Non, pas encore.
+
+13
+00:00:54,938 --> 00:00:58,438
+Quand y allez-vous ?
+
+14
+00:00:58,460 --> 00:01:02,131
+Je vais y aller cet après-midi.
+
+15
+00:01:02,155 --> 00:01:05,272
+D’accord.
+
+16
+00:01:05,295 --> 00:01:09,431
+Que faites-vous pour le cours d’aujourd’hui ?
+
+17
+00:01:09,455 --> 00:01:13,047
+Désolé(e).
+
+18
+00:01:13,070 --> 00:01:17,979
+Puis-je rester chez moi aujourd’hui ?
+
+19
+00:01:18,003 --> 00:01:22,342
+Oui, bien sûr.
+
+20
+00:01:22,365 --> 00:01:25,140
+Merci beaucoup.
+
+21
+00:01:25,164 --> 00:01:28,797
+Avez-vous pris vos médicaments ?
+
+22
+00:01:28,820 --> 00:01:32,809
+Oui, je les ai pris.
+
+23
+00:01:32,832 --> 00:01:36,549
+Quand les avez-vous pris ?
+
+24
+00:01:36,573 --> 00:01:41,091
+Je les ai pris après le petit-déjeuner.
+
+25
+00:01:41,114 --> 00:01:44,947
+C’est bien.
+
+26
+00:01:44,970 --> 00:01:47,524
+Oui.
+
+27
+00:01:47,547 --> 00:01:51,681
+Restez au chaud et reposez-vous.
+
+28
+00:01:51,703 --> 00:01:55,570
+Oui, je vais faire ça.
+
+29
+00:01:55,593 --> 00:01:59,726
+Buvez aussi beaucoup d’eau.
+
+30
+00:01:59,749 --> 00:02:03,743
+Oui, d’accord.
+
+31
+00:02:03,767 --> 00:02:08,100
+Pensez-vous pouvoir venir demain ?
+
+32
+00:02:08,123 --> 00:02:11,432
+Je ne sais pas encore.
+
+33
+00:02:11,456 --> 00:02:14,638
+Ah, d’accord.
+
+34
+00:02:14,661 --> 00:02:19,644
+Je vous appellerai demain matin.
+
+35
+00:02:19,668 --> 00:02:22,803
+D’accord.
+
+36
+00:02:22,826 --> 00:02:25,893
+Je vous attends.
+
+37
+00:02:25,916 --> 00:02:28,450
+Oui.
+
+38
+00:02:28,473 --> 00:02:31,785
+Prenez soin de vous.
+
+39
+00:02:31,809 --> 00:02:34,805
+Merci beaucoup.
+
+40
+00:02:34,829 --> 00:02:38,144
+Au revoir.
+
+41
+00:02:38,167 --> 00:02:41,501
+Au revoir.
+
+42
+00:02:41,524 --> 00:02:43,024
+Scène 2 : Annonce d’un retard de train
+
+43
+00:02:43,024 --> 00:02:47,690
+Professeur, bonjour.
+
+44
+00:02:47,713 --> 00:02:51,447
+Bonjour.
+
+45
+00:02:51,470 --> 00:02:55,103
+Où êtes-vous en ce moment ?
+
+46
+00:02:55,126 --> 00:02:59,426
+Je suis à la gare.
+
+47
+00:02:59,449 --> 00:03:04,921
+Le cours va bientôt commencer.
+
+48
+00:03:04,945 --> 00:03:08,178
+Désolé(e).
+
+49
+00:03:08,201 --> 00:03:11,712
+Qu’est-ce qui ne va pas ?
+
+50
+00:03:11,736 --> 00:03:15,902
+Le train est en retard.
+
+51
+00:03:15,925 --> 00:03:19,361
+Le train ?
+
+52
+00:03:19,384 --> 00:03:22,618
+Pourquoi ?
+
+53
+00:03:22,641 --> 00:03:26,674
+Il y a eu un accident.
+
+54
+00:03:26,697 --> 00:03:29,930
+Un accident ?
+
+55
+00:03:29,953 --> 00:03:32,887
+Oui.
+
+56
+00:03:32,910 --> 00:03:37,702
+Oui, c’est pour ça que le train est à l’arrêt.
+
+57
+00:03:37,725 --> 00:03:42,094
+Oh là là, c’est embêtant.
+
+58
+00:03:42,117 --> 00:03:45,627
+Quand repartira-t-il ?
+
+59
+00:03:45,650 --> 00:03:50,284
+Il devrait repartir dans environ 20 minutes.
+
+60
+00:03:50,307 --> 00:03:53,540
+D’accord.
+
+61
+00:03:53,563 --> 00:03:56,639
+Désolé(e).
+
+62
+00:03:56,662 --> 00:04:01,451
+À quelle heure pensez-vous arriver à l’école ?
+
+63
+00:04:01,475 --> 00:04:06,146
+Je pense arriver vers 9h30.
+
+64
+00:04:06,170 --> 00:04:11,003
+Vous serez donc un peu en retard pour le cours.
+
+65
+00:04:11,026 --> 00:04:13,893
+Oui.
+
+66
+00:04:13,916 --> 00:04:17,549
+Je peux arriver en retard ?
+
+67
+00:04:17,572 --> 00:04:21,540
+Bon, d’accord.
+
+68
+00:04:21,564 --> 00:04:24,497
+Oui.
+
+69
+00:04:24,520 --> 00:04:28,020
+Faites attention, s’il vous plaît.
+
+70
+00:04:28,043 --> 00:04:30,943
+Merci beaucoup.
+
+71
+00:04:30,966 --> 00:04:35,733
+Vous n’avez pas besoin de courir.
+
+72
+00:04:35,756 --> 00:04:37,889
+Oui.
+
+73
+00:04:37,912 --> 00:04:40,751
+D’accord.
+
+74
+00:04:40,775 --> 00:04:44,675
+La sécurité avant tout.
+
+75
+00:04:44,698 --> 00:04:47,668
+Ne vous dépêchez pas, s’il vous plaît.
+
+76
+00:04:47,691 --> 00:04:50,558
+Oui.
+
+77
+00:04:50,581 --> 00:04:53,951
+Je vous attends.
+
+78
+00:04:53,974 --> 00:04:57,518
+Je compte sur vous.
+
+79
+00:04:57,541 --> 00:05:00,379
+Au revoir.
+
+80
+00:05:00,403 --> 00:05:03,669
+Prends soin de toi.
+
+81
+00:05:03,692 --> 00:05:05,192
+Scène 3 : Demande d’attestation de scolarité / Demande de certificat d’inscription
+
+82
+00:05:05,192 --> 00:05:11,374
+Professeur, vous avez un moment ?
+
+83
+00:05:11,397 --> 00:05:15,743
+Oui, j’ai le temps.
+
+84
+00:05:15,767 --> 00:05:18,742
+Parfait !
+
+85
+00:05:18,766 --> 00:05:22,432
+C’est pour une formalité ?
+
+86
+00:05:22,455 --> 00:05:27,089
+Je voudrais faire une demande de document.
+
+87
+00:05:27,112 --> 00:05:30,825
+Quel document ?
+
+88
+00:05:30,848 --> 00:05:35,515
+Je voudrais une attestation de scolarité.
+
+89
+00:05:35,538 --> 00:05:39,904
+Une attestation de scolarité, donc.
+
+90
+00:05:39,927 --> 00:05:43,501
+À quoi ça servira ?
+
+91
+00:05:43,524 --> 00:05:48,796
+Ça servira à renouveler mon visa.
+
+92
+00:05:48,820 --> 00:05:51,920
+D’accord.
+
+93
+00:05:51,943 --> 00:05:55,810
+Vous en avez besoin pour quand ?
+
+94
+00:05:55,833 --> 00:06:02,547
+J’en ai besoin pour lundi de la semaine prochaine.
+
+95
+00:06:02,570 --> 00:06:07,750
+Dans ce cas, je peux vous la préparer demain.
+
+96
+00:06:07,774 --> 00:06:11,074
+Vraiment ?
+
+97
+00:06:11,096 --> 00:06:13,796
+Oui.
+
+98
+00:06:13,819 --> 00:06:16,762
+Merci beaucoup.
+
+99
+00:06:16,786 --> 00:06:21,520
+Écrivez votre nom ici, s’il vous plaît.
+
+100
+00:06:21,543 --> 00:06:25,420
+Oui, c’est fait.
+
+101
+00:06:25,444 --> 00:06:30,777
+Ensuite, inscrivez votre numéro d’étudiant.
+
+102
+00:06:30,800 --> 00:06:34,707
+Oui, c’est fait.
+
+103
+00:06:34,731 --> 00:06:38,164
+C’est bon comme ça ?
+
+104
+00:06:38,187 --> 00:06:42,020
+Oui, c’est parfait.
+
+105
+00:06:42,043 --> 00:06:47,610
+Où dois-je aller demain ?
+
+106
+00:06:47,633 --> 00:06:53,133
+Venez au bureau administratif demain après-midi.
+
+107
+00:06:53,156 --> 00:06:56,789
+Le bureau administratif, c’est ça ?
+
+108
+00:06:56,812 --> 00:06:59,679
+D’accord.
+
+109
+00:06:59,702 --> 00:07:03,469
+Ça coûte de l’argent, vous savez.
+
+110
+00:07:03,492 --> 00:07:06,812
+C’est combien ?
+
+111
+00:07:06,835 --> 00:07:10,535
+Trois cents yens.
+
+112
+00:07:10,558 --> 00:07:14,858
+Oui, je l’apporterai demain.
+
+113
+00:07:14,881 --> 00:07:18,914
+N’oubliez pas, hein !
+
+114
+00:07:18,937 --> 00:07:23,014
+Non, je n’oublierai pas.
+
+115
+00:07:23,038 --> 00:07:26,144
+Je compte sur vous.
+
+116
+00:07:26,168 --> 00:07:30,468
+À demain, alors.
+
+117
+00:07:30,491 --> 00:07:31,991
+Scène 4 : Conseils pour un job étudiant / Consultation sur un emploi à temps partiel
+
+118
+00:07:31,991 --> 00:07:36,624
+Professeur, est-ce que je peux vous poser une question ?
+
+119
+00:07:36,647 --> 00:07:40,080
+Oui, de quoi s’agit-il ?
+
+120
+00:07:40,103 --> 00:07:44,888
+J’ai trouvé un nouveau job étudiant.
+
+121
+00:07:44,912 --> 00:07:49,670
+Ah oui ? C’est quoi comme travail ?
+
+122
+00:07:49,693 --> 00:07:53,727
+C’est dans un restaurant.
+
+123
+00:07:53,750 --> 00:07:57,050
+Qu’est-ce que tu y feras ?
+
+124
+00:07:57,073 --> 00:08:00,665
+Je servirai les plats.
+
+125
+00:08:00,688 --> 00:08:03,655
+C’est bien !
+
+126
+00:08:03,678 --> 00:08:09,066
+Combien d’heures par semaine tu travailleras ?
+
+127
+00:08:09,089 --> 00:08:13,523
+Je travaille environ vingt heures.
+
+128
+00:08:13,546 --> 00:08:18,212
+C'est moins que vingt-huit heures, n'est-ce pas ?
+
+129
+00:08:18,235 --> 00:08:21,935
+Oui, c'est exact.
+
+130
+00:08:21,958 --> 00:08:26,632
+Dans ce cas, ça va.
+
+131
+00:08:26,655 --> 00:08:29,522
+Parfait !
+
+132
+00:08:29,545 --> 00:08:34,012
+Mais est-ce que c'est tard le soir ?
+
+133
+00:08:34,035 --> 00:08:37,911
+Jusqu'à 22h.
+
+134
+00:08:37,935 --> 00:08:42,901
+Tu as le temps de faire tes devoirs d'école ?
+
+135
+00:08:42,924 --> 00:08:46,758
+Oui, j'ai le temps.
+
+136
+00:08:46,781 --> 00:08:50,547
+Quand est-ce que tu étudies ?
+
+137
+00:08:50,570 --> 00:08:55,070
+Je travaille après m'être levé(e) le matin.
+
+138
+00:08:55,093 --> 00:08:59,075
+Ah, ça me rassure.
+
+139
+00:08:59,099 --> 00:09:01,832
+Oui.
+
+140
+00:09:01,855 --> 00:09:06,844
+Tu veux que je donne l'adresse du nouveau magasin ?
+
+141
+00:09:06,868 --> 00:09:10,808
+Oui, donne-la.
+
+142
+00:09:10,832 --> 00:09:14,865
+Tu veux aussi donner ton numéro de téléphone ?
+
+143
+00:09:14,888 --> 00:09:17,988
+Oui.
+
+144
+00:09:18,012 --> 00:09:23,046
+Alors, écris-le sur ce papier et donne-le-moi.
+
+145
+00:09:23,068 --> 00:09:26,402
+D’accord.
+
+146
+00:09:26,425 --> 00:09:30,258
+Je peux l'apporter demain ?
+
+147
+00:09:30,281 --> 00:09:33,848
+Oui, bien sûr.
+
+148
+00:09:33,871 --> 00:09:36,505
+Je vous attends.
+
+149
+00:09:36,528 --> 00:09:39,840
+Merci beaucoup.
+
+150
+00:09:39,863 --> 00:09:43,097
+Je vais faire de mon mieux.
+
+151
+00:09:43,119 --> 00:09:47,286
+N'en fais pas trop, hein.
+
+152
+00:09:47,309 --> 00:09:48,809
+Scène 5 : Déménagement et nouveau logement
+
+153
+00:09:48,809 --> 00:09:53,476
+Bonjour, professeur. Vous allez bien ?
+
+154
+00:09:53,499 --> 00:09:56,616
+Bonjour, vous aussi.
+
+155
+00:09:56,639 --> 00:09:59,873
+Qu'y a-t-il ?
+
+156
+00:09:59,896 --> 00:10:04,729
+En fait, j'ai déménagé.
+
+157
+00:10:04,752 --> 00:10:07,893
+Ah, d’accord.
+
+158
+00:10:07,917 --> 00:10:11,017
+Quand ça ?
+
+159
+00:10:11,040 --> 00:10:15,381
+Dimanche dernier.
+
+160
+00:10:15,404 --> 00:10:19,321
+Où as-tu déménagé ?
+
+161
+00:10:19,344 --> 00:10:23,844
+Dans un appartement près de l'école.
+
+162
+00:10:23,867 --> 00:10:27,501
+C'est bien !
+
+163
+00:10:27,524 --> 00:10:31,503
+Tu peux venir à pied ?
+
+164
+00:10:31,526 --> 00:10:36,438
+À environ 10 minutes à pied.
+
+165
+00:10:36,461 --> 00:10:41,047
+C'est très pratique, maintenant !
+
+166
+00:10:41,071 --> 00:10:46,837
+Oui, je vais te donner ma nouvelle adresse.
+
+167
+00:10:46,860 --> 00:10:49,594
+Merci beaucoup.
+
+168
+00:10:49,617 --> 00:10:53,917
+Montre-moi le verso de ta carte de séjour.
+
+169
+00:10:53,940 --> 00:10:57,889
+Voilà, c'est ça.
+
+170
+00:10:57,912 --> 00:11:02,545
+Tu as changé ton adresse à la mairie, non ?
+
+171
+00:11:02,568 --> 00:11:06,868
+Oui, j'y suis allé hier.
+
+172
+00:11:06,891 --> 00:11:10,058
+D’accord.
+
+173
+00:11:10,081 --> 00:11:14,514
+Je vais aussi corriger les documents de l'école.
+
+174
+00:11:14,537 --> 00:11:17,322
+Merci beaucoup.
+
+175
+00:11:17,346 --> 00:11:21,503
+Comment est ta nouvelle chambre ?
+
+176
+00:11:21,526 --> 00:11:24,684
+C'est une bonne chambre.
+
+177
+00:11:24,707 --> 00:11:27,649
+Elle est grande ?
+
+178
+00:11:27,673 --> 00:11:31,507
+Un peu étroite.
+
+179
+00:11:31,530 --> 00:11:34,596
+Ah, d’accord.
+
+180
+00:11:34,619 --> 00:11:39,792
+Mais elle est très calme.
+
+181
+00:11:39,816 --> 00:11:43,350
+C'est une bonne nouvelle !
+
+182
+00:11:43,373 --> 00:11:46,239
+Oui.
+
+183
+00:11:46,262 --> 00:11:50,401
+Tu pourras étudier beaucoup.
+
+184
+00:11:50,425 --> 00:11:54,325
+Oui, je vais faire de mon mieux.
+
+185
+00:11:54,348 --> 00:11:57,648
+D’accord.
+
+186
+00:11:57,671 --> 00:12:00,704
+Merci bien.
+
+187
+00:12:00,727 --> 00:12:05,229
+De rien.
+
+188
+00:12:05,253 --> 00:12:06,753
+Scène 6 : Demander la permission de rentrer tôt
+
+189
+00:12:06,753 --> 00:12:12,220
+Professeur, j'ai une petite faveur à vous demander.
+
+190
+00:12:12,243 --> 00:12:15,610
+Oui, qu'y a-t-il ?
+
+191
+00:12:15,633 --> 00:12:20,988
+Puis-je rentrer plus tôt cet après-midi ?
+
+192
+00:12:21,011 --> 00:12:25,048
+Tu rentres plus tôt ?
+
+193
+00:12:25,072 --> 00:12:27,772
+Oui.
+
+194
+00:12:27,795 --> 00:12:30,552
+Pourquoi ça ?
+
+195
+00:12:30,576 --> 00:12:35,292
+Je dois aller à la mairie.
+
+196
+00:12:35,316 --> 00:12:39,027
+À la mairie ?
+
+197
+00:12:39,050 --> 00:12:42,684
+Qu’est-ce que tu y feras ?
+
+198
+00:12:42,706 --> 00:12:47,303
+Je vais payer une assurance.
+
+199
+00:12:47,327 --> 00:12:50,883
+Ah, d’accord.
+
+200
+00:12:50,906 --> 00:12:54,773
+Tu rentres à quelle heure ?
+
+201
+00:12:54,796 --> 00:12:59,762
+Je voudrais rentrer après le troisième cours.
+
+202
+00:12:59,785 --> 00:13:03,885
+Après le troisième cours, donc.
+
+203
+00:13:03,908 --> 00:13:07,066
+D'accord.
+
+204
+00:13:07,090 --> 00:13:12,204
+Et le test de la quatrième heure, je fais comment ?
+
+205
+00:13:12,227 --> 00:13:18,094
+Passe le test demain matin.
+
+206
+00:13:18,117 --> 00:13:21,657
+Demain matin, c'est ça.
+
+207
+00:13:21,681 --> 00:13:24,714
+D'accord.
+
+208
+00:13:24,737 --> 00:13:30,652
+Pour les devoirs d'aujourd'hui, demande à un ami.
+
+209
+00:13:30,675 --> 00:13:32,945
+Oui.
+
+210
+00:13:32,969 --> 00:13:37,407
+Je vais envoyer un mail à un ami plus tard.
+
+211
+00:13:37,431 --> 00:13:42,297
+Qu'est-ce que tu dois emporter à la mairie ?
+
+212
+00:13:42,320 --> 00:13:46,253
+J'emmène mon passeport.
+
+213
+00:13:46,276 --> 00:13:49,793
+Il y a autre chose ?
+
+214
+00:13:49,817 --> 00:13:54,084
+J'emmène aussi ma carte de séjour.
+
+215
+00:13:54,107 --> 00:13:58,680
+Fais attention à ne rien oublier.
+
+216
+00:13:58,703 --> 00:14:02,301
+Tu l'as mis dans ton sac ?
+
+217
+00:14:02,325 --> 00:14:04,758
+Oui.
+
+218
+00:14:04,781 --> 00:14:07,281
+Oui, je l'ai mis.
+
+219
+00:14:07,304 --> 00:14:10,272
+Je ferai attention.
+
+220
+00:14:10,296 --> 00:14:13,643
+Parfait, dans ce cas.
+
+221
+00:14:13,666 --> 00:14:16,305
+Merci beaucoup.
+
+222
+00:14:16,328 --> 00:14:20,428
+Prends soin de toi en y allant.
+
+223
+00:14:20,451 --> 00:14:22,718
+Oui.
+
+224
+00:14:22,741 --> 00:14:25,608
+Au revoir.
+
+225
+00:14:25,631 --> 00:14:27,131
+Scène 7 : Vérification des oublis / Vérification des documents
+
+226
+00:14:27,131 --> 00:14:31,664
+Monsieur, puis-je entrer ?
+
+227
+00:14:31,687 --> 00:14:35,554
+Oui, entre.
+
+228
+00:14:35,577 --> 00:14:40,653
+J'ai apporté les documents dont vous aviez parlé.
+
+229
+00:14:40,676 --> 00:14:44,610
+Le questionnaire d'orientation, c'est ça ?
+
+230
+00:14:44,633 --> 00:14:48,819
+Oui, c'est exact.
+
+231
+00:14:48,843 --> 00:14:51,943
+Merci beaucoup.
+
+232
+00:14:51,966 --> 00:14:55,517
+C'est bien ça ?
+
+233
+00:14:55,540 --> 00:14:59,409
+Laisse-moi vérifier.
+
+234
+00:14:59,432 --> 00:15:01,978
+Oui.
+
+235
+00:15:02,001 --> 00:15:07,301
+Ah, il manque quelque chose ici.
+
+236
+00:15:07,324 --> 00:15:10,991
+Ah bon ? Où ça ?
+
+237
+00:15:11,014 --> 00:15:14,714
+À la page 2.
+
+238
+00:15:14,737 --> 00:15:18,522
+Ah, c'est vrai.
+
+239
+00:15:18,545 --> 00:15:23,212
+C'est ici, à l'endroit où il faut mettre le numéro de téléphone.
+
+240
+00:15:23,235 --> 00:15:27,268
+Désolé, j'ai oublié.
+
+241
+00:15:27,291 --> 00:15:30,191
+Je n'y ai pas pensé.
+
+242
+00:15:30,214 --> 00:15:34,409
+Écris-le ici maintenant.
+
+243
+00:15:34,432 --> 00:15:37,935
+J'ai un stylo pour toi.
+
+244
+00:15:37,959 --> 00:15:41,092
+Merci beaucoup.
+
+245
+00:15:41,115 --> 00:15:44,301
+C'est fait.
+
+246
+00:15:44,325 --> 00:15:47,107
+Oui.
+
+247
+00:15:47,130 --> 00:15:50,666
+C'est tout, donc ?
+
+248
+00:15:50,690 --> 00:15:55,267
+Désolé pour le retard.
+
+249
+00:15:55,290 --> 00:16:01,157
+Ce n'est pas grave, la date limite n'est pas encore passée.
+
+250
+00:16:01,180 --> 00:16:04,378
+Super.
+
+251
+00:16:04,401 --> 00:16:07,182
+Je suis rassuré.
+
+252
+00:16:07,205 --> 00:16:13,872
+Lors de l'entretien la semaine prochaine, on regardera ce questionnaire ensemble.
+
+253
+00:16:13,895 --> 00:16:17,649
+Oui, d’accord.
+
+254
+00:16:17,672 --> 00:16:22,189
+L'entretien est la semaine prochaine, c'est ça ?
+
+255
+00:16:22,212 --> 00:16:26,166
+Oui, c'est pour la semaine prochaine.
+
+256
+00:16:26,190 --> 00:16:30,572
+Avez-vous d'autres questions ?
+
+257
+00:16:30,595 --> 00:16:34,309
+Non, pas de questions.
+
+258
+00:16:34,332 --> 00:16:39,066
+Eh bien, c'est tout pour aujourd'hui.
+
+259
+00:16:39,089 --> 00:16:42,189
+Merci bien.
+
+260
+00:16:42,212 --> 00:16:47,045
+À la semaine prochaine, en classe.
+
+261
+00:16:47,068 --> 00:16:50,204
+Au revoir.
+
+262
+00:16:50,228 --> 00:16:51,728
+Scène 8 : Planification d'un entretien d'orientation / Scheduling a Career Counseling Session
+
+263
+00:16:51,728 --> 00:16:58,161
+Professeur, j’aimerais discuter de quelque chose pour la semaine prochaine.
+
+264
+00:16:58,184 --> 00:17:01,662
+Oui, de quoi s’agit-il ?
+
+265
+00:17:01,685 --> 00:17:07,585
+Je voudrais parler de mon orientation avec vous.
+
+266
+00:17:07,609 --> 00:17:11,042
+Un entretien, donc.
+
+267
+00:17:11,065 --> 00:17:14,198
+Quand cela vous conviendrait-il ?
+
+268
+00:17:14,221 --> 00:17:19,398
+Que diriez-vous de jeudi prochain ?
+
+269
+00:17:19,421 --> 00:17:25,055
+Jeudi, je suis un peu occupé(e).
+
+270
+00:17:25,078 --> 00:17:28,311
+Ah, d’accord.
+
+271
+00:17:28,334 --> 00:17:32,480
+J’ai une réunion l’après-midi.
+
+272
+00:17:32,504 --> 00:17:37,537
+Alors, êtes-vous libre mercredi ?
+
+273
+00:17:37,560 --> 00:17:42,827
+Je suis disponible mercredi après les cours.
+
+274
+00:17:42,850 --> 00:17:46,586
+Après les cours, donc.
+
+275
+00:17:46,609 --> 00:17:49,476
+À quelle heure ?
+
+276
+00:17:49,499 --> 00:17:53,732
+Que diriez-vous de 15 heures ?
+
+277
+00:17:53,755 --> 00:17:59,022
+Oui, je viendrai à 15 heures.
+
+278
+00:17:59,045 --> 00:18:02,078
+D’accord.
+
+279
+00:18:02,101 --> 00:18:06,168
+Y a-t-il quelque chose à apporter ?
+
+280
+00:18:06,192 --> 00:18:13,092
+Pour l’entretien, apportez le livre de l’université que vous visez.
+
+281
+00:18:13,115 --> 00:18:16,615
+Une brochure, donc.
+
+282
+00:18:16,638 --> 00:18:19,427
+Je l’ai.
+
+283
+00:18:19,450 --> 00:18:24,723
+Nous pourrons en discuter ensemble en le consultant.
+
+284
+00:18:24,747 --> 00:18:27,461
+Oui.
+
+285
+00:18:27,485 --> 00:18:31,618
+Avez-vous une université en tête ?
+
+286
+00:18:31,641 --> 00:18:36,311
+J’ai deux universités en tête.
+
+287
+00:18:36,334 --> 00:18:40,001
+D’accord.
+
+288
+00:18:40,024 --> 00:18:43,012
+Cela semble passionnant !
+
+289
+00:18:43,035 --> 00:18:47,434
+Oui, merci beaucoup.
+
+290
+00:18:47,458 --> 00:18:51,758
+Je vous attends mercredi à 15 heures.
+
+291
+00:18:51,781 --> 00:18:55,081
+Merci beaucoup.
+
+292
+00:18:55,104 --> 00:18:59,610
+Avez-vous d’autres questions ?
+
+293
+00:18:59,633 --> 00:19:03,792
+Non, ça va.
+
+294
+00:19:03,815 --> 00:19:07,249
+Alors, à plus tard.
+
+295
+00:19:07,272 --> 00:19:10,105
+Au revoir.
+
+296
+00:19:10,128 --> 00:19:13,841
+Au revoir.
+
+297
+00:19:13,864 --> 00:19:15,364
+Scène 9 : Comment vérifier un objet perdu / How to Check for Lost Items
+
+298
+00:19:15,364 --> 00:19:19,264
+Professeur, excusez-moi.
+
+299
+00:19:19,287 --> 00:19:23,021
+Oui, qu’y a-t-il ?
+
+300
+00:19:23,044 --> 00:19:27,511
+J’ai oublié quelque chose dans la salle de classe.
+
+301
+00:19:27,535 --> 00:19:31,052
+Qu’avez-vous oublié ?
+
+302
+00:19:31,075 --> 00:19:35,175
+J’ai oublié un parapluie noir.
+
+303
+00:19:35,198 --> 00:19:38,632
+Un parapluie noir, donc.
+
+304
+00:19:38,655 --> 00:19:41,093
+Oui.
+
+305
+00:19:41,116 --> 00:19:44,584
+Quand l’avez-vous oublié ?
+
+306
+00:19:44,608 --> 00:19:48,575
+Après le cours d’hier.
+
+307
+00:19:48,598 --> 00:19:51,964
+Où l’avez-vous posé ?
+
+308
+00:19:51,987 --> 00:19:55,928
+Je l’ai posé à côté de mon bureau.
+
+309
+00:19:55,952 --> 00:19:58,585
+Ah, d’accord.
+
+310
+00:19:58,608 --> 00:20:01,242
+Oui.
+
+311
+00:20:01,265 --> 00:20:05,765
+Vérifions si le bureau de l’administration l’a reçu.
+
+312
+00:20:05,787 --> 00:20:08,621
+Merci beaucoup.
+
+313
+00:20:08,644 --> 00:20:11,877
+À quoi ressemble ce parapluie ?
+
+314
+00:20:11,900 --> 00:20:14,733
+Est-il long ?
+
+315
+00:20:14,756 --> 00:20:17,390
+Oui.
+
+316
+00:20:17,413 --> 00:20:20,379
+C’est un parapluie long.
+
+317
+00:20:20,402 --> 00:20:24,102
+Ce n’est pas un parapluie court, donc.
+
+318
+00:20:24,125 --> 00:20:26,594
+Oui.
+
+319
+00:20:26,618 --> 00:20:30,452
+La poignée est marron.
+
+320
+00:20:30,475 --> 00:20:33,508
+Un instant, s’il vous plaît.
+
+321
+00:20:33,531 --> 00:20:36,044
+Oui.
+
+322
+00:20:36,067 --> 00:20:39,401
+Ah, c'est ça ?
+
+323
+00:20:39,424 --> 00:20:42,658
+Ah, oui.
+
+324
+00:20:42,681 --> 00:20:45,274
+C'est ça.
+
+325
+00:20:45,297 --> 00:20:47,997
+C'est à moi.
+
+326
+00:20:48,020 --> 00:20:51,527
+Je suis content(e) que vous l'ayez retrouvé(e).
+
+327
+00:20:51,551 --> 00:20:54,190
+Oui.
+
+328
+00:20:54,213 --> 00:20:57,147
+Merci beaucoup.
+
+329
+00:20:57,170 --> 00:21:01,470
+Il pleut dehors, vous savez.
+
+330
+00:21:01,493 --> 00:21:04,193
+C'est vrai.
+
+331
+00:21:04,216 --> 00:21:08,449
+Faites attention la prochaine fois, d'accord ?
+
+332
+00:21:08,472 --> 00:21:10,972
+Oui.
+
+333
+00:21:10,995 --> 00:21:13,862
+Je ferai attention.
+
+334
+00:21:13,885 --> 00:21:17,662
+Merci beaucoup, vraiment.
+
+335
+00:21:17,685 --> 00:21:21,953
+Je vous en prie.
+
+336
+00:21:21,977 --> 00:21:25,573
+Prenez soin de vous pour le retour.
+
+337
+00:21:25,596 --> 00:21:27,947
+Oui.
+
+338
+00:21:27,971 --> 00:21:30,914
+Au revoir.
+
+339
+00:21:30,937 --> 00:21:32,437
+Scène 10 : Les règles pour venir à l'école à vélo / Règles pour aller à l'école à vélo
+
+340
+00:21:32,437 --> 00:21:37,971
+Monsieur, puis-je vous demander quelque chose ?
+
+341
+00:21:37,994 --> 00:21:41,502
+Oui, entre.
+
+342
+00:21:41,526 --> 00:21:47,241
+Je voudrais venir à l'école à vélo à partir de demain.
+
+343
+00:21:47,264 --> 00:21:50,609
+À vélo, donc.
+
+344
+00:21:50,632 --> 00:21:54,605
+C'est loin de chez vous ?
+
+345
+00:21:54,629 --> 00:21:59,597
+Oui, un peu.
+
+346
+00:21:59,620 --> 00:22:03,987
+Combien de temps cela prend-il à pied ?
+
+347
+00:22:04,010 --> 00:22:09,076
+À pied, cela prend trente minutes.
+
+348
+00:22:09,099 --> 00:22:13,694
+Dans ce cas, le vélo est une bonne idée.
+
+349
+00:22:13,718 --> 00:22:20,352
+Oui. Puis-je garer mon vélo n'importe où ?
+
+350
+00:22:20,375 --> 00:22:27,008
+Il y a un endroit pour garer les vélos derrière l'école.
+
+351
+00:22:27,031 --> 00:22:30,029
+Derrière, donc.
+
+352
+00:22:30,052 --> 00:22:35,086
+Est-ce que cela coûte quelque chose ?
+
+353
+00:22:35,109 --> 00:22:39,426
+Non, c'est gratuit.
+
+354
+00:22:39,449 --> 00:22:42,620
+C'est gratuit ?
+
+355
+00:22:42,644 --> 00:22:46,595
+Oui, c'est gratuit.
+
+356
+00:22:46,619 --> 00:22:49,935
+Parfait !
+
+357
+00:22:49,958 --> 00:22:53,691
+Puis-je garer mon vélo à tout moment ?
+
+358
+00:22:53,714 --> 00:22:58,548
+Seulement quand l'école est ouverte.
+
+359
+00:22:58,571 --> 00:23:01,504
+D’accord.
+
+360
+00:23:01,527 --> 00:23:05,800
+Y a-t-il des précautions à prendre ?
+
+361
+00:23:05,823 --> 00:23:09,774
+Euh, quoi donc ?
+
+362
+00:23:09,798 --> 00:23:14,465
+N'oubliez pas de bien verrouiller votre vélo.
+
+363
+00:23:14,488 --> 00:23:19,988
+Oui, j'ai deux cadenas.
+
+364
+00:23:20,011 --> 00:23:23,645
+Dans ce cas, je suis rassuré(e).
+
+365
+00:23:23,669 --> 00:23:29,370
+Si vous ne trouvez pas l'endroit, n'hésitez pas à demander à nouveau.
+
+366
+00:23:29,393 --> 00:23:34,893
+Faites attention en conduisant votre vélo.
+
+367
+00:23:34,916 --> 00:23:39,585
+Surtout les jours de pluie.
+
+368
+00:23:39,608 --> 00:23:43,675
+À demain, alors.

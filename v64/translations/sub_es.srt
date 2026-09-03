@@ -1,0 +1,1471 @@
+1
+00:00:10,008 --> 00:00:11,508
+Escena 1: Enfermedad y asistencia a clase
+
+2
+00:00:11,508 --> 00:00:16,174
+Profesor, buenos días.
+
+3
+00:00:16,197 --> 00:00:19,464
+¡Buenos días!
+
+4
+00:00:19,487 --> 00:00:22,638
+¿Qué pasa?
+
+5
+00:00:22,661 --> 00:00:27,394
+Hoy tengo fiebre.
+
+6
+00:00:27,417 --> 00:00:30,684
+¿Ah, sí?
+
+7
+00:00:30,707 --> 00:00:33,807
+¿Estás bien?
+
+8
+00:00:33,830 --> 00:00:39,782
+No, me duele mucho la cabeza.
+
+9
+00:00:39,805 --> 00:00:43,572
+Vaya, qué mal.
+
+10
+00:00:43,595 --> 00:00:46,662
+Sí.
+
+11
+00:00:46,685 --> 00:00:50,518
+¿Fuiste al médico?
+
+12
+00:00:50,541 --> 00:00:54,914
+No, todavía no.
+
+13
+00:00:54,938 --> 00:00:58,438
+¿Cuándo irás?
+
+14
+00:00:58,460 --> 00:01:02,131
+Iré por la tarde.
+
+15
+00:01:02,155 --> 00:01:05,272
+Entendido.
+
+16
+00:01:05,295 --> 00:01:09,431
+¿Qué hacemos con la clase de hoy?
+
+17
+00:01:09,455 --> 00:01:13,047
+Disculpe.
+
+18
+00:01:13,070 --> 00:01:17,979
+¿Puedo faltar hoy a la escuela?
+
+19
+00:01:18,003 --> 00:01:22,342
+Sí, claro que sí.
+
+20
+00:01:22,365 --> 00:01:25,140
+¡Muchas gracias!
+
+21
+00:01:25,164 --> 00:01:28,797
+¿Tomaste la medicina?
+
+22
+00:01:28,820 --> 00:01:32,809
+Sí, ya la tomé.
+
+23
+00:01:32,832 --> 00:01:36,549
+¿Cuándo la tomaste?
+
+24
+00:01:36,573 --> 00:01:41,091
+La tomé después del desayuno.
+
+25
+00:01:41,114 --> 00:01:44,947
+Muy bien.
+
+26
+00:01:44,970 --> 00:01:47,524
+Sí.
+
+27
+00:01:47,547 --> 00:01:51,681
+Tómate un descanso, abrígate bien y duerme.
+
+28
+00:01:51,703 --> 00:01:55,570
+Sí, lo haré.
+
+29
+00:01:55,593 --> 00:01:59,726
+Y toma mucha agua también.
+
+30
+00:01:59,749 --> 00:02:03,743
+Sí, entendido.
+
+31
+00:02:03,767 --> 00:02:08,100
+¿Crees que podrás venir mañana?
+
+32
+00:02:08,123 --> 00:02:11,432
+No lo sé.
+
+33
+00:02:11,456 --> 00:02:14,638
+¿Ah, sí?
+
+34
+00:02:14,661 --> 00:02:19,644
+Mañana por la mañana te volveré a llamar.
+
+35
+00:02:19,668 --> 00:02:22,803
+Entendido.
+
+36
+00:02:22,826 --> 00:02:25,893
+Te espero.
+
+37
+00:02:25,916 --> 00:02:28,450
+Sí.
+
+38
+00:02:28,473 --> 00:02:31,785
+Que te mejores.
+
+39
+00:02:31,809 --> 00:02:34,805
+¡Muchas gracias!
+
+40
+00:02:34,829 --> 00:02:38,144
+Hasta luego.
+
+41
+00:02:38,167 --> 00:02:41,501
+Hasta luego.
+
+42
+00:02:41,524 --> 00:02:43,024
+Escena 2: Comunicando retrasos en el tren
+
+43
+00:02:43,024 --> 00:02:47,690
+Profesor, buenos días.
+
+44
+00:02:47,713 --> 00:02:51,447
+¡Buenos días!
+
+45
+00:02:51,470 --> 00:02:55,103
+¿Dónde estás ahora?
+
+46
+00:02:55,126 --> 00:02:59,426
+Estoy en la estación.
+
+47
+00:02:59,449 --> 00:03:04,921
+La clase está a punto de empezar.
+
+48
+00:03:04,945 --> 00:03:08,178
+Disculpe.
+
+49
+00:03:08,201 --> 00:03:11,712
+¿Qué pasa?
+
+50
+00:03:11,736 --> 00:03:15,902
+El tren está retrasado.
+
+51
+00:03:15,925 --> 00:03:19,361
+¿El tren?
+
+52
+00:03:19,384 --> 00:03:22,618
+¿Por qué?
+
+53
+00:03:22,641 --> 00:03:26,674
+Hubo un accidente.
+
+54
+00:03:26,697 --> 00:03:29,930
+¿Un accidente?
+
+55
+00:03:29,953 --> 00:03:32,887
+Sí.
+
+56
+00:03:32,910 --> 00:03:37,702
+Por eso el tren está detenido.
+
+57
+00:03:37,725 --> 00:03:42,094
+Vaya, qué mal.
+
+58
+00:03:42,117 --> 00:03:45,627
+¿Cuándo se reanudará?
+
+59
+00:03:45,650 --> 00:03:50,284
+Creo que se moverá en unos 20 minutos.
+
+60
+00:03:50,307 --> 00:03:53,540
+Entendido.
+
+61
+00:03:53,563 --> 00:03:56,639
+Disculpe.
+
+62
+00:03:56,662 --> 00:04:01,451
+¿A qué hora llegarás a la escuela?
+
+63
+00:04:01,475 --> 00:04:06,146
+Llegaré sobre las 9:30.
+
+64
+00:04:06,170 --> 00:04:11,003
+Entonces llegarás un poco tarde a clase.
+
+65
+00:04:11,026 --> 00:04:13,893
+Sí.
+
+66
+00:04:13,916 --> 00:04:17,549
+¿Puedo llegar tarde?
+
+67
+00:04:17,572 --> 00:04:21,540
+Bueno, no hay más remedio.
+
+68
+00:04:21,564 --> 00:04:24,497
+Sí.
+
+69
+00:04:24,520 --> 00:04:28,020
+Ten cuidado.
+
+70
+00:04:28,043 --> 00:04:30,943
+¡Muchas gracias!
+
+71
+00:04:30,966 --> 00:04:35,733
+No hace falta que corras.
+
+72
+00:04:35,756 --> 00:04:37,889
+Sí.
+
+73
+00:04:37,912 --> 00:04:40,751
+Entendido.
+
+74
+00:04:40,775 --> 00:04:44,675
+La seguridad es lo primero.
+
+75
+00:04:44,698 --> 00:04:47,668
+No te apresures.
+
+76
+00:04:47,691 --> 00:04:50,558
+Sí.
+
+77
+00:04:50,581 --> 00:04:53,951
+Estoy esperando.
+
+78
+00:04:53,974 --> 00:04:57,518
+Por favor.
+
+79
+00:04:57,541 --> 00:05:00,379
+Hasta luego.
+
+80
+00:05:00,403 --> 00:05:03,669
+Cuídate.
+
+81
+00:05:03,692 --> 00:05:05,192
+Escena 3: Solicitud de certificado de matrícula
+
+82
+00:05:05,192 --> 00:05:11,374
+Profesor, ¿tiene un momento ahora?
+
+83
+00:05:11,397 --> 00:05:15,743
+Sí, tengo tiempo.
+
+84
+00:05:15,767 --> 00:05:18,742
+¡Qué bien!
+
+85
+00:05:18,766 --> 00:05:22,432
+¿En qué puedo ayudarle?
+
+86
+00:05:22,455 --> 00:05:27,089
+Querría pedirle unos documentos.
+
+87
+00:05:27,112 --> 00:05:30,825
+¿Qué documentos?
+
+88
+00:05:30,848 --> 00:05:35,515
+Necesito un certificado de matrícula.
+
+89
+00:05:35,538 --> 00:05:39,904
+¿Un certificado de matrícula?
+
+90
+00:05:39,927 --> 00:05:43,501
+¿Para qué lo necesita?
+
+91
+00:05:43,524 --> 00:05:48,796
+Lo necesito para renovar mi visado.
+
+92
+00:05:48,820 --> 00:05:51,920
+Entendido.
+
+93
+00:05:51,943 --> 00:05:55,810
+¿Para cuándo lo necesita?
+
+94
+00:05:55,833 --> 00:06:02,547
+Lo necesito para el próximo lunes.
+
+95
+00:06:02,570 --> 00:06:07,750
+En ese caso, puedo prepararlo mañana.
+
+96
+00:06:07,774 --> 00:06:11,074
+¿De verdad?
+
+97
+00:06:11,096 --> 00:06:13,796
+Sí.
+
+98
+00:06:13,819 --> 00:06:16,762
+¡Muchas gracias!
+
+99
+00:06:16,786 --> 00:06:21,520
+Escriba su nombre aquí, por favor.
+
+100
+00:06:21,543 --> 00:06:25,420
+Sí, ya lo he escrito.
+
+101
+00:06:25,444 --> 00:06:30,777
+Ahora escriba su número de estudiante.
+
+102
+00:06:30,800 --> 00:06:34,707
+Sí, ya lo he escrito.
+
+103
+00:06:34,731 --> 00:06:38,164
+¿Así está bien?
+
+104
+00:06:38,187 --> 00:06:42,020
+Sí, está perfecto.
+
+105
+00:06:42,043 --> 00:06:47,610
+¿Adónde debo ir mañana?
+
+106
+00:06:47,633 --> 00:06:53,133
+Venga a la oficina administrativa mañana por la tarde.
+
+107
+00:06:53,156 --> 00:06:56,789
+¿A la oficina administrativa?
+
+108
+00:06:56,812 --> 00:06:59,679
+Entendido.
+
+109
+00:06:59,702 --> 00:07:03,469
+Tiene un costo.
+
+110
+00:07:03,492 --> 00:07:06,812
+¿Cuánto cuesta?
+
+111
+00:07:06,835 --> 00:07:10,535
+Trescientos yenes.
+
+112
+00:07:10,558 --> 00:07:14,858
+Sí, lo llevaré mañana.
+
+113
+00:07:14,881 --> 00:07:18,914
+No se olvide.
+
+114
+00:07:18,937 --> 00:07:23,014
+Sí, no me olvidaré.
+
+115
+00:07:23,038 --> 00:07:26,144
+Por favor.
+
+116
+00:07:26,168 --> 00:07:30,468
+Hasta mañana.
+
+117
+00:07:30,491 --> 00:07:31,991
+Escena 4: Consulta sobre un trabajo de medio tiempo
+
+118
+00:07:31,991 --> 00:07:36,624
+Profesor, ¿puedo hacerle una pregunta?
+
+119
+00:07:36,647 --> 00:07:40,080
+Sí, ¿qué necesita?
+
+120
+00:07:40,103 --> 00:07:44,888
+Encontré un nuevo trabajo de medio tiempo.
+
+121
+00:07:44,912 --> 00:07:49,670
+¿Ah sí? ¿Qué tipo de trabajo es?
+
+122
+00:07:49,693 --> 00:07:53,727
+Es en un restaurante.
+
+123
+00:07:53,750 --> 00:07:57,050
+¿Qué hará allí?
+
+124
+00:07:57,073 --> 00:08:00,665
+Llevaré los platos.
+
+125
+00:08:00,688 --> 00:08:03,655
+¡Qué bien!
+
+126
+00:08:03,678 --> 00:08:09,066
+¿Cuántas horas trabajará a la semana?
+
+127
+00:08:09,089 --> 00:08:13,523
+Trabajo alrededor de veinte horas.
+
+128
+00:08:13,546 --> 00:08:18,212
+Es menos de veintiocho horas, ¿verdad?
+
+129
+00:08:18,235 --> 00:08:21,935
+Sí, así es.
+
+130
+00:08:21,958 --> 00:08:26,632
+En ese caso, no hay problema.
+
+131
+00:08:26,655 --> 00:08:29,522
+¡Qué bien!
+
+132
+00:08:29,545 --> 00:08:34,012
+Pero, ¿es tarde por la noche?
+
+133
+00:08:34,035 --> 00:08:37,911
+Hasta las diez de la noche.
+
+134
+00:08:37,935 --> 00:08:42,901
+¿Tienes tiempo para hacer la tarea de la escuela?
+
+135
+00:08:42,924 --> 00:08:46,758
+Sí, lo tengo.
+
+136
+00:08:46,781 --> 00:08:50,547
+¿Cuándo estudias?
+
+137
+00:08:50,570 --> 00:08:55,070
+Estudio después de levantarme por la mañana.
+
+138
+00:08:55,093 --> 00:08:59,075
+Ah, entonces ya me quedé tranquilo.
+
+139
+00:08:59,099 --> 00:09:01,832
+Sí.
+
+140
+00:09:01,855 --> 00:09:06,844
+¿Quieres que te dé la dirección de la nueva tienda?
+
+141
+00:09:06,868 --> 00:09:10,808
+Sí, dámela.
+
+142
+00:09:10,832 --> 00:09:14,865
+¿También das el número de teléfono?
+
+143
+00:09:14,888 --> 00:09:17,988
+Sí.
+
+144
+00:09:18,012 --> 00:09:23,046
+Bueno, escríbelo en este papel y dámelo.
+
+145
+00:09:23,068 --> 00:09:26,402
+Entendido.
+
+146
+00:09:26,425 --> 00:09:30,258
+¿Puedo traerlo mañana?
+
+147
+00:09:30,281 --> 00:09:33,848
+Sí, claro que sí.
+
+148
+00:09:33,871 --> 00:09:36,505
+Te espero.
+
+149
+00:09:36,528 --> 00:09:39,840
+¡Muchas gracias!
+
+150
+00:09:39,863 --> 00:09:43,097
+¡Lo haré con esfuerzo!
+
+151
+00:09:43,119 --> 00:09:47,286
+No te exijas demasiado, ¿eh?
+
+152
+00:09:47,309 --> 00:09:48,809
+Escena 5: Mudanza y nueva residencia
+
+153
+00:09:48,809 --> 00:09:53,476
+Profesora, buenas noches.
+
+154
+00:09:53,499 --> 00:09:56,616
+Buenas noches.
+
+155
+00:09:56,639 --> 00:09:59,873
+¿Qué pasa?
+
+156
+00:09:59,896 --> 00:10:04,729
+La verdad es que me mudé.
+
+157
+00:10:04,752 --> 00:10:07,893
+¿Ah, sí?
+
+158
+00:10:07,917 --> 00:10:11,017
+¿Cuándo fue?
+
+159
+00:10:11,040 --> 00:10:15,381
+El domingo pasado.
+
+160
+00:10:15,404 --> 00:10:19,321
+¿Adónde te mudaste?
+
+161
+00:10:19,344 --> 00:10:23,844
+A un apartamento cerca de la escuela.
+
+162
+00:10:23,867 --> 00:10:27,501
+¡Qué bien!
+
+163
+00:10:27,524 --> 00:10:31,503
+¿Puedes venir caminando?
+
+164
+00:10:31,526 --> 00:10:36,438
+Son unos diez minutos caminando.
+
+165
+00:10:36,461 --> 00:10:41,047
+¡Qué cerca y conveniente!
+
+166
+00:10:41,071 --> 00:10:46,837
+Sí, te daré mi nueva dirección.
+
+167
+00:10:46,860 --> 00:10:49,594
+¡Muchas gracias!
+
+168
+00:10:49,617 --> 00:10:53,917
+Enséñame el reverso de tu tarjeta de residencia.
+
+169
+00:10:53,940 --> 00:10:57,889
+Sí, aquí está.
+
+170
+00:10:57,912 --> 00:11:02,545
+Cambiaste tu dirección en el ayuntamiento, ¿verdad?
+
+171
+00:11:02,568 --> 00:11:06,868
+Sí, fui ayer.
+
+172
+00:11:06,891 --> 00:11:10,058
+Entendido.
+
+173
+00:11:10,081 --> 00:11:14,514
+También actualizaré los documentos de la escuela.
+
+174
+00:11:14,537 --> 00:11:17,322
+Por favor.
+
+175
+00:11:17,346 --> 00:11:21,503
+¿Cómo es tu nueva habitación?
+
+176
+00:11:21,526 --> 00:11:24,684
+Es una habitación agradable.
+
+177
+00:11:24,707 --> 00:11:27,649
+¿Es espaciosa?
+
+178
+00:11:27,673 --> 00:11:31,507
+Es un poco pequeña.
+
+179
+00:11:31,530 --> 00:11:34,596
+¿Ah, sí?
+
+180
+00:11:34,619 --> 00:11:39,792
+Pero es muy tranquila.
+
+181
+00:11:39,816 --> 00:11:43,350
+¡Qué bien!
+
+182
+00:11:43,373 --> 00:11:46,239
+Sí.
+
+183
+00:11:46,262 --> 00:11:50,401
+Podrás estudiar mucho.
+
+184
+00:11:50,425 --> 00:11:54,325
+Sí, lo haré con esfuerzo.
+
+185
+00:11:54,348 --> 00:11:57,648
+Entendido.
+
+186
+00:11:57,671 --> 00:12:00,704
+¡Gracias!
+
+187
+00:12:00,727 --> 00:12:05,229
+No hay de qué.
+
+188
+00:12:05,253 --> 00:12:06,753
+Escena 6: Pedir permiso para irse temprano
+
+189
+00:12:06,753 --> 00:12:12,220
+Profesora, tengo un pequeño favor que pedirle.
+
+190
+00:12:12,243 --> 00:12:15,610
+Sí, ¿en qué puedo ayudarte?
+
+191
+00:12:15,633 --> 00:12:20,988
+¿Puedo irme más temprano esta tarde?
+
+192
+00:12:21,011 --> 00:12:25,048
+¿Te vas temprano?
+
+193
+00:12:25,072 --> 00:12:27,772
+Sí.
+
+194
+00:12:27,795 --> 00:12:30,552
+¿Por qué?
+
+195
+00:12:30,576 --> 00:12:35,292
+Tengo que ir al ayuntamiento.
+
+196
+00:12:35,316 --> 00:12:39,027
+¿Al ayuntamiento?
+
+197
+00:12:39,050 --> 00:12:42,684
+¿Qué hará allí?
+
+198
+00:12:42,706 --> 00:12:47,303
+Voy a pagar el seguro médico.
+
+199
+00:12:47,327 --> 00:12:50,883
+¿Ah, sí?
+
+200
+00:12:50,906 --> 00:12:54,773
+¿A qué hora volverás?
+
+201
+00:12:54,796 --> 00:12:59,762
+Quiero irme después de la tercera clase.
+
+202
+00:12:59,785 --> 00:13:03,885
+¿Después de la tercera clase, entonces?
+
+203
+00:13:03,908 --> 00:13:07,066
+Entendido.
+
+204
+00:13:07,090 --> 00:13:12,204
+¿Qué hago con el examen de la cuarta clase?
+
+205
+00:13:12,227 --> 00:13:18,094
+Toma el examen mañana por la mañana.
+
+206
+00:13:18,117 --> 00:13:21,657
+¿Mañana por la mañana, entonces?
+
+207
+00:13:21,681 --> 00:13:24,714
+Entendido.
+
+208
+00:13:24,737 --> 00:13:30,652
+Pregúntale a un amigo por la tarea de hoy.
+
+209
+00:13:30,675 --> 00:13:32,945
+Sí.
+
+210
+00:13:32,969 --> 00:13:37,407
+Después le enviaré un correo a mi amigo.
+
+211
+00:13:37,431 --> 00:13:42,297
+¿Qué llevas al ayuntamiento?
+
+212
+00:13:42,320 --> 00:13:46,253
+Llevo mi pasaporte.
+
+213
+00:13:46,276 --> 00:13:49,793
+¿Hay algo más?
+
+214
+00:13:49,817 --> 00:13:54,084
+También llevo mi tarjeta de residencia.
+
+215
+00:13:54,107 --> 00:13:58,680
+Ten cuidado de no olvidarlo.
+
+216
+00:13:58,703 --> 00:14:02,301
+¿Lo metiste en la mochila?
+
+217
+00:14:02,325 --> 00:14:04,758
+Sí.
+
+218
+00:14:04,781 --> 00:14:07,281
+Sí, lo metí.
+
+219
+00:14:07,304 --> 00:14:10,272
+Tendré cuidado.
+
+220
+00:14:10,296 --> 00:14:13,643
+Entonces está bien.
+
+221
+00:14:13,666 --> 00:14:16,305
+¡Muchas gracias!
+
+222
+00:14:16,328 --> 00:14:20,428
+Cuídate y que tengas un buen viaje.
+
+223
+00:14:20,451 --> 00:14:22,718
+Sí.
+
+224
+00:14:22,741 --> 00:14:25,608
+Hasta luego.
+
+225
+00:14:25,631 --> 00:14:27,131
+Escena 7: Verificación de documentos olvidados
+
+226
+00:14:27,131 --> 00:14:31,664
+Profesor, ¿puedo entrar?
+
+227
+00:14:31,687 --> 00:14:35,554
+Sí, pasa.
+
+228
+00:14:35,577 --> 00:14:40,653
+Traje los documentos que me mencionaste.
+
+229
+00:14:40,676 --> 00:14:44,610
+¿La encuesta de orientación vocacional, verdad?
+
+230
+00:14:44,633 --> 00:14:48,819
+Sí, así es.
+
+231
+00:14:48,843 --> 00:14:51,943
+¡Muchas gracias!
+
+232
+00:14:51,966 --> 00:14:55,517
+¿Está bien así?
+
+233
+00:14:55,540 --> 00:14:59,409
+Déjame ver.
+
+234
+00:14:59,432 --> 00:15:01,978
+Sí.
+
+235
+00:15:02,001 --> 00:15:07,301
+Ah, aquí falta algo.
+
+236
+00:15:07,324 --> 00:15:10,991
+¿Dónde?
+
+237
+00:15:11,014 --> 00:15:14,714
+En la página 2.
+
+238
+00:15:14,737 --> 00:15:18,522
+Ah, es verdad.
+
+239
+00:15:18,545 --> 00:15:23,212
+Es en el espacio del número de teléfono.
+
+240
+00:15:23,235 --> 00:15:27,268
+Ah, perdón.
+
+241
+00:15:27,291 --> 00:15:30,191
+Se me olvidó.
+
+242
+00:15:30,214 --> 00:15:34,409
+Escríbelo aquí ahora.
+
+243
+00:15:34,432 --> 00:15:37,935
+Tengo un bolígrafo.
+
+244
+00:15:37,959 --> 00:15:41,092
+¡Muchas gracias!
+
+245
+00:15:41,115 --> 00:15:44,301
+Ya lo escribí.
+
+246
+00:15:44,325 --> 00:15:47,107
+Sí.
+
+247
+00:15:47,130 --> 00:15:50,666
+¿Todo está listo?
+
+248
+00:15:50,690 --> 00:15:55,267
+Disculpe por llegar tarde.
+
+249
+00:15:55,290 --> 00:16:01,157
+Todavía no es la fecha límite, así que no hay problema.
+
+250
+00:16:01,180 --> 00:16:04,378
+Qué bien.
+
+251
+00:16:04,401 --> 00:16:07,182
+Me quedé más tranquilo.
+
+252
+00:16:07,205 --> 00:16:13,872
+En la próxima reunión hablaremos mientras revisamos esta encuesta.
+
+253
+00:16:13,895 --> 00:16:17,649
+Sí, entendido.
+
+254
+00:16:17,672 --> 00:16:22,189
+La reunión es la próxima semana, ¿verdad?
+
+255
+00:16:22,212 --> 00:16:26,166
+Sí, es la próxima semana.
+
+256
+00:16:26,190 --> 00:16:30,572
+¿Hay algo más que no entiendas?
+
+257
+00:16:30,595 --> 00:16:34,309
+No, no hay nada.
+
+258
+00:16:34,332 --> 00:16:39,066
+Bueno, con esto terminamos.
+
+259
+00:16:39,089 --> 00:16:42,189
+¡Gracias!
+
+260
+00:16:42,212 --> 00:16:47,045
+Hasta luego en el salón de clases.
+
+261
+00:16:47,068 --> 00:16:50,204
+Hasta luego.
+
+262
+00:16:50,228 --> 00:16:51,728
+Escena 8: Programación de una sesión de orientación vocacional / Scheduling a Career Counseling Session
+
+263
+00:16:51,728 --> 00:16:58,161
+Profesor, quería hablar con usted sobre lo de la próxima semana.
+
+264
+00:16:58,184 --> 00:17:01,662
+Sí, ¿qué necesita?
+
+265
+00:17:01,685 --> 00:17:07,585
+Me gustaría conversar con usted sobre mi futuro académico.
+
+266
+00:17:07,609 --> 00:17:11,042
+¿Una sesión de orientación, entonces?
+
+267
+00:17:11,065 --> 00:17:14,198
+¿Qué día le viene bien?
+
+268
+00:17:14,221 --> 00:17:19,398
+¿Qué tal el jueves de la próxima semana?
+
+269
+00:17:19,421 --> 00:17:25,055
+El jueves estoy un poco ocupado.
+
+270
+00:17:25,078 --> 00:17:28,311
+¿Ah, sí?
+
+271
+00:17:28,334 --> 00:17:32,480
+Por la tarde tengo una reunión.
+
+272
+00:17:32,504 --> 00:17:37,537
+Entonces, ¿el miércoles tiene tiempo libre?
+
+273
+00:17:37,560 --> 00:17:42,827
+Por la tarde después de clases sí tengo tiempo.
+
+274
+00:17:42,850 --> 00:17:46,586
+¿Después de clases, entonces?
+
+275
+00:17:46,609 --> 00:17:49,476
+¿A qué hora?
+
+276
+00:17:49,499 --> 00:17:53,732
+¿Qué tal a las tres de la tarde?
+
+277
+00:17:53,755 --> 00:17:59,022
+Sí, estaré aquí a las tres.
+
+278
+00:17:59,045 --> 00:18:02,078
+Entendido.
+
+279
+00:18:02,101 --> 00:18:06,168
+¿Hay algo que deba llevar?
+
+280
+00:18:06,192 --> 00:18:13,092
+Para la sesión, traiga el libro de la universidad a la que quiera ingresar.
+
+281
+00:18:13,115 --> 00:18:16,615
+¿Un folleto, entonces?
+
+282
+00:18:16,638 --> 00:18:19,427
+Lo tengo.
+
+283
+00:18:19,450 --> 00:18:24,723
+Mientras lo revisamos, lo pensaremos juntos.
+
+284
+00:18:24,747 --> 00:18:27,461
+Sí.
+
+285
+00:18:27,485 --> 00:18:31,618
+¿Tiene alguna universidad en mente?
+
+286
+00:18:31,641 --> 00:18:36,311
+Sí, tengo dos universidades en mente.
+
+287
+00:18:36,334 --> 00:18:40,001
+Entendido.
+
+288
+00:18:40,024 --> 00:18:43,012
+¡Qué emocionante!
+
+289
+00:18:43,035 --> 00:18:47,434
+Sí, gracias por su ayuda.
+
+290
+00:18:47,458 --> 00:18:51,758
+Le espero el miércoles a las tres.
+
+291
+00:18:51,781 --> 00:18:55,081
+¡Muchas gracias!
+
+292
+00:18:55,104 --> 00:18:59,610
+¿Tiene alguna otra pregunta?
+
+293
+00:18:59,633 --> 00:19:03,792
+No, está bien así.
+
+294
+00:19:03,815 --> 00:19:07,249
+Bueno, nos vemos.
+
+295
+00:19:07,272 --> 00:19:10,105
+Hasta luego.
+
+296
+00:19:10,128 --> 00:19:13,841
+Hasta luego.
+
+297
+00:19:13,864 --> 00:19:15,364
+Escena 9: Cómo verificar si te has olvidado algo / How to Check for Lost Items
+
+298
+00:19:15,364 --> 00:19:19,264
+Profesor, perdón por molestarlo.
+
+299
+00:19:19,287 --> 00:19:23,021
+¿Sí? ¿En qué puedo ayudarle?
+
+300
+00:19:23,044 --> 00:19:27,511
+Me olvidé algo en el salón de clases.
+
+301
+00:19:27,535 --> 00:19:31,052
+¿Qué se olvidó?
+
+302
+00:19:31,075 --> 00:19:35,175
+Se me olvidó un paraguas negro.
+
+303
+00:19:35,198 --> 00:19:38,632
+¿Un paraguas negro?
+
+304
+00:19:38,655 --> 00:19:41,093
+Sí.
+
+305
+00:19:41,116 --> 00:19:44,584
+¿Cuándo lo dejó?
+
+306
+00:19:44,608 --> 00:19:48,575
+Después de la clase de ayer.
+
+307
+00:19:48,598 --> 00:19:51,964
+¿Dónde lo dejó?
+
+308
+00:19:51,987 --> 00:19:55,928
+Lo dejé al lado del escritorio.
+
+309
+00:19:55,952 --> 00:19:58,585
+¿Ah, sí?
+
+310
+00:19:58,608 --> 00:20:01,242
+Sí.
+
+311
+00:20:01,265 --> 00:20:05,765
+Vamos a revisar si está en la oficina.
+
+312
+00:20:05,787 --> 00:20:08,621
+Por favor.
+
+313
+00:20:08,644 --> 00:20:11,877
+¿Cómo es el paraguas?
+
+314
+00:20:11,900 --> 00:20:14,733
+¿Es largo?
+
+315
+00:20:14,756 --> 00:20:17,390
+Sí.
+
+316
+00:20:17,413 --> 00:20:20,379
+Es un paraguas largo.
+
+317
+00:20:20,402 --> 00:20:24,102
+No es uno corto, ¿verdad?
+
+318
+00:20:24,125 --> 00:20:26,594
+Sí.
+
+319
+00:20:26,618 --> 00:20:30,452
+El mango es de color marrón.
+
+320
+00:20:30,475 --> 00:20:33,508
+Espere un momento, por favor.
+
+321
+00:20:33,531 --> 00:20:36,044
+Sí.
+
+322
+00:20:36,067 --> 00:20:39,401
+¿Ah, esto?
+
+323
+00:20:39,424 --> 00:20:42,658
+Sí, eso.
+
+324
+00:20:42,681 --> 00:20:45,274
+¡Eso es!
+
+325
+00:20:45,297 --> 00:20:47,997
+Es mío.
+
+326
+00:20:48,020 --> 00:20:51,527
+¡Qué bien que lo hayas encontrado!
+
+327
+00:20:51,551 --> 00:20:54,190
+Sí.
+
+328
+00:20:54,213 --> 00:20:57,147
+¡Muchas gracias!
+
+329
+00:20:57,170 --> 00:21:01,470
+Afuera está lloviendo, ¿sabes?
+
+330
+00:21:01,493 --> 00:21:04,193
+Sí, es cierto.
+
+331
+00:21:04,216 --> 00:21:08,449
+Ten más cuidado la próxima vez, ¿vale?
+
+332
+00:21:08,472 --> 00:21:10,972
+Sí.
+
+333
+00:21:10,995 --> 00:21:13,862
+Tendré cuidado.
+
+334
+00:21:13,885 --> 00:21:17,662
+¡Muchas gracias de verdad!
+
+335
+00:21:17,685 --> 00:21:21,953
+Bueno, por aquí.
+
+336
+00:21:21,977 --> 00:21:25,573
+Cuídate al volver a casa.
+
+337
+00:21:25,596 --> 00:21:27,947
+Sí.
+
+338
+00:21:27,971 --> 00:21:30,914
+Hasta luego.
+
+339
+00:21:30,937 --> 00:21:32,437
+Escena 10: Normas para ir en bicicleta al colegio / Rules for Biking to School
+
+340
+00:21:32,437 --> 00:21:37,971
+Profesor, ¿puedo hacerle una pregunta?
+
+341
+00:21:37,994 --> 00:21:41,502
+Sí, pasa.
+
+342
+00:21:41,526 --> 00:21:47,241
+Quiero ir al colegio en bicicleta desde mañana.
+
+343
+00:21:47,264 --> 00:21:50,609
+¿En bicicleta?
+
+344
+00:21:50,632 --> 00:21:54,605
+¿Está lejos de tu casa?
+
+345
+00:21:54,629 --> 00:21:59,597
+Sí, está un poco lejos.
+
+346
+00:21:59,620 --> 00:22:03,987
+¿Cuánto tardas caminando?
+
+347
+00:22:04,010 --> 00:22:09,076
+Caminando se tarda treinta minutos.
+
+348
+00:22:09,099 --> 00:22:13,694
+Entonces mejor ir en bicicleta, ¿no?
+
+349
+00:22:13,718 --> 00:22:20,352
+Sí. ¿Puedo dejar la bici en cualquier sitio?
+
+350
+00:22:20,375 --> 00:22:27,008
+Hay un lugar para dejar las bicis detrás del colegio.
+
+351
+00:22:27,031 --> 00:22:30,029
+¿Detrás del colegio?
+
+352
+00:22:30,052 --> 00:22:35,086
+¿Hay que pagar por eso?
+
+353
+00:22:35,109 --> 00:22:39,426
+No, no hace falta pagar.
+
+354
+00:22:39,449 --> 00:22:42,620
+¿Es gratis?
+
+355
+00:22:42,644 --> 00:22:46,595
+Sí, es gratis.
+
+356
+00:22:46,619 --> 00:22:49,935
+¡Qué bien!
+
+357
+00:22:49,958 --> 00:22:53,691
+¿Puedo dejarla en cualquier momento?
+
+358
+00:22:53,714 --> 00:22:58,548
+Solo cuando el colegio esté abierto.
+
+359
+00:22:58,571 --> 00:23:01,504
+Entendido.
+
+360
+00:23:01,527 --> 00:23:05,800
+¿Hay algo que deba tener en cuenta?
+
+361
+00:23:05,823 --> 00:23:09,774
+Pues... ¿qué?
+
+362
+00:23:09,798 --> 00:23:14,465
+Asegúrate de cerrar bien el candado.
+
+363
+00:23:14,488 --> 00:23:19,988
+Sí, tengo dos llaves.
+
+364
+00:23:20,011 --> 00:23:23,645
+¡Entonces no hay problema!
+
+365
+00:23:23,669 --> 00:23:29,370
+Si no encuentras el sitio, vuelve a preguntar.
+
+366
+00:23:29,393 --> 00:23:34,893
+Ten cuidado al manejar la bici.
+
+367
+00:23:34,916 --> 00:23:39,585
+Especialmente los días de lluvia.
+
+368
+00:23:39,608 --> 00:23:43,675
+Bueno, hasta mañana.
