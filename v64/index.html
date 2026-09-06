@@ -403,7 +403,7 @@
                                 </div>
                             </div>
                             
-                            <div class="${bgColor} ${borderRadius} p-3 sm:p-4 shadow-sm w-full transition-shadow duration-300 message-bubble">
+                            <div onclick="jumpVideoToTime(${line.startTime || 0})" class="${bgColor} ${borderRadius} p-3 sm:p-4 shadow-sm w-full transition-shadow duration-300 message-bubble cursor-pointer hover:shadow-md" title="クリックして動画をこのセリフにジャンプ">
                                 <div class="w-full ${blurClass}" ${titleText}>
                                     ${extraContent}
                                 </div>
@@ -415,6 +415,26 @@
                 `;
                 container.insertAdjacentHTML('beforeend', html);
             });
+        }
+
+        // テキストクリック時にYouTube動画を指定秒数へシーク＆再生
+        function jumpVideoToTime(startTime) {
+            if (ytPlayer && typeof ytPlayer.seekTo === 'function' && startTime !== undefined) {
+                // 独自音声の通し再生が走っていたら停止
+                if (appState.isPlaying) {
+                    const playBtnIcon = document.querySelector('#play-scene-btn i');
+                    if (playBtnIcon) playBtnIcon.className = 'fa-solid fa-play';
+                    const mixBtnIcon = document.querySelector('#play-mix-btn i');
+                    if (mixBtnIcon) mixBtnIcon.className = 'fa-solid fa-shuffle';
+                    appState.isPlaying = false;
+                }
+                if (currentAudio) currentAudio.pause();
+
+                ytPlayer.seekTo(startTime, true);
+                if (typeof ytPlayer.playVideo === 'function') {
+                    ytPlayer.playVideo();
+                }
+            }
         }
 
         let currentAudio = null;
