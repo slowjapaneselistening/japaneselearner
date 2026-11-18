@@ -1,0 +1,1634 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2B0GEY45P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F2B0GEY45P');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slow Japanese Listening | Member Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap');
+        body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
+
+        .fade-in {
+            animation: fadeIn 0.35s ease-out forwards;
+            opacity: 0;
+            transform: translateY(8px);
+        }
+        @keyframes fadeIn {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .speaker-1-bg { background-color: #ffffff; }
+        .speaker-2-bg { background-color: #f0fdf4; }
+
+        .kanji-hidden {
+            display: inline-block;
+            background-color: #fef08a;
+            border-bottom: 2px dashed #ca8a04;
+            border-radius: 4px;
+            padding: 0 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+        }
+        .kanji-hidden:hover { background-color: #fde047; }
+        .kanji-revealed {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%) translateY(5px);
+            background-color: #1e40af;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease-out;
+            white-space: nowrap;
+            z-index: 10;
+        }
+        .kanji-hidden.show-ruby .kanji-revealed {
+            opacity: 1;
+            transform: translateX(-50%) translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen">
+
+    <!-- ========================================================= -->
+    <!-- 1. 会員パスコード認証画面 -->
+    <!-- ========================================================= -->
+    <div id="auth-screen" class="min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div class="w-full max-w-md bg-white rounded-3xl shadow-xl border border-gray-100 p-7 sm:p-8">
+            <div class="flex justify-end mb-3">
+                <div class="flex items-center gap-1.5 text-xs text-gray-500">
+                    <i class="fa-solid fa-globe"></i>
+                    <select id="ui-lang-auth" class="ui-lang-select bg-gray-50 border border-gray-200 rounded-lg px-2 py-1 text-xs font-medium text-gray-700 focus:ring-2 focus:ring-blue-500 outline-none"></select>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-3 mb-5">
+                <div class="w-12 h-12 bg-blue-600 rounded-2xl flex items-center justify-center text-white shadow-md">
+                    <i class="fa-solid fa-headphones-simple text-2xl"></i>
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold text-gray-900">Slow Japanese Listening</h1>
+                    <p class="text-xs text-gray-500">YouTube Member Bonus Portal</p>
+                </div>
+            </div>
+
+            <p id="auth-desc" class="text-sm text-gray-600 mb-5 leading-relaxed"></p>
+
+            <form id="auth-form" class="space-y-4">
+                <div>
+                    <label id="auth-label" for="passcode-input" class="block text-xs font-semibold text-gray-600 mb-1.5"></label>
+                    <input id="passcode-input" type="password" autocomplete="off" placeholder="Enter passcode..."
+                        class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm outline-none transition">
+                </div>
+                <div id="auth-error" class="hidden text-xs text-red-600 bg-red-50 border border-red-200 rounded-lg px-3 py-2"></div>
+                <button id="auth-submit-btn" type="submit"
+                    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-xl shadow-sm transition flex items-center justify-center gap-2 text-sm">
+                    <i class="fa-solid fa-unlock-keyhole"></i>
+                    <span id="auth-submit-text">Open Member Portal</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ========================================================= -->
+    <!-- 2. 会員ポータル本体（認証後に表示） -->
+    <!-- ========================================================= -->
+    <div id="portal-shell" class="hidden min-h-screen flex flex-col">
+        <!-- ヘッダー -->
+        <header class="bg-white shadow-sm sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4 py-3 flex flex-wrap justify-between items-center gap-3">
+                <div class="flex items-center gap-3">
+                    <div class="w-9 h-9 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-sm">
+                        <i class="fa-solid fa-language text-lg"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-base sm:text-lg font-bold text-gray-900 leading-tight">Slow Japanese Member</h1>
+                        <span id="plan-badge" class="inline-block text-[11px] font-semibold px-2 py-0.5 rounded-full bg-blue-100 text-blue-700"></span>
+                    </div>
+                </div>
+
+                <!-- ナビゲーションタブ -->
+                <nav class="flex items-center gap-1.5 sm:gap-2 order-3 sm:order-2 w-full sm:w-auto overflow-x-auto pb-1 sm:pb-0">
+                    <button data-tab="mp3" class="nav-tab-btn px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center gap-1.5 whitespace-nowrap">
+                        <i class="fa-solid fa-music"></i> <span id="nav-label-mp3">MP3 Audio</span>
+                    </button>
+                    <button id="tab-btn-anki" data-tab="anki" class="nav-tab-btn hidden px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center gap-1.5 whitespace-nowrap">
+                        <i class="fa-solid fa-layer-group"></i> <span id="nav-label-anki">Anki Decks</span>
+                    </button>
+                    <button id="tab-btn-webapp" data-tab="webapp" class="nav-tab-btn hidden px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center gap-1.5 whitespace-nowrap">
+                        <i class="fa-solid fa-book-open"></i> <span id="nav-label-webapp">Web App</span>
+                    </button>
+                </nav>
+
+                <!-- 右側アクション -->
+                <div class="flex items-center gap-2 order-2 sm:order-3">
+                    <select id="ui-lang-header" aria-label="UI Language"
+                        class="ui-lang-select px-2 py-1.5 rounded-lg bg-gray-100 border border-gray-200 text-gray-700 text-xs font-medium outline-none focus:ring-2 focus:ring-blue-500">
+                    </select>
+                    <button id="refresh-catalog-btn"
+                        class="px-2.5 py-1.5 rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-600 text-xs font-medium transition flex items-center gap-1">
+                        <i class="fa-solid fa-rotate"></i><span id="btn-refresh-text" class="hidden md:inline">Refresh</span>
+                    </button>
+                    <button id="logout-btn"
+                        class="px-2.5 py-1.5 rounded-lg bg-gray-100 hover:bg-red-50 text-gray-600 hover:text-red-600 text-xs font-medium transition flex items-center gap-1">
+                        <i class="fa-solid fa-right-from-bracket"></i><span id="btn-logout-text" class="hidden md:inline">Switch</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- タブ1: BGMなし聞き流しMP3 -->
+        <section id="panel-mp3" class="tab-panel max-w-5xl w-full mx-auto px-4 py-6 space-y-4">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+                <div>
+                    <h2 id="mp3-heading" class="text-lg font-bold text-gray-900">BGM-Free Listening MP3</h2>
+                    <p id="mp3-subheading" class="text-xs text-gray-500"></p>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-2">
+                    <select id="mp3-lang-filter" class="px-3 py-2 rounded-xl border border-gray-300 bg-white text-xs sm:text-sm font-medium text-gray-700 focus:ring-2 focus:ring-blue-500 outline-none">
+                        <option value="ALL">All Languages</option>
+                    </select>
+                    <input id="mp3-search" type="text" placeholder="Search..."
+                        class="w-full sm:w-56 px-3.5 py-2 rounded-xl border border-gray-300 bg-white text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                </div>
+            </div>
+            <div id="mp3-list" class="grid grid-cols-1 gap-3"></div>
+        </section>
+
+        <!-- タブ2: 音声付き Anki デッキ（上位プラン限定） -->
+        <section id="panel-anki" class="tab-panel hidden max-w-5xl w-full mx-auto px-4 py-6 space-y-4">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+                <div>
+                    <h2 id="anki-heading" class="text-lg font-bold text-gray-900">Anki Flashcard Decks (.apkg)</h2>
+                    <p id="anki-subheading" class="text-xs text-gray-500"></p>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-2">
+                    <select id="anki-lang-filter" class="px-3 py-2 rounded-xl border border-gray-300 bg-white text-xs sm:text-sm font-medium text-gray-700 focus:ring-2 focus:ring-blue-500 outline-none">
+                        <option value="ALL">All Languages</option>
+                    </select>
+                    <input id="anki-search" type="text" placeholder="Search..."
+                        class="w-full sm:w-56 px-3.5 py-2 rounded-xl border border-gray-300 bg-white text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                </div>
+            </div>
+            <div id="anki-list" class="grid grid-cols-1 gap-3"></div>
+        </section>
+
+        <!-- タブ3: 学習Webアプリ（上位プラン限定・minna4/index.html 全機能継承） -->
+        <section id="panel-webapp" class="tab-panel hidden w-full">
+            <!-- レッスン選択バー -->
+            <div class="max-w-7xl mx-auto px-4 pt-4">
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-3 sm:p-4 flex flex-col sm:flex-row sm:items-center gap-3">
+                    <label for="lesson-selector" class="text-xs font-bold text-gray-600 whitespace-nowrap flex items-center gap-1.5">
+                        <i class="fa-solid fa-film text-blue-600"></i> <span id="lesson-select-label">Lesson:</span>
+                    </label>
+                    <select id="lesson-selector"
+                        class="flex-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 p-2.5 font-medium truncate">
+                    </select>
+                    <span id="lesson-status-badge" class="text-xs text-gray-500 whitespace-nowrap"></span>
+                </div>
+            </div>
+
+            <!-- 既存学習用 index.html 互換メインレイアウト -->
+            <main class="max-w-7xl mx-auto px-4 mt-3 flex flex-col landscape:flex-row md:flex-row gap-6 items-start">
+                <!-- 左ペイン: YouTube動画 + コントロール -->
+                <div class="contents landscape:block md:block w-full landscape:sticky md:sticky landscape:top-20 md:top-20 landscape:w-1/2 md:w-1/2 space-y-4 landscape:max-h-[calc(100vh-6rem)] landscape:overflow-y-auto pr-1">
+                    <div class="w-full bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden p-3 sm:p-4 sticky top-[104px] z-30 landscape:z-auto landscape:static md:static">
+                        <div class="relative w-full pb-[56.25%] h-0 bg-black rounded-xl overflow-hidden">
+                            <div id="player" class="absolute top-0 left-0 w-full h-full"></div>
+                        </div>
+                    </div>
+
+                    <div class="w-full bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden relative z-20">
+                        <div class="bg-gray-50/50 p-4 flex flex-col gap-3">
+                            <div class="flex flex-col gap-2 w-full">
+                                <select id="scene-selector" class="w-full bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2 shadow-sm font-medium truncate">
+                                </select>
+
+                                <div class="flex gap-2 w-full">
+                                    <select id="roleplay-selector" class="flex-1 bg-purple-50 border border-purple-200 text-purple-800 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2 font-medium shadow-sm truncate">
+                                        <option value="none">👤 Roleplay: Off</option>
+                                        <option value="Speaker 1">🔇 Mute Speaker 1</option>
+                                        <option value="Speaker 2">🔇 Mute Speaker 2</option>
+                                    </select>
+
+                                    <button onclick="playEntireScene()" id="play-scene-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm shrink-0">
+                                        <i class="fa-solid fa-play"></i> Play
+                                    </button>
+
+                                    <button onclick="playMixedScene()" id="play-mix-btn" class="bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm shrink-0">
+                                        <i class="fa-solid fa-shuffle"></i> Mix Play
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-wrap items-center gap-4 text-xs font-medium text-gray-600 border-t border-gray-100 pt-2">
+                                <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
+                                    <input type="checkbox" id="toggle-japanese" checked class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                                    Japanese
+                                </label>
+                                <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
+                                    <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                                    Romaji
+                                </label>
+                                <div class="flex items-center gap-1.5 cursor-pointer text-gray-600 hover:text-blue-600 transition-colors">
+                                    <input type="checkbox" id="toggle-translation" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                                    <span>Translation:</span>
+                                    <select id="lang-selector" class="bg-white border border-gray-300 text-gray-700 text-xs rounded p-0.5 font-medium focus:ring-blue-500 focus:border-blue-500">
+                                    </select>
+                                </div>
+                                <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
+                                    <input type="checkbox" id="toggle-kanji-test" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                                    Hide Furigana
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 右ペイン: 会話吹き出しリスト -->
+                <div class="w-full pt-2 landscape:pt-0 md:pt-0 landscape:w-1/2 md:w-1/2 pb-12 relative z-20">
+                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                        <div class="p-4 sm:p-6 bg-gray-50/40 min-h-[500px]">
+                            <div id="dialogue-list" class="flex flex-col gap-6"></div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </section>
+    </div>
+
+    <script>
+        // =========================================================
+        // ★ GAS 中継エンドポイント設定
+        // =========================================================
+        const GAS_API_URL = 'https://script.google.com/macros/s/AKfycbxt3LWh7I0ySW6w5wY41ZVE2X1YoIjFDA5RyCNtXGUfPvSDu7464sj3ZJNJcUIc0SAeGA/exec';
+        const STORAGE_KEY_NAME = 'sjl_member_passkey';
+
+        const LANG_MAP = {
+            'English': 'en', 'Japanese': 'ja', 'Vietnamese': 'vi', 'Indonesian': 'id', 'Thai': 'th', 'Korean': 'ko',
+            'Chinese (Simplified)': 'zh-Hans', 'Chinese (Traditional)': 'zh-Hant', 'Spanish': 'es',
+            'Portuguese': 'pt', 'French': 'fr', 'Burmese': 'my', 'Sinhala': 'si', 'Nepali': 'ne',
+            'Hindi': 'hi', 'Tagalog': 'tl', 'German': 'de', 'Russian': 'ru', 'Arabic': 'ar',
+            'Italian': 'it', 'Turkish': 'tr', 'Polish': 'pl', 'Dutch': 'nl', 'Swedish': 'sv',
+            'Czech': 'cs', 'Hungarian': 'hu', 'Mongolian': 'mn', 'Malay': 'ms', 'Khmer': 'km',
+            'Uzbek': 'uz', 'Kazakh': 'kk', 'Bengali': 'bn', 'Tamil': 'ta', 'Urdu': 'ur',
+            'Persian': 'fa', 'Hebrew': 'he', 'Greek': 'el', 'Romanian': 'ro', 'Ukrainian': 'uk', 'Swahili': 'sw'
+        };
+        const CODE_TO_LANG_NAME = Object.fromEntries(Object.entries(LANG_MAP).map(([name, code]) => [code, name]));
+
+
+        // =========================================================
+        // ★ ポータル全体 多言語UI辞書（12言語対応・ブラウザ言語自動判定）
+        // =========================================================
+        const UI_LANG_OPTIONS = [
+            { code: 'en', label: 'English' },
+            { code: 'ja', label: '日本語' },
+            { code: 'vi', label: 'Tiếng Việt' },
+            { code: 'id', label: 'Bahasa Indonesia' },
+            { code: 'ko', label: '한국어' },
+            { code: 'zh-Hant', label: '繁體中文' },
+            { code: 'zh-Hans', label: '简体中文' },
+            { code: 'th', label: 'ไทย' },
+            { code: 'es', label: 'Español' },
+            { code: 'pt', label: 'Português' },
+            { code: 'fr', label: 'Français' },
+            { code: 'my', label: 'မြန်မာ' }
+        ];
+
+        const UI_TEXT = {
+            en: {
+                authDesc: 'Enter the member passcode posted in the YouTube Membership community tab.',
+                authLabel: 'Member Passcode',
+                authPlaceholder: 'Enter passcode...',
+                authSubmit: 'Open Member Portal',
+                authChecking: 'Checking...',
+                authEmpty: 'Please enter your passcode.',
+                authInvalid: 'Invalid passcode. Please check the membership post.',
+                navMp3: 'MP3 Audio', navAnki: 'Anki Decks', navWebapp: 'Web App',
+                refresh: 'Refresh', logout: 'Switch',
+                mp3Head: 'BGM-Free Listening MP3',
+                mp3Sub: 'Clean voice-only audio for commuting, shadowing, and immersion.',
+                ankiHead: 'Audio Anki Decks (.apkg)',
+                ankiSub: 'Import directly into Anki (PC, AnkiMobile, or AnkiDroid).',
+                searchPh: 'Search title or video ID...',
+                allLangs: 'All Languages',
+                noMp3: 'No matching MP3 files found.',
+                noAnki: 'No matching Anki decks found.',
+                download: 'Download', downloadApkg: 'Download .apkg', openWebapp: 'Web App',
+                bundleMp3: 'Multi-Language Audio Set', bundleAnki: 'Multi-Language Anki Set',
+                lessonLabel: 'Lesson:', noLessons: 'No WebApp lessons available yet.',
+                loading: 'Loading...', scenesUnit: 'scenes', linesUnit: 'lines'
+            },
+            ja: {
+                authDesc: 'YouTubeメンバーシップ限定投稿に記載されている会員パスコードを入力してください。',
+                authLabel: '会員パスコード',
+                authPlaceholder: 'パスコードを入力...',
+                authSubmit: '特典ページを開く',
+                authChecking: '確認中...',
+                authEmpty: 'パスコードを入力してください。',
+                authInvalid: 'パスコードが無効です。メンバー限定投稿をご確認ください。',
+                navMp3: 'BGMなしMP3', navAnki: 'Ankiデッキ', navWebapp: '学習Webアプリ',
+                refresh: '更新', logout: '切替',
+                mp3Head: 'BGMなし聞き流しMP3',
+                mp3Sub: '通勤・通学中のリスニングやシャドーイングにそのまま使えます。',
+                ankiHead: '音声付き Anki フラッシュカード (.apkg)',
+                ankiSub: 'Ankiアプリ（PC / AnkiMobile / AnkiDroid）に読み込んで復習できます。',
+                searchPh: 'タイトル・動画IDで検索...',
+                allLangs: 'すべての言語',
+                noMp3: '該当するMP3がありません。',
+                noAnki: '該当するAnkiデッキがありません。',
+                download: 'ダウンロード', downloadApkg: '.apkg をダウンロード', openWebapp: 'Webアプリ',
+                bundleMp3: '多言語音声セット', bundleAnki: '多言語 Anki セット',
+                lessonLabel: 'レッスン:', noLessons: '利用可能なレッスンがまだありません。',
+                loading: '読み込み中...', scenesUnit: 'シーン', linesUnit: '文'
+            },
+            vi: {
+                authDesc: 'Nhập mật khẩu thành viên được đăng trong bài viết dành riêng cho hội viên YouTube.',
+                authLabel: 'Mã thành viên',
+                authPlaceholder: 'Nhập mã...',
+                authSubmit: 'Mở trang đặc quyền',
+                authChecking: 'Đang kiểm tra...',
+                authEmpty: 'Vui lòng nhập mã.',
+                authInvalid: 'Mã không hợp lệ.',
+                navMp3: 'MP3 Nghe', navAnki: 'Thẻ Anki', navWebapp: 'Web Học Tập',
+                refresh: 'Làm mới', logout: 'Đổi mã',
+                mp3Head: 'MP3 Luyện Nghe Không Nhạc Nền',
+                mp3Sub: 'Âm thanh giọng đọc rõ ràng để luyện nghe và shadowing.',
+                ankiHead: 'Bộ thẻ Anki kèm âm thanh (.apkg)',
+                ankiSub: 'Nhập trực tiếp vào ứng dụng Anki trên PC hoặc điện thoại.',
+                searchPh: 'Tìm tiêu đề hoặc ID video...',
+                allLangs: 'Tất cả ngôn ngữ',
+                noMp3: 'Không có tệp MP3 phù hợp.',
+                noAnki: 'Không có bộ thẻ Anki phù hợp.',
+                download: 'Tải xuống', downloadApkg: 'Tải .apkg', openWebapp: 'Mở Web App',
+                bundleMp3: 'Bộ âm thanh đa ngôn ngữ', bundleAnki: 'Bộ Anki đa ngôn ngữ',
+                lessonLabel: 'Bài học:', noLessons: 'Chưa có bài học nào.',
+                loading: 'Đang tải...', scenesUnit: 'cảnh', linesUnit: 'câu'
+            },
+            id: {
+                authDesc: 'Masukkan kode sandi anggota yang tertulis di postingan khusus Membership YouTube.',
+                authLabel: 'Kode Anggota',
+                authPlaceholder: 'Masukkan kode...',
+                authSubmit: 'Buka Portal Anggota',
+                authChecking: 'Memeriksa...',
+                authEmpty: 'Silakan masukkan kode.',
+                authInvalid: 'Kode tidak valid.',
+                navMp3: 'Audio MP3', navAnki: 'Dek Anki', navWebapp: 'Aplikasi Web',
+                refresh: 'Segarkan', logout: 'Ganti',
+                mp3Head: 'MP3 Latihan Dengar Tanpa BGM',
+                mp3Sub: 'Audio suara jernih untuk mendengarkan dan shadowing.',
+                ankiHead: 'Dek Anki dengan Audio (.apkg)',
+                ankiSub: 'Impor ke Anki (PC, AnkiMobile, atau AnkiDroid).',
+                searchPh: 'Cari judul atau ID video...',
+                allLangs: 'Semua Bahasa',
+                noMp3: 'File MP3 tidak ditemukan.',
+                noAnki: 'Dek Anki tidak ditemukan.',
+                download: 'Unduh', downloadApkg: 'Unduh .apkg', openWebapp: 'Aplikasi Web',
+                bundleMp3: 'Set Audio Multibahasa', bundleAnki: 'Set Anki Multibahasa',
+                lessonLabel: 'Pelajaran:', noLessons: 'Belum ada pelajaran.',
+                loading: 'Memuat...', scenesUnit: 'adegan', linesUnit: 'kalimat'
+            },
+            ko: {
+                authDesc: 'YouTube 멤버십 전용 게시물에 안내된 회원 패스코드를 입력해 주세요.',
+                authLabel: '회원 패스코드',
+                authPlaceholder: '패스코드 입력...',
+                authSubmit: '혜택 페이지 열기',
+                authChecking: '확인 중...',
+                authEmpty: '패스코드를 입력해 주세요.',
+                authInvalid: '유효하지 않은 패스코드입니다.',
+                navMp3: 'BGM 없는 MP3', navAnki: 'Anki 덱', navWebapp: '학습 웹앱',
+                refresh: '새로고침', logout: '전환',
+                mp3Head: 'BGM 없는 듣기 연습 MP3',
+                mp3Sub: '출퇴근길 리스닝 및 쉐도잉 연습에 바로 활용하세요.',
+                ankiHead: '음성 포함 Anki 플래시카드 (.apkg)',
+                ankiSub: 'Anki 앱(PC / AnkiMobile / AnkiDroid)으로 불러와 복습하세요.',
+                searchPh: '제목 또는 영상 ID 검색...',
+                allLangs: '모든 언어',
+                noMp3: '일치하는 MP3가 없습니다.',
+                noAnki: '일치하는 Anki 덱이 없습니다.',
+                download: '다운로드', downloadApkg: '.apkg 다운로드', openWebapp: '웹앱 열기',
+                bundleMp3: '다국어 음성 세트', bundleAnki: '다국어 Anki 세트',
+                lessonLabel: '레슨:', noLessons: '사용 가능한 레슨이 없습니다.',
+                loading: '불러오는 중...', scenesUnit: '장면', linesUnit: '문장'
+            },
+            'zh-Hant': {
+                authDesc: '請輸入 YouTube 會員專屬貼文中提供的會員通行碼。',
+                authLabel: '會員通行碼',
+                authPlaceholder: '請輸入通行碼...',
+                authSubmit: '開啟會員專區',
+                authChecking: '驗證中...',
+                authEmpty: '請輸入通行碼。',
+                authInvalid: '通行碼無效，請確認會員貼文。',
+                navMp3: '無背景音 MP3', navAnki: 'Anki 牌組', navWebapp: '學習網頁應用',
+                refresh: '重新整理', logout: '切換',
+                mp3Head: '無背景音樂聽力練習 MP3',
+                mp3Sub: '適合通勤聽力與跟讀練習的純語音檔。',
+                ankiHead: '含語音 Anki 字卡包 (.apkg)',
+                ankiSub: '可直接匯入電腦或手機版 Anki 進行複習。',
+                searchPh: '搜尋標題或影片 ID...',
+                allLangs: '所有語言',
+                noMp3: '找不到符合的 MP3。',
+                noAnki: '找不到符合的 Anki 牌組。',
+                download: '下載', downloadApkg: '下載 .apkg', openWebapp: '開啟 Web App',
+                bundleMp3: '多語言音訊套組', bundleAnki: '多語言 Anki 套組',
+                lessonLabel: '課程：', noLessons: '尚無可用課程。',
+                loading: '載入中...', scenesUnit: '場景', linesUnit: '句'
+            },
+            'zh-Hans': {
+                authDesc: '请输入 YouTube 会员专属帖子中提供的会员通行码。',
+                authLabel: '会员通行码',
+                authPlaceholder: '请输入通行码...',
+                authSubmit: '打开会员专区',
+                authChecking: '验证中...',
+                authEmpty: '请输入通行码。',
+                authInvalid: '通行码无效。',
+                navMp3: '无背景音 MP3', navAnki: 'Anki 牌组', navWebapp: '学习网页应用',
+                refresh: '刷新', logout: '切换',
+                mp3Head: '无背景音乐听力练习 MP3',
+                mp3Sub: '适合通勤听力与跟读练习的纯语音文件。',
+                ankiHead: '含语音 Anki 记忆卡 (.apkg)',
+                ankiSub: '可直接导入电脑或手机版 Anki 进行复习。',
+                searchPh: '搜索标题或视频 ID...',
+                allLangs: '所有语言',
+                noMp3: '未找到匹配的 MP3。',
+                noAnki: '未找到匹配的 Anki 牌组。',
+                download: '下载', downloadApkg: '下载 .apkg', openWebapp: '打开 Web App',
+                bundleMp3: '多语言音频套组', bundleAnki: '多语言 Anki 套组',
+                lessonLabel: '课程：', noLessons: '暂无可用课程。',
+                loading: '加载中...', scenesUnit: '场景', linesUnit: '句'
+            },
+            th: {
+                authDesc: 'กรุณากรอกรหัสสมาชิกที่ระบุไว้ในโพสต์สำหรับสมาชิก YouTube',
+                authLabel: 'รหัสผ่านสมาชิก',
+                authPlaceholder: 'กรอกรหัส...',
+                authSubmit: 'เปิดหน้าสมาชิก',
+                authChecking: 'กำลังตรวจสอบ...',
+                authEmpty: 'กรุณากรอกรหัสผ่าน',
+                authInvalid: 'รหัสผ่านไม่ถูกต้อง',
+                navMp3: 'ไฟล์ MP3', navAnki: 'ชุดการ์ด Anki', navWebapp: 'เว็บฝึกภาษา',
+                refresh: 'รีเฟรช', logout: 'สลับรหัส',
+                mp3Head: 'ไฟล์เสียง MP3 ไม่มีดนตรีประกอบ',
+                mp3Sub: 'เสียงพูดชัดเจนสำหรับฝึกฟังและฝึกพูดตาม',
+                ankiHead: 'ชุดการ์ด Anki พร้อมเสียง (.apkg)',
+                ankiSub: 'นำเข้าแอป Anki บนคอมพิวเตอร์หรือมือถือได้ทันที',
+                searchPh: 'ค้นหาชื่อเรื่องหรือ ID...',
+                allLangs: 'ทุกภาษา',
+                noMp3: 'ไม่พบไฟล์ MP3',
+                noAnki: 'ไม่พบชุดการ์ด Anki',
+                download: 'ดาวน์โหลด', downloadApkg: 'ดาวน์โหลด .apkg', openWebapp: 'เปิด Web App',
+                bundleMp3: 'ชุดเสียงหลายภาษา', bundleAnki: 'ชุด Anki หลายภาษา',
+                lessonLabel: 'บทเรียน:', noLessons: 'ยังไม่มีบทเรียน',
+                loading: 'กำลังโหลด...', scenesUnit: 'ฉาก', linesUnit: 'ประโยค'
+            }
+        };
+
+        const UI_LANG_STORAGE = 'sjl_ui_lang';
+
+        function detectDefaultUiLang() {
+            const saved = localStorage.getItem(UI_LANG_STORAGE);
+            if (saved && UI_TEXT[saved]) return saved;
+            const nav = (navigator.language || 'en').toLowerCase();
+            if (nav.startsWith('ja')) return 'ja';
+            if (nav.startsWith('vi')) return 'vi';
+            if (nav.startsWith('id')) return 'id';
+            if (nav.startsWith('ko')) return 'ko';
+            if (nav.includes('tw') || nav.includes('hk') || nav.includes('hant')) return 'zh-Hant';
+            if (nav.startsWith('zh')) return 'zh-Hans';
+            if (nav.startsWith('th')) return 'th';
+            return 'en';
+        }
+
+        function t(key) {
+            const lang = portalState.uiLang || 'en';
+            return (UI_TEXT[lang] && UI_TEXT[lang][key]) || UI_TEXT.en[key] || key;
+        }
+
+        function applyUiLanguage(langCode) {
+            const valid = UI_TEXT[langCode] ? langCode : 'en';
+            portalState.uiLang = valid;
+            localStorage.setItem(UI_LANG_STORAGE, valid);
+
+            document.querySelectorAll('.ui-lang-select').forEach(sel => { sel.value = valid; });
+            document.getElementById('auth-desc').textContent = t('authDesc');
+            document.getElementById('auth-label').textContent = t('authLabel');
+            document.getElementById('passcode-input').placeholder = t('authPlaceholder');
+            document.getElementById('auth-submit-text').textContent = t('authSubmit');
+
+            document.getElementById('nav-label-mp3').textContent = t('navMp3');
+            document.getElementById('nav-label-anki').textContent = t('navAnki');
+            document.getElementById('nav-label-webapp').textContent = t('navWebapp');
+            document.getElementById('btn-refresh-text').textContent = t('refresh');
+            document.getElementById('btn-logout-text').textContent = t('logout');
+
+            document.getElementById('mp3-heading').textContent = t('mp3Head');
+            document.getElementById('mp3-subheading').textContent = t('mp3Sub');
+            document.getElementById('mp3-search').placeholder = t('searchPh');
+            document.getElementById('anki-heading').textContent = t('ankiHead');
+            document.getElementById('anki-subheading').textContent = t('ankiSub');
+            document.getElementById('anki-search').placeholder = t('searchPh');
+            document.getElementById('lesson-select-label').textContent = t('lessonLabel');
+
+            const mp3AllOpt = document.querySelector('#mp3-lang-filter option[value="ALL"]');
+            if (mp3AllOpt) mp3AllOpt.textContent = t('allLangs');
+            const ankiAllOpt = document.querySelector('#anki-lang-filter option[value="ALL"]');
+            if (ankiAllOpt) ankiAllOpt.textContent = t('allLangs');
+
+            if (portalState.catalog) {
+                renderMp3List();
+                if (portalState.tier === 'tier2') renderAnkiList();
+            }
+        }
+
+        const portalState = {
+            uiLang: 'en',
+            passkey: '',
+            tier: null,
+            catalog: null,
+            activeTab: 'mp3',
+            currentVideoId: '',
+            currentMp3StreamUrl: '',
+            lessonDetailCache: {},
+            srtCache: {}
+        };
+
+        const appState = {
+            currentSceneIndex: 0,
+            showJapanese: true,
+            showRomaji: false,
+            showTranslation: false,
+            hideFurigana: false,
+            isPlaying: false,
+            roleplayMutedSpeaker: 'none',
+            currentLang: 'en',
+            lastScrolledIndex: -1,
+            recordedBlobs: {},
+            mediaRecorder: null,
+            activeRecordingIndex: -1
+        };
+
+        let scenes = [];
+        let sceneTitles = [];
+        let sceneStartTimes = [];
+        let ytPlayer = null;
+        let ytApiLoaded = false;
+        let ytTimeTracker = null;
+        let pendingYoutubeVideoId = '';
+
+        // =========================================================
+        // ★ 結合MP3 セグメント再生エンジン（1本のMP3からセリフ区間を切り出し再生）
+        // =========================================================
+        let masterAudioEl = null;
+        let currentCustomAudio = null;
+        let activeSegmentAbort = null;
+
+        function ensureMasterAudio(streamUrl) {
+            if (!streamUrl) return null;
+            if (!masterAudioEl) {
+                masterAudioEl = new Audio();
+                masterAudioEl.preload = 'auto';
+            }
+            if (masterAudioEl.dataset.srcUrl !== streamUrl) {
+                masterAudioEl.pause();
+                masterAudioEl.src = streamUrl;
+                masterAudioEl.dataset.srcUrl = streamUrl;
+                masterAudioEl.load();
+            }
+            return masterAudioEl;
+        }
+
+        function stopAllPlayback() {
+            if (activeSegmentAbort) {
+                activeSegmentAbort();
+                activeSegmentAbort = null;
+            }
+            if (masterAudioEl) masterAudioEl.pause();
+            if (currentCustomAudio) currentCustomAudio.pause();
+        }
+
+        function playMp3Segment(startSec, endSec, rate = 0.85) {
+            return new Promise((resolve) => {
+                stopAllPlayback();
+                const url = portalState.currentMp3StreamUrl;
+                const dur = Math.max(0, (endSec || 0) - (startSec || 0));
+                if (!url || dur <= 0.05) {
+                    resolve();
+                    return;
+                }
+
+                const audio = ensureMasterAudio(url);
+                let finished = false;
+                let timerId = null;
+
+                const cleanup = () => {
+                    if (finished) return;
+                    finished = true;
+                    if (timerId) clearInterval(timerId);
+                    audio.removeEventListener('ended', onEnded);
+                    audio.removeEventListener('error', onError);
+                    activeSegmentAbort = null;
+                    resolve();
+                };
+
+                const onEnded = () => cleanup();
+                const onError = () => cleanup();
+
+                activeSegmentAbort = () => {
+                    audio.pause();
+                    cleanup();
+                };
+
+                const startPlay = () => {
+                    try {
+                        audio.playbackRate = rate;
+                        audio.currentTime = Math.max(0, startSec - 0.03);
+                        audio.addEventListener('ended', onEnded);
+                        audio.addEventListener('error', onError);
+
+                        const p = audio.play();
+                        if (p && typeof p.catch === 'function') {
+                            p.catch(() => cleanup());
+                        }
+
+                        timerId = setInterval(() => {
+                            if (finished) return;
+                            if (audio.currentTime >= endSec + 0.04) {
+                                audio.pause();
+                                cleanup();
+                            }
+                        }, 30);
+                    } catch (e) {
+                        cleanup();
+                    }
+                };
+
+                if (audio.readyState >= 1) {
+                    startPlay();
+                } else {
+                    const onMeta = () => {
+                        audio.removeEventListener('loadedmetadata', onMeta);
+                        startPlay();
+                    };
+                    audio.addEventListener('loadedmetadata', onMeta);
+                }
+            });
+        }
+
+        // =========================================================
+        // ★ GAS API 通信 & ポータル認証
+        // =========================================================
+        async function fetchGas(params) {
+            const qs = new URLSearchParams({ ...params, key: portalState.passkey });
+            const res = await fetch(`${GAS_API_URL}?${qs.toString()}`);
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            return await res.json();
+        }
+
+        async function authenticateAndLoad(passkey, forceRefresh = false) {
+            portalState.passkey = passkey.trim();
+            const data = await fetchGas({
+                action: 'catalog',
+                ...(forceRefresh ? { refresh: '1' } : {})
+            });
+            if (!data.ok) {
+                throw new Error(data.message || 'パスコードが無効です。');
+            }
+
+            localStorage.setItem(STORAGE_KEY_NAME, portalState.passkey);
+            portalState.tier = data.tier;
+            portalState.catalog = data;
+
+            document.getElementById('auth-screen').classList.add('hidden');
+            document.getElementById('portal-shell').classList.remove('hidden');
+
+            const isTier2 = data.tier === 'tier2';
+            const badge = document.getElementById('plan-badge');
+            badge.textContent = isTier2 ? 'PRO PLAN (MP3 + Anki + WebApp)' : 'STANDARD PLAN (MP3)';
+            badge.className = isTier2
+                ? 'inline-block text-[11px] font-semibold px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-700'
+                : 'inline-block text-[11px] font-semibold px-2 py-0.5 rounded-full bg-blue-100 text-blue-700';
+
+            document.getElementById('tab-btn-anki').classList.toggle('hidden', !isTier2);
+            document.getElementById('tab-btn-webapp').classList.toggle('hidden', !isTier2);
+
+            populateMediaLangFilter('mp3-lang-filter', data.mp3 || []);
+            renderMp3List();
+            if (isTier2) {
+                populateMediaLangFilter('anki-lang-filter', data.anki || []);
+                renderAnkiList();
+                renderLessonSelector();
+            }
+
+            if (!isTier2 && portalState.activeTab !== 'mp3') {
+                switchTab('mp3');
+            } else {
+                switchTab(portalState.activeTab);
+            }
+        }
+
+        function switchTab(tabName) {
+            if (portalState.tier !== 'tier2' && tabName !== 'mp3') {
+                tabName = 'mp3';
+            }
+            portalState.activeTab = tabName;
+
+            document.querySelectorAll('.tab-panel').forEach(p => p.classList.add('hidden'));
+            const target = document.getElementById(`panel-${tabName}`);
+            if (target) target.classList.remove('hidden');
+
+            document.querySelectorAll('.nav-tab-btn').forEach(btn => {
+                const isActive = btn.dataset.tab === tabName;
+                btn.classList.toggle('bg-blue-600', isActive);
+                btn.classList.toggle('text-white', isActive);
+                btn.classList.toggle('text-gray-600', !isActive);
+                btn.classList.toggle('hover:bg-gray-100', !isActive);
+            });
+
+            if (tabName === 'webapp' && portalState.catalog && portalState.catalog.lessons.length > 0 && !portalState.currentVideoId) {
+                loadWebAppLesson(portalState.catalog.lessons[0].videoId);
+            }
+        }
+
+        // =========================================================
+        // ★ MP3 / Anki 一覧レンダリング
+        // =========================================================
+        function formatBytes(bytes) {
+            if (!bytes) return '';
+            const mb = bytes / (1024 * 1024);
+            return mb >= 1 ? `${mb.toFixed(1)} MB` : `${Math.round(bytes / 1024)} KB`;
+        }
+
+        function populateMediaLangFilter(selectId, items) {
+            const sel = document.getElementById(selectId);
+            if (!sel) return;
+            const prev = sel.value || 'ALL';
+            const langs = new Set();
+            (items || []).forEach(it => {
+                if (it.type === 'bundle' && Array.isArray(it.files)) {
+                    it.files.forEach(f => { if (f.lang) langs.add(f.lang); });
+                }
+            });
+            sel.innerHTML = `<option value="ALL">${escapeHtml(t('allLangs'))}</option>`;
+            Array.from(langs).sort().forEach(l => {
+                const opt = document.createElement('option');
+                opt.value = l;
+                opt.text = l;
+                sel.appendChild(opt);
+            });
+            sel.value = (prev === 'ALL' || langs.has(prev)) ? prev : 'ALL';
+        }
+
+        function renderMp3List() {
+            const listEl = document.getElementById('mp3-list');
+            const q = (document.getElementById('mp3-search').value || '').trim().toLowerCase();
+            const langFilter = (document.getElementById('mp3-lang-filter') && document.getElementById('mp3-lang-filter').value) || 'ALL';
+            const items = (portalState.catalog?.mp3 || []).filter(it => {
+                const matchText = !q || (it.title || '').toLowerCase().includes(q) || (it.videoId || '').toLowerCase().includes(q) || (it.name || '').toLowerCase().includes(q);
+                if (!matchText) return false;
+                if (langFilter === 'ALL') return true;
+                if (it.type === 'single') return langFilter === 'JA' || langFilter === 'EN';
+                return (it.files || []).some(f => f.lang === langFilter);
+            });
+
+            if (items.length === 0) {
+                listEl.innerHTML = `<div class="bg-white rounded-2xl border border-gray-200 p-8 text-center text-sm text-gray-500">${escapeHtml(t('noMp3'))}</div>`;
+                return;
+            }
+
+            listEl.innerHTML = items.map(it => {
+                if (it.type === 'single') {
+                    return `
+                        <div class="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 sm:p-5 flex flex-col gap-3">
+                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                                <div>
+                                    <div class="font-bold text-gray-900 text-sm sm:text-base">${escapeHtml(it.title || it.name)}</div>
+                                    <div class="text-xs text-gray-400 mt-0.5">${it.videoId ? `ID: ${escapeHtml(it.videoId)} · ` : ''}${formatBytes(it.sizeBytes)}</div>
+                                </div>
+                                <div class="flex items-center gap-2 shrink-0">
+                                    ${portalState.tier === 'tier2' && it.videoId ? `<button onclick="openLessonInWebApp('${escapeHtml(it.videoId)}')" class="px-3 py-2 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs font-semibold transition"><i class="fa-solid fa-book-open mr-1"></i>${escapeHtml(t('openWebapp'))}</button>` : ''}
+                                    <a href="${escapeHtml(it.downloadUrl)}" target="_blank" rel="noopener" class="px-3.5 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold transition"><i class="fa-solid fa-download mr-1"></i>${escapeHtml(t('download'))}</a>
+                                </div>
+                            </div>
+                            <audio controls preload="none" class="w-full h-9" src="${escapeHtml(it.streamUrl)}"></audio>
+                        </div>
+                    `;
+                }
+
+                const filteredFiles = langFilter === 'ALL' ? (it.files || []) : (it.files || []).filter(f => f.lang === langFilter);
+                return `
+                    <div class="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 sm:p-5 space-y-3">
+                        <div>
+                            <span class="inline-block text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700 mb-1">${escapeHtml(t('bundleMp3'))}</span>
+                            <div class="font-bold text-gray-900 text-sm sm:text-base">${escapeHtml(it.title || it.name)}</div>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            ${filteredFiles.map(f => `
+                                <a href="${escapeHtml(f.downloadUrl)}" target="_blank" rel="noopener"
+                                   class="px-3 py-1.5 rounded-xl bg-gray-100 hover:bg-blue-600 hover:text-white text-gray-700 text-xs font-semibold transition flex items-center gap-1.5">
+                                    <i class="fa-solid fa-download text-[10px]"></i>
+                                    <span>${escapeHtml(f.lang)}</span>
+                                    <span class="opacity-60 text-[10px]">${formatBytes(f.sizeBytes)}</span>
+                                </a>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function renderAnkiList() {
+            const listEl = document.getElementById('anki-list');
+            const q = (document.getElementById('anki-search').value || '').trim().toLowerCase();
+            const langFilter = (document.getElementById('anki-lang-filter') && document.getElementById('anki-lang-filter').value) || 'ALL';
+            const items = (portalState.catalog?.anki || []).filter(it => {
+                const matchText = !q || (it.title || '').toLowerCase().includes(q) || (it.videoId || '').toLowerCase().includes(q) || (it.name || '').toLowerCase().includes(q);
+                if (!matchText) return false;
+                if (langFilter === 'ALL') return true;
+                if (it.type === 'single') return langFilter === 'EN';
+                return (it.files || []).some(f => f.lang === langFilter);
+            });
+
+            if (items.length === 0) {
+                listEl.innerHTML = `<div class="bg-white rounded-2xl border border-gray-200 p-8 text-center text-sm text-gray-500">${escapeHtml(t('noAnki'))}</div>`;
+                return;
+            }
+
+            listEl.innerHTML = items.map(it => {
+                if (it.type === 'single') {
+                    return `
+                        <div class="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                            <div>
+                                <div class="font-bold text-gray-900 text-sm sm:text-base">${escapeHtml(it.title || it.name)}</div>
+                                <div class="text-xs text-gray-400 mt-0.5">${it.videoId ? `ID: ${escapeHtml(it.videoId)} · ` : ''}${formatBytes(it.sizeBytes)}</div>
+                            </div>
+                            <a href="${escapeHtml(it.downloadUrl)}" target="_blank" rel="noopener"
+                               class="px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold transition text-center shrink-0">
+                                <i class="fa-solid fa-download mr-1.5"></i>${escapeHtml(t('downloadApkg'))}
+                            </a>
+                        </div>
+                    `;
+                }
+
+                const filteredFiles = langFilter === 'ALL' ? (it.files || []) : (it.files || []).filter(f => f.lang === langFilter);
+                return `
+                    <div class="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 sm:p-5 space-y-3">
+                        <div>
+                            <span class="inline-block text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-700 mb-1">${escapeHtml(t('bundleAnki'))}</span>
+                            <div class="font-bold text-gray-900 text-sm sm:text-base">${escapeHtml(it.title || it.name)}</div>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            ${filteredFiles.map(f => `
+                                <a href="${escapeHtml(f.downloadUrl)}" target="_blank" rel="noopener"
+                                   class="px-3 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-600 hover:text-white text-indigo-700 text-xs font-semibold transition flex items-center gap-1.5">
+                                    <i class="fa-solid fa-layer-group text-[10px]"></i>
+                                    <span>${escapeHtml(f.lang)}</span>
+                                    <span class="opacity-60 text-[10px]">${formatBytes(f.sizeBytes)}</span>
+                                </a>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function openLessonInWebApp(videoId) {
+            switchTab('webapp');
+            const sel = document.getElementById('lesson-selector');
+            if (sel) sel.value = videoId;
+            loadWebAppLesson(videoId);
+        }
+
+        // =========================================================
+        // ★ 学習Webアプリ制御（lesson_data.json + GAS SRT 連動）
+        // =========================================================
+        function renderLessonSelector() {
+            const sel = document.getElementById('lesson-selector');
+            const lessons = portalState.catalog?.lessons || [];
+            sel.innerHTML = '';
+
+            if (lessons.length === 0) {
+                const opt = document.createElement('option');
+                opt.value = '';
+                opt.text = '利用可能なレッスンがまだありません';
+                sel.appendChild(opt);
+                return;
+            }
+
+            lessons.forEach(ls => {
+                const opt = document.createElement('option');
+                opt.value = ls.videoId;
+                const durMin = ls.totalDurationSec ? ` (${Math.round(ls.totalDurationSec / 60)}分)` : '';
+                opt.text = `${ls.title || ls.videoId}${durMin}`;
+                sel.appendChild(opt);
+            });
+        }
+
+        async function loadWebAppLesson(videoId) {
+            if (!videoId) return;
+            stopAllPlayback();
+            appState.isPlaying = false;
+            appState.currentSceneIndex = 0;
+            appState.lastScrolledIndex = -1;
+            appState.recordedBlobs = {};
+            portalState.currentVideoId = videoId;
+
+            const badge = document.getElementById('lesson-status-badge');
+            badge.textContent = '読み込み中...';
+
+            try {
+                let detail = portalState.lessonDetailCache[videoId];
+                if (!detail) {
+                    detail = await fetchGas({ action: 'lesson', videoId });
+                    if (!detail.ok) throw new Error(detail.error || '読込エラー');
+                    portalState.lessonDetailCache[videoId] = detail;
+                }
+
+                const ld = detail.lessonData;
+                portalState.currentMp3StreamUrl = detail.mp3 ? detail.mp3.streamUrl : '';
+                if (portalState.currentMp3StreamUrl) ensureMasterAudio(portalState.currentMp3StreamUrl);
+
+                scenes = (ld.scenes || []).map((sc, idx) => ({
+                    titleJa: sc.titleJaClean || sc.titleJa || `Scene ${idx + 1}`,
+                    titleEn: sc.titleEn || `Scene ${idx + 1}`,
+                    srtHeader: sc.srtHeader || `Scene ${idx + 1}`,
+                    lines: (sc.lines || []).map(l => ({
+                        speaker: l.speaker || `Speaker ${l.speakerNum || '1'}`,
+                        rawJp: l.rawJp || '',
+                        speakText: l.speakText || '',
+                        english: l.english || 'Translation not available.',
+                        baseEn: l.english || 'Translation not available.',
+                        romaji: l.romaji || '',
+                        grammar2: l.grammar2 || '',
+                        mp3Start: Number(l.mp3Start || 0),
+                        mp3End: Number(l.mp3End || 0),
+                        startTime: 0,
+                        endTime: 0
+                    }))
+                }));
+
+                // 言語セレクターを利用可能言語で更新
+                populateWebAppLangSelector(detail.availableLangs || ['en']);
+                await updateTranslations();
+                await updateSceneTitles();
+                await updateSceneStartTimes();
+
+                renderSceneSelector();
+                renderScene();
+                loadYouTubeVideo(videoId);
+
+                badge.textContent = `${scenes.length}シーン / ${ld.totalLines || 0}文`;
+            } catch (err) {
+                badge.textContent = `エラー: ${err.message}`;
+                console.error(err);
+            }
+        }
+
+        function populateWebAppLangSelector(availableLangs) {
+            const langSelector = document.getElementById('lang-selector');
+            const prevLang = appState.currentLang;
+            langSelector.innerHTML = '';
+
+            const langs = (availableLangs && availableLangs.length > 0) ? availableLangs : ['en'];
+            langs.forEach(code => {
+                const opt = document.createElement('option');
+                opt.value = code;
+                opt.text = CODE_TO_LANG_NAME[code] || code.toUpperCase();
+                langSelector.appendChild(opt);
+            });
+
+            if (langs.includes(prevLang)) {
+                appState.currentLang = prevLang;
+            } else if (langs.includes('en')) {
+                appState.currentLang = 'en';
+            } else {
+                appState.currentLang = langs[0];
+            }
+            langSelector.value = appState.currentLang;
+        }
+
+        function srtTimeToSeconds(timeStr) {
+            if (!timeStr) return 0;
+            const parts = timeStr.replace(',', '.').split(':');
+            return parseFloat(parts[0]) * 3600 + parseFloat(parts[1]) * 60 + parseFloat(parts[2]);
+        }
+
+        async function loadSRT(langCode) {
+            const vid = portalState.currentVideoId;
+            if (!vid) return null;
+            const cacheKey = `${vid}_${langCode}`;
+            if (portalState.srtCache[cacheKey]) return portalState.srtCache[cacheKey];
+
+            try {
+                const res = await fetchGas({ action: 'srt', videoId: vid, lang: langCode });
+                if (!res.ok || !res.srtText) return null;
+
+                const blocks = res.srtText.trim().split(/\r?\n\r?\n/);
+                const srtParsed = blocks.map(block => {
+                    const lines = block.split(/\r?\n/);
+                    if (lines.length < 3) return { text: '', start: 0, end: 0 };
+                    const timeMatch = lines[1].match(/(\d{2}:\d{2}:\d{2}[,\.]\d{3})\s*-->\s*(\d{2}:\d{2}:\d{2}[,\.]\d{3})/);
+                    const start = timeMatch ? srtTimeToSeconds(timeMatch[1]) : 0;
+                    const end = timeMatch ? srtTimeToSeconds(timeMatch[2]) : 0;
+                    const textContent = lines.slice(2).join('\n').trim();
+                    return { text: textContent, start, end };
+                });
+
+                portalState.srtCache[cacheKey] = srtParsed;
+                return srtParsed;
+            } catch (e) {
+                console.error(`Error loading SRT for ${langCode}:`, e);
+                return null;
+            }
+        }
+
+        async function updateSceneTitles() {
+            const srtParsed = await loadSRT(appState.currentLang);
+            if (srtParsed && srtParsed.length > 0) {
+                const sceneRegex = /^Scene\s+\d+:/i;
+                const detected = srtParsed.filter(item => sceneRegex.test(item.text.trim())).map(item => item.text.trim());
+                if (detected.length > 0) {
+                    sceneTitles = detected;
+                    return;
+                }
+            }
+            sceneTitles = scenes.map((sc, idx) => `Scene ${idx + 1}: ${sc.titleJa}`);
+        }
+
+        async function updateSceneStartTimes() {
+            const srtParsed = await loadSRT(appState.currentLang);
+            if (!srtParsed || srtParsed.length === 0) {
+                sceneStartTimes = [];
+                return;
+            }
+            const sceneRegex = /^Scene\s+\d+:/i;
+            sceneStartTimes = srtParsed
+                .filter(item => sceneRegex.test(item.text.trim()))
+                .map(item => Math.floor(item.start));
+        }
+
+        async function updateTranslations() {
+            const srtParsed = await loadSRT(appState.currentLang);
+            if (!srtParsed || srtParsed.length === 0) {
+                scenes.forEach(sc => sc.lines.forEach(l => { l.english = l.baseEn; }));
+                return;
+            }
+
+            // シーン見出しと挿入動画字幕（PDF案内・テスト案内等）を除外して純粋なセリフブロックを抽出
+            const sceneRegex = /^Scene\s+\d+:/i;
+            const nonLineRegex = /(listening test|answer subtitles|PDFスクリプト|トップコメント|1周目は理解度テスト)/i;
+
+            const dialogueBlocks = srtParsed.filter(item => {
+                const t = item.text.trim();
+                if (!t) return false;
+                if (sceneRegex.test(t)) return false;
+                if (nonLineRegex.test(t)) return false;
+                return true;
+            });
+
+            let ptr = 0;
+            scenes.forEach(scene => {
+                scene.lines.forEach(line => {
+                    if (ptr < dialogueBlocks.length) {
+                        const srtItem = dialogueBlocks[ptr];
+                        line.english = srtItem.text || line.baseEn;
+                        line.startTime = srtItem.start;
+                        line.endTime = srtItem.end;
+                        ptr++;
+                    } else {
+                        line.startTime = 0;
+                        line.endTime = 0;
+                    }
+                });
+            });
+        }
+
+        function formatJapanese(rawJp, hideFurigana) {
+            return String(rawJp || '').replace(/([\u4E00-\u9FFF\u3005]+)\((.*?)\)/g, (match, kanji, ruby) => {
+                if (hideFurigana) {
+                    return `<span class="kanji-hidden" onclick="revealFurigana(this)"><span class="kanji-text">${kanji}</span><span class="kanji-revealed">${ruby}</span></span>`;
+                }
+                return `<ruby>${kanji}<rt>${ruby}</rt></ruby>`;
+            });
+        }
+
+        window.revealFurigana = function(element) {
+            element.classList.toggle('show-ruby');
+        };
+
+        function escapeHtml(str) {
+            return String(str || '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function renderSceneSelector() {
+            const selector = document.getElementById('scene-selector');
+            if (!selector) return;
+            const currentVal = selector.value;
+            selector.innerHTML = '';
+            const count = sceneTitles.length > 0 ? sceneTitles.length : scenes.length;
+            for (let i = 0; i < count; i++) {
+                const opt = document.createElement('option');
+                opt.value = i;
+                opt.text = sceneTitles[i] || `Scene ${i + 1}`;
+                selector.appendChild(opt);
+            }
+            selector.value = (currentVal !== '' && Number(currentVal) < count) ? currentVal : 0;
+        }
+
+        function renderScene() {
+            const container = document.getElementById('dialogue-list');
+            container.innerHTML = '';
+            const scene = scenes[appState.currentSceneIndex];
+            if (!scene) return;
+
+            scene.lines.forEach((line, index) => {
+                const isSpeaker1 = line.speaker === 'Speaker 1';
+                const alignment = isSpeaker1 ? 'self-start' : 'self-end';
+                const bgColor = isSpeaker1 ? 'speaker-1-bg border border-gray-200' : 'speaker-2-bg border border-green-100';
+                const borderRadius = isSpeaker1 ? 'rounded-tr-2xl rounded-br-2xl rounded-bl-2xl' : 'rounded-tl-2xl rounded-br-2xl rounded-bl-2xl';
+                const icon = isSpeaker1 ? 'fa-user-tie' : 'fa-user';
+                const iconColor = isSpeaker1 ? 'text-gray-500' : 'text-green-600';
+
+                const jpFormatted = formatJapanese(line.rawJp, appState.hideFurigana);
+                const activeCount = (appState.showJapanese ? 1 : 0) + (appState.showRomaji ? 1 : 0) + (appState.showTranslation ? 1 : 0);
+
+                let fontSizeClass = 'text-[1.05rem]';
+                if (activeCount === 1) fontSizeClass = 'text-sm sm:text-base';
+                else if (activeCount === 2) fontSizeClass = 'text-base sm:text-[1rem]';
+
+                let extraContent = '';
+                if (appState.showJapanese) {
+                    extraContent += `<div class="${fontSizeClass} leading-loose break-words tracking-wide font-medium">${jpFormatted}</div>`;
+                }
+                if (appState.showRomaji) {
+                    const spacing = appState.showJapanese ? 'mt-1.5' : '';
+                    extraContent += `<div class="${fontSizeClass} ${spacing} text-gray-500 font-mono bg-gray-50 p-1.5 rounded">${escapeHtml(line.romaji)}</div>`;
+                }
+                if (appState.showTranslation) {
+                    const spacing = (appState.showJapanese || appState.showRomaji) ? 'mt-1.5' : '';
+                    extraContent += `<div class="${fontSizeClass} ${spacing} text-gray-700 italic border-l-2 border-gray-300 pl-2">${escapeHtml(line.english)}</div>`;
+                }
+
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+                const blurClass = isMuted ? 'blur-sm opacity-50 hover:blur-none hover:opacity-100 transition-all duration-300 cursor-pointer' : '';
+                const titleText = isMuted ? "title='Hover to reveal (Roleplay mode)'" : '';
+                const headerLayout = isSpeaker1 ? 'flex-row' : 'flex-row-reverse';
+
+                const html = `
+                    <div class="flex gap-2 sm:gap-3 max-w-[98%] sm:max-w-[85%] ${alignment} fade-in" style="animation-delay: ${Math.min(index * 0.03, 0.4)}s">
+                        ${isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+
+                        <div class="flex flex-col gap-1 w-full group">
+                            <div class="flex items-center gap-3 px-1 ${headerLayout}">
+                                <div class="text-xs text-gray-500 font-medium whitespace-nowrap">
+                                    ${escapeHtml(line.speaker)} ${isMuted ? '<span class="text-purple-600 font-bold ml-1"><i class="fa-solid fa-microphone-lines"></i> Your Turn</span>' : ''}
+                                </div>
+
+                                <div class="flex items-center gap-1.5">
+                                    <button onclick="playMyAudio(${index})" id="my-audio-btn-${index}" class="${appState.recordedBlobs[appState.currentSceneIndex + '_' + index] ? '' : 'hidden'} w-6 h-6 rounded-full bg-orange-100 hover:bg-orange-200 text-orange-600 flex items-center justify-center transition-colors focus:outline-none" title="自分の声を聴く">
+                                        <i class="fa-solid fa-face-smile text-[10px]"></i>
+                                    </button>
+
+                                    <button onclick="toggleRecording(${index}, this)" class="w-6 h-6 rounded-full bg-gray-200 hover:bg-red-100 text-gray-500 hover:text-red-500 flex items-center justify-center transition-colors focus:outline-none" title="声を録音する">
+                                        <i class="fa-solid fa-microphone text-[10px]"></i>
+                                    </button>
+
+                                    <button onclick="playLineAudio(${index})" class="w-6 h-6 rounded-full bg-gray-200 hover:bg-blue-100 text-gray-500 hover:text-blue-600 flex items-center justify-center transition-colors focus:outline-none" title="Play audio">
+                                        <i class="fa-solid fa-volume-high text-[10px]"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="${bgColor} ${borderRadius} p-3 sm:p-4 shadow-sm w-full transition-shadow duration-300 message-bubble">
+                                <div class="w-full ${blurClass}" ${titleText}>
+                                    ${extraContent}
+                                </div>
+                            </div>
+                        </div>
+
+                        ${!isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                    </div>
+                `;
+                container.insertAdjacentHTML('beforeend', html);
+            });
+        }
+
+        function playLineAudio(lineIndex) {
+            initAudioContext();
+            const scene = scenes[appState.currentSceneIndex];
+            if (!scene || !scene.lines[lineIndex]) return;
+            const line = scene.lines[lineIndex];
+            playMp3Segment(line.mp3Start, line.mp3End, 0.85);
+        }
+
+        async function playEntireScene() {
+            initAudioContext();
+            const playBtnIcon = document.querySelector('#play-scene-btn i');
+
+            if (appState.isPlaying) {
+                stopAllPlayback();
+                appState.isPlaying = false;
+                playBtnIcon.className = 'fa-solid fa-play';
+                document.querySelectorAll('.message-bubble').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                return;
+            }
+
+            appState.isPlaying = true;
+            playBtnIcon.className = 'fa-solid fa-stop';
+            const scene = scenes[appState.currentSceneIndex];
+            if (!scene) return;
+
+            for (let i = 0; i < scene.lines.length; i++) {
+                if (!appState.isPlaying) break;
+                const line = scene.lines[i];
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+
+                const allMessageBubbles = document.querySelectorAll('.message-bubble');
+                if (allMessageBubbles[i]) {
+                    allMessageBubbles.forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                    allMessageBubbles[i].classList.add('ring-2', isMuted ? 'ring-purple-400' : 'ring-blue-400');
+                    allMessageBubbles[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+
+                if (isMuted) {
+                    const waitTime = 1500 + (line.speakText.length * 150);
+                    await new Promise(r => setTimeout(r, waitTime));
+                } else {
+                    await playMp3Segment(line.mp3Start, line.mp3End, 0.85);
+                }
+
+                if (!appState.isPlaying) break;
+                await new Promise(r => setTimeout(r, 600));
+            }
+
+            document.querySelectorAll('.message-bubble').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+            appState.isPlaying = false;
+            playBtnIcon.className = 'fa-solid fa-play';
+        }
+
+        async function playMixedScene() {
+            initAudioContext();
+            const mixBtn = document.getElementById('play-mix-btn');
+            const mixBtnIcon = mixBtn.querySelector('i');
+
+            if (appState.isPlaying) {
+                stopAllPlayback();
+                appState.isPlaying = false;
+                mixBtnIcon.className = 'fa-solid fa-shuffle';
+                document.querySelectorAll('.message-bubble').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400', 'ring-orange-400'));
+                return;
+            }
+
+            appState.isPlaying = true;
+            mixBtnIcon.className = 'fa-solid fa-stop';
+            const scene = scenes[appState.currentSceneIndex];
+            if (!scene) return;
+
+            for (let i = 0; i < scene.lines.length; i++) {
+                if (!appState.isPlaying) break;
+                const line = scene.lines[i];
+                const key = appState.currentSceneIndex + '_' + i;
+                const myAudioUrl = appState.recordedBlobs[key];
+
+                const allMessageBubbles = document.querySelectorAll('.message-bubble');
+                if (allMessageBubbles[i]) {
+                    allMessageBubbles.forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400', 'ring-orange-400'));
+                    allMessageBubbles[i].classList.add('ring-2', myAudioUrl ? 'ring-orange-400' : 'ring-blue-400');
+                    allMessageBubbles[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+
+                if (myAudioUrl) {
+                    await new Promise(resolve => {
+                        stopAllPlayback();
+                        currentCustomAudio = new Audio(myAudioUrl);
+                        currentCustomAudio.playbackRate = 1.0;
+                        currentCustomAudio.onended = resolve;
+                        currentCustomAudio.onerror = resolve;
+                        currentCustomAudio.play().catch(() => resolve());
+                    });
+                } else {
+                    await playMp3Segment(line.mp3Start, line.mp3End, 0.85);
+                }
+
+                if (!appState.isPlaying) break;
+                await new Promise(r => setTimeout(r, 600));
+            }
+
+            document.querySelectorAll('.message-bubble').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400', 'ring-orange-400'));
+            appState.isPlaying = false;
+            mixBtnIcon.className = 'fa-solid fa-shuffle';
+        }
+
+        // =========================================================
+        // ★ YouTube Iframe API 動的読み込み & タイムスタンプ同期
+        // =========================================================
+        function loadYouTubeVideo(videoId) {
+            pendingYoutubeVideoId = videoId;
+            if (!ytApiLoaded) {
+                ytApiLoaded = true;
+                const tag = document.createElement('script');
+                tag.src = 'https://www.youtube.com/iframe_api';
+                const firstScriptTag = document.getElementsByTagName('script')[0];
+                firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+                return;
+            }
+            if (ytPlayer && typeof ytPlayer.loadVideoById === 'function') {
+                ytPlayer.cueVideoById(videoId);
+            }
+        }
+
+        window.onYouTubeIframeAPIReady = () => {
+            if (!pendingYoutubeVideoId) return;
+            ytPlayer = new YT.Player('player', {
+                videoId: pendingYoutubeVideoId,
+                playerVars: { playsinline: 1, rel: 0 },
+                events: { onStateChange: onPlayerStateChange }
+            });
+        };
+
+        function onPlayerStateChange(event) {
+            if (event.data === 1) {
+                if (appState.isPlaying) {
+                    stopAllPlayback();
+                    const playBtnIcon = document.querySelector('#play-scene-btn i');
+                    const mixBtnIcon = document.querySelector('#play-mix-btn i');
+                    if (playBtnIcon) playBtnIcon.className = 'fa-solid fa-play';
+                    if (mixBtnIcon) mixBtnIcon.className = 'fa-solid fa-shuffle';
+                    appState.isPlaying = false;
+                }
+                if (!ytTimeTracker) {
+                    appState.lastScrolledIndex = -1;
+                    ytTimeTracker = setInterval(trackYoutubeTime, 200);
+                }
+            } else if (ytTimeTracker) {
+                clearInterval(ytTimeTracker);
+                ytTimeTracker = null;
+            }
+        }
+
+        function trackYoutubeTime() {
+            if (!ytPlayer || typeof ytPlayer.getCurrentTime !== 'function') return;
+            const currentTime = ytPlayer.getCurrentTime();
+
+            let detectedSceneIdx = appState.currentSceneIndex;
+            for (let i = 0; i < sceneStartTimes.length; i++) {
+                const start = sceneStartTimes[i];
+                const end = (i + 1 < sceneStartTimes.length) ? sceneStartTimes[i + 1] : Infinity;
+                if (currentTime >= start && currentTime < end) {
+                    detectedSceneIdx = i;
+                    break;
+                }
+            }
+            if (detectedSceneIdx !== appState.currentSceneIndex) {
+                appState.currentSceneIndex = detectedSceneIdx;
+                const selector = document.getElementById('scene-selector');
+                if (selector) selector.value = detectedSceneIdx;
+                renderScene();
+                return;
+            }
+
+            const scene = scenes[appState.currentSceneIndex];
+            if (!scene || !scene.lines) return;
+
+            let activeIdx = -1;
+            for (let i = 0; i < scene.lines.length; i++) {
+                const line = scene.lines[i];
+                if (line.startTime <= currentTime && currentTime <= line.endTime) {
+                    activeIdx = i;
+                    break;
+                }
+            }
+
+            if (activeIdx !== -1) {
+                const allMessageBubbles = document.querySelectorAll('.message-bubble');
+                allMessageBubbles.forEach((b, idx) => {
+                    if (idx === activeIdx) {
+                        const isMuted = appState.roleplayMutedSpeaker === scene.lines[idx].speaker;
+                        b.classList.add('ring-2', isMuted ? 'ring-purple-400' : 'ring-blue-400');
+                    } else {
+                        b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400');
+                    }
+                });
+                if (activeIdx !== appState.lastScrolledIndex && allMessageBubbles[activeIdx]) {
+                    appState.lastScrolledIndex = activeIdx;
+                    allMessageBubbles[activeIdx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            } else {
+                document.querySelectorAll('.message-bubble').forEach(b => {
+                    b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400');
+                });
+            }
+        }
+
+        // =========================================================
+        // ★ 録音機能（iOS Safari / Android / PC 全対応）
+        // =========================================================
+        function initAudioContext() {
+            if (window.AudioContext || window.webkitAudioContext) {
+                const AudioContext = window.AudioContext || window.webkitAudioContext;
+                const ctx = new AudioContext();
+                if (ctx.state === 'suspended') ctx.resume();
+            }
+        }
+
+        async function toggleRecording(index, btnElement) {
+            initAudioContext();
+            const key = appState.currentSceneIndex + '_' + index;
+            const icon = btnElement.querySelector('i');
+
+            if (appState.activeRecordingIndex === index) {
+                if (appState.mediaRecorder && appState.mediaRecorder.state !== 'inactive') {
+                    appState.mediaRecorder.stop();
+                }
+                return;
+            }
+            if (appState.activeRecordingIndex !== -1) return;
+
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                const chunks = [];
+                const preferredMime = ['audio/webm', 'audio/mp4'].find(m => window.MediaRecorder && MediaRecorder.isTypeSupported(m));
+                appState.mediaRecorder = preferredMime ? new MediaRecorder(stream, { mimeType: preferredMime }) : new MediaRecorder(stream);
+
+                appState.mediaRecorder.ondataavailable = e => {
+                    if (e.data.size > 0) chunks.push(e.data);
+                };
+
+                appState.mediaRecorder.onstop = () => {
+                    const blob = new Blob(chunks, { type: preferredMime || 'audio/webm' });
+                    appState.recordedBlobs[key] = URL.createObjectURL(blob);
+                    appState.activeRecordingIndex = -1;
+                    icon.className = 'fa-solid fa-microphone';
+                    btnElement.classList.remove('bg-red-500', 'text-white', 'animate-pulse');
+                    btnElement.classList.add('bg-gray-200', 'text-gray-500');
+
+                    const myPlayBtn = document.getElementById(`my-audio-btn-${index}`);
+                    if (myPlayBtn) myPlayBtn.classList.remove('hidden');
+                    stream.getTracks().forEach(track => track.stop());
+                };
+
+                appState.activeRecordingIndex = index;
+                icon.className = 'fa-solid fa-square';
+                btnElement.classList.remove('bg-gray-200', 'text-gray-500');
+                btnElement.classList.add('bg-red-500', 'text-white', 'animate-pulse');
+                appState.mediaRecorder.start();
+            } catch (err) {
+                alert('マイク機能を利用できません。HTTPS接続とマイク許可を確認してください。');
+            }
+        }
+
+        function playMyAudio(index) {
+            initAudioContext();
+            const key = appState.currentSceneIndex + '_' + index;
+            const audioUrl = appState.recordedBlobs[key];
+            if (!audioUrl) return;
+            stopAllPlayback();
+            currentCustomAudio = new Audio(audioUrl);
+            currentCustomAudio.play().catch(e => console.error('録音再生失敗:', e));
+        }
+
+        // =========================================================
+        // ★ 初期化 & イベント登録
+        // =========================================================
+        window.addEventListener('DOMContentLoaded', async () => {
+            document.querySelectorAll('.ui-lang-select').forEach(sel => {
+                UI_LANG_OPTIONS.forEach(optData => {
+                    const opt = document.createElement('option');
+                    opt.value = optData.code;
+                    opt.text = optData.label;
+                    sel.appendChild(opt);
+                });
+                sel.addEventListener('change', (e) => applyUiLanguage(e.target.value));
+            });
+            applyUiLanguage(detectDefaultUiLang());
+
+            document.getElementById('mp3-lang-filter').addEventListener('change', renderMp3List);
+            document.getElementById('anki-lang-filter').addEventListener('change', renderAnkiList);
+
+            document.getElementById('auth-form').addEventListener('submit', async (e) => {
+                e.preventDefault();
+                const errEl = document.getElementById('auth-error');
+                const btn = document.getElementById('auth-submit-btn');
+                const inputKey = document.getElementById('passcode-input').value.trim();
+                errEl.classList.add('hidden');
+                if (!inputKey) {
+                    errEl.textContent = 'パスコードを入力してください。';
+                    errEl.classList.remove('hidden');
+                    return;
+                }
+                btn.disabled = true;
+                btn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i><span>${escapeHtml(t('authChecking'))}</span>`;
+                try {
+                    await authenticateAndLoad(inputKey);
+                } catch (err) {
+                    errEl.textContent = t('authInvalid');
+                    errEl.classList.remove('hidden');
+                } finally {
+                    btn.disabled = false;
+                    btn.innerHTML = `<i class="fa-solid fa-unlock-keyhole"></i><span id="auth-submit-text">${escapeHtml(t('authSubmit'))}</span>`;
+                }
+            });
+
+            document.querySelectorAll('.nav-tab-btn').forEach(btn => {
+                btn.addEventListener('click', () => switchTab(btn.dataset.tab));
+            });
+
+            document.getElementById('mp3-search').addEventListener('input', renderMp3List);
+            document.getElementById('anki-search').addEventListener('input', renderAnkiList);
+
+            document.getElementById('refresh-catalog-btn').addEventListener('click', async () => {
+                if (!portalState.passkey) return;
+                portalState.lessonDetailCache = {};
+                portalState.srtCache = {};
+                await authenticateAndLoad(portalState.passkey, true);
+            });
+
+            document.getElementById('logout-btn').addEventListener('click', () => {
+                stopAllPlayback();
+                localStorage.removeItem(STORAGE_KEY_NAME);
+                portalState.passkey = '';
+                portalState.tier = null;
+                portalState.catalog = null;
+                document.getElementById('portal-shell').classList.add('hidden');
+                document.getElementById('auth-screen').classList.remove('hidden');
+                document.getElementById('passcode-input').value = '';
+            });
+
+            document.getElementById('lesson-selector').addEventListener('change', (e) => {
+                loadWebAppLesson(e.target.value);
+            });
+
+            document.getElementById('scene-selector').addEventListener('change', (e) => {
+                const sceneIdx = parseInt(e.target.value, 10);
+                appState.currentSceneIndex = sceneIdx;
+                if (appState.isPlaying) playEntireScene();
+                renderScene();
+                if (ytPlayer && typeof ytPlayer.seekTo === 'function' && sceneStartTimes[sceneIdx] !== undefined) {
+                    ytPlayer.seekTo(sceneStartTimes[sceneIdx], true);
+                }
+            });
+
+            document.getElementById('toggle-japanese').addEventListener('change', (e) => {
+                appState.showJapanese = e.target.checked;
+                renderScene();
+            });
+            document.getElementById('toggle-romaji').addEventListener('change', (e) => {
+                appState.showRomaji = e.target.checked;
+                renderScene();
+            });
+            document.getElementById('toggle-translation').addEventListener('change', (e) => {
+                appState.showTranslation = e.target.checked;
+                renderScene();
+            });
+            document.getElementById('lang-selector').addEventListener('change', async (e) => {
+                appState.currentLang = e.target.value;
+                if (appState.isPlaying) playEntireScene();
+                await updateTranslations();
+                await updateSceneTitles();
+                await updateSceneStartTimes();
+                renderSceneSelector();
+                renderScene();
+            });
+            document.getElementById('toggle-kanji-test').addEventListener('change', (e) => {
+                appState.hideFurigana = e.target.checked;
+                renderScene();
+            });
+            document.getElementById('roleplay-selector').addEventListener('change', (e) => {
+                appState.roleplayMutedSpeaker = e.target.value;
+                renderScene();
+            });
+
+            // URLパラメータ ?key=... または保存済みキーで自動ログイン
+            const urlKey = new URLSearchParams(window.location.search).get('key');
+            const savedKey = urlKey || localStorage.getItem(STORAGE_KEY_NAME);
+            if (savedKey) {
+                try {
+                    await authenticateAndLoad(savedKey);
+                } catch (e) {
+                    localStorage.removeItem(STORAGE_KEY_NAME);
+                }
+            }
+        });
+    </script>
+</body>
+</html>
