@@ -187,6 +187,51 @@
                         class="w-full sm:w-56 px-3.5 py-2 rounded-xl border border-gray-300 bg-white text-sm focus:ring-2 focus:ring-blue-500 outline-none">
                 </div>
             </div>
+            <!-- ★ 会員向け Anki 導入・使い方ガイド（12言語対応） -->
+            <div id="anki-guide-box" class="bg-indigo-50/80 border border-indigo-200 rounded-2xl p-4 sm:p-5 space-y-3">
+                <div class="flex items-center justify-between gap-2">
+                    <div class="flex items-center gap-2 text-indigo-900 font-bold text-sm sm:text-base">
+                        <i class="fa-solid fa-circle-info text-indigo-600"></i>
+                        <span id="anki-guide-title">How to Download &amp; Use Anki Decks</span>
+                    </div>
+                    <button id="anki-guide-toggle" type="button" onclick="toggleAnkiGuide()"
+                        class="text-xs font-semibold text-indigo-700 hover:text-indigo-900 bg-white border border-indigo-200 px-2.5 py-1 rounded-lg transition">
+                        <span id="anki-guide-toggle-text">Hide</span>
+                    </button>
+                </div>
+                <div id="anki-guide-body" class="space-y-3 text-xs sm:text-sm text-gray-700">
+                    <div class="bg-amber-50 border border-amber-200 text-amber-900 rounded-xl px-3.5 py-2.5 font-medium flex items-start gap-2">
+                        <i class="fa-solid fa-triangle-exclamation text-amber-600 mt-0.5"></i>
+                        <span id="anki-guide-warn"></span>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-2.5">
+                        <div class="bg-white rounded-xl border border-indigo-100 p-3.5 space-y-2">
+                            <div id="anki-step1-title" class="font-bold text-indigo-800 text-xs sm:text-sm"></div>
+                            <p id="anki-step1-desc" class="text-xs text-gray-600 leading-relaxed"></p>
+                            <div class="flex flex-wrap gap-1.5 pt-1">
+                                <a href="https://play.google.com/store/apps/details?id=com.ichi2.anki" target="_blank" rel="noopener"
+                                   class="px-2.5 py-1 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-[11px] font-semibold transition">Android (Free)</a>
+                                <a href="https://apps.apple.com/us/app/ankimobile-flashcards/id373493387" target="_blank" rel="noopener"
+                                   class="px-2.5 py-1 rounded-lg bg-gray-800 hover:bg-gray-900 text-white text-[11px] font-semibold transition">iPhone / iPad</a>
+                                <a href="https://apps.ankiweb.net/" target="_blank" rel="noopener"
+                                   class="px-2.5 py-1 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-[11px] font-semibold transition">PC (Free)</a>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-xl border border-indigo-100 p-3.5 space-y-1.5">
+                            <div id="anki-step2-title" class="font-bold text-indigo-800 text-xs sm:text-sm"></div>
+                            <p id="anki-step2-desc" class="text-xs text-gray-600 leading-relaxed"></p>
+                        </div>
+                        <div class="bg-white rounded-xl border border-indigo-100 p-3.5 space-y-1.5">
+                            <div id="anki-step3-title" class="font-bold text-indigo-800 text-xs sm:text-sm"></div>
+                            <ul class="text-xs text-gray-600 space-y-1 leading-relaxed list-disc pl-4">
+                                <li id="anki-step3-android"></li>
+                                <li id="anki-step3-ios"></li>
+                                <li id="anki-step3-pc"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div id="anki-list" class="grid grid-cols-1 gap-3"></div>
         </section>
 
@@ -499,6 +544,191 @@
             }
         };
 
+        const ANKI_GUIDE_TEXT = {
+            ja: {
+                title: 'Ankiデッキのダウンロード方法と使い方（3ステップ）',
+                show: '表示する', hide: '閉じる',
+                warn: '【重要】.apkg ファイルを開くには、先に端末へ「Ankiアプリ」をインストールしておく必要があります。未インストールのままだとファイルを開けません。',
+                s1Title: '1. 先にAnkiアプリを入れる',
+                s1Desc: 'お使いの端末に合わせて公式アプリをインストールしてください。（iPhone公式アプリは有料ですが、無料のPC版Anki＋AnkiWebを使えばiPhoneのブラウザからも無料で復習できます）',
+                s2Title: '2. 下のリストから .apkg を保存',
+                s2Desc: '学習したい動画のカードから、ご自身の言語ボタン（EN / VI など）をタップして .apkg ファイルをダウンロードします。',
+                s3Title: '3. Ankiアプリに読み込んで開始',
+                s3And: 'Android (AnkiDroid)：ダウンロード通知をタップ、またはアプリ右上の「読み込み」から .apkg を選択。',
+                s3Ios: 'iPhone / iPad：ダウンロード後、「ファイル」アプリで .apkg をタップ → 共有から「Ankiで開く」。',
+                s3Pc: 'PC (Windows / Mac)：ダウンロードした .apkg ファイルをダブルクリックすると自動追加されます。'
+            },
+            en: {
+                title: 'How to Download & Use Anki Decks (3 Easy Steps)',
+                show: 'Show Guide', hide: 'Hide',
+                warn: 'Important: You MUST install the Anki app BEFORE opening .apkg files. Your phone or PC cannot open .apkg files without Anki installed first.',
+                s1Title: '1. Install the Anki App First',
+                s1Desc: 'Install the official app for your device. (AnkiMobile for iOS is paid, or you can import on free PC Anki and study free on iPhone via AnkiWeb.)',
+                s2Title: '2. Download Your Language .apkg',
+                s2Desc: 'Scroll down and tap your language button (e.g., EN, VI, ID) on any lesson card to save the .apkg file to your device.',
+                s3Title: '3. Open the File in Anki',
+                s3And: 'Android (AnkiDroid): Tap the download notification, or open AnkiDroid -> Menu -> Import and select the .apkg file.',
+                s3Ios: 'iPhone / iPad: Open the Files app (or Safari Downloads), tap the .apkg file, then Share -> Open in Anki.',
+                s3Pc: 'PC (Windows / Mac): Simply double-click the downloaded .apkg file to import it.'
+            },
+            vi: {
+                title: 'Hướng dẫn tải và sử dụng bộ thẻ Anki (3 bước đơn giản)',
+                show: 'Xem hướng dẫn', hide: 'Ẩn',
+                warn: 'Quan trọng: Bạn PHẢI cài đặt ứng dụng Anki TRƯỚC KHI tải và mở tệp .apkg. Nếu chưa cài Anki, điện thoại sẽ không mở được tệp này.',
+                s1Title: '1. Cài đặt ứng dụng Anki trước',
+                s1Desc: 'Tải ứng dụng chính thức cho thiết bị của bạn. (Bản iPhone trả phí, hoặc bạn có thể nhập trên Anki PC miễn phí rồi đồng bộ AnkiWeb để học miễn phí trên iPhone).',
+                s2Title: '2. Tải tệp .apkg theo ngôn ngữ',
+                s2Desc: 'Chọn bài học bên dưới và nhấn nút ngôn ngữ của bạn (ví dụ: VI, EN) để lưu tệp .apkg về máy.',
+                s3Title: '3. Mở tệp trong Anki để học',
+                s3And: 'Android (AnkiDroid): Nhấn vào thông báo đã tải xong, hoặc mở AnkiDroid -> Menu -> Nhập (Import) -> chọn tệp .apkg.',
+                s3Ios: 'iPhone / iPad: Mở ứng dụng Tệp (Files) -> nhấn tệp .apkg -> Chia sẻ -> Mở bằng Anki.',
+                s3Pc: 'PC (Windows / Mac): Nhấp đúp vào tệp .apkg vừa tải về để tự động thêm vào Anki.'
+            },
+            id: {
+                title: 'Cara Mengunduh & Menggunakan Dek Anki (3 Langkah Mudah)',
+                show: 'Lihat Panduan', hide: 'Tutup',
+                warn: 'Penting: Anda HARUS menginstal aplikasi Anki TERLEBIH DAHULU sebelum membuka file .apkg. Tanpa Anki, file tidak dapat dibuka.',
+                s1Title: '1. Instal Aplikasi Anki Dulu',
+                s1Desc: 'Pasang aplikasi resmi sesuai perangkat Anda. (AnkiMobile iOS berbayar, atau gunakan Anki PC gratis lalu sinkronkan ke AnkiWeb untuk belajar gratis di iPhone.)',
+                s2Title: '2. Unduh File .apkg Bahasa Anda',
+                s2Desc: 'Pilih materi di bawah dan ketuk tombol bahasa Anda (mis. ID, EN) untuk menyimpan file .apkg.',
+                s3Title: '3. Buka File di Aplikasi Anki',
+                s3And: 'Android (AnkiDroid): Ketuk notifikasi unduhan, atau buka AnkiDroid -> Menu -> Impor dan pilih file .apkg.',
+                s3Ios: 'iPhone / iPad: Buka aplikasi File (Files), ketuk file .apkg, lalu Bagikan -> Buka di Anki.',
+                s3Pc: 'PC (Windows / Mac): Klik dua kali file .apkg yang diunduh untuk mengimpornya otomatis.'
+            },
+            ko: {
+                title: 'Anki 덱 다운로드 및 사용 방법 (3단계 가이드)',
+                show: '가이드 보기', hide: '닫기',
+                warn: '중요: .apkg 파일을 열기 전에 먼저 기기에 Anki 앱을 설치해야 합니다. 앱이 없으면 파일이 열리지 않습니다.',
+                s1Title: '1. 먼저 Anki 앱 설치하기',
+                s1Desc: '사용 중인 기기에 맞는 공식 앱을 설치하세요. (iPhone 앱은 유료이며, 무료 PC용 Anki에 불러온 뒤 AnkiWeb으로 동기화하면 모바일 웹에서 무료로 학습할 수 있습니다.)',
+                s2Title: '2. 내 언어 .apkg 다운로드',
+                s2Desc: '아래 목록에서 원하는 레슨의 언어 버튼(예: KO, EN)을 눌러 .apkg 파일을 저장하세요.',
+                s3Title: '3. Anki 앱으로 불러오기',
+                s3And: 'Android (AnkiDroid): 다운로드 완료 알림을 누르거나 AnkiDroid 메뉴 -> 가져오기(Import)에서 .apkg 파일을 선택하세요.',
+                s3Ios: 'iPhone / iPad: 파일(Files) 앱에서 .apkg 파일을 누른 뒤 공유 -> Anki에서 열기를 선택하세요.',
+                s3Pc: 'PC (Windows / Mac): 다운로드한 .apkg 파일을 더블 클릭하면 자동으로 추가됩니다.'
+            },
+            'zh-Hant': {
+                title: 'Anki 牌組下載與使用教學（簡單 3 步驟）',
+                show: '顯示教學', hide: '收起',
+                warn: '重要提醒：開啟 .apkg 檔案前，必須先安裝 Anki 應用程式！若未先安裝 Anki，手機或電腦將無法開啟該檔案。',
+                s1Title: '1. 先安裝 Anki 應用程式',
+                s1Desc: '請依您的裝置安裝官方版本。（iPhone 官方版需付費，您也可先用免費電腦版 Anki 匯入並同步至 AnkiWeb，即可在手機瀏覽器免費複習。）',
+                s2Title: '2. 下載對應語言的 .apkg 檔',
+                s2Desc: '在下方列表中找到想學習的課程，點擊您的語言按鈕（例如 ZH_HANT、EN）下載 .apkg 檔案。',
+                s3Title: '3. 匯入 Anki 開始複習',
+                s3And: 'Android (AnkiDroid)：點擊下載完成通知，或開啟 AnkiDroid → 右上角選單「匯入」→ 選擇 .apkg 檔案。',
+                s3Ios: 'iPhone / iPad：開啟「檔案」App 點擊 .apkg 檔案 → 分享 → 選擇「以 Anki 開啟」。',
+                s3Pc: '電腦 (Windows / Mac)：直接雙擊下載好的 .apkg 檔案即可自動匯入。'
+            },
+            'zh-Hans': {
+                title: 'Anki 牌组下载与使用教程（简单 3 步骤）',
+                show: '显示教程', hide: '收起',
+                warn: '重要提示：打开 .apkg 文件前，必须先安装 Anki 应用！如果未先安装 Anki，手机或电脑将无法打开该文件。',
+                s1Title: '1. 先安装 Anki 应用',
+                s1Desc: '请根据您的设备安装官方版本。（iPhone 官方版需付费，您也可以先在免费电脑版 Anki 中导入并同步到 AnkiWeb，即可在手机浏览器免费复习。）',
+                s2Title: '2. 下载对应语言的 .apkg 文件',
+                s2Desc: '在下方列表中选择课程，点击您的语言按钮（如 EN 等）保存 .apkg 文件。',
+                s3Title: '3. 导入 Anki 开始学习',
+                s3And: 'Android (AnkiDroid)：点击下载完成通知，或打开 AnkiDroid → 菜单“导入”→ 选择 .apkg 文件。',
+                s3Ios: 'iPhone / iPad：在“文件”App 中点击 .apkg 文件 → 分享 → 选择“用 Anki 打开”。',
+                s3Pc: '电脑 (Windows / Mac)：直接双击下载的 .apkg 文件即可自动导入。'
+            },
+            th: {
+                title: 'วิธีดาวน์โหลดและใช้งานชุดการ์ด Anki (3 ขั้นตอนง่ายๆ)',
+                show: 'ดูวิธีใช้งาน', hide: 'ซ่อน',
+                warn: 'สำคัญ: คุณต้องติดตั้งแอป Anki ก่อนเปิดไฟล์ .apkg หากยังไม่ติดตั้งแอปจะไม่สามารถเปิดไฟล์ได้',
+                s1Title: '1. ติดตั้งแอป Anki ก่อน',
+                s1Desc: 'ดาวน์โหลดแอปทางการตามอุปกรณ์ของคุณ (iPhone มีค่าใช้จ่าย หรือใช้ Anki บนคอมพิวเตอร์ฟรีแล้วซิงค์ผ่าน AnkiWeb เพื่อเรียนฟรีบนมือถือได้)',
+                s2Title: '2. ดาวน์โหลดไฟล์ .apkg',
+                s2Desc: 'เลื่อนลงไปด้านล่างแล้วกดปุ่มภาษาของคุณ (เช่น TH, EN) เพื่อบันทึกไฟล์ .apkg ลงเครื่อง',
+                s3Title: '3. เปิดไฟล์ด้วยแอป Anki',
+                s3And: 'Android (AnkiDroid): แตะแจ้งเตือนดาวน์โหลด หรือเปิด AnkiDroid -> เมนู -> นำเข้า (Import) แล้วเลือกไฟล์ .apkg',
+                s3Ios: 'iPhone / iPad: เปิดแอป ไฟล์ (Files) แตะไฟล์ .apkg -> แชร์ -> เปิดใน Anki',
+                s3Pc: 'PC (Windows / Mac): ดับเบิลคลิกไฟล์ .apkg ที่ดาวน์โหลดมาเพื่อนำเข้าอัตโนมัติ'
+            },
+            es: {
+                title: 'Cómo descargar y usar los mazos de Anki (3 pasos)',
+                show: 'Ver guía', hide: 'Ocultar',
+                warn: 'Importante: Debes instalar la app de Anki ANTES de abrir los archivos .apkg. Sin la app instalada, no podrás abrir el archivo.',
+                s1Title: '1. Instala primero la app Anki',
+                s1Desc: 'Descarga la app oficial para tu dispositivo. (AnkiMobile en iOS es de pago, pero puedes importar en Anki para PC gratis y repasar en AnkiWeb desde tu móvil.)',
+                s2Title: '2. Descarga tu archivo .apkg',
+                s2Desc: 'Elige una lección abajo y pulsa el botón de tu idioma para guardar el archivo .apkg.',
+                s3Title: '3. Ábrelo en Anki',
+                s3And: 'Android (AnkiDroid): Toca la notificación de descarga o abre AnkiDroid -> Menú -> Importar y elige el archivo .apkg.',
+                s3Ios: 'iPhone / iPad: Abre la app Archivos, toca el archivo .apkg -> Compartir -> Abrir en Anki.',
+                s3Pc: 'PC (Windows / Mac): Haz doble clic en el archivo .apkg descargado para importarlo.'
+            },
+            pt: {
+                title: 'Como baixar e usar os baralhos Anki (3 passos)',
+                show: 'Ver guia', hide: 'Ocultar',
+                warn: 'Importante: Você PRECISA instalar o aplicativo Anki ANTES de abrir os arquivos .apkg. Sem o aplicativo, não será possível abrir.',
+                s1Title: '1. Instale o Anki primeiro',
+                s1Desc: 'Instale o app oficial no seu aparelho. (No iPhone o app é pago, mas você pode importar no Anki de PC gratuito e estudar grátis pelo AnkiWeb.)',
+                s2Title: '2. Baixe o arquivo .apkg',
+                s2Desc: 'Escolha uma lição abaixo e toque no botão do seu idioma para salvar o arquivo .apkg.',
+                s3Title: '3. Abra no aplicativo Anki',
+                s3And: 'Android (AnkiDroid): Toque na notificação de download ou abra AnkiDroid -> Menu -> Importar e selecione o .apkg.',
+                s3Ios: 'iPhone / iPad: Abra o app Arquivos, toque no .apkg -> Compartilhar -> Abrir no Anki.',
+                s3Pc: 'PC (Windows / Mac): Clique duas vezes no arquivo .apkg baixado para importar.'
+            },
+            fr: {
+                title: 'Comment télécharger et utiliser les paquets Anki (3 étapes)',
+                show: 'Afficher le guide', hide: 'Masquer',
+                warn: 'Important : vous DEVEZ installer l’application Anki AVANT d’ouvrir un fichier .apkg, sinon votre appareil ne pourra pas le lire.',
+                s1Title: '1. Installez Anki en premier',
+                s1Desc: 'Installez l’application officielle. (AnkiMobile sur iOS est payant, mais vous pouvez importer sur Anki PC gratuit et réviser gratuitement via AnkiWeb.)',
+                s2Title: '2. Téléchargez votre fichier .apkg',
+                s2Desc: 'Choisissez une leçon ci-dessous et cliquez sur votre langue pour enregistrer le fichier .apkg.',
+                s3Title: '3. Ouvrez le fichier dans Anki',
+                s3And: 'Android (AnkiDroid) : Touchez la notification de téléchargement ou AnkiDroid -> Menu -> Importer le fichier .apkg.',
+                s3Ios: 'iPhone / iPad : Ouvrez l’app Fichiers, touchez le .apkg -> Partager -> Ouvrir dans Anki.',
+                s3Pc: 'PC (Windows / Mac) : Double-cliquez simplement sur le fichier .apkg téléchargé.'
+            },
+            my: {
+                title: 'Anki ကတ်များ ဒေါင်းလုဒ်လုပ်နည်းနှင့် အသုံးပြုနည်း (၃ ဆင့်)',
+                show: 'လမ်းညွှန်ကြည့်ရန်', hide: 'ပိတ်ရန်',
+                warn: 'အရေးကြီးသည် - .apkg ဖိုင်ကို မဖွင့်မီ Anki အက်ပ်ကို ဦးစွာ ထည့်သွင်းထားရန် လိုအပ်ပါသည်။ အက်ပ်မရှိပါက ဖိုင်ပွင့်မည်မဟုတ်ပါ။',
+                s1Title: '၁။ Anki အက်ပ်ကို အရင်ထည့်သွင်းပါ',
+                s1Desc: 'သင့်ဖုန်း သို့မဟုတ် ကွန်ပျူတာအတွက် တရားဝင် Anki အက်ပ်ကို ထည့်သွင်းပါ။ (iPhone အက်ပ်သည် အခပေးဖြစ်သော်လည်း PC Anki (အခမဲ့) မှတစ်ဆင့် AnkiWeb ဖြင့် ဖုန်းတွင် အခမဲ့လေ့လာနိုင်ပါသည်။)',
+                s2Title: '၂။ .apkg ဖိုင်ကို ဒေါင်းလုဒ်လုပ်ပါ',
+                s2Desc: 'အောက်ပါစာရင်းမှ သင်လေ့လာလိုသော သင်ခန်းစာ၏ ဘာသာစကားခလုတ် (ဥပမာ MY, EN) ကိုနှိပ်၍ .apkg ဖိုင်ကို သိမ်းဆည်းပါ။',
+                s3Title: '၃။ Anki အက်ပ်ဖြင့် ဖွင့်ပါ',
+                s3And: 'Android (AnkiDroid): ဒေါင်းလုဒ်ပြီးစီးကြောင်း အသိပေးချက်ကို နှိပ်ပါ သို့မဟုတ် AnkiDroid -> Menu -> Import မှ .apkg ကို ရွေးပါ။',
+                s3Ios: 'iPhone / iPad: Files အက်ပ်ထဲမှ .apkg ဖိုင်ကို နှိပ်ပြီး Share -> Open in Anki ကို ရွေးပါ။',
+                s3Pc: 'PC (Windows / Mac): ဒေါင်းလုဒ်လုပ်ထားသော .apkg ဖိုင်ကို နှစ်ချက်နှိပ်၍ ထည့်သွင်းပါ။'
+            }
+        };
+
+        let ankiGuideOpen = true;
+        function toggleAnkiGuide() {
+            ankiGuideOpen = !ankiGuideOpen;
+            const body = document.getElementById('anki-guide-body');
+            const toggleText = document.getElementById('anki-guide-toggle-text');
+            const g = ANKI_GUIDE_TEXT[portalState.uiLang] || ANKI_GUIDE_TEXT.en;
+            if (body) body.classList.toggle('hidden', !ankiGuideOpen);
+            if (toggleText) toggleText.textContent = ankiGuideOpen ? g.hide : g.show;
+        }
+
+        function applyAnkiGuideText(langCode) {
+            const g = ANKI_GUIDE_TEXT[langCode] || ANKI_GUIDE_TEXT.en;
+            const set = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
+            set('anki-guide-title', g.title);
+            set('anki-guide-toggle-text', ankiGuideOpen ? g.hide : g.show);
+            set('anki-guide-warn', g.warn);
+            set('anki-step1-title', g.s1Title);
+            set('anki-step1-desc', g.s1Desc);
+            set('anki-step2-title', g.s2Title);
+            set('anki-step2-desc', g.s2Desc);
+            set('anki-step3-title', g.s3Title);
+            set('anki-step3-android', g.s3And);
+            set('anki-step3-ios', g.s3Ios);
+            set('anki-step3-pc', g.s3Pc);
+        }
+
         const UI_LANG_STORAGE = 'sjl_ui_lang';
 
         function detectDefaultUiLang() {
@@ -512,6 +742,10 @@
             if (nav.includes('tw') || nav.includes('hk') || nav.includes('hant')) return 'zh-Hant';
             if (nav.startsWith('zh')) return 'zh-Hans';
             if (nav.startsWith('th')) return 'th';
+            if (nav.startsWith('es')) return 'es';
+            if (nav.startsWith('pt')) return 'pt';
+            if (nav.startsWith('fr')) return 'fr';
+            if (nav.startsWith('my')) return 'my';
             return 'en';
         }
 
@@ -544,6 +778,7 @@
             document.getElementById('anki-subheading').textContent = t('ankiSub');
             document.getElementById('anki-search').placeholder = t('searchPh');
             document.getElementById('lesson-select-label').textContent = t('lessonLabel');
+            applyAnkiGuideText(valid);
 
             const mp3AllOpt = document.querySelector('#mp3-lang-filter option[value="ALL"]');
             if (mp3AllOpt) mp3AllOpt.textContent = t('allLangs');
