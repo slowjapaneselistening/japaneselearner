@@ -1324,9 +1324,53 @@
                 return;
             }
 
-            // シーン見出しと挿入動画字幕（PDF案内・テスト案内等）を除外して純粋なセリフブロックを抽出
+            // シーン見出しと挿入動画字幕（OP動画・PDF案内・テスト案内等）を除外して純粋なセリフブロックを抽出
             const sceneRegex = /^Scene\s+\d+:/i;
             const nonLineRegex = /(listening test|answer subtitles|PDFスクリプト|トップコメント|1周目は理解度テスト)/i;
+
+            const sceneHeaderIndices = [];
+            srtParsed.forEach((item, idx) => {
+                if (sceneRegex.test((item.text || '').trim())) {
+                    sceneHeaderIndices.push(idx);
+                }
+            });
+
+            if (sceneHeaderIndices.length > 0) {
+                // Scene 1 より前の OP動画字幕をすべてスキップし、シーン単位で正確に照合する
+                scenes.forEach((scene, sceneIdx) => {
+                    if (sceneIdx < sceneHeaderIndices.length) {
+                        const sliceStart = sceneHeaderIndices[sceneIdx] + 1;
+                        const sliceEnd = (sceneIdx + 1 < sceneHeaderIndices.length)
+                            ? sceneHeaderIndices[sceneIdx + 1]
+                            : srtParsed.length;
+                        const sceneBlocks = srtParsed.slice(sliceStart, sliceEnd).filter(item => {
+                            const t = (item.text || '').trim();
+                            if (!t) return false;
+                            if (sceneRegex.test(t)) return false;
+                            if (nonLineRegex.test(t)) return false;
+                            return true;
+                        });
+
+                        scene.lines.forEach((line, lineIdx) => {
+                            if (lineIdx < sceneBlocks.length) {
+                                const srtItem = sceneBlocks[lineIdx];
+                                line.english = srtItem.text || line.baseEn;
+                                line.startTime = srtItem.start;
+                                line.endTime = srtItem.end;
+                            } else {
+                                line.startTime = 0;
+                                line.endTime = 0;
+                            }
+                        });
+                    } else {
+                        scene.lines.forEach(line => {
+                            line.startTime = 0;
+                            line.endTime = 0;
+                        });
+                    }
+                });
+                return;
+            }
 
             const dialogueBlocks = srtParsed.filter(item => {
                 const t = item.text.trim();
@@ -1356,13 +1400,14 @@
         function formatJapanese(rawJp, hideFurigana) {
             return String(rawJp || '').replace(/([\u4E00-\u9FFF\u3005]+)\((.*?)\)/g, (match, kanji, ruby) => {
                 if (hideFurigana) {
-                    return `<span class="kanji-hidden" onclick="revealFurigana(this)"><span class="kanji-text">${kanji}</span><span class="kanji-revealed">${ruby}</span></span>`;
+                    return `<span class="kanji-hidden" onclick="revealFurigana(this, event)"><span class="kanji-text">${kanji}</span><span class="kanji-revealed">${ruby}</span></span>`;
                 }
                 return `<ruby>${kanji}<rt>${ruby}</rt></ruby>`;
             });
         }
 
-        window.revealFurigana = function(element) {
+        window.revealFurigana = function(element, event) {
+            if (event) event.stopPropagation();
             element.classList.toggle('show-ruby');
         };
 
@@ -1448,13 +1493,17 @@
                                         <i class="fa-solid fa-microphone text-[10px]"></i>
                                     </button>
 
-                                    <button onclick="playLineAudio(${index})" class="w-6 h-6 rounded-full bg-gray-200 hover:bg-blue-100 text-gray-500 hover:text-blue-600 flex items-center justify-center transition-colors focus:outline-none" title="Play audio">
+                                    <button onclick="playLineAudio(${index})" class="w-6 h-6 rounded-full bg-gray-200 hover:bg-blue-100 text-gray-500 hover:text-blue-600 flex items-center justify-center transition-colors focus:outline-none" title="音声のみ再生">
                                         <i class="fa-solid fa-volume-high text-[10px]"></i>
+                                    </button>
+
+                                    <button onclick="seekVideoToLine(${index})" class="w-6 h-6 rounded-full bg-gray-200 hover:bg-red-100 text-gray-500 hover:text-red-600 flex items-center justify-center transition-colors focus:outline-none" title="このセリフから動画を再生">
+                                        <i class="fa-solid fa-circle-play text-[11px]"></i>
                                     </button>
                                 </div>
                             </div>
 
-                            <div class="${bgColor} ${borderRadius} p-3 sm:p-4 shadow-sm w-full transition-shadow duration-300 message-bubble">
+                            <div onclick="seekVideoToLine(${index})" title="タップしてこのセリフから動画を再生" class="${bgColor} ${borderRadius} p-3 sm:p-4 shadow-sm hover:shadow-md cursor-pointer w-full transition-shadow duration-300 message-bubble">
                                 <div class="w-full ${blurClass}" ${titleText}>
                                     ${extraContent}
                                 </div>
@@ -1474,6 +1523,29 @@
             if (!scene || !scene.lines[lineIndex]) return;
             const line = scene.lines[lineIndex];
             playMp3Segment(line.mp3Start, line.mp3End, 0.85);
+        }
+
+        function seekVideoToLine(lineIndex) {
+            const scene = scenes[appState.currentSceneIndex];
+            if (!scene || !scene.lines[lineIndex]) return;
+            const line = scene.lines[lineIndex];
+            const targetSec = (line.endTime > line.startTime)
+                ? line.startTime
+                : (sceneStartTimes[appState.currentSceneIndex] || 0);
+
+            stopAllPlayback();
+            appState.isPlaying = false;
+            const playBtnIcon = document.querySelector('#play-scene-btn i');
+            const mixBtnIcon = document.querySelector('#play-mix-btn i');
+            if (playBtnIcon) playBtnIcon.className = 'fa-solid fa-play';
+            if (mixBtnIcon) mixBtnIcon.className = 'fa-solid fa-shuffle';
+
+            if (ytPlayer && typeof ytPlayer.seekTo === 'function') {
+                ytPlayer.seekTo(targetSec, true);
+                if (typeof ytPlayer.playVideo === 'function') {
+                    ytPlayer.playVideo();
+                }
+            }
         }
 
         async function playEntireScene() {
