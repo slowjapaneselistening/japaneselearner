@@ -111,29 +111,29 @@
     <!-- 2. 会員ポータル本体（認証後に表示） -->
     <!-- ========================================================= -->
     <div id="portal-shell" class="hidden min-h-screen flex flex-col">
-        <!-- ヘッダー -->
-        <header class="bg-white shadow-sm sticky top-0 z-50">
-            <div class="max-w-7xl mx-auto px-4 py-3 flex flex-wrap justify-between items-center gap-3">
-                <div class="flex items-center gap-3">
-                    <div class="w-9 h-9 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-sm">
-                        <i class="fa-solid fa-language text-lg"></i>
+        <!-- ヘッダー（スマホ縦・横では固定せず画面を広く使う） -->
+        <header class="bg-white shadow-sm relative lg:sticky lg:top-0 z-50">
+            <div class="max-w-7xl mx-auto px-3 sm:px-4 py-2 sm:py-2.5 flex flex-wrap justify-between items-center gap-2 sm:gap-3">
+                <div class="flex items-center gap-2 sm:gap-3">
+                    <div class="w-8 h-8 sm:w-9 sm:h-9 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-sm shrink-0">
+                        <i class="fa-solid fa-language text-base sm:text-lg"></i>
                     </div>
-                    <div>
-                        <h1 class="text-base sm:text-lg font-bold text-gray-900 leading-tight">Slow Japanese Member</h1>
-                        <span id="plan-badge" class="inline-block text-[11px] font-semibold px-2 py-0.5 rounded-full bg-blue-100 text-blue-700"></span>
+                    <div class="min-w-0">
+                        <h1 class="text-sm sm:text-lg font-bold text-gray-900 leading-tight truncate">Slow Japanese Member</h1>
+                        <span id="plan-badge" class="inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-blue-100 text-blue-700"></span>
                     </div>
                 </div>
 
                 <!-- ナビゲーションタブ -->
-                <nav class="flex items-center gap-1.5 sm:gap-2 order-3 sm:order-2 w-full sm:w-auto overflow-x-auto pb-1 sm:pb-0">
-                    <button data-tab="mp3" class="nav-tab-btn px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center gap-1.5 whitespace-nowrap">
-                        <i class="fa-solid fa-music"></i> <span id="nav-label-mp3">MP3 Audio</span>
+                <nav class="flex items-center gap-1 sm:gap-2 order-3 sm:order-2 w-full sm:w-auto pb-0.5 sm:pb-0">
+                    <button data-tab="mp3" class="nav-tab-btn flex-1 sm:flex-initial justify-center px-2 sm:px-3.5 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-sm font-semibold transition flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
+                        <i class="fa-solid fa-music"></i> <span id="nav-label-mp3" class="truncate">MP3 Audio</span>
                     </button>
-                    <button id="tab-btn-anki" data-tab="anki" class="nav-tab-btn hidden px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center gap-1.5 whitespace-nowrap">
-                        <i class="fa-solid fa-layer-group"></i> <span id="nav-label-anki">Anki Decks</span>
+                    <button id="tab-btn-anki" data-tab="anki" class="nav-tab-btn hidden flex-1 sm:flex-initial justify-center px-2 sm:px-3.5 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-sm font-semibold transition flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
+                        <i class="fa-solid fa-layer-group"></i> <span id="nav-label-anki" class="truncate">Anki Decks</span>
                     </button>
-                    <button id="tab-btn-webapp" data-tab="webapp" class="nav-tab-btn hidden px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition flex items-center gap-1.5 whitespace-nowrap">
-                        <i class="fa-solid fa-book-open"></i> <span id="nav-label-webapp">Web App</span>
+                    <button id="tab-btn-webapp" data-tab="webapp" class="nav-tab-btn hidden flex-1 sm:flex-initial justify-center px-2 sm:px-3.5 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-sm font-semibold transition flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
+                        <i class="fa-solid fa-book-open"></i> <span id="nav-label-webapp" class="truncate">Web App</span>
                     </button>
                 </nav>
 
@@ -238,30 +238,30 @@
         <!-- タブ3: 学習Webアプリ（上位プラン限定・minna4/index.html 全機能継承） -->
         <section id="panel-webapp" class="tab-panel hidden w-full">
             <!-- レッスン選択バー -->
-            <div class="max-w-7xl mx-auto px-4 pt-4">
-                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-3 sm:p-4 flex flex-col sm:flex-row sm:items-center gap-3">
+            <div class="max-w-7xl mx-auto px-2.5 sm:px-4 pt-2 sm:pt-4">
+                <div class="bg-white rounded-xl sm:rounded-2xl shadow-sm border border-gray-100 p-2.5 sm:p-4 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3">
                     <label for="lesson-selector" class="text-xs font-bold text-gray-600 whitespace-nowrap flex items-center gap-1.5">
                         <i class="fa-solid fa-film text-blue-600"></i> <span id="lesson-select-label">Lesson:</span>
                     </label>
                     <select id="lesson-selector"
-                        class="flex-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 p-2.5 font-medium truncate">
+                        class="flex-1 bg-gray-50 border border-gray-300 text-gray-900 text-xs sm:text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 p-2 sm:p-2.5 font-medium truncate">
                     </select>
-                    <span id="lesson-status-badge" class="text-xs text-gray-500 whitespace-nowrap"></span>
+                    <span id="lesson-status-badge" class="text-[11px] sm:text-xs text-gray-500 whitespace-nowrap"></span>
                 </div>
             </div>
 
             <!-- 既存学習用 index.html 互換メインレイアウト -->
-            <main class="max-w-7xl mx-auto px-4 mt-3 flex flex-col landscape:flex-row md:flex-row gap-6 items-start">
+            <main class="max-w-7xl mx-auto px-2.5 sm:px-4 mt-2 sm:mt-3 flex flex-col landscape:flex-row md:flex-row gap-3 sm:gap-6 items-start">
                 <!-- 左ペイン: YouTube動画 + コントロール -->
-                <div class="contents landscape:block md:block w-full landscape:sticky md:sticky landscape:top-20 md:top-20 landscape:w-1/2 md:w-1/2 space-y-4 landscape:max-h-[calc(100vh-6rem)] landscape:overflow-y-auto pr-1">
-                    <div class="w-full bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden p-3 sm:p-4 sticky top-[104px] z-30 landscape:z-auto landscape:static md:static">
-                        <div class="relative w-full pb-[56.25%] h-0 bg-black rounded-xl overflow-hidden">
+                <div class="contents landscape:block md:block w-full landscape:sticky md:sticky landscape:top-2 lg:top-20 landscape:w-1/2 md:w-1/2 space-y-2.5 sm:space-y-4 landscape:max-h-[calc(100vh-1rem)] lg:max-h-[calc(100vh-6rem)] landscape:overflow-y-auto pr-0 landscape:pr-1">
+                    <div class="w-full bg-white rounded-xl sm:rounded-2xl shadow-sm border border-gray-100 overflow-hidden p-1.5 sm:p-4 sticky top-0 z-30 landscape:z-auto landscape:static md:static">
+                        <div class="relative w-full pb-[56.25%] h-0 bg-black rounded-lg sm:rounded-xl overflow-hidden">
                             <div id="player" class="absolute top-0 left-0 w-full h-full"></div>
                         </div>
                     </div>
 
-                    <div class="w-full bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden relative z-20">
-                        <div class="bg-gray-50/50 p-4 flex flex-col gap-3">
+                    <div class="w-full bg-white rounded-xl sm:rounded-2xl shadow-sm border border-gray-100 overflow-hidden relative z-20">
+                        <div class="bg-gray-50/50 p-2.5 sm:p-4 flex flex-col gap-2.5 sm:gap-3">
                             <div class="flex flex-col gap-2 w-full">
                                 <select id="scene-selector" class="w-full bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2 shadow-sm font-medium truncate">
                                 </select>
@@ -308,10 +308,10 @@
                 </div>
 
                 <!-- 右ペイン: 会話吹き出しリスト -->
-                <div class="w-full pt-2 landscape:pt-0 md:pt-0 landscape:w-1/2 md:w-1/2 pb-12 relative z-20">
-                    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
-                        <div class="p-4 sm:p-6 bg-gray-50/40 min-h-[500px]">
-                            <div id="dialogue-list" class="flex flex-col gap-6"></div>
+                <div class="w-full pt-1 landscape:pt-0 md:pt-0 landscape:w-1/2 md:w-1/2 pb-10 relative z-20">
+                    <div class="bg-white rounded-xl sm:rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                        <div class="p-2.5 sm:p-6 bg-gray-50/40 min-h-[360px] sm:min-h-[500px]">
+                            <div id="dialogue-list" class="flex flex-col gap-3 sm:gap-5"></div>
                         </div>
                     </div>
                 </div>
@@ -1452,13 +1452,13 @@
                 const jpFormatted = formatJapanese(line.rawJp, appState.hideFurigana);
                 const activeCount = (appState.showJapanese ? 1 : 0) + (appState.showRomaji ? 1 : 0) + (appState.showTranslation ? 1 : 0);
 
-                let fontSizeClass = 'text-[1.05rem]';
-                if (activeCount === 1) fontSizeClass = 'text-sm sm:text-base';
-                else if (activeCount === 2) fontSizeClass = 'text-base sm:text-[1rem]';
+                let fontSizeClass = 'text-sm sm:text-[1.02rem]';
+                if (activeCount === 1) fontSizeClass = 'text-[15px] sm:text-base';
+                else if (activeCount === 2) fontSizeClass = 'text-sm sm:text-[1rem]';
 
                 let extraContent = '';
                 if (appState.showJapanese) {
-                    extraContent += `<div class="${fontSizeClass} leading-loose break-words tracking-wide font-medium">${jpFormatted}</div>`;
+                    extraContent += `<div class="${fontSizeClass} leading-[1.85] break-words font-medium">${jpFormatted}</div>`;
                 }
                 if (appState.showRomaji) {
                     const spacing = appState.showJapanese ? 'mt-1.5' : '';
@@ -1475,8 +1475,8 @@
                 const headerLayout = isSpeaker1 ? 'flex-row' : 'flex-row-reverse';
 
                 const html = `
-                    <div class="flex gap-2 sm:gap-3 max-w-[98%] sm:max-w-[85%] ${alignment} fade-in" style="animation-delay: ${Math.min(index * 0.03, 0.4)}s">
-                        ${isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                    <div class="flex gap-1.5 sm:gap-3 max-w-[96%] sm:max-w-[88%] ${alignment} fade-in" style="animation-delay: ${Math.min(index * 0.03, 0.4)}s">
+                        ${isSpeaker1 ? `<div class="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-gray-200 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-xs sm:text-sm"></i></div>` : ''}
 
                         <div class="flex flex-col gap-1 w-full group">
                             <div class="flex items-center gap-3 px-1 ${headerLayout}">
@@ -1503,14 +1503,14 @@
                                 </div>
                             </div>
 
-                            <div onclick="seekVideoToLine(${index})" title="タップしてこのセリフから動画を再生" class="${bgColor} ${borderRadius} p-3 sm:p-4 shadow-sm hover:shadow-md cursor-pointer w-full transition-shadow duration-300 message-bubble">
+                            <div onclick="seekVideoToLine(${index})" title="タップしてこのセリフから動画を再生" class="${bgColor} ${borderRadius} px-3 py-2 sm:p-4 shadow-sm hover:shadow-md cursor-pointer w-full transition-shadow duration-300 message-bubble">
                                 <div class="w-full ${blurClass}" ${titleText}>
                                     ${extraContent}
                                 </div>
                             </div>
                         </div>
 
-                        ${!isSpeaker1 ? `<div class="w-8 h-8 rounded-full bg-green-100 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-sm"></i></div>` : ''}
+                        ${!isSpeaker1 ? `<div class="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-green-100 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-xs sm:text-sm"></i></div>` : ''}
                     </div>
                 `;
                 container.insertAdjacentHTML('beforeend', html);
