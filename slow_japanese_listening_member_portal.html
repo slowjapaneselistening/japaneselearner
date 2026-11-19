@@ -104,6 +104,14 @@
                     <span id="auth-submit-text">Open Member Portal</span>
                 </button>
             </form>
+
+            <div class="mt-4 pt-4 border-t border-gray-100 text-center">
+                <button id="trial-start-btn" type="button" onclick="startTrialMode()"
+                    class="w-full bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 font-semibold py-2.5 px-4 rounded-xl transition flex items-center justify-center gap-2 text-xs sm:text-sm">
+                    <i class="fa-solid fa-gift"></i>
+                    <span id="trial-btn-text">Free Trial (1 Lesson / No Passcode)</span>
+                </button>
+            </div>
         </div>
     </div>
 
@@ -153,6 +161,11 @@
                 </div>
             </div>
         </header>
+
+        <div id="trial-banner" class="hidden bg-emerald-50 border-b border-emerald-200 px-4 py-2 text-center text-xs sm:text-sm text-emerald-800 font-medium">
+            <i class="fa-solid fa-sparkles mr-1 text-emerald-600"></i>
+            <span id="trial-banner-text">Free Trial Mode (1 Lesson Unlocked) — Join YouTube Membership for all lessons!</span>
+        </div>
 
         <!-- タブ1: BGMなし聞き流しMP3 -->
         <section id="panel-mp3" class="tab-panel max-w-5xl w-full mx-auto px-4 py-6 space-y-4">
@@ -235,20 +248,57 @@
             <div id="anki-list" class="grid grid-cols-1 gap-3"></div>
         </section>
 
-        <!-- タブ3: 学習Webアプリ（上位プラン限定・minna4/index.html 全機能継承） -->
+        <!-- タブ3: 学習Webアプリ（上位プラン限定・一覧ギャラリー + 学習画面） -->
         <section id="panel-webapp" class="tab-panel hidden w-full">
-            <!-- レッスン選択バー -->
-            <div class="max-w-7xl mx-auto px-2.5 sm:px-4 pt-2 sm:pt-4">
-                <div class="bg-white rounded-xl sm:rounded-2xl shadow-sm border border-gray-100 p-2.5 sm:p-4 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3">
-                    <label for="lesson-selector" class="text-xs font-bold text-gray-600 whitespace-nowrap flex items-center gap-1.5">
-                        <i class="fa-solid fa-film text-blue-600"></i> <span id="lesson-select-label">Lesson:</span>
-                    </label>
-                    <select id="lesson-selector"
-                        class="flex-1 bg-gray-50 border border-gray-300 text-gray-900 text-xs sm:text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 p-2 sm:p-2.5 font-medium truncate">
-                    </select>
-                    <span id="lesson-status-badge" class="text-[11px] sm:text-xs text-gray-500 whitespace-nowrap"></span>
+            <!-- レッスン一覧ギャラリー -->
+            <div id="webapp-gallery" class="max-w-6xl mx-auto px-3 sm:px-4 py-4 sm:py-6 space-y-5">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                    <div>
+                        <h2 id="webapp-gallery-heading" class="text-lg font-bold text-gray-900">Interactive Lessons</h2>
+                        <p id="webapp-gallery-sub" class="text-xs text-gray-500">Tap any lesson to open video + synced transcript</p>
+                    </div>
+                    <input id="webapp-search" type="text" placeholder="Search lessons..."
+                        class="w-full sm:w-64 px-3.5 py-2 rounded-xl border border-gray-300 bg-white text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                </div>
+
+                <div id="webapp-favs-wrap" class="hidden space-y-2.5">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-amber-600 flex items-center gap-1.5">
+                        <i class="fa-solid fa-star"></i> <span id="webapp-favs-title">Favorites</span>
+                    </h3>
+                    <div id="webapp-favs-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5"></div>
+                </div>
+
+                <div id="webapp-recent-wrap" class="hidden space-y-2.5">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-blue-600 flex items-center gap-1.5">
+                        <i class="fa-solid fa-clock-rotate-left"></i> <span id="webapp-recent-title">Recently Opened</span>
+                    </h3>
+                    <div id="webapp-recent-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5"></div>
+                </div>
+
+                <div class="space-y-2.5">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-gray-500 flex items-center gap-1.5">
+                        <i class="fa-solid fa-layer-group"></i> <span id="webapp-all-title">All Lessons</span>
+                    </h3>
+                    <div id="webapp-all-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5"></div>
                 </div>
             </div>
+
+            <!-- 学習画面（選択後に表示） -->
+            <div id="webapp-study" class="hidden">
+                <!-- レッスン選択バー -->
+                <div class="max-w-7xl mx-auto px-2.5 sm:px-4 pt-2 sm:pt-4">
+                    <div class="bg-white rounded-xl sm:rounded-2xl shadow-sm border border-gray-100 p-2.5 sm:p-3.5 flex flex-wrap sm:flex-nowrap items-center gap-2 sm:gap-3">
+                        <button type="button" onclick="backToWebAppGallery()"
+                            class="px-3 py-1.5 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 text-xs font-semibold transition flex items-center gap-1.5 shrink-0">
+                            <i class="fa-solid fa-arrow-left"></i>
+                            <span id="webapp-back-text">Lessons</span>
+                        </button>
+                        <select id="lesson-selector"
+                            class="flex-1 min-w-[160px] bg-gray-50 border border-gray-300 text-gray-900 text-xs sm:text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 p-2 font-medium truncate">
+                        </select>
+                        <span id="lesson-status-badge" class="text-[11px] sm:text-xs text-gray-500 whitespace-nowrap"></span>
+                    </div>
+                </div>
 
             <!-- 既存学習用 index.html 互換メインレイアウト -->
             <main class="max-w-7xl mx-auto px-2.5 sm:px-4 mt-2 sm:mt-3 flex flex-col landscape:flex-row md:flex-row gap-3 sm:gap-6 items-start">
@@ -316,6 +366,7 @@
                     </div>
                 </div>
             </main>
+            </div>
         </section>
     </div>
 
@@ -324,7 +375,10 @@
         // ★ GAS 中継エンドポイント設定
         // =========================================================
         const GAS_API_URL = 'https://script.google.com/macros/s/AKfycbxt3LWh7I0ySW6w5wY41ZVE2X1YoIjFDA5RyCNtXGUfPvSDu7464sj3ZJNJcUIc0SAeGA/exec';
+        const GOOGLE_DRIVE_API_KEY = 'AIzaSyBkYiBemEAHLSiOgkbswFjpBycXcCaxzpY';
         const STORAGE_KEY_NAME = 'sjl_member_passkey';
+        const STORAGE_WEBAPP_FAVS = 'sjl_webapp_favs';
+        const STORAGE_WEBAPP_RECENT = 'sjl_webapp_recent';
 
         const LANG_MAP = {
             'English': 'en', 'Japanese': 'ja', 'Vietnamese': 'vi', 'Indonesian': 'id', 'Thai': 'th', 'Korean': 'ko',
@@ -935,8 +989,26 @@
             return await res.json();
         }
 
+        async function startTrialMode() {
+            const btn = document.getElementById('trial-start-btn');
+            const errEl = document.getElementById('auth-error');
+            if (errEl) errEl.classList.add('hidden');
+            if (btn) btn.disabled = true;
+            try {
+                await authenticateAndLoad('trial');
+            } catch (err) {
+                if (errEl) {
+                    errEl.textContent = err.message || 'お試しデータを読み込めませんでした。';
+                    errEl.classList.remove('hidden');
+                }
+            } finally {
+                if (btn) btn.disabled = false;
+            }
+        }
+
         async function authenticateAndLoad(passkey, forceRefresh = false) {
             portalState.passkey = passkey.trim();
+            const isTrial = portalState.passkey.toLowerCase() === 'trial';
             const data = await fetchGas({
                 action: 'catalog',
                 ...(forceRefresh ? { refresh: '1' } : {})
@@ -945,32 +1017,43 @@
                 throw new Error(data.message || 'パスコードが無効です。');
             }
 
-            localStorage.setItem(STORAGE_KEY_NAME, portalState.passkey);
-            portalState.tier = data.tier;
+            if (!isTrial) {
+                localStorage.setItem(STORAGE_KEY_NAME, portalState.passkey);
+            }
+            portalState.tier = isTrial ? 'trial' : data.tier;
             portalState.catalog = data;
+            portalState.expandedMp3 = portalState.expandedMp3 || new Set();
+            portalState.expandedAnki = portalState.expandedAnki || new Set();
 
             document.getElementById('auth-screen').classList.add('hidden');
             document.getElementById('portal-shell').classList.remove('hidden');
+            document.getElementById('trial-banner').classList.toggle('hidden', !isTrial);
 
-            const isTier2 = data.tier === 'tier2';
+            const hasFullFeatures = (data.tier === 'tier2' || isTrial);
             const badge = document.getElementById('plan-badge');
-            badge.textContent = isTier2 ? 'PRO PLAN (MP3 + Anki + WebApp)' : 'STANDARD PLAN (MP3)';
-            badge.className = isTier2
-                ? 'inline-block text-[11px] font-semibold px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-700'
-                : 'inline-block text-[11px] font-semibold px-2 py-0.5 rounded-full bg-blue-100 text-blue-700';
+            if (isTrial) {
+                badge.textContent = 'FREE TRIAL (1 Lesson)';
+                badge.className = 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700';
+            } else {
+                badge.textContent = hasFullFeatures ? 'PRO PLAN (MP3 + Anki + WebApp)' : 'STANDARD PLAN (MP3)';
+                badge.className = hasFullFeatures
+                    ? 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-700'
+                    : 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-blue-100 text-blue-700';
+            }
 
-            document.getElementById('tab-btn-anki').classList.toggle('hidden', !isTier2);
-            document.getElementById('tab-btn-webapp').classList.toggle('hidden', !isTier2);
+            document.getElementById('tab-btn-anki').classList.toggle('hidden', !hasFullFeatures);
+            document.getElementById('tab-btn-webapp').classList.toggle('hidden', !hasFullFeatures);
 
             populateMediaLangFilter('mp3-lang-filter', data.mp3 || []);
             renderMp3List();
-            if (isTier2) {
+            if (hasFullFeatures) {
                 populateMediaLangFilter('anki-lang-filter', data.anki || []);
                 renderAnkiList();
                 renderLessonSelector();
+                renderWebAppGallery();
             }
 
-            if (!isTier2 && portalState.activeTab !== 'mp3') {
+            if (!hasFullFeatures && portalState.activeTab !== 'mp3') {
                 switchTab('mp3');
             } else {
                 switchTab(portalState.activeTab);
@@ -978,7 +1061,8 @@
         }
 
         function switchTab(tabName) {
-            if (portalState.tier !== 'tier2' && tabName !== 'mp3') {
+            const hasFullFeatures = (portalState.tier === 'tier2' || portalState.tier === 'trial');
+            if (!hasFullFeatures && tabName !== 'mp3') {
                 tabName = 'mp3';
             }
             portalState.activeTab = tabName;
@@ -995,8 +1079,10 @@
                 btn.classList.toggle('hover:bg-gray-100', !isActive);
             });
 
-            if (tabName === 'webapp' && portalState.catalog && portalState.catalog.lessons.length > 0 && !portalState.currentVideoId) {
-                loadWebAppLesson(portalState.catalog.lessons[0].videoId);
+            if (tabName === 'webapp') {
+                if (!portalState.currentVideoId) {
+                    backToWebAppGallery();
+                }
             }
         }
 
@@ -1029,10 +1115,31 @@
             sel.value = (prev === 'ALL' || langs.has(prev)) ? prev : 'ALL';
         }
 
+        function getDirectAudioUrl(item) {
+            const fid = extractDriveFileId(item);
+            if (fid && GOOGLE_DRIVE_API_KEY) {
+                return `https://www.googleapis.com/drive/v3/files/${encodeURIComponent(fid)}?alt=media&key=${encodeURIComponent(GOOGLE_DRIVE_API_KEY)}`;
+            }
+            return (item && item.streamUrl) ? item.streamUrl : '';
+        }
+
+        function toggleMediaCard(kind, key) {
+            const store = kind === 'mp3'
+                ? (portalState.expandedMp3 = portalState.expandedMp3 || new Set())
+                : (portalState.expandedAnki = portalState.expandedAnki || new Set());
+            if (store.has(key)) store.delete(key);
+            else store.add(key);
+            if (kind === 'mp3') renderMp3List();
+            else renderAnkiList();
+        }
+
         function renderMp3List() {
             const listEl = document.getElementById('mp3-list');
             const q = (document.getElementById('mp3-search').value || '').trim().toLowerCase();
             const langFilter = (document.getElementById('mp3-lang-filter') && document.getElementById('mp3-lang-filter').value) || 'ALL';
+            const expanded = portalState.expandedMp3 || new Set();
+            const hasFullFeatures = (portalState.tier === 'tier2' || portalState.tier === 'trial');
+
             const items = (portalState.catalog?.mp3 || []).filter(it => {
                 const matchText = !q || (it.title || '').toLowerCase().includes(q) || (it.videoId || '').toLowerCase().includes(q) || (it.name || '').toLowerCase().includes(q);
                 if (!matchText) return false;
@@ -1047,24 +1154,33 @@
             }
 
             listEl.innerHTML = items.map((it, idx) => {
+                const cardKey = String(it.id || it.videoId || it.name || idx);
+                const isOpen = expanded.has(cardKey) || langFilter !== 'ALL' || q !== '';
+
                 if (it.type === 'single') {
                     const fid = extractDriveFileId(it);
+                    const directUrl = getDirectAudioUrl(it);
                     const safeSlotId = `mp3-single-player-${idx}`;
                     return `
-                        <div class="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 sm:p-5 flex flex-col gap-3">
-                            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
-                                <div>
-                                    <div class="font-bold text-gray-900 text-sm sm:text-base">${escapeHtml(it.title || it.name)}</div>
-                                    <div class="text-xs text-gray-400 mt-0.5">${it.videoId ? `ID: ${escapeHtml(it.videoId)} · ` : ''}${formatBytes(it.sizeBytes)}</div>
+                        <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                            <button type="button" onclick="toggleMediaCard('mp3', '${escapeHtml(cardKey)}')"
+                                class="w-full px-4 py-3.5 flex items-center justify-between gap-3 text-left hover:bg-gray-50/80 transition">
+                                <div class="min-w-0">
+                                    <div class="font-bold text-gray-900 text-sm sm:text-base truncate">${escapeHtml(it.title || it.name)}</div>
                                 </div>
-                                <div class="flex items-center gap-2 shrink-0 flex-wrap">
-                                    ${portalState.tier === 'tier2' && it.videoId ? `<button onclick="openLessonInWebApp('${escapeHtml(it.videoId)}')" class="px-3 py-2 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs font-semibold transition"><i class="fa-solid fa-book-open mr-1"></i>${escapeHtml(t('openWebapp'))}</button>` : ''}
-                                    ${fid ? `<button type="button" onclick="openDriveAudioPreview('${safeSlotId}', '${escapeHtml(fid)}', '')" class="px-3 py-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 text-xs font-semibold transition"><i class="fa-solid fa-play mr-1"></i>Player</button>` : ''}
-                                    <a href="${escapeHtml(it.downloadUrl)}" target="_blank" rel="noopener" class="px-3.5 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold transition"><i class="fa-solid fa-download mr-1"></i>${escapeHtml(t('download'))}</a>
+                                <i class="fa-solid ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'} text-xs text-gray-400 shrink-0"></i>
+                            </button>
+                            <div class="${isOpen ? '' : 'hidden'} px-4 pb-4 pt-1 border-t border-gray-100 space-y-3">
+                                <div class="flex flex-wrap items-center justify-between gap-2">
+                                    <div class="text-xs text-gray-400">${it.videoId ? `ID: ${escapeHtml(it.videoId)} · ` : ''}${formatBytes(it.sizeBytes)}</div>
+                                    <div class="flex items-center gap-2 flex-wrap">
+                                        ${hasFullFeatures && it.videoId ? `<button onclick="openLessonInWebApp('${escapeHtml(it.videoId)}')" class="px-3 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs font-semibold transition"><i class="fa-solid fa-book-open mr-1"></i>${escapeHtml(t('openWebapp'))}</button>` : ''}
+                                        <a href="${escapeHtml(it.downloadUrl)}" target="_blank" rel="noopener" class="px-3.5 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold transition"><i class="fa-solid fa-download mr-1"></i>${escapeHtml(t('download'))}</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div id="${safeSlotId}">
-                                <audio controls preload="none" class="w-full h-9" src="${escapeHtml(it.streamUrl)}" ${fid ? `onerror="openDriveAudioPreview('${safeSlotId}', '${escapeHtml(fid)}', '')"` : ''}></audio>
+                                <div id="${safeSlotId}">
+                                    <audio controls preload="none" class="w-full h-10" src="${escapeHtml(directUrl)}" ${fid ? `onerror="openDriveAudioPreview('${safeSlotId}', '${escapeHtml(fid)}', '')"` : ''}></audio>
+                                </div>
                             </div>
                         </div>
                     `;
@@ -1073,32 +1189,39 @@
                 const filteredFiles = langFilter === 'ALL' ? (it.files || []) : (it.files || []).filter(f => f.lang === langFilter);
                 const bundleSlotId = `mp3-bundle-player-${idx}`;
                 return `
-                    <div class="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 sm:p-5 space-y-3">
-                        <div>
-                            <span class="inline-block text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700 mb-1">${escapeHtml(t('bundleMp3'))}</span>
-                            <div class="font-bold text-gray-900 text-sm sm:text-base">${escapeHtml(it.title || it.name)}</div>
+                    <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                        <button type="button" onclick="toggleMediaCard('mp3', '${escapeHtml(cardKey)}')"
+                            class="w-full px-4 py-3.5 flex items-center justify-between gap-3 text-left hover:bg-gray-50/80 transition">
+                            <div class="min-w-0 flex items-center gap-2">
+                                <span class="inline-block text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700 shrink-0">${escapeHtml(t('bundleMp3'))}</span>
+                                <span class="font-bold text-gray-900 text-sm sm:text-base truncate">${escapeHtml(it.title || it.name)}</span>
+                            </div>
+                            <i class="fa-solid ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'} text-xs text-gray-400 shrink-0"></i>
+                        </button>
+                        <div class="${isOpen ? '' : 'hidden'} px-4 pb-4 pt-2 border-t border-gray-100 space-y-3">
+                            <div class="flex flex-wrap gap-2">
+                                ${filteredFiles.map(f => {
+                                    const fid = extractDriveFileId(f);
+                                    const directUrl = getDirectAudioUrl(f);
+                                    return `
+                                    <div class="inline-flex items-center rounded-xl bg-gray-100 border border-gray-200 overflow-hidden text-xs font-semibold">
+                                        ${directUrl ? `
+                                            <button type="button" onclick="playDirectBundleAudio('${bundleSlotId}', '${escapeHtml(directUrl)}', '${escapeHtml(fid)}', '${escapeHtml(f.lang)}')"
+                                                class="px-2.5 py-1.5 bg-emerald-50 hover:bg-emerald-600 hover:text-white text-emerald-700 transition flex items-center gap-1" title="Play ${escapeHtml(f.lang)}">
+                                                <i class="fa-solid fa-play text-[10px]"></i>
+                                                <span>${escapeHtml(f.lang)}</span>
+                                            </button>
+                                        ` : `<span class="px-2.5 py-1.5 text-gray-700">${escapeHtml(f.lang)}</span>`}
+                                        <a href="${escapeHtml(f.downloadUrl)}" target="_blank" rel="noopener"
+                                           class="px-2.5 py-1.5 hover:bg-blue-600 hover:text-white text-gray-600 transition flex items-center gap-1 border-l border-gray-200" title="Download ${escapeHtml(f.lang)}">
+                                            <i class="fa-solid fa-download text-[10px]"></i>
+                                            <span class="opacity-70 text-[10px]">${formatBytes(f.sizeBytes)}</span>
+                                        </a>
+                                    </div>`;
+                                }).join('')}
+                            </div>
+                            <div id="${bundleSlotId}" class="hidden"></div>
                         </div>
-                        <div class="flex flex-wrap gap-2">
-                            ${filteredFiles.map(f => {
-                                const fid = extractDriveFileId(f);
-                                return `
-                                <div class="inline-flex items-center rounded-xl bg-gray-100 border border-gray-200 overflow-hidden text-xs font-semibold">
-                                    ${fid ? `
-                                        <button type="button" onclick="openDriveAudioPreview('${bundleSlotId}', '${escapeHtml(fid)}', '${escapeHtml(f.lang)}')"
-                                            class="px-2.5 py-1.5 bg-emerald-50 hover:bg-emerald-600 hover:text-white text-emerald-700 transition flex items-center gap-1" title="Play ${escapeHtml(f.lang)}">
-                                            <i class="fa-solid fa-play text-[10px]"></i>
-                                            <span>${escapeHtml(f.lang)}</span>
-                                        </button>
-                                    ` : `<span class="px-2.5 py-1.5 text-gray-700">${escapeHtml(f.lang)}</span>`}
-                                    <a href="${escapeHtml(f.downloadUrl)}" target="_blank" rel="noopener"
-                                       class="px-2.5 py-1.5 hover:bg-blue-600 hover:text-white text-gray-600 transition flex items-center gap-1 border-l border-gray-200" title="Download ${escapeHtml(f.lang)}">
-                                        <i class="fa-solid fa-download text-[10px]"></i>
-                                        <span class="opacity-70 text-[10px]">${formatBytes(f.sizeBytes)}</span>
-                                    </a>
-                                </div>`;
-                            }).join('')}
-                        </div>
-                        <div id="${bundleSlotId}" class="hidden"></div>
                     </div>
                 `;
             }).join('');
@@ -1114,6 +1237,16 @@
             return m2 ? m2[1] : '';
         }
 
+        function playDirectBundleAudio(slotId, directUrl, fileId, label) {
+            const slot = document.getElementById(slotId);
+            if (!slot || !directUrl) return;
+            slot.classList.remove('hidden');
+            const badge = label ? `<div class="text-[11px] font-bold text-emerald-700 mb-1 flex items-center gap-1.5"><i class="fa-solid fa-volume-high"></i><span>${escapeHtml(label)}</span></div>` : '';
+            slot.innerHTML = `${badge}<audio controls autoplay class="w-full h-10" src="${escapeHtml(directUrl)}" ${fileId ? `onerror="openDriveAudioPreview('${slotId}', '${escapeHtml(fileId)}', '${escapeHtml(label)}')"` : ''}></audio>`;
+            const audioEl = slot.querySelector('audio');
+            if (audioEl) audioEl.play().catch(() => {});
+        }
+
         function openDriveAudioPreview(slotId, fileId, label) {
             const slot = document.getElementById(slotId);
             if (!slot || !fileId) return;
@@ -1126,6 +1259,8 @@
             const listEl = document.getElementById('anki-list');
             const q = (document.getElementById('anki-search').value || '').trim().toLowerCase();
             const langFilter = (document.getElementById('anki-lang-filter') && document.getElementById('anki-lang-filter').value) || 'ALL';
+            const expanded = portalState.expandedAnki || new Set();
+
             const items = (portalState.catalog?.anki || []).filter(it => {
                 const matchText = !q || (it.title || '').toLowerCase().includes(q) || (it.videoId || '').toLowerCase().includes(q) || (it.name || '').toLowerCase().includes(q);
                 if (!matchText) return false;
@@ -1139,46 +1274,159 @@
                 return;
             }
 
-            listEl.innerHTML = items.map(it => {
+            listEl.innerHTML = items.map((it, idx) => {
+                const cardKey = String(it.id || it.videoId || it.name || idx);
+                const isOpen = expanded.has(cardKey) || langFilter !== 'ALL' || q !== '';
+
                 if (it.type === 'single') {
                     return `
-                        <div class="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                            <div>
-                                <div class="font-bold text-gray-900 text-sm sm:text-base">${escapeHtml(it.title || it.name)}</div>
-                                <div class="text-xs text-gray-400 mt-0.5">${it.videoId ? `ID: ${escapeHtml(it.videoId)} · ` : ''}${formatBytes(it.sizeBytes)}</div>
+                        <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                            <button type="button" onclick="toggleMediaCard('anki', '${escapeHtml(cardKey)}')"
+                                class="w-full px-4 py-3.5 flex items-center justify-between gap-3 text-left hover:bg-gray-50/80 transition">
+                                <div class="font-bold text-gray-900 text-sm sm:text-base truncate">${escapeHtml(it.title || it.name)}</div>
+                                <i class="fa-solid ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'} text-xs text-gray-400 shrink-0"></i>
+                            </button>
+                            <div class="${isOpen ? '' : 'hidden'} px-4 pb-4 pt-2 border-t border-gray-100 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                                <div class="text-xs text-gray-400">${it.videoId ? `ID: ${escapeHtml(it.videoId)} · ` : ''}${formatBytes(it.sizeBytes)}</div>
+                                <a href="${escapeHtml(it.downloadUrl)}" target="_blank" rel="noopener"
+                                   class="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold transition text-center shrink-0">
+                                    <i class="fa-solid fa-download mr-1.5"></i>${escapeHtml(t('downloadApkg'))}
+                                </a>
                             </div>
-                            <a href="${escapeHtml(it.downloadUrl)}" target="_blank" rel="noopener"
-                               class="px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold transition text-center shrink-0">
-                                <i class="fa-solid fa-download mr-1.5"></i>${escapeHtml(t('downloadApkg'))}
-                            </a>
                         </div>
                     `;
                 }
 
                 const filteredFiles = langFilter === 'ALL' ? (it.files || []) : (it.files || []).filter(f => f.lang === langFilter);
                 return `
-                    <div class="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 sm:p-5 space-y-3">
-                        <div>
-                            <span class="inline-block text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-700 mb-1">${escapeHtml(t('bundleAnki'))}</span>
-                            <div class="font-bold text-gray-900 text-sm sm:text-base">${escapeHtml(it.title || it.name)}</div>
-                        </div>
-                        <div class="flex flex-wrap gap-2">
-                            ${filteredFiles.map(f => `
-                                <a href="${escapeHtml(f.downloadUrl)}" target="_blank" rel="noopener"
-                                   class="px-3 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-600 hover:text-white text-indigo-700 text-xs font-semibold transition flex items-center gap-1.5">
-                                    <i class="fa-solid fa-layer-group text-[10px]"></i>
-                                    <span>${escapeHtml(f.lang)}</span>
-                                    <span class="opacity-60 text-[10px]">${formatBytes(f.sizeBytes)}</span>
-                                </a>
-                            `).join('')}
+                    <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                        <button type="button" onclick="toggleMediaCard('anki', '${escapeHtml(cardKey)}')"
+                            class="w-full px-4 py-3.5 flex items-center justify-between gap-3 text-left hover:bg-gray-50/80 transition">
+                            <div class="min-w-0 flex items-center gap-2">
+                                <span class="inline-block text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-purple-100 text-purple-700 shrink-0">${escapeHtml(t('bundleAnki'))}</span>
+                                <span class="font-bold text-gray-900 text-sm sm:text-base truncate">${escapeHtml(it.title || it.name)}</span>
+                            </div>
+                            <i class="fa-solid ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'} text-xs text-gray-400 shrink-0"></i>
+                        </button>
+                        <div class="${isOpen ? '' : 'hidden'} px-4 pb-4 pt-2 border-t border-gray-100">
+                            <div class="flex flex-wrap gap-2">
+                                ${filteredFiles.map(f => `
+                                    <a href="${escapeHtml(f.downloadUrl)}" target="_blank" rel="noopener"
+                                       class="px-3 py-1.5 rounded-xl bg-gray-100 hover:bg-indigo-600 hover:text-white text-gray-700 text-xs font-semibold transition flex items-center gap-1.5">
+                                        <i class="fa-solid fa-download text-[10px]"></i>
+                                        <span>${escapeHtml(f.lang)}</span>
+                                        <span class="opacity-60 text-[10px]">${formatBytes(f.sizeBytes)}</span>
+                                    </a>
+                                `).join('')}
+                            </div>
                         </div>
                     </div>
                 `;
             }).join('');
         }
 
+        function getWebAppFavs() {
+            try { return JSON.parse(localStorage.getItem(STORAGE_WEBAPP_FAVS) || '[]'); } catch (e) { return []; }
+        }
+
+        function toggleWebAppFav(videoId, event) {
+            if (event) event.stopPropagation();
+            const favs = new Set(getWebAppFavs());
+            if (favs.has(videoId)) favs.delete(videoId);
+            else favs.add(videoId);
+            localStorage.setItem(STORAGE_WEBAPP_FAVS, JSON.stringify(Array.from(favs)));
+            renderWebAppGallery();
+        }
+
+        function getWebAppRecent() {
+            try { return JSON.parse(localStorage.getItem(STORAGE_WEBAPP_RECENT) || '[]'); } catch (e) { return []; }
+        }
+
+        function pushWebAppRecent(videoId) {
+            const list = getWebAppRecent().filter(id => id !== videoId);
+            list.unshift(videoId);
+            localStorage.setItem(STORAGE_WEBAPP_RECENT, JSON.stringify(list.slice(0, 6)));
+        }
+
+        function buildLessonCardHtml(ls, favSet) {
+            const isFav = favSet.has(ls.videoId);
+            const durMin = ls.totalDurationSec ? `${Math.round(ls.totalDurationSec / 60)} min` : '';
+            const thumbUrl = `https://i.ytimg.com/vi/${encodeURIComponent(ls.videoId)}/mqdefault.jpg`;
+            return `
+                <div onclick="openLessonInWebApp('${escapeHtml(ls.videoId)}')"
+                     class="bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition overflow-hidden cursor-pointer flex flex-col group">
+                    <div class="relative aspect-video bg-gray-900 overflow-hidden">
+                        <img src="${thumbUrl}" alt="${escapeHtml(ls.title || ls.videoId)}" loading="lazy"
+                             class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300">
+                        <button type="button" onclick="toggleWebAppFav('${escapeHtml(ls.videoId)}', event)"
+                            class="absolute top-2 right-2 w-8 h-8 rounded-full bg-black/55 hover:bg-black/75 flex items-center justify-center transition"
+                            title="Favorite">
+                            <i class="fa-solid fa-star text-xs ${isFav ? 'text-amber-400' : 'text-white/80'}"></i>
+                        </button>
+                        ${durMin ? `<span class="absolute bottom-2 right-2 px-2 py-0.5 rounded-md bg-black/75 text-white text-[10px] font-semibold">${durMin}</span>` : ''}
+                    </div>
+                    <div class="p-3.5 flex-1 flex flex-col justify-between gap-1">
+                        <div class="font-bold text-gray-900 text-sm line-clamp-2">${escapeHtml(ls.title || ls.videoId)}</div>
+                        <div class="text-[11px] text-gray-400">${ls.totalLines ? `${ls.totalLines} lines` : escapeHtml(ls.videoId)}</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderWebAppGallery() {
+            const lessons = portalState.catalog?.lessons || [];
+            const q = (document.getElementById('webapp-search')?.value || '').trim().toLowerCase();
+            const favSet = new Set(getWebAppFavs());
+            const recentIds = getWebAppRecent();
+
+            const filtered = lessons.filter(ls => {
+                if (!q) return true;
+                return (ls.title || '').toLowerCase().includes(q) || (ls.videoId || '').toLowerCase().includes(q);
+            });
+
+            const favItems = filtered.filter(ls => favSet.has(ls.videoId));
+            const favWrap = document.getElementById('webapp-favs-wrap');
+            const favGrid = document.getElementById('webapp-favs-grid');
+            if (favWrap && favGrid) {
+                favWrap.classList.toggle('hidden', favItems.length === 0);
+                favGrid.innerHTML = favItems.map(ls => buildLessonCardHtml(ls, favSet)).join('');
+            }
+
+            const lessonMap = new Map(filtered.map(ls => [ls.videoId, ls]));
+            const recentItems = recentIds.map(id => lessonMap.get(id)).filter(Boolean);
+            const recentWrap = document.getElementById('webapp-recent-wrap');
+            const recentGrid = document.getElementById('webapp-recent-grid');
+            if (recentWrap && recentGrid) {
+                recentWrap.classList.toggle('hidden', recentItems.length === 0 || q !== '');
+                recentGrid.innerHTML = recentItems.map(ls => buildLessonCardHtml(ls, favSet)).join('');
+            }
+
+            const allGrid = document.getElementById('webapp-all-grid');
+            if (allGrid) {
+                if (filtered.length === 0) {
+                    allGrid.innerHTML = `<div class="col-span-full bg-white rounded-2xl border border-gray-200 p-8 text-center text-sm text-gray-500">レッスンが見つかりません。</div>`;
+                } else {
+                    allGrid.innerHTML = filtered.map(ls => buildLessonCardHtml(ls, favSet)).join('');
+                }
+            }
+        }
+
+        function backToWebAppGallery() {
+            stopAllPlayback();
+            appState.isPlaying = false;
+            const g = document.getElementById('webapp-gallery');
+            const s = document.getElementById('webapp-study');
+            if (g) g.classList.remove('hidden');
+            if (s) s.classList.add('hidden');
+            renderWebAppGallery();
+        }
+
         function openLessonInWebApp(videoId) {
             switchTab('webapp');
+            const g = document.getElementById('webapp-gallery');
+            const s = document.getElementById('webapp-study');
+            if (g) g.classList.add('hidden');
+            if (s) s.classList.remove('hidden');
             const sel = document.getElementById('lesson-selector');
             if (sel) sel.value = videoId;
             loadWebAppLesson(videoId);
@@ -1229,8 +1477,9 @@
                     portalState.lessonDetailCache[videoId] = detail;
                 }
 
+                pushWebAppRecent(videoId);
                 const ld = detail.lessonData;
-                portalState.currentMp3StreamUrl = detail.mp3 ? detail.mp3.streamUrl : '';
+                portalState.currentMp3StreamUrl = detail.mp3 ? getDirectAudioUrl(detail.mp3) : '';
                 if (portalState.currentMp3StreamUrl) ensureMasterAudio(portalState.currentMp3StreamUrl);
 
                 scenes = (ld.scenes || []).map((sc, idx) => ({
@@ -1897,6 +2146,8 @@
 
             document.getElementById('mp3-search').addEventListener('input', renderMp3List);
             document.getElementById('anki-search').addEventListener('input', renderAnkiList);
+            const webappSearchEl = document.getElementById('webapp-search');
+            if (webappSearchEl) webappSearchEl.addEventListener('input', renderWebAppGallery);
 
             document.getElementById('refresh-catalog-btn').addEventListener('click', async () => {
                 if (!portalState.passkey) return;
@@ -1960,8 +2211,10 @@
                 renderScene();
             });
 
-            // URLパラメータ ?key=... または保存済みキーで自動ログイン
-            const urlKey = new URLSearchParams(window.location.search).get('key');
+            // URLパラメータ ?trial=1 / ?key=... または保存済みキーで自動ログイン
+            const urlParams = new URLSearchParams(window.location.search);
+            const isTrialParam = urlParams.get('trial') === '1';
+            const urlKey = isTrialParam ? 'trial' : urlParams.get('key');
             const savedKey = urlKey || localStorage.getItem(STORAGE_KEY_NAME);
             if (savedKey) {
                 try {
