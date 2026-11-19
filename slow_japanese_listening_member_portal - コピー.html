@@ -1,0 +1,2230 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2B0GEY45P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F2B0GEY45P');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slow Japanese Listening | Member Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap');
+        body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
+
+        .fade-in {
+            animation: fadeIn 0.35s ease-out forwards;
+            opacity: 0;
+            transform: translateY(8px);
+        }
+        @keyframes fadeIn {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .speaker-1-bg { background-color: #ffffff; }
+        .speaker-2-bg { background-color: #f0fdf4; }
+
+        .kanji-hidden {
+            display: inline-block;
+            background-color: #fef08a;
+            border-bottom: 2px dashed #ca8a04;
+            border-radius: 4px;
+            padding: 0 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+        }
+        .kanji-hidden:hover { background-color: #fde047; }
+        .kanji-revealed {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%) translateY(5px);
+            background-color: #1e40af;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease-out;
+            white-space: nowrap;
+            z-index: 10;
+        }
+        .kanji-hidden.show-ruby .kanji-revealed {
+            opacity: 1;
+            transform: translateX(-50%) translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen">
+
+    <!-- ========================================================= -->
+    <!-- 1. 会員パスコード認証画面 -->
+    <!-- ========================================================= -->
+    <div id="auth-screen" class="min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div class="w-full max-w-md bg-white rounded-3xl shadow-xl border border-gray-100 p-7 sm:p-8">
+            <div class="flex justify-end mb-3">
+                <div class="flex items-center gap-1.5 text-xs text-gray-500">
+                    <i class="fa-solid fa-globe"></i>
+                    <select id="ui-lang-auth" class="ui-lang-select bg-gray-50 border border-gray-200 rounded-lg px-2 py-1 text-xs font-medium text-gray-700 focus:ring-2 focus:ring-blue-500 outline-none"></select>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-3 mb-5">
+                <div class="w-12 h-12 bg-blue-600 rounded-2xl flex items-center justify-center text-white shadow-md">
+                    <i class="fa-solid fa-headphones-simple text-2xl"></i>
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold text-gray-900">Slow Japanese Listening</h1>
+                    <p class="text-xs text-gray-500">YouTube Member Bonus Portal</p>
+                </div>
+            </div>
+
+            <p id="auth-desc" class="text-sm text-gray-600 mb-5 leading-relaxed"></p>
+
+            <form id="auth-form" class="space-y-4">
+                <div>
+                    <label id="auth-label" for="passcode-input" class="block text-xs font-semibold text-gray-600 mb-1.5"></label>
+                    <input id="passcode-input" type="password" autocomplete="off" placeholder="Enter passcode..."
+                        class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm outline-none transition">
+                </div>
+                <div id="auth-error" class="hidden text-xs text-red-600 bg-red-50 border border-red-200 rounded-lg px-3 py-2"></div>
+                <button id="auth-submit-btn" type="submit"
+                    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-xl shadow-sm transition flex items-center justify-center gap-2 text-sm">
+                    <i class="fa-solid fa-unlock-keyhole"></i>
+                    <span id="auth-submit-text">Open Member Portal</span>
+                </button>
+            </form>
+
+            <div class="mt-4 pt-4 border-t border-gray-100 text-center">
+                <button id="trial-start-btn" type="button" onclick="startTrialMode()"
+                    class="w-full bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 font-semibold py-2.5 px-4 rounded-xl transition flex items-center justify-center gap-2 text-xs sm:text-sm">
+                    <i class="fa-solid fa-gift"></i>
+                    <span id="trial-btn-text">Free Trial (1 Lesson / No Passcode)</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================================= -->
+    <!-- 2. 会員ポータル本体（認証後に表示） -->
+    <!-- ========================================================= -->
+    <div id="portal-shell" class="hidden min-h-screen flex flex-col">
+        <!-- ヘッダー（スマホ縦・横では固定せず画面を広く使う） -->
+        <header class="bg-white shadow-sm relative lg:sticky lg:top-0 z-50">
+            <div class="max-w-7xl mx-auto px-3 sm:px-4 py-2 sm:py-2.5 flex flex-wrap justify-between items-center gap-2 sm:gap-3">
+                <div class="flex items-center gap-2 sm:gap-3">
+                    <div class="w-8 h-8 sm:w-9 sm:h-9 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-sm shrink-0">
+                        <i class="fa-solid fa-language text-base sm:text-lg"></i>
+                    </div>
+                    <div class="min-w-0">
+                        <h1 class="text-sm sm:text-lg font-bold text-gray-900 leading-tight truncate">Slow Japanese Member</h1>
+                        <span id="plan-badge" class="inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-blue-100 text-blue-700"></span>
+                    </div>
+                </div>
+
+                <!-- ナビゲーションタブ -->
+                <nav class="flex items-center gap-1 sm:gap-2 order-3 sm:order-2 w-full sm:w-auto pb-0.5 sm:pb-0">
+                    <button data-tab="mp3" class="nav-tab-btn flex-1 sm:flex-initial justify-center px-2 sm:px-3.5 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-sm font-semibold transition flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
+                        <i class="fa-solid fa-music"></i> <span id="nav-label-mp3" class="truncate">MP3 Audio</span>
+                    </button>
+                    <button id="tab-btn-anki" data-tab="anki" class="nav-tab-btn hidden flex-1 sm:flex-initial justify-center px-2 sm:px-3.5 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-sm font-semibold transition flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
+                        <i class="fa-solid fa-layer-group"></i> <span id="nav-label-anki" class="truncate">Anki Decks</span>
+                    </button>
+                    <button id="tab-btn-webapp" data-tab="webapp" class="nav-tab-btn hidden flex-1 sm:flex-initial justify-center px-2 sm:px-3.5 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-sm font-semibold transition flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
+                        <i class="fa-solid fa-book-open"></i> <span id="nav-label-webapp" class="truncate">Web App</span>
+                    </button>
+                </nav>
+
+                <!-- 右側アクション -->
+                <div class="flex items-center gap-2 order-2 sm:order-3">
+                    <select id="ui-lang-header" aria-label="UI Language"
+                        class="ui-lang-select px-2 py-1.5 rounded-lg bg-gray-100 border border-gray-200 text-gray-700 text-xs font-medium outline-none focus:ring-2 focus:ring-blue-500">
+                    </select>
+                    <button id="refresh-catalog-btn"
+                        class="px-2.5 py-1.5 rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-600 text-xs font-medium transition flex items-center gap-1">
+                        <i class="fa-solid fa-rotate"></i><span id="btn-refresh-text" class="hidden md:inline">Refresh</span>
+                    </button>
+                    <button id="logout-btn"
+                        class="px-2.5 py-1.5 rounded-lg bg-gray-100 hover:bg-red-50 text-gray-600 hover:text-red-600 text-xs font-medium transition flex items-center gap-1">
+                        <i class="fa-solid fa-right-from-bracket"></i><span id="btn-logout-text" class="hidden md:inline">Switch</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <div id="trial-banner" class="hidden bg-emerald-50 border-b border-emerald-200 px-4 py-2 text-center text-xs sm:text-sm text-emerald-800 font-medium">
+            <i class="fa-solid fa-sparkles mr-1 text-emerald-600"></i>
+            <span id="trial-banner-text">Free Trial Mode (1 Lesson Unlocked) — Join YouTube Membership for all lessons!</span>
+        </div>
+
+        <!-- タブ1: BGMなし聞き流しMP3 -->
+        <section id="panel-mp3" class="tab-panel max-w-5xl w-full mx-auto px-4 py-6 space-y-4">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+                <div>
+                    <h2 id="mp3-heading" class="text-lg font-bold text-gray-900">BGM-Free Listening MP3</h2>
+                    <p id="mp3-subheading" class="text-xs text-gray-500"></p>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-2">
+                    <select id="mp3-lang-filter" class="px-3 py-2 rounded-xl border border-gray-300 bg-white text-xs sm:text-sm font-medium text-gray-700 focus:ring-2 focus:ring-blue-500 outline-none">
+                        <option value="ALL">All Languages</option>
+                    </select>
+                    <input id="mp3-search" type="text" placeholder="Search..."
+                        class="w-full sm:w-56 px-3.5 py-2 rounded-xl border border-gray-300 bg-white text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                </div>
+            </div>
+            <div id="mp3-list" class="grid grid-cols-1 gap-3"></div>
+        </section>
+
+        <!-- タブ2: 音声付き Anki デッキ（上位プラン限定） -->
+        <section id="panel-anki" class="tab-panel hidden max-w-5xl w-full mx-auto px-4 py-6 space-y-4">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+                <div>
+                    <h2 id="anki-heading" class="text-lg font-bold text-gray-900">Anki Flashcard Decks (.apkg)</h2>
+                    <p id="anki-subheading" class="text-xs text-gray-500"></p>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-2">
+                    <select id="anki-lang-filter" class="px-3 py-2 rounded-xl border border-gray-300 bg-white text-xs sm:text-sm font-medium text-gray-700 focus:ring-2 focus:ring-blue-500 outline-none">
+                        <option value="ALL">All Languages</option>
+                    </select>
+                    <input id="anki-search" type="text" placeholder="Search..."
+                        class="w-full sm:w-56 px-3.5 py-2 rounded-xl border border-gray-300 bg-white text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                </div>
+            </div>
+            <!-- ★ 会員向け Anki 導入・使い方ガイド（12言語対応） -->
+            <div id="anki-guide-box" class="bg-indigo-50/80 border border-indigo-200 rounded-2xl p-4 sm:p-5 space-y-3">
+                <div class="flex items-center justify-between gap-2">
+                    <div class="flex items-center gap-2 text-indigo-900 font-bold text-sm sm:text-base">
+                        <i class="fa-solid fa-circle-info text-indigo-600"></i>
+                        <span id="anki-guide-title">How to Download &amp; Use Anki Decks</span>
+                    </div>
+                    <button id="anki-guide-toggle" type="button" onclick="toggleAnkiGuide()"
+                        class="text-xs font-semibold text-indigo-700 hover:text-indigo-900 bg-white border border-indigo-200 px-2.5 py-1 rounded-lg transition">
+                        <span id="anki-guide-toggle-text">Hide</span>
+                    </button>
+                </div>
+                <div id="anki-guide-body" class="space-y-3 text-xs sm:text-sm text-gray-700">
+                    <div class="bg-amber-50 border border-amber-200 text-amber-900 rounded-xl px-3.5 py-2.5 font-medium flex items-start gap-2">
+                        <i class="fa-solid fa-triangle-exclamation text-amber-600 mt-0.5"></i>
+                        <span id="anki-guide-warn"></span>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-2.5">
+                        <div class="bg-white rounded-xl border border-indigo-100 p-3.5 space-y-2">
+                            <div id="anki-step1-title" class="font-bold text-indigo-800 text-xs sm:text-sm"></div>
+                            <p id="anki-step1-desc" class="text-xs text-gray-600 leading-relaxed"></p>
+                            <div class="flex flex-wrap gap-1.5 pt-1">
+                                <a href="https://play.google.com/store/apps/details?id=com.ichi2.anki" target="_blank" rel="noopener"
+                                   class="px-2.5 py-1 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-[11px] font-semibold transition">Android (Free)</a>
+                                <a href="https://apps.apple.com/us/app/ankimobile-flashcards/id373493387" target="_blank" rel="noopener"
+                                   class="px-2.5 py-1 rounded-lg bg-gray-800 hover:bg-gray-900 text-white text-[11px] font-semibold transition">iPhone / iPad</a>
+                                <a href="https://apps.ankiweb.net/" target="_blank" rel="noopener"
+                                   class="px-2.5 py-1 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-[11px] font-semibold transition">PC (Free)</a>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-xl border border-indigo-100 p-3.5 space-y-1.5">
+                            <div id="anki-step2-title" class="font-bold text-indigo-800 text-xs sm:text-sm"></div>
+                            <p id="anki-step2-desc" class="text-xs text-gray-600 leading-relaxed"></p>
+                        </div>
+                        <div class="bg-white rounded-xl border border-indigo-100 p-3.5 space-y-1.5">
+                            <div id="anki-step3-title" class="font-bold text-indigo-800 text-xs sm:text-sm"></div>
+                            <ul class="text-xs text-gray-600 space-y-1 leading-relaxed list-disc pl-4">
+                                <li id="anki-step3-android"></li>
+                                <li id="anki-step3-ios"></li>
+                                <li id="anki-step3-pc"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="anki-list" class="grid grid-cols-1 gap-3"></div>
+        </section>
+
+        <!-- タブ3: 学習Webアプリ（上位プラン限定・一覧ギャラリー + 学習画面） -->
+        <section id="panel-webapp" class="tab-panel hidden w-full">
+            <!-- レッスン一覧ギャラリー -->
+            <div id="webapp-gallery" class="max-w-6xl mx-auto px-3 sm:px-4 py-4 sm:py-6 space-y-5">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                    <div>
+                        <h2 id="webapp-gallery-heading" class="text-lg font-bold text-gray-900">Interactive Lessons</h2>
+                        <p id="webapp-gallery-sub" class="text-xs text-gray-500">Tap any lesson to open video + synced transcript</p>
+                    </div>
+                    <input id="webapp-search" type="text" placeholder="Search lessons..."
+                        class="w-full sm:w-64 px-3.5 py-2 rounded-xl border border-gray-300 bg-white text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                </div>
+
+                <div id="webapp-favs-wrap" class="hidden space-y-2.5">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-amber-600 flex items-center gap-1.5">
+                        <i class="fa-solid fa-star"></i> <span id="webapp-favs-title">Favorites</span>
+                    </h3>
+                    <div id="webapp-favs-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5"></div>
+                </div>
+
+                <div id="webapp-recent-wrap" class="hidden space-y-2.5">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-blue-600 flex items-center gap-1.5">
+                        <i class="fa-solid fa-clock-rotate-left"></i> <span id="webapp-recent-title">Recently Opened</span>
+                    </h3>
+                    <div id="webapp-recent-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5"></div>
+                </div>
+
+                <div class="space-y-2.5">
+                    <h3 class="text-xs font-bold uppercase tracking-wider text-gray-500 flex items-center gap-1.5">
+                        <i class="fa-solid fa-layer-group"></i> <span id="webapp-all-title">All Lessons</span>
+                    </h3>
+                    <div id="webapp-all-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5"></div>
+                </div>
+            </div>
+
+            <!-- 学習画面（選択後に表示） -->
+            <div id="webapp-study" class="hidden">
+                <!-- レッスン選択バー -->
+                <div class="max-w-7xl mx-auto px-2.5 sm:px-4 pt-2 sm:pt-4">
+                    <div class="bg-white rounded-xl sm:rounded-2xl shadow-sm border border-gray-100 p-2.5 sm:p-3.5 flex flex-wrap sm:flex-nowrap items-center gap-2 sm:gap-3">
+                        <button type="button" onclick="backToWebAppGallery()"
+                            class="px-3 py-1.5 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 text-xs font-semibold transition flex items-center gap-1.5 shrink-0">
+                            <i class="fa-solid fa-arrow-left"></i>
+                            <span id="webapp-back-text">Lessons</span>
+                        </button>
+                        <select id="lesson-selector"
+                            class="flex-1 min-w-[160px] bg-gray-50 border border-gray-300 text-gray-900 text-xs sm:text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 p-2 font-medium truncate">
+                        </select>
+                        <span id="lesson-status-badge" class="text-[11px] sm:text-xs text-gray-500 whitespace-nowrap"></span>
+                    </div>
+                </div>
+
+            <!-- 既存学習用 index.html 互換メインレイアウト -->
+            <main class="max-w-7xl mx-auto px-2.5 sm:px-4 mt-2 sm:mt-3 flex flex-col landscape:flex-row md:flex-row gap-3 sm:gap-6 items-start">
+                <!-- 左ペイン: YouTube動画 + コントロール -->
+                <div class="contents landscape:block md:block w-full landscape:sticky md:sticky landscape:top-2 lg:top-20 landscape:w-1/2 md:w-1/2 space-y-2.5 sm:space-y-4 landscape:max-h-[calc(100vh-1rem)] lg:max-h-[calc(100vh-6rem)] landscape:overflow-y-auto pr-0 landscape:pr-1">
+                    <div class="w-full bg-white rounded-xl sm:rounded-2xl shadow-sm border border-gray-100 overflow-hidden p-1.5 sm:p-4 sticky top-0 z-30 landscape:z-auto landscape:static md:static">
+                        <div class="relative w-full pb-[56.25%] h-0 bg-black rounded-lg sm:rounded-xl overflow-hidden">
+                            <div id="player" class="absolute top-0 left-0 w-full h-full"></div>
+                        </div>
+                    </div>
+
+                    <div class="w-full bg-white rounded-xl sm:rounded-2xl shadow-sm border border-gray-100 overflow-hidden relative z-20">
+                        <div class="bg-gray-50/50 p-2.5 sm:p-4 flex flex-col gap-2.5 sm:gap-3">
+                            <div class="flex flex-col gap-2 w-full">
+                                <select id="scene-selector" class="w-full bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2 shadow-sm font-medium truncate">
+                                </select>
+
+                                <div class="flex gap-2 w-full">
+                                    <select id="roleplay-selector" class="flex-1 bg-purple-50 border border-purple-200 text-purple-800 text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2 font-medium shadow-sm truncate">
+                                        <option value="none">👤 Roleplay: Off</option>
+                                        <option value="Speaker 1">🔇 Mute Speaker 1</option>
+                                        <option value="Speaker 2">🔇 Mute Speaker 2</option>
+                                    </select>
+
+                                    <button onclick="playEntireScene()" id="play-scene-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm shrink-0">
+                                        <i class="fa-solid fa-play"></i> Play
+                                    </button>
+
+                                    <button onclick="playMixedScene()" id="play-mix-btn" class="bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center justify-center gap-2 text-sm shadow-sm shrink-0">
+                                        <i class="fa-solid fa-shuffle"></i> Mix Play
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-wrap items-center gap-4 text-xs font-medium text-gray-600 border-t border-gray-100 pt-2">
+                                <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
+                                    <input type="checkbox" id="toggle-japanese" checked class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                                    Japanese
+                                </label>
+                                <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
+                                    <input type="checkbox" id="toggle-romaji" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                                    Romaji
+                                </label>
+                                <div class="flex items-center gap-1.5 cursor-pointer text-gray-600 hover:text-blue-600 transition-colors">
+                                    <input type="checkbox" id="toggle-translation" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                                    <span>Translation:</span>
+                                    <select id="lang-selector" class="bg-white border border-gray-300 text-gray-700 text-xs rounded p-0.5 font-medium focus:ring-blue-500 focus:border-blue-500">
+                                    </select>
+                                </div>
+                                <label class="flex items-center gap-1.5 cursor-pointer hover:text-blue-600 transition-colors">
+                                    <input type="checkbox" id="toggle-kanji-test" class="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500">
+                                    Hide Furigana
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 右ペイン: 会話吹き出しリスト -->
+                <div class="w-full pt-1 landscape:pt-0 md:pt-0 landscape:w-1/2 md:w-1/2 pb-10 relative z-20">
+                    <div class="bg-white rounded-xl sm:rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                        <div class="p-2.5 sm:p-6 bg-gray-50/40 min-h-[360px] sm:min-h-[500px]">
+                            <div id="dialogue-list" class="flex flex-col gap-3 sm:gap-5"></div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // =========================================================
+        // ★ GAS 中継エンドポイント設定
+        // =========================================================
+        const GAS_API_URL = 'https://script.google.com/macros/s/AKfycbxt3LWh7I0ySW6w5wY41ZVE2X1YoIjFDA5RyCNtXGUfPvSDu7464sj3ZJNJcUIc0SAeGA/exec';
+        const GOOGLE_DRIVE_API_KEY = 'AIzaSyBkYiBemEAHLSiOgkbswFjpBycXcCaxzpY';
+        const STORAGE_KEY_NAME = 'sjl_member_passkey';
+        const STORAGE_WEBAPP_FAVS = 'sjl_webapp_favs';
+        const STORAGE_WEBAPP_RECENT = 'sjl_webapp_recent';
+
+        const LANG_MAP = {
+            'English': 'en', 'Japanese': 'ja', 'Vietnamese': 'vi', 'Indonesian': 'id', 'Thai': 'th', 'Korean': 'ko',
+            'Chinese (Simplified)': 'zh-Hans', 'Chinese (Traditional)': 'zh-Hant', 'Spanish': 'es',
+            'Portuguese': 'pt', 'French': 'fr', 'Burmese': 'my', 'Sinhala': 'si', 'Nepali': 'ne',
+            'Hindi': 'hi', 'Tagalog': 'tl', 'German': 'de', 'Russian': 'ru', 'Arabic': 'ar',
+            'Italian': 'it', 'Turkish': 'tr', 'Polish': 'pl', 'Dutch': 'nl', 'Swedish': 'sv',
+            'Czech': 'cs', 'Hungarian': 'hu', 'Mongolian': 'mn', 'Malay': 'ms', 'Khmer': 'km',
+            'Uzbek': 'uz', 'Kazakh': 'kk', 'Bengali': 'bn', 'Tamil': 'ta', 'Urdu': 'ur',
+            'Persian': 'fa', 'Hebrew': 'he', 'Greek': 'el', 'Romanian': 'ro', 'Ukrainian': 'uk', 'Swahili': 'sw'
+        };
+        const CODE_TO_LANG_NAME = Object.fromEntries(Object.entries(LANG_MAP).map(([name, code]) => [code, name]));
+
+
+        // =========================================================
+        // ★ ポータル全体 多言語UI辞書（12言語対応・ブラウザ言語自動判定）
+        // =========================================================
+        const UI_LANG_OPTIONS = [
+            { code: 'en', label: 'English' },
+            { code: 'ja', label: '日本語' },
+            { code: 'vi', label: 'Tiếng Việt' },
+            { code: 'id', label: 'Bahasa Indonesia' },
+            { code: 'ko', label: '한국어' },
+            { code: 'zh-Hant', label: '繁體中文' },
+            { code: 'zh-Hans', label: '简体中文' },
+            { code: 'th', label: 'ไทย' },
+            { code: 'es', label: 'Español' },
+            { code: 'pt', label: 'Português' },
+            { code: 'fr', label: 'Français' },
+            { code: 'my', label: 'မြန်မာ' }
+        ];
+
+        const UI_TEXT = {
+            en: {
+                authDesc: 'Enter the member passcode posted in the YouTube Membership community tab.',
+                authLabel: 'Member Passcode',
+                authPlaceholder: 'Enter passcode...',
+                authSubmit: 'Open Member Portal',
+                authChecking: 'Checking...',
+                authEmpty: 'Please enter your passcode.',
+                authInvalid: 'Invalid passcode. Please check the membership post.',
+                navMp3: 'MP3 Audio', navAnki: 'Anki Decks', navWebapp: 'Web App',
+                refresh: 'Refresh', logout: 'Switch',
+                mp3Head: 'BGM-Free Listening MP3',
+                mp3Sub: 'Clean voice-only audio for commuting, shadowing, and immersion.',
+                ankiHead: 'Audio Anki Decks (.apkg)',
+                ankiSub: 'Import directly into Anki (PC, AnkiMobile, or AnkiDroid).',
+                searchPh: 'Search title or video ID...',
+                allLangs: 'All Languages',
+                noMp3: 'No matching MP3 files found.',
+                noAnki: 'No matching Anki decks found.',
+                download: 'Download', downloadApkg: 'Download .apkg', openWebapp: 'Web App',
+                bundleMp3: 'Multi-Language Audio Set', bundleAnki: 'Multi-Language Anki Set',
+                lessonLabel: 'Lesson:', noLessons: 'No WebApp lessons available yet.',
+                loading: 'Loading...', scenesUnit: 'scenes', linesUnit: 'lines'
+            },
+            ja: {
+                authDesc: 'YouTubeメンバーシップ限定投稿に記載されている会員パスコードを入力してください。',
+                authLabel: '会員パスコード',
+                authPlaceholder: 'パスコードを入力...',
+                authSubmit: '特典ページを開く',
+                authChecking: '確認中...',
+                authEmpty: 'パスコードを入力してください。',
+                authInvalid: 'パスコードが無効です。メンバー限定投稿をご確認ください。',
+                navMp3: 'BGMなしMP3', navAnki: 'Ankiデッキ', navWebapp: '学習Webアプリ',
+                refresh: '更新', logout: '切替',
+                mp3Head: 'BGMなし聞き流しMP3',
+                mp3Sub: '通勤・通学中のリスニングやシャドーイングにそのまま使えます。',
+                ankiHead: '音声付き Anki フラッシュカード (.apkg)',
+                ankiSub: 'Ankiアプリ（PC / AnkiMobile / AnkiDroid）に読み込んで復習できます。',
+                searchPh: 'タイトル・動画IDで検索...',
+                allLangs: 'すべての言語',
+                noMp3: '該当するMP3がありません。',
+                noAnki: '該当するAnkiデッキがありません。',
+                download: 'ダウンロード', downloadApkg: '.apkg をダウンロード', openWebapp: 'Webアプリ',
+                bundleMp3: '多言語音声セット', bundleAnki: '多言語 Anki セット',
+                lessonLabel: 'レッスン:', noLessons: '利用可能なレッスンがまだありません。',
+                loading: '読み込み中...', scenesUnit: 'シーン', linesUnit: '文'
+            },
+            vi: {
+                authDesc: 'Nhập mật khẩu thành viên được đăng trong bài viết dành riêng cho hội viên YouTube.',
+                authLabel: 'Mã thành viên',
+                authPlaceholder: 'Nhập mã...',
+                authSubmit: 'Mở trang đặc quyền',
+                authChecking: 'Đang kiểm tra...',
+                authEmpty: 'Vui lòng nhập mã.',
+                authInvalid: 'Mã không hợp lệ.',
+                navMp3: 'MP3 Nghe', navAnki: 'Thẻ Anki', navWebapp: 'Web Học Tập',
+                refresh: 'Làm mới', logout: 'Đổi mã',
+                mp3Head: 'MP3 Luyện Nghe Không Nhạc Nền',
+                mp3Sub: 'Âm thanh giọng đọc rõ ràng để luyện nghe và shadowing.',
+                ankiHead: 'Bộ thẻ Anki kèm âm thanh (.apkg)',
+                ankiSub: 'Nhập trực tiếp vào ứng dụng Anki trên PC hoặc điện thoại.',
+                searchPh: 'Tìm tiêu đề hoặc ID video...',
+                allLangs: 'Tất cả ngôn ngữ',
+                noMp3: 'Không có tệp MP3 phù hợp.',
+                noAnki: 'Không có bộ thẻ Anki phù hợp.',
+                download: 'Tải xuống', downloadApkg: 'Tải .apkg', openWebapp: 'Mở Web App',
+                bundleMp3: 'Bộ âm thanh đa ngôn ngữ', bundleAnki: 'Bộ Anki đa ngôn ngữ',
+                lessonLabel: 'Bài học:', noLessons: 'Chưa có bài học nào.',
+                loading: 'Đang tải...', scenesUnit: 'cảnh', linesUnit: 'câu'
+            },
+            id: {
+                authDesc: 'Masukkan kode sandi anggota yang tertulis di postingan khusus Membership YouTube.',
+                authLabel: 'Kode Anggota',
+                authPlaceholder: 'Masukkan kode...',
+                authSubmit: 'Buka Portal Anggota',
+                authChecking: 'Memeriksa...',
+                authEmpty: 'Silakan masukkan kode.',
+                authInvalid: 'Kode tidak valid.',
+                navMp3: 'Audio MP3', navAnki: 'Dek Anki', navWebapp: 'Aplikasi Web',
+                refresh: 'Segarkan', logout: 'Ganti',
+                mp3Head: 'MP3 Latihan Dengar Tanpa BGM',
+                mp3Sub: 'Audio suara jernih untuk mendengarkan dan shadowing.',
+                ankiHead: 'Dek Anki dengan Audio (.apkg)',
+                ankiSub: 'Impor ke Anki (PC, AnkiMobile, atau AnkiDroid).',
+                searchPh: 'Cari judul atau ID video...',
+                allLangs: 'Semua Bahasa',
+                noMp3: 'File MP3 tidak ditemukan.',
+                noAnki: 'Dek Anki tidak ditemukan.',
+                download: 'Unduh', downloadApkg: 'Unduh .apkg', openWebapp: 'Aplikasi Web',
+                bundleMp3: 'Set Audio Multibahasa', bundleAnki: 'Set Anki Multibahasa',
+                lessonLabel: 'Pelajaran:', noLessons: 'Belum ada pelajaran.',
+                loading: 'Memuat...', scenesUnit: 'adegan', linesUnit: 'kalimat'
+            },
+            ko: {
+                authDesc: 'YouTube 멤버십 전용 게시물에 안내된 회원 패스코드를 입력해 주세요.',
+                authLabel: '회원 패스코드',
+                authPlaceholder: '패스코드 입력...',
+                authSubmit: '혜택 페이지 열기',
+                authChecking: '확인 중...',
+                authEmpty: '패스코드를 입력해 주세요.',
+                authInvalid: '유효하지 않은 패스코드입니다.',
+                navMp3: 'BGM 없는 MP3', navAnki: 'Anki 덱', navWebapp: '학습 웹앱',
+                refresh: '새로고침', logout: '전환',
+                mp3Head: 'BGM 없는 듣기 연습 MP3',
+                mp3Sub: '출퇴근길 리스닝 및 쉐도잉 연습에 바로 활용하세요.',
+                ankiHead: '음성 포함 Anki 플래시카드 (.apkg)',
+                ankiSub: 'Anki 앱(PC / AnkiMobile / AnkiDroid)으로 불러와 복습하세요.',
+                searchPh: '제목 또는 영상 ID 검색...',
+                allLangs: '모든 언어',
+                noMp3: '일치하는 MP3가 없습니다.',
+                noAnki: '일치하는 Anki 덱이 없습니다.',
+                download: '다운로드', downloadApkg: '.apkg 다운로드', openWebapp: '웹앱 열기',
+                bundleMp3: '다국어 음성 세트', bundleAnki: '다국어 Anki 세트',
+                lessonLabel: '레슨:', noLessons: '사용 가능한 레슨이 없습니다.',
+                loading: '불러오는 중...', scenesUnit: '장면', linesUnit: '문장'
+            },
+            'zh-Hant': {
+                authDesc: '請輸入 YouTube 會員專屬貼文中提供的會員通行碼。',
+                authLabel: '會員通行碼',
+                authPlaceholder: '請輸入通行碼...',
+                authSubmit: '開啟會員專區',
+                authChecking: '驗證中...',
+                authEmpty: '請輸入通行碼。',
+                authInvalid: '通行碼無效，請確認會員貼文。',
+                navMp3: '無背景音 MP3', navAnki: 'Anki 牌組', navWebapp: '學習網頁應用',
+                refresh: '重新整理', logout: '切換',
+                mp3Head: '無背景音樂聽力練習 MP3',
+                mp3Sub: '適合通勤聽力與跟讀練習的純語音檔。',
+                ankiHead: '含語音 Anki 字卡包 (.apkg)',
+                ankiSub: '可直接匯入電腦或手機版 Anki 進行複習。',
+                searchPh: '搜尋標題或影片 ID...',
+                allLangs: '所有語言',
+                noMp3: '找不到符合的 MP3。',
+                noAnki: '找不到符合的 Anki 牌組。',
+                download: '下載', downloadApkg: '下載 .apkg', openWebapp: '開啟 Web App',
+                bundleMp3: '多語言音訊套組', bundleAnki: '多語言 Anki 套組',
+                lessonLabel: '課程：', noLessons: '尚無可用課程。',
+                loading: '載入中...', scenesUnit: '場景', linesUnit: '句'
+            },
+            'zh-Hans': {
+                authDesc: '请输入 YouTube 会员专属帖子中提供的会员通行码。',
+                authLabel: '会员通行码',
+                authPlaceholder: '请输入通行码...',
+                authSubmit: '打开会员专区',
+                authChecking: '验证中...',
+                authEmpty: '请输入通行码。',
+                authInvalid: '通行码无效。',
+                navMp3: '无背景音 MP3', navAnki: 'Anki 牌组', navWebapp: '学习网页应用',
+                refresh: '刷新', logout: '切换',
+                mp3Head: '无背景音乐听力练习 MP3',
+                mp3Sub: '适合通勤听力与跟读练习的纯语音文件。',
+                ankiHead: '含语音 Anki 记忆卡 (.apkg)',
+                ankiSub: '可直接导入电脑或手机版 Anki 进行复习。',
+                searchPh: '搜索标题或视频 ID...',
+                allLangs: '所有语言',
+                noMp3: '未找到匹配的 MP3。',
+                noAnki: '未找到匹配的 Anki 牌组。',
+                download: '下载', downloadApkg: '下载 .apkg', openWebapp: '打开 Web App',
+                bundleMp3: '多语言音频套组', bundleAnki: '多语言 Anki 套组',
+                lessonLabel: '课程：', noLessons: '暂无可用课程。',
+                loading: '加载中...', scenesUnit: '场景', linesUnit: '句'
+            },
+            th: {
+                authDesc: 'กรุณากรอกรหัสสมาชิกที่ระบุไว้ในโพสต์สำหรับสมาชิก YouTube',
+                authLabel: 'รหัสผ่านสมาชิก',
+                authPlaceholder: 'กรอกรหัส...',
+                authSubmit: 'เปิดหน้าสมาชิก',
+                authChecking: 'กำลังตรวจสอบ...',
+                authEmpty: 'กรุณากรอกรหัสผ่าน',
+                authInvalid: 'รหัสผ่านไม่ถูกต้อง',
+                navMp3: 'ไฟล์ MP3', navAnki: 'ชุดการ์ด Anki', navWebapp: 'เว็บฝึกภาษา',
+                refresh: 'รีเฟรช', logout: 'สลับรหัส',
+                mp3Head: 'ไฟล์เสียง MP3 ไม่มีดนตรีประกอบ',
+                mp3Sub: 'เสียงพูดชัดเจนสำหรับฝึกฟังและฝึกพูดตาม',
+                ankiHead: 'ชุดการ์ด Anki พร้อมเสียง (.apkg)',
+                ankiSub: 'นำเข้าแอป Anki บนคอมพิวเตอร์หรือมือถือได้ทันที',
+                searchPh: 'ค้นหาชื่อเรื่องหรือ ID...',
+                allLangs: 'ทุกภาษา',
+                noMp3: 'ไม่พบไฟล์ MP3',
+                noAnki: 'ไม่พบชุดการ์ด Anki',
+                download: 'ดาวน์โหลด', downloadApkg: 'ดาวน์โหลด .apkg', openWebapp: 'เปิด Web App',
+                bundleMp3: 'ชุดเสียงหลายภาษา', bundleAnki: 'ชุด Anki หลายภาษา',
+                lessonLabel: 'บทเรียน:', noLessons: 'ยังไม่มีบทเรียน',
+                loading: 'กำลังโหลด...', scenesUnit: 'ฉาก', linesUnit: 'ประโยค'
+            }
+        };
+
+        const ANKI_GUIDE_TEXT = {
+            ja: {
+                title: 'Ankiデッキのダウンロード方法と使い方（3ステップ）',
+                show: '表示する', hide: '閉じる',
+                warn: '【重要】.apkg ファイルを開くには、先に端末へ「Ankiアプリ」をインストールしておく必要があります。未インストールのままだとファイルを開けません。',
+                s1Title: '1. 先にAnkiアプリを入れる',
+                s1Desc: 'お使いの端末に合わせて公式アプリをインストールしてください。（iPhone公式アプリは有料ですが、無料のPC版Anki＋AnkiWebを使えばiPhoneのブラウザからも無料で復習できます）',
+                s2Title: '2. 下のリストから .apkg を保存',
+                s2Desc: '学習したい動画のカードから、ご自身の言語ボタン（EN / VI など）をタップして .apkg ファイルをダウンロードします。',
+                s3Title: '3. Ankiアプリに読み込んで開始',
+                s3And: 'Android (AnkiDroid)：ダウンロード通知をタップ、またはアプリ右上の「読み込み」から .apkg を選択。',
+                s3Ios: 'iPhone / iPad：ダウンロード後、「ファイル」アプリで .apkg をタップ → 共有から「Ankiで開く」。',
+                s3Pc: 'PC (Windows / Mac)：ダウンロードした .apkg ファイルをダブルクリックすると自動追加されます。'
+            },
+            en: {
+                title: 'How to Download & Use Anki Decks (3 Easy Steps)',
+                show: 'Show Guide', hide: 'Hide',
+                warn: 'Important: You MUST install the Anki app BEFORE opening .apkg files. Your phone or PC cannot open .apkg files without Anki installed first.',
+                s1Title: '1. Install the Anki App First',
+                s1Desc: 'Install the official app for your device. (AnkiMobile for iOS is paid, or you can import on free PC Anki and study free on iPhone via AnkiWeb.)',
+                s2Title: '2. Download Your Language .apkg',
+                s2Desc: 'Scroll down and tap your language button (e.g., EN, VI, ID) on any lesson card to save the .apkg file to your device.',
+                s3Title: '3. Open the File in Anki',
+                s3And: 'Android (AnkiDroid): Tap the download notification, or open AnkiDroid -> Menu -> Import and select the .apkg file.',
+                s3Ios: 'iPhone / iPad: Open the Files app (or Safari Downloads), tap the .apkg file, then Share -> Open in Anki.',
+                s3Pc: 'PC (Windows / Mac): Simply double-click the downloaded .apkg file to import it.'
+            },
+            vi: {
+                title: 'Hướng dẫn tải và sử dụng bộ thẻ Anki (3 bước đơn giản)',
+                show: 'Xem hướng dẫn', hide: 'Ẩn',
+                warn: 'Quan trọng: Bạn PHẢI cài đặt ứng dụng Anki TRƯỚC KHI tải và mở tệp .apkg. Nếu chưa cài Anki, điện thoại sẽ không mở được tệp này.',
+                s1Title: '1. Cài đặt ứng dụng Anki trước',
+                s1Desc: 'Tải ứng dụng chính thức cho thiết bị của bạn. (Bản iPhone trả phí, hoặc bạn có thể nhập trên Anki PC miễn phí rồi đồng bộ AnkiWeb để học miễn phí trên iPhone).',
+                s2Title: '2. Tải tệp .apkg theo ngôn ngữ',
+                s2Desc: 'Chọn bài học bên dưới và nhấn nút ngôn ngữ của bạn (ví dụ: VI, EN) để lưu tệp .apkg về máy.',
+                s3Title: '3. Mở tệp trong Anki để học',
+                s3And: 'Android (AnkiDroid): Nhấn vào thông báo đã tải xong, hoặc mở AnkiDroid -> Menu -> Nhập (Import) -> chọn tệp .apkg.',
+                s3Ios: 'iPhone / iPad: Mở ứng dụng Tệp (Files) -> nhấn tệp .apkg -> Chia sẻ -> Mở bằng Anki.',
+                s3Pc: 'PC (Windows / Mac): Nhấp đúp vào tệp .apkg vừa tải về để tự động thêm vào Anki.'
+            },
+            id: {
+                title: 'Cara Mengunduh & Menggunakan Dek Anki (3 Langkah Mudah)',
+                show: 'Lihat Panduan', hide: 'Tutup',
+                warn: 'Penting: Anda HARUS menginstal aplikasi Anki TERLEBIH DAHULU sebelum membuka file .apkg. Tanpa Anki, file tidak dapat dibuka.',
+                s1Title: '1. Instal Aplikasi Anki Dulu',
+                s1Desc: 'Pasang aplikasi resmi sesuai perangkat Anda. (AnkiMobile iOS berbayar, atau gunakan Anki PC gratis lalu sinkronkan ke AnkiWeb untuk belajar gratis di iPhone.)',
+                s2Title: '2. Unduh File .apkg Bahasa Anda',
+                s2Desc: 'Pilih materi di bawah dan ketuk tombol bahasa Anda (mis. ID, EN) untuk menyimpan file .apkg.',
+                s3Title: '3. Buka File di Aplikasi Anki',
+                s3And: 'Android (AnkiDroid): Ketuk notifikasi unduhan, atau buka AnkiDroid -> Menu -> Impor dan pilih file .apkg.',
+                s3Ios: 'iPhone / iPad: Buka aplikasi File (Files), ketuk file .apkg, lalu Bagikan -> Buka di Anki.',
+                s3Pc: 'PC (Windows / Mac): Klik dua kali file .apkg yang diunduh untuk mengimpornya otomatis.'
+            },
+            ko: {
+                title: 'Anki 덱 다운로드 및 사용 방법 (3단계 가이드)',
+                show: '가이드 보기', hide: '닫기',
+                warn: '중요: .apkg 파일을 열기 전에 먼저 기기에 Anki 앱을 설치해야 합니다. 앱이 없으면 파일이 열리지 않습니다.',
+                s1Title: '1. 먼저 Anki 앱 설치하기',
+                s1Desc: '사용 중인 기기에 맞는 공식 앱을 설치하세요. (iPhone 앱은 유료이며, 무료 PC용 Anki에 불러온 뒤 AnkiWeb으로 동기화하면 모바일 웹에서 무료로 학습할 수 있습니다.)',
+                s2Title: '2. 내 언어 .apkg 다운로드',
+                s2Desc: '아래 목록에서 원하는 레슨의 언어 버튼(예: KO, EN)을 눌러 .apkg 파일을 저장하세요.',
+                s3Title: '3. Anki 앱으로 불러오기',
+                s3And: 'Android (AnkiDroid): 다운로드 완료 알림을 누르거나 AnkiDroid 메뉴 -> 가져오기(Import)에서 .apkg 파일을 선택하세요.',
+                s3Ios: 'iPhone / iPad: 파일(Files) 앱에서 .apkg 파일을 누른 뒤 공유 -> Anki에서 열기를 선택하세요.',
+                s3Pc: 'PC (Windows / Mac): 다운로드한 .apkg 파일을 더블 클릭하면 자동으로 추가됩니다.'
+            },
+            'zh-Hant': {
+                title: 'Anki 牌組下載與使用教學（簡單 3 步驟）',
+                show: '顯示教學', hide: '收起',
+                warn: '重要提醒：開啟 .apkg 檔案前，必須先安裝 Anki 應用程式！若未先安裝 Anki，手機或電腦將無法開啟該檔案。',
+                s1Title: '1. 先安裝 Anki 應用程式',
+                s1Desc: '請依您的裝置安裝官方版本。（iPhone 官方版需付費，您也可先用免費電腦版 Anki 匯入並同步至 AnkiWeb，即可在手機瀏覽器免費複習。）',
+                s2Title: '2. 下載對應語言的 .apkg 檔',
+                s2Desc: '在下方列表中找到想學習的課程，點擊您的語言按鈕（例如 ZH_HANT、EN）下載 .apkg 檔案。',
+                s3Title: '3. 匯入 Anki 開始複習',
+                s3And: 'Android (AnkiDroid)：點擊下載完成通知，或開啟 AnkiDroid → 右上角選單「匯入」→ 選擇 .apkg 檔案。',
+                s3Ios: 'iPhone / iPad：開啟「檔案」App 點擊 .apkg 檔案 → 分享 → 選擇「以 Anki 開啟」。',
+                s3Pc: '電腦 (Windows / Mac)：直接雙擊下載好的 .apkg 檔案即可自動匯入。'
+            },
+            'zh-Hans': {
+                title: 'Anki 牌组下载与使用教程（简单 3 步骤）',
+                show: '显示教程', hide: '收起',
+                warn: '重要提示：打开 .apkg 文件前，必须先安装 Anki 应用！如果未先安装 Anki，手机或电脑将无法打开该文件。',
+                s1Title: '1. 先安装 Anki 应用',
+                s1Desc: '请根据您的设备安装官方版本。（iPhone 官方版需付费，您也可以先在免费电脑版 Anki 中导入并同步到 AnkiWeb，即可在手机浏览器免费复习。）',
+                s2Title: '2. 下载对应语言的 .apkg 文件',
+                s2Desc: '在下方列表中选择课程，点击您的语言按钮（如 EN 等）保存 .apkg 文件。',
+                s3Title: '3. 导入 Anki 开始学习',
+                s3And: 'Android (AnkiDroid)：点击下载完成通知，或打开 AnkiDroid → 菜单“导入”→ 选择 .apkg 文件。',
+                s3Ios: 'iPhone / iPad：在“文件”App 中点击 .apkg 文件 → 分享 → 选择“用 Anki 打开”。',
+                s3Pc: '电脑 (Windows / Mac)：直接双击下载的 .apkg 文件即可自动导入。'
+            },
+            th: {
+                title: 'วิธีดาวน์โหลดและใช้งานชุดการ์ด Anki (3 ขั้นตอนง่ายๆ)',
+                show: 'ดูวิธีใช้งาน', hide: 'ซ่อน',
+                warn: 'สำคัญ: คุณต้องติดตั้งแอป Anki ก่อนเปิดไฟล์ .apkg หากยังไม่ติดตั้งแอปจะไม่สามารถเปิดไฟล์ได้',
+                s1Title: '1. ติดตั้งแอป Anki ก่อน',
+                s1Desc: 'ดาวน์โหลดแอปทางการตามอุปกรณ์ของคุณ (iPhone มีค่าใช้จ่าย หรือใช้ Anki บนคอมพิวเตอร์ฟรีแล้วซิงค์ผ่าน AnkiWeb เพื่อเรียนฟรีบนมือถือได้)',
+                s2Title: '2. ดาวน์โหลดไฟล์ .apkg',
+                s2Desc: 'เลื่อนลงไปด้านล่างแล้วกดปุ่มภาษาของคุณ (เช่น TH, EN) เพื่อบันทึกไฟล์ .apkg ลงเครื่อง',
+                s3Title: '3. เปิดไฟล์ด้วยแอป Anki',
+                s3And: 'Android (AnkiDroid): แตะแจ้งเตือนดาวน์โหลด หรือเปิด AnkiDroid -> เมนู -> นำเข้า (Import) แล้วเลือกไฟล์ .apkg',
+                s3Ios: 'iPhone / iPad: เปิดแอป ไฟล์ (Files) แตะไฟล์ .apkg -> แชร์ -> เปิดใน Anki',
+                s3Pc: 'PC (Windows / Mac): ดับเบิลคลิกไฟล์ .apkg ที่ดาวน์โหลดมาเพื่อนำเข้าอัตโนมัติ'
+            },
+            es: {
+                title: 'Cómo descargar y usar los mazos de Anki (3 pasos)',
+                show: 'Ver guía', hide: 'Ocultar',
+                warn: 'Importante: Debes instalar la app de Anki ANTES de abrir los archivos .apkg. Sin la app instalada, no podrás abrir el archivo.',
+                s1Title: '1. Instala primero la app Anki',
+                s1Desc: 'Descarga la app oficial para tu dispositivo. (AnkiMobile en iOS es de pago, pero puedes importar en Anki para PC gratis y repasar en AnkiWeb desde tu móvil.)',
+                s2Title: '2. Descarga tu archivo .apkg',
+                s2Desc: 'Elige una lección abajo y pulsa el botón de tu idioma para guardar el archivo .apkg.',
+                s3Title: '3. Ábrelo en Anki',
+                s3And: 'Android (AnkiDroid): Toca la notificación de descarga o abre AnkiDroid -> Menú -> Importar y elige el archivo .apkg.',
+                s3Ios: 'iPhone / iPad: Abre la app Archivos, toca el archivo .apkg -> Compartir -> Abrir en Anki.',
+                s3Pc: 'PC (Windows / Mac): Haz doble clic en el archivo .apkg descargado para importarlo.'
+            },
+            pt: {
+                title: 'Como baixar e usar os baralhos Anki (3 passos)',
+                show: 'Ver guia', hide: 'Ocultar',
+                warn: 'Importante: Você PRECISA instalar o aplicativo Anki ANTES de abrir os arquivos .apkg. Sem o aplicativo, não será possível abrir.',
+                s1Title: '1. Instale o Anki primeiro',
+                s1Desc: 'Instale o app oficial no seu aparelho. (No iPhone o app é pago, mas você pode importar no Anki de PC gratuito e estudar grátis pelo AnkiWeb.)',
+                s2Title: '2. Baixe o arquivo .apkg',
+                s2Desc: 'Escolha uma lição abaixo e toque no botão do seu idioma para salvar o arquivo .apkg.',
+                s3Title: '3. Abra no aplicativo Anki',
+                s3And: 'Android (AnkiDroid): Toque na notificação de download ou abra AnkiDroid -> Menu -> Importar e selecione o .apkg.',
+                s3Ios: 'iPhone / iPad: Abra o app Arquivos, toque no .apkg -> Compartilhar -> Abrir no Anki.',
+                s3Pc: 'PC (Windows / Mac): Clique duas vezes no arquivo .apkg baixado para importar.'
+            },
+            fr: {
+                title: 'Comment télécharger et utiliser les paquets Anki (3 étapes)',
+                show: 'Afficher le guide', hide: 'Masquer',
+                warn: 'Important : vous DEVEZ installer l’application Anki AVANT d’ouvrir un fichier .apkg, sinon votre appareil ne pourra pas le lire.',
+                s1Title: '1. Installez Anki en premier',
+                s1Desc: 'Installez l’application officielle. (AnkiMobile sur iOS est payant, mais vous pouvez importer sur Anki PC gratuit et réviser gratuitement via AnkiWeb.)',
+                s2Title: '2. Téléchargez votre fichier .apkg',
+                s2Desc: 'Choisissez une leçon ci-dessous et cliquez sur votre langue pour enregistrer le fichier .apkg.',
+                s3Title: '3. Ouvrez le fichier dans Anki',
+                s3And: 'Android (AnkiDroid) : Touchez la notification de téléchargement ou AnkiDroid -> Menu -> Importer le fichier .apkg.',
+                s3Ios: 'iPhone / iPad : Ouvrez l’app Fichiers, touchez le .apkg -> Partager -> Ouvrir dans Anki.',
+                s3Pc: 'PC (Windows / Mac) : Double-cliquez simplement sur le fichier .apkg téléchargé.'
+            },
+            my: {
+                title: 'Anki ကတ်များ ဒေါင်းလုဒ်လုပ်နည်းနှင့် အသုံးပြုနည်း (၃ ဆင့်)',
+                show: 'လမ်းညွှန်ကြည့်ရန်', hide: 'ပိတ်ရန်',
+                warn: 'အရေးကြီးသည် - .apkg ဖိုင်ကို မဖွင့်မီ Anki အက်ပ်ကို ဦးစွာ ထည့်သွင်းထားရန် လိုအပ်ပါသည်။ အက်ပ်မရှိပါက ဖိုင်ပွင့်မည်မဟုတ်ပါ။',
+                s1Title: '၁။ Anki အက်ပ်ကို အရင်ထည့်သွင်းပါ',
+                s1Desc: 'သင့်ဖုန်း သို့မဟုတ် ကွန်ပျူတာအတွက် တရားဝင် Anki အက်ပ်ကို ထည့်သွင်းပါ။ (iPhone အက်ပ်သည် အခပေးဖြစ်သော်လည်း PC Anki (အခမဲ့) မှတစ်ဆင့် AnkiWeb ဖြင့် ဖုန်းတွင် အခမဲ့လေ့လာနိုင်ပါသည်။)',
+                s2Title: '၂။ .apkg ဖိုင်ကို ဒေါင်းလုဒ်လုပ်ပါ',
+                s2Desc: 'အောက်ပါစာရင်းမှ သင်လေ့လာလိုသော သင်ခန်းစာ၏ ဘာသာစကားခလုတ် (ဥပမာ MY, EN) ကိုနှိပ်၍ .apkg ဖိုင်ကို သိမ်းဆည်းပါ။',
+                s3Title: '၃။ Anki အက်ပ်ဖြင့် ဖွင့်ပါ',
+                s3And: 'Android (AnkiDroid): ဒေါင်းလုဒ်ပြီးစီးကြောင်း အသိပေးချက်ကို နှိပ်ပါ သို့မဟုတ် AnkiDroid -> Menu -> Import မှ .apkg ကို ရွေးပါ။',
+                s3Ios: 'iPhone / iPad: Files အက်ပ်ထဲမှ .apkg ဖိုင်ကို နှိပ်ပြီး Share -> Open in Anki ကို ရွေးပါ။',
+                s3Pc: 'PC (Windows / Mac): ဒေါင်းလုဒ်လုပ်ထားသော .apkg ဖိုင်ကို နှစ်ချက်နှိပ်၍ ထည့်သွင်းပါ။'
+            }
+        };
+
+        let ankiGuideOpen = true;
+        function toggleAnkiGuide() {
+            ankiGuideOpen = !ankiGuideOpen;
+            const body = document.getElementById('anki-guide-body');
+            const toggleText = document.getElementById('anki-guide-toggle-text');
+            const g = ANKI_GUIDE_TEXT[portalState.uiLang] || ANKI_GUIDE_TEXT.en;
+            if (body) body.classList.toggle('hidden', !ankiGuideOpen);
+            if (toggleText) toggleText.textContent = ankiGuideOpen ? g.hide : g.show;
+        }
+
+        function applyAnkiGuideText(langCode) {
+            const g = ANKI_GUIDE_TEXT[langCode] || ANKI_GUIDE_TEXT.en;
+            const set = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
+            set('anki-guide-title', g.title);
+            set('anki-guide-toggle-text', ankiGuideOpen ? g.hide : g.show);
+            set('anki-guide-warn', g.warn);
+            set('anki-step1-title', g.s1Title);
+            set('anki-step1-desc', g.s1Desc);
+            set('anki-step2-title', g.s2Title);
+            set('anki-step2-desc', g.s2Desc);
+            set('anki-step3-title', g.s3Title);
+            set('anki-step3-android', g.s3And);
+            set('anki-step3-ios', g.s3Ios);
+            set('anki-step3-pc', g.s3Pc);
+        }
+
+        const UI_LANG_STORAGE = 'sjl_ui_lang';
+
+        function detectDefaultUiLang() {
+            const saved = localStorage.getItem(UI_LANG_STORAGE);
+            if (saved && UI_TEXT[saved]) return saved;
+            const nav = (navigator.language || 'en').toLowerCase();
+            if (nav.startsWith('ja')) return 'ja';
+            if (nav.startsWith('vi')) return 'vi';
+            if (nav.startsWith('id')) return 'id';
+            if (nav.startsWith('ko')) return 'ko';
+            if (nav.includes('tw') || nav.includes('hk') || nav.includes('hant')) return 'zh-Hant';
+            if (nav.startsWith('zh')) return 'zh-Hans';
+            if (nav.startsWith('th')) return 'th';
+            if (nav.startsWith('es')) return 'es';
+            if (nav.startsWith('pt')) return 'pt';
+            if (nav.startsWith('fr')) return 'fr';
+            if (nav.startsWith('my')) return 'my';
+            return 'en';
+        }
+
+        function t(key) {
+            const lang = portalState.uiLang || 'en';
+            return (UI_TEXT[lang] && UI_TEXT[lang][key]) || UI_TEXT.en[key] || key;
+        }
+
+        function applyUiLanguage(langCode) {
+            const valid = UI_TEXT[langCode] ? langCode : 'en';
+            portalState.uiLang = valid;
+            localStorage.setItem(UI_LANG_STORAGE, valid);
+
+            document.querySelectorAll('.ui-lang-select').forEach(sel => { sel.value = valid; });
+            document.getElementById('auth-desc').textContent = t('authDesc');
+            document.getElementById('auth-label').textContent = t('authLabel');
+            document.getElementById('passcode-input').placeholder = t('authPlaceholder');
+            document.getElementById('auth-submit-text').textContent = t('authSubmit');
+
+            document.getElementById('nav-label-mp3').textContent = t('navMp3');
+            document.getElementById('nav-label-anki').textContent = t('navAnki');
+            document.getElementById('nav-label-webapp').textContent = t('navWebapp');
+            document.getElementById('btn-refresh-text').textContent = t('refresh');
+            document.getElementById('btn-logout-text').textContent = t('logout');
+
+            document.getElementById('mp3-heading').textContent = t('mp3Head');
+            document.getElementById('mp3-subheading').textContent = t('mp3Sub');
+            document.getElementById('mp3-search').placeholder = t('searchPh');
+            document.getElementById('anki-heading').textContent = t('ankiHead');
+            document.getElementById('anki-subheading').textContent = t('ankiSub');
+            document.getElementById('anki-search').placeholder = t('searchPh');
+            const lessonLabelEl = document.getElementById('lesson-select-label');
+            if (lessonLabelEl) lessonLabelEl.textContent = t('lessonLabel');
+            applyAnkiGuideText(valid);
+
+            const mp3AllOpt = document.querySelector('#mp3-lang-filter option[value="ALL"]');
+            if (mp3AllOpt) mp3AllOpt.textContent = t('allLangs');
+            const ankiAllOpt = document.querySelector('#anki-lang-filter option[value="ALL"]');
+            if (ankiAllOpt) ankiAllOpt.textContent = t('allLangs');
+
+            if (portalState.catalog) {
+                renderMp3List();
+                if (portalState.tier === 'tier2' || portalState.tier === 'trial') renderAnkiList();
+            }
+        }
+
+        const portalState = {
+            uiLang: 'en',
+            passkey: '',
+            tier: null,
+            catalog: null,
+            activeTab: 'mp3',
+            currentVideoId: '',
+            currentMp3StreamUrl: '',
+            lessonDetailCache: {},
+            srtCache: {}
+        };
+
+        const appState = {
+            currentSceneIndex: 0,
+            showJapanese: true,
+            showRomaji: false,
+            showTranslation: false,
+            hideFurigana: false,
+            isPlaying: false,
+            roleplayMutedSpeaker: 'none',
+            currentLang: 'en',
+            lastScrolledIndex: -1,
+            recordedBlobs: {},
+            mediaRecorder: null,
+            activeRecordingIndex: -1
+        };
+
+        let scenes = [];
+        let sceneTitles = [];
+        let sceneStartTimes = [];
+        let ytPlayer = null;
+        let ytApiLoaded = false;
+        let ytTimeTracker = null;
+        let pendingYoutubeVideoId = '';
+
+        // =========================================================
+        // ★ 結合MP3 セグメント再生エンジン（1本のMP3からセリフ区間を切り出し再生）
+        // =========================================================
+        let masterAudioEl = null;
+        let currentCustomAudio = null;
+        let activeSegmentAbort = null;
+
+        function ensureMasterAudio(streamUrl) {
+            if (!streamUrl) return null;
+            if (!masterAudioEl) {
+                masterAudioEl = new Audio();
+                masterAudioEl.preload = 'auto';
+            }
+            if (masterAudioEl.dataset.srcUrl !== streamUrl) {
+                masterAudioEl.pause();
+                masterAudioEl.src = streamUrl;
+                masterAudioEl.dataset.srcUrl = streamUrl;
+                masterAudioEl.load();
+            }
+            return masterAudioEl;
+        }
+
+        function stopAllPlayback() {
+            if (activeSegmentAbort) {
+                activeSegmentAbort();
+                activeSegmentAbort = null;
+            }
+            if (masterAudioEl) masterAudioEl.pause();
+            if (currentCustomAudio) currentCustomAudio.pause();
+        }
+
+        function playMp3Segment(startSec, endSec, rate = 0.85) {
+            return new Promise((resolve) => {
+                stopAllPlayback();
+                const url = portalState.currentMp3StreamUrl;
+                const dur = Math.max(0, (endSec || 0) - (startSec || 0));
+                if (!url || dur <= 0.05) {
+                    resolve();
+                    return;
+                }
+
+                const audio = ensureMasterAudio(url);
+                let finished = false;
+                let timerId = null;
+
+                const cleanup = () => {
+                    if (finished) return;
+                    finished = true;
+                    if (timerId) clearInterval(timerId);
+                    audio.removeEventListener('ended', onEnded);
+                    audio.removeEventListener('error', onError);
+                    activeSegmentAbort = null;
+                    resolve();
+                };
+
+                const onEnded = () => cleanup();
+                const onError = () => cleanup();
+
+                activeSegmentAbort = () => {
+                    audio.pause();
+                    cleanup();
+                };
+
+                const startPlay = () => {
+                    try {
+                        audio.playbackRate = rate;
+                        audio.currentTime = Math.max(0, startSec - 0.03);
+                        audio.addEventListener('ended', onEnded);
+                        audio.addEventListener('error', onError);
+
+                        const p = audio.play();
+                        if (p && typeof p.catch === 'function') {
+                            p.catch(() => cleanup());
+                        }
+
+                        timerId = setInterval(() => {
+                            if (finished) return;
+                            if (audio.currentTime >= endSec + 0.04) {
+                                audio.pause();
+                                cleanup();
+                            }
+                        }, 30);
+                    } catch (e) {
+                        cleanup();
+                    }
+                };
+
+                if (audio.readyState >= 1) {
+                    startPlay();
+                } else {
+                    const onMeta = () => {
+                        audio.removeEventListener('loadedmetadata', onMeta);
+                        startPlay();
+                    };
+                    audio.addEventListener('loadedmetadata', onMeta);
+                }
+            });
+        }
+
+        // =========================================================
+        // ★ GAS API 通信 & ポータル認証
+        // =========================================================
+        async function fetchGas(params) {
+            const qs = new URLSearchParams({ ...params, key: portalState.passkey });
+            const res = await fetch(`${GAS_API_URL}?${qs.toString()}`);
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            return await res.json();
+        }
+
+        async function startTrialMode() {
+            const btn = document.getElementById('trial-start-btn');
+            const errEl = document.getElementById('auth-error');
+            if (errEl) errEl.classList.add('hidden');
+            if (btn) btn.disabled = true;
+            try {
+                await authenticateAndLoad('trial');
+            } catch (err) {
+                if (errEl) {
+                    errEl.textContent = err.message || 'お試しデータを読み込めませんでした。';
+                    errEl.classList.remove('hidden');
+                }
+            } finally {
+                if (btn) btn.disabled = false;
+            }
+        }
+
+        async function authenticateAndLoad(passkey, forceRefresh = false) {
+            portalState.passkey = passkey.trim();
+            const isTrial = portalState.passkey.toLowerCase() === 'trial';
+            const data = await fetchGas({
+                action: 'catalog',
+                ...(forceRefresh ? { refresh: '1' } : {})
+            });
+            if (!data.ok) {
+                throw new Error(data.message || 'パスコードが無効です。');
+            }
+
+            if (!isTrial) {
+                localStorage.setItem(STORAGE_KEY_NAME, portalState.passkey);
+            }
+            portalState.tier = isTrial ? 'trial' : data.tier;
+            portalState.catalog = data;
+            portalState.expandedMp3 = portalState.expandedMp3 || new Set();
+            portalState.expandedAnki = portalState.expandedAnki || new Set();
+
+            document.getElementById('auth-screen').classList.add('hidden');
+            document.getElementById('portal-shell').classList.remove('hidden');
+            document.getElementById('trial-banner').classList.toggle('hidden', !isTrial);
+
+            const hasFullFeatures = (data.tier === 'tier2' || isTrial);
+            const badge = document.getElementById('plan-badge');
+            if (isTrial) {
+                badge.textContent = 'FREE TRIAL (1 Lesson)';
+                badge.className = 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700';
+            } else {
+                badge.textContent = hasFullFeatures ? 'PRO PLAN (MP3 + Anki + WebApp)' : 'STANDARD PLAN (MP3)';
+                badge.className = hasFullFeatures
+                    ? 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-700'
+                    : 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-blue-100 text-blue-700';
+            }
+
+            document.getElementById('tab-btn-anki').classList.toggle('hidden', !hasFullFeatures);
+            document.getElementById('tab-btn-webapp').classList.toggle('hidden', !hasFullFeatures);
+
+            populateMediaLangFilter('mp3-lang-filter', data.mp3 || []);
+            renderMp3List();
+            if (hasFullFeatures) {
+                populateMediaLangFilter('anki-lang-filter', data.anki || []);
+                renderAnkiList();
+                renderLessonSelector();
+                renderWebAppGallery();
+            }
+
+            if (!hasFullFeatures && portalState.activeTab !== 'mp3') {
+                switchTab('mp3');
+            } else {
+                switchTab(portalState.activeTab);
+            }
+        }
+
+        function switchTab(tabName) {
+            const hasFullFeatures = (portalState.tier === 'tier2' || portalState.tier === 'trial');
+            if (!hasFullFeatures && tabName !== 'mp3') {
+                tabName = 'mp3';
+            }
+            portalState.activeTab = tabName;
+
+            document.querySelectorAll('.tab-panel').forEach(p => p.classList.add('hidden'));
+            const target = document.getElementById(`panel-${tabName}`);
+            if (target) target.classList.remove('hidden');
+
+            document.querySelectorAll('.nav-tab-btn').forEach(btn => {
+                const isActive = btn.dataset.tab === tabName;
+                btn.classList.toggle('bg-blue-600', isActive);
+                btn.classList.toggle('text-white', isActive);
+                btn.classList.toggle('text-gray-600', !isActive);
+                btn.classList.toggle('hover:bg-gray-100', !isActive);
+            });
+
+            if (tabName === 'webapp') {
+                if (!portalState.currentVideoId) {
+                    backToWebAppGallery();
+                }
+            }
+        }
+
+        // =========================================================
+        // ★ MP3 / Anki 一覧レンダリング
+        // =========================================================
+        function formatBytes(bytes) {
+            if (!bytes) return '';
+            const mb = bytes / (1024 * 1024);
+            return mb >= 1 ? `${mb.toFixed(1)} MB` : `${Math.round(bytes / 1024)} KB`;
+        }
+
+        function populateMediaLangFilter(selectId, items) {
+            const sel = document.getElementById(selectId);
+            if (!sel) return;
+            const prev = sel.value || 'ALL';
+            const langs = new Set();
+            (items || []).forEach(it => {
+                if (it.type === 'bundle' && Array.isArray(it.files)) {
+                    it.files.forEach(f => { if (f.lang) langs.add(f.lang); });
+                }
+            });
+            sel.innerHTML = `<option value="ALL">${escapeHtml(t('allLangs'))}</option>`;
+            Array.from(langs).sort().forEach(l => {
+                const opt = document.createElement('option');
+                opt.value = l;
+                opt.text = l;
+                sel.appendChild(opt);
+            });
+            sel.value = (prev === 'ALL' || langs.has(prev)) ? prev : 'ALL';
+        }
+
+        function getDirectAudioUrl(item) {
+            const fid = extractDriveFileId(item);
+            if (fid && GOOGLE_DRIVE_API_KEY) {
+                return `https://www.googleapis.com/drive/v3/files/${encodeURIComponent(fid)}?alt=media&key=${encodeURIComponent(GOOGLE_DRIVE_API_KEY)}`;
+            }
+            return (item && item.streamUrl) ? item.streamUrl : '';
+        }
+
+        function toggleMediaCard(kind, key) {
+            const store = kind === 'mp3'
+                ? (portalState.expandedMp3 = portalState.expandedMp3 || new Set())
+                : (portalState.expandedAnki = portalState.expandedAnki || new Set());
+            if (store.has(key)) store.delete(key);
+            else store.add(key);
+            if (kind === 'mp3') renderMp3List();
+            else renderAnkiList();
+        }
+
+        function renderMp3List() {
+            const listEl = document.getElementById('mp3-list');
+            const q = (document.getElementById('mp3-search').value || '').trim().toLowerCase();
+            const langFilter = (document.getElementById('mp3-lang-filter') && document.getElementById('mp3-lang-filter').value) || 'ALL';
+            const expanded = portalState.expandedMp3 || new Set();
+            const hasFullFeatures = (portalState.tier === 'tier2' || portalState.tier === 'trial');
+
+            const items = (portalState.catalog?.mp3 || []).filter(it => {
+                const matchText = !q || (it.title || '').toLowerCase().includes(q) || (it.videoId || '').toLowerCase().includes(q) || (it.name || '').toLowerCase().includes(q);
+                if (!matchText) return false;
+                if (langFilter === 'ALL') return true;
+                if (it.type === 'single') return langFilter === 'JA' || langFilter === 'EN';
+                return (it.files || []).some(f => f.lang === langFilter);
+            });
+
+            if (items.length === 0) {
+                listEl.innerHTML = `<div class="bg-white rounded-2xl border border-gray-200 p-8 text-center text-sm text-gray-500">${escapeHtml(t('noMp3'))}</div>`;
+                return;
+            }
+
+            listEl.innerHTML = items.map((it, idx) => {
+                const cardKey = String(it.id || it.videoId || it.name || idx);
+                const isOpen = expanded.has(cardKey) || langFilter !== 'ALL' || q !== '';
+
+                if (it.type === 'single') {
+                    const fid = extractDriveFileId(it);
+                    const directUrl = getDirectAudioUrl(it);
+                    const safeSlotId = `mp3-single-player-${idx}`;
+                    return `
+                        <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                            <button type="button" onclick="toggleMediaCard('mp3', '${escapeHtml(cardKey)}')"
+                                class="w-full px-4 py-3.5 flex items-center justify-between gap-3 text-left hover:bg-gray-50/80 transition">
+                                <div class="min-w-0">
+                                    <div class="font-bold text-gray-900 text-sm sm:text-base truncate">${escapeHtml(it.title || it.name)}</div>
+                                </div>
+                                <i class="fa-solid ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'} text-xs text-gray-400 shrink-0"></i>
+                            </button>
+                            <div class="${isOpen ? '' : 'hidden'} px-4 pb-4 pt-1 border-t border-gray-100 space-y-3">
+                                <div class="flex flex-wrap items-center justify-between gap-2">
+                                    <div class="text-xs text-gray-400">${it.videoId ? `ID: ${escapeHtml(it.videoId)} · ` : ''}${formatBytes(it.sizeBytes)}</div>
+                                    <div class="flex items-center gap-2 flex-wrap">
+                                        ${hasFullFeatures && it.videoId ? `<button onclick="openLessonInWebApp('${escapeHtml(it.videoId)}')" class="px-3 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs font-semibold transition"><i class="fa-solid fa-book-open mr-1"></i>${escapeHtml(t('openWebapp'))}</button>` : ''}
+                                        <a href="${escapeHtml(it.downloadUrl)}" target="_blank" rel="noopener" class="px-3.5 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold transition"><i class="fa-solid fa-download mr-1"></i>${escapeHtml(t('download'))}</a>
+                                    </div>
+                                </div>
+                                <div id="${safeSlotId}">
+                                    <audio controls preload="none" class="w-full h-10" src="${escapeHtml(directUrl)}" ${fid ? `onerror="openDriveAudioPreview('${safeSlotId}', '${escapeHtml(fid)}', '')"` : ''}></audio>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+
+                const filteredFiles = langFilter === 'ALL' ? (it.files || []) : (it.files || []).filter(f => f.lang === langFilter);
+                const bundleSlotId = `mp3-bundle-player-${idx}`;
+                return `
+                    <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                        <button type="button" onclick="toggleMediaCard('mp3', '${escapeHtml(cardKey)}')"
+                            class="w-full px-4 py-3.5 flex items-center justify-between gap-3 text-left hover:bg-gray-50/80 transition">
+                            <div class="min-w-0 flex items-center gap-2">
+                                <span class="inline-block text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700 shrink-0">${escapeHtml(t('bundleMp3'))}</span>
+                                <span class="font-bold text-gray-900 text-sm sm:text-base truncate">${escapeHtml(it.title || it.name)}</span>
+                            </div>
+                            <i class="fa-solid ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'} text-xs text-gray-400 shrink-0"></i>
+                        </button>
+                        <div class="${isOpen ? '' : 'hidden'} px-4 pb-4 pt-2 border-t border-gray-100 space-y-3">
+                            <div class="flex flex-wrap gap-2">
+                                ${filteredFiles.map(f => {
+                                    const fid = extractDriveFileId(f);
+                                    const directUrl = getDirectAudioUrl(f);
+                                    return `
+                                    <div class="inline-flex items-center rounded-xl bg-gray-100 border border-gray-200 overflow-hidden text-xs font-semibold">
+                                        ${directUrl ? `
+                                            <button type="button" onclick="playDirectBundleAudio('${bundleSlotId}', '${escapeHtml(directUrl)}', '${escapeHtml(fid)}', '${escapeHtml(f.lang)}')"
+                                                class="px-2.5 py-1.5 bg-emerald-50 hover:bg-emerald-600 hover:text-white text-emerald-700 transition flex items-center gap-1" title="Play ${escapeHtml(f.lang)}">
+                                                <i class="fa-solid fa-play text-[10px]"></i>
+                                                <span>${escapeHtml(f.lang)}</span>
+                                            </button>
+                                        ` : `<span class="px-2.5 py-1.5 text-gray-700">${escapeHtml(f.lang)}</span>`}
+                                        <a href="${escapeHtml(f.downloadUrl)}" target="_blank" rel="noopener"
+                                           class="px-2.5 py-1.5 hover:bg-blue-600 hover:text-white text-gray-600 transition flex items-center gap-1 border-l border-gray-200" title="Download ${escapeHtml(f.lang)}">
+                                            <i class="fa-solid fa-download text-[10px]"></i>
+                                            <span class="opacity-70 text-[10px]">${formatBytes(f.sizeBytes)}</span>
+                                        </a>
+                                    </div>`;
+                                }).join('')}
+                            </div>
+                            <div id="${bundleSlotId}" class="hidden"></div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function extractDriveFileId(item) {
+            if (!item) return '';
+            if (item.id) return String(item.id);
+            const url = String(item.streamUrl || item.downloadUrl || '');
+            const m1 = url.match(/[?&]id=([a-zA-Z0-9_-]+)/);
+            if (m1) return m1[1];
+            const m2 = url.match(/\/d\/([a-zA-Z0-9_-]+)/);
+            return m2 ? m2[1] : '';
+        }
+
+        function playDirectBundleAudio(slotId, directUrl, fileId, label) {
+            const slot = document.getElementById(slotId);
+            if (!slot || !directUrl) return;
+            slot.classList.remove('hidden');
+            const badge = label ? `<div class="text-[11px] font-bold text-emerald-700 mb-1 flex items-center gap-1.5"><i class="fa-solid fa-volume-high"></i><span>${escapeHtml(label)}</span></div>` : '';
+            slot.innerHTML = `${badge}<audio controls autoplay class="w-full h-10" src="${escapeHtml(directUrl)}" ${fileId ? `onerror="openDriveAudioPreview('${slotId}', '${escapeHtml(fileId)}', '${escapeHtml(label)}')"` : ''}></audio>`;
+            const audioEl = slot.querySelector('audio');
+            if (audioEl) audioEl.play().catch(() => {});
+        }
+
+        function openDriveAudioPreview(slotId, fileId, label) {
+            const slot = document.getElementById(slotId);
+            if (!slot || !fileId) return;
+            slot.classList.remove('hidden');
+            const badge = label ? `<div class="text-[11px] font-bold text-emerald-700 mb-1 flex items-center gap-1.5"><i class="fa-solid fa-volume-high"></i><span>${escapeHtml(label)}</span></div>` : '';
+            slot.innerHTML = `${badge}<iframe src="https://drive.google.com/file/d/${encodeURIComponent(fileId)}/preview" class="w-full h-16 rounded-xl border border-gray-200 bg-gray-50" allow="autoplay"></iframe>`;
+        }
+
+        function renderAnkiList() {
+            const listEl = document.getElementById('anki-list');
+            const q = (document.getElementById('anki-search').value || '').trim().toLowerCase();
+            const langFilter = (document.getElementById('anki-lang-filter') && document.getElementById('anki-lang-filter').value) || 'ALL';
+            const expanded = portalState.expandedAnki || new Set();
+
+            const items = (portalState.catalog?.anki || []).filter(it => {
+                const matchText = !q || (it.title || '').toLowerCase().includes(q) || (it.videoId || '').toLowerCase().includes(q) || (it.name || '').toLowerCase().includes(q);
+                if (!matchText) return false;
+                if (langFilter === 'ALL') return true;
+                if (it.type === 'single') return langFilter === 'EN';
+                return (it.files || []).some(f => f.lang === langFilter);
+            });
+
+            if (items.length === 0) {
+                listEl.innerHTML = `<div class="bg-white rounded-2xl border border-gray-200 p-8 text-center text-sm text-gray-500">${escapeHtml(t('noAnki'))}</div>`;
+                return;
+            }
+
+            listEl.innerHTML = items.map((it, idx) => {
+                const cardKey = String(it.id || it.videoId || it.name || idx);
+                const isOpen = expanded.has(cardKey) || langFilter !== 'ALL' || q !== '';
+
+                if (it.type === 'single') {
+                    return `
+                        <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                            <button type="button" onclick="toggleMediaCard('anki', '${escapeHtml(cardKey)}')"
+                                class="w-full px-4 py-3.5 flex items-center justify-between gap-3 text-left hover:bg-gray-50/80 transition">
+                                <div class="font-bold text-gray-900 text-sm sm:text-base truncate">${escapeHtml(it.title || it.name)}</div>
+                                <i class="fa-solid ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'} text-xs text-gray-400 shrink-0"></i>
+                            </button>
+                            <div class="${isOpen ? '' : 'hidden'} px-4 pb-4 pt-2 border-t border-gray-100 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                                <div class="text-xs text-gray-400">${it.videoId ? `ID: ${escapeHtml(it.videoId)} · ` : ''}${formatBytes(it.sizeBytes)}</div>
+                                <a href="${escapeHtml(it.downloadUrl)}" target="_blank" rel="noopener"
+                                   class="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold transition text-center shrink-0">
+                                    <i class="fa-solid fa-download mr-1.5"></i>${escapeHtml(t('downloadApkg'))}
+                                </a>
+                            </div>
+                        </div>
+                    `;
+                }
+
+                const filteredFiles = langFilter === 'ALL' ? (it.files || []) : (it.files || []).filter(f => f.lang === langFilter);
+                return `
+                    <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                        <button type="button" onclick="toggleMediaCard('anki', '${escapeHtml(cardKey)}')"
+                            class="w-full px-4 py-3.5 flex items-center justify-between gap-3 text-left hover:bg-gray-50/80 transition">
+                            <div class="min-w-0 flex items-center gap-2">
+                                <span class="inline-block text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-purple-100 text-purple-700 shrink-0">${escapeHtml(t('bundleAnki'))}</span>
+                                <span class="font-bold text-gray-900 text-sm sm:text-base truncate">${escapeHtml(it.title || it.name)}</span>
+                            </div>
+                            <i class="fa-solid ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'} text-xs text-gray-400 shrink-0"></i>
+                        </button>
+                        <div class="${isOpen ? '' : 'hidden'} px-4 pb-4 pt-2 border-t border-gray-100">
+                            <div class="flex flex-wrap gap-2">
+                                ${filteredFiles.map(f => `
+                                    <a href="${escapeHtml(f.downloadUrl)}" target="_blank" rel="noopener"
+                                       class="px-3 py-1.5 rounded-xl bg-gray-100 hover:bg-indigo-600 hover:text-white text-gray-700 text-xs font-semibold transition flex items-center gap-1.5">
+                                        <i class="fa-solid fa-download text-[10px]"></i>
+                                        <span>${escapeHtml(f.lang)}</span>
+                                        <span class="opacity-60 text-[10px]">${formatBytes(f.sizeBytes)}</span>
+                                    </a>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function getWebAppFavs() {
+            try { return JSON.parse(localStorage.getItem(STORAGE_WEBAPP_FAVS) || '[]'); } catch (e) { return []; }
+        }
+
+        function toggleWebAppFav(videoId, event) {
+            if (event) event.stopPropagation();
+            const favs = new Set(getWebAppFavs());
+            if (favs.has(videoId)) favs.delete(videoId);
+            else favs.add(videoId);
+            localStorage.setItem(STORAGE_WEBAPP_FAVS, JSON.stringify(Array.from(favs)));
+            renderWebAppGallery();
+        }
+
+        function getWebAppRecent() {
+            try { return JSON.parse(localStorage.getItem(STORAGE_WEBAPP_RECENT) || '[]'); } catch (e) { return []; }
+        }
+
+        function pushWebAppRecent(videoId) {
+            const list = getWebAppRecent().filter(id => id !== videoId);
+            list.unshift(videoId);
+            localStorage.setItem(STORAGE_WEBAPP_RECENT, JSON.stringify(list.slice(0, 6)));
+        }
+
+        function buildLessonCardHtml(ls, favSet) {
+            const isFav = favSet.has(ls.videoId);
+            const durMin = ls.totalDurationSec ? `${Math.round(ls.totalDurationSec / 60)} min` : '';
+            const thumbUrl = `https://i.ytimg.com/vi/${encodeURIComponent(ls.videoId)}/mqdefault.jpg`;
+            return `
+                <div onclick="openLessonInWebApp('${escapeHtml(ls.videoId)}')"
+                     class="bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition overflow-hidden cursor-pointer flex flex-col group">
+                    <div class="relative aspect-video bg-gray-900 overflow-hidden">
+                        <img src="${thumbUrl}" alt="${escapeHtml(ls.title || ls.videoId)}" loading="lazy"
+                             class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300">
+                        <button type="button" onclick="toggleWebAppFav('${escapeHtml(ls.videoId)}', event)"
+                            class="absolute top-2 right-2 w-8 h-8 rounded-full bg-black/55 hover:bg-black/75 flex items-center justify-center transition"
+                            title="Favorite">
+                            <i class="fa-solid fa-star text-xs ${isFav ? 'text-amber-400' : 'text-white/80'}"></i>
+                        </button>
+                        ${durMin ? `<span class="absolute bottom-2 right-2 px-2 py-0.5 rounded-md bg-black/75 text-white text-[10px] font-semibold">${durMin}</span>` : ''}
+                    </div>
+                    <div class="p-3.5 flex-1 flex flex-col justify-between gap-1">
+                        <div class="font-bold text-gray-900 text-sm line-clamp-2">${escapeHtml(ls.title || ls.videoId)}</div>
+                        <div class="text-[11px] text-gray-400">${ls.totalLines ? `${ls.totalLines} lines` : escapeHtml(ls.videoId)}</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderWebAppGallery() {
+            const lessons = portalState.catalog?.lessons || [];
+            const q = (document.getElementById('webapp-search')?.value || '').trim().toLowerCase();
+            const favSet = new Set(getWebAppFavs());
+            const recentIds = getWebAppRecent();
+
+            const filtered = lessons.filter(ls => {
+                if (!q) return true;
+                return (ls.title || '').toLowerCase().includes(q) || (ls.videoId || '').toLowerCase().includes(q);
+            });
+
+            const favItems = filtered.filter(ls => favSet.has(ls.videoId));
+            const favWrap = document.getElementById('webapp-favs-wrap');
+            const favGrid = document.getElementById('webapp-favs-grid');
+            if (favWrap && favGrid) {
+                favWrap.classList.toggle('hidden', favItems.length === 0);
+                favGrid.innerHTML = favItems.map(ls => buildLessonCardHtml(ls, favSet)).join('');
+            }
+
+            const lessonMap = new Map(filtered.map(ls => [ls.videoId, ls]));
+            const recentItems = recentIds.map(id => lessonMap.get(id)).filter(Boolean);
+            const recentWrap = document.getElementById('webapp-recent-wrap');
+            const recentGrid = document.getElementById('webapp-recent-grid');
+            if (recentWrap && recentGrid) {
+                recentWrap.classList.toggle('hidden', recentItems.length === 0 || q !== '');
+                recentGrid.innerHTML = recentItems.map(ls => buildLessonCardHtml(ls, favSet)).join('');
+            }
+
+            const allGrid = document.getElementById('webapp-all-grid');
+            if (allGrid) {
+                if (filtered.length === 0) {
+                    allGrid.innerHTML = `<div class="col-span-full bg-white rounded-2xl border border-gray-200 p-8 text-center text-sm text-gray-500">レッスンが見つかりません。</div>`;
+                } else {
+                    allGrid.innerHTML = filtered.map(ls => buildLessonCardHtml(ls, favSet)).join('');
+                }
+            }
+        }
+
+        function backToWebAppGallery() {
+            stopAllPlayback();
+            appState.isPlaying = false;
+            const g = document.getElementById('webapp-gallery');
+            const s = document.getElementById('webapp-study');
+            if (g) g.classList.remove('hidden');
+            if (s) s.classList.add('hidden');
+            renderWebAppGallery();
+        }
+
+        function openLessonInWebApp(videoId) {
+            switchTab('webapp');
+            const g = document.getElementById('webapp-gallery');
+            const s = document.getElementById('webapp-study');
+            if (g) g.classList.add('hidden');
+            if (s) s.classList.remove('hidden');
+            const sel = document.getElementById('lesson-selector');
+            if (sel) sel.value = videoId;
+            loadWebAppLesson(videoId);
+        }
+
+        // =========================================================
+        // ★ 学習Webアプリ制御（lesson_data.json + GAS SRT 連動）
+        // =========================================================
+        function renderLessonSelector() {
+            const sel = document.getElementById('lesson-selector');
+            const lessons = portalState.catalog?.lessons || [];
+            sel.innerHTML = '';
+
+            if (lessons.length === 0) {
+                const opt = document.createElement('option');
+                opt.value = '';
+                opt.text = '利用可能なレッスンがまだありません';
+                sel.appendChild(opt);
+                return;
+            }
+
+            lessons.forEach(ls => {
+                const opt = document.createElement('option');
+                opt.value = ls.videoId;
+                const durMin = ls.totalDurationSec ? ` (${Math.round(ls.totalDurationSec / 60)}分)` : '';
+                opt.text = `${ls.title || ls.videoId}${durMin}`;
+                sel.appendChild(opt);
+            });
+        }
+
+        async function loadWebAppLesson(videoId) {
+            if (!videoId) return;
+            stopAllPlayback();
+            appState.isPlaying = false;
+            appState.currentSceneIndex = 0;
+            appState.lastScrolledIndex = -1;
+            appState.recordedBlobs = {};
+            portalState.currentVideoId = videoId;
+
+            const badge = document.getElementById('lesson-status-badge');
+            badge.textContent = '読み込み中...';
+
+            try {
+                let detail = portalState.lessonDetailCache[videoId];
+                if (!detail) {
+                    detail = await fetchGas({ action: 'lesson', videoId });
+                    if (!detail.ok) throw new Error(detail.error || '読込エラー');
+                    portalState.lessonDetailCache[videoId] = detail;
+                }
+
+                pushWebAppRecent(videoId);
+                const ld = detail.lessonData;
+                portalState.currentMp3StreamUrl = detail.mp3 ? getDirectAudioUrl(detail.mp3) : '';
+                if (portalState.currentMp3StreamUrl) ensureMasterAudio(portalState.currentMp3StreamUrl);
+
+                scenes = (ld.scenes || []).map((sc, idx) => ({
+                    titleJa: sc.titleJaClean || sc.titleJa || `Scene ${idx + 1}`,
+                    titleEn: sc.titleEn || `Scene ${idx + 1}`,
+                    srtHeader: sc.srtHeader || `Scene ${idx + 1}`,
+                    lines: (sc.lines || []).map(l => ({
+                        speaker: l.speaker || `Speaker ${l.speakerNum || '1'}`,
+                        rawJp: l.rawJp || '',
+                        speakText: l.speakText || '',
+                        english: l.english || 'Translation not available.',
+                        baseEn: l.english || 'Translation not available.',
+                        romaji: l.romaji || '',
+                        grammar2: l.grammar2 || '',
+                        mp3Start: Number(l.mp3Start || 0),
+                        mp3End: Number(l.mp3End || 0),
+                        startTime: 0,
+                        endTime: 0
+                    }))
+                }));
+
+                // 言語セレクターを利用可能言語で更新
+                populateWebAppLangSelector(detail.availableLangs || ['en']);
+                await updateTranslations();
+                await updateSceneTitles();
+                await updateSceneStartTimes();
+
+                renderSceneSelector();
+                renderScene();
+                loadYouTubeVideo(videoId);
+
+                badge.textContent = `${scenes.length}シーン / ${ld.totalLines || 0}文`;
+            } catch (err) {
+                badge.textContent = `エラー: ${err.message}`;
+                console.error(err);
+            }
+        }
+
+        function populateWebAppLangSelector(availableLangs) {
+            const langSelector = document.getElementById('lang-selector');
+            const prevLang = appState.currentLang;
+            langSelector.innerHTML = '';
+
+            const langs = (availableLangs && availableLangs.length > 0) ? availableLangs : ['en'];
+            langs.forEach(code => {
+                const opt = document.createElement('option');
+                opt.value = code;
+                opt.text = CODE_TO_LANG_NAME[code] || code.toUpperCase();
+                langSelector.appendChild(opt);
+            });
+
+            if (langs.includes(prevLang)) {
+                appState.currentLang = prevLang;
+            } else if (langs.includes('en')) {
+                appState.currentLang = 'en';
+            } else {
+                appState.currentLang = langs[0];
+            }
+            langSelector.value = appState.currentLang;
+        }
+
+        function srtTimeToSeconds(timeStr) {
+            if (!timeStr) return 0;
+            const parts = timeStr.replace(',', '.').split(':');
+            return parseFloat(parts[0]) * 3600 + parseFloat(parts[1]) * 60 + parseFloat(parts[2]);
+        }
+
+        async function loadSRT(langCode) {
+            const vid = portalState.currentVideoId;
+            if (!vid) return null;
+            const cacheKey = `${vid}_${langCode}`;
+            if (portalState.srtCache[cacheKey]) return portalState.srtCache[cacheKey];
+
+            try {
+                const res = await fetchGas({ action: 'srt', videoId: vid, lang: langCode });
+                if (!res.ok || !res.srtText) return null;
+
+                const blocks = res.srtText.trim().split(/\r?\n\r?\n/);
+                const srtParsed = blocks.map(block => {
+                    const lines = block.split(/\r?\n/);
+                    if (lines.length < 3) return { text: '', start: 0, end: 0 };
+                    const timeMatch = lines[1].match(/(\d{2}:\d{2}:\d{2}[,\.]\d{3})\s*-->\s*(\d{2}:\d{2}:\d{2}[,\.]\d{3})/);
+                    const start = timeMatch ? srtTimeToSeconds(timeMatch[1]) : 0;
+                    const end = timeMatch ? srtTimeToSeconds(timeMatch[2]) : 0;
+                    const textContent = lines.slice(2).join('\n').trim();
+                    return { text: textContent, start, end };
+                });
+
+                portalState.srtCache[cacheKey] = srtParsed;
+                return srtParsed;
+            } catch (e) {
+                console.error(`Error loading SRT for ${langCode}:`, e);
+                return null;
+            }
+        }
+
+        async function updateSceneTitles() {
+            const srtParsed = await loadSRT(appState.currentLang);
+            if (srtParsed && srtParsed.length > 0) {
+                const sceneRegex = /^Scene\s+\d+:/i;
+                const detected = srtParsed.filter(item => sceneRegex.test(item.text.trim())).map(item => item.text.trim());
+                if (detected.length > 0) {
+                    sceneTitles = detected;
+                    return;
+                }
+            }
+            sceneTitles = scenes.map((sc, idx) => `Scene ${idx + 1}: ${sc.titleJa}`);
+        }
+
+        async function updateSceneStartTimes() {
+            const srtParsed = await loadSRT(appState.currentLang);
+            if (!srtParsed || srtParsed.length === 0) {
+                sceneStartTimes = [];
+                return;
+            }
+            const sceneRegex = /^Scene\s+\d+:/i;
+            sceneStartTimes = srtParsed
+                .filter(item => sceneRegex.test(item.text.trim()))
+                .map(item => Math.floor(item.start));
+        }
+
+        async function updateTranslations() {
+            const srtParsed = await loadSRT(appState.currentLang);
+            if (!srtParsed || srtParsed.length === 0) {
+                scenes.forEach(sc => sc.lines.forEach(l => { l.english = l.baseEn; }));
+                return;
+            }
+
+            // シーン見出しと挿入動画字幕（OP動画・PDF案内・テスト案内等）を除外して純粋なセリフブロックを抽出
+            const sceneRegex = /^Scene\s+\d+:/i;
+            const nonLineRegex = /(listening test|answer subtitles|PDFスクリプト|トップコメント|1周目は理解度テスト)/i;
+
+            const sceneHeaderIndices = [];
+            srtParsed.forEach((item, idx) => {
+                if (sceneRegex.test((item.text || '').trim())) {
+                    sceneHeaderIndices.push(idx);
+                }
+            });
+
+            if (sceneHeaderIndices.length > 0) {
+                // Scene 1 より前の OP動画字幕をすべてスキップし、シーン単位で正確に照合する
+                scenes.forEach((scene, sceneIdx) => {
+                    if (sceneIdx < sceneHeaderIndices.length) {
+                        const sliceStart = sceneHeaderIndices[sceneIdx] + 1;
+                        const sliceEnd = (sceneIdx + 1 < sceneHeaderIndices.length)
+                            ? sceneHeaderIndices[sceneIdx + 1]
+                            : srtParsed.length;
+                        const sceneBlocks = srtParsed.slice(sliceStart, sliceEnd).filter(item => {
+                            const t = (item.text || '').trim();
+                            if (!t) return false;
+                            if (sceneRegex.test(t)) return false;
+                            if (nonLineRegex.test(t)) return false;
+                            return true;
+                        });
+
+                        scene.lines.forEach((line, lineIdx) => {
+                            if (lineIdx < sceneBlocks.length) {
+                                const srtItem = sceneBlocks[lineIdx];
+                                line.english = srtItem.text || line.baseEn;
+                                line.startTime = srtItem.start;
+                                line.endTime = srtItem.end;
+                            } else {
+                                line.startTime = 0;
+                                line.endTime = 0;
+                            }
+                        });
+                    } else {
+                        scene.lines.forEach(line => {
+                            line.startTime = 0;
+                            line.endTime = 0;
+                        });
+                    }
+                });
+                return;
+            }
+
+            const dialogueBlocks = srtParsed.filter(item => {
+                const t = item.text.trim();
+                if (!t) return false;
+                if (sceneRegex.test(t)) return false;
+                if (nonLineRegex.test(t)) return false;
+                return true;
+            });
+
+            let ptr = 0;
+            scenes.forEach(scene => {
+                scene.lines.forEach(line => {
+                    if (ptr < dialogueBlocks.length) {
+                        const srtItem = dialogueBlocks[ptr];
+                        line.english = srtItem.text || line.baseEn;
+                        line.startTime = srtItem.start;
+                        line.endTime = srtItem.end;
+                        ptr++;
+                    } else {
+                        line.startTime = 0;
+                        line.endTime = 0;
+                    }
+                });
+            });
+        }
+
+        function formatJapanese(rawJp, hideFurigana) {
+            return String(rawJp || '').replace(/([\u4E00-\u9FFF\u3005]+)\((.*?)\)/g, (match, kanji, ruby) => {
+                if (hideFurigana) {
+                    return `<span class="kanji-hidden" onclick="revealFurigana(this, event)"><span class="kanji-text">${kanji}</span><span class="kanji-revealed">${ruby}</span></span>`;
+                }
+                return `<ruby>${kanji}<rt>${ruby}</rt></ruby>`;
+            });
+        }
+
+        window.revealFurigana = function(element, event) {
+            if (event) event.stopPropagation();
+            element.classList.toggle('show-ruby');
+        };
+
+        function escapeHtml(str) {
+            return String(str || '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function renderSceneSelector() {
+            const selector = document.getElementById('scene-selector');
+            if (!selector) return;
+            const currentVal = selector.value;
+            selector.innerHTML = '';
+            const count = sceneTitles.length > 0 ? sceneTitles.length : scenes.length;
+            for (let i = 0; i < count; i++) {
+                const opt = document.createElement('option');
+                opt.value = i;
+                opt.text = sceneTitles[i] || `Scene ${i + 1}`;
+                selector.appendChild(opt);
+            }
+            selector.value = (currentVal !== '' && Number(currentVal) < count) ? currentVal : 0;
+        }
+
+        function renderScene() {
+            const container = document.getElementById('dialogue-list');
+            container.innerHTML = '';
+            const scene = scenes[appState.currentSceneIndex];
+            if (!scene) return;
+
+            scene.lines.forEach((line, index) => {
+                const isSpeaker1 = line.speaker === 'Speaker 1';
+                const alignment = isSpeaker1 ? 'self-start' : 'self-end';
+                const bgColor = isSpeaker1 ? 'speaker-1-bg border border-gray-200' : 'speaker-2-bg border border-green-100';
+                const borderRadius = isSpeaker1 ? 'rounded-tr-2xl rounded-br-2xl rounded-bl-2xl' : 'rounded-tl-2xl rounded-br-2xl rounded-bl-2xl';
+                const icon = isSpeaker1 ? 'fa-user-tie' : 'fa-user';
+                const iconColor = isSpeaker1 ? 'text-gray-500' : 'text-green-600';
+
+                const jpFormatted = formatJapanese(line.rawJp, appState.hideFurigana);
+                const activeCount = (appState.showJapanese ? 1 : 0) + (appState.showRomaji ? 1 : 0) + (appState.showTranslation ? 1 : 0);
+
+                let fontSizeClass = 'text-sm sm:text-[1.02rem]';
+                if (activeCount === 1) fontSizeClass = 'text-[15px] sm:text-base';
+                else if (activeCount === 2) fontSizeClass = 'text-sm sm:text-[1rem]';
+
+                let extraContent = '';
+                if (appState.showJapanese) {
+                    extraContent += `<div class="${fontSizeClass} leading-[1.85] break-words font-medium">${jpFormatted}</div>`;
+                }
+                if (appState.showRomaji) {
+                    const spacing = appState.showJapanese ? 'mt-1.5' : '';
+                    extraContent += `<div class="${fontSizeClass} ${spacing} text-gray-500 font-mono bg-gray-50 p-1.5 rounded">${escapeHtml(line.romaji)}</div>`;
+                }
+                if (appState.showTranslation) {
+                    const spacing = (appState.showJapanese || appState.showRomaji) ? 'mt-1.5' : '';
+                    extraContent += `<div class="${fontSizeClass} ${spacing} text-gray-700 italic border-l-2 border-gray-300 pl-2">${escapeHtml(line.english)}</div>`;
+                }
+
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+                const blurClass = isMuted ? 'blur-sm opacity-50 hover:blur-none hover:opacity-100 transition-all duration-300 cursor-pointer' : '';
+                const titleText = isMuted ? "title='Hover to reveal (Roleplay mode)'" : '';
+                const headerLayout = isSpeaker1 ? 'flex-row' : 'flex-row-reverse';
+
+                const html = `
+                    <div class="flex gap-1.5 sm:gap-3 max-w-[96%] sm:max-w-[88%] ${alignment} fade-in" style="animation-delay: ${Math.min(index * 0.03, 0.4)}s">
+                        ${isSpeaker1 ? `<div class="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-gray-200 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-xs sm:text-sm"></i></div>` : ''}
+
+                        <div class="flex flex-col gap-1 w-full group">
+                            <div class="flex items-center gap-3 px-1 ${headerLayout}">
+                                <div class="text-xs text-gray-500 font-medium whitespace-nowrap">
+                                    ${escapeHtml(line.speaker)} ${isMuted ? '<span class="text-purple-600 font-bold ml-1"><i class="fa-solid fa-microphone-lines"></i> Your Turn</span>' : ''}
+                                </div>
+
+                                <div class="flex items-center gap-1.5">
+                                    <button onclick="playMyAudio(${index})" id="my-audio-btn-${index}" class="${appState.recordedBlobs[appState.currentSceneIndex + '_' + index] ? '' : 'hidden'} w-6 h-6 rounded-full bg-orange-100 hover:bg-orange-200 text-orange-600 flex items-center justify-center transition-colors focus:outline-none" title="自分の声を聴く">
+                                        <i class="fa-solid fa-face-smile text-[10px]"></i>
+                                    </button>
+
+                                    <button onclick="toggleRecording(${index}, this)" class="w-6 h-6 rounded-full bg-gray-200 hover:bg-red-100 text-gray-500 hover:text-red-500 flex items-center justify-center transition-colors focus:outline-none" title="声を録音する">
+                                        <i class="fa-solid fa-microphone text-[10px]"></i>
+                                    </button>
+
+                                    <button onclick="playLineAudio(${index})" class="w-6 h-6 rounded-full bg-gray-200 hover:bg-blue-100 text-gray-500 hover:text-blue-600 flex items-center justify-center transition-colors focus:outline-none" title="音声のみ再生">
+                                        <i class="fa-solid fa-volume-high text-[10px]"></i>
+                                    </button>
+
+                                    <button onclick="seekVideoToLine(${index})" class="w-6 h-6 rounded-full bg-gray-200 hover:bg-red-100 text-gray-500 hover:text-red-600 flex items-center justify-center transition-colors focus:outline-none" title="このセリフから動画を再生">
+                                        <i class="fa-solid fa-circle-play text-[11px]"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div onclick="seekVideoToLine(${index})" title="タップしてこのセリフから動画を再生" class="${bgColor} ${borderRadius} px-3 py-2 sm:p-4 shadow-sm hover:shadow-md cursor-pointer w-full transition-shadow duration-300 message-bubble">
+                                <div class="w-full ${blurClass}" ${titleText}>
+                                    ${extraContent}
+                                </div>
+                            </div>
+                        </div>
+
+                        ${!isSpeaker1 ? `<div class="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-green-100 flex items-center justify-center shrink-0 mt-1"><i class="fa-solid ${icon} ${iconColor} text-xs sm:text-sm"></i></div>` : ''}
+                    </div>
+                `;
+                container.insertAdjacentHTML('beforeend', html);
+            });
+        }
+
+        function playLineAudio(lineIndex) {
+            initAudioContext();
+            const scene = scenes[appState.currentSceneIndex];
+            if (!scene || !scene.lines[lineIndex]) return;
+            const line = scene.lines[lineIndex];
+            playMp3Segment(line.mp3Start, line.mp3End, 0.85);
+        }
+
+        function seekVideoToLine(lineIndex) {
+            const scene = scenes[appState.currentSceneIndex];
+            if (!scene || !scene.lines[lineIndex]) return;
+            const line = scene.lines[lineIndex];
+            const targetSec = (line.endTime > line.startTime)
+                ? line.startTime
+                : (sceneStartTimes[appState.currentSceneIndex] || 0);
+
+            stopAllPlayback();
+            appState.isPlaying = false;
+            const playBtnIcon = document.querySelector('#play-scene-btn i');
+            const mixBtnIcon = document.querySelector('#play-mix-btn i');
+            if (playBtnIcon) playBtnIcon.className = 'fa-solid fa-play';
+            if (mixBtnIcon) mixBtnIcon.className = 'fa-solid fa-shuffle';
+
+            if (ytPlayer && typeof ytPlayer.seekTo === 'function') {
+                ytPlayer.seekTo(targetSec, true);
+                if (typeof ytPlayer.playVideo === 'function') {
+                    ytPlayer.playVideo();
+                }
+            }
+        }
+
+        async function playEntireScene() {
+            initAudioContext();
+            const playBtnIcon = document.querySelector('#play-scene-btn i');
+
+            if (appState.isPlaying) {
+                stopAllPlayback();
+                appState.isPlaying = false;
+                playBtnIcon.className = 'fa-solid fa-play';
+                document.querySelectorAll('.message-bubble').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                return;
+            }
+
+            appState.isPlaying = true;
+            playBtnIcon.className = 'fa-solid fa-stop';
+            const scene = scenes[appState.currentSceneIndex];
+            if (!scene) return;
+
+            for (let i = 0; i < scene.lines.length; i++) {
+                if (!appState.isPlaying) break;
+                const line = scene.lines[i];
+                const isMuted = appState.roleplayMutedSpeaker === line.speaker;
+
+                const allMessageBubbles = document.querySelectorAll('.message-bubble');
+                if (allMessageBubbles[i]) {
+                    allMessageBubbles.forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+                    allMessageBubbles[i].classList.add('ring-2', isMuted ? 'ring-purple-400' : 'ring-blue-400');
+                    allMessageBubbles[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+
+                if (isMuted) {
+                    const waitTime = 1500 + (line.speakText.length * 150);
+                    await new Promise(r => setTimeout(r, waitTime));
+                } else {
+                    await playMp3Segment(line.mp3Start, line.mp3End, 0.85);
+                }
+
+                if (!appState.isPlaying) break;
+                await new Promise(r => setTimeout(r, 600));
+            }
+
+            document.querySelectorAll('.message-bubble').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400'));
+            appState.isPlaying = false;
+            playBtnIcon.className = 'fa-solid fa-play';
+        }
+
+        async function playMixedScene() {
+            initAudioContext();
+            const mixBtn = document.getElementById('play-mix-btn');
+            const mixBtnIcon = mixBtn.querySelector('i');
+
+            if (appState.isPlaying) {
+                stopAllPlayback();
+                appState.isPlaying = false;
+                mixBtnIcon.className = 'fa-solid fa-shuffle';
+                document.querySelectorAll('.message-bubble').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400', 'ring-orange-400'));
+                return;
+            }
+
+            appState.isPlaying = true;
+            mixBtnIcon.className = 'fa-solid fa-stop';
+            const scene = scenes[appState.currentSceneIndex];
+            if (!scene) return;
+
+            for (let i = 0; i < scene.lines.length; i++) {
+                if (!appState.isPlaying) break;
+                const line = scene.lines[i];
+                const key = appState.currentSceneIndex + '_' + i;
+                const myAudioUrl = appState.recordedBlobs[key];
+
+                const allMessageBubbles = document.querySelectorAll('.message-bubble');
+                if (allMessageBubbles[i]) {
+                    allMessageBubbles.forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400', 'ring-orange-400'));
+                    allMessageBubbles[i].classList.add('ring-2', myAudioUrl ? 'ring-orange-400' : 'ring-blue-400');
+                    allMessageBubbles[i].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+
+                if (myAudioUrl) {
+                    await new Promise(resolve => {
+                        stopAllPlayback();
+                        currentCustomAudio = new Audio(myAudioUrl);
+                        currentCustomAudio.playbackRate = 1.0;
+                        currentCustomAudio.onended = resolve;
+                        currentCustomAudio.onerror = resolve;
+                        currentCustomAudio.play().catch(() => resolve());
+                    });
+                } else {
+                    await playMp3Segment(line.mp3Start, line.mp3End, 0.85);
+                }
+
+                if (!appState.isPlaying) break;
+                await new Promise(r => setTimeout(r, 600));
+            }
+
+            document.querySelectorAll('.message-bubble').forEach(b => b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400', 'ring-orange-400'));
+            appState.isPlaying = false;
+            mixBtnIcon.className = 'fa-solid fa-shuffle';
+        }
+
+        // =========================================================
+        // ★ YouTube Iframe API 動的読み込み & タイムスタンプ同期
+        // =========================================================
+        function loadYouTubeVideo(videoId) {
+            pendingYoutubeVideoId = videoId;
+            if (!ytApiLoaded) {
+                ytApiLoaded = true;
+                const tag = document.createElement('script');
+                tag.src = 'https://www.youtube.com/iframe_api';
+                const firstScriptTag = document.getElementsByTagName('script')[0];
+                firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+                return;
+            }
+            if (ytPlayer && typeof ytPlayer.loadVideoById === 'function') {
+                ytPlayer.cueVideoById(videoId);
+            }
+        }
+
+        window.onYouTubeIframeAPIReady = () => {
+            if (!pendingYoutubeVideoId) return;
+            ytPlayer = new YT.Player('player', {
+                videoId: pendingYoutubeVideoId,
+                playerVars: { playsinline: 1, rel: 0 },
+                events: { onStateChange: onPlayerStateChange }
+            });
+        };
+
+        function onPlayerStateChange(event) {
+            if (event.data === 1) {
+                if (appState.isPlaying) {
+                    stopAllPlayback();
+                    const playBtnIcon = document.querySelector('#play-scene-btn i');
+                    const mixBtnIcon = document.querySelector('#play-mix-btn i');
+                    if (playBtnIcon) playBtnIcon.className = 'fa-solid fa-play';
+                    if (mixBtnIcon) mixBtnIcon.className = 'fa-solid fa-shuffle';
+                    appState.isPlaying = false;
+                }
+                if (!ytTimeTracker) {
+                    appState.lastScrolledIndex = -1;
+                    ytTimeTracker = setInterval(trackYoutubeTime, 200);
+                }
+            } else if (ytTimeTracker) {
+                clearInterval(ytTimeTracker);
+                ytTimeTracker = null;
+            }
+        }
+
+        function trackYoutubeTime() {
+            if (!ytPlayer || typeof ytPlayer.getCurrentTime !== 'function') return;
+            const currentTime = ytPlayer.getCurrentTime();
+
+            let detectedSceneIdx = appState.currentSceneIndex;
+            for (let i = 0; i < sceneStartTimes.length; i++) {
+                const start = sceneStartTimes[i];
+                const end = (i + 1 < sceneStartTimes.length) ? sceneStartTimes[i + 1] : Infinity;
+                if (currentTime >= start && currentTime < end) {
+                    detectedSceneIdx = i;
+                    break;
+                }
+            }
+            if (detectedSceneIdx !== appState.currentSceneIndex) {
+                appState.currentSceneIndex = detectedSceneIdx;
+                const selector = document.getElementById('scene-selector');
+                if (selector) selector.value = detectedSceneIdx;
+                renderScene();
+                return;
+            }
+
+            const scene = scenes[appState.currentSceneIndex];
+            if (!scene || !scene.lines) return;
+
+            let activeIdx = -1;
+            for (let i = 0; i < scene.lines.length; i++) {
+                const line = scene.lines[i];
+                if (line.startTime <= currentTime && currentTime <= line.endTime) {
+                    activeIdx = i;
+                    break;
+                }
+            }
+
+            if (activeIdx !== -1) {
+                const allMessageBubbles = document.querySelectorAll('.message-bubble');
+                allMessageBubbles.forEach((b, idx) => {
+                    if (idx === activeIdx) {
+                        const isMuted = appState.roleplayMutedSpeaker === scene.lines[idx].speaker;
+                        b.classList.add('ring-2', isMuted ? 'ring-purple-400' : 'ring-blue-400');
+                    } else {
+                        b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400');
+                    }
+                });
+                if (activeIdx !== appState.lastScrolledIndex && allMessageBubbles[activeIdx]) {
+                    appState.lastScrolledIndex = activeIdx;
+                    allMessageBubbles[activeIdx].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            } else {
+                document.querySelectorAll('.message-bubble').forEach(b => {
+                    b.classList.remove('ring-2', 'ring-blue-400', 'ring-purple-400');
+                });
+            }
+        }
+
+        // =========================================================
+        // ★ 録音機能（iOS Safari / Android / PC 全対応）
+        // =========================================================
+        function initAudioContext() {
+            if (window.AudioContext || window.webkitAudioContext) {
+                const AudioContext = window.AudioContext || window.webkitAudioContext;
+                const ctx = new AudioContext();
+                if (ctx.state === 'suspended') ctx.resume();
+            }
+        }
+
+        async function toggleRecording(index, btnElement) {
+            initAudioContext();
+            const key = appState.currentSceneIndex + '_' + index;
+            const icon = btnElement.querySelector('i');
+
+            if (appState.activeRecordingIndex === index) {
+                if (appState.mediaRecorder && appState.mediaRecorder.state !== 'inactive') {
+                    appState.mediaRecorder.stop();
+                }
+                return;
+            }
+            if (appState.activeRecordingIndex !== -1) return;
+
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                const chunks = [];
+                const preferredMime = ['audio/webm', 'audio/mp4'].find(m => window.MediaRecorder && MediaRecorder.isTypeSupported(m));
+                appState.mediaRecorder = preferredMime ? new MediaRecorder(stream, { mimeType: preferredMime }) : new MediaRecorder(stream);
+
+                appState.mediaRecorder.ondataavailable = e => {
+                    if (e.data.size > 0) chunks.push(e.data);
+                };
+
+                appState.mediaRecorder.onstop = () => {
+                    const blob = new Blob(chunks, { type: preferredMime || 'audio/webm' });
+                    appState.recordedBlobs[key] = URL.createObjectURL(blob);
+                    appState.activeRecordingIndex = -1;
+                    icon.className = 'fa-solid fa-microphone';
+                    btnElement.classList.remove('bg-red-500', 'text-white', 'animate-pulse');
+                    btnElement.classList.add('bg-gray-200', 'text-gray-500');
+
+                    const myPlayBtn = document.getElementById(`my-audio-btn-${index}`);
+                    if (myPlayBtn) myPlayBtn.classList.remove('hidden');
+                    stream.getTracks().forEach(track => track.stop());
+                };
+
+                appState.activeRecordingIndex = index;
+                icon.className = 'fa-solid fa-square';
+                btnElement.classList.remove('bg-gray-200', 'text-gray-500');
+                btnElement.classList.add('bg-red-500', 'text-white', 'animate-pulse');
+                appState.mediaRecorder.start();
+            } catch (err) {
+                alert('マイク機能を利用できません。HTTPS接続とマイク許可を確認してください。');
+            }
+        }
+
+        function playMyAudio(index) {
+            initAudioContext();
+            const key = appState.currentSceneIndex + '_' + index;
+            const audioUrl = appState.recordedBlobs[key];
+            if (!audioUrl) return;
+            stopAllPlayback();
+            currentCustomAudio = new Audio(audioUrl);
+            currentCustomAudio.play().catch(e => console.error('録音再生失敗:', e));
+        }
+
+        // =========================================================
+        // ★ 初期化 & イベント登録
+        // =========================================================
+        window.addEventListener('DOMContentLoaded', async () => {
+            document.querySelectorAll('.ui-lang-select').forEach(sel => {
+                UI_LANG_OPTIONS.forEach(optData => {
+                    const opt = document.createElement('option');
+                    opt.value = optData.code;
+                    opt.text = optData.label;
+                    sel.appendChild(opt);
+                });
+                sel.addEventListener('change', (e) => applyUiLanguage(e.target.value));
+            });
+            applyUiLanguage(detectDefaultUiLang());
+
+            document.getElementById('mp3-lang-filter').addEventListener('change', renderMp3List);
+            document.getElementById('anki-lang-filter').addEventListener('change', renderAnkiList);
+
+            document.getElementById('auth-form').addEventListener('submit', async (e) => {
+                e.preventDefault();
+                const errEl = document.getElementById('auth-error');
+                const btn = document.getElementById('auth-submit-btn');
+                const inputKey = document.getElementById('passcode-input').value.trim();
+                errEl.classList.add('hidden');
+                if (!inputKey) {
+                    errEl.textContent = 'パスコードを入力してください。';
+                    errEl.classList.remove('hidden');
+                    return;
+                }
+                btn.disabled = true;
+                btn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i><span>${escapeHtml(t('authChecking'))}</span>`;
+                try {
+                    await authenticateAndLoad(inputKey);
+                } catch (err) {
+                    errEl.textContent = t('authInvalid');
+                    errEl.classList.remove('hidden');
+                } finally {
+                    btn.disabled = false;
+                    btn.innerHTML = `<i class="fa-solid fa-unlock-keyhole"></i><span id="auth-submit-text">${escapeHtml(t('authSubmit'))}</span>`;
+                }
+            });
+
+            document.querySelectorAll('.nav-tab-btn').forEach(btn => {
+                btn.addEventListener('click', () => switchTab(btn.dataset.tab));
+            });
+
+            document.getElementById('mp3-search').addEventListener('input', renderMp3List);
+            document.getElementById('anki-search').addEventListener('input', renderAnkiList);
+            const webappSearchEl = document.getElementById('webapp-search');
+            if (webappSearchEl) webappSearchEl.addEventListener('input', renderWebAppGallery);
+
+            document.getElementById('refresh-catalog-btn').addEventListener('click', async () => {
+                if (!portalState.passkey) return;
+                portalState.lessonDetailCache = {};
+                portalState.srtCache = {};
+                await authenticateAndLoad(portalState.passkey, true);
+            });
+
+            document.getElementById('logout-btn').addEventListener('click', () => {
+                stopAllPlayback();
+                localStorage.removeItem(STORAGE_KEY_NAME);
+                portalState.passkey = '';
+                portalState.tier = null;
+                portalState.catalog = null;
+                document.getElementById('portal-shell').classList.add('hidden');
+                document.getElementById('auth-screen').classList.remove('hidden');
+                document.getElementById('passcode-input').value = '';
+            });
+
+            document.getElementById('lesson-selector').addEventListener('change', (e) => {
+                loadWebAppLesson(e.target.value);
+            });
+
+            document.getElementById('scene-selector').addEventListener('change', (e) => {
+                const sceneIdx = parseInt(e.target.value, 10);
+                appState.currentSceneIndex = sceneIdx;
+                if (appState.isPlaying) playEntireScene();
+                renderScene();
+                if (ytPlayer && typeof ytPlayer.seekTo === 'function' && sceneStartTimes[sceneIdx] !== undefined) {
+                    ytPlayer.seekTo(sceneStartTimes[sceneIdx], true);
+                }
+            });
+
+            document.getElementById('toggle-japanese').addEventListener('change', (e) => {
+                appState.showJapanese = e.target.checked;
+                renderScene();
+            });
+            document.getElementById('toggle-romaji').addEventListener('change', (e) => {
+                appState.showRomaji = e.target.checked;
+                renderScene();
+            });
+            document.getElementById('toggle-translation').addEventListener('change', (e) => {
+                appState.showTranslation = e.target.checked;
+                renderScene();
+            });
+            document.getElementById('lang-selector').addEventListener('change', async (e) => {
+                appState.currentLang = e.target.value;
+                if (appState.isPlaying) playEntireScene();
+                await updateTranslations();
+                await updateSceneTitles();
+                await updateSceneStartTimes();
+                renderSceneSelector();
+                renderScene();
+            });
+            document.getElementById('toggle-kanji-test').addEventListener('change', (e) => {
+                appState.hideFurigana = e.target.checked;
+                renderScene();
+            });
+            document.getElementById('roleplay-selector').addEventListener('change', (e) => {
+                appState.roleplayMutedSpeaker = e.target.value;
+                renderScene();
+            });
+
+            // URLパラメータ ?trial=1 / ?key=... または保存済みキーで自動ログイン
+            const urlParams = new URLSearchParams(window.location.search);
+            const isTrialParam = urlParams.get('trial') === '1';
+            const urlKey = isTrialParam ? 'trial' : urlParams.get('key');
+            const savedKey = urlKey || localStorage.getItem(STORAGE_KEY_NAME);
+            if (savedKey) {
+                try {
+                    await authenticateAndLoad(savedKey);
+                } catch (e) {
+                    localStorage.removeItem(STORAGE_KEY_NAME);
+                }
+            }
+        });
+    </script>
+</body>
+</html>
