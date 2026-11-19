@@ -842,7 +842,7 @@
 
             if (portalState.catalog) {
                 renderMp3List();
-                if (portalState.tier === 'tier2' || portalState.tier === 'trial') renderAnkiList();
+                if (portalState.tier === 'tier3' || portalState.tier === 'trial') renderAnkiList();
             }
         }
 
@@ -1030,31 +1030,38 @@
             document.getElementById('portal-shell').classList.remove('hidden');
             document.getElementById('trial-banner').classList.toggle('hidden', !isTrial);
 
-            const hasFullFeatures = (data.tier === 'tier2' || isTrial);
+            const hasWebapp = (data.tier === 'tier2' || data.tier === 'tier3' || isTrial);
+            const hasAnki = (data.tier === 'tier3' || isTrial);
             const badge = document.getElementById('plan-badge');
             if (isTrial) {
                 badge.textContent = 'FREE TRIAL (1 Lesson)';
                 badge.className = 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700';
+            } else if (data.tier === 'tier3') {
+                badge.textContent = 'PRO PLAN (MP3 + WebApp + Anki)';
+                badge.className = 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-700';
+            } else if (data.tier === 'tier2') {
+                badge.textContent = 'PLUS PLAN (MP3 + WebApp)';
+                badge.className = 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-purple-100 text-purple-700';
             } else {
-                badge.textContent = hasFullFeatures ? 'PRO PLAN (MP3 + Anki + WebApp)' : 'STANDARD PLAN (MP3)';
-                badge.className = hasFullFeatures
-                    ? 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-700'
-                    : 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-blue-100 text-blue-700';
+                badge.textContent = 'STANDARD PLAN (MP3)';
+                badge.className = 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-blue-100 text-blue-700';
             }
 
-            document.getElementById('tab-btn-anki').classList.toggle('hidden', !hasFullFeatures);
-            document.getElementById('tab-btn-webapp').classList.toggle('hidden', !hasFullFeatures);
+            document.getElementById('tab-btn-anki').classList.toggle('hidden', !hasAnki);
+            document.getElementById('tab-btn-webapp').classList.toggle('hidden', !hasWebapp);
 
             populateMediaLangFilter('mp3-lang-filter', data.mp3 || []);
             renderMp3List();
-            if (hasFullFeatures) {
+            if (hasAnki) {
                 populateMediaLangFilter('anki-lang-filter', data.anki || []);
                 renderAnkiList();
+            }
+            if (hasWebapp) {
                 renderLessonSelector();
                 renderWebAppGallery();
             }
 
-            if (!hasFullFeatures && portalState.activeTab !== 'mp3') {
+            if ((portalState.activeTab === 'anki' && !hasAnki) || (portalState.activeTab === 'webapp' && !hasWebapp)) {
                 switchTab('mp3');
             } else {
                 switchTab(portalState.activeTab);
@@ -1062,8 +1069,9 @@
         }
 
         function switchTab(tabName) {
-            const hasFullFeatures = (portalState.tier === 'tier2' || portalState.tier === 'trial');
-            if (!hasFullFeatures && tabName !== 'mp3') {
+            const hasWebapp = (portalState.tier === 'tier2' || portalState.tier === 'tier3' || portalState.tier === 'trial');
+            const hasAnki = (portalState.tier === 'tier3' || portalState.tier === 'trial');
+            if ((tabName === 'anki' && !hasAnki) || (tabName === 'webapp' && !hasWebapp)) {
                 tabName = 'mp3';
             }
             portalState.activeTab = tabName;
@@ -1139,7 +1147,7 @@
             const q = (document.getElementById('mp3-search').value || '').trim().toLowerCase();
             const langFilter = (document.getElementById('mp3-lang-filter') && document.getElementById('mp3-lang-filter').value) || 'ALL';
             const expanded = portalState.expandedMp3 || new Set();
-            const hasFullFeatures = (portalState.tier === 'tier2' || portalState.tier === 'trial');
+            const hasWebapp = (portalState.tier === 'tier2' || portalState.tier === 'tier3' || portalState.tier === 'trial');
 
             const items = (portalState.catalog?.mp3 || []).filter(it => {
                 const matchText = !q || (it.title || '').toLowerCase().includes(q) || (it.videoId || '').toLowerCase().includes(q) || (it.name || '').toLowerCase().includes(q);
@@ -1175,7 +1183,7 @@
                                 <div class="flex flex-wrap items-center justify-between gap-2">
                                     <div class="text-xs text-gray-400">${it.videoId ? `ID: ${escapeHtml(it.videoId)} · ` : ''}${formatBytes(it.sizeBytes)}</div>
                                     <div class="flex items-center gap-2 flex-wrap">
-                                        ${hasFullFeatures && it.videoId ? `<button onclick="openLessonInWebApp('${escapeHtml(it.videoId)}')" class="px-3 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs font-semibold transition"><i class="fa-solid fa-book-open mr-1"></i>${escapeHtml(t('openWebapp'))}</button>` : ''}
+                                        ${hasWebapp && it.videoId ? `<button onclick="openLessonInWebApp('${escapeHtml(it.videoId)}')" class="px-3 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs font-semibold transition"><i class="fa-solid fa-book-open mr-1"></i>${escapeHtml(t('openWebapp'))}</button>` : ''}
                                         <a href="${escapeHtml(it.downloadUrl)}" target="_blank" rel="noopener" class="px-3.5 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold transition"><i class="fa-solid fa-download mr-1"></i>${escapeHtml(t('download'))}</a>
                                     </div>
                                 </div>
