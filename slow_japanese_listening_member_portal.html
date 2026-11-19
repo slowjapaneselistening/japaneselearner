@@ -1046,8 +1046,10 @@
                 return;
             }
 
-            listEl.innerHTML = items.map(it => {
+            listEl.innerHTML = items.map((it, idx) => {
                 if (it.type === 'single') {
+                    const fid = extractDriveFileId(it);
+                    const safeSlotId = `mp3-single-player-${idx}`;
                     return `
                         <div class="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 sm:p-5 flex flex-col gap-3">
                             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
@@ -1055,17 +1057,21 @@
                                     <div class="font-bold text-gray-900 text-sm sm:text-base">${escapeHtml(it.title || it.name)}</div>
                                     <div class="text-xs text-gray-400 mt-0.5">${it.videoId ? `ID: ${escapeHtml(it.videoId)} · ` : ''}${formatBytes(it.sizeBytes)}</div>
                                 </div>
-                                <div class="flex items-center gap-2 shrink-0">
+                                <div class="flex items-center gap-2 shrink-0 flex-wrap">
                                     ${portalState.tier === 'tier2' && it.videoId ? `<button onclick="openLessonInWebApp('${escapeHtml(it.videoId)}')" class="px-3 py-2 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs font-semibold transition"><i class="fa-solid fa-book-open mr-1"></i>${escapeHtml(t('openWebapp'))}</button>` : ''}
+                                    ${fid ? `<button type="button" onclick="openDriveAudioPreview('${safeSlotId}', '${escapeHtml(fid)}', '')" class="px-3 py-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 text-xs font-semibold transition"><i class="fa-solid fa-play mr-1"></i>Player</button>` : ''}
                                     <a href="${escapeHtml(it.downloadUrl)}" target="_blank" rel="noopener" class="px-3.5 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold transition"><i class="fa-solid fa-download mr-1"></i>${escapeHtml(t('download'))}</a>
                                 </div>
                             </div>
-                            <audio controls preload="none" class="w-full h-9" src="${escapeHtml(it.streamUrl)}"></audio>
+                            <div id="${safeSlotId}">
+                                <audio controls preload="none" class="w-full h-9" src="${escapeHtml(it.streamUrl)}" ${fid ? `onerror="openDriveAudioPreview('${safeSlotId}', '${escapeHtml(fid)}', '')"` : ''}></audio>
+                            </div>
                         </div>
                     `;
                 }
 
                 const filteredFiles = langFilter === 'ALL' ? (it.files || []) : (it.files || []).filter(f => f.lang === langFilter);
+                const bundleSlotId = `mp3-bundle-player-${idx}`;
                 return `
                     <div class="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 sm:p-5 space-y-3">
                         <div>
@@ -1073,18 +1079,47 @@
                             <div class="font-bold text-gray-900 text-sm sm:text-base">${escapeHtml(it.title || it.name)}</div>
                         </div>
                         <div class="flex flex-wrap gap-2">
-                            ${filteredFiles.map(f => `
-                                <a href="${escapeHtml(f.downloadUrl)}" target="_blank" rel="noopener"
-                                   class="px-3 py-1.5 rounded-xl bg-gray-100 hover:bg-blue-600 hover:text-white text-gray-700 text-xs font-semibold transition flex items-center gap-1.5">
-                                    <i class="fa-solid fa-download text-[10px]"></i>
-                                    <span>${escapeHtml(f.lang)}</span>
-                                    <span class="opacity-60 text-[10px]">${formatBytes(f.sizeBytes)}</span>
-                                </a>
-                            `).join('')}
+                            ${filteredFiles.map(f => {
+                                const fid = extractDriveFileId(f);
+                                return `
+                                <div class="inline-flex items-center rounded-xl bg-gray-100 border border-gray-200 overflow-hidden text-xs font-semibold">
+                                    ${fid ? `
+                                        <button type="button" onclick="openDriveAudioPreview('${bundleSlotId}', '${escapeHtml(fid)}', '${escapeHtml(f.lang)}')"
+                                            class="px-2.5 py-1.5 bg-emerald-50 hover:bg-emerald-600 hover:text-white text-emerald-700 transition flex items-center gap-1" title="Play ${escapeHtml(f.lang)}">
+                                            <i class="fa-solid fa-play text-[10px]"></i>
+                                            <span>${escapeHtml(f.lang)}</span>
+                                        </button>
+                                    ` : `<span class="px-2.5 py-1.5 text-gray-700">${escapeHtml(f.lang)}</span>`}
+                                    <a href="${escapeHtml(f.downloadUrl)}" target="_blank" rel="noopener"
+                                       class="px-2.5 py-1.5 hover:bg-blue-600 hover:text-white text-gray-600 transition flex items-center gap-1 border-l border-gray-200" title="Download ${escapeHtml(f.lang)}">
+                                        <i class="fa-solid fa-download text-[10px]"></i>
+                                        <span class="opacity-70 text-[10px]">${formatBytes(f.sizeBytes)}</span>
+                                    </a>
+                                </div>`;
+                            }).join('')}
                         </div>
+                        <div id="${bundleSlotId}" class="hidden"></div>
                     </div>
                 `;
             }).join('');
+        }
+
+        function extractDriveFileId(item) {
+            if (!item) return '';
+            if (item.id) return String(item.id);
+            const url = String(item.streamUrl || item.downloadUrl || '');
+            const m1 = url.match(/[?&]id=([a-zA-Z0-9_-]+)/);
+            if (m1) return m1[1];
+            const m2 = url.match(/\/d\/([a-zA-Z0-9_-]+)/);
+            return m2 ? m2[1] : '';
+        }
+
+        function openDriveAudioPreview(slotId, fileId, label) {
+            const slot = document.getElementById(slotId);
+            if (!slot || !fileId) return;
+            slot.classList.remove('hidden');
+            const badge = label ? `<div class="text-[11px] font-bold text-emerald-700 mb-1 flex items-center gap-1.5"><i class="fa-solid fa-volume-high"></i><span>${escapeHtml(label)}</span></div>` : '';
+            slot.innerHTML = `${badge}<iframe src="https://drive.google.com/file/d/${encodeURIComponent(fileId)}/preview" class="w-full h-16 rounded-xl border border-gray-200 bg-gray-50" allow="autoplay"></iframe>`;
         }
 
         function renderAnkiList() {
