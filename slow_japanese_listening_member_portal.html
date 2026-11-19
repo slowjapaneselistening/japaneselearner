@@ -855,7 +855,8 @@
             currentVideoId: '',
             currentMp3StreamUrl: '',
             lessonDetailCache: {},
-            srtCache: {}
+            srtCache: {},
+            unreleasedVideoIds: new Set()
         };
 
         const appState = {
@@ -1066,6 +1067,43 @@
             } else {
                 switchTab(portalState.activeTab);
             }
+            checkUnreleasedVideos(data);
+        }
+
+        function checkUnreleasedVideos(data) {
+            const ids = new Set();
+            (data?.mp3 || []).forEach(it => { if (it.videoId) ids.add(it.videoId); });
+            (data?.anki || []).forEach(it => { if (it.videoId) ids.add(it.videoId); });
+            (data?.lessons || []).forEach(ls => { if (ls.videoId) ids.add(ls.videoId); });
+            portalState.unreleasedVideoIds = new Set();
+
+            let rerenderTimer = null;
+            const scheduleRerender = () => {
+                if (rerenderTimer) clearTimeout(rerenderTimer);
+                rerenderTimer = setTimeout(() => {
+                    renderMp3List();
+                    if (portalState.tier === 'tier3' || portalState.tier === 'trial') renderAnkiList();
+                    if (portalState.tier === 'tier2' || portalState.tier === 'tier3' || portalState.tier === 'trial') {
+                        renderLessonSelector();
+                        renderWebAppGallery();
+                    }
+                }, 120);
+            };
+
+            ids.forEach(vid => {
+                const img = new Image();
+                img.onload = () => {
+                    if (img.naturalWidth <= 120) {
+                        portalState.unreleasedVideoIds.add(vid);
+                        scheduleRerender();
+                    }
+                };
+                img.onerror = () => {
+                    portalState.unreleasedVideoIds.add(vid);
+                    scheduleRerender();
+                };
+                img.src = `https://i.ytimg.com/vi/${encodeURIComponent(vid)}/mqdefault.jpg`;
+            });
         }
 
         function switchTab(tabName) {
@@ -1150,6 +1188,7 @@
             const hasWebapp = (portalState.tier === 'tier2' || portalState.tier === 'tier3' || portalState.tier === 'trial');
 
             const items = (portalState.catalog?.mp3 || []).filter(it => {
+                if (it.videoId && portalState.unreleasedVideoIds.has(it.videoId)) return false;
                 const matchText = !q || (it.title || '').toLowerCase().includes(q) || (it.videoId || '').toLowerCase().includes(q) || (it.name || '').toLowerCase().includes(q);
                 if (!matchText) return false;
                 if (langFilter === 'ALL') return true;
@@ -1271,6 +1310,7 @@
             const expanded = portalState.expandedAnki || new Set();
 
             const items = (portalState.catalog?.anki || []).filter(it => {
+                if (it.videoId && portalState.unreleasedVideoIds.has(it.videoId)) return false;
                 const matchText = !q || (it.title || '').toLowerCase().includes(q) || (it.videoId || '').toLowerCase().includes(q) || (it.name || '').toLowerCase().includes(q);
                 if (!matchText) return false;
                 if (langFilter === 'ALL') return true;
@@ -1363,9 +1403,11 @@
             const thumbUrl = `https://i.ytimg.com/vi/${encodeURIComponent(ls.videoId)}/mqdefault.jpg`;
             return `
                 <div onclick="openLessonInWebApp('${escapeHtml(ls.videoId)}')"
-                     class="bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition overflow-hidden cursor-pointer flex flex-col group">
+                     class="lesson-card-item bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition overflow-hidden cursor-pointer flex flex-col group">
                     <div class="relative aspect-video bg-gray-900 overflow-hidden">
                         <img src="${thumbUrl}" alt="${escapeHtml(ls.title || ls.videoId)}" loading="lazy"
+                             onload="if (this.naturalWidth <= 120) this.closest('.lesson-card-item').classList.add('hidden');"
+                             onerror="this.closest('.lesson-card-item').classList.add('hidden');"
                              class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300">
                         <button type="button" onclick="toggleWebAppFav('${escapeHtml(ls.videoId)}', event)"
                             class="absolute top-2 right-2 w-8 h-8 rounded-full bg-black/55 hover:bg-black/75 flex items-center justify-center transition"
@@ -1383,12 +1425,13 @@
         }
 
         function renderWebAppGallery() {
-            const lessons = portalState.catalog?.lessons || [];
+            const lessons = (portalState.catalog?.lessons || []).filter(ls => !ls.videoId || !portalState.unreleasedVideoIds.has(ls.videoId));
             const q = (document.getElementById('webapp-search')?.value || '').trim().toLowerCase();
             const favSet = new Set(getWebAppFavs());
             const recentIds = getWebAppRecent();
 
             const filtered = lessons.filter(ls => {
+                if (ls.videoId && portalState.unreleasedVideoIds.has(ls.videoId)) return false;
                 if (!q) return true;
                 return (ls.title || '').toLowerCase().includes(q) || (ls.videoId || '').toLowerCase().includes(q);
             });
