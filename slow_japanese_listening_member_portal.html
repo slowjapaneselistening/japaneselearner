@@ -831,7 +831,8 @@
             document.getElementById('anki-heading').textContent = t('ankiHead');
             document.getElementById('anki-subheading').textContent = t('ankiSub');
             document.getElementById('anki-search').placeholder = t('searchPh');
-            document.getElementById('lesson-select-label').textContent = t('lessonLabel');
+            const lessonLabelEl = document.getElementById('lesson-select-label');
+            if (lessonLabelEl) lessonLabelEl.textContent = t('lessonLabel');
             applyAnkiGuideText(valid);
 
             const mp3AllOpt = document.querySelector('#mp3-lang-filter option[value="ALL"]');
@@ -841,7 +842,7 @@
 
             if (portalState.catalog) {
                 renderMp3List();
-                if (portalState.tier === 'tier2') renderAnkiList();
+                if (portalState.tier === 'tier2' || portalState.tier === 'trial') renderAnkiList();
             }
         }
 
