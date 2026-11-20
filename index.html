@@ -132,16 +132,19 @@
                     </div>
                 </div>
 
-                <!-- ナビゲーションタブ -->
-                <nav class="flex items-center gap-1 sm:gap-2 order-3 sm:order-2 w-full sm:w-auto pb-0.5 sm:pb-0">
-                    <button data-tab="mp3" class="nav-tab-btn flex-1 sm:flex-initial justify-center px-2 sm:px-3.5 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-sm font-semibold transition flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
+                <!-- ナビゲーションタブ（4タブ：MP3 / Anki / WebApp / PDF Script） -->
+                <nav class="flex items-center gap-1 sm:gap-1.5 order-3 sm:order-2 w-full sm:w-auto pb-0.5 sm:pb-0 overflow-x-auto">
+                    <button data-tab="mp3" class="nav-tab-btn flex-1 sm:flex-initial justify-center px-2 sm:px-3 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-sm font-semibold transition flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
                         <i class="fa-solid fa-music"></i> <span id="nav-label-mp3" class="truncate">MP3 Audio</span>
                     </button>
-                    <button id="tab-btn-anki" data-tab="anki" class="nav-tab-btn hidden flex-1 sm:flex-initial justify-center px-2 sm:px-3.5 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-sm font-semibold transition flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
+                    <button id="tab-btn-anki" data-tab="anki" class="nav-tab-btn hidden flex-1 sm:flex-initial justify-center px-2 sm:px-3 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-sm font-semibold transition flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
                         <i class="fa-solid fa-layer-group"></i> <span id="nav-label-anki" class="truncate">Anki Decks</span>
                     </button>
-                    <button id="tab-btn-webapp" data-tab="webapp" class="nav-tab-btn hidden flex-1 sm:flex-initial justify-center px-2 sm:px-3.5 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-sm font-semibold transition flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
+                    <button id="tab-btn-webapp" data-tab="webapp" class="nav-tab-btn hidden flex-1 sm:flex-initial justify-center px-2 sm:px-3 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-sm font-semibold transition flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
                         <i class="fa-solid fa-book-open"></i> <span id="nav-label-webapp" class="truncate">Web App</span>
+                    </button>
+                    <button id="tab-btn-pdf" data-tab="pdf" class="nav-tab-btn flex-1 sm:flex-initial justify-center px-2 sm:px-3 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-sm font-semibold transition flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
+                        <i class="fa-solid fa-file-pdf"></i> <span id="nav-label-pdf" class="truncate">PDF Script</span>
                     </button>
                 </nav>
 
@@ -285,9 +288,9 @@
 
             <!-- 学習画面（選択後に表示） -->
             <div id="webapp-study" class="hidden">
-                <!-- レッスン選択バー -->
+                <!-- レッスン選択バー ＋ 他教材への横移動ナビゲーション -->
                 <div class="max-w-7xl mx-auto px-2.5 sm:px-4 pt-2 sm:pt-4">
-                    <div class="bg-white rounded-xl sm:rounded-2xl shadow-sm border border-gray-100 p-2.5 sm:p-3.5 flex flex-wrap sm:flex-nowrap items-center gap-2 sm:gap-3">
+                    <div class="bg-white rounded-xl sm:rounded-2xl shadow-sm border border-gray-100 p-2.5 sm:p-3.5 flex flex-wrap items-center gap-2 sm:gap-2.5">
                         <button type="button" onclick="backToWebAppGallery()"
                             class="px-3 py-1.5 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 text-xs font-semibold transition flex items-center gap-1.5 shrink-0">
                             <i class="fa-solid fa-arrow-left"></i>
@@ -296,6 +299,7 @@
                         <select id="lesson-selector"
                             class="flex-1 min-w-[160px] bg-gray-50 border border-gray-300 text-gray-900 text-xs sm:text-sm rounded-xl focus:ring-blue-500 focus:border-blue-500 p-2 font-medium truncate">
                         </select>
+                        <div id="webapp-cross-links" class="flex items-center gap-1.5 flex-wrap"></div>
                         <span id="lesson-status-badge" class="text-[11px] sm:text-xs text-gray-500 whitespace-nowrap"></span>
                     </div>
                 </div>
@@ -368,6 +372,41 @@
             </main>
             </div>
         </section>
+
+        <!-- タブ4: PDFスクリプト（全プラン表示・今後の新規動画の複数PDF対応） -->
+        <section id="panel-pdf" class="tab-panel hidden max-w-5xl w-full mx-auto px-4 py-6 space-y-4">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+                <div>
+                    <h2 id="pdf-heading" class="text-lg font-bold text-gray-900">PDF Study Scripts</h2>
+                    <p id="pdf-subheading" class="text-xs text-gray-500"></p>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-2">
+                    <input id="pdf-search" type="text" placeholder="Search..."
+                        class="w-full sm:w-64 px-3.5 py-2 rounded-xl border border-gray-300 bg-white text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                </div>
+            </div>
+
+            <!-- 過去動画はYouTubeトップコメントからダウンロードする案内バナー -->
+            <div class="bg-amber-50 border border-amber-200 rounded-2xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div class="flex items-start gap-2.5 text-xs sm:text-sm text-amber-900 font-medium">
+                    <i class="fa-solid fa-comment-dots text-amber-600 mt-0.5 text-base shrink-0"></i>
+                    <span id="pdf-past-notice"></span>
+                </div>
+                <a href="https://www.youtube.com/@SlowJapaneseKaiwa/videos" target="_blank" rel="noopener"
+                   class="px-3.5 py-2 rounded-xl bg-red-600 hover:bg-red-700 text-white text-xs font-semibold transition flex items-center justify-center gap-1.5 shrink-0">
+                    <i class="fa-brands fa-youtube"></i>
+                    <span id="pdf-yt-btn-text">YouTube Channel</span>
+                </a>
+            </div>
+
+            <!-- WebApp等から特定の動画IDで飛んできた場合の案内ボックス -->
+            <div id="pdf-target-notice" class="hidden bg-blue-50 border border-blue-200 rounded-2xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div class="text-xs sm:text-sm text-blue-900 font-medium" id="pdf-target-notice-text"></div>
+                <div id="pdf-target-notice-actions" class="flex items-center gap-2 shrink-0"></div>
+            </div>
+
+            <div id="pdf-list" class="grid grid-cols-1 gap-3"></div>
+        </section>
     </div>
 
     <script>
@@ -420,17 +459,27 @@
                 authChecking: 'Checking...',
                 authEmpty: 'Please enter your passcode.',
                 authInvalid: 'Invalid passcode. Please check the membership post.',
-                navMp3: 'MP3 Audio', navAnki: 'Anki Decks', navWebapp: 'Web App',
+                navMp3: 'MP3 Audio', navAnki: 'Anki Decks', navWebapp: 'Web App', navPdf: 'PDF Script',
                 refresh: 'Refresh', logout: 'Switch',
                 mp3Head: 'BGM-Free Listening MP3',
                 mp3Sub: 'Clean voice-only audio for commuting, shadowing, and immersion.',
                 ankiHead: 'Audio Anki Decks (.apkg)',
                 ankiSub: 'Import directly into Anki (PC, AnkiMobile, or AnkiDroid).',
+                pdfHead: 'PDF Study Scripts (New Releases)',
+                pdfSub: 'Download printable & mobile-friendly PDF scripts for newly released videos.',
+                pdfPastNotice: 'For earlier videos not listed here, please download the PDF script from the pinned top comment on each YouTube video.',
+                pdfYtBtn: 'Open YouTube',
+                noPdf: 'PDF scripts for upcoming new videos will be added here! For past videos, please check the pinned top comment on each YouTube video.',
+                noPdfTrial: 'PDF Script downloads for newly released lessons are available here for members. For past videos, please download from the pinned top comment on YouTube.',
+                pdfNotForVideo: 'This is an earlier lesson. Please download its PDF script from the pinned top comment on YouTube:',
+                openYouTubeVideo: 'Watch on YouTube',
+                bundlePdf: 'PDF Script Pack',
                 searchPh: 'Search title or video ID...',
                 allLangs: 'All Languages',
                 noMp3: 'No matching MP3 files found.',
                 noAnki: 'No matching Anki decks found.',
                 download: 'Download', downloadApkg: 'Download .apkg', openWebapp: 'Web App',
+                jumpMp3: 'MP3', jumpAnki: 'Anki', jumpPdf: 'PDF',
                 bundleMp3: 'Multi-Language Audio Set', bundleAnki: 'Multi-Language Anki Set',
                 lessonLabel: 'Lesson:', noLessons: 'No WebApp lessons available yet.',
                 loading: 'Loading...', scenesUnit: 'scenes', linesUnit: 'lines'
@@ -443,17 +492,27 @@
                 authChecking: '確認中...',
                 authEmpty: 'パスコードを入力してください。',
                 authInvalid: 'パスコードが無効です。メンバー限定投稿をご確認ください。',
-                navMp3: 'BGMなしMP3', navAnki: 'Ankiデッキ', navWebapp: '学習Webアプリ',
+                navMp3: 'BGMなしMP3', navAnki: 'Ankiデッキ', navWebapp: '学習Webアプリ', navPdf: 'PDFスクリプト',
                 refresh: '更新', logout: '切替',
                 mp3Head: 'BGMなし聞き流しMP3',
                 mp3Sub: '通勤・通学中のリスニングやシャドーイングにそのまま使えます。',
                 ankiHead: '音声付き Anki フラッシュカード (.apkg)',
                 ankiSub: 'Ankiアプリ（PC / AnkiMobile / AnkiDroid）に読み込んで復習できます。',
+                pdfHead: 'PDFスクリプト（新規動画分）',
+                pdfSub: '今後公開される新しい動画のPDFスクリプトをここからダウンロードできます。',
+                pdfPastNotice: '過去の動画のPDFスクリプトは、各YouTube動画のトップコメント（固定コメント）からダウンロードしてください。',
+                pdfYtBtn: 'YouTubeで見る',
+                noPdf: '今後新しく作成する動画のPDFスクリプトがここに順次追加されます。過去の動画のPDFは、各YouTube動画のトップコメントからダウンロードしてください。',
+                noPdfTrial: 'メンバー特典では、今後公開される新規動画のPDFスクリプトをここから一括ダウンロードできます（過去の動画はYouTubeのトップコメントからダウンロード可能です）。',
+                pdfNotForVideo: 'このレッスンは過去の動画のため、PDFスクリプトはYouTube動画のトップコメントからダウンロードしてください：',
+                openYouTubeVideo: 'YouTube動画を開く',
+                bundlePdf: 'PDFスクリプトセット',
                 searchPh: 'タイトル・動画IDで検索...',
                 allLangs: 'すべての言語',
                 noMp3: '該当するMP3がありません。',
                 noAnki: '該当するAnkiデッキがありません。',
                 download: 'ダウンロード', downloadApkg: '.apkg をダウンロード', openWebapp: 'Webアプリ',
+                jumpMp3: 'MP3', jumpAnki: 'Anki', jumpPdf: 'PDF',
                 bundleMp3: '多言語音声セット', bundleAnki: '多言語 Anki セット',
                 lessonLabel: 'レッスン:', noLessons: '利用可能なレッスンがまだありません。',
                 loading: '読み込み中...', scenesUnit: 'シーン', linesUnit: '文'
@@ -466,17 +525,27 @@
                 authChecking: 'Đang kiểm tra...',
                 authEmpty: 'Vui lòng nhập mã.',
                 authInvalid: 'Mã không hợp lệ.',
-                navMp3: 'MP3 Nghe', navAnki: 'Thẻ Anki', navWebapp: 'Web Học Tập',
+                navMp3: 'MP3 Nghe', navAnki: 'Thẻ Anki', navWebapp: 'Web Học Tập', navPdf: 'Kịch bản PDF',
                 refresh: 'Làm mới', logout: 'Đổi mã',
                 mp3Head: 'MP3 Luyện Nghe Không Nhạc Nền',
                 mp3Sub: 'Âm thanh giọng đọc rõ ràng để luyện nghe và shadowing.',
                 ankiHead: 'Bộ thẻ Anki kèm âm thanh (.apkg)',
                 ankiSub: 'Nhập trực tiếp vào ứng dụng Anki trên PC hoặc điện thoại.',
+                pdfHead: 'Kịch bản PDF (Video mới)',
+                pdfSub: 'Tải xuống kịch bản PDF cho các video mới phát hành.',
+                pdfPastNotice: 'Đối với các video cũ hơn, vui lòng tải kịch bản PDF từ bình luận đầu tiên (được ghim) trên mỗi video YouTube.',
+                pdfYtBtn: 'Mở YouTube',
+                noPdf: 'Kịch bản PDF cho các video mới sắp tới sẽ được cập nhật tại đây! Với video cũ, vui lòng tải từ bình luận ghim trên YouTube.',
+                noPdfTrial: 'Tính năng tải kịch bản PDF cho các bài học mới có sẵn tại đây. Với video cũ, vui lòng tải từ bình luận ghim trên YouTube.',
+                pdfNotForVideo: 'Đây là video cũ. Vui lòng tải kịch bản PDF từ bình luận được ghim trên YouTube:',
+                openYouTubeVideo: 'Xem trên YouTube',
+                bundlePdf: 'Bộ kịch bản PDF',
                 searchPh: 'Tìm tiêu đề hoặc ID video...',
                 allLangs: 'Tất cả ngôn ngữ',
                 noMp3: 'Không có tệp MP3 phù hợp.',
                 noAnki: 'Không có bộ thẻ Anki phù hợp.',
-                download: 'Tải xuống', downloadApkg: 'Tải .apkg', openWebapp: 'Mở Web App',
+                download: 'Tải xuống', downloadApkg: 'Tải .apkg', openWebapp: 'Web App',
+                jumpMp3: 'MP3', jumpAnki: 'Anki', jumpPdf: 'PDF',
                 bundleMp3: 'Bộ âm thanh đa ngôn ngữ', bundleAnki: 'Bộ Anki đa ngôn ngữ',
                 lessonLabel: 'Bài học:', noLessons: 'Chưa có bài học nào.',
                 loading: 'Đang tải...', scenesUnit: 'cảnh', linesUnit: 'câu'
@@ -489,17 +558,27 @@
                 authChecking: 'Memeriksa...',
                 authEmpty: 'Silakan masukkan kode.',
                 authInvalid: 'Kode tidak valid.',
-                navMp3: 'Audio MP3', navAnki: 'Dek Anki', navWebapp: 'Aplikasi Web',
+                navMp3: 'Audio MP3', navAnki: 'Dek Anki', navWebapp: 'Aplikasi Web', navPdf: 'Naskah PDF',
                 refresh: 'Segarkan', logout: 'Ganti',
                 mp3Head: 'MP3 Latihan Dengar Tanpa BGM',
                 mp3Sub: 'Audio suara jernih untuk mendengarkan dan shadowing.',
                 ankiHead: 'Dek Anki dengan Audio (.apkg)',
                 ankiSub: 'Impor ke Anki (PC, AnkiMobile, atau AnkiDroid).',
+                pdfHead: 'Naskah Belajar PDF (Video Baru)',
+                pdfSub: 'Unduh naskah PDF untuk video-video terbaru.',
+                pdfPastNotice: 'Untuk video lama, silakan unduh naskah PDF dari komentar teratas yang disematkan di setiap video YouTube.',
+                pdfYtBtn: 'Buka YouTube',
+                noPdf: 'Naskah PDF untuk video baru akan ditambahkan di sini! Untuk video lama, silakan unduh dari komentar teratas di YouTube.',
+                noPdfTrial: 'Unduhan naskah PDF untuk pelajaran baru tersedia di sini. Untuk video lama, unduh melalui komentar teratas di YouTube.',
+                pdfNotForVideo: 'Ini adalah video lama. Silakan unduh naskah PDF dari komentar teratas di YouTube:',
+                openYouTubeVideo: 'Tonton di YouTube',
+                bundlePdf: 'Paket Naskah PDF',
                 searchPh: 'Cari judul atau ID video...',
                 allLangs: 'Semua Bahasa',
                 noMp3: 'File MP3 tidak ditemukan.',
                 noAnki: 'Dek Anki tidak ditemukan.',
                 download: 'Unduh', downloadApkg: 'Unduh .apkg', openWebapp: 'Aplikasi Web',
+                jumpMp3: 'MP3', jumpAnki: 'Anki', jumpPdf: 'PDF',
                 bundleMp3: 'Set Audio Multibahasa', bundleAnki: 'Set Anki Multibahasa',
                 lessonLabel: 'Pelajaran:', noLessons: 'Belum ada pelajaran.',
                 loading: 'Memuat...', scenesUnit: 'adegan', linesUnit: 'kalimat'
@@ -512,17 +591,27 @@
                 authChecking: '확인 중...',
                 authEmpty: '패스코드를 입력해 주세요.',
                 authInvalid: '유효하지 않은 패스코드입니다.',
-                navMp3: 'BGM 없는 MP3', navAnki: 'Anki 덱', navWebapp: '학습 웹앱',
+                navMp3: 'BGM 없는 MP3', navAnki: 'Anki 덱', navWebapp: '학습 웹앱', navPdf: 'PDF 대본',
                 refresh: '새로고침', logout: '전환',
                 mp3Head: 'BGM 없는 듣기 연습 MP3',
                 mp3Sub: '출퇴근길 리스닝 및 쉐도잉 연습에 바로 활용하세요.',
                 ankiHead: '음성 포함 Anki 플래시카드 (.apkg)',
                 ankiSub: 'Anki 앱(PC / AnkiMobile / AnkiDroid)으로 불러와 복습하세요.',
+                pdfHead: 'PDF 학습 대본 (신규 영상)',
+                pdfSub: '앞으로 공개되는 신규 영상의 PDF 대본을 이곳에서 다운로드할 수 있습니다.',
+                pdfPastNotice: '이전 영상의 PDF 대본은 각 YouTube 동영상의 고정 댓글(최상단 댓글)에서 다운로드해 주세요.',
+                pdfYtBtn: 'YouTube 열기',
+                noPdf: '신규 영상의 PDF 대본이 이곳에 순차적으로 추가됩니다. 이전 영상은 YouTube 고정 댓글에서 다운로드해 주세요.',
+                noPdfTrial: '신규 레슨의 PDF 대본 다운로드 기능을 이곳에서 이용할 수 있습니다. 이전 영상은 YouTube 고정 댓글을 확인해 주세요.',
+                pdfNotForVideo: '이전 영상이므로 PDF 대본은 해당 YouTube 동영상의 최상단 고정 댓글에서 다운로드해 주세요:',
+                openYouTubeVideo: 'YouTube에서 보기',
+                bundlePdf: 'PDF 대본 세트',
                 searchPh: '제목 또는 영상 ID 검색...',
                 allLangs: '모든 언어',
                 noMp3: '일치하는 MP3가 없습니다.',
                 noAnki: '일치하는 Anki 덱이 없습니다.',
-                download: '다운로드', downloadApkg: '.apkg 다운로드', openWebapp: '웹앱 열기',
+                download: '다운로드', downloadApkg: '.apkg 다운로드', openWebapp: '웹앱',
+                jumpMp3: 'MP3', jumpAnki: 'Anki', jumpPdf: 'PDF',
                 bundleMp3: '다국어 음성 세트', bundleAnki: '다국어 Anki 세트',
                 lessonLabel: '레슨:', noLessons: '사용 가능한 레슨이 없습니다.',
                 loading: '불러오는 중...', scenesUnit: '장면', linesUnit: '문장'
@@ -535,17 +624,27 @@
                 authChecking: '驗證中...',
                 authEmpty: '請輸入通行碼。',
                 authInvalid: '通行碼無效，請確認會員貼文。',
-                navMp3: '無背景音 MP3', navAnki: 'Anki 牌組', navWebapp: '學習網頁應用',
+                navMp3: '無背景音 MP3', navAnki: 'Anki 牌組', navWebapp: '學習網頁應用', navPdf: 'PDF 逐字稿',
                 refresh: '重新整理', logout: '切換',
                 mp3Head: '無背景音樂聽力練習 MP3',
                 mp3Sub: '適合通勤聽力與跟讀練習的純語音檔。',
                 ankiHead: '含語音 Anki 字卡包 (.apkg)',
                 ankiSub: '可直接匯入電腦或手機版 Anki 進行複習。',
+                pdfHead: 'PDF 學習逐字稿（新發布影片）',
+                pdfSub: '可在此下載今後新發布影片的 PDF 逐字稿。',
+                pdfPastNotice: '過去發布的影片 PDF 逐字稿，請至各 YouTube 影片的置頂留言下載。',
+                pdfYtBtn: '前往 YouTube',
+                noPdf: '今後新製作的影片 PDF 逐字稿將陸續新增於此！過去影片請至 YouTube 置頂留言下載。',
+                noPdfTrial: '新課程的 PDF 逐字稿可在此下載。過去影片請至 YouTube 影片的置頂留言下載。',
+                pdfNotForVideo: '此為較早期的影片，請至該 YouTube 影片的置頂留言下載 PDF 逐字稿：',
+                openYouTubeVideo: '在 YouTube 觀看',
+                bundlePdf: 'PDF 逐字稿套組',
                 searchPh: '搜尋標題或影片 ID...',
                 allLangs: '所有語言',
                 noMp3: '找不到符合的 MP3。',
                 noAnki: '找不到符合的 Anki 牌組。',
-                download: '下載', downloadApkg: '下載 .apkg', openWebapp: '開啟 Web App',
+                download: '下載', downloadApkg: '下載 .apkg', openWebapp: 'Web App',
+                jumpMp3: 'MP3', jumpAnki: 'Anki', jumpPdf: 'PDF',
                 bundleMp3: '多語言音訊套組', bundleAnki: '多語言 Anki 套組',
                 lessonLabel: '課程：', noLessons: '尚無可用課程。',
                 loading: '載入中...', scenesUnit: '場景', linesUnit: '句'
@@ -558,17 +657,27 @@
                 authChecking: '验证中...',
                 authEmpty: '请输入通行码。',
                 authInvalid: '通行码无效。',
-                navMp3: '无背景音 MP3', navAnki: 'Anki 牌组', navWebapp: '学习网页应用',
+                navMp3: '无背景音 MP3', navAnki: 'Anki 牌组', navWebapp: '学习网页应用', navPdf: 'PDF 文本',
                 refresh: '刷新', logout: '切换',
                 mp3Head: '无背景音乐听力练习 MP3',
                 mp3Sub: '适合通勤听力与跟读练习的纯语音文件。',
                 ankiHead: '含语音 Anki 记忆卡 (.apkg)',
                 ankiSub: '可直接导入电脑或手机版 Anki 进行复习。',
+                pdfHead: 'PDF 学习文本（新发布视频）',
+                pdfSub: '可在此下载今后新发布视频的 PDF 文本。',
+                pdfPastNotice: '过去视频的 PDF 文本，请前往各 YouTube 视频的置顶评论下载。',
+                pdfYtBtn: '打开 YouTube',
+                noPdf: '今后新制作的视频 PDF 文本将陆续添加在此！过去视频请前往 YouTube 置顶评论下载。',
+                noPdfTrial: '新课程的 PDF 文本下载功能在此提供。过去视频请前往 YouTube 置顶评论下载。',
+                pdfNotForVideo: '此为早期视频，请前往该 YouTube 视频的置顶评论下载 PDF 文本：',
+                openYouTubeVideo: '在 YouTube 观看',
+                bundlePdf: 'PDF 文本套组',
                 searchPh: '搜索标题或视频 ID...',
                 allLangs: '所有语言',
                 noMp3: '未找到匹配的 MP3。',
                 noAnki: '未找到匹配的 Anki 牌组。',
-                download: '下载', downloadApkg: '下载 .apkg', openWebapp: '打开 Web App',
+                download: '下载', downloadApkg: '下载 .apkg', openWebapp: 'Web App',
+                jumpMp3: 'MP3', jumpAnki: 'Anki', jumpPdf: 'PDF',
                 bundleMp3: '多语言音频套组', bundleAnki: '多语言 Anki 套组',
                 lessonLabel: '课程：', noLessons: '暂无可用课程。',
                 loading: '加载中...', scenesUnit: '场景', linesUnit: '句'
@@ -581,17 +690,27 @@
                 authChecking: 'กำลังตรวจสอบ...',
                 authEmpty: 'กรุณากรอกรหัสผ่าน',
                 authInvalid: 'รหัสผ่านไม่ถูกต้อง',
-                navMp3: 'ไฟล์ MP3', navAnki: 'ชุดการ์ด Anki', navWebapp: 'เว็บฝึกภาษา',
+                navMp3: 'ไฟล์ MP3', navAnki: 'ชุดการ์ด Anki', navWebapp: 'เว็บฝึกภาษา', navPdf: 'สคริปต์ PDF',
                 refresh: 'รีเฟรช', logout: 'สลับรหัส',
                 mp3Head: 'ไฟล์เสียง MP3 ไม่มีดนตรีประกอบ',
                 mp3Sub: 'เสียงพูดชัดเจนสำหรับฝึกฟังและฝึกพูดตาม',
                 ankiHead: 'ชุดการ์ด Anki พร้อมเสียง (.apkg)',
                 ankiSub: 'นำเข้าแอป Anki บนคอมพิวเตอร์หรือมือถือได้ทันที',
+                pdfHead: 'สคริปต์ PDF (วิดีโอใหม่)',
+                pdfSub: 'ดาวน์โหลดสคริปต์ PDF สำหรับวิดีโอใหม่ได้ที่นี่',
+                pdfPastNotice: 'สำหรับวิดีโอก่อนหน้านี้ กรุณาดาวน์โหลดสคริปต์ PDF จากคอมเมนต์ปักหมุดด้านบนสุดของแต่ละวิดีโอใน YouTube',
+                pdfYtBtn: 'เปิด YouTube',
+                noPdf: 'สคริปต์ PDF สำหรับวิดีโอใหม่จะถูกเพิ่มที่นี่! สำหรับวิดีโอเก่า กรุณาดาวน์โหลดจากคอมเมนต์ปักหมุดบน YouTube',
+                noPdfTrial: 'สามารถดาวน์โหลดสคริปต์ PDF สำหรับบทเรียนใหม่ได้ที่นี่ สำหรับวิดีโอเก่ากรุณาดาวน์โหลดจากคอมเมนต์ปักหมุดบน YouTube',
+                pdfNotForVideo: 'นี่คือวิดีโอก่อนหน้านี้ กรุณาดาวน์โหลดสคริปต์ PDF จากคอมเมนต์ปักหมุดบน YouTube:',
+                openYouTubeVideo: 'ดูบน YouTube',
+                bundlePdf: 'ชุดสคริปต์ PDF',
                 searchPh: 'ค้นหาชื่อเรื่องหรือ ID...',
                 allLangs: 'ทุกภาษา',
                 noMp3: 'ไม่พบไฟล์ MP3',
                 noAnki: 'ไม่พบชุดการ์ด Anki',
-                download: 'ดาวน์โหลด', downloadApkg: 'ดาวน์โหลด .apkg', openWebapp: 'เปิด Web App',
+                download: 'ดาวน์โหลด', downloadApkg: 'ดาวน์โหลด .apkg', openWebapp: 'Web App',
+                jumpMp3: 'MP3', jumpAnki: 'Anki', jumpPdf: 'PDF',
                 bundleMp3: 'ชุดเสียงหลายภาษา', bundleAnki: 'ชุด Anki หลายภาษา',
                 lessonLabel: 'บทเรียน:', noLessons: 'ยังไม่มีบทเรียน',
                 loading: 'กำลังโหลด...', scenesUnit: 'ฉาก', linesUnit: 'ประโยค'
@@ -822,6 +941,7 @@
             document.getElementById('nav-label-mp3').textContent = t('navMp3');
             document.getElementById('nav-label-anki').textContent = t('navAnki');
             document.getElementById('nav-label-webapp').textContent = t('navWebapp');
+            document.getElementById('nav-label-pdf').textContent = t('navPdf');
             document.getElementById('btn-refresh-text').textContent = t('refresh');
             document.getElementById('btn-logout-text').textContent = t('logout');
 
@@ -831,6 +951,12 @@
             document.getElementById('anki-heading').textContent = t('ankiHead');
             document.getElementById('anki-subheading').textContent = t('ankiSub');
             document.getElementById('anki-search').placeholder = t('searchPh');
+            document.getElementById('pdf-heading').textContent = t('pdfHead');
+            document.getElementById('pdf-subheading').textContent = t('pdfSub');
+            document.getElementById('pdf-past-notice').textContent = t('pdfPastNotice');
+            document.getElementById('pdf-yt-btn-text').textContent = t('pdfYtBtn');
+            document.getElementById('pdf-search').placeholder = t('searchPh');
+
             const lessonLabelEl = document.getElementById('lesson-select-label');
             if (lessonLabelEl) lessonLabelEl.textContent = t('lessonLabel');
             applyAnkiGuideText(valid);
@@ -842,7 +968,9 @@
 
             if (portalState.catalog) {
                 renderMp3List();
+                renderPdfList();
                 if (portalState.tier === 'tier3' || portalState.tier === 'trial') renderAnkiList();
+                if (portalState.currentVideoId) renderWebAppCrossLinks(portalState.currentVideoId);
             }
         }
 
@@ -856,7 +984,11 @@
             currentMp3StreamUrl: '',
             lessonDetailCache: {},
             srtCache: {},
-            unreleasedVideoIds: new Set()
+            unreleasedVideoIds: new Set(),
+            expandedMp3: new Set(),
+            expandedAnki: new Set(),
+            expandedPdf: new Set(),
+            pendingScrollVideoId: ''
         };
 
         const appState = {
@@ -1026,6 +1158,7 @@
             portalState.catalog = data;
             portalState.expandedMp3 = portalState.expandedMp3 || new Set();
             portalState.expandedAnki = portalState.expandedAnki || new Set();
+            portalState.expandedPdf = portalState.expandedPdf || new Set();
 
             document.getElementById('auth-screen').classList.add('hidden');
             document.getElementById('portal-shell').classList.remove('hidden');
@@ -1035,16 +1168,16 @@
             const hasAnki = (data.tier === 'tier3' || isTrial);
             const badge = document.getElementById('plan-badge');
             if (isTrial) {
-                badge.textContent = 'FREE TRIAL (1 Lesson)';
+                badge.textContent = 'FREE TRIAL / LEVEL 1';
                 badge.className = 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700';
             } else if (data.tier === 'tier3') {
-                badge.textContent = 'PRO PLAN (MP3 + WebApp + Anki)';
+                badge.textContent = 'MASTER PLAN (All Perks)';
                 badge.className = 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-700';
             } else if (data.tier === 'tier2') {
-                badge.textContent = 'PLUS PLAN (MP3 + WebApp)';
+                badge.textContent = 'PLUS PLAN (MP3 + WebApp + PDF)';
                 badge.className = 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-purple-100 text-purple-700';
             } else {
-                badge.textContent = 'STANDARD PLAN (MP3)';
+                badge.textContent = 'LISTENER PLAN (MP3 + PDF)';
                 badge.className = 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-blue-100 text-blue-700';
             }
 
@@ -1053,6 +1186,7 @@
 
             populateMediaLangFilter('mp3-lang-filter', data.mp3 || []);
             renderMp3List();
+            renderPdfList();
             if (hasAnki) {
                 populateMediaLangFilter('anki-lang-filter', data.anki || []);
                 renderAnkiList();
@@ -1075,6 +1209,7 @@
             (data?.mp3 || []).forEach(it => { if (it.videoId) ids.add(it.videoId); });
             (data?.anki || []).forEach(it => { if (it.videoId) ids.add(it.videoId); });
             (data?.lessons || []).forEach(ls => { if (ls.videoId) ids.add(ls.videoId); });
+            (data?.pdf || []).forEach(it => { if (it.videoId) ids.add(it.videoId); });
             portalState.unreleasedVideoIds = new Set();
 
             let rerenderTimer = null;
@@ -1082,6 +1217,7 @@
                 if (rerenderTimer) clearTimeout(rerenderTimer);
                 rerenderTimer = setTimeout(() => {
                     renderMp3List();
+                    renderPdfList();
                     if (portalState.tier === 'tier3' || portalState.tier === 'trial') renderAnkiList();
                     if (portalState.tier === 'tier2' || portalState.tier === 'tier3' || portalState.tier === 'trial') {
                         renderLessonSelector();
@@ -1134,7 +1270,121 @@
         }
 
         // =========================================================
-        // ★ MP3 / Anki 一覧レンダリング
+        // ★ 横のつながり（レッスン単位の相互ジャンプ）
+        // =========================================================
+        function findCatalogItemByVideoId(list, videoId) {
+            if (!videoId || !Array.isArray(list)) return null;
+            return list.find(it => it.videoId === videoId) || null;
+        }
+
+        function getCatalogCardKey(item, fallbackIdx = 0) {
+            return String(item.id || item.videoId || item.name || fallbackIdx);
+        }
+
+        function jumpToTabForVideo(tabName, videoId) {
+            if (!videoId) return;
+            if (tabName === 'webapp') {
+                openLessonInWebApp(videoId);
+                return;
+            }
+
+            if (tabName === 'mp3') {
+                document.getElementById('mp3-search').value = '';
+                document.getElementById('mp3-lang-filter').value = 'ALL';
+                const item = findCatalogItemByVideoId(portalState.catalog?.mp3, videoId);
+                if (item) {
+                    portalState.expandedMp3.add(getCatalogCardKey(item));
+                }
+                renderMp3List();
+                switchTab('mp3');
+                setTimeout(() => {
+                    const el = document.querySelector(`[data-video-card="mp3-${videoId}"]`);
+                    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }, 60);
+                return;
+            }
+
+            if (tabName === 'anki') {
+                document.getElementById('anki-search').value = '';
+                document.getElementById('anki-lang-filter').value = 'ALL';
+                const item = findCatalogItemByVideoId(portalState.catalog?.anki, videoId);
+                if (item) {
+                    portalState.expandedAnki.add(getCatalogCardKey(item));
+                }
+                renderAnkiList();
+                switchTab('anki');
+                setTimeout(() => {
+                    const el = document.querySelector(`[data-video-card="anki-${videoId}"]`);
+                    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }, 60);
+                return;
+            }
+
+            if (tabName === 'pdf') {
+                document.getElementById('pdf-search').value = '';
+                const item = findCatalogItemByVideoId(portalState.catalog?.pdf, videoId);
+                const noticeBox = document.getElementById('pdf-target-notice');
+                const noticeText = document.getElementById('pdf-target-notice-text');
+                const noticeActions = document.getElementById('pdf-target-notice-actions');
+
+                if (item) {
+                    portalState.expandedPdf.add(getCatalogCardKey(item));
+                    if (noticeBox) noticeBox.classList.add('hidden');
+                } else if (noticeBox && noticeText && noticeActions) {
+                    noticeText.textContent = t('pdfNotForVideo');
+                    noticeActions.innerHTML = `
+                        <a href="https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}" target="_blank" rel="noopener"
+                           class="px-3.5 py-1.5 rounded-xl bg-red-600 hover:bg-red-700 text-white text-xs font-semibold transition flex items-center gap-1.5">
+                            <i class="fa-brands fa-youtube"></i><span>${escapeHtml(t('openYouTubeVideo'))}</span>
+                        </a>
+                    `;
+                    noticeBox.classList.remove('hidden');
+                }
+                renderPdfList();
+                switchTab('pdf');
+                setTimeout(() => {
+                    const el = document.querySelector(`[data-video-card="pdf-${videoId}"]`);
+                    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    else if (noticeBox && !noticeBox.classList.contains('hidden')) {
+                        noticeBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }
+                }, 60);
+            }
+        }
+
+        function buildCrossNavButtonsHtml(videoId, currentTab) {
+            if (!videoId) return '';
+            const hasWebapp = (portalState.tier === 'tier2' || portalState.tier === 'tier3' || portalState.tier === 'trial');
+            const hasAnki = (portalState.tier === 'tier3' || portalState.tier === 'trial');
+
+            const hasWebappLesson = hasWebapp && (portalState.catalog?.lessons || []).some(ls => ls.videoId === videoId);
+            const hasMp3Item = (portalState.catalog?.mp3 || []).some(it => it.videoId === videoId);
+            const hasAnkiItem = hasAnki && (portalState.catalog?.anki || []).some(it => it.videoId === videoId);
+
+            const btns = [];
+            if (currentTab !== 'webapp' && hasWebappLesson) {
+                btns.push(`<button type="button" onclick="jumpToTabForVideo('webapp', '${escapeHtml(videoId)}')" class="px-2.5 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs font-semibold transition flex items-center gap-1"><i class="fa-solid fa-book-open"></i><span>${escapeHtml(t('openWebapp'))}</span></button>`);
+            }
+            if (currentTab !== 'mp3' && hasMp3Item) {
+                btns.push(`<button type="button" onclick="jumpToTabForVideo('mp3', '${escapeHtml(videoId)}')" class="px-2.5 py-1.5 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-700 text-xs font-semibold transition flex items-center gap-1"><i class="fa-solid fa-music"></i><span>${escapeHtml(t('jumpMp3'))}</span></button>`);
+            }
+            if (currentTab !== 'anki' && hasAnkiItem) {
+                btns.push(`<button type="button" onclick="jumpToTabForVideo('anki', '${escapeHtml(videoId)}')" class="px-2.5 py-1.5 rounded-xl bg-purple-50 hover:bg-purple-100 text-purple-700 text-xs font-semibold transition flex items-center gap-1"><i class="fa-solid fa-layer-group"></i><span>${escapeHtml(t('jumpAnki'))}</span></button>`);
+            }
+            if (currentTab !== 'pdf') {
+                btns.push(`<button type="button" onclick="jumpToTabForVideo('pdf', '${escapeHtml(videoId)}')" class="px-2.5 py-1.5 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-800 text-xs font-semibold transition flex items-center gap-1"><i class="fa-solid fa-file-pdf"></i><span>${escapeHtml(t('jumpPdf'))}</span></button>`);
+            }
+            return btns.join('');
+        }
+
+        function renderWebAppCrossLinks(videoId) {
+            const container = document.getElementById('webapp-cross-links');
+            if (!container) return;
+            container.innerHTML = buildCrossNavButtonsHtml(videoId, 'webapp');
+        }
+
+        // =========================================================
+        // ★ MP3 / Anki / PDF 一覧レンダリング
         // =========================================================
         function formatBytes(bytes) {
             if (!bytes) return '';
@@ -1173,11 +1423,14 @@
         function toggleMediaCard(kind, key) {
             const store = kind === 'mp3'
                 ? (portalState.expandedMp3 = portalState.expandedMp3 || new Set())
-                : (portalState.expandedAnki = portalState.expandedAnki || new Set());
+                : kind === 'anki'
+                    ? (portalState.expandedAnki = portalState.expandedAnki || new Set())
+                    : (portalState.expandedPdf = portalState.expandedPdf || new Set());
             if (store.has(key)) store.delete(key);
             else store.add(key);
             if (kind === 'mp3') renderMp3List();
-            else renderAnkiList();
+            else if (kind === 'anki') renderAnkiList();
+            else renderPdfList();
         }
 
         function renderMp3List() {
@@ -1185,7 +1438,6 @@
             const q = (document.getElementById('mp3-search').value || '').trim().toLowerCase();
             const langFilter = (document.getElementById('mp3-lang-filter') && document.getElementById('mp3-lang-filter').value) || 'ALL';
             const expanded = portalState.expandedMp3 || new Set();
-            const hasWebapp = (portalState.tier === 'tier2' || portalState.tier === 'tier3' || portalState.tier === 'trial');
 
             const items = (portalState.catalog?.mp3 || []).filter(it => {
                 if (it.videoId && portalState.unreleasedVideoIds.has(it.videoId)) return false;
@@ -1202,15 +1454,17 @@
             }
 
             listEl.innerHTML = items.map((it, idx) => {
-                const cardKey = String(it.id || it.videoId || it.name || idx);
+                const cardKey = getCatalogCardKey(it, idx);
                 const isOpen = expanded.has(cardKey) || langFilter !== 'ALL' || q !== '';
+                const crossBtns = buildCrossNavButtonsHtml(it.videoId, 'mp3');
+                const cardAttr = it.videoId ? `data-video-card="mp3-${escapeHtml(it.videoId)}"` : '';
 
                 if (it.type === 'single') {
                     const fid = extractDriveFileId(it);
                     const directUrl = getDirectAudioUrl(it);
                     const safeSlotId = `mp3-single-player-${idx}`;
                     return `
-                        <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                        <div ${cardAttr} class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
                             <button type="button" onclick="toggleMediaCard('mp3', '${escapeHtml(cardKey)}')"
                                 class="w-full px-4 py-3.5 flex items-center justify-between gap-3 text-left hover:bg-gray-50/80 transition">
                                 <div class="min-w-0">
@@ -1222,7 +1476,7 @@
                                 <div class="flex flex-wrap items-center justify-between gap-2">
                                     <div class="text-xs text-gray-400">${it.videoId ? `ID: ${escapeHtml(it.videoId)} · ` : ''}${formatBytes(it.sizeBytes)}</div>
                                     <div class="flex items-center gap-2 flex-wrap">
-                                        ${hasWebapp && it.videoId ? `<button onclick="openLessonInWebApp('${escapeHtml(it.videoId)}')" class="px-3 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs font-semibold transition"><i class="fa-solid fa-book-open mr-1"></i>${escapeHtml(t('openWebapp'))}</button>` : ''}
+                                        ${crossBtns}
                                         <a href="${escapeHtml(it.downloadUrl)}" target="_blank" rel="noopener" class="px-3.5 py-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold transition"><i class="fa-solid fa-download mr-1"></i>${escapeHtml(t('download'))}</a>
                                     </div>
                                 </div>
@@ -1237,7 +1491,7 @@
                 const filteredFiles = langFilter === 'ALL' ? (it.files || []) : (it.files || []).filter(f => f.lang === langFilter);
                 const bundleSlotId = `mp3-bundle-player-${idx}`;
                 return `
-                    <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                    <div ${cardAttr} class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
                         <button type="button" onclick="toggleMediaCard('mp3', '${escapeHtml(cardKey)}')"
                             class="w-full px-4 py-3.5 flex items-center justify-between gap-3 text-left hover:bg-gray-50/80 transition">
                             <div class="min-w-0 flex flex-col items-start gap-1">
@@ -1247,6 +1501,7 @@
                             <i class="fa-solid ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'} text-xs text-gray-400 shrink-0"></i>
                         </button>
                         <div class="${isOpen ? '' : 'hidden'} px-4 pb-4 pt-2 border-t border-gray-100 space-y-3">
+                            ${crossBtns ? `<div class="flex items-center gap-2 flex-wrap">${crossBtns}</div>` : ''}
                             <div class="flex flex-wrap gap-2">
                                 ${filteredFiles.map(f => {
                                     const fid = extractDriveFileId(f);
@@ -1324,12 +1579,14 @@
             }
 
             listEl.innerHTML = items.map((it, idx) => {
-                const cardKey = String(it.id || it.videoId || it.name || idx);
+                const cardKey = getCatalogCardKey(it, idx);
                 const isOpen = expanded.has(cardKey) || langFilter !== 'ALL' || q !== '';
+                const crossBtns = buildCrossNavButtonsHtml(it.videoId, 'anki');
+                const cardAttr = it.videoId ? `data-video-card="anki-${escapeHtml(it.videoId)}"` : '';
 
                 if (it.type === 'single') {
                     return `
-                        <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                        <div ${cardAttr} class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
                             <button type="button" onclick="toggleMediaCard('anki', '${escapeHtml(cardKey)}')"
                                 class="w-full px-4 py-3.5 flex items-center justify-between gap-3 text-left hover:bg-gray-50/80 transition">
                                 <div class="font-bold text-gray-900 text-sm sm:text-base break-words leading-snug">${escapeHtml(it.title || it.name)}</div>
@@ -1337,10 +1594,13 @@
                             </button>
                             <div class="${isOpen ? '' : 'hidden'} px-4 pb-4 pt-2 border-t border-gray-100 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                                 <div class="text-xs text-gray-400">${it.videoId ? `ID: ${escapeHtml(it.videoId)} · ` : ''}${formatBytes(it.sizeBytes)}</div>
-                                <a href="${escapeHtml(it.downloadUrl)}" target="_blank" rel="noopener"
-                                   class="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold transition text-center shrink-0">
-                                    <i class="fa-solid fa-download mr-1.5"></i>${escapeHtml(t('downloadApkg'))}
-                                </a>
+                                <div class="flex items-center gap-2 flex-wrap">
+                                    ${crossBtns}
+                                    <a href="${escapeHtml(it.downloadUrl)}" target="_blank" rel="noopener"
+                                       class="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold transition text-center shrink-0">
+                                        <i class="fa-solid fa-download mr-1.5"></i>${escapeHtml(t('downloadApkg'))}
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     `;
@@ -1348,7 +1608,7 @@
 
                 const filteredFiles = langFilter === 'ALL' ? (it.files || []) : (it.files || []).filter(f => f.lang === langFilter);
                 return `
-                    <div class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                    <div ${cardAttr} class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
                         <button type="button" onclick="toggleMediaCard('anki', '${escapeHtml(cardKey)}')"
                             class="w-full px-4 py-3.5 flex items-center justify-between gap-3 text-left hover:bg-gray-50/80 transition">
                             <div class="min-w-0 flex flex-col items-start gap-1">
@@ -1357,13 +1617,94 @@
                             </div>
                             <i class="fa-solid ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'} text-xs text-gray-400 shrink-0"></i>
                         </button>
-                        <div class="${isOpen ? '' : 'hidden'} px-4 pb-4 pt-2 border-t border-gray-100">
+                        <div class="${isOpen ? '' : 'hidden'} px-4 pb-4 pt-2 border-t border-gray-100 space-y-3">
+                            ${crossBtns ? `<div class="flex items-center gap-2 flex-wrap">${crossBtns}</div>` : ''}
                             <div class="flex flex-wrap gap-2">
                                 ${filteredFiles.map(f => `
                                     <a href="${escapeHtml(f.downloadUrl)}" target="_blank" rel="noopener"
                                        class="px-3 py-1.5 rounded-xl bg-gray-100 hover:bg-indigo-600 hover:text-white text-gray-700 text-xs font-semibold transition flex items-center gap-1.5">
                                         <i class="fa-solid fa-download text-[10px]"></i>
                                         <span>${escapeHtml(f.lang)}</span>
+                                        <span class="opacity-60 text-[10px]">${formatBytes(f.sizeBytes)}</span>
+                                    </a>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function renderPdfList() {
+            const listEl = document.getElementById('pdf-list');
+            if (!listEl) return;
+            const q = (document.getElementById('pdf-search')?.value || '').trim().toLowerCase();
+            const expanded = portalState.expandedPdf || new Set();
+            const isTrial = portalState.tier === 'trial';
+
+            const items = (portalState.catalog?.pdf || []).filter(it => {
+                if (it.videoId && portalState.unreleasedVideoIds.has(it.videoId)) return false;
+                if (!q) return true;
+                return (it.title || '').toLowerCase().includes(q) ||
+                       (it.videoId || '').toLowerCase().includes(q) ||
+                       (it.name || '').toLowerCase().includes(q) ||
+                       (it.files || []).some(f => (f.lang || '').toLowerCase().includes(q));
+            });
+
+            if (items.length === 0) {
+                const msg = isTrial ? t('noPdfTrial') : t('noPdf');
+                listEl.innerHTML = `<div class="bg-white rounded-2xl border border-gray-200 p-8 text-center text-sm text-gray-600 leading-relaxed">${escapeHtml(msg)}</div>`;
+                return;
+            }
+
+            listEl.innerHTML = items.map((it, idx) => {
+                const cardKey = getCatalogCardKey(it, idx);
+                const isOpen = expanded.has(cardKey) || q !== '';
+                const crossBtns = buildCrossNavButtonsHtml(it.videoId, 'pdf');
+                const cardAttr = it.videoId ? `data-video-card="pdf-${escapeHtml(it.videoId)}"` : '';
+
+                if (it.type === 'single') {
+                    return `
+                        <div ${cardAttr} class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                            <button type="button" onclick="toggleMediaCard('pdf', '${escapeHtml(cardKey)}')"
+                                class="w-full px-4 py-3.5 flex items-center justify-between gap-3 text-left hover:bg-gray-50/80 transition">
+                                <div class="font-bold text-gray-900 text-sm sm:text-base break-words leading-snug">${escapeHtml(it.title || it.name)}</div>
+                                <i class="fa-solid ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'} text-xs text-gray-400 shrink-0"></i>
+                            </button>
+                            <div class="${isOpen ? '' : 'hidden'} px-4 pb-4 pt-2 border-t border-gray-100 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                                <div class="text-xs text-gray-400">${it.videoId ? `ID: ${escapeHtml(it.videoId)} · ` : ''}${formatBytes(it.sizeBytes)}</div>
+                                <div class="flex items-center gap-2 flex-wrap">
+                                    ${crossBtns}
+                                    ${it.viewUrl ? `<a href="${escapeHtml(it.viewUrl)}" target="_blank" rel="noopener" class="px-3.5 py-2 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 text-xs font-semibold transition"><i class="fa-solid fa-eye mr-1"></i>Preview</a>` : ''}
+                                    <a href="${escapeHtml(it.downloadUrl)}" target="_blank" rel="noopener"
+                                       class="px-4 py-2 rounded-xl bg-rose-600 hover:bg-rose-700 text-white text-xs font-semibold transition text-center shrink-0">
+                                        <i class="fa-solid fa-file-arrow-down mr-1.5"></i>${escapeHtml(t('download'))} PDF
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+
+                const pdfFiles = it.files || [];
+                return `
+                    <div ${cardAttr} class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                        <button type="button" onclick="toggleMediaCard('pdf', '${escapeHtml(cardKey)}')"
+                            class="w-full px-4 py-3.5 flex items-center justify-between gap-3 text-left hover:bg-gray-50/80 transition">
+                            <div class="min-w-0 flex flex-col items-start gap-1">
+                                <span class="inline-block text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-rose-100 text-rose-700 shrink-0">${escapeHtml(t('bundlePdf'))} (${pdfFiles.length})</span>
+                                <span class="font-bold text-gray-900 text-sm sm:text-base break-words leading-snug">${escapeHtml(it.title || it.name)}</span>
+                            </div>
+                            <i class="fa-solid ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'} text-xs text-gray-400 shrink-0"></i>
+                        </button>
+                        <div class="${isOpen ? '' : 'hidden'} px-4 pb-4 pt-2 border-t border-gray-100 space-y-3">
+                            ${crossBtns ? `<div class="flex items-center gap-2 flex-wrap">${crossBtns}</div>` : ''}
+                            <div class="flex flex-wrap gap-2">
+                                ${pdfFiles.map(f => `
+                                    <a href="${escapeHtml(f.downloadUrl)}" target="_blank" rel="noopener"
+                                       class="px-3 py-1.5 rounded-xl bg-gray-100 hover:bg-rose-600 hover:text-white text-gray-700 text-xs font-semibold transition flex items-center gap-1.5">
+                                        <i class="fa-solid fa-file-pdf text-[11px]"></i>
+                                        <span>${escapeHtml(f.lang || f.name)}</span>
                                         <span class="opacity-60 text-[10px]">${formatBytes(f.sizeBytes)}</span>
                                     </a>
                                 `).join('')}
@@ -1481,6 +1822,7 @@
             if (s) s.classList.remove('hidden');
             const sel = document.getElementById('lesson-selector');
             if (sel) sel.value = videoId;
+            renderWebAppCrossLinks(videoId);
             loadWebAppLesson(videoId);
         }
 
@@ -1517,6 +1859,7 @@
             appState.lastScrolledIndex = -1;
             appState.recordedBlobs = {};
             portalState.currentVideoId = videoId;
+            renderWebAppCrossLinks(videoId);
 
             const badge = document.getElementById('lesson-status-badge');
             badge.textContent = '読み込み中...';
@@ -2198,6 +2541,8 @@
 
             document.getElementById('mp3-search').addEventListener('input', renderMp3List);
             document.getElementById('anki-search').addEventListener('input', renderAnkiList);
+            const pdfSearchEl = document.getElementById('pdf-search');
+            if (pdfSearchEl) pdfSearchEl.addEventListener('input', renderPdfList);
             const webappSearchEl = document.getElementById('webapp-search');
             if (webappSearchEl) webappSearchEl.addEventListener('input', renderWebAppGallery);
 
@@ -2263,11 +2608,8 @@
                 renderScene();
             });
 
-            // URLパラメータ ?trial=1 / ?key=... または保存済みキーで自動ログイン
-            const urlParams = new URLSearchParams(window.location.search);
-            const isTrialParam = urlParams.get('trial') === '1';
-            const urlKey = isTrialParam ? 'trial' : urlParams.get('key');
-            const savedKey = urlKey || localStorage.getItem(STORAGE_KEY_NAME);
+            // 保存済みキーがあれば自動ログイン
+            const savedKey = localStorage.getItem(STORAGE_KEY_NAME);
             if (savedKey) {
                 try {
                     await authenticateAndLoad(savedKey);
