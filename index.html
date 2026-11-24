@@ -134,7 +134,7 @@
 
                 <!-- ナビゲーションタブ（4タブ：MP3 / Anki / WebApp / PDF Script） -->
                 <nav class="flex items-center gap-1 sm:gap-1.5 order-3 sm:order-2 w-full sm:w-auto pb-0.5 sm:pb-0 overflow-x-auto">
-                    <button data-tab="mp3" class="nav-tab-btn flex-1 sm:flex-initial justify-center px-2 sm:px-3 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-sm font-semibold transition flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
+                    <button id="tab-btn-mp3" data-tab="mp3" class="nav-tab-btn flex-1 sm:flex-initial justify-center px-2 sm:px-3 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-sm font-semibold transition flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
                         <i class="fa-solid fa-music"></i> <span id="nav-label-mp3" class="truncate">MP3 Audio</span>
                     </button>
                     <button id="tab-btn-anki" data-tab="anki" class="nav-tab-btn hidden flex-1 sm:flex-initial justify-center px-2 sm:px-3 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-sm font-semibold transition flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
@@ -381,8 +381,11 @@
                     <p id="pdf-subheading" class="text-xs text-gray-500"></p>
                 </div>
                 <div class="flex flex-col sm:flex-row gap-2">
+                    <select id="pdf-lang-filter" class="px-3 py-2 rounded-xl border border-gray-300 bg-white text-xs sm:text-sm font-medium text-gray-700 focus:ring-2 focus:ring-rose-500 outline-none">
+                        <option value="ALL">All Languages</option>
+                    </select>
                     <input id="pdf-search" type="text" placeholder="Search..."
-                        class="w-full sm:w-64 px-3.5 py-2 rounded-xl border border-gray-300 bg-white text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                        class="w-full sm:w-56 px-3.5 py-2 rounded-xl border border-gray-300 bg-white text-sm focus:ring-2 focus:ring-blue-500 outline-none">
                 </div>
             </div>
 
@@ -965,9 +968,11 @@
             if (mp3AllOpt) mp3AllOpt.textContent = t('allLangs');
             const ankiAllOpt = document.querySelector('#anki-lang-filter option[value="ALL"]');
             if (ankiAllOpt) ankiAllOpt.textContent = t('allLangs');
+            const pdfAllOpt = document.querySelector('#pdf-lang-filter option[value="ALL"]');
+            if (pdfAllOpt) pdfAllOpt.textContent = t('allLangs');
 
             if (portalState.catalog) {
-                renderMp3List();
+                if (portalState.tier !== 'tier0') renderMp3List();
                 renderPdfList();
                 if (portalState.tier === 'tier3' || portalState.tier === 'trial') renderAnkiList();
                 if (portalState.currentVideoId) renderWebAppCrossLinks(portalState.currentVideoId);
@@ -1164,11 +1169,12 @@
             document.getElementById('portal-shell').classList.remove('hidden');
             document.getElementById('trial-banner').classList.toggle('hidden', !isTrial);
 
+            const hasMp3 = (data.tier !== 'tier0');
             const hasWebapp = (data.tier === 'tier2' || data.tier === 'tier3' || isTrial);
             const hasAnki = (data.tier === 'tier3' || isTrial);
             const badge = document.getElementById('plan-badge');
             if (isTrial) {
-                badge.textContent = 'FREE TRIAL / LEVEL 1';
+                badge.textContent = 'FREE TRIAL';
                 badge.className = 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700';
             } else if (data.tier === 'tier3') {
                 badge.textContent = 'MASTER PLAN (All Perks)';
@@ -1176,16 +1182,24 @@
             } else if (data.tier === 'tier2') {
                 badge.textContent = 'PLUS PLAN (MP3 + WebApp + PDF)';
                 badge.className = 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-purple-100 text-purple-700';
+            } else if (data.tier === 'tier0') {
+                badge.textContent = 'LEVEL 1 (23-Lang PDF)';
+                badge.className = 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-rose-100 text-rose-700';
             } else {
                 badge.textContent = 'LISTENER PLAN (MP3 + PDF)';
                 badge.className = 'inline-block text-[10px] sm:text-[11px] font-semibold px-1.5 sm:px-2 py-0.5 rounded-full bg-blue-100 text-blue-700';
             }
 
+            const mp3TabBtn = document.getElementById('tab-btn-mp3');
+            if (mp3TabBtn) mp3TabBtn.classList.toggle('hidden', !hasMp3);
             document.getElementById('tab-btn-anki').classList.toggle('hidden', !hasAnki);
             document.getElementById('tab-btn-webapp').classList.toggle('hidden', !hasWebapp);
 
-            populateMediaLangFilter('mp3-lang-filter', data.mp3 || []);
-            renderMp3List();
+            if (hasMp3) {
+                populateMediaLangFilter('mp3-lang-filter', data.mp3 || []);
+                renderMp3List();
+            }
+            populateMediaLangFilter('pdf-lang-filter', data.pdf || [], true);
             renderPdfList();
             if (hasAnki) {
                 populateMediaLangFilter('anki-lang-filter', data.anki || []);
@@ -1196,7 +1210,9 @@
                 renderWebAppGallery();
             }
 
-            if ((portalState.activeTab === 'anki' && !hasAnki) || (portalState.activeTab === 'webapp' && !hasWebapp)) {
+            if (!hasMp3) {
+                switchTab('pdf');
+            } else if ((portalState.activeTab === 'anki' && !hasAnki) || (portalState.activeTab === 'webapp' && !hasWebapp)) {
                 switchTab('mp3');
             } else {
                 switchTab(portalState.activeTab);
@@ -1216,7 +1232,7 @@
             const scheduleRerender = () => {
                 if (rerenderTimer) clearTimeout(rerenderTimer);
                 rerenderTimer = setTimeout(() => {
-                    renderMp3List();
+                    if (portalState.tier !== 'tier0') renderMp3List();
                     renderPdfList();
                     if (portalState.tier === 'tier3' || portalState.tier === 'trial') renderAnkiList();
                     if (portalState.tier === 'tier2' || portalState.tier === 'tier3' || portalState.tier === 'trial') {
@@ -1243,9 +1259,12 @@
         }
 
         function switchTab(tabName) {
+            const hasMp3 = (portalState.tier !== 'tier0');
             const hasWebapp = (portalState.tier === 'tier2' || portalState.tier === 'tier3' || portalState.tier === 'trial');
             const hasAnki = (portalState.tier === 'tier3' || portalState.tier === 'trial');
-            if ((tabName === 'anki' && !hasAnki) || (tabName === 'webapp' && !hasWebapp)) {
+            if (!hasMp3 && tabName !== 'pdf') {
+                tabName = 'pdf';
+            } else if ((tabName === 'anki' && !hasAnki) || (tabName === 'webapp' && !hasWebapp)) {
                 tabName = 'mp3';
             }
             portalState.activeTab = tabName;
@@ -1322,6 +1341,8 @@
 
             if (tabName === 'pdf') {
                 document.getElementById('pdf-search').value = '';
+                const pdfLangEl = document.getElementById('pdf-lang-filter');
+                if (pdfLangEl) pdfLangEl.value = 'ALL';
                 const item = findCatalogItemByVideoId(portalState.catalog?.pdf, videoId);
                 const noticeBox = document.getElementById('pdf-target-notice');
                 const noticeText = document.getElementById('pdf-target-notice-text');
@@ -1354,11 +1375,12 @@
 
         function buildCrossNavButtonsHtml(videoId, currentTab) {
             if (!videoId) return '';
+            const hasMp3 = (portalState.tier !== 'tier0');
             const hasWebapp = (portalState.tier === 'tier2' || portalState.tier === 'tier3' || portalState.tier === 'trial');
             const hasAnki = (portalState.tier === 'tier3' || portalState.tier === 'trial');
 
             const hasWebappLesson = hasWebapp && (portalState.catalog?.lessons || []).some(ls => ls.videoId === videoId);
-            const hasMp3Item = (portalState.catalog?.mp3 || []).some(it => it.videoId === videoId);
+            const hasMp3Item = hasMp3 && (portalState.catalog?.mp3 || []).some(it => it.videoId === videoId);
             const hasAnkiItem = hasAnki && (portalState.catalog?.anki || []).some(it => it.videoId === videoId);
 
             const btns = [];
@@ -1392,21 +1414,78 @@
             return mb >= 1 ? `${mb.toFixed(1)} MB` : `${Math.round(bytes / 1024)} KB`;
         }
 
-        function populateMediaLangFilter(selectId, items) {
+        const PDF_LANG_LABELS = {
+            EN: '🇺🇸 English',
+            VI: '🇻🇳 Tiếng Việt',
+            ID: '🇮🇩 Bahasa Indonesia',
+            ZH_HANS: '🇨🇳 简体中文',
+            ZH_HANT: '🇹🇼 繁體中文',
+            KO: '🇰🇷 한국어',
+            TH: '🇹🇭 ไทย',
+            ES: '🇪🇸 Español',
+            PT: '🇧🇷 Português',
+            FR: '🇫🇷 Français',
+            DE: '🇩🇪 Deutsch',
+            RU: '🇷🇺 Русский',
+            AR: '🇸🇦 العربية',
+            HI: '🇮🇳 हिन्दी',
+            TL: '🇵🇭 Tagalog',
+            MY: '🇲🇲 မြန်မာ',
+            NE: '🇳🇵 नेपाली',
+            SI: '🇱🇰 සිංහල',
+            KM: '🇰🇭 ភាសាខ្មែរ',
+            BN: '🇧🇩 বাংলা',
+            MS: '🇲🇾 Bahasa Melayu',
+            IT: '🇮🇹 Italiano',
+            TR: '🇹🇷 Türkçe',
+            B_TEXT_ROMAJI: '🔤 Japanese + Romaji',
+            D_TEXT_ONLY: '🇯🇵 Japanese Only'
+        };
+
+        function normalizePdfLangKey(raw) {
+            const key = String(raw || '').trim().toUpperCase().replace(/-/g, '_');
+            if (PDF_LANG_LABELS[key]) return key;
+            if (key.includes('B_TEXT_ROMAJI') || key.includes('TEXT ROMAJI')) return 'B_TEXT_ROMAJI';
+            if (key.includes('D_TEXT_ONLY') || key.includes('TEXT ONLY')) return 'D_TEXT_ONLY';
+            return key;
+        }
+
+        function formatPdfLangLabel(raw) {
+            const key = normalizePdfLangKey(raw);
+            return PDF_LANG_LABELS[key] || String(raw || '');
+        }
+
+        function getPreferredPdfLangKey() {
+            return String(portalState.uiLang || 'en').toUpperCase().replace(/-/g, '_');
+        }
+
+        function populateMediaLangFilter(selectId, items, usePdfLabels = false) {
             const sel = document.getElementById(selectId);
             if (!sel) return;
             const prev = sel.value || 'ALL';
             const langs = new Set();
             (items || []).forEach(it => {
                 if (it.type === 'bundle' && Array.isArray(it.files)) {
-                    it.files.forEach(f => { if (f.lang) langs.add(f.lang); });
+                    it.files.forEach(f => {
+                        if (f.lang) langs.add(usePdfLabels ? normalizePdfLangKey(f.lang) : f.lang);
+                    });
                 }
             });
             sel.innerHTML = `<option value="ALL">${escapeHtml(t('allLangs'))}</option>`;
-            Array.from(langs).sort().forEach(l => {
+            const sorted = Array.from(langs).sort((a, b) => {
+                if (usePdfLabels) {
+                    const isCommonA = (a === 'B_TEXT_ROMAJI' || a === 'D_TEXT_ONLY') ? 1 : 0;
+                    const isCommonB = (b === 'B_TEXT_ROMAJI' || b === 'D_TEXT_ONLY') ? 1 : 0;
+                    if (isCommonA !== isCommonB) return isCommonA - isCommonB;
+                    if (a === 'EN') return -1;
+                    if (b === 'EN') return 1;
+                }
+                return a.localeCompare(b);
+            });
+            sorted.forEach(l => {
                 const opt = document.createElement('option');
                 opt.value = l;
-                opt.text = l;
+                opt.text = usePdfLabels ? formatPdfLangLabel(l) : l;
                 sel.appendChild(opt);
             });
             sel.value = (prev === 'ALL' || langs.has(prev)) ? prev : 'ALL';
@@ -1639,16 +1718,22 @@
             const listEl = document.getElementById('pdf-list');
             if (!listEl) return;
             const q = (document.getElementById('pdf-search')?.value || '').trim().toLowerCase();
+            const langFilter = (document.getElementById('pdf-lang-filter') && document.getElementById('pdf-lang-filter').value) || 'ALL';
             const expanded = portalState.expandedPdf || new Set();
             const isTrial = portalState.tier === 'trial';
+            const prefLangKey = getPreferredPdfLangKey();
 
             const items = (portalState.catalog?.pdf || []).filter(it => {
                 if (it.videoId && portalState.unreleasedVideoIds.has(it.videoId)) return false;
-                if (!q) return true;
-                return (it.title || '').toLowerCase().includes(q) ||
+                const matchText = !q ||
+                       (it.title || '').toLowerCase().includes(q) ||
                        (it.videoId || '').toLowerCase().includes(q) ||
                        (it.name || '').toLowerCase().includes(q) ||
-                       (it.files || []).some(f => (f.lang || '').toLowerCase().includes(q));
+                       (it.files || []).some(f => (f.lang || '').toLowerCase().includes(q) || formatPdfLangLabel(f.lang).toLowerCase().includes(q));
+                if (!matchText) return false;
+                if (langFilter === 'ALL') return true;
+                if (it.type === 'single') return langFilter === 'EN';
+                return (it.files || []).some(f => normalizePdfLangKey(f.lang) === langFilter);
             });
 
             if (items.length === 0) {
@@ -1659,7 +1744,7 @@
 
             listEl.innerHTML = items.map((it, idx) => {
                 const cardKey = getCatalogCardKey(it, idx);
-                const isOpen = expanded.has(cardKey) || q !== '';
+                const isOpen = expanded.has(cardKey) || langFilter !== 'ALL' || q !== '';
                 const crossBtns = buildCrossNavButtonsHtml(it.videoId, 'pdf');
                 const cardAttr = it.videoId ? `data-video-card="pdf-${escapeHtml(it.videoId)}"` : '';
 
@@ -1686,13 +1771,23 @@
                     `;
                 }
 
-                const pdfFiles = it.files || [];
+                const rawPdfFiles = langFilter === 'ALL'
+                    ? (it.files || [])
+                    : (it.files || []).filter(f => normalizePdfLangKey(f.lang) === langFilter);
+                const pdfFiles = [...rawPdfFiles].sort((a, b) => {
+                    const ka = normalizePdfLangKey(a.lang);
+                    const kb = normalizePdfLangKey(b.lang);
+                    const pa = (ka === prefLangKey) ? 0 : (ka === 'EN' ? 1 : ((ka === 'B_TEXT_ROMAJI' || ka === 'D_TEXT_ONLY') ? 3 : 2));
+                    const pb = (kb === prefLangKey) ? 0 : (kb === 'EN' ? 1 : ((kb === 'B_TEXT_ROMAJI' || kb === 'D_TEXT_ONLY') ? 3 : 2));
+                    if (pa !== pb) return pa - pb;
+                    return ka.localeCompare(kb);
+                });
                 return `
                     <div ${cardAttr} class="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
                         <button type="button" onclick="toggleMediaCard('pdf', '${escapeHtml(cardKey)}')"
                             class="w-full px-4 py-3.5 flex items-center justify-between gap-3 text-left hover:bg-gray-50/80 transition">
                             <div class="min-w-0 flex flex-col items-start gap-1">
-                                <span class="inline-block text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-rose-100 text-rose-700 shrink-0">${escapeHtml(t('bundlePdf'))} (${pdfFiles.length})</span>
+                                <span class="inline-block text-[10px] font-bold uppercase px-2 py-0.5 rounded-full bg-rose-100 text-rose-700 shrink-0">${escapeHtml(t('bundlePdf'))} (${(it.files || []).length})</span>
                                 <span class="font-bold text-gray-900 text-sm sm:text-base break-words leading-snug">${escapeHtml(it.title || it.name)}</span>
                             </div>
                             <i class="fa-solid ${isOpen ? 'fa-chevron-up' : 'fa-chevron-down'} text-xs text-gray-400 shrink-0"></i>
@@ -1700,14 +1795,20 @@
                         <div class="${isOpen ? '' : 'hidden'} px-4 pb-4 pt-2 border-t border-gray-100 space-y-3">
                             ${crossBtns ? `<div class="flex items-center gap-2 flex-wrap">${crossBtns}</div>` : ''}
                             <div class="flex flex-wrap gap-2">
-                                ${pdfFiles.map(f => `
-                                    <a href="${escapeHtml(f.downloadUrl)}" target="_blank" rel="noopener"
-                                       class="px-3 py-1.5 rounded-xl bg-gray-100 hover:bg-rose-600 hover:text-white text-gray-700 text-xs font-semibold transition flex items-center gap-1.5">
+                                ${pdfFiles.map(f => {
+                                    const normKey = normalizePdfLangKey(f.lang);
+                                    const isPref = (normKey === prefLangKey);
+                                    const label = formatPdfLangLabel(f.lang || f.name);
+                                    const btnCls = isPref
+                                        ? 'px-3 py-1.5 rounded-xl bg-rose-600 hover:bg-rose-700 text-white text-xs font-bold shadow-sm transition flex items-center gap-1.5'
+                                        : 'px-3 py-1.5 rounded-xl bg-gray-100 hover:bg-rose-600 hover:text-white text-gray-700 text-xs font-semibold transition flex items-center gap-1.5';
+                                    return `
+                                    <a href="${escapeHtml(f.downloadUrl)}" target="_blank" rel="noopener" class="${btnCls}">
                                         <i class="fa-solid fa-file-pdf text-[11px]"></i>
-                                        <span>${escapeHtml(f.lang || f.name)}</span>
-                                        <span class="opacity-60 text-[10px]">${formatBytes(f.sizeBytes)}</span>
-                                    </a>
-                                `).join('')}
+                                        <span>${escapeHtml(label)}</span>
+                                        <span class="${isPref ? 'opacity-85' : 'opacity-60'} text-[10px]">${formatBytes(f.sizeBytes)}</span>
+                                    </a>`;
+                                }).join('')}
                             </div>
                         </div>
                     </div>
@@ -2510,6 +2611,8 @@
 
             document.getElementById('mp3-lang-filter').addEventListener('change', renderMp3List);
             document.getElementById('anki-lang-filter').addEventListener('change', renderAnkiList);
+            const pdfLangFilterEl = document.getElementById('pdf-lang-filter');
+            if (pdfLangFilterEl) pdfLangFilterEl.addEventListener('change', renderPdfList);
 
             document.getElementById('auth-form').addEventListener('submit', async (e) => {
                 e.preventDefault();
