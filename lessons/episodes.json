@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "Rb1HLGBIr5U",
+    "video_id": "Rb1HLGBIr5U",
+    "title": "Learn Japanese Faster: 3 Membership Levels with Anki, MP3 & Web App (JLPT N5-N4)",
+    "summary": "Master practical Japanese through natural dialogues! 🇯🇵 This video introduces our brand-new Slow Japanese Listening Channel Memberships through easy, slow Japanese conversations suitable for beginner learners (JLPT N5–N4).",
+    "category": "dialogue",
+    "published_iso": "2026-11-25T09:53:30.828385+00:00",
+    "pub_date_rfc2822": "Wed, 25 Nov 2026 09:53:30 +0000",
+    "duration_sec": 297,
+    "mp3_bytes": 4761119,
+    "mp3_url": "https://github.com/slowjapaneselistening/japaneselearner/releases/download/podcast-audio/Rb1HLGBIr5U.mp3",
+    "pdf_url": "https://github.com/slowjapaneselistening/japaneselearner/releases/tag/v186.0.0"
+  }
+]
