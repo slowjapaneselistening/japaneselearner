@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Slow Japanese Kaiwa — Listening Practice</title>
+    <link>https://slowjapaneselistening.github.io/japaneselearner/lessons/</link>
+    <language>ja</language>
+    <copyright>© 2026 Slow Japanese Kaiwa</copyright>
+    <description>Learn natural Japanese at a comfortable, slow pace! Each episode features real-life Japanese conversations, essential vocabulary, and practical phrases designed for JLPT N5-N4 beginners. Watch the full video with furigana subtitles and download free PDF scripts on YouTube and our website.</description>
+    <managingEditor>slowjapaneselistening.contact@gmail.com (Slow Japanese Kaiwa)</managingEditor>
+    <lastBuildDate>Wed, 25 Nov 2026 11:39:44 GMT</lastBuildDate>
+    <atom:link href="https://slowjapaneselistening.github.io/japaneselearner/podcast.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>Slow Japanese Kaiwa</itunes:author>
+    <itunes:summary>Learn natural Japanese at a comfortable, slow pace! Each episode features real-life Japanese conversations, essential vocabulary, and practical phrases designed for JLPT N5-N4 beginners. Watch the full video with furigana subtitles and download free PDF scripts on YouTube and our website.</itunes:summary>
+    <itunes:subtitle>Natural &amp; Slow Japanese Conversations for JLPT N5-N4 Beginners</itunes:subtitle>
+    <itunes:type>episodic</itunes:type>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Slow Japanese Kaiwa</itunes:name>
+      <itunes:email>slowjapaneselistening.contact@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://slowjapaneselistening.github.io/japaneselearner/podcast_cover.jpg"/>
+    <image>
+      <url>https://slowjapaneselistening.github.io/japaneselearner/podcast_cover.jpg</url>
+      <title>Slow Japanese Kaiwa — Listening Practice</title>
+      <link>https://slowjapaneselistening.github.io/japaneselearner/lessons/</link>
+    </image>
+    <itunes:category text="Education">
+      <itunes:category text="Language Learning"/>
+    </itunes:category>
+    <item>
+      <title>Learn Japanese Faster: 3 Membership Levels with Anki, MP3 &amp; Web App (JLPT N5-N4)</title>
+      <link>https://slowjapaneselistening.github.io/japaneselearner/lessons/Rb1HLGBIr5U.html</link>
+      <guid isPermaLink="false">sjl-Rb1HLGBIr5U</guid>
+      <pubDate>Wed, 25 Nov 2026 09:53:30 +0000</pubDate>
+      <description>Master practical Japanese through natural dialogues! 🇯🇵 This video introduces our brand-new Slow Japanese Listening Channel Memberships through easy, slow Japanese conversations suitable for beginner learners (JLPT N5–N4).
+
+▶ Watch Video with Furigana &amp; 23-Language Subtitles: https://www.youtube.com/watch?v=Rb1HLGBIr5U
+📖 Full Transcript &amp; Study Notes: https://slowjapaneselistening.github.io/japaneselearner/lessons/Rb1HLGBIr5U.html
+📄 Free PDF Script Download: https://github.com/slowjapaneselistening/japaneselearner/releases/tag/v186.0.0
+🌟 Member Portal (MP3 / Anki / WebApp / 23-Lang PDF): https://slowjapaneselistening.github.io/japaneselearner/</description>
+      <itunes:title>Learn Japanese Faster: 3 Membership Levels with Anki, MP3 &amp; Web App (JLPT N5-N4)</itunes:title>
+      <itunes:author>Slow Japanese Kaiwa</itunes:author>
+      <itunes:summary>Master practical Japanese through natural dialogues! 🇯🇵 This video introduces our brand-new Slow Japanese Listening Channel Memberships through easy, slow Japanese conversations suitable for beginner learners (JLPT N5–N4).
+
+▶ Watch Video with Furigana &amp; 23-Language Subtitles: https://www.youtube.com/watch?v=Rb1HLGBIr5U
+📖 Full Transcript &amp; Study Notes: https://slowjapaneselistening.github.io/japaneselearner/lessons/Rb1HLGBIr5U.html
+📄 Free PDF Script Download: https://github.com/slowjapaneselistening/japaneselearner/releases/tag/v186.0.0
+🌟 Member Portal (MP3 / Anki / WebApp / 23-Lang PDF): https://slowjapaneselistening.github.io/japaneselearner/</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>04:57</itunes:duration>
+      <enclosure url="https://github.com/slowjapaneselistening/japaneselearner/releases/download/podcast-audio/Rb1HLGBIr5U.mp3" length="4761119" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>
