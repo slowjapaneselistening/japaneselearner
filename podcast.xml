@@ -7,7 +7,7 @@
     <copyright>© 2026 Slow Japanese Kaiwa</copyright>
     <description>Learn natural Japanese at a comfortable, slow pace! Each episode features real-life Japanese conversations, essential vocabulary, and practical phrases designed for JLPT N5-N4 beginners. Watch the full video with furigana subtitles and download free PDF scripts on YouTube and our website.</description>
     <managingEditor>slowjapaneselistening.contact@gmail.com (Slow Japanese Kaiwa)</managingEditor>
-    <lastBuildDate>Thu, 26 Nov 2026 16:29:13 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 16:56:04 GMT</lastBuildDate>
     <atom:link href="https://slowjapaneselistening.github.io/japaneselearner/podcast.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>Slow Japanese Kaiwa</itunes:author>
     <itunes:summary>Learn natural Japanese at a comfortable, slow pace! Each episode features real-life Japanese conversations, essential vocabulary, and practical phrases designed for JLPT N5-N4 beginners. Watch the full video with furigana subtitles and download free PDF scripts on YouTube and our website.</itunes:summary>
@@ -27,6 +27,29 @@
     <itunes:category text="Education">
       <itunes:category text="Language Learning"/>
     </itunes:category>
+    <item>
+      <title>90 Essential Japanese Shopping &amp; Konbini Phrases for Beginners | 11 Audio Tracks (JLPT N5)</title>
+      <link>https://slowjapaneselistening.github.io/japaneselearner/lessons/qmqH2gzguyM.html</link>
+      <guid isPermaLink="false">sjl-qmqH2gzguyM</guid>
+      <pubDate>Thu, 26 Nov 2026 16:55:14 +0000</pubDate>
+      <description>Master 90 essential Japanese shopping and convenience store (konbini) phrases for everyday life and travel in Japan! 🇯🇵 Switch between 11 synced audio languages (English, Korean, Traditional Chinese, Indonesian, Vietnamese, Thai, Burmese, Nepali, Khmer, Sinhala, Bengali) and 23 subtitle languages to
+
+▶ Watch Video with Furigana &amp; 23-Language Subtitles: https://www.youtube.com/watch?v=qmqH2gzguyM
+📖 Full Transcript &amp; Study Notes: https://slowjapaneselistening.github.io/japaneselearner/lessons/qmqH2gzguyM.html
+📄 Free PDF Script Download: https://github.com/slowjapaneselistening/japaneselearner/releases/tag/v189.0.0
+🌟 Member Portal (MP3 / Anki / WebApp / 23-Lang PDF): https://slowjapaneselistening.github.io/japaneselearner/</description>
+      <itunes:title>90 Essential Japanese Shopping &amp; Konbini Phrases for Beginners | 11 Audio Tracks (JLPT N5)</itunes:title>
+      <itunes:author>Slow Japanese Kaiwa</itunes:author>
+      <itunes:summary>Master 90 essential Japanese shopping and convenience store (konbini) phrases for everyday life and travel in Japan! 🇯🇵 Switch between 11 synced audio languages (English, Korean, Traditional Chinese, Indonesian, Vietnamese, Thai, Burmese, Nepali, Khmer, Sinhala, Bengali) and 23 subtitle languages to
+
+▶ Watch Video with Furigana &amp; 23-Language Subtitles: https://www.youtube.com/watch?v=qmqH2gzguyM
+📖 Full Transcript &amp; Study Notes: https://slowjapaneselistening.github.io/japaneselearner/lessons/qmqH2gzguyM.html
+📄 Free PDF Script Download: https://github.com/slowjapaneselistening/japaneselearner/releases/tag/v189.0.0
+🌟 Member Portal (MP3 / Anki / WebApp / 23-Lang PDF): https://slowjapaneselistening.github.io/japaneselearner/</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>21:02</itunes:duration>
+      <enclosure url="https://github.com/slowjapaneselistening/japaneselearner/releases/download/podcast-audio/qmqH2gzguyM.mp3" length="20193008" type="audio/mpeg"/>
+    </item>
     <item>
       <title>Kyushu Hitchhiking Adventure &amp; Troubles | Real Japanese for Beginners (JLPT N5)</title>
       <link>https://slowjapaneselistening.github.io/japaneselearner/lessons/-tTJLUcNAZs.html</link>
