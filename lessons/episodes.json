@@ -141,5 +141,18 @@
     "mp3_bytes": 24423487,
     "mp3_url": "https://github.com/slowjapaneselistening/japaneselearner/releases/download/podcast-audio/PoCwJFnF8pU.mp3",
     "pdf_url": "https://github.com/slowjapaneselistening/japaneselearner/releases/tag/i159.0.0"
+  },
+  {
+    "id": "-tTJLUcNAZs",
+    "video_id": "-tTJLUcNAZs",
+    "title": "Kyushu Hitchhiking Adventure & Troubles | Real Japanese for Beginners (JLPT N5)",
+    "summary": "Master practical Japanese through natural dialogues! 🇯🇵 This video covers essential everyday conversations suitable for beginner to intermediate learners (JLPT N5). 💬 Thank you for watching! If this lesson helped you, please leave a comment—it keeps me motivated! 😊",
+    "category": "dialogue",
+    "published_iso": "2026-11-26T16:26:00.303516+00:00",
+    "pub_date_rfc2822": "Thu, 26 Nov 2026 16:26:00 +0000",
+    "duration_sec": 2228,
+    "mp3_bytes": 35651228,
+    "mp3_url": "https://github.com/slowjapaneselistening/japaneselearner/releases/download/podcast-audio/-tTJLUcNAZs.mp3",
+    "pdf_url": "https://github.com/slowjapaneselistening/japaneselearner/releases/tag/v188.0.0"
   }
 ]
