@@ -7,7 +7,7 @@
     <copyright>© 2026 Slow Japanese Kaiwa</copyright>
     <description>Learn natural Japanese at a comfortable, slow pace! Each episode features real-life Japanese conversations, essential vocabulary, and practical phrases designed for JLPT N5-N4 beginners. Watch the full video with furigana subtitles and download free PDF scripts on YouTube and our website.</description>
     <managingEditor>slowjapaneselistening.contact@gmail.com (Slow Japanese Kaiwa)</managingEditor>
-    <lastBuildDate>Thu, 26 Nov 2026 16:56:04 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 15:05:47 GMT</lastBuildDate>
     <atom:link href="https://slowjapaneselistening.github.io/japaneselearner/podcast.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>Slow Japanese Kaiwa</itunes:author>
     <itunes:summary>Learn natural Japanese at a comfortable, slow pace! Each episode features real-life Japanese conversations, essential vocabulary, and practical phrases designed for JLPT N5-N4 beginners. Watch the full video with furigana subtitles and download free PDF scripts on YouTube and our website.</itunes:summary>
@@ -27,6 +27,29 @@
     <itunes:category text="Education">
       <itunes:category text="Language Learning"/>
     </itunes:category>
+    <item>
+      <title>76 Essential JLPT N4 Japanese Words: School, Work &amp; Society | 11 Audio Tracks</title>
+      <link>https://slowjapaneselistening.github.io/japaneselearner/lessons/FonMbgQWMR0.html</link>
+      <guid isPermaLink="false">sjl-FonMbgQWMR0</guid>
+      <pubDate>Fri, 27 Nov 2026 15:00:49 +0000</pubDate>
+      <description>Master 76 essential JLPT N4 Japanese vocabulary words for school, work, job hunting, and society! 🇯🇵 Switch between 11 synced audio languages (English, Korean, Traditional Chinese, Indonesian, Vietnamese, Thai, Burmese, Nepali, Khmer, Sinhala, Bengali) and 23 subtitles to study in your native langua
+
+▶ Watch Video with Furigana &amp; 23-Language Subtitles: https://www.youtube.com/watch?v=FonMbgQWMR0
+📖 Full Transcript &amp; Study Notes: https://slowjapaneselistening.github.io/japaneselearner/lessons/FonMbgQWMR0.html
+📄 Free PDF Script Download: https://github.com/slowjapaneselistening/japaneselearner/releases/tag/v190.0.0
+🌟 Member Portal (MP3 / Anki / WebApp / 23-Lang PDF): https://slowjapaneselistening.github.io/japaneselearner/</description>
+      <itunes:title>76 Essential JLPT N4 Japanese Words: School, Work &amp; Society | 11 Audio Tracks</itunes:title>
+      <itunes:author>Slow Japanese Kaiwa</itunes:author>
+      <itunes:summary>Master 76 essential JLPT N4 Japanese vocabulary words for school, work, job hunting, and society! 🇯🇵 Switch between 11 synced audio languages (English, Korean, Traditional Chinese, Indonesian, Vietnamese, Thai, Burmese, Nepali, Khmer, Sinhala, Bengali) and 23 subtitles to study in your native langua
+
+▶ Watch Video with Furigana &amp; 23-Language Subtitles: https://www.youtube.com/watch?v=FonMbgQWMR0
+📖 Full Transcript &amp; Study Notes: https://slowjapaneselistening.github.io/japaneselearner/lessons/FonMbgQWMR0.html
+📄 Free PDF Script Download: https://github.com/slowjapaneselistening/japaneselearner/releases/tag/v190.0.0
+🌟 Member Portal (MP3 / Anki / WebApp / 23-Lang PDF): https://slowjapaneselistening.github.io/japaneselearner/</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>36:09</itunes:duration>
+      <enclosure url="https://github.com/slowjapaneselistening/japaneselearner/releases/download/podcast-audio/FonMbgQWMR0.mp3" length="34702879" type="audio/mpeg"/>
+    </item>
     <item>
       <title>90 Essential Japanese Shopping &amp; Konbini Phrases for Beginners | 11 Audio Tracks (JLPT N5)</title>
       <link>https://slowjapaneselistening.github.io/japaneselearner/lessons/qmqH2gzguyM.html</link>
