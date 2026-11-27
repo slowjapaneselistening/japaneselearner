@@ -167,5 +167,18 @@
     "mp3_bytes": 20193008,
     "mp3_url": "https://github.com/slowjapaneselistening/japaneselearner/releases/download/podcast-audio/qmqH2gzguyM.mp3",
     "pdf_url": "https://github.com/slowjapaneselistening/japaneselearner/releases/tag/v189.0.0"
+  },
+  {
+    "id": "FonMbgQWMR0",
+    "video_id": "FonMbgQWMR0",
+    "title": "76 Essential JLPT N4 Japanese Words: School, Work & Society | 11 Audio Tracks",
+    "summary": "Master 76 essential JLPT N4 Japanese vocabulary words for school, work, job hunting, and society! 🇯🇵 Switch between 11 synced audio languages (English, Korean, Traditional Chinese, Indonesian, Vietnamese, Thai, Burmese, Nepali, Khmer, Sinhala, Bengali) and 23 subtitles to study in your native langua",
+    "category": "vocab",
+    "published_iso": "2026-11-27T15:00:49.946378+00:00",
+    "pub_date_rfc2822": "Fri, 27 Nov 2026 15:00:49 +0000",
+    "duration_sec": 2169,
+    "mp3_bytes": 34702879,
+    "mp3_url": "https://github.com/slowjapaneselistening/japaneselearner/releases/download/podcast-audio/FonMbgQWMR0.mp3",
+    "pdf_url": "https://github.com/slowjapaneselistening/japaneselearner/releases/tag/v190.0.0"
   }
 ]
