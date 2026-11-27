@@ -180,5 +180,18 @@
     "mp3_bytes": 34702879,
     "mp3_url": "https://github.com/slowjapaneselistening/japaneselearner/releases/download/podcast-audio/FonMbgQWMR0.mp3",
     "pdf_url": "https://github.com/slowjapaneselistening/japaneselearner/releases/tag/v190.0.0"
+  },
+  {
+    "id": "NKPVk2yB4GA",
+    "video_id": "NKPVk2yB4GA",
+    "title": "7 Everyday Troubles & Useful Phrases in Japan | Real Japanese (JLPT N5)",
+    "summary": "Master practical Japanese through natural dialogues! 🇯🇵 This video covers essential everyday conversations suitable for beginner to intermediate learners (JLPT N5). 💬 Thank you for watching! If this lesson helped you, please leave a comment—it keeps me motivated! 😊",
+    "category": "dialogue",
+    "published_iso": "2026-11-27T16:17:54.851518+00:00",
+    "pub_date_rfc2822": "Fri, 27 Nov 2026 16:17:54 +0000",
+    "duration_sec": 969,
+    "mp3_bytes": 15511865,
+    "mp3_url": "https://github.com/slowjapaneselistening/japaneselearner/releases/download/podcast-audio/NKPVk2yB4GA.mp3",
+    "pdf_url": "https://github.com/slowjapaneselistening/japaneselearner/releases/tag/v191.0.0"
   }
 ]
