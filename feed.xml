@@ -7,7 +7,7 @@
     <copyright>© 2026 Slow Japanese Kaiwa</copyright>
     <description>Learn natural Japanese at a comfortable, slow pace! Each episode features real-life Japanese conversations, essential vocabulary, and practical phrases designed for JLPT N5-N4 beginners. Watch the full video with furigana subtitles and download free PDF scripts on YouTube and our website.</description>
     <managingEditor>slowjapaneselistening.contact@gmail.com (Slow Japanese Kaiwa)</managingEditor>
-    <lastBuildDate>Sat, 28 Nov 2026 16:23:29 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 17:07:06 GMT</lastBuildDate>
     <atom:link href="https://slowjapaneselistening.github.io/japaneselearner/podcast.xml" rel="self" type="application/rss+xml"/>
     <itunes:author>Slow Japanese Kaiwa</itunes:author>
     <itunes:summary>Learn natural Japanese at a comfortable, slow pace! Each episode features real-life Japanese conversations, essential vocabulary, and practical phrases designed for JLPT N5-N4 beginners. Watch the full video with furigana subtitles and download free PDF scripts on YouTube and our website.</itunes:summary>
@@ -27,6 +27,29 @@
     <itunes:category text="Education">
       <itunes:category text="Language Learning"/>
     </itunes:category>
+    <item>
+      <title>Nara 1-Day Trip: Kimono, Deer &amp; Wagashi | Real Japanese for Beginners (JLPT N5)</title>
+      <link>https://slowjapaneselistening.github.io/japaneselearner/lessons/tT5z3BwfvtY.html</link>
+      <guid isPermaLink="false">sjl-tT5z3BwfvtY</guid>
+      <pubDate>Sat, 28 Nov 2026 17:06:24 +0000</pubDate>
+      <description>Master practical Japanese through natural dialogues! 🇯🇵 This video covers essential everyday conversations suitable for beginner learners (JLPT N5). 💬 Thank you for watching! If this lesson helped you, please leave a comment—it keeps me motivated! 😊
+
+▶ Watch Video with Furigana &amp; 23-Language Subtitles: https://www.youtube.com/watch?v=tT5z3BwfvtY
+📖 Full Transcript &amp; Study Notes: https://slowjapaneselistening.github.io/japaneselearner/lessons/tT5z3BwfvtY.html
+📄 Free PDF Script Download: https://github.com/slowjapaneselistening/japaneselearner/releases/tag/v192.0.0
+🌟 Member Portal (MP3 / Anki / WebApp / 23-Lang PDF): https://slowjapaneselistening.github.io/japaneselearner/</description>
+      <itunes:title>Nara 1-Day Trip: Kimono, Deer &amp; Wagashi | Real Japanese for Beginners (JLPT N5)</itunes:title>
+      <itunes:author>Slow Japanese Kaiwa</itunes:author>
+      <itunes:summary>Master practical Japanese through natural dialogues! 🇯🇵 This video covers essential everyday conversations suitable for beginner learners (JLPT N5). 💬 Thank you for watching! If this lesson helped you, please leave a comment—it keeps me motivated! 😊
+
+▶ Watch Video with Furigana &amp; 23-Language Subtitles: https://www.youtube.com/watch?v=tT5z3BwfvtY
+📖 Full Transcript &amp; Study Notes: https://slowjapaneselistening.github.io/japaneselearner/lessons/tT5z3BwfvtY.html
+📄 Free PDF Script Download: https://github.com/slowjapaneselistening/japaneselearner/releases/tag/v192.0.0
+🌟 Member Portal (MP3 / Anki / WebApp / 23-Lang PDF): https://slowjapaneselistening.github.io/japaneselearner/</itunes:summary>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:duration>18:26</itunes:duration>
+      <enclosure url="https://github.com/slowjapaneselistening/japaneselearner/releases/download/podcast-audio/tT5z3BwfvtY.mp3" length="17697791" type="audio/mpeg"/>
+    </item>
     <item>
       <title>Nara 1-Day Trip: Kimono, Deer &amp; Wagashi | Real Japanese for Beginners (JLPT N5)</title>
       <link>https://slowjapaneselistening.github.io/japaneselearner/lessons/5siqmHQDPMY.html</link>
