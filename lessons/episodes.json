@@ -193,5 +193,18 @@
     "mp3_bytes": 15511865,
     "mp3_url": "https://github.com/slowjapaneselistening/japaneselearner/releases/download/podcast-audio/NKPVk2yB4GA.mp3",
     "pdf_url": "https://github.com/slowjapaneselistening/japaneselearner/releases/tag/v191.0.0"
+  },
+  {
+    "id": "5siqmHQDPMY",
+    "video_id": "5siqmHQDPMY",
+    "title": "Nara 1-Day Trip: Kimono, Deer & Wagashi | Real Japanese for Beginners (JLPT N5)",
+    "summary": "Master practical Japanese through natural dialogues! 🇯🇵 This video covers essential everyday conversations suitable for beginner learners (JLPT N5). 💬 Thank you for watching! If this lesson helped you, please leave a comment—it keeps me motivated! 😊",
+    "category": "dialogue",
+    "published_iso": "2026-11-28T16:22:56.148404+00:00",
+    "pub_date_rfc2822": "Sat, 28 Nov 2026 16:22:56 +0000",
+    "duration_sec": 1283,
+    "mp3_bytes": 20526121,
+    "mp3_url": "https://github.com/slowjapaneselistening/japaneselearner/releases/download/podcast-audio/5siqmHQDPMY.mp3",
+    "pdf_url": "https://github.com/slowjapaneselistening/japaneselearner/releases/tag/v192.0.0"
   }
 ]
